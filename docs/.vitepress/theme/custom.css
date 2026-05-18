@@ -1,0 +1,93 @@
+/* Custom theme for Awesome-Humanoid-Robot-Learning */
+:root {
+  --vp-font-family-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --vp-font-family-mono: "JetBrains Mono", "Fira Code", monospace;
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #60a5fa;
+  --vp-c-text-1: #1e293b;
+  --vp-c-text-2: #475569;
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8fafc;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-border: #e2e8f0;
+}
+
+.dark {
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #2563eb;
+  --vp-c-text-1: #f1f5f9;
+  --vp-c-text-2: #94a3b8;
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-alt: #1e293b;
+  --vp-c-bg-elv: #1e293b;
+  --vp-c-border: #334155;
+}
+
+/* Paper entry styling */
+h2 {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  margin-top: 2rem !important;
+  padding-top: 1rem !important;
+  border-top: 1px solid var(--vp-c-border) !important;
+}
+
+h2:first-of-type {
+  border-top: none !important;
+}
+
+.VPDoc h2 a {
+  color: var(--vp-c-text-1);
+}
+
+/* Tag styling */
+.tag {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  margin: 0.15rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  background: var(--vp-c-bg-alt);
+  border: 1px solid var(--vp-c-border);
+  color: var(--vp-c-text-2);
+}
+
+/* Statistics cards */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.stat-card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: var(--vp-c-bg-alt);
+  border: 1px solid var(--vp-c-border);
+  text-align: center;
+}
+
+.stat-card .number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--vp-c-brand-1);
+}
+
+.stat-card .label {
+  font-size: 0.875rem;
+  color: var(--vp-c-text-2);
+}
+
+/* Improve readability */
+.VPDoc {
+  max-width: 800px !important;
+}
+
+@media (min-width: 1440px) {
+  .VPDoc {
+    max-width: 900px !important;
+  }
+}

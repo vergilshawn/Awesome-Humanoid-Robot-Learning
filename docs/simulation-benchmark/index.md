@@ -1,0 +1,71 @@
+# Simulation Benchmark
+
+**3 papers** in this category.
+
+## Months
+
+- [2026-05](/simulation-benchmark/2026-05) (3 papers)
+
+---
+
+## Recent Papers
+
+## Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.15517)
+- **Authors:** William D. Compton, Zachary Olkin, Aaron D. Ames
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - MPC
+  - Locomotion
+  - Navigation
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+We present a method for training reference-guided, perceptive reinforcement learning locomotion policies for humanoid robots in which reference trajectories are modulated in training to be consistent with terrain geometry. Aiming to deploy our method with standard navigation autonomy infrastructure, we synthesize SE(2)-controllable reference trajectories inside the RL training loop, projecting desired footsteps onto valid footholds and adjusting swing-foot and center-of-mass trajectories to match the terrain.
+
+---
+
+## HoloMotion-1 Technical Report
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.15336)
+- **Authors:** Maiyue Chen, Kaihui Wang, Bo Zhang, Xihan Ma, Zhiyuan Yang, Yi Ren et al. (10 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Transformer
+  - Zero-Shot
+  - Humanoid
+  - Foundation Model
+  - Fine-tuning
+  - Benchmark
+  - Foundation Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+In this report, we present HoloMotion-1, a humanoid motion foundation model for zero-shot whole-body motion tracking. A key innovation of HoloMotion-1 is to scale control-policy training with a large-scale hybrid motion corpus, where video-reconstructed motions from in-the-wild videos provide the dominant source of motion diversity, while curated motion-capture and in-house motion data provide higher-fidelity supervision and deployment-oriented coverage.
+
+---
+
+## CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.15122)
+- **Authors:** Michael Baumgartner, David Müller, Agon Serifi, Ruben Grandia, Espen Knoop, Markus Gross et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - State Estimation
+  - Biped
+  - Locomotion
+  - Simulation Benchmark
+
+### Summary
+
+Robust state estimation for highly dynamic motion of legged robots remains challenging, especially in dynamic, contact-rich scenarios. Traditional approaches often rely on binary contact states that fail to capture the nuances of partial contact or directional slippage.
+
+---

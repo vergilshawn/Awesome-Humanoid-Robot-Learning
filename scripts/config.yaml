@@ -1,0 +1,389 @@
+# Arxiv Search Configuration
+
+arxiv:
+  categories:
+    - cs.RO
+    - cs.AI
+    - cs.LG
+    - cs.CV
+    - eess.SY
+  max_results_per_category: 60
+  date_from: "2026-02-01"
+  request_delay: 3.0
+
+categories:
+  - name: Loco-Manipulation and Whole-Body Control
+    key: loco-manipulation-and-whole-body-control
+    keywords:
+      - whole-body control
+      - loco-manipulation
+      - locomanipulation
+      - whole body
+      - whole-body
+      - mobile manipulation
+      - loco manipulation
+  - name: Locomotion
+    key: locomotion
+    keywords:
+      - locomotion
+      - walking
+      - bipedal
+      - gait
+      - footstep
+      - stepping
+      - walk
+      - push recovery
+      - balance control
+      - zmp
+      - foot placement
+  - name: Manipulation
+    key: manipulation
+    keywords:
+      - manipulation
+      - grasping
+      - dexterous
+      - in-hand
+      - pick and place
+      - object handling
+      - bimanual
+      - dual-arm
+  - name: Teleoperation
+    key: teleoperation
+    keywords:
+      - teleoperation
+      - teleop
+      - remote control
+      - haptic
+      - telemanipulation
+      - motion retargeting
+      - kinesthetic teaching
+      - telepresence
+  - name: Navigation
+    key: navigation
+    keywords:
+      - navigation
+      - path planning
+      - slam
+      - mapping
+      - localization
+      - exploration
+      - occupancy grid
+  - name: State Estimation
+    key: state-estimation
+    keywords:
+      - state estimation
+      - proprioception
+      - estimation
+      - sensor fusion
+      - imu
+      - odometry
+      - kalman filter
+      - observer
+  - name: Sim-to-Real
+    key: sim-to-real
+    keywords:
+      - sim-to-real
+      - sim2real
+      - domain randomization
+      - domain adaptation
+      - transfer learning
+      - sim real
+      - zero-shot transfer
+  - name: Hardware Design
+    key: hardware-design
+    keywords:
+      - hardware design
+      - actuator
+      - mechanical design
+      - joint design
+      - robot hand
+      - gripper design
+      - compliant mechanism
+      - series elastic
+  - name: Simulation Benchmark
+    key: simulation-benchmark
+    keywords:
+      - benchmark
+      - simulation
+      - isaac
+      - mujoco
+      - bullet
+      - gym
+      - dataset
+      - simulation environment
+  - name: Physics-Based Character Animation
+    key: physics-based-character-animation
+    keywords:
+      - character animation
+      - physics-based
+      - motion generation
+      - motion synthesis
+      - physics simulation
+      - ragdoll
+      - procedural animation
+      - kinematic
+      - inverse kinematics
+  - name: Human Motion Analysis and Synthesis
+    key: human-motion-analysis-and-synthesis
+    keywords:
+      - human motion
+      - motion capture
+      - mocap
+      - pose estimation
+      - motion prediction
+      - activity recognition
+      - gesture
+      - human pose
+      - human body
+
+relevance_keywords:
+  high_priority:
+    - humanoid
+    - biped
+    - bipedal
+    - whole-body control
+    - humanoid robot
+    - anthropomorphic
+    - human-like
+    - humanlike
+  medium_priority:
+    - locomotion
+    - manipulation
+    - teleoperation
+    - reinforcement learning
+    - imitation learning
+    - diffusion policy
+    - motion retargeting
+    - sim-to-real
+    - embodied ai
+    - legged robot
+    - walking robot
+    - dexterous manipulation
+    - bimanual
+    - whole body
+    - active learning
+    - transfer learning
+  exclude:
+    - drone
+    - uav
+    - autonomous driving
+    - self-driving
+    - medical robot
+    - surgical robot
+    - swarm
+    - multi-agent
+    - industrial manipulator
+    - robotic arm
+    - underwater
+    - aerial vehicle
+    - satellite
+    - spacecraft
+    - agriculture
+    - crop
+    - food processing
+    - soft robot
+    - continuum robot
+    - micro robot
+    - nano robot
+    - wheelchair
+    - prosthetic
+    - exoskeleton
+    - rehabilitation
+    - social robot
+    - haptic display
+    - conversational agent
+    - chatbot
+    - language model
+    - nlp
+    - federated learning
+    - edge computing
+    - blockchain
+    - quantum
+    - neural architecture search
+
+real_robot_platforms:
+  - Unitree G1
+  - Unitree H1
+  - Unitree H1-2
+  - Digit
+  - Atlas
+  - Fourier
+  - Fourier GR
+  - Booster
+  - Tesla Optimus
+  - Figure
+  - 1X
+  - Apptronik
+  - Sanctuary
+  - Kepler
+  - Xiaomi CyberOne
+  - Agility Robotics
+  - Boston Dynamics
+  - PAL Robotics
+  - HRP
+  - NAO
+  - Pepper
+  - Walker
+  - UBTECH
+  - iCub
+  - Honda E2
+  - ASIMO
+  - TALOS
+  - REEM
+
+real_robot_indicators:
+  - real robot
+  - real-world
+  - real world
+  - hardware experiment
+  - hardware validation
+  - physical robot
+  - onboard deployment
+  - deployed on
+  - tested on
+  - evaluated on
+  - demonstrated on
+  - implemented on
+  - conducted on
+  - performed on
+  - validated on
+  - verified on
+  - experimental results
+  - robot experiment
+  - hardware platform
+  - physical experiment
+  - hardware-in-the-loop
+  - prototype
+  - physical test
+
+tags:
+  - Reinforcement Learning
+  - Imitation Learning
+  - Diffusion Policy
+  - MPC
+  - Whole-Body Control
+  - Sim-to-Real
+  - Teleoperation
+  - Motion Retargeting
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - State Estimation
+  - Transformer
+  - Graph Neural Network
+  - World Model
+  - Model-Based RL
+  - Offline RL
+  - Multi-Task
+  - Few-Shot
+  - Zero-Shot
+  - Domain Randomization
+  - Generative Models
+  - Human Demonstration
+  - Reinforcement Learning from Human Feedback
+  - Safety
+  - Robustness
+  - Simulator
+  - Isaac Gym
+  - Isaac Sim
+  - MuJoCo
+  - Embodied AI
+  - Real Robot
+  - Open Source
+  - Biped
+  - Humanoid
+  - Gait
+  - Walking
+  - Push Recovery
+  - Footstep Planning
+  - Inverse Kinematics
+  - Trajectory Optimization
+  - Contact Planning
+  - Compliant Control
+  - Admittance Control
+  - Impedance Control
+  - Torque Control
+  - Position Control
+  - Force Control
+  - Visual Servoing
+  - Tactile Sensing
+  - Proprioception
+  - Deep Learning
+  - Computer Vision
+  - Pose Estimation
+  - Motion Prediction
+  - Trajectory Prediction
+  - Path Planning
+  - SLAM
+  - 3D Reconstruction
+  - Point Cloud
+  - Gaussian Splatting
+  - NeRF
+  - Scene Understanding
+  - Task Planning
+  - Hierarchical RL
+  - Goal-Conditioned
+  - Language-Conditioned
+  - Vision-Language
+  - Foundation Model
+  - Pre-training
+  - Fine-tuning
+  - Distillation
+  - System Identification
+  - Parameter Estimation
+  - Adaptive Control
+  - Robust Control
+  - Optimal Control
+  - Nonlinear Control
+  - Underactuated
+  - Hybrid Systems
+  - Contact Dynamics
+  - Friction
+  - Impact
+  - Collision
+  - Motion Planning
+  - Sampling-Based
+  - Optimization-Based
+  - Gradient-Based
+  - Evolutionary
+  - Curriculum Learning
+  - Domain Adaptation
+  - Residual Learning
+  - Student-Teacher
+  - Knowledge Transfer
+  - Data Augmentation
+  - Procedural Generation
+  - Benchmark
+  - Dataset
+  - Open Vocabulary
+  - Foundation Model
+  - Large Language Model
+  - Vision Language Model
+  - Policy Learning
+  - Actor-Critic
+  - PPO
+  - SAC
+  - TD3
+  - DDPG
+  - Q-Learning
+  - Behavior Cloning
+  - DAgger
+  - Inverse Reinforcement Learning
+  - Generative Adversarial Imitation Learning
+  - Diffusion
+  - Flow Matching
+  - Score-Based
+  - Energy-Based
+  - Normalizing Flow
+  - VAE
+  - GAN
+  - Representation Learning
+  - Self-Supervised
+  - Contrastive Learning
+  - Multi-Modal
+
+open_source_platforms:
+  - github.com
+  - gitlab.com
+  - huggingface.co
+  - bitbucket.org

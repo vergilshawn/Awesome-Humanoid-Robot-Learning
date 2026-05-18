@@ -1,0 +1,17 @@
+{
+  "Simulation Benchmark": 3,
+  "Locomotion": 2,
+  "Humanoid": 2,
+  "State Estimation": 2,
+  "Foundation Model": 2,
+  "Reinforcement Learning": 1,
+  "MPC": 1,
+  "Navigation": 1,
+  "Transformer": 1,
+  "Zero-Shot": 1,
+  "Fine-tuning": 1,
+  "Benchmark": 1,
+  "Loco-Manipulation and Whole-Body Control": 1,
+  "Human Motion Analysis and Synthesis": 1,
+  "Biped": 1
+}

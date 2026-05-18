@@ -1,0 +1,8 @@
+{
+  "Simulation Benchmark": 3,
+  "Locomotion": 2,
+  "State Estimation": 2,
+  "Navigation": 1,
+  "Loco-Manipulation and Whole-Body Control": 1,
+  "Human Motion Analysis and Synthesis": 1
+}
