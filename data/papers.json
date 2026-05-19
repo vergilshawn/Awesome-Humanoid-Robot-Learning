@@ -1,5 +1,142 @@
 [
   {
+    "arxiv_id": "2605.18611",
+    "title": "Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors",
+    "paper_url": "https://arxiv.org/abs/2605.18611",
+    "project_url": null,
+    "authors": [
+      "Yidan Lu",
+      "Yichao Zhong",
+      "Liu Zhao",
+      "Wanyue Li",
+      "Peng Lu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running. The gate is defined by a single fixed threshold on projected gravity: the recovery discriminator is activated when body tilt exceeds approximately $37^\\circ$ from vertical ($|g_z+1|>0.6$); otherwise the locomotion discriminator is used, with the normalized commanded velocity serving as a condition that selects the appropriate reference trajectory between walk and run clips. Only three LAFAN1 reference clips are required to regularize the complete behavior set. At deployment, a single frozen ONNX policy executes at 50\\,Hz with no runtime mode logic; hardware experiments demonstrate successful recovery from both prone and supine falls and smooth walk-to-run transitions under the same controller.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Walking"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.18238",
+    "title": "Non-Colliding Biometric Identities for Digital Entities: Geometry, Capacity, and Million-Scale Virtual Identity Provisioning",
+    "paper_url": "https://arxiv.org/abs/2605.18238",
+    "project_url": null,
+    "authors": [
+      "Yuyang Ji",
+      "Yixuan Shen",
+      "Anil Jain",
+      "Xiaoming Liu",
+      "Feng Liu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "Digital entities such as AI agents and humanoid robots increasingly operate alongside real humans, yet their identity infrastructure is based on credentials rather than embodied biometric identity. We introduce Biometric Identity Provisioning (BIP), a new problem and solution framework that addresses: given an enrollment gallery of real human identities, provision virtual identities that are non-colliding with every enrolled identity, maintain sufficient inter-class separability, and are realizable as high-fidelity face images. The key geometric insight is that real face identities occupy a low-dimensional subspace of the embedding hypersphere, leaving no residual subspace for virtual identities. Hence, virtual identities must instead be allocated as unclaimed gaps within the real face manifold itself. BIP is therefore a constrained packing problem: available gaps vastly exceed any foreseeable enrollment scale, and provisioned identities remain non-colliding even as new real identities are subsequently enrolled. Grounded in this geometry, our repulsion-based allocation is not bounded by any fixed provisioning count; we demonstrate 10M non-colliding virtual identity embeddings against a gallery of 360K real identities. Realizing these embeddings as face images requires a generator that operates outside the training distribution of real face images; we introduce GapGen, a gap-aware generator trained with a curriculum that progressively extends synthesis into non-colliding regions, validated at 1M photorealistic virtual face images. We further construct v-LFW, a virtual counterpart to LFW face dataset, with protocols for virtual face verification, cross-reality matching, real-vs-virtual detection, and unified recognition and detection.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.17681",
+    "title": "PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2605.17681",
+    "project_url": null,
+    "authors": [
+      "Jiarong Kang",
+      "Kunzhao Ren",
+      "Tao Pang",
+      "Xiaobin Xiong"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-17",
+    "abstract": "Humanoid and legged robots interact with the environment through intermittent contacts, making accurate motion estimation fundamentally dependent on reasoning about contact dynamics. However, standard sensing pipelines-whether based on onboard proprioception with Extended Kalman Filters (EKFs) or external motion capture systems-recover only kinematics, while contact forces, contact timing, and inertial parameters remain unobserved. As a result, purely kinematic reconstructions often violate rigid-body dynamics, particularly during contact-rich motions. To enable accurate motion estimation from onboard kinematics in real-world deployment, we propose PRIME (Physically-consistent Robotic Inertial and Motion Estimation), a Maximum A Posteriori (MAP) formulation that refines measured kinematics and actuator commands into a dynamically consistent trajectory while jointly estimating frictional contact forces and physically consistent inertial parameters. Our approach incorporates differentiable contact dynamics with smoothed complementarity constraints and an Anitescu-style friction model, yielding a smooth optimization problem that remains tractable across versatile contact transitions. We evaluate PRIME on contact-rich locomotion with quadrupedal robots and the Unitree G1 humanoid, demonstrating improved trajectory consistency and accurate inertial parameter identification. Beyond improving state estimation and feedback control with calibrated inertial parameters, PRIME produces force- and contact-annotated motion reconstructions from real robots in deployment, which can be used to provide high-quality data for downstream learning applications, including large-scale behavior modeling and robot foundation models.",
+    "categories": [
+      "State Estimation",
+      "Locomotion",
+      "Hardware Design",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Locomotion",
+      "State Estimation",
+      "Real Robot",
+      "Humanoid",
+      "Proprioception",
+      "Foundation Model",
+      "Contact Dynamics",
+      "Friction",
+      "Hardware Design",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2605.17300",
+    "title": "HCLM: A Hierarchical Framework for Cooperative Loco-Manipulation with Dual Quadrupeds",
+    "paper_url": "https://arxiv.org/abs/2605.17300",
+    "project_url": null,
+    "authors": [
+      "Qixuan Li",
+      "Chen Le",
+      "Jincheng Yu",
+      "Xinlei Chen"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-17",
+    "abstract": "We introduce HCLM, a hierarchical framework for general-purpose cooperative loco-manipulation with dual quadrupedal systems. Coordinating multi-robot collaborative manipulation across floating bases is highly challenging due to the conflicting demands of spatial coordination, robust locomotion, and closed-chain physical interactions. To resolve this, our architecture systematically decouples high-level collaborative reasoning from low-level robust motion execution. At the high level, a centralized Joint Diffusion Policy leverages an SE(3)-invariant task-space representation to learn coordinate-agnostic spatial coordination patterns. To translate these frame-agnostic references into physical motion, a task-centric hybrid Whole-Body Controller synergizes a proactive kinematic Model Predictive Control for collision-free velocity distribution with a reactive execution layer. Crucially, this reactive layer guarantees rapid responsiveness for precise end-effector tracking, while concurrently integrating active force regulation via a cooperative admittance scheme to safely resolve kinematic conflicts and strictly regulate internal stresses during closed-chain interactions. We validate the framework across progressively challenging simulated scenarios, including cooperative carrying, packing and handovers, and successfully deploy the latter in the real world. The results demonstrate reliable task execution, strict configuration agnosticism, and exceptional resilience against severe physical perturbations, offering a highly robust pathway for multi-robot embodied coordination.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Diffusion Policy",
+      "Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Collision",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2605.15517",
     "title": "Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy",
     "paper_url": "https://arxiv.org/abs/2605.15517",

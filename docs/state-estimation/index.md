@@ -1,14 +1,36 @@
 # State Estimation
 
-**1 papers** in this category.
+**2 papers** in this category.
 
 ## Months
 
-- [2026-05](/state-estimation/2026-05) (1 papers)
+- [2026-05](/state-estimation/2026-05) (2 papers)
 
 ---
 
 ## Recent Papers
+
+## PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.17681)
+- **Authors:** Jiarong Kang, Kunzhao Ren, Tao Pang, Xiaobin Xiong
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - State Estimation
+  - Real Robot
+  - Humanoid
+  - Proprioception
+  - Foundation Model
+  - Contact Dynamics
+  - Friction
+
+### Summary
+
+Humanoid and legged robots interact with the environment through intermittent contacts, making accurate motion estimation fundamentally dependent on reasoning about contact dynamics. However, standard sensing pipelines-whether based on onboard proprioception with Extended Kalman Filters (EKFs) or external motion capture systems-recover only kinematics, while contact forces, contact timing, and inertial parameters remain unobserved.
+
+---
 
 ## CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios
 

@@ -1,14 +1,35 @@
 # Loco-Manipulation and Whole-Body Control
 
-**1 papers** in this category.
+**2 papers** in this category.
 
 ## Months
 
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (1 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (2 papers)
 
 ---
 
 ## Recent Papers
+
+## HCLM: A Hierarchical Framework for Cooperative Loco-Manipulation with Dual Quadrupeds
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.17300)
+- **Authors:** Qixuan Li, Chen Le, Jincheng Yu, Xinlei Chen
+- **Published:** 2026-05
+- **Tags:**
+  - Diffusion Policy
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Collision
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+We introduce HCLM, a hierarchical framework for general-purpose cooperative loco-manipulation with dual quadrupedal systems. Coordinating multi-robot collaborative manipulation across floating bases is highly challenging due to the conflicting demands of spatial coordination, robust locomotion, and closed-chain physical interactions.
+
+---
 
 ## HoloMotion-1 Technical Report
 

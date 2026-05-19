@@ -1,5 +1,6 @@
 {
-  "Locomotion": 1,
-  "Loco-Manipulation and Whole-Body Control": 1,
-  "State Estimation": 1
+  "Locomotion": 2,
+  "State Estimation": 2,
+  "Loco-Manipulation and Whole-Body Control": 2,
+  "Simulation Benchmark": 1
 }

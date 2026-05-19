@@ -2,6 +2,84 @@
 
 All papers sorted by publication date (newest first).
 
+## Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.18611)
+- **Authors:** Yidan Lu, Yichao Zhong, Liu Zhao, Wanyue Li, Peng Lu
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Walking
+
+### Summary
+
+We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running.
+
+---
+
+## Non-Colliding Biometric Identities for Digital Entities: Geometry, Capacity, and Million-Scale Virtual Identity Provisioning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.18238)
+- **Authors:** Yuyang Ji, Yixuan Shen, Anil Jain, Xiaoming Liu, Feng Liu
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Digital entities such as AI agents and humanoid robots increasingly operate alongside real humans, yet their identity infrastructure is based on credentials rather than embodied biometric identity. We introduce Biometric Identity Provisioning (BIP), a new problem and solution framework that addresses: given an enrollment gallery of real human identities, provision virtual identities that are non-colliding with every enrolled identity, maintain sufficient inter-class separability, and are realizable as high-fidelity face images.
+
+---
+
+## PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.17681)
+- **Authors:** Jiarong Kang, Kunzhao Ren, Tao Pang, Xiaobin Xiong
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - State Estimation
+  - Real Robot
+  - Humanoid
+  - Proprioception
+  - Foundation Model
+  - Contact Dynamics
+  - Friction
+
+### Summary
+
+Humanoid and legged robots interact with the environment through intermittent contacts, making accurate motion estimation fundamentally dependent on reasoning about contact dynamics. However, standard sensing pipelines-whether based on onboard proprioception with Extended Kalman Filters (EKFs) or external motion capture systems-recover only kinematics, while contact forces, contact timing, and inertial parameters remain unobserved.
+
+---
+
+## HCLM: A Hierarchical Framework for Cooperative Loco-Manipulation with Dual Quadrupeds
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.17300)
+- **Authors:** Qixuan Li, Chen Le, Jincheng Yu, Xinlei Chen
+- **Published:** 2026-05
+- **Tags:**
+  - Diffusion Policy
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Collision
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+We introduce HCLM, a hierarchical framework for general-purpose cooperative loco-manipulation with dual quadrupedal systems. Coordinating multi-robot collaborative manipulation across floating bases is highly challenging due to the conflicting demands of spatial coordination, robust locomotion, and closed-chain physical interactions.
+
+---
+
 ## Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.15517)
