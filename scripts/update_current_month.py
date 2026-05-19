@@ -61,8 +61,7 @@ def save_summary_files(papers: list[Paper]) -> None:
 
     cat_data = {}
     for paper in papers:
-        for category in paper.categories:
-            cat_data[category] = cat_data.get(category, 0) + 1
+        cat_data[paper.primary_category] = cat_data.get(paper.primary_category, 0) + 1
     with open(DATA_DIR / "categories.json", "w") as f:
         json.dump(dict(sorted(cat_data.items(), key=lambda x: x[1], reverse=True)), f, indent=2)
 

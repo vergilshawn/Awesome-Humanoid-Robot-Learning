@@ -20,10 +20,10 @@ def load_config() -> dict:
         return yaml.safe_load(f)
 
 
-def classify_paper(paper: Paper, config: dict) -> list[str]:
-    """Classify a single paper into one or more categories."""
+def score_categories(paper: Paper, config: dict) -> list[tuple[str, int]]:
+    """Score category matches for a paper."""
     text = (paper.title + " " + paper.abstract).lower()
-    matched = []
+    scored = []
 
     for cat in config["categories"]:
         cat_score = 0
@@ -31,7 +31,16 @@ def classify_paper(paper: Paper, config: dict) -> list[str]:
             if keyword.lower() in text:
                 cat_score += 1
         if cat_score >= 1:
-            matched.append(cat["name"])
+            scored.append((cat["name"], cat_score))
+
+    return sorted(scored, key=lambda item: item[1], reverse=True)
+
+
+def classify_paper(paper: Paper, config: dict) -> list[str]:
+    """Classify a single paper into one or more categories."""
+    text = (paper.title + " " + paper.abstract).lower()
+    scored = score_categories(paper, config)
+    matched = [name for name, _score in scored]
 
     # If no category matched, assign to most general based on content
     if not matched:
@@ -45,13 +54,27 @@ def classify_paper(paper: Paper, config: dict) -> list[str]:
     return matched
 
 
+def choose_primary_category(paper: Paper, config: dict) -> str:
+    """Choose the single best category used for directory placement."""
+    scored = score_categories(paper, config)
+    if scored:
+        return scored[0][0]
+
+    text = (paper.title + " " + paper.abstract).lower()
+    if any(k in text for k in ["humanoid", "biped", "walk"]):
+        return "Locomotion"
+    if any(k in text for k in ["manipulation", "grasp", "dexterous"]):
+        return "Manipulation"
+    return "Loco-Manipulation and Whole-Body Control"
+
+
 def tag_paper(paper: Paper, config: dict) -> list[str]:
     """Assign keyword tags by matching configured tags in the title and abstract."""
     text = (paper.title + " " + paper.abstract).lower()
     tags = []
 
     for tag in config.get("tags", []):
-        if tag.lower() in text:
+        if tag.lower() in text and tag not in tags:
             tags.append(tag)
 
     for category in paper.categories:
@@ -68,9 +91,9 @@ def classify_papers(papers: list[Paper], config: Optional[dict] = None) -> list[
 
     for paper in papers:
         paper.categories = classify_paper(paper, config)
-        paper.primary_category = paper.categories[0] if paper.categories else "Locomotion"
+        paper.primary_category = choose_primary_category(paper, config)
         paper.tags = tag_paper(paper, config)
-        logger.debug(f"  {paper.title[:60]}... -> {paper.categories}")
+        logger.debug(f"  {paper.title[:60]}... -> {paper.primary_category} ({paper.categories})")
 
     logger.info(f"Classified {len(papers)} papers")
     return papers

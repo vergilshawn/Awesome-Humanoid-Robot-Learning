@@ -1,35 +1,14 @@
 # State Estimation
 
-**2 papers** in this category.
+**1 papers** in this category.
 
 ## Months
 
-- [2026-05](/state-estimation/2026-05) (2 papers)
+- [2026-05](/state-estimation/2026-05) (1 papers)
 
 ---
 
 ## Recent Papers
-
-## Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.15517)
-- **Authors:** William D. Compton, Zachary Olkin, Aaron D. Ames
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - MPC
-  - Locomotion
-  - Navigation
-  - Humanoid
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-We present a method for training reference-guided, perceptive reinforcement learning locomotion policies for humanoid robots in which reference trajectories are modulated in training to be consistent with terrain geometry. Aiming to deploy our method with standard navigation autonomy infrastructure, we synthesize SE(2)-controllable reference trajectories inside the RL training loop, projecting desired footsteps onto valid footholds and adjusting swing-foot and center-of-mass trajectories to match the terrain.
-
----
 
 ## CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios
 

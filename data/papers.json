@@ -65,7 +65,6 @@
       "Foundation Model",
       "Fine-tuning",
       "Benchmark",
-      "Foundation Model",
       "Loco-Manipulation and Whole-Body Control",
       "Simulation Benchmark",
       "Human Motion Analysis and Synthesis"
@@ -94,8 +93,8 @@
     "published_date": "2026-05-14",
     "abstract": "Robust state estimation for highly dynamic motion of legged robots remains challenging, especially in dynamic, contact-rich scenarios. Traditional approaches often rely on binary contact states that fail to capture the nuances of partial contact or directional slippage. This paper presents CoCo-InEKF, a differentiable invariant extended Kalman filter that utilizes continuous contact velocity covariances instead of binary contact states. These learned covariances allow the method to dynamically modulate contact confidence, accounting for more nuanced conditions ranging from firm contact to directional slippage or no contact. To predict these covariances for a set of predefined contact candidate points, we employ a lightweight neural network trained end-to-end using a state-error loss. This approach eliminates the need for heuristic ground-truth contact labels. In addition, we propose an automated contact candidate selection procedure and demonstrate that our method is insensitive to their exact placement. Experiments on a bipedal robot demonstrate a superior accuracy-efficiency tradeoff for linear velocity estimation, as well as improved filter consistency compared to baseline methods. This enables the robust execution of challenging motions, including dancing and complex ground interactions -- both in simulation and in the real world.",
     "categories": [
-      "Locomotion",
       "State Estimation",
+      "Locomotion",
       "Simulation Benchmark"
     ],
     "tags": [
@@ -108,6 +107,6 @@
     "open_source": false,
     "platform": null,
     "summary": "",
-    "primary_category": "Locomotion"
+    "primary_category": "State Estimation"
   }
 ]

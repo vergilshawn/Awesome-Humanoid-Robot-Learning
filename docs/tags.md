@@ -25,11 +25,6 @@ Browse papers by research topic and methodology.
 - [Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy](https://arxiv.org/abs/2605.15517) — 2026-05
 - [CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios](https://arxiv.org/abs/2605.15122) — 2026-05
 
-## Foundation Model (2)
-
-- [HoloMotion-1 Technical Report](https://arxiv.org/abs/2605.15336) — 2026-05
-- [HoloMotion-1 Technical Report](https://arxiv.org/abs/2605.15336) — 2026-05
-
 ## Reinforcement Learning (1)
 
 - [Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy](https://arxiv.org/abs/2605.15517) — 2026-05
@@ -47,6 +42,10 @@ Browse papers by research topic and methodology.
 - [HoloMotion-1 Technical Report](https://arxiv.org/abs/2605.15336) — 2026-05
 
 ## Zero-Shot (1)
+
+- [HoloMotion-1 Technical Report](https://arxiv.org/abs/2605.15336) — 2026-05
+
+## Foundation Model (1)
 
 - [HoloMotion-1 Technical Report](https://arxiv.org/abs/2605.15336) — 2026-05
 

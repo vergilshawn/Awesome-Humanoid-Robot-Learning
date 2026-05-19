@@ -45,8 +45,8 @@ jobs:
       - name: Install Node dependencies
         run: npm ci
 
-      - name: Run paper update pipeline
-        run: python scripts/update_repo.py --fetch
+      - name: Run daily paper update pipeline
+        run: python scripts/update_daily.py --days 3
 
       - name: Build VitePress site
         run: npm run docs:build
@@ -60,7 +60,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ docs/ .vitepress/
+          git add data/ docs/
           git diff --staged --quiet || git commit -m "Daily paper update [skip ci]"
           git push
 

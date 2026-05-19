@@ -10,6 +10,18 @@ arxiv:
   max_results_per_category: 60
   date_from: "2026-02-01"
   request_delay: 3.0
+  topic_queries:
+    - all:"humanoid robot"
+    - all:"humanoid"
+    - all:"bipedal robot"
+    - all:"bipedal locomotion"
+    - all:"whole-body control"
+    - all:"whole body control"
+    - all:"loco-manipulation"
+    - all:"motion retargeting"
+    - all:"teleoperation humanoid"
+    - all:"sim-to-real humanoid"
+    - all:"legged manipulation"
 
 categories:
   - name: Loco-Manipulation and Whole-Body Control

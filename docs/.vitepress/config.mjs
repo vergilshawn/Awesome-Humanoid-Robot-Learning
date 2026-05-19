@@ -62,7 +62,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (2)",
+            "text": "Locomotion (1)",
             "collapsed": true,
             "items": [
                   {
@@ -76,21 +76,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (1)",
-            "collapsed": true,
-            "items": [
-                  {
-                        "text": "Overview",
-                        "link": "/navigation/"
-                  },
-                  {
-                        "text": "2026-05",
-                        "link": "/navigation/2026-05"
-                  }
-            ]
-      },
-      {
-            "text": "State Estimation (2)",
+            "text": "State Estimation (1)",
             "collapsed": true,
             "items": [
                   {
@@ -100,34 +86,6 @@ export default defineConfig({
                   {
                         "text": "2026-05",
                         "link": "/state-estimation/2026-05"
-                  }
-            ]
-      },
-      {
-            "text": "Simulation Benchmark (3)",
-            "collapsed": true,
-            "items": [
-                  {
-                        "text": "Overview",
-                        "link": "/simulation-benchmark/"
-                  },
-                  {
-                        "text": "2026-05",
-                        "link": "/simulation-benchmark/2026-05"
-                  }
-            ]
-      },
-      {
-            "text": "Human Motion Analysis and Synthesis (1)",
-            "collapsed": true,
-            "items": [
-                  {
-                        "text": "Overview",
-                        "link": "/human-motion-analysis-and-synthesis/"
-                  },
-                  {
-                        "text": "2026-05",
-                        "link": "/human-motion-analysis-and-synthesis/2026-05"
                   }
             ]
       }

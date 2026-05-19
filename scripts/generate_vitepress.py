@@ -52,11 +52,10 @@ def load_papers() -> list[Paper]:
 
 def generate_sidebar(papers: list[Paper]) -> list[dict]:
     """Generate sidebar configuration based on available papers and months."""
-    # Group papers by category, then by month
+    # Group papers by primary category, then by month. This keeps each paper in one directory.
     cat_papers = defaultdict(list)
     for p in papers:
-        for c in p.categories:
-            cat_papers[c].append(p)
+        cat_papers[p.primary_category].append(p)
 
     sidebar = [
         {

@@ -129,8 +129,7 @@ def run_pipeline(fetch_new: bool = False, dry_run: bool = False) -> list[Paper]:
 
     cat_data = {}
     for p in relevant:
-        for c in p.categories:
-            cat_data[c] = cat_data.get(c, 0) + 1
+        cat_data[p.primary_category] = cat_data.get(p.primary_category, 0) + 1
     with open(DATA_DIR / "categories.json", "w") as f:
         json.dump(dict(sorted(cat_data.items(), key=lambda x: x[1], reverse=True)), f, indent=2)
 

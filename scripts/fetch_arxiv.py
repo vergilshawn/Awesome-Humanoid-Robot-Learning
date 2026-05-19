@@ -51,13 +51,36 @@ def extract_arxiv_id(entry_id: str) -> str:
     return entry_id
 
 
+def date_range_query(date_from: datetime, date_to: Optional[datetime]) -> str:
+    """Build an arXiv submittedDate range query."""
+    if not date_to:
+        return ""
+    return (
+        "submittedDate:"
+        f"[{date_from.strftime('%Y%m%d')}0000 TO {date_to.strftime('%Y%m%d')}0000]"
+    )
+
+
+def build_search_queries(config: dict, date_from: datetime, date_to: Optional[datetime]) -> list[str]:
+    """Build category and topic queries for better recall."""
+    arxiv_config = config["arxiv"]
+    queries = [f"cat:{cat}" for cat in arxiv_config["categories"]]
+
+    queries.extend(arxiv_config.get("topic_queries", []))
+
+    range_query = date_range_query(date_from, date_to)
+    if range_query:
+        queries = [f"({query}) AND {range_query}" for query in queries]
+
+    return queries
+
+
 def fetch_papers(config: Optional[dict] = None) -> list[Paper]:
     """Fetch papers from arXiv and return as Paper models."""
     if config is None:
         config = load_config()
 
     arxiv_config = config["arxiv"]
-    categories = arxiv_config["categories"]
     max_results = arxiv_config["max_results_per_category"]
     date_from = datetime.strptime(arxiv_config["date_from"], "%Y-%m-%d")
     date_to = None
@@ -71,16 +94,11 @@ def fetch_papers(config: Optional[dict] = None) -> list[Paper]:
 
     client = Client()
     all_papers: dict[str, Paper] = {}
-    failed_categories: list[str] = []
+    failed_queries: list[str] = []
+    search_queries = build_search_queries(config, date_from, date_to)
 
-    for cat in categories:
-        logger.info(f"Searching arXiv category: {cat}")
-        query = f"cat:{cat}"
-        if date_to:
-            query += (
-                " AND submittedDate:"
-                f"[{date_from.strftime('%Y%m%d')}0000 TO {date_to.strftime('%Y%m%d')}0000]"
-            )
+    for query in search_queries:
+        logger.info(f"Searching arXiv query: {query}")
         search = Search(
             query=query,
             max_results=max_results,
@@ -91,8 +109,8 @@ def fetch_papers(config: Optional[dict] = None) -> list[Paper]:
         try:
             results = list(client.results(search))
         except Exception as e:
-            logger.error(f"Failed to fetch category {cat}: {e}")
-            failed_categories.append(cat)
+            logger.error(f"Failed to fetch query {query}: {e}")
+            failed_queries.append(query)
             continue
 
         for result in results:
@@ -124,12 +142,12 @@ def fetch_papers(config: Optional[dict] = None) -> list[Paper]:
         logger.info(f"  Found {len(all_papers)} papers so far...")
         time.sleep(request_delay)
 
-    if failed_categories and len(failed_categories) == len(categories):
-        failed = ", ".join(failed_categories)
-        raise RuntimeError(f"Failed to fetch every configured arXiv category: {failed}")
-    if failed_categories and fail_on_category_error:
-        failed = ", ".join(failed_categories)
-        raise RuntimeError(f"Failed to fetch configured arXiv categories: {failed}")
+    if failed_queries and len(failed_queries) == len(search_queries):
+        failed = ", ".join(failed_queries)
+        raise RuntimeError(f"Failed to fetch every configured arXiv query: {failed}")
+    if failed_queries and fail_on_category_error:
+        failed = ", ".join(failed_queries)
+        raise RuntimeError(f"Failed to fetch configured arXiv queries: {failed}")
 
     papers = sorted(all_papers.values(), key=lambda p: p.published_date or date.min, reverse=True)
     logger.info(f"Total unique papers fetched: {len(papers)}")

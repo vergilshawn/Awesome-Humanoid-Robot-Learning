@@ -153,8 +153,7 @@ def append_homepage_directory_index(lines: list[str], papers: list[Paper]) -> No
     """Append a compact category/month/paper index to the homepage."""
     cat_papers = defaultdict(list)
     for paper in papers:
-        for category in paper.categories:
-            cat_papers[category].append(paper)
+        cat_papers[paper.primary_category].append(paper)
 
     lines.extend([
         "",
@@ -196,11 +195,10 @@ def generate_homepage(papers: list[Paper]) -> None:
     real_count = sum(1 for p in papers if p.real_robot)
     open_count = sum(1 for p in papers if p.open_source)
 
-    # Category stats
+    # Category stats use primary category only, so each paper is counted once.
     cat_counts = defaultdict(int)
     for p in papers:
-        for c in p.categories:
-            cat_counts[c] += 1
+        cat_counts[p.primary_category] += 1
 
     # Tag counts
     tag_counts = defaultdict(int)
@@ -244,9 +242,8 @@ def generate_homepage(papers: list[Paper]) -> None:
     for paper in latest_papers:
         marker = "🌟" if paper.open_source else ""
         robot = " 🤖" if paper.real_robot else ""
-        cat_links = ", ".join(
-            f"[{c}](/{CATEGORY_KEY_MAP.get(c, '')}/)" for c in paper.categories if c in CATEGORY_KEY_MAP
-        )
+        cat_key = CATEGORY_KEY_MAP.get(paper.primary_category, "")
+        cat_links = f"[{paper.primary_category}](/{cat_key}/)" if cat_key else ""
         lines.append(f"- {marker}{robot} [{paper.title}]({paper.paper_url}) — {paper.published}")
         if cat_links:
             lines.append(f"  - {cat_links}")
@@ -399,11 +396,10 @@ def generate_category_pages(papers: list[Paper]) -> None:
     """Generate category index and monthly pages."""
     cleanup_stale_month_pages()
 
-    # Group papers by category
+    # Group papers by primary category. A paper appears in exactly one category directory.
     cat_papers = defaultdict(list)
     for p in papers:
-        for c in p.categories:
-            cat_papers[c].append(p)
+        cat_papers[p.primary_category].append(p)
 
     for cat_name, cat_key in CATEGORY_KEY_MAP.items():
         cat_dir = DOCS_DIR / cat_key

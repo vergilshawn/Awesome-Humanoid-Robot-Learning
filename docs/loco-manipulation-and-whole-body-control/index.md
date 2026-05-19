@@ -23,8 +23,8 @@
   - Foundation Model
   - Fine-tuning
   - Benchmark
-  - Foundation Model
   - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
 
 ### Summary
 
