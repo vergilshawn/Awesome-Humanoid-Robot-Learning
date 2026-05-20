@@ -333,6 +333,43 @@
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
+    "arxiv_id": "2604.13015",
+    "title": "Humanoid Manipulation with Touch Dreaming",
+    "paper_url": "https://arxiv.org/abs/2604.13015",
+    "project_url": "https://humanoid-touch-dream.github.io/",
+    "authors": [
+      "Han Wang",
+      "Hongjie Fang",
+      "Changyang He",
+      "Tairan He",
+      "Zhenyu Jiang",
+      "Sizhe Yang",
+      "Wenxuan Zhang",
+      "Jingsong Chen",
+      "Bokui Shen",
+      "Fuchun Sun",
+      "Cewu Lu"
+    ],
+    "published": "2026-04",
+    "published_date": "2026-04-14",
+    "abstract": "This paper studies humanoid manipulation with touch dreaming, using tactile imagination and policy learning to improve contact-rich manipulation. The system targets dexterous humanoid manipulation and whole-body interaction with objects under sparse or difficult tactile supervision.",
+    "categories": [
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Policy Learning",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
     "arxiv_id": "2604.11251",
     "title": "CLAW: Composable Language-Annotated Whole-body Motion Generation",
     "paper_url": "https://arxiv.org/abs/2604.11251",
@@ -448,6 +485,81 @@
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
+    "arxiv_id": "2604.08508",
+    "title": "Sumo: Reinforcement Learning for Humanoid Loco-manipulation with Interactable 3D Scene Semantics",
+    "paper_url": "https://arxiv.org/abs/2604.08508",
+    "project_url": "https://sumo.rai-inst.com/",
+    "authors": [
+      "Qingwen Guo",
+      "Junbo Wang",
+      "Ali Hadi Zadeh",
+      "Haonan Chang",
+      "Hongyu Zhou",
+      "Chenhao Li",
+      "Botao He",
+      "Shengjie Wang",
+      "Michael S. Ryoo",
+      "Qiayuan Liao",
+      "Qi Wei",
+      "Wei Zhan",
+      "Mingyu Ding"
+    ],
+    "published": "2026-04",
+    "published_date": "2026-04-09",
+    "abstract": "Sumo introduces a reinforcement learning framework for humanoid loco-manipulation with interactable 3D scene semantics. It enables humanoid robots to reason about scene objects and perform whole-body navigation and manipulation skills in semantically rich environments.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Navigation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "Navigation",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2604.07331",
+    "title": "RoSHI: Large-scale Motion Imitation in Humanoid Robots via World Models",
+    "paper_url": "https://arxiv.org/abs/2604.07331",
+    "project_url": "https://roshi-mocap.github.io",
+    "authors": [
+      "Aobo Liang",
+      "Juntong Li",
+      "Qingnan Liu",
+      "Gaofeng Li",
+      "Jiawei Li",
+      "Runyu Zhang",
+      "Mengchao Zhang",
+      "Li Yi",
+      "Yixin Zhu",
+      "Siqi Zhou"
+    ],
+    "published": "2026-04",
+    "published_date": "2026-04-08",
+    "abstract": "RoSHI studies large-scale motion imitation for humanoid robots via world models. The method learns from large human motion corpora and trains humanoid control policies for motion tracking and imitation, targeting scalable humanoid skill acquisition from motion data.",
+    "categories": [
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "World Model",
+      "Humanoid",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
     "arxiv_id": "2604.00416",
     "title": "Learning Humanoid Navigation from Human Data",
     "paper_url": "https://arxiv.org/abs/2604.00416",
@@ -476,6 +588,38 @@
     "real_robot": true,
     "open_source": false,
     "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2603.29452",
+    "title": "CReF: Cross-modal and Recurrent Fusion for Depth-conditioned Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2603.29452",
+    "project_url": null,
+    "authors": [
+      "Chenhao Li",
+      "Qi Wei",
+      "Botao He",
+      "Yangfan Zhou",
+      "Lingshi Kong",
+      "Chong Zhang",
+      "Jing Cheng",
+      "Wenbo Ding"
+    ],
+    "published": "2026-03",
+    "published_date": "2026-03-31",
+    "abstract": "Learning depth-conditioned humanoid locomotion is critical for traversing uneven terrains and complex environments. This work presents CReF, a cross-modal and recurrent fusion framework that fuses proprioceptive and depth observations for humanoid locomotion control, improving robustness and terrain-conditioned behavior under challenging perceptual inputs.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Robustness",
+      "Humanoid"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
   },

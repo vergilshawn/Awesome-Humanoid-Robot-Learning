@@ -52,6 +52,21 @@ def replace_days(existing: dict[str, Paper], new_papers: list[Paper], days: set[
     return sorted(merged.values(), key=lambda p: p.published_date or date.min, reverse=True)
 
 
+def merge_papers(existing: dict[str, Paper], new_papers: list[Paper]) -> list[Paper]:
+    merged = dict(existing)
+    for paper in new_papers:
+        current = merged.get(paper.arxiv_id)
+        if current:
+            if not current.abstract and paper.abstract:
+                merged[paper.arxiv_id] = paper
+            elif not current.project_url and paper.project_url:
+                current.project_url = paper.project_url
+                current.open_source = True
+            continue
+        merged[paper.arxiv_id] = paper
+    return sorted(merged.values(), key=lambda p: p.published_date or date.min, reverse=True)
+
+
 def fetch_one_day(config: dict, day: date) -> list[Paper]:
     day_config = copy.deepcopy(config)
     day_config["arxiv"]["date_from"] = day.isoformat()
@@ -65,6 +80,8 @@ def run_daily_update(
     end: date,
     max_results: int | None = None,
     request_delay: float = 8.0,
+    merge_only: bool = False,
+    skip_detection: bool = False,
     dry_run: bool = False,
 ) -> list[Paper]:
     config = copy.deepcopy(load_config())
@@ -121,12 +138,16 @@ def run_daily_update(
 
     relevant = filter_papers(candidates, config)
     relevant = classify_papers(relevant, config)
-    relevant = detect_project_links(relevant, config)
-    relevant = detect_real_robot(relevant, config)
+    if skip_detection:
+        logger.info("Skipping project-link and real-robot detection")
+    else:
+        relevant = detect_project_links(relevant, config)
+        relevant = detect_real_robot(relevant, config)
 
-    merged = replace_days(existing, relevant, successful_days)
+    merged = merge_papers(existing, relevant) if merge_only else replace_days(existing, relevant, successful_days)
+    mode = "Merging" if merge_only else "Replacing"
     logger.info(
-        f"Replacing {len(successful_days)} fetched day(s): "
+        f"{mode} {len(successful_days)} fetched day(s): "
         f"{len(relevant)} papers; total after merge: {len(merged)}"
     )
 
@@ -161,6 +182,8 @@ def main() -> None:
     parser.add_argument("--days", type=int, help="Update the most recent N days ending today.")
     parser.add_argument("--max-results", type=int, help="Override max arXiv results per query.")
     parser.add_argument("--request-delay", type=float, default=8.0, help="Delay between arXiv requests.")
+    parser.add_argument("--merge-only", action="store_true", help="Add/update fetched papers without deleting existing papers in the range.")
+    parser.add_argument("--skip-detection", action="store_true", help="Skip network-based project-link and real-robot detection.")
     parser.add_argument("--dry-run", action="store_true", help="Fetch and process without saving files.")
     args = parser.parse_args()
 
@@ -190,6 +213,8 @@ def main() -> None:
             end=end,
             max_results=args.max_results,
             request_delay=args.request_delay,
+            merge_only=args.merge_only,
+            skip_detection=args.skip_detection,
             dry_run=args.dry_run,
         )
     except Exception as exc:

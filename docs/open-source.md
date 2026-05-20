@@ -2,6 +2,24 @@
 
 Papers with open-source code repositories.
 
+## 🌟 Humanoid Manipulation with Touch Dreaming
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.13015)
+- **Project:** [GitHub](https://humanoid-touch-dream.github.io/)
+- **Authors:** Han Wang, Hongjie Fang, Changyang He, Tairan He, Zhenyu Jiang, Sizhe Yang et al. (11 authors)
+- **Published:** 2026-04
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This paper studies humanoid manipulation with touch dreaming, using tactile imagination and policy learning to improve contact-rich manipulation. The system targets dexterous humanoid manipulation and whole-body interaction with objects under sparse or difficult tactile supervision..
+
+---
+
 ## 🌟 CLAW: Composable Language-Annotated Whole-body Motion Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2604.11251)
@@ -22,6 +40,42 @@ Papers with open-source code repositories.
 ### Summary
 
 CLAW is an interactive web-based pipeline for scalable generation of language-annotated whole-body motion data for the Unitree G1 humanoid robot. It treats kinematic planner modes as composable building blocks and provides browser-based interfaces for exploratory and batch data collection.
+
+---
+
+## 🌟 Sumo: Reinforcement Learning for Humanoid Loco-manipulation with Interactable 3D Scene Semantics
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.08508)
+- **Project:** [GitHub](https://sumo.rai-inst.com/)
+- **Authors:** Qingwen Guo, Junbo Wang, Ali Hadi Zadeh, Haonan Chang, Hongyu Zhou, Chenhao Li et al. (13 authors)
+- **Published:** 2026-04
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Sumo introduces a reinforcement learning framework for humanoid loco-manipulation with interactable 3D scene semantics. It enables humanoid robots to reason about scene objects and perform whole-body navigation and manipulation skills in semantically rich environments..
+
+---
+
+## 🌟 RoSHI: Large-scale Motion Imitation in Humanoid Robots via World Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.07331)
+- **Project:** [GitHub](https://roshi-mocap.github.io)
+- **Authors:** Aobo Liang, Juntong Li, Qingnan Liu, Gaofeng Li, Jiawei Li, Runyu Zhang et al. (10 authors)
+- **Published:** 2026-04
+- **Tags:**
+  - World Model
+  - Humanoid
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+RoSHI studies large-scale motion imitation for humanoid robots via world models. The method learns from large human motion corpora and trains humanoid control policies for motion tracking and imitation, targeting scalable humanoid skill acquisition from motion data..
 
 ---
 

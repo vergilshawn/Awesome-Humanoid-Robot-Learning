@@ -1,12 +1,12 @@
 # Locomotion
 
-**96 papers** in this category.
+**97 papers** in this category.
 
 ## Months
 
 - [2026-05](/locomotion/2026-05) (2 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
-- [2026-03](/locomotion/2026-03) (1 papers)
+- [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
 - [2026-01](/locomotion/2026-01) (4 papers)
 - [2025-12](/locomotion/2025-12) (10 papers)
@@ -115,6 +115,22 @@ Humanoid robots operating in human-centered environments (e.g., homes, hospitals
 ### Summary
 
 EgoNav enables a humanoid robot to traverse diverse unseen environments by learning from 5 hours of human walking data, with no robot data or finetuning. A diffusion model predicts future trajectories conditioned on past trajectory, 360 degree visual memory, and DINOv3 video features.
+
+---
+
+## CReF: Cross-modal and Recurrent Fusion for Depth-conditioned Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.29452)
+- **Authors:** Chenhao Li, Qi Wei, Botao He, Yangfan Zhou, Lingshi Kong, Chong Zhang et al. (8 authors)
+- **Published:** 2026-03
+- **Tags:**
+  - Locomotion
+  - Robustness
+  - Humanoid
+
+### Summary
+
+Learning depth-conditioned humanoid locomotion is critical for traversing uneven terrains and complex environments. This work presents CReF, a cross-modal and recurrent fusion framework that fuses proprioceptive and depth observations for humanoid locomotion control, improving robustness and terrain-conditioned behavior under challenging perceptual inputs..
 
 ---
 
@@ -335,20 +351,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Humanoid
   - Locomotion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2512.23650)
-- **Published:** 2025-12
-- **Tags:**
-  - Locomotion
-  - Humanoid
 
 ### Summary
 

@@ -8,24 +8,24 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 477
+- **Total Papers:** 481
 - **Real Robot Papers:** 12
-- **Open Source Papers:** 118
+- **Open Source Papers:** 121
 - **Latest Month:** 2026-05
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (171)
-- [Manipulation](/manipulation/) (49)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (172)
+- [Manipulation](/manipulation/) (50)
 - [Teleoperation](/teleoperation/) (20)
-- [Locomotion](/locomotion/) (96)
+- [Locomotion](/locomotion/) (97)
 - [Navigation](/navigation/) (17)
 - [State Estimation](/state-estimation/) (9)
 - [Sim-to-Real](/sim-to-real/) (11)
 - [Hardware Design](/hardware-design/) (31)
 - [Simulation Benchmark](/simulation-benchmark/) (22)
 - [Physics-Based Character Animation](/physics-based-character-animation/) (32)
-- [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (19)
+- [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (20)
 
 ---
 
@@ -49,25 +49,25 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Physics-Based Character Animation](/physics-based-character-animation/)
 -  🤖 [Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking](https://arxiv.org/abs/2604.17335) — 2026-04
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
-- 🌟 🤖 [CLAW: Composable Language-Annotated Whole-body Motion Generation](https://arxiv.org/abs/2604.11251) — 2026-04
-  - [Simulation Benchmark](/simulation-benchmark/)
+- 🌟 [Humanoid Manipulation with Touch Dreaming](https://arxiv.org/abs/2604.13015) — 2026-04
+  - [Manipulation](/manipulation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (341)
-- **Loco-Manipulation and Whole-Body Control** (174)
-- **Locomotion** (118)
-- **Manipulation** (103)
+- **Humanoid** (345)
+- **Loco-Manipulation and Whole-Body Control** (176)
+- **Locomotion** (119)
+- **Manipulation** (105)
 - **Physics-Based Character Animation** (38)
 - **Whole-Body Control** (33)
+- **Reinforcement Learning** (32)
 - **Hardware Design** (32)
-- **Reinforcement Learning** (31)
 - **Teleoperation** (30)
 - **Simulation Benchmark** (28)
-- **Human Motion Analysis and Synthesis** (24)
-- **Navigation** (22)
+- **Human Motion Analysis and Synthesis** (25)
+- **Navigation** (23)
 - **Diffusion** (19)
 - **Sim-to-Real** (19)
 - **State Estimation** (15)
@@ -76,13 +76,13 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Vision-Language** (10)
 - **Benchmark** (9)
 - **Dataset** (8)
+- **World Model** (8)
 - **Imitation Learning** (8)
 - **Walking** (7)
 - **Collision** (7)
 - **Zero-Shot** (7)
 - **Safety** (7)
 - **Distillation** (7)
-- **World Model** (7)
 - **Gait** (5)
 - **Fine-tuning** (4)
 - **PPO** (4)
@@ -102,6 +102,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking](https://arxiv.org/abs/2604.17335) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `PPO`, `Diffusion`, `Loco-Manipulation and Whole-Body Control`
 - [HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation](https://arxiv.org/abs/2604.07993) — `Manipulation`, `Biped`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Locomotion`
+- 🌟 [Sumo: Reinforcement Learning for Humanoid Loco-manipulation with Interactable 3D Scene Semantics](https://arxiv.org/abs/2604.08508), [website](https://sumo.rai-inst.com/) — `Reinforcement Learning`, `Manipulation`, `Navigation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Open Source`
 
 #### [2026-03](/loco-manipulation-and-whole-body-control/2026-03)
 
@@ -344,6 +345,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### [Manipulation](/manipulation/)
 
+#### [2026-04](/manipulation/2026-04)
+
+- 🌟 [Humanoid Manipulation with Touch Dreaming](https://arxiv.org/abs/2604.13015), [website](https://humanoid-touch-dream.github.io/) — `Manipulation`, `Humanoid`, `Policy Learning`, `Loco-Manipulation and Whole-Body Control`, `Open Source`
+
 #### [2026-03](/manipulation/2026-03)
 
 - 🌟 [HumDex: Humanoid Dexterous Manipulation Made Easy](https://arxiv.org/abs/2603.12260) — `Manipulation`, `Humanoid`, `Open Source`
@@ -525,6 +530,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-03](/locomotion/2026-03)
 
+- [CReF: Cross-modal and Recurrent Fusion for Depth-conditioned Humanoid Locomotion](https://arxiv.org/abs/2603.29452) — `Locomotion`, `Robustness`, `Humanoid`
 - [Omnidirectional Humanoid Locomotion on Stairs via Unsafe Stepping Penalty and Sparse LiDAR Elevation Mapping](https://arxiv.org/abs/2603.07928) — `Sim-to-Real`, `Locomotion`, `Humanoid`, `Walking`, `Navigation`, `State Estimation`
 
 #### [2026-02](/locomotion/2026-02)
@@ -1068,6 +1074,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Learning Symmetric and Low-energy Locomotion](https://arxiv.org/abs/1801.08093) — `Locomotion`, `Physics-Based Character Animation`
 
 ### [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/)
+
+#### [2026-04](/human-motion-analysis-and-synthesis/2026-04)
+
+- 🌟 [RoSHI: Large-scale Motion Imitation in Humanoid Robots via World Models](https://arxiv.org/abs/2604.07331), [website](https://roshi-mocap.github.io) — `World Model`, `Humanoid`, `Human Motion Analysis and Synthesis`, `Open Source`
 
 #### [2026-02](/human-motion-analysis-and-synthesis/2026-02)
 

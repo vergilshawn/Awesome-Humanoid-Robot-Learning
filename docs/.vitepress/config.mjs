@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (171)",
+            "text": "Loco-Manipulation and Whole-Body Control (172)",
             "collapsed": true,
             "items": [
                   {
@@ -162,12 +162,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (49)",
+            "text": "Manipulation (50)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/manipulation/"
+                  },
+                  {
+                        "text": "2026-04",
+                        "link": "/manipulation/2026-04"
                   },
                   {
                         "text": "2026-03",
@@ -310,7 +314,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (96)",
+            "text": "Locomotion (97)",
             "collapsed": true,
             "items": [
                   {
@@ -812,12 +816,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (19)",
+            "text": "Human Motion Analysis and Synthesis (20)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/human-motion-analysis-and-synthesis/"
+                  },
+                  {
+                        "text": "2026-04",
+                        "link": "/human-motion-analysis-and-synthesis/2026-04"
                   },
                   {
                         "text": "2026-02",

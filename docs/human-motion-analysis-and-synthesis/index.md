@@ -1,9 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**19 papers** in this category.
+**20 papers** in this category.
 
 ## Months
 
+- [2026-04](/human-motion-analysis-and-synthesis/2026-04) (1 papers)
 - [2026-02](/human-motion-analysis-and-synthesis/2026-02) (2 papers)
 - [2025-12](/human-motion-analysis-and-synthesis/2025-12) (2 papers)
 - [2025-08](/human-motion-analysis-and-synthesis/2025-08) (1 papers)
@@ -22,6 +23,23 @@
 ---
 
 ## Recent Papers
+
+## 🌟 RoSHI: Large-scale Motion Imitation in Humanoid Robots via World Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.07331)
+- **Project:** [GitHub](https://roshi-mocap.github.io)
+- **Authors:** Aobo Liang, Juntong Li, Qingnan Liu, Gaofeng Li, Jiawei Li, Runyu Zhang et al. (10 authors)
+- **Published:** 2026-04
+- **Tags:**
+  - World Model
+  - Humanoid
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+RoSHI studies large-scale motion imitation for humanoid robots via world models. The method learns from large human motion corpora and trains humanoid control policies for motion tracking and imitation, targeting scalable humanoid skill acquisition from motion data..
+
+---
 
 ## EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents
 

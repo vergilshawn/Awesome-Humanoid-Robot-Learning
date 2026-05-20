@@ -1,11 +1,11 @@
 # Loco-Manipulation and Whole-Body Control
 
-**171 papers** in this category.
+**172 papers** in this category.
 
 ## Months
 
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (2 papers)
-- [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (2 papers)
+- [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
 - [2026-01](/loco-manipulation-and-whole-body-control/2026-01) (8 papers)
@@ -115,6 +115,25 @@ This work combines motion generation and motion tracking for whole-body humanoid
 ### Summary
 
 HEX is a state-centric framework for coordinated manipulation on full-sized bipedal humanoid robots. It introduces a humanoid-aligned universal state representation for scalable learning across heterogeneous embodiments and a mixture-of-experts proprioceptive predictor for whole-body coordination and temporal motion dynamics.
+
+---
+
+## 🌟 Sumo: Reinforcement Learning for Humanoid Loco-manipulation with Interactable 3D Scene Semantics
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.08508)
+- **Project:** [GitHub](https://sumo.rai-inst.com/)
+- **Authors:** Qingwen Guo, Junbo Wang, Ali Hadi Zadeh, Haonan Chang, Hongyu Zhou, Chenhao Li et al. (13 authors)
+- **Published:** 2026-04
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Sumo introduces a reinforcement learning framework for humanoid loco-manipulation with interactable 3D scene semantics. It enables humanoid robots to reason about scene objects and perform whole-body navigation and manipulation skills in semantically rich environments..
 
 ---
 
@@ -345,21 +364,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.15733)
 - **Published:** 2026-02
 - **Tags:**
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Humanoid Hanoi: Investigating Shared Whole-Body Control for Skill-Based Box Rearrangement
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.13850)
-- **Published:** 2026-02
-- **Tags:**
-  - Whole-Body Control
   - Humanoid
   - Loco-Manipulation and Whole-Body Control
 

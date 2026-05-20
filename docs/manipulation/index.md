@@ -1,9 +1,10 @@
 # Manipulation
 
-**49 papers** in this category.
+**50 papers** in this category.
 
 ## Months
 
+- [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
 - [2026-02](/manipulation/2026-02) (1 papers)
 - [2026-01](/manipulation/2026-01) (4 papers)
@@ -28,6 +29,24 @@
 ---
 
 ## Recent Papers
+
+## 🌟 Humanoid Manipulation with Touch Dreaming
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.13015)
+- **Project:** [GitHub](https://humanoid-touch-dream.github.io/)
+- **Authors:** Han Wang, Hongjie Fang, Changyang He, Tairan He, Zhenyu Jiang, Sizhe Yang et al. (11 authors)
+- **Published:** 2026-04
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This paper studies humanoid manipulation with touch dreaming, using tactile imagination and policy learning to improve contact-rich manipulation. The system targets dexterous humanoid manipulation and whole-body interaction with objects under sparse or difficult tactile supervision..
+
+---
 
 ## 🌟 HumDex: Humanoid Dexterous Manipulation Made Easy
 
@@ -288,19 +307,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Manipulation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Masquerade: Learning from In-the-wild Human Videos using Data-Editing
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.09976)
-- **Published:** 2025-08
-- **Tags:**
-  - Manipulation
 
 ### Summary
 
