@@ -4,13 +4,13 @@ Browse papers by research topic and methodology.
 
 ---
 
-## Humanoid (340)
+## Humanoid (341)
 
 - [Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors](https://arxiv.org/abs/2605.18611) — 2026-05
 - [PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots](https://arxiv.org/abs/2605.17681) — 2026-05
 - [Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy](https://arxiv.org/abs/2605.15517) — 2026-05
 - [HoloMotion-1 Technical Report](https://arxiv.org/abs/2605.15336) — 2026-05
-- [A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models](https://arxiv.org/abs/2604.17258) — 2026-04
+- [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — 2026-04
 
 ## Loco-Manipulation and Whole-Body Control (174)
 
@@ -20,7 +20,7 @@ Browse papers by research topic and methodology.
 - 🌟 [CLAW: Composable Language-Annotated Whole-body Motion Generation](https://arxiv.org/abs/2604.11251) — 2026-04
 - [HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation](https://arxiv.org/abs/2604.07993) — 2026-04
 
-## Locomotion (117)
+## Locomotion (118)
 
 - [Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors](https://arxiv.org/abs/2605.18611) — 2026-05
 - [PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots](https://arxiv.org/abs/2605.17681) — 2026-05
@@ -36,13 +36,13 @@ Browse papers by research topic and methodology.
 - [Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation](https://arxiv.org/abs/2603.12263) — 2026-03
 - 🌟 [ULTRA: Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation](https://arxiv.org/abs/2603.03279) — 2026-03
 
-## Physics-Based Character Animation (37)
+## Physics-Based Character Animation (38)
 
 - [PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots](https://arxiv.org/abs/2605.17681) — 2026-05
 - [HCLM: A Hierarchical Framework for Cooperative Loco-Manipulation with Dual Quadrupeds](https://arxiv.org/abs/2605.17300) — 2026-05
+- [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — 2026-04
 - [A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models](https://arxiv.org/abs/2604.17258) — 2026-04
 - [Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking](https://arxiv.org/abs/2604.17335) — 2026-04
-- 🌟 [CLAW: Composable Language-Annotated Whole-body Motion Generation](https://arxiv.org/abs/2604.11251) — 2026-04
 
 ## Whole-Body Control (33)
 
@@ -60,13 +60,13 @@ Browse papers by research topic and methodology.
 - [Antagonistic Bowden-Cable Actuation of a Lightweight Robotic Hand: Toward Dexterous Manipulation for Payload Constrained Humanoids](https://arxiv.org/abs/2512.24657) — 2025-12
 - [Olaf: Bringing an Animated Character to Life in the Physical World](https://arxiv.org/abs/2512.16705) — 2025-12
 
-## Reinforcement Learning (30)
+## Reinforcement Learning (31)
 
 - [Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors](https://arxiv.org/abs/2605.18611) — 2026-05
 - [Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy](https://arxiv.org/abs/2605.15517) — 2026-05
+- [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — 2026-04
 - [Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking](https://arxiv.org/abs/2604.17335) — 2026-04
 - 🌟 [SteadyTray: Learning Object Balancing Tasks in Humanoid Tray Transport via Residual Reinforcement Learning](https://arxiv.org/abs/2603.10306) — 2026-03
-- [Embedding Classical Balance Control Principles in Reinforcement Learning for Humanoid Recovery](https://arxiv.org/abs/2603.08619) — 2026-03
 
 ## Teleoperation (30)
 
@@ -76,13 +76,13 @@ Browse papers by research topic and methodology.
 - [CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation](https://arxiv.org/abs/2602.15060) — 2026-02
 - [ExtremControl: Low-Latency Humanoid Teleoperation with Direct Extremity Control](https://arxiv.org/abs/2602.11321) — 2026-02
 
-## Simulation Benchmark (27)
+## Simulation Benchmark (28)
 
 - [Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy](https://arxiv.org/abs/2605.15517) — 2026-05
 - [HoloMotion-1 Technical Report](https://arxiv.org/abs/2605.15336) — 2026-05
 - [CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios](https://arxiv.org/abs/2605.15122) — 2026-05
+- [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — 2026-04
 - 🌟 [CLAW: Composable Language-Annotated Whole-body Motion Generation](https://arxiv.org/abs/2604.11251) — 2026-04
-- [Safe Human-to-Humanoid Motion Imitation Using Control Barrier Functions](https://arxiv.org/abs/2604.11447) — 2026-04
 
 ## Human Motion Analysis and Synthesis (24)
 
@@ -156,6 +156,14 @@ Browse papers by research topic and methodology.
 - 🌟 [TeleOpBench: A Simulator-Centric Benchmark for Dual-Arm Dexterous Teleoperation](https://arxiv.org/abs/2505.12748) — 2025-05
 - 🌟 [**Mimicking-Bench**: A Benchmark for Generalizable Humanoid-Scene Interaction Learning via Human Mimicking](https://arxiv.org/abs/2412.17730) — 2024-12
 
+## Dataset (8)
+
+- [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — 2026-04
+- 🌟 [CLAW: Composable Language-Annotated Whole-body Motion Generation](https://arxiv.org/abs/2604.11251) — 2026-04
+- [Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality](https://arxiv.org/abs/2603.05993) — 2026-03
+- [A Humanoid Visual-Tactile-Action Dataset for Contact-Rich Manipulation](https://arxiv.org/abs/2510.25725) — 2025-10
+- [PHUMA: Physically-Grounded Humanoid Locomotion Dataset](https://arxiv.org/abs/2510.26236) — 2025-10
+
 ## Imitation Learning (8)
 
 - [Benchmarking Humanoid Imitation Learning with Motion Difficulty](https://arxiv.org/abs/2512.07248) — 2025-12
@@ -187,14 +195,6 @@ Browse papers by research topic and methodology.
 - [Learning Humanoid Navigation from Human Data](https://arxiv.org/abs/2604.00416) — 2026-04
 - [ZEST: Zero-shot Embodied Skill Transfer for Athletic Robot Control](https://arxiv.org/abs/2602.00401) — 2026-02
 - [Learning to Get Up Across Morphologies: Zero-Shot Recovery with a Unified Humanoid Policy](https://arxiv.org/abs/2512.12230) — 2025-12
-
-## Dataset (7)
-
-- 🌟 [CLAW: Composable Language-Annotated Whole-body Motion Generation](https://arxiv.org/abs/2604.11251) — 2026-04
-- [Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality](https://arxiv.org/abs/2603.05993) — 2026-03
-- [A Humanoid Visual-Tactile-Action Dataset for Contact-Rich Manipulation](https://arxiv.org/abs/2510.25725) — 2025-10
-- [PHUMA: Physically-Grounded Humanoid Locomotion Dataset](https://arxiv.org/abs/2510.26236) — 2025-10
-- [Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation](https://arxiv.org/abs/2510.08807) — 2025-10
 
 ## Safety (7)
 
@@ -270,6 +270,12 @@ Browse papers by research topic and methodology.
 - [EgoMI: Learning Active Vision and Whole-Body Manipulation from Egocentric Human Demonstrations](https://arxiv.org/abs/2511.00153) — 2025-11
 - [Vision in Action: Learning Active Perception from Human Demonstrations](https://arxiv.org/abs/2506.15666) — 2025-06
 
+## Impact (3)
+
+- [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — 2026-04
+- [Unveiling the Impact of Data and Model Scaling on High-Level Control for Humanoid Robots](https://arxiv.org/abs/2511.09241) — 2025-11
+- [High-Speed and Impact Resilient Teleoperation of Humanoid Robots](https://arxiv.org/abs/2409.04639) — 2024-09
+
 ## Motion Planning (3)
 
 - [Task and Motion Planning for Humanoid Loco-manipulation](https://arxiv.org/abs/2508.14099) — 2025-08
@@ -286,6 +292,11 @@ Browse papers by research topic and methodology.
 - [PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots](https://arxiv.org/abs/2605.17681) — 2026-05
 - [Towards Proprioception-Aware Embodied Planning for Dual-Arm Humanoid Robots](https://arxiv.org/abs/2510.07882) — 2025-10
 
+## Contact Dynamics (2)
+
+- [PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots](https://arxiv.org/abs/2605.17681) — 2026-05
+- [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — 2026-04
+
 ## Diffusion Policy (2)
 
 - [HCLM: A Hierarchical Framework for Cooperative Loco-Manipulation with Dual Quadrupeds](https://arxiv.org/abs/2605.17300) — 2026-05
@@ -295,11 +306,6 @@ Browse papers by research topic and methodology.
 
 - [Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy](https://arxiv.org/abs/2605.15517) — 2026-05
 - [Full-Order Sampling-Based MPC for Torque-Level Locomotion Control via Diffusion-Style Annealing](https://arxiv.org/abs/2409.15610) — 2024-09
-
-## Impact (2)
-
-- [Unveiling the Impact of Data and Model Scaling on High-Level Control for Humanoid Robots](https://arxiv.org/abs/2511.09241) — 2025-11
-- [High-Speed and Impact Resilient Teleoperation of Humanoid Robots](https://arxiv.org/abs/2409.04639) — 2024-09
 
 ## Residual Learning (2)
 
@@ -320,10 +326,6 @@ Browse papers by research topic and methodology.
 
 - 🌟 [CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control](https://arxiv.org/abs/2410.03441) — 2024-10
 - [Multi-task Deep Reinforcement Learning with PopArt](https://arxiv.org/abs/1809.04474) — 2018-09
-
-## Contact Dynamics (1)
-
-- [PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots](https://arxiv.org/abs/2605.17681) — 2026-05
 
 ## Friction (1)
 

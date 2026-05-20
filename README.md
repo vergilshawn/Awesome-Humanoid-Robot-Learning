@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 476
-- **Real Robot Papers:** 11
+- **Total Papers:** 477
+- **Real Robot Papers:** 12
 - **Open Source Papers:** 118
 
 🌟 indicates papers with detected project/code links.
@@ -13,7 +13,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (171)
 - [Manipulation](#manipulation) (49)
 - [Teleoperation](#teleoperation) (20)
-- [Locomotion](#locomotion) (95)
+- [Locomotion](#locomotion) (96)
 - [Navigation](#navigation) (17)
 - [State Estimation](#state-estimation) (9)
 - [Sim-to-Real](#sim-to-real) (11)
@@ -454,6 +454,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-04
 
+- [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Contact Dynamics`, `Impact`, `Dataset`
 - [Learning Humanoid Navigation from Human Data](https://arxiv.org/abs/2604.00416), [website](https://egonav.weizhuowang.com) — `Navigation`, `Zero-Shot`, `Humanoid`, `Walking`, `Diffusion`, `Locomotion`
 
 ### 2026-03

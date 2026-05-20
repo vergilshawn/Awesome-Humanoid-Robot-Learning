@@ -1,11 +1,11 @@
 # Locomotion
 
-**95 papers** in this category.
+**96 papers** in this category.
 
 ## Months
 
 - [2026-05](/locomotion/2026-05) (2 papers)
-- [2026-04](/locomotion/2026-04) (1 papers)
+- [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (1 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
 - [2026-01](/locomotion/2026-01) (4 papers)
@@ -72,6 +72,28 @@ We propose a unified reinforcement learning framework that enables a single poli
 ### Summary
 
 We present a method for training reference-guided, perceptive reinforcement learning locomotion policies for humanoid robots in which reference trajectories are modulated in training to be consistent with terrain geometry. Aiming to deploy our method with standard navigation autonomy infrastructure, we synthesize SE(2)-controllable reference trajectories inside the RL training loop, projecting desired footsteps onto valid footholds and adjusting swing-foot and center-of-mass trajectories to match the terrain.
+
+---
+
+## QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.23702)
+- **Authors:** Hanze Hu, Luying Feng, Silu Chen, Tianjiang Zheng, Dexin Jiang, Wei Chen et al. (9 authors)
+- **Published:** 2026-04
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Contact Dynamics
+  - Impact
+  - Dataset
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid robots operating in human-centered environments (e.g., homes, hospitals, and offices) must mitigate foot--ground impact transients, as impact-induced vibration and noise degrade user experience and repeated impacts accelerate hardware wear. However, existing low-noise locomotion training often relies on kinematic proxy objectives or fragile force sensors, and footwear-induced changes in contact dynamics introduce distribution shifts that hinder policy generalization.
 
 ---
 
@@ -323,20 +345,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.23650)
-- **Published:** 2025-12
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2512.23649)
 - **Published:** 2025-12
 - **Tags:**
   - Locomotion

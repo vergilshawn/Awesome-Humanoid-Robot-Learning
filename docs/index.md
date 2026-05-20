@@ -8,8 +8,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 476
-- **Real Robot Papers:** 11
+- **Total Papers:** 477
+- **Real Robot Papers:** 12
 - **Open Source Papers:** 118
 - **Latest Month:** 2026-05
 
@@ -18,7 +18,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (171)
 - [Manipulation](/manipulation/) (49)
 - [Teleoperation](/teleoperation/) (20)
-- [Locomotion](/locomotion/) (95)
+- [Locomotion](/locomotion/) (96)
 - [Navigation](/navigation/) (17)
 - [State Estimation](/state-estimation/) (9)
 - [Sim-to-Real](/sim-to-real/) (11)
@@ -43,29 +43,29 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios](https://arxiv.org/abs/2605.15122) — 2026-05
   - [State Estimation](/state-estimation/)
+-  🤖 [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — 2026-04
+  - [Locomotion](/locomotion/)
 -  🤖 [A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models](https://arxiv.org/abs/2604.17258) — 2026-04
   - [Physics-Based Character Animation](/physics-based-character-animation/)
 -  🤖 [Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking](https://arxiv.org/abs/2604.17335) — 2026-04
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 - 🌟 🤖 [CLAW: Composable Language-Annotated Whole-body Motion Generation](https://arxiv.org/abs/2604.11251) — 2026-04
   - [Simulation Benchmark](/simulation-benchmark/)
--  [Safe Human-to-Humanoid Motion Imitation Using Control Barrier Functions](https://arxiv.org/abs/2604.11447) — 2026-04
-  - [Teleoperation](/teleoperation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (340)
+- **Humanoid** (341)
 - **Loco-Manipulation and Whole-Body Control** (174)
-- **Locomotion** (117)
+- **Locomotion** (118)
 - **Manipulation** (103)
-- **Physics-Based Character Animation** (37)
+- **Physics-Based Character Animation** (38)
 - **Whole-Body Control** (33)
 - **Hardware Design** (32)
-- **Reinforcement Learning** (30)
+- **Reinforcement Learning** (31)
 - **Teleoperation** (30)
-- **Simulation Benchmark** (27)
+- **Simulation Benchmark** (28)
 - **Human Motion Analysis and Synthesis** (24)
 - **Navigation** (22)
 - **Diffusion** (19)
@@ -75,11 +75,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Biped** (10)
 - **Vision-Language** (10)
 - **Benchmark** (9)
+- **Dataset** (8)
 - **Imitation Learning** (8)
 - **Walking** (7)
 - **Collision** (7)
 - **Zero-Shot** (7)
-- **Dataset** (7)
 - **Safety** (7)
 - **Distillation** (7)
 - **World Model** (7)
@@ -520,6 +520,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-04](/locomotion/2026-04)
 
+- [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Contact Dynamics`, `Impact`, `Dataset`
 - [Learning Humanoid Navigation from Human Data](https://arxiv.org/abs/2604.00416), [website](https://egonav.weizhuowang.com) — `Navigation`, `Zero-Shot`, `Humanoid`, `Walking`, `Diffusion`, `Locomotion`
 
 #### [2026-03](/locomotion/2026-03)

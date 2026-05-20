@@ -218,6 +218,46 @@
     "primary_category": "State Estimation"
   },
   {
+    "arxiv_id": "2604.23702",
+    "title": "QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear",
+    "paper_url": "https://arxiv.org/abs/2604.23702",
+    "project_url": null,
+    "authors": [
+      "Hanze Hu",
+      "Luying Feng",
+      "Silu Chen",
+      "Tianjiang Zheng",
+      "Dexin Jiang",
+      "Wei Chen",
+      "Chi Zhang",
+      "Guilin Yang",
+      "Yaochu Jin"
+    ],
+    "published": "2026-04",
+    "published_date": "2026-04-26",
+    "abstract": "Humanoid robots operating in human-centered environments (e.g., homes, hospitals, and offices) must mitigate foot--ground impact transients, as impact-induced vibration and noise degrade user experience and repeated impacts accelerate hardware wear. However, existing low-noise locomotion training often relies on kinematic proxy objectives or fragile force sensors, and footwear-induced changes in contact dynamics introduce distribution shifts that hinder policy generalization. We present QuietWalk, a physics-informed reinforcement learning framework for ground-reaction-force-aware humanoid locomotion under diverse footwear conditions. QuietWalk employs an inverse-dynamics-constrained physics-informed neural network (PINN) to estimate per-foot vertical ground reaction forces (GRFs) from proprioceptive signals, and integrates the frozen predictor into the RL training loop to penalize predicted impact forces without requiring force sensors at deployment. On a held-out real-robot dataset, enforcing inverse-dynamics consistency reduces vertical GRF prediction errors by 82%-86% compared with a purely supervised predictor and improves the coefficient of determination from 0.39/0.67 to 0.99/0.99 for the left/right feet. On hardware at 1.2 m/s (barefoot; averaged over four floor materials), QuietWalk reduces mean A-weighted noise level by 7.17 dB and peak noise level by 4.98 dB under a consistent recording setup. Cross-footwear experiments across multiple surfaces further demonstrate robust adaptation to footwear-induced contact variations.",
+    "categories": [
+      "Locomotion",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Contact Dynamics",
+      "Impact",
+      "Dataset",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2604.17258",
     "title": "A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models",
     "paper_url": "https://arxiv.org/abs/2604.17258",

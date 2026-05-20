@@ -46,7 +46,7 @@ jobs:
         run: npm ci
 
       - name: Run daily paper update pipeline
-        run: python scripts/update_daily.py --days 3
+        run: python scripts/update_daily.py --days 10
 
       - name: Build VitePress site
         run: npm run docs:build

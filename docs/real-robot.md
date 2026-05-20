@@ -5,7 +5,7 @@ Papers with real humanoid robot deployment and experiments.
 ## Platforms
 
 - **Figure:** 1 papers
-- **Unitree G1:** 9 papers
+- **Unitree G1:** 10 papers
 - **Unknown Platform:** 1 papers
 
 ---
@@ -92,6 +92,28 @@ We present a method for training reference-guided, perceptive reinforcement lear
 ### Summary
 
 In this report, we present HoloMotion-1, a humanoid motion foundation model for zero-shot whole-body motion tracking. A key innovation of HoloMotion-1 is to scale control-policy training with a large-scale hybrid motion corpus, where video-reconstructed motions from in-the-wild videos provide the dominant source of motion diversity, while curated motion-capture and in-house motion data provide higher-fidelity supervision and deployment-oriented coverage.
+
+---
+
+## QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.23702)
+- **Authors:** Hanze Hu, Luying Feng, Silu Chen, Tianjiang Zheng, Dexin Jiang, Wei Chen et al. (9 authors)
+- **Published:** 2026-04
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Contact Dynamics
+  - Impact
+  - Dataset
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid robots operating in human-centered environments (e.g., homes, hospitals, and offices) must mitigate foot--ground impact transients, as impact-induced vibration and noise degrade user experience and repeated impacts accelerate hardware wear. However, existing low-noise locomotion training often relies on kinematic proxy objectives or fragile force sensors, and footwear-induced changes in contact dynamics introduce distribution shifts that hinder policy generalization.
 
 ---
 
