@@ -69,7 +69,7 @@ def run_daily_update(
 ) -> list[Paper]:
     config = copy.deepcopy(load_config())
     config["arxiv"]["request_delay"] = request_delay
-    config["arxiv"]["fail_on_category_error"] = True
+    config["arxiv"]["fail_on_category_error"] = False
     if max_results is not None:
         config["arxiv"]["max_results_per_category"] = max_results
 
@@ -82,9 +82,35 @@ def run_daily_update(
     logger.info(f"Loaded {len(existing)} existing papers from data/papers.json")
 
     candidates_by_id: dict[str, Paper] = {}
+    successful_days: set[date] = set()
+    failed_days: list[date] = []
     for day in days:
-        for paper in fetch_one_day(config, day):
+        try:
+            day_papers = fetch_one_day(config, day)
+        except Exception as exc:
+            failed_days.append(day)
+            logger.warning(f"Skipping {day.isoformat()} because every arXiv query failed: {exc}")
+            continue
+
+        successful_days.add(day)
+        for paper in day_papers:
             candidates_by_id[paper.arxiv_id] = paper
+
+    if not successful_days:
+        logger.warning("No daily arXiv windows could be fetched successfully; keeping existing data unchanged")
+        if dry_run:
+            return sorted(existing.values(), key=lambda p: p.published_date or date.min, reverse=True)
+
+        merged = sorted(existing.values(), key=lambda p: p.published_date or date.min, reverse=True)
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        save_papers(merged)
+        save_summary_files(merged)
+        generate_all_markdown(merged)
+        generate_all_vitepress(merged)
+        return merged
+    if failed_days:
+        failed = ", ".join(day.isoformat() for day in failed_days)
+        logger.warning(f"Kept existing papers for failed day(s): {failed}")
 
     candidates = sorted(
         candidates_by_id.values(),
@@ -98,8 +124,11 @@ def run_daily_update(
     relevant = detect_project_links(relevant, config)
     relevant = detect_real_robot(relevant, config)
 
-    merged = replace_days(existing, relevant, set(days))
-    logger.info(f"Replacing {len(days)} day(s): {len(relevant)} papers; total after merge: {len(merged)}")
+    merged = replace_days(existing, relevant, successful_days)
+    logger.info(
+        f"Replacing {len(successful_days)} fetched day(s): "
+        f"{len(relevant)} papers; total after merge: {len(merged)}"
+    )
 
     if dry_run:
         logger.info("DRY RUN - skipping save/generation")
@@ -116,6 +145,8 @@ def run_daily_update(
     logger.info("=" * 60)
     logger.info("Daily update complete")
     logger.info(f"  Range: {start} to {end}")
+    logger.info(f"  Fetched days: {len(successful_days)}")
+    logger.info(f"  Failed days kept unchanged: {len(failed_days)}")
     logger.info(f"  Updated papers: {len(relevant)}")
     logger.info(f"  Total papers: {len(merged)}")
     logger.info("=" * 60)
