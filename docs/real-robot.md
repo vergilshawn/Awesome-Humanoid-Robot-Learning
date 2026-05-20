@@ -205,9 +205,10 @@ RoboForge bridges natural language and whole-body humanoid locomotion through a 
 
 ---
 
-## ZeroWBC: Learning Natural Visuomotor Humanoid Control Directly from Human Egocentric Video
+## 🌟 ZeroWBC: Learning Natural Visuomotor Humanoid Control Directly from Human Egocentric Video
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2603.09170)
+- **Project:** [GitHub](https://zerowbc.github.io/)
 - **Authors:** Haoran Yang, Jiacheng Bao, Yucheng Xin, Haoming Song, Yuyang Tian, Bin Zhao et al. (8 authors)
 - **Published:** 2026-03
 - **Real Robot:** ✅ — Unitree G1

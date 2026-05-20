@@ -1,12 +1,36 @@
 # Locomotion
 
-**4 papers** in this category.
+**95 papers** in this category.
 
 ## Months
 
 - [2026-05](/locomotion/2026-05) (2 papers)
 - [2026-04](/locomotion/2026-04) (1 papers)
 - [2026-03](/locomotion/2026-03) (1 papers)
+- [2026-02](/locomotion/2026-02) (10 papers)
+- [2026-01](/locomotion/2026-01) (4 papers)
+- [2025-12](/locomotion/2025-12) (10 papers)
+- [2025-11](/locomotion/2025-11) (1 papers)
+- [2025-10](/locomotion/2025-10) (7 papers)
+- [2025-09](/locomotion/2025-09) (6 papers)
+- [2025-08](/locomotion/2025-08) (7 papers)
+- [2025-07](/locomotion/2025-07) (3 papers)
+- [2025-06](/locomotion/2025-06) (5 papers)
+- [2025-05](/locomotion/2025-05) (9 papers)
+- [2025-04](/locomotion/2025-04) (5 papers)
+- [2025-03](/locomotion/2025-03) (6 papers)
+- [2025-02](/locomotion/2025-02) (4 papers)
+- [2024-11](/locomotion/2024-11) (2 papers)
+- [2024-10](/locomotion/2024-10) (2 papers)
+- [2024-08](/locomotion/2024-08) (1 papers)
+- [2024-06](/locomotion/2024-06) (1 papers)
+- [2024-04](/locomotion/2024-04) (1 papers)
+- [2024-02](/locomotion/2024-02) (2 papers)
+- [2024-01](/locomotion/2024-01) (1 papers)
+- [2023-09](/locomotion/2023-09) (1 papers)
+- [2023-07](/locomotion/2023-07) (1 papers)
+- [2023-03](/locomotion/2023-03) (1 papers)
+- [2023-02](/locomotion/2023-02) (1 papers)
 
 ---
 
@@ -90,5 +114,236 @@ EgoNav enables a humanoid robot to traverse diverse unseen environments by learn
 ### Summary
 
 Safe omnidirectional humanoid locomotion on stairs requires terrain perception and reliable foothold selection. This paper introduces a single-stage training framework with a dense unsafe stepping penalty and a rolling sparse LiDAR point-cloud elevation mapping system.
+
+---
+
+## Biomechanical Comparisons Reveal Divergence of Human and Humanoid Gaits
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.21666)
+- **Published:** 2026-02
+- **Tags:**
+  - Humanoid
+  - Gait
+  - Locomotion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## 🌟 APEX: Learning Adaptive High-Platform Traversal for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.11143)
+- **Project:** [GitHub](https://apex-humanoid.github.io/)
+- **Published:** 2026-02
+- **Tags:**
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## 🌟 ECO: Energy-Constrained Optimization with Reinforcement Learning for Humanoid Walking,  / [code](https://github.com/bigai-ai/ECO-humanoid)
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.06445)
+- **Project:** [GitHub](https://sites.google.com/view/eco-humanoid)
+- **Published:** 2026-02
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Walking
+  - Locomotion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Now You See That: Learning End-to-End Humanoid Locomotion from Raw Pixels
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.06382)
+- **Published:** 2026-02
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## A Hybrid Autoencoder for Robust Heightmap Generation from Fused Lidar and Depth Data for Humanoid Robot Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.05855)
+- **Published:** 2026-02
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Scalable and General Whole-Body Control for Cross-Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.05791)
+- **Published:** 2026-02
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## HoRD: Robust Humanoid Control via History-Conditioned Reinforcement Learning and Online Distillation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.04412)
+- **Published:** 2026-02
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Distillation
+  - Locomotion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## CMR: Contractive Mapping Embeddings for Robust Humanoid Locomotion on Unstructured Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.03511)
+- **Published:** 2026-02
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## RPL: Learning Robust Humanoid Perceptive Locomotion on Challenging Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.03002)
+- **Published:** 2026-02
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Toward Reliable Sim-to-Real Predictability for MoE-based Robust Quadrupedal Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.00678)
+- **Published:** 2026-02
+- **Tags:**
+  - Sim-to-Real
+  - Locomotion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## FastStair: Learning to Run Up Stairs with Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2601.10365)
+- **Published:** 2026-01
+- **Tags:**
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## AME-2: Agile and Generalized Legged Locomotion via Attention-Based Neural Map Encoding
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2601.08485)
+- **Published:** 2026-01
+- **Tags:**
+  - Locomotion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Walk the PLANC: Physics-Guided RL for Agile Humanoid Locomotion on Constrained Footholds
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2601.06286)
+- **Published:** 2026-01
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## SKATER: Synthesized Kinematics for Advanced Traversing Efficiency on a Humanoid Robot via Roller Skate Swizzles
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2601.04948)
+- **Published:** 2026-01
+- **Tags:**
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2512.23650)
+- **Published:** 2025-12
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2512.23649)
+- **Published:** 2025-12
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
 
 ---

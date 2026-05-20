@@ -90,8 +90,11 @@ def classify_papers(papers: list[Paper], config: Optional[dict] = None) -> list[
         config = load_config()
 
     for paper in papers:
-        paper.categories = classify_paper(paper, config)
-        paper.primary_category = choose_primary_category(paper, config)
+        if not paper.abstract and paper.categories:
+            paper.primary_category = paper.primary_category or paper.categories[0]
+        else:
+            paper.categories = classify_paper(paper, config)
+            paper.primary_category = choose_primary_category(paper, config)
         paper.tags = tag_paper(paper, config)
         logger.debug(f"  {paper.title[:60]}... -> {paper.primary_category} ({paper.categories})")
 

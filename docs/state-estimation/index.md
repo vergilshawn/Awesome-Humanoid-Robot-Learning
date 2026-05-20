@@ -1,10 +1,16 @@
 # State Estimation
 
-**2 papers** in this category.
+**9 papers** in this category.
 
 ## Months
 
 - [2026-05](/state-estimation/2026-05) (2 papers)
+- [2025-11](/state-estimation/2025-11) (2 papers)
+- [2025-07](/state-estimation/2025-07) (1 papers)
+- [2022-07](/state-estimation/2022-07) (1 papers)
+- [2019-04](/state-estimation/2019-04) (1 papers)
+- [2017-05](/state-estimation/2017-05) (1 papers)
+- [2014-10](/state-estimation/2014-10) (1 papers)
 
 ---
 
@@ -46,5 +52,98 @@ Humanoid and legged robots interact with the environment through intermittent co
 ### Summary
 
 Robust state estimation for highly dynamic motion of legged robots remains challenging, especially in dynamic, contact-rich scenarios. Traditional approaches often rely on binary contact states that fail to capture the nuances of partial contact or directional slippage.
+
+---
+
+## AutoOdom: Learning Auto-regressive Proprioceptive Odometry for Legged Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2511.18857)
+- **Published:** 2025-11
+- **Tags:**
+  - Locomotion
+  - State Estimation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## InEKFormer: A Hybrid State Estimator for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2511.16306)
+- **Published:** 2025-11
+- **Tags:**
+  - Humanoid
+  - State Estimation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Physics-Informed Neural Networks with Unscented Kalman Filter for Sensorless Joint Torque Estimation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2507.10105)
+- **Published:** 2025-07
+- **Tags:**
+  - State Estimation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## An Empirical Evaluation of Four Off-the-Shelf Proprietary Visual-Inertial Odometry Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2207.06780)
+- **Published:** 2022-07
+- **Tags:**
+  - State Estimation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Contact-Aided Invariant Extended Kalman Filtering for Robot State Estimation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/1904.09251)
+- **Published:** 2019-04
+- **Tags:**
+  - State Estimation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Legged Robot State-Estimation Through Combined Forward Kinematic and Preintegrated Contact Factors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/1712.05873)
+- **Published:** 2017-05
+- **Tags:**
+  - State Estimation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## The invariant extended Kalman filter as a stable observer
+
+- **Paper:** [arXiv](https://arxiv.org/abs/1410.1465)
+- **Published:** 2014-10
+- **Tags:**
+  - State Estimation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
 
 ---

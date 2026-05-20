@@ -63,7 +63,11 @@ def merge_papers(existing: dict[str, Paper], new_papers: list[Paper]) -> list[Pa
     return sorted(merged.values(), key=lambda p: p.published_date or date.min, reverse=True)
 
 
-def run_pipeline(fetch_new: bool = False, dry_run: bool = False) -> list[Paper]:
+def run_pipeline(
+    fetch_new: bool = False,
+    dry_run: bool = False,
+    skip_detection: bool = False,
+) -> list[Paper]:
     """Run the full paper processing pipeline.
 
     Args:
@@ -100,13 +104,15 @@ def run_pipeline(fetch_new: bool = False, dry_run: bool = False) -> list[Paper]:
     logger.info("Classifying papers...")
     relevant = classify_papers(relevant, config)
 
-    # Step 5: Detect project links
-    logger.info("Detecting open-source project links...")
-    relevant = detect_project_links(relevant, config)
+    # Step 5/6: Detect project links and real robot experiments
+    if skip_detection:
+        logger.info("Skipping project-link and real-robot detection")
+    else:
+        logger.info("Detecting open-source project links...")
+        relevant = detect_project_links(relevant, config)
 
-    # Step 6: Detect real robot experiments
-    logger.info("Detecting real robot experiments...")
-    relevant = detect_real_robot(relevant, config)
+        logger.info("Detecting real robot experiments...")
+        relevant = detect_real_robot(relevant, config)
 
     if dry_run:
         logger.info("DRY RUN — skipping save/generation")
@@ -155,6 +161,11 @@ def main():
     parser = argparse.ArgumentParser(description="Update the humanoid robot learning paper portal")
     parser.add_argument("--fetch", action="store_true", help="Force fetch new papers from arXiv")
     parser.add_argument("--dry-run", action="store_true", help="Dry run without saving")
+    parser.add_argument(
+        "--skip-detection",
+        action="store_true",
+        help="Skip network-based project-link and real-robot detection",
+    )
     args = parser.parse_args()
 
     logging.basicConfig(
@@ -164,7 +175,7 @@ def main():
     )
 
     try:
-        run_pipeline(fetch_new=args.fetch, dry_run=args.dry_run)
+        run_pipeline(fetch_new=args.fetch, dry_run=args.dry_run, skip_detection=args.skip_detection)
     except Exception as e:
         logger.exception(f"Pipeline failed: {e}")
         sys.exit(1)

@@ -100,6 +100,8 @@ def format_paper_entry(paper: Paper) -> str:
     lines.append("")
     if paper.summary:
         lines.append(paper.summary)
+    elif not paper.abstract:
+        lines.append("Summary unavailable. This entry was imported from a curated paper list.")
     else:
         # Use first 2 sentences of abstract as summary
         abstract = paper.abstract

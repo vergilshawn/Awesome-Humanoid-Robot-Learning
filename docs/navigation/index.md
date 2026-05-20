@@ -1,10 +1,268 @@
 # Navigation
 
-**0 papers** in this category.
+**17 papers** in this category.
 
 ## Months
 
+- [2026-02](/navigation/2026-02) (1 papers)
+- [2026-01](/navigation/2026-01) (1 papers)
+- [2025-12](/navigation/2025-12) (1 papers)
+- [2025-11](/navigation/2025-11) (2 papers)
+- [2025-09](/navigation/2025-09) (1 papers)
+- [2025-08](/navigation/2025-08) (4 papers)
+- [2025-07](/navigation/2025-07) (1 papers)
+- [2025-06](/navigation/2025-06) (1 papers)
+- [2025-05](/navigation/2025-05) (1 papers)
+- [2025-03](/navigation/2025-03) (1 papers)
+- [2024-12](/navigation/2024-12) (2 papers)
+- [2023-10](/navigation/2023-10) (1 papers)
 
 ---
 
 ## Recent Papers
+
+## EgoActor: Grounding Task Planning into Spatial-aware Egocentric Actions for Humanoid Robots via Visual-Language Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.04515)
+- **Published:** 2026-02
+- **Tags:**
+  - Humanoid
+  - Task Planning
+  - Navigation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## FocusNav: Spatial Selective Attention with Waypoint Guidance for Humanoid Local Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2601.12790)
+- **Published:** 2026-01
+- **Tags:**
+  - Navigation
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## 🌟 STATE-NAV: Stability-Aware Traversability Estimation for Bipedal Navigation on Rough Terrain / [code](https://github.com/yzwfromk/STATE-NAV)
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2506.01046)
+- **Published:** 2025-12
+- **Tags:**
+  - Navigation
+  - Biped
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Thinking in 360: Humanoid Visual Search in the Wild
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2511.20351)
+- **Published:** 2025-11
+- **Tags:**
+  - Humanoid
+  - Navigation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2511.14625)
+- **Published:** 2025-11
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Quantum deep reinforcement learning for humanoid robot navigation task
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2509.11388)
+- **Published:** 2025-09
+- **Tags:**
+  - Reinforcement Learning
+  - Navigation
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Learning Social Navigation from Positive and Negative Demonstrations and Rule-Based Specifications
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2508.06779)
+- **Published:** 2025-08
+- **Tags:**
+  - Navigation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## LookOut: Real-World Humanoid Egocentric Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2508.14466)
+- **Published:** 2025-08
+- **Tags:**
+  - Navigation
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## INTENTION: Inferring Tendencies of Humanoid Robot Motion Through Interactive Intuition and Grounded VLM
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2508.04931)
+- **Published:** 2025-08
+- **Tags:**
+  - Humanoid
+  - Navigation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Hand-Eye Autonomous Delivery: Learning Humanoid Navigation, Locomotion and Reaching
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2508.03068)
+- **Published:** 2025-08
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Humanoid Occupancy: Enabling A Generalized Multimodal Occupancy Perception System on Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2507.20217)
+- **Published:** 2025-07
+- **Tags:**
+  - Humanoid
+  - Navigation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## RL with Data Bootstrapping for Dynamic Subgoal Pursuit in Humanoid Robot Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2506.02206)
+- **Published:** 2025-06
+- **Tags:**
+  - Navigation
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2505.08712)
+- **Published:** 2025-05
+- **Tags:**
+  - Diffusion Policy
+  - Sim-to-Real
+  - Navigation
+  - Diffusion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## HumanoidPano: Hybrid Spherical Panoramic-LiDAR Cross-Modal Perception for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2503.09010)
+- **Published:** 2025-03
+- **Tags:**
+  - Humanoid
+  - Navigation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## 🌟 **NaVILA**: Legged Robot Vision-Language-Action Model for Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2412.04453)
+- **Project:** [GitHub](https://navila-bot.github.io/)
+- **Published:** 2024-12
+- **Tags:**
+  - Navigation
+  - Vision-Language
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## ARMOR: Egocentric Perception for Humanoid Robot Collision Avoidance and Motion Planning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2412.00396)
+- **Published:** 2024-12
+- **Tags:**
+  - Humanoid
+  - Collision
+  - Motion Planning
+  - Navigation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2310.07896)
+- **Published:** 2023-10
+- **Tags:**
+  - Navigation
+  - Diffusion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---

@@ -61,6 +61,11 @@ def filter_papers(papers: list[Paper], config: Optional[dict] = None) -> list[Pa
     relevant = []
 
     for paper in papers:
+        if not paper.abstract and paper.categories:
+            logger.info(f"  KEEP [curated] {paper.title[:80]}...")
+            relevant.append(paper)
+            continue
+
         score, matched = compute_relevance_score(paper.title, paper.abstract, config)
         if score >= threshold:
             logger.info(f"  KEEP [{score:.1f}] {paper.title[:80]}... (matched: {matched})")
