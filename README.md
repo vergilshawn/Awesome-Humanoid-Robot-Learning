@@ -1,33 +1,88 @@
 # Awesome-Humanoid-Robot-Learning
 
-A modern static academic navigation website for humanoid robot learning research. Automatically collects, organizes, classifies, and presents newly released humanoid robotics papers from arXiv.
+A curated and automatically updated collection of humanoid robot learning research papers.
 
-**Live site:** [https://<username>.github.io/Awesome-Humanoid-Robot-Learning/](https://<username>.github.io/Awesome-Humanoid-Robot-Learning/)
+- **Total Papers:** 3
+- **Real Robot Papers:** 2
+- **Open Source Papers:** 0
 
-## Features
+🌟 indicates papers with detected project/code links.
 
-- Daily automatic paper fetching from arXiv
-- Wider arXiv search with category and humanoid-topic queries
-- Multi-label tagging with single best-category directory placement
-- Full-text search via VitePress
-- Real robot experiment detection
-- Open-source code detection
-- Tag-based filtering
-- Month-based paper organization
-- Clean, modern academic UI with dark mode
+## Contents
 
-## Quick Start
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (1)
+- [Manipulation](#manipulation) (0)
+- [Teleoperation](#teleoperation) (0)
+- [Locomotion](#locomotion) (1)
+- [Navigation](#navigation) (0)
+- [State Estimation](#state-estimation) (1)
+- [Sim-to-Real](#sim-to-real) (0)
+- [Hardware Design](#hardware-design) (0)
+- [Simulation Benchmark](#simulation-benchmark) (0)
+- [Physics-Based Character Animation](#physics-based-character-animation) (0)
+- [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (0)
+- [Usage](#usage)
+
+---
+
+## Loco-Manipulation and Whole-Body Control
+
+### 2026-05
+
+- [HoloMotion-1 Technical Report](https://arxiv.org/abs/2605.15336) — `Transformer`, `Zero-Shot`, `Humanoid`, `Foundation Model`, `Fine-tuning`, `Benchmark`
+
+## Manipulation
+
+- No papers yet.
+
+## Teleoperation
+
+- No papers yet.
+
+## Locomotion
+
+### 2026-05
+
+- [Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy](https://arxiv.org/abs/2605.15517) — `Reinforcement Learning`, `MPC`, `Locomotion`, `Navigation`, `Humanoid`, `State Estimation`
+
+## Navigation
+
+- No papers yet.
+
+## State Estimation
+
+### 2026-05
+
+- [CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios](https://arxiv.org/abs/2605.15122) — `State Estimation`, `Biped`, `Locomotion`, `Simulation Benchmark`
+
+## Sim-to-Real
+
+- No papers yet.
+
+## Hardware Design
+
+- No papers yet.
+
+## Simulation Benchmark
+
+- No papers yet.
+
+## Physics-Based Character Animation
+
+- No papers yet.
+
+## Human Motion Analysis and Synthesis
+
+- No papers yet.
+
+---
+
+## Usage
 
 ```bash
 # Install dependencies
 pip install -r requirements.txt
 npm install
-
-# Run the full pipeline
-python scripts/update_repo.py
-
-# Update only the current month (lighter on arXiv API limits)
-python scripts/update_current_month.py
 
 # Update recent papers with daily arXiv windows
 python scripts/update_daily.py --days 7
@@ -35,55 +90,6 @@ python scripts/update_daily.py --days 7
 # Preview the website
 npm run docs:dev
 ```
-
-## How It Works
-
-1. **fetch_arxiv.py** — Fetches new papers from arXiv categories and configured humanoid-topic queries
-2. **semantic_filter.py** — Filters papers by relevance to humanoid robotics
-3. **classify_papers.py** — Multi-label classification into research categories
-4. **detect_project_links.py** — Detects GitHub/HuggingFace project pages
-5. **detect_real_robot.py** — Detects papers with real robot experiments
-6. **generate_markdown.py** — Generates structured markdown pages
-7. **generate_vitepress.py** — Generates VitePress config, sidebar, and navbar
-8. **update_repo.py** — Orchestrates the full pipeline
-9. **update_current_month.py** — Fetches only the current month and replaces only that month in the generated dataset
-10. **update_daily.py** — Fetches one day or a day range with small arXiv windows, then replaces only those days
-
-## Updating Without Hitting arXiv Limits
-
-Prefer daily windows for high-recall routine updates:
-
-```bash
-python scripts/update_daily.py --days 7
-```
-
-This splits the update into one-day `submittedDate` windows. It reduces arXiv result truncation, makes each request smaller, and lets the project run more frequently without re-scanning the whole month.
-
-Use the monthly updater when you want to refresh a complete month:
-
-```bash
-python scripts/update_current_month.py
-```
-
-It queries arXiv with a `submittedDate` range for the current month, waits longer between requests, and aborts without writing files if any configured query fails. To refresh a specific month:
-
-```bash
-python scripts/update_current_month.py --month 2026-05
-```
-
-## Categories
-
-- Loco-Manipulation and Whole-Body Control
-- Manipulation
-- Teleoperation
-- Locomotion
-- Navigation
-- State Estimation
-- Sim-to-Real
-- Hardware Design
-- Simulation Benchmark
-- Physics-Based Character Animation
-- Human Motion Analysis and Synthesis
 
 ## License
 

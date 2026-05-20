@@ -20,6 +20,7 @@ PROJECT_ROOT = SCRIPTS_DIR.parent
 CONFIG_PATH = SCRIPTS_DIR / "config.yaml"
 DATA_DIR = PROJECT_ROOT / "data"
 DOCS_DIR = PROJECT_ROOT / "docs"
+README_PATH = PROJECT_ROOT / "README.md"
 
 CATEGORY_KEY_MAP = {
     "Loco-Manipulation and Whole-Body Control": "loco-manipulation-and-whole-body-control",
@@ -184,6 +185,96 @@ def append_homepage_directory_index(lines: list[str], papers: list[Paper]) -> No
             for paper in month_papers:
                 lines.append(f"- {format_compact_paper_link(paper)}")
             lines.append("")
+
+
+def grouped_primary_category_papers(papers: list[Paper]) -> dict[str, list[Paper]]:
+    """Group papers by the single directory category used for browsing."""
+    cat_papers = defaultdict(list)
+    for paper in papers:
+        cat_papers[paper.primary_category].append(paper)
+    return cat_papers
+
+
+def generate_readme(papers: list[Paper]) -> None:
+    """Generate the GitHub repository homepage README."""
+    cat_papers = grouped_primary_category_papers(papers)
+    total_count = len(papers)
+    real_count = sum(1 for paper in papers if paper.real_robot)
+    open_count = sum(1 for paper in papers if paper.open_source)
+
+    lines = [
+        "# Awesome-Humanoid-Robot-Learning",
+        "",
+        "A curated and automatically updated collection of humanoid robot learning research papers.",
+        "",
+        f"- **Total Papers:** {total_count}",
+        f"- **Real Robot Papers:** {real_count}",
+        f"- **Open Source Papers:** {open_count}",
+        "",
+        "🌟 indicates papers with detected project/code links.",
+        "",
+        "## Contents",
+        "",
+    ]
+
+    for cat_name in CATEGORY_KEY_MAP:
+        count = len(cat_papers.get(cat_name, []))
+        lines.append(f"- [{cat_name}](#{cat_name.lower().replace(' ', '-').replace('&', '').replace('/', '').replace('--', '-')}) ({count})")
+
+    lines.extend([
+        "- [Usage](#usage)",
+        "",
+        "---",
+        "",
+    ])
+
+    for cat_name in CATEGORY_KEY_MAP:
+        cp_list = sorted(
+            cat_papers.get(cat_name, []),
+            key=lambda p: p.published_date or date.min,
+            reverse=True,
+        )
+        lines.append(f"## {cat_name}")
+        lines.append("")
+
+        if not cp_list:
+            lines.append("- No papers yet.")
+            lines.append("")
+            continue
+
+        by_month = group_by_month(cp_list)
+        for month, month_papers in by_month.items():
+            lines.append(f"### {month}")
+            lines.append("")
+            for paper in month_papers:
+                lines.append(f"- {format_compact_paper_link(paper)}")
+            lines.append("")
+
+    lines.extend([
+        "---",
+        "",
+        "## Usage",
+        "",
+        "```bash",
+        "# Install dependencies",
+        "pip install -r requirements.txt",
+        "npm install",
+        "",
+        "# Update recent papers with daily arXiv windows",
+        "python scripts/update_daily.py --days 7",
+        "",
+        "# Preview the website",
+        "npm run docs:dev",
+        "```",
+        "",
+        "## License",
+        "",
+        "MIT",
+        "",
+    ])
+
+    README_PATH.write_text("\n".join(lines), encoding="utf-8")
+    logger.info(f"Generated {README_PATH}")
 
 
 def generate_homepage(papers: list[Paper]) -> None:
@@ -397,9 +488,7 @@ def generate_category_pages(papers: list[Paper]) -> None:
     cleanup_stale_month_pages()
 
     # Group papers by primary category. A paper appears in exactly one category directory.
-    cat_papers = defaultdict(list)
-    for p in papers:
-        cat_papers[p.primary_category].append(p)
+    cat_papers = grouped_primary_category_papers(papers)
 
     for cat_name, cat_key in CATEGORY_KEY_MAP.items():
         cat_dir = DOCS_DIR / cat_key
@@ -470,6 +559,7 @@ def generate_all(papers: Optional[list[Paper]] = None) -> None:
     generate_open_source(papers)
     generate_tags(papers)
     generate_category_pages(papers)
+    generate_readme(papers)
 
     logger.info("All markdown pages generated successfully.")
 
