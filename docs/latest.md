@@ -20,23 +20,6 @@ We propose a unified reinforcement learning framework that enables a single poli
 
 ---
 
-## Non-Colliding Biometric Identities for Digital Entities: Geometry, Capacity, and Million-Scale Virtual Identity Provisioning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.18238)
-- **Authors:** Yuyang Ji, Yixuan Shen, Anil Jain, Xiaoming Liu, Feng Liu
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - Humanoid
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Digital entities such as AI agents and humanoid robots increasingly operate alongside real humans, yet their identity infrastructure is based on credentials rather than embodied biometric identity. We introduce Biometric Identity Provisioning (BIP), a new problem and solution framework that addresses: given an enrollment gallery of real human identities, provision virtual identities that are non-colliding with every enrolled identity, maintain sufficient inter-class separability, and are realizable as high-fidelity face images.
-
----
-
 ## PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.17681)
@@ -137,5 +120,232 @@ In this report, we present HoloMotion-1, a humanoid motion foundation model for 
 ### Summary
 
 Robust state estimation for highly dynamic motion of legged robots remains challenging, especially in dynamic, contact-rich scenarios. Traditional approaches often rely on binary contact states that fail to capture the nuances of partial contact or directional slippage.
+
+---
+
+## A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.17258)
+- **Authors:** Yifei Yan, Yankai Liao, Linqi Ye
+- **Published:** 2026-04
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Real Robot
+  - Humanoid
+  - Inverse Kinematics
+  - 3D Reconstruction
+  - Foundation Model
+  - Physics-Based Character Animation
+  - Manipulation
+
+### Summary
+
+This paper presents an end-to-end rapid deployment pipeline for humanoid grasping that combines foundation-model components for annotation, 3D reconstruction, and zero-shot pose tracking. The estimated pose drives a Unity inverse kinematics planner whose joint commands are streamed to a Unitree G1 humanoid via UDP and executed through the Unitree SDK.
+
+---
+
+## Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.17335)
+- **Authors:** Zewei Zhang, Kehan Wen, Michael Xu, Junzhe He, Chenhao Li, Takahiro Miki et al. (10 authors)
+- **Published:** 2026-04
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - PPO
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+This work combines motion generation and motion tracking for whole-body humanoid locomotion. A diffusion model predicts terrain-aware reference motions from retargeted human motions, while a reinforcement learning tracker follows the generated references.
+
+---
+
+## 🌟 CLAW: Composable Language-Annotated Whole-body Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.11251)
+- **Project:** [GitHub](https://github.com/JianuoCao/CLAW)
+- **Authors:** Jianuo Cao, Yuxin Chen, Masayoshi Tomizuka
+- **Published:** 2026-04
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - MuJoCo
+  - Humanoid
+  - Language-Conditioned
+  - Dataset
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+CLAW is an interactive web-based pipeline for scalable generation of language-annotated whole-body motion data for the Unitree G1 humanoid robot. It treats kinematic planner modes as composable building blocks and provides browser-based interfaces for exploratory and batch data collection.
+
+---
+
+## Safe Human-to-Humanoid Motion Imitation Using Control Barrier Functions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.11447)
+- **Authors:** Wenqi Cai, John Abanes, Nikolaos Evangeliou, Anthony Tzes
+- **Published:** 2026-04
+- **Tags:**
+  - Motion Retargeting
+  - Safety
+  - Humanoid
+  - Collision
+  - Teleoperation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+This paper presents a vision-based framework that enables a humanoid robot to imitate human movements while avoiding collisions. Human skeletal keypoints are captured by a single camera and converted into joint angles for motion retargeting.
+
+---
+
+## HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.07993)
+- **Authors:** Shuanghao Bai, Meng Li, Xinyuan Lv, Jiawei Wang, Xinhua Wang, Fei Liao et al. (17 authors)
+- **Published:** 2026-04
+- **Tags:**
+  - Manipulation
+  - Biped
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+HEX is a state-centric framework for coordinated manipulation on full-sized bipedal humanoid robots. It introduces a humanoid-aligned universal state representation for scalable learning across heterogeneous embodiments and a mixture-of-experts proprioceptive predictor for whole-body coordination and temporal motion dynamics.
+
+---
+
+## Learning Humanoid Navigation from Human Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.00416)
+- **Project:** [GitHub](https://egonav.weizhuowang.com)
+- **Authors:** Weizhuo Wang, Yanjie Ze, C. Karen Liu, Monroe Kennedy
+- **Published:** 2026-04
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Navigation
+  - Zero-Shot
+  - Humanoid
+  - Walking
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+EgoNav enables a humanoid robot to traverse diverse unseen environments by learning from 5 hours of human walking data, with no robot data or finetuning. A diffusion model predicts future trajectories conditioned on past trajectory, 360 degree visual memory, and DINOv3 video features.
+
+---
+
+## RoboForge: Physically Optimized Text-guided Whole-Body Locomotion for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.17927)
+- **Authors:** Xichen Yuan, Zhe Li, Bofan Lyu, Kuangji Zuo, Yanshuo Lu, Gen Li et al. (7 authors)
+- **Published:** 2026-03
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Fine-tuning
+  - Distillation
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+RoboForge bridges natural language and whole-body humanoid locomotion through a retarget-free, physics-optimized pipeline. It couples motion generation and control through a physical plausibility optimization module that refines teacher-student distillation policies and converts reward-optimized simulation rollouts into explicit motion data for fine-tuning the motion generator.
+
+---
+
+## ZeroWBC: Learning Natural Visuomotor Humanoid Control Directly from Human Egocentric Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.09170)
+- **Authors:** Haoran Yang, Jiacheng Bao, Yucheng Xin, Haoming Song, Yuyang Tian, Bin Zhao et al. (8 authors)
+- **Published:** 2026-03
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Achieving versatile and naturalistic whole-body control for humanoid robot scene-interaction remains a significant challenge. ZeroWBC learns a natural humanoid visuomotor control policy directly from human egocentric videos, eliminating the need for large-scale robot teleoperation data.
+
+---
+
+## Omnidirectional Humanoid Locomotion on Stairs via Unsafe Stepping Penalty and Sparse LiDAR Elevation Mapping
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.07928)
+- **Authors:** Yuzhi Jiang, Yujun Liang, Junhao Li, Han Ding, Lijun Zhu
+- **Published:** 2026-03
+- **Real Robot:** ✅
+- **Tags:**
+  - Sim-to-Real
+  - Locomotion
+  - Humanoid
+  - Walking
+  - Navigation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Safe omnidirectional humanoid locomotion on stairs requires terrain perception and reliable foothold selection. This paper introduces a single-stage training framework with a dense unsafe stepping penalty and a rolling sparse LiDAR point-cloud elevation mapping system.
+
+---
+
+## Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.05993)
+- **Authors:** Beichen Wang, Yuanjie Lu, Linji Wang, Liuchuan Yu, Xuesu Xiao
+- **Published:** 2026-03
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Safety
+  - Humanoid
+  - Collision
+  - Benchmark
+  - Dataset
+  - PPO
+
+### Summary
+
+Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
+
+---
+
+## X-Loco: Towards Generalist Humanoid Locomotion Control via Synergetic Policy Distillation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.03733)
+- **Authors:** Dewei Wang, Xinmiao Wang, Chenyun Zhang, Jiyuan Shi, Yingnan Zhao, Chenjia Bai et al. (7 authors)
+- **Published:** 2026-03
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+X-Loco targets generalist humanoid locomotion, including upright locomotion, fall recovery, terrain traversal, and whole-body coordination. It trains multiple oracle specialist policies and uses synergetic policy distillation with a case-adaptive specialist selection mechanism to guide a vision-based student policy.
 
 ---

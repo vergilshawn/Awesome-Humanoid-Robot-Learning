@@ -1,6 +1,8 @@
 {
-  "Locomotion": 2,
+  "Loco-Manipulation and Whole-Body Control": 6,
+  "Locomotion": 4,
+  "Simulation Benchmark": 3,
   "State Estimation": 2,
-  "Loco-Manipulation and Whole-Body Control": 2,
-  "Simulation Benchmark": 1
+  "Physics-Based Character Animation": 1,
+  "Teleoperation": 1
 }

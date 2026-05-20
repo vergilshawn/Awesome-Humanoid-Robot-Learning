@@ -89,10 +89,11 @@ def fetch_papers(config: Optional[dict] = None) -> list[Paper]:
     request_delay = arxiv_config.get("request_delay", 3.0)
     fail_on_category_error = arxiv_config.get("fail_on_category_error", False)
 
-    # Use arxiv 4.x Client API
+    # Use arxiv Client API. Keep page size and request delay explicit to avoid
+    # broad backfills hammering arXiv with large default pages.
     from arxiv import Client, Search, SortCriterion, SortOrder
 
-    client = Client()
+    client = Client(page_size=max_results, delay_seconds=request_delay, num_retries=2)
     all_papers: dict[str, Paper] = {}
     failed_queries: list[str] = []
     search_queries = build_search_queries(config, date_from, date_to)

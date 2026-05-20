@@ -30,35 +30,6 @@
     "primary_category": "Locomotion"
   },
   {
-    "arxiv_id": "2605.18238",
-    "title": "Non-Colliding Biometric Identities for Digital Entities: Geometry, Capacity, and Million-Scale Virtual Identity Provisioning",
-    "paper_url": "https://arxiv.org/abs/2605.18238",
-    "project_url": null,
-    "authors": [
-      "Yuyang Ji",
-      "Yixuan Shen",
-      "Anil Jain",
-      "Xiaoming Liu",
-      "Feng Liu"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-18",
-    "abstract": "Digital entities such as AI agents and humanoid robots increasingly operate alongside real humans, yet their identity infrastructure is based on credentials rather than embodied biometric identity. We introduce Biometric Identity Provisioning (BIP), a new problem and solution framework that addresses: given an enrollment gallery of real human identities, provision virtual identities that are non-colliding with every enrolled identity, maintain sufficient inter-class separability, and are realizable as high-fidelity face images. The key geometric insight is that real face identities occupy a low-dimensional subspace of the embedding hypersphere, leaving no residual subspace for virtual identities. Hence, virtual identities must instead be allocated as unclaimed gaps within the real face manifold itself. BIP is therefore a constrained packing problem: available gaps vastly exceed any foreseeable enrollment scale, and provisioned identities remain non-colliding even as new real identities are subsequently enrolled. Grounded in this geometry, our repulsion-based allocation is not bounded by any fixed provisioning count; we demonstrate 10M non-colliding virtual identity embeddings against a gallery of 360K real identities. Realizing these embeddings as face images requires a generator that operates outside the training distribution of real face images; we introduce GapGen, a gap-aware generator trained with a curriculum that progressively extends synthesis into non-colliding regions, validated at 1M photorealistic virtual face images. We further construct v-LFW, a virtual counterpart to LFW face dataset, with protocols for virtual face verification, cross-reality matching, real-vs-virtual detection, and unified recognition and detection.",
-    "categories": [
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Humanoid",
-      "Dataset",
-      "Simulation Benchmark"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "Digit",
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
     "arxiv_id": "2605.17681",
     "title": "PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots",
     "paper_url": "https://arxiv.org/abs/2605.17681",
@@ -245,5 +216,416 @@
     "platform": null,
     "summary": "",
     "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2604.17258",
+    "title": "A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models",
+    "paper_url": "https://arxiv.org/abs/2604.17258",
+    "project_url": null,
+    "authors": [
+      "Yifei Yan",
+      "Yankai Liao",
+      "Linqi Ye"
+    ],
+    "published": "2026-04",
+    "published_date": "2026-04-19",
+    "abstract": "This paper presents an end-to-end rapid deployment pipeline for humanoid grasping that combines foundation-model components for annotation, 3D reconstruction, and zero-shot pose tracking. The estimated pose drives a Unity inverse kinematics planner whose joint commands are streamed to a Unitree G1 humanoid via UDP and executed through the Unitree SDK. Experiments demonstrate successful grasping on a real robot and generality on an automobile-window glue-application task.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Manipulation"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Real Robot",
+      "Humanoid",
+      "Inverse Kinematics",
+      "3D Reconstruction",
+      "Foundation Model",
+      "Physics-Based Character Animation",
+      "Manipulation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2604.17335",
+    "title": "Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking",
+    "paper_url": "https://arxiv.org/abs/2604.17335",
+    "project_url": null,
+    "authors": [
+      "Zewei Zhang",
+      "Kehan Wen",
+      "Michael Xu",
+      "Junzhe He",
+      "Chenhao Li",
+      "Takahiro Miki",
+      "Clemens Schwarke",
+      "Chong Zhang",
+      "Xue Bin Peng",
+      "Marco Hutter"
+    ],
+    "published": "2026-04",
+    "published_date": "2026-04-19",
+    "abstract": "This work combines motion generation and motion tracking for whole-body humanoid locomotion. A diffusion model predicts terrain-aware reference motions from retargeted human motions, while a reinforcement learning tracker follows the generated references. The tracker is fine-tuned with a frozen motion generator in closed loop. The resulting system supports directional goal-reaching and terrain-aware whole-body adaptation, and can be deployed on a Unitree G1 humanoid with onboard perception and computation.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "PPO",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2604.11251",
+    "title": "CLAW: Composable Language-Annotated Whole-body Motion Generation",
+    "paper_url": "https://arxiv.org/abs/2604.11251",
+    "project_url": "https://github.com/JianuoCao/CLAW",
+    "authors": [
+      "Jianuo Cao",
+      "Yuxin Chen",
+      "Masayoshi Tomizuka"
+    ],
+    "published": "2026-04",
+    "published_date": "2026-04-13",
+    "abstract": "CLAW is an interactive web-based pipeline for scalable generation of language-annotated whole-body motion data for the Unitree G1 humanoid robot. It treats kinematic planner modes as composable building blocks and provides browser-based interfaces for exploratory and batch data collection. A low-level whole-body controller tracks the planner references in MuJoCo simulation, while a deterministic template-based annotation engine generates natural-language descriptions for language-conditioned humanoid control datasets.",
+    "categories": [
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "MuJoCo",
+      "Humanoid",
+      "Language-Conditioned",
+      "Dataset",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2604.11447",
+    "title": "Safe Human-to-Humanoid Motion Imitation Using Control Barrier Functions",
+    "paper_url": "https://arxiv.org/abs/2604.11447",
+    "project_url": null,
+    "authors": [
+      "Wenqi Cai",
+      "John Abanes",
+      "Nikolaos Evangeliou",
+      "Anthony Tzes"
+    ],
+    "published": "2026-04",
+    "published_date": "2026-04-13",
+    "abstract": "This paper presents a vision-based framework that enables a humanoid robot to imitate human movements while avoiding collisions. Human skeletal keypoints are captured by a single camera and converted into joint angles for motion retargeting. Safety is enforced with a control barrier function layer formulated as a quadratic program, filtering imitation commands to prevent self-collisions and human-robot collisions. Simulation results validate real-time collision-aware motion imitation.",
+    "categories": [
+      "Teleoperation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Motion Retargeting",
+      "Safety",
+      "Humanoid",
+      "Collision",
+      "Teleoperation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2604.07993",
+    "title": "HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation",
+    "paper_url": "https://arxiv.org/abs/2604.07993",
+    "project_url": null,
+    "authors": [
+      "Shuanghao Bai",
+      "Meng Li",
+      "Xinyuan Lv",
+      "Jiawei Wang",
+      "Xinhua Wang",
+      "Fei Liao",
+      "Chengkai Hou",
+      "Langzhe Gu",
+      "Wanqi Zhou",
+      "Kun Wu",
+      "Ziluo Ding",
+      "Zhiyuan Xu",
+      "Lei Sun",
+      "Shanghang Zhang",
+      "Zhengping Che",
+      "Jian Tang",
+      "Badong Chen"
+    ],
+    "published": "2026-04",
+    "published_date": "2026-04-09",
+    "abstract": "HEX is a state-centric framework for coordinated manipulation on full-sized bipedal humanoid robots. It introduces a humanoid-aligned universal state representation for scalable learning across heterogeneous embodiments and a mixture-of-experts proprioceptive predictor for whole-body coordination and temporal motion dynamics. It combines visual-language cues with proprioceptive dynamics for action generation and reports strong real-world humanoid manipulation performance and generalization.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Biped",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2604.00416",
+    "title": "Learning Humanoid Navigation from Human Data",
+    "paper_url": "https://arxiv.org/abs/2604.00416",
+    "project_url": "https://egonav.weizhuowang.com",
+    "authors": [
+      "Weizhuo Wang",
+      "Yanjie Ze",
+      "C. Karen Liu",
+      "Monroe Kennedy"
+    ],
+    "published": "2026-04",
+    "published_date": "2026-04-01",
+    "abstract": "EgoNav enables a humanoid robot to traverse diverse unseen environments by learning from 5 hours of human walking data, with no robot data or finetuning. A diffusion model predicts future trajectories conditioned on past trajectory, 360 degree visual memory, and DINOv3 video features. A receding-horizon controller selects paths from the predicted distribution. The system is validated with zero-shot deployment on a Unitree G1 humanoid in unseen indoor and outdoor environments, including doors, crowds, and glass walls.",
+    "categories": [
+      "Locomotion",
+      "Navigation"
+    ],
+    "tags": [
+      "Navigation",
+      "Zero-Shot",
+      "Humanoid",
+      "Walking",
+      "Diffusion",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2603.17927",
+    "title": "RoboForge: Physically Optimized Text-guided Whole-Body Locomotion for Humanoids",
+    "paper_url": "https://arxiv.org/abs/2603.17927",
+    "project_url": null,
+    "authors": [
+      "Xichen Yuan",
+      "Zhe Li",
+      "Bofan Lyu",
+      "Kuangji Zuo",
+      "Yanshuo Lu",
+      "Gen Li",
+      "Jianfei Yang"
+    ],
+    "published": "2026-03",
+    "published_date": "2026-03-18",
+    "abstract": "RoboForge bridges natural language and whole-body humanoid locomotion through a retarget-free, physics-optimized pipeline. It couples motion generation and control through a physical plausibility optimization module that refines teacher-student distillation policies and converts reward-optimized simulation rollouts into explicit motion data for fine-tuning the motion generator. Experiments on the Unitree G1 humanoid across IsaacLab and MuJoCo show improved tracking accuracy and stability for text-guided humanoid locomotion.",
+    "categories": [
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Locomotion",
+      "MuJoCo",
+      "Humanoid",
+      "Fine-tuning",
+      "Distillation",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2603.09170",
+    "title": "ZeroWBC: Learning Natural Visuomotor Humanoid Control Directly from Human Egocentric Video",
+    "paper_url": "https://arxiv.org/abs/2603.09170",
+    "project_url": null,
+    "authors": [
+      "Haoran Yang",
+      "Jiacheng Bao",
+      "Yucheng Xin",
+      "Haoming Song",
+      "Yuyang Tian",
+      "Bin Zhao",
+      "Dong Wang",
+      "Xuelong Li"
+    ],
+    "published": "2026-03",
+    "published_date": "2026-03-10",
+    "abstract": "Achieving versatile and naturalistic whole-body control for humanoid robot scene-interaction remains a significant challenge. ZeroWBC learns a natural humanoid visuomotor control policy directly from human egocentric videos, eliminating the need for large-scale robot teleoperation data. The approach fine-tunes a vision-language model to predict future whole-body human motions from text instructions and egocentric visual context, retargets these motions to robot joints, and executes them through a robust general motion tracking policy. Experiments on the Unitree G1 humanoid robot demonstrate improved motion naturalness and versatility for whole-body humanoid control.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Teleoperation",
+      "Humanoid",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2603.07928",
+    "title": "Omnidirectional Humanoid Locomotion on Stairs via Unsafe Stepping Penalty and Sparse LiDAR Elevation Mapping",
+    "paper_url": "https://arxiv.org/abs/2603.07928",
+    "project_url": null,
+    "authors": [
+      "Yuzhi Jiang",
+      "Yujun Liang",
+      "Junhao Li",
+      "Han Ding",
+      "Lijun Zhu"
+    ],
+    "published": "2026-03",
+    "published_date": "2026-03-09",
+    "abstract": "Safe omnidirectional humanoid locomotion on stairs requires terrain perception and reliable foothold selection. This paper introduces a single-stage training framework with a dense unsafe stepping penalty and a rolling sparse LiDAR point-cloud elevation mapping system. Simulation and real-robot experiments show near-100 percent safe stepping rate on stairs in simulation, strong safe stepping in real-world deployment, and continuous long-distance walking on complex outdoor terrains, demonstrating reliable sim-to-real transfer.",
+    "categories": [
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Sim-to-Real",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Locomotion",
+      "Humanoid",
+      "Walking",
+      "Navigation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2603.05993",
+    "title": "Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality",
+    "paper_url": "https://arxiv.org/abs/2603.05993",
+    "project_url": null,
+    "authors": [
+      "Beichen Wang",
+      "Yuanjie Lu",
+      "Linji Wang",
+      "Liuchuan Yu",
+      "Xuesu Xiao"
+    ],
+    "published": "2026-03",
+    "published_date": "2026-03-06",
+    "abstract": "Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments. The system procedurally generates scenes, captures whole-body human motion through immersive VR navigation, and retargets it to a humanoid robot model. The dataset includes 348 trajectories across 145 diverse 3D cluttered scenes and supports benchmarks for stability, collision safety, and scene-aware locomotion.",
+    "categories": [
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Navigation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Locomotion",
+      "Navigation",
+      "Safety",
+      "Humanoid",
+      "Collision",
+      "Benchmark",
+      "Dataset",
+      "PPO",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2603.03733",
+    "title": "X-Loco: Towards Generalist Humanoid Locomotion Control via Synergetic Policy Distillation",
+    "paper_url": "https://arxiv.org/abs/2603.03733",
+    "project_url": null,
+    "authors": [
+      "Dewei Wang",
+      "Xinmiao Wang",
+      "Chenyun Zhang",
+      "Jiyuan Shi",
+      "Yingnan Zhao",
+      "Chenjia Bai",
+      "Xuelong Li"
+    ],
+    "published": "2026-03",
+    "published_date": "2026-03-04",
+    "abstract": "X-Loco targets generalist humanoid locomotion, including upright locomotion, fall recovery, terrain traversal, and whole-body coordination. It trains multiple oracle specialist policies and uses synergetic policy distillation with a case-adaptive specialist selection mechanism to guide a vision-based student policy. The resulting policy operates under velocity commands without relying on reference motions, and experiments show strong performance on fall recovery and terrain traversal.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "Distillation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
   }
 ]
