@@ -1,9 +1,10 @@
 # Manipulation
 
-**50 papers** in this category.
+**51 papers** in this category.
 
 ## Months
 
+- [2026-05](/manipulation/2026-05) (1 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
 - [2026-02](/manipulation/2026-02) (1 papers)
@@ -29,6 +30,23 @@
 ---
 
 ## Recent Papers
+
+## Do Vision-Language-Models show human-like logical problem-solving capability in point and click puzzle games?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.11223)
+- **Authors:** Maximilian Triebel, Marco Menner, Dominik Helfenstein
+- **Published:** 2026-05
+- **Tags:**
+  - Manipulation
+  - Vision-Language
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Vision-Language(-Action) Models (VLMs) are increasingly applied to interactive environments, yet existing benchmarks often overlook the complex physical reasoning required for point-and-click puzzle games. This paper introduces Vision-Language Against The Incredible Machine (VLATIM), a benchmark designed to evaluate human-like logical problem-solving capabilities within the classic physics puzzle game The Incredible Machine 2 (TIM).
+
+---
 
 ## 🌟 Humanoid Manipulation with Touch Dreaming
 
@@ -293,20 +311,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Behavior Cloning
   - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## MimicDroid: In-Context Learning for Humanoid Robot Manipulation from Human Play Videos
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2509.09769)
-- **Published:** 2025-09
-- **Tags:**
-  - Manipulation
-  - Humanoid
 
 ### Summary
 

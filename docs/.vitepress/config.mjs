@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (172)",
+            "text": "Loco-Manipulation and Whole-Body Control (175)",
             "collapsed": true,
             "items": [
                   {
@@ -162,12 +162,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (50)",
+            "text": "Manipulation (51)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/manipulation/"
+                  },
+                  {
+                        "text": "2026-05",
+                        "link": "/manipulation/2026-05"
                   },
                   {
                         "text": "2026-04",
@@ -256,12 +260,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (20)",
+            "text": "Teleoperation (22)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/teleoperation/"
+                  },
+                  {
+                        "text": "2026-05",
+                        "link": "/teleoperation/2026-05"
                   },
                   {
                         "text": "2026-04",
@@ -314,7 +322,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (97)",
+            "text": "Locomotion (99)",
             "collapsed": true,
             "items": [
                   {
@@ -432,12 +440,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (17)",
+            "text": "Navigation (18)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/navigation/"
+                  },
+                  {
+                        "text": "2026-05",
+                        "link": "/navigation/2026-05"
                   },
                   {
                         "text": "2026-02",
@@ -490,7 +502,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (9)",
+            "text": "State Estimation (10)",
             "collapsed": true,
             "items": [
                   {
@@ -648,12 +660,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (22)",
+            "text": "Simulation Benchmark (31)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/simulation-benchmark/"
+                  },
+                  {
+                        "text": "2026-05",
+                        "link": "/simulation-benchmark/2026-05"
                   },
                   {
                         "text": "2026-04",
@@ -816,12 +832,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (20)",
+            "text": "Human Motion Analysis and Synthesis (22)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/human-motion-analysis-and-synthesis/"
+                  },
+                  {
+                        "text": "2026-05",
+                        "link": "/human-motion-analysis-and-synthesis/2026-05"
                   },
                   {
                         "text": "2026-04",

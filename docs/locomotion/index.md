@@ -1,10 +1,10 @@
 # Locomotion
 
-**97 papers** in this category.
+**99 papers** in this category.
 
 ## Months
 
-- [2026-05](/locomotion/2026-05) (2 papers)
+- [2026-05](/locomotion/2026-05) (4 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -35,6 +35,22 @@
 ---
 
 ## Recent Papers
+
+## Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19305)
+- **Authors:** Tianshu Kuai, Arman Maesumi, Daniel Ritchie, Noam Aigerman
+- **Published:** 2026-05
+- **Tags:**
+  - Humanoid
+  - Flow Matching
+  - Locomotion
+
+### Summary
+
+This paper tackles the task of learning to generate signals over triangle meshes in a triangulation-agnostic manner, meaning the trained model can be applied to different meshes and triangulations effectively. Practically, the paper adapts the flow matching (FM) paradigm to a mesh-based, triangulation-agnostic setting.
+
+---
 
 ## Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors
 
@@ -72,6 +88,27 @@ We propose a unified reinforcement learning framework that enables a single poli
 ### Summary
 
 We present a method for training reference-guided, perceptive reinforcement learning locomotion policies for humanoid robots in which reference trajectories are modulated in training to be consistent with terrain geometry. Aiming to deploy our method with standard navigation autonomy infrastructure, we synthesize SE(2)-controllable reference trajectories inside the RL training loop, projecting desired footsteps onto valid footholds and adjusting swing-foot and center-of-mass trajectories to match the terrain.
+
+---
+
+## Explicit Stair Geometry Conditioning for Robust Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.09944)
+- **Authors:** Jianguo Zhang, Wentai Xu, Shusheng Ye, Yuxiang He, Weimin Qi, Qinbo Sun et al. (8 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Robustness
+  - Humanoid
+  - Gait
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Robust humanoid stair climbing remains challenging due to geometric discontinuities, sensitivity to step height variations, and perception uncertainty in real-world environments. Existing learning-based locomotion policies often rely on implicit terrain representations or blind proprioceptive feedback, limiting their ability to generalize across varying stair geometries and to anticipate required gait adjustments.
 
 ---
 
@@ -322,34 +359,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2601.08485)
 - **Published:** 2026-01
 - **Tags:**
-  - Locomotion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Walk the PLANC: Physics-Guided RL for Agile Humanoid Locomotion on Constrained Footholds
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.06286)
-- **Published:** 2026-01
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## SKATER: Synthesized Kinematics for Advanced Traversing Efficiency on a Humanoid Robot via Roller Skate Swizzles
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.04948)
-- **Published:** 2026-01
-- **Tags:**
-  - Humanoid
   - Locomotion
 
 ### Summary

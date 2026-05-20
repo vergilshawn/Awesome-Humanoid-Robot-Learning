@@ -1,5 +1,221 @@
 [
   {
+    "arxiv_id": "2605.19981",
+    "title": "CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2605.19981",
+    "project_url": null,
+    "authors": [
+      "Xinyuan Luo",
+      "Xingrui Chen",
+      "Xunjian Yin",
+      "Hongxuan Wu",
+      "Boxi Xia",
+      "Zhuoqun Chen",
+      "Jinzhou Li",
+      "Boyuan Chen",
+      "Xianyi Cheng"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-19",
+    "abstract": "Humanoid robots have achieved impressive locomotion performance, yet contact-rich and long-horizon manipulation remains a major bottleneck. Manipulation is inherently contact-rich and demands compliant whole-body control for stable interaction, while its diversity and long-horizon nature favor modular, planner-compatible interfaces over joint-space tracking.   We propose CEER, a compliant end-effector-root (EE-root) control abstraction for modular humanoid loco-manipulation within a hierarchical planning framework. CEER enables compliance-aware whole-body control in an interpretable task space defined by root motion commands and end-effector pose targets, and supports plug-and-play integration with heterogeneous high-level planners. A teacher-student framework is adopted to distill a general motion-tracking controller into a low-level policy that consumes only EE-root commands.   We further construct a hierarchical system that integrates heterogeneous planners and task modules through the EE-root interface, enabling diverse manipulation tasks without retraining the underlying whole-body policy. Experiments in simulation and on hardware demonstrate 3.3 cm end-effector tracking accuracy with substantially reduced jerk compared to baselines, stable contact-rich manipulation under teleoperation, and up to 70% success in simulated single-object loco-manipulation tasks within a room-scale environment. These results indicate that compliant EE-root control provides a practical abstraction for humanoid loco-manipulation, enabling modular and scalable integration of diverse skills.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2605.19293",
+    "title": "Domain-Adaptive Communication-Rate Optimization for Sim-to-Real Humanoid-Robot Wireless XR Teleoperation",
+    "paper_url": "https://arxiv.org/abs/2605.19293",
+    "project_url": null,
+    "authors": [
+      "Caolu Xu",
+      "Zhiyong Chen",
+      "Meixia Tao",
+      "Li Song",
+      "Feng Yang",
+      "Wenjun Zhang"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-19",
+    "abstract": "Wireless extended reality (XR) teleoperation provides embodied interaction capability for collecting humanoid robot demonstrations, but the large-scale adoption is restricted by the overhead of high-frequency motion transmission. This paper develops a system framework that integrates sampling, transmission, interpolation, and reconstruction and formulates a communication-rate optimization that aims to minimize the communication energy while maintaining the reconstruction accuracy of robot motion trajectories through dimension-wise sampling-rate control. Since acquiring real-time feedback from physical robots is limited by hardware costs, it is necessary to solve the problem through simulator interaction with offline real-domain data correction. To guide sim-to-real adaptation, we provide a PAC-Bayes generalization characterization that reveals the effects of latent density-ratio estimation, finite-sample deviation, and encoder bias. Building on this analysis, we propose a proximal policy optimization (PPO) method with density-ratio weighting and trust-region regularization. Experiments on public humanoid teleoperation dataset show that the proposed method improves the tradeoff between reconstruction error and communication energy consumption under sim-to-real distribution shift. We further analyze the effectiveness of the proposed algorithm across various wireless channels and dynamic motion trajectories.",
+    "categories": [
+      "Teleoperation",
+      "State Estimation",
+      "Sim-to-Real",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Teleoperation",
+      "Simulator",
+      "Humanoid",
+      "Dataset",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2605.19305",
+    "title": "Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes",
+    "paper_url": "https://arxiv.org/abs/2605.19305",
+    "project_url": null,
+    "authors": [
+      "Tianshu Kuai",
+      "Arman Maesumi",
+      "Daniel Ritchie",
+      "Noam Aigerman"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-19",
+    "abstract": "This paper tackles the task of learning to generate signals over triangle meshes in a triangulation-agnostic manner, meaning the trained model can be applied to different meshes and triangulations effectively. Practically, the paper adapts the flow matching (FM) paradigm to a mesh-based, triangulation-agnostic setting. Theoretically, it proposes a specific noise distribution which is triangulation agnostic, to be used inside the FM model's denoising process. While noise distributions are usually trivial to devise for, e.g., images, devising a triangulation-agnostic distribution proves to be a much more difficult task. We formulate a mathematical definition of triangulation agnosticism of distributions, via their spectrum. We then show that a discretization of a specific Gaussian random field called a Matérn process holds these desired properties, and provides a simple and efficient sampling algorithm. We use it as our noise model, and adapt FM to the triangulation-agnostic setting by using a state-of-the-art approach for learning signals on meshes in the gradient domain -- PoissonNet -- as the denoiser. We conduct experiments on elaborate tasks such as sampling elastic rest states, and generating poses of humanoids. Our method is shown to be capable of producing highly realistic results for meshes of over one million triangles, significantly exceeding the state-of-the-art in quality and diversity.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Flow Matching",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.19004",
+    "title": "EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction",
+    "paper_url": "https://arxiv.org/abs/2605.19004",
+    "project_url": "https://github.com/yehiahmad/egotraj",
+    "authors": [
+      "Ahmad Yehia",
+      "Abduallah Mohamed",
+      "Tianyi Wang",
+      "Jiseop Byeon",
+      "Kun Qian",
+      "Junfeng Jiao",
+      "Christian Claudel"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments. Addressing this need, we introduce EgoTraj, an egocentric multimodal open dataset recorded using Meta Quest Pro (MQPro). EgoTraj contains 75 sequences of human navigation collected from multiple MQPro wearers in real-world urban environments. Each recording provides synchronized RGB video along with ground-truth data, including continuous time-synchronized 6-degree-of-freedom head poses, per-frame 3D eye gaze vectors, scene annotations. To the best of our knowledge, EgoTraj differs from typical egocentric trajectory datasets by capturing long-horizon, self-directed navigation across diverse urban routes with broad participant diversity. To demonstrate the potential of the dataset, we benchmark several state-of-the-art methods for egocentric trajectory prediction and conduct ablation studies to analyze the contributions of gaze, scene, and motion cues. The results highlight the utility of EgoTraj for AR-based perception, navigation, and assistive systems. The EgoTraj dataset, code, and EgoViz Dashboard are publicly available at https://github.com/yehiahmad/EgoTraj.",
+    "categories": [
+      "Simulation Benchmark",
+      "Navigation"
+    ],
+    "tags": [
+      "Navigation",
+      "Humanoid",
+      "Trajectory Prediction",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.18956",
+    "title": "MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation",
+    "paper_url": "https://arxiv.org/abs/2605.18956",
+    "project_url": null,
+    "authors": [
+      "Bizhu Wu",
+      "Jinheng Xie",
+      "Wenting Chen",
+      "Zhe Kong",
+      "Jianfeng Ren",
+      "Linlin Shen",
+      "Ruibin Bai",
+      "Rong Qu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "Recent motion-language models unify tasks like comprehension and generation but operate at a coarse granularity, lacking fine-grained understanding and nuanced control over body parts needed for animation or interaction. This stems from fundamental issues in both the model and the data, in which the model can't focus on motion's localized pattern, and the training data lacks fine-grained supervision. To tackle this, we propose MotionMERGE, a unified framework that bridges the granularity gap. First, we pioneer the study of fine-grained languageguided motion control, including detailed understanding and localized editing, by explicitly modeling motion at part and temporal levels within a single LLM, thereby endowing the model with robust priors for precise control. Second, we design ReasoningAware Granularity-Synergy pre-training, a novel strategy that employs joint supervision for cross-granularity alignment, temporal grounding, localized alignment, motion coherency, and motion-grounded chain-of-thought (CoT) reasoning. This equips the model with fine-grained motion-language alignment, crossgranularity synergy, and explicit reasoning ability. Third, we curate MotionFineEdit, a large-scale dataset (837K atomic + 144K complex triplets) with the first fine-grained spatio-temporal corrective instructions and motion-grounded CoT annotations, establishing a new benchmark for fine-grained text-driven motion editing and motion-grounded reasoning. Extensive experiments demonstrate the capability of MotionMERGE for more precise motion generation, understanding, and editing, and compelling zero-shot generalization to other complex motion tasks. This work represents a significant step toward models that interact with motion in finer granularity and human-like reasoning.",
+    "categories": [
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Pre-training",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.19009",
+    "title": "Adversarial Stress Testing of SPARK Humanoid Safety Filters",
+    "paper_url": "https://arxiv.org/abs/2605.19009",
+    "project_url": "https://github.com/ghoshsaurav/spark-adversarial-safety",
+    "authors": [
+      "Saurav Ghosh",
+      "Abdou Sow",
+      "Luke Zhang"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints. Still, nominal benchmark scores do not fully show how these filters behave in harder environments. In this work, we study the robustness of SPARK humanoid safety filters through replication and stress testing. We replicate the SPARK benchmark case G1SportMode_D1_WG_SO_v1 in MuJoCo and evaluate RSSA, RSSS, SSA, CBF, PFM, and SMA under controlled random seeds. We also built a post-processing pipeline that converts raw SPARK logs into goal-tracking, minimum-distance, and collision-step metrics. Our results show that some methods track the goal more closely, while others reduce collision steps more effectively. The stress tests further indicate that safety behavior can change under obstacle crowding, noisy distance estimates, and delayed obstacle information. These findings suggest that humanoid autonomy should be evaluated beyond nominal performance, using metrics that expose failure modes before deployment.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Safety",
+      "Robustness",
+      "MuJoCo",
+      "Humanoid",
+      "Collision",
+      "Benchmark",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
     "arxiv_id": "2605.18611",
     "title": "Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors",
     "paper_url": "https://arxiv.org/abs/2605.18611",
@@ -108,6 +324,37 @@
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
+    "arxiv_id": "2605.16692",
+    "title": "EfficientTDMPC: Improved MPC Objectives for Sample-Efficient Continuous Control",
+    "paper_url": "https://arxiv.org/abs/2605.16692",
+    "project_url": null,
+    "authors": [
+      "Thomas Evers",
+      "Cristian Meo",
+      "Wendelin Bohmer",
+      "Justin Dauwels",
+      "Yaniv Oren"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-15",
+    "abstract": "We introduce EfficientTDMPC, a sample-efficient model-based reinforcement learning method for continuous control built on the TD-MPC family of algorithms. Central to this family is a planner that aims to find an action sequence that maximizes the estimated return. The return is estimated using a learned model and value networks, each of which can introduce error. EfficientTDMPC proposes to reduce this error in two ways. First, it introduces an ensemble of dynamics models and averages the return estimates across those models and across different rollout depths. Second, it adds the option to apply an uncertainty penalty to the planner objective, yielding a planner that avoids actions with uncertain return estimates. It then adds practical improvements which increase buffer data freshness and reduce compute. Lastly, we find that our contributions enable EfficientTDMPC to benefit more from a higher update-to-data (UTD) ratio, further improving sample efficiency. To the best of our knowledge, in the low data regime of each benchmark, EfficientTDMPC achieves state-of-the-art (SOTA) in terms of sample efficiency on HumanoidBench-Hard and DMC hard, while matching SOTA on DMC easy.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "MPC",
+      "Humanoid",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
     "arxiv_id": "2605.15517",
     "title": "Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy",
     "paper_url": "https://arxiv.org/abs/2605.15517",
@@ -140,6 +387,91 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.16676",
+    "title": "Enhancing Metacognitive AI: Knowledge-Graph Population with Graph-Theoretic LLM Enrichment",
+    "paper_url": "https://arxiv.org/abs/2605.16676",
+    "project_url": null,
+    "authors": [
+      "Deniz Askin",
+      "Gal Hadar",
+      "Brendan Conway-Smith"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-15",
+    "abstract": "Metacognition-the ability to monitor one's own knowledge state, spot gaps, and autonomously fill them--remains largely absent from modern AI. Here, we present MetaKGEnrich, a fully automated pipeline that endows large language model (LLM) applications with self-directed knowledge repair. The system (i) builds knowledge graphs from a seed query, (ii) detects sparse regions via seven graph metrics, (iii) has GPT-4o generate targeted questions, (iv) retrieves web evidence with Tavily and ingests it into Neo4j, and (v) re-answers the query with GraphRAG for GPT-4 to evaluate improvement. Tested on 30 queries from each of three widely-used datasets: Google Research Natural Questions, MS MARCO, and Hot-potQA. MetaKGEnrich improved answer quality in 80% of HotpotQA questions, 87% of Google Research Natural Questions and 83% of MS MARCO questions, while preserving well-supported regions. This proof of concept demonstrates how topological self-diagnosis plus targeted retrieval can advance AI toward humanlike metacognitive learning.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Dataset",
+      "Large Language Model",
+      "PPO",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.16602",
+    "title": "Why Modeling Human Haptic Material Perception with AI Is Difficult",
+    "paper_url": "https://arxiv.org/abs/2605.16602",
+    "project_url": null,
+    "authors": [
+      "Yasemin Vardar"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-15",
+    "abstract": "Touch plays a central role in how humans perceive and recognize materials through physical contact. Despite decades of research, the mechanisms by which tactile signals are transformed into meaningful perceptual representations remain poorly understood, limiting the design of interactive systems and intelligent agents with human-like haptic perception. Recent advances in artificial intelligence (AI) offer new opportunities to model and exploit tactile data; however, haptics presents fundamental challenges for contemporary AI due to its interaction-dependent, multimodal nature. This position paper argues that progress at the intersection of AI and haptics is constrained by three key bottlenecks: (1) the scarcity of large, diverse, and balanced haptic datasets; (2) the lack of standardized evaluation platforms and perceptual benchmarks; and (3) limitations in model capacity and interpretability when applied to tactile perception. I discuss how these challenges impede generalization, reproducibility, and scientific insight into human touch and review emerging strategies to address them. This paper highlights opportunities for coordinated, cross-disciplinary efforts to advance AI systems that not only perform robust haptic perception but also contribute to a deeper understanding of human touch.",
+    "categories": [
+      "Simulation Benchmark",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Benchmark",
+      "Dataset",
+      "PPO",
+      "Simulation Benchmark",
+      "Teleoperation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.16578",
+    "title": "Voice ''Cloning'' is Style Transfer",
+    "paper_url": "https://arxiv.org/abs/2605.16578",
+    "project_url": null,
+    "authors": [
+      "Kaitlyn Zhou",
+      "Federico Bianchi",
+      "Martijn Bartelds",
+      "Anna Pot",
+      "Yongchan Kwon",
+      "James Zou"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-15",
+    "abstract": "Artificially generated speech is increasingly embedded in everyday life. Voice cloning in particular enables applications where identity preservation is important, such as completing a recording, dubbing in a new language, or preserving the voices of individuals with speech loss. However, in our work, we find that despite the term, voice cloning does not faithfully ''clone'' an individual's voice. Instead, we find that widely-used voice cloning models systematically apply style transfer to source voices. As rated by human annotators, cloned voices are perceived as more authoritative, warm, customer-service-like, and human-like compared to their sources. Human annotators also report greater trust in cloned voices than source voices, and a greater willingness to disclose sensitive personal information to them. Our work furthermore shows that voice cloning leads to homogenization of speaker characteristics, as measured by reduced variance in accent, speaking rate, and the audio embedding space. Together, our results highlight a new set of limitations and risks of voice cloning technology and their potential impact on human behavior.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Impact",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
     "arxiv_id": "2605.15336",
@@ -216,6 +548,397 @@
     "platform": null,
     "summary": "",
     "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2605.14417",
+    "title": "Before the Body Moves: Learning Anticipatory Joint Intent for Language-Conditioned Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2605.14417",
+    "project_url": null,
+    "authors": [
+      "Haozhe Jia",
+      "Honglei Jin",
+      "Yuan Zhang",
+      "Youcheng Fan",
+      "Shaofeng Liang",
+      "Lei Wang",
+      "Shuxu Jin",
+      "Kuimou Yu",
+      "Zinuo Zhang",
+      "Jianfei Song",
+      "Wenshuo Chen",
+      "Yutao Yue"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-14",
+    "abstract": "Natural language is an intuitive interface for humanoid robots, yet streaming whole-body control requires control representations that are executable now and anticipatory of future physical transitions. Existing language-conditioned humanoid systems typically generate kinematic references that a low-level tracker must repair reactively, or use latent/action policies whose outputs do not explicitly encode upcoming contact changes, support transfers, and balance preparation. We propose \\textbf{DAJI} (\\emph{Dynamics-Aligned Joint Intent}), a hierarchical framework that learns an anticipatory joint-intent interface between language generation and closed-loop control. DAJI-Act distills a future-aware teacher into a deployable diffusion action policy through student-driven rollouts, while DAJI-Flow autoregressively generates future intent chunks from language and intent history. Experiments show that DAJI achieves strong results in anticipatory latent learning, single-instruction generation, and streaming instruction following, reaching 94.42\\% rollout success on HumanML3D-style generation and 0.152 subsequence FID on BABEL.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Humanoid",
+      "Language-Conditioned",
+      "PPO",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2605.14462",
+    "title": "Real2Sim in HOI: Toward Physically Plausible HOI Reconstruction from Monocular Videos",
+    "paper_url": "https://arxiv.org/abs/2605.14462",
+    "project_url": null,
+    "authors": [
+      "Yubo Zhao",
+      "Yujin Chai",
+      "Yunao Dong",
+      "Chengfeng Zhao",
+      "Zijiao Zeng",
+      "Yuan Liu",
+      "Chi-Keung Tang"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-14",
+    "abstract": "Recovering 4D human-object interaction (HOI) from monocular video is a key step toward scalable 3D content creation, embodied AI, and simulation-based learning. Recent methods can reconstruct temporally coherent human and object trajectories, but these trajectories often remain visual artifacts while failing to preserve stable contact, functional manipulation, or physical plausibility when used as reference motions for humanoid-object simulation. This reveals a fundamental interaction gap: HOI reconstruction should not stop at tracking a human and an object, but should recover the relation that makes their motion a coherent interaction. We introduce $\\textbf{HA-HOI}$, a framework for reconstructing physically plausible 4D HOI animation from in-the-wild monocular videos. Instead of treating the human and object as independent entities in an ambiguous monocular 3D space, we propose a $\\textit{human-first, object-follow}$ formulation. The human motion is recovered as the interaction anchor, and the object is reconstructed, aligned, and refined relative to the human action. The resulting kinematic trajectory is then projected into a physics-based humanoid-object simulation, where it acts as a teacher trajectory for stable physical rollout. Across benchmark and in-the-wild videos, $\\textbf{HA-HOI}$ improves human-object alignment, contact consistency, temporal stability, and simulation readiness over prior monocular HOI reconstruction methods. By moving beyond visually plausible trajectory recovery toward physically grounded interaction animation, our work takes a step toward turning general monocular HOI videos into scalable demonstrations for humanoid-object behavior. Project page: https://knoxzhao.github.io/real2sim_in_HOI/",
+    "categories": [
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Manipulation",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Manipulation",
+      "Embodied AI",
+      "Humanoid",
+      "Benchmark",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "NAO",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.14269",
+    "title": "PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generation",
+    "paper_url": "https://arxiv.org/abs/2605.14269",
+    "project_url": null,
+    "authors": [
+      "Yidong Huang",
+      "Zun Wang",
+      "Han Lin",
+      "Dong-Ki Kim",
+      "Shayegan Omidshafiei",
+      "Jaehong Yoon",
+      "Jaemin Cho",
+      "Yue Zhang",
+      "Mohit Bansal"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-14",
+    "abstract": "Generating realistic human motion is a central yet unsolved challenge in video generation. While reinforcement learning (RL)-based post-training has driven recent gains in general video quality, extending it to human motion remains bottlenecked by a reward signal that cannot reliably score motion realism. Existing video rewards primarily rely on 2D perceptual signals, without explicitly modeling the 3D body state, contact, and dynamics underlying articulated human motion, and often assign high scores to videos with floating bodies or physically implausible movements. To address this, we propose PhyMotion, a structured, fine-grained motion reward that grounds recovered 3D human trajectories in a physics simulator and evaluates motion quality along multiple dimensions of physical feasibility. Concretely, we recover SMPL body meshes from generated videos, retarget them onto a humanoid in the MuJoCo physics simulator, and evaluate the resulting motion along three axes: kinematic plausibility, contact and balance consistency, and dynamic feasibility. Each component provides a continuous and interpretable signal tied to a specific aspect of motion quality, allowing the reward to capture which aspects of motion are physically correct or violated. Experiments show that PhyMotion achieves stronger correlation with human judgments than existing reward formulations. These gains carry over to RL-based post-training, where optimizing PhyMotion leads to larger and more consistent improvements than optimizing existing rewards, improving motion realism across both autoregressive and bidirectional video generators under both automatic metrics and blind human evaluation (+68 Elo gain). Ablations show that the three axes provide complementary supervision signals, while the reward preserves overall video generation quality with only modest training overhead.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Simulator",
+      "MuJoCo",
+      "Humanoid",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2605.12786",
+    "title": "Emotional Expression in Low-Degrees-of-Freedom Robots: Assessing Perception with Reachy Mini",
+    "paper_url": "https://arxiv.org/abs/2605.12786",
+    "project_url": null,
+    "authors": [
+      "Amit Rogel",
+      "Elmira Yadollahi",
+      "Guy Laban"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-12",
+    "abstract": "Emotion expression is central to human--robot interaction, yet little is known about how people interpret affect on robots with sparse, non-anthropomorphic expressive capabilities. This study examined how people perceive emotional expressions displayed by Reachy Mini (Pollen Robotics and Hugging Face), a low-degree-of-freedom (low-DoF) robot with a constrained and distinctly non-human expressive repertoire. In an online within-subjects study, 100 participants viewed 10 short video clips of Reachy Mini expressing different emotions and, for each clip, identified the perceived emotion, rated its valence and arousal, and evaluated the robot on social-perception traits. Exact emotion recognition was modest overall and varied considerably across expressions, with anger, sadness, and interest recognized more reliably than emotions such as love, pleasure, shame, and disgust. However, participants were generally more successful at recovering broader affective meaning than exact emotion labels, particularly along valence and arousal dimensions. Emotional expressions also shaped social evaluation, as positive expressions were perceived as warmer and more sociable than negative ones, and animacy varied less across conditions. These findings suggest that even constrained robotic expressions can communicate affective meaning and influence social impressions, positioning Reachy Mini as a useful benchmark for studying affective communication in low-DoF robots.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.12347",
+    "title": "Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation",
+    "paper_url": "https://arxiv.org/abs/2605.12347",
+    "project_url": null,
+    "authors": [
+      "Hamza Ahmed Durrani",
+      "Suleman Khan"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-12",
+    "abstract": "Stable, low-latency whole-body teleoperation of humanoid robots is an open research challenge, complicated by kinematic mismatches between human and robot morphologies, accumulated inertial sensor noise, non-trivial control latency, and persistent sim-to-real transfer gaps. This paper presents a complete real-time whole-body teleoperation system that maps human motion, recorded with a Virdyn IMU-based full-body motion capture suit, directly onto a Unitree G1 humanoid robot. We introduce a custom motion-processing, kinematic retargeting, and control pipeline engineered for continuous, low-latency operation without any offline buffering or learning-based components. The system is first validated in simulation using the MuJoCo physics model of the Unitree G1 (sim2sim), and then deployed without modification on the physical platform (sim2real). Experimental results demonstrate stable, synchronized reproduction of a broad motion repertoire, including walking, standing, sitting, turning, bowing, and coordinated expressive full-body gestures. This work establishes a practical, scalable framework for whole-body humanoid teleoperation using commodity wearable motion capture hardware.",
+    "categories": [
+      "Human Motion Analysis and Synthesis",
+      "Locomotion",
+      "Teleoperation",
+      "Sim-to-Real",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Teleoperation",
+      "MuJoCo",
+      "Humanoid",
+      "Walking",
+      "Human Motion Analysis and Synthesis",
+      "Locomotion",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
+    "arxiv_id": "2605.11972",
+    "title": "Cooperative Robotics Reinforced by Collective Perception for Traffic Moderation",
+    "paper_url": "https://arxiv.org/abs/2605.11972",
+    "project_url": null,
+    "authors": [
+      "Mohammad Khoshkdahan",
+      "John Pravin Arockiasamy",
+      "Andy Flores Comeca",
+      "Alexey Vinel"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-12",
+    "abstract": "Collisions at non-line-of-sight (NLOS) intersections remain a major safety concern because drivers have limited visibility of approaching traffic. V2X based warnings can reduce these risks, yet many vehicles are not equipped with V2X and drivers may ignore in vehicle alerts. Collective perception (CP) can compensate for low V2X penetration by extending the awareness of connected vehicles, but it cannot influence unconnected vehicles. To fill this gap, our work introduces a complementary concept that adds a cooperative humanoid robot as an active traffic moderator capable of physically stopping a vehicle that attempts to merge into an unseen traffic stream. The system operates on two parallel perception pathways. A dual camera infrastructure unit detects the position, speed and motion of approaching vehicles and transmits this information to the robot as a collective perception message (CPM). The robot also receives cooperative awareness messages (CAM) from connected vehicles through its onboard V2X unit and can act as a relay for decentralized environmental notification messages (DENM) when safety events originate elsewhere along the road. A fusion module combines these streams to maintain a robust real time view of the main road. A Zone of Danger (ZoD) is defined and used to predict whether an approaching vehicle creates a collision risk for a merging road user. When such a risk is detected, the robot issues a human-like STOP gesture and blocks the merging path until the hazard disappears. The full system was deployed at the Future Mobility Park (FMP) in Rotterdam. Experiments show that the combined vision and V2X perception allows the robot to detect approaching vehicles early, predict hazards reliably and prevent unsafe merges in real world NLOS conditions.",
+    "categories": [
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Safety",
+      "Humanoid",
+      "Collision",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
+    "arxiv_id": "2605.11825",
+    "title": "Mapping Embodied Affective Touch Strategies on a Humanoid Robot",
+    "paper_url": "https://arxiv.org/abs/2605.11825",
+    "project_url": null,
+    "authors": [
+      "Qiaoqiao Ren",
+      "Omar Eldardeer",
+      "Francesca Cocchella",
+      "Rea Francesco",
+      "Alessandra Sciutti",
+      "Tony Belpaeme"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-12",
+    "abstract": "Affective touch in human-robot interaction is shaped not only by emotional intent, but also by robot embodiment, including touch location, physical constraints, and perceived agency or social role. Existing HRI studies typically focus on one or two isolated body parts, limiting understanding of how affective touch generalises across the full humanoid body. We present a study with 32 participants interacting with the iCub robot, which is equipped with full-body distributed tactile sensors. Participants expressed eight emotions under three conditions: free touch, arm-only touch, and torso-only touch. Results show that body region and spatial constraints jointly shaped both touch location and dynamics. In free touch, participants preferred socially accessible upper-body regions, while less frequently touched areas showed stronger emotion-specific selectivity. Emotion-related variation was more evident in motion features for arm-only touch and pressure features for torso-only touch. Touch strategies also did not transfer directly between free and constrained conditions, even within the same coarse body region. Participants reported increased closeness to the robot after interaction, with around 30 percent reporting a change in perceived social relationship. Together, these findings show that affective touch expression is strongly body-region dependent and shaped by embodiment constraints.",
+    "categories": [
+      "Navigation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Navigation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "iCub",
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2605.11564",
+    "title": "RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning",
+    "paper_url": "https://arxiv.org/abs/2605.11564",
+    "project_url": null,
+    "authors": [
+      "Pablo Ortega-Kral",
+      "Eliot Xing",
+      "Arthur Bucker",
+      "Vernon Luk",
+      "Junseo Kim",
+      "Owen Kwon",
+      "Angchen Xie",
+      "Nikhil Sobanbabu",
+      "Yifu Yuan",
+      "Megan Lee",
+      "Deepam Ameria",
+      "Bhaswanth Ayapilla",
+      "Jaycie Bussell",
+      "Guanya Shi",
+      "Jonathan Francis",
+      "Jean Oh"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-12",
+    "abstract": "Despite recent efforts to collect multi-task, multi-embodiment datasets, to design recipes for training Vision-Language-Action models (VLAs), and to showcase these models on different robot platforms, generalist cross-embodiment robot capabilities remains a largely elusive ideal. Progress is limited by fragmented infrastructure: most robot code is highly specific to the exact setup the user decided on, which adds major overhead when attempting to reuse, recycle, or share artifacts between users. We present RIO (Robot I/O), an open source Python framework that provides flexible, lightweight components for robot control, teleoperation, data formatting, sensor configuration, and policy deployment across diverse hardware platforms and morphologies. RIO provides abstractions that enable users to make any choice and to switch between them, with minimal reconfiguration effort. We validate RIO on VLA deployment workflows across three morphologies (single-arm, bimanual, humanoid) and four hardware platforms with varying grippers and cameras. Using teleoperated data collected with RIO, we fine-tune state-of-the-art VLAs including $π_{0.5}$ and GR00T on household tasks such as pick-and-place, folding, and bowl scrubbing. By open sourcing all our efforts, we hope the community can accelerate their pace of robot learning on real-world robot hardware. Additional details at: https://robot-i-o.github.io",
+    "categories": [
+      "Teleoperation",
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Multi-Task",
+      "Open Source",
+      "Humanoid",
+      "Vision-Language",
+      "Dataset",
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2605.12038",
+    "title": "OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation",
+    "paper_url": "https://arxiv.org/abs/2605.12038",
+    "project_url": null,
+    "authors": [
+      "Yiren Song",
+      "Xiyao Deng",
+      "Pei Yang",
+      "Yihan Wang",
+      "Mike Zheng Shou"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-12",
+    "abstract": "Cross-embodiment video generation aims to transfer motions across different humanoid embodiments, such as human-to-robot and robot-to-robot, enabling scalable data generation for embodied intelligence. A major challenge in this setting is that motion dynamics are partly transferable across embodiments, whereas appearance and morphology remain embodiment-specific. Existing approaches often entangle these factors, and many require paired data for every target embodiment, which limits scalability to new robots. We present OmniHumanoid, a framework that factorizes transferable motion learning and embodiment-specific adaptation. Our method learns a shared motion transfer model from motion-aligned paired videos spanning multiple embodiments, while adapting to a new embodiment using only unpaired videos through lightweight embodiment-specific adapters. To reduce interference between motion transfer and embodiment adaptation, we further introduce a branch-isolated attention design that separates motion conditioning from embodiment-specific modulation. In addition, we construct a synthetic cross-embodiment dataset with motion-aligned paired videos rendered across diverse humanoid assets, scenes, and viewpoints. Experiments on both synthetic and real-world benchmarks show that OmniHumanoid achieves strong motion fidelity and embodiment consistency, while enabling scalable adaptation to unseen humanoid embodiments without retraining the shared motion model.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.09944",
+    "title": "Explicit Stair Geometry Conditioning for Robust Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2605.09944",
+    "project_url": null,
+    "authors": [
+      "Jianguo Zhang",
+      "Wentai Xu",
+      "Shusheng Ye",
+      "Yuxiang He",
+      "Weimin Qi",
+      "Qinbo Sun",
+      "Ning Ding",
+      "Liguang Zhou"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-11",
+    "abstract": "Robust humanoid stair climbing remains challenging due to geometric discontinuities, sensitivity to step height variations, and perception uncertainty in real-world environments. Existing learning-based locomotion policies often rely on implicit terrain representations or blind proprioceptive feedback, limiting their ability to generalize across varying stair geometries and to anticipate required gait adjustments. This paper proposes an explicit stair geometry conditioning framework for robust humanoid stair climbing. Instead of encoding terrain as high-dimensional latent features, we extract a compact set of interpretable geometric parameters, including step height, step depth, and current yaw angle relative to the robot heading. These explicit stair parameters directly condition a Proximal Policy Optimization (PPO)-based locomotion policy, enabling proactive modulation of swing-foot clearance and stride characteristics according to stair structure. Simulation experiments demonstrate improved generalization across unseen stair heights beyond the training distribution. Real-world experiments on the Unitree G1 humanoid validate reliable indoor and outdoor stair traversal. In challenging outdoor scenarios, the robot successfully ascends 33 consecutive steps without failure, demonstrating robustness and practical deployability.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Locomotion",
+      "Robustness",
+      "Humanoid",
+      "Gait",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.11223",
+    "title": "Do Vision-Language-Models show human-like logical problem-solving capability in point and click puzzle games?",
+    "paper_url": "https://arxiv.org/abs/2605.11223",
+    "project_url": null,
+    "authors": [
+      "Maximilian Triebel",
+      "Marco Menner",
+      "Dominik Helfenstein"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-11",
+    "abstract": "Vision-Language(-Action) Models (VLMs) are increasingly applied to interactive environments, yet existing benchmarks often overlook the complex physical reasoning required for point-and-click puzzle games. This paper introduces Vision-Language Against The Incredible Machine (VLATIM), a benchmark designed to evaluate human-like logical problem-solving capabilities within the classic physics puzzle game The Incredible Machine 2 (TIM). Unlike existing benchmarks, VLATIM specifically targets the critical gap between high-level logical reasoning and continuous action spaces requiring precise mouse interactions. This benchmark is structured into five progressive parts, assessing capabilities that range from basic visual grounding and domain understanding to multi-step manipulation and full puzzle solving. Our results reveal a significant disparity between reasoning and execution. While large proprietary models demonstrate superior planning abilities, they struggle with precise visual grounding. Consequently, they do not yet show human-like problem-solving capabilities.",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "Vision-Language",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
   },
   {
     "arxiv_id": "2604.23702",

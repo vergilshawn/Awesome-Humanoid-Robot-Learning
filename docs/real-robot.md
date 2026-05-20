@@ -4,13 +4,81 @@ Papers with real humanoid robot deployment and experiments.
 
 ## Platforms
 
-- **Figure:** 1 papers
-- **Unitree G1:** 10 papers
-- **Unknown Platform:** 1 papers
+- **Figure:** 6 papers
+- **NAO:** 1 papers
+- **Unitree G1:** 12 papers
+- **Unknown Platform:** 2 papers
+- **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19981)
+- **Authors:** Xinyuan Luo, Xingrui Chen, Xunjian Yin, Hongxuan Wu, Boxi Xia, Zhuoqun Chen et al. (9 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Humanoid robots have achieved impressive locomotion performance, yet contact-rich and long-horizon manipulation remains a major bottleneck. Manipulation is inherently contact-rich and demands compliant whole-body control for stable interaction, while its diversity and long-horizon nature favor modular, planner-compatible interfaces over joint-space tracking.
+
+---
+
+## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
+- **Project:** [GitHub](https://github.com/yehiahmad/egotraj)
+- **Authors:** Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Humanoid
+  - Trajectory Prediction
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
+
+---
+
+## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
+- **Project:** [GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
+- **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Safety
+  - Robustness
+  - MuJoCo
+  - Humanoid
+  - Collision
+  - Benchmark
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
+
+---
 
 ## Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors
 
@@ -73,6 +141,25 @@ We present a method for training reference-guided, perceptive reinforcement lear
 
 ---
 
+## Why Modeling Human Haptic Material Perception with AI Is Difficult
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.16602)
+- **Authors:** Yasemin Vardar
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+  - Teleoperation
+
+### Summary
+
+Touch plays a central role in how humans perceive and recognize materials through physical contact. Despite decades of research, the mechanisms by which tactile signals are transformed into meaningful perceptual representations remain poorly understood, limiting the design of interactive systems and intelligent agents with human-like haptic perception.
+
+---
+
 ## HoloMotion-1 Technical Report
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.15336)
@@ -92,6 +179,125 @@ We present a method for training reference-guided, perceptive reinforcement lear
 ### Summary
 
 In this report, we present HoloMotion-1, a humanoid motion foundation model for zero-shot whole-body motion tracking. A key innovation of HoloMotion-1 is to scale control-policy training with a large-scale hybrid motion corpus, where video-reconstructed motions from in-the-wild videos provide the dominant source of motion diversity, while curated motion-capture and in-house motion data provide higher-fidelity supervision and deployment-oriented coverage.
+
+---
+
+## Real2Sim in HOI: Toward Physically Plausible HOI Reconstruction from Monocular Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.14462)
+- **Authors:** Yubo Zhao, Yujin Chai, Yunao Dong, Chengfeng Zhao, Zijiao Zeng, Yuan Liu et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — NAO
+- **Tags:**
+  - Manipulation
+  - Embodied AI
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+  - State Estimation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Recovering 4D human-object interaction (HOI) from monocular video is a key step toward scalable 3D content creation, embodied AI, and simulation-based learning. Recent methods can reconstruct temporally coherent human and object trajectories, but these trajectories often remain visual artifacts while failing to preserve stable contact, functional manipulation, or physical plausibility when used as reference motions for humanoid-object simulation.
+
+---
+
+## Emotional Expression in Low-Degrees-of-Freedom Robots: Assessing Perception with Reachy Mini
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.12786)
+- **Authors:** Amit Rogel, Elmira Yadollahi, Guy Laban
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Emotion expression is central to human--robot interaction, yet little is known about how people interpret affect on robots with sparse, non-anthropomorphic expressive capabilities. This study examined how people perceive emotional expressions displayed by Reachy Mini (Pollen Robotics and Hugging Face), a low-degree-of-freedom (low-DoF) robot with a constrained and distinctly non-human expressive repertoire.
+
+---
+
+## Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.12347)
+- **Authors:** Hamza Ahmed Durrani, Suleman Khan
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Teleoperation
+  - MuJoCo
+  - Humanoid
+  - Walking
+  - Human Motion Analysis and Synthesis
+  - Locomotion
+  - Simulation Benchmark
+
+### Summary
+
+Stable, low-latency whole-body teleoperation of humanoid robots is an open research challenge, complicated by kinematic mismatches between human and robot morphologies, accumulated inertial sensor noise, non-trivial control latency, and persistent sim-to-real transfer gaps. This paper presents a complete real-time whole-body teleoperation system that maps human motion, recorded with a Virdyn IMU-based full-body motion capture suit, directly onto a Unitree G1 humanoid robot.
+
+---
+
+## Mapping Embodied Affective Touch Strategies on a Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.11825)
+- **Authors:** Qiaoqiao Ren, Omar Eldardeer, Francesca Cocchella, Rea Francesco, Alessandra Sciutti, Tony Belpaeme
+- **Published:** 2026-05
+- **Real Robot:** ✅ — iCub
+- **Tags:**
+  - Humanoid
+  - Navigation
+
+### Summary
+
+Affective touch in human-robot interaction is shaped not only by emotional intent, but also by robot embodiment, including touch location, physical constraints, and perceived agency or social role. Existing HRI studies typically focus on one or two isolated body parts, limiting understanding of how affective touch generalises across the full humanoid body.
+
+---
+
+## RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.11564)
+- **Authors:** Pablo Ortega-Kral, Eliot Xing, Arthur Bucker, Vernon Luk, Junseo Kim, Owen Kwon et al. (16 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅
+- **Tags:**
+  - Teleoperation
+  - Multi-Task
+  - Open Source
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - Manipulation
+  - Simulation Benchmark
+
+### Summary
+
+Despite recent efforts to collect multi-task, multi-embodiment datasets, to design recipes for training Vision-Language-Action models (VLAs), and to showcase these models on different robot platforms, generalist cross-embodiment robot capabilities remains a largely elusive ideal. Progress is limited by fragmented infrastructure: most robot code is highly specific to the exact setup the user decided on, which adds major overhead when attempting to reuse, recycle, or share artifacts between users.
+
+---
+
+## Explicit Stair Geometry Conditioning for Robust Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.09944)
+- **Authors:** Jianguo Zhang, Wentai Xu, Shusheng Ye, Yuxiang He, Weimin Qi, Qinbo Sun et al. (8 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Robustness
+  - Humanoid
+  - Gait
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Robust humanoid stair climbing remains challenging due to geometric discontinuities, sensitivity to step height variations, and perception uncertainty in real-world environments. Existing learning-based locomotion policies often rely on implicit terrain representations or blind proprioceptive feedback, limiting their ability to generalize across varying stair geometries and to anticipate required gait adjustments.
 
 ---
 

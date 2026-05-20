@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**172 papers** in this category.
+**175 papers** in this category.
 
 ## Months
 
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (2 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (5 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -35,6 +35,28 @@
 
 ## Recent Papers
 
+## CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19981)
+- **Authors:** Xinyuan Luo, Xingrui Chen, Xunjian Yin, Hongxuan Wu, Boxi Xia, Zhuoqun Chen et al. (9 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Humanoid robots have achieved impressive locomotion performance, yet contact-rich and long-horizon manipulation remains a major bottleneck. Manipulation is inherently contact-rich and demands compliant whole-body control for stable interaction, while its diversity and long-horizon nature favor modular, planner-compatible interfaces over joint-space tracking.
+
+---
+
 ## HCLM: A Hierarchical Framework for Cooperative Loco-Manipulation with Dual Quadrupeds
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.17300)
@@ -53,6 +75,21 @@
 ### Summary
 
 We introduce HCLM, a hierarchical framework for general-purpose cooperative loco-manipulation with dual quadrupedal systems. Coordinating multi-robot collaborative manipulation across floating bases is highly challenging due to the conflicting demands of spatial coordination, robust locomotion, and closed-chain physical interactions.
+
+---
+
+## Voice ''Cloning'' is Style Transfer
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.16578)
+- **Authors:** Kaitlyn Zhou, Federico Bianchi, Martijn Bartelds, Anna Pot, Yongchan Kwon, James Zou
+- **Published:** 2026-05
+- **Tags:**
+  - Impact
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Artificially generated speech is increasingly embedded in everyday life. Voice cloning in particular enables applications where identity preservation is important, such as completing a recording, dubbing in a new language, or preserving the voices of individuals with speech loss.
 
 ---
 
@@ -75,6 +112,26 @@ We introduce HCLM, a hierarchical framework for general-purpose cooperative loco
 ### Summary
 
 In this report, we present HoloMotion-1, a humanoid motion foundation model for zero-shot whole-body motion tracking. A key innovation of HoloMotion-1 is to scale control-policy training with a large-scale hybrid motion corpus, where video-reconstructed motions from in-the-wild videos provide the dominant source of motion diversity, while curated motion-capture and in-house motion data provide higher-fidelity supervision and deployment-oriented coverage.
+
+---
+
+## Before the Body Moves: Learning Anticipatory Joint Intent for Language-Conditioned Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.14417)
+- **Authors:** Haozhe Jia, Honglei Jin, Yuan Zhang, Youcheng Fan, Shaofeng Liang, Lei Wang et al. (12 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Language-Conditioned
+  - PPO
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Natural language is an intuitive interface for humanoid robots, yet streaming whole-body control requires control representations that are executable now and anticipatory of future physical transitions. Existing language-conditioned humanoid systems typically generate kinematic references that a low-level tracker must repair reactively, or use latent/action policies whose outputs do not explicitly encode upcoming contact changes, support transfers, and balance preparation.
 
 ---
 
@@ -320,50 +377,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2026-02
 - **Tags:**
   - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## VIGOR: Visual Goal-In-Context Inference for Unified Humanoid Fall Safety
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.16511)
-- **Published:** 2026-02
-- **Tags:**
-  - Safety
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.15827)
-- **Project:** [GitHub](https://php-parkour.github.io/)
-- **Published:** 2026-02
-- **Tags:**
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## MeshMimic: Geometry-Aware Humanoid Motion Learning through 3D Scene Reconstruction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.15733)
-- **Published:** 2026-02
-- **Tags:**
   - Humanoid
   - Loco-Manipulation and Whole-Body Control
 

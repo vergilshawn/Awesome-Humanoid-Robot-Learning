@@ -1,9 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**20 papers** in this category.
+**22 papers** in this category.
 
 ## Months
 
+- [2026-05](/human-motion-analysis-and-synthesis/2026-05) (2 papers)
 - [2026-04](/human-motion-analysis-and-synthesis/2026-04) (1 papers)
 - [2026-02](/human-motion-analysis-and-synthesis/2026-02) (2 papers)
 - [2025-12](/human-motion-analysis-and-synthesis/2025-12) (2 papers)
@@ -23,6 +24,45 @@
 ---
 
 ## Recent Papers
+
+## Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.12347)
+- **Authors:** Hamza Ahmed Durrani, Suleman Khan
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Teleoperation
+  - MuJoCo
+  - Humanoid
+  - Walking
+  - Human Motion Analysis and Synthesis
+  - Locomotion
+  - Simulation Benchmark
+
+### Summary
+
+Stable, low-latency whole-body teleoperation of humanoid robots is an open research challenge, complicated by kinematic mismatches between human and robot morphologies, accumulated inertial sensor noise, non-trivial control latency, and persistent sim-to-real transfer gaps. This paper presents a complete real-time whole-body teleoperation system that maps human motion, recorded with a Virdyn IMU-based full-body motion capture suit, directly onto a Unitree G1 humanoid robot.
+
+---
+
+## Cooperative Robotics Reinforced by Collective Perception for Traffic Moderation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.11972)
+- **Authors:** Mohammad Khoshkdahan, John Pravin Arockiasamy, Andy Flores Comeca, Alexey Vinel
+- **Published:** 2026-05
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Collision
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Collisions at non-line-of-sight (NLOS) intersections remain a major safety concern because drivers have limited visibility of approaching traffic. V2X based warnings can reduce these risks, yet many vehicles are not equipped with V2X and drivers may ignore in vehicle alerts.
+
+---
 
 ## 🌟 RoSHI: Large-scale Motion Imitation in Humanoid Robots via World Models
 
@@ -267,35 +307,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2306.00378)
 - **Published:** 2023-06
 - **Tags:**
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Guided Motion Diffusion for Controllable Human Motion Synthesis
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2305.12577)
-- **Published:** 2023-05
-- **Tags:**
-  - Diffusion
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 PhysDiff: Physics-Guided Human Motion Diffusion Model
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2212.02500)
-- **Project:** [GitHub](https://nvlabs.github.io/PhysDiff/)
-- **Published:** 2022-12
-- **Tags:**
-  - Diffusion
   - Human Motion Analysis and Synthesis
 
 ### Summary

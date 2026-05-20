@@ -1,9 +1,10 @@
 # Navigation
 
-**17 papers** in this category.
+**18 papers** in this category.
 
 ## Months
 
+- [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
 - [2026-01](/navigation/2026-01) (1 papers)
 - [2025-12](/navigation/2025-12) (1 papers)
@@ -20,6 +21,22 @@
 ---
 
 ## Recent Papers
+
+## Mapping Embodied Affective Touch Strategies on a Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.11825)
+- **Authors:** Qiaoqiao Ren, Omar Eldardeer, Francesca Cocchella, Rea Francesco, Alessandra Sciutti, Tony Belpaeme
+- **Published:** 2026-05
+- **Real Robot:** ✅ — iCub
+- **Tags:**
+  - Humanoid
+  - Navigation
+
+### Summary
+
+Affective touch in human-robot interaction is shaped not only by emotional intent, but also by robot embodiment, including touch location, physical constraints, and perceived agency or social role. Existing HRI studies typically focus on one or two isolated body parts, limiting understanding of how affective touch generalises across the full humanoid body.
+
+---
 
 ## EgoActor: Grounding Task Planning into Spatial-aware Egocentric Actions for Humanoid Robots via Visual-Language Models
 

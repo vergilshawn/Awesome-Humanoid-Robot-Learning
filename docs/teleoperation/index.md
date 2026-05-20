@@ -1,9 +1,10 @@
 # Teleoperation
 
-**20 papers** in this category.
+**22 papers** in this category.
 
 ## Months
 
+- [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
 - [2026-02](/teleoperation/2026-02) (4 papers)
 - [2025-11](/teleoperation/2025-11) (1 papers)
@@ -20,6 +21,49 @@
 ---
 
 ## Recent Papers
+
+## Domain-Adaptive Communication-Rate Optimization for Sim-to-Real Humanoid-Robot Wireless XR Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19293)
+- **Authors:** Caolu Xu, Zhiyong Chen, Meixia Tao, Li Song, Feng Yang, Wenjun Zhang
+- **Published:** 2026-05
+- **Tags:**
+  - Sim-to-Real
+  - Teleoperation
+  - Simulator
+  - Humanoid
+  - Dataset
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Wireless extended reality (XR) teleoperation provides embodied interaction capability for collecting humanoid robot demonstrations, but the large-scale adoption is restricted by the overhead of high-frequency motion transmission. This paper develops a system framework that integrates sampling, transmission, interpolation, and reconstruction and formulates a communication-rate optimization that aims to minimize the communication energy while maintaining the reconstruction accuracy of robot motion trajectories through dimension-wise sampling-rate control.
+
+---
+
+## RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.11564)
+- **Authors:** Pablo Ortega-Kral, Eliot Xing, Arthur Bucker, Vernon Luk, Junseo Kim, Owen Kwon et al. (16 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅
+- **Tags:**
+  - Teleoperation
+  - Multi-Task
+  - Open Source
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - Manipulation
+  - Simulation Benchmark
+
+### Summary
+
+Despite recent efforts to collect multi-task, multi-embodiment datasets, to design recipes for training Vision-Language-Action models (VLAs), and to showcase these models on different robot platforms, generalist cross-embodiment robot capabilities remains a largely elusive ideal. Progress is limited by fragmented infrastructure: most robot code is highly specific to the exact setup the user decided on, which adds major overhead when attempting to reuse, recycle, or share artifacts between users.
+
+---
 
 ## Safe Human-to-Humanoid Motion Imitation Using Control Barrier Functions
 
@@ -280,34 +324,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Teleoperation
   - Manipulation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Teleoperation of Humanoid Robots: A Survey, [webpage](https://humanoid-teleoperation.github.io/)
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2301.04317)
-- **Published:** 2023-01
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## iCub3 Avatar System: Enabling Remote Fully-Immersive Embodiment of Humanoid Robots, [Science Robotics](https://www.science.org/doi/10.1126/scirobotics.adh3834) / [github](https://github.com/ami-iit/paper_dafarra_2024_science-robotics_icub3-avatar-system)
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2203.06972)
-- **Published:** 2022-03
-- **Tags:**
-  - Humanoid
-  - Teleoperation
 
 ### Summary
 

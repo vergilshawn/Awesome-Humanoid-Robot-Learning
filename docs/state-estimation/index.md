@@ -1,10 +1,10 @@
 # State Estimation
 
-**9 papers** in this category.
+**10 papers** in this category.
 
 ## Months
 
-- [2026-05](/state-estimation/2026-05) (2 papers)
+- [2026-05](/state-estimation/2026-05) (3 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
 - [2022-07](/state-estimation/2022-07) (1 papers)
@@ -52,6 +52,27 @@ Humanoid and legged robots interact with the environment through intermittent co
 ### Summary
 
 Robust state estimation for highly dynamic motion of legged robots remains challenging, especially in dynamic, contact-rich scenarios. Traditional approaches often rely on binary contact states that fail to capture the nuances of partial contact or directional slippage.
+
+---
+
+## PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.14269)
+- **Authors:** Yidong Huang, Zun Wang, Han Lin, Dong-Ki Kim, Shayegan Omidshafiei, Jaehong Yoon et al. (9 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Simulator
+  - MuJoCo
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Generating realistic human motion is a central yet unsolved challenge in video generation. While reinforcement learning (RL)-based post-training has driven recent gains in general video quality, extending it to human motion remains bottlenecked by a reward signal that cannot reliably score motion realism.
 
 ---
 
