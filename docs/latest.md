@@ -2,6 +2,43 @@
 
 All papers sorted by publication date (newest first).
 
+## Tracing the ongoing emergence of human-like reasoning in Large Language Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.21299)
+- **Authors:** Paolo Morosi, Nikoleta Pantelidou, Fritz Günther, Elena Pagliarini, Evelina Leivada
+- **Published:** 2026-05
+- **Tags:**
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humans effortlessly go beyond literal meanings: If you mow the lawn, I will give you fifty dollars, is typically understood as implying that the speaker will pay only if the lawn is mowed, whereas If you are hungry, there is pizza in the oven implies that pizza is available regardless of the hearers hunger. Large Language Models - LLMs - show human-like performance on many tasks, yet it remains unclear whether they reason like humans.
+
+---
+
+## SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.20373)
+- **Authors:** Tianshu Wu, Xiangqi Kong, Yue Chen, Qize Yu, Hang Ye, Jia Li et al. (8 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+  - State Estimation
+
+### Summary
+
+Building humanoid robots capable of generalizable whole-body loco-manipulation in the real world remains a fundamental challenge. Existing methods either rely on laborious task-specific reward engineering, rigidly replay reference motions that fail to generalize, or depend on costly teleoperation that limits scalability.
+
+---
+
 ## CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.19981)
@@ -45,6 +82,23 @@ Wireless extended reality (XR) teleoperation provides embodied interaction capab
 
 ---
 
+## Reinforcing Human Behavior Simulation via Verbal Feedback
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.20506)
+- **Authors:** Weiwei Sun, Xuhui Zhou, Jiarui Liu, Weihua Du, Haojia Sun, Yiqing Xie et al. (16 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Benchmark
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Humans learn social norms and behaviors from verbal feedback (e.g., a parent saying "that was rude" or a friend explaining "here's why that hurt"). Yet, learning from feedback for LLMs has largely focused on domains like code and math, where RL rewards are directly verifiable and condensed into scalar values.
+
+---
+
 ## Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.19305)
@@ -58,47 +112,6 @@ Wireless extended reality (XR) teleoperation provides embodied interaction capab
 ### Summary
 
 This paper tackles the task of learning to generate signals over triangle meshes in a triangulation-agnostic manner, meaning the trained model can be applied to different meshes and triangulations effectively. Practically, the paper adapts the flow matching (FM) paradigm to a mesh-based, triangulation-agnostic setting.
-
----
-
-## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
-- **Project:** [GitHub](https://github.com/yehiahmad/egotraj)
-- **Authors:** Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Navigation
-  - Humanoid
-  - Trajectory Prediction
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
-
----
-
-## MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.18956)
-- **Authors:** Bizhu Wu, Jinheng Xie, Wenting Chen, Zhe Kong, Jianfeng Ren, Linlin Shen et al. (8 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Zero-Shot
-  - Pre-training
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Recent motion-language models unify tasks like comprehension and generation but operate at a coarse granularity, lacking fine-grained understanding and nuanced control over body parts needed for animation or interaction. This stems from fundamental issues in both the model and the data, in which the model can't focus on motion's localized pattern, and the training data lacks fine-grained supervision.
 
 ---
 
@@ -125,6 +138,27 @@ Humanoid robots are difficult to deploy safely because they have high-dimensiona
 
 ---
 
+## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
+- **Project:** [GitHub](https://github.com/yehiahmad/egotraj)
+- **Authors:** Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Humanoid
+  - Trajectory Prediction
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
+
+---
+
 ## Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.18611)
@@ -140,6 +174,26 @@ Humanoid robots are difficult to deploy safely because they have high-dimensiona
 ### Summary
 
 We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running.
+
+---
+
+## MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.18956)
+- **Authors:** Bizhu Wu, Jinheng Xie, Wenting Chen, Zhe Kong, Jianfeng Ren, Linlin Shen et al. (8 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Zero-Shot
+  - Pre-training
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Recent motion-language models unify tasks like comprehension and generation but operate at a coarse granularity, lacking fine-grained understanding and nuanced control over body parts needed for animation or interaction. This stems from fundamental issues in both the model and the data, in which the model can't focus on motion's localized pattern, and the training data lacks fine-grained supervision.
 
 ---
 

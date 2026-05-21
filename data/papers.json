@@ -1,5 +1,76 @@
 [
   {
+    "arxiv_id": "2605.21299",
+    "title": "Tracing the ongoing emergence of human-like reasoning in Large Language Models",
+    "paper_url": "https://arxiv.org/abs/2605.21299",
+    "project_url": null,
+    "authors": [
+      "Paolo Morosi",
+      "Nikoleta Pantelidou",
+      "Fritz Günther",
+      "Elena Pagliarini",
+      "Evelina Leivada"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-20",
+    "abstract": "Humans effortlessly go beyond literal meanings: If you mow the lawn, I will give you fifty dollars, is typically understood as implying that the speaker will pay only if the lawn is mowed, whereas If you are hungry, there is pizza in the oven implies that pizza is available regardless of the hearers hunger. Large Language Models - LLMs - show human-like performance on many tasks, yet it remains unclear whether they reason like humans. To address this, we conducted a population-matching experiment assessing how twentyfive LLMs compute conditional inferences across four languages, compared to an equal number of humans per language. We find that humans enrich logical reasoning through pragmatic inferences across languages. Model behavior is more variable. Some LLMs perfectly follow the truth-table of conditionals but they ignore pragmatic inferences, while others deviate from the truth-table, adhering to a single interpretation across the board, thus reflecting accurate rule-based processing but not human-like reasoning. Overall, LLMs are accurate semantic operators, but fail to capture the pragmatic enrichments characteristic of human reasoning. Crucially, LLM accuracy is neither predicted nor boosted by open vs. closed status, training orientation, or architecture type, suggesting that pragmatic reasoning is still an emerging ability in the cognitive toolkit of artificial systems.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Large Language Model",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2605.20373",
+    "title": "SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework",
+    "paper_url": "https://arxiv.org/abs/2605.20373",
+    "project_url": null,
+    "authors": [
+      "Tianshu Wu",
+      "Xiangqi Kong",
+      "Yue Chen",
+      "Qize Yu",
+      "Hang Ye",
+      "Jia Li",
+      "Yizhou Wang",
+      "Hao Dong"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-19",
+    "abstract": "Building humanoid robots capable of generalizable whole-body loco-manipulation in the real world remains a fundamental challenge. Existing methods either rely on laborious task-specific reward engineering, rigidly replay reference motions that fail to generalize, or depend on costly teleoperation that limits scalability. While human videos capture diverse human behaviors, motion priors inferred from them are inherently imperfect, suffering from occlusion, contact artifacts, and retargeting errors that render them unsuitable for direct policy learning. To address this, we present SUGAR, a scalable data-driven framework that converts diverse human videos into deployable humanoid loco-manipulation skills, without any task-specific reward engineering or reference-motion conditioning at inference. SUGAR proceeds in three stages. First, a fully automated pipeline extracts kinematic interaction priors including human-object motion trajectories and contact labels from unstructured human videos. Second, a privileged physics-based refiner uses a unified mimic reward and progressive state pool to transform imperfect priors into physically feasible, high-fidelity skills. Third, refined skills are distilled into a hierarchical autonomous policy consisting of a command generator and a command tracker. We evaluate SUGAR on six representative loco-manipulation tasks in simulation and real-world humanoid hardware. Our method substantially outperforms reference-tracking baselines, and performance scales clearly with the amount of human video data. It also achieves zero-shot real-world transfer with reliable closed-loop execution, autonomous failure recovery, and stable long-horizon performance under external perturbations. Project Page: https://tianshuwu.github.io/sugar-humanoid/",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "Physics-Based Character Animation",
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Zero-Shot",
+      "Humanoid",
+      "Policy Learning",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2605.19981",
     "title": "CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation",
     "paper_url": "https://arxiv.org/abs/2605.19981",
@@ -82,6 +153,48 @@
     "primary_category": "Teleoperation"
   },
   {
+    "arxiv_id": "2605.20506",
+    "title": "Reinforcing Human Behavior Simulation via Verbal Feedback",
+    "paper_url": "https://arxiv.org/abs/2605.20506",
+    "project_url": null,
+    "authors": [
+      "Weiwei Sun",
+      "Xuhui Zhou",
+      "Jiarui Liu",
+      "Weihua Du",
+      "Haojia Sun",
+      "Yiqing Xie",
+      "Qianou Ma",
+      "Sihao Chen",
+      "Mengting Wan",
+      "Longqi Yang",
+      "Pei Zhou",
+      "Sherry Wu",
+      "Sean Welleck",
+      "Graham Neubig",
+      "Yiming Yang",
+      "Maarten Sap"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-19",
+    "abstract": "Humans learn social norms and behaviors from verbal feedback (e.g., a parent saying \"that was rude\" or a friend explaining \"here's why that hurt\"). Yet, learning from feedback for LLMs has largely focused on domains like code and math, where RL rewards are directly verifiable and condensed into scalar values. As LLMs are increasingly used to simulate human behavior, e.g., standing in for users, patients, students, and other personas, there is a pressing need to make them more human-like, which requires embracing a fundamentally different kind of signal: feedback that is verbal, subjective, and multi-faceted. We present DITTO, a model trained by treating verbal feedback as a first-class signal in reinforcement learning. After each rollout, DITTO receives verbal feedback and generates a feedback-conditioned improved rollout; both outputs are jointly optimized with GRPO, distilling verbal guidance into the base policy without requiring feedback at test time. We also introduce SOUL (Simulation gym Of hUman-Like behavior), a unified benchmark and training data suite spanning 10 tasks across six categories: Theory of Mind, character role play, social skill, learner simulation, user simulation, and persona simulation. DITTO achieves an average 36% improvement over the base model and exceeds GPT-5.4 on 6 of 10 SOUL benchmarks, demonstrating that RL with verbal feedback is a promising direction for training LLMs to simulate human behavior.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Benchmark",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
     "arxiv_id": "2605.19305",
     "title": "Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes",
     "paper_url": "https://arxiv.org/abs/2605.19305",
@@ -108,6 +221,39 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.19009",
+    "title": "Adversarial Stress Testing of SPARK Humanoid Safety Filters",
+    "paper_url": "https://arxiv.org/abs/2605.19009",
+    "project_url": "https://github.com/ghoshsaurav/spark-adversarial-safety",
+    "authors": [
+      "Saurav Ghosh",
+      "Abdou Sow",
+      "Luke Zhang"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints. Still, nominal benchmark scores do not fully show how these filters behave in harder environments. In this work, we study the robustness of SPARK humanoid safety filters through replication and stress testing. We replicate the SPARK benchmark case G1SportMode_D1_WG_SO_v1 in MuJoCo and evaluate RSSA, RSSS, SSA, CBF, PFM, and SMA under controlled random seeds. We also built a post-processing pipeline that converts raw SPARK logs into goal-tracking, minimum-distance, and collision-step metrics. Our results show that some methods track the goal more closely, while others reduce collision steps more effectively. The stress tests further indicate that safety behavior can change under obstacle crowding, noisy distance estimates, and delayed obstacle information. These findings suggest that humanoid autonomy should be evaluated beyond nominal performance, using metrics that expose failure modes before deployment.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Safety",
+      "Robustness",
+      "MuJoCo",
+      "Humanoid",
+      "Collision",
+      "Benchmark",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2605.19004",
@@ -143,6 +289,36 @@
     "platform": "Figure",
     "summary": "",
     "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.18611",
+    "title": "Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors",
+    "paper_url": "https://arxiv.org/abs/2605.18611",
+    "project_url": null,
+    "authors": [
+      "Yidan Lu",
+      "Yichao Zhong",
+      "Liu Zhao",
+      "Wanyue Li",
+      "Peng Lu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running. The gate is defined by a single fixed threshold on projected gravity: the recovery discriminator is activated when body tilt exceeds approximately $37^\\circ$ from vertical ($|g_z+1|>0.6$); otherwise the locomotion discriminator is used, with the normalized commanded velocity serving as a condition that selects the appropriate reference trajectory between walk and run clips. Only three LAFAN1 reference clips are required to regularize the complete behavior set. At deployment, a single frozen ONNX policy executes at 50\\,Hz with no runtime mode logic; hardware experiments demonstrate successful recovery from both prone and supine falls and smooth walk-to-run transitions under the same controller.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Walking"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2605.18956",
@@ -181,69 +357,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.19009",
-    "title": "Adversarial Stress Testing of SPARK Humanoid Safety Filters",
-    "paper_url": "https://arxiv.org/abs/2605.19009",
-    "project_url": "https://github.com/ghoshsaurav/spark-adversarial-safety",
-    "authors": [
-      "Saurav Ghosh",
-      "Abdou Sow",
-      "Luke Zhang"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-18",
-    "abstract": "Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints. Still, nominal benchmark scores do not fully show how these filters behave in harder environments. In this work, we study the robustness of SPARK humanoid safety filters through replication and stress testing. We replicate the SPARK benchmark case G1SportMode_D1_WG_SO_v1 in MuJoCo and evaluate RSSA, RSSS, SSA, CBF, PFM, and SMA under controlled random seeds. We also built a post-processing pipeline that converts raw SPARK logs into goal-tracking, minimum-distance, and collision-step metrics. Our results show that some methods track the goal more closely, while others reduce collision steps more effectively. The stress tests further indicate that safety behavior can change under obstacle crowding, noisy distance estimates, and delayed obstacle information. These findings suggest that humanoid autonomy should be evaluated beyond nominal performance, using metrics that expose failure modes before deployment.",
-    "categories": [
-      "Simulation Benchmark",
-      "State Estimation"
-    ],
-    "tags": [
-      "Safety",
-      "Robustness",
-      "MuJoCo",
-      "Humanoid",
-      "Collision",
-      "Benchmark",
-      "Simulation Benchmark",
-      "State Estimation"
-    ],
-    "real_robot": true,
-    "open_source": true,
-    "platform": "Figure",
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.18611",
-    "title": "Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors",
-    "paper_url": "https://arxiv.org/abs/2605.18611",
-    "project_url": null,
-    "authors": [
-      "Yidan Lu",
-      "Yichao Zhong",
-      "Liu Zhao",
-      "Wanyue Li",
-      "Peng Lu"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-18",
-    "abstract": "We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running. The gate is defined by a single fixed threshold on projected gravity: the recovery discriminator is activated when body tilt exceeds approximately $37^\\circ$ from vertical ($|g_z+1|>0.6$); otherwise the locomotion discriminator is used, with the normalized commanded velocity serving as a condition that selects the appropriate reference trajectory between walk and run clips. Only three LAFAN1 reference clips are required to regularize the complete behavior set. At deployment, a single frozen ONNX policy executes at 50\\,Hz with no runtime mode logic; hardware experiments demonstrate successful recovery from both prone and supine falls and smooth walk-to-run transitions under the same controller.",
-    "categories": [
-      "Locomotion"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Locomotion",
-      "Humanoid",
-      "Walking"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "Unitree G1",
-    "summary": "",
-    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2605.17681",

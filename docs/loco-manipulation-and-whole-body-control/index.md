@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**175 papers** in this category.
+**177 papers** in this category.
 
 ## Months
 
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (5 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (7 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -34,6 +34,43 @@
 ---
 
 ## Recent Papers
+
+## Tracing the ongoing emergence of human-like reasoning in Large Language Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.21299)
+- **Authors:** Paolo Morosi, Nikoleta Pantelidou, Fritz Günther, Elena Pagliarini, Evelina Leivada
+- **Published:** 2026-05
+- **Tags:**
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humans effortlessly go beyond literal meanings: If you mow the lawn, I will give you fifty dollars, is typically understood as implying that the speaker will pay only if the lawn is mowed, whereas If you are hungry, there is pizza in the oven implies that pizza is available regardless of the hearers hunger. Large Language Models - LLMs - show human-like performance on many tasks, yet it remains unclear whether they reason like humans.
+
+---
+
+## SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.20373)
+- **Authors:** Tianshu Wu, Xiangqi Kong, Yue Chen, Qize Yu, Hang Ye, Jia Li et al. (8 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+  - State Estimation
+
+### Summary
+
+Building humanoid robots capable of generalizable whole-body loco-manipulation in the real world remains a fundamental challenge. Existing methods either rely on laborious task-specific reward engineering, rigidly replay reference motions that fail to generalize, or depend on costly teleoperation that limits scalability.
+
+---
 
 ## CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation
 
@@ -347,36 +384,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.23843)
 - **Published:** 2026-02
 - **Tags:**
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 LessMimic: Long-Horizon Humanoid Interaction with Unified Distance Field Representations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.21723)
-- **Project:** [GitHub](https://yzhu.io/preprint/humanoid2026lessmimic/)
-- **Published:** 2026-02
-- **Tags:**
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.16705)
-- **Published:** 2026-02
-- **Tags:**
-  - Manipulation
   - Humanoid
   - Loco-Manipulation and Whole-Body Control
 

@@ -7,12 +7,34 @@ Papers with real humanoid robot deployment and experiments.
 - **Figure:** 6 papers
 - **NAO:** 1 papers
 - **Unitree G1:** 12 papers
-- **Unknown Platform:** 2 papers
+- **Unknown Platform:** 3 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.20373)
+- **Authors:** Tianshu Wu, Xiangqi Kong, Yue Chen, Qize Yu, Hang Ye, Jia Li et al. (8 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+  - State Estimation
+
+### Summary
+
+Building humanoid robots capable of generalizable whole-body loco-manipulation in the real world remains a fundamental challenge. Existing methods either rely on laborious task-specific reward engineering, rigidly replay reference motions that fail to generalize, or depend on costly teleoperation that limits scalability.
+
+---
 
 ## CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation
 
@@ -36,27 +58,6 @@ Humanoid robots have achieved impressive locomotion performance, yet contact-ric
 
 ---
 
-## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
-- **Project:** [GitHub](https://github.com/yehiahmad/egotraj)
-- **Authors:** Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Navigation
-  - Humanoid
-  - Trajectory Prediction
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
-
----
-
 ## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
@@ -77,6 +78,27 @@ Accurately forecasting human trajectories from an egocentric perspective plays a
 ### Summary
 
 Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
+
+---
+
+## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
+- **Project:** [GitHub](https://github.com/yehiahmad/egotraj)
+- **Authors:** Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Humanoid
+  - Trajectory Prediction
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
 
 ---
 

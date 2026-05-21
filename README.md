@@ -2,15 +2,15 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 502
-- **Real Robot Papers:** 22
+- **Total Papers:** 505
+- **Real Robot Papers:** 23
 - **Open Source Papers:** 123
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (175)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (177)
 - [Manipulation](#manipulation) (51)
 - [Teleoperation](#teleoperation) (22)
 - [Locomotion](#locomotion) (99)
@@ -18,7 +18,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [State Estimation](#state-estimation) (10)
 - [Sim-to-Real](#sim-to-real) (11)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (31)
+- [Simulation Benchmark](#simulation-benchmark) (32)
 - [Physics-Based Character Animation](#physics-based-character-animation) (32)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (22)
 - [Usage](#usage)
@@ -29,6 +29,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-05
 
+- [Tracing the ongoing emergence of human-like reasoning in Large Language Models](https://arxiv.org/abs/2605.21299) — `Large Language Model`, `Loco-Manipulation and Whole-Body Control`
+- [SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework](https://arxiv.org/abs/2605.20373) — `Teleoperation`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Policy Learning`, `Loco-Manipulation and Whole-Body Control`
 - [CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation](https://arxiv.org/abs/2605.19981) — `Whole-Body Control`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `PPO`
 - [HCLM: A Hierarchical Framework for Cooperative Loco-Manipulation with Dual Quadrupeds](https://arxiv.org/abs/2605.17300) — `Diffusion Policy`, `Whole-Body Control`, `Locomotion`, `Manipulation`, `Collision`, `Diffusion`
 - [Voice ''Cloning'' is Style Transfer](https://arxiv.org/abs/2605.16578) — `Impact`, `Loco-Manipulation and Whole-Body Control`
@@ -861,9 +863,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-05
 
+- [Reinforcing Human Behavior Simulation via Verbal Feedback](https://arxiv.org/abs/2605.20506) — `Reinforcement Learning`, `Benchmark`, `Simulation Benchmark`, `State Estimation`
+- 🌟 [Adversarial Stress Testing of SPARK Humanoid Safety Filters](https://arxiv.org/abs/2605.19009), [website](https://github.com/ghoshsaurav/spark-adversarial-safety) — `Safety`, `Robustness`, `MuJoCo`, `Humanoid`, `Collision`, `Benchmark`
 - 🌟 [EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction](https://arxiv.org/abs/2605.19004), [website](https://github.com/yehiahmad/egotraj) — `Navigation`, `Humanoid`, `Trajectory Prediction`, `Benchmark`, `Dataset`, `Simulation Benchmark`
 - [MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation](https://arxiv.org/abs/2605.18956) — `Zero-Shot`, `Pre-training`, `Benchmark`, `Dataset`, `Simulation Benchmark`, `Physics-Based Character Animation`
-- 🌟 [Adversarial Stress Testing of SPARK Humanoid Safety Filters](https://arxiv.org/abs/2605.19009), [website](https://github.com/ghoshsaurav/spark-adversarial-safety) — `Safety`, `Robustness`, `MuJoCo`, `Humanoid`, `Collision`, `Benchmark`
 - [EfficientTDMPC: Improved MPC Objectives for Sample-Efficient Continuous Control](https://arxiv.org/abs/2605.16692) — `Reinforcement Learning`, `MPC`, `Humanoid`, `Benchmark`, `Simulation Benchmark`
 - [Enhancing Metacognitive AI: Knowledge-Graph Population with Graph-Theoretic LLM Enrichment](https://arxiv.org/abs/2605.16676) — `Dataset`, `Large Language Model`, `PPO`, `Simulation Benchmark`
 - [Why Modeling Human Haptic Material Perception with AI Is Difficult](https://arxiv.org/abs/2605.16602) — `Benchmark`, `Dataset`, `PPO`, `Simulation Benchmark`, `Teleoperation`, `Real Robot`
