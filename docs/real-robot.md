@@ -4,9 +4,9 @@ Papers with real humanoid robot deployment and experiments.
 
 ## Platforms
 
-- **Figure:** 6 papers
+- **Figure:** 4 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 12 papers
+- **Unitree G1:** 11 papers
 - **Unknown Platform:** 3 papers
 - **iCub:** 1 papers
 
@@ -55,68 +55,6 @@ Building humanoid robots capable of generalizable whole-body loco-manipulation i
 ### Summary
 
 Humanoid robots have achieved impressive locomotion performance, yet contact-rich and long-horizon manipulation remains a major bottleneck. Manipulation is inherently contact-rich and demands compliant whole-body control for stable interaction, while its diversity and long-horizon nature favor modular, planner-compatible interfaces over joint-space tracking.
-
----
-
-## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
-- **Project:** [GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
-- **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Safety
-  - Robustness
-  - MuJoCo
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
-
----
-
-## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
-- **Project:** [GitHub](https://github.com/yehiahmad/egotraj)
-- **Authors:** Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Navigation
-  - Humanoid
-  - Trajectory Prediction
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
-
----
-
-## Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.18611)
-- **Authors:** Yidan Lu, Yichao Zhong, Liu Zhao, Wanyue Li, Peng Lu
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Walking
-
-### Summary
-
-We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running.
 
 ---
 

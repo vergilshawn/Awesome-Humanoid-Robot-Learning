@@ -2,50 +2,6 @@
 
 Papers with open-source code repositories.
 
-## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
-- **Project:** [GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
-- **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Safety
-  - Robustness
-  - MuJoCo
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
-
----
-
-## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
-- **Project:** [GitHub](https://github.com/yehiahmad/egotraj)
-- **Authors:** Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Navigation
-  - Humanoid
-  - Trajectory Prediction
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
-
----
-
 ## 🌟 Humanoid Manipulation with Touch Dreaming
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2604.13015)

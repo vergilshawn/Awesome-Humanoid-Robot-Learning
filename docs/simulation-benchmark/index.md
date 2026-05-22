@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**32 papers** in this category.
+**29 papers** in this category.
 
 ## Months
 
-- [2026-05](/simulation-benchmark/2026-05) (10 papers)
+- [2026-05](/simulation-benchmark/2026-05) (7 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
 - [2026-02](/simulation-benchmark/2026-02) (1 papers)
@@ -37,70 +37,6 @@
 ### Summary
 
 Humans learn social norms and behaviors from verbal feedback (e.g., a parent saying "that was rude" or a friend explaining "here's why that hurt"). Yet, learning from feedback for LLMs has largely focused on domains like code and math, where RL rewards are directly verifiable and condensed into scalar values.
-
----
-
-## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
-- **Project:** [GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
-- **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Safety
-  - Robustness
-  - MuJoCo
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
-
----
-
-## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
-- **Project:** [GitHub](https://github.com/yehiahmad/egotraj)
-- **Authors:** Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Navigation
-  - Humanoid
-  - Trajectory Prediction
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
-
----
-
-## MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.18956)
-- **Authors:** Bizhu Wu, Jinheng Xie, Wenting Chen, Zhe Kong, Jianfeng Ren, Linlin Shen et al. (8 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Zero-Shot
-  - Pre-training
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Recent motion-language models unify tasks like comprehension and generation but operate at a coarse granularity, lacking fine-grained understanding and nuanced control over body parts needed for animation or interaction. This stems from fundamental issues in both the model and the data, in which the model can't focus on motion's localized pattern, and the training data lacks fine-grained supervision.
 
 ---
 
@@ -377,6 +313,50 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Manipulation
   - Humanoid
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## DualTHOR: A Dual-Arm Humanoid Simulation Platform for Contingency-Aware Planning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2506.16012)
+- **Published:** 2025-06
+- **Tags:**
+  - Humanoid
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Learning with pyCub: A Simulation and Exercise Framework for Humanoid Robotics
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2506.01756)
+- **Published:** 2025-06
+- **Tags:**
+  - Humanoid
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Humanoid World Models: Open World Foundation Models for Humanoid Robotics
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2506.01182)
+- **Published:** 2025-06
+- **Tags:**
+  - World Model
+  - Humanoid
+  - Foundation Model
   - Simulation Benchmark
 
 ### Summary

@@ -1,10 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**22 papers** in this category.
+**23 papers** in this category.
 
 ## Months
 
-- [2026-05](/human-motion-analysis-and-synthesis/2026-05) (2 papers)
+- [2026-05](/human-motion-analysis-and-synthesis/2026-05) (3 papers)
 - [2026-04](/human-motion-analysis-and-synthesis/2026-04) (1 papers)
 - [2026-02](/human-motion-analysis-and-synthesis/2026-02) (2 papers)
 - [2025-12](/human-motion-analysis-and-synthesis/2025-12) (2 papers)
@@ -24,6 +24,26 @@
 ---
 
 ## Recent Papers
+
+## Imagine2Real: Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.22272)
+- **Authors:** Jiahe Chen, ZiRui Wang, Feiyu Jia, Xiao Chen, Xiaojie Niu, Weishuai Zeng et al. (10 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Foundation Model
+  - Human Motion Analysis and Synthesis
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Whole-body Humanoid-Object Interaction (HOI) is bottlenecked by the scarcity of high-fidelity 3D data. While video generative priors offer a promising alternative, existing methods suffer from \textit{Representation Misalignment} due to their reliance on geometric priors (e.g., explicit CAD models), and \textit{Retargeting Complexity} arising from intensive morphing and morphological mismatch.
+
+---
 
 ## Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation
 
@@ -294,19 +314,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2023-07
 - **Tags:**
   - Diffusion
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Example-based Motion Synthesis via Generative Motion Matching
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2306.00378)
-- **Published:** 2023-06
-- **Tags:**
   - Human Motion Analysis and Synthesis
 
 ### Summary
