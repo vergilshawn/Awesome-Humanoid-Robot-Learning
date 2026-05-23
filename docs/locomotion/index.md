@@ -1,10 +1,10 @@
 # Locomotion
 
-**99 papers** in this category.
+**100 papers** in this category.
 
 ## Months
 
-- [2026-05](/locomotion/2026-05) (4 papers)
+- [2026-05](/locomotion/2026-05) (5 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -70,6 +70,24 @@ Safe manipulation-oriented navigation for humanoid robots requires scene memory 
 ### Summary
 
 This paper tackles the task of learning to generate signals over triangle meshes in a triangulation-agnostic manner, meaning the trained model can be applied to different meshes and triangulations effectively. Practically, the paper adapts the flow matching (FM) paradigm to a mesh-based, triangulation-agnostic setting.
+
+---
+
+## Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.18611)
+- **Authors:** Yidan Lu, Yichao Zhong, Liu Zhao, Wanyue Li, Peng Lu
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Walking
+
+### Summary
+
+We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running.
 
 ---
 
@@ -349,19 +367,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2026-01
 - **Tags:**
   - Humanoid
-  - Locomotion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## AME-2: Agile and Generalized Legged Locomotion via Attention-Based Neural Map Encoding
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.08485)
-- **Published:** 2026-01
-- **Tags:**
   - Locomotion
 
 ### Summary

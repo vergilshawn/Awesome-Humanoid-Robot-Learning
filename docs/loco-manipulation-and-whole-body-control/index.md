@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**176 papers** in this category.
+**177 papers** in this category.
 
 ## Months
 
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (6 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (7 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -34,6 +34,21 @@
 ---
 
 ## Recent Papers
+
+## Investigating Concept Alignment Using Implausible Category Members
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.21683)
+- **Authors:** Sunayana Rane, Brenden M. Lake, Thomas L. Griffiths
+- **Published:** 2026-05
+- **Tags:**
+  - Safety
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Developing AI systems with a human-like understanding of everyday concepts is a key step towards developing safe, reliable systems whose behavior makes sense to humans. When probing concept understanding, asking questions about plausible category members (e.g., "Is a car a vehicle?") is likely to recall patterns in the model's vast training data.
+
+---
 
 ## SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework
 
@@ -367,21 +382,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## OmniXtreme: Breaking the Generality Barrier in High-Dynamic Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.23843)
-- **Published:** 2026-02
-- **Tags:**
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 LessMimic: Long-Horizon Humanoid Interaction with Unified Distance Field Representations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.21723)
-- **Project:** [GitHub](https://yzhu.io/preprint/humanoid2026lessmimic/)
 - **Published:** 2026-02
 - **Tags:**
   - Humanoid

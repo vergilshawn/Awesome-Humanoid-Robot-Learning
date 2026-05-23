@@ -43,6 +43,21 @@ Safe manipulation-oriented navigation for humanoid robots requires scene memory 
 
 ---
 
+## Investigating Concept Alignment Using Implausible Category Members
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.21683)
+- **Authors:** Sunayana Rane, Brenden M. Lake, Thomas L. Griffiths
+- **Published:** 2026-05
+- **Tags:**
+  - Safety
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Developing AI systems with a human-like understanding of everyday concepts is a key step towards developing safe, reliable systems whose behavior makes sense to humans. When probing concept understanding, asking questions about plausible category members (e.g., "Is a car a vehicle?") is likely to recall patterns in the model's vast training data.
+
+---
+
 ## SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.20373)
@@ -138,6 +153,88 @@ Humans learn social norms and behaviors from verbal feedback (e.g., a parent say
 ### Summary
 
 This paper tackles the task of learning to generate signals over triangle meshes in a triangulation-agnostic manner, meaning the trained model can be applied to different meshes and triangulations effectively. Practically, the paper adapts the flow matching (FM) paradigm to a mesh-based, triangulation-agnostic setting.
+
+---
+
+## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
+- **Project:** [GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
+- **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Safety
+  - Robustness
+  - MuJoCo
+  - Humanoid
+  - Collision
+  - Benchmark
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
+
+---
+
+## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
+- **Project:** [GitHub](https://github.com/yehiahmad/egotraj)
+- **Authors:** Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Humanoid
+  - Trajectory Prediction
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
+
+---
+
+## Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.18611)
+- **Authors:** Yidan Lu, Yichao Zhong, Liu Zhao, Wanyue Li, Peng Lu
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Walking
+
+### Summary
+
+We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running.
+
+---
+
+## MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.18956)
+- **Authors:** Bizhu Wu, Jinheng Xie, Wenting Chen, Zhe Kong, Jianfeng Ren, Linlin Shen et al. (8 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Zero-Shot
+  - Pre-training
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Recent motion-language models unify tasks like comprehension and generation but operate at a coarse granularity, lacking fine-grained understanding and nuanced control over body parts needed for animation or interaction. This stems from fundamental issues in both the model and the data, in which the model can't focus on motion's localized pattern, and the training data lacks fine-grained supervision.
 
 ---
 

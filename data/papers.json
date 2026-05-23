@@ -78,6 +78,32 @@
     "primary_category": "Locomotion"
   },
   {
+    "arxiv_id": "2605.21683",
+    "title": "Investigating Concept Alignment Using Implausible Category Members",
+    "paper_url": "https://arxiv.org/abs/2605.21683",
+    "project_url": null,
+    "authors": [
+      "Sunayana Rane",
+      "Brenden M. Lake",
+      "Thomas L. Griffiths"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-20",
+    "abstract": "Developing AI systems with a human-like understanding of everyday concepts is a key step towards developing safe, reliable systems whose behavior makes sense to humans. When probing concept understanding, asking questions about plausible category members (e.g., \"Is a car a vehicle?\") is likely to recall patterns in the model's vast training data. We pursue an alternative strategy, characterizing the boundaries of conceptual categories by asking about implausible category members (e.g., \"Is an olive a vehicle?\") to probe the kind of concept-level knowledge we take for granted in fellow humans. We characterize concept boundaries for a set of fundamental concepts by studying AI systems' assignments of objects to superordinate categories from a classic psychological study by Rosch and Mervis, as well as their assignments of the same objects to mismatched superordinate categories. We compare these assignments to those made by human participants on the full range of within-category and cross-category assignment tasks. Our results reveal a range of concepts for which which models differ in meaningful and surprising ways from humans, including treating \"words\" as belonging to categories like \"vehicles\" and \"clothing,\" identifying several \"vegetable\" category members as \"fruit,\" and assigning exemplars from non-weapon categories to the \"weapons\" category. We also demonstrate how these instances of concept misalignment translate into problematic downstream behavior with implications for AI safety.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Safety",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2605.20373",
     "title": "SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework",
     "paper_url": "https://arxiv.org/abs/2605.20373",
@@ -271,6 +297,142 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.19009",
+    "title": "Adversarial Stress Testing of SPARK Humanoid Safety Filters",
+    "paper_url": "https://arxiv.org/abs/2605.19009",
+    "project_url": "https://github.com/ghoshsaurav/spark-adversarial-safety",
+    "authors": [
+      "Saurav Ghosh",
+      "Abdou Sow",
+      "Luke Zhang"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints. Still, nominal benchmark scores do not fully show how these filters behave in harder environments. In this work, we study the robustness of SPARK humanoid safety filters through replication and stress testing. We replicate the SPARK benchmark case G1SportMode_D1_WG_SO_v1 in MuJoCo and evaluate RSSA, RSSS, SSA, CBF, PFM, and SMA under controlled random seeds. We also built a post-processing pipeline that converts raw SPARK logs into goal-tracking, minimum-distance, and collision-step metrics. Our results show that some methods track the goal more closely, while others reduce collision steps more effectively. The stress tests further indicate that safety behavior can change under obstacle crowding, noisy distance estimates, and delayed obstacle information. These findings suggest that humanoid autonomy should be evaluated beyond nominal performance, using metrics that expose failure modes before deployment.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Safety",
+      "Robustness",
+      "MuJoCo",
+      "Humanoid",
+      "Collision",
+      "Benchmark",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.19004",
+    "title": "EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction",
+    "paper_url": "https://arxiv.org/abs/2605.19004",
+    "project_url": "https://github.com/yehiahmad/egotraj",
+    "authors": [
+      "Ahmad Yehia",
+      "Abduallah Mohamed",
+      "Tianyi Wang",
+      "Jiseop Byeon",
+      "Kun Qian",
+      "Junfeng Jiao",
+      "Christian Claudel"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments. Addressing this need, we introduce EgoTraj, an egocentric multimodal open dataset recorded using Meta Quest Pro (MQPro). EgoTraj contains 75 sequences of human navigation collected from multiple MQPro wearers in real-world urban environments. Each recording provides synchronized RGB video along with ground-truth data, including continuous time-synchronized 6-degree-of-freedom head poses, per-frame 3D eye gaze vectors, scene annotations. To the best of our knowledge, EgoTraj differs from typical egocentric trajectory datasets by capturing long-horizon, self-directed navigation across diverse urban routes with broad participant diversity. To demonstrate the potential of the dataset, we benchmark several state-of-the-art methods for egocentric trajectory prediction and conduct ablation studies to analyze the contributions of gaze, scene, and motion cues. The results highlight the utility of EgoTraj for AR-based perception, navigation, and assistive systems. The EgoTraj dataset, code, and EgoViz Dashboard are publicly available at https://github.com/yehiahmad/EgoTraj.",
+    "categories": [
+      "Simulation Benchmark",
+      "Navigation"
+    ],
+    "tags": [
+      "Navigation",
+      "Humanoid",
+      "Trajectory Prediction",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.18611",
+    "title": "Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors",
+    "paper_url": "https://arxiv.org/abs/2605.18611",
+    "project_url": null,
+    "authors": [
+      "Yidan Lu",
+      "Yichao Zhong",
+      "Liu Zhao",
+      "Wanyue Li",
+      "Peng Lu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running. The gate is defined by a single fixed threshold on projected gravity: the recovery discriminator is activated when body tilt exceeds approximately $37^\\circ$ from vertical ($|g_z+1|>0.6$); otherwise the locomotion discriminator is used, with the normalized commanded velocity serving as a condition that selects the appropriate reference trajectory between walk and run clips. Only three LAFAN1 reference clips are required to regularize the complete behavior set. At deployment, a single frozen ONNX policy executes at 50\\,Hz with no runtime mode logic; hardware experiments demonstrate successful recovery from both prone and supine falls and smooth walk-to-run transitions under the same controller.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Walking"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.18956",
+    "title": "MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation",
+    "paper_url": "https://arxiv.org/abs/2605.18956",
+    "project_url": null,
+    "authors": [
+      "Bizhu Wu",
+      "Jinheng Xie",
+      "Wenting Chen",
+      "Zhe Kong",
+      "Jianfeng Ren",
+      "Linlin Shen",
+      "Ruibin Bai",
+      "Rong Qu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-18",
+    "abstract": "Recent motion-language models unify tasks like comprehension and generation but operate at a coarse granularity, lacking fine-grained understanding and nuanced control over body parts needed for animation or interaction. This stems from fundamental issues in both the model and the data, in which the model can't focus on motion's localized pattern, and the training data lacks fine-grained supervision. To tackle this, we propose MotionMERGE, a unified framework that bridges the granularity gap. First, we pioneer the study of fine-grained languageguided motion control, including detailed understanding and localized editing, by explicitly modeling motion at part and temporal levels within a single LLM, thereby endowing the model with robust priors for precise control. Second, we design ReasoningAware Granularity-Synergy pre-training, a novel strategy that employs joint supervision for cross-granularity alignment, temporal grounding, localized alignment, motion coherency, and motion-grounded chain-of-thought (CoT) reasoning. This equips the model with fine-grained motion-language alignment, crossgranularity synergy, and explicit reasoning ability. Third, we curate MotionFineEdit, a large-scale dataset (837K atomic + 144K complex triplets) with the first fine-grained spatio-temporal corrective instructions and motion-grounded CoT annotations, establishing a new benchmark for fine-grained text-driven motion editing and motion-grounded reasoning. Extensive experiments demonstrate the capability of MotionMERGE for more precise motion generation, understanding, and editing, and compelling zero-shot generalization to other complex motion tasks. This work represents a significant step toward models that interact with motion in finer granularity and human-like reasoning.",
+    "categories": [
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Pre-training",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2605.17681",
