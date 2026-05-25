@@ -2,6 +2,100 @@
 
 All papers sorted by publication date (newest first).
 
+## Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23762)
+- **Authors:** Constant Roux, Ludovic De Matteïs, Armand Jordana, Valentin Guillet, Nicolas Mansard, Olivier Stasse et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Imitation Learning
+  - Simulator
+  - Humanoid
+  - Sampling-Based
+  - State Estimation
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Imitation Learning from monocular video demonstrations provides a scalable approach for teaching complex skills to humanoid robots. However, translating human motion to humanoids requires overcoming significant morphological mismatches.
+
+---
+
+## Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23733)
+- **Authors:** Ming Yang, Tao Yu, Feng Li, Hua Chen
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making rapid deployment on new humanoid platforms costly.
+
+---
+
+## Signal Temporal Logic Motion Planning via Graphs of Convex Sets
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23240)
+- **Authors:** Yu Chen, Ancheng Hou, Mingyang Feng, Xiao Yu, Xiang Yin
+- **Published:** 2026-05
+- **Tags:**
+  - Humanoid
+  - Motion Planning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+This paper investigates continuous-time motion planning under Signal Temporal Logic (STL) specifications. The goal is to generate smooth robot trajectories that satisfy high-level logical and timing requirements while respecting low-level motion constraints.
+
+---
+
+## Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23819)
+- **Authors:** Jorge Chang Ortega, Bastien Le Lan, Thomas Serre, Victor Boutin
+- **Published:** 2026-05
+- **Tags:**
+  - Robustness
+  - Benchmark
+  - Energy-Based
+  - Simulation Benchmark
+
+### Summary
+
+A central question in computational vision is whether human-like visual representations are better explained by discriminative or generative learning. Existing comparisons, however, often confound the learning objective with architecture, scale, and training data, leaving open whether the objective itself drives alignment.
+
+---
+
+## SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.22894)
+- **Authors:** Jingyan Zhang, Han Liang, Ruichi Zhang, Bin Li, Juze Zhang, Xin Chen et al. (9 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Diffusion Policy
+  - Transformer
+  - Humanoid
+  - Pre-training
+  - Dataset
+  - Diffusion
+  - Simulation Benchmark
+
+### Summary
+
+Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control.
+
+---
+
 ## Imagine2Real: Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.22272)

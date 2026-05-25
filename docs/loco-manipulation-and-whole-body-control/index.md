@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**177 papers** in this category.
+**178 papers** in this category.
 
 ## Months
 
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (7 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (8 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -34,6 +34,25 @@
 ---
 
 ## Recent Papers
+
+## Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23733)
+- **Authors:** Ming Yang, Tao Yu, Feng Li, Hua Chen
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making rapid deployment on new humanoid platforms costly.
+
+---
 
 ## Investigating Concept Alignment Using Implausible Category Members
 
@@ -370,20 +389,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2026-03
 - **Tags:**
   - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## OmniXtreme: Breaking the Generality Barrier in High-Dynamic Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.23843)
-- **Published:** 2026-02
-- **Tags:**
   - Humanoid
   - Loco-Manipulation and Whole-Body Control
 

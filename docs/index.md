@@ -8,22 +8,22 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 507
-- **Real Robot Papers:** 23
+- **Total Papers:** 512
+- **Real Robot Papers:** 24
 - **Open Source Papers:** 123
 - **Latest Month:** 2026-05
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (177)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (178)
 - [Manipulation](/manipulation/) (51)
 - [Teleoperation](/teleoperation/) (22)
 - [Locomotion](/locomotion/) (100)
 - [Navigation](/navigation/) (18)
-- [State Estimation](/state-estimation/) (10)
+- [State Estimation](/state-estimation/) (11)
 - [Sim-to-Real](/sim-to-real/) (11)
 - [Hardware Design](/hardware-design/) (31)
-- [Simulation Benchmark](/simulation-benchmark/) (32)
+- [Simulation Benchmark](/simulation-benchmark/) (35)
 - [Physics-Based Character Animation](/physics-based-character-animation/) (32)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (23)
 
@@ -31,6 +31,16 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos](https://arxiv.org/abs/2605.23762) — 2026-05
+  - [State Estimation](/state-estimation/)
+-  🤖 [Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking](https://arxiv.org/abs/2605.23733) — 2026-05
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [Signal Temporal Logic Motion Planning via Graphs of Convex Sets](https://arxiv.org/abs/2605.23240) — 2026-05
+  - [Simulation Benchmark](/simulation-benchmark/)
+-  [Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot](https://arxiv.org/abs/2605.23819) — 2026-05
+  - [Simulation Benchmark](/simulation-benchmark/)
+-  [SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control](https://arxiv.org/abs/2605.22894) — 2026-05
+  - [Simulation Benchmark](/simulation-benchmark/)
 -  [Imagine2Real: Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors](https://arxiv.org/abs/2605.22272) — 2026-05
   - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/)
 -  [Learning to Evolve: Multi-modal Interactive Fields for Robust Humanoid Navigation in Dynamic Environments](https://arxiv.org/abs/2605.21935) — 2026-05
@@ -41,50 +51,40 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation](https://arxiv.org/abs/2605.19981) — 2026-05
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [Domain-Adaptive Communication-Rate Optimization for Sim-to-Real Humanoid-Robot Wireless XR Teleoperation](https://arxiv.org/abs/2605.19293) — 2026-05
-  - [Teleoperation](/teleoperation/)
--  [Reinforcing Human Behavior Simulation via Verbal Feedback](https://arxiv.org/abs/2605.20506) — 2026-05
-  - [Simulation Benchmark](/simulation-benchmark/)
--  [Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes](https://arxiv.org/abs/2605.19305) — 2026-05
-  - [Locomotion](/locomotion/)
-- 🌟 🤖 [Adversarial Stress Testing of SPARK Humanoid Safety Filters](https://arxiv.org/abs/2605.19009) — 2026-05
-  - [Simulation Benchmark](/simulation-benchmark/)
-- 🌟 🤖 [EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction](https://arxiv.org/abs/2605.19004) — 2026-05
-  - [Simulation Benchmark](/simulation-benchmark/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (363)
-- **Loco-Manipulation and Whole-Body Control** (183)
+- **Humanoid** (367)
+- **Loco-Manipulation and Whole-Body Control** (184)
 - **Locomotion** (125)
 - **Manipulation** (111)
-- **Simulation Benchmark** (46)
-- **Physics-Based Character Animation** (44)
+- **Simulation Benchmark** (49)
+- **Physics-Based Character Animation** (47)
+- **Whole-Body Control** (36)
+- **Reinforcement Learning** (36)
 - **Teleoperation** (36)
-- **Whole-Body Control** (35)
-- **Reinforcement Learning** (35)
+- **Human Motion Analysis and Synthesis** (32)
 - **Hardware Design** (32)
-- **Human Motion Analysis and Synthesis** (31)
+- **State Estimation** (26)
 - **Navigation** (26)
-- **State Estimation** (24)
+- **Benchmark** (21)
+- **Diffusion** (21)
 - **Sim-to-Real** (21)
-- **Diffusion** (20)
-- **Benchmark** (19)
-- **Dataset** (15)
+- **Dataset** (16)
 - **Foundation Model** (13)
 - **Vision-Language** (12)
 - **Safety** (11)
 - **PPO** (11)
 - **Zero-Shot** (10)
 - **Biped** (10)
+- **Imitation Learning** (9)
 - **Collision** (9)
 - **Gait** (8)
 - **Distillation** (8)
 - **Walking** (8)
 - **World Model** (8)
-- **Imitation Learning** (8)
 - **MuJoCo** (7)
 
 ---
@@ -95,6 +95,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-05](/loco-manipulation-and-whole-body-control/2026-05)
 
+- [Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking](https://arxiv.org/abs/2605.23733) — `Whole-Body Control`, `Humanoid`, `Fine-tuning`, `Loco-Manipulation and Whole-Body Control`, `Physics-Based Character Animation`, `Real Robot`
 - [Investigating Concept Alignment Using Implausible Category Members](https://arxiv.org/abs/2605.21683) — `Safety`, `Loco-Manipulation and Whole-Body Control`
 - [SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework](https://arxiv.org/abs/2605.20373) — `Teleoperation`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Policy Learning`, `Loco-Manipulation and Whole-Body Control`
 - [CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation](https://arxiv.org/abs/2605.19981) — `Whole-Body Control`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `PPO`
@@ -776,6 +777,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-05](/state-estimation/2026-05)
 
+- [Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos](https://arxiv.org/abs/2605.23762) — `Imitation Learning`, `Simulator`, `Humanoid`, `Sampling-Based`, `State Estimation`, `Physics-Based Character Animation`
 - [PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots](https://arxiv.org/abs/2605.17681) — `Locomotion`, `State Estimation`, `Real Robot`, `Humanoid`, `Proprioception`, `Foundation Model`
 - [CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios](https://arxiv.org/abs/2605.15122) — `State Estimation`, `Biped`, `Locomotion`, `Simulation Benchmark`
 - [PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generation](https://arxiv.org/abs/2605.14269) — `Reinforcement Learning`, `Simulator`, `MuJoCo`, `Humanoid`, `State Estimation`, `Simulation Benchmark`
@@ -930,6 +932,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-05](/simulation-benchmark/2026-05)
 
+- [Signal Temporal Logic Motion Planning via Graphs of Convex Sets](https://arxiv.org/abs/2605.23240) — `Humanoid`, `Motion Planning`, `Benchmark`, `Simulation Benchmark`
+- [Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot](https://arxiv.org/abs/2605.23819) — `Robustness`, `Benchmark`, `Energy-Based`, `Simulation Benchmark`
+- [SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control](https://arxiv.org/abs/2605.22894) — `Reinforcement Learning`, `Diffusion Policy`, `Transformer`, `Humanoid`, `Pre-training`, `Dataset`
 - [Reinforcing Human Behavior Simulation via Verbal Feedback](https://arxiv.org/abs/2605.20506) — `Reinforcement Learning`, `Benchmark`, `Simulation Benchmark`, `State Estimation`
 - 🌟 [Adversarial Stress Testing of SPARK Humanoid Safety Filters](https://arxiv.org/abs/2605.19009), [website](https://github.com/ghoshsaurav/spark-adversarial-safety) — `Safety`, `Robustness`, `MuJoCo`, `Humanoid`, `Collision`, `Benchmark`
 - 🌟 [EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction](https://arxiv.org/abs/2605.19004), [website](https://github.com/yehiahmad/egotraj) — `Navigation`, `Humanoid`, `Trajectory Prediction`, `Benchmark`, `Dataset`, `Simulation Benchmark`

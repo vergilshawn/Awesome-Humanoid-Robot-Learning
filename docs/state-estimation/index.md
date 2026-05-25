@@ -1,10 +1,10 @@
 # State Estimation
 
-**10 papers** in this category.
+**11 papers** in this category.
 
 ## Months
 
-- [2026-05](/state-estimation/2026-05) (3 papers)
+- [2026-05](/state-estimation/2026-05) (4 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
 - [2022-07](/state-estimation/2022-07) (1 papers)
@@ -15,6 +15,26 @@
 ---
 
 ## Recent Papers
+
+## Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23762)
+- **Authors:** Constant Roux, Ludovic De Matteïs, Armand Jordana, Valentin Guillet, Nicolas Mansard, Olivier Stasse et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Imitation Learning
+  - Simulator
+  - Humanoid
+  - Sampling-Based
+  - State Estimation
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Imitation Learning from monocular video demonstrations provides a scalable approach for teaching complex skills to humanoid robots. However, translating human motion to humanoids requires overcoming significant morphological mismatches.
+
+---
 
 ## PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots
 

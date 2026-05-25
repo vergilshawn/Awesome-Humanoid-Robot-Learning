@@ -6,13 +6,32 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Figure:** 6 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 12 papers
+- **Unitree G1:** 13 papers
 - **Unknown Platform:** 3 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23733)
+- **Authors:** Ming Yang, Tao Yu, Feng Li, Hua Chen
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making rapid deployment on new humanoid platforms costly.
+
+---
 
 ## SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework
 
