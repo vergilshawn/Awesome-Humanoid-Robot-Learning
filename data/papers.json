@@ -1,5 +1,160 @@
 [
   {
+    "arxiv_id": "2605.26006",
+    "title": "MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2605.26006",
+    "project_url": null,
+    "authors": [
+      "Bin Li",
+      "Ruichi Zhang",
+      "Han Liang",
+      "Jingyan Zhang",
+      "Juze Zhang",
+      "Xin Chen",
+      "Jingya Wang"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-25",
+    "abstract": "Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning paradigm that directly generates actions from text. However, the former suffers from the inherent domain shift between kinematic generation and physics-based tracking, while the latter struggles with the substantial modality gap between textual commands and low-level actions, limiting effective semantic alignment. Notably, humanoid states encode rich motion dynamics that are more semantically aligned with textual descriptions than low-level actions, making them a natural basis for deriving behavioral intent. Building upon this insight, we propose MIND, a novel end-to-end diffusion framework for text-driven physics-based humanoid control that leverages behavioral intent as a semantic bridge between textual commands and low-level actions. At its core, MIND introduces a multi-scale intent diffusion mechanism, where a holistic intent predictor captures global behavioral dynamics to guide overall behavior synthesis, while an immediate intent predictor provides step-wise, fine-grained signals for local behavior refinement at each diffusion step. This hierarchical intent formulation imposes a structured inductive bias for humanoid control, improving semantic alignment and behavioral naturalness. Furthermore, MIND encodes humanoid states into a latent space to enable more effective semantic intent modeling. Extensive experiments demonstrate that MIND outperforms existing methods and synthesizes coherent, physically plausible, and semantically aligned humanoid behaviors from text commands. Our code will be released to facilitate future research.",
+    "categories": [
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Diffusion",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2605.25782",
+    "title": "ParkourFormer: Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion",
+    "paper_url": "https://arxiv.org/abs/2605.25782",
+    "project_url": null,
+    "authors": [
+      "Yanheng Mai",
+      "Wenhao Xu",
+      "Zirui Huang",
+      "Yifei Fu",
+      "Shengwei Dong",
+      "Xinjue Wang",
+      "Kailun Huang",
+      "Yanzhe Xie",
+      "Renjing Xu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-25",
+    "abstract": "Humanoid parkour requires locomotion policies to coordinate whole-body dynamics across rapidly changing terrains such as stairs, gaps, slopes, and obstacles. Existing reinforcement learning policies are largely reactive, mapping observations directly to actions without explicitly modeling future body states. Such modeling becomes critical in agile locomotion tasks where successful motion execution depends strongly on anticipating upcoming contact transitions and body dynamics.We present ParkourFormer, a Transformer-based sequence modeling framework that reformulates humanoid locomotion as a future-conditioned decision-making problem. The current robot state queries historical sensorimotor trajectories through cross-attention, while a lightweight prediction head forecasts short-horizon future proprioceptive states. The predicted future states, trained with supervised signals, are fused with temporal features to generate actions, enabling the policy to jointly reason over motion history and anticipated future dynamics. We evaluate ParkourFormer on a diverse multi-terrain humanoid parkour benchmark including stairs, gaps, slopes, rough terrain, and obstacle traversal. Experiments in simulation and on a real humanoid robot show that ParkourFormer achieves a 93.85% average traversal success rate on highly challenging terrains, with improvements of up to 42.73% over strong MLP, MoE-based MLP, and vanilla Transformer baselines, while maintaining a single unified policy across all terrain types. These results demonstrate that explicit future-state modeling significantly improves robustness and generalization for agile whole-body locomotion.",
+    "categories": [
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Navigation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Transformer",
+      "Robustness",
+      "Humanoid",
+      "Benchmark",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Navigation",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.25546",
+    "title": "Safety-Critical Whole-Body Control for Humanoid Robots via Input-to-State Safe Control Barrier Functions",
+    "paper_url": "https://arxiv.org/abs/2605.25546",
+    "project_url": null,
+    "authors": [
+      "Kwanwoo Lee",
+      "Sanghyuk Park",
+      "Gyeongjae Park",
+      "Myeong-Ju Kim",
+      "Jaeheung Park"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-25",
+    "abstract": "Safety-critical control is essential for humanoid robots operating in complex human-centered environments, where physical safety constraints such as joint limits, self-collision avoidance, obstacle avoidance, and workspace boundaries must be satisfied during real-robot operation. However, existing approaches remain limited because kinematic safety guarantees can be degraded in the presence of unknown disturbances, such as model uncertainties, trajectory-tracking errors, and external perturbations. This paper presents a hierarchical safety-critical whole-body control framework for humanoid robots based on input-to-state safe control barrier functions (ISSf-CBFs). The proposed architecture integrates a kinematic-level whole-body controller (KinWBC), an ISSf-CBF safety filter, and a dynamic-level whole-body controller (DynWBC). KinWBC generates nominal joint-motion references from prioritized tasks; the ISSf-CBF filter minimally modifies these references to satisfy kinematic safety constraints under bounded disturbances; and DynWBC tracks the filtered references while enforcing full-body dynamic feasibility and contact stability. Safety constraints are imposed on a whole-body kinematic model, and the ISSf-CBF parameters are conservatively tuned so that the resulting kinematic safety guarantees can be transferred to full-order humanoid dynamics under unknown disturbances. Simulation and real-robot experiments demonstrate that the proposed framework improves safety margins under model mismatch and reliably enforces multiple safety constraints in real time during locomotion, teleoperation, and single-leg balancing with hand control. Project website: https://kwlee365.github.io/SafeWBC-Website/",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Teleoperation",
+      "Locomotion",
+      "Safety",
+      "Humanoid",
+      "Collision",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2605.24592",
+    "title": "MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2605.24592",
+    "project_url": null,
+    "authors": [
+      "Yusen Feng",
+      "Xiang Wang",
+      "Heyuan Yao",
+      "Zixi Kang",
+      "Xinyu Huo",
+      "Boyang Yu",
+      "Pengyun Qiu",
+      "Ruijie Zhao",
+      "Baoquan Chen",
+      "Libin Liu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-23",
+    "abstract": "This paper presents MuGen, a data-driven framework for learning and deploying multi-skill locomotion on humanoid robots. MuGen enables a robot to perform expressive motions like humans under the guidance of example motion sequences. To achieve this, we employ vector-quantized autoencoders (VQ-VAEs) trained with model-based reinforcement learning, resulting in a generative representation of locomotion that captures key patterns of human motion from hours of heterogeneous human performance data. We employ a teacher-student learning framework and develop a new policy distillation strategy to enable a deployable student policy learning this efficient latent representation. This policy allows the robot to track and mimic unseen human motions and further enables the robot to reuse the learned latent space for other tasks. We demonstrate the effectiveness of our framework through a diverse set of motions and accurate execution.",
+    "categories": [
+      "Locomotion",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Distillation",
+      "Policy Learning",
+      "VAE",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2605.23762",
     "title": "Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos",
     "paper_url": "https://arxiv.org/abs/2605.23762",
@@ -128,7 +283,7 @@
   },
   {
     "arxiv_id": "2605.22894",
-    "title": "SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control",
+    "title": "SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-based Humanoid Control",
     "paper_url": "https://arxiv.org/abs/2605.22894",
     "project_url": null,
     "authors": [
@@ -396,48 +551,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Teleoperation"
-  },
-  {
-    "arxiv_id": "2605.20506",
-    "title": "Reinforcing Human Behavior Simulation via Verbal Feedback",
-    "paper_url": "https://arxiv.org/abs/2605.20506",
-    "project_url": null,
-    "authors": [
-      "Weiwei Sun",
-      "Xuhui Zhou",
-      "Jiarui Liu",
-      "Weihua Du",
-      "Haojia Sun",
-      "Yiqing Xie",
-      "Qianou Ma",
-      "Sihao Chen",
-      "Mengting Wan",
-      "Longqi Yang",
-      "Pei Zhou",
-      "Sherry Wu",
-      "Sean Welleck",
-      "Graham Neubig",
-      "Yiming Yang",
-      "Maarten Sap"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-19",
-    "abstract": "Humans learn social norms and behaviors from verbal feedback (e.g., a parent saying \"that was rude\" or a friend explaining \"here's why that hurt\"). Yet, learning from feedback for LLMs has largely focused on domains like code and math, where RL rewards are directly verifiable and condensed into scalar values. As LLMs are increasingly used to simulate human behavior, e.g., standing in for users, patients, students, and other personas, there is a pressing need to make them more human-like, which requires embracing a fundamentally different kind of signal: feedback that is verbal, subjective, and multi-faceted. We present DITTO, a model trained by treating verbal feedback as a first-class signal in reinforcement learning. After each rollout, DITTO receives verbal feedback and generates a feedback-conditioned improved rollout; both outputs are jointly optimized with GRPO, distilling verbal guidance into the base policy without requiring feedback at test time. We also introduce SOUL (Simulation gym Of hUman-Like behavior), a unified benchmark and training data suite spanning 10 tasks across six categories: Theory of Mind, character role play, social skill, learner simulation, user simulation, and persona simulation. DITTO achieves an average 36% improvement over the base model and exceeds GPT-5.4 on 6 of 10 SOUL benchmarks, demonstrating that RL with verbal feedback is a promising direction for training LLMs to simulate human behavior.",
-    "categories": [
-      "Simulation Benchmark",
-      "State Estimation"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Benchmark",
-      "Simulation Benchmark",
-      "State Estimation"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2605.19305",

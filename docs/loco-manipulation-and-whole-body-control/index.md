@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**178 papers** in this category.
+**179 papers** in this category.
 
 ## Months
 
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (8 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -34,6 +34,28 @@
 ---
 
 ## Recent Papers
+
+## Safety-Critical Whole-Body Control for Humanoid Robots via Input-to-State Safe Control Barrier Functions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.25546)
+- **Authors:** Kwanwoo Lee, Sanghyuk Park, Gyeongjae Park, Myeong-Ju Kim, Jaeheung Park
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Safety-critical control is essential for humanoid robots operating in complex human-centered environments, where physical safety constraints such as joint limits, self-collision avoidance, obstacle avoidance, and workspace boundaries must be satisfied during real-robot operation. However, existing approaches remain limited because kinematic safety guarantees can be degraded in the presence of unknown disturbances, such as model uncertainties, trajectory-tracking errors, and external perturbations.
+
+---
 
 ## Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking
 
@@ -370,22 +392,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2603.03279)
 - **Project:** [GitHub](https://ultra-humanoid.github.io/)
-- **Published:** 2026-03
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 FAME: Force-Adaptive RL for Expanding the Manipulation Envelope of a Full-Scale Humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.08961)
-- **Project:** [GitHub](https://fame10.github.io/Fame/)
 - **Published:** 2026-03
 - **Tags:**
   - Manipulation

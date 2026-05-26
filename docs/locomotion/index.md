@@ -1,10 +1,10 @@
 # Locomotion
 
-**100 papers** in this category.
+**101 papers** in this category.
 
 ## Months
 
-- [2026-05](/locomotion/2026-05) (5 papers)
+- [2026-05](/locomotion/2026-05) (6 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -35,6 +35,26 @@
 ---
 
 ## Recent Papers
+
+## MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.24592)
+- **Authors:** Yusen Feng, Xiang Wang, Heyuan Yao, Zixi Kang, Xinyu Huo, Boyang Yu et al. (10 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Distillation
+  - Policy Learning
+  - VAE
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+This paper presents MuGen, a data-driven framework for learning and deploying multi-skill locomotion on humanoid robots. MuGen enables a robot to perform expressive motions like humans under the guidance of example motion sequences.
+
+---
 
 ## Learning to Evolve: Multi-modal Interactive Fields for Robust Humanoid Navigation in Dynamic Environments
 
@@ -353,20 +373,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2026-02
 - **Tags:**
   - Sim-to-Real
-  - Locomotion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## FastStair: Learning to Run Up Stairs with Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.10365)
-- **Published:** 2026-01
-- **Tags:**
-  - Humanoid
   - Locomotion
 
 ### Summary

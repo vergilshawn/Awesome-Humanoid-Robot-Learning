@@ -4,7 +4,7 @@ Papers with real humanoid robot deployment and experiments.
 
 ## Platforms
 
-- **Figure:** 6 papers
+- **Figure:** 7 papers
 - **NAO:** 1 papers
 - **Unitree G1:** 13 papers
 - **Unknown Platform:** 3 papers
@@ -13,6 +13,28 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Safety-Critical Whole-Body Control for Humanoid Robots via Input-to-State Safe Control Barrier Functions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.25546)
+- **Authors:** Kwanwoo Lee, Sanghyuk Park, Gyeongjae Park, Myeong-Ju Kim, Jaeheung Park
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Safety-critical control is essential for humanoid robots operating in complex human-centered environments, where physical safety constraints such as joint limits, self-collision avoidance, obstacle avoidance, and workspace boundaries must be satisfied during real-robot operation. However, existing approaches remain limited because kinematic safety guarantees can be degraded in the presence of unknown disturbances, such as model uncertainties, trajectory-tracking errors, and external perturbations.
+
+---
 
 ## Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking
 

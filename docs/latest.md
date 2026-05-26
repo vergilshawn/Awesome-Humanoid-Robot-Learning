@@ -2,6 +2,85 @@
 
 All papers sorted by publication date (newest first).
 
+## MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.26006)
+- **Authors:** Bin Li, Ruichi Zhang, Han Liang, Jingyan Zhang, Juze Zhang, Xin Chen et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Humanoid
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning paradigm that directly generates actions from text.
+
+---
+
+## ParkourFormer: Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.25782)
+- **Authors:** Yanheng Mai, Wenhao Xu, Zirui Huang, Yifei Fu, Shengwei Dong, Xinjue Wang et al. (9 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Transformer
+  - Robustness
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid parkour requires locomotion policies to coordinate whole-body dynamics across rapidly changing terrains such as stairs, gaps, slopes, and obstacles. Existing reinforcement learning policies are largely reactive, mapping observations directly to actions without explicitly modeling future body states.
+
+---
+
+## Safety-Critical Whole-Body Control for Humanoid Robots via Input-to-State Safe Control Barrier Functions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.25546)
+- **Authors:** Kwanwoo Lee, Sanghyuk Park, Gyeongjae Park, Myeong-Ju Kim, Jaeheung Park
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Safety-critical control is essential for humanoid robots operating in complex human-centered environments, where physical safety constraints such as joint limits, self-collision avoidance, obstacle avoidance, and workspace boundaries must be satisfied during real-robot operation. However, existing approaches remain limited because kinematic safety guarantees can be degraded in the presence of unknown disturbances, such as model uncertainties, trajectory-tracking errors, and external perturbations.
+
+---
+
+## MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.24592)
+- **Authors:** Yusen Feng, Xiang Wang, Heyuan Yao, Zixi Kang, Xinyu Huo, Boyang Yu et al. (10 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Distillation
+  - Policy Learning
+  - VAE
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+This paper presents MuGen, a data-driven framework for learning and deploying multi-skill locomotion on humanoid robots. MuGen enables a robot to perform expressive motions like humans under the guidance of example motion sequences.
+
+---
+
 ## Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.23762)
@@ -75,7 +154,7 @@ A central question in computational vision is whether human-like visual represen
 
 ---
 
-## SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control
+## SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-based Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.22894)
 - **Authors:** Jingyan Zhang, Han Liang, Ruichi Zhang, Bin Li, Juze Zhang, Xin Chen et al. (9 authors)
@@ -214,23 +293,6 @@ Humanoid robots have achieved impressive locomotion performance, yet contact-ric
 ### Summary
 
 Wireless extended reality (XR) teleoperation provides embodied interaction capability for collecting humanoid robot demonstrations, but the large-scale adoption is restricted by the overhead of high-frequency motion transmission. This paper develops a system framework that integrates sampling, transmission, interpolation, and reconstruction and formulates a communication-rate optimization that aims to minimize the communication energy while maintaining the reconstruction accuracy of robot motion trajectories through dimension-wise sampling-rate control.
-
----
-
-## Reinforcing Human Behavior Simulation via Verbal Feedback
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.20506)
-- **Authors:** Weiwei Sun, Xuhui Zhou, Jiarui Liu, Weihua Du, Haojia Sun, Yiqing Xie et al. (16 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Benchmark
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Humans learn social norms and behaviors from verbal feedback (e.g., a parent saying "that was rude" or a friend explaining "here's why that hurt"). Yet, learning from feedback for LLMs has largely focused on domains like code and math, where RL rewards are directly verifiable and condensed into scalar values.
 
 ---
 

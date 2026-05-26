@@ -1,9 +1,10 @@
 # Physics-Based Character Animation
 
-**32 papers** in this category.
+**33 papers** in this category.
 
 ## Months
 
+- [2026-05](/physics-based-character-animation/2026-05) (1 papers)
 - [2026-04](/physics-based-character-animation/2026-04) (1 papers)
 - [2026-02](/physics-based-character-animation/2026-02) (2 papers)
 - [2025-12](/physics-based-character-animation/2025-12) (2 papers)
@@ -32,6 +33,22 @@
 ---
 
 ## Recent Papers
+
+## MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.26006)
+- **Authors:** Bin Li, Ruichi Zhang, Han Liang, Jingyan Zhang, Juze Zhang, Xin Chen et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Humanoid
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning paradigm that directly generates actions from text.
+
+---
 
 ## A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models
 
@@ -299,21 +316,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Project:** [GitHub](https://liangpan99.github.io/TokenHSI/)
 - **Published:** 2025-03
 - **Tags:**
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions, , [code](https://github.com/Sirui-Xu/InterMimic)
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2502.20390)
-- **Project:** [GitHub](https://sirui-xu.github.io/InterMimic/)
-- **Published:** 2025-02
-- **Tags:**
-  - Whole-Body Control
   - Physics-Based Character Animation
 
 ### Summary
