@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**35 papers** in this category.
+**38 papers** in this category.
 
 ## Months
 
-- [2026-05](/simulation-benchmark/2026-05) (13 papers)
+- [2026-05](/simulation-benchmark/2026-05) (16 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
 - [2026-02](/simulation-benchmark/2026-02) (1 papers)
@@ -41,6 +41,40 @@
 ### Summary
 
 Humanoid parkour requires locomotion policies to coordinate whole-body dynamics across rapidly changing terrains such as stairs, gaps, slopes, and obstacles. Existing reinforcement learning policies are largely reactive, mapping observations directly to actions without explicitly modeling future body states.
+
+---
+
+## Exploiting Local Dynamics Regularity for Reusable Skills in Offline Hierarchical RL
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.26371)
+- **Authors:** Sarthak Dayal, Abhinav Peri, Carl Qi, Claas Voelcker, Alexander Levine, Caleb Chuck et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Hierarchical RL
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinforcement Learning (RL) tasks more efficiently than non-hierarchical counterparts by discovering and reusing temporally-extended skills. However, obtaining skills that are actually reusable remains an open challenge.
+
+---
+
+## Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.24602)
+- **Authors:** Quanjiang Li, Zhiming Liu, Wei Luo, Tingjin Luo, Chenping Hou
+- **Published:** 2026-05
+- **Tags:**
+  - Benchmark
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Multimodal large language models (MLLMs) frequently suffer from object hallucinations, yet the visual perceptual mechanism underlying this failure remains poorly understood. In this work, we reveal that hallucinations are strongly associated with a human-like attention distraction phenomenon, where humans under divided focus experience degraded visual clarity and produce inaccurate descriptions, while in models the same mechanism manifests as spatial inconsistency in multi-head attention and temporal fading of attention to image tokens during decoding.
 
 ---
 
@@ -99,26 +133,20 @@ Controlling physics-based humanoids from natural-language instructions is a crit
 
 ---
 
-## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
+## Reinforcing Human Behavior Simulation via Verbal Feedback
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
-- **Project:** [GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
-- **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.20506)
+- **Authors:** Weiwei Sun, Xuhui Zhou, Jiarui Liu, Weihua Du, Haojia Sun, Yiqing Xie et al. (16 authors)
 - **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
 - **Tags:**
-  - Safety
-  - Robustness
-  - MuJoCo
-  - Humanoid
-  - Collision
+  - Reinforcement Learning
   - Benchmark
   - Simulation Benchmark
   - State Estimation
 
 ### Summary
 
-Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
+Humans learn social norms and behaviors from verbal feedback (e.g., a parent saying "that was rude" or a friend explaining "here's why that hurt"). Yet, learning from feedback for LLMs has largely focused on domains like code and math, where RL rewards are directly verifiable and condensed into scalar values.
 
 ---
 
@@ -160,6 +188,29 @@ Accurately forecasting human trajectories from an egocentric perspective plays a
 ### Summary
 
 Recent motion-language models unify tasks like comprehension and generation but operate at a coarse granularity, lacking fine-grained understanding and nuanced control over body parts needed for animation or interaction. This stems from fundamental issues in both the model and the data, in which the model can't focus on motion's localized pattern, and the training data lacks fine-grained supervision.
+
+---
+
+## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
+- **Project:** [GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
+- **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Safety
+  - Robustness
+  - MuJoCo
+  - Humanoid
+  - Collision
+  - Benchmark
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
 
 ---
 
@@ -344,51 +395,6 @@ Recent advances in humanoid locomotion have enabled dynamic behaviors, but clutt
 - **Project:** [GitHub](https://irislab.tech/comfree-sim/)
 - **Published:** 2026-03
 - **Tags:**
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.06181)
-- **Published:** 2026-03
-- **Tags:**
-  - Humanoid
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.11337)
-- **Published:** 2026-02
-- **Tags:**
-  - Manipulation
-  - Navigation
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Benchmarking Humanoid Imitation Learning with Motion Difficulty
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2512.07248)
-- **Published:** 2025-12
-- **Tags:**
-  - Imitation Learning
-  - Humanoid
-  - Benchmark
   - Simulation Benchmark
 
 ### Summary

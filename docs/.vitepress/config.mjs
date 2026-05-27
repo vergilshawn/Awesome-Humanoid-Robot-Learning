@@ -502,7 +502,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (11)",
+            "text": "State Estimation (12)",
             "collapsed": true,
             "items": [
                   {
@@ -660,7 +660,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (35)",
+            "text": "Simulation Benchmark (38)",
             "collapsed": true,
             "items": [
                   {
@@ -836,7 +836,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (23)",
+            "text": "Human Motion Analysis and Synthesis (24)",
             "collapsed": true,
             "items": [
                   {
