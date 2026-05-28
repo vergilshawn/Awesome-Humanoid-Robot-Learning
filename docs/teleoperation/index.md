@@ -1,10 +1,10 @@
 # Teleoperation
 
-**22 papers** in this category.
+**21 papers** in this category.
 
 ## Months
 
-- [2026-05](/teleoperation/2026-05) (2 papers)
+- [2026-05](/teleoperation/2026-05) (1 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
 - [2026-02](/teleoperation/2026-02) (4 papers)
 - [2025-11](/teleoperation/2025-11) (1 papers)
@@ -21,27 +21,6 @@
 ---
 
 ## Recent Papers
-
-## Domain-Adaptive Communication-Rate Optimization for Sim-to-Real Humanoid-Robot Wireless XR Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19293)
-- **Authors:** Caolu Xu, Zhiyong Chen, Meixia Tao, Li Song, Feng Yang, Wenjun Zhang
-- **Published:** 2026-05
-- **Tags:**
-  - Sim-to-Real
-  - Teleoperation
-  - Simulator
-  - Humanoid
-  - Dataset
-  - PPO
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Wireless extended reality (XR) teleoperation provides embodied interaction capability for collecting humanoid robot demonstrations, but the large-scale adoption is restricted by the overhead of high-frequency motion transmission. This paper develops a system framework that integrates sampling, transmission, interpolation, and reconstruction and formulates a communication-rate optimization that aims to minimize the communication energy while maintaining the reconstruction accuracy of robot motion trajectories through dimension-wise sampling-rate control.
-
----
 
 ## RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning
 
@@ -323,6 +302,20 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Imitation Learning
   - Teleoperation
   - Manipulation
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Teleoperation of Humanoid Robots: A Survey, [webpage](https://humanoid-teleoperation.github.io/)
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2301.04317)
+- **Published:** 2023-01
+- **Tags:**
+  - Teleoperation
   - Humanoid
 
 ### Summary

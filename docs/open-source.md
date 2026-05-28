@@ -2,6 +2,26 @@
 
 Papers with open-source code repositories.
 
+## 🌟 Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.27886)
+- **Project:** [GitHub](https://github.com/nathanwu7/tabero)
+- **Authors:** Qiwei Wu, Rui Zhang, Xin Xiang, Tao Li, Weihua Zhang, Junjie Lai et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Manipulation
+  - Tactile Sensing
+  - Language-Conditioned
+  - Vision-Language
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Tactile sensing is essential for robots to achieve human-like gentle manipulation. However, existing Vision-Language-Action (VLA) models struggle to exploit tactile feedback for gentle manipulation due to scarce aligned vision-tactile-language data and the lack of effective closed-loop force feedback mechanisms.
+
+---
+
 ## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)

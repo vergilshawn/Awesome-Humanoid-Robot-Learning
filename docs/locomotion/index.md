@@ -1,10 +1,10 @@
 # Locomotion
 
-**101 papers** in this category.
+**103 papers** in this category.
 
 ## Months
 
-- [2026-05](/locomotion/2026-05) (6 papers)
+- [2026-05](/locomotion/2026-05) (8 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -35,6 +35,59 @@
 ---
 
 ## Recent Papers
+
+## SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28549)
+- **Authors:** Yantong Wei, Kaihong Huang, Hainan Pan, Jiawei Luo, Jiawei Zhou, Ziyan Mai et al. (9 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Physics-Based Character Animation
+
+### Summary
+
+The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-viable kinematic reference data and the inability of existing frameworks to maintain stability during sprints. To overcome these limitations, we introduce SPRINT, a novel framework driven by efficient, frequency-adaptive spectral priors.
+
+---
+
+## DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Control with Diffusion Forcing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28491)
+- **Authors:** Kaiyang Ji, Bingsheng Qian, Binghuan Wu, Kangyi Chen, Ye Shi, Jingya Wang
+- **Published:** 2026-05
+- **Tags:**
+  - Humanoid
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+We study real-time audio-responsive character control as a deployment-faithful problem: strictly causal, bounded-latency streaming that must generate coherent full-body motion at interactive frame rates while the audio condition can change abruptly, including tempo shifts, drops, or user edits. Prior music-to-motion systems are largely optimized for offline generation with global context, and degrade in streaming rollouts where conditioning history becomes stale or unreliable.
+
+---
+
+## EchoAvatar: Real-time Generative Avatar Animation from Audio Streams
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28272)
+- **Authors:** Bohong Chen, Yumeng Li, Yinglin Xu, Youyi Zheng, Yanlin Weng, Kun Zhou
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Large Language Model
+  - Locomotion
+
+### Summary
+
+Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively.
+
+---
 
 ## MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots
 
@@ -74,22 +127,6 @@ This paper presents MuGen, a data-driven framework for learning and deploying mu
 ### Summary
 
 Safe manipulation-oriented navigation for humanoid robots requires scene memory that remains reliable under locomotion-induced perceptual distortion, environmental changes, and interaction-level geometric safety constraints. Existing semantic mapping and scene-graph systems are difficult to deploy directly in this setting because they often assume stable camera trajectories, static environments, or coarse object geometry.
-
----
-
-## Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19305)
-- **Authors:** Tianshu Kuai, Arman Maesumi, Daniel Ritchie, Noam Aigerman
-- **Published:** 2026-05
-- **Tags:**
-  - Humanoid
-  - Flow Matching
-  - Locomotion
-
-### Summary
-
-This paper tackles the task of learning to generate signals over triangle meshes in a triangulation-agnostic manner, meaning the trained model can be applied to different meshes and triangulations effectively. Practically, the paper adapts the flow matching (FM) paradigm to a mesh-based, triangulation-agnostic setting.
 
 ---
 
@@ -346,34 +383,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Locomotion
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## RPL: Learning Robust Humanoid Perceptive Locomotion on Challenging Terrains
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.03002)
-- **Published:** 2026-02
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Toward Reliable Sim-to-Real Predictability for MoE-based Robust Quadrupedal Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.00678)
-- **Published:** 2026-02
-- **Tags:**
-  - Sim-to-Real
-  - Locomotion
 
 ### Summary
 

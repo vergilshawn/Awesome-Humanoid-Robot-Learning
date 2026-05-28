@@ -6,13 +6,70 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Figure:** 7 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 13 papers
-- **Unknown Platform:** 3 papers
+- **REEM:** 1 papers
+- **Unitree G1:** 14 papers
+- **Unknown Platform:** 2 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28549)
+- **Authors:** Yantong Wei, Kaihong Huang, Hainan Pan, Jiawei Luo, Jiawei Zhou, Ziyan Mai et al. (9 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Physics-Based Character Animation
+
+### Summary
+
+The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-viable kinematic reference data and the inability of existing frameworks to maintain stability during sprints. To overcome these limitations, we introduce SPRINT, a novel framework driven by efficient, frequency-adaptive spectral priors.
+
+---
+
+## EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28468)
+- **Authors:** Junhwi Cho, Sunggyu Bae, Junghyeon Ma, Hyosang Lee, Jung Kim, Kyungseo Park
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Tactile Sensing
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+We present a hybrid robotic skin that combines electrical impedance tomography (EIT) with pneumatic tactile sensing to improve force reconstruction capability. The developed robotic skin is fabricated entirely by 3D printing and spray coating, making it affordable and easy to build.
+
+---
+
+## Beyond Binary Moral Judgment: Modeling Ethical Pluralism in AI
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28707)
+- **Authors:** Aisha Aijaz, Rahul Goel, Arnav Batra, Raghava Mutharaju
+- **Published:** 2026-05
+- **Real Robot:** ✅ — REEM
+- **Tags:**
+  - Benchmark
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Critical decision-making in socially consequential spaces is increasingly involving AI systems at varying capacities. Yet, despite the ubiquity of autonomous systems, most approaches to handling autonomous moral decision-making resort to scalar or binary judgments.
+
+---
 
 ## Safety-Critical Whole-Body Control for Humanoid Robots via Input-to-State Safe Control Barrier Functions
 
@@ -52,50 +109,6 @@ Safety-critical control is essential for humanoid robots operating in complex hu
 ### Summary
 
 Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making rapid deployment on new humanoid platforms costly.
-
----
-
-## SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.20373)
-- **Authors:** Tianshu Wu, Xiangqi Kong, Yue Chen, Qize Yu, Hang Ye, Jia Li et al. (8 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Zero-Shot
-  - Humanoid
-  - Policy Learning
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-  - State Estimation
-
-### Summary
-
-Building humanoid robots capable of generalizable whole-body loco-manipulation in the real world remains a fundamental challenge. Existing methods either rely on laborious task-specific reward engineering, rigidly replay reference motions that fail to generalize, or depend on costly teleoperation that limits scalability.
-
----
-
-## CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19981)
-- **Authors:** Xinyuan Luo, Xingrui Chen, Xunjian Yin, Hongxuan Wu, Boxi Xia, Zhuoqun Chen et al. (9 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Whole-Body Control
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Humanoid robots have achieved impressive locomotion performance, yet contact-rich and long-horizon manipulation remains a major bottleneck. Manipulation is inherently contact-rich and demands compliant whole-body control for stable interaction, while its diversity and long-horizon nature favor modular, planner-compatible interfaces over joint-space tracking.
 
 ---
 

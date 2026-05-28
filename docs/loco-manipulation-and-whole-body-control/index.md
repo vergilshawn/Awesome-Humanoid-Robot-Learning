@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**179 papers** in this category.
+**178 papers** in this category.
 
 ## Months
 
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (8 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -34,6 +34,46 @@
 ---
 
 ## Recent Papers
+
+## EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28468)
+- **Authors:** Junhwi Cho, Sunggyu Bae, Junghyeon Ma, Hyosang Lee, Jung Kim, Kyungseo Park
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Tactile Sensing
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+We present a hybrid robotic skin that combines electrical impedance tomography (EIT) with pneumatic tactile sensing to improve force reconstruction capability. The developed robotic skin is fabricated entirely by 3D printing and spray coating, making it affordable and easy to build.
+
+---
+
+## HumanoidMimicGen: Data Generation for Loco-Manipulation via Whole-Body Planning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.27724)
+- **Authors:** Kevin Lin, Ajay Mandlekar, Caelan Reed Garrett, Nikita Chernyadev, Yu Fang, Runyu Ding et al. (10 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Imitation Learning
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Impact
+  - Collision
+  - Benchmark
+
+### Summary
+
+Imitation learning is a promising approach for training humanoid robots to both walk and manipulate, but it requires a large number of demonstrations, which are time-intensive and difficult to collect via teleoperation. Existing data-generation algorithms can automatically synthesize demonstrations for manipulators, but they are ineffective on humanoids because their high-dimensional composite action spaces involve arms, legs, and torsos.
+
+---
 
 ## Safety-Critical Whole-Body Control for Humanoid Robots via Input-to-State Safe Control Barrier Functions
 
@@ -73,65 +113,6 @@ Safety-critical control is essential for humanoid robots operating in complex hu
 ### Summary
 
 Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making rapid deployment on new humanoid platforms costly.
-
----
-
-## Investigating Concept Alignment Using Implausible Category Members
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.21683)
-- **Authors:** Sunayana Rane, Brenden M. Lake, Thomas L. Griffiths
-- **Published:** 2026-05
-- **Tags:**
-  - Safety
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Developing AI systems with a human-like understanding of everyday concepts is a key step towards developing safe, reliable systems whose behavior makes sense to humans. When probing concept understanding, asking questions about plausible category members (e.g., "Is a car a vehicle?") is likely to recall patterns in the model's vast training data.
-
----
-
-## SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.20373)
-- **Authors:** Tianshu Wu, Xiangqi Kong, Yue Chen, Qize Yu, Hang Ye, Jia Li et al. (8 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Zero-Shot
-  - Humanoid
-  - Policy Learning
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-  - State Estimation
-
-### Summary
-
-Building humanoid robots capable of generalizable whole-body loco-manipulation in the real world remains a fundamental challenge. Existing methods either rely on laborious task-specific reward engineering, rigidly replay reference motions that fail to generalize, or depend on costly teleoperation that limits scalability.
-
----
-
-## CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19981)
-- **Authors:** Xinyuan Luo, Xingrui Chen, Xunjian Yin, Hongxuan Wu, Boxi Xia, Zhuoqun Chen et al. (9 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Whole-Body Control
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Humanoid robots have achieved impressive locomotion performance, yet contact-rich and long-horizon manipulation remains a major bottleneck. Manipulation is inherently contact-rich and demands compliant whole-body control for stable interaction, while its diversity and long-horizon nature favor modular, planner-compatible interfaces over joint-space tracking.
 
 ---
 
@@ -392,6 +373,22 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2603.03279)
 - **Project:** [GitHub](https://ultra-humanoid.github.io/)
+- **Published:** 2026-03
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## 🌟 FAME: Force-Adaptive RL for Expanding the Manipulation Envelope of a Full-Scale Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.08961)
+- **Project:** [GitHub](https://fame10.github.io/Fame/)
 - **Published:** 2026-03
 - **Tags:**
   - Manipulation

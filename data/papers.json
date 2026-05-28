@@ -1,5 +1,286 @@
 [
   {
+    "arxiv_id": "2605.28549",
+    "title": "SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints",
+    "paper_url": "https://arxiv.org/abs/2605.28549",
+    "project_url": null,
+    "authors": [
+      "Yantong Wei",
+      "Kaihong Huang",
+      "Hainan Pan",
+      "Jiawei Luo",
+      "Jiawei Zhou",
+      "Ziyan Mai",
+      "Zhiwen Zeng",
+      "Yaonan Wang",
+      "Huimin Lu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-viable kinematic reference data and the inability of existing frameworks to maintain stability during sprints. To overcome these limitations, we introduce SPRINT, a novel framework driven by efficient, frequency-adaptive spectral priors. By characterizing the fundamental periodicity of human locomotion in the frequency domain using a reference library of five discrete motion sequences, these priors generate kinematically feasible joint trajectories across a broad velocity spectrum, successfully extrapolating to speeds that exceed the reference distribution. Guided by these pretrained priors, the SPRINT policy achieves zero-shot sim-to-real transfer in field experiments on the Unitree G1 platform, reaching a peak sprinting velocity of 6 m/s and demonstrating seamless gait transitions while preserving biomimetic naturalness. Ultimately, this work establishes frequency-adaptive spectral priors as a highly data-efficient foundation for humanoid athletic sprints. The project page is available at https://anonymous.4open.science/w/SPRINT-138A/.",
+    "categories": [
+      "Locomotion",
+      "Sim-to-Real",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Locomotion",
+      "Zero-Shot",
+      "Humanoid",
+      "Gait",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.28468",
+    "title": "EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction",
+    "paper_url": "https://arxiv.org/abs/2605.28468",
+    "project_url": null,
+    "authors": [
+      "Junhwi Cho",
+      "Sunggyu Bae",
+      "Junghyeon Ma",
+      "Hyosang Lee",
+      "Jung Kim",
+      "Kyungseo Park"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "We present a hybrid robotic skin that combines electrical impedance tomography (EIT) with pneumatic tactile sensing to improve force reconstruction capability. The developed robotic skin is fabricated entirely by 3D printing and spray coating, making it affordable and easy to build. A Tikhonov-regularized inverse reconstruction, paired with per-pad pneumatic calibration, enables accurate large-area tactile sensing with a simple measurement scheme. For validation, we conducted load-cell indentation experiments; the results showed consistent force reconstruction across locations within a pad. Compared with an EIT-only baseline, sensitivity non-uniformity was also reduced, with the coefficient of variation decreasing from 0.31 to 0.14, indicating that the proposed approach addresses a longstanding limitation of EIT. We further demonstrated chest-mounted integration on a humanoid robot and found that the pneumatic signals remained reliable across diverse contact scenarios, including multiple simultaneous contacts on the same sensing pad. These results indicate a practical path toward accurate, scalable whole-body tactile sensing in real robotic systems.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "tags": [
+      "Real Robot",
+      "Humanoid",
+      "Tactile Sensing",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2605.27886",
+    "title": "Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language",
+    "paper_url": "https://arxiv.org/abs/2605.27886",
+    "project_url": "https://github.com/nathanwu7/tabero",
+    "authors": [
+      "Qiwei Wu",
+      "Rui Zhang",
+      "Xin Xiang",
+      "Tao Li",
+      "Weihua Zhang",
+      "Junjie Lai",
+      "Renjing Xu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "Tactile sensing is essential for robots to achieve human-like gentle manipulation. However, existing Vision-Language-Action (VLA) models struggle to exploit tactile feedback for gentle manipulation due to scarce aligned vision-tactile-language data and the lack of effective closed-loop force feedback mechanisms. To address these challenges, we introduce Tabero, a benchmark and model suite for gentle, language-conditioned robotic manipulation that demands fine-grained contact force perception. First, the Tabero benchmark addresses the scarcity of tactile data by presenting a data-efficient pipeline that repurposes open-source robot manipulation trajectories to generate diverse vision-tactile-language tasks, and establishes a multidimensional evaluation protocol that measures task success alongside physical interaction quality. Second, we propose Tabero-VTLA, an architecture with a decoupled force-position command interface; the resulting force-position commands are executed by a fixed hybrid controller to enable real-time, force-aware manipulation. Evaluated on Tabero, our model maintains high task success while reducing average grip force by over 70\\% under gentle instructions, demonstrating its ability to modulate interaction forces based on multimodal experience. Our code is publicly available at https://github.com/NathanWu7/Tabero.",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "Tactile Sensing",
+      "Language-Conditioned",
+      "Vision-Language",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2605.28707",
+    "title": "Beyond Binary Moral Judgment: Modeling Ethical Pluralism in AI",
+    "paper_url": "https://arxiv.org/abs/2605.28707",
+    "project_url": null,
+    "authors": [
+      "Aisha Aijaz",
+      "Rahul Goel",
+      "Arnav Batra",
+      "Raghava Mutharaju"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "Critical decision-making in socially consequential spaces is increasingly involving AI systems at varying capacities. Yet, despite the ubiquity of autonomous systems, most approaches to handling autonomous moral decision-making resort to scalar or binary judgments. These methods are insufficient for acceptable moral reasoning, as they provide little explanation, leaving out imperative contextual and theoretical information that must be included to support accountability. For this, we propose a framework to model moral reasoning as a distribution over normative ethical theories or ethical pluralism. We introduce a normative ethics simplex that integrates these theories. A benchmark of 450 cases across 15 fine-grained subtheories was also prepared for the purposes of stacked ensemble learning. These cases describe ethical dilemmas in natural language and have associated extracted contextual features. The implementation of the simplex was achieved via a two-stream normative-semantic architecture. This is followed by the fusion of normative information and a sequential, stacking ensemble to learn the best fit of the three broad theories: consequentialism, virtue ethics, and deontology, and the 15 subcategories. Our experiments demonstrate that the integration of contextual and normative priors with the semantic embeddings significantly improves the performance of the classification, displaying an accuracy of 88.89%. We conducted ablation studies to show that structured ethical representations contribute beyond analogical reasoning, and the chosen stacking architecture gives the best results due to the gradual learning of granularity. Ethical pluralism is also analyzed through entropy, confidence, and visualization. Thus, modeling ethical pluralism as a probabilistic normative distribution supports human-like moral reasoning, ethical disagreement analysis, and future alignment in AI systems.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Benchmark",
+      "PPO",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "REEM",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.28491",
+    "title": "DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Control with Diffusion Forcing",
+    "paper_url": "https://arxiv.org/abs/2605.28491",
+    "project_url": null,
+    "authors": [
+      "Kaiyang Ji",
+      "Bingsheng Qian",
+      "Binghuan Wu",
+      "Kangyi Chen",
+      "Ye Shi",
+      "Jingya Wang"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "We study real-time audio-responsive character control as a deployment-faithful problem: strictly causal, bounded-latency streaming that must generate coherent full-body motion at interactive frame rates while the audio condition can change abruptly, including tempo shifts, drops, or user edits. Prior music-to-motion systems are largely optimized for offline generation with global context, and degrade in streaming rollouts where conditioning history becomes stale or unreliable. We introduce DiscoForcing, a streaming audio-driven diffusion framework that combines a causal music encoder that captures rhythmic structure and phase dynamics with a diffusion-forcing sequence model trained under heterogeneous noise levels across the temporal horizon. Building on this, we design a hybrid temporal schedule and a history-guided streaming sampler to explicitly trade off responsiveness against long-horizon consistency under non-stationary audio. Implemented in an end-to-end real-time interactive system with online avatar playback and humanoid deployment workflows, DiscoForcing delivers more stable long-horizon rollouts and sharper audio-motion alignment than prior baselines under matched causality and latency constraints while maintaining real-time throughput.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Diffusion",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.28394",
+    "title": "Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization",
+    "paper_url": "https://arxiv.org/abs/2605.28394",
+    "project_url": null,
+    "authors": [
+      "Gaurav Rai",
+      "Ojaswa Sharma"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "Animation of 2D hand-drawn sketches provides an effective medium for visual communication. However, these sketches pose challenges, particularly in handling occlusions and accurately mapping motion. While 3D animation naturally addresses these challenges, estimating 3D motion remains a very complex task. Recent approaches to converting 2D sketches to 3D animations have mainly focused on specific types of motion, such as bipedal movements and facial expressions. We propose Sketch2Motion, a diffusion-guided framework for skeleton-based motion synthesis that combines classical character animation pipelines with deep generative priors. Our method represents motion using skeletal transformations, which are propagated to mesh deformations via linear blend skinning. To guide the resulting animation toward realistic and semantically meaningful motion, we integrate a text-to-video diffusion model via motion-aware score-distillation sampling (MoSDS), enabling optimization without paired motion data. Additionally, we apply physics-inspired smoothness, topological, and contact constraints to stabilize optimization and preserve motion plausibility. Further, we integrate a spring-mass simulator to introduce secondary motion effects. The proposed framework is generalized, fully differentiable, modular, and compatible with biped, quadruped, and non-living articulated characters. Experiments demonstrate that our approach produces temporally coherent, text-aligned animations that outperform baseline motion transfer methods that lack generative priors or explicit physical constraints. We will make our code and dataset publicly available.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Simulator",
+      "Biped",
+      "Distillation",
+      "Dataset",
+      "Diffusion",
+      "Physics-Based Character Animation",
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2605.28272",
+    "title": "EchoAvatar: Real-time Generative Avatar Animation from Audio Streams",
+    "paper_url": "https://arxiv.org/abs/2605.28272",
+    "project_url": null,
+    "authors": [
+      "Bohong Chen",
+      "Yumeng Li",
+      "Yinglin Xu",
+      "Youyi Zheng",
+      "Yanlin Weng",
+      "Kun Zhou"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively. In this paper, we introduce a novel framework designed to generate continuous, coherent full-body motion from streaming speech and music with low latency. Central to our approach is a unified streaming architecture capable of synthesizing continuous motion from incremental audio inputs. We employ a robust training strategy that enforces strong audio dependency, allowing the model to seamlessly generalize across conversational speech and rhythmic music without requiring explicit domain labels or mode switching. Additionally, we explored Reinforcement Learning to refine the quality of online generation. Furthermore, we bridge reactive animation with intent-driven behavior via a tool-call interface that allows upstream Large Language Models to inject explicit semantic control. By combining this controllability with stream audio-driven synthesis, our framework serves as a plug-and-play solution for transforming voice agents into interactive humanoid avatars. Extensive experiments demonstrate that our method outperforms state-of-the-art realtime baselines in motion quality and synchronization while maintaining the flexibility required for live deployment. Our code, pre-trained models, and videos are available at https://robinwitch.github.io/EchoAvatar-Page.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Large Language Model",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.27724",
+    "title": "HumanoidMimicGen: Data Generation for Loco-Manipulation via Whole-Body Planning",
+    "paper_url": "https://arxiv.org/abs/2605.27724",
+    "project_url": null,
+    "authors": [
+      "Kevin Lin",
+      "Ajay Mandlekar",
+      "Caelan Reed Garrett",
+      "Nikita Chernyadev",
+      "Yu Fang",
+      "Runyu Ding",
+      "Yuqi Xie",
+      "Justin Tran",
+      "Linxi Fan",
+      "Yuke Zhu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-26",
+    "abstract": "Imitation learning is a promising approach for training humanoid robots to both walk and manipulate, but it requires a large number of demonstrations, which are time-intensive and difficult to collect via teleoperation. Existing data-generation algorithms can automatically synthesize demonstrations for manipulators, but they are ineffective on humanoids because their high-dimensional composite action spaces involve arms, legs, and torsos. We present HumanoidMimicGen, a method for generating humanoid legged loco-manipulation data. Our method adapts contact-rich whole-body skills from a handful of source demonstrations to new states, generalizing across changes in object pose. By interleaving these single- and dual-arm skills with whole-body locomotion and manipulation planning, the method generates stable, collision-free data across diverse scenes and layouts. To evaluate our approach, we introduce a new simulated loco-manipulation benchmark containing nine diverse tasks that test humanoid loco-manipulation capabilities. There, we demonstrate that HumanoidMimicGen automatically generates large datasets for imitation learning and enables a systematic study of how data generation and policy learning decisions impact model performance. We show that whole-body visuomotor policies co-trained with data generated by HumanoidMimicGen outperform those trained only on real-world data by 20%.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Teleoperation",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Imitation Learning",
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Impact",
+      "Collision",
+      "Benchmark",
+      "Dataset",
+      "Policy Learning",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2605.26991",
     "title": "Towards Shared Embodied Intelligence in Humanoid Robots through Optimization Development and Testing of the Human Aware ergoCub Robot",
     "paper_url": "https://arxiv.org/abs/2605.26991",
@@ -37,6 +318,34 @@
     "platform": null,
     "summary": "",
     "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
+    "arxiv_id": "2605.27767",
+    "title": "UniMaia: Steering Chess Policies with Language for Human-like Play",
+    "paper_url": "https://arxiv.org/abs/2605.27767",
+    "project_url": null,
+    "authors": [
+      "Sherman Siu",
+      "Lesley Istead"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-26",
+    "abstract": "Recent advances in large language models have enabled natural language to serve as a flexible interface for controlling complex systems, but often at the cost of large-scale multimodal training or weakened domain-specific inductive biases. In structured decision-making domains such as chess, specialized policy networks achieve strong performance but lack semantic controllability, while prompt-conditioned language models are more flexible yet typically exhibit weaker domain grounding. We propose $\\textbf{UniMaia}$, a framework for prompt-conditioned policy modulation that adapts a frozen Lc0-based chess policy network using a parameter-efficient text encoder and a ControlNet-style conditioning mechanism. UniMaia enables semantic control over gameplay, including opening selection and player strength, while preserving the pretrained policy representations. We further introduce $\\textbf{UniMaia-Aux}$, which incorporates auxiliary temporal conditioning and behavioral prediction objectives. To support this work, we construct a large-scale metadata-augmented Lichess dataset, develop a semi-automated prompt-generation pipeline, and introduce benchmarks spanning both prompt-conditioned and metadata-conditioned settings. UniMaia achieves state-of-the-art expected accuracy on several prompt-conditioned benchmarks and competitive top-move accuracy on general instruction-following tasks, while remaining competitive with dedicated metadata-conditioned approaches on human move prediction benchmarks. UniMaia-Aux further improves expected accuracy and behavioral modeling across several evaluation settings, with modest trade-offs in top-move accuracy. Overall, our results demonstrate that prompt-conditioned control of domain-specific policy networks is feasible without end-to-end multimodal training, while highlighting trade-offs between controllability and predictive performance.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Benchmark",
+      "Dataset",
+      "Large Language Model",
+      "PPO",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2605.26006",
@@ -186,32 +495,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.25151",
-    "title": "Representation Without Control: Testing the Realization Effect in Language Models",
-    "paper_url": "https://arxiv.org/abs/2605.25151",
-    "project_url": null,
-    "authors": [
-      "Ciarán Walsh",
-      "Emilio Barkett"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-24",
-    "abstract": "Large language models are increasingly used as behavioral simulators, but it remains unclear when their outputs reflect human-like cognitive mechanisms rather than prompt-sensitive surface patterns. We study this question through the realization effect, a well-characterized finding in behavioral economics in which risk-taking differs systematically after paper versus realized gains and losses. We evaluate LLM behavior at three levels: prompt-only behavioral sensitivity, linear readout of internal representations, and causal control via activation steering. Prompt-only results show systematic condition sensitivity, but the directional pattern does not reproduce human realization-effect predictions. Gemma's residual stream contains a linearly decodable realization-status signal at layer 18 that generalizes to held-out prompts. Steering along this direction does not, however, reliably shift downstream risk choices, a null result that holds across positive scales and in a negative sign-symmetry run. Behavioral sensitivity, latent readout, and causal control are three distinct properties that do not automatically co-occur, and successful latent readout is insufficient evidence that a model behaviorally relies on a representation during downstream decision-making.",
-    "categories": [
-      "State Estimation"
-    ],
-    "tags": [
-      "Simulator",
-      "Large Language Model",
-      "State Estimation"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "State Estimation"
   },
   {
     "arxiv_id": "2605.24592",
@@ -521,227 +804,6 @@
       "Distillation",
       "PPO",
       "Multi-Modal"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Locomotion"
-  },
-  {
-    "arxiv_id": "2605.21683",
-    "title": "Investigating Concept Alignment Using Implausible Category Members",
-    "paper_url": "https://arxiv.org/abs/2605.21683",
-    "project_url": null,
-    "authors": [
-      "Sunayana Rane",
-      "Brenden M. Lake",
-      "Thomas L. Griffiths"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-20",
-    "abstract": "Developing AI systems with a human-like understanding of everyday concepts is a key step towards developing safe, reliable systems whose behavior makes sense to humans. When probing concept understanding, asking questions about plausible category members (e.g., \"Is a car a vehicle?\") is likely to recall patterns in the model's vast training data. We pursue an alternative strategy, characterizing the boundaries of conceptual categories by asking about implausible category members (e.g., \"Is an olive a vehicle?\") to probe the kind of concept-level knowledge we take for granted in fellow humans. We characterize concept boundaries for a set of fundamental concepts by studying AI systems' assignments of objects to superordinate categories from a classic psychological study by Rosch and Mervis, as well as their assignments of the same objects to mismatched superordinate categories. We compare these assignments to those made by human participants on the full range of within-category and cross-category assignment tasks. Our results reveal a range of concepts for which which models differ in meaningful and surprising ways from humans, including treating \"words\" as belonging to categories like \"vehicles\" and \"clothing,\" identifying several \"vegetable\" category members as \"fruit,\" and assigning exemplars from non-weapon categories to the \"weapons\" category. We also demonstrate how these instances of concept misalignment translate into problematic downstream behavior with implications for AI safety.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "tags": [
-      "Safety",
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2605.20373",
-    "title": "SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework",
-    "paper_url": "https://arxiv.org/abs/2605.20373",
-    "project_url": null,
-    "authors": [
-      "Tianshu Wu",
-      "Xiangqi Kong",
-      "Yue Chen",
-      "Qize Yu",
-      "Hang Ye",
-      "Jia Li",
-      "Yizhou Wang",
-      "Hao Dong"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-19",
-    "abstract": "Building humanoid robots capable of generalizable whole-body loco-manipulation in the real world remains a fundamental challenge. Existing methods either rely on laborious task-specific reward engineering, rigidly replay reference motions that fail to generalize, or depend on costly teleoperation that limits scalability. While human videos capture diverse human behaviors, motion priors inferred from them are inherently imperfect, suffering from occlusion, contact artifacts, and retargeting errors that render them unsuitable for direct policy learning. To address this, we present SUGAR, a scalable data-driven framework that converts diverse human videos into deployable humanoid loco-manipulation skills, without any task-specific reward engineering or reference-motion conditioning at inference. SUGAR proceeds in three stages. First, a fully automated pipeline extracts kinematic interaction priors including human-object motion trajectories and contact labels from unstructured human videos. Second, a privileged physics-based refiner uses a unified mimic reward and progressive state pool to transform imperfect priors into physically feasible, high-fidelity skills. Third, refined skills are distilled into a hierarchical autonomous policy consisting of a command generator and a command tracker. We evaluate SUGAR on six representative loco-manipulation tasks in simulation and real-world humanoid hardware. Our method substantially outperforms reference-tracking baselines, and performance scales clearly with the amount of human video data. It also achieves zero-shot real-world transfer with reliable closed-loop execution, autonomous failure recovery, and stable long-horizon performance under external perturbations. Project Page: https://tianshuwu.github.io/sugar-humanoid/",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control",
-      "Teleoperation",
-      "Physics-Based Character Animation",
-      "Manipulation",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Teleoperation",
-      "Manipulation",
-      "Zero-Shot",
-      "Humanoid",
-      "Policy Learning",
-      "Loco-Manipulation and Whole-Body Control",
-      "Physics-Based Character Animation",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2605.19981",
-    "title": "CEER: Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation",
-    "paper_url": "https://arxiv.org/abs/2605.19981",
-    "project_url": null,
-    "authors": [
-      "Xinyuan Luo",
-      "Xingrui Chen",
-      "Xunjian Yin",
-      "Hongxuan Wu",
-      "Boxi Xia",
-      "Zhuoqun Chen",
-      "Jinzhou Li",
-      "Boyuan Chen",
-      "Xianyi Cheng"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-19",
-    "abstract": "Humanoid robots have achieved impressive locomotion performance, yet contact-rich and long-horizon manipulation remains a major bottleneck. Manipulation is inherently contact-rich and demands compliant whole-body control for stable interaction, while its diversity and long-horizon nature favor modular, planner-compatible interfaces over joint-space tracking.   We propose CEER, a compliant end-effector-root (EE-root) control abstraction for modular humanoid loco-manipulation within a hierarchical planning framework. CEER enables compliance-aware whole-body control in an interpretable task space defined by root motion commands and end-effector pose targets, and supports plug-and-play integration with heterogeneous high-level planners. A teacher-student framework is adopted to distill a general motion-tracking controller into a low-level policy that consumes only EE-root commands.   We further construct a hierarchical system that integrates heterogeneous planners and task modules through the EE-root interface, enabling diverse manipulation tasks without retraining the underlying whole-body policy. Experiments in simulation and on hardware demonstrate 3.3 cm end-effector tracking accuracy with substantially reduced jerk compared to baselines, stable contact-rich manipulation under teleoperation, and up to 70% success in simulated single-object loco-manipulation tasks within a room-scale environment. These results indicate that compliant EE-root control provides a practical abstraction for humanoid loco-manipulation, enabling modular and scalable integration of diverse skills.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control",
-      "Teleoperation",
-      "Locomotion",
-      "Manipulation",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Whole-Body Control",
-      "Teleoperation",
-      "Locomotion",
-      "Manipulation",
-      "Humanoid",
-      "PPO",
-      "Loco-Manipulation and Whole-Body Control",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "Figure",
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2605.19293",
-    "title": "Domain-Adaptive Communication-Rate Optimization for Sim-to-Real Humanoid-Robot Wireless XR Teleoperation",
-    "paper_url": "https://arxiv.org/abs/2605.19293",
-    "project_url": null,
-    "authors": [
-      "Caolu Xu",
-      "Zhiyong Chen",
-      "Meixia Tao",
-      "Li Song",
-      "Feng Yang",
-      "Wenjun Zhang"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-19",
-    "abstract": "Wireless extended reality (XR) teleoperation provides embodied interaction capability for collecting humanoid robot demonstrations, but the large-scale adoption is restricted by the overhead of high-frequency motion transmission. This paper develops a system framework that integrates sampling, transmission, interpolation, and reconstruction and formulates a communication-rate optimization that aims to minimize the communication energy while maintaining the reconstruction accuracy of robot motion trajectories through dimension-wise sampling-rate control. Since acquiring real-time feedback from physical robots is limited by hardware costs, it is necessary to solve the problem through simulator interaction with offline real-domain data correction. To guide sim-to-real adaptation, we provide a PAC-Bayes generalization characterization that reveals the effects of latent density-ratio estimation, finite-sample deviation, and encoder bias. Building on this analysis, we propose a proximal policy optimization (PPO) method with density-ratio weighting and trust-region regularization. Experiments on public humanoid teleoperation dataset show that the proposed method improves the tradeoff between reconstruction error and communication energy consumption under sim-to-real distribution shift. We further analyze the effectiveness of the proposed algorithm across various wireless channels and dynamic motion trajectories.",
-    "categories": [
-      "Teleoperation",
-      "State Estimation",
-      "Sim-to-Real",
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Sim-to-Real",
-      "Teleoperation",
-      "Simulator",
-      "Humanoid",
-      "Dataset",
-      "PPO",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Teleoperation"
-  },
-  {
-    "arxiv_id": "2605.20506",
-    "title": "Reinforcing Human Behavior Simulation via Verbal Feedback",
-    "paper_url": "https://arxiv.org/abs/2605.20506",
-    "project_url": null,
-    "authors": [
-      "Weiwei Sun",
-      "Xuhui Zhou",
-      "Jiarui Liu",
-      "Weihua Du",
-      "Haojia Sun",
-      "Yiqing Xie",
-      "Qianou Ma",
-      "Sihao Chen",
-      "Mengting Wan",
-      "Longqi Yang",
-      "Pei Zhou",
-      "Sherry Wu",
-      "Sean Welleck",
-      "Graham Neubig",
-      "Yiming Yang",
-      "Maarten Sap"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-19",
-    "abstract": "Humans learn social norms and behaviors from verbal feedback (e.g., a parent saying \"that was rude\" or a friend explaining \"here's why that hurt\"). Yet, learning from feedback for LLMs has largely focused on domains like code and math, where RL rewards are directly verifiable and condensed into scalar values. As LLMs are increasingly used to simulate human behavior, e.g., standing in for users, patients, students, and other personas, there is a pressing need to make them more human-like, which requires embracing a fundamentally different kind of signal: feedback that is verbal, subjective, and multi-faceted. We present DITTO, a model trained by treating verbal feedback as a first-class signal in reinforcement learning. After each rollout, DITTO receives verbal feedback and generates a feedback-conditioned improved rollout; both outputs are jointly optimized with GRPO, distilling verbal guidance into the base policy without requiring feedback at test time. We also introduce SOUL (Simulation gym Of hUman-Like behavior), a unified benchmark and training data suite spanning 10 tasks across six categories: Theory of Mind, character role play, social skill, learner simulation, user simulation, and persona simulation. DITTO achieves an average 36% improvement over the base model and exceeds GPT-5.4 on 6 of 10 SOUL benchmarks, demonstrating that RL with verbal feedback is a promising direction for training LLMs to simulate human behavior.",
-    "categories": [
-      "Simulation Benchmark",
-      "State Estimation"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Benchmark",
-      "Simulation Benchmark",
-      "State Estimation"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.19305",
-    "title": "Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes",
-    "paper_url": "https://arxiv.org/abs/2605.19305",
-    "project_url": null,
-    "authors": [
-      "Tianshu Kuai",
-      "Arman Maesumi",
-      "Daniel Ritchie",
-      "Noam Aigerman"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-19",
-    "abstract": "This paper tackles the task of learning to generate signals over triangle meshes in a triangulation-agnostic manner, meaning the trained model can be applied to different meshes and triangulations effectively. Practically, the paper adapts the flow matching (FM) paradigm to a mesh-based, triangulation-agnostic setting. Theoretically, it proposes a specific noise distribution which is triangulation agnostic, to be used inside the FM model's denoising process. While noise distributions are usually trivial to devise for, e.g., images, devising a triangulation-agnostic distribution proves to be a much more difficult task. We formulate a mathematical definition of triangulation agnosticism of distributions, via their spectrum. We then show that a discretization of a specific Gaussian random field called a Matérn process holds these desired properties, and provides a simple and efficient sampling algorithm. We use it as our noise model, and adapt FM to the triangulation-agnostic setting by using a state-of-the-art approach for learning signals on meshes in the gradient domain -- PoissonNet -- as the denoiser. We conduct experiments on elaborate tasks such as sampling elastic rest states, and generating poses of humanoids. Our method is shown to be capable of producing highly realistic results for meshes of over one million triangles, significantly exceeding the state-of-the-art in quality and diversity.",
-    "categories": [
-      "Locomotion"
-    ],
-    "tags": [
-      "Humanoid",
-      "Flow Matching",
-      "Locomotion"
     ],
     "real_robot": false,
     "open_source": false,

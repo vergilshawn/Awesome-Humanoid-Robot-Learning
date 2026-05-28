@@ -1,10 +1,10 @@
 # State Estimation
 
-**12 papers** in this category.
+**11 papers** in this category.
 
 ## Months
 
-- [2026-05](/state-estimation/2026-05) (5 papers)
+- [2026-05](/state-estimation/2026-05) (4 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
 - [2022-07](/state-estimation/2022-07) (1 papers)
@@ -15,22 +15,6 @@
 ---
 
 ## Recent Papers
-
-## Representation Without Control: Testing the Realization Effect in Language Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.25151)
-- **Authors:** Ciarán Walsh, Emilio Barkett
-- **Published:** 2026-05
-- **Tags:**
-  - Simulator
-  - Large Language Model
-  - State Estimation
-
-### Summary
-
-Large language models are increasingly used as behavioral simulators, but it remains unclear when their outputs reflect human-like cognitive mechanisms rather than prompt-sensitive surface patterns. We study this question through the realization effect, a well-characterized finding in behavioral economics in which risk-taking differs systematically after paper versus realized gains and losses.
-
----
 
 ## Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos
 

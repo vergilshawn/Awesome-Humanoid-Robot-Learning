@@ -1,10 +1,10 @@
 # Manipulation
 
-**51 papers** in this category.
+**52 papers** in this category.
 
 ## Months
 
-- [2026-05](/manipulation/2026-05) (1 papers)
+- [2026-05](/manipulation/2026-05) (2 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
 - [2026-02](/manipulation/2026-02) (1 papers)
@@ -30,6 +30,26 @@
 ---
 
 ## Recent Papers
+
+## 🌟 Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.27886)
+- **Project:** [GitHub](https://github.com/nathanwu7/tabero)
+- **Authors:** Qiwei Wu, Rui Zhang, Xin Xiang, Tao Li, Weihua Zhang, Junjie Lai et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Manipulation
+  - Tactile Sensing
+  - Language-Conditioned
+  - Vision-Language
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Tactile sensing is essential for robots to achieve human-like gentle manipulation. However, existing Vision-Language-Action (VLA) models struggle to exploit tactile feedback for gentle manipulation due to scarce aligned vision-tactile-language data and the lack of effective closed-loop force feedback mechanisms.
+
+---
 
 ## Do Vision-Language-Models show human-like logical problem-solving capability in point and click puzzle games?
 
@@ -296,20 +316,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.22578)
 - **Published:** 2025-09
 - **Tags:**
-  - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Residual Off-Policy RL for Finetuning Behavior Cloning Policies
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2509.19301)
-- **Published:** 2025-09
-- **Tags:**
-  - Behavior Cloning
   - Manipulation
 
 ### Summary
