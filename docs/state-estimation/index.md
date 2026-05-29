@@ -16,23 +16,21 @@
 
 ## Recent Papers
 
-## Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos
+## 🌟 Loong: A Human-Like Long Document Translation Agent with Observe-and-Act Adaptive Context Selection
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.23762)
-- **Authors:** Constant Roux, Ludovic De Matteïs, Armand Jordana, Valentin Guillet, Nicolas Mansard, Olivier Stasse et al. (7 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30274)
+- **Project:** [GitHub](https://github.com/yutongwang1216/loongdocmt)
+- **Authors:** Yutong Wang, Xuebo Liu, Derek F. Wong, Zhilin Li, Rongqing Jiang, Min Zhang et al. (9 authors)
 - **Published:** 2026-05
 - **Tags:**
-  - Imitation Learning
-  - Simulator
-  - Humanoid
-  - Sampling-Based
+  - Reinforcement Learning
+  - Robustness
+  - Large Language Model
   - State Estimation
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
 
 ### Summary
 
-Imitation Learning from monocular video demonstrations provides a scalable approach for teaching complex skills to humanoid robots. However, translating human motion to humanoids requires overcoming significant morphological mismatches.
+Document-level translation remains one of the most challenging tasks for large language models, which are constrained by limited context windows that impede global cohesion, while simultaneously suffering from redundant contextual information that degrades translation quality. To address this, we propose a human-like long document translation agent called Loong, which leverages a 3E memory module (Essence-Exemplar-Entity) to store summaries, sentence pairs, and entity records as historical context.
 
 ---
 

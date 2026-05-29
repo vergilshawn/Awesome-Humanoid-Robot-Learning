@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**39 papers** in this category.
+**36 papers** in this category.
 
 ## Months
 
-- [2026-05](/simulation-benchmark/2026-05) (17 papers)
+- [2026-05](/simulation-benchmark/2026-05) (14 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
 - [2026-02](/simulation-benchmark/2026-02) (1 papers)
@@ -23,20 +23,38 @@
 
 ## Recent Papers
 
-## Beyond Binary Moral Judgment: Modeling Ethical Pluralism in AI
+## SAHG: Sector-Anisotropic Hyperbolic Graph Model for Social Bot Detection
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28707)
-- **Authors:** Aisha Aijaz, Rahul Goel, Arnav Batra, Raghava Mutharaju
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30166)
+- **Authors:** Hanning Lu, Yingguang Yang, Jinwei Su, Yang Liu, Zhaoqian Yao, Yaoming Li et al. (11 authors)
 - **Published:** 2026-05
-- **Real Robot:** ✅ — REEM
 - **Tags:**
   - Benchmark
-  - PPO
   - Simulation Benchmark
 
 ### Summary
 
-Critical decision-making in socially consequential spaces is increasingly involving AI systems at varying capacities. Yet, despite the ubiquity of autonomous systems, most approaches to handling autonomous moral decision-making resort to scalar or binary judgments.
+LLM-driven social bots can generate fluent, human-like text, reducing the discriminative advantage of content-based detection alone. However, coordinated campaigns still leave relational patterns -- interactions, behavioral similarity, shared neighborhoods, community positions, and coordinated activity -- that graph-based methods can exploit.
+
+---
+
+## FakeVLM-R1: Internalizing Physical Laws via CoT for Synthetic Image Detection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30062)
+- **Authors:** Leqi Zhu, Junyan Ye, Kaiqing Lin, Zhiyuan Yan, Conghui He, Weijia Li
+- **Published:** 2026-05
+- **Tags:**
+  - Imitation Learning
+  - Robustness
+  - Fine-tuning
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+The development of generative artificial intelligence technologies has propelled the visual realism of synthetic images to an unprecedented level. Although current interpretable detection methods based on Large Multimodal Models (LMMs) have made certain progress, they still rely on imitation learning derived from massive volumes of forged data.
 
 ---
 
@@ -58,27 +76,6 @@ Recent advances in large language models have enabled natural language to serve 
 
 ---
 
-## ParkourFormer: Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.25782)
-- **Authors:** Yanheng Mai, Wenhao Xu, Zirui Huang, Yifei Fu, Shengwei Dong, Xinjue Wang et al. (9 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Transformer
-  - Robustness
-  - Humanoid
-  - Benchmark
-  - Simulation Benchmark
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid parkour requires locomotion policies to coordinate whole-body dynamics across rapidly changing terrains such as stairs, gaps, slopes, and obstacles. Existing reinforcement learning policies are largely reactive, mapping observations directly to actions without explicitly modeling future body states.
-
----
-
 ## Exploiting Local Dynamics Regularity for Reusable Skills in Offline Hierarchical RL
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.26371)
@@ -97,74 +94,24 @@ Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinfor
 
 ---
 
-## Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory
+## ParkourFormer: Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.24602)
-- **Authors:** Quanjiang Li, Zhiming Liu, Wei Luo, Tingjin Luo, Chenping Hou
-- **Published:** 2026-05
-- **Tags:**
-  - Benchmark
-  - Large Language Model
-  - Simulation Benchmark
-
-### Summary
-
-Multimodal large language models (MLLMs) frequently suffer from object hallucinations, yet the visual perceptual mechanism underlying this failure remains poorly understood. In this work, we reveal that hallucinations are strongly associated with a human-like attention distraction phenomenon, where humans under divided focus experience degraded visual clarity and produce inaccurate descriptions, while in models the same mechanism manifests as spatial inconsistency in multi-head attention and temporal fading of attention to image tokens during decoding.
-
----
-
-## Signal Temporal Logic Motion Planning via Graphs of Convex Sets
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.23240)
-- **Authors:** Yu Chen, Ancheng Hou, Mingyang Feng, Xiao Yu, Xiang Yin
-- **Published:** 2026-05
-- **Tags:**
-  - Humanoid
-  - Motion Planning
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-This paper investigates continuous-time motion planning under Signal Temporal Logic (STL) specifications. The goal is to generate smooth robot trajectories that satisfy high-level logical and timing requirements while respecting low-level motion constraints.
-
----
-
-## Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.23819)
-- **Authors:** Jorge Chang Ortega, Bastien Le Lan, Thomas Serre, Victor Boutin
-- **Published:** 2026-05
-- **Tags:**
-  - Robustness
-  - Benchmark
-  - Energy-Based
-  - Simulation Benchmark
-
-### Summary
-
-A central question in computational vision is whether human-like visual representations are better explained by discriminative or generative learning. Existing comparisons, however, often confound the learning objective with architecture, scale, and training data, leaving open whether the objective itself drives alignment.
-
----
-
-## SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-based Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.22894)
-- **Authors:** Jingyan Zhang, Han Liang, Ruichi Zhang, Bin Li, Juze Zhang, Xin Chen et al. (9 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.25782)
+- **Authors:** Yanheng Mai, Wenhao Xu, Zirui Huang, Yifei Fu, Shengwei Dong, Xinjue Wang et al. (9 authors)
 - **Published:** 2026-05
 - **Tags:**
   - Reinforcement Learning
-  - Diffusion Policy
+  - Locomotion
   - Transformer
+  - Robustness
   - Humanoid
-  - Pre-training
-  - Dataset
-  - Diffusion
+  - Benchmark
   - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
 
 ### Summary
 
-Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control.
+Humanoid parkour requires locomotion policies to coordinate whole-body dynamics across rapidly changing terrains such as stairs, gaps, slopes, and obstacles. Existing reinforcement learning policies are largely reactive, mapping observations directly to actions without explicitly modeling future body states.
 
 ---
 
@@ -404,5 +351,48 @@ RoboForge bridges natural language and whole-body humanoid locomotion through a 
 ### Summary
 
 Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
+
+---
+
+## 🌟 ComFree-Sim: A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation and Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.12185)
+- **Project:** [GitHub](https://irislab.tech/comfree-sim/)
+- **Published:** 2026-03
+- **Tags:**
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.06181)
+- **Published:** 2026-03
+- **Tags:**
+  - Humanoid
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.11337)
+- **Published:** 2026-02
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
 
 ---

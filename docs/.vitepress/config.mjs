@@ -162,7 +162,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (52)",
+            "text": "Manipulation (53)",
             "collapsed": true,
             "items": [
                   {
@@ -660,7 +660,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (39)",
+            "text": "Simulation Benchmark (36)",
             "collapsed": true,
             "items": [
                   {
@@ -836,7 +836,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (24)",
+            "text": "Human Motion Analysis and Synthesis (23)",
             "collapsed": true,
             "items": [
                   {

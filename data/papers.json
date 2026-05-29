@@ -1,5 +1,175 @@
 [
   {
+    "arxiv_id": "2605.30282",
+    "title": "Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation",
+    "paper_url": "https://arxiv.org/abs/2605.30282",
+    "project_url": null,
+    "authors": [
+      "Kuangji Zuo",
+      "Gen Li",
+      "Bofan Lyu",
+      "Yanshuo Lu",
+      "Boyu Ma",
+      "Shijia Han",
+      "Xinyu Zhou",
+      "Xichen Yuan",
+      "Chuhao Zhou",
+      "Jiaqi Bai",
+      "Geng Li",
+      "Jianfei Yang"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent. It is difficult to describe which exact object to interact with among similar candidates, where to act on the object, or how the target may change during execution. To address this limitation, we propose Gaze2Act, a novel VLA framework that leverages human gaze as a dynamic and intuitive intent signal for complex interactive manipulation. Gaze2Act first bridges the ego-exo view gap by mapping first-person gaze into the robot's perspective through cross-view semantic matching, producing both an object mask and a gaze point for coarse-to-fine target specification. These cues are then integrated into the policy through perception-level prompting and action-level conditioning, allowing the robot to attend to relevant regions and execute precise interactions under dynamic intent. In a systematic evaluation across seven task categories and 16 real-robot tasks on a Unitree G1 humanoid, Gaze2Act achieves state-of-the-art performance in both intent accuracy and task success rate. It notably outperforms baselines in object disambiguation, fine-grained interaction, and dynamic intent steering. These results demonstrate that human gaze provides a natural, low-burden, and highly expressive modality for human-in-the-loop VLA control.",
+    "categories": [
+      "Manipulation",
+      "Navigation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "Navigation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2605.30274",
+    "title": "Loong: A Human-Like Long Document Translation Agent with Observe-and-Act Adaptive Context Selection",
+    "paper_url": "https://arxiv.org/abs/2605.30274",
+    "project_url": "https://github.com/yutongwang1216/loongdocmt",
+    "authors": [
+      "Yutong Wang",
+      "Xuebo Liu",
+      "Derek F. Wong",
+      "Zhilin Li",
+      "Rongqing Jiang",
+      "Min Zhang",
+      "Shimin Tao",
+      "Daimeng Wei",
+      "Min Zhang"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "Document-level translation remains one of the most challenging tasks for large language models, which are constrained by limited context windows that impede global cohesion, while simultaneously suffering from redundant contextual information that degrades translation quality. To address this, we propose a human-like long document translation agent called Loong, which leverages a 3E memory module (Essence-Exemplar-Entity) to store summaries, sentence pairs, and entity records as historical context. Instead of passively attending to all history, Loong performs deep reasoning to adaptively identify the optimal context for translation guidance. Loong optimizes its context policy through reinforcement learning, utilizing preference data derived from its own sampled observe-and-act reasoning trajectories. Empirical evaluations demonstrate that Loong achieves substantial translation quality improvements in English $\\Leftrightarrow$ Chinese, German, and French directions, with average gains of up to 13.0 points across the three evaluation metrics. Furthermore, Loong exhibits strong generalization across domains and robustness against contextual noise, while maintaining remarkable stability in ultra-long document translation. Our code is released at https://github.com/YutongWang1216/LoongDocMT.",
+    "categories": [
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Robustness",
+      "Large Language Model",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2605.30166",
+    "title": "SAHG: Sector-Anisotropic Hyperbolic Graph Model for Social Bot Detection",
+    "paper_url": "https://arxiv.org/abs/2605.30166",
+    "project_url": null,
+    "authors": [
+      "Hanning Lu",
+      "Yingguang Yang",
+      "Jinwei Su",
+      "Yang Liu",
+      "Zhaoqian Yao",
+      "Yaoming Li",
+      "Taoran Liang",
+      "Ziyi Zhang",
+      "Ran Ran",
+      "Kefu Xu",
+      "Bin Chong"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "LLM-driven social bots can generate fluent, human-like text, reducing the discriminative advantage of content-based detection alone. However, coordinated campaigns still leave relational patterns -- interactions, behavioral similarity, shared neighborhoods, community positions, and coordinated activity -- that graph-based methods can exploit. Existing graph detectors face two challenges when exploiting such evidence. First, Euclidean GNNs distort hierarchical and scale-free social graphs; while hyperbolic geometry addresses this volume-growth mismatch, fixed-curvature models still assign uniform geometric resolution to structural directions with different densities and separation needs. Second, relational evidence is not always reliable: sophisticated bots forge heterophilic connections with genuine users, causing neighborhood aggregation to mix bot and human signals and dilute account-level evidence. We propose \\textsc{SAHG} (Sector-Anisotropic Hyperbolic Graph), addressing both challenges. \\textsc{SAHG} learns a direction-dependent curvature field $γ(u)$ that adapts geometric resolution across structural directions, and uses sector prototypes to convert angular concentration and alignment into classifier-readable features. To prevent contaminated aggregation from overwhelming account-level evidence, \\textsc{SAHG} encodes per-account features and graph-neighborhood representations in two independent SAH channels, fusing them only at the classifier. Experiments on Fox8-23, BotSim-24, and MGTAB show that \\textsc{SAHG} achieves the highest accuracy and F1 on all three benchmarks, outperforming feature-based, graph-based, LLM-based, and isotropic hyperbolic baselines. Ablation and geometric analyses confirm the effectiveness of the anisotropic geometry and dual-channel design.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.30062",
+    "title": "FakeVLM-R1: Internalizing Physical Laws via CoT for Synthetic Image Detection",
+    "paper_url": "https://arxiv.org/abs/2605.30062",
+    "project_url": null,
+    "authors": [
+      "Leqi Zhu",
+      "Junyan Ye",
+      "Kaiqing Lin",
+      "Zhiyuan Yan",
+      "Conghui He",
+      "Weijia Li"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "The development of generative artificial intelligence technologies has propelled the visual realism of synthetic images to an unprecedented level. Although current interpretable detection methods based on Large Multimodal Models (LMMs) have made certain progress, they still rely on imitation learning derived from massive volumes of forged data. Consequently, they lack genuine causal reasoning capabilities and are prone to explanatory hallucinations. To overcome this bottleneck, we propose FakeVLM-R1, aiming to endow the model with human-like critical thinking capabilities when performing synthetic detection tasks. Building upon Supervised Fine-Tuning (SFT), this framework integrates Group Relative Policy Optimization (GRPO) with a Critical Thinking Chain-of-Thought (CoT) mechanism. During the inference phase, the model executes a \"bidirectional dialectical reasoning\" process: while proposing a forgery hypothesis, it must simultaneously invoke physical commonsense to construct an authenticity counter-proof. Furthermore, we constructed the FakeClue++ dataset with high-quality samples, which extensively introduces annotations guided by the physical laws of authentic images, providing a unified authenticity anchor for the model. Experiments confirm that FakeVLM-R1 achieves SOTA performance the evaluated models across multiple benchmarks. It not only achieves high-precision, logically interpretable detection but also resolves the over-rejection bias of existing methods against real images, demonstrating generalization and robustness against perturbations.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Imitation Learning",
+      "Robustness",
+      "Fine-tuning",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.29219",
+    "title": "SalsaAgent: A multimodal embodied language model for interactive dance generation",
+    "paper_url": "https://arxiv.org/abs/2605.29219",
+    "project_url": null,
+    "authors": [
+      "Payam Jome Yazdian",
+      "Zoe Stanley",
+      "Angelica Lim"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "Interaction between humanoids involves bidirectional and nonverbal reactivity, coordination and synchrony. Toward socially aware robots and interactive virtual agents, we present SalsaAgent, a language model that generates expressive, full-body salsa dance motions in reaction to a human leader and against a contextual music backdrop. We formulate interaction as nonverbal motion token passing, extending the vocabulary of a large language model (LLM) to process discrete motion tokens, pairwise relation tokens, and audio. Our contributions include new tokens for full-body and motion relations, LLM fine-tuning using automatically derived text descriptions of skeleton dynamics for token grounding, and a two-stage token-to-diffusion pipeline. Subjective and objective evaluations demonstrate the effectiveness of our approach in terms of motion quality, music and partner coordination, and consistent two-person spatial behavior, with significant improvements over baselines.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Fine-tuning",
+      "Large Language Model",
+      "Diffusion",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2605.28549",
     "title": "SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints",
     "paper_url": "https://arxiv.org/abs/2605.28549",
@@ -104,34 +274,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Manipulation"
-  },
-  {
-    "arxiv_id": "2605.28707",
-    "title": "Beyond Binary Moral Judgment: Modeling Ethical Pluralism in AI",
-    "paper_url": "https://arxiv.org/abs/2605.28707",
-    "project_url": null,
-    "authors": [
-      "Aisha Aijaz",
-      "Rahul Goel",
-      "Arnav Batra",
-      "Raghava Mutharaju"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-27",
-    "abstract": "Critical decision-making in socially consequential spaces is increasingly involving AI systems at varying capacities. Yet, despite the ubiquity of autonomous systems, most approaches to handling autonomous moral decision-making resort to scalar or binary judgments. These methods are insufficient for acceptable moral reasoning, as they provide little explanation, leaving out imperative contextual and theoretical information that must be included to support accountability. For this, we propose a framework to model moral reasoning as a distribution over normative ethical theories or ethical pluralism. We introduce a normative ethics simplex that integrates these theories. A benchmark of 450 cases across 15 fine-grained subtheories was also prepared for the purposes of stacked ensemble learning. These cases describe ethical dilemmas in natural language and have associated extracted contextual features. The implementation of the simplex was achieved via a two-stream normative-semantic architecture. This is followed by the fusion of normative information and a sequential, stacking ensemble to learn the best fit of the three broad theories: consequentialism, virtue ethics, and deontology, and the 15 subcategories. Our experiments demonstrate that the integration of contextual and normative priors with the semantic embeddings significantly improves the performance of the classification, displaying an accuracy of 88.89%. We conducted ablation studies to show that structured ethical representations contribute beyond analogical reasoning, and the chosen stacking architecture gives the best results due to the gradual learning of granularity. Ethical pluralism is also analyzed through entropy, confidence, and visualization. Thus, modeling ethical pluralism as a probabilistic normative distribution supports human-like moral reasoning, ethical disagreement analysis, and future alignment in AI systems.",
-    "categories": [
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Benchmark",
-      "PPO",
-      "Simulation Benchmark"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "REEM",
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2605.28491",
@@ -348,35 +490,37 @@
     "primary_category": "Simulation Benchmark"
   },
   {
-    "arxiv_id": "2605.26006",
-    "title": "MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control",
-    "paper_url": "https://arxiv.org/abs/2605.26006",
+    "arxiv_id": "2605.26371",
+    "title": "Exploiting Local Dynamics Regularity for Reusable Skills in Offline Hierarchical RL",
+    "paper_url": "https://arxiv.org/abs/2605.26371",
     "project_url": null,
     "authors": [
-      "Bin Li",
-      "Ruichi Zhang",
-      "Han Liang",
-      "Jingyan Zhang",
-      "Juze Zhang",
-      "Xin Chen",
-      "Jingya Wang"
+      "Sarthak Dayal",
+      "Abhinav Peri",
+      "Carl Qi",
+      "Claas Voelcker",
+      "Alexander Levine",
+      "Caleb Chuck",
+      "Amy Zhang"
     ],
     "published": "2026-05",
     "published_date": "2026-05-25",
-    "abstract": "Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning paradigm that directly generates actions from text. However, the former suffers from the inherent domain shift between kinematic generation and physics-based tracking, while the latter struggles with the substantial modality gap between textual commands and low-level actions, limiting effective semantic alignment. Notably, humanoid states encode rich motion dynamics that are more semantically aligned with textual descriptions than low-level actions, making them a natural basis for deriving behavioral intent. Building upon this insight, we propose MIND, a novel end-to-end diffusion framework for text-driven physics-based humanoid control that leverages behavioral intent as a semantic bridge between textual commands and low-level actions. At its core, MIND introduces a multi-scale intent diffusion mechanism, where a holistic intent predictor captures global behavioral dynamics to guide overall behavior synthesis, while an immediate intent predictor provides step-wise, fine-grained signals for local behavior refinement at each diffusion step. This hierarchical intent formulation imposes a structured inductive bias for humanoid control, improving semantic alignment and behavioral naturalness. Furthermore, MIND encodes humanoid states into a latent space to enable more effective semantic intent modeling. Extensive experiments demonstrate that MIND outperforms existing methods and synthesizes coherent, physically plausible, and semantically aligned humanoid behaviors from text commands. Our code will be released to facilitate future research.",
+    "abstract": "Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinforcement Learning (RL) tasks more efficiently than non-hierarchical counterparts by discovering and reusing temporally-extended skills. However, obtaining skills that are actually reusable remains an open challenge. Towards this end, we focus on abstractions that exploit the intuition of local dynamics: local transitions in different global contexts require similar kinds of action sequences. By aligning these contexts with the action sequences they require, we are able to learn which skills to reuse and where to reuse them. In principle, this information should benefit many HRL algorithms, where high-level policies have to reason about the low-level skills they use. The resulting algorithm CARL (Contrastive Action-based Representations for Reusable Local Control) shows both qualitative clustering of meaningful skills in complex humanoid environments and improved downstream performance on the OGBench benchmark when integrated with HIQL.",
     "categories": [
-      "Physics-Based Character Animation"
+      "Simulation Benchmark"
     ],
     "tags": [
+      "Reinforcement Learning",
       "Humanoid",
-      "Diffusion",
-      "Physics-Based Character Animation"
+      "Hierarchical RL",
+      "Benchmark",
+      "Simulation Benchmark"
     ],
     "real_robot": false,
     "open_source": false,
     "platform": null,
     "summary": "",
-    "primary_category": "Physics-Based Character Animation"
+    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2605.25782",
@@ -464,142 +608,35 @@
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
-    "arxiv_id": "2605.26371",
-    "title": "Exploiting Local Dynamics Regularity for Reusable Skills in Offline Hierarchical RL",
-    "paper_url": "https://arxiv.org/abs/2605.26371",
+    "arxiv_id": "2605.26006",
+    "title": "MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2605.26006",
     "project_url": null,
     "authors": [
-      "Sarthak Dayal",
-      "Abhinav Peri",
-      "Carl Qi",
-      "Claas Voelcker",
-      "Alexander Levine",
-      "Caleb Chuck",
-      "Amy Zhang"
+      "Bin Li",
+      "Ruichi Zhang",
+      "Han Liang",
+      "Jingyan Zhang",
+      "Juze Zhang",
+      "Xin Chen",
+      "Jingya Wang"
     ],
     "published": "2026-05",
     "published_date": "2026-05-25",
-    "abstract": "Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinforcement Learning (RL) tasks more efficiently than non-hierarchical counterparts by discovering and reusing temporally-extended skills. However, obtaining skills that are actually reusable remains an open challenge. Towards this end, we focus on abstractions that exploit the intuition of local dynamics: local transitions in different global contexts require similar kinds of action sequences. By aligning these contexts with the action sequences they require, we are able to learn which skills to reuse and where to reuse them. In principle, this information should benefit many HRL algorithms, where high-level policies have to reason about the low-level skills they use. The resulting algorithm CARL (Contrastive Action-based Representations for Reusable Local Control) shows both qualitative clustering of meaningful skills in complex humanoid environments and improved downstream performance on the OGBench benchmark when integrated with HIQL.",
+    "abstract": "Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning paradigm that directly generates actions from text. However, the former suffers from the inherent domain shift between kinematic generation and physics-based tracking, while the latter struggles with the substantial modality gap between textual commands and low-level actions, limiting effective semantic alignment. Notably, humanoid states encode rich motion dynamics that are more semantically aligned with textual descriptions than low-level actions, making them a natural basis for deriving behavioral intent. Building upon this insight, we propose MIND, a novel end-to-end diffusion framework for text-driven physics-based humanoid control that leverages behavioral intent as a semantic bridge between textual commands and low-level actions. At its core, MIND introduces a multi-scale intent diffusion mechanism, where a holistic intent predictor captures global behavioral dynamics to guide overall behavior synthesis, while an immediate intent predictor provides step-wise, fine-grained signals for local behavior refinement at each diffusion step. This hierarchical intent formulation imposes a structured inductive bias for humanoid control, improving semantic alignment and behavioral naturalness. Furthermore, MIND encodes humanoid states into a latent space to enable more effective semantic intent modeling. Extensive experiments demonstrate that MIND outperforms existing methods and synthesizes coherent, physically plausible, and semantically aligned humanoid behaviors from text commands. Our code will be released to facilitate future research.",
     "categories": [
-      "Simulation Benchmark"
+      "Physics-Based Character Animation"
     ],
     "tags": [
-      "Reinforcement Learning",
       "Humanoid",
-      "Hierarchical RL",
-      "Benchmark",
-      "Simulation Benchmark"
+      "Diffusion",
+      "Physics-Based Character Animation"
     ],
     "real_robot": false,
     "open_source": false,
     "platform": null,
     "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.24592",
-    "title": "MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots",
-    "paper_url": "https://arxiv.org/abs/2605.24592",
-    "project_url": null,
-    "authors": [
-      "Yusen Feng",
-      "Xiang Wang",
-      "Heyuan Yao",
-      "Zixi Kang",
-      "Xinyu Huo",
-      "Boyang Yu",
-      "Pengyun Qiu",
-      "Ruijie Zhao",
-      "Baoquan Chen",
-      "Libin Liu"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-23",
-    "abstract": "This paper presents MuGen, a data-driven framework for learning and deploying multi-skill locomotion on humanoid robots. MuGen enables a robot to perform expressive motions like humans under the guidance of example motion sequences. To achieve this, we employ vector-quantized autoencoders (VQ-VAEs) trained with model-based reinforcement learning, resulting in a generative representation of locomotion that captures key patterns of human motion from hours of heterogeneous human performance data. We employ a teacher-student learning framework and develop a new policy distillation strategy to enable a deployable student policy learning this efficient latent representation. This policy allows the robot to track and mimic unseen human motions and further enables the robot to reuse the learned latent space for other tasks. We demonstrate the effectiveness of our framework through a diverse set of motions and accurate execution.",
-    "categories": [
-      "Locomotion",
-      "Human Motion Analysis and Synthesis"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Locomotion",
-      "Humanoid",
-      "Distillation",
-      "Policy Learning",
-      "VAE",
-      "Human Motion Analysis and Synthesis"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Locomotion"
-  },
-  {
-    "arxiv_id": "2605.24602",
-    "title": "Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory",
-    "paper_url": "https://arxiv.org/abs/2605.24602",
-    "project_url": null,
-    "authors": [
-      "Quanjiang Li",
-      "Zhiming Liu",
-      "Wei Luo",
-      "Tingjin Luo",
-      "Chenping Hou"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-23",
-    "abstract": "Multimodal large language models (MLLMs) frequently suffer from object hallucinations, yet the visual perceptual mechanism underlying this failure remains poorly understood. In this work, we reveal that hallucinations are strongly associated with a human-like attention distraction phenomenon, where humans under divided focus experience degraded visual clarity and produce inaccurate descriptions, while in models the same mechanism manifests as spatial inconsistency in multi-head attention and temporal fading of attention to image tokens during decoding. We further provide theoretical insights that attention dispersion increases model complexity and degrades classification generalization. Motivated by these findings, we propose an Attention-Focused Approach for Improved Image Perception (AFIP), which corrects attention distraction via cross-head attention enrichment and reinforces visual grounding through dynamic historical attention enhancement. Extensive experiments on multiple benchmarks and models validate the effectiveness of AFIP without additional training.",
-    "categories": [
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Benchmark",
-      "Large Language Model",
-      "Simulation Benchmark"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.23762",
-    "title": "Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos",
-    "paper_url": "https://arxiv.org/abs/2605.23762",
-    "project_url": null,
-    "authors": [
-      "Constant Roux",
-      "Ludovic De Matteïs",
-      "Armand Jordana",
-      "Valentin Guillet",
-      "Nicolas Mansard",
-      "Olivier Stasse",
-      "Philippe Souères"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-22",
-    "abstract": "Imitation Learning from monocular video demonstrations provides a scalable approach for teaching complex skills to humanoid robots. However, translating human motion to humanoids requires overcoming significant morphological mismatches. Standard approaches rely on Geometric Retargeting or Indirect Dynamic Retargeting pipelines. We identify that these intermediate kinematic projections introduce a geometric bias, restricting the search space and yielding suboptimal dynamic behaviors. In this paper, we propose Direct Dynamic Retargeting (DDR), a novel single-stage framework that generates high-fidelity, dynamically feasible trajectories directly from expert videos. By formulating the problem in the task space and leveraging a sampling-based Model Predictive Control solver within a physics simulator, DDR natively optimizes over complex contact sequences while mitigating input drift. Our experiments demonstrate that bypassing the geometric bias allows DDR to outperform state-of-the-art baselines in demonstration tracking accuracy. Furthermore, we establish that providing such physically viable references to RL agents accelerates training convergence and enhances the final execution of agile and balancing behaviors. Source code will be made publicly available.",
-    "categories": [
-      "State Estimation",
-      "Physics-Based Character Animation",
-      "Human Motion Analysis and Synthesis"
-    ],
-    "tags": [
-      "Imitation Learning",
-      "Simulator",
-      "Humanoid",
-      "Sampling-Based",
-      "State Estimation",
-      "Physics-Based Character Animation",
-      "Human Motion Analysis and Synthesis"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "State Estimation"
+    "primary_category": "Physics-Based Character Animation"
   },
   {
     "arxiv_id": "2605.23733",
@@ -631,147 +668,6 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2605.23240",
-    "title": "Signal Temporal Logic Motion Planning via Graphs of Convex Sets",
-    "paper_url": "https://arxiv.org/abs/2605.23240",
-    "project_url": null,
-    "authors": [
-      "Yu Chen",
-      "Ancheng Hou",
-      "Mingyang Feng",
-      "Xiao Yu",
-      "Xiang Yin"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-22",
-    "abstract": "This paper investigates continuous-time motion planning under Signal Temporal Logic (STL) specifications. The goal is to generate smooth robot trajectories that satisfy high-level logical and timing requirements while respecting low-level motion constraints. To this end, we propose an efficient framework that combines timed-automata reasoning with graphs of convex sets (GCS). An STL specification is first represented by a timed automaton, which is then coupled with a convex decomposition of the configuration space to form a joint transition system encoding both task progress and region occupancy. Based on this joint transition system, the STL motion-planning problem is reformulated as a shortest-path problem over a GCS, whose solution induces a smooth Bézier-spline trajectory satisfying the STL specification, smoothness requirements, and velocity bounds. We establish the soundness of the proposed formulation and analyze its computational complexity, showing that, once the timed automaton and convex decomposition are fixed, the convex relaxation scales polynomially with the configuration-space dimension and the Bézier degree. We further develop a compact timed-automaton construction for an expressive STL fragment using dedicated templates and Boolean composition. Numerical experiments on low-dimensional benchmarks, a $3$-D quadrotor, a $30$-DoF humanoid, and a hardware experiment on a UR-3 robot arm demonstrate that the proposed method efficiently solves complex STL motion-planning problems and produces smooth executable trajectories.",
-    "categories": [
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Humanoid",
-      "Motion Planning",
-      "Benchmark",
-      "Simulation Benchmark"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.23819",
-    "title": "Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot",
-    "paper_url": "https://arxiv.org/abs/2605.23819",
-    "project_url": null,
-    "authors": [
-      "Jorge Chang Ortega",
-      "Bastien Le Lan",
-      "Thomas Serre",
-      "Victor Boutin"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-22",
-    "abstract": "A central question in computational vision is whether human-like visual representations are better explained by discriminative or generative learning. Existing comparisons, however, often confound the learning objective with architecture, scale, and training data, leaving open whether the objective itself drives alignment. We address this confound using Joint Energy-Based Models (JEMs), which interpolate continuously between discriminative and generative training within a fixed architecture. By varying a single mixing coefficient, we isolate the effect of the learning objective and evaluate the resulting models across six human-alignment benchmarks spanning perceptual similarity, gloss perception, human response uncertainty, robustness, shape-texture cue conflict, and diagnostic feature attribution. Across this diverse suite, human alignment is consistently maximized at intermediate points of the generative-discriminative continuum, rather than at either endpoint. Hybrid JEMs combine the categorical structure induced by discriminative learning with the sensitivity to input structure induced by generative learning, yielding more human-like behavior across multiple levels of vision. These results suggest that the generative-discriminative dichotomy is the wrong axis for understanding human-aligned vision: alignment emerges not from choosing one objective over the other, but from balancing both.",
-    "categories": [
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Robustness",
-      "Benchmark",
-      "Energy-Based",
-      "Simulation Benchmark"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.22894",
-    "title": "SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-based Humanoid Control",
-    "paper_url": "https://arxiv.org/abs/2605.22894",
-    "project_url": null,
-    "authors": [
-      "Jingyan Zhang",
-      "Han Liang",
-      "Ruichi Zhang",
-      "Bin Li",
-      "Juze Zhang",
-      "Xin Chen",
-      "Jingya Wang",
-      "Lan Xu",
-      "Jingyi Yu"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-21",
-    "abstract": "Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control. We propose SCRIPT, a scalable diffusion policy with a multi-stage training framework for language-driven physics-based humanoid control. The core of SCRIPT is a Joint Action-State-Text Diffusion Transformer (JAST-DiT), which represents actions, physical states, and text as dedicated token streams and couples them through joint attention, enabling direct interaction between language semantics and control dynamics. To stabilize autoregressive control, we introduce a nonlinear history conditioning mechanism, which preserves the dense recent context and samples increasingly sparse cues from long-term history. Beyond supervised imitation pre-training, we propose a post-training stage, further improving the performance using Reinforcement Learning with Hybrid Rewards (RLHR). By injecting learnable noise into the flow-sampling process, RLHR effectively improves motion quality and instruction following within closed-loop simulations using hybrid physical feedback and text rewards. Quantitative evaluations demonstrate that SCRIPT outperforms prior state-of-the-art methods, with gains across text alignment, motion quality, and physical realism metrics. Furthermore, scaling studies on the 1200-hour MotionMillion dataset demonstrate consistent performance gains with model scaling, highlighting SCRIPT's robust scalability for large-scale pre-training. Our code will be publicly available for future research.",
-    "categories": [
-      "Simulation Benchmark",
-      "State Estimation",
-      "Physics-Based Character Animation"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Diffusion Policy",
-      "Transformer",
-      "Humanoid",
-      "Pre-training",
-      "Dataset",
-      "Diffusion",
-      "Simulation Benchmark",
-      "State Estimation",
-      "Physics-Based Character Animation"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.22272",
-    "title": "Imagine2Real: Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors",
-    "paper_url": "https://arxiv.org/abs/2605.22272",
-    "project_url": null,
-    "authors": [
-      "Jiahe Chen",
-      "ZiRui Wang",
-      "Feiyu Jia",
-      "Xiao Chen",
-      "Xiaojie Niu",
-      "Weishuai Zeng",
-      "Tianfan Xue",
-      "Xiaowei Zhou",
-      "Jiangmiao Pang",
-      "Jingbo Wang"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-21",
-    "abstract": "Whole-body Humanoid-Object Interaction (HOI) is bottlenecked by the scarcity of high-fidelity 3D data. While video generative priors offer a promising alternative, existing methods suffer from \\textit{Representation Misalignment} due to their reliance on geometric priors (e.g., explicit CAD models), and \\textit{Retargeting Complexity} arising from intensive morphing and morphological mismatch. We propose Imagine2Real, a zero-shot HOI framework for flexible, geometry-free interaction. To resolve misalignment, we formulate robot and object motions as unified 4D point trajectories. To overcome retargeting complexity, our Keypoints Tracker tracks only sparse critical points (base, hands, and object), entirely bypassing the error-amplifying retargeting process. To maintain natural gaits despite these sparse signals, we utilize the latent space of a Behavior Foundation Model (BFM) as the tracker's search domain. Using a progressive training strategy, Imagine2Real learns robust behaviors with simple tracking rewards, enabling zero-shot physical deployment within a motion capture(mocap) system.",
-    "categories": [
-      "Human Motion Analysis and Synthesis",
-      "Loco-Manipulation and Whole-Body Control",
-      "Locomotion"
-    ],
-    "tags": [
-      "Zero-Shot",
-      "Humanoid",
-      "Gait",
-      "Foundation Model",
-      "Human Motion Analysis and Synthesis",
-      "Loco-Manipulation and Whole-Body Control",
-      "Locomotion"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Human Motion Analysis and Synthesis"
   },
   {
     "arxiv_id": "2605.21935",

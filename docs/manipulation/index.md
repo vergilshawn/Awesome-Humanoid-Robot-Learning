@@ -1,10 +1,10 @@
 # Manipulation
 
-**52 papers** in this category.
+**53 papers** in this category.
 
 ## Months
 
-- [2026-05](/manipulation/2026-05) (2 papers)
+- [2026-05](/manipulation/2026-05) (3 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
 - [2026-02](/manipulation/2026-02) (1 papers)
@@ -30,6 +30,24 @@
 ---
 
 ## Recent Papers
+
+## Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30282)
+- **Authors:** Kuangji Zuo, Gen Li, Bofan Lyu, Yanshuo Lu, Boyu Ma, Shijia Han et al. (12 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Navigation
+
+### Summary
+
+Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent.
+
+---
 
 ## 🌟 Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language
 
@@ -303,19 +321,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Humanoid
   - Proprioception
-  - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## EgoDemoGen: Novel Egocentric Demonstration Generation Enables Viewpoint-Robust Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2509.22578)
-- **Published:** 2025-09
-- **Tags:**
   - Manipulation
 
 ### Summary

@@ -6,14 +6,31 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Figure:** 7 papers
 - **NAO:** 1 papers
-- **REEM:** 1 papers
-- **Unitree G1:** 14 papers
+- **Unitree G1:** 15 papers
 - **Unknown Platform:** 2 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30282)
+- **Authors:** Kuangji Zuo, Gen Li, Bofan Lyu, Yanshuo Lu, Boyu Ma, Shijia Han et al. (12 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Navigation
+
+### Summary
+
+Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent.
+
+---
 
 ## SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints
 
@@ -51,23 +68,6 @@ The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-v
 ### Summary
 
 We present a hybrid robotic skin that combines electrical impedance tomography (EIT) with pneumatic tactile sensing to improve force reconstruction capability. The developed robotic skin is fabricated entirely by 3D printing and spray coating, making it affordable and easy to build.
-
----
-
-## Beyond Binary Moral Judgment: Modeling Ethical Pluralism in AI
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28707)
-- **Authors:** Aisha Aijaz, Rahul Goel, Arnav Batra, Raghava Mutharaju
-- **Published:** 2026-05
-- **Real Robot:** ✅ — REEM
-- **Tags:**
-  - Benchmark
-  - PPO
-  - Simulation Benchmark
-
-### Summary
-
-Critical decision-making in socially consequential spaces is increasingly involving AI systems at varying capacities. Yet, despite the ubiquity of autonomous systems, most approaches to handling autonomous moral decision-making resort to scalar or binary judgments.
 
 ---
 
