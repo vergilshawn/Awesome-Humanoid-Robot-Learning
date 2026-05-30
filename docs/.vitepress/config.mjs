@@ -322,7 +322,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (103)",
+            "text": "Locomotion (104)",
             "collapsed": true,
             "items": [
                   {
@@ -502,7 +502,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (11)",
+            "text": "State Estimation (13)",
             "collapsed": true,
             "items": [
                   {
@@ -660,7 +660,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (36)",
+            "text": "Simulation Benchmark (40)",
             "collapsed": true,
             "items": [
                   {
@@ -836,7 +836,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (23)",
+            "text": "Human Motion Analysis and Synthesis (24)",
             "collapsed": true,
             "items": [
                   {

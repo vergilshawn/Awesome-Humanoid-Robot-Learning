@@ -258,21 +258,19 @@ Recent advances in large language models have enabled natural language to serve 
 
 ---
 
-## Exploiting Local Dynamics Regularity for Reusable Skills in Offline Hierarchical RL
+## MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.26371)
-- **Authors:** Sarthak Dayal, Abhinav Peri, Carl Qi, Claas Voelcker, Alexander Levine, Caleb Chuck et al. (7 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.26006)
+- **Authors:** Bin Li, Ruichi Zhang, Han Liang, Jingyan Zhang, Juze Zhang, Xin Chen et al. (7 authors)
 - **Published:** 2026-05
 - **Tags:**
-  - Reinforcement Learning
   - Humanoid
-  - Hierarchical RL
-  - Benchmark
-  - Simulation Benchmark
+  - Diffusion
+  - Physics-Based Character Animation
 
 ### Summary
 
-Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinforcement Learning (RL) tasks more efficiently than non-hierarchical counterparts by discovering and reusing temporally-extended skills. However, obtaining skills that are actually reusable remains an open challenge.
+Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning paradigm that directly generates actions from text.
 
 ---
 
@@ -319,19 +317,93 @@ Safety-critical control is essential for humanoid robots operating in complex hu
 
 ---
 
-## MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control
+## Exploiting Local Dynamics Regularity for Reusable Skills in Offline Hierarchical RL
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.26006)
-- **Authors:** Bin Li, Ruichi Zhang, Han Liang, Jingyan Zhang, Juze Zhang, Xin Chen et al. (7 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.26371)
+- **Authors:** Sarthak Dayal, Abhinav Peri, Carl Qi, Claas Voelcker, Alexander Levine, Caleb Chuck et al. (7 authors)
 - **Published:** 2026-05
 - **Tags:**
+  - Reinforcement Learning
   - Humanoid
-  - Diffusion
-  - Physics-Based Character Animation
+  - Hierarchical RL
+  - Benchmark
+  - Simulation Benchmark
 
 ### Summary
 
-Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning paradigm that directly generates actions from text.
+Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinforcement Learning (RL) tasks more efficiently than non-hierarchical counterparts by discovering and reusing temporally-extended skills. However, obtaining skills that are actually reusable remains an open challenge.
+
+---
+
+## Representation Without Control: Testing the Realization Effect in Language Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.25151)
+- **Authors:** Ciarán Walsh, Emilio Barkett
+- **Published:** 2026-05
+- **Tags:**
+  - Simulator
+  - Large Language Model
+  - State Estimation
+
+### Summary
+
+Large language models are increasingly used as behavioral simulators, but it remains unclear when their outputs reflect human-like cognitive mechanisms rather than prompt-sensitive surface patterns. We study this question through the realization effect, a well-characterized finding in behavioral economics in which risk-taking differs systematically after paper versus realized gains and losses.
+
+---
+
+## MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.24592)
+- **Authors:** Yusen Feng, Xiang Wang, Heyuan Yao, Zixi Kang, Xinyu Huo, Boyang Yu et al. (10 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Distillation
+  - Policy Learning
+  - VAE
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+This paper presents MuGen, a data-driven framework for learning and deploying multi-skill locomotion on humanoid robots. MuGen enables a robot to perform expressive motions like humans under the guidance of example motion sequences.
+
+---
+
+## Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.24602)
+- **Authors:** Quanjiang Li, Zhiming Liu, Wei Luo, Tingjin Luo, Chenping Hou
+- **Published:** 2026-05
+- **Tags:**
+  - Benchmark
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Multimodal large language models (MLLMs) frequently suffer from object hallucinations, yet the visual perceptual mechanism underlying this failure remains poorly understood. In this work, we reveal that hallucinations are strongly associated with a human-like attention distraction phenomenon, where humans under divided focus experience degraded visual clarity and produce inaccurate descriptions, while in models the same mechanism manifests as spatial inconsistency in multi-head attention and temporal fading of attention to image tokens during decoding.
+
+---
+
+## Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23762)
+- **Authors:** Constant Roux, Ludovic De Matteïs, Armand Jordana, Valentin Guillet, Nicolas Mansard, Olivier Stasse et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Imitation Learning
+  - Simulator
+  - Humanoid
+  - Sampling-Based
+  - State Estimation
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Imitation Learning from monocular video demonstrations provides a scalable approach for teaching complex skills to humanoid robots. However, translating human motion to humanoids requires overcoming significant morphological mismatches.
 
 ---
 
@@ -351,6 +423,81 @@ Enabling physics-based humanoids to execute diverse behaviors from high-level te
 ### Summary
 
 Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making rapid deployment on new humanoid platforms costly.
+
+---
+
+## Signal Temporal Logic Motion Planning via Graphs of Convex Sets
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23240)
+- **Authors:** Yu Chen, Ancheng Hou, Mingyang Feng, Xiao Yu, Xiang Yin
+- **Published:** 2026-05
+- **Tags:**
+  - Humanoid
+  - Motion Planning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+This paper investigates continuous-time motion planning under Signal Temporal Logic (STL) specifications. The goal is to generate smooth robot trajectories that satisfy high-level logical and timing requirements while respecting low-level motion constraints.
+
+---
+
+## Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23819)
+- **Authors:** Jorge Chang Ortega, Bastien Le Lan, Thomas Serre, Victor Boutin
+- **Published:** 2026-05
+- **Tags:**
+  - Robustness
+  - Benchmark
+  - Energy-Based
+  - Simulation Benchmark
+
+### Summary
+
+A central question in computational vision is whether human-like visual representations are better explained by discriminative or generative learning. Existing comparisons, however, often confound the learning objective with architecture, scale, and training data, leaving open whether the objective itself drives alignment.
+
+---
+
+## SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-based Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.22894)
+- **Authors:** Jingyan Zhang, Han Liang, Ruichi Zhang, Bin Li, Juze Zhang, Xin Chen et al. (9 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Diffusion Policy
+  - Transformer
+  - Humanoid
+  - Pre-training
+  - Dataset
+  - Diffusion
+  - Simulation Benchmark
+
+### Summary
+
+Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control.
+
+---
+
+## Imagine2Real: Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.22272)
+- **Authors:** Jiahe Chen, ZiRui Wang, Feiyu Jia, Xiao Chen, Xiaojie Niu, Weishuai Zeng et al. (10 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Foundation Model
+  - Human Motion Analysis and Synthesis
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Whole-body Humanoid-Object Interaction (HOI) is bottlenecked by the scarcity of high-fidelity 3D data. While video generative priors offer a promising alternative, existing methods suffer from \textit{Representation Misalignment} due to their reliance on geometric priors (e.g., explicit CAD models), and \textit{Retargeting Complexity} arising from intensive morphing and morphological mismatch.
 
 ---
 

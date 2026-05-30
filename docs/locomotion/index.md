@@ -1,10 +1,10 @@
 # Locomotion
 
-**103 papers** in this category.
+**104 papers** in this category.
 
 ## Months
 
-- [2026-05](/locomotion/2026-05) (8 papers)
+- [2026-05](/locomotion/2026-05) (9 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -104,6 +104,26 @@ We study real-time audio-responsive character control as a deployment-faithful p
 ### Summary
 
 Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively.
+
+---
+
+## MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.24592)
+- **Authors:** Yusen Feng, Xiang Wang, Heyuan Yao, Zixi Kang, Xinyu Huo, Boyang Yu et al. (10 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Distillation
+  - Policy Learning
+  - VAE
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+This paper presents MuGen, a data-driven framework for learning and deploying multi-skill locomotion on humanoid robots. MuGen enables a robot to perform expressive motions like humans under the guidance of example motion sequences.
 
 ---
 
@@ -367,20 +387,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Humanoid
   - Distillation
   - Locomotion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## CMR: Contractive Mapping Embeddings for Robust Humanoid Locomotion on Unstructured Terrains
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.03511)
-- **Published:** 2026-02
-- **Tags:**
-  - Locomotion
-  - Humanoid
 
 ### Summary
 

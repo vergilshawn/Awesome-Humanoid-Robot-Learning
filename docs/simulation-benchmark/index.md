@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**36 papers** in this category.
+**40 papers** in this category.
 
 ## Months
 
-- [2026-05](/simulation-benchmark/2026-05) (14 papers)
+- [2026-05](/simulation-benchmark/2026-05) (18 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
 - [2026-02](/simulation-benchmark/2026-02) (1 papers)
@@ -76,24 +76,6 @@ Recent advances in large language models have enabled natural language to serve 
 
 ---
 
-## Exploiting Local Dynamics Regularity for Reusable Skills in Offline Hierarchical RL
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.26371)
-- **Authors:** Sarthak Dayal, Abhinav Peri, Carl Qi, Claas Voelcker, Alexander Levine, Caleb Chuck et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Hierarchical RL
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinforcement Learning (RL) tasks more efficiently than non-hierarchical counterparts by discovering and reusing temporally-extended skills. However, obtaining skills that are actually reusable remains an open challenge.
-
----
-
 ## ParkourFormer: Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.25782)
@@ -112,6 +94,95 @@ Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinfor
 ### Summary
 
 Humanoid parkour requires locomotion policies to coordinate whole-body dynamics across rapidly changing terrains such as stairs, gaps, slopes, and obstacles. Existing reinforcement learning policies are largely reactive, mapping observations directly to actions without explicitly modeling future body states.
+
+---
+
+## Exploiting Local Dynamics Regularity for Reusable Skills in Offline Hierarchical RL
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.26371)
+- **Authors:** Sarthak Dayal, Abhinav Peri, Carl Qi, Claas Voelcker, Alexander Levine, Caleb Chuck et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Hierarchical RL
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinforcement Learning (RL) tasks more efficiently than non-hierarchical counterparts by discovering and reusing temporally-extended skills. However, obtaining skills that are actually reusable remains an open challenge.
+
+---
+
+## Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.24602)
+- **Authors:** Quanjiang Li, Zhiming Liu, Wei Luo, Tingjin Luo, Chenping Hou
+- **Published:** 2026-05
+- **Tags:**
+  - Benchmark
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Multimodal large language models (MLLMs) frequently suffer from object hallucinations, yet the visual perceptual mechanism underlying this failure remains poorly understood. In this work, we reveal that hallucinations are strongly associated with a human-like attention distraction phenomenon, where humans under divided focus experience degraded visual clarity and produce inaccurate descriptions, while in models the same mechanism manifests as spatial inconsistency in multi-head attention and temporal fading of attention to image tokens during decoding.
+
+---
+
+## Signal Temporal Logic Motion Planning via Graphs of Convex Sets
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23240)
+- **Authors:** Yu Chen, Ancheng Hou, Mingyang Feng, Xiao Yu, Xiang Yin
+- **Published:** 2026-05
+- **Tags:**
+  - Humanoid
+  - Motion Planning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+This paper investigates continuous-time motion planning under Signal Temporal Logic (STL) specifications. The goal is to generate smooth robot trajectories that satisfy high-level logical and timing requirements while respecting low-level motion constraints.
+
+---
+
+## Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.23819)
+- **Authors:** Jorge Chang Ortega, Bastien Le Lan, Thomas Serre, Victor Boutin
+- **Published:** 2026-05
+- **Tags:**
+  - Robustness
+  - Benchmark
+  - Energy-Based
+  - Simulation Benchmark
+
+### Summary
+
+A central question in computational vision is whether human-like visual representations are better explained by discriminative or generative learning. Existing comparisons, however, often confound the learning objective with architecture, scale, and training data, leaving open whether the objective itself drives alignment.
+
+---
+
+## SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-based Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.22894)
+- **Authors:** Jingyan Zhang, Han Liang, Ruichi Zhang, Bin Li, Juze Zhang, Xin Chen et al. (9 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Diffusion Policy
+  - Transformer
+  - Humanoid
+  - Pre-training
+  - Dataset
+  - Diffusion
+  - Simulation Benchmark
+
+### Summary
+
+Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control.
 
 ---
 
@@ -330,69 +401,5 @@ CLAW is an interactive web-based pipeline for scalable generation of language-an
 ### Summary
 
 RoboForge bridges natural language and whole-body humanoid locomotion through a retarget-free, physics-optimized pipeline. It couples motion generation and control through a physical plausibility optimization module that refines teacher-student distillation policies and converts reward-optimized simulation rollouts into explicit motion data for fine-tuning the motion generator.
-
----
-
-## Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.05993)
-- **Authors:** Beichen Wang, Yuanjie Lu, Linji Wang, Liuchuan Yu, Xuesu Xiao
-- **Published:** 2026-03
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Safety
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Dataset
-  - PPO
-
-### Summary
-
-Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
-
----
-
-## 🌟 ComFree-Sim: A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation and Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.12185)
-- **Project:** [GitHub](https://irislab.tech/comfree-sim/)
-- **Published:** 2026-03
-- **Tags:**
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.06181)
-- **Published:** 2026-03
-- **Tags:**
-  - Humanoid
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.11337)
-- **Published:** 2026-02
-- **Tags:**
-  - Manipulation
-  - Navigation
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---
