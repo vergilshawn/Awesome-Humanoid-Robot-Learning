@@ -1,10 +1,10 @@
 # Locomotion
 
-**104 papers** in this category.
+**105 papers** in this category.
 
 ## Months
 
-- [2026-05](/locomotion/2026-05) (9 papers)
+- [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -35,6 +35,23 @@
 ---
 
 ## Recent Papers
+
+## SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30770)
+- **Authors:** Ruiqi Yu, Yiwen Wang, Yuan Hao, Jun WU, Qiuguo Zhu
+- **Published:** 2026-05
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors.
+
+---
 
 ## SalsaAgent: A multimodal embodied language model for interactive dance generation
 
@@ -371,22 +388,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Whole-Body Control
   - Locomotion
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## HoRD: Robust Humanoid Control via History-Conditioned Reinforcement Learning and Online Distillation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.04412)
-- **Published:** 2026-02
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Distillation
-  - Locomotion
 
 ### Summary
 

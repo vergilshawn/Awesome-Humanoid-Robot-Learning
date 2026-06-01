@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**40 papers** in this category.
+**39 papers** in this category.
 
 ## Months
 
-- [2026-05](/simulation-benchmark/2026-05) (18 papers)
+- [2026-05](/simulation-benchmark/2026-05) (17 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
 - [2026-02](/simulation-benchmark/2026-02) (1 papers)
@@ -23,38 +23,21 @@
 
 ## Recent Papers
 
-## SAHG: Sector-Anisotropic Hyperbolic Graph Model for Social Bot Detection
+## Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30166)
-- **Authors:** Hanning Lu, Yingguang Yang, Jinwei Su, Yang Liu, Zhaoqian Yao, Yaoming Li et al. (11 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30928)
+- **Authors:** Usman Nizamani, M. Shaheer Luqman, Fawad Javed Fateh, Ali Shah Ali, Murad Popattia, M. Zeeshan Zia et al. (7 authors)
 - **Published:** 2026-05
 - **Tags:**
+  - Reinforcement Learning
+  - Human Demonstration
   - Benchmark
+  - SAC
   - Simulation Benchmark
 
 ### Summary
 
-LLM-driven social bots can generate fluent, human-like text, reducing the discriminative advantage of content-based detection alone. However, coordinated campaigns still leave relational patterns -- interactions, behavioral similarity, shared neighborhoods, community positions, and coordinated activity -- that graph-based methods can exploit.
-
----
-
-## FakeVLM-R1: Internalizing Physical Laws via CoT for Synthetic Image Detection
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30062)
-- **Authors:** Leqi Zhu, Junyan Ye, Kaiqing Lin, Zhiyuan Yan, Conghui He, Weijia Li
-- **Published:** 2026-05
-- **Tags:**
-  - Imitation Learning
-  - Robustness
-  - Fine-tuning
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-The development of generative artificial intelligence technologies has propelled the visual realism of synthetic images to an unprecedented level. Although current interpretable detection methods based on Large Multimodal Models (LMMs) have made certain progress, they still rely on imitation learning derived from massive volumes of forged data.
+Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability.
 
 ---
 
@@ -401,5 +384,26 @@ CLAW is an interactive web-based pipeline for scalable generation of language-an
 ### Summary
 
 RoboForge bridges natural language and whole-body humanoid locomotion through a retarget-free, physics-optimized pipeline. It couples motion generation and control through a physical plausibility optimization module that refines teacher-student distillation policies and converts reward-optimized simulation rollouts into explicit motion data for fine-tuning the motion generator.
+
+---
+
+## Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.05993)
+- **Authors:** Beichen Wang, Yuanjie Lu, Linji Wang, Liuchuan Yu, Xuesu Xiao
+- **Published:** 2026-03
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Safety
+  - Humanoid
+  - Collision
+  - Benchmark
+  - Dataset
+  - PPO
+
+### Summary
+
+Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
 
 ---

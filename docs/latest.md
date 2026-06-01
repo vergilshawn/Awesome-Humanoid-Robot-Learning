@@ -2,6 +2,127 @@
 
 All papers sorted by publication date (newest first).
 
+## Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.31343)
+- **Authors:** Sikai Guo, Yudong Zhong, Guoyang Zhao, Botao Dang, Zhihai Bi, Jun Ma
+- **Published:** 2026-05
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Robustness
+  - Proprioception
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators.
+
+---
+
+## Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30928)
+- **Authors:** Usman Nizamani, M. Shaheer Luqman, Fawad Javed Fateh, Ali Shah Ali, Murad Popattia, M. Zeeshan Zia et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Human Demonstration
+  - Benchmark
+  - SAC
+  - Simulation Benchmark
+
+### Summary
+
+Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability.
+
+---
+
+## SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30770)
+- **Authors:** Ruiqi Yu, Yiwen Wang, Yuan Hao, Jun WU, Qiuguo Zhu
+- **Published:** 2026-05
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors.
+
+---
+
+## If LLMs Have Human-Like Attributes, Then So Does Age of Empires II
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.31514)
+- **Authors:** Adrian de Wynter
+- **Published:** 2026-05
+- **Tags:**
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Much research has been carried out on large language models (LLMs) and LLM-powered agentic workflows. However, many works within the field state emergence of, ascribe to, or assume, generalised anthropomorphic attributes to them (e.g., morality or understanding of natural language).
+
+---
+
+## ERGeoBench:A Comprehensive Benchmark for Embodied Reasoning and Geo-localization in Multimodal Large Language Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.31251)
+- **Authors:** Kaiwen Xue, Tao Wei, Guoxin Zhang, Zhonghong Ou, Kaoyan Lu, Yu Feng et al. (8 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Benchmark
+  - Large Language Model
+  - Navigation
+  - Simulation Benchmark
+
+### Summary
+
+Multimodal large language models (MLLMs) have shown strong potential as embodied agents, yet embodied geo-localization remains underexplored due to the lack of fine-grained evaluation. We introduce ERGeoBench, a diagnostic benchmark for vision-driven embodied geo-localization.
+
+---
+
+## Any-ttach: Quick End-effector Swapping Enables Manipulation Dexterity with Simplicity
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30569)
+- **Authors:** Weizhe Ni, Jinzhou Li, Haoyu Li, Cody Andres Alessio-Bunnell, Wenjing Pan, Xianyi Cheng
+- **Published:** 2026-05
+- **Tags:**
+  - Manipulation
+  - Human Demonstration
+  - Task Planning
+  - PPO
+
+### Summary
+
+Robotic manipulation dexterity is often pursued by building increasingly complex high-DoF multifingered hands. While many robotic hands are designed to replicate human morphology, the functional role of human hands suggests a different perspective: much of their complexity may exist to enable tool use and tool making.
+
+---
+
+## ARISTO Hand: Sensing-Driven Distal Hyperextension for Fine-Grained Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30508)
+- **Authors:** Aaron Kim, Dong Ho Kang, Mark Helwig, Mingyo Seo, Kazuto Yokoyama, Tetsuya Narita et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Manipulation
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Manipulating thin objects requires precise contact geometry and reliable force perception, yet many anthropomorphic robotic hands lack the mechanical and sensing capabilities needed for such interactions. We present the ARISTO Hand, a tendon-driven robotic hand that integrates active distal hyperextension with a hybrid fingertip-sensing architecture that combines a rigid, nail-mounted force-torque sensor and a soft capacitive tactile array.
+
+---
+
 ## Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.30282)
@@ -17,59 +138,6 @@ All papers sorted by publication date (newest first).
 ### Summary
 
 Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent.
-
----
-
-## 🌟 Loong: A Human-Like Long Document Translation Agent with Observe-and-Act Adaptive Context Selection
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30274)
-- **Project:** [GitHub](https://github.com/yutongwang1216/loongdocmt)
-- **Authors:** Yutong Wang, Xuebo Liu, Derek F. Wong, Zhilin Li, Rongqing Jiang, Min Zhang et al. (9 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Robustness
-  - Large Language Model
-  - State Estimation
-
-### Summary
-
-Document-level translation remains one of the most challenging tasks for large language models, which are constrained by limited context windows that impede global cohesion, while simultaneously suffering from redundant contextual information that degrades translation quality. To address this, we propose a human-like long document translation agent called Loong, which leverages a 3E memory module (Essence-Exemplar-Entity) to store summaries, sentence pairs, and entity records as historical context.
-
----
-
-## SAHG: Sector-Anisotropic Hyperbolic Graph Model for Social Bot Detection
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30166)
-- **Authors:** Hanning Lu, Yingguang Yang, Jinwei Su, Yang Liu, Zhaoqian Yao, Yaoming Li et al. (11 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-LLM-driven social bots can generate fluent, human-like text, reducing the discriminative advantage of content-based detection alone. However, coordinated campaigns still leave relational patterns -- interactions, behavioral similarity, shared neighborhoods, community positions, and coordinated activity -- that graph-based methods can exploit.
-
----
-
-## FakeVLM-R1: Internalizing Physical Laws via CoT for Synthetic Image Detection
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30062)
-- **Authors:** Leqi Zhu, Junyan Ye, Kaiqing Lin, Zhiyuan Yan, Conghui He, Weijia Li
-- **Published:** 2026-05
-- **Tags:**
-  - Imitation Learning
-  - Robustness
-  - Fine-tuning
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-The development of generative artificial intelligence technologies has propelled the visual realism of synthetic images to an unprecedented level. Although current interpretable detection methods based on Large Multimodal Models (LMMs) have made certain progress, they still rely on imitation learning derived from massive volumes of forged data.
 
 ---
 
@@ -163,27 +231,6 @@ Tactile sensing is essential for robots to achieve human-like gentle manipulatio
 ### Summary
 
 We study real-time audio-responsive character control as a deployment-faithful problem: strictly causal, bounded-latency streaming that must generate coherent full-body motion at interactive frame rates while the audio condition can change abruptly, including tempo shifts, drops, or user edits. Prior music-to-motion systems are largely optimized for offline generation with global context, and degrade in streaming rollouts where conditioning history becomes stale or unreliable.
-
----
-
-## Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28394)
-- **Authors:** Gaurav Rai, Ojaswa Sharma
-- **Published:** 2026-05
-- **Tags:**
-  - Simulator
-  - Biped
-  - Distillation
-  - Dataset
-  - Diffusion
-  - Physics-Based Character Animation
-  - Locomotion
-  - Navigation
-
-### Summary
-
-Animation of 2D hand-drawn sketches provides an effective medium for visual communication. However, these sketches pose challenges, particularly in handling occlusions and accurately mapping motion.
 
 ---
 

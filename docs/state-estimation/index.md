@@ -1,10 +1,10 @@
 # State Estimation
 
-**13 papers** in this category.
+**12 papers** in this category.
 
 ## Months
 
-- [2026-05](/state-estimation/2026-05) (6 papers)
+- [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
 - [2022-07](/state-estimation/2022-07) (1 papers)
@@ -15,24 +15,6 @@
 ---
 
 ## Recent Papers
-
-## 🌟 Loong: A Human-Like Long Document Translation Agent with Observe-and-Act Adaptive Context Selection
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30274)
-- **Project:** [GitHub](https://github.com/yutongwang1216/loongdocmt)
-- **Authors:** Yutong Wang, Xuebo Liu, Derek F. Wong, Zhilin Li, Rongqing Jiang, Min Zhang et al. (9 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Robustness
-  - Large Language Model
-  - State Estimation
-
-### Summary
-
-Document-level translation remains one of the most challenging tasks for large language models, which are constrained by limited context windows that impede global cohesion, while simultaneously suffering from redundant contextual information that degrades translation quality. To address this, we propose a human-like long document translation agent called Loong, which leverages a 3E memory module (Essence-Exemplar-Entity) to store summaries, sentence pairs, and entity records as historical context.
-
----
 
 ## Representation Without Control: Testing the Realization Effect in Language Models
 

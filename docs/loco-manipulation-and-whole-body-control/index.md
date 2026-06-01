@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**178 papers** in this category.
+**180 papers** in this category.
 
 ## Months
 
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (8 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (10 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -34,6 +34,42 @@
 ---
 
 ## Recent Papers
+
+## Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.31343)
+- **Authors:** Sikai Guo, Yudong Zhong, Guoyang Zhao, Botao Dang, Zhihai Bi, Jun Ma
+- **Published:** 2026-05
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Robustness
+  - Proprioception
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators.
+
+---
+
+## If LLMs Have Human-Like Attributes, Then So Does Age of Empires II
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.31514)
+- **Authors:** Adrian de Wynter
+- **Published:** 2026-05
+- **Tags:**
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Much research has been carried out on large language models (LLMs) and LLM-powered agentic workflows. However, many works within the field state emergence of, ascribe to, or assume, generalised anthropomorphic attributes to them (e.g., morality or understanding of natural language).
+
+---
 
 ## EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction
 
@@ -360,38 +396,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2026-03
 - **Tags:**
   - Reinforcement Learning
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 ULTRA: Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.03279)
-- **Project:** [GitHub](https://ultra-humanoid.github.io/)
-- **Published:** 2026-03
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 FAME: Force-Adaptive RL for Expanding the Manipulation Envelope of a Full-Scale Humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.08961)
-- **Project:** [GitHub](https://fame10.github.io/Fame/)
-- **Published:** 2026-03
-- **Tags:**
-  - Manipulation
   - Humanoid
   - Loco-Manipulation and Whole-Body Control
 

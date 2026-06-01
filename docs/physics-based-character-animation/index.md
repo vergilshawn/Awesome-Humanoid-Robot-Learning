@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**34 papers** in this category.
+**33 papers** in this category.
 
 ## Months
 
-- [2026-05](/physics-based-character-animation/2026-05) (2 papers)
+- [2026-05](/physics-based-character-animation/2026-05) (1 papers)
 - [2026-04](/physics-based-character-animation/2026-04) (1 papers)
 - [2026-02](/physics-based-character-animation/2026-02) (2 papers)
 - [2025-12](/physics-based-character-animation/2025-12) (2 papers)
@@ -33,27 +33,6 @@
 ---
 
 ## Recent Papers
-
-## Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28394)
-- **Authors:** Gaurav Rai, Ojaswa Sharma
-- **Published:** 2026-05
-- **Tags:**
-  - Simulator
-  - Biped
-  - Distillation
-  - Dataset
-  - Diffusion
-  - Physics-Based Character Animation
-  - Locomotion
-  - Navigation
-
-### Summary
-
-Animation of 2D hand-drawn sketches provides an effective medium for visual communication. However, these sketches pose challenges, particularly in handling occlusions and accurately mapping motion.
-
----
 
 ## MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control
 
@@ -323,6 +302,20 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Zero-Shot
   - Humanoid
   - Foundation Model
+  - Physics-Based Character Animation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## 🌟 CVPR 2025 Oral, TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2503.19901)
+- **Project:** [GitHub](https://liangpan99.github.io/TokenHSI/)
+- **Published:** 2025-03
+- **Tags:**
   - Physics-Based Character Animation
 
 ### Summary

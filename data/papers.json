@@ -1,5 +1,229 @@
 [
   {
+    "arxiv_id": "2605.31343",
+    "title": "Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2605.31343",
+    "project_url": null,
+    "authors": [
+      "Sikai Guo",
+      "Yudong Zhong",
+      "Guoyang Zhao",
+      "Botao Dang",
+      "Zhihai Bi",
+      "Jun Ma"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-29",
+    "abstract": "Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators. However, many existing whole-body controllers primarily depend on proprioception and do not incorporate the critical exteroception required for effective terrain topology perception. This limitation can hinder their ability to adapt to varying environmental conditions and navigate complex terrains effectively. In this paper, we introduce TA-WBC, a terrain-aware whole-body control framework for legged manipulators, which features a novel RL-based unified policy tailored to whole-body loco-manipulation tasks in various terrains. Specifically, we employ a hybrid exteroception encoder to extract terrain features, providing an essential basis for the robot to proactively adapt posture and footholds. Furthermore, to facilitate stable cross-terrain loco-manipulation, we propose a novel end-effector sampling method based on the foot contact plane, decoupling manipulation target from base fluctuations. Moreover, a dual-policy distillation module is introduced to integrate expansive whole-body motion with terrain adaptability without catastrophic forgetting. The simulation and real-world experiments validate the robustness of our proposed controller, which leads to a larger reachable space, less tracking error, and reduced unexpected stumbles. This unified policy highlights the promising capabilities of legged manipulators in performing loco-manipulation tasks across complex terrains.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Manipulation",
+      "Robustness",
+      "Proprioception",
+      "Distillation",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2605.30928",
+    "title": "Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization",
+    "paper_url": "https://arxiv.org/abs/2605.30928",
+    "project_url": null,
+    "authors": [
+      "Usman Nizamani",
+      "M. Shaheer Luqman",
+      "Fawad Javed Fateh",
+      "Ali Shah Ali",
+      "Murad Popattia",
+      "M. Zeeshan Zia",
+      "Quoc-Huy Tran"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-29",
+    "abstract": "Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability. In this work, we introduce a novel human-like RL framework that predicts action sequences closely aligned with human behaviors while maximizing rewards. Specifically, we encode human demonstrations into macro actions using a hierarchical macro action quantization approach (termed HiMAQ) consisting of two successive levels of vector quantization. The lower quantization level maps input actions to fine-grained subaction clusters, while the higher quantization level aggregates these subaction clusters into action clusters. Extensive evaluations on the D4RL benchmarks show that our hierarchical approach outperforms the non-hierarchical baseline (MAQ), achieving better human-likeness scores while maintaining comparable or better success rates than previous RL agents. The improvements generalize across integrations with various RL algorithms, namely IQL, SAC, and RLPD.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Human Demonstration",
+      "Benchmark",
+      "SAC",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.30770",
+    "title": "SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World",
+    "paper_url": "https://arxiv.org/abs/2605.30770",
+    "project_url": null,
+    "authors": [
+      "Ruiqi Yu",
+      "Yiwen Wang",
+      "Yuan Hao",
+      "Jun WU",
+      "Qiuguo Zhu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-29",
+    "abstract": "Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors. We propose SSR, an efficient end-to-end framework for egocentric vision-based humanoid traversal that jointly learns these capabilities. SSR introduces imagined foothold guidance, which learns to model forthcoming swing-foot contacts and evaluates their support to guide pre-touchdown swings toward stable regions, reducing edge slips. It further employs equivariant latent-space symmetry augmentation to efficiently induce bilateral coordination under high-dimensional visual observations, and uses terrain-specific multi-discriminator motion priors to encourage human-like behavior across scenes. Extensive experiments show that SSR achieves safe, stable, and high-quality locomotion on diverse real-world terrains, including stairs with varied structures and extreme challenges such as wide gaps and high platforms, while enabling reliable long-horizon traversal in open outdoor environments.",
+    "categories": [
+      "Locomotion",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.31514",
+    "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+    "paper_url": "https://arxiv.org/abs/2605.31514",
+    "project_url": null,
+    "authors": [
+      "Adrian de Wynter"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-29",
+    "abstract": "Much research has been carried out on large language models (LLMs) and LLM-powered agentic workflows. However, many works within the field state emergence of, ascribe to, or assume, generalised anthropomorphic attributes to them (e.g., morality or understanding of natural language). Our goal is not to argue in favour or against the existence of these attributes, but to point out that these conclusions could be incorrect. For this we build and train a simple neural network on the videogame Age of Empires II, and note that any entity in a sufficiently-powerful substrate, such as LEGO or the Greater Boston Area, could also present such attributes. Hence, the purported anthropomorphic attributes of LLMs are empirically non-unique: although some properties (e.g., responses to prompts) could remain constant, others, such as the interpretation of their perceived behaviour, might change with the substrate. Thus, any empirically-grounded discussion requires explicit measurement criteria; otherwise the interpretation is left to the representation. We then show that assuming that these attributes exist or not in a system, independent of the substrate and in a generalised way, leads to either circular or uninformative conclusions, regardless of the experimenter's viewpoint on the subject. Finally we propose a 'null' assumption, where one assumes LLM non-uniqueness instead of assuming anthropomorphic attributes to set up an experiment, along with examples of it. We also discuss potential objections to our work, briefly survey the field, and prove that \\textit{Age of Empires II} is functionally- and Turing-complete.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Large Language Model",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2605.31251",
+    "title": "ERGeoBench:A Comprehensive Benchmark for Embodied Reasoning and Geo-localization in Multimodal Large Language Models",
+    "paper_url": "https://arxiv.org/abs/2605.31251",
+    "project_url": null,
+    "authors": [
+      "Kaiwen Xue",
+      "Tao Wei",
+      "Guoxin Zhang",
+      "Zhonghong Ou",
+      "Kaoyan Lu",
+      "Yu Feng",
+      "Yifan Zhu",
+      "Haoran Luo"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-29",
+    "abstract": "Multimodal large language models (MLLMs) have shown strong potential as embodied agents, yet embodied geo-localization remains underexplored due to the lack of fine-grained evaluation. We introduce ERGeoBench, a diagnostic benchmark for vision-driven embodied geo-localization. ERGeoBench evaluates models under three progressive settings -- single-view, panorama-view, and embodied-view -- where agents may actively acquire observations through sequential changes in yaw, pitch, and zoom. The benchmark contains 2,207 globally distributed street-view panoramas and measures four complementary capabilities: foundational perception, spatial awareness, common sense reasoning, and geo-localization reasoning. Evaluations of leading proprietary and open-source MLLMs show that current models can infer high-level geographic semantics, but still struggle with fine-grained perceptual operations, metric localization, and spatial consistency across views. We further observe that geo-localization is strongly correlated with the other capability dimensions, suggesting that accurate localization depends on integrated perception, spatial reasoning, and commonsense inference rather than isolated visual recognition. Overall, ERGeoBench provides a unified framework for diagnosing and advancing human-like embodied geo-localization. Project Page: https://kaixuewen.github.io/ERGeoBench/",
+    "categories": [
+      "Navigation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Benchmark",
+      "Large Language Model",
+      "Navigation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2605.30569",
+    "title": "Any-ttach: Quick End-effector Swapping Enables Manipulation Dexterity with Simplicity",
+    "paper_url": "https://arxiv.org/abs/2605.30569",
+    "project_url": null,
+    "authors": [
+      "Weizhe Ni",
+      "Jinzhou Li",
+      "Haoyu Li",
+      "Cody Andres Alessio-Bunnell",
+      "Wenjing Pan",
+      "Xianyi Cheng"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "Robotic manipulation dexterity is often pursued by building increasingly complex high-DoF multifingered hands. While many robotic hands are designed to replicate human morphology, the functional role of human hands suggests a different perspective: much of their complexity may exist to enable tool use and tool making. This observation motivates Any-ttach, a tool-centric manipulation framework that treats quick end-effector swapping as a mechanism for dexterity with simplicity. Any-ttach combines a low-cost automatic swapping mechanism for an open-close robot interface, a handheld device for collecting human demonstrations, and a task planning framework that composes learned, parameterized, and planned tool-use skills. The system supports diverse tools and end-effector modules, including daily tools, articulated tools such as scissors, Fin Ray fingers, and a low-cost anthropomorphic hand, through the same shared interface. Our experiments show that Any-ttach improves tool-swapping reliability, increases demonstration efficiency, reduces tool-pose variability, and supports diverse tool-use skills. In two long-horizon tasks, making a sandwich and preparing a cucumber, Any-ttach executes six tool-use subskills through end-effector switching and execution monitoring. These results suggest that robots can expand manipulation capability not only through more complex end-effectors, but also through rapidly exchangeable tools and end-effector modules. More details and videos are available at https://any-ttach.github.io/.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Human Demonstration",
+      "Task Planning",
+      "PPO"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2605.30508",
+    "title": "ARISTO Hand: Sensing-Driven Distal Hyperextension for Fine-Grained Manipulation",
+    "paper_url": "https://arxiv.org/abs/2605.30508",
+    "project_url": null,
+    "authors": [
+      "Aaron Kim",
+      "Dong Ho Kang",
+      "Mark Helwig",
+      "Mingyo Seo",
+      "Kazuto Yokoyama",
+      "Tetsuya Narita",
+      "Luis Sentis"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "Manipulating thin objects requires precise contact geometry and reliable force perception, yet many anthropomorphic robotic hands lack the mechanical and sensing capabilities needed for such interactions. We present the ARISTO Hand, a tendon-driven robotic hand that integrates active distal hyperextension with a hybrid fingertip-sensing architecture that combines a rigid, nail-mounted force-torque sensor and a soft capacitive tactile array. Active hyperextension enables controlled fingertip engagement beyond the kinematic limits of standard flexion, increasing pull-out force by 2.76x for object thicknesses of 1-20 mm while preserving the nominal grasp capability. The rigid nail-mounted sensor provides reliable force measurements during edge contacts, where the sensitivity of proprioceptive force estimation degrades as the contact geometry approaches kinematic singularities. We validate the proposed architecture through quantitative force characterization and a multi-stage SD card extraction and insertion task. Video and supplementary materials are available at: https://aristohand.github.io",
+    "categories": [
+      "Manipulation",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Manipulation",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
     "arxiv_id": "2605.30282",
     "title": "Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation",
     "paper_url": "https://arxiv.org/abs/2605.30282",
@@ -36,109 +260,6 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Manipulation"
-  },
-  {
-    "arxiv_id": "2605.30274",
-    "title": "Loong: A Human-Like Long Document Translation Agent with Observe-and-Act Adaptive Context Selection",
-    "paper_url": "https://arxiv.org/abs/2605.30274",
-    "project_url": "https://github.com/yutongwang1216/loongdocmt",
-    "authors": [
-      "Yutong Wang",
-      "Xuebo Liu",
-      "Derek F. Wong",
-      "Zhilin Li",
-      "Rongqing Jiang",
-      "Min Zhang",
-      "Shimin Tao",
-      "Daimeng Wei",
-      "Min Zhang"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-28",
-    "abstract": "Document-level translation remains one of the most challenging tasks for large language models, which are constrained by limited context windows that impede global cohesion, while simultaneously suffering from redundant contextual information that degrades translation quality. To address this, we propose a human-like long document translation agent called Loong, which leverages a 3E memory module (Essence-Exemplar-Entity) to store summaries, sentence pairs, and entity records as historical context. Instead of passively attending to all history, Loong performs deep reasoning to adaptively identify the optimal context for translation guidance. Loong optimizes its context policy through reinforcement learning, utilizing preference data derived from its own sampled observe-and-act reasoning trajectories. Empirical evaluations demonstrate that Loong achieves substantial translation quality improvements in English $\\Leftrightarrow$ Chinese, German, and French directions, with average gains of up to 13.0 points across the three evaluation metrics. Furthermore, Loong exhibits strong generalization across domains and robustness against contextual noise, while maintaining remarkable stability in ultra-long document translation. Our code is released at https://github.com/YutongWang1216/LoongDocMT.",
-    "categories": [
-      "State Estimation"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Robustness",
-      "Large Language Model",
-      "State Estimation"
-    ],
-    "real_robot": false,
-    "open_source": true,
-    "platform": null,
-    "summary": "",
-    "primary_category": "State Estimation"
-  },
-  {
-    "arxiv_id": "2605.30166",
-    "title": "SAHG: Sector-Anisotropic Hyperbolic Graph Model for Social Bot Detection",
-    "paper_url": "https://arxiv.org/abs/2605.30166",
-    "project_url": null,
-    "authors": [
-      "Hanning Lu",
-      "Yingguang Yang",
-      "Jinwei Su",
-      "Yang Liu",
-      "Zhaoqian Yao",
-      "Yaoming Li",
-      "Taoran Liang",
-      "Ziyi Zhang",
-      "Ran Ran",
-      "Kefu Xu",
-      "Bin Chong"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-28",
-    "abstract": "LLM-driven social bots can generate fluent, human-like text, reducing the discriminative advantage of content-based detection alone. However, coordinated campaigns still leave relational patterns -- interactions, behavioral similarity, shared neighborhoods, community positions, and coordinated activity -- that graph-based methods can exploit. Existing graph detectors face two challenges when exploiting such evidence. First, Euclidean GNNs distort hierarchical and scale-free social graphs; while hyperbolic geometry addresses this volume-growth mismatch, fixed-curvature models still assign uniform geometric resolution to structural directions with different densities and separation needs. Second, relational evidence is not always reliable: sophisticated bots forge heterophilic connections with genuine users, causing neighborhood aggregation to mix bot and human signals and dilute account-level evidence. We propose \\textsc{SAHG} (Sector-Anisotropic Hyperbolic Graph), addressing both challenges. \\textsc{SAHG} learns a direction-dependent curvature field $γ(u)$ that adapts geometric resolution across structural directions, and uses sector prototypes to convert angular concentration and alignment into classifier-readable features. To prevent contaminated aggregation from overwhelming account-level evidence, \\textsc{SAHG} encodes per-account features and graph-neighborhood representations in two independent SAH channels, fusing them only at the classifier. Experiments on Fox8-23, BotSim-24, and MGTAB show that \\textsc{SAHG} achieves the highest accuracy and F1 on all three benchmarks, outperforming feature-based, graph-based, LLM-based, and isotropic hyperbolic baselines. Ablation and geometric analyses confirm the effectiveness of the anisotropic geometry and dual-channel design.",
-    "categories": [
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Benchmark",
-      "Simulation Benchmark"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.30062",
-    "title": "FakeVLM-R1: Internalizing Physical Laws via CoT for Synthetic Image Detection",
-    "paper_url": "https://arxiv.org/abs/2605.30062",
-    "project_url": null,
-    "authors": [
-      "Leqi Zhu",
-      "Junyan Ye",
-      "Kaiqing Lin",
-      "Zhiyuan Yan",
-      "Conghui He",
-      "Weijia Li"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-28",
-    "abstract": "The development of generative artificial intelligence technologies has propelled the visual realism of synthetic images to an unprecedented level. Although current interpretable detection methods based on Large Multimodal Models (LMMs) have made certain progress, they still rely on imitation learning derived from massive volumes of forged data. Consequently, they lack genuine causal reasoning capabilities and are prone to explanatory hallucinations. To overcome this bottleneck, we propose FakeVLM-R1, aiming to endow the model with human-like critical thinking capabilities when performing synthetic detection tasks. Building upon Supervised Fine-Tuning (SFT), this framework integrates Group Relative Policy Optimization (GRPO) with a Critical Thinking Chain-of-Thought (CoT) mechanism. During the inference phase, the model executes a \"bidirectional dialectical reasoning\" process: while proposing a forgery hypothesis, it must simultaneously invoke physical commonsense to construct an authenticity counter-proof. Furthermore, we constructed the FakeClue++ dataset with high-quality samples, which extensively introduces annotations guided by the physical laws of authentic images, providing a unified authenticity anchor for the model. Experiments confirm that FakeVLM-R1 achieves SOTA performance the evaluated models across multiple benchmarks. It not only achieves high-precision, logically interpretable detection but also resolves the over-rejection bias of existing methods against real images, demonstrating generalization and robustness against perturbations.",
-    "categories": [
-      "Simulation Benchmark",
-      "State Estimation"
-    ],
-    "tags": [
-      "Imitation Learning",
-      "Robustness",
-      "Fine-tuning",
-      "Benchmark",
-      "Dataset",
-      "Simulation Benchmark",
-      "State Estimation"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2605.29219",
@@ -304,43 +425,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
-  },
-  {
-    "arxiv_id": "2605.28394",
-    "title": "Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization",
-    "paper_url": "https://arxiv.org/abs/2605.28394",
-    "project_url": null,
-    "authors": [
-      "Gaurav Rai",
-      "Ojaswa Sharma"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-27",
-    "abstract": "Animation of 2D hand-drawn sketches provides an effective medium for visual communication. However, these sketches pose challenges, particularly in handling occlusions and accurately mapping motion. While 3D animation naturally addresses these challenges, estimating 3D motion remains a very complex task. Recent approaches to converting 2D sketches to 3D animations have mainly focused on specific types of motion, such as bipedal movements and facial expressions. We propose Sketch2Motion, a diffusion-guided framework for skeleton-based motion synthesis that combines classical character animation pipelines with deep generative priors. Our method represents motion using skeletal transformations, which are propagated to mesh deformations via linear blend skinning. To guide the resulting animation toward realistic and semantically meaningful motion, we integrate a text-to-video diffusion model via motion-aware score-distillation sampling (MoSDS), enabling optimization without paired motion data. Additionally, we apply physics-inspired smoothness, topological, and contact constraints to stabilize optimization and preserve motion plausibility. Further, we integrate a spring-mass simulator to introduce secondary motion effects. The proposed framework is generalized, fully differentiable, modular, and compatible with biped, quadruped, and non-living articulated characters. Experiments demonstrate that our approach produces temporally coherent, text-aligned animations that outperform baseline motion transfer methods that lack generative priors or explicit physical constraints. We will make our code and dataset publicly available.",
-    "categories": [
-      "Physics-Based Character Animation",
-      "Locomotion",
-      "Navigation",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Simulator",
-      "Biped",
-      "Distillation",
-      "Dataset",
-      "Diffusion",
-      "Physics-Based Character Animation",
-      "Locomotion",
-      "Navigation",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Physics-Based Character Animation"
   },
   {
     "arxiv_id": "2605.28272",
