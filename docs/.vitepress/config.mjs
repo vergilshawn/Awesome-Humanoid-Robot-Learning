@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (180)",
+            "text": "Loco-Manipulation and Whole-Body Control (181)",
             "collapsed": true,
             "items": [
                   {
@@ -260,7 +260,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (21)",
+            "text": "Teleoperation (22)",
             "collapsed": true,
             "items": [
                   {
@@ -322,12 +322,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (105)",
+            "text": "Locomotion (107)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/locomotion/"
+                  },
+                  {
+                        "text": "2026-06",
+                        "link": "/locomotion/2026-06"
                   },
                   {
                         "text": "2026-05",
@@ -446,6 +450,10 @@ export default defineConfig({
                   {
                         "text": "Overview",
                         "link": "/navigation/"
+                  },
+                  {
+                        "text": "2026-06",
+                        "link": "/navigation/2026-06"
                   },
                   {
                         "text": "2026-05",
@@ -660,7 +668,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (39)",
+            "text": "Simulation Benchmark (40)",
             "collapsed": true,
             "items": [
                   {
@@ -726,7 +734,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (33)",
+            "text": "Physics-Based Character Animation (34)",
             "collapsed": true,
             "items": [
                   {

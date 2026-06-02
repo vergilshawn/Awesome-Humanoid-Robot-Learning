@@ -2,6 +2,146 @@
 
 All papers sorted by publication date (newest first).
 
+## PHASOR: Phase-Anchored Universal Action Representations for Humanoid Embodiments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.01851)
+- **Authors:** Kihyun Kim, Chaeyun Kim, Jongho Shin, Taeyoun Kwon, Junghyun Kim, Mijin Koo et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Distillation
+  - Policy Learning
+  - Locomotion
+
+### Summary
+
+Learning a good action embedding space is fundamental to scalable robot policy learning, yet existing methods treat action latents as task-specific intermediates rather than first-class representations. The resulting latents are unstructured, embodiment-specific, and weakly tied to motion semantics, limiting interpretability, controllability, and transferability across robots.
+
+---
+
+## 🌟 HLL: Can Agents Cross Humanity's Last Line of Verification?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.02449)
+- **Project:** [GitHub](https://github.com/xinhaos0101/hll)
+- **Authors:** Xinhao Song, Su Su, Sirui Song, Hongliang Wu, Wen Shen, Zhihua Wei et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
+  - PPO
+  - Navigation
+  - Simulation Benchmark
+
+### Summary
+
+Multimodal agents are increasingly expected to operate interfaces on behalf of users, raising a central deployment question: can they truly substitute for humans in workflows that services deliberately protect against automation? CAPTCHA verification makes this question concrete. It is not merely a visual puzzle, but a human-verification boundary placed before account creation, content access, form submission, and other protected actions.
+
+---
+
+## LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.01458)
+- **Authors:** Hojune Kim, Timothy Chen, Jiankai Sun, Lars W. Osterberg, Qianzhong Chen, Ke Wang et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Robustness
+  - Simulator
+  - Humanoid
+  - Gaussian Splatting
+  - Vision-Language
+  - Fine-tuning
+
+### Summary
+
+Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have, until now, failed to transfer effectively in humanoid loco-manipulation tasks.
+
+---
+
+## Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00637)
+- **Authors:** Shengcheng Fu, Yang Zhang, Zhanxiang Cao, Liyun Yan, Yizhi Chen, Yunpeng Yin et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Navigation
+  - Zero-Shot
+  - Humanoid
+
+### Summary
+
+Although reinforcement learning has significantly advanced humanoid locomotion, perceptive policies still struggle on sparse-foothold terrain and constrained environments. Success in these scenarios requires both broad terrain awareness and precise foothold selection, two perceptual roles that conventional encoders often entangle.
+
+---
+
+## Pause and Think: A Dataset and Benchmark for Video-Grounded Assistive Action Suggestion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00616)
+- **Authors:** Shivam Singh, Saptarshi Majumdar, Pratik Prabhanjan, Zicheng Liu, Emad Barsoum
+- **Published:** 2026-05
+- **Tags:**
+  - MPC
+  - Scene Understanding
+  - Vision-Language
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Recent Vision-Language Models (VLMs) struggle with grounded reasoning, temporal consistency, and context aware planning in videos. We introduce pause-and-think-T, a reasoning-centric training dataset that encourages models to pause, reason over visual evidence, and produce concise, actionable responses.
+
+---
+
+## Constrained Whole-Body Tracking for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00374)
+- **Authors:** Daniel Morton, Pranit Mohnot, Marco Pavone
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Recent advances in reinforcement learning (RL) have demonstrated impressive whole-body agility for humanoid robots, yet ensuring safety and satisfying constraints -- particularly those specified after training -- remains a challenge. Towards this goal, we present ConstrainedMimic, a control framework that leverages whole-body kinematics and dynamics for real-time constraint enforcement within RL tracking policies.
+
+---
+
+## HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00252)
+- **Authors:** Songyang Liu, Shunyu Yao, Dingyuan Huang, Shuai Li
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Whole-Body Control
+  - Teleoperation
+  - Humanoid
+  - Vision-Language
+  - Underactuated
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Manipulating suspended payloads with humanoid robots is challenging because the robot can only influence an underactuated, oscillatory load through whole-body motion and intermittent contact. Imitation learning provides safe initial behavior but does not directly optimize final placement, while reinforcement learning from scratch is unsafe and sample-inefficient on real humanoids.
+
+---
+
 ## Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.31343)
@@ -55,38 +195,6 @@ Human-like agents are a long-standing goal of artificial intelligence. Despite s
 ### Summary
 
 Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors.
-
----
-
-## If LLMs Have Human-Like Attributes, Then So Does Age of Empires II
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.31514)
-- **Authors:** Adrian de Wynter
-- **Published:** 2026-05
-- **Tags:**
-  - Large Language Model
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Much research has been carried out on large language models (LLMs) and LLM-powered agentic workflows. However, many works within the field state emergence of, ascribe to, or assume, generalised anthropomorphic attributes to them (e.g., morality or understanding of natural language).
-
----
-
-## ERGeoBench:A Comprehensive Benchmark for Embodied Reasoning and Geo-localization in Multimodal Large Language Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.31251)
-- **Authors:** Kaiwen Xue, Tao Wei, Guoxin Zhang, Zhonghong Ou, Kaoyan Lu, Yu Feng et al. (8 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Benchmark
-  - Large Language Model
-  - Navigation
-  - Simulation Benchmark
-
-### Summary
-
-Multimodal large language models (MLLMs) have shown strong potential as embodied agents, yet embodied geo-localization remains underexplored due to the lack of fine-grained evaluation. We introduce ERGeoBench, a diagnostic benchmark for vision-driven embodied geo-localization.
 
 ---
 
@@ -231,6 +339,27 @@ Tactile sensing is essential for robots to achieve human-like gentle manipulatio
 ### Summary
 
 We study real-time audio-responsive character control as a deployment-faithful problem: strictly causal, bounded-latency streaming that must generate coherent full-body motion at interactive frame rates while the audio condition can change abruptly, including tempo shifts, drops, or user edits. Prior music-to-motion systems are largely optimized for offline generation with global context, and degrade in streaming rollouts where conditioning history becomes stale or unreliable.
+
+---
+
+## Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28394)
+- **Authors:** Gaurav Rai, Ojaswa Sharma
+- **Published:** 2026-05
+- **Tags:**
+  - Simulator
+  - Biped
+  - Distillation
+  - Dataset
+  - Diffusion
+  - Physics-Based Character Animation
+  - Locomotion
+  - Navigation
+
+### Summary
+
+Animation of 2D hand-drawn sketches provides an effective medium for visual communication. However, these sketches pose challenges, particularly in handling occlusions and accurately mapping motion.
 
 ---
 

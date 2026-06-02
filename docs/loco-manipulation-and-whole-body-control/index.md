@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**180 papers** in this category.
+**181 papers** in this category.
 
 ## Months
 
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (10 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (11 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -35,6 +35,49 @@
 
 ## Recent Papers
 
+## LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.01458)
+- **Authors:** Hojune Kim, Timothy Chen, Jiankai Sun, Lars W. Osterberg, Qianzhong Chen, Ke Wang et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Robustness
+  - Simulator
+  - Humanoid
+  - Gaussian Splatting
+  - Vision-Language
+  - Fine-tuning
+
+### Summary
+
+Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have, until now, failed to transfer effectively in humanoid loco-manipulation tasks.
+
+---
+
+## HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00252)
+- **Authors:** Songyang Liu, Shunyu Yao, Dingyuan Huang, Shuai Li
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Whole-Body Control
+  - Teleoperation
+  - Humanoid
+  - Vision-Language
+  - Underactuated
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Manipulating suspended payloads with humanoid robots is challenging because the robot can only influence an underactuated, oscillatory load through whole-body motion and intermittent contact. Imitation learning provides safe initial behavior but does not directly optimize final placement, while reinforcement learning from scratch is unsafe and sample-inefficient on real humanoids.
+
+---
+
 ## Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.31343)
@@ -53,21 +96,6 @@
 ### Summary
 
 Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators.
-
----
-
-## If LLMs Have Human-Like Attributes, Then So Does Age of Empires II
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.31514)
-- **Authors:** Adrian de Wynter
-- **Published:** 2026-05
-- **Tags:**
-  - Large Language Model
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Much research has been carried out on large language models (LLMs) and LLM-powered agentic workflows. However, many works within the field state emergence of, ascribe to, or assume, generalised anthropomorphic attributes to them (e.g., morality or understanding of natural language).
 
 ---
 
@@ -378,21 +406,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2603.10306)
 - **Project:** [GitHub](https://steadytray.github.io/)
-- **Published:** 2026-03
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Embedding Classical Balance Control Principles in Reinforcement Learning for Humanoid Recovery
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.08619)
 - **Published:** 2026-03
 - **Tags:**
   - Reinforcement Learning

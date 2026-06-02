@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**39 papers** in this category.
+**40 papers** in this category.
 
 ## Months
 
-- [2026-05](/simulation-benchmark/2026-05) (17 papers)
+- [2026-05](/simulation-benchmark/2026-05) (18 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
 - [2026-02](/simulation-benchmark/2026-02) (1 papers)
@@ -22,6 +22,25 @@
 ---
 
 ## Recent Papers
+
+## Pause and Think: A Dataset and Benchmark for Video-Grounded Assistive Action Suggestion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00616)
+- **Authors:** Shivam Singh, Saptarshi Majumdar, Pratik Prabhanjan, Zicheng Liu, Emad Barsoum
+- **Published:** 2026-05
+- **Tags:**
+  - MPC
+  - Scene Understanding
+  - Vision-Language
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Recent Vision-Language Models (VLMs) struggle with grounded reasoning, temporal consistency, and context aware planning in videos. We introduce pause-and-think-T, a reasoning-centric training dataset that encourages models to pause, reason over visual evidence, and produce concise, actionable responses.
+
+---
 
 ## Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization
 
@@ -384,26 +403,5 @@ CLAW is an interactive web-based pipeline for scalable generation of language-an
 ### Summary
 
 RoboForge bridges natural language and whole-body humanoid locomotion through a retarget-free, physics-optimized pipeline. It couples motion generation and control through a physical plausibility optimization module that refines teacher-student distillation policies and converts reward-optimized simulation rollouts into explicit motion data for fine-tuning the motion generator.
-
----
-
-## Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.05993)
-- **Authors:** Beichen Wang, Yuanjie Lu, Linji Wang, Liuchuan Yu, Xuesu Xiao
-- **Published:** 2026-03
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Safety
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Dataset
-  - PPO
-
-### Summary
-
-Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
 
 ---

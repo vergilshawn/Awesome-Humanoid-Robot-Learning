@@ -2,6 +2,25 @@
 
 Papers with open-source code repositories.
 
+## 🌟 HLL: Can Agents Cross Humanity's Last Line of Verification?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.02449)
+- **Project:** [GitHub](https://github.com/xinhaos0101/hll)
+- **Authors:** Xinhao Song, Su Su, Sirui Song, Hongliang Wu, Wen Shen, Zhihua Wei et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
+  - PPO
+  - Navigation
+  - Simulation Benchmark
+
+### Summary
+
+Multimodal agents are increasingly expected to operate interfaces on behalf of users, raising a central deployment question: can they truly substitute for humans in workflows that services deliberately protect against automation? CAPTCHA verification makes this question concrete. It is not merely a visual puzzle, but a human-verification boundary placed before account creation, content access, form submission, and other protected actions.
+
+---
+
 ## 🌟 Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.27886)

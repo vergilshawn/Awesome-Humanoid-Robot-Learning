@@ -4,7 +4,8 @@
 
 ## Months
 
-- [2026-05](/navigation/2026-05) (2 papers)
+- [2026-06](/navigation/2026-06) (1 papers)
+- [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
 - [2026-01](/navigation/2026-01) (1 papers)
 - [2025-12](/navigation/2025-12) (1 papers)
@@ -22,20 +23,22 @@
 
 ## Recent Papers
 
-## ERGeoBench:A Comprehensive Benchmark for Embodied Reasoning and Geo-localization in Multimodal Large Language Models
+## 🌟 HLL: Can Agents Cross Humanity's Last Line of Verification?
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.31251)
-- **Authors:** Kaiwen Xue, Tao Wei, Guoxin Zhang, Zhonghong Ou, Kaoyan Lu, Yu Feng et al. (8 authors)
-- **Published:** 2026-05
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.02449)
+- **Project:** [GitHub](https://github.com/xinhaos0101/hll)
+- **Authors:** Xinhao Song, Su Su, Sirui Song, Hongliang Wu, Wen Shen, Zhihua Wei et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
 - **Tags:**
   - Benchmark
-  - Large Language Model
+  - PPO
   - Navigation
   - Simulation Benchmark
 
 ### Summary
 
-Multimodal large language models (MLLMs) have shown strong potential as embodied agents, yet embodied geo-localization remains underexplored due to the lack of fine-grained evaluation. We introduce ERGeoBench, a diagnostic benchmark for vision-driven embodied geo-localization.
+Multimodal agents are increasingly expected to operate interfaces on behalf of users, raising a central deployment question: can they truly substitute for humans in workflows that services deliberately protect against automation? CAPTCHA verification makes this question concrete. It is not merely a visual puzzle, but a human-verification boundary placed before account creation, content access, form submission, and other protected actions.
 
 ---
 

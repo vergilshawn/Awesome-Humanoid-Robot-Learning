@@ -1,10 +1,11 @@
 # Locomotion
 
-**105 papers** in this category.
+**107 papers** in this category.
 
 ## Months
 
-- [2026-05](/locomotion/2026-05) (10 papers)
+- [2026-06](/locomotion/2026-06) (1 papers)
+- [2026-05](/locomotion/2026-05) (11 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -35,6 +36,43 @@
 ---
 
 ## Recent Papers
+
+## PHASOR: Phase-Anchored Universal Action Representations for Humanoid Embodiments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.01851)
+- **Authors:** Kihyun Kim, Chaeyun Kim, Jongho Shin, Taeyoun Kwon, Junghyun Kim, Mijin Koo et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Distillation
+  - Policy Learning
+  - Locomotion
+
+### Summary
+
+Learning a good action embedding space is fundamental to scalable robot policy learning, yet existing methods treat action latents as task-specific intermediates rather than first-class representations. The resulting latents are unstructured, embodiment-specific, and weakly tied to motion semantics, limiting interpretability, controllability, and transferability across robots.
+
+---
+
+## Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00637)
+- **Authors:** Shengcheng Fu, Yang Zhang, Zhanxiang Cao, Liyun Yan, Yizhi Chen, Yunpeng Yin et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Navigation
+  - Zero-Shot
+  - Humanoid
+
+### Summary
+
+Although reinforcement learning has significantly advanced humanoid locomotion, perceptive policies still struggle on sparse-foothold terrain and constrained environments. Success in these scenarios requires both broad terrain awareness and precise foothold selection, two perceptual roles that conventional encoders often entangle.
+
+---
 
 ## SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World
 
@@ -357,35 +395,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.06382)
 - **Published:** 2026-02
 - **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## A Hybrid Autoencoder for Robust Heightmap Generation from Fused Lidar and Depth Data for Humanoid Robot Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.05855)
-- **Published:** 2026-02
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Scalable and General Whole-Body Control for Cross-Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.05791)
-- **Published:** 2026-02
-- **Tags:**
-  - Whole-Body Control
   - Locomotion
   - Humanoid
 

@@ -1,10 +1,10 @@
 # Teleoperation
 
-**21 papers** in this category.
+**22 papers** in this category.
 
 ## Months
 
-- [2026-05](/teleoperation/2026-05) (1 papers)
+- [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
 - [2026-02](/teleoperation/2026-02) (4 papers)
 - [2025-11](/teleoperation/2025-11) (1 papers)
@@ -21,6 +21,28 @@
 ---
 
 ## Recent Papers
+
+## Constrained Whole-Body Tracking for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00374)
+- **Authors:** Daniel Morton, Pranit Mohnot, Marco Pavone
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Recent advances in reinforcement learning (RL) have demonstrated impressive whole-body agility for humanoid robots, yet ensuring safety and satisfying constraints -- particularly those specified after training -- remains a challenge. Towards this goal, we present ConstrainedMimic, a control framework that leverages whole-body kinematics and dynamics for real-time constraint enforcement within RL tracking policies.
+
+---
 
 ## RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning
 
@@ -302,20 +324,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Imitation Learning
   - Teleoperation
   - Manipulation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Teleoperation of Humanoid Robots: A Survey, [webpage](https://humanoid-teleoperation.github.io/)
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2301.04317)
-- **Published:** 2023-01
-- **Tags:**
-  - Teleoperation
   - Humanoid
 
 ### Summary
