@@ -1,10 +1,10 @@
 # Manipulation
 
-**55 papers** in this category.
+**51 papers** in this category.
 
 ## Months
 
-- [2026-05](/manipulation/2026-05) (5 papers)
+- [2026-05](/manipulation/2026-05) (1 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
 - [2026-02](/manipulation/2026-02) (1 papers)
@@ -30,77 +30,6 @@
 ---
 
 ## Recent Papers
-
-## Any-ttach: Quick End-effector Swapping Enables Manipulation Dexterity with Simplicity
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30569)
-- **Authors:** Weizhe Ni, Jinzhou Li, Haoyu Li, Cody Andres Alessio-Bunnell, Wenjing Pan, Xianyi Cheng
-- **Published:** 2026-05
-- **Tags:**
-  - Manipulation
-  - Human Demonstration
-  - Task Planning
-  - PPO
-
-### Summary
-
-Robotic manipulation dexterity is often pursued by building increasingly complex high-DoF multifingered hands. While many robotic hands are designed to replicate human morphology, the functional role of human hands suggests a different perspective: much of their complexity may exist to enable tool use and tool making.
-
----
-
-## ARISTO Hand: Sensing-Driven Distal Hyperextension for Fine-Grained Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30508)
-- **Authors:** Aaron Kim, Dong Ho Kang, Mark Helwig, Mingyo Seo, Kazuto Yokoyama, Tetsuya Narita et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Manipulation
-  - State Estimation
-  - Physics-Based Character Animation
-
-### Summary
-
-Manipulating thin objects requires precise contact geometry and reliable force perception, yet many anthropomorphic robotic hands lack the mechanical and sensing capabilities needed for such interactions. We present the ARISTO Hand, a tendon-driven robotic hand that integrates active distal hyperextension with a hybrid fingertip-sensing architecture that combines a rigid, nail-mounted force-torque sensor and a soft capacitive tactile array.
-
----
-
-## Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30282)
-- **Authors:** Kuangji Zuo, Gen Li, Bofan Lyu, Yanshuo Lu, Boyu Ma, Shijia Han et al. (12 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-  - Navigation
-
-### Summary
-
-Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent.
-
----
-
-## 🌟 Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.27886)
-- **Project:** [GitHub](https://github.com/nathanwu7/tabero)
-- **Authors:** Qiwei Wu, Rui Zhang, Xin Xiang, Tao Li, Weihua Zhang, Junjie Lai et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Manipulation
-  - Tactile Sensing
-  - Language-Conditioned
-  - Vision-Language
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Tactile sensing is essential for robots to achieve human-like gentle manipulation. However, existing Vision-Language-Action (VLA) models struggle to exploit tactile feedback for gentle manipulation due to scarce aligned vision-tactile-language data and the lack of effective closed-loop force feedback mechanisms.
-
----
 
 ## Do Vision-Language-Models show human-like logical problem-solving capability in point and click puzzle games?
 
@@ -324,6 +253,63 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-11
 - **Tags:**
   - Humanoid
+  - Manipulation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## A Humanoid Visual-Tactile-Action Dataset for Contact-Rich Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2510.25725)
+- **Published:** 2025-10
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Dataset
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Towards Proprioception-Aware Embodied Planning for Dual-Arm Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2510.07882)
+- **Published:** 2025-10
+- **Tags:**
+  - Humanoid
+  - Proprioception
+  - Manipulation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## EgoDemoGen: Novel Egocentric Demonstration Generation Enables Viewpoint-Robust Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2509.22578)
+- **Published:** 2025-09
+- **Tags:**
+  - Manipulation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Residual Off-Policy RL for Finetuning Behavior Cloning Policies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2509.19301)
+- **Published:** 2025-09
+- **Tags:**
+  - Behavior Cloning
   - Manipulation
 
 ### Summary

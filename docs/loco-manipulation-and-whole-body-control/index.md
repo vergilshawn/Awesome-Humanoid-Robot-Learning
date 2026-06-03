@@ -1,10 +1,11 @@
 # Loco-Manipulation and Whole-Body Control
 
-**181 papers** in this category.
+**177 papers** in this category.
 
 ## Months
 
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (11 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (1 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (6 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -35,46 +36,24 @@
 
 ## Recent Papers
 
-## LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World
+## Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.01458)
-- **Authors:** Hojune Kim, Timothy Chen, Jiankai Sun, Lars W. Osterberg, Qianzhong Chen, Ke Wang et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03985)
+- **Authors:** Zekun Qi, Xuchuan Chen, Dairu Liu, Chenghuai Lin, Yunrui Lian, Sikai Liang et al. (13 authors)
+- **Published:** 2026-06
 - **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Robustness
-  - Simulator
-  - Humanoid
-  - Gaussian Splatting
-  - Vision-Language
-  - Fine-tuning
-
-### Summary
-
-Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have, until now, failed to transfer effectively in humanoid loco-manipulation tasks.
-
----
-
-## HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.00252)
-- **Authors:** Songyang Liu, Shunyu Yao, Dingyuan Huang, Shuai Li
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Imitation Learning
   - Whole-Body Control
-  - Teleoperation
+  - Transformer
+  - Zero-Shot
   - Humanoid
-  - Vision-Language
-  - Underactuated
+  - Dataset
   - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
 
 ### Summary
 
-Manipulating suspended payloads with humanoid robots is challenging because the robot can only influence an underactuated, oscillatory load through whole-body motion and intermittent contact. Imitation learning provides safe initial behavior but does not directly optimize final placement, while reinforcement learning from scratch is unsafe and sample-inefficient on real humanoids.
+We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained on a billion-scale motion corpus for whole-body control. Unlike prior shallow MLP trackers constrained by scarce data and an agility-generalization trade-off, Humanoid-GPT is pre-trained on a 2B-frame retargeted corpus that unifies all major mocap datasets with large-scale in-house recordings.
 
 ---
 
@@ -96,68 +75,6 @@ Manipulating suspended payloads with humanoid robots is challenging because the 
 ### Summary
 
 Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators.
-
----
-
-## EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28468)
-- **Authors:** Junhwi Cho, Sunggyu Bae, Junghyeon Ma, Hyosang Lee, Jung Kim, Kyungseo Park
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Real Robot
-  - Humanoid
-  - Tactile Sensing
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-We present a hybrid robotic skin that combines electrical impedance tomography (EIT) with pneumatic tactile sensing to improve force reconstruction capability. The developed robotic skin is fabricated entirely by 3D printing and spray coating, making it affordable and easy to build.
-
----
-
-## HumanoidMimicGen: Data Generation for Loco-Manipulation via Whole-Body Planning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.27724)
-- **Authors:** Kevin Lin, Ajay Mandlekar, Caelan Reed Garrett, Nikita Chernyadev, Yu Fang, Runyu Ding et al. (10 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Imitation Learning
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Impact
-  - Collision
-  - Benchmark
-
-### Summary
-
-Imitation learning is a promising approach for training humanoid robots to both walk and manipulate, but it requires a large number of demonstrations, which are time-intensive and difficult to collect via teleoperation. Existing data-generation algorithms can automatically synthesize demonstrations for manipulators, but they are ineffective on humanoids because their high-dimensional composite action spaces involve arms, legs, and torsos.
-
----
-
-## Safety-Critical Whole-Body Control for Humanoid Robots via Input-to-State Safe Control Barrier Functions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.25546)
-- **Authors:** Kwanwoo Lee, Sanghyuk Park, Gyeongjae Park, Myeong-Ju Kim, Jaeheung Park
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Whole-Body Control
-  - Teleoperation
-  - Locomotion
-  - Safety
-  - Humanoid
-  - Collision
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Safety-critical control is essential for humanoid robots operating in complex human-centered environments, where physical safety constraints such as joint limits, self-collision avoidance, obstacle avoidance, and workspace boundaries must be satisfied during real-robot operation. However, existing approaches remain limited because kinematic safety guarantees can be degraded in the presence of unknown disturbances, such as model uncertainties, trajectory-tracking errors, and external perturbations.
 
 ---
 
@@ -409,6 +326,67 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2026-03
 - **Tags:**
   - Reinforcement Learning
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Embedding Classical Balance Control Principles in Reinforcement Learning for Humanoid Recovery
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.08619)
+- **Published:** 2026-03
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## 🌟 ULTRA: Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.03279)
+- **Project:** [GitHub](https://ultra-humanoid.github.io/)
+- **Published:** 2026-03
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## 🌟 FAME: Force-Adaptive RL for Expanding the Manipulation Envelope of a Full-Scale Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.08961)
+- **Project:** [GitHub](https://fame10.github.io/Fame/)
+- **Published:** 2026-03
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## OmniXtreme: Breaking the Generality Barrier in High-Dynamic Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.23843)
+- **Published:** 2026-02
+- **Tags:**
   - Humanoid
   - Loco-Manipulation and Whole-Body Control
 

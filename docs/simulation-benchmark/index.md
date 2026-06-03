@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**40 papers** in this category.
+**35 papers** in this category.
 
 ## Months
 
-- [2026-05](/simulation-benchmark/2026-05) (18 papers)
+- [2026-05](/simulation-benchmark/2026-05) (13 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
 - [2026-02](/simulation-benchmark/2026-02) (1 papers)
@@ -22,100 +22,6 @@
 ---
 
 ## Recent Papers
-
-## Pause and Think: A Dataset and Benchmark for Video-Grounded Assistive Action Suggestion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.00616)
-- **Authors:** Shivam Singh, Saptarshi Majumdar, Pratik Prabhanjan, Zicheng Liu, Emad Barsoum
-- **Published:** 2026-05
-- **Tags:**
-  - MPC
-  - Scene Understanding
-  - Vision-Language
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Recent Vision-Language Models (VLMs) struggle with grounded reasoning, temporal consistency, and context aware planning in videos. We introduce pause-and-think-T, a reasoning-centric training dataset that encourages models to pause, reason over visual evidence, and produce concise, actionable responses.
-
----
-
-## Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30928)
-- **Authors:** Usman Nizamani, M. Shaheer Luqman, Fawad Javed Fateh, Ali Shah Ali, Murad Popattia, M. Zeeshan Zia et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Human Demonstration
-  - Benchmark
-  - SAC
-  - Simulation Benchmark
-
-### Summary
-
-Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability.
-
----
-
-## UniMaia: Steering Chess Policies with Language for Human-like Play
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.27767)
-- **Authors:** Sherman Siu, Lesley Istead
-- **Published:** 2026-05
-- **Tags:**
-  - Benchmark
-  - Dataset
-  - Large Language Model
-  - PPO
-  - Simulation Benchmark
-
-### Summary
-
-Recent advances in large language models have enabled natural language to serve as a flexible interface for controlling complex systems, but often at the cost of large-scale multimodal training or weakened domain-specific inductive biases. In structured decision-making domains such as chess, specialized policy networks achieve strong performance but lack semantic controllability, while prompt-conditioned language models are more flexible yet typically exhibit weaker domain grounding.
-
----
-
-## ParkourFormer: Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.25782)
-- **Authors:** Yanheng Mai, Wenhao Xu, Zirui Huang, Yifei Fu, Shengwei Dong, Xinjue Wang et al. (9 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Transformer
-  - Robustness
-  - Humanoid
-  - Benchmark
-  - Simulation Benchmark
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid parkour requires locomotion policies to coordinate whole-body dynamics across rapidly changing terrains such as stairs, gaps, slopes, and obstacles. Existing reinforcement learning policies are largely reactive, mapping observations directly to actions without explicitly modeling future body states.
-
----
-
-## Exploiting Local Dynamics Regularity for Reusable Skills in Offline Hierarchical RL
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.26371)
-- **Authors:** Sarthak Dayal, Abhinav Peri, Carl Qi, Claas Voelcker, Alexander Levine, Caleb Chuck et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Hierarchical RL
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinforcement Learning (RL) tasks more efficiently than non-hierarchical counterparts by discovering and reusing temporally-extended skills. However, obtaining skills that are actually reusable remains an open challenge.
-
----
 
 ## Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory
 
@@ -403,5 +309,85 @@ CLAW is an interactive web-based pipeline for scalable generation of language-an
 ### Summary
 
 RoboForge bridges natural language and whole-body humanoid locomotion through a retarget-free, physics-optimized pipeline. It couples motion generation and control through a physical plausibility optimization module that refines teacher-student distillation policies and converts reward-optimized simulation rollouts into explicit motion data for fine-tuning the motion generator.
+
+---
+
+## Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.05993)
+- **Authors:** Beichen Wang, Yuanjie Lu, Linji Wang, Liuchuan Yu, Xuesu Xiao
+- **Published:** 2026-03
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Safety
+  - Humanoid
+  - Collision
+  - Benchmark
+  - Dataset
+  - PPO
+
+### Summary
+
+Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
+
+---
+
+## 🌟 ComFree-Sim: A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation and Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.12185)
+- **Project:** [GitHub](https://irislab.tech/comfree-sim/)
+- **Published:** 2026-03
+- **Tags:**
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.06181)
+- **Published:** 2026-03
+- **Tags:**
+  - Humanoid
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.11337)
+- **Published:** 2026-02
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Benchmarking Humanoid Imitation Learning with Motion Difficulty
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2512.07248)
+- **Published:** 2025-12
+- **Tags:**
+  - Imitation Learning
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
 
 ---

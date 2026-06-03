@@ -48,12 +48,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (181)",
+            "text": "Loco-Manipulation and Whole-Body Control (177)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/loco-manipulation-and-whole-body-control/"
+                  },
+                  {
+                        "text": "2026-06",
+                        "link": "/loco-manipulation-and-whole-body-control/2026-06"
                   },
                   {
                         "text": "2026-05",
@@ -162,7 +166,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (55)",
+            "text": "Manipulation (51)",
             "collapsed": true,
             "items": [
                   {
@@ -260,7 +264,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (22)",
+            "text": "Teleoperation (21)",
             "collapsed": true,
             "items": [
                   {
@@ -322,7 +326,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (107)",
+            "text": "Locomotion (101)",
             "collapsed": true,
             "items": [
                   {
@@ -444,16 +448,12 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (19)",
+            "text": "Navigation (18)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/navigation/"
-                  },
-                  {
-                        "text": "2026-06",
-                        "link": "/navigation/2026-06"
                   },
                   {
                         "text": "2026-05",
@@ -668,7 +668,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (40)",
+            "text": "Simulation Benchmark (35)",
             "collapsed": true,
             "items": [
                   {
@@ -734,7 +734,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (34)",
+            "text": "Physics-Based Character Animation (33)",
             "collapsed": true,
             "items": [
                   {
@@ -844,7 +844,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (24)",
+            "text": "Human Motion Analysis and Synthesis (23)",
             "collapsed": true,
             "items": [
                   {

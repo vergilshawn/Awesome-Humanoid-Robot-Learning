@@ -1,11 +1,11 @@
 # Locomotion
 
-**107 papers** in this category.
+**101 papers** in this category.
 
 ## Months
 
 - [2026-06](/locomotion/2026-06) (1 papers)
-- [2026-05](/locomotion/2026-05) (11 papers)
+- [2026-05](/locomotion/2026-05) (5 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -51,114 +51,6 @@
 ### Summary
 
 Learning a good action embedding space is fundamental to scalable robot policy learning, yet existing methods treat action latents as task-specific intermediates rather than first-class representations. The resulting latents are unstructured, embodiment-specific, and weakly tied to motion semantics, limiting interpretability, controllability, and transferability across robots.
-
----
-
-## Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.00637)
-- **Authors:** Shengcheng Fu, Yang Zhang, Zhanxiang Cao, Liyun Yan, Yizhi Chen, Yunpeng Yin et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Locomotion
-  - Navigation
-  - Zero-Shot
-  - Humanoid
-
-### Summary
-
-Although reinforcement learning has significantly advanced humanoid locomotion, perceptive policies still struggle on sparse-foothold terrain and constrained environments. Success in these scenarios requires both broad terrain awareness and precise foothold selection, two perceptual roles that conventional encoders often entangle.
-
----
-
-## SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30770)
-- **Authors:** Ruiqi Yu, Yiwen Wang, Yuan Hao, Jun WU, Qiuguo Zhu
-- **Published:** 2026-05
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors.
-
----
-
-## SalsaAgent: A multimodal embodied language model for interactive dance generation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.29219)
-- **Authors:** Payam Jome Yazdian, Zoe Stanley, Angelica Lim
-- **Published:** 2026-05
-- **Tags:**
-  - Humanoid
-  - Fine-tuning
-  - Large Language Model
-  - Diffusion
-  - Locomotion
-
-### Summary
-
-Interaction between humanoids involves bidirectional and nonverbal reactivity, coordination and synchrony. Toward socially aware robots and interactive virtual agents, we present SalsaAgent, a language model that generates expressive, full-body salsa dance motions in reaction to a human leader and against a contextual music backdrop.
-
----
-
-## SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28549)
-- **Authors:** Yantong Wei, Kaihong Huang, Hainan Pan, Jiawei Luo, Jiawei Zhou, Ziyan Mai et al. (9 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Sim-to-Real
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - Gait
-  - Physics-Based Character Animation
-
-### Summary
-
-The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-viable kinematic reference data and the inability of existing frameworks to maintain stability during sprints. To overcome these limitations, we introduce SPRINT, a novel framework driven by efficient, frequency-adaptive spectral priors.
-
----
-
-## DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Control with Diffusion Forcing
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28491)
-- **Authors:** Kaiyang Ji, Bingsheng Qian, Binghuan Wu, Kangyi Chen, Ye Shi, Jingya Wang
-- **Published:** 2026-05
-- **Tags:**
-  - Humanoid
-  - Diffusion
-  - Locomotion
-
-### Summary
-
-We study real-time audio-responsive character control as a deployment-faithful problem: strictly causal, bounded-latency streaming that must generate coherent full-body motion at interactive frame rates while the audio condition can change abruptly, including tempo shifts, drops, or user edits. Prior music-to-motion systems are largely optimized for offline generation with global context, and degrade in streaming rollouts where conditioning history becomes stale or unreliable.
-
----
-
-## EchoAvatar: Real-time Generative Avatar Animation from Audio Streams
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28272)
-- **Authors:** Bohong Chen, Yumeng Li, Yinglin Xu, Youyi Zheng, Yanlin Weng, Kun Zhou
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Large Language Model
-  - Locomotion
-
-### Summary
-
-Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively.
 
 ---
 
@@ -397,6 +289,93 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Locomotion
   - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## A Hybrid Autoencoder for Robust Heightmap Generation from Fused Lidar and Depth Data for Humanoid Robot Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.05855)
+- **Published:** 2026-02
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Scalable and General Whole-Body Control for Cross-Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.05791)
+- **Published:** 2026-02
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## HoRD: Robust Humanoid Control via History-Conditioned Reinforcement Learning and Online Distillation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.04412)
+- **Published:** 2026-02
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Distillation
+  - Locomotion
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## CMR: Contractive Mapping Embeddings for Robust Humanoid Locomotion on Unstructured Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.03511)
+- **Published:** 2026-02
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## RPL: Learning Robust Humanoid Perceptive Locomotion on Challenging Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.03002)
+- **Published:** 2026-02
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Toward Reliable Sim-to-Real Predictability for MoE-based Robust Quadrupedal Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.00678)
+- **Published:** 2026-02
+- **Tags:**
+  - Sim-to-Real
+  - Locomotion
 
 ### Summary
 

@@ -2,45 +2,6 @@
 
 Papers with open-source code repositories.
 
-## 🌟 HLL: Can Agents Cross Humanity's Last Line of Verification?
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.02449)
-- **Project:** [GitHub](https://github.com/xinhaos0101/hll)
-- **Authors:** Xinhao Song, Su Su, Sirui Song, Hongliang Wu, Wen Shen, Zhihua Wei et al. (9 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Benchmark
-  - PPO
-  - Navigation
-  - Simulation Benchmark
-
-### Summary
-
-Multimodal agents are increasingly expected to operate interfaces on behalf of users, raising a central deployment question: can they truly substitute for humans in workflows that services deliberately protect against automation? CAPTCHA verification makes this question concrete. It is not merely a visual puzzle, but a human-verification boundary placed before account creation, content access, form submission, and other protected actions.
-
----
-
-## 🌟 Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.27886)
-- **Project:** [GitHub](https://github.com/nathanwu7/tabero)
-- **Authors:** Qiwei Wu, Rui Zhang, Xin Xiang, Tao Li, Weihua Zhang, Junjie Lai et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Manipulation
-  - Tactile Sensing
-  - Language-Conditioned
-  - Vision-Language
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Tactile sensing is essential for robots to achieve human-like gentle manipulation. However, existing Vision-Language-Action (VLA) models struggle to exploit tactile feedback for gentle manipulation due to scarce aligned vision-tactile-language data and the lack of effective closed-loop force feedback mechanisms.
-
----
-
 ## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
