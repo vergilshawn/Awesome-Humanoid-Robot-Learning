@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**177 papers** in this category.
+**181 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (1 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (5 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (6 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -36,6 +36,51 @@
 
 ## Recent Papers
 
+## GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.05160)
+- **Authors:** Tianyi Xie, Haotian Zhang, Jinhyung Park, Zi Wang, Bowen Wen, Jiefeng Li et al. (20 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Teleoperation
+  - Manipulation
+  - Simulator
+  - Humanoid
+  - Foundation Model
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Scaling humanoid loco-manipulation requires robot-compatible demonstrations across diverse objects, whole-body motions, and scene geometries, but teleoperation and motion capture are difficult to scale because each collection depends on physical setups, instrumented actors, and robot operation. We present GRAIL, a digital generation pipeline that remains fully virtual until deployment: it composes 3D assets, simulator-ready scenes, and priors from video foundation models (VFMs) to synthesize interactions without rebuilding physical environments or teleoperating the robot.
+
+---
+
+## 🌟 M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.04829)
+- **Project:** [GitHub](https://github.com/renforce-dynamics/multimodalwbc)
+- **Authors:** Zuxing Lu, Ziang Zheng, Yao Lyu, Jingyu Liu, Feihong Zhang, Song Lu et al. (10 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Simulator
+  - Humanoid
+  - Dataset
+
+### Summary
+
+Building a general-purpose whole-body controller is essential for enabling diverse motion capabilities in humanoid robots across a wide range of downstream tasks, including locomotion and loco-manipulation. Different tasks rely on distinct motion reference modalities: locomotion primarily depends on coordinated robot joint trajectories, whereas manipulation requires precise end-effector trajectory tracking.
+
+---
+
 ## Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.03985)
@@ -57,24 +102,66 @@ We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained
 
 ---
 
-## Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation
+## Bionic Human-Motion Style Transfer for Physically Executable Whole-Body Control of Humanoid Robots
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.31343)
-- **Authors:** Sikai Guo, Yudong Zhong, Guoyang Zhao, Botao Dang, Zhihai Bi, Jun Ma
-- **Published:** 2026-05
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03536)
+- **Authors:** Tianchen Huang, Mingkuan Zhao, Yang Gao, Feiyang Yuan, Junchi Gu, Xiaohu Zhang et al. (11 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
   - Whole-Body Control
-  - Manipulation
-  - Robustness
-  - Proprioception
-  - Distillation
+  - Humanoid
+  - Gait
+  - Diffusion
   - Loco-Manipulation and Whole-Body Control
+  - Locomotion
   - State Estimation
   - Simulation Benchmark
 
 ### Summary
 
-Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators.
+Expressive whole-body motion is important for humanoid robots operating in human environments, where robots are expected to move stably while presenting readable and adjustable body behaviors. However, most expressive motions are still obtained from fixed demonstrations or manually designed scripts, making it difficult to reuse a demonstrated style across different motion contents.
+
+---
+
+## SplitAdapter: Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03297)
+- **Authors:** Jeonguk Kang, Hanbyel Cho, Sanghyun Kang, Donghan Koo
+- **Published:** 2026-06
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires stable whole-body control under varying object masses and pickup/placement heights. This becomes particularly challenging in sim-to-real transfer, where object-induced load variation and robot-side dynamics mismatch interact during physical contact.
+
+---
+
+## LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.01458)
+- **Authors:** Hojune Kim, Timothy Chen, Jiankai Sun, Lars W. Osterberg, Qianzhong Chen, Ke Wang et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Robustness
+  - Simulator
+  - Humanoid
+  - Gaussian Splatting
+  - Vision-Language
+  - Fine-tuning
+
+### Summary
+
+Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have, until now, failed to transfer effectively in humanoid loco-manipulation tasks.
 
 ---
 
@@ -326,67 +413,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2026-03
 - **Tags:**
   - Reinforcement Learning
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Embedding Classical Balance Control Principles in Reinforcement Learning for Humanoid Recovery
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.08619)
-- **Published:** 2026-03
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 ULTRA: Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.03279)
-- **Project:** [GitHub](https://ultra-humanoid.github.io/)
-- **Published:** 2026-03
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 FAME: Force-Adaptive RL for Expanding the Manipulation Envelope of a Full-Scale Humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.08961)
-- **Project:** [GitHub](https://fame10.github.io/Fame/)
-- **Published:** 2026-03
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## OmniXtreme: Breaking the Generality Barrier in High-Dynamic Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.23843)
-- **Published:** 2026-02
-- **Tags:**
   - Humanoid
   - Loco-Manipulation and Whole-Body Control
 

@@ -2,6 +2,88 @@
 
 All papers sorted by publication date (newest first).
 
+## GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.05160)
+- **Authors:** Tianyi Xie, Haotian Zhang, Jinhyung Park, Zi Wang, Bowen Wen, Jiefeng Li et al. (20 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Teleoperation
+  - Manipulation
+  - Simulator
+  - Humanoid
+  - Foundation Model
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Scaling humanoid loco-manipulation requires robot-compatible demonstrations across diverse objects, whole-body motions, and scene geometries, but teleoperation and motion capture are difficult to scale because each collection depends on physical setups, instrumented actors, and robot operation. We present GRAIL, a digital generation pipeline that remains fully virtual until deployment: it composes 3D assets, simulator-ready scenes, and priors from video foundation models (VFMs) to synthesize interactions without rebuilding physical environments or teleoperating the robot.
+
+---
+
+## 🌟 M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.04829)
+- **Project:** [GitHub](https://github.com/renforce-dynamics/multimodalwbc)
+- **Authors:** Zuxing Lu, Ziang Zheng, Yao Lyu, Jingyu Liu, Feihong Zhang, Song Lu et al. (10 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Simulator
+  - Humanoid
+  - Dataset
+
+### Summary
+
+Building a general-purpose whole-body controller is essential for enabling diverse motion capabilities in humanoid robots across a wide range of downstream tasks, including locomotion and loco-manipulation. Different tasks rely on distinct motion reference modalities: locomotion primarily depends on coordinated robot joint trajectories, whereas manipulation requires precise end-effector trajectory tracking.
+
+---
+
+## CoRe-MoE: Contrastive Reweighted Mixture of Experts for Multi-Terrain Humanoid Locomotion with Gait Adaptation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.04718)
+- **Authors:** Kailun Huang, Zikang Xie, Yanzhe Xie, Panpan Liao, Fanghai Zhang, Yanheng Mai et al. (10 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Walking
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humans primarily rely on walking and running to traverse complex terrains, without resorting to unnecessarily complex motion patterns. Similarly, humanoid robots should achieve smooth transitions between walking and running while maintaining natural and stable locomotion.
+
+---
+
+## Trace-Mediated Peak Bias: Bridging Temporal Credit Assignment and Cognitive Heuristics in Deep Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.04735)
+- **Authors:** Viktor Veselý, Aleksandar Todorov, Erwan Escudie, Matthia Sabatelli
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - State Estimation
+
+### Summary
+
+Temporal credit assignment is central to both biological and artificial intelligence, yet its interaction with non-linear function approximation is poorly understood. We identify a systematic failure mode in deep reinforcement learning (RL) termed Trace-Mediated Peak Bias (TMPB).
+
+---
+
 ## Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.03985)
@@ -23,41 +105,270 @@ We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained
 
 ---
 
-## PHASOR: Phase-Anchored Universal Action Representations for Humanoid Embodiments
+## SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.01851)
-- **Authors:** Kihyun Kim, Chaeyun Kim, Jongho Shin, Taeyoun Kwon, Junghyun Kim, Mijin Koo et al. (7 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03994)
+- **Authors:** Inhee Lee, Sangwon Baik, Sungjoo Kim, Hyeonwoo Kim, Hyunsoo Cha, Hanbyul Joo
 - **Published:** 2026-06
 - **Tags:**
-  - Humanoid
-  - Distillation
-  - Policy Learning
-  - Locomotion
-
-### Summary
-
-Learning a good action embedding space is fundamental to scalable robot policy learning, yet existing methods treat action latents as task-specific intermediates rather than first-class representations. The resulting latents are unstructured, embodiment-specific, and weakly tied to motion semantics, limiting interpretability, controllability, and transferability across robots.
-
----
-
-## Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.31343)
-- **Authors:** Sikai Guo, Yudong Zhong, Guoyang Zhao, Botao Dang, Zhihai Bi, Jun Ma
-- **Published:** 2026-05
-- **Tags:**
-  - Whole-Body Control
   - Manipulation
-  - Robustness
-  - Proprioception
-  - Distillation
-  - Loco-Manipulation and Whole-Body Control
+  - Humanoid
+  - 3D Reconstruction
+  - Benchmark
+  - PPO
   - State Estimation
   - Simulation Benchmark
 
 ### Summary
 
-Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators.
+Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under physical simulation due to interpenetrating, hovering, or sinking objects.
+
+---
+
+## Let the Dynamics Flow: Stable Flow Matching Dynamical Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03834)
+- **Authors:** Rodrigo Pérez-Dattari, Francisco Leiva, Andrea Testa, Leonel Rozo, Javier Ruiz del Solar, Noémie Jaquier
+- **Published:** 2026-06
+- **Tags:**
+  - Imitation Learning
+  - Generative Models
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Flow Matching
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Flow matching has recently emerged as a powerful approach for imitation learning, enabling scalable, expressive, and multimodal motion policies. However, incorporating formal stability guarantees into these generative models, a prerequisite to ensure safe and generalizable robot behaviors, remains a significant challenge.
+
+---
+
+## Bionic Human-Motion Style Transfer for Physically Executable Whole-Body Control of Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03536)
+- **Authors:** Tianchen Huang, Mingkuan Zhao, Yang Gao, Feiyang Yuan, Junchi Gu, Xiaohu Zhang et al. (11 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Gait
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Expressive whole-body motion is important for humanoid robots operating in human environments, where robots are expected to move stably while presenting readable and adjustable body behaviors. However, most expressive motions are still obtained from fixed demonstrations or manually designed scripts, making it difficult to reuse a demonstrated style across different motion contents.
+
+---
+
+## Human2Humanoid: Physics-Aware Cross-Morphology Motion Retargeting for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03476)
+- **Authors:** Tianchen Huang, Feiyang Yuan, Junchi Gu, Shurui Fang, Xiaohu Zhang, Yu Wang et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Imitation Learning
+  - Teleoperation
+  - Motion Retargeting
+  - Humanoid
+  - GAN
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Retargeting human motion to humanoid robots is critical for teleoperation, imitation learning and human-robot interaction. However, it remains challenging because of substantial morphological discrepancies between humans and robots, including differences in skeletal topology, limb proportions and degrees of freedom, as well as the scarcity of paired motion data.
+
+---
+
+## SplitAdapter: Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03297)
+- **Authors:** Jeonguk Kang, Hanbyel Cho, Sanghyun Kang, Donghan Koo
+- **Published:** 2026-06
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires stable whole-body control under varying object masses and pickup/placement heights. This becomes particularly challenging in sim-to-real transfer, where object-induced load variation and robot-side dynamics mismatch interact during physical contact.
+
+---
+
+## LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.01458)
+- **Authors:** Hojune Kim, Timothy Chen, Jiankai Sun, Lars W. Osterberg, Qianzhong Chen, Ke Wang et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Robustness
+  - Simulator
+  - Humanoid
+  - Gaussian Splatting
+  - Vision-Language
+  - Fine-tuning
+
+### Summary
+
+Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have, until now, failed to transfer effectively in humanoid loco-manipulation tasks.
+
+---
+
+## Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00637)
+- **Authors:** Shengcheng Fu, Yang Zhang, Zhanxiang Cao, Liyun Yan, Yizhi Chen, Yunpeng Yin et al. (7 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Navigation
+  - Zero-Shot
+  - Humanoid
+
+### Summary
+
+Although reinforcement learning has significantly advanced humanoid locomotion, perceptive policies still struggle on sparse-foothold terrain and constrained environments. Success in these scenarios requires both broad terrain awareness and precise foothold selection, two perceptual roles that conventional encoders often entangle.
+
+---
+
+## Any-ttach: Quick End-effector Swapping Enables Manipulation Dexterity with Simplicity
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30569)
+- **Authors:** Weizhe Ni, Jinzhou Li, Haoyu Li, Cody Andres Alessio-Bunnell, Wenjing Pan, Xianyi Cheng
+- **Published:** 2026-05
+- **Tags:**
+  - Manipulation
+  - Human Demonstration
+  - Task Planning
+  - PPO
+
+### Summary
+
+Robotic manipulation dexterity is often pursued by building increasingly complex high-DoF multifingered hands. While many robotic hands are designed to replicate human morphology, the functional role of human hands suggests a different perspective: much of their complexity may exist to enable tool use and tool making.
+
+---
+
+## ARISTO Hand: Sensing-Driven Distal Hyperextension for Fine-Grained Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30508)
+- **Authors:** Aaron Kim, Dong Ho Kang, Mark Helwig, Mingyo Seo, Kazuto Yokoyama, Tetsuya Narita et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Manipulation
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Manipulating thin objects requires precise contact geometry and reliable force perception, yet many anthropomorphic robotic hands lack the mechanical and sensing capabilities needed for such interactions. We present the ARISTO Hand, a tendon-driven robotic hand that integrates active distal hyperextension with a hybrid fingertip-sensing architecture that combines a rigid, nail-mounted force-torque sensor and a soft capacitive tactile array.
+
+---
+
+## Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30282)
+- **Authors:** Kuangji Zuo, Gen Li, Bofan Lyu, Yanshuo Lu, Boyu Ma, Shijia Han et al. (12 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Navigation
+
+### Summary
+
+Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent.
+
+---
+
+## SalsaAgent: A multimodal embodied language model for interactive dance generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.29219)
+- **Authors:** Payam Jome Yazdian, Zoe Stanley, Angelica Lim
+- **Published:** 2026-05
+- **Tags:**
+  - Humanoid
+  - Fine-tuning
+  - Large Language Model
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+Interaction between humanoids involves bidirectional and nonverbal reactivity, coordination and synchrony. Toward socially aware robots and interactive virtual agents, we present SalsaAgent, a language model that generates expressive, full-body salsa dance motions in reaction to a human leader and against a contextual music backdrop.
+
+---
+
+## DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Control with Diffusion Forcing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28491)
+- **Authors:** Kaiyang Ji, Bingsheng Qian, Binghuan Wu, Kangyi Chen, Ye Shi, Jingya Wang
+- **Published:** 2026-05
+- **Tags:**
+  - Humanoid
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+We study real-time audio-responsive character control as a deployment-faithful problem: strictly causal, bounded-latency streaming that must generate coherent full-body motion at interactive frame rates while the audio condition can change abruptly, including tempo shifts, drops, or user edits. Prior music-to-motion systems are largely optimized for offline generation with global context, and degrade in streaming rollouts where conditioning history becomes stale or unreliable.
+
+---
+
+## Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28394)
+- **Authors:** Gaurav Rai, Ojaswa Sharma
+- **Published:** 2026-05
+- **Tags:**
+  - Simulator
+  - Biped
+  - Distillation
+  - Dataset
+  - Diffusion
+  - Physics-Based Character Animation
+  - Locomotion
+  - Navigation
+
+### Summary
+
+Animation of 2D hand-drawn sketches provides an effective medium for visual communication. However, these sketches pose challenges, particularly in handling occlusions and accurately mapping motion.
+
+---
+
+## EchoAvatar: Real-time Generative Avatar Animation from Audio Streams
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28272)
+- **Authors:** Bohong Chen, Yumeng Li, Yinglin Xu, Youyi Zheng, Yanlin Weng, Kun Zhou
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Large Language Model
+  - Locomotion
+
+### Summary
+
+Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively.
 
 ---
 

@@ -2,6 +2,29 @@
 
 Papers with open-source code repositories.
 
+## 🌟 M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.04829)
+- **Project:** [GitHub](https://github.com/renforce-dynamics/multimodalwbc)
+- **Authors:** Zuxing Lu, Ziang Zheng, Yao Lyu, Jingyu Liu, Feihong Zhang, Song Lu et al. (10 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Simulator
+  - Humanoid
+  - Dataset
+
+### Summary
+
+Building a general-purpose whole-body controller is essential for enabling diverse motion capabilities in humanoid robots across a wide range of downstream tasks, including locomotion and loco-manipulation. Different tasks rely on distinct motion reference modalities: locomotion primarily depends on coordinated robot joint trajectories, whereas manipulation requires precise end-effector trajectory tracking.
+
+---
+
 ## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)

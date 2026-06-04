@@ -1,9 +1,10 @@
 # Teleoperation
 
-**21 papers** in this category.
+**22 papers** in this category.
 
 ## Months
 
+- [2026-06](/teleoperation/2026-06) (1 papers)
 - [2026-05](/teleoperation/2026-05) (1 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
 - [2026-02](/teleoperation/2026-02) (4 papers)
@@ -21,6 +22,26 @@
 ---
 
 ## Recent Papers
+
+## Human2Humanoid: Physics-Aware Cross-Morphology Motion Retargeting for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03476)
+- **Authors:** Tianchen Huang, Feiyang Yuan, Junchi Gu, Shurui Fang, Xiaohu Zhang, Yu Wang et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Imitation Learning
+  - Teleoperation
+  - Motion Retargeting
+  - Humanoid
+  - GAN
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Retargeting human motion to humanoid robots is critical for teleoperation, imitation learning and human-robot interaction. However, it remains challenging because of substantial morphological discrepancies between humans and robots, including differences in skeletal topology, limb proportions and degrees of freedom, as well as the scarcity of paired motion data.
+
+---
 
 ## RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning
 
@@ -302,20 +323,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Imitation Learning
   - Teleoperation
   - Manipulation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Teleoperation of Humanoid Robots: A Survey, [webpage](https://humanoid-teleoperation.github.io/)
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2301.04317)
-- **Published:** 2023-01
-- **Tags:**
-  - Teleoperation
   - Humanoid
 
 ### Summary

@@ -1,5 +1,178 @@
 [
   {
+    "arxiv_id": "2606.05160",
+    "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
+    "paper_url": "https://arxiv.org/abs/2606.05160",
+    "project_url": null,
+    "authors": [
+      "Tianyi Xie",
+      "Haotian Zhang",
+      "Jinhyung Park",
+      "Zi Wang",
+      "Bowen Wen",
+      "Jiefeng Li",
+      "Xueting Li",
+      "Qingwei Ben",
+      "Haoyang Weng",
+      "Yufei Ye",
+      "David Minor",
+      "Tingwu Wang",
+      "Chenfanfu Jiang",
+      "Sanja Fidler",
+      "Jan Kautz",
+      "Linxi Fan",
+      "Yuke Zhu",
+      "Zhengyi Luo",
+      "Umar Iqbal",
+      "Ye Yuan"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-03",
+    "abstract": "Scaling humanoid loco-manipulation requires robot-compatible demonstrations across diverse objects, whole-body motions, and scene geometries, but teleoperation and motion capture are difficult to scale because each collection depends on physical setups, instrumented actors, and robot operation. We present GRAIL, a digital generation pipeline that remains fully virtual until deployment: it composes 3D assets, simulator-ready scenes, and priors from video foundation models (VFMs) to synthesize interactions without rebuilding physical environments or teleoperating the robot. Rather than reconstructing unconstrained in-the-wild videos, GRAIL starts from fully specified 3D configurations in which object geometry, camera parameters, metric scale, environment depth, and a robot-proportioned character are known before video generation and reused during reconstruction. This privileged setup better conditions 4D recovery, allowing model-based object tracking, human motion estimation, and interaction-aware optimization to reconstruct metric 4D human-object interaction (HOI) trajectories with reduced depth ambiguity and morphology mismatch. We retarget the recovered motions to a humanoid robot and train complementary task-general trackers: an object-aware latent adaptor for manipulation and a scene-aware tracker for terrain traversal. GRAIL produces over 20,000 sequences spanning pick-up, object manipulation, sitting, and terrain traversal. Using only GRAIL-generated data, we train egocentric visual policies through a sim-to-real pipeline and deploy them on a Unitree G1 humanoid, achieving 84\\% real-world success on diverse object pick-up and 90\\% success on stair-climbing.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis",
+      "Manipulation",
+      "Sim-to-Real"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Teleoperation",
+      "Manipulation",
+      "Simulator",
+      "Humanoid",
+      "Foundation Model",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.04829",
+    "title": "M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking",
+    "paper_url": "https://arxiv.org/abs/2606.04829",
+    "project_url": "https://github.com/renforce-dynamics/multimodalwbc",
+    "authors": [
+      "Zuxing Lu",
+      "Ziang Zheng",
+      "Yao Lyu",
+      "Jingyu Liu",
+      "Feihong Zhang",
+      "Song Lu",
+      "Xin Yuan",
+      "Changyin Sun",
+      "Xingxing Zuo",
+      "Shengbo Eben Li"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-03",
+    "abstract": "Building a general-purpose whole-body controller is essential for enabling diverse motion capabilities in humanoid robots across a wide range of downstream tasks, including locomotion and loco-manipulation. Different tasks rely on distinct motion reference modalities: locomotion primarily depends on coordinated robot joint trajectories, whereas manipulation requires precise end-effector trajectory tracking. Existing methods often overlook the representational mismatch between dense robot joint angles and sparse end-effector poses. To address this, we propose Multi-Modal Mimic (M3imic), a versatile multi-modal whole-body control framework that unifies heterogeneous motion reference modalities, including robot joint angles, human pose trajectories, and end-effector poses, using modality-specific encoders to map them into a shared latent space. Leveraging large-scale reinforcement learning in the simulator, we train a single policy that achieves sim-to-real transfer across multiple motion reference modalities without modality-specific retraining. Extensive simulation and real-world experiments on the Unitree G1 robot are conducted to evaluate the proposed framework. In simulation, the policy achieves a peak success rate of 98.42\\% on an unseen test dataset, demonstrating its exceptional generalization capability. The code is available at https://github.com/Renforce-Dynamics/MultiModalWBC",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "Locomotion",
+      "Manipulation",
+      "State Estimation",
+      "Sim-to-Real",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Sim-to-Real",
+      "Locomotion",
+      "Manipulation",
+      "Simulator",
+      "Humanoid",
+      "Dataset",
+      "Multi-Modal",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.04718",
+    "title": "CoRe-MoE: Contrastive Reweighted Mixture of Experts for Multi-Terrain Humanoid Locomotion with Gait Adaptation",
+    "paper_url": "https://arxiv.org/abs/2606.04718",
+    "project_url": null,
+    "authors": [
+      "Kailun Huang",
+      "Zikang Xie",
+      "Yanzhe Xie",
+      "Panpan Liao",
+      "Fanghai Zhang",
+      "Yanheng Mai",
+      "Wenhao Xu",
+      "Yunheng Wang",
+      "Renjing Xu",
+      "Haohui Huang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-03",
+    "abstract": "Humans primarily rely on walking and running to traverse complex terrains, without resorting to unnecessarily complex motion patterns. Similarly, humanoid robots should achieve smooth transitions between walking and running while maintaining natural and stable locomotion. However, unifying gait transition and multi-terrain adaptation within a single policy remains challenging due to gradient interference and the distribution shift induced by terrain-dependent visual and dynamic variations. Although Mixture-of-Experts (MoE) architectures can alleviate multi-skill interference, naive joint training often fails to yield clear expert specialization, limiting their effectiveness. To address these challenges, we propose CoRe-MoE, a two-stage reinforcement learning framework that decouples gait generation from terrain adaptation. In the first stage, a stable locomotion policy is learned to produce natural walking and running behaviors with smooth transitions. In the second stage, a terrain-aware MoE branch is introduced and trained with a contrastive objective to shape the gating network, enabling it to capture structured terrain representations and promote expert specialization. The final action is obtained via weighted fusion of the base gait policy and the terrain-aware branch, allowing the policy to preserve stable locomotion patterns while adapting to complex terrains. Extensive simulation results demonstrate that the proposed method outperforms baseline approaches in terms of success rate, locomotion stability, and multi-terrain adaptability. Furthermore, zero-shot deployment on a Unitree G1 humanoid robot validates the effectiveness of our framework, achieving robust walking and running across stairs, slopes, steps, obstacles, and unstructured outdoor terrains, while maintaining accurate foothold placement and dynamic stability under external disturbances.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Zero-Shot",
+      "Humanoid",
+      "Gait",
+      "Walking",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.04735",
+    "title": "Trace-Mediated Peak Bias: Bridging Temporal Credit Assignment and Cognitive Heuristics in Deep Reinforcement Learning",
+    "paper_url": "https://arxiv.org/abs/2606.04735",
+    "project_url": null,
+    "authors": [
+      "Viktor Veselý",
+      "Aleksandar Todorov",
+      "Erwan Escudie",
+      "Matthia Sabatelli"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-03",
+    "abstract": "Temporal credit assignment is central to both biological and artificial intelligence, yet its interaction with non-linear function approximation is poorly understood. We identify a systematic failure mode in deep reinforcement learning (RL) termed Trace-Mediated Peak Bias (TMPB). At intermediate eligibility trace depths, agents irrationally prefer trajectories with high-magnitude reward ``peaks'' over alternatives with higher cumulative returns. This provides a mechanistic account of the Peak-End Rule: a human memory bias where experiences are judged by their most intense moments rather than integrated utility. We show that TMPB emerges because traces amplify distal Temporal Difference errors into ``gradient shocks'' that fixed-step-size Stochastic Gradient Descent cannot normalize, leading to global overestimation. Conversely, adaptive optimizers mitigate this pathology via second-moment normalization. Our results suggest that human-like saliency distortions may emerge naturally from the mathematical constraints of credit assignment in distributed systems, and that adaptive optimization is a theoretical necessity for rational value estimation.",
+    "categories": [
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
     "arxiv_id": "2606.03985",
     "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
     "paper_url": "https://arxiv.org/abs/2606.03985",
@@ -46,29 +219,395 @@
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
-    "arxiv_id": "2606.01851",
-    "title": "PHASOR: Phase-Anchored Universal Action Representations for Humanoid Embodiments",
-    "paper_url": "https://arxiv.org/abs/2606.01851",
+    "arxiv_id": "2606.03994",
+    "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image",
+    "paper_url": "https://arxiv.org/abs/2606.03994",
     "project_url": null,
     "authors": [
-      "Kihyun Kim",
-      "Chaeyun Kim",
-      "Jongho Shin",
-      "Taeyoun Kwon",
-      "Junghyun Kim",
-      "Mijin Koo",
-      "Haon Park"
+      "Inhee Lee",
+      "Sangwon Baik",
+      "Sungjoo Kim",
+      "Hyeonwoo Kim",
+      "Hyunsoo Cha",
+      "Hanbyul Joo"
     ],
     "published": "2026-06",
-    "published_date": "2026-06-01",
-    "abstract": "Learning a good action embedding space is fundamental to scalable robot policy learning, yet existing methods treat action latents as task-specific intermediates rather than first-class representations. The resulting latents are unstructured, embodiment-specific, and weakly tied to motion semantics, limiting interpretability, controllability, and transferability across robots. We position the action embedding space itself as a first-class design target, with downstream policy quality emerging from representation quality. Exploiting motion's intrinsic periodicity, we factorize it into a phase manifold that captures cyclic structure via FFT-parametric coefficients, together with a pose branch that conditions the manifold on non-periodic configuration detail. Combined with motion-semantic distillation, this factorized structure yields a cross-embodiment motion manifold that is interpretable and embodiment-agnostic by design. Anchoring multiple humanoid robots to a shared human-pretrained manifold then produces a unified action embedding space across diverse platforms, achieving strong cross-embodiment retrieval and consistent gains on downstream robot tasks.",
+    "published_date": "2026-06-02",
+    "abstract": "Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under physical simulation due to interpenetrating, hovering, or sinking objects. Existing physics-aware methods address this strictly as a post-hoc layout correction, leaving the underlying geometric errors unresolved. To address this, we introduce SimuScene, a compositional 3D reconstruction pipeline that puts physics in the loop of shape and layout estimation. Rather than using physics merely for layout cleanup, we utilize the physics engine as a diagnostic measurement tool during the generative process itself. By diagnostically simulating reconstructed objects under gravity, we convert penetration and support failures into quantitative correction signals that drive gravity-axis stretching and amodal shape resampling. This physics-informed feedback loop mitigates accumulated reconstruction errors and produces a stable, simulation-ready compositional 3D scene. Extensive experiments demonstrate state-of-the-art performance on physical stability and geometric alignment benchmarks. We further highlight SimuScene's utility by deploying reconstructed environments in humanoid control and robot-arm manipulation tasks.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark",
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "3D Reconstruction",
+      "Benchmark",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2606.03834",
+    "title": "Let the Dynamics Flow: Stable Flow Matching Dynamical Systems",
+    "paper_url": "https://arxiv.org/abs/2606.03834",
+    "project_url": null,
+    "authors": [
+      "Rodrigo Pérez-Dattari",
+      "Francisco Leiva",
+      "Andrea Testa",
+      "Leonel Rozo",
+      "Javier Ruiz del Solar",
+      "Noémie Jaquier"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-02",
+    "abstract": "Flow matching has recently emerged as a powerful approach for imitation learning, enabling scalable, expressive, and multimodal motion policies. However, incorporating formal stability guarantees into these generative models, a prerequisite to ensure safe and generalizable robot behaviors, remains a significant challenge. While modeling robot motions as dynamical systems allows for such stability-based inductive biases, existing frameworks struggle to capture the rich action distributions inherent in complex robotic tasks. This paper introduces Stable Flow Matching Dynamical Systems (SFMDS), a novel framework that bridges the gap between high-capacity generative modeling and formal Lyapunov stability guarantees. SFMDS parametrizes dynamical systems via flow matching while simultaneously constraining the model to a family of stable solutions. We propose two variants: a soft constraint based on a penalty term, and a hard structural constraint embedded directly in the model architecture. We further extend both formulations to Lie groups. Experiments on benchmark datasets, in simulation, and on a humanoid robot show that SFMDS learns stable, scalable, and multimodal dynamical systems in low- and high-dimensional state spaces, enabling safe and expressive robot motion generation.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Imitation Learning",
+      "Generative Models",
+      "Humanoid",
+      "Benchmark",
+      "Dataset",
+      "Flow Matching",
+      "Simulation Benchmark",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.03536",
+    "title": "Bionic Human-Motion Style Transfer for Physically Executable Whole-Body Control of Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2606.03536",
+    "project_url": null,
+    "authors": [
+      "Tianchen Huang",
+      "Mingkuan Zhao",
+      "Yang Gao",
+      "Feiyang Yuan",
+      "Junchi Gu",
+      "Xiaohu Zhang",
+      "Dongdong Zhao",
+      "Shi Yan",
+      "Yu Wang",
+      "Wei Gao",
+      "Shiwu Zhang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-02",
+    "abstract": "Expressive whole-body motion is important for humanoid robots operating in human environments, where robots are expected to move stably while presenting readable and adjustable body behaviors. However, most expressive motions are still obtained from fixed demonstrations or manually designed scripts, making it difficult to reuse a demonstrated style across different motion contents. Inspired by the way human motion styles convey affective and intentional cues through gait rhythm, posture, arm swing and body sway, this paper proposes a bionic generation-to-control framework for exemplar-driven style transfer on humanoid robots. Given a short human style exemplar and a target content motion, the proposed framework generates a stylized whole-body reference that preserves the intended motion content while transferring the demonstrated style. A physics-aware multi-condition latent diffusion model is developed to fuse style, content and trajectory conditions, and classifier-free guidance is used to adjust the style intensity without retraining. To improve hardware executability, contact-consistency and temporal-smoothness regularization are imposed on decoded motions during training. The generated references are then converted into G1-compatible robot references and executed by a preview-based whole-body tracking policy trained with a cluster-and-distill strategy. Simulation and Unitree G1 experiments show that the proposed method can transfer short human style exemplars to diverse robot motion contents, reduce contact and jitter artifacts compared with animation-oriented style-transfer baselines, and achieve a 96.0% success rate over 125 reported real-robot trials. The results demonstrate the feasibility of using short human motion exemplars as reusable bionic sources for physically executable expressive humanoid motion.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Humanoid",
+      "Gait",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.03476",
+    "title": "Human2Humanoid: Physics-Aware Cross-Morphology Motion Retargeting for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2606.03476",
+    "project_url": null,
+    "authors": [
+      "Tianchen Huang",
+      "Feiyang Yuan",
+      "Junchi Gu",
+      "Shurui Fang",
+      "Xiaohu Zhang",
+      "Yu Wang",
+      "Wei Gao",
+      "Shiwu Zhang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-02",
+    "abstract": "Retargeting human motion to humanoid robots is critical for teleoperation, imitation learning and human-robot interaction. However, it remains challenging because of substantial morphological discrepancies between humans and robots, including differences in skeletal topology, limb proportions and degrees of freedom, as well as the scarcity of paired motion data. This paper presents Human2Humanoid, an unsupervised motion retargeting framework that transfers human motions to humanoid robot behaviors with high fidelity. To bridge the domain gap under unpaired data, we adopt a CycleGAN-based architecture equipped with a skeleton-aware graph convolutional network to capture topology-dependent motion features. To address cross-domain scale mismatches, we introduce a morphology-invariant end-effector consistency loss that aligns normalized end-effector trajectories to preserve motion semantics across embodiments. To improve physical plausibility and reduce contact artifacts, we impose explicit physics-aware feasibility constraints to encourage reproduction of the contact patterns in the source motion. Experimental results show that the proposed method successfully retargets human motion to the Unitree G1 humanoid robot without paired data, and outperforms existing methods in both downstream controllability and physical feasibility.",
+    "categories": [
+      "Teleoperation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Imitation Learning",
+      "Teleoperation",
+      "Motion Retargeting",
+      "Humanoid",
+      "GAN",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2606.03297",
+    "title": "SplitAdapter: Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation",
+    "paper_url": "https://arxiv.org/abs/2606.03297",
+    "project_url": null,
+    "authors": [
+      "Jeonguk Kang",
+      "Hanbyel Cho",
+      "Sanghyun Kang",
+      "Donghan Koo"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-02",
+    "abstract": "Humanoid loco-manipulation requires stable whole-body control under varying object masses and pickup/placement heights. This becomes particularly challenging in sim-to-real transfer, where object-induced load variation and robot-side dynamics mismatch interact during physical contact. Existing history-based adapters often compress these factors into a single latent representation, which can weaken robustness under heavy-load manipulation. We propose \\textbf{SplitAdapter: Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation}, which freezes a pretrained box manipulation policy and extends it with object/load and dynamics-aware context encoders trained with split world-model objectives, GRL-based cross-adversarial regularization, and hierarchical Feature-wise Linear Modulation (FiLM). In sim-to-sim experiments and real-world deployment, SplitAdapter improves Full-task success over the base policy and world-model FiLM baselines across object masses of $2$, $4$, and $6$ kg and pickup/placement heights of $0$, $30$, and $60$ cm, with the largest improvements under heavy-load conditions.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Sim-to-Real"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Sim-to-Real",
+      "Manipulation",
+      "Robustness",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.01458",
+    "title": "LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World",
+    "paper_url": "https://arxiv.org/abs/2606.01458",
+    "project_url": null,
+    "authors": [
+      "Hojune Kim",
+      "Timothy Chen",
+      "Jiankai Sun",
+      "Lars W. Osterberg",
+      "Qianzhong Chen",
+      "Ke Wang",
+      "Mac Schwager"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-31",
+    "abstract": "Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have, until now, failed to transfer effectively in humanoid loco-manipulation tasks. We present LEGS (Loco-manipulation via Embodied Gaussian Splatting), a hybrid simulator that composites a mesh foreground (robot, objects, props) over a photorealistic 3D Gaussian Splatting (3DGS) background reconstructed from a handheld scene capture. LEGS uses a procedural motion-primitive generator to synthesize labeled demonstrations at scale without human teleoperation, and a deterministic two-stage color calibration to align the rendered 3DGS image to the robot's deployment camera. On a Unitree G1 humanoid robot, across three pick-and-place tasks of increasing whole-body difficulty and three VLA backbones (psi_0, pi_0.5, GR00T N1.6), a policy trained purely on LEGS data matches or exceeds one trained on human teleoperation demos on every experiment. It also outperforms a mesh-only simulation baseline that ablates the effect of the 3DGS background, showing that photorealistic rendering is a key enabler for synthetic data transfer. Humanoid motion is recorded independently of scene appearance in LEGS, allowing the same auto-generated demonstrations to be re-rendered under new backgrounds and object meshes--covering a new scene at more than 15x lower cost than teleoperation--to augment training data for robustness to scene variations. Under combined object-and-scene appearance shift, the policy trained on re-rendered LEGS-AUG data maintains task success while the baseline trained on teleoperation data fails entirely. Our project page is located at https://legsvla.github.io/.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Robustness",
+      "Simulator",
+      "Humanoid",
+      "Gaussian Splatting",
+      "Vision-Language",
+      "Fine-tuning",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.00637",
+    "title": "Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion",
+    "paper_url": "https://arxiv.org/abs/2606.00637",
+    "project_url": null,
+    "authors": [
+      "Shengcheng Fu",
+      "Yang Zhang",
+      "Zhanxiang Cao",
+      "Liyun Yan",
+      "Yizhi Chen",
+      "Yunpeng Yin",
+      "Yue Gao"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-30",
+    "abstract": "Although reinforcement learning has significantly advanced humanoid locomotion, perceptive policies still struggle on sparse-foothold terrain and constrained environments. Success in these scenarios requires both broad terrain awareness and precise foothold selection, two perceptual roles that conventional encoders often entangle. To address this challenge, we propose Global-Local Attention Decomposition (GLAD) for terrain encoding in humanoid locomotion. Realized by a coarse-to-fine encoder over a robot-centric elevation map, GLAD explicitly separates these objectives: a global attention branch utilizes attention pooling to summarize the surrounding terrain context, while a state-conditioned local attention branch sparsifies and encodes precise foothold-relevant geometry. This explicit attention decomposition prevents the dilution of fine-grained spatial cues while reducing training overhead. Experiments demonstrate that GLAD enables reliable locomotion over challenging gaps, stepping stones, and stairs. Furthermore, the learned policy exhibits emergent terrain-responsive behaviors, autonomously following narrow paths and avoiding obstacles under simple velocity commands without explicit navigation planners. In real-world deployment on a Unitree G1 humanoid robot using onboard LiDAR, the proposed method achieves robust zero-shot sim-to-real transfer across diverse sparse-foothold and obstacle-rich domains.",
+    "categories": [
+      "Locomotion",
+      "Navigation",
+      "Sim-to-Real"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Sim-to-Real",
+      "Locomotion",
+      "Navigation",
+      "Zero-Shot",
+      "Humanoid"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.30569",
+    "title": "Any-ttach: Quick End-effector Swapping Enables Manipulation Dexterity with Simplicity",
+    "paper_url": "https://arxiv.org/abs/2605.30569",
+    "project_url": null,
+    "authors": [
+      "Weizhe Ni",
+      "Jinzhou Li",
+      "Haoyu Li",
+      "Cody Andres Alessio-Bunnell",
+      "Wenjing Pan",
+      "Xianyi Cheng"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "Robotic manipulation dexterity is often pursued by building increasingly complex high-DoF multifingered hands. While many robotic hands are designed to replicate human morphology, the functional role of human hands suggests a different perspective: much of their complexity may exist to enable tool use and tool making. This observation motivates Any-ttach, a tool-centric manipulation framework that treats quick end-effector swapping as a mechanism for dexterity with simplicity. Any-ttach combines a low-cost automatic swapping mechanism for an open-close robot interface, a handheld device for collecting human demonstrations, and a task planning framework that composes learned, parameterized, and planned tool-use skills. The system supports diverse tools and end-effector modules, including daily tools, articulated tools such as scissors, Fin Ray fingers, and a low-cost anthropomorphic hand, through the same shared interface. Our experiments show that Any-ttach improves tool-swapping reliability, increases demonstration efficiency, reduces tool-pose variability, and supports diverse tool-use skills. In two long-horizon tasks, making a sandwich and preparing a cucumber, Any-ttach executes six tool-use subskills through end-effector switching and execution monitoring. These results suggest that robots can expand manipulation capability not only through more complex end-effectors, but also through rapidly exchangeable tools and end-effector modules. More details and videos are available at https://any-ttach.github.io/.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Human Demonstration",
+      "Task Planning",
+      "PPO"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2605.30508",
+    "title": "ARISTO Hand: Sensing-Driven Distal Hyperextension for Fine-Grained Manipulation",
+    "paper_url": "https://arxiv.org/abs/2605.30508",
+    "project_url": null,
+    "authors": [
+      "Aaron Kim",
+      "Dong Ho Kang",
+      "Mark Helwig",
+      "Mingyo Seo",
+      "Kazuto Yokoyama",
+      "Tetsuya Narita",
+      "Luis Sentis"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "Manipulating thin objects requires precise contact geometry and reliable force perception, yet many anthropomorphic robotic hands lack the mechanical and sensing capabilities needed for such interactions. We present the ARISTO Hand, a tendon-driven robotic hand that integrates active distal hyperextension with a hybrid fingertip-sensing architecture that combines a rigid, nail-mounted force-torque sensor and a soft capacitive tactile array. Active hyperextension enables controlled fingertip engagement beyond the kinematic limits of standard flexion, increasing pull-out force by 2.76x for object thicknesses of 1-20 mm while preserving the nominal grasp capability. The rigid nail-mounted sensor provides reliable force measurements during edge contacts, where the sensitivity of proprioceptive force estimation degrades as the contact geometry approaches kinematic singularities. We validate the proposed architecture through quantitative force characterization and a multi-stage SD card extraction and insertion task. Video and supplementary materials are available at: https://aristohand.github.io",
+    "categories": [
+      "Manipulation",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Manipulation",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2605.30282",
+    "title": "Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation",
+    "paper_url": "https://arxiv.org/abs/2605.30282",
+    "project_url": null,
+    "authors": [
+      "Kuangji Zuo",
+      "Gen Li",
+      "Bofan Lyu",
+      "Yanshuo Lu",
+      "Boyu Ma",
+      "Shijia Han",
+      "Xinyu Zhou",
+      "Xichen Yuan",
+      "Chuhao Zhou",
+      "Jiaqi Bai",
+      "Geng Li",
+      "Jianfei Yang"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent. It is difficult to describe which exact object to interact with among similar candidates, where to act on the object, or how the target may change during execution. To address this limitation, we propose Gaze2Act, a novel VLA framework that leverages human gaze as a dynamic and intuitive intent signal for complex interactive manipulation. Gaze2Act first bridges the ego-exo view gap by mapping first-person gaze into the robot's perspective through cross-view semantic matching, producing both an object mask and a gaze point for coarse-to-fine target specification. These cues are then integrated into the policy through perception-level prompting and action-level conditioning, allowing the robot to attend to relevant regions and execute precise interactions under dynamic intent. In a systematic evaluation across seven task categories and 16 real-robot tasks on a Unitree G1 humanoid, Gaze2Act achieves state-of-the-art performance in both intent accuracy and task success rate. It notably outperforms baselines in object disambiguation, fine-grained interaction, and dynamic intent steering. These results demonstrate that human gaze provides a natural, low-burden, and highly expressive modality for human-in-the-loop VLA control.",
+    "categories": [
+      "Manipulation",
+      "Navigation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "Navigation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2605.29219",
+    "title": "SalsaAgent: A multimodal embodied language model for interactive dance generation",
+    "paper_url": "https://arxiv.org/abs/2605.29219",
+    "project_url": null,
+    "authors": [
+      "Payam Jome Yazdian",
+      "Zoe Stanley",
+      "Angelica Lim"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-28",
+    "abstract": "Interaction between humanoids involves bidirectional and nonverbal reactivity, coordination and synchrony. Toward socially aware robots and interactive virtual agents, we present SalsaAgent, a language model that generates expressive, full-body salsa dance motions in reaction to a human leader and against a contextual music backdrop. We formulate interaction as nonverbal motion token passing, extending the vocabulary of a large language model (LLM) to process discrete motion tokens, pairwise relation tokens, and audio. Our contributions include new tokens for full-body and motion relations, LLM fine-tuning using automatically derived text descriptions of skeleton dynamics for token grounding, and a two-stage token-to-diffusion pipeline. Subjective and objective evaluations demonstrate the effectiveness of our approach in terms of motion quality, music and partner coordination, and consistent two-person spatial behavior, with significant improvements over baselines.",
     "categories": [
       "Locomotion"
     ],
     "tags": [
       "Humanoid",
-      "Distillation",
-      "Policy Learning",
+      "Fine-tuning",
+      "Large Language Model",
+      "Diffusion",
       "Locomotion"
     ],
     "real_robot": false,
@@ -78,34 +617,63 @@
     "primary_category": "Locomotion"
   },
   {
-    "arxiv_id": "2605.31343",
-    "title": "Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation",
-    "paper_url": "https://arxiv.org/abs/2605.31343",
+    "arxiv_id": "2605.28491",
+    "title": "DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Control with Diffusion Forcing",
+    "paper_url": "https://arxiv.org/abs/2605.28491",
     "project_url": null,
     "authors": [
-      "Sikai Guo",
-      "Yudong Zhong",
-      "Guoyang Zhao",
-      "Botao Dang",
-      "Zhihai Bi",
-      "Jun Ma"
+      "Kaiyang Ji",
+      "Bingsheng Qian",
+      "Binghuan Wu",
+      "Kangyi Chen",
+      "Ye Shi",
+      "Jingya Wang"
     ],
     "published": "2026-05",
-    "published_date": "2026-05-29",
-    "abstract": "Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators. However, many existing whole-body controllers primarily depend on proprioception and do not incorporate the critical exteroception required for effective terrain topology perception. This limitation can hinder their ability to adapt to varying environmental conditions and navigate complex terrains effectively. In this paper, we introduce TA-WBC, a terrain-aware whole-body control framework for legged manipulators, which features a novel RL-based unified policy tailored to whole-body loco-manipulation tasks in various terrains. Specifically, we employ a hybrid exteroception encoder to extract terrain features, providing an essential basis for the robot to proactively adapt posture and footholds. Furthermore, to facilitate stable cross-terrain loco-manipulation, we propose a novel end-effector sampling method based on the foot contact plane, decoupling manipulation target from base fluctuations. Moreover, a dual-policy distillation module is introduced to integrate expansive whole-body motion with terrain adaptability without catastrophic forgetting. The simulation and real-world experiments validate the robustness of our proposed controller, which leads to a larger reachable space, less tracking error, and reduced unexpected stumbles. This unified policy highlights the promising capabilities of legged manipulators in performing loco-manipulation tasks across complex terrains.",
+    "published_date": "2026-05-27",
+    "abstract": "We study real-time audio-responsive character control as a deployment-faithful problem: strictly causal, bounded-latency streaming that must generate coherent full-body motion at interactive frame rates while the audio condition can change abruptly, including tempo shifts, drops, or user edits. Prior music-to-motion systems are largely optimized for offline generation with global context, and degrade in streaming rollouts where conditioning history becomes stale or unreliable. We introduce DiscoForcing, a streaming audio-driven diffusion framework that combines a causal music encoder that captures rhythmic structure and phase dynamics with a diffusion-forcing sequence model trained under heterogeneous noise levels across the temporal horizon. Building on this, we design a hybrid temporal schedule and a history-guided streaming sampler to explicitly trade off responsiveness against long-horizon consistency under non-stationary audio. Implemented in an end-to-end real-time interactive system with online avatar playback and humanoid deployment workflows, DiscoForcing delivers more stable long-horizon rollouts and sharper audio-motion alignment than prior baselines under matched causality and latency constraints while maintaining real-time throughput.",
     "categories": [
-      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Diffusion",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.28394",
+    "title": "Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization",
+    "paper_url": "https://arxiv.org/abs/2605.28394",
+    "project_url": null,
+    "authors": [
+      "Gaurav Rai",
+      "Ojaswa Sharma"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "Animation of 2D hand-drawn sketches provides an effective medium for visual communication. However, these sketches pose challenges, particularly in handling occlusions and accurately mapping motion. While 3D animation naturally addresses these challenges, estimating 3D motion remains a very complex task. Recent approaches to converting 2D sketches to 3D animations have mainly focused on specific types of motion, such as bipedal movements and facial expressions. We propose Sketch2Motion, a diffusion-guided framework for skeleton-based motion synthesis that combines classical character animation pipelines with deep generative priors. Our method represents motion using skeletal transformations, which are propagated to mesh deformations via linear blend skinning. To guide the resulting animation toward realistic and semantically meaningful motion, we integrate a text-to-video diffusion model via motion-aware score-distillation sampling (MoSDS), enabling optimization without paired motion data. Additionally, we apply physics-inspired smoothness, topological, and contact constraints to stabilize optimization and preserve motion plausibility. Further, we integrate a spring-mass simulator to introduce secondary motion effects. The proposed framework is generalized, fully differentiable, modular, and compatible with biped, quadruped, and non-living articulated characters. Experiments demonstrate that our approach produces temporally coherent, text-aligned animations that outperform baseline motion transfer methods that lack generative priors or explicit physical constraints. We will make our code and dataset publicly available.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Locomotion",
+      "Navigation",
       "State Estimation",
-      "Manipulation",
       "Simulation Benchmark"
     ],
     "tags": [
-      "Whole-Body Control",
-      "Manipulation",
-      "Robustness",
-      "Proprioception",
+      "Simulator",
+      "Biped",
       "Distillation",
-      "Loco-Manipulation and Whole-Body Control",
+      "Dataset",
+      "Diffusion",
+      "Physics-Based Character Animation",
+      "Locomotion",
+      "Navigation",
       "State Estimation",
       "Simulation Benchmark"
     ],
@@ -113,7 +681,38 @@
     "open_source": false,
     "platform": null,
     "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2605.28272",
+    "title": "EchoAvatar: Real-time Generative Avatar Animation from Audio Streams",
+    "paper_url": "https://arxiv.org/abs/2605.28272",
+    "project_url": null,
+    "authors": [
+      "Bohong Chen",
+      "Yumeng Li",
+      "Yinglin Xu",
+      "Youyi Zheng",
+      "Yanlin Weng",
+      "Kun Zhou"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively. In this paper, we introduce a novel framework designed to generate continuous, coherent full-body motion from streaming speech and music with low latency. Central to our approach is a unified streaming architecture capable of synthesizing continuous motion from incremental audio inputs. We employ a robust training strategy that enforces strong audio dependency, allowing the model to seamlessly generalize across conversational speech and rhythmic music without requiring explicit domain labels or mode switching. Additionally, we explored Reinforcement Learning to refine the quality of online generation. Furthermore, we bridge reactive animation with intent-driven behavior via a tool-call interface that allows upstream Large Language Models to inject explicit semantic control. By combining this controllability with stream audio-driven synthesis, our framework serves as a plug-and-play solution for transforming voice agents into interactive humanoid avatars. Extensive experiments demonstrate that our method outperforms state-of-the-art realtime baselines in motion quality and synchronization while maintaining the flexibility required for live deployment. Our code, pre-trained models, and videos are available at https://robinwitch.github.io/EchoAvatar-Page.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Large Language Model",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2605.26006",

@@ -1,9 +1,10 @@
 # State Estimation
 
-**12 papers** in this category.
+**14 papers** in this category.
 
 ## Months
 
+- [2026-06](/state-estimation/2026-06) (2 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
@@ -15,6 +16,41 @@
 ---
 
 ## Recent Papers
+
+## Trace-Mediated Peak Bias: Bridging Temporal Credit Assignment and Cognitive Heuristics in Deep Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.04735)
+- **Authors:** Viktor Veselý, Aleksandar Todorov, Erwan Escudie, Matthia Sabatelli
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - State Estimation
+
+### Summary
+
+Temporal credit assignment is central to both biological and artificial intelligence, yet its interaction with non-linear function approximation is poorly understood. We identify a systematic failure mode in deep reinforcement learning (RL) termed Trace-Mediated Peak Bias (TMPB).
+
+---
+
+## SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03994)
+- **Authors:** Inhee Lee, Sangwon Baik, Sungjoo Kim, Hyeonwoo Kim, Hyunsoo Cha, Hanbyul Joo
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - 3D Reconstruction
+  - Benchmark
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under physical simulation due to interpenetrating, hovering, or sinking objects.
+
+---
 
 ## Representation Without Control: Testing the Realization Effect in Language Models
 

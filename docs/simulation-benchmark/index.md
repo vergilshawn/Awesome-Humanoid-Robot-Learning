@@ -1,9 +1,10 @@
 # Simulation Benchmark
 
-**35 papers** in this category.
+**36 papers** in this category.
 
 ## Months
 
+- [2026-06](/simulation-benchmark/2026-06) (1 papers)
 - [2026-05](/simulation-benchmark/2026-05) (13 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -22,6 +23,27 @@
 ---
 
 ## Recent Papers
+
+## Let the Dynamics Flow: Stable Flow Matching Dynamical Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.03834)
+- **Authors:** Rodrigo Pérez-Dattari, Francisco Leiva, Andrea Testa, Leonel Rozo, Javier Ruiz del Solar, Noémie Jaquier
+- **Published:** 2026-06
+- **Tags:**
+  - Imitation Learning
+  - Generative Models
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Flow Matching
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Flow matching has recently emerged as a powerful approach for imitation learning, enabling scalable, expressive, and multimodal motion policies. However, incorporating formal stability guarantees into these generative models, a prerequisite to ensure safe and generalizable robot behaviors, remains a significant challenge.
+
+---
 
 ## Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory
 
@@ -368,22 +390,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Manipulation
   - Navigation
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Benchmarking Humanoid Imitation Learning with Motion Difficulty
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2512.07248)
-- **Published:** 2025-12
-- **Tags:**
-  - Imitation Learning
-  - Humanoid
-  - Benchmark
   - Simulation Benchmark
 
 ### Summary
