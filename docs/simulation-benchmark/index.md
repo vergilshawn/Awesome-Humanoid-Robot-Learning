@@ -1,11 +1,11 @@
 # Simulation Benchmark
 
-**36 papers** in this category.
+**39 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (1 papers)
-- [2026-05](/simulation-benchmark/2026-05) (13 papers)
+- [2026-06](/simulation-benchmark/2026-06) (2 papers)
+- [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
 - [2026-02](/simulation-benchmark/2026-02) (1 papers)
@@ -23,6 +23,27 @@
 ---
 
 ## Recent Papers
+
+## Flash-WAM: Modality-Aware Distillation for World Action Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.05254)
+- **Authors:** Arman Akbari, Ci Zhang, Arash Akbari, Lin Zhao, Yixiao Chen, Weiwei Chen et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Distillation
+  - Benchmark
+  - Diffusion
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+World-action models (WAMs) jointly generate future video and robot actions through iterative diffusion, achieving strong performance on manipulation benchmarks but requiring tens of denoising steps, a cost that precludes real-time control. Step distillation has emerged as the natural remedy, but off-the-shelf methods break down in the joint video-action setting because video and action streams use different SNR-shifted noise schedules and reach training with substantially different marginal noise distributions, an asymmetry that single-modality distillation methods cannot accommodate.
+
+---
 
 ## Let the Dynamics Flow: Stable Flow Matching Dynamical Systems
 
@@ -42,6 +63,43 @@
 ### Summary
 
 Flow matching has recently emerged as a powerful approach for imitation learning, enabling scalable, expressive, and multimodal motion policies. However, incorporating formal stability guarantees into these generative models, a prerequisite to ensure safe and generalizable robot behaviors, remains a significant challenge.
+
+---
+
+## Pause and Think: A Dataset and Benchmark for Video-Grounded Assistive Action Suggestion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00616)
+- **Authors:** Shivam Singh, Saptarshi Majumder, Pratik Prabhanjan Brahma, Zicheng Liu, Emad Barsoum
+- **Published:** 2026-05
+- **Tags:**
+  - MPC
+  - Scene Understanding
+  - Vision-Language
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Recent Vision-Language Models (VLMs) struggle with grounded reasoning, temporal consistency, and context aware planning in videos. We introduce pause-and-think-T, a reasoning-centric training dataset that encourages models to pause, reason over visual evidence, and produce concise, actionable responses.
+
+---
+
+## Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30928)
+- **Authors:** Usman Nizamani, M. Shaheer Luqman, Fawad Javed Fateh, Ali Shah Ali, Murad Popattia, M. Zeeshan Zia et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Human Demonstration
+  - Benchmark
+  - SAC
+  - Simulation Benchmark
+
+### Summary
+
+Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability.
 
 ---
 
@@ -352,48 +410,5 @@ RoboForge bridges natural language and whole-body humanoid locomotion through a 
 ### Summary
 
 Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
-
----
-
-## 🌟 ComFree-Sim: A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation and Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.12185)
-- **Project:** [GitHub](https://irislab.tech/comfree-sim/)
-- **Published:** 2026-03
-- **Tags:**
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.06181)
-- **Published:** 2026-03
-- **Tags:**
-  - Humanoid
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.11337)
-- **Published:** 2026-02
-- **Tags:**
-  - Manipulation
-  - Navigation
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---

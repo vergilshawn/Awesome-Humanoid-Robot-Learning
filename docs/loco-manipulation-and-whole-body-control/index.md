@@ -1,11 +1,11 @@
 # Loco-Manipulation and Whole-Body Control
 
-**181 papers** in this category.
+**186 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (5 papers)
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (6 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (7 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -35,6 +35,51 @@
 ---
 
 ## Recent Papers
+
+## HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.06493)
+- **Authors:** Lizhi Yang, Junheng Li, Nehar Poddar, Yiling Hou, Gio Huh, Robert Griffin et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Safety
+  - Humanoid
+  - Task Planning
+  - Fine-tuning
+  - Distillation
+
+### Summary
+
+For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references that planners struggle to synthesize from task semantics.
+
+---
+
+## 🌟 Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.05687)
+- **Project:** [GitHub](https://github.com/junhengl/mpc-rl)
+- **Authors:** Junheng Li, Liang Wu, Sergio A. Esteban, Lizhi Yang, Ján Drgoňa, Aaron D. Ames
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - MPC
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+In humanoid motion control, model predictive control (MPC) offers physically grounded prediction and constraint handling, while reinforcement learning (RL) enables robust whole-body skills through large-scale simulation. However, using MPC inside RL often requires time-consuming problem construction or excessive training overhead, making such frameworks difficult to justify in practice.
+
+---
 
 ## GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors
 
@@ -162,6 +207,67 @@ Humanoid loco-manipulation requires stable whole-body control under varying obje
 ### Summary
 
 Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have, until now, failed to transfer effectively in humanoid loco-manipulation tasks.
+
+---
+
+## HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00252)
+- **Authors:** Songyang Liu, Shunyu Yao, Dingyuan Huang, Shuai Li
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Whole-Body Control
+  - Teleoperation
+  - Humanoid
+  - Vision-Language
+  - Underactuated
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Manipulating suspended payloads with humanoid robots is challenging because the robot can only influence an underactuated, oscillatory load through whole-body motion and intermittent contact. Imitation learning provides safe initial behavior but does not directly optimize final placement, while reinforcement learning from scratch is unsafe and sample-inefficient on real humanoids.
+
+---
+
+## Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.31343)
+- **Authors:** Sikai Guo, Yudong Zhong, Guoyang Zhao, Botao Dang, Zhihai Bi, Jun Ma
+- **Published:** 2026-05
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Robustness
+  - Proprioception
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators.
+
+---
+
+## EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28468)
+- **Authors:** Junhwi Cho, Sunggyu Bae, Junghyeon Ma, Hyosang Lee, Jung Kim, Kyungseo Park
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Tactile Sensing
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+We present a hybrid robotic skin that combines electrical impedance tomography (EIT) with pneumatic tactile sensing to improve force reconstruction capability. The developed robotic skin is fabricated entirely by 3D printing and spray coating, making it affordable and easy to build.
 
 ---
 
@@ -339,85 +445,5 @@ Sumo introduces a reinforcement learning framework for humanoid loco-manipulatio
 ### Summary
 
 Achieving versatile and naturalistic whole-body control for humanoid robot scene-interaction remains a significant challenge. ZeroWBC learns a natural humanoid visuomotor control policy directly from human egocentric videos, eliminating the need for large-scale robot teleoperation data.
-
----
-
-## X-Loco: Towards Generalist Humanoid Locomotion Control via Synergetic Policy Distillation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.03733)
-- **Authors:** Dewei Wang, Xinmiao Wang, Chenyun Zhang, Jiyuan Shi, Yingnan Zhao, Chenjia Bai et al. (7 authors)
-- **Published:** 2026-03
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Distillation
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-X-Loco targets generalist humanoid locomotion, including upright locomotion, fall recovery, terrain traversal, and whole-body coordination. It trains multiple oracle specialist policies and uses synergetic policy distillation with a case-adaptive specialist selection mechanism to guide a vision-based student policy.
-
----
-
-## Heracles: Bridging Precise Tracking and Generative Synthesis for General Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.27756)
-- **Published:** 2026-03
-- **Tags:**
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 SafeFlow: Real-Time Text-Driven Humanoid Whole-Body Control via Physics-Guided Rectified Flow and Selective Safety Gating
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.23983)
-- **Project:** [GitHub](https://hanbyelcho.info/safeflow/)
-- **Published:** 2026-03
-- **Tags:**
-  - Whole-Body Control
-  - Safety
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.12263)
-- **Published:** 2026-03
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Foundation Model
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 SteadyTray: Learning Object Balancing Tasks in Humanoid Tray Transport via Residual Reinforcement Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.10306)
-- **Project:** [GitHub](https://steadytray.github.io/)
-- **Published:** 2026-03
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---

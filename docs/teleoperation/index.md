@@ -1,11 +1,11 @@
 # Teleoperation
 
-**22 papers** in this category.
+**26 papers** in this category.
 
 ## Months
 
-- [2026-06](/teleoperation/2026-06) (1 papers)
-- [2026-05](/teleoperation/2026-05) (1 papers)
+- [2026-06](/teleoperation/2026-06) (4 papers)
+- [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
 - [2026-02](/teleoperation/2026-02) (4 papers)
 - [2025-11](/teleoperation/2025-11) (1 papers)
@@ -22,6 +22,48 @@
 ---
 
 ## Recent Papers
+
+## MotionDisco: Motion Discovery for Extreme Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.06139)
+- **Authors:** Ilyass Taouil, Michal Ciebelski, Shafeef Omar, Haizhou Zhao, Angela Dai, Aaron M. Johnson et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Motion Retargeting
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Evolutionary
+  - Large Language Model
+
+### Summary
+
+We present MotionDisco, a framework that discovers contact-rich, long-horizon humanoid loco-manipulation motions from scratch, without relying on teleoperation or motion retargeting from human demonstrations. This is challenging because the space of possible contact interactions grows combinatorially with the task horizon and the number of objects in the scene.
+
+---
+
+## LadderMan: Learning Humanoid Perceptive Ladder Climbing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.05873)
+- **Authors:** Siheng Zhao, Yuanhang Zhang, Ziqi Lu, Pieter Abbeel, Rocky Duan, Koushil Sreenath et al. (9 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Teleoperation
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Foundation Model
+  - PPO
+
+### Summary
+
+Humanoid robots hold great promise for operating in human-centered environments, yet ladder climbing remains one of the most challenging tasks due to sparse footholds and handholds, complex whole-body coordination, and sensitivity to perception and control errors. We present \textbf{LadderMan}, a unified system that enables humanoid robots to robustly climb diverse ladders and perform manipulation under such constrained conditions.
+
+---
 
 ## Human2Humanoid: Physics-Aware Cross-Morphology Motion Retargeting for Humanoid Robots
 
@@ -40,6 +82,47 @@
 ### Summary
 
 Retargeting human motion to humanoid robots is critical for teleoperation, imitation learning and human-robot interaction. However, it remains challenging because of substantial morphological discrepancies between humans and robots, including differences in skeletal topology, limb proportions and degrees of freedom, as well as the scarcity of paired motion data.
+
+---
+
+## SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.02745)
+- **Authors:** Jaehyeon Son, Junhyun Kim, Kyle Kam, Jeremiah Coholich, Seok Joon Kim, Jinhoo Kim et al. (10 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Teleoperation
+  - Human Demonstration
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Vision-language-action models (VLAs) are promising general-purpose robot policies, but adapting them to new tasks typically requires costly task-specific teleoperation data. As an alternative, we study one-shot demo-conditioned VLAs, where a robot policy is conditioned on a single demonstration video of an unseen task.
+
+---
+
+## Constrained Whole-Body Tracking for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00374)
+- **Authors:** Daniel Morton, Pranit Mohnot, Marco Pavone
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Recent advances in reinforcement learning (RL) have demonstrated impressive whole-body agility for humanoid robots, yet ensuring safety and satisfying constraints -- particularly those specified after training -- remains a challenge. Towards this goal, we present ConstrainedMimic, a control framework that leverages whole-body kinematics and dynamics for real-time constraint enforcement within RL tracking policies.
 
 ---
 
@@ -264,66 +347,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Teleoperation
   - Simulator
   - Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Human-Robot Collaboration for the Remote Control of Mobile Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.05773)
-- **Published:** 2025-05
-- **Tags:**
-  - Humanoid
-  - Teleoperation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## NuExo: A Wearable Exoskeleton Covering all Upper Limb ROM for Outdoor Data Collection and Teleoperation of Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2503.10554)
-- **Published:** 2025-03
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## High-Speed and Impact Resilient Teleoperation of Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2409.04639)
-- **Published:** 2024-09
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-  - Impact
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 Deep Imitation Learning for Humanoid Loco-manipulation through Human Teleoperation,  / [code](https://github.com/UT-Austin-RPL/TRILL)
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2309.01952)
-- **Project:** [GitHub](https://ut-austin-rpl.github.io/TRILL/)
-- **Published:** 2023-09
-- **Tags:**
-  - Imitation Learning
-  - Teleoperation
-  - Manipulation
-  - Humanoid
 
 ### Summary
 

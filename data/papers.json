@@ -1,5 +1,208 @@
 [
   {
+    "arxiv_id": "2606.06493",
+    "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
+    "paper_url": "https://arxiv.org/abs/2606.06493",
+    "project_url": null,
+    "authors": [
+      "Lizhi Yang",
+      "Junheng Li",
+      "Nehar Poddar",
+      "Yiling Hou",
+      "Gio Huh",
+      "Robert Griffin",
+      "Georgia Gkioxari",
+      "Aaron Ames"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-04",
+    "abstract": "For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references that planners struggle to synthesize from task semantics. We instead propose a compact, explicit interface that is intuitive, general, modular, and expressive enough for diverse manipulation skills. To this end, we introduce HANDOFF, a single humanoid whole-body controller that follows this interface and is distilled via multi-teacher KL distillation under a context-conditioned gating scheme into a mixture-of-experts student from three complementary specialists: whole-body motion tracking with safety-filtered data, locomotion, and fall-recovery. On the Unitree G1, HANDOFF matches state-of-the-art velocity tracking and offers one of the largest robust manipulation workspaces. We further demonstrate hardware feasibility through multiple natural-language-driven task roll-outs, powered by a VLM-driven agentic planner with no task-specific data or controller fine-tuning.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Safety",
+      "Humanoid",
+      "Task Planning",
+      "Fine-tuning",
+      "Distillation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.06139",
+    "title": "MotionDisco: Motion Discovery for Extreme Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.06139",
+    "project_url": null,
+    "authors": [
+      "Ilyass Taouil",
+      "Michal Ciebelski",
+      "Shafeef Omar",
+      "Haizhou Zhao",
+      "Angela Dai",
+      "Aaron M. Johnson",
+      "Majid Khadiv"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-04",
+    "abstract": "We present MotionDisco, a framework that discovers contact-rich, long-horizon humanoid loco-manipulation motions from scratch, without relying on teleoperation or motion retargeting from human demonstrations. This is challenging because the space of possible contact interactions grows combinatorially with the task horizon and the number of objects in the scene. MotionDisco enables rapid discovery of novel motions by coupling a large language model (LLM) guided evolutionary search over sequences of interactions with an efficient sequential kinodynamic trajectory optimizer and pruning strategy, enabling the rapid discovery of novel skills. Through extensive ablation studies, we show that our LLM-guided search discovers successful whole-body trajectories across several challenging long-horizon tasks. Finally, by training reinforcement learning tracking policies on the discovered trajectories, we transfer the motions to a real humanoid robot. This is the first work to discover and deploy long-horizon humanoid loco-manipulation skills entirely through automated evolutionary search. Supplementary videos of the experiments are available at: https://youtu.be/DHiVz34QYlw.",
+    "categories": [
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Teleoperation",
+      "Motion Retargeting",
+      "Manipulation",
+      "Human Demonstration",
+      "Humanoid",
+      "Evolutionary",
+      "Large Language Model",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2606.05880",
+    "title": "TAGA: Terrain-aware Active Gaze Learning for Generalizable Agile Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2606.05880",
+    "project_url": null,
+    "authors": [
+      "Peizhuo Li",
+      "Hongyi Li",
+      "Mingfeng Fan",
+      "Fangzhou Xu",
+      "Shuhao Liao",
+      "Yuxuan Ma",
+      "Zicheng Zeng",
+      "Ze Wang",
+      "Yongbin Jin",
+      "Yuhong Cao",
+      "Hongtao Wang",
+      "Guillaume Sartoretti"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-04",
+    "abstract": "Agile humanoid locomotion across diverse challenging terrain demands both wide perceptual coverage and precise local geometry understanding. Motivated by the way humans selectively look at relevant terrain during locomotion, we introduce TAGA, a Terrain-aware Active Gaze learning framework for Attention-based humanoid control. By fusing vision, proprioception, and motion commands, our framework guides the model to learn anticipatory cues and actively attend to specific areas of the height scan, selectively using these informative regions for the downstream network. This adaptively increases the information density of observations under tight onboard computational constraints, thus enabling fine-grained perceptive locomotion over larger-scale terrains. We find that such gaze behaviors can naturally emerge through reinforcement learning alone, without requiring additional supervision or explicit guidance, significantly improve training efficiency. As a result, the trained policy demonstrates robust and generalizable locomotion in simulation and on hardware, including reliable terrain-aware foothold selection, elevated-platform traversal, competitive sparse-foothold traversal, and the largest reported real-world gap traversal distance of 1.2m among perceptive humanoid locomotion systems, while maintaining stability under severe perceptual disturbances and environmental interference.",
+    "categories": [
+      "State Estimation",
+      "Locomotion",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Proprioception",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2606.05873",
+    "title": "LadderMan: Learning Humanoid Perceptive Ladder Climbing",
+    "paper_url": "https://arxiv.org/abs/2606.05873",
+    "project_url": null,
+    "authors": [
+      "Siheng Zhao",
+      "Yuanhang Zhang",
+      "Ziqi Lu",
+      "Pieter Abbeel",
+      "Rocky Duan",
+      "Koushil Sreenath",
+      "Yue Wang",
+      "C. Karen Liu",
+      "Guanya Shi"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-04",
+    "abstract": "Humanoid robots hold great promise for operating in human-centered environments, yet ladder climbing remains one of the most challenging tasks due to sparse footholds and handholds, complex whole-body coordination, and sensitivity to perception and control errors. We present \\textbf{LadderMan}, a unified system that enables humanoid robots to robustly climb diverse ladders and perform manipulation under such constrained conditions. Our climbing policy is built on a scalable two-stage learning pipeline, where we use hybrid motion tracking to learn multiple climbing experts from a single reference motion, and distill these experts into a unified depth-based visuomotor climbing policy via hybrid imitation and reinforcement learning. To enable real-world deployment, we leverage vision foundation models to bridge the sim-to-real gap in depth perception. Building on the learned climbing policy, we further train a separate manipulation policy using a dual-agent formulation, allowing stable on-ladder manipulation via teleoperation. Experiments demonstrate that LadderMan achieves robust ladder climbing across a wide range of geometries, successfully transfers to real-world hardware in a zero-shot manner, and supports various manipulation tasks under challenging ladder constraints. Video results are available at https://ladderman-robot.github.io .",
+    "categories": [
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Sim-to-Real"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Sim-to-Real",
+      "Teleoperation",
+      "Manipulation",
+      "Zero-Shot",
+      "Humanoid",
+      "Foundation Model",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2606.05687",
+    "title": "Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.05687",
+    "project_url": "https://github.com/junhengl/mpc-rl",
+    "authors": [
+      "Junheng Li",
+      "Liang Wu",
+      "Sergio A. Esteban",
+      "Lizhi Yang",
+      "Ján Drgoňa",
+      "Aaron D. Ames"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-04",
+    "abstract": "In humanoid motion control, model predictive control (MPC) offers physically grounded prediction and constraint handling, while reinforcement learning (RL) enables robust whole-body skills through large-scale simulation. However, using MPC inside RL often requires time-consuming problem construction or excessive training overhead, making such frameworks difficult to justify in practice. This work studies efficient training-time MPC guidance for humanoid locomotion and manipulation, termed MPC-RL. We introduce a centroidal-dynamics MPC reward formulation that leverages guidance from MPC trajectories in training time. To make this practical in massively parallel RL, we develop $π^n$MPC, a parallel-in-horizon and construction-free batched GPU MPC solver that operates directly on time-varying dynamics to avoid high memory usage and pre-compilation. Through a variety of comparative studies and hardware validations, we have found that MPC-RL achieves superior performance in locomotion and manipulation skills. The code base is available at https://github.com/junhengl/mpc-rl.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "MPC",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2606.05160",
     "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
     "paper_url": "https://arxiv.org/abs/2606.05160",
@@ -53,6 +256,45 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.05254",
+    "title": "Flash-WAM: Modality-Aware Distillation for World Action Models",
+    "paper_url": "https://arxiv.org/abs/2606.05254",
+    "project_url": null,
+    "authors": [
+      "Arman Akbari",
+      "Ci Zhang",
+      "Arash Akbari",
+      "Lin Zhao",
+      "Yixiao Chen",
+      "Weiwei Chen",
+      "Xuan Zhang",
+      "Geng Yuan",
+      "Yanzhi Wang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-03",
+    "abstract": "World-action models (WAMs) jointly generate future video and robot actions through iterative diffusion, achieving strong performance on manipulation benchmarks but requiring tens of denoising steps, a cost that precludes real-time control. Step distillation has emerged as the natural remedy, but off-the-shelf methods break down in the joint video-action setting because video and action streams use different SNR-shifted noise schedules and reach training with substantially different marginal noise distributions, an asymmetry that single-modality distillation methods cannot accommodate. We introduce \\textbf{Flash-WAM}, a modality-aware step-distillation framework inspired by consistency distillation that selects the consistency function for each modality to match its noise regime: a linear-gradient-scaling parametrization for the action stream's low-noise regime, paired with a variance-preserving parametrization for the video stream's high-noise regime, grounded in a structural analysis of the consistency-function family that characterizes the achievable gradient scaling under the consistency boundary condition. Instantiated on LingBot-VA, Flash-WAM compresses inference to a single step in each modality. On RoboTwin 2.0, this reduces per-chunk latency from $8.1$ seconds to $348$ ms on NVIDIA L40S, a $23{\\times}$ speedup that enables real-time inference. Flash-WAM preserves task success on simulation benchmarks ($85.5\\%$ RoboTwin 2.0, $95.7\\%$ LIBERO) and substantially recovers real-world performance ($60\\%$ average on a Unitree G1 humanoid robot), while naive consistency distillation drops to $24\\%$ at the same step budget.",
+    "categories": [
+      "Simulation Benchmark",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Distillation",
+      "Benchmark",
+      "Diffusion",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2606.04829",
@@ -146,25 +388,62 @@
     "primary_category": "Locomotion"
   },
   {
-    "arxiv_id": "2606.04735",
-    "title": "Trace-Mediated Peak Bias: Bridging Temporal Credit Assignment and Cognitive Heuristics in Deep Reinforcement Learning",
-    "paper_url": "https://arxiv.org/abs/2606.04735",
+    "arxiv_id": "2606.05330",
+    "title": "A Model of Multi-turn Human Persuadability Using Probabilistic Belief Tracing",
+    "paper_url": "https://arxiv.org/abs/2606.05330",
     "project_url": null,
     "authors": [
-      "Viktor Veselý",
-      "Aleksandar Todorov",
-      "Erwan Escudie",
-      "Matthia Sabatelli"
+      "Jared Moore",
+      "Noah Goodman",
+      "Nick Haber",
+      "Max Kleiman-Weiner"
     ],
     "published": "2026-06",
     "published_date": "2026-06-03",
-    "abstract": "Temporal credit assignment is central to both biological and artificial intelligence, yet its interaction with non-linear function approximation is poorly understood. We identify a systematic failure mode in deep reinforcement learning (RL) termed Trace-Mediated Peak Bias (TMPB). At intermediate eligibility trace depths, agents irrationally prefer trajectories with high-magnitude reward ``peaks'' over alternatives with higher cumulative returns. This provides a mechanistic account of the Peak-End Rule: a human memory bias where experiences are judged by their most intense moments rather than integrated utility. We show that TMPB emerges because traces amplify distal Temporal Difference errors into ``gradient shocks'' that fixed-step-size Stochastic Gradient Descent cannot normalize, leading to global overestimation. Conversely, adaptive optimizers mitigate this pathology via second-moment normalization. Our results suggest that human-like saliency distortions may emerge naturally from the mathematical constraints of credit assignment in distributed systems, and that adaptive optimization is a theoretical necessity for rational value estimation.",
+    "abstract": "Large language models can shift human beliefs across high-stakes domains, but most persuasion studies rely on pre/post belief change. These endpoint measures identify whether persuasion occurred, yet miss where and how beliefs moved within a dialogue. We present PERSUASIONTRACE, a framework for studying persuasion in human-LLM interaction. Built on a web-based experimental platform, PERSUASIONTRACE contributes a tool for multi-turn persuasion studies and a process-level evaluation protocol: it records multi-turn belief reports from human or simulated targets of persuasion, annotates persuader turns with rhetorical dimensions (logos/pathos/ethos), and evaluates simulators by fidelity to real human belief dynamics. Using this framework, we find that human targets group into two clusters of multi-turn belief updates and exhibit susceptibility to rhetorical strategies, and that LLMs are persuasive across generic and personalized topics, text and audio modalities, and multi-turn interactions. Prior work has chiefly used vanilla-prompted LLMs to simulate human targets, but we show that these simulators fail to replicate human belief dynamics. We introduce a Bayesian-network simulated target that maintains an explicit latent belief state over time so each persuader message yields cognitively realistic belief updates. In human-likeness evaluation, our Bayesian target scores near a human reference (81 vs 80), while baseline LLM targets score substantially lower (64). PERSUASIONTRACE reframes persuasion evaluation from endpoint movement alone to process fidelity, providing a stronger basis for scientific analysis and safer optimization of persuasive systems.",
     "categories": [
       "State Estimation"
     ],
     "tags": [
-      "Reinforcement Learning",
+      "Simulator",
+      "Large Language Model",
       "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2606.03994",
+    "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image",
+    "paper_url": "https://arxiv.org/abs/2606.03994",
+    "project_url": null,
+    "authors": [
+      "Inhee Lee",
+      "Sangwon Baik",
+      "Sungjoo Kim",
+      "Hyeonwoo Kim",
+      "Hyunsoo Cha",
+      "Hanbyul Joo"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-02",
+    "abstract": "Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under physical simulation due to interpenetrating, hovering, or sinking objects. Existing physics-aware methods address this strictly as a post-hoc layout correction, leaving the underlying geometric errors unresolved. To address this, we introduce SimuScene, a compositional 3D reconstruction pipeline that puts physics in the loop of shape and layout estimation. Rather than using physics merely for layout cleanup, we utilize the physics engine as a diagnostic measurement tool during the generative process itself. By diagnostically simulating reconstructed objects under gravity, we convert penetration and support failures into quantitative correction signals that drive gravity-axis stretching and amodal shape resampling. This physics-informed feedback loop mitigates accumulated reconstruction errors and produces a stable, simulation-ready compositional 3D scene. Extensive experiments demonstrate state-of-the-art performance on physical stability and geometric alignment benchmarks. We further highlight SimuScene's utility by deploying reconstructed environments in humanoid control and robot-arm manipulation tasks.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark",
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "3D Reconstruction",
+      "Benchmark",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark"
     ],
     "real_robot": false,
     "open_source": false,
@@ -217,42 +496,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2606.03994",
-    "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image",
-    "paper_url": "https://arxiv.org/abs/2606.03994",
-    "project_url": null,
-    "authors": [
-      "Inhee Lee",
-      "Sangwon Baik",
-      "Sungjoo Kim",
-      "Hyeonwoo Kim",
-      "Hyunsoo Cha",
-      "Hanbyul Joo"
-    ],
-    "published": "2026-06",
-    "published_date": "2026-06-02",
-    "abstract": "Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under physical simulation due to interpenetrating, hovering, or sinking objects. Existing physics-aware methods address this strictly as a post-hoc layout correction, leaving the underlying geometric errors unresolved. To address this, we introduce SimuScene, a compositional 3D reconstruction pipeline that puts physics in the loop of shape and layout estimation. Rather than using physics merely for layout cleanup, we utilize the physics engine as a diagnostic measurement tool during the generative process itself. By diagnostically simulating reconstructed objects under gravity, we convert penetration and support failures into quantitative correction signals that drive gravity-axis stretching and amodal shape resampling. This physics-informed feedback loop mitigates accumulated reconstruction errors and produces a stable, simulation-ready compositional 3D scene. Extensive experiments demonstrate state-of-the-art performance on physical stability and geometric alignment benchmarks. We further highlight SimuScene's utility by deploying reconstructed environments in humanoid control and robot-arm manipulation tasks.",
-    "categories": [
-      "State Estimation",
-      "Simulation Benchmark",
-      "Manipulation"
-    ],
-    "tags": [
-      "Manipulation",
-      "Humanoid",
-      "3D Reconstruction",
-      "Benchmark",
-      "PPO",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "State Estimation"
   },
   {
     "arxiv_id": "2606.03834",
@@ -407,6 +650,111 @@
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
+    "arxiv_id": "2606.02745",
+    "title": "SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos",
+    "paper_url": "https://arxiv.org/abs/2606.02745",
+    "project_url": null,
+    "authors": [
+      "Jaehyeon Son",
+      "Junhyun Kim",
+      "Kyle Kam",
+      "Jeremiah Coholich",
+      "Seok Joon Kim",
+      "Jinhoo Kim",
+      "Chris Dongjoo Kim",
+      "Jaemin Cho",
+      "Dieter Fox",
+      "Zsolt Kira"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-01",
+    "abstract": "Vision-language-action models (VLAs) are promising general-purpose robot policies, but adapting them to new tasks typically requires costly task-specific teleoperation data. As an alternative, we study one-shot demo-conditioned VLAs, where a robot policy is conditioned on a single demonstration video of an unseen task. We find that existing end-to-end approaches often struggle when successful execution requires precisely localizing small target regions. To address this limitation, we propose SeeTraceAct, a demo-conditioned VLA framework that encourages precise spatial grounding through visibility-aware prediction of future end-effector traces. To enable reproducible evaluation with cross-embodiment demonstrations, we introduce and release RoboCasa-DC, a demo-conditioned extension of RoboCasa with episode-paired humanoid videos. Experiments on RoboCasa-DC and a real-world benchmark, where a Franka Panda arm is conditioned on human demonstrations, show that SeeTraceAct outperforms baselines, achieving the best success rate across all four RoboCasa-DC settings and improving real-world average success by 12.5 percentage points.",
+    "categories": [
+      "Teleoperation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Human Demonstration",
+      "Humanoid",
+      "Vision-Language",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2606.01851",
+    "title": "PHASOR: Phase-Anchored Universal Action Representations for Humanoid Embodiments",
+    "paper_url": "https://arxiv.org/abs/2606.01851",
+    "project_url": null,
+    "authors": [
+      "Kihyun Kim",
+      "Chaeyun Kim",
+      "Jongho Shin",
+      "Taeyoun Kwon",
+      "Junghyun Kim",
+      "Mijin Koo",
+      "Haon Park"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-01",
+    "abstract": "Learning a good action embedding space is fundamental to scalable robot policy learning, yet existing methods treat action latents as task-specific intermediates rather than first-class representations. The resulting latents are unstructured, embodiment-specific, and weakly tied to motion semantics, limiting interpretability, controllability, and transferability across robots. We position the action embedding space itself as a first-class design target, with downstream policy quality emerging from representation quality. Exploiting motion's intrinsic periodicity, we factorize it into a phase manifold that captures cyclic structure via FFT-parametric coefficients, together with a pose branch that conditions the manifold on non-periodic configuration detail. Combined with motion-semantic distillation, this factorized structure yields a cross-embodiment motion manifold that is interpretable and embodiment-agnostic by design. Anchoring multiple humanoid robots to a shared human-pretrained manifold then produces a unified action embedding space across diverse platforms, achieving strong cross-embodiment retrieval and consistent gains on downstream robot tasks.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Distillation",
+      "Policy Learning",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.02449",
+    "title": "HLL: Can Agents Cross Humanity's Last Line of Verification?",
+    "paper_url": "https://arxiv.org/abs/2606.02449",
+    "project_url": "https://github.com/xinhaos0101/hll",
+    "authors": [
+      "Xinhao Song",
+      "Su Su",
+      "Sirui Song",
+      "Hongliang Wu",
+      "Wen Shen",
+      "Zhihua Wei",
+      "Gongshen Liu",
+      "Linfeng Zhang",
+      "Dongrui Liu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-01",
+    "abstract": "Multimodal agents are increasingly expected to operate interfaces on behalf of users, raising a central deployment question: can they truly substitute for humans in workflows that services deliberately protect against automation? CAPTCHA verification makes this question concrete. It is not merely a visual puzzle, but a human-verification boundary placed before account creation, content access, form submission, and other protected actions. We introduce \\textbf{Humanity's Last Line of Verification (HLL)}, a controlled benchmark that uses interactive CAPTCHA verification to evaluate whether agents can cross this boundary through grounded, human-like interaction rather than recognition alone. HLL covers diverse CAPTCHA interactions and exposes agents to controlled realism stressors, including cluttered webpages, harder task variants, and trace-conditioned validation of the solving process. We evaluate eight frontier multimodal agents in a closed-loop GUI environment. The results show that current agents remain brittle at this human-substitution boundary: performance varies sharply across verification types, degrades under realistic interface conditions, and drops further when correct answers must be supported by valid action traces. By exposing gaps in localization, action calibration, state tracking, and process consistency, HLL provides a concrete testbed for measuring how close multimodal agents are to acting as human substitutes in protected real-world workflows. Our code is available at https://github.com/XinhaoS0101/HLL",
+    "categories": [
+      "Navigation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Benchmark",
+      "PPO",
+      "Navigation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
     "arxiv_id": "2606.01458",
     "title": "LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World",
     "paper_url": "https://arxiv.org/abs/2606.01458",
@@ -482,6 +830,213 @@
     "real_robot": true,
     "open_source": false,
     "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.00616",
+    "title": "Pause and Think: A Dataset and Benchmark for Video-Grounded Assistive Action Suggestion",
+    "paper_url": "https://arxiv.org/abs/2606.00616",
+    "project_url": null,
+    "authors": [
+      "Shivam Singh",
+      "Saptarshi Majumder",
+      "Pratik Prabhanjan Brahma",
+      "Zicheng Liu",
+      "Emad Barsoum"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-30",
+    "abstract": "Recent Vision-Language Models (VLMs) struggle with grounded reasoning, temporal consistency, and context aware planning in videos. We introduce pause-and-think-T, a reasoning-centric training dataset that encourages models to pause, reason over visual evidence, and produce concise, actionable responses. The dataset promotes structured reasoning prior to answer generation, guiding models toward human-like, scene-grounded assistance. We fine-tune a compact 4B-parameter model and evaluate it on our pause-and-think-B benchmark targeting contextual understanding and goal planning tasks. The model achieves 58.0% accuracy at 59x fewer parameters than Qwen3-VL-235B (58.9%), matching GPT-5.2 on scene understanding and surpassing GPT-4o. Beyond our benchmark, it also shows strong out-of-distribution performance on EgoThink and TempCompass, with substantial gains in affordance, assistance, attribution recognition, situated reasoning, and temporal order, without benchmark-specific training. Our results indicate that targeted reasoning supervision enables compact models to deliver actionable, visually grounded guidance while generalizing beyond training data, without requiring large-scale model expansion.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "MPC",
+      "Scene Understanding",
+      "Vision-Language",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.00374",
+    "title": "Constrained Whole-Body Tracking for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2606.00374",
+    "project_url": null,
+    "authors": [
+      "Daniel Morton",
+      "Pranit Mohnot",
+      "Marco Pavone"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-29",
+    "abstract": "Recent advances in reinforcement learning (RL) have demonstrated impressive whole-body agility for humanoid robots, yet ensuring safety and satisfying constraints -- particularly those specified after training -- remains a challenge. Towards this goal, we present ConstrainedMimic, a control framework that leverages whole-body kinematics and dynamics for real-time constraint enforcement within RL tracking policies. By integrating principles from operational space control and control barrier functions (CBFs), we enable the satisfaction of arbitrary runtime constraints on both the kinematic reference motion and the underlying dynamics. In whole-body motion-tracking and teleoperation experiments on a (simulated) Unitree G1 with a learned policy, we demonstrate collision avoidance (both with the robot body and external obstacles), joint limits, and center of mass stability constraints. By remaining consistent with the current contact mode and tracking objectives, we minimally restrict the capabilities of the policy when constraints are active. Our method is fully differentiable, runs on CPU, GPU, and TPU, and can be deployed at up to 300-500 Hz. All software will be freely available upon publication.",
+    "categories": [
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Teleoperation",
+      "Safety",
+      "Humanoid",
+      "Collision",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2606.00252",
+    "title": "HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads",
+    "paper_url": "https://arxiv.org/abs/2606.00252",
+    "project_url": null,
+    "authors": [
+      "Songyang Liu",
+      "Shunyu Yao",
+      "Dingyuan Huang",
+      "Shuai Li"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-29",
+    "abstract": "Manipulating suspended payloads with humanoid robots is challenging because the robot can only influence an underactuated, oscillatory load through whole-body motion and intermittent contact. Imitation learning provides safe initial behavior but does not directly optimize final placement, while reinforcement learning from scratch is unsafe and sample-inefficient on real humanoids. We present HOIST-Humanoid Optimized with Imitation and Sample-efficient Tuning for manipulating suspended loads. HOIST first finetunes a high-level vision-language-action (VLA) policy from virtual-reality (VR) teleoperation demonstrations and executes its commands through a whole-body controller. It then uses VLA rollouts and iterative batched RL to improve placement accuracy and stopping behavior. Experiments in simulation and on a real humanoid show that HOIST improves over imitation-only and additional-demonstration baselines; compared with pure VLA rollouts, HOIST reduces translational placement error by 19.9 cm and raw angular error by 3.56 degrees, demonstrating the potential of humanoids for underactuated material-handling tasks.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Imitation Learning",
+      "Whole-Body Control",
+      "Teleoperation",
+      "Humanoid",
+      "Vision-Language",
+      "Underactuated",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2605.31343",
+    "title": "Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2605.31343",
+    "project_url": null,
+    "authors": [
+      "Sikai Guo",
+      "Yudong Zhong",
+      "Guoyang Zhao",
+      "Botao Dang",
+      "Zhihai Bi",
+      "Jun Ma"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-29",
+    "abstract": "Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators. However, many existing whole-body controllers primarily depend on proprioception and do not incorporate the critical exteroception required for effective terrain topology perception. This limitation can hinder their ability to adapt to varying environmental conditions and navigate complex terrains effectively. In this paper, we introduce TA-WBC, a terrain-aware whole-body control framework for legged manipulators, which features a novel RL-based unified policy tailored to whole-body loco-manipulation tasks in various terrains. Specifically, we employ a hybrid exteroception encoder to extract terrain features, providing an essential basis for the robot to proactively adapt posture and footholds. Furthermore, to facilitate stable cross-terrain loco-manipulation, we propose a novel end-effector sampling method based on the foot contact plane, decoupling manipulation target from base fluctuations. Moreover, a dual-policy distillation module is introduced to integrate expansive whole-body motion with terrain adaptability without catastrophic forgetting. The simulation and real-world experiments validate the robustness of our proposed controller, which leads to a larger reachable space, less tracking error, and reduced unexpected stumbles. This unified policy highlights the promising capabilities of legged manipulators in performing loco-manipulation tasks across complex terrains.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Manipulation",
+      "Robustness",
+      "Proprioception",
+      "Distillation",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2605.30928",
+    "title": "Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization",
+    "paper_url": "https://arxiv.org/abs/2605.30928",
+    "project_url": null,
+    "authors": [
+      "Usman Nizamani",
+      "M. Shaheer Luqman",
+      "Fawad Javed Fateh",
+      "Ali Shah Ali",
+      "Murad Popattia",
+      "M. Zeeshan Zia",
+      "Quoc-Huy Tran"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-29",
+    "abstract": "Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability. In this work, we introduce a novel human-like RL framework that predicts action sequences closely aligned with human behaviors while maximizing rewards. Specifically, we encode human demonstrations into macro actions using a hierarchical macro action quantization approach (termed HiMAQ) consisting of two successive levels of vector quantization. The lower quantization level maps input actions to fine-grained subaction clusters, while the higher quantization level aggregates these subaction clusters into action clusters. Extensive evaluations on the D4RL benchmarks show that our hierarchical approach outperforms the non-hierarchical baseline (MAQ), achieving better human-likeness scores while maintaining comparable or better success rates than previous RL agents. The improvements generalize across integrations with various RL algorithms, namely IQL, SAC, and RLPD.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Human Demonstration",
+      "Benchmark",
+      "SAC",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2605.30770",
+    "title": "SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World",
+    "paper_url": "https://arxiv.org/abs/2605.30770",
+    "project_url": null,
+    "authors": [
+      "Ruiqi Yu",
+      "Yiwen Wang",
+      "Yuan Hao",
+      "Jun WU",
+      "Qiuguo Zhu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-29",
+    "abstract": "Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors. We propose SSR, an efficient end-to-end framework for egocentric vision-based humanoid traversal that jointly learns these capabilities. SSR introduces imagined foothold guidance, which learns to model forthcoming swing-foot contacts and evaluates their support to guide pre-touchdown swings toward stable regions, reducing edge slips. It further employs equivariant latent-space symmetry augmentation to efficiently induce bilateral coordination under high-dimensional visual observations, and uses terrain-specific multi-discriminator motion priors to encourage human-like behavior across scenes. Extensive experiments show that SSR achieves safe, stable, and high-quality locomotion on diverse real-world terrains, including stairs with varied structures and extreme challenges such as wide gaps and high platforms, while enabling reliable long-horizon traversal in open outdoor environments.",
+    "categories": [
+      "Locomotion",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
   },
@@ -615,6 +1170,112 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.28549",
+    "title": "SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints",
+    "paper_url": "https://arxiv.org/abs/2605.28549",
+    "project_url": null,
+    "authors": [
+      "Yantong Wei",
+      "Kaihong Huang",
+      "Hainan Pan",
+      "Jiawei Luo",
+      "Jiawei Zhou",
+      "Ziyan Mai",
+      "Zhiwen Zeng",
+      "Yaonan Wang",
+      "Huimin Lu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-viable kinematic reference data and the inability of existing frameworks to maintain stability during sprints. To overcome these limitations, we introduce SPRINT, a novel framework driven by efficient, frequency-adaptive spectral priors. By characterizing the fundamental periodicity of human locomotion in the frequency domain using a reference library of five discrete motion sequences, these priors generate kinematically feasible joint trajectories across a broad velocity spectrum, successfully extrapolating to speeds that exceed the reference distribution. Guided by these pretrained priors, the SPRINT policy achieves zero-shot sim-to-real transfer in field experiments on the Unitree G1 platform, reaching a peak sprinting velocity of 6 m/s and demonstrating seamless gait transitions while preserving biomimetic naturalness. Ultimately, this work establishes frequency-adaptive spectral priors as a highly data-efficient foundation for humanoid athletic sprints. The project page is available at https://anonymous.4open.science/w/SPRINT-138A/.",
+    "categories": [
+      "Locomotion",
+      "Sim-to-Real",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Locomotion",
+      "Zero-Shot",
+      "Humanoid",
+      "Gait",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2605.28468",
+    "title": "EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction",
+    "paper_url": "https://arxiv.org/abs/2605.28468",
+    "project_url": null,
+    "authors": [
+      "Junhwi Cho",
+      "Sunggyu Bae",
+      "Junghyeon Ma",
+      "Hyosang Lee",
+      "Jung Kim",
+      "Kyungseo Park"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "We present a hybrid robotic skin that combines electrical impedance tomography (EIT) with pneumatic tactile sensing to improve force reconstruction capability. The developed robotic skin is fabricated entirely by 3D printing and spray coating, making it affordable and easy to build. A Tikhonov-regularized inverse reconstruction, paired with per-pad pneumatic calibration, enables accurate large-area tactile sensing with a simple measurement scheme. For validation, we conducted load-cell indentation experiments; the results showed consistent force reconstruction across locations within a pad. Compared with an EIT-only baseline, sensitivity non-uniformity was also reduced, with the coefficient of variation decreasing from 0.31 to 0.14, indicating that the proposed approach addresses a longstanding limitation of EIT. We further demonstrated chest-mounted integration on a humanoid robot and found that the pneumatic signals remained reliable across diverse contact scenarios, including multiple simultaneous contacts on the same sensing pad. These results indicate a practical path toward accurate, scalable whole-body tactile sensing in real robotic systems.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "tags": [
+      "Real Robot",
+      "Humanoid",
+      "Tactile Sensing",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2605.27886",
+    "title": "Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language",
+    "paper_url": "https://arxiv.org/abs/2605.27886",
+    "project_url": "https://github.com/nathanwu7/tabero",
+    "authors": [
+      "Qiwei Wu",
+      "Rui Zhang",
+      "Xin Xiang",
+      "Tao Li",
+      "Weihua Zhang",
+      "Junjie Lai",
+      "Renjing Xu"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-27",
+    "abstract": "Tactile sensing is essential for robots to achieve human-like gentle manipulation. However, existing Vision-Language-Action (VLA) models struggle to exploit tactile feedback for gentle manipulation due to scarce aligned vision-tactile-language data and the lack of effective closed-loop force feedback mechanisms. To address these challenges, we introduce Tabero, a benchmark and model suite for gentle, language-conditioned robotic manipulation that demands fine-grained contact force perception. First, the Tabero benchmark addresses the scarcity of tactile data by presenting a data-efficient pipeline that repurposes open-source robot manipulation trajectories to generate diverse vision-tactile-language tasks, and establishes a multidimensional evaluation protocol that measures task success alongside physical interaction quality. Second, we propose Tabero-VTLA, an architecture with a decoupled force-position command interface; the resulting force-position commands are executed by a fixed hybrid controller to enable real-time, force-aware manipulation. Evaluated on Tabero, our model maintains high task success while reducing average grip force by over 70\\% under gentle instructions, demonstrating its ability to modulate interaction forces based on multimodal experience. Our code is publicly available at https://github.com/NathanWu7/Tabero.",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "Tactile Sensing",
+      "Language-Conditioned",
+      "Vision-Language",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
   },
   {
     "arxiv_id": "2605.28491",

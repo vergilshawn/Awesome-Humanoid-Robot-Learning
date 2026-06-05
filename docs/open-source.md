@@ -2,6 +2,29 @@
 
 Papers with open-source code repositories.
 
+## 🌟 Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.05687)
+- **Project:** [GitHub](https://github.com/junhengl/mpc-rl)
+- **Authors:** Junheng Li, Liang Wu, Sergio A. Esteban, Lizhi Yang, Ján Drgoňa, Aaron D. Ames
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - MPC
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+In humanoid motion control, model predictive control (MPC) offers physically grounded prediction and constraint handling, while reinforcement learning (RL) enables robust whole-body skills through large-scale simulation. However, using MPC inside RL often requires time-consuming problem construction or excessive training overhead, making such frameworks difficult to justify in practice.
+
+---
+
 ## 🌟 M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.04829)
@@ -22,6 +45,45 @@ Papers with open-source code repositories.
 ### Summary
 
 Building a general-purpose whole-body controller is essential for enabling diverse motion capabilities in humanoid robots across a wide range of downstream tasks, including locomotion and loco-manipulation. Different tasks rely on distinct motion reference modalities: locomotion primarily depends on coordinated robot joint trajectories, whereas manipulation requires precise end-effector trajectory tracking.
+
+---
+
+## 🌟 HLL: Can Agents Cross Humanity's Last Line of Verification?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.02449)
+- **Project:** [GitHub](https://github.com/xinhaos0101/hll)
+- **Authors:** Xinhao Song, Su Su, Sirui Song, Hongliang Wu, Wen Shen, Zhihua Wei et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
+  - PPO
+  - Navigation
+  - Simulation Benchmark
+
+### Summary
+
+Multimodal agents are increasingly expected to operate interfaces on behalf of users, raising a central deployment question: can they truly substitute for humans in workflows that services deliberately protect against automation? CAPTCHA verification makes this question concrete. It is not merely a visual puzzle, but a human-verification boundary placed before account creation, content access, form submission, and other protected actions.
+
+---
+
+## 🌟 Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.27886)
+- **Project:** [GitHub](https://github.com/nathanwu7/tabero)
+- **Authors:** Qiwei Wu, Rui Zhang, Xin Xiang, Tao Li, Weihua Zhang, Junjie Lai et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Manipulation
+  - Tactile Sensing
+  - Language-Conditioned
+  - Vision-Language
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Tactile sensing is essential for robots to achieve human-like gentle manipulation. However, existing Vision-Language-Action (VLA) models struggle to exploit tactile feedback for gentle manipulation due to scarce aligned vision-tactile-language data and the lack of effective closed-loop force feedback mechanisms.
 
 ---
 

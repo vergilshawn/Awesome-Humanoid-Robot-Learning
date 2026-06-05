@@ -1,11 +1,11 @@
 # Locomotion
 
-**105 papers** in this category.
+**108 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (1 papers)
-- [2026-05](/locomotion/2026-05) (9 papers)
+- [2026-06](/locomotion/2026-06) (2 papers)
+- [2026-05](/locomotion/2026-05) (11 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -59,6 +59,23 @@ Humans primarily rely on walking and running to traverse complex terrains, witho
 
 ---
 
+## PHASOR: Phase-Anchored Universal Action Representations for Humanoid Embodiments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.01851)
+- **Authors:** Kihyun Kim, Chaeyun Kim, Jongho Shin, Taeyoun Kwon, Junghyun Kim, Mijin Koo et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Distillation
+  - Policy Learning
+  - Locomotion
+
+### Summary
+
+Learning a good action embedding space is fundamental to scalable robot policy learning, yet existing methods treat action latents as task-specific intermediates rather than first-class representations. The resulting latents are unstructured, embodiment-specific, and weakly tied to motion semantics, limiting interpretability, controllability, and transferability across robots.
+
+---
+
 ## Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.00637)
@@ -79,6 +96,23 @@ Although reinforcement learning has significantly advanced humanoid locomotion, 
 
 ---
 
+## SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30770)
+- **Authors:** Ruiqi Yu, Yiwen Wang, Yuan Hao, Jun WU, Qiuguo Zhu
+- **Published:** 2026-05
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors.
+
+---
+
 ## SalsaAgent: A multimodal embodied language model for interactive dance generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.29219)
@@ -94,6 +128,26 @@ Although reinforcement learning has significantly advanced humanoid locomotion, 
 ### Summary
 
 Interaction between humanoids involves bidirectional and nonverbal reactivity, coordination and synchrony. Toward socially aware robots and interactive virtual agents, we present SalsaAgent, a language model that generates expressive, full-body salsa dance motions in reaction to a human leader and against a contextual music backdrop.
+
+---
+
+## SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28549)
+- **Authors:** Yantong Wei, Kaihong Huang, Hainan Pan, Jiawei Luo, Jiawei Zhou, Ziyan Mai et al. (9 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Physics-Based Character Animation
+
+### Summary
+
+The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-viable kinematic reference data and the inability of existing frameworks to maintain stability during sprints. To overcome these limitations, we introduce SPRINT, a novel framework driven by efficient, frequency-adaptive spectral priors.
 
 ---
 
@@ -351,49 +405,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Humanoid
   - Walking
   - Locomotion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Now You See That: Learning End-to-End Humanoid Locomotion from Raw Pixels
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.06382)
-- **Published:** 2026-02
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## A Hybrid Autoencoder for Robust Heightmap Generation from Fused Lidar and Depth Data for Humanoid Robot Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.05855)
-- **Published:** 2026-02
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Scalable and General Whole-Body Control for Cross-Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.05791)
-- **Published:** 2026-02
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Humanoid
 
 ### Summary
 

@@ -4,15 +4,60 @@ Papers with real humanoid robot deployment and experiments.
 
 ## Platforms
 
-- **Figure:** 5 papers
+- **Figure:** 8 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 21 papers
+- **Unitree G1:** 25 papers
 - **Unknown Platform:** 2 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.06493)
+- **Authors:** Lizhi Yang, Junheng Li, Nehar Poddar, Yiling Hou, Gio Huh, Robert Griffin et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Safety
+  - Humanoid
+  - Task Planning
+  - Fine-tuning
+  - Distillation
+
+### Summary
+
+For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references that planners struggle to synthesize from task semantics.
+
+---
+
+## 🌟 Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.05687)
+- **Project:** [GitHub](https://github.com/junhengl/mpc-rl)
+- **Authors:** Junheng Li, Liang Wu, Sergio A. Esteban, Lizhi Yang, Ján Drgoňa, Aaron D. Ames
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - MPC
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+In humanoid motion control, model predictive control (MPC) offers physically grounded prediction and constraint handling, while reinforcement learning (RL) enables robust whole-body skills through large-scale simulation. However, using MPC inside RL often requires time-consuming problem construction or excessive training overhead, making such frameworks difficult to justify in practice.
+
+---
 
 ## GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors
 
@@ -33,6 +78,27 @@ Papers with real humanoid robot deployment and experiments.
 ### Summary
 
 Scaling humanoid loco-manipulation requires robot-compatible demonstrations across diverse objects, whole-body motions, and scene geometries, but teleoperation and motion capture are difficult to scale because each collection depends on physical setups, instrumented actors, and robot operation. We present GRAIL, a digital generation pipeline that remains fully virtual until deployment: it composes 3D assets, simulator-ready scenes, and priors from video foundation models (VFMs) to synthesize interactions without rebuilding physical environments or teleoperating the robot.
+
+---
+
+## Flash-WAM: Modality-Aware Distillation for World Action Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.05254)
+- **Authors:** Arman Akbari, Ci Zhang, Arash Akbari, Lin Zhao, Yixiao Chen, Weiwei Chen et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Distillation
+  - Benchmark
+  - Diffusion
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+World-action models (WAMs) jointly generate future video and robot actions through iterative diffusion, achieving strong performance on manipulation benchmarks but requiring tens of denoising steps, a cost that precludes real-time control. Step distillation has emerged as the natural remedy, but off-the-shelf methods break down in the joint video-action setting because video and action streams use different SNR-shifted noise schedules and reach training with substantially different marginal noise distributions, an asymmetry that single-modality distillation methods cannot accommodate.
 
 ---
 
@@ -123,6 +189,25 @@ Retargeting human motion to humanoid robots is critical for teleoperation, imita
 
 ---
 
+## 🌟 HLL: Can Agents Cross Humanity's Last Line of Verification?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.02449)
+- **Project:** [GitHub](https://github.com/xinhaos0101/hll)
+- **Authors:** Xinhao Song, Su Su, Sirui Song, Hongliang Wu, Wen Shen, Zhihua Wei et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
+  - PPO
+  - Navigation
+  - Simulation Benchmark
+
+### Summary
+
+Multimodal agents are increasingly expected to operate interfaces on behalf of users, raising a central deployment question: can they truly substitute for humans in workflows that services deliberately protect against automation? CAPTCHA verification makes this question concrete. It is not merely a visual puzzle, but a human-verification boundary placed before account creation, content access, form submission, and other protected actions.
+
+---
+
 ## LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.01458)
@@ -165,6 +250,28 @@ Although reinforcement learning has significantly advanced humanoid locomotion, 
 
 ---
 
+## Constrained Whole-Body Tracking for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00374)
+- **Authors:** Daniel Morton, Pranit Mohnot, Marco Pavone
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Recent advances in reinforcement learning (RL) have demonstrated impressive whole-body agility for humanoid robots, yet ensuring safety and satisfying constraints -- particularly those specified after training -- remains a challenge. Towards this goal, we present ConstrainedMimic, a control framework that leverages whole-body kinematics and dynamics for real-time constraint enforcement within RL tracking policies.
+
+---
+
 ## Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.30282)
@@ -180,6 +287,45 @@ Although reinforcement learning has significantly advanced humanoid locomotion, 
 ### Summary
 
 Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent.
+
+---
+
+## SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28549)
+- **Authors:** Yantong Wei, Kaihong Huang, Hainan Pan, Jiawei Luo, Jiawei Zhou, Ziyan Mai et al. (9 authors)
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Physics-Based Character Animation
+
+### Summary
+
+The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-viable kinematic reference data and the inability of existing frameworks to maintain stability during sprints. To overcome these limitations, we introduce SPRINT, a novel framework driven by efficient, frequency-adaptive spectral priors.
+
+---
+
+## EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.28468)
+- **Authors:** Junhwi Cho, Sunggyu Bae, Junghyeon Ma, Hyosang Lee, Jung Kim, Kyungseo Park
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Tactile Sensing
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+We present a hybrid robotic skin that combines electrical impedance tomography (EIT) with pneumatic tactile sensing to improve force reconstruction capability. The developed robotic skin is fabricated entirely by 3D printing and spray coating, making it affordable and easy to build.
 
 ---
 

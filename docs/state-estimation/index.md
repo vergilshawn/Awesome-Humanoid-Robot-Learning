@@ -1,10 +1,10 @@
 # State Estimation
 
-**14 papers** in this category.
+**15 papers** in this category.
 
 ## Months
 
-- [2026-06](/state-estimation/2026-06) (2 papers)
+- [2026-06](/state-estimation/2026-06) (3 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
@@ -17,18 +17,38 @@
 
 ## Recent Papers
 
-## Trace-Mediated Peak Bias: Bridging Temporal Credit Assignment and Cognitive Heuristics in Deep Reinforcement Learning
+## TAGA: Terrain-aware Active Gaze Learning for Generalizable Agile Humanoid Locomotion
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.04735)
-- **Authors:** Viktor Veselý, Aleksandar Todorov, Erwan Escudie, Matthia Sabatelli
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.05880)
+- **Authors:** Peizhuo Li, Hongyi Li, Mingfeng Fan, Fangzhou Xu, Shuhao Liao, Yuxuan Ma et al. (12 authors)
 - **Published:** 2026-06
 - **Tags:**
   - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Proprioception
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Agile humanoid locomotion across diverse challenging terrain demands both wide perceptual coverage and precise local geometry understanding. Motivated by the way humans selectively look at relevant terrain during locomotion, we introduce TAGA, a Terrain-aware Active Gaze learning framework for Attention-based humanoid control.
+
+---
+
+## A Model of Multi-turn Human Persuadability Using Probabilistic Belief Tracing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.05330)
+- **Authors:** Jared Moore, Noah Goodman, Nick Haber, Max Kleiman-Weiner
+- **Published:** 2026-06
+- **Tags:**
+  - Simulator
+  - Large Language Model
   - State Estimation
 
 ### Summary
 
-Temporal credit assignment is central to both biological and artificial intelligence, yet its interaction with non-linear function approximation is poorly understood. We identify a systematic failure mode in deep reinforcement learning (RL) termed Trace-Mediated Peak Bias (TMPB).
+Large language models can shift human beliefs across high-stakes domains, but most persuasion studies rely on pre/post belief change. These endpoint measures identify whether persuasion occurred, yet miss where and how beliefs moved within a dialogue.
 
 ---
 
