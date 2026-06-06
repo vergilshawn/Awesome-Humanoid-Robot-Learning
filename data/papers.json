@@ -866,79 +866,6 @@
     "primary_category": "Simulation Benchmark"
   },
   {
-    "arxiv_id": "2606.00374",
-    "title": "Constrained Whole-Body Tracking for Humanoid Robots",
-    "paper_url": "https://arxiv.org/abs/2606.00374",
-    "project_url": null,
-    "authors": [
-      "Daniel Morton",
-      "Pranit Mohnot",
-      "Marco Pavone"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-29",
-    "abstract": "Recent advances in reinforcement learning (RL) have demonstrated impressive whole-body agility for humanoid robots, yet ensuring safety and satisfying constraints -- particularly those specified after training -- remains a challenge. Towards this goal, we present ConstrainedMimic, a control framework that leverages whole-body kinematics and dynamics for real-time constraint enforcement within RL tracking policies. By integrating principles from operational space control and control barrier functions (CBFs), we enable the satisfaction of arbitrary runtime constraints on both the kinematic reference motion and the underlying dynamics. In whole-body motion-tracking and teleoperation experiments on a (simulated) Unitree G1 with a learned policy, we demonstrate collision avoidance (both with the robot body and external obstacles), joint limits, and center of mass stability constraints. By remaining consistent with the current contact mode and tracking objectives, we minimally restrict the capabilities of the policy when constraints are active. Our method is fully differentiable, runs on CPU, GPU, and TPU, and can be deployed at up to 300-500 Hz. All software will be freely available upon publication.",
-    "categories": [
-      "Teleoperation",
-      "Loco-Manipulation and Whole-Body Control",
-      "State Estimation",
-      "Physics-Based Character Animation"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Teleoperation",
-      "Safety",
-      "Humanoid",
-      "Collision",
-      "Loco-Manipulation and Whole-Body Control",
-      "State Estimation",
-      "Physics-Based Character Animation"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "Unitree G1",
-    "summary": "",
-    "primary_category": "Teleoperation"
-  },
-  {
-    "arxiv_id": "2606.00252",
-    "title": "HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads",
-    "paper_url": "https://arxiv.org/abs/2606.00252",
-    "project_url": null,
-    "authors": [
-      "Songyang Liu",
-      "Shunyu Yao",
-      "Dingyuan Huang",
-      "Shuai Li"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-29",
-    "abstract": "Manipulating suspended payloads with humanoid robots is challenging because the robot can only influence an underactuated, oscillatory load through whole-body motion and intermittent contact. Imitation learning provides safe initial behavior but does not directly optimize final placement, while reinforcement learning from scratch is unsafe and sample-inefficient on real humanoids. We present HOIST-Humanoid Optimized with Imitation and Sample-efficient Tuning for manipulating suspended loads. HOIST first finetunes a high-level vision-language-action (VLA) policy from virtual-reality (VR) teleoperation demonstrations and executes its commands through a whole-body controller. It then uses VLA rollouts and iterative batched RL to improve placement accuracy and stopping behavior. Experiments in simulation and on a real humanoid show that HOIST improves over imitation-only and additional-demonstration baselines; compared with pure VLA rollouts, HOIST reduces translational placement error by 19.9 cm and raw angular error by 3.56 degrees, demonstrating the potential of humanoids for underactuated material-handling tasks.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control",
-      "Teleoperation",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Imitation Learning",
-      "Whole-Body Control",
-      "Teleoperation",
-      "Humanoid",
-      "Vision-Language",
-      "Underactuated",
-      "Loco-Manipulation and Whole-Body Control",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
     "arxiv_id": "2605.31343",
     "title": "Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation",
     "paper_url": "https://arxiv.org/abs/2605.31343",
@@ -975,70 +902,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2605.30928",
-    "title": "Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization",
-    "paper_url": "https://arxiv.org/abs/2605.30928",
-    "project_url": null,
-    "authors": [
-      "Usman Nizamani",
-      "M. Shaheer Luqman",
-      "Fawad Javed Fateh",
-      "Ali Shah Ali",
-      "Murad Popattia",
-      "M. Zeeshan Zia",
-      "Quoc-Huy Tran"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-29",
-    "abstract": "Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability. In this work, we introduce a novel human-like RL framework that predicts action sequences closely aligned with human behaviors while maximizing rewards. Specifically, we encode human demonstrations into macro actions using a hierarchical macro action quantization approach (termed HiMAQ) consisting of two successive levels of vector quantization. The lower quantization level maps input actions to fine-grained subaction clusters, while the higher quantization level aggregates these subaction clusters into action clusters. Extensive evaluations on the D4RL benchmarks show that our hierarchical approach outperforms the non-hierarchical baseline (MAQ), achieving better human-likeness scores while maintaining comparable or better success rates than previous RL agents. The improvements generalize across integrations with various RL algorithms, namely IQL, SAC, and RLPD.",
-    "categories": [
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Human Demonstration",
-      "Benchmark",
-      "SAC",
-      "Simulation Benchmark"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2605.30770",
-    "title": "SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World",
-    "paper_url": "https://arxiv.org/abs/2605.30770",
-    "project_url": null,
-    "authors": [
-      "Ruiqi Yu",
-      "Yiwen Wang",
-      "Yuan Hao",
-      "Jun WU",
-      "Qiuguo Zhu"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-29",
-    "abstract": "Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors. We propose SSR, an efficient end-to-end framework for egocentric vision-based humanoid traversal that jointly learns these capabilities. SSR introduces imagined foothold guidance, which learns to model forthcoming swing-foot contacts and evaluates their support to guide pre-touchdown swings toward stable regions, reducing edge slips. It further employs equivariant latent-space symmetry augmentation to efficiently induce bilateral coordination under high-dimensional visual observations, and uses terrain-specific multi-discriminator motion priors to encourage human-like behavior across scenes. Extensive experiments show that SSR achieves safe, stable, and high-quality locomotion on diverse real-world terrains, including stairs with varied structures and extreme challenges such as wide gaps and high platforms, while enabling reliable long-horizon traversal in open outdoor environments.",
-    "categories": [
-      "Locomotion",
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "tags": [
-      "Locomotion",
-      "Humanoid",
-      "PPO",
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2605.30569",
@@ -1141,35 +1004,6 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Manipulation"
-  },
-  {
-    "arxiv_id": "2605.29219",
-    "title": "SalsaAgent: A multimodal embodied language model for interactive dance generation",
-    "paper_url": "https://arxiv.org/abs/2605.29219",
-    "project_url": null,
-    "authors": [
-      "Payam Jome Yazdian",
-      "Zoe Stanley",
-      "Angelica Lim"
-    ],
-    "published": "2026-05",
-    "published_date": "2026-05-28",
-    "abstract": "Interaction between humanoids involves bidirectional and nonverbal reactivity, coordination and synchrony. Toward socially aware robots and interactive virtual agents, we present SalsaAgent, a language model that generates expressive, full-body salsa dance motions in reaction to a human leader and against a contextual music backdrop. We formulate interaction as nonverbal motion token passing, extending the vocabulary of a large language model (LLM) to process discrete motion tokens, pairwise relation tokens, and audio. Our contributions include new tokens for full-body and motion relations, LLM fine-tuning using automatically derived text descriptions of skeleton dynamics for token grounding, and a two-stage token-to-diffusion pipeline. Subjective and objective evaluations demonstrate the effectiveness of our approach in terms of motion quality, music and partner coordination, and consistent two-person spatial behavior, with significant improvements over baselines.",
-    "categories": [
-      "Locomotion"
-    ],
-    "tags": [
-      "Humanoid",
-      "Fine-tuning",
-      "Large Language Model",
-      "Diffusion",
-      "Locomotion"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2605.28549",

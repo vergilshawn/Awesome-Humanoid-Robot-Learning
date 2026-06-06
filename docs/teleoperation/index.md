@@ -1,11 +1,11 @@
 # Teleoperation
 
-**26 papers** in this category.
+**25 papers** in this category.
 
 ## Months
 
 - [2026-06](/teleoperation/2026-06) (4 papers)
-- [2026-05](/teleoperation/2026-05) (2 papers)
+- [2026-05](/teleoperation/2026-05) (1 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
 - [2026-02](/teleoperation/2026-02) (4 papers)
 - [2025-11](/teleoperation/2025-11) (1 papers)
@@ -101,28 +101,6 @@ Retargeting human motion to humanoid robots is critical for teleoperation, imita
 ### Summary
 
 Vision-language-action models (VLAs) are promising general-purpose robot policies, but adapting them to new tasks typically requires costly task-specific teleoperation data. As an alternative, we study one-shot demo-conditioned VLAs, where a robot policy is conditioned on a single demonstration video of an unseen task.
-
----
-
-## Constrained Whole-Body Tracking for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.00374)
-- **Authors:** Daniel Morton, Pranit Mohnot, Marco Pavone
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Teleoperation
-  - Safety
-  - Humanoid
-  - Collision
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Physics-Based Character Animation
-
-### Summary
-
-Recent advances in reinforcement learning (RL) have demonstrated impressive whole-body agility for humanoid robots, yet ensuring safety and satisfying constraints -- particularly those specified after training -- remains a challenge. Towards this goal, we present ConstrainedMimic, a control framework that leverages whole-body kinematics and dynamics for real-time constraint enforcement within RL tracking policies.
 
 ---
 
@@ -347,6 +325,20 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Teleoperation
   - Simulator
   - Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Human-Robot Collaboration for the Remote Control of Mobile Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2505.05773)
+- **Published:** 2025-05
+- **Tags:**
+  - Humanoid
+  - Teleoperation
 
 ### Summary
 

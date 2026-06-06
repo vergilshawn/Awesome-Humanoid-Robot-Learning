@@ -1,11 +1,11 @@
 # Loco-Manipulation and Whole-Body Control
 
-**186 papers** in this category.
+**185 papers** in this category.
 
 ## Months
 
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (7 papers)
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (8 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
@@ -207,27 +207,6 @@ Humanoid loco-manipulation requires stable whole-body control under varying obje
 ### Summary
 
 Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have, until now, failed to transfer effectively in humanoid loco-manipulation tasks.
-
----
-
-## HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.00252)
-- **Authors:** Songyang Liu, Shunyu Yao, Dingyuan Huang, Shuai Li
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Imitation Learning
-  - Whole-Body Control
-  - Teleoperation
-  - Humanoid
-  - Vision-Language
-  - Underactuated
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Manipulating suspended payloads with humanoid robots is challenging because the robot can only influence an underactuated, oscillatory load through whole-body motion and intermittent contact. Imitation learning provides safe initial behavior but does not directly optimize final placement, while reinforcement learning from scratch is unsafe and sample-inefficient on real humanoids.
 
 ---
 
@@ -445,5 +424,22 @@ Sumo introduces a reinforcement learning framework for humanoid loco-manipulatio
 ### Summary
 
 Achieving versatile and naturalistic whole-body control for humanoid robot scene-interaction remains a significant challenge. ZeroWBC learns a natural humanoid visuomotor control policy directly from human egocentric videos, eliminating the need for large-scale robot teleoperation data.
+
+---
+
+## X-Loco: Towards Generalist Humanoid Locomotion Control via Synergetic Policy Distillation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.03733)
+- **Authors:** Dewei Wang, Xinmiao Wang, Chenyun Zhang, Jiyuan Shi, Yingnan Zhao, Chenjia Bai et al. (7 authors)
+- **Published:** 2026-03
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+X-Loco targets generalist humanoid locomotion, including upright locomotion, fall recovery, terrain traversal, and whole-body coordination. It trains multiple oracle specialist policies and uses synergetic policy distillation with a case-adaptive specialist selection mechanism to guide a vision-based student policy.
 
 ---
