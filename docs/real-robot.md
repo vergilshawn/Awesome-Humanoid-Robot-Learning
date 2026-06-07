@@ -6,7 +6,7 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Figure:** 8 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 24 papers
+- **Unitree G1:** 25 papers
 - **Unknown Platform:** 2 papers
 - **iCub:** 1 papers
 
@@ -247,6 +247,28 @@ Training vision-language-action (VLA) policies for humanoid loco-manipulation is
 ### Summary
 
 Although reinforcement learning has significantly advanced humanoid locomotion, perceptive policies still struggle on sparse-foothold terrain and constrained environments. Success in these scenarios requires both broad terrain awareness and precise foothold selection, two perceptual roles that conventional encoders often entangle.
+
+---
+
+## Constrained Whole-Body Tracking for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00374)
+- **Authors:** Daniel Morton, Pranit Mohnot, Marco Pavone
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Recent advances in reinforcement learning (RL) have demonstrated impressive whole-body agility for humanoid robots, yet ensuring safety and satisfying constraints -- particularly those specified after training -- remains a challenge. Towards this goal, we present ConstrainedMimic, a control framework that leverages whole-body kinematics and dynamics for real-time constraint enforcement within RL tracking policies.
 
 ---
 

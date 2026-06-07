@@ -451,6 +451,49 @@ Recent Vision-Language Models (VLMs) struggle with grounded reasoning, temporal 
 
 ---
 
+## Constrained Whole-Body Tracking for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00374)
+- **Authors:** Daniel Morton, Pranit Mohnot, Marco Pavone
+- **Published:** 2026-05
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Recent advances in reinforcement learning (RL) have demonstrated impressive whole-body agility for humanoid robots, yet ensuring safety and satisfying constraints -- particularly those specified after training -- remains a challenge. Towards this goal, we present ConstrainedMimic, a control framework that leverages whole-body kinematics and dynamics for real-time constraint enforcement within RL tracking policies.
+
+---
+
+## HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.00252)
+- **Authors:** Songyang Liu, Shunyu Yao, Dingyuan Huang, Shuai Li
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Whole-Body Control
+  - Teleoperation
+  - Humanoid
+  - Vision-Language
+  - Underactuated
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Manipulating suspended payloads with humanoid robots is challenging because the robot can only influence an underactuated, oscillatory load through whole-body motion and intermittent contact. Imitation learning provides safe initial behavior but does not directly optimize final placement, while reinforcement learning from scratch is unsafe and sample-inefficient on real humanoids.
+
+---
+
 ## Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.31343)
@@ -469,6 +512,41 @@ Recent Vision-Language Models (VLMs) struggle with grounded reasoning, temporal 
 ### Summary
 
 Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators.
+
+---
+
+## Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30928)
+- **Authors:** Usman Nizamani, M. Shaheer Luqman, Fawad Javed Fateh, Ali Shah Ali, Murad Popattia, M. Zeeshan Zia et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Human Demonstration
+  - Benchmark
+  - SAC
+  - Simulation Benchmark
+
+### Summary
+
+Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability.
+
+---
+
+## SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30770)
+- **Authors:** Ruiqi Yu, Yiwen Wang, Yuan Hao, Jun WU, Qiuguo Zhu
+- **Published:** 2026-05
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors.
 
 ---
 

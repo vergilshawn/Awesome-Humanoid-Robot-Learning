@@ -1,11 +1,11 @@
 # Locomotion
 
-**106 papers** in this category.
+**107 papers** in this category.
 
 ## Months
 
 - [2026-06](/locomotion/2026-06) (2 papers)
-- [2026-05](/locomotion/2026-05) (9 papers)
+- [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -93,6 +93,23 @@ Learning a good action embedding space is fundamental to scalable robot policy l
 ### Summary
 
 Although reinforcement learning has significantly advanced humanoid locomotion, perceptive policies still struggle on sparse-foothold terrain and constrained environments. Success in these scenarios requires both broad terrain awareness and precise foothold selection, two perceptual roles that conventional encoders often entangle.
+
+---
+
+## SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30770)
+- **Authors:** Ruiqi Yu, Yiwen Wang, Yuan Hao, Jun WU, Qiuguo Zhu
+- **Published:** 2026-05
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors.
 
 ---
 
@@ -380,20 +397,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## Now You See That: Learning End-to-End Humanoid Locomotion from Raw Pixels
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.06382)
-- **Published:** 2026-02
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## A Hybrid Autoencoder for Robust Heightmap Generation from Fused Lidar and Depth Data for Humanoid Robot Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.05855)
 - **Published:** 2026-02
 - **Tags:**
   - Locomotion
