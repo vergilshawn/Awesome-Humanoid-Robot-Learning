@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**39 papers** in this category.
+**41 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (2 papers)
+- [2026-06](/simulation-benchmark/2026-06) (4 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -23,6 +23,41 @@
 ---
 
 ## Recent Papers
+
+## LIMMT: Less is More for Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.06953)
+- **Authors:** Yu Guan, Zekun Qi, Chenghuai Lin, Xuchuan Chen, Dairu Liu, Wenyao Zhang et al. (10 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+We argue that high-quality motion data can steer tracking policies toward better optimization trajectories early in training. In this work, we introduce LIMMT (Less Is More for Motion Tracking).
+
+---
+
+## The Lipreading Gap: Do VSR Models Perceive Visual Speech Like Human Lipreaders?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.07435)
+- **Authors:** Rishabh Jain, Naomi Harte
+- **Published:** 2026-06
+- **Real Robot:** ✅ — NAO
+- **Tags:**
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Visual speech recognition (VSR) models now surpass human lipreaders on benchmarks, but do such gains establish human-like visual speech perception? To explore this, we compare three VSR systems with human baselines on the MaFI word-level lipreading dataset using word, character, phoneme, and viseme-level metrics. Although models achieve higher overall accuracy, they succeed and fail on different words than humans.
+
+---
 
 ## Flash-WAM: Modality-Aware Distillation for World Action Models
 
@@ -367,48 +402,5 @@ Cross-embodiment video generation aims to transfer motions across different huma
 ### Summary
 
 CLAW is an interactive web-based pipeline for scalable generation of language-annotated whole-body motion data for the Unitree G1 humanoid robot. It treats kinematic planner modes as composable building blocks and provides browser-based interfaces for exploratory and batch data collection.
-
----
-
-## RoboForge: Physically Optimized Text-guided Whole-Body Locomotion for Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.17927)
-- **Authors:** Xichen Yuan, Zhe Li, Bofan Lyu, Kuangji Zuo, Yanshuo Lu, Gen Li et al. (7 authors)
-- **Published:** 2026-03
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - MuJoCo
-  - Humanoid
-  - Fine-tuning
-  - Distillation
-  - Simulation Benchmark
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-RoboForge bridges natural language and whole-body humanoid locomotion through a retarget-free, physics-optimized pipeline. It couples motion generation and control through a physical plausibility optimization module that refines teacher-student distillation policies and converts reward-optimized simulation rollouts into explicit motion data for fine-tuning the motion generator.
-
----
-
-## Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.05993)
-- **Authors:** Beichen Wang, Yuanjie Lu, Linji Wang, Liuchuan Yu, Xuesu Xiao
-- **Published:** 2026-03
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Safety
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Dataset
-  - PPO
-
-### Summary
-
-Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
 
 ---

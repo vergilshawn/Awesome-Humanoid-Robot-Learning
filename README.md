@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 546
-- **Real Robot Papers:** 37
+- **Total Papers:** 551
+- **Real Robot Papers:** 40
 - **Open Source Papers:** 127
 
 🌟 indicates papers with detected project/code links.
@@ -13,12 +13,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (186)
 - [Manipulation](#manipulation) (55)
 - [Teleoperation](#teleoperation) (26)
-- [Locomotion](#locomotion) (107)
+- [Locomotion](#locomotion) (109)
 - [Navigation](#navigation) (19)
-- [State Estimation](#state-estimation) (15)
+- [State Estimation](#state-estimation) (16)
 - [Sim-to-Real](#sim-to-real) (11)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (39)
+- [Simulation Benchmark](#simulation-benchmark) (41)
 - [Physics-Based Character Animation](#physics-based-character-animation) (34)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (23)
 - [Usage](#usage)
@@ -491,6 +491,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [Predictive Style Matching: Natural and Robust Humanoid Locomotion](https://arxiv.org/abs/2606.07083) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Gait`, `PPO`, `State Estimation`
+- [T-GMP: Terrain-conditioned Generative Motion Priors for Versatile and Natural Humanoid Locomotion](https://arxiv.org/abs/2606.06944) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `VAE`, `Real Robot`
 - [CoRe-MoE: Contrastive Reweighted Mixture of Experts for Multi-Terrain Humanoid Locomotion with Gait Adaptation](https://arxiv.org/abs/2606.04718) — `Reinforcement Learning`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Gait`, `Walking`
 - [PHASOR: Phase-Anchored Universal Action Representations for Humanoid Embodiments](https://arxiv.org/abs/2606.01851) — `Humanoid`, `Distillation`, `Policy Learning`, `Locomotion`
 
@@ -748,6 +750,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 ### 2026-06
 
 - [TAGA: Terrain-aware Active Gaze Learning for Generalizable Agile Humanoid Locomotion](https://arxiv.org/abs/2606.05880) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Proprioception`, `State Estimation`, `Simulation Benchmark`
+- [Anchored, Not Graded: Vision-Language Models Fail at Slant-from-Texture Perception](https://arxiv.org/abs/2606.06714) — `Zero-Shot`, `Vision-Language`, `Fine-tuning`, `Benchmark`, `State Estimation`, `Simulation Benchmark`
 - [A Model of Multi-turn Human Persuadability Using Probabilistic Belief Tracing](https://arxiv.org/abs/2606.05330) — `Simulator`, `Large Language Model`, `State Estimation`
 - [SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image](https://arxiv.org/abs/2606.03994) — `Manipulation`, `Humanoid`, `3D Reconstruction`, `Benchmark`, `PPO`, `State Estimation`
 
@@ -909,6 +912,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [LIMMT: Less is More for Motion Tracking](https://arxiv.org/abs/2606.06953) — `Humanoid`, `Dataset`, `Simulation Benchmark`, `Physics-Based Character Animation`, `Human Motion Analysis and Synthesis`
+- [The Lipreading Gap: Do VSR Models Perceive Visual Speech Like Human Lipreaders?](https://arxiv.org/abs/2606.07435) — `Benchmark`, `Dataset`, `Simulation Benchmark`, `Real Robot`
 - [Flash-WAM: Modality-Aware Distillation for World Action Models](https://arxiv.org/abs/2606.05254) — `Manipulation`, `Humanoid`, `Distillation`, `Benchmark`, `Diffusion`, `Simulation Benchmark`
 - [Let the Dynamics Flow: Stable Flow Matching Dynamical Systems](https://arxiv.org/abs/2606.03834) — `Imitation Learning`, `Generative Models`, `Humanoid`, `Benchmark`, `Dataset`, `Flow Matching`
 

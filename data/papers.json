@@ -1,5 +1,138 @@
 [
   {
+    "arxiv_id": "2606.07083",
+    "title": "Predictive Style Matching: Natural and Robust Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2606.07083",
+    "project_url": null,
+    "authors": [
+      "Simeon Nedelchev",
+      "Ekaterina Chaikovskaia",
+      "Egor Davydenko",
+      "Eduard Zaliaev",
+      "Roman Gorbachev"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-05",
+    "abstract": "Reinforcement learning has become the prevailing approach to humanoid locomotion control: policies transfer reliably from simulation to hardware and recover gracefully from disturbances.   Motion quality, however, still lags behind: task-only rewards often converge to stiff, asymmetric gaits, while motion imitation methods improve appearance but become more sensitive to external disturbances because reference signals can oppose the transient poses needed to regain balance.   We propose Predictive Style Matching, in which an offline predictor maps the robot's lower-body state history and velocity commands to interpretable upper-body joint and gait targets that shape the rewards during training.   Because the targets are state-conditioned rather than time-indexed and the predictor is used only at training time, the deployed controller inherits the proprioceptive interface and inference cost of a task-only RL baseline.   On the Unitree G1, in both simulation and hardware, PSM reduces upper-body style error by roughly an order of magnitude over task-only RL while preserving its fall-recovery rate, whereas the motion-imitation baseline attains the lowest style error but fails to recover from disturbances about five times as often.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Gait",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.06953",
+    "title": "LIMMT: Less is More for Motion Tracking",
+    "paper_url": "https://arxiv.org/abs/2606.06953",
+    "project_url": null,
+    "authors": [
+      "Yu Guan",
+      "Zekun Qi",
+      "Chenghuai Lin",
+      "Xuchuan Chen",
+      "Dairu Liu",
+      "Wenyao Zhang",
+      "Jilong Wang",
+      "Xinqiang Yu",
+      "He Wang",
+      "Li Yi"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-05",
+    "abstract": "We argue that high-quality motion data can steer tracking policies toward better optimization trajectories early in training. In this work, we introduce LIMMT (Less Is More for Motion Tracking). To our knowledge, this is the first data-centric study for physics-based humanoid motion tracking. We go beyond simply removing low-quality and erroneous clips, but define motion data quality through three dimensions: physics feasibility, diversity, and complexity. We show that even training with under 3% of AMASS yields better tracking performance than training with the full dataset. We further conduct data cleaning on the estimated web-sourced mocap data. Extensive experiments and analyses validate the effectiveness of our framework.",
+    "categories": [
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Humanoid",
+      "Dataset",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.06944",
+    "title": "T-GMP: Terrain-conditioned Generative Motion Priors for Versatile and Natural Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2606.06944",
+    "project_url": null,
+    "authors": [
+      "Junhong Guo",
+      "Hao Hu",
+      "Chen Chen",
+      "Haoxuan Han",
+      "Linao Gong",
+      "Xin Yang",
+      "Zhicheng He",
+      "Yao Su",
+      "Fenghua He"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-05",
+    "abstract": "Achieving both anthropomorphic naturalness and robust terrain traversal remains a fundamental challenge in humanoid locomotion. Existing Reinforcement Learning (RL) approaches typically rely on fixed motion priors, limiting their adaptability to varying environments. We propose Terrain-conditioned Generative Motion Priors (T-GMP), a module that captures a terrain-conditioned latent motion manifold from a few expert state-terrain demonstrations using a Conditional Variational Autoencoder (CVAE). The learned priors enable smooth style transitions, facilitating a unified policy that adapts to terrain variations. We integrate T-GMP into an adversarial learning pipeline with our proposed Foothold Penalty, where a discriminator dynamically modulates naturalness constraints conditioned on local terrain features, guiding the generation of versatile and human-like motions. Experimental results demonstrate that our method outperforms existing baselines in traversal success rate and motion smoothness, while preserving biomimetically natural and physically coordinated motions.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "VAE"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "NAO",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.07435",
+    "title": "The Lipreading Gap: Do VSR Models Perceive Visual Speech Like Human Lipreaders?",
+    "paper_url": "https://arxiv.org/abs/2606.07435",
+    "project_url": null,
+    "authors": [
+      "Rishabh Jain",
+      "Naomi Harte"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-05",
+    "abstract": "Visual speech recognition (VSR) models now surpass human lipreaders on benchmarks, but do such gains establish human-like visual speech perception? To explore this, we compare three VSR systems with human baselines on the MaFI word-level lipreading dataset using word, character, phoneme, and viseme-level metrics. Although models achieve higher overall accuracy, they succeed and fail on different words than humans. A text-only n-gram baseline given only a few initial phonemes rivals human lipreading. VSR word-level errors are consistently better explained by training word frequency than by the visual informativeness of words. Viseme accuracies, confusion matrices and human-model correlations further show that models gain most on visemes humans find hardest, and show much weaker dependence on visual clarity. Our work demonstrates that VSR systems rely primarily on language cues from training data rather than visual perception, failing to bind visual features into meaningful words.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "NAO",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
     "arxiv_id": "2606.06493",
     "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
     "paper_url": "https://arxiv.org/abs/2606.06493",
@@ -201,6 +334,38 @@
     "platform": "Figure",
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.06714",
+    "title": "Anchored, Not Graded: Vision-Language Models Fail at Slant-from-Texture Perception",
+    "paper_url": "https://arxiv.org/abs/2606.06714",
+    "project_url": null,
+    "authors": [
+      "Qian Zhang",
+      "Michal Golovanevsky",
+      "Fulvio Domini",
+      "James Tompkin"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-04",
+    "abstract": "Human perception of surface slant from texture exhibits systematic, graded biases that emerge reliably in psychophysical experiments. Prior work showed that unsupervised CNNs reproduce several human-like biases, while supervised CNNs do not. Do Vision-Language Models (VLMs) exhibit similar competences? Across multiple VLM families and model scales, zero-shot and in-context prompting both produce distinctive failures: slant is predicted at only a small set of anchors (e.g., 0\\degree, $\\pm$25\\degree, $\\pm$45\\degree) with little dependence on stimulus field of view, optical slant, or surface curvature. Supervised fine-tuning partially remediates the failure, but residual anchoring persists. While success in high-level vision-language benchmarks might not require sensitivity to low-level geometric cues, we interpret anchoring as a failure at the representation-to-output language interface: Not necessarily an absence of geometric encoding, but a failure to express it in a graded form.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Vision-Language",
+      "Fine-tuning",
+      "Benchmark",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
   },
   {
     "arxiv_id": "2606.05160",

@@ -2,6 +2,80 @@
 
 All papers sorted by publication date (newest first).
 
+## Predictive Style Matching: Natural and Robust Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.07083)
+- **Authors:** Simeon Nedelchev, Ekaterina Chaikovskaia, Egor Davydenko, Eduard Zaliaev, Roman Gorbachev
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Gait
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Reinforcement learning has become the prevailing approach to humanoid locomotion control: policies transfer reliably from simulation to hardware and recover gracefully from disturbances.   Motion quality, however, still lags behind: task-only rewards often converge to stiff, asymmetric gaits, while motion imitation methods improve appearance but become more sensitive to external disturbances because reference signals can oppose the transient poses needed to regain balance.
+
+---
+
+## LIMMT: Less is More for Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.06953)
+- **Authors:** Yu Guan, Zekun Qi, Chenghuai Lin, Xuchuan Chen, Dairu Liu, Wenyao Zhang et al. (10 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+We argue that high-quality motion data can steer tracking policies toward better optimization trajectories early in training. In this work, we introduce LIMMT (Less Is More for Motion Tracking).
+
+---
+
+## T-GMP: Terrain-conditioned Generative Motion Priors for Versatile and Natural Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.06944)
+- **Authors:** Junhong Guo, Hao Hu, Chen Chen, Haoxuan Han, Linao Gong, Xin Yang et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — NAO
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - VAE
+
+### Summary
+
+Achieving both anthropomorphic naturalness and robust terrain traversal remains a fundamental challenge in humanoid locomotion. Existing Reinforcement Learning (RL) approaches typically rely on fixed motion priors, limiting their adaptability to varying environments.
+
+---
+
+## The Lipreading Gap: Do VSR Models Perceive Visual Speech Like Human Lipreaders?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.07435)
+- **Authors:** Rishabh Jain, Naomi Harte
+- **Published:** 2026-06
+- **Real Robot:** ✅ — NAO
+- **Tags:**
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Visual speech recognition (VSR) models now surpass human lipreaders on benchmarks, but do such gains establish human-like visual speech perception? To explore this, we compare three VSR systems with human baselines on the MaFI word-level lipreading dataset using word, character, phoneme, and viseme-level metrics. Although models achieve higher overall accuracy, they succeed and fail on different words than humans.
+
+---
+
 ## HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.06493)
@@ -105,6 +179,25 @@ Humanoid robots hold great promise for operating in human-centered environments,
 ### Summary
 
 In humanoid motion control, model predictive control (MPC) offers physically grounded prediction and constraint handling, while reinforcement learning (RL) enables robust whole-body skills through large-scale simulation. However, using MPC inside RL often requires time-consuming problem construction or excessive training overhead, making such frameworks difficult to justify in practice.
+
+---
+
+## Anchored, Not Graded: Vision-Language Models Fail at Slant-from-Texture Perception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.06714)
+- **Authors:** Qian Zhang, Michal Golovanevsky, Fulvio Domini, James Tompkin
+- **Published:** 2026-06
+- **Tags:**
+  - Zero-Shot
+  - Vision-Language
+  - Fine-tuning
+  - Benchmark
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Human perception of surface slant from texture exhibits systematic, graded biases that emerge reliably in psychophysical experiments. Prior work showed that unsupervised CNNs reproduce several human-like biases, while supervised CNNs do not.
 
 ---
 

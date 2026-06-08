@@ -1,10 +1,10 @@
 # State Estimation
 
-**15 papers** in this category.
+**16 papers** in this category.
 
 ## Months
 
-- [2026-06](/state-estimation/2026-06) (3 papers)
+- [2026-06](/state-estimation/2026-06) (4 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
@@ -33,6 +33,25 @@
 ### Summary
 
 Agile humanoid locomotion across diverse challenging terrain demands both wide perceptual coverage and precise local geometry understanding. Motivated by the way humans selectively look at relevant terrain during locomotion, we introduce TAGA, a Terrain-aware Active Gaze learning framework for Attention-based humanoid control.
+
+---
+
+## Anchored, Not Graded: Vision-Language Models Fail at Slant-from-Texture Perception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.06714)
+- **Authors:** Qian Zhang, Michal Golovanevsky, Fulvio Domini, James Tompkin
+- **Published:** 2026-06
+- **Tags:**
+  - Zero-Shot
+  - Vision-Language
+  - Fine-tuning
+  - Benchmark
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Human perception of surface slant from texture exhibits systematic, graded biases that emerge reliably in psychophysical experiments. Prior work showed that unsupervised CNNs reproduce several human-like biases, while supervised CNNs do not.
 
 ---
 

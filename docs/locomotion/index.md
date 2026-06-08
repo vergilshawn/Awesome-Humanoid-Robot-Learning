@@ -1,10 +1,10 @@
 # Locomotion
 
-**107 papers** in this category.
+**109 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (2 papers)
+- [2026-06](/locomotion/2026-06) (4 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -36,6 +36,45 @@
 ---
 
 ## Recent Papers
+
+## Predictive Style Matching: Natural and Robust Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.07083)
+- **Authors:** Simeon Nedelchev, Ekaterina Chaikovskaia, Egor Davydenko, Eduard Zaliaev, Roman Gorbachev
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Gait
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Reinforcement learning has become the prevailing approach to humanoid locomotion control: policies transfer reliably from simulation to hardware and recover gracefully from disturbances.   Motion quality, however, still lags behind: task-only rewards often converge to stiff, asymmetric gaits, while motion imitation methods improve appearance but become more sensitive to external disturbances because reference signals can oppose the transient poses needed to regain balance.
+
+---
+
+## T-GMP: Terrain-conditioned Generative Motion Priors for Versatile and Natural Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.06944)
+- **Authors:** Junhong Guo, Hao Hu, Chen Chen, Haoxuan Han, Linao Gong, Xin Yang et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — NAO
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - VAE
+
+### Summary
+
+Achieving both anthropomorphic naturalness and robust terrain traversal remains a fundamental challenge in humanoid locomotion. Existing Reinforcement Learning (RL) approaches typically rely on fixed motion priors, limiting their adaptability to varying environments.
+
+---
 
 ## CoRe-MoE: Contrastive Reweighted Mixture of Experts for Multi-Terrain Humanoid Locomotion with Gait Adaptation
 
@@ -370,37 +409,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Humanoid
   - Locomotion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 ECO: Energy-Constrained Optimization with Reinforcement Learning for Humanoid Walking,  / [code](https://github.com/bigai-ai/ECO-humanoid)
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.06445)
-- **Project:** [GitHub](https://sites.google.com/view/eco-humanoid)
-- **Published:** 2026-02
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Walking
-  - Locomotion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Now You See That: Learning End-to-End Humanoid Locomotion from Raw Pixels
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.06382)
-- **Published:** 2026-02
-- **Tags:**
-  - Locomotion
-  - Humanoid
 
 ### Summary
 
