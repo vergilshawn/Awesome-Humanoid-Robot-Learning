@@ -2,6 +2,26 @@
 
 Papers with open-source code repositories.
 
+## 🌟 bbsolver: A Unified Error-Bounded Spatiotemporal Optimization Solver for Key Timing and Topology-Consistent Vector Paths
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.09741)
+- **Project:** [GitHub](https://github.com/ivg-design/bbsolver)
+- **Authors:** Ilya Gusinski
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+  - State Estimation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Dense sampling records what an animation system actually evaluated, but it produces a poor final representation: every sampled frame can become a key, edit handles become noisy, and animated vector paths remain hard to adjust. Existing reducers usually treat the two axes separately: animation-curve reducers reduce key timing, while curve and path simplifiers reduce geometry.
+
+---
+
 ## 🌟 Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.05687)

@@ -1,5 +1,590 @@
 [
   {
+    "arxiv_id": "2606.09798",
+    "title": "SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps",
+    "paper_url": "https://arxiv.org/abs/2606.09798",
+    "project_url": null,
+    "authors": [
+      "Yanming Shao",
+      "Zanxin Chen",
+      "Wenwei Lin",
+      "Mingjie Zhou",
+      "Tianxing Chen",
+      "Xiaokang Yang",
+      "Yichen Chi",
+      "Yao Mu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-08",
+    "abstract": "Human hand-object interactions encode functional intent, but direct transfer to robotic hands often fails under morphology, contact, and reachability constraints. We present SynManDex, a synthetic pipeline that uses generated human pre-grasps as affordance-aware proposals and resolves the final contacts with robot-native optimization. SynManDex samples object-conditioned digital human pre-grasps, retargets them to dexterous robotic hand poses, optimizes force-closure contacts on the target embodiment, and admits trajectories that pass checks from each step. The resulting keyframes support both grasp-and-lift demonstrations and various prehensile manipulation tasks such as tea pouring, photo taking, and flute playing, designed via VLM agents. As a result, SynManDex combines high grasp quality (86.4\\% grasp stability) with 4.67/5 human-likeness (93.4\\%). It achieves 80.7\\% successes in simulation and 25/30 (83.3\\%) real-robot successes when applied to a 36-DOF bimanual dexterous robotic platform.",
+    "categories": [
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.09286",
+    "title": "VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands",
+    "paper_url": "https://arxiv.org/abs/2606.09286",
+    "project_url": null,
+    "authors": [
+      "Dongting Li",
+      "Qianyang Wu",
+      "Xingyu Chen",
+      "Liang Li",
+      "Yuhang Lin",
+      "Sikai Wu",
+      "Guoyao Zhang",
+      "Mingliang Zhou",
+      "Diyun Xiang",
+      "Qiang Zhang",
+      "Renjing Xu",
+      "Jianzhu Ma"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-08",
+    "abstract": "Humanoid robots hold immense potential for real-world assistance, yet agile interaction with objects in unstructured environments demands tightly coupled whole-body coordination. Despite recent advancements, current controllers face a critical deployment gap. They rely heavily on dense reference trajectories and perfect state observability, which inherently limits physical generalization. We present Vision Guided Agile Interaction Control (VAIC), a unified framework that bridges this gap by operating exclusively on onboard depth, historical proprioception, and a decoupled user command interface. VAIC employs a two-stage distillation paradigm. First, a privileged teacher policy masters diverse interaction skills using precise object kinematics and exact environmental states. Second, a deployable student policy distills these capabilities by replacing full body tracking with velocity targets across multiple axes and an interaction indicator for each frame. The student utilizes a recurrent object adaptation module to implicitly infer unobservable object dynamics from raw depth streams and proprioception. Evaluations and real-world deployments on the humanoid robot demonstrate that a single VAIC policy successfully executes highly diverse dynamic tasks. These tasks include box carrying, cart interaction, and skateboarding, consistently outperforming baselines and advancing autonomous humanoid deployment.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Proprioception",
+      "Distillation",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.09215",
+    "title": "MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.09215",
+    "project_url": null,
+    "authors": [
+      "Jia Zheng",
+      "Teli Ma",
+      "Yudong Fan",
+      "Zifan Wang",
+      "Shuo Yang",
+      "Junwei Liang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-08",
+    "abstract": "World Action Models (WAMs) couple a video dynamics prior to the policy and have shown encouraging results on tabletop manipulation, but iterative denoising over high-dimensional video-action latents leaves them too slow for real-time humanoid loco-manipulation. The problem is compounded by the dominant hierarchical paradigm, in which a high-level manipulation policy controls only the upper body while a low-level controller tracks coarse base commands -- placing upper and lower body in inconsistent action spaces and reducing the legs to balance-preserving locomotion. We present MotionWAM, a real-time WAM that drives autonomous humanoid loco-manipulation from a single egocentric camera by conditioning the policy on the intermediate denoising features of a video world model. MotionWAM replaces the upper-lower split with a unified motion latent and predicts whole-body motion tokens that jointly cover locomotion, torso motion, height regulation, foot interaction, and hand manipulation in a single action space. A three-stage learning framework progressively adapts the video world model to egocentric visual dynamics and to the target humanoid embodiment. On nine real-world Unitree G1 tasks, MotionWAM runs in real time, substantially outperforms Vision-Language-Action (VLA) baselines fine-tuned on the same demonstrations by over 30% in overall success rate, and executes task-driven foot interaction that decoupled upper-lower policies cannot reach. Our results suggest that video-pretrained WAMs can be lifted from tabletop manipulation to coordinated, human-like whole-body humanoid control.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "World Model",
+      "Humanoid",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.08922",
+    "title": "PTDL:Multi-Terrain Fall Recovery via Phase-Terrain Decoupled Learning",
+    "paper_url": "https://arxiv.org/abs/2606.08922",
+    "project_url": null,
+    "authors": [
+      "Xiaoyu Xu",
+      "Zhiming Chen",
+      "Yuenan Zhao",
+      "Ran Song",
+      "Wei Zhang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-08",
+    "abstract": "Humanoid robots can fall on slopes, gravel, and uneven ground in unstructured environments. We target integrated fall recovery and locomotion: rebuilding balance from a fallen state using proprioception alone and resuming velocity-commanded walking at the fall site. Prior methods often stop at quasi-static rise, neglect the post-fall ground-contact phase, or, when trained on mixed terrains without separating recovery and locomotion phases or per-surface constraints, collapse to a single compromise get-up across surfaces. We propose Phase--Terrain Decoupled Learning (PTDL), which decouples training supervision along phase and terrain axes while deploying one proprioceptive policy. On the phase axis, projected-gravity-gated dual motion-prior discriminators and a probe-to-walk transition link post-fall recovery to commanded walking. On the terrain axis, terrain-stratified recovery shaping assigns surface-specific training supervision on flat ground, gravel, and slopes; terrain labels are training-only and withheld from policy observations, enabling implicit post-fall strategy selection at deployment. We validate PTDL on a 29-DoF Unitree G1 across flat ground, gravel, and slopes up to 20 degrees in simulation and on hardware, achieving stable cross-terrain recovery, smooth recovery-to-locomotion transitions, and differentiated post-fall rise behaviors under one deployed policy.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "Walking",
+      "Proprioception",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.09741",
+    "title": "bbsolver: A Unified Error-Bounded Spatiotemporal Optimization Solver for Key Timing and Topology-Consistent Vector Paths",
+    "paper_url": "https://arxiv.org/abs/2606.09741",
+    "project_url": "https://github.com/ivg-design/bbsolver",
+    "authors": [
+      "Ilya Gusinski"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-08",
+    "abstract": "Dense sampling records what an animation system actually evaluated, but it produces a poor final representation: every sampled frame can become a key, edit handles become noisy, and animated vector paths remain hard to adjust. Existing reducers usually treat the two axes separately: animation-curve reducers reduce key timing, while curve and path simplifiers reduce geometry. When applied independently to animated paths, these methods can break point identity across frames, change vertex structure over time, or provide no single error budget that covers both timing and shape. bbsolver frames the task as tolerance-bounded spatiotemporal reduction. A host application, such as After Effects or Blender, samples temporal and spatial animation into a documented JSON bundle; the standalone solver chooses sparse keys, interpolation metadata, and path representation; and the output is accepted only if replayed samples remain within the requested worst-case error. The same solver core can be used by any application that can export samples and write back returned keys or paths. In After Effects validation, solved keys written back into AE and re-sampled from AE playback reduce a DUIK humanoid walk cycle from 12,684 samples to 540 keys at epsilon=1, a 23.5x reduction, and an ant rig from 11,956 samples to 653 keys, an 18.3x reduction, with maximum errors below 1 px and 1 degree. A Blender-sampled FBX mocap retarget reaches 214 keys from 13,455 samples at epsilon=3; baselines tuned to matched measured accuracy require 4.5x to 27.5x more scalar key entries. For vector paths, bbsolver supports reduction when vertex identity/order is constant over time and diagnostics for variable-vertex-count streams, including a 6.7x After Effects-compatible procedural-path compression and exact transition-timing recovery in a diagnostic case.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Humanoid",
+      "PPO",
+      "Locomotion",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.08548",
+    "title": "OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.08548",
+    "project_url": null,
+    "authors": [
+      "Zehao Yu",
+      "Jiakun Zheng",
+      "Weiji Xie",
+      "Jiyuan Shi",
+      "Chenyun Zhang",
+      "Chenjia Bai",
+      "Xuelong Li"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-07",
+    "abstract": "Recent progress in robot manipulation has been largely driven by learning from large-scale demonstrations. For humanoid robot loco-manipulation tasks, however, existing data sources force an unsatisfying tradeoff between trajectory quality and scalability. Real-world teleoperation provides the highest-quality trajectories but requires dedicated physical space and time-consuming scene resets. Simulation offers an alternative way out of this dilemma: it can produce clean, embodiment-aligned data at scale without any physical hardware. In this paper, we propose OASIS, a simulation-data-driven framework for humanoid loco-manipulation. OASIS automatically reconstructs realistic object assets from real-world images using a 3D generative model. Based on these assets, trajectories are first collected through teleoperation in simulation, and then augmented under diverse domain randomizations in a post-processing stage. With the resulting simulation data, we further design a hierarchical visuomotor policy for humanoid loco-manipulation. Extensive experiments on the real humanoid robot show that, under zero-shot deployment, the policy trained on our simulation data achieves higher success rates on most tasks than that trained on real-robot teleoperation data, owing largely to the broad lighting and environmental variations covered by our simulation rendering, which real-robot data fails to capture. The project page is available at https://oasis-humanoid.github.io/.",
+    "categories": [
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "State Estimation",
+      "Sim-to-Real",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Zero-Shot",
+      "Domain Randomization",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Sim-to-Real",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2606.08495",
+    "title": "EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2606.08495",
+    "project_url": null,
+    "authors": [
+      "Haoyang Ge",
+      "Peng Ren",
+      "Yukun Shi",
+      "Cong Huang",
+      "Kun Li",
+      "Kai Chen"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-07",
+    "abstract": "Humanoid robots require whole-body motions that adapt to scene context, task requirements, and user intent. Motion tracking reproduces specified trajectories, and humanoid vision-language-action systems provide semantic interfaces, but neither offers a scalable and interactive prior for broad full-body behavior. We introduce EgoPriMo (Egocentric Motion Prior for Humanoid Robots), a unified framework that learns such priors from egocentric human demonstrations. Given egocentric observations and a text prompt, EgoPriMo reconstructs, generates, and forecasts SMPL-based full-body motion. Language is used as a high-level control signal rather than a complete motion specification. At the core of EgoPriMo is a Triple-stream DiT that jointly models body dynamics, egocentric visual context, and text; task-conditioning masks route different tasks and missing-modality data through the same checkpoint. Experiments on Nymeria and EgoExo4D show that one checkpoint improves egocentric motion generation over UniEgoMotion while supporting reconstruction and forecasting; the generated SMPL motions can also be executed by a Unitree humanoid controller. These results indicate a practical path from scalable egocentric observations to generalizable and interactive humanoid motion priors.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Human Demonstration",
+      "Humanoid",
+      "Vision-Language",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.08278",
+    "title": "SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.08278",
+    "project_url": null,
+    "authors": [
+      "Songlin Wei",
+      "Zhenhao Ni",
+      "Jie Liu",
+      "Zhenyu Zhao",
+      "Junjie Ye",
+      "Hongyi Jing",
+      "Junkai Xia",
+      "Xiawei Liu",
+      "Michael Leong",
+      "Liang Heng",
+      "Di Huang",
+      "Yue Wang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-06",
+    "abstract": "Humanoid foundation models are advancing faster than we can evaluate them. While real-world testing is expensive and difficult to reproduce, existing simulation benchmarks focus primarily on table-top or wheeled robots. A scalable and reproducible benchmark for whole-body humanoid loco-manipulation remains an open problem. To this end, we present SIMPLE, a unified simulation testbed for humanoid policy learning and evaluation. SIMPLE couples the accurate contact-rich dynamics of MuJoCo with the photorealistic rendering of IsaacSim. It provides a large-scale environment comprising 60 diverse whole-body tasks, 50 indoor scenes, and over 1,000 object assets. To facilitate scalable data collection, the framework integrates two data generation pipelines: automated trajectory generation via motion planning and a low-latency VR teleoperation interface. We further integrate and benchmark mainstream humanoid policies at scale in SIMPLE, including lightweight imitation networks, large vision-language-action (VLA) models, and recent world action models (WAMs). Our experiments reveal a strong correlation between policy performance in simulation and the real world. Furthermore, we demonstrate that policies trained on data collected in SIMPLE can be transferred zero-shot to physical humanoid robots under similar settings, providing a robust and reproducible foundation for humanoid robotics research.",
+    "categories": [
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Zero-Shot",
+      "MuJoCo",
+      "Humanoid",
+      "Vision-Language",
+      "Foundation Model",
+      "Motion Planning",
+      "Benchmark",
+      "Policy Learning",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.08253",
+    "title": "Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking",
+    "paper_url": "https://arxiv.org/abs/2606.08253",
+    "project_url": null,
+    "authors": [
+      "Alessandro Montenegro",
+      "Shihao Li",
+      "Puze Liu",
+      "Alberto Maria Metelli",
+      "Jan Peters"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-06",
+    "abstract": "Enabling humanoid robots to operate in complex, dynamic environments remains a critical challenge, fundamentally limited by the ability to navigate robustly, safely, and accurately. While reinforcement learning with velocity-commanded policies has achieved remarkable robustness in humanoid locomotion, this approach lacks explicit control of the foothold placement, leading to unsafe behavior, such as stepping onto human feet, or imprecise navigation, hindering the following manipulation task. Conversely, explicit foothold-tracking policies offer a promising alternative by directly being commanded with target foot poses. However, existing approaches are often limited by unrealistic state assumptions, compromising real-world deployment, or they are part of staged pipelines, making them tied to specific downstream tasks. In this work, we introduce a novel, lightweight framework for training general-purpose 3D foothold-tracking policies. By dynamically providing footstep support through a goal sampler, this method enables the learned policy to be agnostic to specific terrains. Our new target representation effectively mitigates challenges arising in the real world, such as noisy and inaccurate pose estimation and foot contact estimation. Designed for direct real-world transfer, our policy acts as a standalone low-level controller that can be seamlessly paired with various high-level foothold generators. We demonstrate the effectiveness of our framework through extensive experiments in simulation and in the real world. By coupling our policy with different upstream planners, we achieve natural and accurate locomotion in challenging settings, paving the way for loco-manipulation tasks in complex environments.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Navigation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Manipulation",
+      "Navigation",
+      "Robustness",
+      "Humanoid",
+      "Pose Estimation",
+      "PPO",
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.08152",
+    "title": "Vision-Guided Dual-Arm Humanoid Robotic Disassembly of End-of-Life 18650 Lithium-ion Battery Packs",
+    "paper_url": "https://arxiv.org/abs/2606.08152",
+    "project_url": null,
+    "authors": [
+      "Yile Chen",
+      "Zhihao Liu",
+      "Xi Vincent Wang",
+      "Lihui Wang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-06",
+    "abstract": "The growing volume of retired lithium-ion battery packs from electric vehicles and portable electronics calls for automated disassembly that is safe, flexible, and selective down to the individual cell. Existing robotic systems, however, mostly assume known pack poses, external fixtures, or specialised tooling, leaving fixture-free cell-level disassembly under pose uncertainty largely unsolved. This paper presents a vision-guided dual-arm pipeline that disassembles a 21-cell 18650 pack from an arbitrary initial pose using only general-purpose parallel-jaw grippers, RGB-D sensing, and a pre-trained grasp detector. Pose uncertainty is absorbed by a learn-and-filter perception stack with discrete look-and-move wrist-camera corrections, while a mid-task support transfer between the two arms extends the effective workspace without any external clamp. The pipeline achieves an 8/10 end-to-end success rate, a cell-localisation root-mean-square error of $2.4$\\,mm, and a mean cycle time of 6.0\\,minutes per pack, providing a practical, fixture-free building block for industrial battery recycling.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Humanoid",
+      "PPO",
+      "Manipulation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.08107",
+    "title": "Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data",
+    "paper_url": "https://arxiv.org/abs/2606.08107",
+    "project_url": null,
+    "authors": [
+      "Ji Woong Kim",
+      "Ke Wang",
+      "Zipeng Fu",
+      "Sirui Chen",
+      "Cong Zhao",
+      "Jeff Lai",
+      "Chelsea Finn"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-06",
+    "abstract": "Robotics faces a fundamental challenge of data scarcity. Unlike language or vision research, there is no internet-scale dataset for robotic manipulation. A promising path forward is to leverage egocentric human data, which can be collected more easily, with greater breadth, and at a larger scale. Towards this end, we investigate key design choices for learning across human and humanoid embodiments equipped with dexterous five-finger hands, using the $π_{0.5}$ model as a foundation. Our results show that human data enables robots to learn new task semantics and compose existing skills into novel behaviors without corresponding robot data. The paper website is here: https://egopipaper.github.io/",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Fine-tuning",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.08099",
+    "title": "Cybernetic Android Avatar \"Yui\": System Integration, Field Deployment, and Evaluation",
+    "paper_url": "https://arxiv.org/abs/2606.08099",
+    "project_url": null,
+    "authors": [
+      "Kaoruko Shinkawa",
+      "Mizuki Nakajima",
+      "Taisei Mogi",
+      "Yoshihiro Nakata"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-06",
+    "abstract": "Remote communication technologies have become widely used; however, supporting a sense of shared physical space and conveying rich non-verbal cues remain challenging in many social interaction scenarios. This study presents \"Yui,\" a full-body cybernetic android avatar designed to integrate operator-side immersive teleoperation with interlocutor-side human-like social signaling. Yui combines a 55-degrees of freedom full-body mechanism with a previously developed android head, facial expression and gaze control, upper-body and arm motion, hand actuation, and a mobile platform. It can be operated through either the immersive mode using a head mounted display-based interface or desktop mode using a webcam-based interface. We evaluated the system through three real-world deployments: a long-term public exhibition at Expo 2025 in Osaka, Kansai, Japan; a remote educational exchange between elementary school students; and a public interaction study with general participants. During the Expo deployment, two units accumulated approximately 1131 h of operation, demonstrating both operational feasibility and maintenance challenges. In the public study, both operators and interlocutors reported positive impressions of co-presence and willingness to use the system. Interlocutors also rated the avatar positively in terms of human likeness and the transmission of emotions and intentions. The results indicate usability for general operators while suggesting room for improvement in precise controllability. These findings provide field-derived evidence and design implications for socially deployable full-body android avatars.",
+    "categories": [
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "PPO"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2606.08059",
+    "title": "Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain",
+    "paper_url": "https://arxiv.org/abs/2606.08059",
+    "project_url": null,
+    "authors": [
+      "Zifan Wang",
+      "Yizhao Li",
+      "Teli Ma",
+      "Qiang Zhang",
+      "Yudong Fan",
+      "Hao Xu",
+      "Shuo Yang",
+      "Junwei Liang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-06",
+    "abstract": "Humanoid behavior foundation models aim to acquire reusable whole-body control policies from broad human motion priors, enabling a single controller to produce diverse and expressive behaviors. However, existing motion-centric foundation policies largely assume that the reference motion is already physically compatible with the robot's surroundings. This assumption breaks when the demonstrator, operator, and robot inhabit different environments: a human motion may specify the intended behavior, but not the footholds, clearance, body height, or contact timing required by the robot's local terrain. We introduce \\emph{Perceptive Behavior Foundation Model} (Perceptive BFM), a terrain-aware humanoid control framework that grounds human motion priors in robot-centric perception. The model preserves raw kinematic motion references as the behavioral interface, while using local terrain observations to adapt contacts, posture, and timing. To provide scalable terrain supervision, we develop \\emph{terrain-conformal reference synthesis} (TCRS), which converts locomotion-oriented human motion clips into terrain-consistent references through contact-aware foothold construction, foot-geometry-aware swing optimization, support-aware root reconstruction, collision repair, and multi-point inverse kinematics. We then train a blind adapted-reference teacher and transfer its terrain-conformal behavior to a deployed raw-reference student through target-frame action alignment. The student is an identity-gated Transformer tracker whose terrain features enter through residual pathways initialized to preserve the motion-tracking prior and trained to produce local corrections only when needed.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation",
+      "Locomotion",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Locomotion",
+      "Transformer",
+      "Humanoid",
+      "Inverse Kinematics",
+      "Foundation Model",
+      "Collision",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.08029",
+    "title": "IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations",
+    "paper_url": "https://arxiv.org/abs/2606.08029",
+    "project_url": null,
+    "authors": [
+      "Yuxin Cai",
+      "Zongtai Li",
+      "Maonan Wang",
+      "Muyi Bao",
+      "Haokun Zhu",
+      "Ruofei Bai",
+      "Ding Zhao",
+      "Zirui Li",
+      "Wenshan Wang",
+      "Wei-Yun Yau",
+      "Ji Zhang",
+      "Chen Lv"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-06",
+    "abstract": "Object navigation requires a robot to search for an unobserved target in an unknown environment by deciding where to explore next under partial observability. Effective search resembles human-like exploration: selectively probing visually promising frontiers while relying on spatial memory to avoid redundant revisits. We propose IntentNav, a spatial-visual imitation framework that learns human-like ObjectNav policies from human demonstrations. To infer high-level search intent from low-level human actions, we introduce Frontier-based Human-Intent Labeling, which looks ahead in human demonstrations and labels the frontier that best explains the demonstrator's future search direction. We construct a spatial-visual candidate space, where BEV memory tracks explored regions, unexplored frontiers, and trajectory history, while egocentric visual memory provides semantic cues for each candidate. A VLM policy is trained to select among these grounded candidates, using Intent-Aligned Objective to encourage consistent and human-like exploration. IntentNav achieves state-of-the-art performance on the MP3D, HM3D-v1 and HM3D-v2 ObjectNav benchmarks. The proposed candidate-level navigation interface transfers zero-shot to wheeled, quadruped, and humanoid robots without further VLM fine-tuning. \\href{https://anonymous.4open.science/w/IntentNav/}{Project page}.",
+    "categories": [
+      "Navigation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Navigation",
+      "Zero-Shot",
+      "Human Demonstration",
+      "Humanoid",
+      "Fine-tuning",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2606.08081",
+    "title": "Aligned but Not Partner-Specific: Distinguishing How Multimodal LLM Agents Succeed in Reference Games Without Human-Like Conventions",
+    "paper_url": "https://arxiv.org/abs/2606.08081",
+    "project_url": null,
+    "authors": [
+      "Po-Ya Angela Wang",
+      "Chinmaya Mishra",
+      "Aslı Özyürek",
+      "Paula Rubio-Fernández",
+      "Esam Ghaleb"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-06",
+    "abstract": "Repeated reference games test whether interlocutors replace their initially long descriptions with shorter, partner-specific conventions grounded in shared interaction history. Prior work shows that multimodal LLMs fail to become more efficient across rounds, although they align on the labels they use. How can we determine whether this alignment reflects partner-specific grounding rather than a shared task vocabulary? We address this question by comparing capable multimodal agent dyads with human dyads from the KTH Tangrams corpus. Our novel methodological contribution is a constrained pseudo-dyad baseline that matches the original referential task structure, but breaks partner history. This baseline enables us to test whether the observed label alignment depends on interaction with a specific partner. Across three analytic layers (task competence, description strategy, alignment dynamics), we find clear differences. Humans reduce effort through entrainment, compressing descriptions and increasing label alignment with partners. Agents instead maintain fixed effort levels, producing verbose descriptions from round one, with near-ceiling label overlap that is statistically indistinguishable between real and pseudo dyads. MLLMs thus achieve coordination without convention, succeeding by verbose description rather than by forming the compact, history-dependent referring expressions characteristic of human dialogue.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.08043",
+    "title": "OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies",
+    "paper_url": "https://arxiv.org/abs/2606.08043",
+    "project_url": null,
+    "authors": [
+      "Chao Wang",
+      "Guangyao Ma",
+      "John Doublestein",
+      "Junming Chen",
+      "Yiming Lin",
+      "Zhaoen Su",
+      "Xiaomin Luo",
+      "Shiyang Cheng",
+      "Jie Shen",
+      "Doug Roble",
+      "Dilin Wang",
+      "Yilei Li",
+      "Rakesh Ranjan"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-06",
+    "abstract": "Facial rigging - creating FACS-based blendshapes together with inner-mouth geometry (teeth, gums, and tongue) - remains a major bottleneck in 3D character production. Existing pipelines still require substantial designer effort, especially for manual landmark annotation, per-character template adjustment, and inner-mouth placement. We present OmniFaceRig, a fully automatic end-to-end pipeline that converts a static surface-only 3D character mesh, with no pre-modeled oral cavity, into an inner-mouth-aware FACS rig with up to 155 blendshapes, procedurally fitted teeth, gums, and tongue, and re-packed UV/texture. OmniFaceRig supports diverse topologies - humans, humanoids, long-muzzled animals (e.g., dogs, wolves, foxes), and short-muzzled animals (e.g., cats, bears, rabbits, tigers) - with no manual landmarks, no user-provided templates, and no per-asset setup. The pipeline combines hybrid VLM+CV riggability checking, multi-model face parsing, dense keypoint-driven template registration, procedural inner-mouth construction, and collision-aware blendshape transfer. For non-human characters, OmniFaceRig selects topology-specific face and inner-mouth templates and uses collision-aware inner-mouth fitting to reduce teeth-face intersections without exposing users to category-specific tuning. We also publicly release Omni-Bench, a freely available benchmark dataset of 1,000 biped 3D characters with FACS facial blendshapes and inner-mouth geometry, spanning humans, humanoids, cats, dogs, and other animals. Experiments show high final rigging success on screened Omni-Bench inputs, nearly complete face detection recall from the segmentation ensemble and reliable inner-mouth placement with low penetration. Together, OmniFaceRig provides an automatic path from static generated characters to animation-ready facial rigs across both human and non-human topologies.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Biped",
+      "Humanoid",
+      "Collision",
+      "Benchmark",
+      "Dataset",
+      "PPO",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
     "arxiv_id": "2606.07083",
     "title": "Predictive Style Matching: Natural and Robust Humanoid Locomotion",
     "paper_url": "https://arxiv.org/abs/2606.07083",
@@ -149,7 +734,7 @@
     ],
     "published": "2026-06",
     "published_date": "2026-06-04",
-    "abstract": "For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references that planners struggle to synthesize from task semantics. We instead propose a compact, explicit interface that is intuitive, general, modular, and expressive enough for diverse manipulation skills. To this end, we introduce HANDOFF, a single humanoid whole-body controller that follows this interface and is distilled via multi-teacher KL distillation under a context-conditioned gating scheme into a mixture-of-experts student from three complementary specialists: whole-body motion tracking with safety-filtered data, locomotion, and fall-recovery. On the Unitree G1, HANDOFF matches state-of-the-art velocity tracking and offers one of the largest robust manipulation workspaces. We further demonstrate hardware feasibility through multiple natural-language-driven task roll-outs, powered by a VLM-driven agentic planner with no task-specific data or controller fine-tuning.",
+    "abstract": "For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references that planners struggle to synthesize from task semantics. We instead propose a compact, explicit interface that is intuitive, general, modular, and expressive enough for diverse loco-manipulation skills. To this end, we introduce HANDOFF, a single humanoid whole-body controller that follows this interface and is distilled via multi-teacher KL distillation under a context-conditioned gating scheme into a mixture-of-experts student from three complementary specialists: whole-body motion tracking with safety-filtered data, locomotion, and fall-recovery. On the Unitree G1, HANDOFF matches state-of-the-art velocity tracking and offers one of the largest robust manipulation workspaces. We further demonstrate hardware feasibility through multiple natural-language-driven task roll-outs, powered by a VLM-driven agentic planner with no task-specific data or controller fine-tuning.",
     "categories": [
       "Loco-Manipulation and Whole-Body Control",
       "Locomotion",
@@ -883,6 +1468,46 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.07643",
+    "title": "AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs",
+    "paper_url": "https://arxiv.org/abs/2606.07643",
+    "project_url": null,
+    "authors": [
+      "Yaoting Wang",
+      "Ziyi Zhang",
+      "Wenming Tu",
+      "Shaoxuan Xu",
+      "Wenjie Du",
+      "Cheng Liang",
+      "Weijun Wang",
+      "Yuanchao Li",
+      "Guangyao Li",
+      "Hao Fei",
+      "Yuanchun Li",
+      "Henghui Ding",
+      "Yunxin Liu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-01",
+    "abstract": "Recent advances in Omni-Multimodal Large Language Models (Omni-MLLMs) have enabled strong integration of vision, audio, and language. However, their audio-visual intelligence (AVI) remains insufficiently evaluated due to the lack of systematic and comprehensive benchmarks. We introduce AVI-Bench, a cognitively inspired benchmark that evaluates Omni-MLLMs across three stages, perception, understanding, and reasoning, through cross-modal tasks requiring joint audio-visual interpretation. This design enables fine-grained diagnosis of model capabilities and failure modes. To further assess robustness beyond familiar domains, we propose AVI-Bench-PriSe, an extension that probes models' primitive audio-visual sensation using unfamiliar, low-semantic stimuli, testing generalization beyond common training distributions. Extensive experiments on both open-source and closed-source models reveal substantial limitations in current Omni-MLLMs. Based on these findings, we present a four-level AVI taxonomy. Overall, AVI-Bench provides a principled evaluation framework to guide the development of more robust and generalizable AVI. Project website: https://fudancvl.github.io/AVI-Bench/",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Robustness",
+      "Benchmark",
+      "Large Language Model",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "State Estimation"
   },
   {
     "arxiv_id": "2606.02449",

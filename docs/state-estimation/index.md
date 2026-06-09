@@ -1,10 +1,10 @@
 # State Estimation
 
-**16 papers** in this category.
+**17 papers** in this category.
 
 ## Months
 
-- [2026-06](/state-estimation/2026-06) (4 papers)
+- [2026-06](/state-estimation/2026-06) (5 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
@@ -88,6 +88,25 @@ Large language models can shift human beliefs across high-stakes domains, but mo
 ### Summary
 
 Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under physical simulation due to interpenetrating, hovering, or sinking objects.
+
+---
+
+## AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.07643)
+- **Authors:** Yaoting Wang, Ziyi Zhang, Wenming Tu, Shaoxuan Xu, Wenjie Du, Cheng Liang et al. (13 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Robustness
+  - Benchmark
+  - Large Language Model
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in Omni-Multimodal Large Language Models (Omni-MLLMs) have enabled strong integration of vision, audio, and language. However, their audio-visual intelligence (AVI) remains insufficiently evaluated due to the lack of systematic and comprehensive benchmarks.
 
 ---
 

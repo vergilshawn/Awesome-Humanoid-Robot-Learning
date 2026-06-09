@@ -1,10 +1,10 @@
 # Navigation
 
-**19 papers** in this category.
+**20 papers** in this category.
 
 ## Months
 
-- [2026-06](/navigation/2026-06) (1 papers)
+- [2026-06](/navigation/2026-06) (2 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
 - [2026-01](/navigation/2026-01) (1 papers)
@@ -22,6 +22,27 @@
 ---
 
 ## Recent Papers
+
+## IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08029)
+- **Authors:** Yuxin Cai, Zongtai Li, Maonan Wang, Muyi Bao, Haokun Zhu, Ruofei Bai et al. (12 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Fine-tuning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Object navigation requires a robot to search for an unobserved target in an unknown environment by deciding where to explore next under partial observability. Effective search resembles human-like exploration: selectively probing visually promising frontiers while relying on spatial memory to avoid redundant revisits.
+
+---
 
 ## 🌟 HLL: Can Agents Cross Humanity's Last Line of Verification?
 

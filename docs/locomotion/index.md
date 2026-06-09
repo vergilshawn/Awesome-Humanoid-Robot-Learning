@@ -1,10 +1,10 @@
 # Locomotion
 
-**109 papers** in this category.
+**112 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (4 papers)
+- [2026-06](/locomotion/2026-06) (7 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -36,6 +36,68 @@
 ---
 
 ## Recent Papers
+
+## PTDL:Multi-Terrain Fall Recovery via Phase-Terrain Decoupled Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08922)
+- **Authors:** Xiaoyu Xu, Zhiming Chen, Yuenan Zhao, Ran Song, Wei Zhang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Walking
+  - Proprioception
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots can fall on slopes, gravel, and uneven ground in unstructured environments. We target integrated fall recovery and locomotion: rebuilding balance from a fallen state using proprioception alone and resuming velocity-commanded walking at the fall site.
+
+---
+
+## 🌟 bbsolver: A Unified Error-Bounded Spatiotemporal Optimization Solver for Key Timing and Topology-Consistent Vector Paths
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.09741)
+- **Project:** [GitHub](https://github.com/ivg-design/bbsolver)
+- **Authors:** Ilya Gusinski
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+  - State Estimation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Dense sampling records what an animation system actually evaluated, but it produces a poor final representation: every sampled frame can become a key, edit handles become noisy, and animated vector paths remain hard to adjust. Existing reducers usually treat the two axes separately: animation-curve reducers reduce key timing, while curve and path simplifiers reduce geometry.
+
+---
+
+## Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08253)
+- **Authors:** Alessandro Montenegro, Shihao Li, Puze Liu, Alberto Maria Metelli, Jan Peters
+- **Published:** 2026-06
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Robustness
+  - Humanoid
+  - Pose Estimation
+  - PPO
+
+### Summary
+
+Enabling humanoid robots to operate in complex, dynamic environments remains a critical challenge, fundamentally limited by the ability to navigate robustly, safely, and accurately. While reinforcement learning with velocity-commanded policies has achieved remarkable robustness in humanoid locomotion, this approach lacks explicit control of the foothold placement, leading to unsafe behavior, such as stepping onto human feet, or imprecise navigation, hindering the following manipulation task.
+
+---
 
 ## Predictive Style Matching: Natural and Robust Humanoid Locomotion
 
@@ -362,56 +424,5 @@ EgoNav enables a humanoid robot to traverse diverse unseen environments by learn
 ### Summary
 
 Learning depth-conditioned humanoid locomotion is critical for traversing uneven terrains and complex environments. This work presents CReF, a cross-modal and recurrent fusion framework that fuses proprioceptive and depth observations for humanoid locomotion control, improving robustness and terrain-conditioned behavior under challenging perceptual inputs..
-
----
-
-## Omnidirectional Humanoid Locomotion on Stairs via Unsafe Stepping Penalty and Sparse LiDAR Elevation Mapping
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.07928)
-- **Authors:** Yuzhi Jiang, Yujun Liang, Junhao Li, Han Ding, Lijun Zhu
-- **Published:** 2026-03
-- **Real Robot:** ✅
-- **Tags:**
-  - Sim-to-Real
-  - Locomotion
-  - Humanoid
-  - Walking
-  - Navigation
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Safe omnidirectional humanoid locomotion on stairs requires terrain perception and reliable foothold selection. This paper introduces a single-stage training framework with a dense unsafe stepping penalty and a rolling sparse LiDAR point-cloud elevation mapping system.
-
----
-
-## Biomechanical Comparisons Reveal Divergence of Human and Humanoid Gaits
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.21666)
-- **Published:** 2026-02
-- **Tags:**
-  - Humanoid
-  - Gait
-  - Locomotion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 APEX: Learning Adaptive High-Platform Traversal for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.11143)
-- **Project:** [GitHub](https://apex-humanoid.github.io/)
-- **Published:** 2026-02
-- **Tags:**
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---

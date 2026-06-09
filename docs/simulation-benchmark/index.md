@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**41 papers** in this category.
+**43 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (4 papers)
+- [2026-06](/simulation-benchmark/2026-06) (6 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -23,6 +23,48 @@
 ---
 
 ## Recent Papers
+
+## SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08278)
+- **Authors:** Songlin Wei, Zhenhao Ni, Jie Liu, Zhenyu Zhao, Junjie Ye, Hongyi Jing et al. (12 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Zero-Shot
+  - MuJoCo
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - Motion Planning
+
+### Summary
+
+Humanoid foundation models are advancing faster than we can evaluate them. While real-world testing is expensive and difficult to reproduce, existing simulation benchmarks focus primarily on table-top or wheeled robots.
+
+---
+
+## OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08043)
+- **Authors:** Chao Wang, Guangyao Ma, John Doublestein, Junming Chen, Yiming Lin, Zhaoen Su et al. (13 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Biped
+  - Humanoid
+  - Collision
+  - Benchmark
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Facial rigging - creating FACS-based blendshapes together with inner-mouth geometry (teeth, gums, and tongue) - remains a major bottleneck in 3D character production. Existing pipelines still require substantial designer effort, especially for manual landmark annotation, per-character template adjustment, and inner-mouth placement.
+
+---
 
 ## LIMMT: Less is More for Motion Tracking
 
@@ -362,45 +404,5 @@ Recovering 4D human-object interaction (HOI) from monocular video is a key step 
 ### Summary
 
 Emotion expression is central to human--robot interaction, yet little is known about how people interpret affect on robots with sparse, non-anthropomorphic expressive capabilities. This study examined how people perceive emotional expressions displayed by Reachy Mini (Pollen Robotics and Hugging Face), a low-degree-of-freedom (low-DoF) robot with a constrained and distinctly non-human expressive repertoire.
-
----
-
-## OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.12038)
-- **Authors:** Yiren Song, Xiyao Deng, Pei Yang, Yihan Wang, Mike Zheng Shou
-- **Published:** 2026-05
-- **Tags:**
-  - Humanoid
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Cross-embodiment video generation aims to transfer motions across different humanoid embodiments, such as human-to-robot and robot-to-robot, enabling scalable data generation for embodied intelligence. A major challenge in this setting is that motion dynamics are partly transferable across embodiments, whereas appearance and morphology remain embodiment-specific.
-
----
-
-## 🌟 CLAW: Composable Language-Annotated Whole-body Motion Generation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.11251)
-- **Project:** [GitHub](https://github.com/JianuoCao/CLAW)
-- **Authors:** Jianuo Cao, Yuxin Chen, Masayoshi Tomizuka
-- **Published:** 2026-04
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - MuJoCo
-  - Humanoid
-  - Language-Conditioned
-  - Dataset
-  - Simulation Benchmark
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-
-### Summary
-
-CLAW is an interactive web-based pipeline for scalable generation of language-annotated whole-body motion data for the Unitree G1 humanoid robot. It treats kinematic planner modes as composable building blocks and provides browser-based interfaces for exploratory and batch data collection.
 
 ---

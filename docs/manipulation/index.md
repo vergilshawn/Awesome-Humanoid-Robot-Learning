@@ -1,9 +1,10 @@
 # Manipulation
 
-**55 papers** in this category.
+**58 papers** in this category.
 
 ## Months
 
+- [2026-06](/manipulation/2026-06) (3 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -30,6 +31,58 @@
 ---
 
 ## Recent Papers
+
+## SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.09798)
+- **Authors:** Yanming Shao, Zanxin Chen, Wenwei Lin, Mingjie Zhou, Tianxing Chen, Xiaokang Yang et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Manipulation
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Human hand-object interactions encode functional intent, but direct transfer to robotic hands often fails under morphology, contact, and reachability constraints. We present SynManDex, a synthetic pipeline that uses generated human pre-grasps as affordance-aware proposals and resolves the final contacts with robot-native optimization.
+
+---
+
+## Vision-Guided Dual-Arm Humanoid Robotic Disassembly of End-of-Life 18650 Lithium-ion Battery Packs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08152)
+- **Authors:** Yile Chen, Zhihao Liu, Xi Vincent Wang, Lihui Wang
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Manipulation
+
+### Summary
+
+The growing volume of retired lithium-ion battery packs from electric vehicles and portable electronics calls for automated disassembly that is safe, flexible, and selective down to the individual cell. Existing robotic systems, however, mostly assume known pack poses, external fixtures, or specialised tooling, leaving fixture-free cell-level disassembly under pose uncertainty largely unsolved.
+
+---
+
+## Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08107)
+- **Authors:** Ji Woong Kim, Ke Wang, Zipeng Fu, Sirui Chen, Cong Zhao, Jeff Lai et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Fine-tuning
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Robotics faces a fundamental challenge of data scarcity. Unlike language or vision research, there is no internet-scale dataset for robotic manipulation.
+
+---
 
 ## Any-ttach: Quick End-effector Swapping Enables Manipulation Dexterity with Simplicity
 
@@ -284,47 +337,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Manipulation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Lightning Grasp: High Performance Procedural Grasp Synthesis with Contact Fields
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.07418)
-- **Published:** 2025-11
-- **Tags:**
-  - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## EgoMI: Learning Active Vision and Whole-Body Manipulation from Egocentric Human Demonstrations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.00153)
-- **Published:** 2025-11
-- **Tags:**
-  - Manipulation
-  - Human Demonstration
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Endowing GPT-4 with a Humanoid Body: Building the Bridge Between Off-the-Shelf VLMs and the Physical World
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.00041)
-- **Published:** 2025-11
-- **Tags:**
-  - Humanoid
-  - Manipulation
 
 ### Summary
 

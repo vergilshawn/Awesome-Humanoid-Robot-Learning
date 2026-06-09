@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**186 papers** in this category.
+**191 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (7 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (12 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -35,6 +35,99 @@
 ---
 
 ## Recent Papers
+
+## VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.09286)
+- **Authors:** Dongting Li, Qianyang Wu, Xingyu Chen, Liang Li, Yuhang Lin, Sikai Wu et al. (12 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Proprioception
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid robots hold immense potential for real-world assistance, yet agile interaction with objects in unstructured environments demands tightly coupled whole-body coordination. Despite recent advancements, current controllers face a critical deployment gap.
+
+---
+
+## MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.09215)
+- **Authors:** Jia Zheng, Teli Ma, Yudong Fan, Zifan Wang, Shuo Yang, Junwei Liang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - World Model
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+World Action Models (WAMs) couple a video dynamics prior to the policy and have shown encouraging results on tabletop manipulation, but iterative denoising over high-dimensional video-action latents leaves them too slow for real-time humanoid loco-manipulation. The problem is compounded by the dominant hierarchical paradigm, in which a high-level manipulation policy controls only the upper body while a low-level controller tracks coarse base commands -- placing upper and lower body in inconsistent action spaces and reducing the legs to balance-preserving locomotion.
+
+---
+
+## EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08495)
+- **Authors:** Haoyang Ge, Peng Ren, Yukun Shi, Cong Huang, Kun Li, Kai Chen
+- **Published:** 2026-06
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid robots require whole-body motions that adapt to scene context, task requirements, and user intent. Motion tracking reproduces specified trajectories, and humanoid vision-language-action systems provide semantic interfaces, but neither offers a scalable and interactive prior for broad full-body behavior.
+
+---
+
+## Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08059)
+- **Authors:** Zifan Wang, Yizhao Li, Teli Ma, Qiang Zhang, Yudong Fan, Hao Xu et al. (8 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Transformer
+  - Humanoid
+  - Inverse Kinematics
+  - Foundation Model
+  - Collision
+  - PPO
+
+### Summary
+
+Humanoid behavior foundation models aim to acquire reusable whole-body control policies from broad human motion priors, enabling a single controller to produce diverse and expressive behaviors. However, existing motion-centric foundation policies largely assume that the reference motion is already physically compatible with the robot's surroundings.
+
+---
+
+## Aligned but Not Partner-Specific: Distinguishing How Multimodal LLM Agents Succeed in Reference Games Without Human-Like Conventions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08081)
+- **Authors:** Po-Ya Angela Wang, Chinmaya Mishra, Aslı Özyürek, Paula Rubio-Fernández, Esam Ghaleb
+- **Published:** 2026-06
+- **Tags:**
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Repeated reference games test whether interlocutors replace their initially long descriptions with shorter, partner-specific conventions grounded in shared interaction history. Prior work shows that multimodal LLMs fail to become more efficient across rounds, although they align on the labels they use.
+
+---
 
 ## HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers
 
@@ -345,105 +438,5 @@ Artificially generated speech is increasingly embedded in everyday life. Voice c
 ### Summary
 
 In this report, we present HoloMotion-1, a humanoid motion foundation model for zero-shot whole-body motion tracking. A key innovation of HoloMotion-1 is to scale control-policy training with a large-scale hybrid motion corpus, where video-reconstructed motions from in-the-wild videos provide the dominant source of motion diversity, while curated motion-capture and in-house motion data provide higher-fidelity supervision and deployment-oriented coverage.
-
----
-
-## Before the Body Moves: Learning Anticipatory Joint Intent for Language-Conditioned Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.14417)
-- **Authors:** Haozhe Jia, Honglei Jin, Yuan Zhang, Youcheng Fan, Shaofeng Liang, Lei Wang et al. (12 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Language-Conditioned
-  - PPO
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-
-### Summary
-
-Natural language is an intuitive interface for humanoid robots, yet streaming whole-body control requires control representations that are executable now and anticipatory of future physical transitions. Existing language-conditioned humanoid systems typically generate kinematic references that a low-level tracker must repair reactively, or use latent/action policies whose outputs do not explicitly encode upcoming contact changes, support transfers, and balance preparation.
-
----
-
-## Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.17335)
-- **Authors:** Zewei Zhang, Kehan Wen, Michael Xu, Junzhe He, Chenhao Li, Takahiro Miki et al. (10 authors)
-- **Published:** 2026-04
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - PPO
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-This work combines motion generation and motion tracking for whole-body humanoid locomotion. A diffusion model predicts terrain-aware reference motions from retargeted human motions, while a reinforcement learning tracker follows the generated references.
-
----
-
-## HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.07993)
-- **Authors:** Shuanghao Bai, Meng Li, Xinyuan Lv, Jiawei Wang, Xinhua Wang, Fei Liao et al. (17 authors)
-- **Published:** 2026-04
-- **Tags:**
-  - Manipulation
-  - Biped
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-
-### Summary
-
-HEX is a state-centric framework for coordinated manipulation on full-sized bipedal humanoid robots. It introduces a humanoid-aligned universal state representation for scalable learning across heterogeneous embodiments and a mixture-of-experts proprioceptive predictor for whole-body coordination and temporal motion dynamics.
-
----
-
-## 🌟 Sumo: Reinforcement Learning for Humanoid Loco-manipulation with Interactable 3D Scene Semantics
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.08508)
-- **Project:** [GitHub](https://sumo.rai-inst.com/)
-- **Authors:** Qingwen Guo, Junbo Wang, Ali Hadi Zadeh, Haonan Chang, Hongyu Zhou, Chenhao Li et al. (13 authors)
-- **Published:** 2026-04
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - Navigation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Sumo introduces a reinforcement learning framework for humanoid loco-manipulation with interactable 3D scene semantics. It enables humanoid robots to reason about scene objects and perform whole-body navigation and manipulation skills in semantically rich environments..
-
----
-
-## 🌟 ZeroWBC: Learning Natural Visuomotor Humanoid Control Directly from Human Egocentric Video
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.09170)
-- **Project:** [GitHub](https://zerowbc.github.io/)
-- **Authors:** Haoran Yang, Jiacheng Bao, Yucheng Xin, Haoming Song, Yuyang Tian, Bin Zhao et al. (8 authors)
-- **Published:** 2026-03
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Teleoperation
-  - Humanoid
-  - Vision-Language
-  - Loco-Manipulation and Whole-Body Control
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Achieving versatile and naturalistic whole-body control for humanoid robot scene-interaction remains a significant challenge. ZeroWBC learns a natural humanoid visuomotor control policy directly from human egocentric videos, eliminating the need for large-scale robot teleoperation data.
 
 ---

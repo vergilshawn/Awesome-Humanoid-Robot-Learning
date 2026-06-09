@@ -4,15 +4,175 @@ Papers with real humanoid robot deployment and experiments.
 
 ## Platforms
 
-- **Figure:** 8 papers
+- **Digit:** 1 papers
+- **Figure:** 12 papers
 - **NAO:** 3 papers
-- **Unitree G1:** 26 papers
-- **Unknown Platform:** 2 papers
+- **Unitree G1:** 28 papers
+- **Unknown Platform:** 4 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.09798)
+- **Authors:** Yanming Shao, Zanxin Chen, Wenwei Lin, Mingjie Zhou, Tianxing Chen, Xiaokang Yang et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Manipulation
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Human hand-object interactions encode functional intent, but direct transfer to robotic hands often fails under morphology, contact, and reachability constraints. We present SynManDex, a synthetic pipeline that uses generated human pre-grasps as affordance-aware proposals and resolves the final contacts with robot-native optimization.
+
+---
+
+## MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.09215)
+- **Authors:** Jia Zheng, Teli Ma, Yudong Fan, Zifan Wang, Shuo Yang, Junwei Liang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - World Model
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+World Action Models (WAMs) couple a video dynamics prior to the policy and have shown encouraging results on tabletop manipulation, but iterative denoising over high-dimensional video-action latents leaves them too slow for real-time humanoid loco-manipulation. The problem is compounded by the dominant hierarchical paradigm, in which a high-level manipulation policy controls only the upper body while a low-level controller tracks coarse base commands -- placing upper and lower body in inconsistent action spaces and reducing the legs to balance-preserving locomotion.
+
+---
+
+## PTDL:Multi-Terrain Fall Recovery via Phase-Terrain Decoupled Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08922)
+- **Authors:** Xiaoyu Xu, Zhiming Chen, Yuenan Zhao, Ran Song, Wei Zhang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Walking
+  - Proprioception
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots can fall on slopes, gravel, and uneven ground in unstructured environments. We target integrated fall recovery and locomotion: rebuilding balance from a fallen state using proprioception alone and resuming velocity-commanded walking at the fall site.
+
+---
+
+## 🌟 bbsolver: A Unified Error-Bounded Spatiotemporal Optimization Solver for Key Timing and Topology-Consistent Vector Paths
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.09741)
+- **Project:** [GitHub](https://github.com/ivg-design/bbsolver)
+- **Authors:** Ilya Gusinski
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+  - State Estimation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Dense sampling records what an animation system actually evaluated, but it produces a poor final representation: every sampled frame can become a key, edit handles become noisy, and animated vector paths remain hard to adjust. Existing reducers usually treat the two axes separately: animation-curve reducers reduce key timing, while curve and path simplifiers reduce geometry.
+
+---
+
+## SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08278)
+- **Authors:** Songlin Wei, Zhenhao Ni, Jie Liu, Zhenyu Zhao, Junjie Ye, Hongyi Jing et al. (12 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Zero-Shot
+  - MuJoCo
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - Motion Planning
+
+### Summary
+
+Humanoid foundation models are advancing faster than we can evaluate them. While real-world testing is expensive and difficult to reproduce, existing simulation benchmarks focus primarily on table-top or wheeled robots.
+
+---
+
+## Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08253)
+- **Authors:** Alessandro Montenegro, Shihao Li, Puze Liu, Alberto Maria Metelli, Jan Peters
+- **Published:** 2026-06
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Robustness
+  - Humanoid
+  - Pose Estimation
+  - PPO
+
+### Summary
+
+Enabling humanoid robots to operate in complex, dynamic environments remains a critical challenge, fundamentally limited by the ability to navigate robustly, safely, and accurately. While reinforcement learning with velocity-commanded policies has achieved remarkable robustness in humanoid locomotion, this approach lacks explicit control of the foothold placement, leading to unsafe behavior, such as stepping onto human feet, or imprecise navigation, hindering the following manipulation task.
+
+---
+
+## Cybernetic Android Avatar "Yui": System Integration, Field Deployment, and Evaluation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08099)
+- **Authors:** Kaoruko Shinkawa, Mizuki Nakajima, Taisei Mogi, Yoshihiro Nakata
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - PPO
+
+### Summary
+
+Remote communication technologies have become widely used; however, supporting a sense of shared physical space and conveying rich non-verbal cues remain challenging in many social interaction scenarios. This study presents "Yui," a full-body cybernetic android avatar designed to integrate operator-side immersive teleoperation with interlocutor-side human-like social signaling.
+
+---
+
+## IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08029)
+- **Authors:** Yuxin Cai, Zongtai Li, Maonan Wang, Muyi Bao, Haokun Zhu, Ruofei Bai et al. (12 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Fine-tuning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Object navigation requires a robot to search for an unobserved target in an unknown environment by deciding where to explore next under partial observability. Effective search resembles human-like exploration: selectively probing visually promising frontiers while relying on spatial memory to avoid redundant revisits.
+
+---
 
 ## Predictive Style Matching: Natural and Robust Humanoid Locomotion
 
@@ -242,6 +402,25 @@ Expressive whole-body motion is important for humanoid robots operating in human
 ### Summary
 
 Retargeting human motion to humanoid robots is critical for teleoperation, imitation learning and human-robot interaction. However, it remains challenging because of substantial morphological discrepancies between humans and robots, including differences in skeletal topology, limb proportions and degrees of freedom, as well as the scarcity of paired motion data.
+
+---
+
+## AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.07643)
+- **Authors:** Yaoting Wang, Ziyi Zhang, Wenming Tu, Shaoxuan Xu, Wenjie Du, Cheng Liang et al. (13 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Robustness
+  - Benchmark
+  - Large Language Model
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in Omni-Multimodal Large Language Models (Omni-MLLMs) have enabled strong integration of vision, audio, and language. However, their audio-visual intelligence (AVI) remains insufficiently evaluated due to the lack of systematic and comprehensive benchmarks.
 
 ---
 

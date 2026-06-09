@@ -1,10 +1,10 @@
 # Teleoperation
 
-**26 papers** in this category.
+**28 papers** in this category.
 
 ## Months
 
-- [2026-06](/teleoperation/2026-06) (4 papers)
+- [2026-06](/teleoperation/2026-06) (6 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
 - [2026-02](/teleoperation/2026-02) (4 papers)
@@ -22,6 +22,43 @@
 ---
 
 ## Recent Papers
+
+## OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08548)
+- **Authors:** Zehao Yu, Jiakun Zheng, Weiji Xie, Jiyuan Shi, Chenyun Zhang, Chenjia Bai et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Zero-Shot
+  - Domain Randomization
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Sim-to-Real
+
+### Summary
+
+Recent progress in robot manipulation has been largely driven by learning from large-scale demonstrations. For humanoid robot loco-manipulation tasks, however, existing data sources force an unsatisfying tradeoff between trajectory quality and scalability.
+
+---
+
+## Cybernetic Android Avatar "Yui": System Integration, Field Deployment, and Evaluation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08099)
+- **Authors:** Kaoruko Shinkawa, Mizuki Nakajima, Taisei Mogi, Yoshihiro Nakata
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - PPO
+
+### Summary
+
+Remote communication technologies have become widely used; however, supporting a sense of shared physical space and conveying rich non-verbal cues remain challenging in many social interaction scenarios. This study presents "Yui," a full-body cybernetic android avatar designed to integrate operator-side immersive teleoperation with interlocutor-side human-like social signaling.
+
+---
 
 ## MotionDisco: Motion Discovery for Extreme Humanoid Loco-Manipulation
 
@@ -317,36 +354,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Teleoperation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Heavy lifting tasks via haptic teleoperation of a wheeled humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.19530)
-- **Published:** 2025-05
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 TeleOpBench: A Simulator-Centric Benchmark for Dual-Arm Dexterous Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.12748)
-- **Project:** [GitHub](https://gorgeous2002.github.io/TeleOpBench/)
-- **Published:** 2025-05
-- **Tags:**
-  - Teleoperation
-  - Simulator
-  - Benchmark
 
 ### Summary
 
