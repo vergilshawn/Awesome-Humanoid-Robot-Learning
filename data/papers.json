@@ -1,5 +1,256 @@
 [
   {
+    "arxiv_id": "2606.11109",
+    "title": "EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2606.11109",
+    "project_url": null,
+    "authors": [
+      "Yanshuo Lu",
+      "Yuxuan Hu",
+      "Shenghai Yuan",
+      "Xinyu Zhou",
+      "Kuangji Zuo",
+      "Bofan Lyu",
+      "XiChen Yuan",
+      "Jianfei Yang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-09",
+    "abstract": "Falls are one of the leading causes of injury and hospitalization among elderly individuals, making reliable fall awareness an essential capability for safety monitoring in residential environments. However, existing fall detection systems often rely on wearable devices or fixed sensing installations, which may suffer from low user compliance, limited spatial coverage, or degraded performance under occlusion and poor lighting conditions. In this work, we propose \\textbf{EM-Fall}, an embodied fall detection framework deployed on a mobile humanoid robot. The system integrates millimeter-wave (mmWave) sensing with robotic mobility, allowing the robot to actively adjust its sensing viewpoint and maintain target observability across rooms and under occlusion. To address interference in complex residential environments, including pet motion and multipath artifacts, we design a human-centered perception pipeline combined with lightweight temporal modeling to capture motion evolution before, during, and after fall events. We evaluate the proposed system across eight real indoor environments with four participants and construct an in-home mmWave fall detection dataset. Experimental results show that the embodied mobile sensing paradigm improves monitoring continuity and maintains robust fall detection performance under diverse environmental conditions. The proposed framework provides a practical solution for robot-assisted safety monitoring in home environments.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Safety",
+      "Humanoid",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.11092",
+    "title": "RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning",
+    "paper_url": "https://arxiv.org/abs/2606.11092",
+    "project_url": null,
+    "authors": [
+      "Yichao Zhong",
+      "Yidan Lu",
+      "Yuhang Lu",
+      "Tianyang Tang",
+      "Haoguang Mai",
+      "Yixuan Pan",
+      "Tianyu Li",
+      "Li Chen",
+      "Jingbo Wang",
+      "Zhongyu Li",
+      "Peng Lu",
+      "Hongyang Li"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-09",
+    "abstract": "Elite humanoid soccer shooting requires whole-body stability, high-impulse whole-body interactions, and accuracy to targets. Motion tracking-driven reinforcement learning (RL) provides stability in whole-body movement coordination, but a fixed reference makes it hard to adapt to varied ball positions and strike timings; in contrast, task reward-driven RL struggles to explore and discover valid kicks from scratch. We therefore introduce RoboNaldo, a three-stage motion-guided curriculum RL framework for high-impulse humanoid interaction. A single human-kick reference is used as a scaffold and progressively shifts optimization towards shooting performance. The curriculum first learns a stable whole-body kicking prior, then adapts the kick to free-kick settings where the ball is stationary at random positions, and finally extends it to moving-ball shooting through a locomotion-command and kick-trigger interface. A high-level heuristic planner controls this interface during training, while alternative high-level controllers can drive the same low-level policy at inference. In simulation, RoboNaldo demonstrates free-kick shot error 48.6% lower and shoot velocity 2.96x than prior work baselines. In real world on a Unitree G1 with onboard perception, RoboNaldo attains 0.73 m and 0.86 m average target shooting error from 3 m away in free-kick and moving-ball cases, accordingly. And the post-contact ball velocity reaches 13.10 m/s, which is 59-71% of reported professional open-play shot speed. Project page: $\\href{https://opendrivelab.com/RoboNaldo}{\\text{opendrivelab.com/RoboNaldo}}$.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.11034",
+    "title": "A Spiking Neural Architecture for Coordinating Arm and Locomotor Control",
+    "paper_url": "https://arxiv.org/abs/2606.11034",
+    "project_url": null,
+    "authors": [
+      "Lea Steffen",
+      "Kathryn Simone",
+      "Graeme Damberger",
+      "Travis DeWolf",
+      "Hudson Ly",
+      "Chris Eliasmith"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-09",
+    "abstract": "Spiking Neural Networks (SNNs) coupled with neuromorphic hardware offer energy-efficient solutions for humanoid robot control. However, existing SNN-based motor control systems address bipedal locomotion and arm control in isolation, leaving integrated control of both unaddressed. We present a spiking architecture that coordinates force-based arm control and bipedal locomotion in a simulated humanoid, using the Neural Engineering Framework (NEF) and Semantic Pointer Architecture (SPA). High-level action selection between locomotor and arm control is mediated by a biologically grounded spiking basal ganglia model. We validate the system through co-simulation of Nengo, for the neural control, and Isaac Sim, demonstrating successful target reaching, continuous digit drawing, path-following locomotion, and finally, switching between walking and arm control via basal ganglia disinhibition. To our knowledge, this is the first integrated spiking controller to combine bipedal locomotion and arm control on a full-scale humanoid platform. The full spike-based implementation enables future deployment on low-power neuromorphic hardware.",
+    "categories": [
+      "Locomotion",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Isaac Sim",
+      "Biped",
+      "Humanoid",
+      "Walking",
+      "GAN",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.10903",
+    "title": "AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation",
+    "paper_url": "https://arxiv.org/abs/2606.10903",
+    "project_url": null,
+    "authors": [
+      "Tianhao Zang",
+      "Siwei Cheng",
+      "Haidong Huang",
+      "Shanze Wang",
+      "Wei Zhang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-09",
+    "abstract": "Monocular local navigation is attractive for lightweight robots, but existing vision-based policies often couple perception to a specific body, camera height, and footprint, making transfer from wheeled bases to legged platforms dependent on retraining or active depth hardware. This paper introduces AgniNav, a configuration-driven local navigation framework that standardizes cross-embodiment transfer at the collision-envelope level. Each robot is specified by a measurable four-parameter safety envelope: collision-relevant height, front length, rear length, and half width. The height parameter conditions an image-to-scan network to predict a one-dimensional, collision-relevant pseudo-laserscan from a monocular color image, while the remaining footprint parameters configure a dimension-aware local planner for collision checking. Training uses height-conditioned column-minimum scan labels generated from paired color-depth data, allowing the same image to supervise different safety envelopes without collecting robot-specific data. To the best of our knowledge, AgniNav is the first monocular local-navigation framework that jointly conditions perception and planning on a shared collision-envelope configuration for zero-retraining deployment across wheeled, quadruped, and humanoid platforms. Real-robot experiments on a Turtlebot2, Unitree Go2, and Accelerated Evolution K1 achieve 39/40, 18/20, and 18/20 successes with 0/40, 1/20, and 2/20 collisions, respectively, while running at 30 Hz on Jetson Orin.",
+    "categories": [
+      "Navigation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Navigation",
+      "Safety",
+      "Humanoid",
+      "Collision",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2606.10449",
+    "title": "GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains",
+    "paper_url": "https://arxiv.org/abs/2606.10449",
+    "project_url": null,
+    "authors": [
+      "Haoxuan Han",
+      "Chen Chen",
+      "Linao Gong",
+      "Xin Yang",
+      "Hao Hu",
+      "Junhong Guo",
+      "Zhicheng He",
+      "Yao Su",
+      "Fenghua He"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-09",
+    "abstract": "Humanoid robots have achieved strong locomotion capabilities, but reliable navigation on versatile terrains remains challenging because obstacle avoidance must be coordinated with dynamically feasible motion. In this work, we present GuideWalk, a unified end-to-end framework that integrates traversability-aware navigation guidance with terrain-adaptive locomotion teacher for humanoid navigation. Specifically, we introduce a navigation module that provides explicit velocity guidance, decoupling obstacle avoidance from terrain conditions to enable robust planning across diverse environments. We propose a composite teacher distillation scheme, where goal-directed commands and dynamically consistent actions are aggregated and distilled into a single policy. To further improve robustness, the distilled policy is refined with reinforcement learning and an auxiliary behavior cloning objective, which promotes exploration while preserving desirable teacher behaviors. Experiments demonstrate that GuideWalk achieves stable and effective navigation while maintaining stable humanoid locomotion.",
+    "categories": [
+      "Locomotion",
+      "Navigation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Navigation",
+      "Robustness",
+      "Humanoid",
+      "Distillation",
+      "Behavior Cloning"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "NAO",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.10340",
+    "title": "OMG: Omni-Modal Motion Generation for Generalist Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2606.10340",
+    "project_url": null,
+    "authors": [
+      "Siqiao Huang",
+      "Kun-Ying Lee",
+      "Dongming Qiao",
+      "Guanqi He",
+      "Zhenyu Wang",
+      "Yitang Li",
+      "Shaoting Zhu",
+      "Hang Zhao"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-09",
+    "abstract": "Humanoid whole-body control has made significant progress in recent years, yet existing approaches remain limited to few-skill policies with heavy reward engineering, or motion trackers that are difficult to extend to new input modalities. We argue that the key to general-purpose humanoid control is to build a scalable brain, a module capable of reasoning with diverse conditioning modalities, atop a reactive motion tracking cerebellum, mirroring the hierarchical structure of biological motor systems. Two challenges arise in realizing this vision: acquiring a vast amount of high-quality data to achieve general purpose control, and equipping the generator with the capability to condition on compositional, extensible multi-modal inputs. We present OMG, which addresses these challenges with a meticulous data curation, filtering and labeling pipeline, as well as a diffusion-based motion generation backbone that conditions on language, audio, and human reference motions. Extensive experiments validate OMG as an omni-modal whole-body controller exhibiting state-of-the-art performance, model scaling behavior and efficient adaptation to new distributions and modalities, marking a concrete step toward foundation models for humanoid robots.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Humanoid",
+      "Foundation Model",
+      "Diffusion",
+      "Multi-Modal",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.10288",
+    "title": "MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds",
+    "paper_url": "https://arxiv.org/abs/2606.10288",
+    "project_url": null,
+    "authors": [
+      "Codrin Crismariu",
+      "Ryan K. Cosner"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-09",
+    "abstract": "Perceptive bipedal locomotion over sparse terrain remains a difficult challenge: model-based methods are precise but brittle to uncertainty, while model-free methods are robust but struggle to discover the precise, constrained motions required for safety-critical locomotion where small errors can cause catastrophic failures. We propose a model-assisted reinforcement learning (RL) framework that combines both perspectives in three steps: (1) generate a safe reference trajectory using simplified models; (2) train a privileged teacher policy guided by a control Lyapunov function (CLF) reward built around the safe reference trajectory; and (3) distill the teacher into a vision-based student policy. We show that this model-assistance procedure produces physically grounded locomotion, improving sample efficiency, reducing the need for a complex learning curriculum, and achieving smoother locomotion behavior alongside stepping stone performance comparable to model-free baselines. We validate our approach in simulation and demonstrate successful deployment on a Unitree G1 humanoid robot navigating sparse footholds with lateral constraints.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Safety",
+      "Biped",
+      "Humanoid",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2606.09798",
     "title": "SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps",
     "paper_url": "https://arxiv.org/abs/2606.09798",
@@ -143,6 +394,31 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.10113",
+    "title": "Emotion Profiling in LLM-Based Literary Translation: Systematic Shifts Across MT and Post-Editing",
+    "paper_url": "https://arxiv.org/abs/2606.10113",
+    "project_url": null,
+    "authors": [
+      "Antonio Castaldo",
+      "Johanna Monti",
+      "Sheila Castilho"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-08",
+    "abstract": "This paper investigates whether LLM translations exhibit identifiable emotional profiles and how post-editing reshapes them toward human-like norms. We compare LLM translations of Margaret Atwood's Oryx and Crake with their post-edited versions and a human translation, using a large-scale corpus of contemporary Italian science-fiction as a baseline. We examine emotion through lexicon-based and multilingual modeling, conducting a fine-grained analysis of emotional variation across systems. We find that MT systems introduce model-specific and statistically significant emotional fingerprints across translations, leading to a limited preservation of an author's voice.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
     "arxiv_id": "2606.09741",
@@ -1115,7 +1391,7 @@
     ],
     "published": "2026-06",
     "published_date": "2026-06-03",
-    "abstract": "Humans primarily rely on walking and running to traverse complex terrains, without resorting to unnecessarily complex motion patterns. Similarly, humanoid robots should achieve smooth transitions between walking and running while maintaining natural and stable locomotion. However, unifying gait transition and multi-terrain adaptation within a single policy remains challenging due to gradient interference and the distribution shift induced by terrain-dependent visual and dynamic variations. Although Mixture-of-Experts (MoE) architectures can alleviate multi-skill interference, naive joint training often fails to yield clear expert specialization, limiting their effectiveness. To address these challenges, we propose CoRe-MoE, a two-stage reinforcement learning framework that decouples gait generation from terrain adaptation. In the first stage, a stable locomotion policy is learned to produce natural walking and running behaviors with smooth transitions. In the second stage, a terrain-aware MoE branch is introduced and trained with a contrastive objective to shape the gating network, enabling it to capture structured terrain representations and promote expert specialization. The final action is obtained via weighted fusion of the base gait policy and the terrain-aware branch, allowing the policy to preserve stable locomotion patterns while adapting to complex terrains. Extensive simulation results demonstrate that the proposed method outperforms baseline approaches in terms of success rate, locomotion stability, and multi-terrain adaptability. Furthermore, zero-shot deployment on a Unitree G1 humanoid robot validates the effectiveness of our framework, achieving robust walking and running across stairs, slopes, steps, obstacles, and unstructured outdoor terrains, while maintaining accurate foothold placement and dynamic stability under external disturbances.",
+    "abstract": "Humans primarily rely on walking and running to traverse complex terrains. Similarly, humanoid robots should be able to smoothly transition between walking and running while maintaining natural and stable locomotion. However, unifying gait transition and multi-terrain adaptation within a single policy remains challenging due to gradient interference between tasks and the distribution shift caused by terrain variations. Although Mixture-of-Experts (MoE) architectures can mitigate multi-skill interference, direct joint training often fails to achieve clear expert specialization. To address these challenges, we propose CoRe-MoE, a two-stage reinforcement learning framework that decouples gait generation from terrain adaptation. In the first stage, a stable locomotion policy is learned to produce natural walking and running behaviors with smooth transitions. In the second stage, a terrain-aware MoE branch is introduced, and the gating network is trained with a contrastive objective to learn structured terrain representations and promote expert specialization. The final action is obtained through weighted fusion of the base gait policy and the terrain-aware branch, enabling the policy to preserve stable locomotion while adapting to complex terrains. Extensive simulation results demonstrate that the proposed method outperforms baseline approaches in terms of success rate, locomotion stability, and multi-terrain adaptability. Furthermore, zero-shot deployment on a Unitree G1 humanoid robot validates the effectiveness of our framework, achieving robust walking and running across stairs, slopes, steps, obstacles, and unstructured outdoor terrains while maintaining accurate foothold control and dynamic stability.",
     "categories": [
       "Locomotion",
       "State Estimation",

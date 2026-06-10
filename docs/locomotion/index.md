@@ -1,10 +1,10 @@
 # Locomotion
 
-**112 papers** in this category.
+**115 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (7 papers)
+- [2026-06](/locomotion/2026-06) (10 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -36,6 +36,70 @@
 ---
 
 ## Recent Papers
+
+## A Spiking Neural Architecture for Coordinating Arm and Locomotor Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11034)
+- **Authors:** Lea Steffen, Kathryn Simone, Graeme Damberger, Travis DeWolf, Hudson Ly, Chris Eliasmith
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Locomotion
+  - Isaac Sim
+  - Biped
+  - Humanoid
+  - Walking
+  - GAN
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Spiking Neural Networks (SNNs) coupled with neuromorphic hardware offer energy-efficient solutions for humanoid robot control. However, existing SNN-based motor control systems address bipedal locomotion and arm control in isolation, leaving integrated control of both unaddressed.
+
+---
+
+## GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.10449)
+- **Authors:** Haoxuan Han, Chen Chen, Linao Gong, Xin Yang, Hao Hu, Junhong Guo et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — NAO
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Navigation
+  - Robustness
+  - Humanoid
+  - Distillation
+  - Behavior Cloning
+
+### Summary
+
+Humanoid robots have achieved strong locomotion capabilities, but reliable navigation on versatile terrains remains challenging because obstacle avoidance must be coordinated with dynamically feasible motion. In this work, we present GuideWalk, a unified end-to-end framework that integrates traversability-aware navigation guidance with terrain-adaptive locomotion teacher for humanoid navigation.
+
+---
+
+## MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.10288)
+- **Authors:** Codrin Crismariu, Ryan K. Cosner
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Safety
+  - Biped
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Perceptive bipedal locomotion over sparse terrain remains a difficult challenge: model-based methods are precise but brittle to uncertainty, while model-free methods are robust but struggle to discover the precise, constrained motions required for safety-critical locomotion where small errors can cause catastrophic failures. We propose a model-assisted reinforcement learning (RL) framework that combines both perspectives in three steps: (1) generate a safe reference trajectory using simplified models; (2) train a privileged teacher policy guided by a control Lyapunov function (CLF) reward built around the safe reference trajectory; and (3) distill the teacher into a vision-based student policy.
+
+---
 
 ## PTDL:Multi-Terrain Fall Recovery via Phase-Terrain Decoupled Learning
 
@@ -156,7 +220,7 @@ Achieving both anthropomorphic naturalness and robust terrain traversal remains 
 
 ### Summary
 
-Humans primarily rely on walking and running to traverse complex terrains, without resorting to unnecessarily complex motion patterns. Similarly, humanoid robots should achieve smooth transitions between walking and running while maintaining natural and stable locomotion.
+Humans primarily rely on walking and running to traverse complex terrains. Similarly, humanoid robots should be able to smoothly transition between walking and running while maintaining natural and stable locomotion.
 
 ---
 
@@ -365,64 +429,5 @@ We present a method for training reference-guided, perceptive reinforcement lear
 ### Summary
 
 Robust humanoid stair climbing remains challenging due to geometric discontinuities, sensitivity to step height variations, and perception uncertainty in real-world environments. Existing learning-based locomotion policies often rely on implicit terrain representations or blind proprioceptive feedback, limiting their ability to generalize across varying stair geometries and to anticipate required gait adjustments.
-
----
-
-## QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.23702)
-- **Authors:** Hanze Hu, Luying Feng, Silu Chen, Tianjiang Zheng, Dexin Jiang, Wei Chen et al. (9 authors)
-- **Published:** 2026-04
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Contact Dynamics
-  - Impact
-  - Dataset
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-Humanoid robots operating in human-centered environments (e.g., homes, hospitals, and offices) must mitigate foot--ground impact transients, as impact-induced vibration and noise degrade user experience and repeated impacts accelerate hardware wear. However, existing low-noise locomotion training often relies on kinematic proxy objectives or fragile force sensors, and footwear-induced changes in contact dynamics introduce distribution shifts that hinder policy generalization.
-
----
-
-## Learning Humanoid Navigation from Human Data
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.00416)
-- **Project:** [GitHub](https://egonav.weizhuowang.com)
-- **Authors:** Weizhuo Wang, Yanjie Ze, C. Karen Liu, Monroe Kennedy
-- **Published:** 2026-04
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Navigation
-  - Zero-Shot
-  - Humanoid
-  - Walking
-  - Diffusion
-  - Locomotion
-
-### Summary
-
-EgoNav enables a humanoid robot to traverse diverse unseen environments by learning from 5 hours of human walking data, with no robot data or finetuning. A diffusion model predicts future trajectories conditioned on past trajectory, 360 degree visual memory, and DINOv3 video features.
-
----
-
-## CReF: Cross-modal and Recurrent Fusion for Depth-conditioned Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.29452)
-- **Authors:** Chenhao Li, Qi Wei, Botao He, Yangfan Zhou, Lingshi Kong, Chong Zhang et al. (8 authors)
-- **Published:** 2026-03
-- **Tags:**
-  - Locomotion
-  - Robustness
-  - Humanoid
-
-### Summary
-
-Learning depth-conditioned humanoid locomotion is critical for traversing uneven terrains and complex environments. This work presents CReF, a cross-modal and recurrent fusion framework that fuses proprioceptive and depth observations for humanoid locomotion control, improving robustness and terrain-conditioned behavior under challenging perceptual inputs..
 
 ---

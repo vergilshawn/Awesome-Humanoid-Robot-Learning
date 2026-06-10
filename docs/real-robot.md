@@ -4,16 +4,137 @@ Papers with real humanoid robot deployment and experiments.
 
 ## Platforms
 
-- **Digit:** 1 papers
-- **Figure:** 12 papers
-- **NAO:** 3 papers
-- **Unitree G1:** 28 papers
-- **Unknown Platform:** 4 papers
+- **Digit:** 2 papers
+- **Figure:** 13 papers
+- **NAO:** 4 papers
+- **Unitree G1:** 30 papers
+- **Unknown Platform:** 5 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11109)
+- **Authors:** Yanshuo Lu, Yuxuan Hu, Shenghai Yuan, Xinyu Zhou, Kuangji Zuo, Bofan Lyu et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Falls are one of the leading causes of injury and hospitalization among elderly individuals, making reliable fall awareness an essential capability for safety monitoring in residential environments. However, existing fall detection systems often rely on wearable devices or fixed sensing installations, which may suffer from low user compliance, limited spatial coverage, or degraded performance under occlusion and poor lighting conditions.
+
+---
+
+## RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11092)
+- **Authors:** Yichao Zhong, Yidan Lu, Yuhang Lu, Tianyang Tang, Haoguang Mai, Yixuan Pan et al. (12 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Elite humanoid soccer shooting requires whole-body stability, high-impulse whole-body interactions, and accuracy to targets. Motion tracking-driven reinforcement learning (RL) provides stability in whole-body movement coordination, but a fixed reference makes it hard to adapt to varied ball positions and strike timings; in contrast, task reward-driven RL struggles to explore and discover valid kicks from scratch.
+
+---
+
+## A Spiking Neural Architecture for Coordinating Arm and Locomotor Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11034)
+- **Authors:** Lea Steffen, Kathryn Simone, Graeme Damberger, Travis DeWolf, Hudson Ly, Chris Eliasmith
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Locomotion
+  - Isaac Sim
+  - Biped
+  - Humanoid
+  - Walking
+  - GAN
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Spiking Neural Networks (SNNs) coupled with neuromorphic hardware offer energy-efficient solutions for humanoid robot control. However, existing SNN-based motor control systems address bipedal locomotion and arm control in isolation, leaving integrated control of both unaddressed.
+
+---
+
+## AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.10903)
+- **Authors:** Tianhao Zang, Siwei Cheng, Haidong Huang, Shanze Wang, Wei Zhang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Safety
+  - Humanoid
+  - Collision
+  - State Estimation
+
+### Summary
+
+Monocular local navigation is attractive for lightweight robots, but existing vision-based policies often couple perception to a specific body, camera height, and footprint, making transfer from wheeled bases to legged platforms dependent on retraining or active depth hardware. This paper introduces AgniNav, a configuration-driven local navigation framework that standardizes cross-embodiment transfer at the collision-envelope level.
+
+---
+
+## GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.10449)
+- **Authors:** Haoxuan Han, Chen Chen, Linao Gong, Xin Yang, Hao Hu, Junhong Guo et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — NAO
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Navigation
+  - Robustness
+  - Humanoid
+  - Distillation
+  - Behavior Cloning
+
+### Summary
+
+Humanoid robots have achieved strong locomotion capabilities, but reliable navigation on versatile terrains remains challenging because obstacle avoidance must be coordinated with dynamically feasible motion. In this work, we present GuideWalk, a unified end-to-end framework that integrates traversability-aware navigation guidance with terrain-adaptive locomotion teacher for humanoid navigation.
+
+---
+
+## MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.10288)
+- **Authors:** Codrin Crismariu, Ryan K. Cosner
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Safety
+  - Biped
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Perceptive bipedal locomotion over sparse terrain remains a difficult challenge: model-based methods are precise but brittle to uncertainty, while model-free methods are robust but struggle to discover the precise, constrained motions required for safety-critical locomotion where small errors can cause catastrophic failures. We propose a model-assisted reinforcement learning (RL) framework that combines both perspectives in three steps: (1) generate a safe reference trajectory using simplified models; (2) train a privileged teacher policy guided by a control Lyapunov function (CLF) reward built around the safe reference trajectory; and (3) distill the teacher into a vision-based student policy.
+
+---
 
 ## SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps
 
@@ -359,7 +480,7 @@ Building a general-purpose whole-body controller is essential for enabling diver
 
 ### Summary
 
-Humans primarily rely on walking and running to traverse complex terrains, without resorting to unnecessarily complex motion patterns. Similarly, humanoid robots should achieve smooth transitions between walking and running while maintaining natural and stable locomotion.
+Humans primarily rely on walking and running to traverse complex terrains. Similarly, humanoid robots should be able to smoothly transition between walking and running while maintaining natural and stable locomotion.
 
 ---
 

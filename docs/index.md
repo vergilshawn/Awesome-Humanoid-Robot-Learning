@@ -8,22 +8,22 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 568
-- **Real Robot Papers:** 49
+- **Total Papers:** 576
+- **Real Robot Papers:** 55
 - **Open Source Papers:** 128
 - **Latest Month:** 2026-06
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (191)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (194)
 - [Manipulation](/manipulation/) (58)
 - [Teleoperation](/teleoperation/) (28)
-- [Locomotion](/locomotion/) (112)
-- [Navigation](/navigation/) (20)
+- [Locomotion](/locomotion/) (115)
+- [Navigation](/navigation/) (21)
 - [State Estimation](/state-estimation/) (17)
 - [Sim-to-Real](/sim-to-real/) (11)
 - [Hardware Design](/hardware-design/) (31)
-- [Simulation Benchmark](/simulation-benchmark/) (43)
+- [Simulation Benchmark](/simulation-benchmark/) (44)
 - [Physics-Based Character Animation](/physics-based-character-animation/) (34)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (23)
 
@@ -31,61 +31,61 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots](https://arxiv.org/abs/2606.11109) — 2026-06
+  - [Simulation Benchmark](/simulation-benchmark/)
+-  🤖 [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092) — 2026-06
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  🤖 [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — 2026-06
+  - [Locomotion](/locomotion/)
+-  🤖 [AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation](https://arxiv.org/abs/2606.10903) — 2026-06
+  - [Navigation](/navigation/)
+-  🤖 [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — 2026-06
+  - [Locomotion](/locomotion/)
+-  [OMG: Omni-Modal Motion Generation for Generalist Humanoid Control](https://arxiv.org/abs/2606.10340) — 2026-06
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  🤖 [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — 2026-06
+  - [Locomotion](/locomotion/)
 -  🤖 [SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps](https://arxiv.org/abs/2606.09798) — 2026-06
   - [Manipulation](/manipulation/)
 -  [VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands](https://arxiv.org/abs/2606.09286) — 2026-06
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.09215) — 2026-06
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [PTDL:Multi-Terrain Fall Recovery via Phase-Terrain Decoupled Learning](https://arxiv.org/abs/2606.08922) — 2026-06
-  - [Locomotion](/locomotion/)
-- 🌟 🤖 [bbsolver: A Unified Error-Bounded Spatiotemporal Optimization Solver for Key Timing and Topology-Consistent Vector Paths](https://arxiv.org/abs/2606.09741) — 2026-06
-  - [Locomotion](/locomotion/)
--  [OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.08548) — 2026-06
-  - [Teleoperation](/teleoperation/)
--  [EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control](https://arxiv.org/abs/2606.08495) — 2026-06
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — 2026-06
-  - [Simulation Benchmark](/simulation-benchmark/)
--  🤖 [Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking](https://arxiv.org/abs/2606.08253) — 2026-06
-  - [Locomotion](/locomotion/)
--  [Vision-Guided Dual-Arm Humanoid Robotic Disassembly of End-of-Life 18650 Lithium-ion Battery Packs](https://arxiv.org/abs/2606.08152) — 2026-06
-  - [Manipulation](/manipulation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (408)
-- **Loco-Manipulation and Whole-Body Control** (204)
-- **Locomotion** (144)
+- **Humanoid** (415)
+- **Loco-Manipulation and Whole-Body Control** (207)
+- **Locomotion** (148)
 - **Manipulation** (131)
-- **Simulation Benchmark** (77)
-- **Physics-Based Character Animation** (57)
-- **State Estimation** (51)
-- **Reinforcement Learning** (50)
+- **Simulation Benchmark** (81)
+- **Physics-Based Character Animation** (58)
+- **State Estimation** (55)
+- **Reinforcement Learning** (53)
+- **Whole-Body Control** (44)
 - **Teleoperation** (44)
-- **Whole-Body Control** (43)
 - **Human Motion Analysis and Synthesis** (42)
 - **Benchmark** (35)
-- **Navigation** (32)
+- **Navigation** (34)
 - **Hardware Design** (32)
+- **Diffusion** (27)
 - **Sim-to-Real** (27)
-- **Diffusion** (26)
-- **Dataset** (24)
+- **Dataset** (25)
 - **PPO** (23)
 - **Vision-Language** (22)
+- **Foundation Model** (18)
 - **Zero-Shot** (18)
-- **Foundation Model** (17)
-- **Distillation** (15)
-- **Collision** (12)
-- **Biped** (12)
+- **Distillation** (16)
+- **Safety** (15)
+- **Biped** (14)
+- **Collision** (13)
 - **Gait** (12)
-- **Safety** (12)
 - **Imitation Learning** (12)
-- **Walking** (10)
+- **Walking** (11)
+- **Robustness** (10)
 - **Human Demonstration** (10)
-- **Fine-tuning** (10)
 
 ---
 
@@ -95,8 +95,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/loco-manipulation-and-whole-body-control/2026-06)
 
+- [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`, `Simulation Benchmark`
+- [OMG: Omni-Modal Motion Generation for Generalist Humanoid Control](https://arxiv.org/abs/2606.10340) — `Whole-Body Control`, `Humanoid`, `Foundation Model`, `Diffusion`, `Multi-Modal`, `Loco-Manipulation and Whole-Body Control`
 - [VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands](https://arxiv.org/abs/2606.09286) — `Humanoid`, `Proprioception`, `Distillation`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`, `Physics-Based Character Animation`
 - [MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.09215) — `Locomotion`, `Manipulation`, `World Model`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`
+- [Emotion Profiling in LLM-Based Literary Translation: Systematic Shifts Across MT and Post-Editing](https://arxiv.org/abs/2606.10113) — `Loco-Manipulation and Whole-Body Control`
 - [EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control](https://arxiv.org/abs/2606.08495) — `Human Demonstration`, `Humanoid`, `Vision-Language`, `PPO`, `Loco-Manipulation and Whole-Body Control`, `Physics-Based Character Animation`
 - [Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain](https://arxiv.org/abs/2606.08059) — `Whole-Body Control`, `Locomotion`, `Transformer`, `Humanoid`, `Inverse Kinematics`, `Foundation Model`
 - [Aligned but Not Partner-Specific: Distinguishing How Multimodal LLM Agents Succeed in Reference Games Without Human-Like Conventions](https://arxiv.org/abs/2606.08081) — `Loco-Manipulation and Whole-Body Control`
@@ -570,6 +573,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/locomotion/2026-06)
 
+- [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — `Locomotion`, `Isaac Sim`, `Biped`, `Humanoid`, `Walking`, `GAN`
+- [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — `Reinforcement Learning`, `Locomotion`, `Navigation`, `Robustness`, `Humanoid`, `Distillation`
+- [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — `Reinforcement Learning`, `Locomotion`, `Safety`, `Biped`, `Humanoid`, `State Estimation`
 - [PTDL:Multi-Terrain Fall Recovery via Phase-Terrain Decoupled Learning](https://arxiv.org/abs/2606.08922) — `Locomotion`, `Humanoid`, `Walking`, `Proprioception`, `State Estimation`, `Simulation Benchmark`
 - 🌟 [bbsolver: A Unified Error-Bounded Spatiotemporal Optimization Solver for Key Timing and Topology-Consistent Vector Paths](https://arxiv.org/abs/2606.09741), [website](https://github.com/ivg-design/bbsolver) — `Humanoid`, `PPO`, `Locomotion`, `State Estimation`, `Human Motion Analysis and Synthesis`, `Real Robot`
 - [Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking](https://arxiv.org/abs/2606.08253) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Navigation`, `Robustness`, `Humanoid`
@@ -768,6 +774,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/navigation/2026-06)
 
+- [AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation](https://arxiv.org/abs/2606.10903) — `Navigation`, `Safety`, `Humanoid`, `Collision`, `State Estimation`, `Real Robot`
 - [IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations](https://arxiv.org/abs/2606.08029) — `Navigation`, `Zero-Shot`, `Human Demonstration`, `Humanoid`, `Fine-tuning`, `Benchmark`
 - 🌟 [HLL: Can Agents Cross Humanity's Last Line of Verification?](https://arxiv.org/abs/2606.02449), [website](https://github.com/xinhaos0101/hll) — `Benchmark`, `PPO`, `Navigation`, `Simulation Benchmark`, `Real Robot`, `Open Source`
 
@@ -996,6 +1003,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/simulation-benchmark/2026-06)
 
+- [EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots](https://arxiv.org/abs/2606.11109) — `Safety`, `Humanoid`, `Dataset`, `Simulation Benchmark`, `Real Robot`
 - [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — `Teleoperation`, `Manipulation`, `Zero-Shot`, `MuJoCo`, `Humanoid`, `Vision-Language`
 - [OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies](https://arxiv.org/abs/2606.08043) — `Biped`, `Humanoid`, `Collision`, `Benchmark`, `Dataset`, `PPO`
 - [LIMMT: Less is More for Motion Tracking](https://arxiv.org/abs/2606.06953) — `Humanoid`, `Dataset`, `Simulation Benchmark`, `Physics-Based Character Animation`, `Human Motion Analysis and Synthesis`

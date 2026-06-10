@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**43 papers** in this category.
+**44 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (6 papers)
+- [2026-06](/simulation-benchmark/2026-06) (7 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -23,6 +23,24 @@
 ---
 
 ## Recent Papers
+
+## EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11109)
+- **Authors:** Yanshuo Lu, Yuxuan Hu, Shenghai Yuan, Xinyu Zhou, Kuangji Zuo, Bofan Lyu et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Falls are one of the leading causes of injury and hospitalization among elderly individuals, making reliable fall awareness an essential capability for safety monitoring in residential environments. However, existing fall detection systems often rely on wearable devices or fixed sensing installations, which may suffer from low user compliance, limited spatial coverage, or degraded performance under occlusion and poor lighting conditions.
+
+---
 
 ## SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation
 
@@ -388,21 +406,5 @@ Touch plays a central role in how humans perceive and recognize materials throug
 ### Summary
 
 Recovering 4D human-object interaction (HOI) from monocular video is a key step toward scalable 3D content creation, embodied AI, and simulation-based learning. Recent methods can reconstruct temporally coherent human and object trajectories, but these trajectories often remain visual artifacts while failing to preserve stable contact, functional manipulation, or physical plausibility when used as reference motions for humanoid-object simulation.
-
----
-
-## Emotional Expression in Low-Degrees-of-Freedom Robots: Assessing Perception with Reachy Mini
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.12786)
-- **Authors:** Amit Rogel, Elmira Yadollahi, Guy Laban
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Emotion expression is central to human--robot interaction, yet little is known about how people interpret affect on robots with sparse, non-anthropomorphic expressive capabilities. This study examined how people perceive emotional expressions displayed by Reachy Mini (Pollen Robotics and Hugging Face), a low-degree-of-freedom (low-DoF) robot with a constrained and distinctly non-human expressive repertoire.
 
 ---

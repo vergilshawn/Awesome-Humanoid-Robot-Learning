@@ -1,10 +1,10 @@
 # Navigation
 
-**20 papers** in this category.
+**21 papers** in this category.
 
 ## Months
 
-- [2026-06](/navigation/2026-06) (2 papers)
+- [2026-06](/navigation/2026-06) (3 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
 - [2026-01](/navigation/2026-01) (1 papers)
@@ -22,6 +22,25 @@
 ---
 
 ## Recent Papers
+
+## AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.10903)
+- **Authors:** Tianhao Zang, Siwei Cheng, Haidong Huang, Shanze Wang, Wei Zhang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Safety
+  - Humanoid
+  - Collision
+  - State Estimation
+
+### Summary
+
+Monocular local navigation is attractive for lightweight robots, but existing vision-based policies often couple perception to a specific body, camera height, and footprint, making transfer from wheeled bases to legged platforms dependent on retraining or active depth hardware. This paper introduces AgniNav, a configuration-driven local navigation framework that standardizes cross-embodiment transfer at the collision-envelope level.
+
+---
 
 ## IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations
 
@@ -304,20 +323,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Collision
   - Motion Planning
   - Navigation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2310.07896)
-- **Published:** 2023-10
-- **Tags:**
-  - Navigation
-  - Diffusion
 
 ### Summary
 

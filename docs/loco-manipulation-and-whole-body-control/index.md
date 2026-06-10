@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**191 papers** in this category.
+**194 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (12 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (15 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -35,6 +35,46 @@
 ---
 
 ## Recent Papers
+
+## RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11092)
+- **Authors:** Yichao Zhong, Yidan Lu, Yuhang Lu, Tianyang Tang, Haoguang Mai, Yixuan Pan et al. (12 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Elite humanoid soccer shooting requires whole-body stability, high-impulse whole-body interactions, and accuracy to targets. Motion tracking-driven reinforcement learning (RL) provides stability in whole-body movement coordination, but a fixed reference makes it hard to adapt to varied ball positions and strike timings; in contrast, task reward-driven RL struggles to explore and discover valid kicks from scratch.
+
+---
+
+## OMG: Omni-Modal Motion Generation for Generalist Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.10340)
+- **Authors:** Siqiao Huang, Kun-Ying Lee, Dongming Qiao, Guanqi He, Zhenyu Wang, Yitang Li et al. (8 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Foundation Model
+  - Diffusion
+  - Multi-Modal
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid whole-body control has made significant progress in recent years, yet existing approaches remain limited to few-skill policies with heavy reward engineering, or motion trackers that are difficult to extend to new input modalities. We argue that the key to general-purpose humanoid control is to build a scalable brain, a module capable of reasoning with diverse conditioning modalities, atop a reactive motion tracking cerebellum, mirroring the hierarchical structure of biological motor systems.
+
+---
 
 ## VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands
 
@@ -72,6 +112,20 @@ Humanoid robots hold immense potential for real-world assistance, yet agile inte
 ### Summary
 
 World Action Models (WAMs) couple a video dynamics prior to the policy and have shown encouraging results on tabletop manipulation, but iterative denoising over high-dimensional video-action latents leaves them too slow for real-time humanoid loco-manipulation. The problem is compounded by the dominant hierarchical paradigm, in which a high-level manipulation policy controls only the upper body while a low-level controller tracks coarse base commands -- placing upper and lower body in inconsistent action spaces and reducing the legs to balance-preserving locomotion.
+
+---
+
+## Emotion Profiling in LLM-Based Literary Translation: Systematic Shifts Across MT and Post-Editing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.10113)
+- **Authors:** Antonio Castaldo, Johanna Monti, Sheila Castilho
+- **Published:** 2026-06
+- **Tags:**
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This paper investigates whether LLM translations exhibit identifiable emotional profiles and how post-editing reshapes them toward human-like norms. We compare LLM translations of Margaret Atwood's Oryx and Crake with their post-edited versions and a human translation, using a large-scale corpus of contemporary Italian science-fiction as a baseline.
 
 ---
 
@@ -380,63 +434,5 @@ We present a hybrid robotic skin that combines electrical impedance tomography (
 ### Summary
 
 Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making rapid deployment on new humanoid platforms costly.
-
----
-
-## HCLM: A Hierarchical Framework for Cooperative Loco-Manipulation with Dual Quadrupeds
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.17300)
-- **Authors:** Qixuan Li, Chen Le, Jincheng Yu, Xinlei Chen
-- **Published:** 2026-05
-- **Tags:**
-  - Diffusion Policy
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Collision
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-We introduce HCLM, a hierarchical framework for general-purpose cooperative loco-manipulation with dual quadrupedal systems. Coordinating multi-robot collaborative manipulation across floating bases is highly challenging due to the conflicting demands of spatial coordination, robust locomotion, and closed-chain physical interactions.
-
----
-
-## Voice ''Cloning'' is Style Transfer
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.16578)
-- **Authors:** Kaitlyn Zhou, Federico Bianchi, Martijn Bartelds, Anna Pot, Yongchan Kwon, James Zou
-- **Published:** 2026-05
-- **Tags:**
-  - Impact
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Artificially generated speech is increasingly embedded in everyday life. Voice cloning in particular enables applications where identity preservation is important, such as completing a recording, dubbing in a new language, or preserving the voices of individuals with speech loss.
-
----
-
-## HoloMotion-1 Technical Report
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.15336)
-- **Authors:** Maiyue Chen, Kaihui Wang, Bo Zhang, Xihan Ma, Zhiyuan Yang, Yi Ren et al. (10 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Transformer
-  - Zero-Shot
-  - Humanoid
-  - Foundation Model
-  - Fine-tuning
-  - Benchmark
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-In this report, we present HoloMotion-1, a humanoid motion foundation model for zero-shot whole-body motion tracking. A key innovation of HoloMotion-1 is to scale control-policy training with a large-scale hybrid motion corpus, where video-reconstructed motions from in-the-wild videos provide the dominant source of motion diversity, while curated motion-capture and in-house motion data provide higher-fidelity supervision and deployment-oriented coverage.
 
 ---
