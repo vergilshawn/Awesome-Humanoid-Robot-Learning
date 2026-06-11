@@ -1,10 +1,10 @@
 # Locomotion
 
-**115 papers** in this category.
+**116 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (10 papers)
+- [2026-06](/locomotion/2026-06) (11 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -36,6 +36,28 @@
 ---
 
 ## Recent Papers
+
+## Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11891)
+- **Authors:** Mehmet Turan Yardımcı
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Fine-tuning
+  - Impact
+  - Simulation Benchmark
+
+### Summary
+
+Multi-objective reinforcement learning for humanoid robots must coordinate locomotion and manipulation within a single policy. A natural design choice is whether to use a single (unified) critic that estimates the combined value of all objectives, or separate (dual) critics with disjoint reward signals.
+
+---
 
 ## A Spiking Neural Architecture for Coordinating Arm and Locomotor Control
 
@@ -408,26 +430,5 @@ We propose a unified reinforcement learning framework that enables a single poli
 ### Summary
 
 We present a method for training reference-guided, perceptive reinforcement learning locomotion policies for humanoid robots in which reference trajectories are modulated in training to be consistent with terrain geometry. Aiming to deploy our method with standard navigation autonomy infrastructure, we synthesize SE(2)-controllable reference trajectories inside the RL training loop, projecting desired footsteps onto valid footholds and adjusting swing-foot and center-of-mass trajectories to match the terrain.
-
----
-
-## Explicit Stair Geometry Conditioning for Robust Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.09944)
-- **Authors:** Jianguo Zhang, Wentai Xu, Shusheng Ye, Yuxiang He, Weimin Qi, Qinbo Sun et al. (8 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - Robustness
-  - Humanoid
-  - Gait
-  - PPO
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Robust humanoid stair climbing remains challenging due to geometric discontinuities, sensitivity to step height variations, and perception uncertainty in real-world environments. Existing learning-based locomotion policies often rely on implicit terrain representations or blind proprioceptive feedback, limiting their ability to generalize across varying stair geometries and to anticipate required gait adjustments.
 
 ---

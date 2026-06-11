@@ -5,15 +5,55 @@ Papers with real humanoid robot deployment and experiments.
 ## Platforms
 
 - **Digit:** 2 papers
-- **Figure:** 13 papers
+- **Figure:** 14 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 30 papers
+- **Unitree G1:** 31 papers
 - **Unknown Platform:** 5 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11891)
+- **Authors:** Mehmet Turan Yardımcı
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Fine-tuning
+  - Impact
+  - Simulation Benchmark
+
+### Summary
+
+Multi-objective reinforcement learning for humanoid robots must coordinate locomotion and manipulation within a single policy. A natural design choice is whether to use a single (unified) critic that estimates the combined value of all objectives, or separate (dual) critics with disjoint reward signals.
+
+---
+
+## Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11826)
+- **Authors:** Yu Zhang, Huijiang Wang, Josie Hughes
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
+  - Manipulation
+  - Teleoperation
+  - Simulation Benchmark
+
+### Summary
+
+Designing anthropomorphic dexterous robotic hands remains challenging as the design space straddles morphology, actuation, and sensing properties, and performance metrics span both task-dependent and task-agnostic. Existing optimization methods are often unstructured or consider only a single performance metric, limiting systematic comparison and targeted refinement.
+
+---
 
 ## EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots
 

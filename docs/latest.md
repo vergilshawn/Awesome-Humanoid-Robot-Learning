@@ -2,6 +2,67 @@
 
 All papers sorted by publication date (newest first).
 
+## Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11891)
+- **Authors:** Mehmet Turan Yardımcı
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Fine-tuning
+  - Impact
+  - Simulation Benchmark
+
+### Summary
+
+Multi-objective reinforcement learning for humanoid robots must coordinate locomotion and manipulation within a single policy. A natural design choice is whether to use a single (unified) critic that estimates the combined value of all objectives, or separate (dual) critics with disjoint reward signals.
+
+---
+
+## Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11826)
+- **Authors:** Yu Zhang, Huijiang Wang, Josie Hughes
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
+  - Manipulation
+  - Teleoperation
+  - Simulation Benchmark
+
+### Summary
+
+Designing anthropomorphic dexterous robotic hands remains challenging as the design space straddles morphology, actuation, and sensing properties, and performance metrics span both task-dependent and task-agnostic. Existing optimization methods are often unstructured or consider only a single performance metric, limiting systematic comparison and targeted refinement.
+
+---
+
+## TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.12153)
+- **Authors:** Cheng-Feng Pu, Jia-Peng Zhang, Meng-Hao Guo, Yan-Pei Cao, Shi-Min Hu
+- **Published:** 2026-06
+- **Tags:**
+  - Zero-Shot
+  - Biped
+  - Benchmark
+  - Dataset
+  - Flow Matching
+  - VAE
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+The explosion of generative 3D assets has created a massive demand for animation, yet current motion capture methods remain brittle, restricted to species-specific templates (e.g., SMPL) or requiring labor-intensive manual rigging. We introduce TopoCap, the first unified framework capable of extracting motion from monocular video and retargeting it onto characters with arbitrary, unseen skeletal topologies, i.e., from bipeds to hexapods and inanimate objects, without test-time optimization.
+
+---
+
 ## EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.11109)

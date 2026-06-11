@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**44 papers** in this category.
+**45 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (7 papers)
+- [2026-06](/simulation-benchmark/2026-06) (8 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -23,6 +23,27 @@
 ---
 
 ## Recent Papers
+
+## TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.12153)
+- **Authors:** Cheng-Feng Pu, Jia-Peng Zhang, Meng-Hao Guo, Yan-Pei Cao, Shi-Min Hu
+- **Published:** 2026-06
+- **Tags:**
+  - Zero-Shot
+  - Biped
+  - Benchmark
+  - Dataset
+  - Flow Matching
+  - VAE
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+The explosion of generative 3D assets has created a massive demand for animation, yet current motion capture methods remain brittle, restricted to species-specific templates (e.g., SMPL) or requiring labor-intensive manual rigging. We introduce TopoCap, the first unified framework capable of extracting motion from monocular video and retargeting it onto characters with arbitrary, unseen skeletal topologies, i.e., from bipeds to hexapods and inanimate objects, without test-time optimization.
+
+---
 
 ## EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots
 
@@ -384,27 +405,5 @@ Metacognition-the ability to monitor one's own knowledge state, spot gaps, and a
 ### Summary
 
 Touch plays a central role in how humans perceive and recognize materials through physical contact. Despite decades of research, the mechanisms by which tactile signals are transformed into meaningful perceptual representations remain poorly understood, limiting the design of interactive systems and intelligent agents with human-like haptic perception.
-
----
-
-## Real2Sim in HOI: Toward Physically Plausible HOI Reconstruction from Monocular Videos
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.14462)
-- **Authors:** Yubo Zhao, Yujin Chai, Yunao Dong, Chengfeng Zhao, Zijiao Zeng, Yuan Liu et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — NAO
-- **Tags:**
-  - Manipulation
-  - Embodied AI
-  - Humanoid
-  - Benchmark
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-  - State Estimation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Recovering 4D human-object interaction (HOI) from monocular video is a key step toward scalable 3D content creation, embodied AI, and simulation-based learning. Recent methods can reconstruct temporally coherent human and object trajectories, but these trajectories often remain visual artifacts while failing to preserve stable contact, functional manipulation, or physical plausibility when used as reference motions for humanoid-object simulation.
 
 ---

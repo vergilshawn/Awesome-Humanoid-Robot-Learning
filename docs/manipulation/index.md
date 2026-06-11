@@ -1,10 +1,10 @@
 # Manipulation
 
-**58 papers** in this category.
+**59 papers** in this category.
 
 ## Months
 
-- [2026-06](/manipulation/2026-06) (3 papers)
+- [2026-06](/manipulation/2026-06) (4 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -31,6 +31,24 @@
 ---
 
 ## Recent Papers
+
+## Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.11826)
+- **Authors:** Yu Zhang, Huijiang Wang, Josie Hughes
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
+  - Manipulation
+  - Teleoperation
+  - Simulation Benchmark
+
+### Summary
+
+Designing anthropomorphic dexterous robotic hands remains challenging as the design space straddles morphology, actuation, and sensing properties, and performance metrics span both task-dependent and task-agnostic. Existing optimization methods are often unstructured or consider only a single performance metric, limiting systematic comparison and targeted refinement.
+
+---
 
 ## SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps
 
@@ -323,20 +341,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-11
 - **Tags:**
   - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.09141)
-- **Published:** 2025-11
-- **Tags:**
-  - Manipulation
-  - Humanoid
 
 ### Summary
 

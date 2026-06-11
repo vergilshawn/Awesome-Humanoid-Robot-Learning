@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 576
-- **Real Robot Papers:** 55
+- **Total Papers:** 579
+- **Real Robot Papers:** 57
 - **Open Source Papers:** 128
 
 🌟 indicates papers with detected project/code links.
@@ -11,14 +11,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 ## Contents
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (194)
-- [Manipulation](#manipulation) (58)
+- [Manipulation](#manipulation) (59)
 - [Teleoperation](#teleoperation) (28)
-- [Locomotion](#locomotion) (115)
+- [Locomotion](#locomotion) (116)
 - [Navigation](#navigation) (21)
 - [State Estimation](#state-estimation) (17)
 - [Sim-to-Real](#sim-to-real) (11)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (44)
+- [Simulation Benchmark](#simulation-benchmark) (45)
 - [Physics-Based Character Animation](#physics-based-character-animation) (34)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (23)
 - [Usage](#usage)
@@ -306,6 +306,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — `Benchmark`, `Manipulation`, `Teleoperation`, `Simulation Benchmark`, `Real Robot`
 - [SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps](https://arxiv.org/abs/2606.09798) — `Manipulation`, `PPO`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
 - [Vision-Guided Dual-Arm Humanoid Robotic Disassembly of End-of-Life 18650 Lithium-ion Battery Packs](https://arxiv.org/abs/2606.08152) — `Humanoid`, `PPO`, `Manipulation`
 - [Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data](https://arxiv.org/abs/2606.08107) — `Manipulation`, `Humanoid`, `Fine-tuning`, `Dataset`, `Simulation Benchmark`
@@ -507,6 +508,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `Fine-tuning`
 - [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — `Locomotion`, `Isaac Sim`, `Biped`, `Humanoid`, `Walking`, `GAN`
 - [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — `Reinforcement Learning`, `Locomotion`, `Navigation`, `Robustness`, `Humanoid`, `Distillation`
 - [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — `Reinforcement Learning`, `Locomotion`, `Safety`, `Biped`, `Humanoid`, `State Estimation`
@@ -937,6 +939,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — `Zero-Shot`, `Biped`, `Benchmark`, `Dataset`, `Flow Matching`, `VAE`
 - [EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots](https://arxiv.org/abs/2606.11109) — `Safety`, `Humanoid`, `Dataset`, `Simulation Benchmark`, `Real Robot`
 - [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — `Teleoperation`, `Manipulation`, `Zero-Shot`, `MuJoCo`, `Humanoid`, `Vision-Language`
 - [OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies](https://arxiv.org/abs/2606.08043) — `Biped`, `Humanoid`, `Collision`, `Benchmark`, `Dataset`, `PPO`

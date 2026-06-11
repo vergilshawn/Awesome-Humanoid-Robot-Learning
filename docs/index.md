@@ -8,22 +8,22 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 576
-- **Real Robot Papers:** 55
+- **Total Papers:** 579
+- **Real Robot Papers:** 57
 - **Open Source Papers:** 128
 - **Latest Month:** 2026-06
 
 ### Categories
 
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (194)
-- [Manipulation](/manipulation/) (58)
+- [Manipulation](/manipulation/) (59)
 - [Teleoperation](/teleoperation/) (28)
-- [Locomotion](/locomotion/) (115)
+- [Locomotion](/locomotion/) (116)
 - [Navigation](/navigation/) (21)
 - [State Estimation](/state-estimation/) (17)
 - [Sim-to-Real](/sim-to-real/) (11)
 - [Hardware Design](/hardware-design/) (31)
-- [Simulation Benchmark](/simulation-benchmark/) (44)
+- [Simulation Benchmark](/simulation-benchmark/) (45)
 - [Physics-Based Character Animation](/physics-based-character-animation/) (34)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (23)
 
@@ -31,6 +31,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
+  - [Locomotion](/locomotion/)
+-  🤖 [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — 2026-06
+  - [Manipulation](/manipulation/)
+-  [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — 2026-06
+  - [Simulation Benchmark](/simulation-benchmark/)
 -  🤖 [EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots](https://arxiv.org/abs/2606.11109) — 2026-06
   - [Simulation Benchmark](/simulation-benchmark/)
 -  🤖 [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092) — 2026-06
@@ -45,47 +51,41 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — 2026-06
   - [Locomotion](/locomotion/)
--  🤖 [SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps](https://arxiv.org/abs/2606.09798) — 2026-06
-  - [Manipulation](/manipulation/)
--  [VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands](https://arxiv.org/abs/2606.09286) — 2026-06
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.09215) — 2026-06
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (415)
-- **Loco-Manipulation and Whole-Body Control** (207)
-- **Locomotion** (148)
-- **Manipulation** (131)
-- **Simulation Benchmark** (81)
-- **Physics-Based Character Animation** (58)
-- **State Estimation** (55)
-- **Reinforcement Learning** (53)
+- **Humanoid** (416)
+- **Loco-Manipulation and Whole-Body Control** (208)
+- **Locomotion** (149)
+- **Manipulation** (133)
+- **Simulation Benchmark** (84)
+- **Physics-Based Character Animation** (59)
+- **State Estimation** (56)
+- **Reinforcement Learning** (54)
+- **Teleoperation** (45)
 - **Whole-Body Control** (44)
-- **Teleoperation** (44)
-- **Human Motion Analysis and Synthesis** (42)
-- **Benchmark** (35)
+- **Human Motion Analysis and Synthesis** (43)
+- **Benchmark** (37)
 - **Navigation** (34)
 - **Hardware Design** (32)
 - **Diffusion** (27)
 - **Sim-to-Real** (27)
-- **Dataset** (25)
+- **Dataset** (26)
 - **PPO** (23)
 - **Vision-Language** (22)
+- **Zero-Shot** (19)
 - **Foundation Model** (18)
-- **Zero-Shot** (18)
 - **Distillation** (16)
+- **Biped** (15)
 - **Safety** (15)
-- **Biped** (14)
 - **Collision** (13)
+- **Walking** (12)
 - **Gait** (12)
 - **Imitation Learning** (12)
-- **Walking** (11)
+- **Fine-tuning** (11)
 - **Robustness** (10)
-- **Human Demonstration** (10)
 
 ---
 
@@ -372,6 +372,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/manipulation/2026-06)
 
+- [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — `Benchmark`, `Manipulation`, `Teleoperation`, `Simulation Benchmark`, `Real Robot`
 - [SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps](https://arxiv.org/abs/2606.09798) — `Manipulation`, `PPO`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
 - [Vision-Guided Dual-Arm Humanoid Robotic Disassembly of End-of-Life 18650 Lithium-ion Battery Packs](https://arxiv.org/abs/2606.08152) — `Humanoid`, `PPO`, `Manipulation`
 - [Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data](https://arxiv.org/abs/2606.08107) — `Manipulation`, `Humanoid`, `Fine-tuning`, `Dataset`, `Simulation Benchmark`
@@ -573,6 +574,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/locomotion/2026-06)
 
+- [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `Fine-tuning`
 - [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — `Locomotion`, `Isaac Sim`, `Biped`, `Humanoid`, `Walking`, `GAN`
 - [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — `Reinforcement Learning`, `Locomotion`, `Navigation`, `Robustness`, `Humanoid`, `Distillation`
 - [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — `Reinforcement Learning`, `Locomotion`, `Safety`, `Biped`, `Humanoid`, `State Estimation`
@@ -1003,6 +1005,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/simulation-benchmark/2026-06)
 
+- [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — `Zero-Shot`, `Biped`, `Benchmark`, `Dataset`, `Flow Matching`, `VAE`
 - [EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots](https://arxiv.org/abs/2606.11109) — `Safety`, `Humanoid`, `Dataset`, `Simulation Benchmark`, `Real Robot`
 - [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — `Teleoperation`, `Manipulation`, `Zero-Shot`, `MuJoCo`, `Humanoid`, `Vision-Language`
 - [OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies](https://arxiv.org/abs/2606.08043) — `Biped`, `Humanoid`, `Collision`, `Benchmark`, `Dataset`, `PPO`
