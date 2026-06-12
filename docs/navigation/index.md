@@ -1,10 +1,10 @@
 # Navigation
 
-**21 papers** in this category.
+**22 papers** in this category.
 
 ## Months
 
-- [2026-06](/navigation/2026-06) (3 papers)
+- [2026-06](/navigation/2026-06) (4 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
 - [2026-01](/navigation/2026-01) (1 papers)
@@ -22,6 +22,24 @@
 ---
 
 ## Recent Papers
+
+## Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.12814)
+- **Authors:** Xiao Ren, Yuhui Yang, Zongbiao Weng, Zhijie Liu, He Kong
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Robustness
+  - Humanoid
+  - Actor-Critic
+  - Navigation
+
+### Summary
+
+Recent reinforcement learning approaches have shown great promise in improving humanoid motion tracking performance and achieving fall recovery under disturbances. However, most existing works treat motion tracking and fall recovery as different tasks and require multi-stage training with specialized recovery rewards and/or separate recovery policies.
+
+---
 
 ## AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation
 
@@ -307,22 +325,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Navigation
   - Vision-Language
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## ARMOR: Egocentric Perception for Humanoid Robot Collision Avoidance and Motion Planning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2412.00396)
-- **Published:** 2024-12
-- **Tags:**
-  - Humanoid
-  - Collision
-  - Motion Planning
-  - Navigation
 
 ### Summary
 

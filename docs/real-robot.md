@@ -5,7 +5,7 @@ Papers with real humanoid robot deployment and experiments.
 ## Platforms
 
 - **Digit:** 2 papers
-- **Figure:** 14 papers
+- **Figure:** 15 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 31 papers
 - **Unknown Platform:** 5 papers
@@ -14,6 +14,27 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.13232)
+- **Authors:** Jaehwi Jang, Zhaoyuan Gu, Alfred Cueva, Zimeng Chai, Junjie Sheng, Thong Nguyen et al. (18 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Admittance Control
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Whole-body humanoid manipulation of bulky, deformable, and shared-load objects requires distributed contact sensing and explicit force regulation, yet most imitation policies treat contact force only implicitly. On the other hand, different demonstration sources provide complementary modalities with inherent trade-offs: human demonstrations capture natural contact forces but not robot-executable actions, while teleoperation directly records robot actions but with less natural force regulation.
+
+---
 
 ## Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation
 

@@ -2,6 +2,63 @@
 
 All papers sorted by publication date (newest first).
 
+## WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.13232)
+- **Authors:** Jaehwi Jang, Zhaoyuan Gu, Alfred Cueva, Zimeng Chai, Junjie Sheng, Thong Nguyen et al. (18 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Admittance Control
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Whole-body humanoid manipulation of bulky, deformable, and shared-load objects requires distributed contact sensing and explicit force regulation, yet most imitation policies treat contact force only implicitly. On the other hand, different demonstration sources provide complementary modalities with inherent trade-offs: human demonstrations capture natural contact forces but not robot-executable actions, while teleoperation directly records robot actions but with less natural force regulation.
+
+---
+
+## GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.12995)
+- **Authors:** Zhihai Bi, Qiang Zhang, Guoyang Zhao, Jiahang Cao, Xueyin Luo, Yushan Zhang et al. (11 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Manipulation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects. Existing methods often require time-consuming task-specific policy training or rely on rigid trajectory replay, which limits their ability to accommodate novel interaction scenarios.
+
+---
+
+## Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.12814)
+- **Authors:** Xiao Ren, Yuhui Yang, Zongbiao Weng, Zhijie Liu, He Kong
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Robustness
+  - Humanoid
+  - Actor-Critic
+  - Navigation
+
+### Summary
+
+Recent reinforcement learning approaches have shown great promise in improving humanoid motion tracking performance and achieving fall recovery under disturbances. However, most existing works treat motion tracking and fall recovery as different tasks and require multi-stage training with specialized recovery rewards and/or separate recovery policies.
+
+---
+
 ## Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.11891)

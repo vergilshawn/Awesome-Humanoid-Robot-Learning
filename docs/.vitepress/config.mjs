@@ -166,7 +166,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (59)",
+            "text": "Manipulation (60)",
             "collapsed": true,
             "items": [
                   {
@@ -268,7 +268,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (28)",
+            "text": "Teleoperation (29)",
             "collapsed": true,
             "items": [
                   {
@@ -456,7 +456,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (21)",
+            "text": "Navigation (22)",
             "collapsed": true,
             "items": [
                   {

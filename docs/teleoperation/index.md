@@ -1,10 +1,10 @@
 # Teleoperation
 
-**28 papers** in this category.
+**29 papers** in this category.
 
 ## Months
 
-- [2026-06](/teleoperation/2026-06) (6 papers)
+- [2026-06](/teleoperation/2026-06) (7 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
 - [2026-02](/teleoperation/2026-02) (4 papers)
@@ -22,6 +22,27 @@
 ---
 
 ## Recent Papers
+
+## WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.13232)
+- **Authors:** Jaehwi Jang, Zhaoyuan Gu, Alfred Cueva, Zimeng Chai, Junjie Sheng, Thong Nguyen et al. (18 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Admittance Control
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Whole-body humanoid manipulation of bulky, deformable, and shared-load objects requires distributed contact sensing and explicit force regulation, yet most imitation policies treat contact force only implicitly. On the other hand, different demonstration sources provide complementary modalities with inherent trade-offs: human demonstrations capture natural contact forces but not robot-executable actions, while teleoperation directly records robot actions but with less natural force regulation.
+
+---
 
 ## OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation
 
@@ -337,20 +358,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.00162)
 - **Published:** 2025-08
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.08931)
-- **Published:** 2025-06
 - **Tags:**
   - Teleoperation
   - Humanoid

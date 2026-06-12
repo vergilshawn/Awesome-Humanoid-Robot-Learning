@@ -1,5 +1,124 @@
 [
   {
+    "arxiv_id": "2606.13232",
+    "title": "WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning",
+    "paper_url": "https://arxiv.org/abs/2606.13232",
+    "project_url": null,
+    "authors": [
+      "Jaehwi Jang",
+      "Zhaoyuan Gu",
+      "Alfred Cueva",
+      "Zimeng Chai",
+      "Junjie Sheng",
+      "Thong Nguyen",
+      "Himank Galundia",
+      "Yifan Wu",
+      "Huishu Xue",
+      "Isaac Legene",
+      "Ojas Mediratta",
+      "Davin Doan",
+      "Andrew Collins",
+      "Sarah Sadegh",
+      "KyoungMok Kim",
+      "Rishita Dhalbisoi",
+      "Zun Chen",
+      "Ye Zhao"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-11",
+    "abstract": "Whole-body humanoid manipulation of bulky, deformable, and shared-load objects requires distributed contact sensing and explicit force regulation, yet most imitation policies treat contact force only implicitly. On the other hand, different demonstration sources provide complementary modalities with inherent trade-offs: human demonstrations capture natural contact forces but not robot-executable actions, while teleoperation directly records robot actions but with less natural force regulation. This paper presents \\textbf{WT-UMI}, a wearable whole-body tactile interface worn by human operators or mounted on humanoids, providing accurate observations of tactile images, contact forces, and end-effector poses across both human demonstration and humanoid teleoperation modes. We introduce a force-conditioned target-pose correction module that converts measured human poses into contact-aware robot targets by learning corrections from teleoperation data. To leverage the natural force interaction in human data, we propose a force-supervised planner that predicts end-effector pose chunks and contact-force trajectories. The predicted contact force serves as the reference for a tactile-based admittance controller. Across five contact-rich tasks spanning deformable objects, bulky rigid objects, and human--humanoid collaboration, WT-UMI improves success rate and reduces contact-position tracking error over four policy baselines. Our project page is available at https://wt-umi.github.io/WTUMI/.",
+    "categories": [
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Human Demonstration",
+      "Humanoid",
+      "Admittance Control",
+      "Loco-Manipulation and Whole-Body Control",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2606.12995",
+    "title": "GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training",
+    "paper_url": "https://arxiv.org/abs/2606.12995",
+    "project_url": null,
+    "authors": [
+      "Zhihai Bi",
+      "Qiang Zhang",
+      "Guoyang Zhao",
+      "Jiahang Cao",
+      "Xueyin Luo",
+      "Yushan Zhang",
+      "Jinglan Xu",
+      "Ruoyu Geng",
+      "Yulin Li",
+      "Andrew F. Luo",
+      "Jun Ma"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-11",
+    "abstract": "Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects. Existing methods often require time-consuming task-specific policy training or rely on rigid trajectory replay, which limits their ability to accommodate novel interaction scenarios. In this work, we present \\textit{GenHOI}, a simple yet effective framework that enables humanoid robots to perform diverse object-interaction tasks in a zero-shot manner by directly imitating a single generated video, without task-specific training or physical demonstration data. GenHOI first reconstructs the robot-object scene in simulation and renders a first-frame image, which, together with the language command, conditions the synthesis of a task-oriented interaction video. The generated video is then analyzed to identify interaction-relevant contact events and estimate hand-object contact regions, which are encoded as object-centric geometric constraints that convert visual interaction cues into physically grounded optimization priors. Guided by these priors, the reference motion recovered from the video is refined and smoothed to resolve the scale ambiguity inherent in 2D video generation, while adapting a single reference trajectory to unseen robot-object relative poses. The optimized trajectory is finally executed by a closed-loop tracking controller. We validate the proposed framework in extensive simulation and real-world experiments across diverse object-interaction tasks, including box grasping, asymmetric bimanual chair carrying, table lifting from below, and cylindrical-object enveloping.",
+    "categories": [
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Humanoid",
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.12814",
+    "title": "Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids",
+    "paper_url": "https://arxiv.org/abs/2606.12814",
+    "project_url": null,
+    "authors": [
+      "Xiao Ren",
+      "Yuhui Yang",
+      "Zongbiao Weng",
+      "Zhijie Liu",
+      "He Kong"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-11",
+    "abstract": "Recent reinforcement learning approaches have shown great promise in improving humanoid motion tracking performance and achieving fall recovery under disturbances. However, most existing works treat motion tracking and fall recovery as different tasks and require multi-stage training with specialized recovery rewards and/or separate recovery policies. Moreover, existing reinforcement learning-based methods often terminate training episodes immediately after severe tracking failures, limiting recovery-oriented exploration in unstable or fallen states. To address the above issues, we propose Stubborn, a streamlined and unified reinforcement learning framework to achieve robust humanoid motion tracking and fall recovery. Specifically, Stubborn uses an asymmetric Actor-Critic architecture and consists of three major components. First, a yaw-aligned tracking representation is adopted to reduce sensitivity to global drift and heading disturbances while preserving gravity-related balance information. Second, we introduce a Bernoulli-based probabilistic termination mechanism that enables the policy to encourage exploration of fall-recovery behaviors under varying failure modes. Third, we propose a probabilistic termination and tracking-error-driven strategy that dynamically reshapes the sampling distribution based on tracking performance, increasing the training efficiency for difficult motion segments and unstable states. Extensive comparisons with SOTA methods and ablation studies show that Stubborn achieved competitive performance, and the proposed probabilistic termination mechanism and adaptive sampling strategy contributed to the performance and robustness gains. For real-world demonstrations, please refer to https://aislab-sustech.github.io/Stubborn/.",
+    "categories": [
+      "Navigation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Robustness",
+      "Humanoid",
+      "Actor-Critic",
+      "Navigation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
     "arxiv_id": "2606.11891",
     "title": "Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation",
     "paper_url": "https://arxiv.org/abs/2606.11891",

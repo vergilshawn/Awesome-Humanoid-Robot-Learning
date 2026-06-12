@@ -4,21 +4,21 @@ Browse papers by research topic and methodology.
 
 ---
 
-## Humanoid (416)
+## Humanoid (419)
 
+- [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — 2026-06
+- [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](https://arxiv.org/abs/2606.12995) — 2026-06
+- [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — 2026-06
 - [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
 - [EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots](https://arxiv.org/abs/2606.11109) — 2026-06
-- [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092) — 2026-06
-- [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — 2026-06
-- [AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation](https://arxiv.org/abs/2606.10903) — 2026-06
 
-## Loco-Manipulation and Whole-Body Control (208)
+## Loco-Manipulation and Whole-Body Control (209)
 
+- [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — 2026-06
 - [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
 - [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092) — 2026-06
 - [OMG: Omni-Modal Motion Generation for Generalist Humanoid Control](https://arxiv.org/abs/2606.10340) — 2026-06
 - [VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands](https://arxiv.org/abs/2606.09286) — 2026-06
-- [MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.09215) — 2026-06
 
 ## Locomotion (149)
 
@@ -28,21 +28,21 @@ Browse papers by research topic and methodology.
 - [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — 2026-06
 - [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — 2026-06
 
-## Manipulation (133)
+## Manipulation (135)
 
+- [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — 2026-06
+- [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](https://arxiv.org/abs/2606.12995) — 2026-06
 - [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
 - [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — 2026-06
 - [SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps](https://arxiv.org/abs/2606.09798) — 2026-06
-- [MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.09215) — 2026-06
-- [OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.08548) — 2026-06
 
-## Simulation Benchmark (84)
+## Simulation Benchmark (85)
 
+- [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](https://arxiv.org/abs/2606.12995) — 2026-06
 - [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
 - [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — 2026-06
 - [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — 2026-06
 - [EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots](https://arxiv.org/abs/2606.11109) — 2026-06
-- [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092) — 2026-06
 
 ## Physics-Based Character Animation (59)
 
@@ -52,29 +52,37 @@ Browse papers by research topic and methodology.
 - [EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control](https://arxiv.org/abs/2606.08495) — 2026-06
 - [Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain](https://arxiv.org/abs/2606.08059) — 2026-06
 
-## State Estimation (56)
+## State Estimation (57)
 
+- [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](https://arxiv.org/abs/2606.12995) — 2026-06
 - [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
 - [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092) — 2026-06
 - [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — 2026-06
 - [AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation](https://arxiv.org/abs/2606.10903) — 2026-06
-- [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — 2026-06
 
-## Reinforcement Learning (54)
+## Reinforcement Learning (55)
 
+- [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — 2026-06
 - [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
 - [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092) — 2026-06
 - [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — 2026-06
 - [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — 2026-06
-- [Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking](https://arxiv.org/abs/2606.08253) — 2026-06
 
-## Teleoperation (45)
+## Teleoperation (46)
 
+- [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — 2026-06
 - [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — 2026-06
 - [OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.08548) — 2026-06
 - [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — 2026-06
 - [Cybernetic Android Avatar "Yui": System Integration, Field Deployment, and Evaluation](https://arxiv.org/abs/2606.08099) — 2026-06
-- [MotionDisco: Motion Discovery for Extreme Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.06139) — 2026-06
+
+## Human Motion Analysis and Synthesis (44)
+
+- [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — 2026-06
+- [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — 2026-06
+- 🌟 [bbsolver: A Unified Error-Bounded Spatiotemporal Optimization Solver for Key Timing and Topology-Consistent Vector Paths](https://arxiv.org/abs/2606.09741) — 2026-06
+- [Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking](https://arxiv.org/abs/2606.08253) — 2026-06
+- [Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain](https://arxiv.org/abs/2606.08059) — 2026-06
 
 ## Whole-Body Control (44)
 
@@ -84,14 +92,6 @@ Browse papers by research topic and methodology.
 - 🌟 [M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking](https://arxiv.org/abs/2606.04829) — 2026-06
 - [Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking](https://arxiv.org/abs/2606.03985) — 2026-06
 
-## Human Motion Analysis and Synthesis (43)
-
-- [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — 2026-06
-- 🌟 [bbsolver: A Unified Error-Bounded Spatiotemporal Optimization Solver for Key Timing and Topology-Consistent Vector Paths](https://arxiv.org/abs/2606.09741) — 2026-06
-- [Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking](https://arxiv.org/abs/2606.08253) — 2026-06
-- [Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain](https://arxiv.org/abs/2606.08059) — 2026-06
-- [LIMMT: Less is More for Motion Tracking](https://arxiv.org/abs/2606.06953) — 2026-06
-
 ## Benchmark (37)
 
 - [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — 2026-06
@@ -100,13 +100,13 @@ Browse papers by research topic and methodology.
 - [IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations](https://arxiv.org/abs/2606.08029) — 2026-06
 - [OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies](https://arxiv.org/abs/2606.08043) — 2026-06
 
-## Navigation (34)
+## Navigation (35)
 
+- [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — 2026-06
 - [AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation](https://arxiv.org/abs/2606.10903) — 2026-06
 - [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — 2026-06
 - [Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking](https://arxiv.org/abs/2606.08253) — 2026-06
 - [IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations](https://arxiv.org/abs/2606.08029) — 2026-06
-- 🌟 [HLL: Can Agents Cross Humanity's Last Line of Verification?](https://arxiv.org/abs/2606.02449) — 2026-06
 
 ## Hardware Design (32)
 
@@ -156,13 +156,13 @@ Browse papers by research topic and methodology.
 - [Anchored, Not Graded: Vision-Language Models Fail at Slant-from-Texture Perception](https://arxiv.org/abs/2606.06714) — 2026-06
 - [SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos](https://arxiv.org/abs/2606.02745) — 2026-06
 
-## Zero-Shot (19)
+## Zero-Shot (20)
 
+- [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](https://arxiv.org/abs/2606.12995) — 2026-06
 - [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — 2026-06
 - [OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.08548) — 2026-06
 - [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — 2026-06
 - [IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations](https://arxiv.org/abs/2606.08029) — 2026-06
-- [LadderMan: Learning Humanoid Perceptive Ladder Climbing](https://arxiv.org/abs/2606.05873) — 2026-06
 
 ## Foundation Model (18)
 
@@ -228,6 +228,22 @@ Browse papers by research topic and methodology.
 - [Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos](https://arxiv.org/abs/2605.23762) — 2026-05
 - [Benchmarking Humanoid Imitation Learning with Motion Difficulty](https://arxiv.org/abs/2512.07248) — 2025-12
 
+## Human Demonstration (11)
+
+- [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — 2026-06
+- [EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control](https://arxiv.org/abs/2606.08495) — 2026-06
+- [IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations](https://arxiv.org/abs/2606.08029) — 2026-06
+- [MotionDisco: Motion Discovery for Extreme Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.06139) — 2026-06
+- [SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos](https://arxiv.org/abs/2606.02745) — 2026-06
+
+## Robustness (11)
+
+- [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — 2026-06
+- [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — 2026-06
+- [Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking](https://arxiv.org/abs/2606.08253) — 2026-06
+- [SplitAdapter: Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation](https://arxiv.org/abs/2606.03297) — 2026-06
+- [AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs](https://arxiv.org/abs/2606.07643) — 2026-06
+
 ## Fine-tuning (11)
 
 - [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
@@ -235,22 +251,6 @@ Browse papers by research topic and methodology.
 - [IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations](https://arxiv.org/abs/2606.08029) — 2026-06
 - [HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers](https://arxiv.org/abs/2606.06493) — 2026-06
 - [Anchored, Not Graded: Vision-Language Models Fail at Slant-from-Texture Perception](https://arxiv.org/abs/2606.06714) — 2026-06
-
-## Robustness (10)
-
-- [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — 2026-06
-- [Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking](https://arxiv.org/abs/2606.08253) — 2026-06
-- [SplitAdapter: Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation](https://arxiv.org/abs/2606.03297) — 2026-06
-- [AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs](https://arxiv.org/abs/2606.07643) — 2026-06
-- [LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World](https://arxiv.org/abs/2606.01458) — 2026-05
-
-## Human Demonstration (10)
-
-- [EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control](https://arxiv.org/abs/2606.08495) — 2026-06
-- [IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations](https://arxiv.org/abs/2606.08029) — 2026-06
-- [MotionDisco: Motion Discovery for Extreme Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.06139) — 2026-06
-- [SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos](https://arxiv.org/abs/2606.02745) — 2026-06
-- [Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization](https://arxiv.org/abs/2605.30928) — 2026-05
 
 ## Simulator (10)
 
@@ -458,6 +458,14 @@ Browse papers by research topic and methodology.
 
 - [ResMimic: From General Motion Tracking to Humanoid Whole-body Loco-Manipulation via Residual Learning](https://arxiv.org/abs/2510.05070) — 2025-10
 - [SEEC: Stable End-Effector Control with Model-Enhanced Residual Learning for Humanoid Loco-Manipulation](https://arxiv.org/abs/2509.21231) — 2025-09
+
+## Admittance Control (1)
+
+- [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — 2026-06
+
+## Actor-Critic (1)
+
+- [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — 2026-06
 
 ## Isaac Sim (1)
 

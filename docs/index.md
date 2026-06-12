@@ -8,18 +8,18 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 579
-- **Real Robot Papers:** 57
+- **Total Papers:** 582
+- **Real Robot Papers:** 58
 - **Open Source Papers:** 128
 - **Latest Month:** 2026-06
 
 ### Categories
 
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (194)
-- [Manipulation](/manipulation/) (59)
-- [Teleoperation](/teleoperation/) (28)
+- [Manipulation](/manipulation/) (60)
+- [Teleoperation](/teleoperation/) (29)
 - [Locomotion](/locomotion/) (116)
-- [Navigation](/navigation/) (21)
+- [Navigation](/navigation/) (22)
 - [State Estimation](/state-estimation/) (17)
 - [Sim-to-Real](/sim-to-real/) (11)
 - [Hardware Design](/hardware-design/) (31)
@@ -31,6 +31,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — 2026-06
+  - [Teleoperation](/teleoperation/)
+-  [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](https://arxiv.org/abs/2606.12995) — 2026-06
+  - [Manipulation](/manipulation/)
+-  [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — 2026-06
+  - [Navigation](/navigation/)
 -  🤖 [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
   - [Locomotion](/locomotion/)
 -  🤖 [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — 2026-06
@@ -45,37 +51,31 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Locomotion](/locomotion/)
 -  🤖 [AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation](https://arxiv.org/abs/2606.10903) — 2026-06
   - [Navigation](/navigation/)
--  🤖 [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — 2026-06
-  - [Locomotion](/locomotion/)
--  [OMG: Omni-Modal Motion Generation for Generalist Humanoid Control](https://arxiv.org/abs/2606.10340) — 2026-06
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — 2026-06
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (416)
-- **Loco-Manipulation and Whole-Body Control** (208)
+- **Humanoid** (419)
+- **Loco-Manipulation and Whole-Body Control** (209)
 - **Locomotion** (149)
-- **Manipulation** (133)
-- **Simulation Benchmark** (84)
+- **Manipulation** (135)
+- **Simulation Benchmark** (85)
 - **Physics-Based Character Animation** (59)
-- **State Estimation** (56)
-- **Reinforcement Learning** (54)
-- **Teleoperation** (45)
+- **State Estimation** (57)
+- **Reinforcement Learning** (55)
+- **Teleoperation** (46)
+- **Human Motion Analysis and Synthesis** (44)
 - **Whole-Body Control** (44)
-- **Human Motion Analysis and Synthesis** (43)
 - **Benchmark** (37)
-- **Navigation** (34)
+- **Navigation** (35)
 - **Hardware Design** (32)
 - **Diffusion** (27)
 - **Sim-to-Real** (27)
 - **Dataset** (26)
 - **PPO** (23)
 - **Vision-Language** (22)
-- **Zero-Shot** (19)
+- **Zero-Shot** (20)
 - **Foundation Model** (18)
 - **Distillation** (16)
 - **Biped** (15)
@@ -84,8 +84,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Walking** (12)
 - **Gait** (12)
 - **Imitation Learning** (12)
-- **Fine-tuning** (11)
-- **Robustness** (10)
+- **Human Demonstration** (11)
+- **Robustness** (11)
 
 ---
 
@@ -372,6 +372,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/manipulation/2026-06)
 
+- [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](https://arxiv.org/abs/2606.12995) — `Zero-Shot`, `Humanoid`, `Manipulation`, `State Estimation`, `Simulation Benchmark`
 - [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — `Benchmark`, `Manipulation`, `Teleoperation`, `Simulation Benchmark`, `Real Robot`
 - [SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps](https://arxiv.org/abs/2606.09798) — `Manipulation`, `PPO`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
 - [Vision-Guided Dual-Arm Humanoid Robotic Disassembly of End-of-Life 18650 Lithium-ion Battery Packs](https://arxiv.org/abs/2606.08152) — `Humanoid`, `PPO`, `Manipulation`
@@ -502,6 +503,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/teleoperation/2026-06)
 
+- [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — `Teleoperation`, `Manipulation`, `Human Demonstration`, `Humanoid`, `Admittance Control`, `Loco-Manipulation and Whole-Body Control`
 - [OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.08548) — `Teleoperation`, `Manipulation`, `Zero-Shot`, `Domain Randomization`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [Cybernetic Android Avatar "Yui": System Integration, Field Deployment, and Evaluation](https://arxiv.org/abs/2606.08099) — `Teleoperation`, `PPO`, `Real Robot`
 - [MotionDisco: Motion Discovery for Extreme Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.06139) — `Reinforcement Learning`, `Teleoperation`, `Motion Retargeting`, `Manipulation`, `Human Demonstration`, `Humanoid`
@@ -776,6 +778,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/navigation/2026-06)
 
+- [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — `Reinforcement Learning`, `Robustness`, `Humanoid`, `Actor-Critic`, `Navigation`
 - [AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation](https://arxiv.org/abs/2606.10903) — `Navigation`, `Safety`, `Humanoid`, `Collision`, `State Estimation`, `Real Robot`
 - [IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations](https://arxiv.org/abs/2606.08029) — `Navigation`, `Zero-Shot`, `Human Demonstration`, `Humanoid`, `Fine-tuning`, `Benchmark`
 - 🌟 [HLL: Can Agents Cross Humanity's Last Line of Verification?](https://arxiv.org/abs/2606.02449), [website](https://github.com/xinhaos0101/hll) — `Benchmark`, `PPO`, `Navigation`, `Simulation Benchmark`, `Real Robot`, `Open Source`
