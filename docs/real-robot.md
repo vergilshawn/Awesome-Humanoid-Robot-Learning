@@ -5,15 +5,59 @@ Papers with real humanoid robot deployment and experiments.
 ## Platforms
 
 - **Digit:** 2 papers
-- **Figure:** 15 papers
+- **Figure:** 16 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 31 papers
+- **Unitree G1:** 32 papers
 - **Unknown Platform:** 5 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14617)
+- **Authors:** Yongyan Cao
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - MPC
+  - Whole-Body Control
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Floating-base robots must balance under rigid contact constraints while interacting safely with humans. Existing whole-body control~(WBC) frameworks allocate the full joint space to locomotion or rely on fixed-gain impedance feedback that accumulates steady-state error under sustained physical human--robot interaction~(pHRI) forces.
+
+---
+
+## Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14270)
+- **Authors:** Haidong Hou, Zhangguo Yu, Tao Han, Hengbo Qi, Khaleel Ghazal, Yu Zhang et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Robustness
+  - Biped
+  - Humanoid
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Fall recovery is critical for autonomous legged locomotion. Existing methods have demonstrated that some legged robots, such as humanoids and quadrupeds, are capable of fall recovery from diverse postures by utilizing arms or coordinating multi-legs to generate support forces.
+
+---
 
 ## WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning
 

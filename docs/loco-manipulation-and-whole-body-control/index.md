@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**194 papers** in this category.
+**197 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (15 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (18 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -35,6 +35,58 @@
 ---
 
 ## Recent Papers
+
+## Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14617)
+- **Authors:** Yongyan Cao
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - MPC
+  - Whole-Body Control
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Floating-base robots must balance under rigid contact constraints while interacting safely with humans. Existing whole-body control~(WBC) frameworks allocate the full joint space to locomotion or rely on fixed-gain impedance feedback that accumulates steady-state error under sustained physical human--robot interaction~(pHRI) forces.
+
+---
+
+## What Robots Do Matters More Than What They Look Like: Task Context Shapes Trust in Educational HRI
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14602)
+- **Authors:** Anna-Maria Velentza, Konstantina Nikou, Anne-Gwenn Bosser, Nikolaos Fachantidis
+- **Published:** 2026-06
+- **Tags:**
+  - Large Language Model
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Socially assistive robots (SARs) are increasingly deployed in educational and information-sharing contexts, supported by advances in large language models that enable fluent real-time interaction. Despite the growing diversity of robot embodiments, it remains unclear whether a single robot appearance is appropriate across different interaction tasks or whether trust depends primarily on contextual factors.
+
+---
+
+## Fodor and Pylyshyn's Systematicity Challenge Still Stands
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14512)
+- **Authors:** Michael Goodale, Salvador Mascarenhas
+- **Published:** 2026-06
+- **Tags:**
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+The recent successes of neural networks producing human-like language have caused significant stir in cognitive science, with many researchers arguing that classical puzzles about human cognition and challenges to artificial intelligence are being solved by neural networks. A notable case is the argument from systematicity due to Jerry Fodor and Zenon Pylyshyn, argues that humans display systematic biconditional dependencies.
+
+---
 
 ## RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning
 
@@ -375,64 +427,5 @@ Training vision-language-action (VLA) policies for humanoid loco-manipulation is
 ### Summary
 
 Manipulating suspended payloads with humanoid robots is challenging because the robot can only influence an underactuated, oscillatory load through whole-body motion and intermittent contact. Imitation learning provides safe initial behavior but does not directly optimize final placement, while reinforcement learning from scratch is unsafe and sample-inefficient on real humanoids.
-
----
-
-## Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.31343)
-- **Authors:** Sikai Guo, Yudong Zhong, Guoyang Zhao, Botao Dang, Zhihai Bi, Jun Ma
-- **Published:** 2026-05
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - Robustness
-  - Proprioception
-  - Distillation
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Legged manipulators integrate exceptional terrain adaptability along with mobile manipulation capabilities, which make them highly promising for deployment in human-centric environments. By coordinating the control of both legs and arms, a whole-body controller can significantly expand the operational workspace of legged manipulators.
-
----
-
-## EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28468)
-- **Authors:** Junhwi Cho, Sunggyu Bae, Junghyeon Ma, Hyosang Lee, Jung Kim, Kyungseo Park
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Real Robot
-  - Humanoid
-  - Tactile Sensing
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-We present a hybrid robotic skin that combines electrical impedance tomography (EIT) with pneumatic tactile sensing to improve force reconstruction capability. The developed robotic skin is fabricated entirely by 3D printing and spray coating, making it affordable and easy to build.
-
----
-
-## Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.23733)
-- **Authors:** Ming Yang, Tao Yu, Feng Li, Hua Chen
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Fine-tuning
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-
-### Summary
-
-Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making rapid deployment on new humanoid platforms costly.
 
 ---

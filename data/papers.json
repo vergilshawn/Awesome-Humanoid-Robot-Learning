@@ -1,5 +1,231 @@
 [
   {
+    "arxiv_id": "2606.14617",
+    "title": "Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms",
+    "paper_url": "https://arxiv.org/abs/2606.14617",
+    "project_url": null,
+    "authors": [
+      "Yongyan Cao"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-12",
+    "abstract": "Floating-base robots must balance under rigid contact constraints while interacting safely with humans. Existing whole-body control~(WBC) frameworks allocate the full joint space to locomotion or rely on fixed-gain impedance feedback that accumulates steady-state error under sustained physical human--robot interaction~(pHRI) forces. This paper extends the authors' fixed-base two-layer Impedance MPC to floating-base platforms through a three-level architecture: a centroidal MPC plans contact forces over a 500\\,ms horizon; a priority-driven WBC layer resolves balance into joint torques through contact-consistent null-space projection; and the residual null space is governed by a receding-horizon quadratic program~(QP) that predicts and rejects pHRI disturbances using a Kalman-augmented state. A contact-consistent feedback linearization reduces the arm end-effector plant to a double integrator with a \\emph{constant} state matrix within each contact mode, enabling offline precomputation of the QP cost and ${\\geq}1$\\,kHz operation. A covariance-inflation protocol preserves the disturbance estimate across contact-mode switches, guaranteeing zero steady-state error under bounded constant pHRI loads, and an Impedance Equivalence Theorem shows the infinite-horizon limit recovers a classical task-space impedance law whose effective mass, damping, and stiffness adapt to posture and contact configuration. Simulations on a 17-DOF biped and the Unitree G1 humanoid validate the design.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "MPC",
+      "Whole-Body Control",
+      "Locomotion",
+      "Biped",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.14602",
+    "title": "What Robots Do Matters More Than What They Look Like: Task Context Shapes Trust in Educational HRI",
+    "paper_url": "https://arxiv.org/abs/2606.14602",
+    "project_url": null,
+    "authors": [
+      "Anna-Maria Velentza",
+      "Konstantina Nikou",
+      "Anne-Gwenn Bosser",
+      "Nikolaos Fachantidis"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-12",
+    "abstract": "Socially assistive robots (SARs) are increasingly deployed in educational and information-sharing contexts, supported by advances in large language models that enable fluent real-time interaction. Despite the growing diversity of robot embodiments, it remains unclear whether a single robot appearance is appropriate across different interaction tasks or whether trust depends primarily on contextual factors. In this study, we examine how robot appearance and task type jointly influence trust in robots. Using a within-subjects video-based experiment (N = 81), participants evaluated three robots with distinct appearances while performing three educationally relevant tasks: teaching, procedural instruction, and personal-information discussion. Results from repeated-measures analyses show a strong main effect of task on trust, with participants reporting the highest trust during instructional guidance, moderate trust during teaching activities, and significantly lower trust when robots requested personal information. In contrast, robot appearance showed no significant main effect, and the interaction between appearance and task was marginal. These findings suggest that trust in human-robot interaction is shaped more strongly by task context than by physical embodiment alone. By focusing on future educators as end users, this work contributes empirical evidence toward task-aware robot deployment in educational environments and highlights the importance of aligning robot roles and behaviors with interaction goals rather than relying solely on anthropomorphic design.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Large Language Model",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.14561",
+    "title": "ORCA: A Platform for Open-Source Dexterity Research",
+    "paper_url": "https://arxiv.org/abs/2606.14561",
+    "project_url": null,
+    "authors": [
+      "Francesco Capuano",
+      "Maximilian Eberlein",
+      "Fabrice Bourquin",
+      "Clemens Claudio Christoph"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-12",
+    "abstract": "Robotics manipulation research increasingly focuses on two-finger parallel grippers for their effectiveness, affordability, and ease of teleoperation. Grippers are nonetheless limited by their form factor, often requiring bimanual setups even for simple reorientation tasks. Anthropomorphic hands are a more natural platform for dexterous robot learning -- closer to the human hand, and capable of learning from human video -- yet they remain hard to use in learning research: even where open and accessible hand hardware exists, the software for control, simulation, teleoperation, and retargeting is scattered in one-off code bases, and largely disconnected from the robot-learning ecosystem. In this work, we introduce the \\orca~learning stack, an open-source research stack for dexterity as a first-class robot learning domain. Our \\orca~stack unifies low-level control, simulation, teleoperation from a range of consumer platforms, and hand retargeting, behind a single interface, and integrates natively with popular robot-learning frameworks such as \\lerobot, so dexterous hand researchers can leverage the same data, training, and evaluation pipelines used for non-dexterous robot learning. We demonstrate a complete end-to-end workflow, collecting expert demonstrations of an in-hand reorientation task by teleoperation with a consumer-grade VR headset, training an autonomous policy with \\lerobot, and evaluating the learned policy in a fully reproducible and observable setup. We open-source the entire stack as a shared, reproducible foundation for dexterous-manipulation research.",
+    "categories": [
+      "Manipulation",
+      "Teleoperation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.14270",
+    "title": "Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning",
+    "paper_url": "https://arxiv.org/abs/2606.14270",
+    "project_url": null,
+    "authors": [
+      "Haidong Hou",
+      "Zhangguo Yu",
+      "Tao Han",
+      "Hengbo Qi",
+      "Khaleel Ghazal",
+      "Yu Zhang",
+      "Yidong Du",
+      "Xuechao Chen",
+      "Fei Meng"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-12",
+    "abstract": "Fall recovery is critical for autonomous legged locomotion. Existing methods have demonstrated that some legged robots, such as humanoids and quadrupeds, are capable of fall recovery from diverse postures by utilizing arms or coordinating multi-legs to generate support forces. Without arms or other legs to provide supportive assistance, a bipedal-wheeled robot must rely solely on the actuation of its legs, making recovery particularly difficult. To address this, we introduce FTSR (Force-guided Teacher-student framework with Stage-wise Rewards). The force-guided method constructs an external auxiliary force during simulation training that correlates directly with the robot's real-time height, explicitly formulating this force as an optimizable constraint. Through constrained reinforcement learning, the policy is guided toward reducing force dependency gradually and increasing the body height, developing internal recovery strategies despite having no arms for support. Height-progressive stage-Wise rewards progressively structure posture stabilization during recovery and transition to sustained locomotion, integrated with teacher-student architecture distilling privileged knowledge of force effects and recovery dynamics. After simulation training, the policy is deployed on a physical armless bipedal-wheeled robot and extensively evaluated. Experiments confirm robust and reliable fall recovery under diverse challenging conditions, demonstrating strong environmental adaptability and motion robustness, while maintaining full post-recovery motion capability. The framework also generalizes effectively to a high-DOF humanoid, confirming its practical generalizability. The project page is available at https://2350575870.github.io/force-guided.github.io/",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Robustness",
+      "Biped",
+      "Humanoid",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.14250",
+    "title": "SyLink Hand: A Synergy-Inspired Linkage-Driven Anthropomorphic Hand for Human-Like Dexterity",
+    "paper_url": "https://arxiv.org/abs/2606.14250",
+    "project_url": null,
+    "authors": [
+      "Hao Wu",
+      "Yanzhe Wang",
+      "Yu Feng",
+      "Yitong Li",
+      "Jingxiang Guo",
+      "Jian Liu",
+      "Jianshu Zhou"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-12",
+    "abstract": "Designing anthropomorphic robotic hands that balance functional dexterity with mechanical simplicity remains a significant challenge. Inspired by human hand synergies, this paper presents the SyLink Hand, an anthropomorphic dexterous hand that integrates biomechanical synergy principles with linkage-driven transmission mechanisms to achieve a high degree of anthropomorphism in appearance, kinematics, and functionality within a compact and cost-effective architecture. Biomechanical analysis of natural hand motions using motion capture gloves reveals strong kinematic correlations among hand joints, providing the basis for a simplified yet functional degree-of-freedom (DOF) configuration. Guided by these synergistic characteristics, optimized linkage mechanisms are employed to coordinate multiple joint motions and reproduce natural finger trajectories. A novel spherical four-bar linkage is further proposed to achieve decoupled flexion/extension (Flex/Ext) and abduction/adduction (Abd/Add) at the metacarpophalangeal joint within a compact form factor. The resulting prototype integrates 19 joints driven by 11 actuators, with a total mass of 520g and a manufacturing cost of approximately USD 400. Experimental evaluations demonstrate its human-like kinematic performance, high load-bearing capability, and versatile grasping and manipulation skills. These results validate that the synergy-inspired, linkage-based design effectively balances anthropomorphism, mechanical simplicity, and functional versatility, highlighting its potential for practical deployment in dexterity-demanding robotic applications.",
+    "categories": [
+      "Manipulation",
+      "Hardware Design",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Manipulation",
+      "Hardware Design",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.14512",
+    "title": "Fodor and Pylyshyn's Systematicity Challenge Still Stands",
+    "paper_url": "https://arxiv.org/abs/2606.14512",
+    "project_url": null,
+    "authors": [
+      "Michael Goodale",
+      "Salvador Mascarenhas"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-12",
+    "abstract": "The recent successes of neural networks producing human-like language have caused significant stir in cognitive science, with many researchers arguing that classical puzzles about human cognition and challenges to artificial intelligence are being solved by neural networks. A notable case is the argument from systematicity due to Jerry Fodor and Zenon Pylyshyn, argues that humans display systematic biconditional dependencies. For example, someone can understand the sentence \"John saw Mary\" just in case that they understand the sentence \"Mary saw John.\" Symbolic systems explain this systematicity of language and thought, while neural networks offer no immediate explanation. Several recent articles argue that this challenge has now been met by neural networks. In particular, Brenden Lake and Marco Baroni argue that their meta-learning for compositionality protocol matches and perhaps explains human systematicity. We demonstrate that these conclusions are premature. Among other results, we found that their model struggles to learn rules that are even slightly out of distribution compared to their training data. Furthermore, the model behaves unsystematically even on many within-distribution problems. We conclude that Fodor and Pylyshyn's challenge to neural networks remains unmet.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.14344",
+    "title": "More with LESS -- Local Scene Representations for Tactile Imaging",
+    "paper_url": "https://arxiv.org/abs/2606.14344",
+    "project_url": null,
+    "authors": [
+      "Zohar Rimon",
+      "Elisei Shafer",
+      "Tal Tepper",
+      "Daniel Kozin",
+      "Alon Malka",
+      "Roy Holland",
+      "Aviv Tamar"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-12",
+    "abstract": "Tactile imaging seeks to reconstruct the internal structure of soft objects through touch sensing, with applications in medical diagnosis and robotic manipulation. Recent self-supervised learning approaches have shown promising results, but rely on global, unstructured representations and robot-controlled sensing, limiting generalization and practical use. We propose Local Encoder for Spatial Sensing (LESS), an object-centric tactile representation that exploits the local nature of touch. The tactile scene is modeled as a grid of recurrent encoders with local receptive fields, whose states are fused to reconstruct 2D or 3D images of internal structure. This compositional design enables strong generalization: models trained on single-inclusion phantoms accurately image objects with multiple inclusions and varying sizes. The local structure further supports spatial uncertainty estimation. In addition, we enable hand-held tactile imaging via external pose tracking and human-like palpation data, and extend tactile imaging to full 3D reconstruction.",
+    "categories": [
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Manipulation",
+      "3D Reconstruction",
+      "PPO",
+      "Self-Supervised",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
     "arxiv_id": "2606.13232",
     "title": "WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning",
     "paper_url": "https://arxiv.org/abs/2606.13232",

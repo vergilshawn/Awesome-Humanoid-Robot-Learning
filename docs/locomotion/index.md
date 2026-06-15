@@ -1,10 +1,10 @@
 # Locomotion
 
-**116 papers** in this category.
+**117 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (11 papers)
+- [2026-06](/locomotion/2026-06) (12 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -36,6 +36,28 @@
 ---
 
 ## Recent Papers
+
+## Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14270)
+- **Authors:** Haidong Hou, Zhangguo Yu, Tao Han, Hengbo Qi, Khaleel Ghazal, Yu Zhang et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Robustness
+  - Biped
+  - Humanoid
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Fall recovery is critical for autonomous legged locomotion. Existing methods have demonstrated that some legged robots, such as humanoids and quadrupeds, are capable of fall recovery from diverse postures by utilizing arms or coordinating multi-legs to generate support forces.
+
+---
 
 ## Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation
 
@@ -409,26 +431,5 @@ Safe manipulation-oriented navigation for humanoid robots requires scene memory 
 ### Summary
 
 We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running.
-
----
-
-## Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.15517)
-- **Authors:** William D. Compton, Zachary Olkin, Aaron D. Ames
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - MPC
-  - Locomotion
-  - Navigation
-  - Humanoid
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-We present a method for training reference-guided, perceptive reinforcement learning locomotion policies for humanoid robots in which reference trajectories are modulated in training to be consistent with terrain geometry. Aiming to deploy our method with standard navigation autonomy infrastructure, we synthesize SE(2)-controllable reference trajectories inside the RL training loop, projecting desired footsteps onto valid footholds and adjusting swing-foot and center-of-mass trajectories to match the terrain.
 
 ---

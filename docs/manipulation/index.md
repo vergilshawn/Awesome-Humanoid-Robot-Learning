@@ -1,10 +1,10 @@
 # Manipulation
 
-**60 papers** in this category.
+**63 papers** in this category.
 
 ## Months
 
-- [2026-06](/manipulation/2026-06) (5 papers)
+- [2026-06](/manipulation/2026-06) (8 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -31,6 +31,58 @@
 ---
 
 ## Recent Papers
+
+## ORCA: A Platform for Open-Source Dexterity Research
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14561)
+- **Authors:** Francesco Capuano, Maximilian Eberlein, Fabrice Bourquin, Clemens Claudio Christoph
+- **Published:** 2026-06
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Robotics manipulation research increasingly focuses on two-finger parallel grippers for their effectiveness, affordability, and ease of teleoperation. Grippers are nonetheless limited by their form factor, often requiring bimanual setups even for simple reorientation tasks.
+
+---
+
+## SyLink Hand: A Synergy-Inspired Linkage-Driven Anthropomorphic Hand for Human-Like Dexterity
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14250)
+- **Authors:** Hao Wu, Yanzhe Wang, Yu Feng, Yitong Li, Jingxiang Guo, Jian Liu et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Hardware Design
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Designing anthropomorphic robotic hands that balance functional dexterity with mechanical simplicity remains a significant challenge. Inspired by human hand synergies, this paper presents the SyLink Hand, an anthropomorphic dexterous hand that integrates biomechanical synergy principles with linkage-driven transmission mechanisms to achieve a high degree of anthropomorphism in appearance, kinematics, and functionality within a compact and cost-effective architecture.
+
+---
+
+## More with LESS -- Local Scene Representations for Tactile Imaging
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14344)
+- **Authors:** Zohar Rimon, Elisei Shafer, Tal Tepper, Daniel Kozin, Alon Malka, Roy Holland et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - 3D Reconstruction
+  - PPO
+  - Self-Supervised
+  - State Estimation
+
+### Summary
+
+Tactile imaging seeks to reconstruct the internal structure of soft objects through touch sensing, with applications in medical diagnosis and robotic manipulation. Recent self-supervised learning approaches have shown promising results, but rely on global, unstructured representations and robot-controlled sensing, limiting generalization and practical use.
+
+---
 
 ## GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training
 
@@ -304,48 +356,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2026-01
 - **Tags:**
   - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Genie Sim 3.0 : A High-Fidelity Comprehensive Simulation Platform for Humanoid Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.02078)
-- **Published:** 2026-01
-- **Tags:**
-  - Humanoid
-  - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## SafeHumanoid: VLM-RAG-driven Control of Upper Body Impedance for Humanoid Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.23300)
-- **Published:** 2025-11
-- **Tags:**
-  - Humanoid
-  - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Dexterity from Smart Lenses: Multi-Fingered Robot Manipulation with In-the-Wild Human Demonstrations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.16661)
-- **Published:** 2025-11
-- **Tags:**
-  - Manipulation
-  - Human Demonstration
 
 ### Summary
 

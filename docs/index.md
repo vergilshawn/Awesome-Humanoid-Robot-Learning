@@ -8,17 +8,17 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 582
-- **Real Robot Papers:** 58
+- **Total Papers:** 589
+- **Real Robot Papers:** 60
 - **Open Source Papers:** 128
 - **Latest Month:** 2026-06
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (194)
-- [Manipulation](/manipulation/) (60)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (197)
+- [Manipulation](/manipulation/) (63)
 - [Teleoperation](/teleoperation/) (29)
-- [Locomotion](/locomotion/) (116)
+- [Locomotion](/locomotion/) (117)
 - [Navigation](/navigation/) (22)
 - [State Estimation](/state-estimation/) (17)
 - [Sim-to-Real](/sim-to-real/) (11)
@@ -31,61 +31,61 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms](https://arxiv.org/abs/2606.14617) — 2026-06
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [What Robots Do Matters More Than What They Look Like: Task Context Shapes Trust in Educational HRI](https://arxiv.org/abs/2606.14602) — 2026-06
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [ORCA: A Platform for Open-Source Dexterity Research](https://arxiv.org/abs/2606.14561) — 2026-06
+  - [Manipulation](/manipulation/)
+-  🤖 [Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning](https://arxiv.org/abs/2606.14270) — 2026-06
+  - [Locomotion](/locomotion/)
+-  [SyLink Hand: A Synergy-Inspired Linkage-Driven Anthropomorphic Hand for Human-Like Dexterity](https://arxiv.org/abs/2606.14250) — 2026-06
+  - [Manipulation](/manipulation/)
+-  [Fodor and Pylyshyn's Systematicity Challenge Still Stands](https://arxiv.org/abs/2606.14512) — 2026-06
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [More with LESS -- Local Scene Representations for Tactile Imaging](https://arxiv.org/abs/2606.14344) — 2026-06
+  - [Manipulation](/manipulation/)
 -  🤖 [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — 2026-06
   - [Teleoperation](/teleoperation/)
 -  [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](https://arxiv.org/abs/2606.12995) — 2026-06
   - [Manipulation](/manipulation/)
 -  [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — 2026-06
   - [Navigation](/navigation/)
--  🤖 [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
-  - [Locomotion](/locomotion/)
--  🤖 [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — 2026-06
-  - [Manipulation](/manipulation/)
--  [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — 2026-06
-  - [Simulation Benchmark](/simulation-benchmark/)
--  🤖 [EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots](https://arxiv.org/abs/2606.11109) — 2026-06
-  - [Simulation Benchmark](/simulation-benchmark/)
--  🤖 [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092) — 2026-06
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — 2026-06
-  - [Locomotion](/locomotion/)
--  🤖 [AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation](https://arxiv.org/abs/2606.10903) — 2026-06
-  - [Navigation](/navigation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (419)
-- **Loco-Manipulation and Whole-Body Control** (209)
-- **Locomotion** (149)
-- **Manipulation** (135)
-- **Simulation Benchmark** (85)
-- **Physics-Based Character Animation** (59)
-- **State Estimation** (57)
-- **Reinforcement Learning** (55)
-- **Teleoperation** (46)
-- **Human Motion Analysis and Synthesis** (44)
-- **Whole-Body Control** (44)
+- **Humanoid** (421)
+- **Loco-Manipulation and Whole-Body Control** (212)
+- **Locomotion** (151)
+- **Manipulation** (138)
+- **Simulation Benchmark** (88)
+- **State Estimation** (61)
+- **Physics-Based Character Animation** (60)
+- **Reinforcement Learning** (56)
+- **Teleoperation** (47)
+- **Whole-Body Control** (45)
+- **Human Motion Analysis and Synthesis** (45)
 - **Benchmark** (37)
 - **Navigation** (35)
-- **Hardware Design** (32)
+- **Hardware Design** (33)
 - **Diffusion** (27)
 - **Sim-to-Real** (27)
+- **PPO** (26)
 - **Dataset** (26)
-- **PPO** (23)
 - **Vision-Language** (22)
 - **Zero-Shot** (20)
 - **Foundation Model** (18)
+- **Biped** (17)
 - **Distillation** (16)
-- **Biped** (15)
 - **Safety** (15)
 - **Collision** (13)
+- **Robustness** (12)
 - **Walking** (12)
 - **Gait** (12)
 - **Imitation Learning** (12)
 - **Human Demonstration** (11)
-- **Robustness** (11)
 
 ---
 
@@ -95,6 +95,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/loco-manipulation-and-whole-body-control/2026-06)
 
+- [Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms](https://arxiv.org/abs/2606.14617) — `MPC`, `Whole-Body Control`, `Locomotion`, `Biped`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [What Robots Do Matters More Than What They Look Like: Task Context Shapes Trust in Educational HRI](https://arxiv.org/abs/2606.14602) — `Large Language Model`, `PPO`, `Loco-Manipulation and Whole-Body Control`
+- [Fodor and Pylyshyn's Systematicity Challenge Still Stands](https://arxiv.org/abs/2606.14512) — `Loco-Manipulation and Whole-Body Control`
 - [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`, `Simulation Benchmark`
 - [OMG: Omni-Modal Motion Generation for Generalist Humanoid Control](https://arxiv.org/abs/2606.10340) — `Whole-Body Control`, `Humanoid`, `Foundation Model`, `Diffusion`, `Multi-Modal`, `Loco-Manipulation and Whole-Body Control`
 - [VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands](https://arxiv.org/abs/2606.09286) — `Humanoid`, `Proprioception`, `Distillation`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`, `Physics-Based Character Animation`
@@ -372,6 +375,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/manipulation/2026-06)
 
+- [ORCA: A Platform for Open-Source Dexterity Research](https://arxiv.org/abs/2606.14561) — `Teleoperation`, `Manipulation`, `State Estimation`, `Simulation Benchmark`
+- [SyLink Hand: A Synergy-Inspired Linkage-Driven Anthropomorphic Hand for Human-Like Dexterity](https://arxiv.org/abs/2606.14250) — `Manipulation`, `Hardware Design`, `Physics-Based Character Animation`, `Human Motion Analysis and Synthesis`
+- [More with LESS -- Local Scene Representations for Tactile Imaging](https://arxiv.org/abs/2606.14344) — `Manipulation`, `3D Reconstruction`, `PPO`, `Self-Supervised`, `State Estimation`
 - [GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training](https://arxiv.org/abs/2606.12995) — `Zero-Shot`, `Humanoid`, `Manipulation`, `State Estimation`, `Simulation Benchmark`
 - [Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection](https://arxiv.org/abs/2606.11826) — `Benchmark`, `Manipulation`, `Teleoperation`, `Simulation Benchmark`, `Real Robot`
 - [SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps](https://arxiv.org/abs/2606.09798) — `Manipulation`, `PPO`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
@@ -576,6 +582,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/locomotion/2026-06)
 
+- [Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning](https://arxiv.org/abs/2606.14270) — `Reinforcement Learning`, `Locomotion`, `Robustness`, `Biped`, `Humanoid`, `PPO`
 - [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `Fine-tuning`
 - [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — `Locomotion`, `Isaac Sim`, `Biped`, `Humanoid`, `Walking`, `GAN`
 - [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — `Reinforcement Learning`, `Locomotion`, `Navigation`, `Robustness`, `Humanoid`, `Distillation`

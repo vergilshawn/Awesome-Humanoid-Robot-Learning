@@ -2,6 +2,132 @@
 
 All papers sorted by publication date (newest first).
 
+## Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14617)
+- **Authors:** Yongyan Cao
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - MPC
+  - Whole-Body Control
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Floating-base robots must balance under rigid contact constraints while interacting safely with humans. Existing whole-body control~(WBC) frameworks allocate the full joint space to locomotion or rely on fixed-gain impedance feedback that accumulates steady-state error under sustained physical human--robot interaction~(pHRI) forces.
+
+---
+
+## What Robots Do Matters More Than What They Look Like: Task Context Shapes Trust in Educational HRI
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14602)
+- **Authors:** Anna-Maria Velentza, Konstantina Nikou, Anne-Gwenn Bosser, Nikolaos Fachantidis
+- **Published:** 2026-06
+- **Tags:**
+  - Large Language Model
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Socially assistive robots (SARs) are increasingly deployed in educational and information-sharing contexts, supported by advances in large language models that enable fluent real-time interaction. Despite the growing diversity of robot embodiments, it remains unclear whether a single robot appearance is appropriate across different interaction tasks or whether trust depends primarily on contextual factors.
+
+---
+
+## ORCA: A Platform for Open-Source Dexterity Research
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14561)
+- **Authors:** Francesco Capuano, Maximilian Eberlein, Fabrice Bourquin, Clemens Claudio Christoph
+- **Published:** 2026-06
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Robotics manipulation research increasingly focuses on two-finger parallel grippers for their effectiveness, affordability, and ease of teleoperation. Grippers are nonetheless limited by their form factor, often requiring bimanual setups even for simple reorientation tasks.
+
+---
+
+## Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14270)
+- **Authors:** Haidong Hou, Zhangguo Yu, Tao Han, Hengbo Qi, Khaleel Ghazal, Yu Zhang et al. (9 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Robustness
+  - Biped
+  - Humanoid
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Fall recovery is critical for autonomous legged locomotion. Existing methods have demonstrated that some legged robots, such as humanoids and quadrupeds, are capable of fall recovery from diverse postures by utilizing arms or coordinating multi-legs to generate support forces.
+
+---
+
+## SyLink Hand: A Synergy-Inspired Linkage-Driven Anthropomorphic Hand for Human-Like Dexterity
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14250)
+- **Authors:** Hao Wu, Yanzhe Wang, Yu Feng, Yitong Li, Jingxiang Guo, Jian Liu et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Hardware Design
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Designing anthropomorphic robotic hands that balance functional dexterity with mechanical simplicity remains a significant challenge. Inspired by human hand synergies, this paper presents the SyLink Hand, an anthropomorphic dexterous hand that integrates biomechanical synergy principles with linkage-driven transmission mechanisms to achieve a high degree of anthropomorphism in appearance, kinematics, and functionality within a compact and cost-effective architecture.
+
+---
+
+## Fodor and Pylyshyn's Systematicity Challenge Still Stands
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14512)
+- **Authors:** Michael Goodale, Salvador Mascarenhas
+- **Published:** 2026-06
+- **Tags:**
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+The recent successes of neural networks producing human-like language have caused significant stir in cognitive science, with many researchers arguing that classical puzzles about human cognition and challenges to artificial intelligence are being solved by neural networks. A notable case is the argument from systematicity due to Jerry Fodor and Zenon Pylyshyn, argues that humans display systematic biconditional dependencies.
+
+---
+
+## More with LESS -- Local Scene Representations for Tactile Imaging
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14344)
+- **Authors:** Zohar Rimon, Elisei Shafer, Tal Tepper, Daniel Kozin, Alon Malka, Roy Holland et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - 3D Reconstruction
+  - PPO
+  - Self-Supervised
+  - State Estimation
+
+### Summary
+
+Tactile imaging seeks to reconstruct the internal structure of soft objects through touch sensing, with applications in medical diagnosis and robotic manipulation. Recent self-supervised learning approaches have shown promising results, but rely on global, unstructured representations and robot-controlled sensing, limiting generalization and practical use.
+
+---
+
 ## WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.13232)
