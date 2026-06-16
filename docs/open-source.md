@@ -2,6 +2,65 @@
 
 Papers with open-source code repositories.
 
+## 🌟 WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.16600)
+- **Project:** [GitHub](https://github.com/pairs-lab/WaveSync)
+- **Authors:** Thang Tran Viet, Thanh Nguyen Canh, Gia Huy Uong, Phuc Van Dinh, Tan Viet Tuyen Nguyen, Xiem HoangVan et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Motion Planning
+  - Large Language Model
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Expressive co-speech gestures are crucial for natural human-robot interaction, but generating them on physical humanoid robots is difficult because gesture strokes must align with speech emphasis while satisfying strict kinematic and dynamic constraints. Unlike virtual avatars, humanoid robots cannot freely execute rapid or overlapping motions, making word-level synchronization and hardware-safe motion planning a coupled problem.
+
+---
+
+## 🌟 MotionVLA: Vision-Language-Action Model for Humanoid Motion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.15142)
+- **Project:** [GitHub](https://github.com/aigeeksgroup/motionvla)
+- **Authors:** Nonghai Zhang, Siyu Zhai, Yanjun Li, Zeyu Zhang, Zhihan Yin, Yandong Guo et al. (8 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Generating realistic humanoid motion from scene images and text involves both low-frequency pose semantics and high-frequency physical dynamics. However, many existing methods tokenize motion with a single shared codebook, forcing heterogeneous motion signals into the same quantization space.
+
+---
+
+## 🌟 DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.15133)
+- **Project:** [GitHub](https://github.com/AIGeeksGroup/DragMesh-2)
+- **Authors:** Tianshan Zhang, Yijia Duan, Yanjun Li, Zeyu Zhang, Hao Tang
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Contact Dynamics
+  - Policy Learning
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Dexterous interaction with articulated objects is important for household, assistive, and humanoid manipulation, where multi-finger hands can provide compliant contact patterns beyond parallel-jaw grasping. However, articulated-object manipulation differs from static-object manipulation: the target part cannot be directly actuated, and its motion must emerge through sustained physical hand--handle contact.
+
+---
+
 ## 🌟 bbsolver: A Unified Error-Bounded Spatiotemporal Optimization Solver for Key Timing and Topology-Consistent Vector Paths
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.09741)

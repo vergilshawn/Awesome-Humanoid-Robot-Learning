@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**45 papers** in this category.
+**48 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (8 papers)
+- [2026-06](/simulation-benchmark/2026-06) (11 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -23,6 +23,65 @@
 ---
 
 ## Recent Papers
+
+## VENOM: Versatile Embodied Network for Omni-bodied Motion tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.16696)
+- **Authors:** Siddharth Padmanabhan, Kazuki Miyazawa, Takato Horii
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Achieving expert-level expressive full-body motion tracking across multiple humanoids solely from demonstration data remains a challenging and relatively an underexplored problem in humanoid robot learning. Cross-embodiment motion tracking policies are mostly trained by decoupling the control problem into upper and lower body control.
+
+---
+
+## Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.16564)
+- **Authors:** Aristotelis Papatheodorou, Jose Rojas, Ioannis Havoutis, Carlos Mastalli
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - Trajectory Optimization
+  - Optimal Control
+  - Benchmark
+  - PPO
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Robotic systems routinely encounter conflicting objectives, modeling errors, and degenerate contact conditions that render quadratic programs (QPs) infeasible. Yet most optimization solvers and differentiable QP layers assume feasibility, leading to numerical failures, unstable gradients, or solver breakdown when constraints cannot be simultaneously satisfied.
+
+---
+
+## Trust-Region Diffusion Policies for Massively Parallel On-Policy RL
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.15260)
+- **Authors:** Huy Le, Onur Celik, Denis Blessing, Tai Hoang, Claas A Voelcker, Axel Brunnbauer et al. (9 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Benchmark
+  - Diffusion
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Reinforcement learning with massively parallel simulations has become a standard framework for developing robust, deployable policies; however, most existing approaches still rely on simple Gaussian policy parameterizations. Diffusion models provide a more expressive policy class and have shown strong performance on challenging control problems, yet most diffusion-based RL methods are designed for offline or off-policy training.
+
+---
 
 ## TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation
 
@@ -351,59 +410,5 @@ Recent motion-language models unify tasks like comprehension and generation but 
 ### Summary
 
 Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
-
----
-
-## EfficientTDMPC: Improved MPC Objectives for Sample-Efficient Continuous Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.16692)
-- **Authors:** Thomas Evers, Cristian Meo, Wendelin Bohmer, Justin Dauwels, Yaniv Oren
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - MPC
-  - Humanoid
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-We introduce EfficientTDMPC, a sample-efficient model-based reinforcement learning method for continuous control built on the TD-MPC family of algorithms. Central to this family is a planner that aims to find an action sequence that maximizes the estimated return.
-
----
-
-## Enhancing Metacognitive AI: Knowledge-Graph Population with Graph-Theoretic LLM Enrichment
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.16676)
-- **Authors:** Deniz Askin, Gal Hadar, Brendan Conway-Smith
-- **Published:** 2026-05
-- **Tags:**
-  - Dataset
-  - Large Language Model
-  - PPO
-  - Simulation Benchmark
-
-### Summary
-
-Metacognition-the ability to monitor one's own knowledge state, spot gaps, and autonomously fill them--remains largely absent from modern AI. Here, we present MetaKGEnrich, a fully automated pipeline that endows large language model (LLM) applications with self-directed knowledge repair.
-
----
-
-## Why Modeling Human Haptic Material Perception with AI Is Difficult
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.16602)
-- **Authors:** Yasemin Vardar
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Benchmark
-  - Dataset
-  - PPO
-  - Simulation Benchmark
-  - Teleoperation
-
-### Summary
-
-Touch plays a central role in how humans perceive and recognize materials through physical contact. Despite decades of research, the mechanisms by which tactile signals are transformed into meaningful perceptual representations remain poorly understood, limiting the design of interactive systems and intelligent agents with human-like haptic perception.
 
 ---

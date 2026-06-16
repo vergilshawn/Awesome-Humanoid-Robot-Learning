@@ -1,10 +1,10 @@
 # Navigation
 
-**22 papers** in this category.
+**23 papers** in this category.
 
 ## Months
 
-- [2026-06](/navigation/2026-06) (4 papers)
+- [2026-06](/navigation/2026-06) (5 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
 - [2026-01](/navigation/2026-01) (1 papers)
@@ -22,6 +22,23 @@
 ---
 
 ## Recent Papers
+
+## Task-Error Residual Learning for Real-Robot Five-Ball Juggling
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.16978)
+- **Authors:** Kai Ploeger, Jan Peters
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Real Robot
+  - Residual Learning
+  - Navigation
+
+### Summary
+
+For residual learning that refines existing behavior, sample efficiency depends on two things: how much information each rollout returns, and how efficiently the learner uses that information. Reinforcement learning's standard scalar reward carries far less information than the directional task error that defines the task.
+
+---
 
 ## Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids
 
@@ -310,21 +327,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Humanoid
   - Navigation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 **NaVILA**: Legged Robot Vision-Language-Action Model for Navigation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2412.04453)
-- **Project:** [GitHub](https://navila-bot.github.io/)
-- **Published:** 2024-12
-- **Tags:**
-  - Navigation
-  - Vision-Language
 
 ### Summary
 

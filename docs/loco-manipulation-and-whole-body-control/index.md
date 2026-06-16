@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**197 papers** in this category.
+**198 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (18 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (19 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -71,6 +71,21 @@ Floating-base robots must balance under rigid contact constraints while interact
 ### Summary
 
 Socially assistive robots (SARs) are increasingly deployed in educational and information-sharing contexts, supported by advances in large language models that enable fluent real-time interaction. Despite the growing diversity of robot embodiments, it remains unclear whether a single robot appearance is appropriate across different interaction tasks or whether trust depends primarily on contextual factors.
+
+---
+
+## An Empirical Study on Learning Latent Representations for Emotional Speech Synthesis
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.14922)
+- **Authors:** Vinh Dang Quang, Huy Ngo Quang
+- **Published:** 2026-06
+- **Tags:**
+  - Deep Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+For the last couple of years, the field of speech synthesis has improved dramatically thanks to deep learning. There are more and more deep learning-based TTS systems developed to make it possible to produce voices with high intelligibility and naturalness.
 
 ---
 
@@ -406,26 +421,5 @@ Humanoid loco-manipulation requires stable whole-body control under varying obje
 ### Summary
 
 Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have, until now, failed to transfer effectively in humanoid loco-manipulation tasks.
-
----
-
-## HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.00252)
-- **Authors:** Songyang Liu, Shunyu Yao, Dingyuan Huang, Shuai Li
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Imitation Learning
-  - Whole-Body Control
-  - Teleoperation
-  - Humanoid
-  - Vision-Language
-  - Underactuated
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Manipulating suspended payloads with humanoid robots is challenging because the robot can only influence an underactuated, oscillatory load through whole-body motion and intermittent contact. Imitation learning provides safe initial behavior but does not directly optimize final placement, while reinforcement learning from scratch is unsafe and sample-inefficient on real humanoids.
 
 ---

@@ -1,9 +1,10 @@
 # Physics-Based Character Animation
 
-**34 papers** in this category.
+**37 papers** in this category.
 
 ## Months
 
+- [2026-06](/physics-based-character-animation/2026-06) (3 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
 - [2026-04](/physics-based-character-animation/2026-04) (1 papers)
 - [2026-02](/physics-based-character-animation/2026-02) (2 papers)
@@ -33,6 +34,65 @@
 ---
 
 ## Recent Papers
+
+## 🌟 WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.16600)
+- **Project:** [GitHub](https://github.com/pairs-lab/WaveSync)
+- **Authors:** Thang Tran Viet, Thanh Nguyen Canh, Gia Huy Uong, Phuc Van Dinh, Tan Viet Tuyen Nguyen, Xiem HoangVan et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Motion Planning
+  - Large Language Model
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Expressive co-speech gestures are crucial for natural human-robot interaction, but generating them on physical humanoid robots is difficult because gesture strokes must align with speech emphasis while satisfying strict kinematic and dynamic constraints. Unlike virtual avatars, humanoid robots cannot freely execute rapid or overlapping motions, making word-level synchronization and hardware-safe motion planning a coupled problem.
+
+---
+
+## Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.15918)
+- **Authors:** Nestor N. Deniz, Simon Parsons, Fernando Auat Cheein
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Simulator
+  - Humanoid
+  - Actor-Critic
+  - SAC
+  - Physics-Based Character Animation
+  - State Estimation
+
+### Summary
+
+Humanoid robots performing in-field manipulation tasks, such as robotic apple harvesting, face severe energy constraints that directly limit the number of reaching motions that can be executed per battery charge. This paper presents an end-to-end, energy-aware reinforcement learning framework for the 7-degree-of-freedom left arm of the Unitree~G1 humanoid robot, combining a physics-based, experimentally identified electrical power model with a Soft Actor-Critic (SAC) policy trained in a Pinocchio-based rigid-body dynamics simulator.
+
+---
+
+## 🌟 MotionVLA: Vision-Language-Action Model for Humanoid Motion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.15142)
+- **Project:** [GitHub](https://github.com/aigeeksgroup/motionvla)
+- **Authors:** Nonghai Zhang, Siyu Zhai, Yanjun Li, Zeyu Zhang, Zhihan Yin, Yandong Guo et al. (8 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Generating realistic humanoid motion from scene images and text involves both low-frequency pose semantics and high-frequency physical dynamics. However, many existing methods tokenize motion with a single shared codebook, forcing heterogeneous motion signals into the same quantization space.
+
+---
 
 ## Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization
 
@@ -278,51 +338,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Whole-Body Control
   - Manipulation
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 Emergent Active Perception and Dexterity of Simulated Humanoids from Visual Reinforcement Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.12278)
-- **Project:** [GitHub](https://www.zhengyiluo.com/PDC-Site/)
-- **Published:** 2025-05
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## ADD: Physics-Based Motion Imitation with Adversarial Differential Discriminators
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.04961)
-- **Published:** 2025-05
-- **Tags:**
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Zero-Shot Whole-Body Humanoid Control via Behavioral Foundation Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2504.11054)
-- **Published:** 2025-04
-- **Tags:**
-  - Zero-Shot
-  - Humanoid
-  - Foundation Model
   - Physics-Based Character Animation
 
 ### Summary

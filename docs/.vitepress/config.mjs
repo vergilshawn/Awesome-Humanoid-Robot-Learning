@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (197)",
+            "text": "Loco-Manipulation and Whole-Body Control (198)",
             "collapsed": true,
             "items": [
                   {
@@ -166,7 +166,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (63)",
+            "text": "Manipulation (65)",
             "collapsed": true,
             "items": [
                   {
@@ -456,7 +456,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (22)",
+            "text": "Navigation (23)",
             "collapsed": true,
             "items": [
                   {
@@ -522,7 +522,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (17)",
+            "text": "State Estimation (20)",
             "collapsed": true,
             "items": [
                   {
@@ -684,7 +684,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (45)",
+            "text": "Simulation Benchmark (48)",
             "collapsed": true,
             "items": [
                   {
@@ -754,12 +754,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (34)",
+            "text": "Physics-Based Character Animation (37)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/physics-based-character-animation/"
+                  },
+                  {
+                        "text": "2026-06",
+                        "link": "/physics-based-character-animation/2026-06"
                   },
                   {
                         "text": "2026-05",

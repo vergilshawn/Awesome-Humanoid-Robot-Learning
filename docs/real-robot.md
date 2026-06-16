@@ -5,15 +5,81 @@ Papers with real humanoid robot deployment and experiments.
 ## Platforms
 
 - **Digit:** 2 papers
-- **Figure:** 16 papers
+- **Figure:** 17 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 32 papers
+- **Unitree G1:** 34 papers
 - **Unknown Platform:** 5 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.16564)
+- **Authors:** Aristotelis Papatheodorou, Jose Rojas, Ioannis Havoutis, Carlos Mastalli
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - Trajectory Optimization
+  - Optimal Control
+  - Benchmark
+  - PPO
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Robotic systems routinely encounter conflicting objectives, modeling errors, and degenerate contact conditions that render quadratic programs (QPs) infeasible. Yet most optimization solvers and differentiable QP layers assume feasibility, leading to numerical failures, unstable gradients, or solver breakdown when constraints cannot be simultaneously satisfied.
+
+---
+
+## ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.16542)
+- **Authors:** Bofan Lyu, Jindou Jia, Kuangji Zuo, Yanshuo Lu, Shijia Han, Gen Li et al. (10 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Domain Randomization
+  - Robustness
+  - Humanoid
+  - Proprioception
+  - State Estimation
+  - Loco-Manipulation and Whole-Body Control
+  - Sim-to-Real
+
+### Summary
+
+Humanoids deployed in human-centered environments must handle force-interactive tasks, where external contacts introduce unexpected disturbances that disrupt locomotion accuracy and stability. Existing learning-based approaches rely on broad domain randomization, task-specific force objectives, or learning-based force estimators from motion history, each of which compromises accuracy, task transferability, or out-of-distribution (OOD) robustness.
+
+---
+
+## Identification of a Physics-Based Electrical Power Consumption Model for the Unitree G1 Humanoid Arm
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.15915)
+- **Authors:** Nestor N. Deniz, Sebastian Vega, Simon Parsons, Fernando Auat Cheein
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Friction
+  - Motion Planning
+  - Dataset
+  - State Estimation
+  - Hardware Design
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Accurate prediction of electrical power consumption is essential for energy-aware motion planning, battery management, and thermal monitoring in battery-powered humanoid robots. This letter presents a physics-based, linear-in-parameters model for the electrical power consumption of the seven-degree-of-freedom left arm of the Unitree~G1 humanoid robot.
+
+---
 
 ## Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms
 

@@ -1,5 +1,456 @@
 [
   {
+    "arxiv_id": "2606.17011",
+    "title": "ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning",
+    "paper_url": "https://arxiv.org/abs/2606.17011",
+    "project_url": null,
+    "authors": [
+      "Wei Xiao",
+      "Weiliang Tang",
+      "Yuying Ge",
+      "Hui Zhou",
+      "Yao Mu",
+      "Li Zhang",
+      "Yixiao Ge"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-15",
+    "abstract": "Human interventions provide crucial corrective signals for post-training Vision-Language-Action (VLA) models. However, enabling seamless humanoid interventions is a formidable systems challenge due to complex whole-body kinematics and dexterous-hand control. Consequently, the collected intervention trajectories are often suboptimal, and methods that rely on human interventions as expert supervision can absorb hesitant, inefficient, or even erroneous behaviors. To address both the system and algorithmic challenges, we propose ROVE, a reinforcement learning framework for humanoid VLA post-training with imperfect human interventions. First, ROVE introduces a human-in-the-loop pipeline capable of collecting deployment and intervention data for humanoid manipulation. Second, it utilizes Optimistic Value Estimation (OVE) to prioritize high-value behaviors from mixed-quality trajectories. To further robustify value estimation, we incorporate cross-embodiment human experience videos to provide rich supervision for long-tailed failure and recovery modes. The resulting critic yields informative advantage signals, steering the VLA actor to focus on high-value behaviors rather than indiscriminately imitating all actions. On challenging real-world contact-rich and fine-grained humanoid manipulation tasks, ROVE outperforms experience-learning baselines and consistently improves across multiple rollout-intervention iterations.",
+    "categories": [
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.16978",
+    "title": "Task-Error Residual Learning for Real-Robot Five-Ball Juggling",
+    "paper_url": "https://arxiv.org/abs/2606.16978",
+    "project_url": null,
+    "authors": [
+      "Kai Ploeger",
+      "Jan Peters"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-15",
+    "abstract": "For residual learning that refines existing behavior, sample efficiency depends on two things: how much information each rollout returns, and how efficiently the learner uses that information. Reinforcement learning's standard scalar reward carries far less information than the directional task error that defines the task. Random exploration further discards whatever information each rollout returns. Through residual learning with directional task-error supervision and a task error model that drives sample selection, we achieve stable three-, four-, and five-ball juggling on anthropomorphic Barrett WAM arms. Despite planning and controlling through a simple, idealized stack, the system converges from the second attempt. The first attempt drops, after which task error decreases monotonically without further failures. In comparison, five-ball juggling typically takes humans years of practice. We compare residual learners across two ternary axes, the directional information in the learning feedback and the commitment of the analytic prior, spanning Newton-style Jacobian updates, Composite Bayesian Optimization, and stochastic search methods. Both axes prove necessary: neither directional feedback nor an informative prior suffices alone, and the simplest method that combines them, a fixed-Jacobian Newton update, is the most reliable. The learned residual tolerates substantial prior misalignment and degraded joint tracking, affecting mainly convergence speed. The bottleneck for residual learning on real robots is therefore the information content of the supervision signal and how the learner uses it, not the accuracy of the surrounding stack. Video documentation of all experiments is available at https://kai-ploeger.com/residual-juggling.",
+    "categories": [
+      "Navigation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Real Robot",
+      "Residual Learning",
+      "Navigation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2606.16696",
+    "title": "VENOM: Versatile Embodied Network for Omni-bodied Motion tracking",
+    "paper_url": "https://arxiv.org/abs/2606.16696",
+    "project_url": null,
+    "authors": [
+      "Siddharth Padmanabhan",
+      "Kazuki Miyazawa",
+      "Takato Horii"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-15",
+    "abstract": "Achieving expert-level expressive full-body motion tracking across multiple humanoids solely from demonstration data remains a challenging and relatively an underexplored problem in humanoid robot learning. Cross-embodiment motion tracking policies are mostly trained by decoupling the control problem into upper and lower body control. This work proposes VENOM, a cross-embodiment full-body motion tracking model for humanoids in simulation. VENOM is a GPT-based motion tracker trained on multiple humanoid data that can track the entire body without the requirement to split into upper and lower body control. We curate a multi-humanoid motion tracking dataset called the VENOM dataset that contains states, actions, and rewards and train VENOM and the baselines on this dataset. In this letter, we evaluate VENOM's performance against baselines and show that we can achieve a stable motion tracker across different humanoids more capable than an MLP trained on multiple humanoid data with supervised learning alone, and also show that despite lack of reward feedback, VENOM closely matches the tracking capability of experts that were trained using asymmetric-actor critic reinforcement learning.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Dataset",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.16600",
+    "title": "WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2606.16600",
+    "project_url": "https://github.com/pairs-lab/WaveSync",
+    "authors": [
+      "Thang Tran Viet",
+      "Thanh Nguyen Canh",
+      "Gia Huy Uong",
+      "Phuc Van Dinh",
+      "Tan Viet Tuyen Nguyen",
+      "Xiem HoangVan",
+      "Nak Young Chong"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-15",
+    "abstract": "Expressive co-speech gestures are crucial for natural human-robot interaction, but generating them on physical humanoid robots is difficult because gesture strokes must align with speech emphasis while satisfying strict kinematic and dynamic constraints. Unlike virtual avatars, humanoid robots cannot freely execute rapid or overlapping motions, making word-level synchronization and hardware-safe motion planning a coupled problem. We present \\textbf{WaveSync}, a hybrid framework in which a Large Language Model decomposes dialogue responses into structured semantic schemas and assigns per-word importance weights, constructing a continuous Semantic Importance Wave. Gesture trajectories are shaped through Dynamic Movement Primitives, enforcing kinematic feasibility while enhancing expressiveness. A Wavefront Optimization stage aligns peak-to-peak gesture-speech synchronization and resolves residual kinematic violations through gesture-duration compression and forward propagation. Experimental evaluation based on five dialogue scenarios shows that our method achieves high synchronization accuracy and outperforms three baselines in both objective and subjective evaluations. Each component in WaveSync plays a necessary role in producing gestures that are expressive, semantically grounded, and kinematically compliant. The code, resources, and videos are available at \\href{https://github.com/pairs-lab/WaveSync}{WaveSync}",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Humanoid",
+      "Motion Planning",
+      "Large Language Model",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2606.16564",
+    "title": "Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics",
+    "paper_url": "https://arxiv.org/abs/2606.16564",
+    "project_url": null,
+    "authors": [
+      "Aristotelis Papatheodorou",
+      "Jose Rojas",
+      "Ioannis Havoutis",
+      "Carlos Mastalli"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-15",
+    "abstract": "Robotic systems routinely encounter conflicting objectives, modeling errors, and degenerate contact conditions that render quadratic programs (QPs) infeasible. Yet most optimization solvers and differentiable QP layers assume feasibility, leading to numerical failures, unstable gradients, or solver breakdown when constraints cannot be simultaneously satisfied. We present Elastic ODYN, a primal--dual non-interior-point QP solver that handles infeasibility through smooth squared-$\\ell_2$ elastic relaxations. The resulting formulation remains well posed under ill-conditioning and degeneracy, supports warm starting, and converges to closest-to-feasible solutions when no feasible point exists. A lightweight refinement stage recovers physically meaningful dual variables from the elastic solution. Building on this framework, we develop Elastic OdynLayer, a differentiable QP layer with stable gradients under infeasibility, and Elastic OdynSQP, an infeasibility-aware SQP method that resolves inconsistent subproblems and intrinsically infeasible optimal control tasks through selective constraint relaxation. We evaluate the framework on benchmark QPs, singular contact mechanics, differentiable parameter identification, and quadrupedal and humanoid trajectory optimization. Across all settings, Elastic ODYN consistently outperforms state-of-the-art elastic QP solvers in robustness, warm-start performance, and convergence reliability, enabling optimization, simulation, control, and learning beyond the feasibility assumptions of existing methods.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Robustness",
+      "Humanoid",
+      "Trajectory Optimization",
+      "Optimal Control",
+      "Benchmark",
+      "PPO",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.16542",
+    "title": "ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2606.16542",
+    "project_url": null,
+    "authors": [
+      "Bofan Lyu",
+      "Jindou Jia",
+      "Kuangji Zuo",
+      "Yanshuo Lu",
+      "Shijia Han",
+      "Gen Li",
+      "Boyu Ma",
+      "Jingliang Li",
+      "Geng Li",
+      "Jianfei Yang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-15",
+    "abstract": "Humanoids deployed in human-centered environments must handle force-interactive tasks, where external contacts introduce unexpected disturbances that disrupt locomotion accuracy and stability. Existing learning-based approaches rely on broad domain randomization, task-specific force objectives, or learning-based force estimators from motion history, each of which compromises accuracy, task transferability, or out-of-distribution (OOD) robustness. We present Analytical Disturbance-Aware Policy Training (ADAPT), a framework that equips humanoid policies with a physically grounded disturbance observer. The core of ADAPT is an analytical whole-body disturbance observer that estimates residual force/torque online with the accessible robot dynamics, without requiring force/torque sensors. Fed directly into the policy, the estimated disturbances give the humanoid an explicit, physics-derived sense of external force/torque that can generalize across diverse unseen scenes. Experiments on a Unitree G1 humanoid show that ADAPT achieves accurate disturbance prediction and stronger robustness than a proprioception-only baseline under torso perturbations, standing pushes, and asymmetric hand payloads, with improved velocity tracking even on OOD disturbances. Moreover, ADAPT enables penalizing inferred disturbances at lower-body joints to encourage lighter locomotion.",
+    "categories": [
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Sim-to-Real"
+    ],
+    "tags": [
+      "Locomotion",
+      "Domain Randomization",
+      "Robustness",
+      "Humanoid",
+      "Proprioception",
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Sim-to-Real"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2606.16436",
+    "title": "V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos",
+    "paper_url": "https://arxiv.org/abs/2606.16436",
+    "project_url": null,
+    "authors": [
+      "Kaihan Chen",
+      "Yanming Shao",
+      "Haifeng Ji",
+      "Xiaokang Yang",
+      "Yao Mu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-15",
+    "abstract": "Achieving autonomous robotic dexterous manipulation requires precise, human-like action sequences at scale. As a scalable supplement to costly teleoperation data, extracting trajectories with both visual fidelity and physical plausibility from monocular videos represents a promising frontier in embodied AI. To this end, we introduce V2P-Manip, an efficient framework designed to learn dexterous manipulation policies directly from human demonstration videos. We establish an efficient, integrated pipeline encompassing 3D asset acquisition, trajectory estimation, and dexterous policy learning. To bridge the gap between visual perception and physical constraints, we introduce a two-stage refinement process to enforce spatial alignment and physical consistency. Evaluations on the TACO and OakInk benchmarks demonstrate that our approach significantly outperforms previous methods in pose accuracy, adaptability to unstructured environments, and training efficiency. Ultimately, experimental results confirm an average success rate of over 75% across multiple synthetic manipulation tasks and validate the adaptability of the extracted manipulation priors across diverse dexterous hand embodiments.",
+    "categories": [
+      "Manipulation",
+      "Teleoperation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Human Demonstration",
+      "Embodied AI",
+      "Benchmark",
+      "Policy Learning",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.16022",
+    "title": "$λ$-Reachability: Geometric-Horizon Safety Bellman Equations for Humanoid Safety",
+    "paper_url": "https://arxiv.org/abs/2606.16022",
+    "project_url": null,
+    "authors": [
+      "Rui Chen",
+      "Shangtao Li",
+      "Yifan Sun",
+      "Changliu Liu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-14",
+    "abstract": "We introduce $λ$-Reachability, a scalable approach to Hamilton--Jacobi safety analysis for high-dimensional robotic systems. Unlike prior discounted formulations that rely on fixed one-step Bellman updates, $λ$-Reachability employs a stochastic multi-step estimator of the safety value, using a geometrically distributed rollout horizon together with a randomly absorbed terminal. Conceptually analogous to TD($λ$), $λ$-Reachability interpolates between local self-consistency updates and long-horizon max-over-trajectory safety targets via an interpretable horizon-control parameter. Unlike TD($λ$), where the terminal value is always incorporated in learning targets, the terminal safety value in $λ$-Reachability is only used at a probability controlled by parameter $δ$. We formally show that for $δ<1$, the update induces a contraction mapping that allows temporal-difference learning; as $λ\\to 1$, the estimator recovers the undiscounted reachability objective. We apply $λ$-Reachability to high-dimensional safety learning problems with both simulated and real humanoid robots under balance and collision avoidance constraints. Experimental results demonstrate that $λ$-Reachability significantly improves both safe-set boundary classification and safety margin estimation compared to single-step temporal-difference baselines.",
+    "categories": [
+      "State Estimation",
+      "Navigation"
+    ],
+    "tags": [
+      "Safety",
+      "Humanoid",
+      "Collision",
+      "State Estimation",
+      "Navigation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2606.15918",
+    "title": "Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models",
+    "paper_url": "https://arxiv.org/abs/2606.15918",
+    "project_url": null,
+    "authors": [
+      "Nestor N. Deniz",
+      "Simon Parsons",
+      "Fernando Auat Cheein"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-14",
+    "abstract": "Humanoid robots performing in-field manipulation tasks, such as robotic apple harvesting, face severe energy constraints that directly limit the number of reaching motions that can be executed per battery charge. This paper presents an end-to-end, energy-aware reinforcement learning framework for the 7-degree-of-freedom left arm of the Unitree~G1 humanoid robot, combining a physics-based, experimentally identified electrical power model with a Soft Actor-Critic (SAC) policy trained in a Pinocchio-based rigid-body dynamics simulator. The RL policy operates on an incremental joint-position action space and is trained with a Hybrid Constellation Reward that combines a four-point end-effector constellation distance with a torque-norm energy proxy; after % $5\\times10^6$ training it reaches a $69.9\\%$ success rate over $1\\,000$ random targets in kinematic simulation, at a mean energy of \\SI{98.16}{\\joule} on successful episodes. Finally, on the physical Unitree~G1, the policy is validated over three independent 10-target batches, achieving a mean energy of $71.5 \\pm 48.3$\\,J, an end-effector position error of $2.64 \\pm 1.04$\\,cm, and an orientation error of $6.92 \\pm 1.33^\\circ$ -- within the \\SI{4}{\\centi\\metre}/$8.6^\\circ$ training tolerance. These results constitute a first step toward energy-aware reinforcement-learning-based arm reaching for humanoid robots.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "Simulator",
+      "Humanoid",
+      "Actor-Critic",
+      "SAC",
+      "Physics-Based Character Animation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2606.15915",
+    "title": "Identification of a Physics-Based Electrical Power Consumption Model for the Unitree G1 Humanoid Arm",
+    "paper_url": "https://arxiv.org/abs/2606.15915",
+    "project_url": null,
+    "authors": [
+      "Nestor N. Deniz",
+      "Sebastian Vega",
+      "Simon Parsons",
+      "Fernando Auat Cheein"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-14",
+    "abstract": "Accurate prediction of electrical power consumption is essential for energy-aware motion planning, battery management, and thermal monitoring in battery-powered humanoid robots. This letter presents a physics-based, linear-in-parameters model for the electrical power consumption of the seven-degree-of-freedom left arm of the Unitree~G1 humanoid robot. The proposed formulation combines actuator loss terms with a baseline-torque correction that captures changes in gravity-compensation load and enables accurate prediction of negative net power trajectories. Pairwise interaction terms are introduced to model power coupling during simultaneous multi-joint motion. Model parameters are identified from experimental data collected on a physical Unitree~G1 using onboard power measurements as the regression target. Across 897 trajectories covering single-joint and coordinated arm motions at multiple speed levels, the identified model achieves $R^2 = 0.933$ with an RMSE of 1.07 (W). Validation on 46 trajectories executed at previously unseen speeds yields $R^2 = 0.965$, demonstrating strong generalisation beyond the identification dataset. Analysis of the identified parameters reveals distinct power-consumption characteristics across the arm, with viscous friction dominating most joints (shoulder pitch and all three wrist joints), copper losses dominating shoulder yaw and the elbow, and shoulder roll uniquely dominated by Coulomb friction.",
+    "categories": [
+      "State Estimation",
+      "Hardware Design",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Friction",
+      "Motion Planning",
+      "Dataset",
+      "State Estimation",
+      "Hardware Design",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2606.15142",
+    "title": "MotionVLA: Vision-Language-Action Model for Humanoid Motion",
+    "paper_url": "https://arxiv.org/abs/2606.15142",
+    "project_url": "https://github.com/aigeeksgroup/motionvla",
+    "authors": [
+      "Nonghai Zhang",
+      "Siyu Zhai",
+      "Yanjun Li",
+      "Zeyu Zhang",
+      "Zhihan Yin",
+      "Yandong Guo",
+      "Boxin Shi",
+      "Hao Tang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-13",
+    "abstract": "Generating realistic humanoid motion from scene images and text involves both low-frequency pose semantics and high-frequency physical dynamics. However, many existing methods tokenize motion with a single shared codebook, forcing heterogeneous motion signals into the same quantization space. Our frequency-domain analysis of human motion data reveals a clear mismatch between single-codebook quantization and motion statistics: five DCT coefficients capture 93% of joint-position energy but only 37% of joint-velocity energy, which can bias quantization toward pose statistics and under-represent high-frequency velocity components. A second challenge lies in adapting a standard autoregressive model to effectively model high-frequency physical signals in motion sequences. Therefore, we propose DSFT, a dual-stream frequency tokenizer that separates motion into Base and physical streams and compresses them independently with DCT truncation and BPE. Furthermore, we present MotionVLA, a Qwen3.5-based model that arranges Base and physical tokens in a unified sequence, where Phys tokens are predicted after Base tokens. Experiments on HumanML3D and MBench show that, despite using a lightweight 2B backbone, MotionVLA reduces the Diversity gap to real data by over 50% on HumanML3D and improves Motion-Condition Consistency by 3.8% on MBench, supporting frequency-aware dual-stream decoupling as an effective formulation for autoregressive motion generation. Code: https://github.com/AIGeeksGroup/MotionVLA. Website: https://aigeeksgroup.github.io/MotionVLA.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Humanoid",
+      "Vision-Language",
+      "PPO",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2606.15133",
+    "title": "DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects",
+    "paper_url": "https://arxiv.org/abs/2606.15133",
+    "project_url": "https://github.com/AIGeeksGroup/DragMesh-2",
+    "authors": [
+      "Tianshan Zhang",
+      "Yijia Duan",
+      "Yanjun Li",
+      "Zeyu Zhang",
+      "Hao Tang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-13",
+    "abstract": "Dexterous interaction with articulated objects is important for household, assistive, and humanoid manipulation, where multi-finger hands can provide compliant contact patterns beyond parallel-jaw grasping. However, articulated-object manipulation differs from static-object manipulation: the target part cannot be directly actuated, and its motion must emerge through sustained physical hand--handle contact. This makes the transition from object-centric articulated generation to hand-driven dexterous hand--object interaction non-trivial, since geometric trajectory replay or open-loop execution does not model the contact dynamics required to move the articulated part. Moreover, policies trained only for task completion under fixed dynamics can overfit nominal contact loads, especially without tactile or force feedback, and may degrade when the contact load changes. To address these challenges, we present DragMesh-2, a contact-driven framework for dexterous interaction with articulated objects that extends articulated interaction from object-centric generation to hand-driven dexterous hand--object interaction, where articulated motion must arise through physical contact. We further propose PICA, a physically informed contact-aware training mechanism that injects physical signals into policy learning without tactile or force feedback, improving robustness and task success under changing contact loads. Finally, we conduct systematic evaluation across multiple damping conditions and articulated-object categories to study robustness under contact-load variation, and provide a pure-geometry dexterous interaction resource to support future loco-manipulation and humanoid hand--object interaction research. Across seven GAPartNet objects, DragMesh-2 achieves stronger robustness under contact-load variation than the compared methods while maintaining high task success across damping conditions.",
+    "categories": [
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Manipulation",
+      "Robustness",
+      "Humanoid",
+      "Contact Dynamics",
+      "Policy Learning",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.15260",
+    "title": "Trust-Region Diffusion Policies for Massively Parallel On-Policy RL",
+    "paper_url": "https://arxiv.org/abs/2606.15260",
+    "project_url": null,
+    "authors": [
+      "Huy Le",
+      "Onur Celik",
+      "Denis Blessing",
+      "Tai Hoang",
+      "Claas A Voelcker",
+      "Axel Brunnbauer",
+      "Felix Richter",
+      "Michael Volpp",
+      "Gerhard Neumann"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-13",
+    "abstract": "Reinforcement learning with massively parallel simulations has become a standard framework for developing robust, deployable policies; however, most existing approaches still rely on simple Gaussian policy parameterizations. Diffusion models provide a more expressive policy class and have shown strong performance on challenging control problems, yet most diffusion-based RL methods are designed for offline or off-policy training. In this work, we ask whether diffusion policies can be trained effectively in the massively parallel, on-policy regime. To this end, we introduce Trust-region Diffusion Policies (TruDi), which enables diffusion policies for on-policy RL with massively parallel simulations. This setting is particularly challenging because the data distribution changes quickly across updates, making stable training with complex policies difficult. TruDi addresses this by integrating a trust-region optimization rule to enforce a KL-divergence constraint over the entire diffusion trajectory. Empirically, we evaluate TruDi on a diverse set of 4 massively parallel RL benchmarks comprising a total of 73 tasks. Across these tasks, TruDi consistently outperforms or is on-par with strong baselines on standard tasks and achieves clear gains on more challenging humanoid control tasks, establishing a strong new baseline for massively parallel on-policy RL.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Benchmark",
+      "Diffusion",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
     "arxiv_id": "2606.14617",
     "title": "Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms",
     "paper_url": "https://arxiv.org/abs/2606.14617",
@@ -168,6 +619,31 @@
     "primary_category": "Manipulation"
   },
   {
+    "arxiv_id": "2606.14922",
+    "title": "An Empirical Study on Learning Latent Representations for Emotional Speech Synthesis",
+    "paper_url": "https://arxiv.org/abs/2606.14922",
+    "project_url": null,
+    "authors": [
+      "Vinh Dang Quang",
+      "Huy Ngo Quang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-12",
+    "abstract": "For the last couple of years, the field of speech synthesis has improved dramatically thanks to deep learning. There are more and more deep learning-based TTS systems developed to make it possible to produce voices with high intelligibility and naturalness. Meanwhile, controlling the expressiveness is yet a big deal, generating speech in different styles or manners has received a lot of attention from community recently. This paper aims to give our solutions to deal with the task emotional speech synthesis (ESS) at VLSP 2022 which allows to generate humanlike natural-sounding voice from a given input text with desired emotional expression. By integrating speaker embedding, prosody bottleneck into FastSpeech 2, our systems can promisingly generate emotional speech of a single speaker (Sub-task 1), transfer speaking styles from another speaker to the target speaker with neutral non-expressive data while retaining the target speaker's identity (Sub-task 2).",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Deep Learning",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2606.14512",
     "title": "Fodor and Pylyshyn's Systematicity Challenge Still Stands",
     "paper_url": "https://arxiv.org/abs/2606.14512",
@@ -190,40 +666,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2606.14344",
-    "title": "More with LESS -- Local Scene Representations for Tactile Imaging",
-    "paper_url": "https://arxiv.org/abs/2606.14344",
-    "project_url": null,
-    "authors": [
-      "Zohar Rimon",
-      "Elisei Shafer",
-      "Tal Tepper",
-      "Daniel Kozin",
-      "Alon Malka",
-      "Roy Holland",
-      "Aviv Tamar"
-    ],
-    "published": "2026-06",
-    "published_date": "2026-06-12",
-    "abstract": "Tactile imaging seeks to reconstruct the internal structure of soft objects through touch sensing, with applications in medical diagnosis and robotic manipulation. Recent self-supervised learning approaches have shown promising results, but rely on global, unstructured representations and robot-controlled sensing, limiting generalization and practical use. We propose Local Encoder for Spatial Sensing (LESS), an object-centric tactile representation that exploits the local nature of touch. The tactile scene is modeled as a grid of recurrent encoders with local receptive fields, whose states are fused to reconstruct 2D or 3D images of internal structure. This compositional design enables strong generalization: models trained on single-inclusion phantoms accurately image objects with multiple inclusions and varying sizes. The local structure further supports spatial uncertainty estimation. In addition, we enable hand-held tactile imaging via external pose tracking and human-like palpation data, and extend tactile imaging to full 3D reconstruction.",
-    "categories": [
-      "Manipulation",
-      "State Estimation"
-    ],
-    "tags": [
-      "Manipulation",
-      "3D Reconstruction",
-      "PPO",
-      "Self-Supervised",
-      "State Estimation"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Manipulation"
   },
   {
     "arxiv_id": "2606.13232",
@@ -810,6 +1252,31 @@
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
+    "arxiv_id": "2606.10113",
+    "title": "Emotion Profiling in LLM-Based Literary Translation: Systematic Shifts Across MT and Post-Editing",
+    "paper_url": "https://arxiv.org/abs/2606.10113",
+    "project_url": null,
+    "authors": [
+      "Antonio Castaldo",
+      "Johanna Monti",
+      "Sheila Castilho"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-08",
+    "abstract": "This paper investigates whether LLM translations exhibit identifiable emotional profiles and how post-editing reshapes them toward human-like norms. We compare LLM translations of Margaret Atwood's Oryx and Crake with their post-edited versions and a human translation, using a large-scale corpus of contemporary Italian science-fiction as a baseline. We examine emotion through lexicon-based and multilingual modeling, conducting a fine-grained analysis of emotional variation across systems. We find that MT systems introduce model-specific and statistically significant emotional fingerprints across translations, leading to a limited preservation of an author's voice.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2606.08922",
     "title": "PTDL:Multi-Terrain Fall Recovery via Phase-Terrain Decoupled Learning",
     "paper_url": "https://arxiv.org/abs/2606.08922",
@@ -842,31 +1309,6 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Locomotion"
-  },
-  {
-    "arxiv_id": "2606.10113",
-    "title": "Emotion Profiling in LLM-Based Literary Translation: Systematic Shifts Across MT and Post-Editing",
-    "paper_url": "https://arxiv.org/abs/2606.10113",
-    "project_url": null,
-    "authors": [
-      "Antonio Castaldo",
-      "Johanna Monti",
-      "Sheila Castilho"
-    ],
-    "published": "2026-06",
-    "published_date": "2026-06-08",
-    "abstract": "This paper investigates whether LLM translations exhibit identifiable emotional profiles and how post-editing reshapes them toward human-like norms. We compare LLM translations of Margaret Atwood's Oryx and Crake with their post-edited versions and a human translation, using a large-scale corpus of contemporary Italian science-fiction as a baseline. We examine emotion through lexicon-based and multilingual modeling, conducting a fine-grained analysis of emotional variation across systems. We find that MT systems introduce model-specific and statistically significant emotional fingerprints across translations, leading to a limited preservation of an author's voice.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "tags": [
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
     "arxiv_id": "2606.09741",

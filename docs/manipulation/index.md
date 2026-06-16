@@ -1,10 +1,10 @@
 # Manipulation
 
-**63 papers** in this category.
+**65 papers** in this category.
 
 ## Months
 
-- [2026-06](/manipulation/2026-06) (8 papers)
+- [2026-06](/manipulation/2026-06) (10 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -31,6 +31,68 @@
 ---
 
 ## Recent Papers
+
+## ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.17011)
+- **Authors:** Wei Xiao, Weiliang Tang, Yuying Ge, Hui Zhou, Yao Mu, Li Zhang et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Human interventions provide crucial corrective signals for post-training Vision-Language-Action (VLA) models. However, enabling seamless humanoid interventions is a formidable systems challenge due to complex whole-body kinematics and dexterous-hand control.
+
+---
+
+## V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.16436)
+- **Authors:** Kaihan Chen, Yanming Shao, Haifeng Ji, Xiaokang Yang, Yao Mu
+- **Published:** 2026-06
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Human Demonstration
+  - Embodied AI
+  - Benchmark
+  - Policy Learning
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Achieving autonomous robotic dexterous manipulation requires precise, human-like action sequences at scale. As a scalable supplement to costly teleoperation data, extracting trajectories with both visual fidelity and physical plausibility from monocular videos represents a promising frontier in embodied AI.
+
+---
+
+## 🌟 DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.15133)
+- **Project:** [GitHub](https://github.com/AIGeeksGroup/DragMesh-2)
+- **Authors:** Tianshan Zhang, Yijia Duan, Yanjun Li, Zeyu Zhang, Hao Tang
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Contact Dynamics
+  - Policy Learning
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Dexterous interaction with articulated objects is important for household, assistive, and humanoid manipulation, where multi-finger hands can provide compliant contact patterns beyond parallel-jaw grasping. However, articulated-object manipulation differs from static-object manipulation: the target part cannot be directly actuated, and its motion must emerge through sustained physical hand--handle contact.
+
+---
 
 ## ORCA: A Platform for Open-Source Dexterity Research
 
@@ -63,24 +125,6 @@ Robotics manipulation research increasingly focuses on two-finger parallel gripp
 ### Summary
 
 Designing anthropomorphic robotic hands that balance functional dexterity with mechanical simplicity remains a significant challenge. Inspired by human hand synergies, this paper presents the SyLink Hand, an anthropomorphic dexterous hand that integrates biomechanical synergy principles with linkage-driven transmission mechanisms to achieve a high degree of anthropomorphism in appearance, kinematics, and functionality within a compact and cost-effective architecture.
-
----
-
-## More with LESS -- Local Scene Representations for Tactile Imaging
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.14344)
-- **Authors:** Zohar Rimon, Elisei Shafer, Tal Tepper, Daniel Kozin, Alon Malka, Roy Holland et al. (7 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - 3D Reconstruction
-  - PPO
-  - Self-Supervised
-  - State Estimation
-
-### Summary
-
-Tactile imaging seeks to reconstruct the internal structure of soft objects through touch sensing, with applications in medical diagnosis and robotic manipulation. Recent self-supervised learning approaches have shown promising results, but rely on global, unstructured representations and robot-controlled sensing, limiting generalization and practical use.
 
 ---
 
@@ -329,33 +373,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Humanoid
   - Impedance Control
   - Vision-Language
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Generalizable Geometric Prior and Recurrent Spiking Feature Learning for Humanoid Robot Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.09031)
-- **Published:** 2026-01
-- **Tags:**
-  - Manipulation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## DexterCap: An Affordable and Automated System for Capturing Dexterous Hand-Object Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.05844)
-- **Published:** 2026-01
-- **Tags:**
-  - Manipulation
 
 ### Summary
 
