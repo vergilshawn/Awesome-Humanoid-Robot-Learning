@@ -5,7 +5,7 @@ Papers with real humanoid robot deployment and experiments.
 ## Platforms
 
 - **Digit:** 2 papers
-- **Figure:** 17 papers
+- **Figure:** 18 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 34 papers
 - **Unknown Platform:** 5 papers
@@ -14,6 +14,28 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.17833)
+- **Authors:** Taowen Wang, Zikang Xie, Bin Yang, Yunheng Wang, Zizhao Yuan, Yuetong Fang et al. (16 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Proprioception
+  - Benchmark
+  - Policy Learning
+  - State Estimation
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Humanoid robots promise whole-body interaction in human-centered environments, but scalable policy learning remains difficult because task-level decision-making and whole-body dynamic execution are tightly coupled. A practical solution is hierarchical control, where a high-level policy predicts intermediate whole-body actions and low-level general motion trackers (GMTs) execute them as stable humanoid motion.
+
+---
 
 ## Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics
 

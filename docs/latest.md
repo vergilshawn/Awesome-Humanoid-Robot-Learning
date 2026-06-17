@@ -2,6 +2,64 @@
 
 All papers sorted by publication date (newest first).
 
+## HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.17833)
+- **Authors:** Taowen Wang, Zikang Xie, Bin Yang, Yunheng Wang, Zizhao Yuan, Yuetong Fang et al. (16 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Proprioception
+  - Benchmark
+  - Policy Learning
+  - State Estimation
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Humanoid robots promise whole-body interaction in human-centered environments, but scalable policy learning remains difficult because task-level decision-making and whole-body dynamic execution are tightly coupled. A practical solution is hierarchical control, where a high-level policy predicts intermediate whole-body actions and low-level general motion trackers (GMTs) execute them as stable humanoid motion.
+
+---
+
+## DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.17418)
+- **Authors:** Hao Wu, Yanzhe Wang, Yu Feng, Jian Liu, Jihao Li, Jianshu Zhou et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - PPO
+  - State Estimation
+  - Hardware Design
+
+### Summary
+
+Dexterous robotic hands face a longstanding trade-off among dexterity, compactness, and affordability. Particularly, high-degree-of-freedom designs typically demand complex actuation and transmission, hindering integration into human-scale forms.
+
+---
+
+## DeepInsight: A Unified Evaluation Infrastructure Across the Physical AI Stack
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.17574)
+- **Authors:** Siyi Li, Chunyu Sun, Jiahao Zhang, Yuchen Kang, Wuliang Wang, Yu Qiu et al. (9 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Evaluating a Physical AI stack spans operators that differ by more than three orders of magnitude -- from a single foundation-model decoding step to thousands of physics ticks of whole-body control -- varying orthogonally in modality, reward semantics, and resource profile. No existing framework spans this range, so the stack is evaluated today by stitching together separate harnesses that share neither runtime nor scoring, preserving each segment's local validity but losing the shared identity needed to diagnose cross-layer regressions.
+
+---
+
 ## ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.17011)

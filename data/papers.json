@@ -1,5 +1,125 @@
 [
   {
+    "arxiv_id": "2606.17833",
+    "title": "HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning",
+    "paper_url": "https://arxiv.org/abs/2606.17833",
+    "project_url": null,
+    "authors": [
+      "Taowen Wang",
+      "Zikang Xie",
+      "Bin Yang",
+      "Yunheng Wang",
+      "Zizhao Yuan",
+      "Yuetong Fang",
+      "Yixiao Feng",
+      "Yichi Wang",
+      "Xingyu Chen",
+      "Haodong Chen",
+      "Qiwei Wu",
+      "Weisheng Xu",
+      "Lihan Chen",
+      "Lusong Li",
+      "Zecui Zeng",
+      "Renjing Xu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-16",
+    "abstract": "Humanoid robots promise whole-body interaction in human-centered environments, but scalable policy learning remains difficult because task-level decision-making and whole-body dynamic execution are tightly coupled. A practical solution is hierarchical control, where a high-level policy predicts intermediate whole-body actions and low-level general motion trackers (GMTs) execute them as stable humanoid motion. However, existing benchmarks rarely evaluate the policy-tracker interface itself, leaving open whether intermediate whole-body actions are executable, robust under task distribution shifts, and transferable across different GMT backends. We introduce HumanoidArena, a simulation-first benchmark for egocentric hierarchical whole-body learning. The benchmark formulates policy learning as a hierarchical decision making problem: a high-level policy converts egocentric vision, proprioception, and instructions into a compact whole-body action, which is subsequently executed by a low-level GMT. Instead of treating the legs as planar transport tools, HumanoidArena emphasizes interactions where lower-body coordination is structurally necessary in task completion. We therefore design 7 leg-critical HOI/HSI tasks in which success requires foot placement, balance maintenance, posture adjustment, and whole-body reorientation. To further diagnose the hierarchical system, we evaluate policies from two complementary perspectives: perturbation-conditioned generalization and GMT-conditioned transfer. Experiments show that hierarchical control enables learned policies to solve diverse leg-critical interactions, but performance is strongly tracker-conditioned and cross-GMT transfer remains fragile. These results position HumanoidArena as a benchmark for studying transferable intermediate action representations and scalable egocentric whole-body policy learning.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Proprioception",
+      "Benchmark",
+      "Policy Learning",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2606.17418",
+    "title": "DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity",
+    "paper_url": "https://arxiv.org/abs/2606.17418",
+    "project_url": null,
+    "authors": [
+      "Hao Wu",
+      "Yanzhe Wang",
+      "Yu Feng",
+      "Jian Liu",
+      "Jihao Li",
+      "Jianshu Zhou",
+      "Huixu Dong"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-16",
+    "abstract": "Dexterous robotic hands face a longstanding trade-off among dexterity, compactness, and affordability. Particularly, high-degree-of-freedom designs typically demand complex actuation and transmission, hindering integration into human-scale forms. To address these challenges, this work presents a compact, low-cost linkage-driven anthropomorphic hand that achieves high dexterity, structural integration, and human-hand-like functionality. The hand integrates 20 joints driven by 16 independent actuators, with all actuation, sensing, and transmission components compactly embedded within a human-hand-sized structure. The resulting prototype weighs only 320g at a total cost below USD 400. To meet these objectives, a hybrid mechanical architecture combining planar and spatial linkage mechanisms is proposed, enabling decoupled multidirectional motion, biomimetic joint synergies, and high passive load-bearing capability. The thumb further incorporates biomimetic features supporting human-like reconfiguration and opposition movements. Through the coordinated integration of these mechanisms and structural layout, the prototype achieves a highly integrated design with anthropomorphic dexterity. Experimental evaluations demonstrate that the hand achieves the maximum Kapandji score, reproduces all 33 Feix grasp types, and performs stable grasping and dexterous manipulation across a wide variety of daily objects and tools. These results validate the proposed hand as an affordable, compact, and mechanically efficient platform for dexterous manipulation, teleoperation, and robot learning in human-centered environments.",
+    "categories": [
+      "Manipulation",
+      "Teleoperation",
+      "State Estimation",
+      "Hardware Design"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "PPO",
+      "State Estimation",
+      "Hardware Design"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.17574",
+    "title": "DeepInsight: A Unified Evaluation Infrastructure Across the Physical AI Stack",
+    "paper_url": "https://arxiv.org/abs/2606.17574",
+    "project_url": null,
+    "authors": [
+      "Siyi Li",
+      "Chunyu Sun",
+      "Jiahao Zhang",
+      "Yuchen Kang",
+      "Wuliang Wang",
+      "Yu Qiu",
+      "Rui Jiang",
+      "Haitao Cui",
+      "Jie Chen"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-16",
+    "abstract": "Evaluating a Physical AI stack spans operators that differ by more than three orders of magnitude -- from a single foundation-model decoding step to thousands of physics ticks of whole-body control -- varying orthogonally in modality, reward semantics, and resource profile. No existing framework spans this range, so the stack is evaluated today by stitching together separate harnesses that share neither runtime nor scoring, preserving each segment's local validity but losing the shared identity needed to diagnose cross-layer regressions. We present DeepInsight, an evaluation infrastructure that serves this full spectrum on a single runtime. Rather than homogenize the regimes, it preserves their heterogeneity behind three narrow abstractions -- task, resource, and result -- each realized as one invariant shared by every subsystem: one episode driver, one resource-handle protocol implemented by every expensive backend (LLM inference and sandboxed runtimes alike), and one trace identity scheme under which every event is written. Deployed in production across all three layers of an embodied humanoid stack, this single set of invariants onboards new benchmarks largely by configuration. Where mature peer orchestrators exist -- at the foundation-model end -- it reproduces published references and peer-framework readings within their own spread, runs the same suites faster on a single node, and scales near-linearly across nodes. Its distinctive return is diagnostic: because every layer writes into one shared trace, a regression that begins in one layer and surfaces in another stays localizable on that trace -- a cross-layer payoff no federation of per-segment harnesses can reproduce.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Humanoid",
+      "Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2606.17011",
     "title": "ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning",
     "paper_url": "https://arxiv.org/abs/2606.17011",

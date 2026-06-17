@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**198 papers** in this category.
+**199 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (19 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (20 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -35,6 +35,24 @@
 ---
 
 ## Recent Papers
+
+## DeepInsight: A Unified Evaluation Infrastructure Across the Physical AI Stack
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.17574)
+- **Authors:** Siyi Li, Chunyu Sun, Jiahao Zhang, Yuchen Kang, Wuliang Wang, Yu Qiu et al. (9 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Evaluating a Physical AI stack spans operators that differ by more than three orders of magnitude -- from a single foundation-model decoding step to thousands of physics ticks of whole-body control -- varying orthogonally in modality, reward semantics, and resource profile. No existing framework spans this range, so the stack is evaluated today by stitching together separate harnesses that share neither runtime nor scoring, preserving each segment's local validity but losing the shared identity needed to diagnose cross-layer regressions.
+
+---
 
 ## Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms
 
@@ -399,27 +417,5 @@ Expressive whole-body motion is important for humanoid robots operating in human
 ### Summary
 
 Humanoid loco-manipulation requires stable whole-body control under varying object masses and pickup/placement heights. This becomes particularly challenging in sim-to-real transfer, where object-induced load variation and robot-side dynamics mismatch interact during physical contact.
-
----
-
-## LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.01458)
-- **Authors:** Hojune Kim, Timothy Chen, Jiankai Sun, Lars W. Osterberg, Qianzhong Chen, Ke Wang et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Robustness
-  - Simulator
-  - Humanoid
-  - Gaussian Splatting
-  - Vision-Language
-  - Fine-tuning
-
-### Summary
-
-Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have, until now, failed to transfer effectively in humanoid loco-manipulation tasks.
 
 ---

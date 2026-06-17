@@ -1,10 +1,10 @@
 # Manipulation
 
-**65 papers** in this category.
+**66 papers** in this category.
 
 ## Months
 
-- [2026-06](/manipulation/2026-06) (10 papers)
+- [2026-06](/manipulation/2026-06) (11 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -31,6 +31,24 @@
 ---
 
 ## Recent Papers
+
+## DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.17418)
+- **Authors:** Hao Wu, Yanzhe Wang, Yu Feng, Jian Liu, Jihao Li, Jianshu Zhou et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - PPO
+  - State Estimation
+  - Hardware Design
+
+### Summary
+
+Dexterous robotic hands face a longstanding trade-off among dexterity, compactness, and affordability. Particularly, high-degree-of-freedom designs typically demand complex actuation and transmission, hindering integration into human-scale forms.
+
+---
 
 ## ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning
 
@@ -357,22 +375,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - World Model
   - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## HumanoidVLM: Vision-Language-Guided Impedance Control for Contact-Rich Humanoid Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.14874)
-- **Published:** 2026-01
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Impedance Control
-  - Vision-Language
 
 ### Summary
 

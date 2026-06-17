@@ -1,10 +1,10 @@
 # State Estimation
 
-**20 papers** in this category.
+**21 papers** in this category.
 
 ## Months
 
-- [2026-06](/state-estimation/2026-06) (8 papers)
+- [2026-06](/state-estimation/2026-06) (9 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
@@ -16,6 +16,28 @@
 ---
 
 ## Recent Papers
+
+## HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.17833)
+- **Authors:** Taowen Wang, Zikang Xie, Bin Yang, Yunheng Wang, Zizhao Yuan, Yuetong Fang et al. (16 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Proprioception
+  - Benchmark
+  - Policy Learning
+  - State Estimation
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Humanoid robots promise whole-body interaction in human-centered environments, but scalable policy learning remains difficult because task-level decision-making and whole-body dynamic execution are tightly coupled. A practical solution is hierarchical control, where a high-level policy predicts intermediate whole-body actions and low-level general motion trackers (GMTs) execute them as stable humanoid motion.
+
+---
 
 ## ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion
 
@@ -339,19 +361,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/1712.05873)
 - **Published:** 2017-05
-- **Tags:**
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## The invariant extended Kalman filter as a stable observer
-
-- **Paper:** [arXiv](https://arxiv.org/abs/1410.1465)
-- **Published:** 2014-10
 - **Tags:**
   - State Estimation
 
