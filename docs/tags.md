@@ -4,53 +4,53 @@ Browse papers by research topic and methodology.
 
 ---
 
-## Humanoid (434)
+## Humanoid (435)
 
+- [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](https://arxiv.org/abs/2606.18772) — 2026-06
 - [HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning](https://arxiv.org/abs/2606.17833) — 2026-06
 - [DeepInsight: A Unified Evaluation Infrastructure Across the Physical AI Stack](https://arxiv.org/abs/2606.17574) — 2026-06
 - [ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning](https://arxiv.org/abs/2606.17011) — 2026-06
 - [VENOM: Versatile Embodied Network for Omni-bodied Motion tracking](https://arxiv.org/abs/2606.16696) — 2026-06
-- 🌟 [WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots](https://arxiv.org/abs/2606.16600) — 2026-06
 
-## Loco-Manipulation and Whole-Body Control (218)
+## Loco-Manipulation and Whole-Body Control (219)
 
+- [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](https://arxiv.org/abs/2606.18772) — 2026-06
 - [HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning](https://arxiv.org/abs/2606.17833) — 2026-06
 - [DeepInsight: A Unified Evaluation Infrastructure Across the Physical AI Stack](https://arxiv.org/abs/2606.17574) — 2026-06
 - [ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning](https://arxiv.org/abs/2606.17011) — 2026-06
 - [ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion](https://arxiv.org/abs/2606.16542) — 2026-06
-- 🌟 [DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects](https://arxiv.org/abs/2606.15133) — 2026-06
 
-## Locomotion (153)
+## Locomotion (155)
 
+- [Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot](https://arxiv.org/abs/2606.19233) — 2026-06
+- [SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping](https://arxiv.org/abs/2606.18625) — 2026-06
 - [HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning](https://arxiv.org/abs/2606.17833) — 2026-06
 - [ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion](https://arxiv.org/abs/2606.16542) — 2026-06
 - [Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms](https://arxiv.org/abs/2606.14617) — 2026-06
-- [Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning](https://arxiv.org/abs/2606.14270) — 2026-06
-- [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — 2026-06
 
-## Manipulation (142)
+## Manipulation (145)
 
+- [Do as I Do: Dexterous Manipulation Data from Everyday Human Videos](https://arxiv.org/abs/2606.19333) — 2026-06
+- [Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot](https://arxiv.org/abs/2606.19233) — 2026-06
+- [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](https://arxiv.org/abs/2606.18772) — 2026-06
 - [DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity](https://arxiv.org/abs/2606.17418) — 2026-06
 - [ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning](https://arxiv.org/abs/2606.17011) — 2026-06
-- [V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos](https://arxiv.org/abs/2606.16436) — 2026-06
-- [Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models](https://arxiv.org/abs/2606.15918) — 2026-06
-- 🌟 [DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects](https://arxiv.org/abs/2606.15133) — 2026-06
 
-## Simulation Benchmark (96)
+## Simulation Benchmark (98)
 
+- [Do as I Do: Dexterous Manipulation Data from Everyday Human Videos](https://arxiv.org/abs/2606.19333) — 2026-06
+- [SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping](https://arxiv.org/abs/2606.18625) — 2026-06
 - [HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning](https://arxiv.org/abs/2606.17833) — 2026-06
 - [DeepInsight: A Unified Evaluation Infrastructure Across the Physical AI Stack](https://arxiv.org/abs/2606.17574) — 2026-06
 - [VENOM: Versatile Embodied Network for Omni-bodied Motion tracking](https://arxiv.org/abs/2606.16696) — 2026-06
-- [Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics](https://arxiv.org/abs/2606.16564) — 2026-06
-- [V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos](https://arxiv.org/abs/2606.16436) — 2026-06
 
-## State Estimation (71)
+## State Estimation (73)
 
+- [Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot](https://arxiv.org/abs/2606.19233) — 2026-06
+- [SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping](https://arxiv.org/abs/2606.18625) — 2026-06
 - [HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning](https://arxiv.org/abs/2606.17833) — 2026-06
 - [DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity](https://arxiv.org/abs/2606.17418) — 2026-06
 - [ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning](https://arxiv.org/abs/2606.17011) — 2026-06
-- [VENOM: Versatile Embodied Network for Omni-bodied Motion tracking](https://arxiv.org/abs/2606.16696) — 2026-06
-- [Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics](https://arxiv.org/abs/2606.16564) — 2026-06
 
 ## Physics-Based Character Animation (65)
 
@@ -60,13 +60,13 @@ Browse papers by research topic and methodology.
 - [Identification of a Physics-Based Electrical Power Consumption Model for the Unitree G1 Humanoid Arm](https://arxiv.org/abs/2606.15915) — 2026-06
 - 🌟 [MotionVLA: Vision-Language-Action Model for Humanoid Motion](https://arxiv.org/abs/2606.15142) — 2026-06
 
-## Reinforcement Learning (61)
+## Reinforcement Learning (62)
 
+- [SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping](https://arxiv.org/abs/2606.18625) — 2026-06
 - [ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning](https://arxiv.org/abs/2606.17011) — 2026-06
 - [Task-Error Residual Learning for Real-Robot Five-Ball Juggling](https://arxiv.org/abs/2606.16978) — 2026-06
 - [VENOM: Versatile Embodied Network for Omni-bodied Motion tracking](https://arxiv.org/abs/2606.16696) — 2026-06
 - [Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models](https://arxiv.org/abs/2606.15918) — 2026-06
-- [Trust-Region Diffusion Policies for Massively Parallel On-Policy RL](https://arxiv.org/abs/2606.15260) — 2026-06
 
 ## Teleoperation (49)
 
@@ -100,13 +100,13 @@ Browse papers by research topic and methodology.
 - [V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos](https://arxiv.org/abs/2606.16436) — 2026-06
 - [Trust-Region Diffusion Policies for Massively Parallel On-Policy RL](https://arxiv.org/abs/2606.15260) — 2026-06
 
-## Navigation (37)
+## Navigation (39)
 
+- [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](https://arxiv.org/abs/2606.18772) — 2026-06
+- [SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping](https://arxiv.org/abs/2606.18625) — 2026-06
 - [Task-Error Residual Learning for Real-Robot Five-Ball Juggling](https://arxiv.org/abs/2606.16978) — 2026-06
 - [$λ$-Reachability: Geometric-Horizon Safety Bellman Equations for Humanoid Safety](https://arxiv.org/abs/2606.16022) — 2026-06
 - [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — 2026-06
-- [AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation](https://arxiv.org/abs/2606.10903) — 2026-06
-- [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449) — 2026-06
 
 ## Hardware Design (35)
 
@@ -116,29 +116,29 @@ Browse papers by research topic and methodology.
 - [PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots](https://arxiv.org/abs/2605.17681) — 2026-05
 - [Characteristics, Management, and Utilization of Muscles in Musculoskeletal Humanoids](https://arxiv.org/abs/2602.08518) — 2026-02
 
-## PPO (29)
+## PPO (30)
 
+- [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](https://arxiv.org/abs/2606.18772) — 2026-06
 - [DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity](https://arxiv.org/abs/2606.17418) — 2026-06
 - [Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics](https://arxiv.org/abs/2606.16564) — 2026-06
 - 🌟 [MotionVLA: Vision-Language-Action Model for Humanoid Motion](https://arxiv.org/abs/2606.15142) — 2026-06
 - 🌟 [DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects](https://arxiv.org/abs/2606.15133) — 2026-06
-- [What Robots Do Matters More Than What They Look Like: Task Context Shapes Trust in Educational HRI](https://arxiv.org/abs/2606.14602) — 2026-06
 
-## Dataset (28)
+## Dataset (29)
 
+- [Do as I Do: Dexterous Manipulation Data from Everyday Human Videos](https://arxiv.org/abs/2606.19333) — 2026-06
 - [VENOM: Versatile Embodied Network for Omni-bodied Motion tracking](https://arxiv.org/abs/2606.16696) — 2026-06
 - [Identification of a Physics-Based Electrical Power Consumption Model for the Unitree G1 Humanoid Arm](https://arxiv.org/abs/2606.15915) — 2026-06
 - [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — 2026-06
 - [EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots](https://arxiv.org/abs/2606.11109) — 2026-06
-- [Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data](https://arxiv.org/abs/2606.08107) — 2026-06
 
-## Sim-to-Real (28)
+## Sim-to-Real (29)
 
+- [SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping](https://arxiv.org/abs/2606.18625) — 2026-06
 - [ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion](https://arxiv.org/abs/2606.16542) — 2026-06
 - [OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.08548) — 2026-06
 - [LadderMan: Learning Humanoid Perceptive Ladder Climbing](https://arxiv.org/abs/2606.05873) — 2026-06
 - [GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors](https://arxiv.org/abs/2606.05160) — 2026-06
-- 🌟 [M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking](https://arxiv.org/abs/2606.04829) — 2026-06
 
 ## Diffusion (28)
 
@@ -164,6 +164,14 @@ Browse papers by research topic and methodology.
 - [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — 2026-06
 - [IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations](https://arxiv.org/abs/2606.08029) — 2026-06
 
+## Biped (19)
+
+- [Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot](https://arxiv.org/abs/2606.19233) — 2026-06
+- [SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping](https://arxiv.org/abs/2606.18625) — 2026-06
+- [Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms](https://arxiv.org/abs/2606.14617) — 2026-06
+- [Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning](https://arxiv.org/abs/2606.14270) — 2026-06
+- [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — 2026-06
+
 ## Foundation Model (18)
 
 - [OMG: Omni-Modal Motion Generation for Generalist Humanoid Control](https://arxiv.org/abs/2606.10340) — 2026-06
@@ -171,14 +179,6 @@ Browse papers by research topic and methodology.
 - [Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain](https://arxiv.org/abs/2606.08059) — 2026-06
 - [LadderMan: Learning Humanoid Perceptive Ladder Climbing](https://arxiv.org/abs/2606.05873) — 2026-06
 - [GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors](https://arxiv.org/abs/2606.05160) — 2026-06
-
-## Biped (17)
-
-- [Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms](https://arxiv.org/abs/2606.14617) — 2026-06
-- [Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning](https://arxiv.org/abs/2606.14270) — 2026-06
-- [TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation](https://arxiv.org/abs/2606.12153) — 2026-06
-- [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — 2026-06
-- [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — 2026-06
 
 ## Safety (16)
 
@@ -212,13 +212,13 @@ Browse papers by research topic and methodology.
 - [OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies](https://arxiv.org/abs/2606.08043) — 2026-06
 - [Constrained Whole-Body Tracking for Humanoid Robots](https://arxiv.org/abs/2606.00374) — 2026-05
 
-## Human Demonstration (12)
+## Human Demonstration (13)
 
+- [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](https://arxiv.org/abs/2606.18772) — 2026-06
 - [V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos](https://arxiv.org/abs/2606.16436) — 2026-06
 - [WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning](https://arxiv.org/abs/2606.13232) — 2026-06
 - [EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control](https://arxiv.org/abs/2606.08495) — 2026-06
 - [IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations](https://arxiv.org/abs/2606.08029) — 2026-06
-- [MotionDisco: Motion Discovery for Extreme Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.06139) — 2026-06
 
 ## Walking (12)
 
@@ -300,6 +300,14 @@ Browse papers by research topic and methodology.
 - [Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation](https://arxiv.org/abs/2605.12347) — 2026-05
 - 🌟 [CLAW: Composable Language-Annotated Whole-body Motion Generation](https://arxiv.org/abs/2604.11251) — 2026-04
 
+## MPC (7)
+
+- [Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot](https://arxiv.org/abs/2606.19233) — 2026-06
+- [Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms](https://arxiv.org/abs/2606.14617) — 2026-06
+- 🌟 [Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation](https://arxiv.org/abs/2606.05687) — 2026-06
+- [Pause and Think: A Dataset and Benchmark for Video-Grounded Assistive Action Suggestion](https://arxiv.org/abs/2606.00616) — 2026-05
+- [EfficientTDMPC: Improved MPC Objectives for Sample-Efficient Continuous Control](https://arxiv.org/abs/2605.16692) — 2026-05
+
 ## Motion Planning (7)
 
 - 🌟 [WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots](https://arxiv.org/abs/2606.16600) — 2026-06
@@ -307,14 +315,6 @@ Browse papers by research topic and methodology.
 - [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — 2026-06
 - [Signal Temporal Logic Motion Planning via Graphs of Convex Sets](https://arxiv.org/abs/2605.23240) — 2026-05
 - [Task and Motion Planning for Humanoid Loco-manipulation](https://arxiv.org/abs/2508.14099) — 2025-08
-
-## MPC (6)
-
-- [Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms](https://arxiv.org/abs/2606.14617) — 2026-06
-- 🌟 [Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation](https://arxiv.org/abs/2606.05687) — 2026-06
-- [Pause and Think: A Dataset and Benchmark for Video-Grounded Assistive Action Suggestion](https://arxiv.org/abs/2606.00616) — 2026-05
-- [EfficientTDMPC: Improved MPC Objectives for Sample-Efficient Continuous Control](https://arxiv.org/abs/2605.16692) — 2026-05
-- [Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy](https://arxiv.org/abs/2605.15517) — 2026-05
 
 ## Motion Retargeting (6)
 
@@ -434,6 +434,11 @@ Browse papers by research topic and methodology.
 - 🌟 [CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control](https://arxiv.org/abs/2410.03441) — 2024-10
 - [Multi-task Deep Reinforcement Learning with PopArt](https://arxiv.org/abs/1809.04474) — 2018-09
 
+## Optimization-Based (2)
+
+- [Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot](https://arxiv.org/abs/2606.19233) — 2026-06
+- [Learning Differentiable Reachability Maps for Optimization-based Humanoid Motion Generation](https://arxiv.org/abs/2508.11275) — 2025-08
+
 ## Trajectory Optimization (2)
 
 - [Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics](https://arxiv.org/abs/2606.16564) — 2026-06
@@ -547,10 +552,6 @@ Browse papers by research topic and methodology.
 ## Representation Learning (1)
 
 - [Contrastive Representation Learning for Robust Sim-to-Real Transfer of Adaptive Humanoid Locomotion](https://arxiv.org/abs/2509.12858) — 2025-09
-
-## Optimization-Based (1)
-
-- [Learning Differentiable Reachability Maps for Optimization-based Humanoid Motion Generation](https://arxiv.org/abs/2508.11275) — 2025-08
 
 ## Parameter Estimation (1)
 

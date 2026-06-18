@@ -1,5 +1,143 @@
 [
   {
+    "arxiv_id": "2606.19333",
+    "title": "Do as I Do: Dexterous Manipulation Data from Everyday Human Videos",
+    "paper_url": "https://arxiv.org/abs/2606.19333",
+    "project_url": null,
+    "authors": [
+      "Bhawna Paliwal",
+      "Haritheja Etukuru",
+      "William Liang",
+      "Pieter Abbeel",
+      "Nur Muhammad Mahi Shafiullah",
+      "Jitendra Malik"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-17",
+    "abstract": "How can we scalably generate data for robotic manipulation, especially on human-like platforms such as dexterous multi-fingered hands? Learning from human videos has recently emerged as a likely answer to this question. However, difficulties in estimating hand-object interaction and crossing the human-to-robot embodiment gap have hindered the adoption of abundant monocular RGB-only human videos as the primary source of robot manipulation data. In this work, we present DO AS I DO, an algorithm to reconstruct and retarget monocular RGB human videos to multi-fingered dexterous robotic hands. DO AS I DO reconstructs hand-object interactions from various egocentric and exocentric in-the-wild video sources. The algorithm then retargets these hand-object interaction estimates into a sequence of actions executable in the real world, yielding robot-complete manipulation data from disparate human videos. Overall, DO AS I DO outperforms previous state of the art in estimating hand-object interactions and extracting dexterous manipulation trajectories from RGB videos, as we show in experiments on datasets with ground truths and on a dataset of video clips collected online. Our experiments enable us to propose an efficacy playbook for practitioners collecting human data for manipulation.",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.19233",
+    "title": "Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot",
+    "paper_url": "https://arxiv.org/abs/2606.19233",
+    "project_url": null,
+    "authors": [
+      "Yue Qin",
+      "Yulun Zhuang",
+      "Zelin Shen",
+      "Yanran Ding"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-17",
+    "abstract": "In this letter, we present a hierarchical control framework that enables wheeled bipedal robots to perform planar object sliding tasks with their wheeled legs. The proposed approach formulates a nonlinear model predictive controller (NMPC) based on a reduced-order three rigid bodies (TRB) dynamical model that explicitly accounts for the hip roll degree of freedom and multiple wheel-environment contact modes, which is essential for lateral stepping and pedipulation tasks. Within this framework, the NMPC simultaneously regulates robot locomotion and interaction forces, allowing the robot to stably execute both rolling and object manipulation behaviors. A trajectory-optimization-based robot-object motion planner is developed to generate reference motions that incorporate stick-slip transitions in ground-object contact. Two representative pedipulation motions, namely scooting and lateral sliding, are validated through real-world hardware experiments, in which the robot successfully retrieves a 1 kg object from under a desk and slides a 4 kg object over a distance of 0.228 m via scooting.",
+    "categories": [
+      "Locomotion",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "MPC",
+      "Locomotion",
+      "Manipulation",
+      "Biped",
+      "Optimization-Based",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.18772",
+    "title": "HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations",
+    "paper_url": "https://arxiv.org/abs/2606.18772",
+    "project_url": null,
+    "authors": [
+      "Zehui Zhao",
+      "Yuxuan Zhao",
+      "Gaojing Zhang",
+      "Chenxi Liu",
+      "Maolin Zheng",
+      "Wenzhao Lian"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-17",
+    "abstract": "Human demonstrations, which can be collected at scale and naturally capture active hand-eye coordination, are a promising data source for learning humanoid loco-manipulation. However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution. To address these challenges, we present HALOMI, a scalable framework for learning humanoid loco-manipulation with active perception from human demonstrations. HALOMI extends Universal Manipulation Interface (UMI) with egocentric sensing to collect ego-view and wrist-view observations along with head-hand trajectories at scale. We further propose a manifold-constrained controller that plans in a learned latent behavior manifold to enable precise and robust head-hand tracking in the world frame. To bridge the human-to-humanoid gap, we perform ego-view alignment and introduce a controller-aware reference trajectory adaptation to reduce mismatch in both observation and action execution. We validate HALOMI on a Unitree G1 humanoid robot with an actuated neck across five real-world tasks involving navigation, grasping, bimanual manipulation, whole-body coordination, and dynamic behaviors. Across the three quantitatively evaluated tasks, HALOMI achieves an average success rate of 85\\%, while additional qualitative demonstrations show its ability to support dynamic tossing and deep-squat grasping.",
+    "categories": [
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Navigation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Navigation",
+      "Human Demonstration",
+      "Humanoid",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.18625",
+    "title": "SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping",
+    "paper_url": "https://arxiv.org/abs/2606.18625",
+    "project_url": null,
+    "authors": [
+      "Xiaowen Hu",
+      "Linqi Ye",
+      "Yudi Zhu",
+      "Chenyue Shao",
+      "Rankun Li",
+      "Qingdu Li",
+      "Yan Peng"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-17",
+    "abstract": "Robotic jumping is pivotal in applications such as search and rescue and logistics, where crossing obstacles and enhancing mobility efficiency are critical. The Spring-Loaded Inverted Pendulum (SLIP) model leverages simplified spring-mass dynamics that naturally encode biologically plausible hopping motions, yet its performance degrades on irregular terrain due to idealized assumptions regarding contact and joint dynamics. Meanwhile, Reinforcement Learning (RL) can adapt to diverse and complex environments but often requires extensive data from unguided exploration. The complementary strengths of SLIP's physically grounded baseline and RL's adaptive capabilities motivate a hybrid framework that overcomes these individual limitations. We therefore propose Spring-loaded Reinforcement Learning (SRL), which integrates SLIP-based feedforward control signals with RL-driven real-time feedback, enabling continuous optimization of robotic jumping. Experimental results demonstrate that SRL can achieve more stable jumps with much less training time than the baseline method, maintaining an average position tracking error below 0.1 m and velocity tracking errors within +/-3% of the target values. Through bipedal and quadrupedal simulations of ground and stair jumping, as well as sim-to-sim and sim-to-real validations, SRL exhibits robust adaptability to various task requirements and environmental complexities, underscoring its potential for real-world deployment.",
+    "categories": [
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Sim-to-Real",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Sim-to-Real",
+      "Biped",
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2606.17833",
     "title": "HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning",
     "paper_url": "https://arxiv.org/abs/2606.17833",

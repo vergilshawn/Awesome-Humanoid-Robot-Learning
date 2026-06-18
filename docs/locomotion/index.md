@@ -1,10 +1,10 @@
 # Locomotion
 
-**117 papers** in this category.
+**119 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (12 papers)
+- [2026-06](/locomotion/2026-06) (14 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -36,6 +36,47 @@
 ---
 
 ## Recent Papers
+
+## Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19233)
+- **Authors:** Yue Qin, Yulun Zhuang, Zelin Shen, Yanran Ding
+- **Published:** 2026-06
+- **Real Robot:** ✅
+- **Tags:**
+  - MPC
+  - Locomotion
+  - Manipulation
+  - Biped
+  - Optimization-Based
+  - State Estimation
+
+### Summary
+
+In this letter, we present a hierarchical control framework that enables wheeled bipedal robots to perform planar object sliding tasks with their wheeled legs. The proposed approach formulates a nonlinear model predictive controller (NMPC) based on a reduced-order three rigid bodies (TRB) dynamical model that explicitly accounts for the hip roll degree of freedom and multiple wheel-environment contact modes, which is essential for lateral stepping and pedipulation tasks.
+
+---
+
+## SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.18625)
+- **Authors:** Xiaowen Hu, Linqi Ye, Yudi Zhu, Chenyue Shao, Rankun Li, Qingdu Li et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Biped
+  - Locomotion
+  - Navigation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Robotic jumping is pivotal in applications such as search and rescue and logistics, where crossing obstacles and enhancing mobility efficiency are critical. The Spring-Loaded Inverted Pendulum (SLIP) model leverages simplified spring-mass dynamics that naturally encode biologically plausible hopping motions, yet its performance degrades on irregular terrain due to idealized assumptions regarding contact and joint dynamics.
+
+---
 
 ## Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning
 
@@ -392,44 +433,5 @@ Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal
 ### Summary
 
 This paper presents MuGen, a data-driven framework for learning and deploying multi-skill locomotion on humanoid robots. MuGen enables a robot to perform expressive motions like humans under the guidance of example motion sequences.
-
----
-
-## Learning to Evolve: Multi-modal Interactive Fields for Robust Humanoid Navigation in Dynamic Environments
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.21935)
-- **Authors:** Peifeng Jiang, Hong Liu, Jin Jin, Wenshuai Wang, Xia Li
-- **Published:** 2026-05
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Navigation
-  - Safety
-  - Humanoid
-  - Gait
-  - Gaussian Splatting
-  - Distillation
-
-### Summary
-
-Safe manipulation-oriented navigation for humanoid robots requires scene memory that remains reliable under locomotion-induced perceptual distortion, environmental changes, and interaction-level geometric safety constraints. Existing semantic mapping and scene-graph systems are difficult to deploy directly in this setting because they often assume stable camera trajectories, static environments, or coarse object geometry.
-
----
-
-## Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.18611)
-- **Authors:** Yidan Lu, Yichao Zhong, Liu Zhao, Wanyue Li, Peng Lu
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Walking
-
-### Summary
-
-We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running.
 
 ---

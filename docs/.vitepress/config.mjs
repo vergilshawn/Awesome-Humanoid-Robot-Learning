@@ -166,7 +166,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (66)",
+            "text": "Manipulation (68)",
             "collapsed": true,
             "items": [
                   {
@@ -334,7 +334,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (117)",
+            "text": "Locomotion (119)",
             "collapsed": true,
             "items": [
                   {

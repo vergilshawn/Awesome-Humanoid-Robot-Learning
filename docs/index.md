@@ -8,17 +8,17 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 605
-- **Real Robot Papers:** 64
+- **Total Papers:** 609
+- **Real Robot Papers:** 67
 - **Open Source Papers:** 131
 - **Latest Month:** 2026-06
 
 ### Categories
 
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (199)
-- [Manipulation](/manipulation/) (66)
+- [Manipulation](/manipulation/) (68)
 - [Teleoperation](/teleoperation/) (29)
-- [Locomotion](/locomotion/) (117)
+- [Locomotion](/locomotion/) (119)
 - [Navigation](/navigation/) (23)
 - [State Estimation](/state-estimation/) (21)
 - [Sim-to-Real](/sim-to-real/) (11)
@@ -31,6 +31,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [Do as I Do: Dexterous Manipulation Data from Everyday Human Videos](https://arxiv.org/abs/2606.19333) — 2026-06
+  - [Manipulation](/manipulation/)
+-  🤖 [Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot](https://arxiv.org/abs/2606.19233) — 2026-06
+  - [Locomotion](/locomotion/)
+-  🤖 [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](https://arxiv.org/abs/2606.18772) — 2026-06
+  - [Manipulation](/manipulation/)
+-  🤖 [SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping](https://arxiv.org/abs/2606.18625) — 2026-06
+  - [Locomotion](/locomotion/)
 -  🤖 [HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning](https://arxiv.org/abs/2606.17833) — 2026-06
   - [State Estimation](/state-estimation/)
 -  [DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity](https://arxiv.org/abs/2606.17418) — 2026-06
@@ -43,46 +51,38 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Navigation](/navigation/)
 -  [VENOM: Versatile Embodied Network for Omni-bodied Motion tracking](https://arxiv.org/abs/2606.16696) — 2026-06
   - [Simulation Benchmark](/simulation-benchmark/)
-- 🌟 [WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots](https://arxiv.org/abs/2606.16600) — 2026-06
-  - [Physics-Based Character Animation](/physics-based-character-animation/)
--  🤖 [Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics](https://arxiv.org/abs/2606.16564) — 2026-06
-  - [Simulation Benchmark](/simulation-benchmark/)
--  🤖 [ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion](https://arxiv.org/abs/2606.16542) — 2026-06
-  - [State Estimation](/state-estimation/)
--  [V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos](https://arxiv.org/abs/2606.16436) — 2026-06
-  - [Manipulation](/manipulation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (434)
-- **Loco-Manipulation and Whole-Body Control** (218)
-- **Locomotion** (153)
-- **Manipulation** (142)
-- **Simulation Benchmark** (96)
-- **State Estimation** (71)
+- **Humanoid** (435)
+- **Loco-Manipulation and Whole-Body Control** (219)
+- **Locomotion** (155)
+- **Manipulation** (145)
+- **Simulation Benchmark** (98)
+- **State Estimation** (73)
 - **Physics-Based Character Animation** (65)
-- **Reinforcement Learning** (61)
+- **Reinforcement Learning** (62)
 - **Teleoperation** (49)
 - **Human Motion Analysis and Synthesis** (47)
 - **Whole-Body Control** (46)
 - **Benchmark** (42)
-- **Navigation** (37)
+- **Navigation** (39)
 - **Hardware Design** (35)
-- **PPO** (29)
-- **Dataset** (28)
-- **Sim-to-Real** (28)
+- **PPO** (30)
+- **Dataset** (29)
+- **Sim-to-Real** (29)
 - **Diffusion** (28)
 - **Vision-Language** (24)
 - **Zero-Shot** (20)
+- **Biped** (19)
 - **Foundation Model** (18)
-- **Biped** (17)
 - **Safety** (16)
 - **Distillation** (16)
 - **Robustness** (15)
 - **Collision** (14)
-- **Human Demonstration** (12)
+- **Human Demonstration** (13)
 - **Walking** (12)
 - **Gait** (12)
 - **Imitation Learning** (12)
@@ -377,6 +377,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/manipulation/2026-06)
 
+- [Do as I Do: Dexterous Manipulation Data from Everyday Human Videos](https://arxiv.org/abs/2606.19333) — `Manipulation`, `Dataset`, `Simulation Benchmark`
+- [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](https://arxiv.org/abs/2606.18772) — `Manipulation`, `Navigation`, `Human Demonstration`, `Humanoid`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity](https://arxiv.org/abs/2606.17418) — `Teleoperation`, `Manipulation`, `PPO`, `State Estimation`, `Hardware Design`
 - [ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning](https://arxiv.org/abs/2606.17011) — `Reinforcement Learning`, `Manipulation`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
 - [V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos](https://arxiv.org/abs/2606.16436) — `Teleoperation`, `Manipulation`, `Human Demonstration`, `Embodied AI`, `Benchmark`, `Policy Learning`
@@ -587,6 +589,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/locomotion/2026-06)
 
+- [Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot](https://arxiv.org/abs/2606.19233) — `MPC`, `Locomotion`, `Manipulation`, `Biped`, `Optimization-Based`, `State Estimation`
+- [SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping](https://arxiv.org/abs/2606.18625) — `Reinforcement Learning`, `Sim-to-Real`, `Biped`, `Locomotion`, `Navigation`, `State Estimation`
 - [Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning](https://arxiv.org/abs/2606.14270) — `Reinforcement Learning`, `Locomotion`, `Robustness`, `Biped`, `Humanoid`, `PPO`
 - [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `Fine-tuning`
 - [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — `Locomotion`, `Isaac Sim`, `Biped`, `Humanoid`, `Walking`, `GAN`

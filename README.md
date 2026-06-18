@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 605
-- **Real Robot Papers:** 64
+- **Total Papers:** 609
+- **Real Robot Papers:** 67
 - **Open Source Papers:** 131
 
 🌟 indicates papers with detected project/code links.
@@ -11,9 +11,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 ## Contents
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (199)
-- [Manipulation](#manipulation) (66)
+- [Manipulation](#manipulation) (68)
 - [Teleoperation](#teleoperation) (29)
-- [Locomotion](#locomotion) (117)
+- [Locomotion](#locomotion) (119)
 - [Navigation](#navigation) (23)
 - [State Estimation](#state-estimation) (21)
 - [Sim-to-Real](#sim-to-real) (11)
@@ -311,6 +311,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [Do as I Do: Dexterous Manipulation Data from Everyday Human Videos](https://arxiv.org/abs/2606.19333) — `Manipulation`, `Dataset`, `Simulation Benchmark`
+- [HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations](https://arxiv.org/abs/2606.18772) — `Manipulation`, `Navigation`, `Human Demonstration`, `Humanoid`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity](https://arxiv.org/abs/2606.17418) — `Teleoperation`, `Manipulation`, `PPO`, `State Estimation`, `Hardware Design`
 - [ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning](https://arxiv.org/abs/2606.17011) — `Reinforcement Learning`, `Manipulation`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
 - [V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos](https://arxiv.org/abs/2606.16436) — `Teleoperation`, `Manipulation`, `Human Demonstration`, `Embodied AI`, `Benchmark`, `Policy Learning`
@@ -521,6 +523,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot](https://arxiv.org/abs/2606.19233) — `MPC`, `Locomotion`, `Manipulation`, `Biped`, `Optimization-Based`, `State Estimation`
+- [SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping](https://arxiv.org/abs/2606.18625) — `Reinforcement Learning`, `Sim-to-Real`, `Biped`, `Locomotion`, `Navigation`, `State Estimation`
 - [Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning](https://arxiv.org/abs/2606.14270) — `Reinforcement Learning`, `Locomotion`, `Robustness`, `Biped`, `Humanoid`, `PPO`
 - [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `Fine-tuning`
 - [A Spiking Neural Architecture for Coordinating Arm and Locomotor Control](https://arxiv.org/abs/2606.11034) — `Locomotion`, `Isaac Sim`, `Biped`, `Humanoid`, `Walking`, `GAN`

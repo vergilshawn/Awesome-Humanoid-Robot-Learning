@@ -1,10 +1,10 @@
 # Manipulation
 
-**66 papers** in this category.
+**68 papers** in this category.
 
 ## Months
 
-- [2026-06](/manipulation/2026-06) (11 papers)
+- [2026-06](/manipulation/2026-06) (13 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -31,6 +31,42 @@
 ---
 
 ## Recent Papers
+
+## Do as I Do: Dexterous Manipulation Data from Everyday Human Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19333)
+- **Authors:** Bhawna Paliwal, Haritheja Etukuru, William Liang, Pieter Abbeel, Nur Muhammad Mahi Shafiullah, Jitendra Malik
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+How can we scalably generate data for robotic manipulation, especially on human-like platforms such as dexterous multi-fingered hands? Learning from human videos has recently emerged as a likely answer to this question. However, difficulties in estimating hand-object interaction and crossing the human-to-robot embodiment gap have hindered the adoption of abundant monocular RGB-only human videos as the primary source of robot manipulation data.
+
+---
+
+## HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.18772)
+- **Authors:** Zehui Zhao, Yuxuan Zhao, Gaojing Zhang, Chenxi Liu, Maolin Zheng, Wenzhao Lian
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Human Demonstration
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Human demonstrations, which can be collected at scale and naturally capture active hand-eye coordination, are a promising data source for learning humanoid loco-manipulation. However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
+
+---
 
 ## DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity
 
@@ -347,34 +383,6 @@ This paper studies humanoid manipulation with touch dreaming, using tactile imag
 - **Tags:**
   - Manipulation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## cuRoboV2: Dynamics-Aware Motion Generation with Depth-Fused Distance Fields for High-DoF Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.05493)
-- **Published:** 2026-03
-- **Tags:**
-  - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.06949)
-- **Project:** [GitHub](https://dreamdojo-world.github.io/)
-- **Published:** 2026-02
-- **Tags:**
-  - World Model
-  - Manipulation
 
 ### Summary
 

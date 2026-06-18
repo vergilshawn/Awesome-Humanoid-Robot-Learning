@@ -7,13 +7,74 @@ Papers with real humanoid robot deployment and experiments.
 - **Digit:** 2 papers
 - **Figure:** 18 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 34 papers
-- **Unknown Platform:** 5 papers
+- **Unitree G1:** 35 papers
+- **Unknown Platform:** 7 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19233)
+- **Authors:** Yue Qin, Yulun Zhuang, Zelin Shen, Yanran Ding
+- **Published:** 2026-06
+- **Real Robot:** ✅
+- **Tags:**
+  - MPC
+  - Locomotion
+  - Manipulation
+  - Biped
+  - Optimization-Based
+  - State Estimation
+
+### Summary
+
+In this letter, we present a hierarchical control framework that enables wheeled bipedal robots to perform planar object sliding tasks with their wheeled legs. The proposed approach formulates a nonlinear model predictive controller (NMPC) based on a reduced-order three rigid bodies (TRB) dynamical model that explicitly accounts for the hip roll degree of freedom and multiple wheel-environment contact modes, which is essential for lateral stepping and pedipulation tasks.
+
+---
+
+## HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.18772)
+- **Authors:** Zehui Zhao, Yuxuan Zhao, Gaojing Zhang, Chenxi Liu, Maolin Zheng, Wenzhao Lian
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Human Demonstration
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Human demonstrations, which can be collected at scale and naturally capture active hand-eye coordination, are a promising data source for learning humanoid loco-manipulation. However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
+
+---
+
+## SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.18625)
+- **Authors:** Xiaowen Hu, Linqi Ye, Yudi Zhu, Chenyue Shao, Rankun Li, Qingdu Li et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Biped
+  - Locomotion
+  - Navigation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Robotic jumping is pivotal in applications such as search and rescue and logistics, where crossing obstacles and enhancing mobility efficiency are critical. The Spring-Loaded Inverted Pendulum (SLIP) model leverages simplified spring-mass dynamics that naturally encode biologically plausible hopping motions, yet its performance degrades on irregular terrain due to idealized assumptions regarding contact and joint dynamics.
+
+---
 
 ## HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning
 
