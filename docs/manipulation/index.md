@@ -1,10 +1,10 @@
 # Manipulation
 
-**68 papers** in this category.
+**70 papers** in this category.
 
 ## Months
 
-- [2026-06](/manipulation/2026-06) (13 papers)
+- [2026-06](/manipulation/2026-06) (15 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -31,6 +31,42 @@
 ---
 
 ## Recent Papers
+
+## Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19774)
+- **Authors:** Trong-Bao Ho, Quang-Tan Nguyen, Thien-Loc Ha, Gia-Binh Nguyen, Viet-Thanh Nguyen, Long Dinh et al. (10 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Action chunking enables robot policies to produce temporally coherent behavior, but generating multi-step action sequences with flow-based policies incurs latency that is incompatible with real-time control. Under asynchronous execution, the robot continues executing the current chunk while the next one is generated, causing even minor delays to create inconsistencies at chunk boundaries.
+
+---
+
+## Bidirectional Tutoring for Developmental Motor Learning in Robots: Co-Developed Interaction Dynamics Support Stable Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19728)
+- **Authors:** Rui Fukushima, Jun Tani
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - PPO
+
+### Summary
+
+Infants are well known to develop their motor skills through dense interaction with caregivers. Although such social interaction is crucial for human development, motor-skill learning in robots is often treated as a unidirectional process in which robots passively receive demonstrations from tutors.
+
+---
 
 ## Do as I Do: Dexterous Manipulation Data from Everyday Human Videos
 
@@ -355,37 +391,5 @@ Tactile sensing is essential for robots to achieve human-like gentle manipulatio
 ### Summary
 
 Vision-Language(-Action) Models (VLMs) are increasingly applied to interactive environments, yet existing benchmarks often overlook the complex physical reasoning required for point-and-click puzzle games. This paper introduces Vision-Language Against The Incredible Machine (VLATIM), a benchmark designed to evaluate human-like logical problem-solving capabilities within the classic physics puzzle game The Incredible Machine 2 (TIM).
-
----
-
-## 🌟 Humanoid Manipulation with Touch Dreaming
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.13015)
-- **Project:** [GitHub](https://humanoid-touch-dream.github.io/)
-- **Authors:** Han Wang, Hongjie Fang, Changyang He, Tairan He, Zhenyu Jiang, Sizhe Yang et al. (11 authors)
-- **Published:** 2026-04
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Policy Learning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-This paper studies humanoid manipulation with touch dreaming, using tactile imagination and policy learning to improve contact-rich manipulation. The system targets dexterous humanoid manipulation and whole-body interaction with objects under sparse or difficult tactile supervision..
-
----
-
-## 🌟 HumDex: Humanoid Dexterous Manipulation Made Easy
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.12260)
-- **Published:** 2026-03
-- **Tags:**
-  - Manipulation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---

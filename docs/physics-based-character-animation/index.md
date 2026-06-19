@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**37 papers** in this category.
+**38 papers** in this category.
 
 ## Months
 
-- [2026-06](/physics-based-character-animation/2026-06) (3 papers)
+- [2026-06](/physics-based-character-animation/2026-06) (4 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
 - [2026-04](/physics-based-character-animation/2026-04) (1 papers)
 - [2026-02](/physics-based-character-animation/2026-02) (2 papers)
@@ -34,6 +34,24 @@
 ---
 
 ## Recent Papers
+
+## PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19935)
+- **Authors:** Zhangzhao Liang, Xiaofen Xing, Mingyue Yang, Wenlve Zhou, Xiangmin Xu
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Physics-Based Character Animation
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid robots require co-speech motions that are not only expressive and speech-aligned, but also physically executable under embodiment constraints. Existing co-speech generation pipelines are predominantly human-centric: motions are first generated in human-body representations such as SMPL-X and subsequently retargeted to humanoid robots.
+
+---
 
 ## 🌟 WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots
 
@@ -323,21 +341,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-05
 - **Tags:**
   - Reinforcement Learning
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## MaskedManipulator: Versatile Whole-Body Control for Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.19086)
-- **Published:** 2025-05
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
   - Physics-Based Character Animation
 
 ### Summary

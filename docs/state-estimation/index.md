@@ -1,10 +1,10 @@
 # State Estimation
 
-**21 papers** in this category.
+**23 papers** in this category.
 
 ## Months
 
-- [2026-06](/state-estimation/2026-06) (9 papers)
+- [2026-06](/state-estimation/2026-06) (11 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
@@ -16,6 +16,25 @@
 ---
 
 ## Recent Papers
+
+## Proprioceptive Invariant State Estimation for Humanoid Robots on Non-Inertial Ground
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19512)
+- **Authors:** Falak Mandali, Zijian He, Yan Gu
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - State Estimation
+  - Humanoid
+  - Walking
+  - Locomotion
+  - Physics-Based Character Animation
+
+### Summary
+
+This paper presents an invariant extended Kalman filtering (InEKF) approach for real-time state estimation of humanoid robots operating on non-inertial ground using only onboard proprioceptive sensing. The proposed approach estimates the robot's base position and velocity relative to the moving ground frame without requiring direct measurements of ground motion or externally mounted sensors.
+
+---
 
 ## HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning
 
@@ -98,6 +117,26 @@ We introduce $λ$-Reachability, a scalable approach to Hamilton--Jacobi safety a
 ### Summary
 
 Accurate prediction of electrical power consumption is essential for energy-aware motion planning, battery management, and thermal monitoring in battery-powered humanoid robots. This letter presents a physics-based, linear-in-parameters model for the electrical power consumption of the seven-degree-of-freedom left arm of the Unitree~G1 humanoid robot.
+
+---
+
+## Human-like autonomy emerges from self-play and a pinch of human data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19370)
+- **Authors:** Daphne Cornelisse, Julian Hunt, Zixu Zhang, Waël Doulazmi, Kevin Joseph, Jaime Fernández Fisac et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Domain Randomization
+  - Human Demonstration
+  - State Estimation
+  - Sim-to-Real
+  - Simulation Benchmark
+
+### Summary
+
+Self-play reinforcement learning has recently emerged as a way to train driving policies without any human data. It uses cheap, large-scale simulations to substitute expensive, large-scale human driving demonstrations.
 
 ---
 
@@ -335,32 +374,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2207.06780)
 - **Published:** 2022-07
-- **Tags:**
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Contact-Aided Invariant Extended Kalman Filtering for Robot State Estimation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/1904.09251)
-- **Published:** 2019-04
-- **Tags:**
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Legged Robot State-Estimation Through Combined Forward Kinematic and Preintegrated Contact Factors
-
-- **Paper:** [arXiv](https://arxiv.org/abs/1712.05873)
-- **Published:** 2017-05
 - **Tags:**
   - State Estimation
 

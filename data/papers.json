@@ -1,5 +1,292 @@
 [
   {
+    "arxiv_id": "2606.19774",
+    "title": "Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection",
+    "paper_url": "https://arxiv.org/abs/2606.19774",
+    "project_url": null,
+    "authors": [
+      "Trong-Bao Ho",
+      "Quang-Tan Nguyen",
+      "Thien-Loc Ha",
+      "Gia-Binh Nguyen",
+      "Viet-Thanh Nguyen",
+      "Long Dinh",
+      "Minh N. Vu",
+      "Duy M. H. Nguyen",
+      "An Thai Le",
+      "Ngo Anh Vien"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "Action chunking enables robot policies to produce temporally coherent behavior, but generating multi-step action sequences with flow-based policies incurs latency that is incompatible with real-time control. Under asynchronous execution, the robot continues executing the current chunk while the next one is generated, causing even minor delays to create inconsistencies at chunk boundaries. Existing methods address this problem by steering generation toward the already executed action prefix. We instead show that prefix consistency can be achieved by selecting an appropriate initial noise before generation begins, allowing the unmodified flow ODE to produce a coherent next chunk. This reframes asynchronous inference as a noise selection problem rather than a trajectory steering problem. We introduce \\textbf{PAINT}, a training-free method that finds this noise via backward Euler inversion and constructs the final chunk through a repainting rule. In summary, \\texttt{PAINT} requires no gradients, retraining, or policy modification; yet it improves execution consistency and task performance across \\textit{12 simulated benchmarks} and \\textit{6 real-world manipulation tasks} spanning single-arm, bimanual, and humanoid embodiments. Website: ~\\href{https://paint-action-chunking.github.io}{\\texttt{https://paint-action-chunking.github.io}}.",
+    "categories": [
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Benchmark",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.19769",
+    "title": "Data Standards for Humanoid Robotics: The Missing Infrastructure for Physical AI",
+    "paper_url": "https://arxiv.org/abs/2606.19769",
+    "project_url": null,
+    "authors": [
+      "Shaoshan Liu",
+      "Xiugong Qin",
+      "Xuan Wu",
+      "Xuan Xia",
+      "Ning Ding",
+      "Jialu Liu",
+      "Jie Tang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "The scalability of humanoid robots will depend not only on models and hardware, but also on whether physical experience can accumulate across robots, tasks, organizations, and time. Drawing on the authors' work in developing ISO/WD 26264-1, Humanoid robot datasets -- Part 1: General requirements, within ISO/TC 299/WG 16, this article argues that data standards are becoming foundational infrastructure for Physical AI. We develop three insights. First, humanoid robot data is embodied interaction data, not a collection of isolated digital samples; a useful dataset must preserve the relationship among robot body, action, task, scene, execution trace, and outcome. Second, its value depends on physical coherence: multimodal streams are reusable only when timing, coordinate frames, calibration, kinematics, units, and synchronization assumptions remain inspectable. Third, the main bottleneck is not only data scarcity, but non-cumulative data caused by high collection costs, data silos, and inconsistent evaluation. We argue that humanoid robot data standards address these bottlenecks by making embodied experience interpretable, shareable, traceable, and reusable. A general standard should provide horizontal infrastructure for lifecycle management, metadata, provenance, quality, versioning, and traceability, while capability-specific parts should define domain grammar for manipulation, locomotion, human-robot interaction, cognition, and future humanoid capabilities. As AI moves from screens into bodies, data standards must evolve from organizing digital information to structuring physical interaction.",
+    "categories": [
+      "Locomotion",
+      "Manipulation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Dataset",
+      "GAN",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.19728",
+    "title": "Bidirectional Tutoring for Developmental Motor Learning in Robots: Co-Developed Interaction Dynamics Support Stable Learning",
+    "paper_url": "https://arxiv.org/abs/2606.19728",
+    "project_url": null,
+    "authors": [
+      "Rui Fukushima",
+      "Jun Tani"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "Infants are well known to develop their motor skills through dense interaction with caregivers. Although such social interaction is crucial for human development, motor-skill learning in robots is often treated as a unidirectional process in which robots passively receive demonstrations from tutors. This overlooks a key property of social interaction: it is inherently bidirectional, with tutor and learner dynamically adapting to each other. In such interactions, the robot's past experiences may function as prior constraints that shape the dynamics of their co-developed trajectories. We hypothesize that bidirectional tutoring allows such constraints to guide the formation of consistent behavioral patterns that preserve behavioral coherence and support generalization, whereas unidirectional interaction lacks such constraints and leads to broader, less consistent behavioral patterns. To examine this hypothesis, we conducted two experiments with a physical humanoid robot performing an object manipulation task: one involving human-robot interaction and another employing an AI tutor interacting with the real robot through an adaptive intervention mechanism designed to examine whether similar effects would emerge under more controlled conditions. We implement the developmental learning framework using a free-energy-principle-based neural network extended with generative replay, which supports stable sequence-by-sequence learning from single tutored episodes. Across both settings, bidirectional tutoring fostered consistent behaviors and stage-wise generalization, while the robot gradually required less tutor guidance. These results suggest that bidirectional tutoring, as an embodied and socially grounded approach, provides an effective scaffold for developmental motor learning in robots.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Real Robot",
+      "Humanoid",
+      "PPO"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.19699",
+    "title": "Comparative Study on Agility, Efficiency, and Impact Absorption of Bipedal Robots with Active Toes",
+    "paper_url": "https://arxiv.org/abs/2606.19699",
+    "project_url": null,
+    "authors": [
+      "Joong-Gil Kim",
+      "Wontae Ye",
+      "Geunwoo Cho",
+      "Seong-Ho Yun",
+      "Se-Hyoung Cho",
+      "Yong-Jae Kim"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "Human legs exhibit high efficiency, agility, and impact absorption, with toes playing a crucial role in these capabilities. While many attempts have been made to implement human-like toes in robots, they have not fully replicated human characteristics nor rigorously validated their benefits. We propose a 14-DOF biped robot emulating human toes' lightweight, high-torque, robust nature. To quantitatively analyze the effectiveness of the active toes in terms of agility, efficiency, and impact absorption, we developed a high-fidelity simulation training environment that reflects actual actuators with coupled transmissions and accurate power consumption. To ensure a fair comparison between configurations with and without active toes, we designed a minimal RL reward function and applied an identical training procedure to both. The simulation results indicate that, at 1.33 m/s walking, the toe-equipped robot reduced CoT by 17.5% and heel-strike GRF by 5.0% compared with the toe-ablation configuration. On the agility test, average and maximum path deviation decreased by 25.0% and 34.0%, respectively.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Hardware Design",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Biped",
+      "Walking",
+      "Impact",
+      "Locomotion",
+      "State Estimation",
+      "Hardware Design",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.20210",
+    "title": "Augmenting Game AI with Deep Reinforcement Learning",
+    "paper_url": "https://arxiv.org/abs/2606.20210",
+    "project_url": null,
+    "authors": [
+      "Alessandro Sestini",
+      "Joakim Bergdahl",
+      "Amir Baghi",
+      "Jean-Philippe Barrette-LaPierre",
+      "Florian Fuchs",
+      "Linus Gisslén"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "Immersion in video games depends not only on graphics, audio, and game mechanics, but also on the quality of in-game characters. Producing believable characters, or game AI, remains a significant challenge as behavioral complexity is hard to capture with hand-coded systems. Game AI is a source of immersion and engagement; however, the limitations stemming from the challenges of creating game AI often lead to frustration and the breaking of the illusion of realism within the game. The introduction of machine learning models opens the door to creating more believable, authentic, and relatable characters in games. The promise is that they either learn from interacting with the game, or from player data, to develop true human-like behavior. In this paper, we envision more applications of reinforcement learning for game AI in the future. For this to materialize, current research limitations are prohibitive to broad deployment across game genres. Therefore, we propose a framework for training reinforcement learning models with a set of requirements in mind that are suited towards game AI and game development. We present examples of games with reinforcement learning-augmented game AI and describe the practicalities of deploying player-facing machine learning agents in modern games. Furthermore, we identify bottlenecks and hard problems in these areas, which we believe offer promising research directions to accelerate the adoption of machine learning in game AI for the video game industry.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.20400",
+    "title": "The Significance of Style Diversity in Annotation-Free Synthetic Data Generation",
+    "paper_url": "https://arxiv.org/abs/2606.20400",
+    "project_url": null,
+    "authors": [
+      "Zahra Abbasiantaeb",
+      "Zeno Belligoli",
+      "Omar Essam",
+      "Mohammad Aliannejadi"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "Generating high-utility synthetic data for intent classification typically requires human-annotated seed data, which is often unavailable in fast-paced industrial settings. In this paper, we propose a framework for synthetic dialogue generation that works entirely without human-annotated data, relying solely on intent definitions. Our proposed dialogue generation framework utilizes two different types of topic and style attributes to improve data diversity. Also, we propose two novel post-hoc stylization models called Univ and Exam to transform synthetic LLM-generated utterances into more varied, human-like linguistic styles. To enhance data quality, we utilize an LLM-as-a-judge filtering process. Experimental results on both industrial and public datasets demonstrate that the proposed approach achieves up to 93.3% of the performance obtained using human-annotated training data. Crucially, the findings reveal that style diversity is more critical than topic diversity for synthetic data utility, as it prevents models from learning spurious stylistic correlations. Furthermore, the study shows that incorporating style attributes during the generation process is more effective than post-hoc style adaptation.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.20199",
+    "title": "Evaluation of Image Matching for Art Skills Assessment",
+    "paper_url": "https://arxiv.org/abs/2606.20199",
+    "project_url": null,
+    "authors": [
+      "Asaad Alghamdi",
+      "Michael Poor",
+      "Trung-Nghia Le",
+      "Tam V. Nguyen"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "While some individuals possess a natural talent for drawing, mastering this skill requires dedicated training and practice. Determining one's skill in the art of drawing requires proper comprehensive assessment. In this paper, we propose a method to measure drawing skill by by matching the hand-drawn image with the original template. Existing techniques often involve complex processes. However, advancements in computer vision allow us to train computers to perform these comparisons at a human-like level, thereby resolving the tedious and overwhelming traditional process. Using computer vision applications, determining image similarity involves identifying the level of similarities in an image with a reference image. We have implemented and analyzed the SIFT feature and Siamese network to measure image similarity. Our results indicate that it is feasible to assess art skill levels. Through feature analysis, we found that SIFT-based key point matching provides a more effective means of detecting drawing skills.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Computer Vision",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.19935",
+    "title": "PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation",
+    "paper_url": "https://arxiv.org/abs/2606.19935",
+    "project_url": null,
+    "authors": [
+      "Zhangzhao Liang",
+      "Xiaofen Xing",
+      "Mingyue Yang",
+      "Wenlve Zhou",
+      "Xiangmin Xu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "Humanoid robots require co-speech motions that are not only expressive and speech-aligned, but also physically executable under embodiment constraints. Existing co-speech generation pipelines are predominantly human-centric: motions are first generated in human-body representations such as SMPL-X and subsequently retargeted to humanoid robots. In this work, we identify a fundamental embodiment gap in this paradigm, where the mismatch between human motion manifolds and humanoid embodiment constraints disrupts embodiment consistency during motion transfer and physical execution. Through extensive analysis, we show that although retargeting can preserve coarse motion semantics, it significantly compresses motion diversity and weakens prosody-motion synchronization, limiting expressive humanoid behaviors. To address this problem, we first propose IK-EER, a prosody-preserving humanoid motion curation framework that jointly optimizes kinematic feasibility and speech-motion temporal alignment during retargeting. Building upon the curated robot-native motion dataset, we further introduce PhysDrift, an embodiment-aware co-speech motion generation framework that directly predicts executable humanoid joint trajectories from speech without relying on intermediate human-body representations. Unlike conventional human-centric pipelines, PhysDrift maintains embodiment consistency throughout both training and inference while incorporating physical regularization to stabilize robot motion dynamics. Extensive experiments and real-world humanoid deployment demonstrate that embodiment-aware robot-native generation substantially improves speech-motion alignment, physical plausibility, motion smoothness, inference efficiency, and real-time interaction capability.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Humanoid",
+      "Dataset",
+      "Physics-Based Character Animation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2606.19512",
+    "title": "Proprioceptive Invariant State Estimation for Humanoid Robots on Non-Inertial Ground",
+    "paper_url": "https://arxiv.org/abs/2606.19512",
+    "project_url": null,
+    "authors": [
+      "Falak Mandali",
+      "Zijian He",
+      "Yan Gu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-17",
+    "abstract": "This paper presents an invariant extended Kalman filtering (InEKF) approach for real-time state estimation of humanoid robots operating on non-inertial ground using only onboard proprioceptive sensing. The proposed approach estimates the robot's base position and velocity relative to the moving ground frame without requiring direct measurements of ground motion or externally mounted sensors. By exploiting kinematic constraints at the stance foot through foot-mounted IMUs, the filter accounts for ground-induced nonlinearities in the process and measurement models while remaining fully proprioceptive. The estimator is formulated to admit a right-invariant measurement model, enabling favorable error dynamics under large initial uncertainties. Observability analysis establishes conditions under which the robot's relative base position and velocity are observable with respect to the non-inertial ground frame. Experiments with the Digit humanoid robot standing and squatting atop a swaying and pitching ground showcase a 96% speedup in convergence rate and an 80% reduction in position estimate errors over existing InEKFs. Walking experiments on a uni-axially rotating ground achieve an average estimation error of less than 9 cm for an initial error of up to 1 m.",
+    "categories": [
+      "State Estimation",
+      "Locomotion",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "State Estimation",
+      "Humanoid",
+      "Walking",
+      "Locomotion",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
     "arxiv_id": "2606.19333",
     "title": "Do as I Do: Dexterous Manipulation Data from Everyday Human Videos",
     "paper_url": "https://arxiv.org/abs/2606.19333",
@@ -97,45 +384,6 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Manipulation"
-  },
-  {
-    "arxiv_id": "2606.18625",
-    "title": "SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping",
-    "paper_url": "https://arxiv.org/abs/2606.18625",
-    "project_url": null,
-    "authors": [
-      "Xiaowen Hu",
-      "Linqi Ye",
-      "Yudi Zhu",
-      "Chenyue Shao",
-      "Rankun Li",
-      "Qingdu Li",
-      "Yan Peng"
-    ],
-    "published": "2026-06",
-    "published_date": "2026-06-17",
-    "abstract": "Robotic jumping is pivotal in applications such as search and rescue and logistics, where crossing obstacles and enhancing mobility efficiency are critical. The Spring-Loaded Inverted Pendulum (SLIP) model leverages simplified spring-mass dynamics that naturally encode biologically plausible hopping motions, yet its performance degrades on irregular terrain due to idealized assumptions regarding contact and joint dynamics. Meanwhile, Reinforcement Learning (RL) can adapt to diverse and complex environments but often requires extensive data from unguided exploration. The complementary strengths of SLIP's physically grounded baseline and RL's adaptive capabilities motivate a hybrid framework that overcomes these individual limitations. We therefore propose Spring-loaded Reinforcement Learning (SRL), which integrates SLIP-based feedforward control signals with RL-driven real-time feedback, enabling continuous optimization of robotic jumping. Experimental results demonstrate that SRL can achieve more stable jumps with much less training time than the baseline method, maintaining an average position tracking error below 0.1 m and velocity tracking errors within +/-3% of the target values. Through bipedal and quadrupedal simulations of ground and stair jumping, as well as sim-to-sim and sim-to-real validations, SRL exhibits robust adaptability to various task requirements and environmental complexities, underscoring its potential for real-world deployment.",
-    "categories": [
-      "Locomotion",
-      "Navigation",
-      "State Estimation",
-      "Sim-to-Real",
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Sim-to-Real",
-      "Biped",
-      "Locomotion",
-      "Navigation",
-      "State Estimation",
-      "Simulation Benchmark"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2606.17833",
@@ -1012,6 +1260,43 @@
     "platform": null,
     "summary": "",
     "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.19370",
+    "title": "Human-like autonomy emerges from self-play and a pinch of human data",
+    "paper_url": "https://arxiv.org/abs/2606.19370",
+    "project_url": null,
+    "authors": [
+      "Daphne Cornelisse",
+      "Julian Hunt",
+      "Zixu Zhang",
+      "Waël Doulazmi",
+      "Kevin Joseph",
+      "Jaime Fernández Fisac",
+      "Eugene Vinitsky"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-11",
+    "abstract": "Self-play reinforcement learning has recently emerged as a way to train driving policies without any human data. It uses cheap, large-scale simulations to substitute expensive, large-scale human driving demonstrations. A key limitation of this approach is that policies trained through pure self-play can learn effective but alien driving conventions incompatible with people. Previous works attempt to mitigate such behavioral misalignments through extensive reward engineering and domain randomization, which are brittle and labor-intensive. Instead of completely discarding human demonstrations, our method treats them as a regularization objective on top of a minimal safe goal-reaching reward. Like the spice in a good stew, we find that a little human data goes a long way: our method uses only 30 minutes of human demonstrations, 2500x fewer than comparable imitation learning approaches. Resulting policies coordinate with held-out human trajectories and complete training in 15 hours on a single consumer-grade GPU. Videos and full source code are available at https://spiced-self-play.com/.",
+    "categories": [
+      "State Estimation",
+      "Sim-to-Real",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Imitation Learning",
+      "Domain Randomization",
+      "Human Demonstration",
+      "State Estimation",
+      "Sim-to-Real",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
   },
   {
     "arxiv_id": "2606.12814",

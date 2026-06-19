@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**199 papers** in this category.
+**201 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (20 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (22 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -35,6 +35,36 @@
 ---
 
 ## Recent Papers
+
+## Augmenting Game AI with Deep Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.20210)
+- **Authors:** Alessandro Sestini, Joakim Bergdahl, Amir Baghi, Jean-Philippe Barrette-LaPierre, Florian Fuchs, Linus Gisslén
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Immersion in video games depends not only on graphics, audio, and game mechanics, but also on the quality of in-game characters. Producing believable characters, or game AI, remains a significant challenge as behavioral complexity is hard to capture with hand-coded systems.
+
+---
+
+## Evaluation of Image Matching for Art Skills Assessment
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.20199)
+- **Authors:** Asaad Alghamdi, Michael Poor, Trung-Nghia Le, Tam V. Nguyen
+- **Published:** 2026-06
+- **Tags:**
+  - Computer Vision
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+While some individuals possess a natural talent for drawing, mastering this skill requires dedicated training and practice. Determining one's skill in the art of drawing requires proper comprehensive assessment.
+
+---
 
 ## DeepInsight: A Unified Evaluation Infrastructure Across the Physical AI Stack
 
@@ -376,46 +406,5 @@ Building a general-purpose whole-body controller is essential for enabling diver
 ### Summary
 
 We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained on a billion-scale motion corpus for whole-body control. Unlike prior shallow MLP trackers constrained by scarce data and an agility-generalization trade-off, Humanoid-GPT is pre-trained on a 2B-frame retargeted corpus that unifies all major mocap datasets with large-scale in-house recordings.
-
----
-
-## Bionic Human-Motion Style Transfer for Physically Executable Whole-Body Control of Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.03536)
-- **Authors:** Tianchen Huang, Mingkuan Zhao, Yang Gao, Feiyang Yuan, Junchi Gu, Xiaohu Zhang et al. (11 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Gait
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Expressive whole-body motion is important for humanoid robots operating in human environments, where robots are expected to move stably while presenting readable and adjustable body behaviors. However, most expressive motions are still obtained from fixed demonstrations or manually designed scripts, making it difficult to reuse a demonstrated style across different motion contents.
-
----
-
-## SplitAdapter: Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.03297)
-- **Authors:** Jeonguk Kang, Hanbyel Cho, Sanghyun Kang, Donghan Koo
-- **Published:** 2026-06
-- **Tags:**
-  - Whole-Body Control
-  - Sim-to-Real
-  - Manipulation
-  - Robustness
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid loco-manipulation requires stable whole-body control under varying object masses and pickup/placement heights. This becomes particularly challenging in sim-to-real transfer, where object-induced load variation and robot-side dynamics mismatch interact during physical contact.
 
 ---

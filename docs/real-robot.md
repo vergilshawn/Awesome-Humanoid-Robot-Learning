@@ -4,16 +4,95 @@ Papers with real humanoid robot deployment and experiments.
 
 ## Platforms
 
-- **Digit:** 2 papers
-- **Figure:** 18 papers
+- **Digit:** 4 papers
+- **Figure:** 20 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 35 papers
-- **Unknown Platform:** 7 papers
+- **Unknown Platform:** 6 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Data Standards for Humanoid Robotics: The Missing Infrastructure for Physical AI
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19769)
+- **Authors:** Shaoshan Liu, Xiugong Qin, Xuan Wu, Xuan Xia, Ning Ding, Jialu Liu et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - GAN
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+The scalability of humanoid robots will depend not only on models and hardware, but also on whether physical experience can accumulate across robots, tasks, organizations, and time. Drawing on the authors' work in developing ISO/WD 26264-1, Humanoid robot datasets -- Part 1: General requirements, within ISO/TC 299/WG 16, this article argues that data standards are becoming foundational infrastructure for Physical AI.
+
+---
+
+## Bidirectional Tutoring for Developmental Motor Learning in Robots: Co-Developed Interaction Dynamics Support Stable Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19728)
+- **Authors:** Rui Fukushima, Jun Tani
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - PPO
+
+### Summary
+
+Infants are well known to develop their motor skills through dense interaction with caregivers. Although such social interaction is crucial for human development, motor-skill learning in robots is often treated as a unidirectional process in which robots passively receive demonstrations from tutors.
+
+---
+
+## Comparative Study on Agility, Efficiency, and Impact Absorption of Bipedal Robots with Active Toes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19699)
+- **Authors:** Joong-Gil Kim, Wontae Ye, Geunwoo Cho, Seong-Ho Yun, Se-Hyoung Cho, Yong-Jae Kim
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Biped
+  - Walking
+  - Impact
+  - Locomotion
+  - State Estimation
+  - Hardware Design
+  - Simulation Benchmark
+
+### Summary
+
+Human legs exhibit high efficiency, agility, and impact absorption, with toes playing a crucial role in these capabilities. While many attempts have been made to implement human-like toes in robots, they have not fully replicated human characteristics nor rigorously validated their benefits.
+
+---
+
+## Proprioceptive Invariant State Estimation for Humanoid Robots on Non-Inertial Ground
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19512)
+- **Authors:** Falak Mandali, Zijian He, Yan Gu
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - State Estimation
+  - Humanoid
+  - Walking
+  - Locomotion
+  - Physics-Based Character Animation
+
+### Summary
+
+This paper presents an invariant extended Kalman filtering (InEKF) approach for real-time state estimation of humanoid robots operating on non-inertial ground using only onboard proprioceptive sensing. The proposed approach estimates the robot's base position and velocity relative to the moving ground frame without requiring direct measurements of ground motion or externally mounted sensors.
+
+---
 
 ## Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot
 
@@ -52,27 +131,6 @@ In this letter, we present a hierarchical control framework that enables wheeled
 ### Summary
 
 Human demonstrations, which can be collected at scale and naturally capture active hand-eye coordination, are a promising data source for learning humanoid loco-manipulation. However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
-
----
-
-## SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.18625)
-- **Authors:** Xiaowen Hu, Linqi Ye, Yudi Zhu, Chenyue Shao, Rankun Li, Qingdu Li et al. (7 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Biped
-  - Locomotion
-  - Navigation
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Robotic jumping is pivotal in applications such as search and rescue and logistics, where crossing obstacles and enhancing mobility efficiency are critical. The Spring-Loaded Inverted Pendulum (SLIP) model leverages simplified spring-mass dynamics that naturally encode biologically plausible hopping motions, yet its performance degrades on irregular terrain due to idealized assumptions regarding contact and joint dynamics.
 
 ---
 

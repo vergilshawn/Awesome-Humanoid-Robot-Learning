@@ -2,6 +2,166 @@
 
 All papers sorted by publication date (newest first).
 
+## Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19774)
+- **Authors:** Trong-Bao Ho, Quang-Tan Nguyen, Thien-Loc Ha, Gia-Binh Nguyen, Viet-Thanh Nguyen, Long Dinh et al. (10 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Action chunking enables robot policies to produce temporally coherent behavior, but generating multi-step action sequences with flow-based policies incurs latency that is incompatible with real-time control. Under asynchronous execution, the robot continues executing the current chunk while the next one is generated, causing even minor delays to create inconsistencies at chunk boundaries.
+
+---
+
+## Data Standards for Humanoid Robotics: The Missing Infrastructure for Physical AI
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19769)
+- **Authors:** Shaoshan Liu, Xiugong Qin, Xuan Wu, Xuan Xia, Ning Ding, Jialu Liu et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - GAN
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+The scalability of humanoid robots will depend not only on models and hardware, but also on whether physical experience can accumulate across robots, tasks, organizations, and time. Drawing on the authors' work in developing ISO/WD 26264-1, Humanoid robot datasets -- Part 1: General requirements, within ISO/TC 299/WG 16, this article argues that data standards are becoming foundational infrastructure for Physical AI.
+
+---
+
+## Bidirectional Tutoring for Developmental Motor Learning in Robots: Co-Developed Interaction Dynamics Support Stable Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19728)
+- **Authors:** Rui Fukushima, Jun Tani
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - PPO
+
+### Summary
+
+Infants are well known to develop their motor skills through dense interaction with caregivers. Although such social interaction is crucial for human development, motor-skill learning in robots is often treated as a unidirectional process in which robots passively receive demonstrations from tutors.
+
+---
+
+## Comparative Study on Agility, Efficiency, and Impact Absorption of Bipedal Robots with Active Toes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19699)
+- **Authors:** Joong-Gil Kim, Wontae Ye, Geunwoo Cho, Seong-Ho Yun, Se-Hyoung Cho, Yong-Jae Kim
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Biped
+  - Walking
+  - Impact
+  - Locomotion
+  - State Estimation
+  - Hardware Design
+  - Simulation Benchmark
+
+### Summary
+
+Human legs exhibit high efficiency, agility, and impact absorption, with toes playing a crucial role in these capabilities. While many attempts have been made to implement human-like toes in robots, they have not fully replicated human characteristics nor rigorously validated their benefits.
+
+---
+
+## Augmenting Game AI with Deep Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.20210)
+- **Authors:** Alessandro Sestini, Joakim Bergdahl, Amir Baghi, Jean-Philippe Barrette-LaPierre, Florian Fuchs, Linus Gisslén
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Immersion in video games depends not only on graphics, audio, and game mechanics, but also on the quality of in-game characters. Producing believable characters, or game AI, remains a significant challenge as behavioral complexity is hard to capture with hand-coded systems.
+
+---
+
+## The Significance of Style Diversity in Annotation-Free Synthetic Data Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.20400)
+- **Authors:** Zahra Abbasiantaeb, Zeno Belligoli, Omar Essam, Mohammad Aliannejadi
+- **Published:** 2026-06
+- **Tags:**
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Generating high-utility synthetic data for intent classification typically requires human-annotated seed data, which is often unavailable in fast-paced industrial settings. In this paper, we propose a framework for synthetic dialogue generation that works entirely without human-annotated data, relying solely on intent definitions.
+
+---
+
+## Evaluation of Image Matching for Art Skills Assessment
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.20199)
+- **Authors:** Asaad Alghamdi, Michael Poor, Trung-Nghia Le, Tam V. Nguyen
+- **Published:** 2026-06
+- **Tags:**
+  - Computer Vision
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+While some individuals possess a natural talent for drawing, mastering this skill requires dedicated training and practice. Determining one's skill in the art of drawing requires proper comprehensive assessment.
+
+---
+
+## PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19935)
+- **Authors:** Zhangzhao Liang, Xiaofen Xing, Mingyue Yang, Wenlve Zhou, Xiangmin Xu
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Physics-Based Character Animation
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid robots require co-speech motions that are not only expressive and speech-aligned, but also physically executable under embodiment constraints. Existing co-speech generation pipelines are predominantly human-centric: motions are first generated in human-body representations such as SMPL-X and subsequently retargeted to humanoid robots.
+
+---
+
+## Proprioceptive Invariant State Estimation for Humanoid Robots on Non-Inertial Ground
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19512)
+- **Authors:** Falak Mandali, Zijian He, Yan Gu
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - State Estimation
+  - Humanoid
+  - Walking
+  - Locomotion
+  - Physics-Based Character Animation
+
+### Summary
+
+This paper presents an invariant extended Kalman filtering (InEKF) approach for real-time state estimation of humanoid robots operating on non-inertial ground using only onboard proprioceptive sensing. The proposed approach estimates the robot's base position and velocity relative to the moving ground frame without requiring direct measurements of ground motion or externally mounted sensors.
+
+---
+
 ## Do as I Do: Dexterous Manipulation Data from Everyday Human Videos
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.19333)
@@ -55,27 +215,6 @@ In this letter, we present a hierarchical control framework that enables wheeled
 ### Summary
 
 Human demonstrations, which can be collected at scale and naturally capture active hand-eye coordination, are a promising data source for learning humanoid loco-manipulation. However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
-
----
-
-## SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.18625)
-- **Authors:** Xiaowen Hu, Linqi Ye, Yudi Zhu, Chenyue Shao, Rankun Li, Qingdu Li et al. (7 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Biped
-  - Locomotion
-  - Navigation
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Robotic jumping is pivotal in applications such as search and rescue and logistics, where crossing obstacles and enhancing mobility efficiency are critical. The Spring-Loaded Inverted Pendulum (SLIP) model leverages simplified spring-mass dynamics that naturally encode biologically plausible hopping motions, yet its performance degrades on irregular terrain due to idealized assumptions regarding contact and joint dynamics.
 
 ---
 
@@ -555,6 +694,26 @@ Whole-body humanoid manipulation of bulky, deformable, and shared-load objects r
 ### Summary
 
 Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects. Existing methods often require time-consuming task-specific policy training or rely on rigid trajectory replay, which limits their ability to accommodate novel interaction scenarios.
+
+---
+
+## Human-like autonomy emerges from self-play and a pinch of human data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19370)
+- **Authors:** Daphne Cornelisse, Julian Hunt, Zixu Zhang, Waël Doulazmi, Kevin Joseph, Jaime Fernández Fisac et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Domain Randomization
+  - Human Demonstration
+  - State Estimation
+  - Sim-to-Real
+  - Simulation Benchmark
+
+### Summary
+
+Self-play reinforcement learning has recently emerged as a way to train driving policies without any human data. It uses cheap, large-scale simulations to substitute expensive, large-scale human driving demonstrations.
 
 ---
 

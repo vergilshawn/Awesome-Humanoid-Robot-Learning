@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**48 papers** in this category.
+**49 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (11 papers)
+- [2026-06](/simulation-benchmark/2026-06) (12 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -23,6 +23,21 @@
 ---
 
 ## Recent Papers
+
+## The Significance of Style Diversity in Annotation-Free Synthetic Data Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.20400)
+- **Authors:** Zahra Abbasiantaeb, Zeno Belligoli, Omar Essam, Mohammad Aliannejadi
+- **Published:** 2026-06
+- **Tags:**
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Generating high-utility synthetic data for intent classification typically requires human-annotated seed data, which is often unavailable in fast-paced industrial settings. In this paper, we propose a framework for synthetic dialogue generation that works entirely without human-annotated data, relying solely on intent definitions.
+
+---
 
 ## VENOM: Versatile Embodied Network for Omni-bodied Motion tracking
 
@@ -387,28 +402,5 @@ Accurately forecasting human trajectories from an egocentric perspective plays a
 ### Summary
 
 Recent motion-language models unify tasks like comprehension and generation but operate at a coarse granularity, lacking fine-grained understanding and nuanced control over body parts needed for animation or interaction. This stems from fundamental issues in both the model and the data, in which the model can't focus on motion's localized pattern, and the training data lacks fine-grained supervision.
-
----
-
-## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
-- **Project:** [GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
-- **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Safety
-  - Robustness
-  - MuJoCo
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
 
 ---

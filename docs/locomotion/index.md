@@ -1,10 +1,10 @@
 # Locomotion
 
-**119 papers** in this category.
+**120 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (14 papers)
+- [2026-06](/locomotion/2026-06) (15 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -37,6 +37,48 @@
 
 ## Recent Papers
 
+## Data Standards for Humanoid Robotics: The Missing Infrastructure for Physical AI
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19769)
+- **Authors:** Shaoshan Liu, Xiugong Qin, Xuan Wu, Xuan Xia, Ning Ding, Jialu Liu et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - GAN
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+The scalability of humanoid robots will depend not only on models and hardware, but also on whether physical experience can accumulate across robots, tasks, organizations, and time. Drawing on the authors' work in developing ISO/WD 26264-1, Humanoid robot datasets -- Part 1: General requirements, within ISO/TC 299/WG 16, this article argues that data standards are becoming foundational infrastructure for Physical AI.
+
+---
+
+## Comparative Study on Agility, Efficiency, and Impact Absorption of Bipedal Robots with Active Toes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.19699)
+- **Authors:** Joong-Gil Kim, Wontae Ye, Geunwoo Cho, Seong-Ho Yun, Se-Hyoung Cho, Yong-Jae Kim
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Biped
+  - Walking
+  - Impact
+  - Locomotion
+  - State Estimation
+  - Hardware Design
+  - Simulation Benchmark
+
+### Summary
+
+Human legs exhibit high efficiency, agility, and impact absorption, with toes playing a crucial role in these capabilities. While many attempts have been made to implement human-like toes in robots, they have not fully replicated human characteristics nor rigorously validated their benefits.
+
+---
+
 ## Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.19233)
@@ -54,27 +96,6 @@
 ### Summary
 
 In this letter, we present a hierarchical control framework that enables wheeled bipedal robots to perform planar object sliding tasks with their wheeled legs. The proposed approach formulates a nonlinear model predictive controller (NMPC) based on a reduced-order three rigid bodies (TRB) dynamical model that explicitly accounts for the hip roll degree of freedom and multiple wheel-environment contact modes, which is essential for lateral stepping and pedipulation tasks.
-
----
-
-## SRL: Combining SLIP Model and Reinforcement Learning for Agile Robotic Jumping
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.18625)
-- **Authors:** Xiaowen Hu, Linqi Ye, Yudi Zhu, Chenyue Shao, Rankun Li, Qingdu Li et al. (7 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Biped
-  - Locomotion
-  - Navigation
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Robotic jumping is pivotal in applications such as search and rescue and logistics, where crossing obstacles and enhancing mobility efficiency are critical. The Spring-Loaded Inverted Pendulum (SLIP) model leverages simplified spring-mass dynamics that naturally encode biologically plausible hopping motions, yet its performance degrades on irregular terrain due to idealized assumptions regarding contact and joint dynamics.
 
 ---
 
@@ -413,25 +434,5 @@ We study real-time audio-responsive character control as a deployment-faithful p
 ### Summary
 
 Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively.
-
----
-
-## MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.24592)
-- **Authors:** Yusen Feng, Xiang Wang, Heyuan Yao, Zixi Kang, Xinyu Huo, Boyang Yu et al. (10 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Distillation
-  - Policy Learning
-  - VAE
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-This paper presents MuGen, a data-driven framework for learning and deploying multi-skill locomotion on humanoid robots. MuGen enables a robot to perform expressive motions like humans under the guidance of example motion sequences.
 
 ---
