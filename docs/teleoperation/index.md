@@ -1,10 +1,10 @@
 # Teleoperation
 
-**29 papers** in this category.
+**30 papers** in this category.
 
 ## Months
 
-- [2026-06](/teleoperation/2026-06) (7 papers)
+- [2026-06](/teleoperation/2026-06) (8 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
 - [2026-02](/teleoperation/2026-02) (4 papers)
@@ -22,6 +22,28 @@
 ---
 
 ## Recent Papers
+
+## Duet: Dual-Robot Understanding via Efficient Teaching
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.20990)
+- **Authors:** Yiqi Zhao, Ruohai Ge, Celina Shiyu Wang, Junjie Ye, Muchen Xu, Minhao Li et al. (13 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Transformer
+  - Human Demonstration
+  - Humanoid
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Dual-robot collaboration enables tasks that exceed the reach and payload of a single robot, such as collaboratively transporting objects across environments and executing coordinated handovers. Data acquisition is the primary bottleneck for training these systems.
+
+---
 
 ## WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning
 
@@ -347,20 +369,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Manipulation
   - Humanoid
   - Parameter Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## CHILD: a Whole-Body Humanoid Teleoperation System
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.00162)
-- **Published:** 2025-08
-- **Tags:**
-  - Teleoperation
-  - Humanoid
 
 ### Summary
 

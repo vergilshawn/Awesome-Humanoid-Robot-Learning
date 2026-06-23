@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**49 papers** in this category.
+**50 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (12 papers)
+- [2026-06](/simulation-benchmark/2026-06) (13 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -24,18 +24,46 @@
 
 ## Recent Papers
 
-## The Significance of Style Diversity in Annotation-Free Synthetic Data Generation
+## TEXEDO : Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.20400)
-- **Authors:** Zahra Abbasiantaeb, Zeno Belligoli, Omar Essam, Mohammad Aliannejadi
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.22998)
+- **Authors:** Jianuo Cao, Yuxin Chen, Yuzhen Song, Masayoshi Tomizuka, Chenran Li, Thomas Tian
 - **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
+  - Humanoid
+  - Language-Conditioned
+  - Contact Dynamics
   - Dataset
   - Simulation Benchmark
+  - Physics-Based Character Animation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
 
 ### Summary
 
-Generating high-utility synthetic data for intent classification typically requires human-annotated seed data, which is often unavailable in fast-paced industrial settings. In this paper, we propose a framework for synthetic dialogue generation that works entirely without human-annotated data, relying solely on intent definitions.
+Text-conditioned motion generation is a promising interface for programming humanoid robots, yet current generators are often trained on human motion datasets retargeted to robot morphologies. Although such data provides rich semantic and kinematic priors, it fails to capture the nuances of whole-body tracking controllers, including balance, contact dynamics, actuation limits, and controller-specific failure modes.
+
+---
+
+## ReFPO: Reflow Regularization for Flow Matching Policy Gradients
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.21086)
+- **Authors:** Ge Wang, Yibo Peng, Fan Feng, Shenhao Yan, Chengsi Yao, Jiahao Yang et al. (13 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Robustness
+  - MuJoCo
+  - Humanoid
+  - Distillation
+  - PPO
+  - Flow Matching
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+We present Reflow-regularized Flow Matching Policy Gradients (ReFPO), a simple online RL method that adds explicit Reflow regularization to FPO for efficient flow-based control. We uncover a key structural property: the gradient updates in Flow Matching Policy Gradients (FPO) can be interpreted as an implicit advantage-weighted Reflow process, providing a new geometric perspective on flow-based policy gradients.
 
 ---
 
@@ -382,25 +410,5 @@ Controlling physics-based humanoids from natural-language instructions is a crit
 ### Summary
 
 Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
-
----
-
-## MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.18956)
-- **Authors:** Bizhu Wu, Jinheng Xie, Wenting Chen, Zhe Kong, Jianfeng Ren, Linlin Shen et al. (8 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Zero-Shot
-  - Pre-training
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Recent motion-language models unify tasks like comprehension and generation but operate at a coarse granularity, lacking fine-grained understanding and nuanced control over body parts needed for animation or interaction. This stems from fundamental issues in both the model and the data, in which the model can't focus on motion's localized pattern, and the training data lacks fine-grained supervision.
 
 ---

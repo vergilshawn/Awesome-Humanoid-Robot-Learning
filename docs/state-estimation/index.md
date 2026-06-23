@@ -1,10 +1,10 @@
 # State Estimation
 
-**23 papers** in this category.
+**24 papers** in this category.
 
 ## Months
 
-- [2026-06](/state-estimation/2026-06) (11 papers)
+- [2026-06](/state-estimation/2026-06) (12 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
@@ -16,6 +16,24 @@
 ---
 
 ## Recent Papers
+
+## Toward Machine Risk Perception: Integrating Trust Calibration and Precursor-Based Risk Estimation for Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.20748)
+- **Authors:** He Wen
+- **Published:** 2026-06
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Dataset
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots are emerging as co-workers in smart manufacturing, yet their dynamic, human-like movements introduce safety risks that differ fundamentally from those of fixed or wheeled robots. Conventional safety paradigms based on reactive force or distance limits fail to capture the sequential, uncertain nature of humanoid failures.
+
+---
 
 ## Proprioceptive Invariant State Estimation for Humanoid Robots on Non-Inertial Ground
 
@@ -361,19 +379,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2507.10105)
 - **Published:** 2025-07
-- **Tags:**
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## An Empirical Evaluation of Four Off-the-Shelf Proprietary Visual-Inertial Odometry Systems
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2207.06780)
-- **Published:** 2022-07
 - **Tags:**
   - State Estimation
 

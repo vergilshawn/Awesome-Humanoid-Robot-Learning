@@ -1,5 +1,363 @@
 [
   {
+    "arxiv_id": "2606.23680",
+    "title": "CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.23680",
+    "project_url": null,
+    "authors": [
+      "Sikai Li",
+      "Shuning Li",
+      "Zhenyu Wei",
+      "Yunchao Yao",
+      "Chenran Li",
+      "Mingyu Ding"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-22",
+    "abstract": "Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive. We introduce CoorDex, a learning pipeline that converts high-dimensional body and dexterous hand control into coordinated latent residual control, enabling high-DoF dexterous loco-manipulation on the move. Starting from simulated whole-body and hand demonstrations, CoorDex trains privileged motion tracking teachers for the humanoid body and dexterous hand, distills them into proprioception-conditioned latent priors, and uses the frozen priors as the action space for downstream residual reinforcement learning. A coordinated latent residual policy composes these priors through shared task context and separate body-hand residual heads, preserving natural whole-body motion while improving finger-level contact reliability. CoorDex enables a Unitree G1 humanoid with a 20-DoF WUJI hand to execute dexterous manipulation while in motion, including non-stop bottle grasping and carrying, fridge door opening on the move, and cube pick-and-turn. Ablations on the walk-grasp-carry task show that joint-space PPO, joint-space hand control, and monolithic latent prediction all fail under the same reward budget, while the latent-prior interface and coordinated residual structure make high-dimensional contact-rich loco-manipulation trainable. Project Page: https://skevinci.github.io/coordex/",
+    "categories": [
+      "Locomotion",
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Walking",
+      "Proprioception",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.23565",
+    "title": "HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory",
+    "paper_url": "https://arxiv.org/abs/2606.23565",
+    "project_url": null,
+    "authors": [
+      "Xiaolin Zhou",
+      "Liu Liu",
+      "Tingyang Xiao",
+      "Wei Feng",
+      "Fa Fu",
+      "Xinrui Meng",
+      "Xinjie Wang",
+      "Jialiang Han",
+      "Boyang Yu",
+      "Yun Du",
+      "Wei Sui",
+      "Zhizhong Su"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-22",
+    "abstract": "LLM agents follow a practical execution loop in digital environments: they reason over structured states, invoke tools, inspect feedback, and revise actions. Extending this loop to physical robots is difficult because physical execution is continuous, embodiment-dependent, uncertain, and constrained by safety. Existing embodied-AI systems have advanced manipulation, spatial understanding, navigation, and humanoid control, but these capabilities often remain specialized modules or loosely coupled decision loops. In this work, we introduce HoloAgent-0, a unified embodied agent framework for real-world robot deployment. Embodied AgentOS converts language instructions into executable skill graphs, schedules robot resources, monitors execution, and triggers clarification or re-planning from runtime feedback. HoloAgent-0 organizes heterogeneous robot models and controllers through three coupled layers: Embodied AgentOS for closed-loop execution, 3D spatial memory for physical world grounding, and embodied skills for robot action. We deploy HoloAgent-0 on real hardware and evaluate its spatial memory, long-horizon navigation, and closed-loop execution across motion generation, object search, cross-robot coordination, and mobile manipulation.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Navigation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Navigation",
+      "Safety",
+      "Humanoid",
+      "GAN",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.23249",
+    "title": "LP-NavOA: Integrated Local Navigation and Obstacle Avoidance for Humanoid Robots under Limited Perception",
+    "paper_url": "https://arxiv.org/abs/2606.23249",
+    "project_url": null,
+    "authors": [
+      "Yukun Luo",
+      "Jianjun Ma",
+      "Yuyao Min",
+      "Jinzhe Li",
+      "Kaihong Huang",
+      "Peng Li"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-22",
+    "abstract": "Humanoid local navigation in cluttered environments must jointly resolve obstacle avoidance, sparse-goal recovery, and stable whole-body locomotion under short-range and partially observable sensing. Explicit planner-control decompositions introduce latency and can mismatch agile humanoid command-tracking limits, while purely reactive controllers may lose the goal after obstacle occlusion. We present LP-NavOA, a limited-perception navigation and obstacle-avoidance framework for humanoid robots. A raycast-conditioned perception-action proximal policy optimization (PPO) locomotion backbone is first trained with a robot-centered circular heading-speed command and a shared command-side safety filter. With this backbone frozen, A-star and waypoint teachers generate rollouts for distilling a recurrent local planner that overwrites only the heading command at deployment, leaving the whole-body policy intact. At runtime, LP-NavOA uses proprioception, short-range local range sensing, and a body-frame goal direction, requiring no global map, waypoint stream, or external planner. In MuJoCo open-wall and indoor layouts, the distilled planner produces obstacle bypassing and post-avoidance goal recovery, raising teacher-calibrated on-time arrival from 38--40\\% to 85--97\\% and reducing brush/contact-heavy progress relative to a backbone-only controller. Ablations show that dynamic route shaping, teacher-active data collection, and the circular command interface are important for navigation efficiency and for training the 3.0\\,m/s backbone. A Unitree G1 deployment analysis demonstrates hardware executability without continuous joystick steering.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Locomotion",
+      "Navigation",
+      "Safety",
+      "MuJoCo",
+      "Humanoid",
+      "Proprioception",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.22998",
+    "title": "TEXEDO : Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation",
+    "paper_url": "https://arxiv.org/abs/2606.22998",
+    "project_url": null,
+    "authors": [
+      "Jianuo Cao",
+      "Yuxin Chen",
+      "Yuzhen Song",
+      "Masayoshi Tomizuka",
+      "Chenran Li",
+      "Thomas Tian"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-22",
+    "abstract": "Text-conditioned motion generation is a promising interface for programming humanoid robots, yet current generators are often trained on human motion datasets retargeted to robot morphologies. Although such data provides rich semantic and kinematic priors, it fails to capture the nuances of whole-body tracking controllers, including balance, contact dynamics, actuation limits, and controller-specific failure modes. As a result, generated motions can be semantically plausible but difficult or impossible for the robot to execute. We introduce TEXEDO, a test-time scaling framework for humanoid motion generation that improves motion quality without requiring a stronger underlying generator. Given a text prompt, TEXEDO samples multiple candidate motions from a pretrained text-conditioned generator and selects the best motion that is both executable and task-aligned. The reward model combines a dynamic feasibility verifier, distilled from whole-body tracking rollouts to predict physical executability, with a semantic alignment verifier that measures text-motion alignment in a learned co-embedding space. Our pipeline treats dynamic feasibility as a hard constraint and semantic alignment as the selection objective within the feasible set. Through large-scale simulation studies and real-world deployment on a Unitree G1 humanoid robot, we show that TEXEDO consistently improves both tracking fidelity and text alignment. These results demonstrate that grounded verification is an effective path toward deployable language-guided humanoid motion generation. Project website: https://jianuocao.github.io/TEXEDO/",
+    "categories": [
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Humanoid",
+      "Language-Conditioned",
+      "Contact Dynamics",
+      "Dataset",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.22174",
+    "title": "OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.22174",
+    "project_url": null,
+    "authors": [
+      "Yingdong Hu",
+      "Haodong Zhu",
+      "Boyuan Zheng",
+      "Yihang Hu",
+      "Tong Zhang",
+      "Zunhao Chen",
+      "Junming Zhao",
+      "Ruiqian Nai",
+      "Yang Gao"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-20",
+    "abstract": "Whole-body humanoid loco-manipulation requires coordinating the robot's entire kinematic chain. However, most existing systems typically decouple the upper and lower bodies into separate controllers, limiting such coordination and yielding behaviors similar to those of a wheeled dual-arm platform. In this paper, we ask what it takes to build a whole-body native vision-language-action (VLA) model that maps language and pixels directly to all of the humanoid's degrees of freedom. We conduct a systematic empirical study organized as a roadmap of one-variable-at-a-time experiments across three phases: whole-body teleoperation, VLA model design, and heterogeneous co-training. Our study yields several intriguing findings: a joint-based whole-body teleoperation interface outperforms alternatives that only partially expose the humanoid's degrees of freedom; a VLA pretrained on static and wheeled dual-arm platforms transfers surprisingly well to a humanoid's full action space; and co-training with HuMI, the humanoid analog of UMI, extends the policy to new objects and instructions without additional whole-body teleoperation on those targets. Following this roadmap yields OpenHLM, an open-source recipe for whole-body humanoid loco-manipulation. In a challenging long-horizon task that spans a wide vertical range of the humanoid, OpenHLM outperforms two state-of-the-art humanoid VLA baselines (GR00T N1.6 and $Ψ_0$) using less than half the total demonstration time. Our code, training data, and model checkpoints are available at [https://openhlm-project.github.io/].",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Teleoperation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "GAN",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.22158",
+    "title": "Improving Reasoning in Vision-Language Models via Perception Verified Self-Training",
+    "paper_url": "https://arxiv.org/abs/2606.22158",
+    "project_url": null,
+    "authors": [
+      "Sourabh Sharma",
+      "Sonam Gupta",
+      "Sadbhawna Thakur"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-20",
+    "abstract": "Achieving human-like reasoning in Vision-Language Models (VLMs) remains a long-standing challenge. Recent approaches leverage Chain-of-Thought (CoT) rationales generated by human annotators or proprietary models to improve reasoning, which is costly and difficult to scale. Self-training offers a promising alternative by using models own outputs as supervision. However, existing methods often suffer from visual hallucinations -- where rationales describe non-existent visual content, and language shortcuts -- where predictions rely on textual priors rather than true visual grounding, as rationales are typically filtered only by answer correctness without verifying visual perception. To address this limitation, we propose a perception-verified self-training framework that enforces visually grounded reasoning. First, our method employs a CoT template (caption-reasoning-conclusion) that disentangles perception from reasoning, enabling independent verification of visual understanding. To compensate for the absence of ground-truth captions, we propose PerceptEval, an unsupervised method that evaluates caption quality based on its alignment with visual and textual elements present in the image. Using caption verification together with answer correctness, we partition the data into three subsets: easy (correct caption and conclusion), medium (correct caption but incorrect conclusion), and hard (incorrect caption). Building on this partitioning, we design a two-stage curriculum learning strategy. In Stage 1, the model is trained on easy examples and subsequently in Stage 2, medium samples are incorporated through a caption-guided reasoning enhancement procedure that regenerates reasoning conditioned on verified captions. Only regenerated samples with the correct conclusions are retained.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Vision-Language",
+      "Curriculum Learning",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.21600",
+    "title": "VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.21600",
+    "project_url": null,
+    "authors": [
+      "Zhigen Zhao",
+      "Mark Leggiero",
+      "Yipu Chen",
+      "Haoran Liu",
+      "Yifan Wu",
+      "Huishu Xue",
+      "Sirui Zhan",
+      "Ye Zhao"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-19",
+    "abstract": "Multi-task robot manipulation policies are challenging to learn from demonstration because traditionally a single network must select among qualitatively different action modes from a multimodal demonstration distribution, conditioned on language and visual context. A wrong mode selection means executing the wrong task or an action infeasible in the scene. Tokenizing continuous actions into a learned discrete codebook separates these modes at the representation level, offering structural advantages for multi-task learning. We propose VQActFlow, a multi-task manipulation policy that tokenizes action chunks and generates code sequences via Variational Flow Matching. VQActFlow maintains an explicit preference over action modes throughout generation. Inference-time guidance acts on this preference to steer mode commitment. We instantiate this with classifier-free guidance over language conditioning, which steers the policy toward the instructed action mode, and a learned codebook critic that supplies a complementary feasibility signal. We evaluate VQActFlow on three platforms: the LIBERO simulation benchmarks, a Unitree G1 humanoid performing whole-body pick-and-place, and an ALOHA-style bimanual platform performing contact-rich tasks. Across these benchmarks, VQActFlow outperforms both continuous and discrete baselines.",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Multi-Task",
+      "Humanoid",
+      "Benchmark",
+      "Flow Matching",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.21086",
+    "title": "ReFPO: Reflow Regularization for Flow Matching Policy Gradients",
+    "paper_url": "https://arxiv.org/abs/2606.21086",
+    "project_url": null,
+    "authors": [
+      "Ge Wang",
+      "Yibo Peng",
+      "Fan Feng",
+      "Shenhao Yan",
+      "Chengsi Yao",
+      "Jiahao Yang",
+      "Honghao Cai",
+      "Yiming Zhao",
+      "Xi Li",
+      "Jinke Ren",
+      "Shuguang Cui",
+      "Yatong Han",
+      "Zhen Li"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-19",
+    "abstract": "We present Reflow-regularized Flow Matching Policy Gradients (ReFPO), a simple online RL method that adds explicit Reflow regularization to FPO for efficient flow-based control. We uncover a key structural property: the gradient updates in Flow Matching Policy Gradients (FPO) can be interpreted as an implicit advantage-weighted Reflow process, providing a new geometric perspective on flow-based policy gradients. Building on this insight, ReFPO introduces an explicit geometric regularizer that can be implemented with a single line of code change without incurring additional computational overhead or auxiliary distillation stages. By synergizing advantage-guided updates with path rectification, our method reduces CFM proxy-ratio spikes, stabilizes PPO-style training, and enables high-fidelity one-step inference that often matches or exceeds multi-step performance. We experimentally demonstrate that ReFPO improves average performance and discretization robustness across GridWorld, MuJoCo Playground, and high-dimensional Humanoid Control tasks, providing a scalable and stable approach for generative policies in complex physical simulations.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Robustness",
+      "MuJoCo",
+      "Humanoid",
+      "Distillation",
+      "PPO",
+      "Flow Matching",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.20990",
+    "title": "Duet: Dual-Robot Understanding via Efficient Teaching",
+    "paper_url": "https://arxiv.org/abs/2606.20990",
+    "project_url": null,
+    "authors": [
+      "Yiqi Zhao",
+      "Ruohai Ge",
+      "Celina Shiyu Wang",
+      "Junjie Ye",
+      "Muchen Xu",
+      "Minhao Li",
+      "Sergey Zakharov",
+      "Basile Van Hoorick",
+      "Vitor Campagnolo Guizilini",
+      "Leonidas Guibas",
+      "Gaurav S. Sukhatme",
+      "Jyotirmoy V. Deshmukh",
+      "Yue Wang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "Dual-robot collaboration enables tasks that exceed the reach and payload of a single robot, such as collaboratively transporting objects across environments and executing coordinated handovers. Data acquisition is the primary bottleneck for training these systems. To this end, we introduce DUET, a dual-robot learning framework for mobile manipulation. For efficient data collection, we create a unified dual-embodiment synchronized VR-based teleoperation system for in-domain heterogeneous robot data collection. We further develop a complementary tracking pipeline that records human-human coordination and collaborative mobile manipulation priors. To allow efficient learning, we introduce an Action Chunking Transformer based architecture that first pretrains collaborative policies on efficient human-human demonstrations, before finetuning them on a minimal set of real-robot teleoperation trajectories. We develop a benchmark of four collaborative tasks to evaluate our framework using a Unitree G1 humanoid and a Dexmate Vega1 mobile manipulator. The results demonstrate that harnessing human priors not only yields superior task performance compared to baselines trained only on robot data, but also reduces the total human effort required for data collection. Our human data collection pipeline achieves 5.4x acceleration on average from teleoperation, but we perform equally or better than robot-only data trained policies across all tasks. Our project page is available at https://zhaoy37.github.io/Duet/.",
+    "categories": [
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Transformer",
+      "Human Demonstration",
+      "Humanoid",
+      "Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
     "arxiv_id": "2606.19774",
     "title": "Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection",
     "paper_url": "https://arxiv.org/abs/2606.19774",
@@ -103,6 +461,33 @@
     "primary_category": "Manipulation"
   },
   {
+    "arxiv_id": "2606.20199",
+    "title": "Evaluation of Image Matching for Art Skills Assessment",
+    "paper_url": "https://arxiv.org/abs/2606.20199",
+    "project_url": null,
+    "authors": [
+      "Asaad Alghamdi",
+      "Michael Poor",
+      "Trung-Nghia Le",
+      "Tam V. Nguyen"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "While some individuals possess a natural talent for drawing, mastering this skill requires dedicated training and practice. Determining one's skill in the art of drawing requires proper comprehensive assessment. In this paper, we propose a method to measure drawing skill by by matching the hand-drawn image with the original template. Existing techniques often involve complex processes. However, advancements in computer vision allow us to train computers to perform these comparisons at a human-like level, thereby resolving the tedious and overwhelming traditional process. Using computer vision applications, determining image similarity involves identifying the level of similarities in an image with a reference image. We have implemented and analyzed the SIFT feature and Siamese network to measure image similarity. Our results indicate that it is feasible to assess art skill levels. Through feature analysis, we found that SIFT-based key point matching provides a more effective means of detecting drawing skills.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Computer Vision",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2606.19699",
     "title": "Comparative Study on Agility, Efficiency, and Impact Absorption of Bipedal Robots with Active Toes",
     "paper_url": "https://arxiv.org/abs/2606.19699",
@@ -140,89 +525,6 @@
     "primary_category": "Locomotion"
   },
   {
-    "arxiv_id": "2606.20210",
-    "title": "Augmenting Game AI with Deep Reinforcement Learning",
-    "paper_url": "https://arxiv.org/abs/2606.20210",
-    "project_url": null,
-    "authors": [
-      "Alessandro Sestini",
-      "Joakim Bergdahl",
-      "Amir Baghi",
-      "Jean-Philippe Barrette-LaPierre",
-      "Florian Fuchs",
-      "Linus Gisslén"
-    ],
-    "published": "2026-06",
-    "published_date": "2026-06-18",
-    "abstract": "Immersion in video games depends not only on graphics, audio, and game mechanics, but also on the quality of in-game characters. Producing believable characters, or game AI, remains a significant challenge as behavioral complexity is hard to capture with hand-coded systems. Game AI is a source of immersion and engagement; however, the limitations stemming from the challenges of creating game AI often lead to frustration and the breaking of the illusion of realism within the game. The introduction of machine learning models opens the door to creating more believable, authentic, and relatable characters in games. The promise is that they either learn from interacting with the game, or from player data, to develop true human-like behavior. In this paper, we envision more applications of reinforcement learning for game AI in the future. For this to materialize, current research limitations are prohibitive to broad deployment across game genres. Therefore, we propose a framework for training reinforcement learning models with a set of requirements in mind that are suited towards game AI and game development. We present examples of games with reinforcement learning-augmented game AI and describe the practicalities of deploying player-facing machine learning agents in modern games. Furthermore, we identify bottlenecks and hard problems in these areas, which we believe offer promising research directions to accelerate the adoption of machine learning in game AI for the video game industry.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2606.20400",
-    "title": "The Significance of Style Diversity in Annotation-Free Synthetic Data Generation",
-    "paper_url": "https://arxiv.org/abs/2606.20400",
-    "project_url": null,
-    "authors": [
-      "Zahra Abbasiantaeb",
-      "Zeno Belligoli",
-      "Omar Essam",
-      "Mohammad Aliannejadi"
-    ],
-    "published": "2026-06",
-    "published_date": "2026-06-18",
-    "abstract": "Generating high-utility synthetic data for intent classification typically requires human-annotated seed data, which is often unavailable in fast-paced industrial settings. In this paper, we propose a framework for synthetic dialogue generation that works entirely without human-annotated data, relying solely on intent definitions. Our proposed dialogue generation framework utilizes two different types of topic and style attributes to improve data diversity. Also, we propose two novel post-hoc stylization models called Univ and Exam to transform synthetic LLM-generated utterances into more varied, human-like linguistic styles. To enhance data quality, we utilize an LLM-as-a-judge filtering process. Experimental results on both industrial and public datasets demonstrate that the proposed approach achieves up to 93.3% of the performance obtained using human-annotated training data. Crucially, the findings reveal that style diversity is more critical than topic diversity for synthetic data utility, as it prevents models from learning spurious stylistic correlations. Furthermore, the study shows that incorporating style attributes during the generation process is more effective than post-hoc style adaptation.",
-    "categories": [
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Dataset",
-      "Simulation Benchmark"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2606.20199",
-    "title": "Evaluation of Image Matching for Art Skills Assessment",
-    "paper_url": "https://arxiv.org/abs/2606.20199",
-    "project_url": null,
-    "authors": [
-      "Asaad Alghamdi",
-      "Michael Poor",
-      "Trung-Nghia Le",
-      "Tam V. Nguyen"
-    ],
-    "published": "2026-06",
-    "published_date": "2026-06-18",
-    "abstract": "While some individuals possess a natural talent for drawing, mastering this skill requires dedicated training and practice. Determining one's skill in the art of drawing requires proper comprehensive assessment. In this paper, we propose a method to measure drawing skill by by matching the hand-drawn image with the original template. Existing techniques often involve complex processes. However, advancements in computer vision allow us to train computers to perform these comparisons at a human-like level, thereby resolving the tedious and overwhelming traditional process. Using computer vision applications, determining image similarity involves identifying the level of similarities in an image with a reference image. We have implemented and analyzed the SIFT feature and Siamese network to measure image similarity. Our results indicate that it is feasible to assess art skill levels. Through feature analysis, we found that SIFT-based key point matching provides a more effective means of detecting drawing skills.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "tags": [
-      "Computer Vision",
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
     "arxiv_id": "2606.19935",
     "title": "PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation",
     "paper_url": "https://arxiv.org/abs/2606.19935",
@@ -254,6 +556,34 @@
     "platform": null,
     "summary": "",
     "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2606.20748",
+    "title": "Toward Machine Risk Perception: Integrating Trust Calibration and Precursor-Based Risk Estimation for Humanoid",
+    "paper_url": "https://arxiv.org/abs/2606.20748",
+    "project_url": null,
+    "authors": [
+      "He Wen"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-18",
+    "abstract": "Humanoid robots are emerging as co-workers in smart manufacturing, yet their dynamic, human-like movements introduce safety risks that differ fundamentally from those of fixed or wheeled robots. Conventional safety paradigms based on reactive force or distance limits fail to capture the sequential, uncertain nature of humanoid failures. This study proposes a precursor-driven, trust-calibrated framework to enable proactive humanoid risk perception. Accident evolution is modeled through sequential precursor cues using a Logistic-Exponential (LE) formulation that couples logistic escalation from diverse precursors with exponential decay for temporal dissipation. Trust is defined as the inverse of the estimated accident probability, allowing humanoids to adapt behavior in real time, reducing aggressiveness when risk intensifies, and restoring confidence as stability returns. A multi-source dataset of 126 documented events and 241 precursors revealed twelve dominant accident modes, most evolving through overlapping cues within one second. A simulated case study (\"fall-onto-human\") demonstrated how the LE-Trust coupling can trigger early intervention and prevent collapse. The results advance humanoid safety from static thresholds toward dynamic, evidence-based inference, establishing a foundation for risk-aware and trustworthy human-robot collaboration in Industry 5.0 environments.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Safety",
+      "Humanoid",
+      "Dataset",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
   },
   {
     "arxiv_id": "2606.19512",
@@ -498,6 +828,41 @@
       "Benchmark",
       "Loco-Manipulation and Whole-Body Control",
       "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.20705",
+    "title": "MotionPyramid: Hierarchical Motion Representation and Residual Interfaces",
+    "paper_url": "https://arxiv.org/abs/2606.20705",
+    "project_url": null,
+    "authors": [
+      "Gao Zhu",
+      "Zaishuo Xia",
+      "Yubei Chen"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-15",
+    "abstract": "We ask whether the representational hierarchy seen in perception, from local primitives such as edges to higher level structures such as parts and objects, can be established for motion. In humanoid control, low level actions specify immediate motor commands, while meaningful behavior is organized over longer temporal scales, including contacts, gait fragments, balance recovery, reaching, and whole body skills. We introduce MotionPyramid, a hierarchical action representation that learns such structure from motion data. Starting from a motion tracking teacher, it trains a recursive stack of latent decoders: low level latents decode to immediate full body motor commands, while higher level latents unfold through lower levels into temporally extended motion programs. After pretraining, the hierarchy is frozen and reused by downstream reinforcement learning policies as a family of action interfaces at different control resolutions. Experiments show the learned levels form a motion hierarchy: coarser interfaces improve early learning and motion regularity by constraining exploration to structured segments, while finer interfaces preserve feedback control and final task precision. Representation probes show the hierarchy supports traversal, interpolation, transition, and qualitative composition, exposing editable control handles across temporal scales. Finally, we introduce Residual Interfaces, letting a downstream policy maintain coarse, segment level, and frame level residual commands through the frozen hierarchy. Analogous to residual or skip connections in deep networks, this allows coarse motion programs and fine residual corrections to coexist within one controller. MotionPyramid shows that motion, like perception, can be organized into a reusable multi level representation, providing structured abstraction without sacrificing controllability.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Navigation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Gait",
+      "PPO",
+      "SAC",
+      "GAN",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Navigation"
     ],
     "real_robot": false,
     "open_source": false,

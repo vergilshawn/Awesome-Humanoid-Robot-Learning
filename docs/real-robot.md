@@ -4,16 +4,147 @@ Papers with real humanoid robot deployment and experiments.
 
 ## Platforms
 
-- **Digit:** 4 papers
+- **Digit:** 5 papers
 - **Figure:** 20 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 35 papers
+- **Unitree G1:** 40 papers
 - **Unknown Platform:** 6 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.23680)
+- **Authors:** Sikai Li, Shuning Li, Zhenyu Wei, Yunchao Yao, Chenran Li, Mingyu Ding
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Proprioception
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive.
+
+---
+
+## HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.23565)
+- **Authors:** Xiaolin Zhou, Liu Liu, Tingyang Xiao, Wei Feng, Fa Fu, Xinrui Meng et al. (12 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Safety
+  - Humanoid
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+LLM agents follow a practical execution loop in digital environments: they reason over structured states, invoke tools, inspect feedback, and revise actions. Extending this loop to physical robots is difficult because physical execution is continuous, embodiment-dependent, uncertain, and constrained by safety.
+
+---
+
+## LP-NavOA: Integrated Local Navigation and Obstacle Avoidance for Humanoid Robots under Limited Perception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.23249)
+- **Authors:** Yukun Luo, Jianjun Ma, Yuyao Min, Jinzhe Li, Kaihong Huang, Peng Li
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Safety
+  - MuJoCo
+  - Humanoid
+  - Proprioception
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid local navigation in cluttered environments must jointly resolve obstacle avoidance, sparse-goal recovery, and stable whole-body locomotion under short-range and partially observable sensing. Explicit planner-control decompositions introduce latency and can mismatch agile humanoid command-tracking limits, while purely reactive controllers may lose the goal after obstacle occlusion.
+
+---
+
+## TEXEDO : Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.22998)
+- **Authors:** Jianuo Cao, Yuxin Chen, Yuzhen Song, Masayoshi Tomizuka, Chenran Li, Thomas Tian
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Language-Conditioned
+  - Contact Dynamics
+  - Dataset
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Text-conditioned motion generation is a promising interface for programming humanoid robots, yet current generators are often trained on human motion datasets retargeted to robot morphologies. Although such data provides rich semantic and kinematic priors, it fails to capture the nuances of whole-body tracking controllers, including balance, contact dynamics, actuation limits, and controller-specific failure modes.
+
+---
+
+## VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.21600)
+- **Authors:** Zhigen Zhao, Mark Leggiero, Yipu Chen, Haoran Liu, Yifan Wu, Huishu Xue et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Multi-Task
+  - Humanoid
+  - Benchmark
+  - Flow Matching
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Multi-task robot manipulation policies are challenging to learn from demonstration because traditionally a single network must select among qualitatively different action modes from a multimodal demonstration distribution, conditioned on language and visual context. A wrong mode selection means executing the wrong task or an action infeasible in the scene.
+
+---
+
+## Duet: Dual-Robot Understanding via Efficient Teaching
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.20990)
+- **Authors:** Yiqi Zhao, Ruohai Ge, Celina Shiyu Wang, Junjie Ye, Muchen Xu, Minhao Li et al. (13 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Transformer
+  - Human Demonstration
+  - Humanoid
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Dual-robot collaboration enables tasks that exceed the reach and payload of a single robot, such as collaboratively transporting objects across environments and executing coordinated handovers. Data acquisition is the primary bottleneck for training these systems.
+
+---
 
 ## Data Standards for Humanoid Robotics: The Missing Infrastructure for Physical AI
 

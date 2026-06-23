@@ -1,10 +1,10 @@
 # Locomotion
 
-**120 papers** in this category.
+**121 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (15 papers)
+- [2026-06](/locomotion/2026-06) (16 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -36,6 +36,28 @@
 ---
 
 ## Recent Papers
+
+## CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.23680)
+- **Authors:** Sikai Li, Shuning Li, Zhenyu Wei, Yunchao Yao, Chenran Li, Mingyu Ding
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Proprioception
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive.
+
+---
 
 ## Data Standards for Humanoid Robotics: The Missing Infrastructure for Physical AI
 
@@ -417,22 +439,5 @@ The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-v
 ### Summary
 
 We study real-time audio-responsive character control as a deployment-faithful problem: strictly causal, bounded-latency streaming that must generate coherent full-body motion at interactive frame rates while the audio condition can change abruptly, including tempo shifts, drops, or user edits. Prior music-to-motion systems are largely optimized for offline generation with global context, and degrade in streaming rollouts where conditioning history becomes stale or unreliable.
-
----
-
-## EchoAvatar: Real-time Generative Avatar Animation from Audio Streams
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28272)
-- **Authors:** Bohong Chen, Yumeng Li, Yinglin Xu, Youyi Zheng, Yanlin Weng, Kun Zhou
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Large Language Model
-  - Locomotion
-
-### Summary
-
-Real-time synthesis of high-fidelity 3D character motion from audio is a pivotal component for next-generation interactive avatars and virtual assistants. However, most existing approaches are limited to offline processing of complete audio sequences or are constrained to specific domains, rarely handling both speech and music effectively.
 
 ---

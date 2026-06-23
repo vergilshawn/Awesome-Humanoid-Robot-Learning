@@ -1,10 +1,10 @@
 # Manipulation
 
-**70 papers** in this category.
+**71 papers** in this category.
 
 ## Months
 
-- [2026-06](/manipulation/2026-06) (15 papers)
+- [2026-06](/manipulation/2026-06) (16 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -31,6 +31,28 @@
 ---
 
 ## Recent Papers
+
+## VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.21600)
+- **Authors:** Zhigen Zhao, Mark Leggiero, Yipu Chen, Haoran Liu, Yifan Wu, Huishu Xue et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Multi-Task
+  - Humanoid
+  - Benchmark
+  - Flow Matching
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Multi-task robot manipulation policies are challenging to learn from demonstration because traditionally a single network must select among qualitatively different action modes from a multimodal demonstration distribution, conditioned on language and visual context. A wrong mode selection means executing the wrong task or an action infeasible in the scene.
+
+---
 
 ## Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection
 
@@ -374,22 +396,5 @@ Vision-Language-Action (VLA) models have recently shown strong potential for rob
 ### Summary
 
 Tactile sensing is essential for robots to achieve human-like gentle manipulation. However, existing Vision-Language-Action (VLA) models struggle to exploit tactile feedback for gentle manipulation due to scarce aligned vision-tactile-language data and the lack of effective closed-loop force feedback mechanisms.
-
----
-
-## Do Vision-Language-Models show human-like logical problem-solving capability in point and click puzzle games?
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.11223)
-- **Authors:** Maximilian Triebel, Marco Menner, Dominik Helfenstein
-- **Published:** 2026-05
-- **Tags:**
-  - Manipulation
-  - Vision-Language
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Vision-Language(-Action) Models (VLMs) are increasingly applied to interactive environments, yet existing benchmarks often overlook the complex physical reasoning required for point-and-click puzzle games. This paper introduces Vision-Language Against The Incredible Machine (VLATIM), a benchmark designed to evaluate human-like logical problem-solving capabilities within the classic physics puzzle game The Incredible Machine 2 (TIM).
 
 ---
