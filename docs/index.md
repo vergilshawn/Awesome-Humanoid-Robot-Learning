@@ -8,29 +8,39 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 627
-- **Real Robot Papers:** 76
-- **Open Source Papers:** 131
+- **Total Papers:** 632
+- **Real Robot Papers:** 77
+- **Open Source Papers:** 133
 - **Latest Month:** 2026-06
 
 ### Categories
 
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (205)
-- [Manipulation](/manipulation/) (71)
+- [Manipulation](/manipulation/) (72)
 - [Teleoperation](/teleoperation/) (30)
-- [Locomotion](/locomotion/) (121)
+- [Locomotion](/locomotion/) (122)
 - [Navigation](/navigation/) (23)
-- [State Estimation](/state-estimation/) (24)
+- [State Estimation](/state-estimation/) (26)
 - [Sim-to-Real](/sim-to-real/) (11)
 - [Hardware Design](/hardware-design/) (31)
 - [Simulation Benchmark](/simulation-benchmark/) (50)
 - [Physics-Based Character Animation](/physics-based-character-animation/) (38)
-- [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (23)
+- [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (24)
 
 ---
 
 ## 🔥 Latest Papers
 
+-  [Legible and Intuitive Multi-modal Robot State and Intent Communication Validated in Online and Real-world Studies](https://arxiv.org/abs/2606.24445) — 2026-06
+  - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/)
+-  [PDS Joint: A Parametric Double-Spiral Joint Tailored for Dexterous Hands](https://arxiv.org/abs/2606.24377) — 2026-06
+  - [State Estimation](/state-estimation/)
+-  🤖 [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089) — 2026-06
+  - [Locomotion](/locomotion/)
+- 🌟 [TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU](https://arxiv.org/abs/2606.24039) — 2026-06
+  - [State Estimation](/state-estimation/)
+- 🌟 [Enforcing Human-like Kinematics in Dexterous Piano Playing via Adversarial Posture Regularization](https://arxiv.org/abs/2606.23848) — 2026-06
+  - [Manipulation](/manipulation/)
 -  🤖 [CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.23680) — 2026-06
   - [Locomotion](/locomotion/)
 -  🤖 [HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory](https://arxiv.org/abs/2606.23565) — 2026-06
@@ -41,51 +51,41 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Simulation Benchmark](/simulation-benchmark/)
 -  [OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.22174) — 2026-06
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [Improving Reasoning in Vision-Language Models via Perception Verified Self-Training](https://arxiv.org/abs/2606.22158) — 2026-06
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation](https://arxiv.org/abs/2606.21600) — 2026-06
-  - [Manipulation](/manipulation/)
--  [ReFPO: Reflow Regularization for Flow Matching Policy Gradients](https://arxiv.org/abs/2606.21086) — 2026-06
-  - [Simulation Benchmark](/simulation-benchmark/)
--  🤖 [Duet: Dual-Robot Understanding via Efficient Teaching](https://arxiv.org/abs/2606.20990) — 2026-06
-  - [Teleoperation](/teleoperation/)
--  [Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection](https://arxiv.org/abs/2606.19774) — 2026-06
-  - [Manipulation](/manipulation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (450)
+- **Humanoid** (452)
 - **Loco-Manipulation and Whole-Body Control** (229)
-- **Locomotion** (160)
-- **Manipulation** (153)
-- **Simulation Benchmark** (108)
-- **State Estimation** (82)
-- **Physics-Based Character Animation** (71)
-- **Reinforcement Learning** (64)
+- **Locomotion** (161)
+- **Manipulation** (155)
+- **Simulation Benchmark** (111)
+- **State Estimation** (86)
+- **Physics-Based Character Animation** (72)
+- **Reinforcement Learning** (66)
 - **Teleoperation** (51)
-- **Human Motion Analysis and Synthesis** (49)
+- **Human Motion Analysis and Synthesis** (50)
 - **Whole-Body Control** (46)
 - **Benchmark** (45)
-- **Navigation** (41)
+- **Navigation** (42)
+- **PPO** (37)
 - **Hardware Design** (36)
-- **PPO** (35)
 - **Dataset** (33)
 - **Sim-to-Real** (29)
 - **Diffusion** (28)
 - **Vision-Language** (26)
+- **Safety** (20)
+- **Biped** (20)
 - **Zero-Shot** (20)
-- **Safety** (19)
-- **Biped** (19)
+- **Distillation** (18)
 - **Foundation Model** (18)
-- **Distillation** (17)
 - **Robustness** (16)
 - **Walking** (15)
 - **Human Demonstration** (15)
+- **Imitation Learning** (14)
 - **Collision** (14)
 - **Gait** (13)
-- **Imitation Learning** (13)
 
 ---
 
@@ -383,6 +383,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/manipulation/2026-06)
 
+- 🌟 [Enforcing Human-like Kinematics in Dexterous Piano Playing via Adversarial Posture Regularization](https://arxiv.org/abs/2606.23848), [website](https://github.com/aprproject/aprpianist) — `Reinforcement Learning`, `Manipulation`, `Physics-Based Character Animation`, `State Estimation`, `Simulation Benchmark`, `Open Source`
 - [VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation](https://arxiv.org/abs/2606.21600) — `Manipulation`, `Multi-Task`, `Humanoid`, `Benchmark`, `Flow Matching`, `Simulation Benchmark`
 - [Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection](https://arxiv.org/abs/2606.19774) — `Manipulation`, `Humanoid`, `Benchmark`, `State Estimation`, `Simulation Benchmark`
 - [Bidirectional Tutoring for Developmental Motor Learning in Robots: Co-Developed Interaction Dynamics Support Stable Learning](https://arxiv.org/abs/2606.19728) — `Manipulation`, `Real Robot`, `Humanoid`, `PPO`
@@ -599,6 +600,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/locomotion/2026-06)
 
+- [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089) — `Locomotion`, `World Model`, `Biped`, `Distillation`, `Knowledge Transfer`, `Representation Learning`
 - [CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.23680) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `Proprioception`
 - [Data Standards for Humanoid Robotics: The Missing Infrastructure for Physical AI](https://arxiv.org/abs/2606.19769) — `Locomotion`, `Manipulation`, `Humanoid`, `Dataset`, `GAN`, `Simulation Benchmark`
 - [Comparative Study on Agility, Efficiency, and Impact Absorption of Bipedal Robots with Active Toes](https://arxiv.org/abs/2606.19699) — `Biped`, `Walking`, `Impact`, `Locomotion`, `State Estimation`, `Hardware Design`
@@ -873,6 +875,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/state-estimation/2026-06)
 
+- [PDS Joint: A Parametric Double-Spiral Joint Tailored for Dexterous Hands](https://arxiv.org/abs/2606.24377) — `State Estimation`, `Safety`, `Proprioception`, `PPO`, `Manipulation`, `Navigation`
+- 🌟 [TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU](https://arxiv.org/abs/2606.24039), [website](https://github.com/toyotaresearchinstitute/turbompc) — `Reinforcement Learning`, `Imitation Learning`, `MPC`, `Humanoid`, `PPO`, `State Estimation`
 - [Toward Machine Risk Perception: Integrating Trust Calibration and Precursor-Based Risk Estimation for Humanoid](https://arxiv.org/abs/2606.20748) — `Safety`, `Humanoid`, `Dataset`, `State Estimation`, `Simulation Benchmark`
 - [Proprioceptive Invariant State Estimation for Humanoid Robots on Non-Inertial Ground](https://arxiv.org/abs/2606.19512) — `State Estimation`, `Humanoid`, `Walking`, `Locomotion`, `Physics-Based Character Animation`, `Real Robot`
 - [HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning](https://arxiv.org/abs/2606.17833) — `Humanoid`, `Proprioception`, `Benchmark`, `Policy Learning`, `State Estimation`, `Simulation Benchmark`
@@ -1256,6 +1260,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Learning Symmetric and Low-energy Locomotion](https://arxiv.org/abs/1801.08093) — `Locomotion`, `Physics-Based Character Animation`
 
 ### [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/)
+
+#### [2026-06](/human-motion-analysis-and-synthesis/2026-06)
+
+- [Legible and Intuitive Multi-modal Robot State and Intent Communication Validated in Online and Real-world Studies](https://arxiv.org/abs/2606.24445) — `Humanoid`, `Multi-Modal`, `Human Motion Analysis and Synthesis`
 
 #### [2026-05](/human-motion-analysis-and-synthesis/2026-05)
 

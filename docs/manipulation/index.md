@@ -1,10 +1,10 @@
 # Manipulation
 
-**71 papers** in this category.
+**72 papers** in this category.
 
 ## Months
 
-- [2026-06](/manipulation/2026-06) (16 papers)
+- [2026-06](/manipulation/2026-06) (17 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -31,6 +31,25 @@
 ---
 
 ## Recent Papers
+
+## 🌟 Enforcing Human-like Kinematics in Dexterous Piano Playing via Adversarial Posture Regularization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.23848)
+- **Project:** [GitHub](https://github.com/aprproject/aprpianist)
+- **Authors:** Bin Qiu, Yanming Shao, Guanyu Cai, Yao Mu
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Physics-Based Character Animation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Reinforcement learning can train bimanual dexterous hands to play piano in physics simulation with high note accuracy, but for high-DoF dexterous hands, relying solely on task rewards or IK inversion often leads to unnatural postures and joint overextension. We propose \textit{Adversarial Posture Regularization (APR)}.
+
+---
 
 ## VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation
 
@@ -376,25 +395,5 @@ Manipulating thin objects requires precise contact geometry and reliable force p
 ### Summary
 
 Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent.
-
----
-
-## 🌟 Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.27886)
-- **Project:** [GitHub](https://github.com/nathanwu7/tabero)
-- **Authors:** Qiwei Wu, Rui Zhang, Xin Xiang, Tao Li, Weihua Zhang, Junjie Lai et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Manipulation
-  - Tactile Sensing
-  - Language-Conditioned
-  - Vision-Language
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Tactile sensing is essential for robots to achieve human-like gentle manipulation. However, existing Vision-Language-Action (VLA) models struggle to exploit tactile feedback for gentle manipulation due to scarce aligned vision-tactile-language data and the lack of effective closed-loop force feedback mechanisms.
 
 ---

@@ -166,7 +166,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (71)",
+            "text": "Manipulation (72)",
             "collapsed": true,
             "items": [
                   {
@@ -334,7 +334,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (121)",
+            "text": "Locomotion (122)",
             "collapsed": true,
             "items": [
                   {
@@ -522,7 +522,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (24)",
+            "text": "State Estimation (26)",
             "collapsed": true,
             "items": [
                   {
@@ -868,12 +868,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (23)",
+            "text": "Human Motion Analysis and Synthesis (24)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/human-motion-analysis-and-synthesis/"
+                  },
+                  {
+                        "text": "2026-06",
+                        "link": "/human-motion-analysis-and-synthesis/2026-06"
                   },
                   {
                         "text": "2026-05",

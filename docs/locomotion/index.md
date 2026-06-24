@@ -1,10 +1,10 @@
 # Locomotion
 
-**121 papers** in this category.
+**122 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (16 papers)
+- [2026-06](/locomotion/2026-06) (17 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -36,6 +36,28 @@
 ---
 
 ## Recent Papers
+
+## DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.24089)
+- **Authors:** Haidong Hou, Zhangguo Yu, Hengbo Qi, Jianlin Zhang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - World Model
+  - Biped
+  - Distillation
+  - Knowledge Transfer
+  - Representation Learning
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in control have enabled bipedal-wheeled robots to traverse slopes and single-step obstacles, yet long staircase traversal remains challenging as current teacher-student frameworks suffer from weakened dynamics-aware representations and incomplete terrain geometry encoding. To bridge this gap, we propose DynaWM, a dynamics-aware representation learning framework.
+
+---
 
 ## CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation
 
@@ -423,21 +445,5 @@ Extending humanoid traversal to the open world is key to practical deployment in
 ### Summary
 
 The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-viable kinematic reference data and the inability of existing frameworks to maintain stability during sprints. To overcome these limitations, we introduce SPRINT, a novel framework driven by efficient, frequency-adaptive spectral priors.
-
----
-
-## DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Control with Diffusion Forcing
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28491)
-- **Authors:** Kaiyang Ji, Bingsheng Qian, Binghuan Wu, Kangyi Chen, Ye Shi, Jingya Wang
-- **Published:** 2026-05
-- **Tags:**
-  - Humanoid
-  - Diffusion
-  - Locomotion
-
-### Summary
-
-We study real-time audio-responsive character control as a deployment-faithful problem: strictly causal, bounded-latency streaming that must generate coherent full-body motion at interactive frame rates while the audio condition can change abruptly, including tempo shifts, drops, or user edits. Prior music-to-motion systems are largely optimized for offline generation with global context, and degrade in streaming rollouts where conditioning history becomes stale or unreliable.
 
 ---

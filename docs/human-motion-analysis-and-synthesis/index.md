@@ -1,9 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**23 papers** in this category.
+**24 papers** in this category.
 
 ## Months
 
+- [2026-06](/human-motion-analysis-and-synthesis/2026-06) (1 papers)
 - [2026-05](/human-motion-analysis-and-synthesis/2026-05) (3 papers)
 - [2026-04](/human-motion-analysis-and-synthesis/2026-04) (1 papers)
 - [2026-02](/human-motion-analysis-and-synthesis/2026-02) (2 papers)
@@ -24,6 +25,22 @@
 ---
 
 ## Recent Papers
+
+## Legible and Intuitive Multi-modal Robot State and Intent Communication Validated in Online and Real-world Studies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.24445)
+- **Authors:** Tim Schreiter, Jens V. Rüppel, Andrey Rudenko, Martin Magnusson, Achim J. Lilienthal
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Multi-Modal
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Effective robot-to-human communication can increase transparency and trust, reduce uncertainty, and contribute to safer collaboration in shared workspaces. Designing and validating an effective robot communication strategy is challenging due to the varying and often limited communication modalities across robots, differences in how diverse recipients interpret messages, and the underexplored virtual-to-real gap in studies of communication legibility.
+
+---
 
 ## Imagine2Real: Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors
 
@@ -300,20 +317,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2310.08580)
 - **Published:** 2023-10
 - **Tags:**
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## TEDi: Temporally-Entangled Diffusion for Long-Term Motion Synthesis
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2307.15042)
-- **Published:** 2023-07
-- **Tags:**
-  - Diffusion
   - Human Motion Analysis and Synthesis
 
 ### Summary

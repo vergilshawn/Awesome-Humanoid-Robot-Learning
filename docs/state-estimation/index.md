@@ -1,10 +1,10 @@
 # State Estimation
 
-**24 papers** in this category.
+**26 papers** in this category.
 
 ## Months
 
-- [2026-06](/state-estimation/2026-06) (12 papers)
+- [2026-06](/state-estimation/2026-06) (14 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
@@ -16,6 +16,46 @@
 ---
 
 ## Recent Papers
+
+## PDS Joint: A Parametric Double-Spiral Joint Tailored for Dexterous Hands
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.24377)
+- **Authors:** Haoyang Li, Yibo Wen, Yixiang Fan, Yiheng Xu, Yufeng Yue
+- **Published:** 2026-06
+- **Tags:**
+  - State Estimation
+  - Safety
+  - Proprioception
+  - PPO
+  - Manipulation
+  - Navigation
+
+### Summary
+
+Compliant joints can embed safety and adaptability into dexterous hands, but achieving large-stroke anthropomorphic motion while maintaining joint-specific, directiondependent stiffness and reliable proprioception remains challenging. This paper presents the PDS joint, a parametric doublespiral (PDS) compliant joint that enables systematic shaping of directional stiffness across multiple deformation modes, including flexion/extension, abduction/adduction, and pronation/supination.
+
+---
+
+## 🌟 TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.24039)
+- **Project:** [GitHub](https://github.com/toyotaresearchinstitute/turbompc)
+- **Authors:** Gabriel Bravo-Palacios, Jianghan Zhang, Zachary Pestrikov, Brian Plancher, Thomas Lew
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - MPC
+  - Humanoid
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Robotics increasingly relies on GPUs for parallel simulation, large-scale learning, and neural-network inference. For model predictive control (MPC) to scale with this paradigm, solvers must run efficiently on this hardware while remaining fast, differentiable, and compatible with expressive MPC formulations used in robotics.
+
+---
 
 ## Toward Machine Risk Perception: Integrating Trust Calibration and Precursor-Based Risk Estimation for Humanoid
 
@@ -353,33 +393,6 @@ Generating realistic human motion is a central yet unsolved challenge in video g
 - **Published:** 2025-11
 - **Tags:**
   - Locomotion
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## InEKFormer: A Hybrid State Estimator for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.16306)
-- **Published:** 2025-11
-- **Tags:**
-  - Humanoid
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Physics-Informed Neural Networks with Unscented Kalman Filter for Sensorless Joint Torque Estimation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2507.10105)
-- **Published:** 2025-07
-- **Tags:**
   - State Estimation
 
 ### Summary

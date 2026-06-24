@@ -2,6 +2,46 @@
 
 Papers with open-source code repositories.
 
+## 🌟 TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.24039)
+- **Project:** [GitHub](https://github.com/toyotaresearchinstitute/turbompc)
+- **Authors:** Gabriel Bravo-Palacios, Jianghan Zhang, Zachary Pestrikov, Brian Plancher, Thomas Lew
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - MPC
+  - Humanoid
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Robotics increasingly relies on GPUs for parallel simulation, large-scale learning, and neural-network inference. For model predictive control (MPC) to scale with this paradigm, solvers must run efficiently on this hardware while remaining fast, differentiable, and compatible with expressive MPC formulations used in robotics.
+
+---
+
+## 🌟 Enforcing Human-like Kinematics in Dexterous Piano Playing via Adversarial Posture Regularization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.23848)
+- **Project:** [GitHub](https://github.com/aprproject/aprpianist)
+- **Authors:** Bin Qiu, Yanming Shao, Guanyu Cai, Yao Mu
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Physics-Based Character Animation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Reinforcement learning can train bimanual dexterous hands to play piano in physics simulation with high note accuracy, but for high-DoF dexterous hands, relying solely on task rewards or IK inversion often leads to unnatural postures and joint overextension. We propose \textit{Adversarial Posture Regularization (APR)}.
+
+---
+
 ## 🌟 WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.16600)

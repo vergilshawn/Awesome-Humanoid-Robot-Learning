@@ -5,7 +5,7 @@ Papers with real humanoid robot deployment and experiments.
 ## Platforms
 
 - **Digit:** 5 papers
-- **Figure:** 20 papers
+- **Figure:** 21 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 40 papers
 - **Unknown Platform:** 6 papers
@@ -14,6 +14,28 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.24089)
+- **Authors:** Haidong Hou, Zhangguo Yu, Hengbo Qi, Jianlin Zhang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - World Model
+  - Biped
+  - Distillation
+  - Knowledge Transfer
+  - Representation Learning
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in control have enabled bipedal-wheeled robots to traverse slopes and single-step obstacles, yet long staircase traversal remains challenging as current teacher-student frameworks suffer from weakened dynamics-aware representations and incomplete terrain geometry encoding. To bridge this gap, we propose DynaWM, a dynamics-aware representation learning framework.
+
+---
 
 ## CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation
 
