@@ -2,6 +2,128 @@
 
 All papers sorted by publication date (newest first).
 
+## Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25706)
+- **Authors:** Yumeng Liu, Dongqi Wang, Jiyu Yu, Yijun Fan, Rong Xiong, Yue Wang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - MPC
+  - Whole-Body Control
+  - Humanoid
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+High-level humanoid planners often output sparse task-space, low-rate trajectories, whereas whole-body controllers run at high frequency. This creates temporal asynchrony between the planning and execution, and structural incompleteness for full-body control.
+
+---
+
+## WOLF-VLA: Whole-Body Humanoid Optimal Locomotion Framework for Vision-Language-Action Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25591)
+- **Authors:** Melya Boukheddimi, Omar Adjali, Daniel Sontag, Frank Kirchner
+- **Published:** 2026-06
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Safety
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - Impact
+  - Benchmark
+
+### Summary
+
+Vision-Language-Action (VLA) models have recently demonstrated strong generalization in robotic manipulation, yet their applicability to whole-body, contact-rich humanoid locomotion remains severely underexplored due to data scarcity, the absence of dynamically consistent demonstrations, and the difficulty of encoding optimality and safety in learning-based pipelines. This work introduces a unified framework WOLF-VLA that integrates whole-body optimal-control (OC) motion synthesis with large-scale multi-modal dataset to train VLAs capable of generating humanoid locomotion policies directly from natural-language instructions.
+
+---
+
+## Self Capacitive Tactile Sensor System designed for Companion Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25348)
+- **Authors:** Mohsin Ali, Hidenobu Sumioka, Shuhei Ikemoto
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Tactile Sensing
+
+### Summary
+
+Tactile sensing is essential for humanoid robots to achieve safe physical interaction, dexterous manipulation, and truly human-like responsiveness. However, the design of such systems remains challenging.
+
+---
+
+## DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25295)
+- **Authors:** Zhinan Yu, Junyan Xu, Jiazhao Zhang, Zheng Qin, Yijie Tang, Yuhang Huang et al. (12 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Isaac Gym
+  - Trajectory Prediction
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Mobile manipulation is a fundamental robotics task and has advanced rapidly in recent years, enabling robots to navigate, reach, and interact with objects in complex environments. However, mobile manipulation of dynamic objects remains highly challenging, as robots must coordinate the mobile base and arm while adapting to continuously evolving target poses.
+
+---
+
+## RGB: RL Guided Whole-Body MPPI for Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25123)
+- **Authors:** Yunsoo Seo, Sol Choi, Euncheol Im, Myo Taeg Lim, Yisoo Lee
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - MuJoCo
+  - Humanoid
+  - Walking
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots require whole-body controllers that are both robust and precise in contact-rich environments. While deep reinforcement learning (RL) achieves robust stability, its behavior is tightly coupled to the training objective and command interface, making it difficult to add new feedback objectives without retraining.
+
+---
+
+## BFMTrack: Latent Sequence Optimization for Physics-Based Motion Tracking with Behavioral Foundation Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25056)
+- **Authors:** Thomas Rupf, Agon Serifi, David Müller, Sammy Christen, Ruben Grandia, Espen Knoop et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Foundation Model
+  - Dataset
+  - PPO
+  - GAN
+  - Simulation Benchmark
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Behavioral Foundation Models (BFMs) offer a promising path toward universal physics-based character control by organizing a rich repertoire of physically plausible behaviors into a latent space, guided by a large-scale motion dataset. While these models excel at time-invariant tasks, such as goal-reaching and state-based reward optimization, their latent space does not directly support time-varying objectives, such as tracking a motion sequence.
+
+---
+
 ## Legible and Intuitive Multi-modal Robot State and Intent Communication Validated in Online and Real-world Studies
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.24445)

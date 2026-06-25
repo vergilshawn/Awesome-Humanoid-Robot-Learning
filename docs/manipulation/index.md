@@ -1,10 +1,10 @@
 # Manipulation
 
-**72 papers** in this category.
+**73 papers** in this category.
 
 ## Months
 
-- [2026-06](/manipulation/2026-06) (17 papers)
+- [2026-06](/manipulation/2026-06) (18 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -31,6 +31,22 @@
 ---
 
 ## Recent Papers
+
+## Self Capacitive Tactile Sensor System designed for Companion Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25348)
+- **Authors:** Mohsin Ali, Hidenobu Sumioka, Shuhei Ikemoto
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Tactile Sensing
+
+### Summary
+
+Tactile sensing is essential for humanoid robots to achieve safe physical interaction, dexterous manipulation, and truly human-like responsiveness. However, the design of such systems remains challenging.
+
+---
 
 ## 🌟 Enforcing Human-like Kinematics in Dexterous Piano Playing via Adversarial Posture Regularization
 
@@ -377,23 +393,5 @@ Robotic manipulation dexterity is often pursued by building increasingly complex
 ### Summary
 
 Manipulating thin objects requires precise contact geometry and reliable force perception, yet many anthropomorphic robotic hands lack the mechanical and sensing capabilities needed for such interactions. We present the ARISTO Hand, a tendon-driven robotic hand that integrates active distal hyperextension with a hybrid fingertip-sensing architecture that combines a rigid, nail-mounted force-torque sensor and a soft capacitive tactile array.
-
----
-
-## Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30282)
-- **Authors:** Kuangji Zuo, Gen Li, Bofan Lyu, Yanshuo Lu, Boyu Ma, Shijia Han et al. (12 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-  - Navigation
-
-### Summary
-
-Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent.
 
 ---

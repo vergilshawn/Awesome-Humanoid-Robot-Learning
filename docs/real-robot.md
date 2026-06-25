@@ -7,13 +7,56 @@ Papers with real humanoid robot deployment and experiments.
 - **Digit:** 5 papers
 - **Figure:** 21 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 40 papers
+- **Unitree G1:** 42 papers
 - **Unknown Platform:** 6 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25706)
+- **Authors:** Yumeng Liu, Dongqi Wang, Jiyu Yu, Yijun Fan, Rong Xiong, Yue Wang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - MPC
+  - Whole-Body Control
+  - Humanoid
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+High-level humanoid planners often output sparse task-space, low-rate trajectories, whereas whole-body controllers run at high frequency. This creates temporal asynchrony between the planning and execution, and structural incompleteness for full-body control.
+
+---
+
+## RGB: RL Guided Whole-Body MPPI for Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25123)
+- **Authors:** Yunsoo Seo, Sol Choi, Euncheol Im, Myo Taeg Lim, Yisoo Lee
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - MuJoCo
+  - Humanoid
+  - Walking
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots require whole-body controllers that are both robust and precise in contact-rich environments. While deep reinforcement learning (RL) achieves robust stability, its behavior is tightly coupled to the training objective and command interface, making it difficult to add new feedback objectives without retraining.
+
+---
 
 ## DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs
 

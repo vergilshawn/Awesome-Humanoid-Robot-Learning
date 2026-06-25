@@ -2,23 +2,23 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 632
-- **Real Robot Papers:** 77
+- **Total Papers:** 638
+- **Real Robot Papers:** 79
 - **Open Source Papers:** 133
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (205)
-- [Manipulation](#manipulation) (72)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (208)
+- [Manipulation](#manipulation) (73)
 - [Teleoperation](#teleoperation) (30)
 - [Locomotion](#locomotion) (122)
 - [Navigation](#navigation) (23)
 - [State Estimation](#state-estimation) (26)
 - [Sim-to-Real](#sim-to-real) (11)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (50)
+- [Simulation Benchmark](#simulation-benchmark) (52)
 - [Physics-Based Character Animation](#physics-based-character-animation) (38)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (24)
 - [Usage](#usage)
@@ -29,6 +29,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots](https://arxiv.org/abs/2606.25706) — `MPC`, `Whole-Body Control`, `Humanoid`, `Distillation`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
+- [DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects](https://arxiv.org/abs/2606.25295) — `Reinforcement Learning`, `Whole-Body Control`, `Manipulation`, `Isaac Gym`, `Trajectory Prediction`, `Diffusion`
+- [RGB: RL Guided Whole-Body MPPI for Humanoid Control](https://arxiv.org/abs/2606.25123) — `Reinforcement Learning`, `Whole-Body Control`, `MuJoCo`, `Humanoid`, `Walking`, `Loco-Manipulation and Whole-Body Control`
 - [HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory](https://arxiv.org/abs/2606.23565) — `Manipulation`, `Navigation`, `Safety`, `Humanoid`, `GAN`, `Loco-Manipulation and Whole-Body Control`
 - [LP-NavOA: Integrated Local Navigation and Obstacle Avoidance for Humanoid Robots under Limited Perception](https://arxiv.org/abs/2606.23249) — `Locomotion`, `Navigation`, `Safety`, `MuJoCo`, `Humanoid`, `Proprioception`
 - [OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.22174) — `Teleoperation`, `Manipulation`, `Humanoid`, `Vision-Language`, `GAN`, `Loco-Manipulation and Whole-Body Control`
@@ -317,6 +320,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [Self Capacitive Tactile Sensor System designed for Companion Robots](https://arxiv.org/abs/2606.25348) — `Manipulation`, `Humanoid`, `Tactile Sensing`
 - 🌟 [Enforcing Human-like Kinematics in Dexterous Piano Playing via Adversarial Posture Regularization](https://arxiv.org/abs/2606.23848), [website](https://github.com/aprproject/aprpianist) — `Reinforcement Learning`, `Manipulation`, `Physics-Based Character Animation`, `State Estimation`, `Simulation Benchmark`, `Open Source`
 - [VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation](https://arxiv.org/abs/2606.21600) — `Manipulation`, `Multi-Task`, `Humanoid`, `Benchmark`, `Flow Matching`, `Simulation Benchmark`
 - [Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection](https://arxiv.org/abs/2606.19774) — `Manipulation`, `Humanoid`, `Benchmark`, `State Estimation`, `Simulation Benchmark`
@@ -982,6 +986,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [WOLF-VLA: Whole-Body Humanoid Optimal Locomotion Framework for Vision-Language-Action Learning](https://arxiv.org/abs/2606.25591) — `Locomotion`, `Manipulation`, `Safety`, `Robustness`, `Humanoid`, `Vision-Language`
+- [BFMTrack: Latent Sequence Optimization for Physics-Based Motion Tracking with Behavioral Foundation Models](https://arxiv.org/abs/2606.25056) — `Humanoid`, `Foundation Model`, `Dataset`, `PPO`, `GAN`, `Simulation Benchmark`
 - [TEXEDO : Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation](https://arxiv.org/abs/2606.22998) — `Humanoid`, `Language-Conditioned`, `Contact Dynamics`, `Dataset`, `Simulation Benchmark`, `Physics-Based Character Animation`
 - [ReFPO: Reflow Regularization for Flow Matching Policy Gradients](https://arxiv.org/abs/2606.21086) — `Robustness`, `MuJoCo`, `Humanoid`, `Distillation`, `PPO`, `Flow Matching`
 - [VENOM: Versatile Embodied Network for Omni-bodied Motion tracking](https://arxiv.org/abs/2606.16696) — `Reinforcement Learning`, `Humanoid`, `Dataset`, `Simulation Benchmark`, `State Estimation`

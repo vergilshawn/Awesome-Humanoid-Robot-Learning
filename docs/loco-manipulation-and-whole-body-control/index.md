@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**205 papers** in this category.
+**208 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (26 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (29 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -35,6 +35,70 @@
 ---
 
 ## Recent Papers
+
+## Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25706)
+- **Authors:** Yumeng Liu, Dongqi Wang, Jiyu Yu, Yijun Fan, Rong Xiong, Yue Wang
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - MPC
+  - Whole-Body Control
+  - Humanoid
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+High-level humanoid planners often output sparse task-space, low-rate trajectories, whereas whole-body controllers run at high frequency. This creates temporal asynchrony between the planning and execution, and structural incompleteness for full-body control.
+
+---
+
+## DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25295)
+- **Authors:** Zhinan Yu, Junyan Xu, Jiazhao Zhang, Zheng Qin, Yijie Tang, Yuhang Huang et al. (12 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Isaac Gym
+  - Trajectory Prediction
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Mobile manipulation is a fundamental robotics task and has advanced rapidly in recent years, enabling robots to navigate, reach, and interact with objects in complex environments. However, mobile manipulation of dynamic objects remains highly challenging, as robots must coordinate the mobile base and arm while adapting to continuously evolving target poses.
+
+---
+
+## RGB: RL Guided Whole-Body MPPI for Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25123)
+- **Authors:** Yunsoo Seo, Sol Choi, Euncheol Im, Myo Taeg Lim, Yisoo Lee
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - MuJoCo
+  - Humanoid
+  - Walking
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots require whole-body controllers that are both robust and precise in contact-rich environments. While deep reinforcement learning (RL) achieves robust stability, its behavior is tightly coupled to the training objective and command interface, making it difficult to add new feedback objectives without retraining.
+
+---
 
 ## HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory
 
@@ -345,62 +409,5 @@ This paper investigates whether LLM translations exhibit identifiable emotional 
 ### Summary
 
 Humanoid robots require whole-body motions that adapt to scene context, task requirements, and user intent. Motion tracking reproduces specified trajectories, and humanoid vision-language-action systems provide semantic interfaces, but neither offers a scalable and interactive prior for broad full-body behavior.
-
----
-
-## Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08059)
-- **Authors:** Zifan Wang, Yizhao Li, Teli Ma, Qiang Zhang, Yudong Fan, Hao Xu et al. (8 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Transformer
-  - Humanoid
-  - Inverse Kinematics
-  - Foundation Model
-  - Collision
-  - PPO
-
-### Summary
-
-Humanoid behavior foundation models aim to acquire reusable whole-body control policies from broad human motion priors, enabling a single controller to produce diverse and expressive behaviors. However, existing motion-centric foundation policies largely assume that the reference motion is already physically compatible with the robot's surroundings.
-
----
-
-## Aligned but Not Partner-Specific: Distinguishing How Multimodal LLM Agents Succeed in Reference Games Without Human-Like Conventions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08081)
-- **Authors:** Po-Ya Angela Wang, Chinmaya Mishra, Aslı Özyürek, Paula Rubio-Fernández, Esam Ghaleb
-- **Published:** 2026-06
-- **Tags:**
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Repeated reference games test whether interlocutors replace their initially long descriptions with shorter, partner-specific conventions grounded in shared interaction history. Prior work shows that multimodal LLMs fail to become more efficient across rounds, although they align on the labels they use.
-
----
-
-## HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.06493)
-- **Authors:** Lizhi Yang, Junheng Li, Nehar Poddar, Yiling Hou, Gio Huh, Robert Griffin et al. (8 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Safety
-  - Humanoid
-  - Task Planning
-  - Fine-tuning
-  - Distillation
-
-### Summary
-
-For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references that planners struggle to synthesize from task semantics.
 
 ---

@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**50 papers** in this category.
+**52 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (13 papers)
+- [2026-06](/simulation-benchmark/2026-06) (15 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -23,6 +23,48 @@
 ---
 
 ## Recent Papers
+
+## WOLF-VLA: Whole-Body Humanoid Optimal Locomotion Framework for Vision-Language-Action Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25591)
+- **Authors:** Melya Boukheddimi, Omar Adjali, Daniel Sontag, Frank Kirchner
+- **Published:** 2026-06
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Safety
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - Impact
+  - Benchmark
+
+### Summary
+
+Vision-Language-Action (VLA) models have recently demonstrated strong generalization in robotic manipulation, yet their applicability to whole-body, contact-rich humanoid locomotion remains severely underexplored due to data scarcity, the absence of dynamically consistent demonstrations, and the difficulty of encoding optimality and safety in learning-based pipelines. This work introduces a unified framework WOLF-VLA that integrates whole-body optimal-control (OC) motion synthesis with large-scale multi-modal dataset to train VLAs capable of generating humanoid locomotion policies directly from natural-language instructions.
+
+---
+
+## BFMTrack: Latent Sequence Optimization for Physics-Based Motion Tracking with Behavioral Foundation Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25056)
+- **Authors:** Thomas Rupf, Agon Serifi, David Müller, Sammy Christen, Ruben Grandia, Espen Knoop et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Foundation Model
+  - Dataset
+  - PPO
+  - GAN
+  - Simulation Benchmark
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Behavioral Foundation Models (BFMs) offer a promising path toward universal physics-based character control by organizing a rich repertoire of physically plausible behaviors into a latent space, guided by a large-scale motion dataset. While these models excel at time-invariant tasks, such as goal-reaching and state-based reward optimization, their latent space does not directly support time-varying objectives, such as tracking a motion sequence.
+
+---
 
 ## TEXEDO : Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation
 
@@ -368,47 +410,5 @@ This paper investigates continuous-time motion planning under Signal Temporal Lo
 ### Summary
 
 A central question in computational vision is whether human-like visual representations are better explained by discriminative or generative learning. Existing comparisons, however, often confound the learning objective with architecture, scale, and training data, leaving open whether the objective itself drives alignment.
-
----
-
-## SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-based Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.22894)
-- **Authors:** Jingyan Zhang, Han Liang, Ruichi Zhang, Bin Li, Juze Zhang, Xin Chen et al. (9 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Diffusion Policy
-  - Transformer
-  - Humanoid
-  - Pre-training
-  - Dataset
-  - Diffusion
-  - Simulation Benchmark
-
-### Summary
-
-Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control.
-
----
-
-## 🌟 EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19004)
-- **Project:** [GitHub](https://github.com/yehiahmad/egotraj)
-- **Authors:** Ahmad Yehia, Abduallah Mohamed, Tianyi Wang, Jiseop Byeon, Kun Qian, Junfeng Jiao et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Navigation
-  - Humanoid
-  - Trajectory Prediction
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Accurately forecasting human trajectories from an egocentric perspective plays a central role in applications such as humanoid robotics, wearable sensing systems, and assistive navigation. However, progress in this direction remains limited due to the scarcity of egocentric trajectory datasets collected in real-world environments.
 
 ---
