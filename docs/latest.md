@@ -2,6 +2,182 @@
 
 All papers sorted by publication date (newest first).
 
+## HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27239)
+- **Authors:** Hongwu Wang, Chenhao Yu, Youhao Hu, Jiachen Zhang, Yuanyuan Li, Shaqi Luo
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+High-quality demonstration data are essential for humanoid robot skill learning, especially for whole-body behaviors that require coordinated perception, locomotion, and manipulation. Existing data-collection methods largely rely on robot teleoperation, which is constrained by hardware accessibility, operator expertise, and limited efficiency.
+
+---
+
+## Humanoid-DART: Humanoid Loco-Manipulation using Diffusion-guided Augmentation through Relabeling and Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26855)
+- **Authors:** Pranav Debbad, Kanish Thiagarajan, Victor Dhédin, Shafeef Omar, Majid Khadiv
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Goal-Conditioned
+  - Diffusion
+  - Self-Supervised
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Imitating human demonstrations has emerged as a dominant paradigm for learning humanoid loco-manipulation policies. However, scaling these approaches remains challenging due to the high cost of collecting diverse demonstrations and the need for continual human intervention to correct policy failures.
+
+---
+
+## PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26741)
+- **Authors:** Yi Lu, Shenghao Ren, Tianyu Xiong, Zhaoxiang Li, Jiaqi Li, He Zhang et al. (9 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Contact Dynamics
+  - Dataset
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid motion imitation requires not only accurate perception of human kinematics but also faithful reproduction of physical interactions with the environment. However, existing pipelines rely primarily on vision-based motion capture and kinematic imitation, largely ignoring contact dynamics, leading to artifacts such as foot sliding, floor penetration, and unstable behaviors.
+
+---
+
+## Identifying the Unknown: Prompt-Free Open Vocabulary Anomaly Recognition for Robot-Object Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26829)
+- **Authors:** Philipp Allgeuer, Jan-Gerrit Habekost, Stefan Wermter
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Open Vocabulary
+  - Simulation Benchmark
+
+### Summary
+
+Robots operating in real-world environments must in general be able to recognize previously unseen objects. As robotic systems move toward open-world autonomy, there is a growing, yet largely unmet, need for open vocabulary object detectors that are prompt-free and efficient enough for continuous deployment.
+
+---
+
+## DanceDuo: Bridging Human Movement and AI Choreography
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26507)
+- **Authors:** Gia-Cat Bui-Le, Tuong-Vy Truong-Thuy, Hai-Dang Nguyen, Trung-Nghia Le
+- **Published:** 2026-06
+- **Tags:**
+  - Generative Models
+  - Humanoid
+  - Deep Learning
+  - Pose Estimation
+  - Diffusion
+  - Human Motion Analysis and Synthesis
+  - State Estimation
+
+### Summary
+
+In recent years, advancements in deep learning and generative models have revolutionized music-driven dance generation. This paper introduces a novel platform, namely DanceDuo, leveraging diffusion models to generate AI-choreographed dance sequences synchronized with a variety of music genres, to encourage dancing practice.
+
+---
+
+## A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26425)
+- **Authors:** Duncan William Calvert
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Atlas
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots could take on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole body motion, perception, contact, and operator supervision.
+
+---
+
+## TaskNPoint: How to Teach Your Humanoid to Hit a Backhand in Minutes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26215)
+- **Authors:** Blake Werner, Ilona Demler, Pietro Perona, Aaron D. Ames
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Robustness
+  - Humanoid
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+How do we learn to hit a tennis backhand? Not from a thousand hours of tennis tournaments on TV - we work with a coach and practice. We argue this is also the right recipe for teaching dynamic skills to humanoid robots.
+
+---
+
+## RoboTales: ROBOTic Anthropomorphic LEarning Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26213)
+- **Authors:** Andrew Chen, Ju-Hung Chen, Phurinat Pinyomit, Alexis E. Block
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - PPO
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+RoboTales is a low-cost robotic storytelling system that animates narratives using expressive sock puppetry. Implemented autonomously on a Baxter robot as a test case, RoboTales synchronizes narration, gestures, and mouth movements to perform character-driven stories.
+
+---
+
+## OmniContact: Chaining Meta-Skills via Contact Flow for Generalizable Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26201)
+- **Authors:** Runyi Yu, Xiaoyi Lin, Ji Ma, Yinhuai Wang, Koukou Luo, Jiahao Ji et al. (14 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Learning long-horizon humanoid loco-manipulation poses a dual challenge: it requires not only the robust execution of meta-skills but also their seamless, closed-loop chaining equipped with autonomous recovery. Existing approaches remain limited: explicit humanoid-object interaction representations offer precision but are notoriously difficult for high-level planning, whereas implicit skill embeddings are compact but lack the interpretability required for reliable composition.
+
+---
+
 ## Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.25706)
@@ -331,7 +507,7 @@ Whole-body humanoid loco-manipulation requires coordinating the robot's entire k
 ## Improving Reasoning in Vision-Language Models via Perception Verified Self-Training
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.22158)
-- **Authors:** Sourabh Sharma, Sonam Gupta, Sadbhawna Thakur
+- **Authors:** Sourabh Sharma, Sonam Gupta,  Sadbhawna
 - **Published:** 2026-06
 - **Tags:**
   - Vision-Language

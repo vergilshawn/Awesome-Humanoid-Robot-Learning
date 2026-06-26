@@ -1,10 +1,10 @@
 # State Estimation
 
-**26 papers** in this category.
+**27 papers** in this category.
 
 ## Months
 
-- [2026-06](/state-estimation/2026-06) (14 papers)
+- [2026-06](/state-estimation/2026-06) (15 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
@@ -16,6 +16,27 @@
 ---
 
 ## Recent Papers
+
+## PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26741)
+- **Authors:** Yi Lu, Shenghao Ren, Tianyu Xiong, Zhaoxiang Li, Jiaqi Li, He Zhang et al. (9 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Contact Dynamics
+  - Dataset
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid motion imitation requires not only accurate perception of human kinematics but also faithful reproduction of physical interactions with the environment. However, existing pipelines rely primarily on vision-based motion capture and kinematic imitation, largely ignoring contact dynamics, leading to artifacts such as foot sliding, floor penetration, and unstable behaviors.
+
+---
 
 ## PDS Joint: A Parametric Double-Spiral Joint Tailored for Dexterous Hands
 
@@ -384,19 +405,5 @@ Robust state estimation for highly dynamic motion of legged robots remains chall
 ### Summary
 
 Generating realistic human motion is a central yet unsolved challenge in video generation. While reinforcement learning (RL)-based post-training has driven recent gains in general video quality, extending it to human motion remains bottlenecked by a reward signal that cannot reliably score motion realism.
-
----
-
-## AutoOdom: Learning Auto-regressive Proprioceptive Odometry for Legged Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.18857)
-- **Published:** 2025-11
-- **Tags:**
-  - Locomotion
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---

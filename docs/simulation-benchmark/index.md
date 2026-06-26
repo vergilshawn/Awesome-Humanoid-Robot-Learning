@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**52 papers** in this category.
+**54 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (15 papers)
+- [2026-06](/simulation-benchmark/2026-06) (17 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -23,6 +23,42 @@
 ---
 
 ## Recent Papers
+
+## Identifying the Unknown: Prompt-Free Open Vocabulary Anomaly Recognition for Robot-Object Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26829)
+- **Authors:** Philipp Allgeuer, Jan-Gerrit Habekost, Stefan Wermter
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Open Vocabulary
+  - Simulation Benchmark
+
+### Summary
+
+Robots operating in real-world environments must in general be able to recognize previously unseen objects. As robotic systems move toward open-world autonomy, there is a growing, yet largely unmet, need for open vocabulary object detectors that are prompt-free and efficient enough for continuous deployment.
+
+---
+
+## TaskNPoint: How to Teach Your Humanoid to Hit a Backhand in Minutes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26215)
+- **Authors:** Blake Werner, Ilona Demler, Pietro Perona, Aaron D. Ames
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Robustness
+  - Humanoid
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+How do we learn to hit a tennis backhand? Not from a thousand hours of tennis tournaments on TV - we work with a coach and practice. We argue this is also the right recipe for teaching dynamic skills to humanoid robots.
+
+---
 
 ## WOLF-VLA: Whole-Body Humanoid Optimal Locomotion Framework for Vision-Language-Action Learning
 
@@ -376,39 +412,5 @@ Human-like agents are a long-standing goal of artificial intelligence. Despite s
 ### Summary
 
 Multimodal large language models (MLLMs) frequently suffer from object hallucinations, yet the visual perceptual mechanism underlying this failure remains poorly understood. In this work, we reveal that hallucinations are strongly associated with a human-like attention distraction phenomenon, where humans under divided focus experience degraded visual clarity and produce inaccurate descriptions, while in models the same mechanism manifests as spatial inconsistency in multi-head attention and temporal fading of attention to image tokens during decoding.
-
----
-
-## Signal Temporal Logic Motion Planning via Graphs of Convex Sets
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.23240)
-- **Authors:** Yu Chen, Ancheng Hou, Mingyang Feng, Xiao Yu, Xiang Yin
-- **Published:** 2026-05
-- **Tags:**
-  - Humanoid
-  - Motion Planning
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-This paper investigates continuous-time motion planning under Signal Temporal Logic (STL) specifications. The goal is to generate smooth robot trajectories that satisfy high-level logical and timing requirements while respecting low-level motion constraints.
-
----
-
-## Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.23819)
-- **Authors:** Jorge Chang Ortega, Bastien Le Lan, Thomas Serre, Victor Boutin
-- **Published:** 2026-05
-- **Tags:**
-  - Robustness
-  - Benchmark
-  - Energy-Based
-  - Simulation Benchmark
-
-### Summary
-
-A central question in computational vision is whether human-like visual representations are better explained by discriminative or generative learning. Existing comparisons, however, often confound the learning objective with architecture, scale, and training data, leaving open whether the objective itself drives alignment.
 
 ---

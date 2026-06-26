@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**208 papers** in this category.
+**212 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (29 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (33 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -35,6 +35,89 @@
 ---
 
 ## Recent Papers
+
+## HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27239)
+- **Authors:** Hongwu Wang, Chenhao Yu, Youhao Hu, Jiachen Zhang, Yuanyuan Li, Shaqi Luo
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+High-quality demonstration data are essential for humanoid robot skill learning, especially for whole-body behaviors that require coordinated perception, locomotion, and manipulation. Existing data-collection methods largely rely on robot teleoperation, which is constrained by hardware accessibility, operator expertise, and limited efficiency.
+
+---
+
+## Humanoid-DART: Humanoid Loco-Manipulation using Diffusion-guided Augmentation through Relabeling and Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26855)
+- **Authors:** Pranav Debbad, Kanish Thiagarajan, Victor Dhédin, Shafeef Omar, Majid Khadiv
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Goal-Conditioned
+  - Diffusion
+  - Self-Supervised
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Imitating human demonstrations has emerged as a dominant paradigm for learning humanoid loco-manipulation policies. However, scaling these approaches remains challenging due to the high cost of collecting diverse demonstrations and the need for continual human intervention to correct policy failures.
+
+---
+
+## A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26425)
+- **Authors:** Duncan William Calvert
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Atlas
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots could take on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole body motion, perception, contact, and operator supervision.
+
+---
+
+## OmniContact: Chaining Meta-Skills via Contact Flow for Generalizable Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26201)
+- **Authors:** Runyi Yu, Xiaoyi Lin, Ji Ma, Yinhuai Wang, Koukou Luo, Jiahao Ji et al. (14 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Learning long-horizon humanoid loco-manipulation poses a dual challenge: it requires not only the robust execution of meta-skills but also their seamless, closed-loop chaining equipped with autonomous recovery. Existing approaches remain limited: explicit humanoid-object interaction representations offer precision but are notoriously difficult for high-level planning, whereas implicit skill embeddings are compact but lack the interpretability required for reliable composition.
+
+---
 
 ## Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots
 
@@ -166,7 +249,7 @@ Whole-body humanoid loco-manipulation requires coordinating the robot's entire k
 ## Improving Reasoning in Vision-Language Models via Perception Verified Self-Training
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.22158)
-- **Authors:** Sourabh Sharma, Sonam Gupta, Sadbhawna Thakur
+- **Authors:** Sourabh Sharma, Sonam Gupta,  Sadbhawna
 - **Published:** 2026-06
 - **Tags:**
   - Vision-Language
@@ -337,77 +420,5 @@ Elite humanoid soccer shooting requires whole-body stability, high-impulse whole
 ### Summary
 
 Humanoid whole-body control has made significant progress in recent years, yet existing approaches remain limited to few-skill policies with heavy reward engineering, or motion trackers that are difficult to extend to new input modalities. We argue that the key to general-purpose humanoid control is to build a scalable brain, a module capable of reasoning with diverse conditioning modalities, atop a reactive motion tracking cerebellum, mirroring the hierarchical structure of biological motor systems.
-
----
-
-## VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.09286)
-- **Authors:** Dongting Li, Qianyang Wu, Xingyu Chen, Liang Li, Yuhang Lin, Sikai Wu et al. (12 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - Proprioception
-  - Distillation
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Physics-Based Character Animation
-
-### Summary
-
-Humanoid robots hold immense potential for real-world assistance, yet agile interaction with objects in unstructured environments demands tightly coupled whole-body coordination. Despite recent advancements, current controllers face a critical deployment gap.
-
----
-
-## MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.09215)
-- **Authors:** Jia Zheng, Teli Ma, Yudong Fan, Zifan Wang, Shuo Yang, Junwei Liang
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - World Model
-  - Humanoid
-  - Vision-Language
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-World Action Models (WAMs) couple a video dynamics prior to the policy and have shown encouraging results on tabletop manipulation, but iterative denoising over high-dimensional video-action latents leaves them too slow for real-time humanoid loco-manipulation. The problem is compounded by the dominant hierarchical paradigm, in which a high-level manipulation policy controls only the upper body while a low-level controller tracks coarse base commands -- placing upper and lower body in inconsistent action spaces and reducing the legs to balance-preserving locomotion.
-
----
-
-## Emotion Profiling in LLM-Based Literary Translation: Systematic Shifts Across MT and Post-Editing
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.10113)
-- **Authors:** Antonio Castaldo, Johanna Monti, Sheila Castilho
-- **Published:** 2026-06
-- **Tags:**
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-This paper investigates whether LLM translations exhibit identifiable emotional profiles and how post-editing reshapes them toward human-like norms. We compare LLM translations of Margaret Atwood's Oryx and Crake with their post-edited versions and a human translation, using a large-scale corpus of contemporary Italian science-fiction as a baseline.
-
----
-
-## EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08495)
-- **Authors:** Haoyang Ge, Peng Ren, Yukun Shi, Cong Huang, Kun Li, Kai Chen
-- **Published:** 2026-06
-- **Tags:**
-  - Human Demonstration
-  - Humanoid
-  - Vision-Language
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-
-### Summary
-
-Humanoid robots require whole-body motions that adapt to scene context, task requirements, and user intent. Motion tracking reproduces specified trajectories, and humanoid vision-language-action systems provide semantic interfaces, but neither offers a scalable and interactive prior for broad full-body behavior.
 
 ---

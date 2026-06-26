@@ -1,10 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**24 papers** in this category.
+**26 papers** in this category.
 
 ## Months
 
-- [2026-06](/human-motion-analysis-and-synthesis/2026-06) (1 papers)
+- [2026-06](/human-motion-analysis-and-synthesis/2026-06) (3 papers)
 - [2026-05](/human-motion-analysis-and-synthesis/2026-05) (3 papers)
 - [2026-04](/human-motion-analysis-and-synthesis/2026-04) (1 papers)
 - [2026-02](/human-motion-analysis-and-synthesis/2026-02) (2 papers)
@@ -25,6 +25,42 @@
 ---
 
 ## Recent Papers
+
+## DanceDuo: Bridging Human Movement and AI Choreography
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26507)
+- **Authors:** Gia-Cat Bui-Le, Tuong-Vy Truong-Thuy, Hai-Dang Nguyen, Trung-Nghia Le
+- **Published:** 2026-06
+- **Tags:**
+  - Generative Models
+  - Humanoid
+  - Deep Learning
+  - Pose Estimation
+  - Diffusion
+  - Human Motion Analysis and Synthesis
+  - State Estimation
+
+### Summary
+
+In recent years, advancements in deep learning and generative models have revolutionized music-driven dance generation. This paper introduces a novel platform, namely DanceDuo, leveraging diffusion models to generate AI-choreographed dance sequences synchronized with a variety of music genres, to encourage dancing practice.
+
+---
+
+## RoboTales: ROBOTic Anthropomorphic LEarning Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26213)
+- **Authors:** Andrew Chen, Ju-Hung Chen, Phurinat Pinyomit, Alexis E. Block
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - PPO
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+RoboTales is a low-cost robotic storytelling system that animates narratives using expressive sock puppetry. Implemented autonomously on a Baxter robot as a test case, RoboTales synchronizes narration, gestures, and mouth movements to perform character-driven stories.
+
+---
 
 ## Legible and Intuitive Multi-modal Robot State and Intent Communication Validated in Online and Real-world Studies
 
@@ -290,33 +326,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2024-05
 - **Tags:**
   - Diffusion
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Taming Diffusion Probabilistic Models for Character Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2404.15121)
-- **Published:** 2024-04
-- **Tags:**
-  - Diffusion
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## OmniControl: Control Any Joint at Any Time for Human Motion Generation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2310.08580)
-- **Published:** 2023-10
-- **Tags:**
   - Human Motion Analysis and Synthesis
 
 ### Summary

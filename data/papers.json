@@ -1,5 +1,316 @@
 [
   {
+    "arxiv_id": "2606.27239",
+    "title": "HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.27239",
+    "project_url": null,
+    "authors": [
+      "Hongwu Wang",
+      "Chenhao Yu",
+      "Youhao Hu",
+      "Jiachen Zhang",
+      "Yuanyuan Li",
+      "Shaqi Luo"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-25",
+    "abstract": "High-quality demonstration data are essential for humanoid robot skill learning, especially for whole-body behaviors that require coordinated perception, locomotion, and manipulation. Existing data-collection methods largely rely on robot teleoperation, which is constrained by hardware accessibility, operator expertise, and limited efficiency. Inspired by the Universal Manipulation Interface (UMI), we propose HumanoidUMI, a portable and robot-free framework for humanoid whole-body data collection. HumanoidUMI uses lightweight VR devices and UMI-inspired grippers to collect sparse human keypoint trajectories, wrist-view observations, and gripper actions. These demonstrations train a high-level policy to predict future keypoints, which are retargeted to robot-native whole-body references and executed by a whole-body controller. Experiments in five real-world scenarios demonstrate the effectiveness of the proposed framework and validate the collected demonstrations for transferable humanoid whole-body skill learning.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.26855",
+    "title": "Humanoid-DART: Humanoid Loco-Manipulation using Diffusion-guided Augmentation through Relabeling and Tracking",
+    "paper_url": "https://arxiv.org/abs/2606.26855",
+    "project_url": null,
+    "authors": [
+      "Pranav Debbad",
+      "Kanish Thiagarajan",
+      "Victor Dhédin",
+      "Shafeef Omar",
+      "Majid Khadiv"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-25",
+    "abstract": "Imitating human demonstrations has emerged as a dominant paradigm for learning humanoid loco-manipulation policies. However, scaling these approaches remains challenging due to the high cost of collecting diverse demonstrations and the need for continual human intervention to correct policy failures. In this paper, we present a self-supervised framework that bootstraps from sparse demonstrations and progressively expands its behavioral repertoire, enabling the learning of a goal-conditioned policy that automatically explores the goal space with minimal expert supervision. Our approach combines diffusion-based trajectory generation with reinforcement learning, where the latter is used to track goal-conditioned trajectories produced by the diffusion model for a range of loco-manipulation skills. Through extensive ablation studies and comparisons with state-of-the-art methods, we demonstrate the effectiveness of our framework on multiple humanoid loco-manipulation skills.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "Human Demonstration",
+      "Humanoid",
+      "Goal-Conditioned",
+      "Diffusion",
+      "Self-Supervised",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.26741",
+    "title": "PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation",
+    "paper_url": "https://arxiv.org/abs/2606.26741",
+    "project_url": null,
+    "authors": [
+      "Yi Lu",
+      "Shenghao Ren",
+      "Tianyu Xiong",
+      "Zhaoxiang Li",
+      "Jiaqi Li",
+      "He Zhang",
+      "Tao Yu",
+      "Qiu Shen",
+      "Xun Cao"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-25",
+    "abstract": "Humanoid motion imitation requires not only accurate perception of human kinematics but also faithful reproduction of physical interactions with the environment. However, existing pipelines rely primarily on vision-based motion capture and kinematic imitation, largely ignoring contact dynamics, leading to artifacts such as foot sliding, floor penetration, and unstable behaviors. In this work, we revisit humanoid motion imitation from the perspective of physical grounding and leverage pressure as a unified modality across perception and control. We present PressMimic, a framework that integrates pressure into the full pipeline from motion capture to humanoid control. In the perception stage, we introduce FRAPPE++, a multimodal model that fuses RGB and pressure to jointly estimate 3D pose and global motion, where pressure provides explicit contact and support constraints to resolve ambiguity in vision-based estimation. In the control stage, we propose a pressure-supervised policy (PSP) that incorporates pressure-derived signals into reinforcement learning, enabling physically consistent contact patterns during execution. We further construct MotionPRO, a large-scale dataset with synchronized RGB, pressure, and motion capture data. Experiments show that pressure improves motion estimation accuracy, trajectory consistency, and execution stability. These results demonstrate that pressure serves as an effective physical grounding signal, bridging perception and control for physically consistent humanoid motion imitation.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Contact Dynamics",
+      "Dataset",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2606.26829",
+    "title": "Identifying the Unknown: Prompt-Free Open Vocabulary Anomaly Recognition for Robot-Object Interaction",
+    "paper_url": "https://arxiv.org/abs/2606.26829",
+    "project_url": null,
+    "authors": [
+      "Philipp Allgeuer",
+      "Jan-Gerrit Habekost",
+      "Stefan Wermter"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-25",
+    "abstract": "Robots operating in real-world environments must in general be able to recognize previously unseen objects. As robotic systems move toward open-world autonomy, there is a growing, yet largely unmet, need for open vocabulary object detectors that are prompt-free and efficient enough for continuous deployment. We present AnomNOVIC, a two-stage known-workspace framework that combines a masked autoencoder (MAE) trained for anomaly detection, with NOVIC, a powerful real-time prompt-free open vocabulary image classifier. The MAE produces generic object-agnostic bounding boxes, allowing NOVIC to classify salient image regions without requiring a predefined candidate class list. We evaluate AnomNOVIC against strong open vocabulary baselines in a tabletop robot-object environment featuring the NICOL humanoid robot, reaching 47.1% AP / 57.5% AP50 for prompt-free recognition, and 59.0% AP / 72.5% AP50 if class candidates are provided. Across additional datasets, including an in-the-wild test set with 48 unique objects, AnomNOVIC reaches up to 82.6% prompt-free detection and classification accuracy. These results significantly surpass all tested open vocabulary baselines, including YOLO-World-v2, OWLv2, and YOLOE.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "Dataset",
+      "Open Vocabulary",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.26507",
+    "title": "DanceDuo: Bridging Human Movement and AI Choreography",
+    "paper_url": "https://arxiv.org/abs/2606.26507",
+    "project_url": null,
+    "authors": [
+      "Gia-Cat Bui-Le",
+      "Tuong-Vy Truong-Thuy",
+      "Hai-Dang Nguyen",
+      "Trung-Nghia Le"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-25",
+    "abstract": "In recent years, advancements in deep learning and generative models have revolutionized music-driven dance generation. This paper introduces a novel platform, namely DanceDuo, leveraging diffusion models to generate AI-choreographed dance sequences synchronized with a variety of music genres, to encourage dancing practice. The system allows users to interact with AI by selecting music tracks, humanoid models, and importing personal dance videos for comparison, fostering a rich and engaging user experience. DanceDuo not only offers dance generation but also integrates human pose estimation models to provide users with insightful comparisons of their own performances with AI-generated sequences. We conducted a comprehensive user study, revealing that users found the interface intuitive, with particular praise for the dance comparison feature. Our DanceDuo contributes significantly to the integration of AI in dance choreography, offering novel avenues for both recreational and professional applications.",
+    "categories": [
+      "Human Motion Analysis and Synthesis",
+      "State Estimation"
+    ],
+    "tags": [
+      "Generative Models",
+      "Humanoid",
+      "Deep Learning",
+      "Pose Estimation",
+      "Diffusion",
+      "Human Motion Analysis and Synthesis",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
+    "arxiv_id": "2606.26425",
+    "title": "A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2606.26425",
+    "project_url": null,
+    "authors": [
+      "Duncan William Calvert"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-24",
+    "abstract": "Humanoid robots could take on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole body motion, perception, contact, and operator supervision. This thesis presents a robot-local, runtime-editable behavior authoring and runtime system.   Our system strives to be maximally observable, predictable, and directable following Coactive Design principles developed during the DARPA Robotics Challenge. Our operator interface remains continuously synchronized to the robot for runtime authoring, monitoring, and repair. Our behavior architecture uniquely combines object-centric Affordance Templates, organization and logic inspired by Behavior Trees, and runtime-editable perception through a behavior scene and primitive scene actions. Action primitives build on a whole-body controller that supports moving the arms while walking, and use a concurrent action layering algorithm for speed.   The behavior library developed during this work covers more than twenty real-robot task variants, including push and pull doors with knob, push-bar, and lever-handle mechanisms, multi-step exploration sequences, obstacle clearing, and reactive table-to-table manipulation tasks. This behavior system has been deployed on many humanoid robots, such as Boston Dynamics' DRC Atlas, NASA's Valkyrie, IHMC and Boardwalk Robotics' Nadia, Unitree's H1-2, and IHMC's Alex.   We evaluate our system across capability, speed, reliability, and speed of behavior creation, adaptation, extension, and combination. Our experiments demonstrate that we can adapt, extend, and combine existing behaviors to create novel loco-manipulation behaviors in minutes or hours. Videos: https://www.youtube.com/playlist?list=PLJK5CTyotYqsfgfnXb-09YNFeBose6uEY.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Navigation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Walking",
+      "PPO",
+      "GAN",
+      "Loco-Manipulation and Whole-Body Control",
+      "Navigation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Atlas",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.26215",
+    "title": "TaskNPoint: How to Teach Your Humanoid to Hit a Backhand in Minutes",
+    "paper_url": "https://arxiv.org/abs/2606.26215",
+    "project_url": null,
+    "authors": [
+      "Blake Werner",
+      "Ilona Demler",
+      "Pietro Perona",
+      "Aaron D. Ames"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-24",
+    "abstract": "How do we learn to hit a tennis backhand? Not from a thousand hours of tennis tournaments on TV - we work with a coach and practice. We argue this is also the right recipe for teaching dynamic skills to humanoid robots. This follows from a structural property of dynamic skills: the outcome is decided by a short, crucial portion of the trajectory - for a backhand, the ~20cm of racket travel around ball contact. Getting this interaction window right requires coordinating the whole motion, so that control, physics, and morphology act in concert. Learning thus reduces to mastering a handful of distinct actions and, for each, practicing until the window comes out right. To this end, we introduce TaskNPoint, a training protocol which makes the coach-learner division of labor explicit. The human coach contributes four inputs: a discrete set of skills (e.g. different shots), one demonstration per skill, identification of the interaction window, and the goal. Learning in a physically realistic simulation environment fills in each action trajectory and provides robustness to unmodeled events. Crucially, randomized target sampling during training lets a single demonstration generalize zero-shot to unseen goal locations. We test this approach on a Unitree G1 humanoid that hits forehands and backhands against balls thrown by a human, kicks incoming soccer balls, and picks and places boxes from novel locations. We find that learning is successful from short human video demonstrations and under an hour of training on a single GPU, with no per-task reward tuning.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Robustness",
+      "Humanoid",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.26213",
+    "title": "RoboTales: ROBOTic Anthropomorphic LEarning Systems",
+    "paper_url": "https://arxiv.org/abs/2606.26213",
+    "project_url": null,
+    "authors": [
+      "Andrew Chen",
+      "Ju-Hung Chen",
+      "Phurinat Pinyomit",
+      "Alexis E. Block"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-24",
+    "abstract": "RoboTales is a low-cost robotic storytelling system that animates narratives using expressive sock puppetry. Implemented autonomously on a Baxter robot as a test case, RoboTales synchronizes narration, gestures, and mouth movements to perform character-driven stories. In a pilot study, puppet-based storytelling outperformed a gesture-only mode, producing higher HRIES ratings and improved story recall, suggesting that embodied puppetry enhances engagement and narrative comprehension. Designed to be modular and platform-agnostic, RoboTales can be adapted to other manipulators and offers a screen-free alternative to passive media, supporting future deployment in child-centered learning environments.",
+    "categories": [
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "PPO",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
+    "arxiv_id": "2606.26201",
+    "title": "OmniContact: Chaining Meta-Skills via Contact Flow for Generalizable Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.26201",
+    "project_url": null,
+    "authors": [
+      "Runyi Yu",
+      "Xiaoyi Lin",
+      "Ji Ma",
+      "Yinhuai Wang",
+      "Koukou Luo",
+      "Jiahao Ji",
+      "Huayi Wang",
+      "Wenjia Wang",
+      "Runhan Zhang",
+      "Ping Tan",
+      "Ting Wu",
+      "Ruoli Dai",
+      "Qifeng Chen",
+      "Lei Han"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-24",
+    "abstract": "Learning long-horizon humanoid loco-manipulation poses a dual challenge: it requires not only the robust execution of meta-skills but also their seamless, closed-loop chaining equipped with autonomous recovery. Existing approaches remain limited: explicit humanoid-object interaction representations offer precision but are notoriously difficult for high-level planning, whereas implicit skill embeddings are compact but lack the interpretability required for reliable composition. We propose \\ours, a hierarchical framework centered on \\textbf{contact flow (CF)}, a compact representation consisting of key body trajectories and time-series binary contact signals. Leveraging this shared interface, our low-level policy \\textbf{CF-Track} learns a unified library of loco-manipulation skills, while our high-level module \\textbf{CF-Gen} heuristically synthesizes future contact-flow sequences. To support this setting, we additionally collect the OmniContact dataset, a MoCap-based HOI corpus for humanoid loco-manipulation (Appendix~\\ref{sec:dataset}). Together, they enable robust execution, autonomous failure recovery, and flexible composition of meta-skills for long-horizon tasks. Experiments show that OmniContact achieves \\(98.7\\%\\) success on \\textit{Carry Box} and \\(76.5\\%\\) on \\textit{Push-Stack Boxes}, outperforming prior baselines by average margins of \\(40.9\\%\\) in meta-skill and \\(66.5\\%\\) in skill chaining. Besides, our framework naturally integrates with VLMs for semantic task decomposition, enabling complex, semantically grounded loco-manipulation behaviors, such as arranging scattered boxes into a heart shape.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Dataset",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2606.25706",
     "title": "Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots",
     "paper_url": "https://arxiv.org/abs/2606.25706",
@@ -603,7 +914,7 @@
     "authors": [
       "Sourabh Sharma",
       "Sonam Gupta",
-      "Sadbhawna Thakur"
+      " Sadbhawna"
     ],
     "published": "2026-06",
     "published_date": "2026-06-20",

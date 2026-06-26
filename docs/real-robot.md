@@ -4,16 +4,94 @@ Papers with real humanoid robot deployment and experiments.
 
 ## Platforms
 
+- **Atlas:** 1 papers
 - **Digit:** 5 papers
-- **Figure:** 21 papers
+- **Figure:** 23 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 42 papers
+- **Unitree G1:** 43 papers
 - **Unknown Platform:** 6 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27239)
+- **Authors:** Hongwu Wang, Chenhao Yu, Youhao Hu, Jiachen Zhang, Yuanyuan Li, Shaqi Luo
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+High-quality demonstration data are essential for humanoid robot skill learning, especially for whole-body behaviors that require coordinated perception, locomotion, and manipulation. Existing data-collection methods largely rely on robot teleoperation, which is constrained by hardware accessibility, operator expertise, and limited efficiency.
+
+---
+
+## A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26425)
+- **Authors:** Duncan William Calvert
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Atlas
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots could take on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole body motion, perception, contact, and operator supervision.
+
+---
+
+## TaskNPoint: How to Teach Your Humanoid to Hit a Backhand in Minutes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26215)
+- **Authors:** Blake Werner, Ilona Demler, Pietro Perona, Aaron D. Ames
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Robustness
+  - Humanoid
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+How do we learn to hit a tennis backhand? Not from a thousand hours of tennis tournaments on TV - we work with a coach and practice. We argue this is also the right recipe for teaching dynamic skills to humanoid robots.
+
+---
+
+## RoboTales: ROBOTic Anthropomorphic LEarning Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26213)
+- **Authors:** Andrew Chen, Ju-Hung Chen, Phurinat Pinyomit, Alexis E. Block
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - PPO
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+RoboTales is a low-cost robotic storytelling system that animates narratives using expressive sock puppetry. Implemented autonomously on a Baxter robot as a test case, RoboTales synchronizes narration, gestures, and mouth movements to perform character-driven stories.
+
+---
 
 ## Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots
 

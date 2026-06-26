@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (208)",
+            "text": "Loco-Manipulation and Whole-Body Control (212)",
             "collapsed": true,
             "items": [
                   {
@@ -522,7 +522,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (26)",
+            "text": "State Estimation (27)",
             "collapsed": true,
             "items": [
                   {
@@ -684,7 +684,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (52)",
+            "text": "Simulation Benchmark (54)",
             "collapsed": true,
             "items": [
                   {
@@ -868,7 +868,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (24)",
+            "text": "Human Motion Analysis and Synthesis (26)",
             "collapsed": true,
             "items": [
                   {
