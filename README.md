@@ -2,18 +2,18 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 647
-- **Real Robot Papers:** 83
-- **Open Source Papers:** 133
+- **Total Papers:** 651
+- **Real Robot Papers:** 85
+- **Open Source Papers:** 134
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (212)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (214)
 - [Manipulation](#manipulation) (73)
 - [Teleoperation](#teleoperation) (30)
-- [Locomotion](#locomotion) (122)
+- [Locomotion](#locomotion) (124)
 - [Navigation](#navigation) (23)
 - [State Estimation](#state-estimation) (27)
 - [Sim-to-Real](#sim-to-real) (11)
@@ -29,6 +29,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- [CWI: Composite Humanoid Whole-Body Imitation System for Loco-manipulation](https://arxiv.org/abs/2606.27676) — `Whole-Body Control`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`
+- [SceneBot: Contact-Prompted General Humanoid Whole Body Tracking with Scene-Interaction](https://arxiv.org/abs/2606.27581) — `Locomotion`, `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Physics-Based Character Animation`, `Human Motion Analysis and Synthesis`
 - [HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation](https://arxiv.org/abs/2606.27239) — `Whole-Body Control`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [Humanoid-DART: Humanoid Loco-Manipulation using Diffusion-guided Augmentation through Relabeling and Tracking](https://arxiv.org/abs/2606.26855) — `Reinforcement Learning`, `Manipulation`, `Human Demonstration`, `Humanoid`, `Goal-Conditioned`, `Diffusion`
 - [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2606.26425) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `PPO`
@@ -542,6 +544,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-06
 
+- 🌟 [Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors](https://arxiv.org/abs/2606.28237), [website](https://github.com/gaolii/quad-imaginarium.git) — `Locomotion`, `Humanoid`, `Gait`, `Dataset`, `Diffusion`, `Simulation Benchmark`
+- [Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies](https://arxiv.org/abs/2606.27813) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Human Demonstration`, `Real Robot`, `Humanoid`
 - [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089) — `Locomotion`, `World Model`, `Biped`, `Distillation`, `Knowledge Transfer`, `Representation Learning`
 - [CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.23680) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `Proprioception`
 - [Data Standards for Humanoid Robotics: The Missing Infrastructure for Physical AI](https://arxiv.org/abs/2606.19769) — `Locomotion`, `Manipulation`, `Humanoid`, `Dataset`, `GAN`, `Simulation Benchmark`

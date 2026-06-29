@@ -5,8 +5,9 @@ Papers with real humanoid robot deployment and experiments.
 ## Platforms
 
 - **Atlas:** 1 papers
+- **Booster:** 1 papers
 - **Digit:** 5 papers
-- **Figure:** 23 papers
+- **Figure:** 24 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 43 papers
 - **Unknown Platform:** 6 papers
@@ -15,6 +16,48 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27813)
+- **Authors:** Penghui Chen, Tinglong Zheng, Yufeng Zhang, Mingguo Zhao
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Human Demonstration
+  - Real Robot
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robot motion learning requires not only task-oriented control policies but also physically feasible and natural behaviors that can be transferred to real robots. However, robot-feasible motion data are often scarce: raw human demonstrations may be incompatible with the robot morphology, open-source clips vary in quality, and simulation-collected robot trajectories still require feasibility checking.
+
+---
+
+## SceneBot: Contact-Prompted General Humanoid Whole Body Tracking with Scene-Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27581)
+- **Authors:** Sirui Chen, Shibo Zhao, Zhen Wu, Jiaman Li, Guanya Shi, C. Karen Liu
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Current humanoid reinforcement-learning policies excel at free-space motions but struggle with contact-rich tasks, as pure kinematic tracking cannot resolve the physical ambiguities of interacting with objects and uneven terrain. To address this, we introduce SceneBot, a unified motion-tracking framework capable of handling freespace locomotion, terrain traversal, and whole-body manipulation.
+
+---
 
 ## HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation
 

@@ -2,6 +2,27 @@
 
 Papers with open-source code repositories.
 
+## 🌟 Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.28237)
+- **Project:** [GitHub](https://github.com/gaolii/quad-imaginarium.git)
+- **Authors:** Youzhi Liu, Li Gao, Yifei Qian, Liu Liu, Yang Cai, Ziqiao Li
+- **Published:** 2026-06
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Gait
+  - Dataset
+  - Diffusion
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Quadruped robots have achieved remarkable locomotion, yet their behavioral repertoire remains confined to a few gaits--far from the expressive, companion-like presence long envisioned for them. Attempts to import the humanoid recipe of large-scale motion data have inherited one tacit assumption: that robot motion must first pass through an animal body, making data collection dependent on cooperative animals, reconstruction fragile across species, and retargeting ill-posed across incompatible morphologies.
+
+---
+
 ## 🌟 TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.24039)

@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**212 papers** in this category.
+**214 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (33 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (35 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -35,6 +35,47 @@
 ---
 
 ## Recent Papers
+
+## CWI: Composite Humanoid Whole-Body Imitation System for Loco-manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27676)
+- **Authors:** Wenqi Ge, Junde Guo, Zhen Fu, Shunpeng Yang, Jiayu Chen, Hua Chen
+- **Published:** 2026-06
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Distillation
+  - Dataset
+
+### Summary
+
+Achieving everyday tasks with humanoid robots requires coordinating stable locomotion with versatile manipulation. However, existing whole-body controllers still face significant challenges.
+
+---
+
+## SceneBot: Contact-Prompted General Humanoid Whole Body Tracking with Scene-Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27581)
+- **Authors:** Sirui Chen, Shibo Zhao, Zhen Wu, Jiaman Li, Guanya Shi, C. Karen Liu
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Current humanoid reinforcement-learning policies excel at free-space motions but struggle with contact-rich tasks, as pure kinematic tracking cannot resolve the physical ambiguities of interacting with objects and uneven terrain. To address this, we introduce SceneBot, a unified motion-tracking framework capable of handling freespace locomotion, terrain traversal, and whole-body manipulation.
+
+---
 
 ## HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation
 
@@ -380,45 +421,5 @@ For the last couple of years, the field of speech synthesis has improved dramati
 ### Summary
 
 The recent successes of neural networks producing human-like language have caused significant stir in cognitive science, with many researchers arguing that classical puzzles about human cognition and challenges to artificial intelligence are being solved by neural networks. A notable case is the argument from systematicity due to Jerry Fodor and Zenon Pylyshyn, argues that humans display systematic biconditional dependencies.
-
----
-
-## RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.11092)
-- **Authors:** Yichao Zhong, Yidan Lu, Yuhang Lu, Tianyang Tang, Haoguang Mai, Yixuan Pan et al. (12 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Elite humanoid soccer shooting requires whole-body stability, high-impulse whole-body interactions, and accuracy to targets. Motion tracking-driven reinforcement learning (RL) provides stability in whole-body movement coordination, but a fixed reference makes it hard to adapt to varied ball positions and strike timings; in contrast, task reward-driven RL struggles to explore and discover valid kicks from scratch.
-
----
-
-## OMG: Omni-Modal Motion Generation for Generalist Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.10340)
-- **Authors:** Siqiao Huang, Kun-Ying Lee, Dongming Qiao, Guanqi He, Zhenyu Wang, Yitang Li et al. (8 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Foundation Model
-  - Diffusion
-  - Multi-Modal
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-
-### Summary
-
-Humanoid whole-body control has made significant progress in recent years, yet existing approaches remain limited to few-skill policies with heavy reward engineering, or motion trackers that are difficult to extend to new input modalities. We argue that the key to general-purpose humanoid control is to build a scalable brain, a module capable of reasoning with diverse conditioning modalities, atop a reactive motion tracking cerebellum, mirroring the hierarchical structure of biological motor systems.
 
 ---

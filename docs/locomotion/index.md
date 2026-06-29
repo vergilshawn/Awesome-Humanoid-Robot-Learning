@@ -1,10 +1,10 @@
 # Locomotion
 
-**122 papers** in this category.
+**124 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (17 papers)
+- [2026-06](/locomotion/2026-06) (19 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -36,6 +36,49 @@
 ---
 
 ## Recent Papers
+
+## 🌟 Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.28237)
+- **Project:** [GitHub](https://github.com/gaolii/quad-imaginarium.git)
+- **Authors:** Youzhi Liu, Li Gao, Yifei Qian, Liu Liu, Yang Cai, Ziqiao Li
+- **Published:** 2026-06
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Gait
+  - Dataset
+  - Diffusion
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Quadruped robots have achieved remarkable locomotion, yet their behavioral repertoire remains confined to a few gaits--far from the expressive, companion-like presence long envisioned for them. Attempts to import the humanoid recipe of large-scale motion data have inherited one tacit assumption: that robot motion must first pass through an animal body, making data collection dependent on cooperative animals, reconstruction fragile across species, and retargeting ill-posed across incompatible morphologies.
+
+---
+
+## Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27813)
+- **Authors:** Penghui Chen, Tinglong Zheng, Yufeng Zhang, Mingguo Zhao
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Human Demonstration
+  - Real Robot
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robot motion learning requires not only task-oriented control policies but also physically feasible and natural behaviors that can be transferred to real robots. However, robot-feasible motion data are often scarce: raw human demonstrations may be incompatible with the robot morphology, open-source clips vary in quality, and simulation-collected robot trajectories still require feasibility checking.
+
+---
 
 ## DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs
 
@@ -408,42 +451,5 @@ Learning a good action embedding space is fundamental to scalable robot policy l
 ### Summary
 
 Although reinforcement learning has significantly advanced humanoid locomotion, perceptive policies still struggle on sparse-foothold terrain and constrained environments. Success in these scenarios requires both broad terrain awareness and precise foothold selection, two perceptual roles that conventional encoders often entangle.
-
----
-
-## SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30770)
-- **Authors:** Ruiqi Yu, Yiwen Wang, Yuan Hao, Jun WU, Qiuguo Zhu
-- **Published:** 2026-05
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors.
-
----
-
-## SPRINT: Efficient Spectral Priors for Humanoid Athletic Sprints
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28549)
-- **Authors:** Yantong Wei, Kaihong Huang, Hainan Pan, Jiawei Luo, Jiawei Zhou, Ziyan Mai et al. (9 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Sim-to-Real
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - Gait
-  - Physics-Based Character Animation
-
-### Summary
-
-The pursuit of humanoid athletic sprints is hindered by a scarcity of humanoid-viable kinematic reference data and the inability of existing frameworks to maintain stability during sprints. To overcome these limitations, we introduce SPRINT, a novel framework driven by efficient, frequency-adaptive spectral priors.
 
 ---

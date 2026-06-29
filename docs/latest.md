@@ -2,6 +2,90 @@
 
 All papers sorted by publication date (newest first).
 
+## 🌟 Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.28237)
+- **Project:** [GitHub](https://github.com/gaolii/quad-imaginarium.git)
+- **Authors:** Youzhi Liu, Li Gao, Yifei Qian, Liu Liu, Yang Cai, Ziqiao Li
+- **Published:** 2026-06
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Gait
+  - Dataset
+  - Diffusion
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Quadruped robots have achieved remarkable locomotion, yet their behavioral repertoire remains confined to a few gaits--far from the expressive, companion-like presence long envisioned for them. Attempts to import the humanoid recipe of large-scale motion data have inherited one tacit assumption: that robot motion must first pass through an animal body, making data collection dependent on cooperative animals, reconstruction fragile across species, and retargeting ill-posed across incompatible morphologies.
+
+---
+
+## Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27813)
+- **Authors:** Penghui Chen, Tinglong Zheng, Yufeng Zhang, Mingguo Zhao
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Human Demonstration
+  - Real Robot
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robot motion learning requires not only task-oriented control policies but also physically feasible and natural behaviors that can be transferred to real robots. However, robot-feasible motion data are often scarce: raw human demonstrations may be incompatible with the robot morphology, open-source clips vary in quality, and simulation-collected robot trajectories still require feasibility checking.
+
+---
+
+## CWI: Composite Humanoid Whole-Body Imitation System for Loco-manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27676)
+- **Authors:** Wenqi Ge, Junde Guo, Zhen Fu, Shunpeng Yang, Jiayu Chen, Hua Chen
+- **Published:** 2026-06
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Distillation
+  - Dataset
+
+### Summary
+
+Achieving everyday tasks with humanoid robots requires coordinating stable locomotion with versatile manipulation. However, existing whole-body controllers still face significant challenges.
+
+---
+
+## SceneBot: Contact-Prompted General Humanoid Whole Body Tracking with Scene-Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.27581)
+- **Authors:** Sirui Chen, Shibo Zhao, Zhen Wu, Jiaman Li, Guanya Shi, C. Karen Liu
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Current humanoid reinforcement-learning policies excel at free-space motions but struggle with contact-rich tasks, as pure kinematic tracking cannot resolve the physical ambiguities of interacting with objects and uneven terrain. To address this, we introduce SceneBot, a unified motion-tracking framework capable of handling freespace locomotion, terrain traversal, and whole-body manipulation.
+
+---
+
 ## HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.27239)
