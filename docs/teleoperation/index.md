@@ -1,10 +1,10 @@
 # Teleoperation
 
-**30 papers** in this category.
+**31 papers** in this category.
 
 ## Months
 
-- [2026-06](/teleoperation/2026-06) (8 papers)
+- [2026-06](/teleoperation/2026-06) (9 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
 - [2026-02](/teleoperation/2026-02) (4 papers)
@@ -22,6 +22,27 @@
 ---
 
 ## Recent Papers
+
+## X-Morph: Human Motion Priors for Scalable Robot Learning Across Morphologies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30290)
+- **Authors:** Ritwik Sharma, Shivam Sood, Arhaan Jain, Shyam Charan Kesavamoorthi, Chengyang He, Guillaume Sartoretti
+- **Published:** 2026-06
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Physics-Based Character Animation
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Recent progress in humanoid behavior models has been driven in large part by abundant human motion data, but comparable motion data is scarce for non-humanoid legged robots such as quadrupeds, hexapods, and quadruped manipulators. A promising alternative is to repurpose human motion across embodiments; however, direct retargeting often produces motions that are visually plausible yet physically inconsistent or difficult to track under robot dynamics.
+
+---
 
 ## Duet: Dual-Robot Understanding via Efficient Teaching
 
@@ -353,22 +374,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Humanoid
   - Teleoperation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Whole-Body Bilateral Teleoperation with Multi-Stage Object Parameter Estimation for Wheeled Humanoid Locomanipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.09846)
-- **Published:** 2025-08
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Humanoid
-  - Parameter Estimation
 
 ### Summary
 

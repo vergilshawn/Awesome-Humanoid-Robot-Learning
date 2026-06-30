@@ -2,6 +2,209 @@
 
 All papers sorted by publication date (newest first).
 
+## VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30645)
+- **Authors:** Yen-Jen Wang, Jiaman Li, Sirui Chen, Takara E. Truong, Pei Xu, Pieter Abbeel et al. (12 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Gaussian Splatting
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this complete tuple at scale.
+
+---
+
+## 🌟 Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30552)
+- **Project:** [GitHub](https://github.com/ruckbreasoning/zr-0)
+- **Authors:** Haoyang Li, Guanlin Li, Youhe Feng, Chen Zhao, Zhuoran Wang, Yang Li et al. (12 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Transformer
+  - Humanoid
+  - Task Planning
+  - Vision-Language
+  - Benchmark
+  - Dataset
+  - Diffusion
+
+### Summary
+
+Cross-embodiment transfer in vision-language-action (VLA) models remains challenging because low-level state and action spaces differ fundamentally across robot platforms. We observe that the high-level cognitive process underlying manipulation, including scene perception, object identification, task planning, and sub-task decomposition, is largely shared across embodiments.
+
+---
+
+## ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30362)
+- **Authors:** Xiao Chen, Weishuai Zeng, Xiaojie Niu, Zirui Wang, Jianan Li, Huayi Wang et al. (15 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Zero-Shot
+  - Humanoid
+  - Foundation Model
+  - Robust Control
+  - Motion Planning
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+While current Behavior Foundation Models (BFMs) provide robust control priors for humanoids, they only execute pre-defined reference motions. As a result, they are vulnerable to environmental shifts and incapable of reactive whole-body coordination.
+
+---
+
+## X-Morph: Human Motion Priors for Scalable Robot Learning Across Morphologies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30290)
+- **Authors:** Ritwik Sharma, Shivam Sood, Arhaan Jain, Shyam Charan Kesavamoorthi, Chengyang He, Guillaume Sartoretti
+- **Published:** 2026-06
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Physics-Based Character Animation
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Recent progress in humanoid behavior models has been driven in large part by abundant human motion data, but comparable motion data is scarce for non-humanoid legged robots such as quadrupeds, hexapods, and quadruped manipulators. A promising alternative is to repurpose human motion across embodiments; however, direct retargeting often produces motions that are visually plausible yet physically inconsistent or difficult to track under robot dynamics.
+
+---
+
+## KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30243)
+- **Authors:** Luca Rossini, Arturo Laurenzi, Francesco Ruscelli, Yifang Zhang, Giovanbattista Gravina, Lorenzo Baccelliere et al. (9 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Robustness
+  - Loco-Manipulation and Whole-Body Control
+  - Hardware Design
+
+### Summary
+
+This paper presents KYON, a hybrid wheel-legged quadruped robot equipped with a bimanual upper body for loco-manipulation tasks. The platform features a semi-modular design with a reconfigurable lower legs, enabling both wheeled and legged locomotion depending on the environment.
+
+---
+
+## Collective cooperation without individual fidelity in LLM agents
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30454)
+- **Authors:** Henrique Ferraz de Arruda, Carlos Gracia Lázaro, Alberto Aleta, Yamir Moreno
+- **Published:** 2026-06
+- **Real Robot:** ✅ — REEM
+- **Tags:**
+  - Benchmark
+  - Large Language Model
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Large language models (LLMs) are increasingly used as agents in simulations of social systems, yet it remains unclear when their behavior can be interpreted as a faithful proxy for human decision-making. Here we test LLM agents against a direct empirical benchmark: a large-scale networked Prisoner's Dilemma experiment with human participants.
+
+---
+
+## Dual-Flow Reinforcement Learning with State-Aware Exploration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.29820)
+- **Authors:** Qijun Li, Zheng Fu, Qi Song, Yifei He, Weitao Zhou, Kun Jiang et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Actor-Critic
+  - PPO
+  - Diffusion
+  - Flow Matching
+  - Navigation
+  - State Estimation
+
+### Summary
+
+In complex continuous-control reinforcement learning tasks, multimodal optimal actions often coincide with uncertain, multimodal return distributions, making reliable value estimation and multimodal exploration challenging. Existing value estimation methods using unimodal Gaussians restrict expressiveness and yield biased estimates.
+
+---
+
+## AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.29209)
+- **Authors:** Shuning Li, Sikai Li, Jiachen Li, Mingyu Ding
+- **Published:** 2026-06
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Transformer
+  - Humanoid
+  - Policy Learning
+  - SAC
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+We present AnyBody, a unified whole-body humanoid controller driven by an arbitrary subset of body keypoints chosen at deploy time. Prior physics-based trackers either rely on expensive full-body motion capture and error-prone trajectory retargeting, which bottleneck scalable data collection and policy learning, or decompose upper- and lower-body control into separate hierarchical representations, sacrificing the coordinated whole-body motions that loco-manipulation requires.
+
+---
+
+## Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.28813)
+- **Authors:** Shuo Cheng, Chuye Zhang, Alfred Cueva, Caelan Garrett, Ajay Mandlekar, Danfei Xu
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Motion Planning
+
+### Summary
+
+Human videos are a scalable source of supervision for robot manipulation, as they are abundant and naturally capture rich object interactions. However, transferring human demonstrations to robots remains challenging due to embodiment mismatch, scene variation, and robot-specific feasibility constraints.
+
+---
+
+## Mechanistic Personality Analysis of LLMs Steering Personality via Latent Feature Interventions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.28770)
+- **Authors:** David Courtis, Ting Hu
+- **Published:** 2026-06
+- **Tags:**
+  - Fine-tuning
+  - Benchmark
+  - Large Language Model
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Large Language Models (LLMs) have demonstrated the ability to simulate human-like OCEAN personality traits in generated text. Previous efforts have focused on prompt engineering or fine-tuning to shape LLM personality.
+
+---
+
 ## 🌟 Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.28237)
@@ -20,6 +223,43 @@ All papers sorted by publication date (newest first).
 ### Summary
 
 Quadruped robots have achieved remarkable locomotion, yet their behavioral repertoire remains confined to a few gaits--far from the expressive, companion-like presence long envisioned for them. Attempts to import the humanoid recipe of large-scale motion data have inherited one tacit assumption: that robot motion must first pass through an animal body, making data collection dependent on cooperative animals, reconstruction fragile across species, and retargeting ill-posed across incompatible morphologies.
+
+---
+
+## FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.28476)
+- **Authors:** Angchen Xie, Nikhil Sobanbabu, Ishayu Shikhare, Alan Wang, Max Simchowitz, Guanya Shi
+- **Published:** 2026-06
+- **Tags:**
+  - Few-Shot
+  - Zero-Shot
+  - Domain Randomization
+  - Humanoid
+  - Domain Adaptation
+  - Residual Learning
+  - DAgger
+  - Sim-to-Real
+
+### Summary
+
+High-precision humanoid control is limited by target-domain dynamics mismatch, where the same control objective can induce different realized motions under changes in terrain, payload, or actuator response. Existing methods either pursue zero-shot transfer through domain randomization or in-context adaptation without target-domain specialization, or require heavy adaptation pipelines that leverage target-domain data, such as model calibration, residual learning, or policy retraining.
+
+---
+
+## When May I Help You? On The Effect of Proactivity on Group Human-Robot Collaboration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.28469)
+- **Authors:** Thomas Vitry, Vanessa Maeder, Kieran Edgeworth, Asihati Hazaiti, Doga Deniz Ates, Connor Gäde et al. (9 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - PPO
+  - State Estimation
+
+### Summary
+
+Robot initiative is a central challenge in multi-party human-robot collaboration. A robot that contributes without being addressed may provide timely support, but it may also disrupt coordination, divide attention, or interrupt turn-taking; a robot that waits to be addressed may preserve human control, but it may also miss opportunities to assist.
 
 ---
 

@@ -7,15 +7,100 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 1 papers
 - **Digit:** 5 papers
-- **Figure:** 24 papers
+- **Figure:** 25 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 43 papers
+- **REEM:** 1 papers
+- **Unitree G1:** 45 papers
 - **Unknown Platform:** 6 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30645)
+- **Authors:** Yen-Jen Wang, Jiaman Li, Sirui Chen, Takara E. Truong, Pei Xu, Pieter Abbeel et al. (12 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Gaussian Splatting
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this complete tuple at scale.
+
+---
+
+## ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30362)
+- **Authors:** Xiao Chen, Weishuai Zeng, Xiaojie Niu, Zirui Wang, Jianan Li, Huayi Wang et al. (15 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Zero-Shot
+  - Humanoid
+  - Foundation Model
+  - Robust Control
+  - Motion Planning
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+While current Behavior Foundation Models (BFMs) provide robust control priors for humanoids, they only execute pre-defined reference motions. As a result, they are vulnerable to environmental shifts and incapable of reactive whole-body coordination.
+
+---
+
+## Collective cooperation without individual fidelity in LLM agents
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30454)
+- **Authors:** Henrique Ferraz de Arruda, Carlos Gracia Lázaro, Alberto Aleta, Yamir Moreno
+- **Published:** 2026-06
+- **Real Robot:** ✅ — REEM
+- **Tags:**
+  - Benchmark
+  - Large Language Model
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Large language models (LLMs) are increasingly used as agents in simulations of social systems, yet it remains unclear when their behavior can be interpreted as a faithful proxy for human decision-making. Here we test LLM agents against a direct empirical benchmark: a large-scale networked Prisoner's Dilemma experiment with human participants.
+
+---
+
+## Dual-Flow Reinforcement Learning with State-Aware Exploration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.29820)
+- **Authors:** Qijun Li, Zheng Fu, Qi Song, Yifei He, Weitao Zhou, Kun Jiang et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Actor-Critic
+  - PPO
+  - Diffusion
+  - Flow Matching
+  - Navigation
+  - State Estimation
+
+### Summary
+
+In complex continuous-control reinforcement learning tasks, multimodal optimal actions often coincide with uncertain, multimodal return distributions, making reliable value estimation and multimodal exploration challenging. Existing value estimation methods using unimodal Gaussians restrict expressiveness and yield biased estimates.
+
+---
 
 ## Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies
 

@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**214 papers** in this category.
+**218 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (35 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -35,6 +35,91 @@
 ---
 
 ## Recent Papers
+
+## VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30645)
+- **Authors:** Yen-Jen Wang, Jiaman Li, Sirui Chen, Takara E. Truong, Pei Xu, Pieter Abbeel et al. (12 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Gaussian Splatting
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this complete tuple at scale.
+
+---
+
+## ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30362)
+- **Authors:** Xiao Chen, Weishuai Zeng, Xiaojie Niu, Zirui Wang, Jianan Li, Huayi Wang et al. (15 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Zero-Shot
+  - Humanoid
+  - Foundation Model
+  - Robust Control
+  - Motion Planning
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+While current Behavior Foundation Models (BFMs) provide robust control priors for humanoids, they only execute pre-defined reference motions. As a result, they are vulnerable to environmental shifts and incapable of reactive whole-body coordination.
+
+---
+
+## KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30243)
+- **Authors:** Luca Rossini, Arturo Laurenzi, Francesco Ruscelli, Yifang Zhang, Giovanbattista Gravina, Lorenzo Baccelliere et al. (9 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Robustness
+  - Loco-Manipulation and Whole-Body Control
+  - Hardware Design
+
+### Summary
+
+This paper presents KYON, a hybrid wheel-legged quadruped robot equipped with a bimanual upper body for loco-manipulation tasks. The platform features a semi-modular design with a reconfigurable lower legs, enabling both wheeled and legged locomotion depending on the environment.
+
+---
+
+## AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.29209)
+- **Authors:** Shuning Li, Sikai Li, Jiachen Li, Mingyu Ding
+- **Published:** 2026-06
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Transformer
+  - Humanoid
+  - Policy Learning
+  - SAC
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+We present AnyBody, a unified whole-body humanoid controller driven by an arbitrary subset of body keypoints chosen at deploy time. Prior physics-based trackers either rely on expensive full-body motion capture and error-prone trajectory retargeting, which bottleneck scalable data collection and policy learning, or decompose upper- and lower-body control into separate hierarchical representations, sacrificing the coordinated whole-body motions that loco-manipulation requires.
+
+---
 
 ## CWI: Composite Humanoid Whole-Body Imitation System for Loco-manipulation
 
@@ -354,72 +439,5 @@ Evaluating a Physical AI stack spans operators that differ by more than three or
 ### Summary
 
 We ask whether the representational hierarchy seen in perception, from local primitives such as edges to higher level structures such as parts and objects, can be established for motion. In humanoid control, low level actions specify immediate motor commands, while meaningful behavior is organized over longer temporal scales, including contacts, gait fragments, balance recovery, reaching, and whole body skills.
-
----
-
-## Whole-Body Impedance Model Predictive Control for Safe Physical Human--Robot Interaction on Floating-Base Platforms
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.14617)
-- **Authors:** Yongyan Cao
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - MPC
-  - Whole-Body Control
-  - Locomotion
-  - Biped
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Floating-base robots must balance under rigid contact constraints while interacting safely with humans. Existing whole-body control~(WBC) frameworks allocate the full joint space to locomotion or rely on fixed-gain impedance feedback that accumulates steady-state error under sustained physical human--robot interaction~(pHRI) forces.
-
----
-
-## What Robots Do Matters More Than What They Look Like: Task Context Shapes Trust in Educational HRI
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.14602)
-- **Authors:** Anna-Maria Velentza, Konstantina Nikou, Anne-Gwenn Bosser, Nikolaos Fachantidis
-- **Published:** 2026-06
-- **Tags:**
-  - Large Language Model
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Socially assistive robots (SARs) are increasingly deployed in educational and information-sharing contexts, supported by advances in large language models that enable fluent real-time interaction. Despite the growing diversity of robot embodiments, it remains unclear whether a single robot appearance is appropriate across different interaction tasks or whether trust depends primarily on contextual factors.
-
----
-
-## An Empirical Study on Learning Latent Representations for Emotional Speech Synthesis
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.14922)
-- **Authors:** Vinh Dang Quang, Huy Ngo Quang
-- **Published:** 2026-06
-- **Tags:**
-  - Deep Learning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-For the last couple of years, the field of speech synthesis has improved dramatically thanks to deep learning. There are more and more deep learning-based TTS systems developed to make it possible to produce voices with high intelligibility and naturalness.
-
----
-
-## Fodor and Pylyshyn's Systematicity Challenge Still Stands
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.14512)
-- **Authors:** Michael Goodale, Salvador Mascarenhas
-- **Published:** 2026-06
-- **Tags:**
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-The recent successes of neural networks producing human-like language have caused significant stir in cognitive science, with many researchers arguing that classical puzzles about human cognition and challenges to artificial intelligence are being solved by neural networks. A notable case is the argument from systematicity due to Jerry Fodor and Zenon Pylyshyn, argues that humans display systematic biconditional dependencies.
 
 ---

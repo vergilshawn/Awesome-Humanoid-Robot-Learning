@@ -1,10 +1,10 @@
 # Navigation
 
-**23 papers** in this category.
+**24 papers** in this category.
 
 ## Months
 
-- [2026-06](/navigation/2026-06) (5 papers)
+- [2026-06](/navigation/2026-06) (6 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
 - [2026-01](/navigation/2026-01) (1 papers)
@@ -22,6 +22,28 @@
 ---
 
 ## Recent Papers
+
+## Dual-Flow Reinforcement Learning with State-Aware Exploration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.29820)
+- **Authors:** Qijun Li, Zheng Fu, Qi Song, Yifei He, Weitao Zhou, Kun Jiang et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Actor-Critic
+  - PPO
+  - Diffusion
+  - Flow Matching
+  - Navigation
+  - State Estimation
+
+### Summary
+
+In complex continuous-control reinforcement learning tasks, multimodal optimal actions often coincide with uncertain, multimodal return distributions, making reliable value estimation and multimodal exploration challenging. Existing value estimation methods using unimodal Gaussians restrict expressiveness and yield biased estimates.
+
+---
 
 ## Task-Error Residual Learning for Real-Robot Five-Ball Juggling
 
@@ -313,20 +335,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Sim-to-Real
   - Navigation
   - Diffusion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## HumanoidPano: Hybrid Spherical Panoramic-LiDAR Cross-Modal Perception for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2503.09010)
-- **Published:** 2025-03
-- **Tags:**
-  - Humanoid
-  - Navigation
 
 ### Summary
 

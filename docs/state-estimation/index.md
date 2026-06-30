@@ -1,10 +1,10 @@
 # State Estimation
 
-**27 papers** in this category.
+**29 papers** in this category.
 
 ## Months
 
-- [2026-06](/state-estimation/2026-06) (15 papers)
+- [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
 - [2025-07](/state-estimation/2025-07) (1 papers)
@@ -16,6 +16,40 @@
 ---
 
 ## Recent Papers
+
+## Mechanistic Personality Analysis of LLMs Steering Personality via Latent Feature Interventions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.28770)
+- **Authors:** David Courtis, Ting Hu
+- **Published:** 2026-06
+- **Tags:**
+  - Fine-tuning
+  - Benchmark
+  - Large Language Model
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Large Language Models (LLMs) have demonstrated the ability to simulate human-like OCEAN personality traits in generated text. Previous efforts have focused on prompt engineering or fine-tuning to shape LLM personality.
+
+---
+
+## When May I Help You? On The Effect of Proactivity on Group Human-Robot Collaboration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.28469)
+- **Authors:** Thomas Vitry, Vanessa Maeder, Kieran Edgeworth, Asihati Hazaiti, Doga Deniz Ates, Connor Gäde et al. (9 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - PPO
+  - State Estimation
+
+### Summary
+
+Robot initiative is a central challenge in multi-party human-robot collaboration. A robot that contributes without being addressed may provide timely support, but it may also disrupt coordination, divide attention, or interrupt turn-taking; a robot that waits to be addressed may preserve human control, but it may also miss opportunities to assist.
+
+---
 
 ## PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation
 
@@ -367,43 +401,5 @@ Imitation Learning from monocular video demonstrations provides a scalable appro
 ### Summary
 
 Humanoid and legged robots interact with the environment through intermittent contacts, making accurate motion estimation fundamentally dependent on reasoning about contact dynamics. However, standard sensing pipelines-whether based on onboard proprioception with Extended Kalman Filters (EKFs) or external motion capture systems-recover only kinematics, while contact forces, contact timing, and inertial parameters remain unobserved.
-
----
-
-## CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.15122)
-- **Authors:** Michael Baumgartner, David Müller, Agon Serifi, Ruben Grandia, Espen Knoop, Markus Gross et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - State Estimation
-  - Biped
-  - Locomotion
-  - Simulation Benchmark
-
-### Summary
-
-Robust state estimation for highly dynamic motion of legged robots remains challenging, especially in dynamic, contact-rich scenarios. Traditional approaches often rely on binary contact states that fail to capture the nuances of partial contact or directional slippage.
-
----
-
-## PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.14269)
-- **Authors:** Yidong Huang, Zun Wang, Han Lin, Dong-Ki Kim, Shayegan Omidshafiei, Jaehong Yoon et al. (9 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Simulator
-  - MuJoCo
-  - Humanoid
-  - State Estimation
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Generating realistic human motion is a central yet unsolved challenge in video generation. While reinforcement learning (RL)-based post-training has driven recent gains in general video quality, extending it to human motion remains bottlenecked by a reward signal that cannot reliably score motion realism.
 
 ---

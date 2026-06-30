@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (214)",
+            "text": "Loco-Manipulation and Whole-Body Control (218)",
             "collapsed": true,
             "items": [
                   {
@@ -166,7 +166,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (73)",
+            "text": "Manipulation (74)",
             "collapsed": true,
             "items": [
                   {
@@ -268,7 +268,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (30)",
+            "text": "Teleoperation (31)",
             "collapsed": true,
             "items": [
                   {
@@ -456,7 +456,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (23)",
+            "text": "Navigation (24)",
             "collapsed": true,
             "items": [
                   {
@@ -522,7 +522,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (27)",
+            "text": "State Estimation (29)",
             "collapsed": true,
             "items": [
                   {
@@ -564,12 +564,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Sim-to-Real (11)",
+            "text": "Sim-to-Real (12)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/sim-to-real/"
+                  },
+                  {
+                        "text": "2026-06",
+                        "link": "/sim-to-real/2026-06"
                   },
                   {
                         "text": "2026-02",
@@ -684,7 +688,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (54)",
+            "text": "Simulation Benchmark (56)",
             "collapsed": true,
             "items": [
                   {

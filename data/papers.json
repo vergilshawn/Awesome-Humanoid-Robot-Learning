@@ -1,5 +1,389 @@
 [
   {
+    "arxiv_id": "2606.30645",
+    "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
+    "paper_url": "https://arxiv.org/abs/2606.30645",
+    "project_url": null,
+    "authors": [
+      "Yen-Jen Wang",
+      "Jiaman Li",
+      "Sirui Chen",
+      "Takara E. Truong",
+      "Pei Xu",
+      "Pieter Abbeel",
+      "Rocky Duan",
+      "Koushil Sreenath",
+      "Angjoo Kanazawa",
+      "Carmelo Sferrazza",
+      "Guanya Shi",
+      "Karen Liu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-29",
+    "abstract": "Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this complete tuple at scale. We address this bottleneck by generating vision-language-kinematics (VLK) supervision synthetically in reconstructed scenes. Our pipeline leverages 3D Gaussian Splatting to reconstruct metric-scale indoor environments, synthesizes navigation and object-interaction trajectories using privileged scene information, and renders paired egocentric observations after the fact. We produce 48,000 paired trajectories with no human intervention and train a VLK policy that predicts short-horizon whole-body kinematic trajectories. A whole-body tracker converts these predictions into actions on the physical humanoid. We evaluate on the physical Unitree G1 performing navigation and single-object transport, demonstrating that synthesized interactions in reconstructed scenes provide effective supervision for sim-to-real perception-based humanoid loco-manipulation. Project Website: https://vision-language-kinematics.github.io/",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Navigation",
+      "Manipulation",
+      "Sim-to-Real",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Manipulation",
+      "Navigation",
+      "Humanoid",
+      "Gaussian Splatting",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.30552",
+    "title": "Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision",
+    "paper_url": "https://arxiv.org/abs/2606.30552",
+    "project_url": "https://github.com/ruckbreasoning/zr-0",
+    "authors": [
+      "Haoyang Li",
+      "Guanlin Li",
+      "Youhe Feng",
+      "Chen Zhao",
+      "Zhuoran Wang",
+      "Yang Li",
+      "Qizhe Wei",
+      "Shifeng Bao",
+      "Haitao Shen",
+      "Yihan Zhao",
+      "Tong Yang",
+      "Jing Zhang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-29",
+    "abstract": "Cross-embodiment transfer in vision-language-action (VLA) models remains challenging because low-level state and action spaces differ fundamentally across robot platforms. We observe that the high-level cognitive process underlying manipulation, including scene perception, object identification, task planning, and sub-task decomposition, is largely shared across embodiments. Based on this observation, we present ZR-0, a 2.6 billion parameter end-to-end VLA model that uses dense Embodied Chain-of-Thought (ECoT) supervision to align cross-embodiment representations within the vision-language model (VLM). ZR-0 adopts a dual-stream architecture: a pre-trained VLM (System 2) generates structured ECoT reasoning during training, while a Diffusion Transformer-based action expert (System 1) produces continuous action chunks via flow matching. The two components are coupled through cross-attention, with an attention mask that restricts the action expert to input prompt features only, enabling ECoT generation to be entirely skipped at inference without any performance loss. ZR-0 is pre-trained on ProcCorpus-60M, a large-scale dataset comprising approximately 60 million frames (approximately 1,000 hours) from over 400K trajectories, with dense ECoT annotations covering 96.8% of all frames. We evaluate ZR-0 on three simulation benchmarks spanning single-arm (LIBERO), bimanual (RoboTwin 2.0), and humanoid (RoboCasa GR-1 Tabletop) embodiments, as well as real-world experiments on the xArm platform, demonstrating strong performance across all settings. Code and model checkpoints are available at https://github.com/RUCKBReasoning/ZR-0.",
+    "categories": [
+      "Simulation Benchmark",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Transformer",
+      "Humanoid",
+      "Task Planning",
+      "Vision-Language",
+      "Benchmark",
+      "Dataset",
+      "Diffusion",
+      "Flow Matching",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.30362",
+    "title": "ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control",
+    "paper_url": "https://arxiv.org/abs/2606.30362",
+    "project_url": null,
+    "authors": [
+      "Xiao Chen",
+      "Weishuai Zeng",
+      "Xiaojie Niu",
+      "Zirui Wang",
+      "Jianan Li",
+      "Huayi Wang",
+      "Furui Xu",
+      "Jiahe Chen",
+      "Weixiang Zhong",
+      "Lihe Ding",
+      "Kailin Li",
+      "Jiangmiao Pang",
+      "Tai Wang",
+      "Tianfan Xue",
+      "Jingbo Wang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-29",
+    "abstract": "While current Behavior Foundation Models (BFMs) provide robust control priors for humanoids, they only execute pre-defined reference motions. As a result, they are vulnerable to environmental shifts and incapable of reactive whole-body coordination. Naively cascading them with generative motion planners fails to achieve true reactivity, as inevitable tracking discrepancies induce fatal cumulative exposure bias. To bridge this gap, we propose ReactiveBFM, a real-time closed-loop planning-control framework. At its core, we effectively mitigate exposure bias via a scheduled prefix sampling curriculum, forcing the generative planner to actively learn error-recovery behaviors from imperfect physical states rather than ground-truth trajectories. Systematically, to reconcile the severe latency mismatch between auto-regressive planning and high-frequency tracking, we introduce an asynchronous replanning mechanism. Combined with trajectory chunking to temporally ensemble spatial references, our system guarantees spatio-temporally fluid execution without physical jitter. Deployed on the Unitree G1 humanoid, ReactiveBFM demonstrates unprecedented physical agility across a vast repertoire of text-conditioned closed-loop motions. Notably, ReactiveBFM achieves zero-shot moving target reaching, showcasing intricate whole-body coordination and on-the-fly replanning. In sim-to-sim benchmarking under severe perturbations, ReactiveBFM achieves a 93.1% success rate, significantly outperforming cascaded open-loop baselines by 28.6%.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Zero-Shot",
+      "Humanoid",
+      "Foundation Model",
+      "Robust Control",
+      "Motion Planning",
+      "Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.30290",
+    "title": "X-Morph: Human Motion Priors for Scalable Robot Learning Across Morphologies",
+    "paper_url": "https://arxiv.org/abs/2606.30290",
+    "project_url": null,
+    "authors": [
+      "Ritwik Sharma",
+      "Shivam Sood",
+      "Arhaan Jain",
+      "Shyam Charan Kesavamoorthi",
+      "Chengyang He",
+      "Guillaume Sartoretti"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-29",
+    "abstract": "Recent progress in humanoid behavior models has been driven in large part by abundant human motion data, but comparable motion data is scarce for non-humanoid legged robots such as quadrupeds, hexapods, and quadruped manipulators. A promising alternative is to repurpose human motion across embodiments; however, direct retargeting often produces motions that are visually plausible yet physically inconsistent or difficult to track under robot dynamics. We present X-Morph, a human-motion-to-robot-behavior pipeline that converts human motion into deployable locomotion and loco-manipulation policies for diverse non-humanoid legged morphologies. A cross-morphology retargeting stage converts human motions into kinematically plausible, intent-preserving robot references, which are then tracked by a privileged RL policy and distilled into a causal student policy. We evaluate X-Morph on three morphologically distinct platforms: a quadruped, a hexapod, and a quadruped equipped with a manipulator. The resulting policies track diverse retargeted motions, generalize to unseen human motions, and support downstream use cases including video-based teleoperation, behavior-prior control, and text-conditioned motion generation. These results suggest that large-scale human motion can serve as a substrate for learning broad, reusable behavior priors beyond humanoid robots. Project page: https://maker-rat.github.io/morph/",
+    "categories": [
+      "Teleoperation",
+      "Physics-Based Character Animation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "PPO",
+      "Physics-Based Character Animation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2606.30243",
+    "title": "KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability",
+    "paper_url": "https://arxiv.org/abs/2606.30243",
+    "project_url": null,
+    "authors": [
+      "Luca Rossini",
+      "Arturo Laurenzi",
+      "Francesco Ruscelli",
+      "Yifang Zhang",
+      "Giovanbattista Gravina",
+      "Lorenzo Baccelliere",
+      "Corrado Burchielli",
+      "Stefano Cordasco",
+      "Nikos Tsagarakis"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-29",
+    "abstract": "This paper presents KYON, a hybrid wheel-legged quadruped robot equipped with a bimanual upper body for loco-manipulation tasks. The platform features a semi-modular design with a reconfigurable lower legs, enabling both wheeled and legged locomotion depending on the environment. A design approach that places actuators in the base and uses transmission mechanisms reduces distal inertia, improving agility and dynamic performance. The robot integrates a whole-body control framework together with a reinforcement learning based policy to handle nonlinear dynamics and enhance robustness to disturbances for the execution of locomotion and manipulation tasks, independently. Experimental results demonstrate effective dynamic locomotion and bimanual manipulation, validating the platform's capability to operate in complex and unstructured scenarios.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Locomotion",
+      "Hardware Design"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Robustness",
+      "Loco-Manipulation and Whole-Body Control",
+      "Hardware Design"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.30454",
+    "title": "Collective cooperation without individual fidelity in LLM agents",
+    "paper_url": "https://arxiv.org/abs/2606.30454",
+    "project_url": null,
+    "authors": [
+      "Henrique Ferraz de Arruda",
+      "Carlos Gracia Lázaro",
+      "Alberto Aleta",
+      "Yamir Moreno"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-29",
+    "abstract": "Large language models (LLMs) are increasingly used as agents in simulations of social systems, yet it remains unclear when their behavior can be interpreted as a faithful proxy for human decision-making. Here we test LLM agents against a direct empirical benchmark: a large-scale networked Prisoner's Dilemma experiment with human participants. Using the same interaction protocol, payoff structure, and network topologies, we compare nine open-weight LLMs with the human data. The selected model reproduces several macro-level features of cooperation dynamics, including the early decline and later stabilization of cooperation. This aggregate agreement, however, does not extend uniformly to finer levels of behavior. LLM populations underestimate individual-level heterogeneity and generate conditional cooperation patterns that differ from those observed in humans. Adding a fraction of random agents improves some aspects of micro-level agreement, but does not remove the mismatch in decision rules. These findings reveal a macro--micro dissociation in LLM-based social agents: collective outcomes can appear human-like even when the underlying behavioral distributions and mechanisms are not. They suggest that validating LLM agents as human surrogates requires comparisons across aggregate dynamics, individual heterogeneity, and context-dependent decision rules, rather than outcome-level agreement alone.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Benchmark",
+      "Large Language Model",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "REEM",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2606.29820",
+    "title": "Dual-Flow Reinforcement Learning with State-Aware Exploration",
+    "paper_url": "https://arxiv.org/abs/2606.29820",
+    "project_url": null,
+    "authors": [
+      "Qijun Li",
+      "Zheng Fu",
+      "Qi Song",
+      "Yifei He",
+      "Weitao Zhou",
+      "Kun Jiang",
+      "Diange Yang"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-29",
+    "abstract": "In complex continuous-control reinforcement learning tasks, multimodal optimal actions often coincide with uncertain, multimodal return distributions, making reliable value estimation and multimodal exploration challenging. Existing value estimation methods using unimodal Gaussians restrict expressiveness and yield biased estimates. Recent generative policies can represent multimodal actions but often collapse to a few modes and under-explore high-value areas of the action space. Motivated by these challenges, we propose Dual-Flow RL, a unified actor-critic framework that jointly models a continuous return distribution and a multimodal policy distribution using conditional flow matching (CFM). This design supports reliable value estimation and sustained multimodal exploration. To further enhance exploration, we introduce an Entropy-Covariance Exploration Regulator (ECER) that enables state-aware exploration regulation leveraging policy entropy and action-uncertainty covariance. Experiments on DeepMind Control Suite and Humanoid-Bench show that Dual-Flow RL achieves state-of-the-art performance on most tasks, significantly outperforming prior diffusion-based and flow-based methods.",
+    "categories": [
+      "Navigation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Actor-Critic",
+      "PPO",
+      "Diffusion",
+      "Flow Matching",
+      "Navigation",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2606.29209",
+    "title": "AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance",
+    "paper_url": "https://arxiv.org/abs/2606.29209",
+    "project_url": null,
+    "authors": [
+      "Shuning Li",
+      "Sikai Li",
+      "Jiachen Li",
+      "Mingyu Ding"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-28",
+    "abstract": "We present AnyBody, a unified whole-body humanoid controller driven by an arbitrary subset of body keypoints chosen at deploy time. Prior physics-based trackers either rely on expensive full-body motion capture and error-prone trajectory retargeting, which bottleneck scalable data collection and policy learning, or decompose upper- and lower-body control into separate hierarchical representations, sacrificing the coordinated whole-body motions that loco-manipulation requires. We close this gap by learning a single latent motion representation that any keypoint subset can address. To achieve this, we first train a privileged teacher tracker on a large unstructured motion corpus and distill it online into a deterministic encoder-decoder student whose latent space is a unit sphere. We then train a transformer keypoint encoder that admits any subset of body keypoints through masked self-attention, aligning it to the privileged latent. Additionally, we treat the frozen decoder as a motor prior and specialize downstream tasks with a lightweight residual corrector in the latent space. We demonstrate the effectiveness of AnyBody by tracking large-scale human motions from arbitrary keypoint subsets, free-form control, flexibly teleoperating, and learning downstream behaviors including locomotion, in-air writing, and obstacle-reach.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Human Motion Analysis and Synthesis",
+      "Locomotion",
+      "Manipulation",
+      "Teleoperation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Transformer",
+      "Humanoid",
+      "Policy Learning",
+      "SAC",
+      "Loco-Manipulation and Whole-Body Control",
+      "Human Motion Analysis and Synthesis",
+      "Teleoperation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2606.28813",
+    "title": "Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning",
+    "paper_url": "https://arxiv.org/abs/2606.28813",
+    "project_url": null,
+    "authors": [
+      "Shuo Cheng",
+      "Chuye Zhang",
+      "Alfred Cueva",
+      "Caelan Garrett",
+      "Ajay Mandlekar",
+      "Danfei Xu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-27",
+    "abstract": "Human videos are a scalable source of supervision for robot manipulation, as they are abundant and naturally capture rich object interactions. However, transferring human demonstrations to robots remains challenging due to embodiment mismatch, scene variation, and robot-specific feasibility constraints. We present Human2Any, a framework for learning reusable object-centric interaction priors from human videos without requiring real-world robot demonstrations in the target task contexts. Human2Any represents manipulation through object-object interaction motion, capturing task-relevant scene changes while abstracting away embodiment-specific details. It composes learned interaction priors with robot-side feasibility reasoning and motion planning, allowing the same human-derived knowledge to adapt to different embodiments, scene geometries, and task contexts. We validate Human2Any across diverse manipulation settings, including real-world experiments on a Franka tabletop setup and an RBY-1 humanoid mobile robot, demonstrating robust interaction-centric manipulation without real-world robot training data. Project website: https://human2any.github.io/.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Human Demonstration",
+      "Humanoid",
+      "Motion Planning"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.28770",
+    "title": "Mechanistic Personality Analysis of LLMs Steering Personality via Latent Feature Interventions",
+    "paper_url": "https://arxiv.org/abs/2606.28770",
+    "project_url": null,
+    "authors": [
+      "David Courtis",
+      "Ting Hu"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-27",
+    "abstract": "Large Language Models (LLMs) have demonstrated the ability to simulate human-like OCEAN personality traits in generated text. Previous efforts have focused on prompt engineering or fine-tuning to shape LLM personality. In this work, we propose a mechanistic interpretability approach that directly intervenes on the model's latent features. Our method identifies latent directions in the residual stream corresponding to a target OCEAN trait using sparse autoencoders (SAEs) and contrastive activation analysis. We formalize an additive steering vector in activation space and demonstrate how applying a small additive shift to the hidden states enhances the target trait while preserving overall language modeling performance. To determine the optimal combination of feature shifts, we explore a linear weighting heuristic with grid search optimization that balances personality expression with task performance. Our approach shows promise in controllably steering personality traits at the mechanistic level while maintaining high performance on standard benchmarks.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Fine-tuning",
+      "Benchmark",
+      "Large Language Model",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
     "arxiv_id": "2606.28237",
     "title": "Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors",
     "paper_url": "https://arxiv.org/abs/2606.28237",
@@ -34,6 +418,78 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.28476",
+    "title": "FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2606.28476",
+    "project_url": null,
+    "authors": [
+      "Angchen Xie",
+      "Nikhil Sobanbabu",
+      "Ishayu Shikhare",
+      "Alan Wang",
+      "Max Simchowitz",
+      "Guanya Shi"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-26",
+    "abstract": "High-precision humanoid control is limited by target-domain dynamics mismatch, where the same control objective can induce different realized motions under changes in terrain, payload, or actuator response. Existing methods either pursue zero-shot transfer through domain randomization or in-context adaptation without target-domain specialization, or require heavy adaptation pipelines that leverage target-domain data, such as model calibration, residual learning, or policy retraining. In this paper, we present FADA (Few-Shot Domain Adaptation via Dynamics Alignment), a three-stage Planner-Inverse Dynamics Model (Planner-IDM) framework for few-shot adaptation in humanoid control. FADA first trains an oracle policy with privileged information and then distills the oracle behavior into a deployable Planner-IDM student through DAgger. At deployment, FADA freezes the planner and finetunes only the IDM using approximately 2 minutes of target-domain rollouts with standard supervised learning. Rather than requiring optimal demonstrations or rewards, FADA uses the paired actions and observations that are observed during these rollouts as supervision, aligning the IDM's action generation with target-domain dynamics. Experiments show that FADA outperforms both in-context and end-to-end adaptation baselines, improving task performance under dynamics shifts and enabling real humanoid robots to execute diverse high-precision whole-body tasks. Implementation details and qualitative hardware rollout videos are available at https://lecar-lab.github.io/FADA-humanoid/.",
+    "categories": [
+      "Sim-to-Real",
+      "Loco-Manipulation and Whole-Body Control",
+      "Hardware Design"
+    ],
+    "tags": [
+      "Few-Shot",
+      "Zero-Shot",
+      "Domain Randomization",
+      "Humanoid",
+      "Domain Adaptation",
+      "Residual Learning",
+      "DAgger",
+      "Sim-to-Real",
+      "Loco-Manipulation and Whole-Body Control",
+      "Hardware Design"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Sim-to-Real"
+  },
+  {
+    "arxiv_id": "2606.28469",
+    "title": "When May I Help You? On The Effect of Proactivity on Group Human-Robot Collaboration",
+    "paper_url": "https://arxiv.org/abs/2606.28469",
+    "project_url": null,
+    "authors": [
+      "Thomas Vitry",
+      "Vanessa Maeder",
+      "Kieran Edgeworth",
+      "Asihati Hazaiti",
+      "Doga Deniz Ates",
+      "Connor Gäde",
+      "Jan-Gerrit Habekost",
+      "Dennis Becker",
+      "Stefan Wermter"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-26",
+    "abstract": "Robot initiative is a central challenge in multi-party human-robot collaboration. A robot that contributes without being addressed may provide timely support, but it may also disrupt coordination, divide attention, or interrupt turn-taking; a robot that waits to be addressed may preserve human control, but it may also miss opportunities to assist. We investigate this design challenge in a collaborative escape room in which pairs of participants work with a humanoid robot under either a reactive interaction model, where the robot responds only when addressed, or a proactive model, where it listens continuously, contributes autonomously, and periodically re-initiates interaction. We evaluate both models using puzzle-solving performance, interaction frequency, and participant ratings on the Godspeed and RoSAS scales. The proactive model substantially increases interaction frequency, whereas the reactive model shows a descriptively higher overall success rate (92.86% vs. 71.42%). The strongest differences emerge when prior experience and personality are taken into account: participants with LLM experience solve the early puzzles faster in the reactive condition, and participants with prior robot experience show modified evaluations of proactive and reactive interaction as do introverted participants. These findings demonstrate that the effects of robot initiative are simultaneously shaped by users' prior experience, personality traits and more generally by the needs of the group.",
+    "categories": [
+      "State Estimation"
+    ],
+    "tags": [
+      "Humanoid",
+      "PPO",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
   },
   {
     "arxiv_id": "2606.27813",

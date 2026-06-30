@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**54 papers** in this category.
+**56 papers** in this category.
 
 ## Months
 
-- [2026-06](/simulation-benchmark/2026-06) (17 papers)
+- [2026-06](/simulation-benchmark/2026-06) (19 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
 - [2026-03](/simulation-benchmark/2026-03) (4 papers)
@@ -23,6 +23,46 @@
 ---
 
 ## Recent Papers
+
+## 🌟 Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30552)
+- **Project:** [GitHub](https://github.com/ruckbreasoning/zr-0)
+- **Authors:** Haoyang Li, Guanlin Li, Youhe Feng, Chen Zhao, Zhuoran Wang, Yang Li et al. (12 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Transformer
+  - Humanoid
+  - Task Planning
+  - Vision-Language
+  - Benchmark
+  - Dataset
+  - Diffusion
+
+### Summary
+
+Cross-embodiment transfer in vision-language-action (VLA) models remains challenging because low-level state and action spaces differ fundamentally across robot platforms. We observe that the high-level cognitive process underlying manipulation, including scene perception, object identification, task planning, and sub-task decomposition, is largely shared across embodiments.
+
+---
+
+## Collective cooperation without individual fidelity in LLM agents
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30454)
+- **Authors:** Henrique Ferraz de Arruda, Carlos Gracia Lázaro, Alberto Aleta, Yamir Moreno
+- **Published:** 2026-06
+- **Real Robot:** ✅ — REEM
+- **Tags:**
+  - Benchmark
+  - Large Language Model
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Large language models (LLMs) are increasingly used as agents in simulations of social systems, yet it remains unclear when their behavior can be interpreted as a faithful proxy for human decision-making. Here we test LLM agents against a direct empirical benchmark: a large-scale networked Prisoner's Dilemma experiment with human participants.
+
+---
 
 ## Identifying the Unknown: Prompt-Free Open Vocabulary Anomaly Recognition for Robot-Object Interaction
 
@@ -378,39 +418,5 @@ Flow matching has recently emerged as a powerful approach for imitation learning
 ### Summary
 
 Recent Vision-Language Models (VLMs) struggle with grounded reasoning, temporal consistency, and context aware planning in videos. We introduce pause-and-think-T, a reasoning-centric training dataset that encourages models to pause, reason over visual evidence, and produce concise, actionable responses.
-
----
-
-## Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30928)
-- **Authors:** Usman Nizamani, M. Shaheer Luqman, Fawad Javed Fateh, Ali Shah Ali, Murad Popattia, M. Zeeshan Zia et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Human Demonstration
-  - Benchmark
-  - SAC
-  - Simulation Benchmark
-
-### Summary
-
-Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability.
-
----
-
-## Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.24602)
-- **Authors:** Quanjiang Li, Zhiming Liu, Wei Luo, Tingjin Luo, Chenping Hou
-- **Published:** 2026-05
-- **Tags:**
-  - Benchmark
-  - Large Language Model
-  - Simulation Benchmark
-
-### Summary
-
-Multimodal large language models (MLLMs) frequently suffer from object hallucinations, yet the visual perceptual mechanism underlying this failure remains poorly understood. In this work, we reveal that hallucinations are strongly associated with a human-like attention distraction phenomenon, where humans under divided focus experience degraded visual clarity and produce inaccurate descriptions, while in models the same mechanism manifests as spatial inconsistency in multi-head attention and temporal fading of attention to image tokens during decoding.
 
 ---

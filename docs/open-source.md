@@ -2,6 +2,28 @@
 
 Papers with open-source code repositories.
 
+## 🌟 Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30552)
+- **Project:** [GitHub](https://github.com/ruckbreasoning/zr-0)
+- **Authors:** Haoyang Li, Guanlin Li, Youhe Feng, Chen Zhao, Zhuoran Wang, Yang Li et al. (12 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Transformer
+  - Humanoid
+  - Task Planning
+  - Vision-Language
+  - Benchmark
+  - Dataset
+  - Diffusion
+
+### Summary
+
+Cross-embodiment transfer in vision-language-action (VLA) models remains challenging because low-level state and action spaces differ fundamentally across robot platforms. We observe that the high-level cognitive process underlying manipulation, including scene perception, object identification, task planning, and sub-task decomposition, is largely shared across embodiments.
+
+---
+
 ## 🌟 Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.28237)

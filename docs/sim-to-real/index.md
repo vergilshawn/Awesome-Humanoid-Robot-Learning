@@ -1,9 +1,10 @@
 # Sim-to-Real
 
-**11 papers** in this category.
+**12 papers** in this category.
 
 ## Months
 
+- [2026-06](/sim-to-real/2026-06) (1 papers)
 - [2026-02](/sim-to-real/2026-02) (1 papers)
 - [2026-01](/sim-to-real/2026-01) (1 papers)
 - [2025-10](/sim-to-real/2025-10) (1 papers)
@@ -17,6 +18,27 @@
 ---
 
 ## Recent Papers
+
+## FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.28476)
+- **Authors:** Angchen Xie, Nikhil Sobanbabu, Ishayu Shikhare, Alan Wang, Max Simchowitz, Guanya Shi
+- **Published:** 2026-06
+- **Tags:**
+  - Few-Shot
+  - Zero-Shot
+  - Domain Randomization
+  - Humanoid
+  - Domain Adaptation
+  - Residual Learning
+  - DAgger
+  - Sim-to-Real
+
+### Summary
+
+High-precision humanoid control is limited by target-domain dynamics mismatch, where the same control objective can induce different realized motions under changes in terrain, payload, or actuator response. Existing methods either pursue zero-shot transfer through domain randomization or in-context adaptation without target-domain specialization, or require heavy adaptation pipelines that leverage target-domain data, such as model calibration, residual learning, or policy retraining.
+
+---
 
 ## RAPT: Model-Predictive Out-of-Distribution Detection and Failure Diagnosis for Sim-to-Real Humanoid Robots
 
