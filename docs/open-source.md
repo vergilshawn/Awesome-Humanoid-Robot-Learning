@@ -2,6 +2,29 @@
 
 Papers with open-source code repositories.
 
+## 🌟 FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31691)
+- **Project:** [GitHub](https://github.com/luge66/FastDSAC)
+- **Authors:** Guanchen Lu, Yajuan Dun, Yi Zhou, Letian Tao, Jingliang Duan, Jie Li et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Actor-Critic
+  - SAC
+  - Navigation
+  - State Estimation
+
+### Summary
+
+Scalable reinforcement learning has popularized high-throughput sampling architectures, which significantly compresses the training time for off-policy methods in robotic locomotion. However, the rapid increase of data volume and update frequency undermines the stability of value-based methods and diminishes the plasticity of policy networks.
+
+---
+
 ## 🌟 Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.30552)

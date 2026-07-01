@@ -1,10 +1,10 @@
 # Locomotion
 
-**124 papers** in this category.
+**126 papers** in this category.
 
 ## Months
 
-- [2026-06](/locomotion/2026-06) (19 papers)
+- [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
 - [2026-03](/locomotion/2026-03) (2 papers)
@@ -36,6 +36,51 @@
 ---
 
 ## Recent Papers
+
+## Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31807)
+- **Authors:** Ethan Marot, Thomas Bi, Clemens Schwarke, Victor Klemm, Marco Hutter, Raffaello D'Andrea
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Walking
+  - Underactuated
+
+### Summary
+
+As humanoid robots become increasingly dynamic, coupling them with reinforcement learning offers a promising approach to solving the complex, underactuated mechanics of passive inline skating. Equipping a humanoid robot with passive inline skating wheels presents an opportunity to combine the versatile agility of humanoids with the high-speed, energy-efficient locomotion strategies utilized by human skaters.
+
+---
+
+## 🌟 FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31691)
+- **Project:** [GitHub](https://github.com/luge66/FastDSAC)
+- **Authors:** Guanchen Lu, Yajuan Dun, Yi Zhou, Letian Tao, Jingliang Duan, Jie Li et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Actor-Critic
+  - SAC
+  - Navigation
+  - State Estimation
+
+### Summary
+
+Scalable reinforcement learning has popularized high-throughput sampling architectures, which significantly compresses the training time for off-policy methods in robotic locomotion. However, the rapid increase of data volume and update frequency undermines the stability of value-based methods and diminishes the plasticity of policy networks.
+
+---
 
 ## 🌟 Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors
 
@@ -414,42 +459,5 @@ Achieving both anthropomorphic naturalness and robust terrain traversal remains 
 ### Summary
 
 Humans primarily rely on walking and running to traverse complex terrains. Similarly, humanoid robots should be able to smoothly transition between walking and running while maintaining natural and stable locomotion.
-
----
-
-## PHASOR: Phase-Anchored Universal Action Representations for Humanoid Embodiments
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.01851)
-- **Authors:** Kihyun Kim, Chaeyun Kim, Jongho Shin, Taeyoun Kwon, Junghyun Kim, Mijin Koo et al. (7 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - Distillation
-  - Policy Learning
-  - Locomotion
-
-### Summary
-
-Learning a good action embedding space is fundamental to scalable robot policy learning, yet existing methods treat action latents as task-specific intermediates rather than first-class representations. The resulting latents are unstructured, embodiment-specific, and weakly tied to motion semantics, limiting interpretability, controllability, and transferability across robots.
-
----
-
-## Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.00637)
-- **Authors:** Shengcheng Fu, Yang Zhang, Zhanxiang Cao, Liyun Yan, Yizhi Chen, Yunpeng Yin et al. (7 authors)
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Locomotion
-  - Navigation
-  - Zero-Shot
-  - Humanoid
-
-### Summary
-
-Although reinforcement learning has significantly advanced humanoid locomotion, perceptive policies still struggle on sparse-foothold terrain and constrained environments. Success in these scenarios requires both broad terrain awareness and precise foothold selection, two perceptual roles that conventional encoders often entangle.
 
 ---

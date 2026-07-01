@@ -1,10 +1,10 @@
 # Manipulation
 
-**74 papers** in this category.
+**77 papers** in this category.
 
 ## Months
 
-- [2026-06](/manipulation/2026-06) (19 papers)
+- [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
@@ -31,6 +31,69 @@
 ---
 
 ## Recent Papers
+
+## Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.32009)
+- **Authors:** Xiaopeng Lin, Ruoqi Yang, Shijie Lian, Zhaolong Shen, Bin Yu, Changti Wu et al. (17 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Inverse Kinematics
+  - Vision-Language
+  - Physics-Based Character Animation
+
+### Summary
+
+Vision-language-action (VLA) models across robot embodiments require high-quality observation--action supervision to learn deployable action distributions, yet scaling such robot data remains difficult, especially for high-DoF humanoids. Teleoperation provides controller-aligned supervision, while human egocentric videos capture diverse bimanual manipulation but do not directly provide executable robot actions.
+
+---
+
+## RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31836)
+- **Authors:** Xinyi Wang, Donghan Li, Zi'Ang Chen, Chong Yu, Chen Xin, Peng Ye et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Imitation Learning
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - Multi-Modal
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+In the field of robot learning, large-scale and diverse demonstration trajectories provide the fundamental basis for enhancing robotic manipulation ability. We introduce RoboTacDex, a large, multi-modal, and diverse dataset of dexterous manipulation behaviors performed with a humanoid robot.
+
+---
+
+## Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31037)
+- **Authors:** Yuhan Wu, Zhao Jin, Tao Li, Yuheng Zhang, Zhengping Che, Jian Tang et al. (12 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - PPO
+  - GAN
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Laboratory automation has made remarkable progress through robotic platforms and AI-driven scientific reasoning. However, many laboratory operations (e.g., solid--solid transfer) remain inherently dynamic and require real-time adaptation to different materials and experimental conditions.
+
+---
 
 ## Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning
 
@@ -343,56 +406,5 @@ Designing anthropomorphic dexterous robotic hands remains challenging as the des
 ### Summary
 
 Human hand-object interactions encode functional intent, but direct transfer to robotic hands often fails under morphology, contact, and reachability constraints. We present SynManDex, a synthetic pipeline that uses generated human pre-grasps as affordance-aware proposals and resolves the final contacts with robot-native optimization.
-
----
-
-## Vision-Guided Dual-Arm Humanoid Robotic Disassembly of End-of-Life 18650 Lithium-ion Battery Packs
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08152)
-- **Authors:** Yile Chen, Zhihao Liu, Xi Vincent Wang, Lihui Wang
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - PPO
-  - Manipulation
-
-### Summary
-
-The growing volume of retired lithium-ion battery packs from electric vehicles and portable electronics calls for automated disassembly that is safe, flexible, and selective down to the individual cell. Existing robotic systems, however, mostly assume known pack poses, external fixtures, or specialised tooling, leaving fixture-free cell-level disassembly under pose uncertainty largely unsolved.
-
----
-
-## Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08107)
-- **Authors:** Ji Woong Kim, Ke Wang, Zipeng Fu, Sirui Chen, Cong Zhao, Jeff Lai et al. (7 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Fine-tuning
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Robotics faces a fundamental challenge of data scarcity. Unlike language or vision research, there is no internet-scale dataset for robotic manipulation.
-
----
-
-## Any-ttach: Quick End-effector Swapping Enables Manipulation Dexterity with Simplicity
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30569)
-- **Authors:** Weizhe Ni, Jinzhou Li, Haoyu Li, Cody Andres Alessio-Bunnell, Wenjing Pan, Xianyi Cheng
-- **Published:** 2026-05
-- **Tags:**
-  - Manipulation
-  - Human Demonstration
-  - Task Planning
-  - PPO
-
-### Summary
-
-Robotic manipulation dexterity is often pursued by building increasingly complex high-DoF multifingered hands. While many robotic hands are designed to replicate human morphology, the functional role of human hands suggests a different perspective: much of their complexity may exist to enable tool use and tool making.
 
 ---

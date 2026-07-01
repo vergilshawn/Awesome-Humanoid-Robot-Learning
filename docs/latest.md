@@ -2,6 +2,128 @@
 
 All papers sorted by publication date (newest first).
 
+## Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.32009)
+- **Authors:** Xiaopeng Lin, Ruoqi Yang, Shijie Lian, Zhaolong Shen, Bin Yu, Changti Wu et al. (17 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Inverse Kinematics
+  - Vision-Language
+  - Physics-Based Character Animation
+
+### Summary
+
+Vision-language-action (VLA) models across robot embodiments require high-quality observation--action supervision to learn deployable action distributions, yet scaling such robot data remains difficult, especially for high-DoF humanoids. Teleoperation provides controller-aligned supervision, while human egocentric videos capture diverse bimanual manipulation but do not directly provide executable robot actions.
+
+---
+
+## RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31836)
+- **Authors:** Xinyi Wang, Donghan Li, Zi'Ang Chen, Chong Yu, Chen Xin, Peng Ye et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Imitation Learning
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - Multi-Modal
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+In the field of robot learning, large-scale and diverse demonstration trajectories provide the fundamental basis for enhancing robotic manipulation ability. We introduce RoboTacDex, a large, multi-modal, and diverse dataset of dexterous manipulation behaviors performed with a humanoid robot.
+
+---
+
+## Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31807)
+- **Authors:** Ethan Marot, Thomas Bi, Clemens Schwarke, Victor Klemm, Marco Hutter, Raffaello D'Andrea
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Walking
+  - Underactuated
+
+### Summary
+
+As humanoid robots become increasingly dynamic, coupling them with reinforcement learning offers a promising approach to solving the complex, underactuated mechanics of passive inline skating. Equipping a humanoid robot with passive inline skating wheels presents an opportunity to combine the versatile agility of humanoids with the high-speed, energy-efficient locomotion strategies utilized by human skaters.
+
+---
+
+## 🌟 FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31691)
+- **Project:** [GitHub](https://github.com/luge66/FastDSAC)
+- **Authors:** Guanchen Lu, Yajuan Dun, Yi Zhou, Letian Tao, Jingliang Duan, Jie Li et al. (7 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Actor-Critic
+  - SAC
+  - Navigation
+  - State Estimation
+
+### Summary
+
+Scalable reinforcement learning has popularized high-throughput sampling architectures, which significantly compresses the training time for off-policy methods in robotic locomotion. However, the rapid increase of data volume and update frequency undermines the stability of value-based methods and diminishes the plasticity of policy networks.
+
+---
+
+## Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31037)
+- **Authors:** Yuhan Wu, Zhao Jin, Tao Li, Yuheng Zhang, Zhengping Che, Jian Tang et al. (12 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - PPO
+  - GAN
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Laboratory automation has made remarkable progress through robotic platforms and AI-driven scientific reasoning. However, many laboratory operations (e.g., solid--solid transfer) remain inherently dynamic and require real-time adaptation to different materials and experimental conditions.
+
+---
+
+## Is Natural Always Appropriate? Investigating Naturalness and Appropriateness Across Different Domains for TTS Evaluation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31729)
+- **Authors:** Dominika Woszczyk, Andreas Triantafyllopoulos, Jura Miniota, Éva Székely, Bjoern Schuller
+- **Published:** 2026-06
+- **Tags:**
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Text-to-speech (TTS) evaluation is an open challenge. While the primary target was "naturalness," recent fidelity gains shifted focus toward "appropriateness" and whether speech is correct for its context.
+
+---
+
 ## VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.30645)
@@ -106,24 +228,6 @@ Recent progress in humanoid behavior models has been driven in large part by abu
 ### Summary
 
 This paper presents KYON, a hybrid wheel-legged quadruped robot equipped with a bimanual upper body for loco-manipulation tasks. The platform features a semi-modular design with a reconfigurable lower legs, enabling both wheeled and legged locomotion depending on the environment.
-
----
-
-## Collective cooperation without individual fidelity in LLM agents
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.30454)
-- **Authors:** Henrique Ferraz de Arruda, Carlos Gracia Lázaro, Alberto Aleta, Yamir Moreno
-- **Published:** 2026-06
-- **Real Robot:** ✅ — REEM
-- **Tags:**
-  - Benchmark
-  - Large Language Model
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Large language models (LLMs) are increasingly used as agents in simulations of social systems, yet it remains unclear when their behavior can be interpreted as a faithful proxy for human decision-making. Here we test LLM agents against a direct empirical benchmark: a large-scale networked Prisoner's Dilemma experiment with human participants.
 
 ---
 

@@ -1,5 +1,246 @@
 [
   {
+    "arxiv_id": "2606.32009",
+    "title": "Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments",
+    "paper_url": "https://arxiv.org/abs/2606.32009",
+    "project_url": null,
+    "authors": [
+      "Xiaopeng Lin",
+      "Ruoqi Yang",
+      "Shijie Lian",
+      "Zhaolong Shen",
+      "Bin Yu",
+      "Changti Wu",
+      "Haibao Liu",
+      "Yuxiang Zhang",
+      "Hong Li",
+      "Qiyuan Su",
+      "Haochen Liu",
+      "Xuguo He",
+      "Yukun Shi",
+      "Cong Huang",
+      "Zhirui Zhang",
+      "Bojun Cheng",
+      "Kai Chen"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-30",
+    "abstract": "Vision-language-action (VLA) models across robot embodiments require high-quality observation--action supervision to learn deployable action distributions, yet scaling such robot data remains difficult, especially for high-DoF humanoids. Teleoperation provides controller-aligned supervision, while human egocentric videos capture diverse bimanual manipulation but do not directly provide executable robot actions. We introduce Human-as-Humanoid, a human-to-humanoid supervision framework that enables near-real-time human-centric action generation, making human demonstrations usable for high-DoF humanoid VLA training by jointly aligning the robot embodiment, the sensing setup, and the action-label interface. Built on PrimeU, a human-aligned 60-DoF upper-body humanoid, Human-as-Humanoid uses synchronized ego-exo videos to pair deployment-aligned egocentric observations with exocentric motion recovery, retargets the recovered human motion through staged Inverse Kinematics (IK) into controller-aligned 60-DoF action chunks, and trains the VLA model with Forward Kinematics (FK)-aware supervision to preserve wrist and fingertip task-space geometry. This converts large-scale human demonstrations from visual observations into executable observation--action supervision for the target humanoid. Experiments validate the conversion chain at the motion-recovery, robot-action-space, and real-robot deployment levels. Human-as-Humanoid yields a 4.8--7.2x raw demonstration-throughput gain over humanoid teleoperation in our data-collection analysis, and on several downstream tasks, policies post-trained only with the converted human labels generalize to real-robot deployment without target-task robot demonstrations. The official project website is available at https://zgc-embodyai.github.io/Human-as-Humanoid.",
+    "categories": [
+      "Manipulation",
+      "Teleoperation",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Zero-Shot",
+      "Human Demonstration",
+      "Humanoid",
+      "Inverse Kinematics",
+      "Vision-Language",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.31836",
+    "title": "RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation",
+    "paper_url": "https://arxiv.org/abs/2606.31836",
+    "project_url": null,
+    "authors": [
+      "Xinyi Wang",
+      "Donghan Li",
+      "Zi'Ang Chen",
+      "Chong Yu",
+      "Chen Xin",
+      "Peng Ye",
+      "Yingkai Sun",
+      "Tao Chen"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-30",
+    "abstract": "In the field of robot learning, large-scale and diverse demonstration trajectories provide the fundamental basis for enhancing robotic manipulation ability. We introduce RoboTacDex, a large, multi-modal, and diverse dataset of dexterous manipulation behaviors performed with a humanoid robot. Built on the publicly accessible humanoid robot Unitree G1, RoboTacDex consists of 6k trajectories covering 19 tasks, 23 skills, and interactions with 22 objects. RoboTacDex provides comprehensive records including multi-view RGB and depth information, tactile feedback, and detailed semantic annotations. Furthermore, the dataset features a variety of relatively challenging tasks that can only be completed by dual arms and dexterous hands, aiming to mimic human-like operational logic and simulate real-world manipulation complexity. To ensure data collection quality, we develop an improved multi-camera synchronization system to enable millisecond data synchronization and recording of modalities. In our experiments, we evaluate three representative imitation learning models on our dataset,   analyzing their performance as well as their respective strengths and limitations across different task categories. Successful trial results and a moderate level of generalization capabilities across a suite of tasks indicate the effectiveness and diversity of the collected dataset. Our dataset will be open-sourced soon.",
+    "categories": [
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Imitation Learning",
+      "Manipulation",
+      "Humanoid",
+      "Dataset",
+      "Multi-Modal",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.31807",
+    "title": "Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot",
+    "paper_url": "https://arxiv.org/abs/2606.31807",
+    "project_url": null,
+    "authors": [
+      "Ethan Marot",
+      "Thomas Bi",
+      "Clemens Schwarke",
+      "Victor Klemm",
+      "Marco Hutter",
+      "Raffaello D'Andrea"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-30",
+    "abstract": "As humanoid robots become increasingly dynamic, coupling them with reinforcement learning offers a promising approach to solving the complex, underactuated mechanics of passive inline skating. Equipping a humanoid robot with passive inline skating wheels presents an opportunity to combine the versatile agility of humanoids with the high-speed, energy-efficient locomotion strategies utilized by human skaters. In this paper, we train and deploy a reinforcement learning control policy that enables novel locomotion strategies for a humanoid robot modified to equip consumer inline skates instead of conventional feet. Unlike previous work limited to quadrupedal robots or actively driven wheels, our system allows for precise 6-DoF control of the skates to execute dynamic, edge-driven propulsion strategies. Our skating strategies emerge entirely from our reward structure, without reliance on human motion data, imitation learning, or kinematic priors. We overcome the inherent instability of passive wheels and simulation contact artifacts by utilizing different geometric wheel models (spherical and ellipsoidal) during training and validation, along with a custom success-based command curriculum and a specialized rolling reward. Consequently, our policy demonstrates up to a 50% reduction in Cost of Transport (CoT) compared to standard walking gaits. The resulting policy successfully transfers zero-shot to the physical Booster T1 hardware. Real-world deployments demonstrate dynamic balance, the ability to reject active physical perturbations, and agile locomotion strategies capable of turning at speed. A video of our results can be found at https://www.youtube.com/watch?v=-_APcOS7uFo.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Imitation Learning",
+      "Locomotion",
+      "Zero-Shot",
+      "Humanoid",
+      "Gait",
+      "Walking",
+      "Underactuated",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Booster",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.31691",
+    "title": "FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2606.31691",
+    "project_url": "https://github.com/luge66/FastDSAC",
+    "authors": [
+      "Guanchen Lu",
+      "Yajuan Dun",
+      "Yi Zhou",
+      "Letian Tao",
+      "Jingliang Duan",
+      "Jie Li",
+      "Guofa Li"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-30",
+    "abstract": "Scalable reinforcement learning has popularized high-throughput sampling architectures, which significantly compresses the training time for off-policy methods in robotic locomotion. However, the rapid increase of data volume and update frequency undermines the stability of value-based methods and diminishes the plasticity of policy networks. To address these challenges, this work presents FastDSAC, a fast and high-performance variant of the Distributional Actor-Critic algorithm designed for parallel sampling scenarios. Specifically, we introduce a truncated Gaussian distribution to approximate the learned policy, which effectively excludes out-of-distribution actions that strain target value estimation while keeping necessary stochasticity for exploration. The proposed action constraint functions as an implicit regularization, which counteracts the plasticity loss typically caused by aggressive gradient updates. This preservation of network adaptability enhances sample efficiency, particularly in scenarios with a high update-to-data ratio, and accelerates the early training process. In contrast to prior fast reinforcement learning approaches that rely on discrete value distributions, our method utilizes a continuous Gaussian representation equipped with adaptive variance regulation, which improves value estimation accuracy by sampling confident and informative transitions. Extensive experiments on MuJoCo Playground and HumanoidBench demonstrate that FastDSAC not only stabilizes the overall training process but also achieves superior asymptotic performance and faster convergence compared to state-of-the-art baselines.",
+    "categories": [
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "MuJoCo",
+      "Humanoid",
+      "Actor-Critic",
+      "SAC",
+      "Navigation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2606.31037",
+    "title": "Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory",
+    "paper_url": "https://arxiv.org/abs/2606.31037",
+    "project_url": null,
+    "authors": [
+      "Yuhan Wu",
+      "Zhao Jin",
+      "Tao Li",
+      "Yuheng Zhang",
+      "Zhengping Che",
+      "Jian Tang",
+      "Zhichao Wang",
+      "Shuo Wang",
+      "Jun Jiang",
+      "Xiaobo Li",
+      "Yanyong Zhang",
+      "Yan Xia"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-30",
+    "abstract": "Laboratory automation has made remarkable progress through robotic platforms and AI-driven scientific reasoning. However, many laboratory operations (e.g., solid--solid transfer) remain inherently dynamic and require real-time adaptation to different materials and experimental conditions. Such precision-critical manipulations are difficult to standardize, motivating the use of humanoid robots with dexterous hands. Despite this opportunity, no existing benchmark evaluates humanoid manipulation in precision-critical laboratory environments. We present Labimus, to our knowledge, the first benchmark for humanoid dexterous manipulation in organic chemistry laboratories. Labimus reconstructs over 30 functionally faithful assets from real organic chemistry workstations through real-to-sim modeling, collectively covering the core operations of routine organic chemistry experiments. The benchmark integrates articulated laboratory instruments, particle-based powder physics, and closed-loop instrument readouts, enabling a complete manipulation-to-measurement pipeline. It further defines six atomic operations and a seven-step solid-weighing workflow derived from real laboratory standard operating procedures. We introduce a precision-aware evaluation protocol designed to jointly measure task completion, experimental precision, and long-horizon execution. We benchmark three representative policies under procedural layouts and environmental perturbations. Results reveal a precision gap: policies that successfully complete laboratory tasks can still fail to satisfy the quantitative tolerances required by experimental protocols. Our benchmark exposes a fundamental disconnect between task completion and experimental validity, providing a new testbed for developing reliable humanoid robots for scientific laboratories.",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Benchmark",
+      "PPO",
+      "GAN",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2606.31729",
+    "title": "Is Natural Always Appropriate? Investigating Naturalness and Appropriateness Across Different Domains for TTS Evaluation",
+    "paper_url": "https://arxiv.org/abs/2606.31729",
+    "project_url": null,
+    "authors": [
+      "Dominika Woszczyk",
+      "Andreas Triantafyllopoulos",
+      "Jura Miniota",
+      "Éva Székely",
+      "Bjoern Schuller"
+    ],
+    "published": "2026-06",
+    "published_date": "2026-06-30",
+    "abstract": "Text-to-speech (TTS) evaluation is an open challenge. While the primary target was \"naturalness,\" recent fidelity gains shifted focus toward \"appropriateness\" and whether speech is correct for its context. In this work, we examine how perception changes when the expected downstream use varies. We measure the appropriateness and human-likeness of five SOTA TTS systems across five domains: AI assistant, reader, actor, animated character, and spontaneous speaker. Results show appropriateness varies across domains independently of naturalness. While systems shine at reading, expressive domains remain challenging, and optimizing for one can degrade others. Furthermore, naturalness scores tend to penalize stylized speech while rewarding spontaneity. Finally, our study also highlights blind spots in one-size-fits-all evaluation metrics across more expressive domains. We demonstrate that TTS performance is not \"solved\" but depends on the target domain, requiring context-aware evaluation.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2606.30645",
     "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
     "paper_url": "https://arxiv.org/abs/2606.30645",
@@ -215,36 +456,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2606.30454",
-    "title": "Collective cooperation without individual fidelity in LLM agents",
-    "paper_url": "https://arxiv.org/abs/2606.30454",
-    "project_url": null,
-    "authors": [
-      "Henrique Ferraz de Arruda",
-      "Carlos Gracia Lázaro",
-      "Alberto Aleta",
-      "Yamir Moreno"
-    ],
-    "published": "2026-06",
-    "published_date": "2026-06-29",
-    "abstract": "Large language models (LLMs) are increasingly used as agents in simulations of social systems, yet it remains unclear when their behavior can be interpreted as a faithful proxy for human decision-making. Here we test LLM agents against a direct empirical benchmark: a large-scale networked Prisoner's Dilemma experiment with human participants. Using the same interaction protocol, payoff structure, and network topologies, we compare nine open-weight LLMs with the human data. The selected model reproduces several macro-level features of cooperation dynamics, including the early decline and later stabilization of cooperation. This aggregate agreement, however, does not extend uniformly to finer levels of behavior. LLM populations underestimate individual-level heterogeneity and generate conditional cooperation patterns that differ from those observed in humans. Adding a fraction of random agents improves some aspects of micro-level agreement, but does not remove the mismatch in decision rules. These findings reveal a macro--micro dissociation in LLM-based social agents: collective outcomes can appear human-like even when the underlying behavioral distributions and mechanisms are not. They suggest that validating LLM agents as human surrogates requires comparisons across aggregate dynamics, individual heterogeneity, and context-dependent decision rules, rather than outcome-level agreement alone.",
-    "categories": [
-      "Simulation Benchmark",
-      "State Estimation"
-    ],
-    "tags": [
-      "Benchmark",
-      "Large Language Model",
-      "Simulation Benchmark",
-      "State Estimation"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "REEM",
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2606.29820",

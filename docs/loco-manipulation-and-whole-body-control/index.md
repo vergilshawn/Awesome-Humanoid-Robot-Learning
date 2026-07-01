@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**218 papers** in this category.
+**219 papers** in this category.
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (40 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -35,6 +35,20 @@
 ---
 
 ## Recent Papers
+
+## Is Natural Always Appropriate? Investigating Naturalness and Appropriateness Across Different Domains for TTS Evaluation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31729)
+- **Authors:** Dominika Woszczyk, Andreas Triantafyllopoulos, Jura Miniota, Éva Székely, Bjoern Schuller
+- **Published:** 2026-06
+- **Tags:**
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Text-to-speech (TTS) evaluation is an open challenge. While the primary target was "naturalness," recent fidelity gains shifted focus toward "appropriateness" and whether speech is correct for its context.
+
+---
 
 ## VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes
 
@@ -418,26 +432,5 @@ While some individuals possess a natural talent for drawing, mastering this skil
 ### Summary
 
 Evaluating a Physical AI stack spans operators that differ by more than three orders of magnitude -- from a single foundation-model decoding step to thousands of physics ticks of whole-body control -- varying orthogonally in modality, reward semantics, and resource profile. No existing framework spans this range, so the stack is evaluated today by stitching together separate harnesses that share neither runtime nor scoring, preserving each segment's local validity but losing the shared identity needed to diagnose cross-layer regressions.
-
----
-
-## MotionPyramid: Hierarchical Motion Representation and Residual Interfaces
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.20705)
-- **Authors:** Gao Zhu, Zaishuo Xia, Yubei Chen
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Gait
-  - PPO
-  - SAC
-  - GAN
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-
-### Summary
-
-We ask whether the representational hierarchy seen in perception, from local primitives such as edges to higher level structures such as parts and objects, can be established for motion. In humanoid control, low level actions specify immediate motor commands, while meaningful behavior is organized over longer temporal scales, including contacts, gait fragments, balance recovery, reaching, and whole body skills.
 
 ---
