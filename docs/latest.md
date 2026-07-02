@@ -2,6 +2,56 @@
 
 All papers sorted by publication date (newest first).
 
+## Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.01181)
+- **Authors:** Mehul Damani, Isha Puri, Idan Shenfeld, Jacob Andreas
+- **Published:** 2026-07
+- **Tags:**
+  - Human Demonstration
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current RLVR methods optimize only what can be objectively scored, often neglecting subjective, non-verifiable aspects of human-like outputs, such as style and structure.
+
+---
+
+## Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.00855)
+- **Authors:** Lukas Köning, Nataša Miličić, Klaus Bogenberger
+- **Published:** 2026-07
+- **Tags:**
+  - Safety
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Traffic complexity critically influences driver task demands in partially automated vehicles, yet subjective perception and its behavioral indicators remain underexplored in real-world settings. This paper analyzes driver behavior - vehicle interaction, glance patterns, and guiding fixation - across varying levels of subjective traffic complexity, using real-world data from 20 drivers in real urban traffic.
+
+---
+
+## Coachable agents for interactive gameplay
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.00642)
+- **Authors:** Roberto Capobianco, Harm van Seijen, Nolan D. Bard, Neil Burch, Fatima Davelouis, Josh Davidson et al. (41 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Walking
+  - Foundation Model
+  - Data Augmentation
+  - Locomotion
+
+### Summary
+
+Reinforcement learning has proven to be a valuable tool in the creation of advanced AI and robotic systems, contributing to everything from game playing to robotics to foundation models. Through trial-and-error, these AI systems typically learn one, near-optimal behavior to solve their tasks.
+
+---
+
 ## Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.32009)
@@ -93,7 +143,7 @@ Scalable reinforcement learning has popularized high-throughput sampling archite
 ## Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.31037)
-- **Authors:** Yuhan Wu, Zhao Jin, Tao Li, Yuheng Zhang, Zhengping Che, Jian Tang et al. (12 authors)
+- **Authors:** Yuhan Wu, Zhao Jin, Tao Li, Yuheng Zhang, Zhichao Wang, Shuo Wang et al. (12 authors)
 - **Published:** 2026-06
 - **Tags:**
   - Manipulation
@@ -107,20 +157,6 @@ Scalable reinforcement learning has popularized high-throughput sampling archite
 ### Summary
 
 Laboratory automation has made remarkable progress through robotic platforms and AI-driven scientific reasoning. However, many laboratory operations (e.g., solid--solid transfer) remain inherently dynamic and require real-time adaptation to different materials and experimental conditions.
-
----
-
-## Is Natural Always Appropriate? Investigating Naturalness and Appropriateness Across Different Domains for TTS Evaluation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.31729)
-- **Authors:** Dominika Woszczyk, Andreas Triantafyllopoulos, Jura Miniota, Éva Székely, Bjoern Schuller
-- **Published:** 2026-06
-- **Tags:**
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Text-to-speech (TTS) evaluation is an open challenge. While the primary target was "naturalness," recent fidelity gains shifted focus toward "appropriateness" and whether speech is correct for its context.
 
 ---
 

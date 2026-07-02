@@ -4,7 +4,8 @@
 
 ## Months
 
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (40 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (1 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
@@ -36,17 +37,18 @@
 
 ## Recent Papers
 
-## Is Natural Always Appropriate? Investigating Naturalness and Appropriateness Across Different Domains for TTS Evaluation
+## Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.31729)
-- **Authors:** Dominika Woszczyk, Andreas Triantafyllopoulos, Jura Miniota, Éva Székely, Bjoern Schuller
-- **Published:** 2026-06
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.00855)
+- **Authors:** Lukas Köning, Nataša Miličić, Klaus Bogenberger
+- **Published:** 2026-07
 - **Tags:**
+  - Safety
   - Loco-Manipulation and Whole-Body Control
 
 ### Summary
 
-Text-to-speech (TTS) evaluation is an open challenge. While the primary target was "naturalness," recent fidelity gains shifted focus toward "appropriateness" and whether speech is correct for its context.
+Traffic complexity critically influences driver task demands in partially automated vehicles, yet subjective perception and its behavioral indicators remain underexplored in real-world settings. This paper analyzes driver behavior - vehicle interaction, glance patterns, and guiding fixation - across varying levels of subjective traffic complexity, using real-world data from 20 drivers in real urban traffic.
 
 ---
 

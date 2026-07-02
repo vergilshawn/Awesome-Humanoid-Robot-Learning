@@ -1,9 +1,10 @@
 # Locomotion
 
-**126 papers** in this category.
+**127 papers** in this category.
 
 ## Months
 
+- [2026-07](/locomotion/2026-07) (1 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -36,6 +37,25 @@
 ---
 
 ## Recent Papers
+
+## Coachable agents for interactive gameplay
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.00642)
+- **Authors:** Roberto Capobianco, Harm van Seijen, Nolan D. Bard, Neil Burch, Fatima Davelouis, Josh Davidson et al. (41 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Walking
+  - Foundation Model
+  - Data Augmentation
+  - Locomotion
+
+### Summary
+
+Reinforcement learning has proven to be a valuable tool in the creation of advanced AI and robotic systems, contributing to everything from game playing to robotics to foundation models. Through trial-and-error, these AI systems typically learn one, near-optimal behavior to solve their tasks.
+
+---
 
 ## Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot
 
@@ -437,27 +457,5 @@ Reinforcement learning has become the prevailing approach to humanoid locomotion
 ### Summary
 
 Achieving both anthropomorphic naturalness and robust terrain traversal remains a fundamental challenge in humanoid locomotion. Existing Reinforcement Learning (RL) approaches typically rely on fixed motion priors, limiting their adaptability to varying environments.
-
----
-
-## CoRe-MoE: Contrastive Reweighted Mixture of Experts for Multi-Terrain Humanoid Locomotion with Gait Adaptation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.04718)
-- **Authors:** Kailun Huang, Zikang Xie, Yanzhe Xie, Panpan Liao, Fanghai Zhang, Yanheng Mai et al. (10 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - Gait
-  - Walking
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Humans primarily rely on walking and running to traverse complex terrains. Similarly, humanoid robots should be able to smoothly transition between walking and running while maintaining natural and stable locomotion.
 
 ---

@@ -1,9 +1,10 @@
 # Simulation Benchmark
 
-**55 papers** in this category.
+**56 papers** in this category.
 
 ## Months
 
+- [2026-07](/simulation-benchmark/2026-07) (1 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -23,6 +24,22 @@
 ---
 
 ## Recent Papers
+
+## Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.01181)
+- **Authors:** Mehul Damani, Isha Puri, Idan Shenfeld, Jacob Andreas
+- **Published:** 2026-07
+- **Tags:**
+  - Human Demonstration
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current RLVR methods optimize only what can be objectively scored, often neglecting subjective, non-verifiable aspects of human-like outputs, such as style and structure.
+
+---
 
 ## 🌟 Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision
 
@@ -400,23 +417,5 @@ Flow matching has recently emerged as a powerful approach for imitation learning
 ### Summary
 
 Recent Vision-Language Models (VLMs) struggle with grounded reasoning, temporal consistency, and context aware planning in videos. We introduce pause-and-think-T, a reasoning-centric training dataset that encourages models to pause, reason over visual evidence, and produce concise, actionable responses.
-
----
-
-## Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.30928)
-- **Authors:** Usman Nizamani, M. Shaheer Luqman, Fawad Javed Fateh, Ali Shah Ali, Murad Popattia, M. Zeeshan Zia et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Human Demonstration
-  - Benchmark
-  - SAC
-  - Simulation Benchmark
-
-### Summary
-
-Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability.
 
 ---

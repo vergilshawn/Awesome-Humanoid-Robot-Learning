@@ -2,7 +2,7 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 668
+- **Total Papers:** 670
 - **Real Robot Papers:** 92
 - **Open Source Papers:** 136
 
@@ -13,12 +13,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (219)
 - [Manipulation](#manipulation) (77)
 - [Teleoperation](#teleoperation) (31)
-- [Locomotion](#locomotion) (126)
+- [Locomotion](#locomotion) (127)
 - [Navigation](#navigation) (24)
 - [State Estimation](#state-estimation) (29)
 - [Sim-to-Real](#sim-to-real) (12)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (55)
+- [Simulation Benchmark](#simulation-benchmark) (56)
 - [Physics-Based Character Animation](#physics-based-character-animation) (38)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (26)
 - [Usage](#usage)
@@ -27,9 +27,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Loco-Manipulation and Whole-Body Control
 
+### 2026-07
+
+- [Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles](https://arxiv.org/abs/2607.00855) — `Safety`, `Loco-Manipulation and Whole-Body Control`
+
 ### 2026-06
 
-- [Is Natural Always Appropriate? Investigating Naturalness and Appropriateness Across Different Domains for TTS Evaluation](https://arxiv.org/abs/2606.31729) — `Loco-Manipulation and Whole-Body Control`
 - [VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes](https://arxiv.org/abs/2606.30645) — `Sim-to-Real`, `Manipulation`, `Navigation`, `Humanoid`, `Gaussian Splatting`, `Vision-Language`
 - [ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control](https://arxiv.org/abs/2606.30362) — `Whole-Body Control`, `Zero-Shot`, `Humanoid`, `Foundation Model`, `Robust Control`, `Motion Planning`
 - [KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability](https://arxiv.org/abs/2606.30243) — `Reinforcement Learning`, `Whole-Body Control`, `Locomotion`, `Manipulation`, `Robustness`, `Loco-Manipulation and Whole-Body Control`
@@ -552,6 +555,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Locomotion
 
+### 2026-07
+
+- [Coachable agents for interactive gameplay](https://arxiv.org/abs/2607.00642) — `Reinforcement Learning`, `Humanoid`, `Walking`, `Foundation Model`, `Data Augmentation`, `Locomotion`
+
 ### 2026-06
 
 - [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — `Reinforcement Learning`, `Imitation Learning`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Gait`
@@ -1011,6 +1018,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - 🌟 [Quasi-Direct Drive for Low-Cost Compliant Robotic Manipulation](https://arxiv.org/abs/1904.03815), [website](https://berkeleyopenarms.github.io/) — `Manipulation`, `Hardware Design`, `Open Source`
 
 ## Simulation Benchmark
+
+### 2026-07
+
+- [Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations](https://arxiv.org/abs/2607.01181) — `Human Demonstration`, `Benchmark`, `Simulation Benchmark`
 
 ### 2026-06
 

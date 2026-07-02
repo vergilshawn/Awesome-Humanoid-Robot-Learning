@@ -1,5 +1,127 @@
 [
   {
+    "arxiv_id": "2607.01181",
+    "title": "Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations",
+    "paper_url": "https://arxiv.org/abs/2607.01181",
+    "project_url": null,
+    "authors": [
+      "Mehul Damani",
+      "Isha Puri",
+      "Idan Shenfeld",
+      "Jacob Andreas"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-01",
+    "abstract": "RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current RLVR methods optimize only what can be objectively scored, often neglecting subjective, non-verifiable aspects of human-like outputs, such as style and structure. This limitation leads to well-documented failure modes such as diversity collapse, unnatural-sounding responses, and reward hacking. We propose an adversarial generator-discriminator framework that augments verifiable rewards with a learned signal from human demonstrations. A generator model is trained using RL to maximize both task accuracy and an adversarial reward derived from a discriminator. The discriminator, trained alongside the generator policy, learns to distinguish human-written outputs from model-generated ones. The discriminator serves as a learned proxy for the human output distribution, providing feedback on aspects of generation that are difficult to formalize as scalar rewards. Across diverse domains, including bug fixing and open-ended generation, our approach consistently improves non-verifiable properties while preserving the accuracy gains of RLVR. In bug fixing, our method produces solutions with significantly lower edit distance compared to RLVR baselines while matching end performance. In story generation, our method significantly improves win rate while producing stories that are diverse and more human-like. And in a simple reward hacking benchmark, our method nearly eliminates model misbehavior while maintaining high benchmark scores. Together, these results show that our approach bridges RL and SFT, offering a scalable path toward jointly optimizing the verifiable and non-verifiable properties of a task.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Human Demonstration",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2607.00855",
+    "title": "Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles",
+    "paper_url": "https://arxiv.org/abs/2607.00855",
+    "project_url": null,
+    "authors": [
+      "Lukas Köning",
+      "Nataša Miličić",
+      "Klaus Bogenberger"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-01",
+    "abstract": "Traffic complexity critically influences driver task demands in partially automated vehicles, yet subjective perception and its behavioral indicators remain underexplored in real-world settings. This paper analyzes driver behavior - vehicle interaction, glance patterns, and guiding fixation - across varying levels of subjective traffic complexity, using real-world data from 20 drivers in real urban traffic. Traffic complexity was determined by expert labeling and served as ground truth for vehicle data. Statistical analysis of 16 driver behavior metrics revealed small but significant trends with increasing complexity: deviation from speed limit increased, brake rate increased while braking intensity decreased, horizontal gaze dispersion and entropy widened, and guiding fixation rate decreased, indicating defensive adaptation and perceptual shifts. Contributions include real-world validation of gaze metrics and guiding fixation under subjective complexity, novel insights from gaze and guiding fixation entropy metrics, and the identification of promising indicators~(driven speed, brake rate, gaze yaw entropy, guiding fixation rate) for complexity-adaptive partially automated vehicles. While based on a limited urban sample and expert-labeled subjective complexity, the findings provide a foundation for combined complexity scores and their integration into complexity-adaptive, partially automated vehicles, boosting human-like automation and enhancing safety and predictability in the traffic system.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Safety",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.00642",
+    "title": "Coachable agents for interactive gameplay",
+    "paper_url": "https://arxiv.org/abs/2607.00642",
+    "project_url": null,
+    "authors": [
+      "Roberto Capobianco",
+      "Harm van Seijen",
+      "Nolan D. Bard",
+      "Neil Burch",
+      "Fatima Davelouis",
+      "Josh Davidson",
+      "Alisa Devlic",
+      "Yunshu Du",
+      "Ishan Durugkar",
+      "Siddhant Gangapurwala",
+      "Daniel Hernandez",
+      "G. Zacharias Holland",
+      "Sahil Jain",
+      "Kenta Kawamoto",
+      "Raksha Kumaraswamy",
+      "Patrick MacAlpine",
+      "Dustin R. Morrill",
+      "Declan Oller",
+      "Francesco Riccio",
+      "Akanksha Saran",
+      "Craig Sherstan",
+      "Kaushik Subramanian",
+      "Thomas J. Walsh",
+      "Samuel Barrett",
+      "Kizza N. Frisbee",
+      "Mady Govil",
+      "Johannes Günther",
+      "Varun R. Kompella",
+      "James A. MacGlashan",
+      "Maxwell Svetlik",
+      "Michael D. Thomure",
+      "Jaden B. Travnik",
+      "Kevin Waugh",
+      "Elahe Aghapour",
+      "Florian Fuchs",
+      "Andreanne Lemay",
+      "Shruti Mishra",
+      "Takuma Seno",
+      "Peter Stone",
+      "Michael Spranger",
+      "Peter R. Wurman"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-01",
+    "abstract": "Reinforcement learning has proven to be a valuable tool in the creation of advanced AI and robotic systems, contributing to everything from game playing to robotics to foundation models. Through trial-and-error, these AI systems typically learn one, near-optimal behavior to solve their tasks. However, there are many use cases in which one would like to assert some level of control, preferably in real time, over how the task is solved. We refer to these modifications of a core task as styles. We combine universal value function approximators (UVFAs) with carefully selected training scenarios, learning algorithms, and data augmentation to create a framework for coaching agents that exhibit styles in complex domains. We demonstrate the framework's application in the AAA video games Horizon Forbidden West and Gran Turismo, and in an open-source humanoid test domain. Despite the different nature of the domains -- car racing, stylized game combat, and humanoid walking -- each agent shows strong coherence to the style requests while still satisfying the main task in its domain. Importantly, the techniques outlined in this paper allow an end user to choose the final behavior at run time, giving them flexible control over the final executed performance.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Walking",
+      "Foundation Model",
+      "Data Augmentation",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2606.32009",
     "title": "Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments",
     "paper_url": "https://arxiv.org/abs/2606.32009",
@@ -181,13 +303,13 @@
       "Zhao Jin",
       "Tao Li",
       "Yuheng Zhang",
-      "Zhengping Che",
-      "Jian Tang",
       "Zhichao Wang",
       "Shuo Wang",
       "Jun Jiang",
       "Xiaobo Li",
       "Yanyong Zhang",
+      "Jian Tang",
+      "Zhengping Che",
       "Yan Xia"
     ],
     "published": "2026-06",
@@ -212,33 +334,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Manipulation"
-  },
-  {
-    "arxiv_id": "2606.31729",
-    "title": "Is Natural Always Appropriate? Investigating Naturalness and Appropriateness Across Different Domains for TTS Evaluation",
-    "paper_url": "https://arxiv.org/abs/2606.31729",
-    "project_url": null,
-    "authors": [
-      "Dominika Woszczyk",
-      "Andreas Triantafyllopoulos",
-      "Jura Miniota",
-      "Éva Székely",
-      "Bjoern Schuller"
-    ],
-    "published": "2026-06",
-    "published_date": "2026-06-30",
-    "abstract": "Text-to-speech (TTS) evaluation is an open challenge. While the primary target was \"naturalness,\" recent fidelity gains shifted focus toward \"appropriateness\" and whether speech is correct for its context. In this work, we examine how perception changes when the expected downstream use varies. We measure the appropriateness and human-likeness of five SOTA TTS systems across five domains: AI assistant, reader, actor, animated character, and spontaneous speaker. Results show appropriateness varies across domains independently of naturalness. While systems shine at reading, expressive domains remain challenging, and optimizing for one can degrade others. Furthermore, naturalness scores tend to penalize stylized speech while rewarding spontaneity. Finally, our study also highlights blind spots in one-size-fits-all evaluation metrics across more expressive domains. We demonstrate that TTS performance is not \"solved\" but depends on the target domain, requiring context-aware evaluation.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "tags": [
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
     "arxiv_id": "2606.30645",

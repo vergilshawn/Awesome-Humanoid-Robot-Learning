@@ -78,7 +78,7 @@ In the field of robot learning, large-scale and diverse demonstration trajectori
 ## Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.31037)
-- **Authors:** Yuhan Wu, Zhao Jin, Tao Li, Yuheng Zhang, Zhengping Che, Jian Tang et al. (12 authors)
+- **Authors:** Yuhan Wu, Zhao Jin, Tao Li, Yuheng Zhang, Zhichao Wang, Shuo Wang et al. (12 authors)
 - **Published:** 2026-06
 - **Tags:**
   - Manipulation
