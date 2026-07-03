@@ -7,7 +7,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 5 papers
-- **Figure:** 28 papers
+- **Figure:** 27 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 46 papers
 - **Unknown Platform:** 6 papers
@@ -16,24 +16,6 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
-
-## ESC: Emotional Self-Correction for Reliable Vision-Language Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.02089)
-- **Authors:** Tien-Huy Nguyen, Minh-Nhat Nguyen, Nguyen Nhat Huy, Hung Viet Nguyen, Huy Nguyen Minh Nhat, Thanh-Huy Nguyen et al. (12 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Safety
-  - Vision-Language
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, yet they remain vulnerable to unreliable reasoning. Existing self-correction methods mitigate these issues but typically rely on post-training or carefully engineered feedback, incurring high computational cost.
-
----
 
 ## Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments
 

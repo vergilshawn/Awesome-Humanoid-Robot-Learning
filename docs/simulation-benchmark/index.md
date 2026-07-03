@@ -1,10 +1,9 @@
 # Simulation Benchmark
 
-**56 papers** in this category.
+**55 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (1 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -24,24 +23,6 @@
 ---
 
 ## Recent Papers
-
-## ESC: Emotional Self-Correction for Reliable Vision-Language Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.02089)
-- **Authors:** Tien-Huy Nguyen, Minh-Nhat Nguyen, Nguyen Nhat Huy, Hung Viet Nguyen, Huy Nguyen Minh Nhat, Thanh-Huy Nguyen et al. (12 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Safety
-  - Vision-Language
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, yet they remain vulnerable to unreliable reasoning. Existing self-correction methods mitigate these issues but typically rely on post-training or carefully engineered feedback, incurring high computational cost.
-
----
 
 ## 🌟 Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision
 
@@ -419,5 +400,23 @@ Flow matching has recently emerged as a powerful approach for imitation learning
 ### Summary
 
 Recent Vision-Language Models (VLMs) struggle with grounded reasoning, temporal consistency, and context aware planning in videos. We introduce pause-and-think-T, a reasoning-centric training dataset that encourages models to pause, reason over visual evidence, and produce concise, actionable responses.
+
+---
+
+## Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.30928)
+- **Authors:** Usman Nizamani, M. Shaheer Luqman, Fawad Javed Fateh, Ali Shah Ali, Murad Popattia, M. Zeeshan Zia et al. (7 authors)
+- **Published:** 2026-05
+- **Tags:**
+  - Reinforcement Learning
+  - Human Demonstration
+  - Benchmark
+  - SAC
+  - Simulation Benchmark
+
+### Summary
+
+Human-like agents are a long-standing goal of artificial intelligence. Despite strong performance, most reinforcement learning (RL) agents remain reward-driven and often exhibit behaviors that differ from humans, limiting interpretability and reliability.
 
 ---

@@ -39,24 +39,6 @@ This paper presents a novel layered planning and control framework based on mult
 
 ---
 
-## ESC: Emotional Self-Correction for Reliable Vision-Language Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.02089)
-- **Authors:** Tien-Huy Nguyen, Minh-Nhat Nguyen, Nguyen Nhat Huy, Hung Viet Nguyen, Huy Nguyen Minh Nhat, Thanh-Huy Nguyen et al. (12 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Safety
-  - Vision-Language
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, yet they remain vulnerable to unreliable reasoning. Existing self-correction methods mitigate these issues but typically rely on post-training or carefully engineered feedback, incurring high computational cost.
-
----
-
 ## Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.00855)

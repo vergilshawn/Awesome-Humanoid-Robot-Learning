@@ -700,16 +700,12 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (56)",
+            "text": "Simulation Benchmark (55)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/simulation-benchmark/"
-                  },
-                  {
-                        "text": "2026-07",
-                        "link": "/simulation-benchmark/2026-07"
                   },
                   {
                         "text": "2026-06",
