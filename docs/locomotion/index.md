@@ -1,10 +1,10 @@
 # Locomotion
 
-**127 papers** in this category.
+**128 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (1 papers)
+- [2026-07](/locomotion/2026-07) (2 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,27 @@
 ---
 
 ## Recent Papers
+
+## Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.01574)
+- **Authors:** Taizoon Chunawala, Jeeseop Kim, Kaveh Akbari Hamed
+- **Published:** 2026-07
+- **Tags:**
+  - MPC
+  - Whole-Body Control
+  - Locomotion
+  - Biped
+  - Trajectory Optimization
+  - Optimal Control
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This paper presents a novel layered planning and control framework based on multi-rate nonlinear model predictive control (MR-NMPC) that enables quadrupedal robots to perform hybrid bipedal locomotion with wall-assisted support in constrained environments. Real-time trajectory optimization for this locomotion presents significant challenges, as the controller must simultaneously plan for both the contact points and the continuous trajectories of the robot's center of mass (CoM) and orientation within the robot's nonlinear dynamics while accounting for unilateral contact constraints, underactuation, and the switching nature of the robot's dynamics.
+
+---
 
 ## Coachable agents for interactive gameplay
 
@@ -439,23 +460,5 @@ Enabling humanoid robots to operate in complex, dynamic environments remains a c
 ### Summary
 
 Reinforcement learning has become the prevailing approach to humanoid locomotion control: policies transfer reliably from simulation to hardware and recover gracefully from disturbances.   Motion quality, however, still lags behind: task-only rewards often converge to stiff, asymmetric gaits, while motion imitation methods improve appearance but become more sensitive to external disturbances because reference signals can oppose the transient poses needed to regain balance.
-
----
-
-## T-GMP: Terrain-conditioned Generative Motion Priors for Versatile and Natural Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.06944)
-- **Authors:** Junhong Guo, Hao Hu, Chen Chen, Haoxuan Han, Linao Gong, Xin Yang et al. (9 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — NAO
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - VAE
-
-### Summary
-
-Achieving both anthropomorphic naturalness and robust terrain traversal remains a fundamental challenge in humanoid locomotion. Existing Reinforcement Learning (RL) approaches typically rely on fixed motion priors, limiting their adaptability to varying environments.
 
 ---

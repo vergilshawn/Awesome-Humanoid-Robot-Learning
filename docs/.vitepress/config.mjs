@@ -272,12 +272,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (31)",
+            "text": "Teleoperation (32)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/teleoperation/"
+                  },
+                  {
+                        "text": "2026-07",
+                        "link": "/teleoperation/2026-07"
                   },
                   {
                         "text": "2026-06",
@@ -338,7 +342,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (127)",
+            "text": "Locomotion (128)",
             "collapsed": true,
             "items": [
                   {

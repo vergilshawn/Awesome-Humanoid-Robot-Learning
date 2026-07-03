@@ -2,19 +2,58 @@
 
 All papers sorted by publication date (newest first).
 
-## Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations
+## HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.01181)
-- **Authors:** Mehul Damani, Isha Puri, Idan Shenfeld, Jacob Andreas
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.02332)
+- **Authors:** Chenxin Liu, Qingzhou Lu, Guangxiao Yang, Xuanyang Shi, Chenghan Yang, Yanjiang Guo et al. (7 authors)
 - **Published:** 2026-07
 - **Tags:**
-  - Human Demonstration
+  - Teleoperation
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+General motion tracking and teleoperation offer a promising path to scalable humanoid skill acquisition, yet most existing frameworks are validated on compact platforms or without real payload interaction, leaving full-size humanoids with real payloads largely unexplored. Scaling to full-size humanoids introduces two compounding challenges: their larger inertia and tighter balance margins make tracking highly sensitive to noise, drift, and retargeting errors from commodity VR trackers, while their payload potential remains largely underutilized.
+
+---
+
+## Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.01574)
+- **Authors:** Taizoon Chunawala, Jeeseop Kim, Kaveh Akbari Hamed
+- **Published:** 2026-07
+- **Tags:**
+  - MPC
+  - Whole-Body Control
+  - Locomotion
+  - Biped
+  - Trajectory Optimization
+  - Optimal Control
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This paper presents a novel layered planning and control framework based on multi-rate nonlinear model predictive control (MR-NMPC) that enables quadrupedal robots to perform hybrid bipedal locomotion with wall-assisted support in constrained environments. Real-time trajectory optimization for this locomotion presents significant challenges, as the controller must simultaneously plan for both the contact points and the continuous trajectories of the robot's center of mass (CoM) and orientation within the robot's nonlinear dynamics while accounting for unilateral contact constraints, underactuation, and the switching nature of the robot's dynamics.
+
+---
+
+## ESC: Emotional Self-Correction for Reliable Vision-Language Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.02089)
+- **Authors:** Tien-Huy Nguyen, Minh-Nhat Nguyen, Nguyen Nhat Huy, Hung Viet Nguyen, Huy Nguyen Minh Nhat, Thanh-Huy Nguyen et al. (12 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Safety
+  - Vision-Language
   - Benchmark
   - Simulation Benchmark
 
 ### Summary
 
-RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current RLVR methods optimize only what can be objectively scored, often neglecting subjective, non-verifiable aspects of human-like outputs, such as style and structure.
+Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, yet they remain vulnerable to unreliable reasoning. Existing self-correction methods mitigate these issues but typically rely on post-training or carefully engineered feedback, incurring high computational cost.
 
 ---
 

@@ -1,9 +1,10 @@
 # Teleoperation
 
-**31 papers** in this category.
+**32 papers** in this category.
 
 ## Months
 
+- [2026-07](/teleoperation/2026-07) (1 papers)
 - [2026-06](/teleoperation/2026-06) (9 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
@@ -22,6 +23,22 @@
 ---
 
 ## Recent Papers
+
+## HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.02332)
+- **Authors:** Chenxin Liu, Qingzhou Lu, Guangxiao Yang, Xuanyang Shi, Chenghan Yang, Yanjiang Guo et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+General motion tracking and teleoperation offer a promising path to scalable humanoid skill acquisition, yet most existing frameworks are validated on compact platforms or without real payload interaction, leaving full-size humanoids with real payloads largely unexplored. Scaling to full-size humanoids introduces two compounding challenges: their larger inertia and tighter balance margins make tracking highly sensitive to noise, drift, and retargeting errors from commodity VR trackers, while their payload potential remains largely underutilized.
+
+---
 
 ## X-Morph: Human Motion Priors for Scalable Robot Learning Across Morphologies
 
@@ -360,20 +377,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Teleoperation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## LapSurgie: Humanoid Robots Performing Surgery via Teleoperated Handheld Laparoscopy
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.03529)
-- **Published:** 2025-10
-- **Tags:**
-  - Humanoid
-  - Teleoperation
 
 ### Summary
 

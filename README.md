@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 670
-- **Real Robot Papers:** 92
+- **Total Papers:** 672
+- **Real Robot Papers:** 93
 - **Open Source Papers:** 136
 
 🌟 indicates papers with detected project/code links.
@@ -12,8 +12,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (219)
 - [Manipulation](#manipulation) (77)
-- [Teleoperation](#teleoperation) (31)
-- [Locomotion](#locomotion) (127)
+- [Teleoperation](#teleoperation) (32)
+- [Locomotion](#locomotion) (128)
 - [Navigation](#navigation) (24)
 - [State Estimation](#state-estimation) (29)
 - [Sim-to-Real](#sim-to-real) (12)
@@ -480,6 +480,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Teleoperation
 
+### 2026-07
+
+- [HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum](https://arxiv.org/abs/2607.02332) — `Teleoperation`, `Locomotion`, `Humanoid`
+
 ### 2026-06
 
 - [X-Morph: Human Motion Priors for Scalable Robot Learning Across Morphologies](https://arxiv.org/abs/2606.30290) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `PPO`, `Physics-Based Character Animation`
@@ -557,6 +561,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — `MPC`, `Whole-Body Control`, `Locomotion`, `Biped`, `Trajectory Optimization`, `Optimal Control`
 - [Coachable agents for interactive gameplay](https://arxiv.org/abs/2607.00642) — `Reinforcement Learning`, `Humanoid`, `Walking`, `Foundation Model`, `Data Augmentation`, `Locomotion`
 
 ### 2026-06
@@ -1021,7 +1026,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
-- [Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations](https://arxiv.org/abs/2607.01181) — `Human Demonstration`, `Benchmark`, `Simulation Benchmark`
+- [ESC: Emotional Self-Correction for Reliable Vision-Language Models](https://arxiv.org/abs/2607.02089) — `Safety`, `Vision-Language`, `Benchmark`, `Simulation Benchmark`, `Real Robot`
 
 ### 2026-06
 

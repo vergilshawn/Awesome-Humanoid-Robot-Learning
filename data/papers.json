@@ -1,29 +1,107 @@
 [
   {
-    "arxiv_id": "2607.01181",
-    "title": "Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations",
-    "paper_url": "https://arxiv.org/abs/2607.01181",
+    "arxiv_id": "2607.02332",
+    "title": "HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum",
+    "paper_url": "https://arxiv.org/abs/2607.02332",
     "project_url": null,
     "authors": [
-      "Mehul Damani",
-      "Isha Puri",
-      "Idan Shenfeld",
-      "Jacob Andreas"
+      "Chenxin Liu",
+      "Qingzhou Lu",
+      "Guangxiao Yang",
+      "Xuanyang Shi",
+      "Chenghan Yang",
+      "Yanjiang Guo",
+      "Jianyu Chen"
     ],
     "published": "2026-07",
-    "published_date": "2026-07-01",
-    "abstract": "RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current RLVR methods optimize only what can be objectively scored, often neglecting subjective, non-verifiable aspects of human-like outputs, such as style and structure. This limitation leads to well-documented failure modes such as diversity collapse, unnatural-sounding responses, and reward hacking. We propose an adversarial generator-discriminator framework that augments verifiable rewards with a learned signal from human demonstrations. A generator model is trained using RL to maximize both task accuracy and an adversarial reward derived from a discriminator. The discriminator, trained alongside the generator policy, learns to distinguish human-written outputs from model-generated ones. The discriminator serves as a learned proxy for the human output distribution, providing feedback on aspects of generation that are difficult to formalize as scalar rewards. Across diverse domains, including bug fixing and open-ended generation, our approach consistently improves non-verifiable properties while preserving the accuracy gains of RLVR. In bug fixing, our method produces solutions with significantly lower edit distance compared to RLVR baselines while matching end performance. In story generation, our method significantly improves win rate while producing stories that are diverse and more human-like. And in a simple reward hacking benchmark, our method nearly eliminates model misbehavior while maintaining high benchmark scores. Together, these results show that our approach bridges RL and SFT, offering a scalable path toward jointly optimizing the verifiable and non-verifiable properties of a task.",
+    "published_date": "2026-07-02",
+    "abstract": "General motion tracking and teleoperation offer a promising path to scalable humanoid skill acquisition, yet most existing frameworks are validated on compact platforms or without real payload interaction, leaving full-size humanoids with real payloads largely unexplored. Scaling to full-size humanoids introduces two compounding challenges: their larger inertia and tighter balance margins make tracking highly sensitive to noise, drift, and retargeting errors from commodity VR trackers, while their payload potential remains largely underutilized. We present HEFT, a heavy-payload full-size humanoid teleoperation framework that addresses both challenges. HEFT learns from deployable noisy VR references with physically plausible reconstructed references through Privileged Motion Guidance (PMG), and uses a Windowed Payload Curriculum (WPC) with expert-guided payload caps to acquire robust heavy-payload tracking. We deploy HEFT on L7, a 175cm, 65kg humanoid. The robot tracks motions including turns, forward/backward locomotion, and squats under payloads up to 24kg.",
     "categories": [
+      "Teleoperation",
+      "Locomotion"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Locomotion",
+      "Humanoid"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2607.01574",
+    "title": "Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots",
+    "paper_url": "https://arxiv.org/abs/2607.01574",
+    "project_url": null,
+    "authors": [
+      "Taizoon Chunawala",
+      "Jeeseop Kim",
+      "Kaveh Akbari Hamed"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-02",
+    "abstract": "This paper presents a novel layered planning and control framework based on multi-rate nonlinear model predictive control (MR-NMPC) that enables quadrupedal robots to perform hybrid bipedal locomotion with wall-assisted support in constrained environments. Real-time trajectory optimization for this locomotion presents significant challenges, as the controller must simultaneously plan for both the contact points and the continuous trajectories of the robot's center of mass (CoM) and orientation within the robot's nonlinear dynamics while accounting for unilateral contact constraints, underactuation, and the switching nature of the robot's dynamics. At the high level of the control framework, an MR-NMPC is proposed, which dynamically plans both the discrete-time trajectories of the contact points and the continuous-time trajectories of the CoM and orientation, using a single rigid body (SRB) dynamics model. By incorporating contact-point planning within the multi-rate optimal control framework, this approach enhances dynamic stability compared to heuristic foot placement strategies. At the low level of the control framework, a nonlinear whole-body controller (WBC) based on virtual constraints and a quadratic program enforces full-order dynamics and tracks the MR-NMPC references. The proposed approach is validated through extensive numerical simulations demonstrating the robust wall-assisted bipedal locomotion of a Unitree A1 quadrupedal robot on rough terrains and under external disturbances in a constrained environment. Comparative analysis shows that the proposed MR-NMPC achieves a 2.9 times higher success rate compared to conventional MPC with heuristic-based foot placement strategies in negotiating irregular terrain at high speeds.",
+    "categories": [
+      "Locomotion",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
       "Simulation Benchmark"
     ],
     "tags": [
-      "Human Demonstration",
-      "Benchmark",
+      "MPC",
+      "Whole-Body Control",
+      "Locomotion",
+      "Biped",
+      "Trajectory Optimization",
+      "Optimal Control",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
       "Simulation Benchmark"
     ],
     "real_robot": false,
     "open_source": false,
     "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.02089",
+    "title": "ESC: Emotional Self-Correction for Reliable Vision-Language Models",
+    "paper_url": "https://arxiv.org/abs/2607.02089",
+    "project_url": null,
+    "authors": [
+      "Tien-Huy Nguyen",
+      "Minh-Nhat Nguyen",
+      "Nguyen Nhat Huy",
+      "Hung Viet Nguyen",
+      "Huy Nguyen Minh Nhat",
+      "Thanh-Huy Nguyen",
+      "Cuong Tuan Nguyen",
+      "Hoang M. Le",
+      "Dat Nguyen",
+      "Phat Kim Huynh",
+      "Min Xu",
+      "Ulas Bagci"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-01",
+    "abstract": "Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, yet they remain vulnerable to unreliable reasoning. Existing self-correction methods mitigate these issues but typically rely on post-training or carefully engineered feedback, incurring high computational cost. In this work, we revisit this challenge through the lens of emotional cues, asking whether they can activate latent self-correction behaviors in VLMs without additional training. \\textbf{We find that emotional signals serve as an effective trigger for self-correction, encouraging more cautious and reflective reasoning}. Motivated by this finding, we propose \\escabstract (\\textbf{\\underline{E}}motional \\textbf{\\underline{S}}elf-\\textbf{\\underline{C}}orrection), a training-free self-correction framework. ESC introduces an external verifier that detects potentially incorrect initial responses and injects emotional feedback to encourage model to reflect, and produce a better revised response without additional training. Extensive experiments across safety, hallucination, vision-centric perception, and multimodal reasoning benchmarks show that ESC consistently improves reliability while preserving overall model utility. These results suggest that emotion can function not only as an ability to be recognized, but also as a practical control signal for scalable self-correction in VLMs. \\textbf{We therefore believe that ESC provides a strong foundation for a new reliable human-like, emotion-integrated research direction.} Our project is publicly available at \\textcolor{red}{https://genai4e.github.io/ESC/}.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Safety",
+      "Vision-Language",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
     "summary": "",
     "primary_category": "Simulation Benchmark"
   },
