@@ -8,8 +8,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 671
-- **Real Robot Papers:** 92
+- **Total Papers:** 673
+- **Real Robot Papers:** 93
 - **Open Source Papers:** 136
 - **Latest Month:** 2026-07
 
@@ -23,7 +23,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [State Estimation](/state-estimation/) (29)
 - [Sim-to-Real](/sim-to-real/) (12)
 - [Hardware Design](/hardware-design/) (31)
-- [Simulation Benchmark](/simulation-benchmark/) (55)
+- [Simulation Benchmark](/simulation-benchmark/) (57)
 - [Physics-Based Character Animation](/physics-based-character-animation/) (38)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (26)
 
@@ -35,6 +35,10 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Teleoperation](/teleoperation/)
 -  [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — 2026-07
   - [Locomotion](/locomotion/)
+-  [Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations](https://arxiv.org/abs/2607.01181) — 2026-07
+  - [Simulation Benchmark](/simulation-benchmark/)
+-  🤖 [ESC: Emotional Self-Correction for Reliable Vision-Language Models](https://arxiv.org/abs/2607.02089) — 2026-07
+  - [Simulation Benchmark](/simulation-benchmark/)
 -  [Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles](https://arxiv.org/abs/2607.00855) — 2026-07
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [Coachable agents for interactive gameplay](https://arxiv.org/abs/2607.00642) — 2026-07
@@ -47,10 +51,6 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Locomotion](/locomotion/)
 - 🌟 🤖 [FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion](https://arxiv.org/abs/2606.31691) — 2026-06
   - [Locomotion](/locomotion/)
--  [Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory](https://arxiv.org/abs/2606.31037) — 2026-06
-  - [Manipulation](/manipulation/)
--  🤖 [VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes](https://arxiv.org/abs/2606.30645) — 2026-06
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 
 ---
 
@@ -60,28 +60,28 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Loco-Manipulation and Whole-Body Control** (247)
 - **Locomotion** (177)
 - **Manipulation** (173)
-- **Simulation Benchmark** (131)
+- **Simulation Benchmark** (133)
 - **State Estimation** (106)
 - **Physics-Based Character Animation** (81)
 - **Reinforcement Learning** (76)
 - **Human Motion Analysis and Synthesis** (60)
 - **Teleoperation** (57)
 - **Whole-Body Control** (55)
-- **Benchmark** (50)
+- **Benchmark** (52)
 - **PPO** (48)
 - **Navigation** (46)
 - **Dataset** (42)
 - **Hardware Design** (38)
 - **Diffusion** (34)
 - **Sim-to-Real** (32)
-- **Vision-Language** (30)
+- **Vision-Language** (31)
 - **Zero-Shot** (25)
-- **Safety** (22)
+- **Safety** (23)
 - **Biped** (21)
 - **Foundation Model** (21)
+- **Human Demonstration** (20)
 - **Walking** (20)
 - **Distillation** (20)
-- **Human Demonstration** (19)
 - **Robustness** (19)
 - **Imitation Learning** (16)
 - **Gait** (15)
@@ -1089,6 +1089,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 - 🌟 [Quasi-Direct Drive for Low-Cost Compliant Robotic Manipulation](https://arxiv.org/abs/1904.03815), [website](https://berkeleyopenarms.github.io/) — `Manipulation`, `Hardware Design`, `Open Source`
 
 ### [Simulation Benchmark](/simulation-benchmark/)
+
+#### [2026-07](/simulation-benchmark/2026-07)
+
+- [Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations](https://arxiv.org/abs/2607.01181) — `Human Demonstration`, `Benchmark`, `Simulation Benchmark`
+- [ESC: Emotional Self-Correction for Reliable Vision-Language Models](https://arxiv.org/abs/2607.02089) — `Safety`, `Vision-Language`, `Benchmark`, `Simulation Benchmark`, `Real Robot`
 
 #### [2026-06](/simulation-benchmark/2026-06)
 

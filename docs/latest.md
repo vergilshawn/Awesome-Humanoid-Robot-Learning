@@ -39,6 +39,40 @@ This paper presents a novel layered planning and control framework based on mult
 
 ---
 
+## Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.01181)
+- **Authors:** Mehul Damani, Isha Puri, Idan Shenfeld, Jacob Andreas
+- **Published:** 2026-07
+- **Tags:**
+  - Human Demonstration
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current RLVR methods optimize only what can be objectively scored, often neglecting subjective, non-verifiable aspects of human-like outputs, such as style and structure.
+
+---
+
+## ESC: Emotional Self-Correction for Reliable Vision-Language Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.02089)
+- **Authors:** Tien-Huy Nguyen, Minh-Nhat Nguyen, Nguyen Nhat Huy, Hung Viet Nguyen, Huy Nguyen Minh Nhat, Thanh-Huy Nguyen et al. (12 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Safety
+  - Vision-Language
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, yet they remain vulnerable to unreliable reasoning. Existing self-correction methods mitigate these issues but typically rely on post-training or carefully engineered feedback, incurring high computational cost.
+
+---
+
 ## Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.00855)
