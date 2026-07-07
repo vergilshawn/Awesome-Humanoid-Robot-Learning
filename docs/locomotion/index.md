@@ -1,10 +1,10 @@
 # Locomotion
 
-**128 papers** in this category.
+**129 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (2 papers)
+- [2026-07](/locomotion/2026-07) (3 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,27 @@
 ---
 
 ## Recent Papers
+
+## ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.03454)
+- **Authors:** Seokju Lee, Jeongtae Lee, Jeonghyeok Lim, Jeonguk Kang, Byungwook Lee, Seungho Han et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Trajectory Optimization
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+In this paper, we propose Adversarial Dynamics Priors (ADP) for perturbation-resilient humanoid locomotion control. Existing motion prior-based methods induce natural motion styles by imitating kinematic motion features, but they do not directly regularize dynamics features, such as CoM motion, centroidal momentum, contact forces, and contact states.
+
+---
 
 ## Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots
 
@@ -439,26 +460,5 @@ Dense sampling records what an animation system actually evaluated, but it produ
 ### Summary
 
 Enabling humanoid robots to operate in complex, dynamic environments remains a critical challenge, fundamentally limited by the ability to navigate robustly, safely, and accurately. While reinforcement learning with velocity-commanded policies has achieved remarkable robustness in humanoid locomotion, this approach lacks explicit control of the foothold placement, leading to unsafe behavior, such as stepping onto human feet, or imprecise navigation, hindering the following manipulation task.
-
----
-
-## Predictive Style Matching: Natural and Robust Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.07083)
-- **Authors:** Simeon Nedelchev, Ekaterina Chaikovskaia, Egor Davydenko, Eduard Zaliaev, Roman Gorbachev
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Gait
-  - PPO
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Reinforcement learning has become the prevailing approach to humanoid locomotion control: policies transfer reliably from simulation to hardware and recover gracefully from disturbances.   Motion quality, however, still lags behind: task-only rewards often converge to stiff, asymmetric gaits, while motion imitation methods improve appearance but become more sensitive to external disturbances because reference signals can oppose the transient poses needed to regain balance.
 
 ---

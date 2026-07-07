@@ -2,6 +2,104 @@
 
 All papers sorted by publication date (newest first).
 
+## Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.04940)
+- **Authors:** Zhe Zhao, Zhibin Li, Yilin Ou, Mengshi Qi
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Fine-tuning
+  - Actor-Critic
+  - PPO
+  - Navigation
+
+### Summary
+
+Human-like dexterous hands with multiple fingers offer human-level manipulation capabilities but remain difficult to train the control policies that can deploy on real hardware due to contact-rich physics and imperfect actuation. We present a sim-to-real reinforcement learning method that leverages dense tactile feedback combined with joint torque sensing to explicitly regulate physical interactions.
+
+---
+
+## Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.04837)
+- **Authors:** Yuan Jiang, Ningyuan Zhang, Xicun Yang, Shidi Li, Yuzhi Jiang, Zhiyi Rong et al. (9 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Fine-tuning
+  - Distillation
+  - DAgger
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Large-scale humanoid motion-tracking controllers are commonly improved by reallocating training effort: difficult motions are sampled more often, isolated into smaller subsets, or assigned to specialized experts. We show that this view is incomplete.
+
+---
+
+## 🌟 SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.04119)
+- **Project:** [GitHub](https://github.com/lukephong/sov-cad)
+- **Authors:** Zhaopeng Feng, Chen Zhi, Xuhong Zhang, Zhengwen Feng, Xinkui Zhao
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Transformer
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Reconstructing Computer-Aided Design (CAD) modeling sequences from images is crucial for preserving design intent and supporting parametric editing. However, existing methods typically generate full CAD sequences holistically, overlooking the iterative, feedback-driven nature of human design workflows.
+
+---
+
+## ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.03828)
+- **Authors:** Yuanchuan Lai, Qing Gao, Ziyan Liang, Junjie Hu, Zhaojie Ju
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Motion Retargeting
+  - Manipulation
+  - Real Robot
+  - Teleoperation
+
+### Summary
+
+Learning robot dexterous manipulation from human manipulation videos requires reliably retargeting human intent to executable robot actions while maintaining stable hand-object contact, which remains a key challenge in embodied intelligence. Existing retargeting methods often ignore explicit contact modeling or rely on reinforcement learning, resulting in limited accuracy and generalization.
+
+---
+
+## ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.03454)
+- **Authors:** Seokju Lee, Jeongtae Lee, Jeonghyeok Lim, Jeonguk Kang, Byungwook Lee, Seungho Han et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Trajectory Optimization
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+In this paper, we propose Adversarial Dynamics Priors (ADP) for perturbation-resilient humanoid locomotion control. Existing motion prior-based methods induce natural motion styles by imitating kinematic motion features, but they do not directly regularize dynamics features, such as CoM motion, centroidal momentum, contact forces, and contact states.
+
+---
+
 ## HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.02332)
@@ -36,6 +134,25 @@ General motion tracking and teleoperation offer a promising path to scalable hum
 ### Summary
 
 This paper presents a novel layered planning and control framework based on multi-rate nonlinear model predictive control (MR-NMPC) that enables quadrupedal robots to perform hybrid bipedal locomotion with wall-assisted support in constrained environments. Real-time trajectory optimization for this locomotion presents significant challenges, as the controller must simultaneously plan for both the contact points and the continuous trajectories of the robot's center of mass (CoM) and orientation within the robot's nonlinear dynamics while accounting for unilateral contact constraints, underactuation, and the switching nature of the robot's dynamics.
+
+---
+
+## Conversational Human Audio-visual Talking Dialogue Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.02799)
+- **Authors:** Junhao Song, Lluis Guasch, Xilin He, Zhongyu Yang, Yingfang Yuan, Weicheng Xie et al. (11 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Humanoid
+  - Pre-training
+  - Dataset
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Large-scale dyadic interactive audio-visual dialogue (DIAD) datasets provide fundamental data resources for developing humanoid interactive virtual agents and digital humans. However, collecting such data is time-consuming, expensive, and ethically sensitive.
 
 ---
 

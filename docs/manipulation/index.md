@@ -1,9 +1,10 @@
 # Manipulation
 
-**77 papers** in this category.
+**79 papers** in this category.
 
 ## Months
 
+- [2026-07](/manipulation/2026-07) (2 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -31,6 +32,46 @@
 ---
 
 ## Recent Papers
+
+## Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.04940)
+- **Authors:** Zhe Zhao, Zhibin Li, Yilin Ou, Mengshi Qi
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Fine-tuning
+  - Actor-Critic
+  - PPO
+  - Navigation
+
+### Summary
+
+Human-like dexterous hands with multiple fingers offer human-level manipulation capabilities but remain difficult to train the control policies that can deploy on real hardware due to contact-rich physics and imperfect actuation. We present a sim-to-real reinforcement learning method that leverages dense tactile feedback combined with joint torque sensing to explicitly regulate physical interactions.
+
+---
+
+## ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.03828)
+- **Authors:** Yuanchuan Lai, Qing Gao, Ziyan Liang, Junjie Hu, Zhaojie Ju
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Motion Retargeting
+  - Manipulation
+  - Real Robot
+  - Teleoperation
+
+### Summary
+
+Learning robot dexterous manipulation from human manipulation videos requires reliably retargeting human intent to executable robot actions while maintaining stable hand-object contact, which remains a key challenge in embodied intelligence. Existing retargeting methods often ignore explicit contact modeling or rely on reinforcement learning, resulting in limited accuracy and generalization.
+
+---
 
 ## Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments
 
@@ -370,41 +411,5 @@ Designing anthropomorphic robotic hands that balance functional dexterity with m
 ### Summary
 
 Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects. Existing methods often require time-consuming task-specific policy training or rely on rigid trajectory replay, which limits their ability to accommodate novel interaction scenarios.
-
----
-
-## Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.11826)
-- **Authors:** Yu Zhang, Huijiang Wang, Josie Hughes
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Benchmark
-  - Manipulation
-  - Teleoperation
-  - Simulation Benchmark
-
-### Summary
-
-Designing anthropomorphic dexterous robotic hands remains challenging as the design space straddles morphology, actuation, and sensing properties, and performance metrics span both task-dependent and task-agnostic. Existing optimization methods are often unstructured or consider only a single performance metric, limiting systematic comparison and targeted refinement.
-
----
-
-## SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.09798)
-- **Authors:** Yanming Shao, Zanxin Chen, Wenwei Lin, Mingjie Zhou, Tianxing Chen, Xiaokang Yang et al. (8 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - Manipulation
-  - PPO
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Human hand-object interactions encode functional intent, but direct transfer to robotic hands often fails under morphology, contact, and reachability constraints. We present SynManDex, a synthetic pipeline that uses generated human pre-grasps as affordance-aware proposals and resolves the final contacts with robot-native optimization.
 
 ---

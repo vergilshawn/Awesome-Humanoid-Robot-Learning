@@ -1,5 +1,185 @@
 [
   {
+    "arxiv_id": "2607.04940",
+    "title": "Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation",
+    "paper_url": "https://arxiv.org/abs/2607.04940",
+    "project_url": null,
+    "authors": [
+      "Zhe Zhao",
+      "Zhibin Li",
+      "Yilin Ou",
+      "Mengshi Qi"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-06",
+    "abstract": "Human-like dexterous hands with multiple fingers offer human-level manipulation capabilities but remain difficult to train the control policies that can deploy on real hardware due to contact-rich physics and imperfect actuation. We present a sim-to-real reinforcement learning method that leverages dense tactile feedback combined with joint torque sensing to explicitly regulate physical interactions. To enable effective sim-to-real transfer, we introduce (i) a computationally fast tactile simulation that computes distances between dense virtual tactile units and the object via parallel forward kinematics, providing high-rate, high-resolution touch signals needed by RL; (ii) a current-to-torque calibration that eliminates the need for torque sensors on dexterous hands by mapping motor current to joint torque; and (iii) actuator dynamics modeling with randomization to account for non-ideal torque-speed effects and bridge the actuation gaps. Using an asymmetric actor-critic PPO pipeline, we train policies entirely in simulation and deploy them directly to a five-finger hand. The resulting policies demonstrate two essential human-hand skills: (1) command-based controllable grasp force tracking and (2) reorientation of objects in the hand, both of which are robustly executed without fine-tuning on the robot. By combining tactile and torque in the observation space with scalable sensing and actuation modeling, our system provides a practical solution to achieve reliable dexterous manipulation. To our knowledge, this is the first demonstration of controllable grasping on a multi-finger dexterous hand trained entirely in simulation and transferred zero-shot on real hardware.",
+    "categories": [
+      "Manipulation",
+      "Navigation",
+      "State Estimation",
+      "Sim-to-Real",
+      "Hardware Design",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Sim-to-Real",
+      "Manipulation",
+      "Zero-Shot",
+      "Fine-tuning",
+      "Actor-Critic",
+      "PPO",
+      "Navigation",
+      "State Estimation",
+      "Hardware Design",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2607.04837",
+    "title": "Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control",
+    "paper_url": "https://arxiv.org/abs/2607.04837",
+    "project_url": null,
+    "authors": [
+      "Yuan Jiang",
+      "Ningyuan Zhang",
+      "Xicun Yang",
+      "Shidi Li",
+      "Yuzhi Jiang",
+      "Zhiyi Rong",
+      "Shuaikang Ma",
+      "Chuanzheng Li",
+      "Jie Chen"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-06",
+    "abstract": "Large-scale humanoid motion-tracking controllers are commonly improved by reallocating training effort: difficult motions are sampled more often, isolated into smaller subsets, or assigned to specialized experts. We show that this view is incomplete. In strong whole-body-control baselines, a residual set of feasible training clips remains unsolved even under targeted training, especially for high-dynamic transitions and balance-critical motions. These failures arise not only from insufficient exposure, but from a mismatch between the motion demands and the effective capability induced by the default training recipe. We propose Athena-WBC, a compact teacher-student pipeline with capability-aligned policy experts for long-tail humanoid whole-body control. Dynamic experts use a tracking-focused, constraint-aware objective that removes conservative effort and temporal-control penalties while preserving physical feasibility constraints; balance experts use a gravity curriculum to improve early-training survivability. The resulting privileged teachers are motion-routed for DAgger distillation and then compressed into a single controller with deployable observations followed by RL fine-tuning. Experiments on a full-size humanoid show improved recovery of training-set long-tail motions and better held-out tracking than a strong SONIC-recipe baseline, using only a small number of experts.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Humanoid",
+      "Fine-tuning",
+      "Distillation",
+      "DAgger",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.04119",
+    "title": "SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction",
+    "paper_url": "https://arxiv.org/abs/2607.04119",
+    "project_url": "https://github.com/lukephong/sov-cad",
+    "authors": [
+      "Zhaopeng Feng",
+      "Chen Zhi",
+      "Xuhong Zhang",
+      "Zhengwen Feng",
+      "Xinkui Zhao"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-05",
+    "abstract": "Reconstructing Computer-Aided Design (CAD) modeling sequences from images is crucial for preserving design intent and supporting parametric editing. However, existing methods typically generate full CAD sequences holistically, overlooking the iterative, feedback-driven nature of human design workflows. We address this limitation by introducing the rich stepwise visual supervision: at each modeling step, the system observes the target's orthographic projections, the projections of the incrementally constructed model, and the active sketch, enabling informed action selection. To effectively leverage this on-the-fly feedback, we propose SOV-CAD, a framework that formulates CAD reconstruction as a sequential decision-making task and employs offline reinforcement learning with a Decision Transformer architecture. This design incorporates continuous visual feedback guided by geometric alignment rewards, resulting in a more accurate and human-like modeling process. Extensive experiments show that SOV-CAD surpasses state-of-the-art methods in CAD sequence reconstruction while exhibiting strong data efficiency. Code of SOV-CAD is available at: https://github.com/LukePhong/SOV-CAD",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Transformer",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.03828",
+    "title": "ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling",
+    "paper_url": "https://arxiv.org/abs/2607.03828",
+    "project_url": null,
+    "authors": [
+      "Yuanchuan Lai",
+      "Qing Gao",
+      "Ziyan Liang",
+      "Junjie Hu",
+      "Zhaojie Ju"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-04",
+    "abstract": "Learning robot dexterous manipulation from human manipulation videos requires reliably retargeting human intent to executable robot actions while maintaining stable hand-object contact, which remains a key challenge in embodied intelligence. Existing retargeting methods often ignore explicit contact modeling or rely on reinforcement learning, resulting in limited accuracy and generalization. To address this, we propose ObjRetarget, a human-to-robot motion retargeting framework for learning robot dexterous manipulation from human videos, which integrates anthropomorphic arm trajectory constraints with structured hand-object geometric modeling. For arm motion, reference trajectories extracted from human videos are used for initialization, followed by anthropomorphic constraints and redundancy-aware optimization to generate natural and accurate movements. For hand manipulation, ObjRetarget represents multi-finger contacts using polytope clusters and preserves contact structure through geometric invariants to improve stability. Experiments on real robots show that ObjRetarget improves manipulation success rates and contact stability across multiple dexterous tasks, and generalizes well to different demonstrations, object poses, and task settings.",
+    "categories": [
+      "Manipulation",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Motion Retargeting",
+      "Manipulation",
+      "Real Robot",
+      "Teleoperation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2607.03454",
+    "title": "ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2607.03454",
+    "project_url": null,
+    "authors": [
+      "Seokju Lee",
+      "Jeongtae Lee",
+      "Jeonghyeok Lim",
+      "Jeonguk Kang",
+      "Byungwook Lee",
+      "Seungho Han",
+      "Keun Ha Choi",
+      "Dongil Park",
+      "Kyung-Soo Kim"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-03",
+    "abstract": "In this paper, we propose Adversarial Dynamics Priors (ADP) for perturbation-resilient humanoid locomotion control. Existing motion prior-based methods induce natural motion styles by imitating kinematic motion features, but they do not directly regularize dynamics features, such as CoM motion, centroidal momentum, contact forces, and contact states. To address this limitation, we replace kinematic motion-style feature with selected dynamics features extracted from locomotion trajectories as the target of adversarial regularization.To this end, we use trajectory optimization to construct a reference dataset and train a discriminator to evaluate whether policy-induced temporal windows are consistent with the resulting reference distribution.Without explicit motion tracking, ADP encourages policy rollouts to remain close to the reference support, even after perturbations. Experimental results show that, compared with AMP, the strongest baseline in our evaluation, ADP improves the $80\\%$-success impulse threshold ($J_{80}$) by $16.7\\%$, while reducing direction-averaged recovery time and velocity tracking error by $47.9\\%$ and $35.4\\%$, respectively.",
+    "categories": [
+      "Locomotion",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "Trajectory Optimization",
+      "Dataset",
+      "PPO",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2607.02332",
     "title": "HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum",
     "paper_url": "https://arxiv.org/abs/2607.02332",
@@ -67,6 +247,43 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.02799",
+    "title": "Conversational Human Audio-visual Talking Dialogue Generation",
+    "paper_url": "https://arxiv.org/abs/2607.02799",
+    "project_url": null,
+    "authors": [
+      "Junhao Song",
+      "Lluis Guasch",
+      "Xilin He",
+      "Zhongyu Yang",
+      "Yingfang Yuan",
+      "Weicheng Xie",
+      "Linlin Shen",
+      "Haijun Lin",
+      "Shizhe Liu",
+      "Wei Pang",
+      "Siyang Song"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-02",
+    "abstract": "Large-scale dyadic interactive audio-visual dialogue (DIAD) datasets provide fundamental data resources for developing humanoid interactive virtual agents and digital humans. However, collecting such data is time-consuming, expensive, and ethically sensitive. To address this, we propose CHAT, a new dyadic interactive audio-visual dialogue generation (DIADG) framework that generates diverse, paired, and mutually responsive speech-face dialogue clips from a single textual prompt. CHAT unifies large language models and talking face models with interactive audio and facial behaviour refinement modules, enabling the generation of aligned dyadic dialogue clips with diverse contents and facial identities. Experiments show that CHAT outperforms existing related methods designed for similar tasks under both objective and subjective evaluations. Moreover, our synthesised CHAT-AVD-50k dataset serves as effective pre-training data for downstream interactive head generation, consistently improving PerFRDiff and ReactDiff on REACT 2024. CHAT offers a scalable alternative to the costly and ethically sensitive collection of real dyadic interaction data.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "Pre-training",
+      "Dataset",
+      "Large Language Model",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2607.01181",

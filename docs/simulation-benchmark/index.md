@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**57 papers** in this category.
+**58 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (2 papers)
+- [2026-07](/simulation-benchmark/2026-07) (3 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -24,6 +24,25 @@
 ---
 
 ## Recent Papers
+
+## Conversational Human Audio-visual Talking Dialogue Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.02799)
+- **Authors:** Junhao Song, Lluis Guasch, Xilin He, Zhongyu Yang, Yingfang Yuan, Weicheng Xie et al. (11 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Humanoid
+  - Pre-training
+  - Dataset
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Large-scale dyadic interactive audio-visual dialogue (DIAD) datasets provide fundamental data resources for developing humanoid interactive virtual agents and digital humans. However, collecting such data is time-consuming, expensive, and ethically sensitive.
+
+---
 
 ## Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations
 
@@ -395,26 +414,5 @@ Visual speech recognition (VSR) models now surpass human lipreaders on benchmark
 ### Summary
 
 World-action models (WAMs) jointly generate future video and robot actions through iterative diffusion, achieving strong performance on manipulation benchmarks but requiring tens of denoising steps, a cost that precludes real-time control. Step distillation has emerged as the natural remedy, but off-the-shelf methods break down in the joint video-action setting because video and action streams use different SNR-shifted noise schedules and reach training with substantially different marginal noise distributions, an asymmetry that single-modality distillation methods cannot accommodate.
-
----
-
-## Let the Dynamics Flow: Stable Flow Matching Dynamical Systems
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.03834)
-- **Authors:** Rodrigo Pérez-Dattari, Francisco Leiva, Andrea Testa, Leonel Rozo, Javier Ruiz del Solar, Noémie Jaquier
-- **Published:** 2026-06
-- **Tags:**
-  - Imitation Learning
-  - Generative Models
-  - Humanoid
-  - Benchmark
-  - Dataset
-  - Flow Matching
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Flow matching has recently emerged as a powerful approach for imitation learning, enabling scalable, expressive, and multimodal motion policies. However, incorporating formal stability guarantees into these generative models, a prerequisite to ensure safe and generalizable robot behaviors, remains a significant challenge.
 
 ---

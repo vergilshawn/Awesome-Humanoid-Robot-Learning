@@ -2,6 +2,24 @@
 
 Papers with open-source code repositories.
 
+## 🌟 SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.04119)
+- **Project:** [GitHub](https://github.com/lukephong/sov-cad)
+- **Authors:** Zhaopeng Feng, Chen Zhi, Xuhong Zhang, Zhengwen Feng, Xinkui Zhao
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Transformer
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Reconstructing Computer-Aided Design (CAD) modeling sequences from images is crucial for preserving design intent and supporting parametric editing. However, existing methods typically generate full CAD sequences holistically, overlooking the iterative, feedback-driven nature of human design workflows.
+
+---
+
 ## 🌟 FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.31691)

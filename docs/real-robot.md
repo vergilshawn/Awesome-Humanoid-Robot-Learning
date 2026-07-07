@@ -6,8 +6,8 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
-- **Digit:** 5 papers
-- **Figure:** 28 papers
+- **Digit:** 6 papers
+- **Figure:** 30 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 46 papers
 - **Unknown Platform:** 6 papers
@@ -16,6 +16,68 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.04940)
+- **Authors:** Zhe Zhao, Zhibin Li, Yilin Ou, Mengshi Qi
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Fine-tuning
+  - Actor-Critic
+  - PPO
+  - Navigation
+
+### Summary
+
+Human-like dexterous hands with multiple fingers offer human-level manipulation capabilities but remain difficult to train the control policies that can deploy on real hardware due to contact-rich physics and imperfect actuation. We present a sim-to-real reinforcement learning method that leverages dense tactile feedback combined with joint torque sensing to explicitly regulate physical interactions.
+
+---
+
+## ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.03454)
+- **Authors:** Seokju Lee, Jeongtae Lee, Jeonghyeok Lim, Jeonguk Kang, Byungwook Lee, Seungho Han et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Trajectory Optimization
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+In this paper, we propose Adversarial Dynamics Priors (ADP) for perturbation-resilient humanoid locomotion control. Existing motion prior-based methods induce natural motion styles by imitating kinematic motion features, but they do not directly regularize dynamics features, such as CoM motion, centroidal momentum, contact forces, and contact states.
+
+---
+
+## Conversational Human Audio-visual Talking Dialogue Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.02799)
+- **Authors:** Junhao Song, Lluis Guasch, Xilin He, Zhongyu Yang, Yingfang Yuan, Weicheng Xie et al. (11 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Humanoid
+  - Pre-training
+  - Dataset
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Large-scale dyadic interactive audio-visual dialogue (DIAD) datasets provide fundamental data resources for developing humanoid interactive virtual agents and digital humans. However, collecting such data is time-consuming, expensive, and ethically sensitive.
+
+---
 
 ## ESC: Emotional Self-Correction for Reliable Vision-Language Models
 
