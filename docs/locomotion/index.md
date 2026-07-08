@@ -1,10 +1,10 @@
 # Locomotion
 
-**129 papers** in this category.
+**128 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (3 papers)
+- [2026-07](/locomotion/2026-07) (2 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -77,25 +77,6 @@ In this paper, we propose Adversarial Dynamics Priors (ADP) for perturbation-res
 ### Summary
 
 This paper presents a novel layered planning and control framework based on multi-rate nonlinear model predictive control (MR-NMPC) that enables quadrupedal robots to perform hybrid bipedal locomotion with wall-assisted support in constrained environments. Real-time trajectory optimization for this locomotion presents significant challenges, as the controller must simultaneously plan for both the contact points and the continuous trajectories of the robot's center of mass (CoM) and orientation within the robot's nonlinear dynamics while accounting for unilateral contact constraints, underactuation, and the switching nature of the robot's dynamics.
-
----
-
-## Coachable agents for interactive gameplay
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.00642)
-- **Authors:** Roberto Capobianco, Harm van Seijen, Nolan D. Bard, Neil Burch, Fatima Davelouis, Josh Davidson et al. (41 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Walking
-  - Foundation Model
-  - Data Augmentation
-  - Locomotion
-
-### Summary
-
-Reinforcement learning has proven to be a valuable tool in the creation of advanced AI and robotic systems, contributing to everything from game playing to robotics to foundation models. Through trial-and-error, these AI systems typically learn one, near-optimal behavior to solve their tasks.
 
 ---
 
@@ -460,5 +441,26 @@ Dense sampling records what an animation system actually evaluated, but it produ
 ### Summary
 
 Enabling humanoid robots to operate in complex, dynamic environments remains a critical challenge, fundamentally limited by the ability to navigate robustly, safely, and accurately. While reinforcement learning with velocity-commanded policies has achieved remarkable robustness in humanoid locomotion, this approach lacks explicit control of the foothold placement, leading to unsafe behavior, such as stepping onto human feet, or imprecise navigation, hindering the following manipulation task.
+
+---
+
+## Predictive Style Matching: Natural and Robust Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.07083)
+- **Authors:** Simeon Nedelchev, Ekaterina Chaikovskaia, Egor Davydenko, Eduard Zaliaev, Roman Gorbachev
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Gait
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Reinforcement learning has become the prevailing approach to humanoid locomotion control: policies transfer reliably from simulation to hardware and recover gracefully from disturbances.   Motion quality, however, still lags behind: task-only rewards often converge to stiff, asymmetric gaits, while motion imitation methods improve appearance but become more sensitive to external disturbances because reference signals can oppose the transient poses needed to regain balance.
 
 ---

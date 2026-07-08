@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**58 papers** in this category.
+**59 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (3 papers)
+- [2026-07](/simulation-benchmark/2026-07) (4 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -24,6 +24,27 @@
 ---
 
 ## Recent Papers
+
+## ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.06052)
+- **Authors:** Chenhao Yu, Hongwu Wang, Weitao Zhang, Youhao Hu, Jiachen Zhang, Gangyang Li et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Whole-Body Control
+  - Human Demonstration
+  - Robustness
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots are increasingly expected to perform contact-rich tasks that require not only accurate whole-body motion but also robust physical interaction with surrounding objects and humans. Although recent advances in humanoid motion imitation and whole-body control have achieved remarkable tracking performance, existing datasets and benchmarks primarily focus on kinematic motion while largely overlooking synchronized interaction forces.
+
+---
 
 ## Conversational Human Audio-visual Talking Dialogue Generation
 
@@ -393,26 +414,5 @@ We argue that high-quality motion data can steer tracking policies toward better
 ### Summary
 
 Visual speech recognition (VSR) models now surpass human lipreaders on benchmarks, but do such gains establish human-like visual speech perception? To explore this, we compare three VSR systems with human baselines on the MaFI word-level lipreading dataset using word, character, phoneme, and viseme-level metrics. Although models achieve higher overall accuracy, they succeed and fail on different words than humans.
-
----
-
-## Flash-WAM: Modality-Aware Distillation for World Action Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.05254)
-- **Authors:** Arman Akbari, Ci Zhang, Arash Akbari, Lin Zhao, Yixiao Chen, Weiwei Chen et al. (9 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Distillation
-  - Benchmark
-  - Diffusion
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-World-action models (WAMs) jointly generate future video and robot actions through iterative diffusion, achieving strong performance on manipulation benchmarks but requiring tens of denoising steps, a cost that precludes real-time control. Step distillation has emerged as the natural remedy, but off-the-shelf methods break down in the joint video-action setting because video and action streams use different SNR-shifted noise schedules and reach training with substantially different marginal noise distributions, an asymmetry that single-modality distillation methods cannot accommodate.
 
 ---

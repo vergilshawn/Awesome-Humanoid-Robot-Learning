@@ -1,10 +1,10 @@
 # Manipulation
 
-**79 papers** in this category.
+**80 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (2 papers)
+- [2026-07](/manipulation/2026-07) (3 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -32,6 +32,25 @@
 ---
 
 ## Recent Papers
+
+## WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.06438)
+- **Authors:** Wongyun Yu, Youngwoon Kim, Minsu Cho
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Retargeting human object interaction demonstrations to physics based simulation requires reproducing not only body motion but also the object motion and contacts that make manipulation succeed. However, position only hand trajectories do not specify the contact forces needed to manipulate objects, and directly tracking them can overconstrain contact rich finger behavior.
+
+---
 
 ## Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation
 
@@ -393,23 +412,5 @@ Robotics manipulation research increasingly focuses on two-finger parallel gripp
 ### Summary
 
 Designing anthropomorphic robotic hands that balance functional dexterity with mechanical simplicity remains a significant challenge. Inspired by human hand synergies, this paper presents the SyLink Hand, an anthropomorphic dexterous hand that integrates biomechanical synergy principles with linkage-driven transmission mechanisms to achieve a high degree of anthropomorphism in appearance, kinematics, and functionality within a compact and cost-effective architecture.
-
----
-
-## GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.12995)
-- **Authors:** Zhihai Bi, Qiang Zhang, Guoyang Zhao, Jiahang Cao, Xueyin Luo, Yushan Zhang et al. (11 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Zero-Shot
-  - Humanoid
-  - Manipulation
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects. Existing methods often require time-consuming task-specific policy training or rely on rigid trajectory replay, which limits their ability to accommodate novel interaction scenarios.
 
 ---

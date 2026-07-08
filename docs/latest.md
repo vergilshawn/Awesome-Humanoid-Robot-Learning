@@ -2,6 +2,46 @@
 
 All papers sorted by publication date (newest first).
 
+## WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.06438)
+- **Authors:** Wongyun Yu, Youngwoon Kim, Minsu Cho
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Retargeting human object interaction demonstrations to physics based simulation requires reproducing not only body motion but also the object motion and contacts that make manipulation succeed. However, position only hand trajectories do not specify the contact forces needed to manipulate objects, and directly tracking them can overconstrain contact rich finger behavior.
+
+---
+
+## ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.06052)
+- **Authors:** Chenhao Yu, Hongwu Wang, Weitao Zhang, Youhao Hu, Jiachen Zhang, Gangyang Li et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Whole-Body Control
+  - Human Demonstration
+  - Robustness
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots are increasingly expected to perform contact-rich tasks that require not only accurate whole-body motion but also robust physical interaction with surrounding objects and humans. Although recent advances in humanoid motion imitation and whole-body control have achieved remarkable tracking performance, existing datasets and benchmarks primarily focus on kinematic motion while largely overlooking synchronized interaction forces.
+
+---
+
 ## Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.04940)
@@ -27,7 +67,7 @@ Human-like dexterous hands with multiple fingers offer human-level manipulation 
 ## Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.04837)
-- **Authors:** Yuan Jiang, Ningyuan Zhang, Xicun Yang, Shidi Li, Yuzhi Jiang, Zhiyi Rong et al. (9 authors)
+- **Authors:** Yuan Jiang, Ningyuan Zhang, Xicun Yang, Yuzhi Jiang, Jie Chen
 - **Published:** 2026-07
 - **Tags:**
   - Whole-Body Control
@@ -202,25 +242,6 @@ Vision-language models (VLMs) have achieved strong performance across diverse mu
 ### Summary
 
 Traffic complexity critically influences driver task demands in partially automated vehicles, yet subjective perception and its behavioral indicators remain underexplored in real-world settings. This paper analyzes driver behavior - vehicle interaction, glance patterns, and guiding fixation - across varying levels of subjective traffic complexity, using real-world data from 20 drivers in real urban traffic.
-
----
-
-## Coachable agents for interactive gameplay
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.00642)
-- **Authors:** Roberto Capobianco, Harm van Seijen, Nolan D. Bard, Neil Burch, Fatima Davelouis, Josh Davidson et al. (41 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Walking
-  - Foundation Model
-  - Data Augmentation
-  - Locomotion
-
-### Summary
-
-Reinforcement learning has proven to be a valuable tool in the creation of advanced AI and robotic systems, contributing to everything from game playing to robotics to foundation models. Through trial-and-error, these AI systems typically learn one, near-optimal behavior to solve their tasks.
 
 ---
 
@@ -422,7 +443,7 @@ Recent progress in humanoid behavior models has been driven in large part by abu
 ## KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.30243)
-- **Authors:** Luca Rossini, Arturo Laurenzi, Francesco Ruscelli, Yifang Zhang, Giovanbattista Gravina, Lorenzo Baccelliere et al. (9 authors)
+- **Authors:** Luca Rossini, Arturo Laurenzi, Francesco Ruscelli, Yifang Zhang, Jingcheng Jiang, Giovanbattista Gravina et al. (11 authors)
 - **Published:** 2026-06
 - **Tags:**
   - Reinforcement Learning

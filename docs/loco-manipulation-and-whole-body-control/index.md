@@ -40,7 +40,7 @@
 ## Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.04837)
-- **Authors:** Yuan Jiang, Ningyuan Zhang, Xicun Yang, Shidi Li, Yuzhi Jiang, Zhiyi Rong et al. (9 authors)
+- **Authors:** Yuan Jiang, Ningyuan Zhang, Xicun Yang, Yuzhi Jiang, Jie Chen
 - **Published:** 2026-07
 - **Tags:**
   - Whole-Body Control
@@ -136,7 +136,7 @@ While current Behavior Foundation Models (BFMs) provide robust control priors fo
 ## KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.30243)
-- **Authors:** Luca Rossini, Arturo Laurenzi, Francesco Ruscelli, Yifang Zhang, Giovanbattista Gravina, Lorenzo Baccelliere et al. (9 authors)
+- **Authors:** Luca Rossini, Arturo Laurenzi, Francesco Ruscelli, Yifang Zhang, Jingcheng Jiang, Giovanbattista Gravina et al. (11 authors)
 - **Published:** 2026-06
 - **Tags:**
   - Reinforcement Learning
