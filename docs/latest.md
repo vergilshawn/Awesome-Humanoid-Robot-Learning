@@ -2,6 +2,99 @@
 
 All papers sorted by publication date (newest first).
 
+## Immersive Social Interaction with VR and LLM-Assisted Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07430)
+- **Authors:** Niraj Pudasaini, Geeta Chandra Raju Bethala, Pranav Doma, Anthony Tzes, Yi Fang
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - Imitation Learning
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Inverse Kinematics
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid robots can extend human presence to remote, constrained, or hazardous environments, but existing teleoperation interfaces often require physically demanding motion tracking or cognitively demanding low-level control. This paper presents an immersive teleoperation framework that integrates voice-controlled locomotion, VR-based manipulation, and bidirectional social interaction for whole-body humanoid control.
+
+---
+
+## Initiation Safety: A Missing Dimension in Generalist-Robot Safety
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07420)
+- **Authors:** Zhijin Meng, Francisco Cruz
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Safety for generalist robots is usually discussed in terms of motion or dialogue. We argue a third question is missing: should the robot take its first hard-to-undo social action at all, such as a greeting, an uninvited grasp, or stepping into someone's space? We call this initiation authorization.
+
+---
+
+## Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07390)
+- **Authors:** Chapa Sirithunge, Haewon Jeong, Qinghua Guan, Fumiya Iida, Josie Hughes
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Navigation
+  - State Estimation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Nonverbal communication through head and neck movement is fundamental to human social signalling, yet how robotic neck morphology translates motion into communicative information remains poorly understood. We present an information-theoretic framework characterising robot neck movement as a communication channel, quantifying information transmitted and energy expended across varied configurations.
+
+---
+
+## Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07370)
+- **Authors:** Xufeng Zhao, Fuzhi Yang, Jianhui Chen, Li Gao, Zhang Meng, Jie Gao et al. (18 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Navigation
+  - Zero-Shot
+  - Safety
+  - Humanoid
+  - Policy Learning
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+In embodied intelligence systems, the motion controller serves as the critical bridge between semantic reasoning and physical execution. Humanoid control has progressed rapidly through large-scale human motion-capture data and motion-tracking paradigm.
+
+---
+
+## Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07109)
+- **Authors:** Víctor Mayoral-Vilches
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+The EU Cyber Resilience Act (CRA) makes a smart bet. It does not demand that products be free of vulnerabilities, but only that manufacturers run a process: assess risk, handle flaws, ship updates.
+
+---
+
 ## WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.06438)
@@ -242,6 +335,25 @@ Vision-language models (VLMs) have achieved strong performance across diverse mu
 ### Summary
 
 Traffic complexity critically influences driver task demands in partially automated vehicles, yet subjective perception and its behavioral indicators remain underexplored in real-world settings. This paper analyzes driver behavior - vehicle interaction, glance patterns, and guiding fixation - across varying levels of subjective traffic complexity, using real-world data from 20 drivers in real urban traffic.
+
+---
+
+## Coachable agents for interactive gameplay
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.00642)
+- **Authors:** Roberto Capobianco, Harm van Seijen, Nolan D. Bard, Neil Burch, Fatima Davelouis, Josh Davidson et al. (41 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Walking
+  - Foundation Model
+  - Data Augmentation
+  - Locomotion
+
+### Summary
+
+Reinforcement learning has proven to be a valuable tool in the creation of advanced AI and robotic systems, contributing to everything from game playing to robotics to foundation models. Through trial-and-error, these AI systems typically learn one, near-optimal behavior to solve their tasks.
 
 ---
 

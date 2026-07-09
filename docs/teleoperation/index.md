@@ -1,10 +1,10 @@
 # Teleoperation
 
-**32 papers** in this category.
+**33 papers** in this category.
 
 ## Months
 
-- [2026-07](/teleoperation/2026-07) (1 papers)
+- [2026-07](/teleoperation/2026-07) (2 papers)
 - [2026-06](/teleoperation/2026-06) (9 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
@@ -23,6 +23,27 @@
 ---
 
 ## Recent Papers
+
+## Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07370)
+- **Authors:** Xufeng Zhao, Fuzhi Yang, Jianhui Chen, Li Gao, Zhang Meng, Jie Gao et al. (18 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Navigation
+  - Zero-Shot
+  - Safety
+  - Humanoid
+  - Policy Learning
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+In embodied intelligence systems, the motion controller serves as the critical bridge between semantic reasoning and physical execution. Humanoid control has progressed rapidly through large-scale human motion-capture data and motion-tracking paradigm.
+
+---
 
 ## HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum
 
@@ -359,20 +380,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## Development of an Intuitive GUI for Non-Expert Teleoperation of Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2510.13594)
-- **Published:** 2025-10
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Stability-Aware Retargeting for Humanoid Multi-Contact Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.04353)
 - **Published:** 2025-10
 - **Tags:**
   - Teleoperation

@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 680
-- **Real Robot Papers:** 96
+- **Total Papers:** 686
+- **Real Robot Papers:** 98
 - **Open Source Papers:** 137
 
 🌟 indicates papers with detected project/code links.
@@ -11,10 +11,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 ## Contents
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (221)
-- [Manipulation](#manipulation) (80)
-- [Teleoperation](#teleoperation) (32)
-- [Locomotion](#locomotion) (128)
-- [Navigation](#navigation) (24)
+- [Manipulation](#manipulation) (81)
+- [Teleoperation](#teleoperation) (33)
+- [Locomotion](#locomotion) (131)
+- [Navigation](#navigation) (25)
 - [State Estimation](#state-estimation) (29)
 - [Sim-to-Real](#sim-to-real) (12)
 - [Hardware Design](#hardware-design) (31)
@@ -336,6 +336,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — `Imitation Learning`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Inverse Kinematics`
 - [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438) — `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`, `Simulation Benchmark`, `Physics-Based Character Animation`
 - [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — `Reinforcement Learning`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Fine-tuning`, `Actor-Critic`
 - [ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling](https://arxiv.org/abs/2607.03828) — `Reinforcement Learning`, `Motion Retargeting`, `Manipulation`, `Real Robot`, `Teleoperation`
@@ -490,6 +491,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — `Teleoperation`, `Locomotion`, `Navigation`, `Zero-Shot`, `Safety`, `Humanoid`
 - [HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum](https://arxiv.org/abs/2607.02332) — `Teleoperation`, `Locomotion`, `Humanoid`
 
 ### 2026-06
@@ -569,8 +571,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — `Safety`, `Humanoid`, `Locomotion`, `Real Robot`
+- [Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act](https://arxiv.org/abs/2607.07109) — `Humanoid`, `PPO`, `Locomotion`
 - [ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion](https://arxiv.org/abs/2607.03454) — `Locomotion`, `Humanoid`, `Trajectory Optimization`, `Dataset`, `PPO`, `Simulation Benchmark`
 - [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — `MPC`, `Whole-Body Control`, `Locomotion`, `Biped`, `Trajectory Optimization`, `Optimal Control`
+- [Coachable agents for interactive gameplay](https://arxiv.org/abs/2607.00642) — `Reinforcement Learning`, `Humanoid`, `Walking`, `Foundation Model`, `Data Augmentation`, `Locomotion`
 
 ### 2026-06
 
@@ -783,6 +788,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Robust and Versatile Bipedal Jumping Control through Reinforcement Learning](https://arxiv.org/abs/2302.09450) — `Reinforcement Learning`, `Biped`, `Locomotion`
 
 ## Navigation
+
+### 2026-07
+
+- [Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion](https://arxiv.org/abs/2607.07390) — `Humanoid`, `Navigation`, `State Estimation`, `Human Motion Analysis and Synthesis`
 
 ### 2026-06
 

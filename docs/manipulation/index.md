@@ -1,10 +1,10 @@
 # Manipulation
 
-**80 papers** in this category.
+**81 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (3 papers)
+- [2026-07](/manipulation/2026-07) (4 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -32,6 +32,28 @@
 ---
 
 ## Recent Papers
+
+## Immersive Social Interaction with VR and LLM-Assisted Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07430)
+- **Authors:** Niraj Pudasaini, Geeta Chandra Raju Bethala, Pranav Doma, Anthony Tzes, Yi Fang
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - Imitation Learning
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Inverse Kinematics
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid robots can extend human presence to remote, constrained, or hazardous environments, but existing teleoperation interfaces often require physically demanding motion tracking or cognitively demanding low-level control. This paper presents an immersive teleoperation framework that integrates voice-controlled locomotion, VR-based manipulation, and bidirectional social interaction for whole-body humanoid control.
+
+---
 
 ## WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation
 
@@ -395,22 +417,5 @@ Dexterous interaction with articulated objects is important for household, assis
 ### Summary
 
 Robotics manipulation research increasingly focuses on two-finger parallel grippers for their effectiveness, affordability, and ease of teleoperation. Grippers are nonetheless limited by their form factor, often requiring bimanual setups even for simple reorientation tasks.
-
----
-
-## SyLink Hand: A Synergy-Inspired Linkage-Driven Anthropomorphic Hand for Human-Like Dexterity
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.14250)
-- **Authors:** Hao Wu, Yanzhe Wang, Yu Feng, Yitong Li, Jingxiang Guo, Jian Liu et al. (7 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Hardware Design
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Designing anthropomorphic robotic hands that balance functional dexterity with mechanical simplicity remains a significant challenge. Inspired by human hand synergies, this paper presents the SyLink Hand, an anthropomorphic dexterous hand that integrates biomechanical synergy principles with linkage-driven transmission mechanisms to achieve a high degree of anthropomorphism in appearance, kinematics, and functionality within a compact and cost-effective architecture.
 
 ---

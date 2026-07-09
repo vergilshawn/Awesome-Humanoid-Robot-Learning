@@ -8,18 +8,18 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 680
-- **Real Robot Papers:** 96
+- **Total Papers:** 686
+- **Real Robot Papers:** 98
 - **Open Source Papers:** 137
 - **Latest Month:** 2026-07
 
 ### Categories
 
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (221)
-- [Manipulation](/manipulation/) (80)
-- [Teleoperation](/teleoperation/) (32)
-- [Locomotion](/locomotion/) (128)
-- [Navigation](/navigation/) (24)
+- [Manipulation](/manipulation/) (81)
+- [Teleoperation](/teleoperation/) (33)
+- [Locomotion](/locomotion/) (131)
+- [Navigation](/navigation/) (25)
 - [State Estimation](/state-estimation/) (29)
 - [Sim-to-Real](/sim-to-real/) (12)
 - [Hardware Design](/hardware-design/) (31)
@@ -31,6 +31,16 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
+  - [Manipulation](/manipulation/)
+-  🤖 [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — 2026-07
+  - [Locomotion](/locomotion/)
+-  [Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion](https://arxiv.org/abs/2607.07390) — 2026-07
+  - [Navigation](/navigation/)
+-  [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — 2026-07
+  - [Teleoperation](/teleoperation/)
+-  [Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act](https://arxiv.org/abs/2607.07109) — 2026-07
+  - [Locomotion](/locomotion/)
 -  [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438) — 2026-07
   - [Manipulation](/manipulation/)
 -  [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — 2026-07
@@ -41,49 +51,39 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 - 🌟 [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) — 2026-07
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling](https://arxiv.org/abs/2607.03828) — 2026-07
-  - [Manipulation](/manipulation/)
--  🤖 [ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion](https://arxiv.org/abs/2607.03454) — 2026-07
-  - [Locomotion](/locomotion/)
--  [HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum](https://arxiv.org/abs/2607.02332) — 2026-07
-  - [Teleoperation](/teleoperation/)
--  [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — 2026-07
-  - [Locomotion](/locomotion/)
--  🤖 [Conversational Human Audio-visual Talking Dialogue Generation](https://arxiv.org/abs/2607.02799) — 2026-07
-  - [Simulation Benchmark](/simulation-benchmark/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (489)
-- **Loco-Manipulation and Whole-Body Control** (251)
-- **Locomotion** (177)
-- **Manipulation** (176)
+- **Humanoid** (495)
+- **Loco-Manipulation and Whole-Body Control** (252)
+- **Locomotion** (182)
+- **Manipulation** (177)
 - **Simulation Benchmark** (138)
-- **State Estimation** (109)
-- **Physics-Based Character Animation** (85)
-- **Reinforcement Learning** (78)
-- **Human Motion Analysis and Synthesis** (61)
-- **Teleoperation** (58)
+- **State Estimation** (110)
+- **Physics-Based Character Animation** (86)
+- **Reinforcement Learning** (79)
+- **Human Motion Analysis and Synthesis** (63)
+- **Teleoperation** (60)
 - **Whole-Body Control** (57)
+- **PPO** (53)
 - **Benchmark** (53)
-- **PPO** (51)
-- **Navigation** (47)
+- **Navigation** (49)
 - **Dataset** (45)
 - **Hardware Design** (39)
 - **Diffusion** (34)
 - **Sim-to-Real** (33)
 - **Vision-Language** (31)
-- **Zero-Shot** (26)
-- **Safety** (23)
+- **Zero-Shot** (27)
+- **Safety** (25)
 - **Human Demonstration** (21)
 - **Distillation** (21)
 - **Biped** (21)
+- **Foundation Model** (21)
 - **Robustness** (20)
-- **Foundation Model** (20)
-- **Walking** (19)
-- **Imitation Learning** (16)
+- **Walking** (20)
+- **Imitation Learning** (17)
 - **Gait** (15)
 - **Fine-tuning** (14)
 
@@ -402,6 +402,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/manipulation/2026-07)
 
+- [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — `Imitation Learning`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Inverse Kinematics`
 - [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438) — `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`, `Simulation Benchmark`, `Physics-Based Character Animation`
 - [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — `Reinforcement Learning`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Fine-tuning`, `Actor-Critic`
 - [ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling](https://arxiv.org/abs/2607.03828) — `Reinforcement Learning`, `Motion Retargeting`, `Manipulation`, `Real Robot`, `Teleoperation`
@@ -556,6 +557,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/teleoperation/2026-07)
 
+- [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — `Teleoperation`, `Locomotion`, `Navigation`, `Zero-Shot`, `Safety`, `Humanoid`
 - [HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum](https://arxiv.org/abs/2607.02332) — `Teleoperation`, `Locomotion`, `Humanoid`
 
 #### [2026-06](/teleoperation/2026-06)
@@ -635,8 +637,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/locomotion/2026-07)
 
+- [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — `Safety`, `Humanoid`, `Locomotion`, `Real Robot`
+- [Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act](https://arxiv.org/abs/2607.07109) — `Humanoid`, `PPO`, `Locomotion`
 - [ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion](https://arxiv.org/abs/2607.03454) — `Locomotion`, `Humanoid`, `Trajectory Optimization`, `Dataset`, `PPO`, `Simulation Benchmark`
 - [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — `MPC`, `Whole-Body Control`, `Locomotion`, `Biped`, `Trajectory Optimization`, `Optimal Control`
+- [Coachable agents for interactive gameplay](https://arxiv.org/abs/2607.00642) — `Reinforcement Learning`, `Humanoid`, `Walking`, `Foundation Model`, `Data Augmentation`, `Locomotion`
 
 #### [2026-06](/locomotion/2026-06)
 
@@ -849,6 +854,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Robust and Versatile Bipedal Jumping Control through Reinforcement Learning](https://arxiv.org/abs/2302.09450) — `Reinforcement Learning`, `Biped`, `Locomotion`
 
 ### [Navigation](/navigation/)
+
+#### [2026-07](/navigation/2026-07)
+
+- [Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion](https://arxiv.org/abs/2607.07390) — `Humanoid`, `Navigation`, `State Estimation`, `Human Motion Analysis and Synthesis`
 
 #### [2026-06](/navigation/2026-06)
 

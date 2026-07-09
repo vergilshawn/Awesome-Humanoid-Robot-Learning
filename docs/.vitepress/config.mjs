@@ -170,7 +170,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (80)",
+            "text": "Manipulation (81)",
             "collapsed": true,
             "items": [
                   {
@@ -276,7 +276,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (32)",
+            "text": "Teleoperation (33)",
             "collapsed": true,
             "items": [
                   {
@@ -346,7 +346,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (128)",
+            "text": "Locomotion (131)",
             "collapsed": true,
             "items": [
                   {
@@ -472,12 +472,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (24)",
+            "text": "Navigation (25)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/navigation/"
+                  },
+                  {
+                        "text": "2026-07",
+                        "link": "/navigation/2026-07"
                   },
                   {
                         "text": "2026-06",

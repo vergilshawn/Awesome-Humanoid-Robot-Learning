@@ -7,15 +7,55 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 6 papers
-- **Figure:** 30 papers
+- **Figure:** 31 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 46 papers
+- **Unitree H1:** 1 papers
 - **Unknown Platform:** 6 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Immersive Social Interaction with VR and LLM-Assisted Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07430)
+- **Authors:** Niraj Pudasaini, Geeta Chandra Raju Bethala, Pranav Doma, Anthony Tzes, Yi Fang
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - Imitation Learning
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Inverse Kinematics
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid robots can extend human presence to remote, constrained, or hazardous environments, but existing teleoperation interfaces often require physically demanding motion tracking or cognitively demanding low-level control. This paper presents an immersive teleoperation framework that integrates voice-controlled locomotion, VR-based manipulation, and bidirectional social interaction for whole-body humanoid control.
+
+---
+
+## Initiation Safety: A Missing Dimension in Generalist-Robot Safety
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07420)
+- **Authors:** Zhijin Meng, Francisco Cruz
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Safety for generalist robots is usually discussed in terms of motion or dialogue. We argue a third question is missing: should the robot take its first hard-to-undo social action at all, such as a greeting, an uninvited grasp, or stepping into someone's space? We call this initiation authorization.
+
+---
 
 ## Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation
 

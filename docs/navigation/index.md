@@ -1,9 +1,10 @@
 # Navigation
 
-**24 papers** in this category.
+**25 papers** in this category.
 
 ## Months
 
+- [2026-07](/navigation/2026-07) (1 papers)
 - [2026-06](/navigation/2026-06) (6 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
@@ -22,6 +23,23 @@
 ---
 
 ## Recent Papers
+
+## Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07390)
+- **Authors:** Chapa Sirithunge, Haewon Jeong, Qinghua Guan, Fumiya Iida, Josie Hughes
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Navigation
+  - State Estimation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Nonverbal communication through head and neck movement is fundamental to human social signalling, yet how robotic neck morphology translates motion into communicative information remains poorly understood. We present an information-theoretic framework characterising robot neck movement as a communication channel, quantifying information transmitted and energy expended across varied configurations.
+
+---
 
 ## Dual-Flow Reinforcement Learning with State-Aware Exploration
 
@@ -319,22 +337,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Navigation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.08712)
-- **Published:** 2025-05
-- **Tags:**
-  - Diffusion Policy
-  - Sim-to-Real
-  - Navigation
-  - Diffusion
 
 ### Summary
 
