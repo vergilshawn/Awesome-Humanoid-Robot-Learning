@@ -1,10 +1,10 @@
 # Teleoperation
 
-**33 papers** in this category.
+**35 papers** in this category.
 
 ## Months
 
-- [2026-07](/teleoperation/2026-07) (2 papers)
+- [2026-07](/teleoperation/2026-07) (4 papers)
 - [2026-06](/teleoperation/2026-06) (9 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
@@ -24,10 +24,49 @@
 
 ## Recent Papers
 
+## AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08341)
+- **Authors:** Chenxi Wang, Ying Feng, Hongjie Fang, Shangning Xia, Lixin Yang, Chuan Wen et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Imitation Learning
+  - Teleoperation
+  - Few-Shot
+  - Self-Supervised
+  - Manipulation
+  - Navigation
+  - Hardware Design
+  - Physics-Based Character Animation
+
+### Summary
+
+Teleoperation is a key interface for controlling dexterous robotic hands and collecting demonstrations for imitation learning. Its effectiveness largely depends on kinematic retargeting, which maps operator hand motions to feasible and intuitive robot hand motions.
+
+---
+
+## In vivo feasibility study of humanoid robots in surgery
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07972)
+- **Authors:** Zekai Liang, Nikita Thareja, Peihan Zhang, Calvin Joyce, Soofiyan Atar, Florian Richter et al. (10 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Safety
+  - Humanoid
+
+### Summary
+
+Recent advances in actuation, control and learning have rapidly pushed humanoid robots from a distant vision towards near-term real-world deployment. Healthcare is a particularly pressing domain, in which staffing shortages and increasing care demand are widening the gap between clinical workload and available skilled labour.
+
+---
+
 ## Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.07370)
-- **Authors:** Xufeng Zhao, Fuzhi Yang, Jianhui Chen, Li Gao, Zhang Meng, Jie Gao et al. (18 authors)
+- **Authors:** Xufeng Zhao, Fuzhi Yang, Jianhui Chen, Li Gao, Zhang Meng, Jie Gao et al. (20 authors)
 - **Published:** 2026-07
 - **Tags:**
   - Teleoperation
@@ -41,7 +80,7 @@
 
 ### Summary
 
-In embodied intelligence systems, the motion controller serves as the critical bridge between semantic reasoning and physical execution. Humanoid control has progressed rapidly through large-scale human motion-capture data and motion-tracking paradigm.
+The motion controller is one of the most fundamental modules in embodied intelligence systems. Driven by large-scale human motion-capture data and the motion-tracking paradigm, humanoid control has achieved remarkable progress in recent years.
 
 ---
 
@@ -353,34 +392,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.01632)
 - **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Learning Adaptive Neural Teleoperation for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.12390)
-- **Published:** 2025-11
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Development of an Intuitive GUI for Non-Expert Teleoperation of Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.13594)
-- **Published:** 2025-10
 - **Tags:**
   - Teleoperation
   - Humanoid

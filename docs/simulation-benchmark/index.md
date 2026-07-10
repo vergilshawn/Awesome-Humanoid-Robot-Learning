@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**59 papers** in this category.
+**60 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (4 papers)
+- [2026-07](/simulation-benchmark/2026-07) (5 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -24,6 +24,27 @@
 ---
 
 ## Recent Papers
+
+## ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08741)
+- **Authors:** Kaifeng Zhao, Mathis Petrovich, Haotian Zhang, Tingwu Wang, Siyu Tang, Davis Rempe
+- **Published:** 2026-07
+- **Tags:**
+  - Locomotion
+  - Transformer
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - PPO
+  - SAC
+  - Diffusion
+
+### Summary
+
+Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, they lack the inference speed required for interactive settings.
+
+---
 
 ## ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations
 
@@ -397,22 +418,5 @@ Facial rigging - creating FACS-based blendshapes together with inner-mouth geome
 ### Summary
 
 We argue that high-quality motion data can steer tracking policies toward better optimization trajectories early in training. In this work, we introduce LIMMT (Less Is More for Motion Tracking).
-
----
-
-## The Lipreading Gap: Do VSR Models Perceive Visual Speech Like Human Lipreaders?
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.07435)
-- **Authors:** Rishabh Jain, Naomi Harte
-- **Published:** 2026-06
-- **Real Robot:** ✅ — NAO
-- **Tags:**
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Visual speech recognition (VSR) models now surpass human lipreaders on benchmarks, but do such gains establish human-like visual speech perception? To explore this, we compare three VSR systems with human baselines on the MaFI word-level lipreading dataset using word, character, phoneme, and viseme-level metrics. Although models achieve higher overall accuracy, they succeed and fail on different words than humans.
 
 ---

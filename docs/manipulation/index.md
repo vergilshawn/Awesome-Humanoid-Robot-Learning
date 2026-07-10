@@ -1,10 +1,10 @@
 # Manipulation
 
-**81 papers** in this category.
+**82 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (4 papers)
+- [2026-07](/manipulation/2026-07) (5 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -32,6 +32,24 @@
 ---
 
 ## Recent Papers
+
+## ContactMimic: Humanoid Object Interaction via Contact Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08742)
+- **Authors:** Xinyao Li, Xialin He, Runpei Dong, Saurabh Gupta
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - State Estimation
+  - Sim-to-Real
+  - Simulation Benchmark
+
+### Summary
+
+Keypoint tracking alone is insufficient for object interaction tasks such as sitting on a chair, wiping a board, or pushing furniture, where the robot can reach the correct pose without making meaningful physical contact with the object. We present CONTACTMIMIC, a learning framework that tracks explicit partlevel binary contact commands alongside keypoint trajectories.
+
+---
 
 ## Immersive Social Interaction with VR and LLM-Assisted Humanoids
 
@@ -400,22 +418,5 @@ Achieving autonomous robotic dexterous manipulation requires precise, human-like
 ### Summary
 
 Dexterous interaction with articulated objects is important for household, assistive, and humanoid manipulation, where multi-finger hands can provide compliant contact patterns beyond parallel-jaw grasping. However, articulated-object manipulation differs from static-object manipulation: the target part cannot be directly actuated, and its motion must emerge through sustained physical hand--handle contact.
-
----
-
-## ORCA: A Platform for Open-Source Dexterity Research
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.14561)
-- **Authors:** Francesco Capuano, Maximilian Eberlein, Fabrice Bourquin, Clemens Claudio Christoph
-- **Published:** 2026-06
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Robotics manipulation research increasingly focuses on two-finger parallel grippers for their effectiveness, affordability, and ease of teleoperation. Grippers are nonetheless limited by their form factor, often requiring bimanual setups even for simple reorientation tasks.
 
 ---

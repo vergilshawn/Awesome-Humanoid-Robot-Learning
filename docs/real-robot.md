@@ -6,8 +6,8 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
-- **Digit:** 6 papers
-- **Figure:** 31 papers
+- **Digit:** 7 papers
+- **Figure:** 33 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 46 papers
 - **Unitree H1:** 1 papers
@@ -17,6 +17,62 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08620)
+- **Authors:** Rosanna Coccaro, Enrico Ferrentino, Antonio Parziale, Angelo Marcelli, Pasquale Chiacchio
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+As human-robot interaction rapidly spreads in numerous fields, the subject of robot acceptance gains increasing importance. Visual similarity to the human body, as occurs for humanoids, is generally not enough to ensure acceptance in physical interaction, as acceptance directly links to comfort and ergonomics, which are measured in terms of the quality of the robot movement perceived by the human.
+
+---
+
+## In vivo feasibility study of humanoid robots in surgery
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07972)
+- **Authors:** Zekai Liang, Nikita Thareja, Peihan Zhang, Calvin Joyce, Soofiyan Atar, Florian Richter et al. (10 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Safety
+  - Humanoid
+
+### Summary
+
+Recent advances in actuation, control and learning have rapidly pushed humanoid robots from a distant vision towards near-term real-world deployment. Healthcare is a particularly pressing domain, in which staffing shortages and increasing care demand are widening the gap between clinical workload and available skilled labour.
+
+---
+
+## Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07830)
+- **Authors:** Xuanyu Chen, Mohan Liu, Dengchen Mei, Zhihao Gu, Haitian Zhang, Kaimin Mao et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Humanoid
+  - Gait
+  - PPO
+  - State Estimation
+
+### Summary
+
+Model-free reinforcement learning has enabled impressive humanoid locomotion; however, control on steep slopes remains largely unexplored. Unlike flat or discrete terrains, sloped terrains impose a persistent gravitational bias that demands simultaneous stability and posture control.
+
+---
 
 ## Immersive Social Interaction with VR and LLM-Assisted Humanoids
 

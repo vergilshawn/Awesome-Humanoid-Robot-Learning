@@ -1,9 +1,10 @@
 # Physics-Based Character Animation
 
-**38 papers** in this category.
+**39 papers** in this category.
 
 ## Months
 
+- [2026-07](/physics-based-character-animation/2026-07) (1 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (4 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
 - [2026-04](/physics-based-character-animation/2026-04) (1 papers)
@@ -34,6 +35,23 @@
 ---
 
 ## Recent Papers
+
+## A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08620)
+- **Authors:** Rosanna Coccaro, Enrico Ferrentino, Antonio Parziale, Angelo Marcelli, Pasquale Chiacchio
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+As human-robot interaction rapidly spreads in numerous fields, the subject of robot acceptance gains increasing importance. Visual similarity to the human body, as occurs for humanoids, is generally not enough to ensure acceptance in physical interaction, as acceptance directly links to comfort and ergonomics, which are measured in terms of the quality of the robot movement perceived by the human.
+
+---
 
 ## PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation
 
@@ -327,20 +345,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-06
 - **Tags:**
   - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## AMOR: Adaptive Character Control through Multi-Objective Reinforcement Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.23708)
-- **Published:** 2025-05
-- **Tags:**
-  - Reinforcement Learning
   - Physics-Based Character Animation
 
 ### Summary

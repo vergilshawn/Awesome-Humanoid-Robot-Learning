@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 686
-- **Real Robot Papers:** 98
+- **Total Papers:** 692
+- **Real Robot Papers:** 101
 - **Open Source Papers:** 137
 
 🌟 indicates papers with detected project/code links.
@@ -11,15 +11,15 @@ A curated and automatically updated collection of humanoid robot learning resear
 ## Contents
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (221)
-- [Manipulation](#manipulation) (81)
-- [Teleoperation](#teleoperation) (33)
-- [Locomotion](#locomotion) (131)
+- [Manipulation](#manipulation) (82)
+- [Teleoperation](#teleoperation) (35)
+- [Locomotion](#locomotion) (132)
 - [Navigation](#navigation) (25)
 - [State Estimation](#state-estimation) (29)
 - [Sim-to-Real](#sim-to-real) (12)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (59)
-- [Physics-Based Character Animation](#physics-based-character-animation) (38)
+- [Simulation Benchmark](#simulation-benchmark) (60)
+- [Physics-Based Character Animation](#physics-based-character-animation) (39)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (26)
 - [Usage](#usage)
 
@@ -336,6 +336,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [ContactMimic: Humanoid Object Interaction via Contact Control](https://arxiv.org/abs/2607.08742) — `Manipulation`, `Humanoid`, `State Estimation`, `Sim-to-Real`, `Simulation Benchmark`
 - [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — `Imitation Learning`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Inverse Kinematics`
 - [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438) — `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`, `Simulation Benchmark`, `Physics-Based Character Animation`
 - [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — `Reinforcement Learning`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Fine-tuning`, `Actor-Critic`
@@ -491,6 +492,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — `Imitation Learning`, `Teleoperation`, `Few-Shot`, `Self-Supervised`, `Manipulation`, `Navigation`
+- [In vivo feasibility study of humanoid robots in surgery](https://arxiv.org/abs/2607.07972) — `Teleoperation`, `Manipulation`, `Safety`, `Humanoid`, `Real Robot`
 - [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — `Teleoperation`, `Locomotion`, `Navigation`, `Zero-Shot`, `Safety`, `Humanoid`
 - [HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum](https://arxiv.org/abs/2607.02332) — `Teleoperation`, `Locomotion`, `Humanoid`
 
@@ -571,6 +574,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Humanoid`, `Gait`, `PPO`
 - [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — `Safety`, `Humanoid`, `Locomotion`, `Real Robot`
 - [Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act](https://arxiv.org/abs/2607.07109) — `Humanoid`, `PPO`, `Locomotion`
 - [ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion](https://arxiv.org/abs/2607.03454) — `Locomotion`, `Humanoid`, `Trajectory Optimization`, `Dataset`, `PPO`, `Simulation Benchmark`
@@ -1043,6 +1047,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — `Locomotion`, `Transformer`, `Humanoid`, `Benchmark`, `Dataset`, `PPO`
 - [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — `Whole-Body Control`, `Human Demonstration`, `Robustness`, `Humanoid`, `Benchmark`, `Dataset`
 - [Conversational Human Audio-visual Talking Dialogue Generation](https://arxiv.org/abs/2607.02799) — `Humanoid`, `Pre-training`, `Dataset`, `Large Language Model`, `Simulation Benchmark`, `Real Robot`
 - [Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations](https://arxiv.org/abs/2607.01181) — `Human Demonstration`, `Benchmark`, `Simulation Benchmark`
@@ -1149,6 +1154,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - 🌟 [HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation,  / [code](https://github.com/carlosferrazza/humanoid-bench)](https://arxiv.org/abs/2403.10506), [website](https://humanoid-bench.github.io/) — `Locomotion`, `Manipulation`, `Humanoid`, `Benchmark`, `Simulation Benchmark`, `Open Source`
 
 ## Physics-Based Character Animation
+
+### 2026-07
+
+- [A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths](https://arxiv.org/abs/2607.08620) — `Humanoid`, `Physics-Based Character Animation`, `Human Motion Analysis and Synthesis`, `Real Robot`
 
 ### 2026-06
 

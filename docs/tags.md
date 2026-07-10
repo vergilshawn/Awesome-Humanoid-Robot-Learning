@@ -4,13 +4,13 @@ Browse papers by research topic and methodology.
 
 ---
 
-## Humanoid (495)
+## Humanoid (500)
 
-- [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
-- [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — 2026-07
-- [Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion](https://arxiv.org/abs/2607.07390) — 2026-07
-- [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — 2026-07
-- [Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act](https://arxiv.org/abs/2607.07109) — 2026-07
+- [ContactMimic: Humanoid Object Interaction via Contact Control](https://arxiv.org/abs/2607.08742) — 2026-07
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
+- [A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths](https://arxiv.org/abs/2607.08620) — 2026-07
+- [In vivo feasibility study of humanoid robots in surgery](https://arxiv.org/abs/2607.07972) — 2026-07
+- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
 
 ## Loco-Manipulation and Whole-Body Control (252)
 
@@ -20,69 +20,69 @@ Browse papers by research topic and methodology.
 - [Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control](https://arxiv.org/abs/2607.04837) — 2026-07
 - 🌟 [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) — 2026-07
 
-## Locomotion (182)
+## Locomotion (184)
 
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
+- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
 - [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
 - [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — 2026-07
 - [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — 2026-07
-- [Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act](https://arxiv.org/abs/2607.07109) — 2026-07
-- [ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion](https://arxiv.org/abs/2607.03454) — 2026-07
 
-## Manipulation (177)
+## Manipulation (180)
 
+- [ContactMimic: Humanoid Object Interaction via Contact Control](https://arxiv.org/abs/2607.08742) — 2026-07
+- [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
+- [In vivo feasibility study of humanoid robots in surgery](https://arxiv.org/abs/2607.07972) — 2026-07
 - [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
 - [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438) — 2026-07
-- [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
-- [ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling](https://arxiv.org/abs/2607.03828) — 2026-07
-- [Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments](https://arxiv.org/abs/2606.32009) — 2026-06
 
-## Simulation Benchmark (138)
+## Simulation Benchmark (140)
 
+- [ContactMimic: Humanoid Object Interaction via Contact Control](https://arxiv.org/abs/2607.08742) — 2026-07
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
 - [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438) — 2026-07
 - [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — 2026-07
 - [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
-- [ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion](https://arxiv.org/abs/2607.03454) — 2026-07
-- [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — 2026-07
 
-## State Estimation (110)
+## State Estimation (113)
 
+- [ContactMimic: Humanoid Object Interaction via Contact Control](https://arxiv.org/abs/2607.08742) — 2026-07
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
+- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
 - [Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion](https://arxiv.org/abs/2607.07390) — 2026-07
 - [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438) — 2026-07
-- [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — 2026-07
-- [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
-- [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — 2026-07
 
-## Physics-Based Character Animation (86)
+## Physics-Based Character Animation (89)
 
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
+- [A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths](https://arxiv.org/abs/2607.08620) — 2026-07
+- [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
 - [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
 - [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438) — 2026-07
-- [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — 2026-07
-- [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
-- [ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion](https://arxiv.org/abs/2607.03454) — 2026-07
 
-## Reinforcement Learning (79)
+## Reinforcement Learning (80)
 
+- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
 - [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
 - 🌟 [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) — 2026-07
 - [ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling](https://arxiv.org/abs/2607.03828) — 2026-07
 - [Coachable agents for interactive gameplay](https://arxiv.org/abs/2607.00642) — 2026-07
-- [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
 
-## Human Motion Analysis and Synthesis (63)
+## Human Motion Analysis and Synthesis (65)
 
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
+- [A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths](https://arxiv.org/abs/2607.08620) — 2026-07
 - [Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion](https://arxiv.org/abs/2607.07390) — 2026-07
 - [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — 2026-07
 - [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — 2026-07
-- [Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments](https://arxiv.org/abs/2606.32009) — 2026-06
-- [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
 
-## Teleoperation (60)
+## Teleoperation (62)
 
+- [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
+- [In vivo feasibility study of humanoid robots in surgery](https://arxiv.org/abs/2607.07972) — 2026-07
 - [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
 - [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — 2026-07
 - [ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling](https://arxiv.org/abs/2607.03828) — 2026-07
-- [HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum](https://arxiv.org/abs/2607.02332) — 2026-07
-- [Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments](https://arxiv.org/abs/2606.32009) — 2026-06
 
 ## Whole-Body Control (57)
 
@@ -92,61 +92,61 @@ Browse papers by research topic and methodology.
 - [ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control](https://arxiv.org/abs/2606.30362) — 2026-06
 - [KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability](https://arxiv.org/abs/2606.30243) — 2026-06
 
-## PPO (53)
+## PPO (55)
 
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
+- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
 - [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
 - [Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act](https://arxiv.org/abs/2607.07109) — 2026-07
 - [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
-- 🌟 [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) — 2026-07
-- [ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion](https://arxiv.org/abs/2607.03454) — 2026-07
 
-## Benchmark (53)
+## Benchmark (54)
 
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
 - [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — 2026-07
 - [Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations](https://arxiv.org/abs/2607.01181) — 2026-07
 - [ESC: Emotional Self-Correction for Reliable Vision-Language Models](https://arxiv.org/abs/2607.02089) — 2026-07
 - [Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory](https://arxiv.org/abs/2606.31037) — 2026-06
-- 🌟 [Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision](https://arxiv.org/abs/2606.30552) — 2026-06
 
-## Navigation (49)
+## Navigation (50)
 
+- [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
 - [Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion](https://arxiv.org/abs/2607.07390) — 2026-07
 - [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — 2026-07
 - [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
 - 🌟 [FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion](https://arxiv.org/abs/2606.31691) — 2026-06
-- [VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes](https://arxiv.org/abs/2606.30645) — 2026-06
 
-## Dataset (45)
+## Dataset (46)
 
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
 - [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — 2026-07
 - [ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion](https://arxiv.org/abs/2607.03454) — 2026-07
 - [Conversational Human Audio-visual Talking Dialogue Generation](https://arxiv.org/abs/2607.02799) — 2026-07
 - [RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation](https://arxiv.org/abs/2606.31836) — 2026-06
-- 🌟 [Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision](https://arxiv.org/abs/2606.30552) — 2026-06
 
-## Hardware Design (39)
+## Hardware Design (40)
 
+- [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
 - [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
 - [KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability](https://arxiv.org/abs/2606.30243) — 2026-06
 - [FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control](https://arxiv.org/abs/2606.28476) — 2026-06
 - [Comparative Study on Agility, Efficiency, and Impact Absorption of Bipedal Robots with Active Toes](https://arxiv.org/abs/2606.19699) — 2026-06
-- [DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity](https://arxiv.org/abs/2606.17418) — 2026-06
 
-## Diffusion (34)
+## Sim-to-Real (35)
 
+- [ContactMimic: Humanoid Object Interaction via Contact Control](https://arxiv.org/abs/2607.08742) — 2026-07
+- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
+- [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
+- [VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes](https://arxiv.org/abs/2606.30645) — 2026-06
+- [FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control](https://arxiv.org/abs/2606.28476) — 2026-06
+
+## Diffusion (35)
+
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
 - 🌟 [Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision](https://arxiv.org/abs/2606.30552) — 2026-06
 - [Dual-Flow Reinforcement Learning with State-Aware Exploration](https://arxiv.org/abs/2606.29820) — 2026-06
 - 🌟 [Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors](https://arxiv.org/abs/2606.28237) — 2026-06
 - [Humanoid-DART: Humanoid Loco-Manipulation using Diffusion-guided Augmentation through Relabeling and Tracking](https://arxiv.org/abs/2606.26855) — 2026-06
-- [DanceDuo: Bridging Human Movement and AI Choreography](https://arxiv.org/abs/2606.26507) — 2026-06
-
-## Sim-to-Real (33)
-
-- [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
-- [VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes](https://arxiv.org/abs/2606.30645) — 2026-06
-- [FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control](https://arxiv.org/abs/2606.28476) — 2026-06
-- [Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies](https://arxiv.org/abs/2606.27813) — 2026-06
-- [ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion](https://arxiv.org/abs/2606.16542) — 2026-06
 
 ## Vision-Language (31)
 
@@ -164,13 +164,13 @@ Browse papers by research topic and methodology.
 - [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
 - [ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control](https://arxiv.org/abs/2606.30362) — 2026-06
 
-## Safety (25)
+## Safety (26)
 
+- [In vivo feasibility study of humanoid robots in surgery](https://arxiv.org/abs/2607.07972) — 2026-07
 - [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — 2026-07
 - [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — 2026-07
 - [ESC: Emotional Self-Correction for Reliable Vision-Language Models](https://arxiv.org/abs/2607.02089) — 2026-07
 - [Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles](https://arxiv.org/abs/2607.00855) — 2026-07
-- [WOLF-VLA: Whole-Body Humanoid Optimal Locomotion Framework for Vision-Language-Action Learning](https://arxiv.org/abs/2606.25591) — 2026-06
 
 ## Human Demonstration (21)
 
@@ -220,21 +220,21 @@ Browse papers by research topic and methodology.
 - [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2606.26425) — 2026-06
 - [RGB: RL Guided Whole-Body MPPI for Humanoid Control](https://arxiv.org/abs/2606.25123) — 2026-06
 
-## Imitation Learning (17)
+## Imitation Learning (18)
 
+- [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
 - [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
 - [RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation](https://arxiv.org/abs/2606.31836) — 2026-06
 - [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
 - 🌟 [TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU](https://arxiv.org/abs/2606.24039) — 2026-06
-- [Human-like autonomy emerges from self-play and a pinch of human data](https://arxiv.org/abs/2606.19370) — 2026-06
 
-## Gait (15)
+## Gait (16)
 
+- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
 - [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
 - 🌟 [Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors](https://arxiv.org/abs/2606.28237) — 2026-06
 - [MotionPyramid: Hierarchical Motion Representation and Residual Interfaces](https://arxiv.org/abs/2606.20705) — 2026-06
 - [Predictive Style Matching: Natural and Robust Humanoid Locomotion](https://arxiv.org/abs/2606.07083) — 2026-06
-- [CoRe-MoE: Contrastive Reweighted Mixture of Experts for Multi-Terrain Humanoid Locomotion with Gait Adaptation](https://arxiv.org/abs/2606.04718) — 2026-06
 
 ## Fine-tuning (14)
 
@@ -316,6 +316,14 @@ Browse papers by research topic and methodology.
 - 🌟 [HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model](https://arxiv.org/abs/2602.11758) — 2026-02
 - 🌟 [DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos](https://arxiv.org/abs/2602.06949) — 2026-02
 
+## Transformer (9)
+
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
+- 🌟 [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) — 2026-07
+- 🌟 [Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision](https://arxiv.org/abs/2606.30552) — 2026-06
+- [AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance](https://arxiv.org/abs/2606.29209) — 2026-06
+- [Duet: Dual-Robot Understanding via Efficient Teaching](https://arxiv.org/abs/2606.20990) — 2026-06
+
 ## Motion Planning (9)
 
 - [ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control](https://arxiv.org/abs/2606.30362) — 2026-06
@@ -323,14 +331,6 @@ Browse papers by research topic and methodology.
 - 🌟 [WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots](https://arxiv.org/abs/2606.16600) — 2026-06
 - [Identification of a Physics-Based Electrical Power Consumption Model for the Unitree G1 Humanoid Arm](https://arxiv.org/abs/2606.15915) — 2026-06
 - [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — 2026-06
-
-## Transformer (8)
-
-- 🌟 [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) — 2026-07
-- 🌟 [Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision](https://arxiv.org/abs/2606.30552) — 2026-06
-- [AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance](https://arxiv.org/abs/2606.29209) — 2026-06
-- [Duet: Dual-Robot Understanding via Efficient Teaching](https://arxiv.org/abs/2606.20990) — 2026-06
-- [Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain](https://arxiv.org/abs/2606.08059) — 2026-06
 
 ## Multi-Modal (8)
 
@@ -372,6 +372,14 @@ Browse papers by research topic and methodology.
 - [Voice ''Cloning'' is Style Transfer](https://arxiv.org/abs/2605.16578) — 2026-05
 - [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — 2026-04
 
+## SAC (6)
+
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
+- 🌟 [FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion](https://arxiv.org/abs/2606.31691) — 2026-06
+- [AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance](https://arxiv.org/abs/2606.29209) — 2026-06
+- [MotionPyramid: Hierarchical Motion Representation and Residual Interfaces](https://arxiv.org/abs/2606.20705) — 2026-06
+- [Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models](https://arxiv.org/abs/2606.15918) — 2026-06
+
 ## Actor-Critic (5)
 
 - [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
@@ -379,14 +387,6 @@ Browse papers by research topic and methodology.
 - [Dual-Flow Reinforcement Learning with State-Aware Exploration](https://arxiv.org/abs/2606.29820) — 2026-06
 - [Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models](https://arxiv.org/abs/2606.15918) — 2026-06
 - [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — 2026-06
-
-## SAC (5)
-
-- 🌟 [FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion](https://arxiv.org/abs/2606.31691) — 2026-06
-- [AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance](https://arxiv.org/abs/2606.29209) — 2026-06
-- [MotionPyramid: Hierarchical Motion Representation and Residual Interfaces](https://arxiv.org/abs/2606.20705) — 2026-06
-- [Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models](https://arxiv.org/abs/2606.15918) — 2026-06
-- [Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization](https://arxiv.org/abs/2605.30928) — 2026-05
 
 ## Domain Randomization (5)
 
@@ -461,6 +461,18 @@ Browse papers by research topic and methodology.
 - 🌟 [CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control](https://arxiv.org/abs/2410.03441) — 2024-10
 - [Multi-task Deep Reinforcement Learning with PopArt](https://arxiv.org/abs/1809.04474) — 2018-09
 
+## Few-Shot (3)
+
+- [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
+- [FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control](https://arxiv.org/abs/2606.28476) — 2026-06
+- [H-Zero: Cross-Humanoid Locomotion Pretraining Enables Few-shot Novel Embodiment Transfer](https://arxiv.org/abs/2512.00971) — 2025-12
+
+## Self-Supervised (3)
+
+- [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
+- [Humanoid-DART: Humanoid Loco-Manipulation using Diffusion-guided Augmentation through Relabeling and Tracking](https://arxiv.org/abs/2606.26855) — 2026-06
+- [SMAP: Self-supervised Motion Adaptation for Physically Plausible Humanoid Whole-body Control](https://arxiv.org/abs/2505.19463) — 2025-05
+
 ## Gaussian Splatting (3)
 
 - [VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes](https://arxiv.org/abs/2606.30645) — 2026-06
@@ -505,16 +517,6 @@ Browse papers by research topic and methodology.
 
 - [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
 - [HOIST: Humanoid Optimization with Imitation and Sample-efficient Tuning for Manipulating Suspended Loads](https://arxiv.org/abs/2606.00252) — 2026-05
-
-## Few-Shot (2)
-
-- [FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control](https://arxiv.org/abs/2606.28476) — 2026-06
-- [H-Zero: Cross-Humanoid Locomotion Pretraining Enables Few-shot Novel Embodiment Transfer](https://arxiv.org/abs/2512.00971) — 2025-12
-
-## Self-Supervised (2)
-
-- [Humanoid-DART: Humanoid Loco-Manipulation using Diffusion-guided Augmentation through Relabeling and Tracking](https://arxiv.org/abs/2606.26855) — 2026-06
-- [SMAP: Self-supervised Motion Adaptation for Physically Plausible Humanoid Whole-body Control](https://arxiv.org/abs/2505.19463) — 2025-05
 
 ## Generative Models (2)
 

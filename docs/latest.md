@@ -2,6 +2,122 @@
 
 All papers sorted by publication date (newest first).
 
+## ContactMimic: Humanoid Object Interaction via Contact Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08742)
+- **Authors:** Xinyao Li, Xialin He, Runpei Dong, Saurabh Gupta
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - State Estimation
+  - Sim-to-Real
+  - Simulation Benchmark
+
+### Summary
+
+Keypoint tracking alone is insufficient for object interaction tasks such as sitting on a chair, wiping a board, or pushing furniture, where the robot can reach the correct pose without making meaningful physical contact with the object. We present CONTACTMIMIC, a learning framework that tracks explicit partlevel binary contact commands alongside keypoint trajectories.
+
+---
+
+## ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08741)
+- **Authors:** Kaifeng Zhao, Mathis Petrovich, Haotian Zhang, Tingwu Wang, Siyu Tang, Davis Rempe
+- **Published:** 2026-07
+- **Tags:**
+  - Locomotion
+  - Transformer
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - PPO
+  - SAC
+  - Diffusion
+
+### Summary
+
+Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, they lack the inference speed required for interactive settings.
+
+---
+
+## A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08620)
+- **Authors:** Rosanna Coccaro, Enrico Ferrentino, Antonio Parziale, Angelo Marcelli, Pasquale Chiacchio
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+As human-robot interaction rapidly spreads in numerous fields, the subject of robot acceptance gains increasing importance. Visual similarity to the human body, as occurs for humanoids, is generally not enough to ensure acceptance in physical interaction, as acceptance directly links to comfort and ergonomics, which are measured in terms of the quality of the robot movement perceived by the human.
+
+---
+
+## AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08341)
+- **Authors:** Chenxi Wang, Ying Feng, Hongjie Fang, Shangning Xia, Lixin Yang, Chuan Wen et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Imitation Learning
+  - Teleoperation
+  - Few-Shot
+  - Self-Supervised
+  - Manipulation
+  - Navigation
+  - Hardware Design
+  - Physics-Based Character Animation
+
+### Summary
+
+Teleoperation is a key interface for controlling dexterous robotic hands and collecting demonstrations for imitation learning. Its effectiveness largely depends on kinematic retargeting, which maps operator hand motions to feasible and intuitive robot hand motions.
+
+---
+
+## In vivo feasibility study of humanoid robots in surgery
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07972)
+- **Authors:** Zekai Liang, Nikita Thareja, Peihan Zhang, Calvin Joyce, Soofiyan Atar, Florian Richter et al. (10 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Safety
+  - Humanoid
+
+### Summary
+
+Recent advances in actuation, control and learning have rapidly pushed humanoid robots from a distant vision towards near-term real-world deployment. Healthcare is a particularly pressing domain, in which staffing shortages and increasing care demand are widening the gap between clinical workload and available skilled labour.
+
+---
+
+## Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07830)
+- **Authors:** Xuanyu Chen, Mohan Liu, Dengchen Mei, Zhihao Gu, Haitian Zhang, Kaimin Mao et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Humanoid
+  - Gait
+  - PPO
+  - State Estimation
+
+### Summary
+
+Model-free reinforcement learning has enabled impressive humanoid locomotion; however, control on steep slopes remains largely unexplored. Unlike flat or discrete terrains, sloped terrains impose a persistent gravitational bias that demands simultaneous stability and posture control.
+
+---
+
 ## Immersive Social Interaction with VR and LLM-Assisted Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.07430)
@@ -61,7 +177,7 @@ Nonverbal communication through head and neck movement is fundamental to human s
 ## Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.07370)
-- **Authors:** Xufeng Zhao, Fuzhi Yang, Jianhui Chen, Li Gao, Zhang Meng, Jie Gao et al. (18 authors)
+- **Authors:** Xufeng Zhao, Fuzhi Yang, Jianhui Chen, Li Gao, Zhang Meng, Jie Gao et al. (20 authors)
 - **Published:** 2026-07
 - **Tags:**
   - Teleoperation
@@ -75,7 +191,7 @@ Nonverbal communication through head and neck movement is fundamental to human s
 
 ### Summary
 
-In embodied intelligence systems, the motion controller serves as the critical bridge between semantic reasoning and physical execution. Humanoid control has progressed rapidly through large-scale human motion-capture data and motion-tracking paradigm.
+The motion controller is one of the most fundamental modules in embodied intelligence systems. Driven by large-scale human motion-capture data and the motion-tracking paradigm, humanoid control has achieved remarkable progress in recent years.
 
 ---
 

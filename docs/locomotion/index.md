@@ -1,10 +1,10 @@
 # Locomotion
 
-**131 papers** in this category.
+**132 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (5 papers)
+- [2026-07](/locomotion/2026-07) (6 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,27 @@
 ---
 
 ## Recent Papers
+
+## Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.07830)
+- **Authors:** Xuanyu Chen, Mohan Liu, Dengchen Mei, Zhihao Gu, Haitian Zhang, Kaimin Mao et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Humanoid
+  - Gait
+  - PPO
+  - State Estimation
+
+### Summary
+
+Model-free reinforcement learning has enabled impressive humanoid locomotion; however, control on steep slopes remains largely unexplored. Unlike flat or discrete terrains, sloped terrains impose a persistent gravitational bias that demands simultaneous stability and posture control.
+
+---
 
 ## Initiation Safety: A Missing Dimension in Generalist-Robot Safety
 
@@ -431,25 +452,5 @@ Humanoid robots have achieved strong locomotion capabilities, but reliable navig
 ### Summary
 
 Perceptive bipedal locomotion over sparse terrain remains a difficult challenge: model-based methods are precise but brittle to uncertainty, while model-free methods are robust but struggle to discover the precise, constrained motions required for safety-critical locomotion where small errors can cause catastrophic failures. We propose a model-assisted reinforcement learning (RL) framework that combines both perspectives in three steps: (1) generate a safe reference trajectory using simplified models; (2) train a privileged teacher policy guided by a control Lyapunov function (CLF) reward built around the safe reference trajectory; and (3) distill the teacher into a vision-based student policy.
-
----
-
-## PTDL:Multi-Terrain Fall Recovery via Phase-Terrain Decoupled Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08922)
-- **Authors:** Xiaoyu Xu, Zhiming Chen, Yuenan Zhao, Ran Song, Wei Zhang
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Walking
-  - Proprioception
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid robots can fall on slopes, gravel, and uneven ground in unstructured environments. We target integrated fall recovery and locomotion: rebuilding balance from a fallen state using proprioception alone and resuming velocity-commanded walking at the fall site.
 
 ---

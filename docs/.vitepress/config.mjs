@@ -170,7 +170,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (81)",
+            "text": "Manipulation (82)",
             "collapsed": true,
             "items": [
                   {
@@ -276,7 +276,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (33)",
+            "text": "Teleoperation (35)",
             "collapsed": true,
             "items": [
                   {
@@ -346,7 +346,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (131)",
+            "text": "Locomotion (132)",
             "collapsed": true,
             "items": [
                   {
@@ -708,7 +708,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (59)",
+            "text": "Simulation Benchmark (60)",
             "collapsed": true,
             "items": [
                   {
@@ -782,12 +782,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (38)",
+            "text": "Physics-Based Character Animation (39)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/physics-based-character-animation/"
+                  },
+                  {
+                        "text": "2026-07",
+                        "link": "/physics-based-character-animation/2026-07"
                   },
                   {
                         "text": "2026-06",
