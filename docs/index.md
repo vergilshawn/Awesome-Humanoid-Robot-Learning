@@ -8,7 +8,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 692
+- **Total Papers:** 695
 - **Real Robot Papers:** 101
 - **Open Source Papers:** 137
 - **Latest Month:** 2026-07
@@ -16,9 +16,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 ### Categories
 
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (221)
-- [Manipulation](/manipulation/) (82)
+- [Manipulation](/manipulation/) (84)
 - [Teleoperation](/teleoperation/) (35)
-- [Locomotion](/locomotion/) (132)
+- [Locomotion](/locomotion/) (133)
 - [Navigation](/navigation/) (25)
 - [State Estimation](/state-estimation/) (29)
 - [Sim-to-Real](/sim-to-real/) (12)
@@ -31,6 +31,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323) — 2026-07
+  - [Locomotion](/locomotion/)
+-  [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) — 2026-07
+  - [Manipulation](/manipulation/)
+-  [AgenticFocus: Object-Preserving Mixed Reality Synthesis from Human FPV Video for Dexterous Humanoid Learning](https://arxiv.org/abs/2607.08857) — 2026-07
+  - [Manipulation](/manipulation/)
 -  [ContactMimic: Humanoid Object Interaction via Contact Control](https://arxiv.org/abs/2607.08742) — 2026-07
   - [Manipulation](/manipulation/)
 -  [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
@@ -45,44 +51,38 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Locomotion](/locomotion/)
 -  🤖 [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
   - [Manipulation](/manipulation/)
--  🤖 [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — 2026-07
-  - [Locomotion](/locomotion/)
--  [Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion](https://arxiv.org/abs/2607.07390) — 2026-07
-  - [Navigation](/navigation/)
--  [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — 2026-07
-  - [Teleoperation](/teleoperation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (500)
+- **Humanoid** (502)
 - **Loco-Manipulation and Whole-Body Control** (252)
-- **Locomotion** (184)
-- **Manipulation** (180)
-- **Simulation Benchmark** (140)
+- **Locomotion** (185)
+- **Manipulation** (182)
+- **Simulation Benchmark** (142)
 - **State Estimation** (113)
-- **Physics-Based Character Animation** (89)
+- **Physics-Based Character Animation** (90)
 - **Reinforcement Learning** (80)
 - **Human Motion Analysis and Synthesis** (65)
 - **Teleoperation** (62)
 - **Whole-Body Control** (57)
-- **PPO** (55)
-- **Benchmark** (54)
-- **Navigation** (50)
-- **Dataset** (46)
+- **PPO** (56)
+- **Benchmark** (55)
+- **Navigation** (51)
+- **Dataset** (48)
 - **Hardware Design** (40)
 - **Sim-to-Real** (35)
 - **Diffusion** (35)
 - **Vision-Language** (31)
+- **Safety** (27)
 - **Zero-Shot** (27)
-- **Safety** (26)
-- **Human Demonstration** (21)
+- **Human Demonstration** (22)
+- **Walking** (21)
 - **Distillation** (21)
 - **Biped** (21)
 - **Foundation Model** (21)
 - **Robustness** (20)
-- **Walking** (20)
 - **Imitation Learning** (18)
 - **Gait** (16)
 - **Fine-tuning** (14)
@@ -402,6 +402,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/manipulation/2026-07)
 
+- [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) — `Manipulation`, `Human Demonstration`, `Benchmark`, `Dataset`, `GAN`, `Simulation Benchmark`
+- [AgenticFocus: Object-Preserving Mixed Reality Synthesis from Human FPV Video for Dexterous Humanoid Learning](https://arxiv.org/abs/2607.08857) — `Humanoid`, `Dataset`, `Policy Learning`, `Manipulation`, `Simulation Benchmark`
 - [ContactMimic: Humanoid Object Interaction via Contact Control](https://arxiv.org/abs/2607.08742) — `Manipulation`, `Humanoid`, `State Estimation`, `Sim-to-Real`, `Simulation Benchmark`
 - [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — `Imitation Learning`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Inverse Kinematics`
 - [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438) — `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`, `Simulation Benchmark`, `Physics-Based Character Animation`
@@ -640,6 +642,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/locomotion/2026-07)
 
+- [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323) — `Navigation`, `Safety`, `Humanoid`, `Walking`, `PPO`, `Locomotion`
 - [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Humanoid`, `Gait`, `PPO`
 - [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — `Safety`, `Humanoid`, `Locomotion`, `Real Robot`
 - [Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act](https://arxiv.org/abs/2607.07109) — `Humanoid`, `PPO`, `Locomotion`

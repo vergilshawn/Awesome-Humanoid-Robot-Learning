@@ -1,10 +1,10 @@
 # Locomotion
 
-**132 papers** in this category.
+**133 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (6 papers)
+- [2026-07](/locomotion/2026-07) (7 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,25 @@
 ---
 
 ## Recent Papers
+
+## Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.09323)
+- **Authors:** Leonie Leven, Marko Ackermann, Christian Werner, Melina Schmetterer, Theresa Buchner, Monika Eckstein et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Navigation
+  - Safety
+  - Humanoid
+  - Walking
+  - PPO
+  - Locomotion
+
+### Summary
+
+The shortage of healthcare staff is a challenge in geriatric care. To address this, robots can be integrated into care settings to provide assistance and emotional support.
+
+---
 
 ## Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains
 
@@ -431,26 +450,5 @@ Spiking Neural Networks (SNNs) coupled with neuromorphic hardware offer energy-e
 ### Summary
 
 Humanoid robots have achieved strong locomotion capabilities, but reliable navigation on versatile terrains remains challenging because obstacle avoidance must be coordinated with dynamically feasible motion. In this work, we present GuideWalk, a unified end-to-end framework that integrates traversability-aware navigation guidance with terrain-adaptive locomotion teacher for humanoid navigation.
-
----
-
-## MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.10288)
-- **Authors:** Codrin Crismariu, Ryan K. Cosner
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Safety
-  - Biped
-  - Humanoid
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Perceptive bipedal locomotion over sparse terrain remains a difficult challenge: model-based methods are precise but brittle to uncertainty, while model-free methods are robust but struggle to discover the precise, constrained motions required for safety-critical locomotion where small errors can cause catastrophic failures. We propose a model-assisted reinforcement learning (RL) framework that combines both perspectives in three steps: (1) generate a safe reference trajectory using simplified models; (2) train a privileged teacher policy guided by a control Lyapunov function (CLF) reward built around the safe reference trajectory; and (3) distill the teacher into a vision-based student policy.
 
 ---

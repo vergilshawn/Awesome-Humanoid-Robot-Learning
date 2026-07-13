@@ -1,10 +1,10 @@
 # Manipulation
 
-**82 papers** in this category.
+**84 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (5 papers)
+- [2026-07](/manipulation/2026-07) (7 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -32,6 +32,44 @@
 ---
 
 ## Recent Papers
+
+## TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.09190)
+- **Authors:** Suting Ni, Hanbing Zhang, Zhenyu Wei, Guo Chen, Chixuan Zhang, Ye Shi et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Human Demonstration
+  - Benchmark
+  - Dataset
+  - GAN
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Tactile feedback is fundamental to Hand-Object Interaction (HOI), governing contact formation, force regulation, and stable manipulation, making it essential for achieving true human-like dexterous manipulation. Yet, current human-to-robot dexterous transfer pipelines primarily rely on kinematic trajectories, resulting in motion imitation without physically grounded interaction.
+
+---
+
+## AgenticFocus: Object-Preserving Mixed Reality Synthesis from Human FPV Video for Dexterous Humanoid Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08857)
+- **Authors:** Iaroslav Kolomiets, Miguel Altamirano Cabrera, Artem Lykov, Jeffrin Sam, Dmitrii Iarchuk, Yara Mahmoud et al. (9 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Policy Learning
+  - Manipulation
+  - Simulation Benchmark
+
+### Summary
+
+Human egocentric video is a scalable supervision source for humanoid policy learning, but current pipelines struggle with hand-object occlusion, oversimplified motion, or specialized capture hardware. We introduce AgenticFocus, a Mixed Reality synthesis pipeline that converts ordinary first-person-view human videos into robot-trainable demonstrations by restoring occluded object geometry, reconstructing full-hand motion, and retargeting it to a humanoid embodiment through camera-relative alignment and layered compositing.
+
+---
 
 ## ContactMimic: Humanoid Object Interaction via Contact Control
 
@@ -376,47 +414,5 @@ Dexterous robotic hands face a longstanding trade-off among dexterity, compactne
 ### Summary
 
 Human interventions provide crucial corrective signals for post-training Vision-Language-Action (VLA) models. However, enabling seamless humanoid interventions is a formidable systems challenge due to complex whole-body kinematics and dexterous-hand control.
-
----
-
-## V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.16436)
-- **Authors:** Kaihan Chen, Yanming Shao, Haifeng Ji, Xiaokang Yang, Yao Mu
-- **Published:** 2026-06
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Human Demonstration
-  - Embodied AI
-  - Benchmark
-  - Policy Learning
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Achieving autonomous robotic dexterous manipulation requires precise, human-like action sequences at scale. As a scalable supplement to costly teleoperation data, extracting trajectories with both visual fidelity and physical plausibility from monocular videos represents a promising frontier in embodied AI.
-
----
-
-## 🌟 DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.15133)
-- **Project:** [GitHub](https://github.com/AIGeeksGroup/DragMesh-2)
-- **Authors:** Tianshan Zhang, Yijia Duan, Yanjun Li, Zeyu Zhang, Hao Tang
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Robustness
-  - Humanoid
-  - Contact Dynamics
-  - Policy Learning
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Dexterous interaction with articulated objects is important for household, assistive, and humanoid manipulation, where multi-finger hands can provide compliant contact patterns beyond parallel-jaw grasping. However, articulated-object manipulation differs from static-object manipulation: the target part cannot be directly actuated, and its motion must emerge through sustained physical hand--handle contact.
 
 ---

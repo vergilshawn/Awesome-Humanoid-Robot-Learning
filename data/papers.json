@@ -1,5 +1,113 @@
 [
   {
+    "arxiv_id": "2607.09323",
+    "title": "Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot",
+    "paper_url": "https://arxiv.org/abs/2607.09323",
+    "project_url": null,
+    "authors": [
+      "Leonie Leven",
+      "Marko Ackermann",
+      "Christian Werner",
+      "Melina Schmetterer",
+      "Theresa Buchner",
+      "Monika Eckstein",
+      "Katja Mombaur"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-10",
+    "abstract": "The shortage of healthcare staff is a challenge in geriatric care. To address this, robots can be integrated into care settings to provide assistance and emotional support. A promising application is walking guidance, particularly benefiting older adults as navigation skills deteriorate with aging. As walking guidance involves direct contact, the aim of this study is to understand how older adults perceive and respond to different touch modes during guided walking. 24 older adults (68 - 88 yrs.) walked four times a ten-meter trajectory guided by the robot TIAGo Pro in four contact conditions: no physical contact (NC); physical contact through holding the robot's wrist with the hand (HH); physical interaction through linking arms with the robot (LA); and physical contact through resting the forearm on the robots forearm (FC). A multimodal assessment approach included electrocardiogram, electrodermal activity, contact force, distance to robot, and questionnaires. Physiological results reveal a slight increase in stress levels during robot interaction. Behavioural and subjective measures, however, show overall acceptance of robotic touch. The two conditions corresponding to larger interaction forces (HH and FC) were associated with lower relative distances between participant and robot, indicating a higher trust and confidence. Questionnaire responses supported these findings, evidencing greater perceived safety, trust and comfort in these conditions. This study provides insights for the design of robotic walking guidance assistance, indicating that gentle, stable touch is preferred by older adults in comparison to contactless interaction.",
+    "categories": [
+      "Locomotion",
+      "Navigation"
+    ],
+    "tags": [
+      "Navigation",
+      "Safety",
+      "Humanoid",
+      "Walking",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.09190",
+    "title": "TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation",
+    "paper_url": "https://arxiv.org/abs/2607.09190",
+    "project_url": null,
+    "authors": [
+      "Suting Ni",
+      "Hanbing Zhang",
+      "Zhenyu Wei",
+      "Guo Chen",
+      "Chixuan Zhang",
+      "Ye Shi",
+      "Jingya Wang"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-10",
+    "abstract": "Tactile feedback is fundamental to Hand-Object Interaction (HOI), governing contact formation, force regulation, and stable manipulation, making it essential for achieving true human-like dexterous manipulation. Yet, current human-to-robot dexterous transfer pipelines primarily rely on kinematic trajectories, resulting in motion imitation without physically grounded interaction. To address this, we introduce TactiDex, a real-world tactile-guided benchmark specifically designed to move dexterous manipulation beyond kinematic mimicry toward contact-level human-likeness. TactiDex provides a comprehensive dataset that elegantly aligns whole-hand tactile signals with multi-granularity kinematic and object states, coupled with standardized evaluation metrics. Building upon this data paradigm, we propose a tactile-driven transfer framework that effectively translates human demonstrations into physically plausible robotic execution. We introduce TactiSkill, a framework built upon a novel tri-component tactile reward that innovatively uses tactile signals as structured supervision. This reward unifies guidance, human-like alignment, and contact constraints into a single objective. Through comprehensive experiments on both single and bimanual tasks, we demonstrate that TactiSkill achieves superior performance in manipulation success and physical realism. This work lays a crucial foundation for advancing tactile-aware dexterous manipulation. Our project page at https://tactidex.github.io/.",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Human Demonstration",
+      "Benchmark",
+      "Dataset",
+      "GAN",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2607.08857",
+    "title": "AgenticFocus: Object-Preserving Mixed Reality Synthesis from Human FPV Video for Dexterous Humanoid Learning",
+    "paper_url": "https://arxiv.org/abs/2607.08857",
+    "project_url": null,
+    "authors": [
+      "Iaroslav Kolomiets",
+      "Miguel Altamirano Cabrera",
+      "Artem Lykov",
+      "Jeffrin Sam",
+      "Dmitrii Iarchuk",
+      "Yara Mahmoud",
+      "Daniia Zinniatullina",
+      "Mikhail Konenkov",
+      "Dzmitry Tsetserukou"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-09",
+    "abstract": "Human egocentric video is a scalable supervision source for humanoid policy learning, but current pipelines struggle with hand-object occlusion, oversimplified motion, or specialized capture hardware. We introduce AgenticFocus, a Mixed Reality synthesis pipeline that converts ordinary first-person-view human videos into robot-trainable demonstrations by restoring occluded object geometry, reconstructing full-hand motion, and retargeting it to a humanoid embodiment through camera-relative alignment and layered compositing. The resulting dataset pairs focused visual observations with synchronized robot actions and states. AgenticFocus achieves lower trajectory error and smoother wrist motion than cross-embodiment baselines, with SPARC scores of -5.18 versus -5.56 and -6.05.",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "Dataset",
+      "Policy Learning",
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
     "arxiv_id": "2607.08742",
     "title": "ContactMimic: Humanoid Object Interaction via Contact Control",
     "paper_url": "https://arxiv.org/abs/2607.08742",
