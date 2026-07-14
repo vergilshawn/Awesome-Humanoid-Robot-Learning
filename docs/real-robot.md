@@ -6,8 +6,8 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
-- **Digit:** 7 papers
-- **Figure:** 33 papers
+- **Digit:** 8 papers
+- **Figure:** 37 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 46 papers
 - **Unitree H1:** 1 papers
@@ -17,6 +17,102 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11855)
+- **Authors:** Deniz Kerimoglu, Junnosuke Kamohara, Jiyeon Maeng, Ziwon Yoon, Seth Hutchinson, Ye Zhao et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Biped
+  - Walking
+
+### Summary
+
+Bipedal robots are challenging to control because they operate close to instability, where small variations in foot-terrain contact can rapidly destabilize locomotion. On rigid terrain, bipedal robots mitigate this fragility by using well-established contact mechanics and control strategies.
+
+---
+
+## Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11690)
+- **Authors:** Dakarai Crowder, Ruohan Zhang, Alexis E. Block, Wenzhen Yuan
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Tactile Sensing
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+  - Teleoperation
+  - State Estimation
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Tactile sensing for social-physical human-robot interaction (spHRI) is designed in a hardware-driven manner, where predefined sensor configurations constrain coverage, spatial resolution, and the range of recognizable gestures. We propose a requirement-driven framework that derives sensing requirements, specifically spatial resolution and placement, directly from interaction data.
+
+---
+
+## DA-Nav: Direction-Aware City-Scale Vision-Language Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11638)
+- **Authors:** Ye Yuan, Kehan Chen, Xinqiang Yu, Wentao Xu, Heng Wang, Libo Huang et al. (10 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Humanoid
+  - Vision-Language
+  - Fine-tuning
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+City-scale outdoor navigation is currently hindered by the heavy reliance on dense maps or costly navigation supervision. In this work, we introduce a novel paradigm for leveraging directional instructions from commercial navigation tools (e.g., Google Maps).
+
+---
+
+## Motion4Motion: Motion Transfer Across Subjects at Inference
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11644)
+- **Authors:** Ling-Hao Chen, Zixin Yin, Duomin Wang, Xianfang Zeng, Gang Yu
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This work explores the motion transfer from one video to another, which is crucial in animation for diverse characters. Previously, video motion transfer has been largely explored between human and human-like characters, enabling a lot of applications in digital creation.
+
+---
+
+## Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.09911)
+- **Authors:** Vaibhav Sanjay, Yorai Shaoul, Jiaoyang Li
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Safety
+  - Path Planning
+  - Collision
+  - Diffusion
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Multi-robot path planning in human-shared environments requires a delicate balance between robust inter-robot coordination and socially aware behavior. While diffusion models excel at generating predictable, human-like paths, existing generative planners are often restricted to paths of fixed duration and high computational latency, limiting their adaptability to varying goal distances and hindering real-time deployment.
+
+---
 
 ## A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths
 

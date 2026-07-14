@@ -1,10 +1,10 @@
 # Teleoperation
 
-**35 papers** in this category.
+**36 papers** in this category.
 
 ## Months
 
-- [2026-07](/teleoperation/2026-07) (4 papers)
+- [2026-07](/teleoperation/2026-07) (5 papers)
 - [2026-06](/teleoperation/2026-06) (9 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
@@ -23,6 +23,22 @@
 ---
 
 ## Recent Papers
+
+## A Biomimetic Myoelectric Tentacle Prosthesis with Sensorless Object Detection and Vibrotactile Feedback
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.09807)
+- **Authors:** Gabrielle Marion, Olivier Lecompte, Amandine Gesta, Abolfazl Mohebbi
+- **Published:** 2026-07
+- **Tags:**
+  - Robustness
+  - Teleoperation
+  - State Estimation
+
+### Summary
+
+This paper presents the design and evaluation of a myoelectric tentacle-shaped prosthesis integrating electromyographic (EMG) control, sensorless object detection, and vibrotactile feedback. The objective was to develop a responsive and intuitive assistive device that adapts to various object shapes while providing sensory feedback to the user.
+
+---
 
 ## AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance
 
@@ -377,20 +393,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## TeleGate: Whole-Body Humanoid Teleoperation via Gated Expert Selection with Motion Prior
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.09628)
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## A Closed-Form Geometric Retargeting Solver for Upper Body Humanoid Robot Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.01632)
 - **Published:** 2026-02
 - **Tags:**
   - Teleoperation

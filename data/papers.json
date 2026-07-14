@@ -1,5 +1,421 @@
 [
   {
+    "arxiv_id": "2607.11874",
+    "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
+    "paper_url": "https://arxiv.org/abs/2607.11874",
+    "project_url": null,
+    "authors": [
+      "Yunhai Feng",
+      "Natalie Leung",
+      "Jiaxuan Wang",
+      "Lujie Yang",
+      "Haozhi Qi",
+      "Preston Culbertson"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-13",
+    "abstract": "Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipulation involves complex, contact-rich dynamics and requires delicate regulation of contact modes and forces. We present REGRIND, a minimalist retargeting-guided RL pipeline that learns dexterous manipulation policies from a single human demonstration. REGRIND retargets human hand-object motion to a robot reference that preserves hand-object spatial and contact relationships, trains a residual RL policy in simulation to track object-centric keypoints along that reference, and transfers the resulting policy zero-shot to hardware with careful system identification. The resulting policies produce fluid, human-like behavior on two different multi-fingered hands across contact-rich tool-use tasks, including operating a pair of scissors and turning a screwdriver. Through systematic hardware experiments, we identify and analyze the key factors that govern sim-to-real transfer in dexterous manipulation, offering practical guidance for retargeting-based learning in contact-rich settings. Videos and code are available at https://yunhaifeng.com/REGRIND.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "State Estimation",
+      "Sim-to-Real",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Sim-to-Real",
+      "Manipulation",
+      "Zero-Shot",
+      "Human Demonstration",
+      "Humanoid",
+      "System Identification",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.11855",
+    "title": "Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation",
+    "paper_url": "https://arxiv.org/abs/2607.11855",
+    "project_url": null,
+    "authors": [
+      "Deniz Kerimoglu",
+      "Junnosuke Kamohara",
+      "Jiyeon Maeng",
+      "Ziwon Yoon",
+      "Seth Hutchinson",
+      "Ye Zhao",
+      "Daniel I. Goldman"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-13",
+    "abstract": "Bipedal robots are challenging to control because they operate close to instability, where small variations in foot-terrain contact can rapidly destabilize locomotion. On rigid terrain, bipedal robots mitigate this fragility by using well-established contact mechanics and control strategies. On flowable surfaces such as granular slopes, foot contact can induce large surface deformations and solid-fluid-like transitions, coupling terrain effects with robot dynamics, leading to underperformance or failure. This is partly due to the lack of reliable methods to represent the dynamics of flowable terrain, making it difficult to account for terrain effects in locomotion design. Here, we investigate how controlling terrain response can improve bipedal locomotion on granular slopes by studying the terradynamics of cleated feet, thin plates emanating from the foot soles. Systematic studies of a small-scale (1.4 kg) robophysical biped reveal that cleats with sparse and dense spacing lead to excessive terrain yielding and resistance, respectively, degrading performance and leading to failure. An intermediate cleat spacing distributes interaction forces to maintain substrate stresses near (or below) the yield threshold, enabling walking on granular slopes up to 30 degrees. Guided by these principles, we design a foot that actively adjusts cleat depth and accommodates both rigid and granular terrain. We also demonstrate that the principles of effective foot-terrain interaction translate to a larger (15 kg) autonomous biped. Our study presents an alternative to conventional body-centric robot control approaches, which regulate terrain-induced effects through body motion, by instead regulating terrain interactions through limb-centric approach.",
+    "categories": [
+      "Locomotion",
+      "Manipulation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Biped",
+      "Walking"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.11690",
+    "title": "Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction",
+    "paper_url": "https://arxiv.org/abs/2607.11690",
+    "project_url": null,
+    "authors": [
+      "Dakarai Crowder",
+      "Ruohan Zhang",
+      "Alexis E. Block",
+      "Wenzhen Yuan"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-13",
+    "abstract": "Tactile sensing for social-physical human-robot interaction (spHRI) is designed in a hardware-driven manner, where predefined sensor configurations constrain coverage, spatial resolution, and the range of recognizable gestures. We propose a requirement-driven framework that derives sensing requirements, specifically spatial resolution and placement, directly from interaction data. Using a VR-based platform with haptic feedback, we collected high-resolution whole-body contact distributions across multiple social scenarios, from which we identified nine recurring social touch gestures. Eight gestures were selected for controlled data collection with 18 participants, yielding an open-source dataset of 5,520 trials. Analysis of contact distributions and simulated tactile encodings provides quantitative baselines for skin coverage and sensor density on a humanoid robot platform. While demonstrated on a single robot platform, the methodology is designed to be transferable to other robot morphologies, potentially enabling morphology-specific sensing requirements to be derived prior to hardware fabrication.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Humanoid",
+      "Tactile Sensing",
+      "Dataset",
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.11638",
+    "title": "DA-Nav: Direction-Aware City-Scale Vision-Language Navigation",
+    "paper_url": "https://arxiv.org/abs/2607.11638",
+    "project_url": null,
+    "authors": [
+      "Ye Yuan",
+      "Kehan Chen",
+      "Xinqiang Yu",
+      "Wentao Xu",
+      "Heng Wang",
+      "Libo Huang",
+      "Chuanguang Yang",
+      "Yan Huang",
+      "Jiawei He",
+      "Zhulin An"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-13",
+    "abstract": "City-scale outdoor navigation is currently hindered by the heavy reliance on dense maps or costly navigation supervision. In this work, we introduce a novel paradigm for leveraging directional instructions from commercial navigation tools (e.g., Google Maps). To bridge the gap between commercial instructions and executable navigation actions, while mitigating long-horizon error accumulation through robust trajectory recovery, we propose DA-Nav, a Direction-Aware vision-language Navigation framework that reformulates navigation as a discrete spatial grounding problem on the egocentric 2D image plane. To achieve trajectory recovery, DA-Nav employs a Chain-of-Thought (CoT) reasoning process encompassing deviation assessment, action prediction, and target grid selection. We further introduce ReDA, a dataset that provides direction-aware instructions and recovery trajectories to enhance spatial grounding and support CoT recovery reasoning. Extensive experiments in CARLA demonstrate that DA-Nav achieves a high success rate of 56.16% in unseen urban environments, outperforming existing State-of-The-Art (SoTA) methods while maintaining a substantially stronger recovery capability. Furthermore, without fine-tuning, DA-Nav seamlessly adapts to both quadruped and humanoid robots, enabling stable kilometer-scale closed-loop outdoor navigation in complex real world environments.",
+    "categories": [
+      "Navigation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Navigation",
+      "Humanoid",
+      "Vision-Language",
+      "Fine-tuning",
+      "Dataset",
+      "PPO",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2607.11624",
+    "title": "SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning",
+    "paper_url": "https://arxiv.org/abs/2607.11624",
+    "project_url": null,
+    "authors": [
+      "Evelyn D'Elia",
+      "Weishu Zhan",
+      "Giulio Turrisi",
+      "Giulio Romualdi",
+      "Giuseppe L'Erario",
+      "Raffaello Camoriano",
+      "Wei Pan",
+      "Daniele Pucci"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-13",
+    "abstract": "Reinforcement learning (RL) algorithms classically suffer from poor sample efficiency. In robotics, a recent line of work has emerged addressing this problem by encoding physics priors in the learning process. However, most of these approaches are validated on well-defined, low-dimensional benchmark systems rather than high-dimensional robots with complex nonlinear dynamics. In this paper, we introduce \\textit{SKooP (Symmetric Koopman Predictions)}, an approach combining the advantages of morphological symmetries with those of a Koopman model learned via autoencoder to enhance policy learning. SKooP learns a Koopman model of the system dynamics alongside the policy. The resulting Koopman predictions are used as privileged observations for the critic, allowing the agent to learn based on smoother, more informative features. We also incorporate group symmetries into the actor, critic, encoder and decoder networks to produce a highly equivariant policy. The SKooP approach is validated via in-depth analysis of the learned Koopman models and symmetric policies to showcase how each of these influences the agent's performance. We also show that the learned policies are transferable to different simulation environments. Our results show that SKooP consistently reduces convergence time and increases the learned reward for multiple challenging bipedal locomotion tasks on a quadruped robot. Project page: https://evelyd.github.io/SymmetricKoopmanPredictions/",
+    "categories": [
+      "Simulation Benchmark",
+      "Locomotion",
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Biped",
+      "Benchmark",
+      "Policy Learning",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2607.11603",
+    "title": "WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\\top$ Factorization",
+    "paper_url": "https://arxiv.org/abs/2607.11603",
+    "project_url": null,
+    "authors": [
+      "Henrik Hose",
+      "Se Hwan Jeon",
+      "Charles Khazoom",
+      "Sangbae Kim",
+      "Sebastian Trimpe"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-13",
+    "abstract": "This paper introduces numerical optimizations for maximizing throughput on GPU when solving large batches (10,000 to over 100,000) of sequential quadratic programming (SQP) iterations, where all problems have the same structure. The optimizations are implemented in a toolbox WarpMPC for model-predictive control (MPC) in JAX and Warp. Based on the insight that all MPC problem instances in a batch share the same sparsity in time, cost, and constraints, we propose unrolling sparse linear factorizations and solves, which dominate alternating direction method of multipliers (ADMM) solver runtime. We avoid memory access bottlenecks and wasting computations via optimized memory layout, padding-reducing segmentation of the unrolled factorization, and dependency level scheduled backsolves, additionally accelerating sensitivity computation. We achieve throughputs of 8,000 to 250,000 SQP iterations per second on nonlinear cartpole, quadrotor, and humanoid robot benchmarks, outperforming baselines by 3$\\times$ to 25$\\times$. We illustrate practical usefulness by synthesizing a dataset and training a neural network approximation of an MPC in under 4 minutes that stabilizes a nano quadrotor in hardware experiments.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "MPC",
+      "Humanoid",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2607.11501",
+    "title": "Comparative Analysis of GAT and BERT for Human-Like Playtesting",
+    "paper_url": "https://arxiv.org/abs/2607.11501",
+    "project_url": null,
+    "authors": [
+      "Kleio Fragkedaki",
+      "Theodoros Panagiotakopoulos",
+      "Matteo Biasielli",
+      "Hui Wang"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-13",
+    "abstract": "Accurately modeling and understanding player experience is crucial for designing engaging puzzle games. To achieve this, a common approach involves collecting diverse user data to train predictive playtesting models that mimic player behavior. However, existing data-driven methods often lack the ability to capture the full range of player strategies and require extensive feature engineering and network architecture modeling. This limitation becomes particularly evident when new game mechanics or features are introduced, which necessitate continual adjustments to the models. To addrss these challenges, we propose a more generalized representation that reduces - or even eliminates - the need for ongoing feature-engineering maintenance. Specifically, we investigate two general-purpose network architectures: (a) a transformer-based model (BERT) and (b) a graph attention model (GAT), both of which are designed to effectively capture the relational structure of Candy Crush Saga (CCS) game boards. Our experiments compare these approaches to Convolutional Neural Networks (CNN) baselines, revealing better performance on challenging board configurations and underscoring the benefits of our generalizable representation.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Transformer",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.11644",
+    "title": "Motion4Motion: Motion Transfer Across Subjects at Inference",
+    "paper_url": "https://arxiv.org/abs/2607.11644",
+    "project_url": null,
+    "authors": [
+      "Ling-Hao Chen",
+      "Zixin Yin",
+      "Duomin Wang",
+      "Xianfang Zeng",
+      "Gang Yu"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-13",
+    "abstract": "This work explores the motion transfer from one video to another, which is crucial in animation for diverse characters. Previously, video motion transfer has been largely explored between human and human-like characters, enabling a lot of applications in digital creation. However, these approaches encounter a main limitation. Specifically, related technical pipelines heavily rely on a predefined human skeleton structure and accordingly require skeleton-conditional model training. On the one hand, these methods are difficult to generalize to diverse characters, such as animals from different species, while preserving their unique motion styles. On the other hand, labeled data in diverse skeletons is limited, which additionally restricts the large-scale training for the task. In this paper, we jump out of the skeleton-based motion transfer framework and propose a training-free motion transfer framework, named Motion4Motion. Motion4Motionmodels the motion flow of the character in a video instead of skeletons, which makes motion transfer across species easier. Extensive experimental results and novel applications show our methods outperform baselines impressively. Project page is available at https://lhchen.top/Motion4Motion.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.10815",
+    "title": "Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors",
+    "paper_url": "https://arxiv.org/abs/2607.10815",
+    "project_url": null,
+    "authors": [
+      "Yunkang Cheng",
+      "Yutong Wu",
+      "Menghan Li",
+      "Shihe Zhou",
+      "Mingguo Zhao"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-12",
+    "abstract": "Humanoid roller-skating is difficult because the robot must coordinate whole-body balance, rolling contacts, and velocity-dependent posture regulation. This paper presents an adversarial motion prior based reinforcement learning framework for two humanoid roller-skating gaits: Pump Glide skating and Push Glide skating. The two gait datasets are collected independently through motion capture and retargeted to the humanoid robot separately. The retargeted data are then smoothed and resampled into reference motion states for AMP training. The two gaits are learned by independent AMP training pipelines with separate reference datasets, separate policies, and independent reward architectures. Simulation experiments are designed to evaluate gait quality, velocity tracking, turning, and gait-specific reward ablations.",
+    "categories": [
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Gait",
+      "Dataset",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2607.10132",
+    "title": "TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2607.10132",
+    "project_url": null,
+    "authors": [
+      "Muqun Hu",
+      "Yuhao Zhou",
+      "Kabir Ray Malik",
+      "Chi Lin",
+      "Won Suk Lee",
+      "Yu She",
+      "Yan Gu"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-11",
+    "abstract": "Dynamic loco-manipulation requires legged robots to coordinate whole-body motion while maintaining stable physical interaction with grasped objects under uncertain external forces. While tactile sensing has been widely studied for robotic manipulation, its role in dynamic whole-body control remains largely unexplored. Existing works without tactile feedback commonly grasp firmly rather than regulate the grasp according to the interaction. We propose TAC-LOCO, a tactile-augmented unified reinforcement learning framework that encodes tactile array observations from compliant grippers into a compact latent representation and joins it with proprioception for unified control of the legs, arm, and gripper. With effective grasp stability reward design, the policy learns to simultaneously track body velocity and end-effector trajectories, moderate grasp force, and prevent object slip under both gradual load changes and sudden release events. We deploy the policy zero-shot on a Unitree Go2 with an Interbotix WidowX 250 arm and tactile gripper, demonstrating dynamic tactile-informed loco-manipulation under varying external interactions, achieving a 47% reduction in grasping force and an object drop rate of less than 1%.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Manipulation",
+      "Zero-Shot",
+      "Tactile Sensing",
+      "Proprioception",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.10476",
+    "title": "Hallucination Detection in Large Language Models Using Diversion Decoding",
+    "paper_url": "https://arxiv.org/abs/2607.10476",
+    "project_url": null,
+    "authors": [
+      "Basel Abdeen",
+      "S M Tahmid Siddiqui",
+      "Meah Tahmeed Ahmed",
+      "Anoop Singhal",
+      "Latifur Khan",
+      "Punya Parag Modi",
+      "Ehab Al-Shaer"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-11",
+    "abstract": "Large language models (LLMs) have emerged as a powerful tool for retrieving knowledge through seamless, human-like interactions. Despite their advanced text generation capabilities, LLMs exhibit hallucination tendencies, where they generate factually incorrect statements and fabricate knowledge, undermining their reliability and trustworthiness. Multiple studies have explored methods to evaluate LLM uncertainty and detect hallucinations. However, existing approaches are often probabilistic and computationally expensive, limiting their practical applicability. In this paper, we introduce diversion decoding, a novel method for developing an LLM uncertainty heuristic by actively challenging model-generated responses during the decoding phase. Through diversion decoding, we extract features that capture the LLM's resistance to produce alternative answers and utilize these features to train a machine-learning model to develop a heuristic measure of the LLM's uncertainty. Our experimental results demonstrate that diversion decoding outperforms existing methods with significantly lower computational complexity, making it an efficient and robust solution for evaluating hallucination detection.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Large Language Model",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.09911",
+    "title": "Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments",
+    "paper_url": "https://arxiv.org/abs/2607.09911",
+    "project_url": null,
+    "authors": [
+      "Vaibhav Sanjay",
+      "Yorai Shaoul",
+      "Jiaoyang Li"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-10",
+    "abstract": "Multi-robot path planning in human-shared environments requires a delicate balance between robust inter-robot coordination and socially aware behavior. While diffusion models excel at generating predictable, human-like paths, existing generative planners are often restricted to paths of fixed duration and high computational latency, limiting their adaptability to varying goal distances and hindering real-time deployment. We present Multi-Robot Rolling Diffusion (MRRD), a novel framework that enables real-time, long-horizon navigation for large robot teams through dense crowds. MRRD combines a rolling-horizon scheme to accommodate the limited prediction horizon of human motion, parallelized diffusion inference for scalable generation of human-like paths, and a conflict-based-search mechanism for resolving inter-robot collisions. It further incorporates urgency-based temporal conditioning to generate paths with varying speeds and employs differentiated guidance terms to maximize both social awareness around humans and efficient coordination between robots. Experimental results in crowded environments demonstrate that MRRD successfully scales to 15 robots in real-time, significantly outperforming existing baselines in both safety and mission success rates.",
+    "categories": [
+      "Navigation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Navigation",
+      "Safety",
+      "Path Planning",
+      "Collision",
+      "Diffusion",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
     "arxiv_id": "2607.09323",
     "title": "Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot",
     "paper_url": "https://arxiv.org/abs/2607.09323",
@@ -70,6 +486,35 @@
     "platform": null,
     "summary": "",
     "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2607.09807",
+    "title": "A Biomimetic Myoelectric Tentacle Prosthesis with Sensorless Object Detection and Vibrotactile Feedback",
+    "paper_url": "https://arxiv.org/abs/2607.09807",
+    "project_url": null,
+    "authors": [
+      "Gabrielle Marion",
+      "Olivier Lecompte",
+      "Amandine Gesta",
+      "Abolfazl Mohebbi"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-09",
+    "abstract": "This paper presents the design and evaluation of a myoelectric tentacle-shaped prosthesis integrating electromyographic (EMG) control, sensorless object detection, and vibrotactile feedback. The objective was to develop a responsive and intuitive assistive device that adapts to various object shapes while providing sensory feedback to the user. The system relies on EMG signals to control the motion of a flexible, biomimetic structure whose curling geometry follows a logarithmic spiral, enabling it to coil around objects. To ensure stable control, the EMG signal is normalized and filtered, and a threshold-based method identifies user intention. Object contact is detected through a slope-based analysis of motor current, eliminating the need for external sensors, and a haptic feedback strategy based on cumulative vibrotactile stimulation conveys spatial information about the tentacle's configuration. The system was evaluated through quantitative and qualitative tests. The results demonstrate a low response time (77 ms on average), enabling smooth real-time interaction; an object-detection success rate above 90%, confirming robustness despite EMG variability; and an effective haptic feedback strategy that allowed users to reliably identify the folding zone of the tentacle. The proposed biomimetic design promotes further investigation of expressive artificial limbs by prioritizing expressive functionality over adherence to a predefined, anthropomorphic form factor.",
+    "categories": [
+      "Teleoperation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Robustness",
+      "Teleoperation",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
   },
   {
     "arxiv_id": "2607.08857",

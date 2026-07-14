@@ -2,23 +2,23 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 695
-- **Real Robot Papers:** 101
+- **Total Papers:** 708
+- **Real Robot Papers:** 106
 - **Open Source Papers:** 137
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (221)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (227)
 - [Manipulation](#manipulation) (84)
-- [Teleoperation](#teleoperation) (35)
-- [Locomotion](#locomotion) (133)
-- [Navigation](#navigation) (25)
+- [Teleoperation](#teleoperation) (36)
+- [Locomotion](#locomotion) (134)
+- [Navigation](#navigation) (27)
 - [State Estimation](#state-estimation) (29)
 - [Sim-to-Real](#sim-to-real) (12)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (60)
+- [Simulation Benchmark](#simulation-benchmark) (63)
 - [Physics-Based Character Animation](#physics-based-character-animation) (39)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (26)
 - [Usage](#usage)
@@ -29,6 +29,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — `Reinforcement Learning`, `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Human Demonstration`
+- [Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction](https://arxiv.org/abs/2607.11690) — `Humanoid`, `Tactile Sensing`, `Dataset`, `Loco-Manipulation and Whole-Body Control`, `Teleoperation`, `State Estimation`
+- [Comparative Analysis of GAT and BERT for Human-Like Playtesting](https://arxiv.org/abs/2607.11501) — `Transformer`, `Loco-Manipulation and Whole-Body Control`
+- [Motion4Motion: Motion Transfer Across Subjects at Inference](https://arxiv.org/abs/2607.11644) — `Loco-Manipulation and Whole-Body Control`, `Real Robot`
+- [TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation](https://arxiv.org/abs/2607.10132) — `Reinforcement Learning`, `Whole-Body Control`, `Manipulation`, `Zero-Shot`, `Tactile Sensing`, `Proprioception`
+- [Hallucination Detection in Large Language Models Using Diversion Decoding](https://arxiv.org/abs/2607.10476) — `Large Language Model`, `Loco-Manipulation and Whole-Body Control`
 - [Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control](https://arxiv.org/abs/2607.04837) — `Whole-Body Control`, `Humanoid`, `Fine-tuning`, `Distillation`, `DAgger`, `Loco-Manipulation and Whole-Body Control`
 - 🌟 [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119), [website](https://github.com/lukephong/sov-cad) — `Reinforcement Learning`, `Transformer`, `PPO`, `Loco-Manipulation and Whole-Body Control`, `Open Source`
 - [Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles](https://arxiv.org/abs/2607.00855) — `Safety`, `Loco-Manipulation and Whole-Body Control`
@@ -494,6 +500,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [A Biomimetic Myoelectric Tentacle Prosthesis with Sensorless Object Detection and Vibrotactile Feedback](https://arxiv.org/abs/2607.09807) — `Robustness`, `Teleoperation`, `State Estimation`
 - [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — `Imitation Learning`, `Teleoperation`, `Few-Shot`, `Self-Supervised`, `Manipulation`, `Navigation`
 - [In vivo feasibility study of humanoid robots in surgery](https://arxiv.org/abs/2607.07972) — `Teleoperation`, `Manipulation`, `Safety`, `Humanoid`, `Real Robot`
 - [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — `Teleoperation`, `Locomotion`, `Navigation`, `Zero-Shot`, `Safety`, `Humanoid`
@@ -576,6 +583,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation](https://arxiv.org/abs/2607.11855) — `Locomotion`, `Manipulation`, `Biped`, `Walking`, `Real Robot`
 - [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323) — `Navigation`, `Safety`, `Humanoid`, `Walking`, `PPO`, `Locomotion`
 - [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Humanoid`, `Gait`, `PPO`
 - [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — `Safety`, `Humanoid`, `Locomotion`, `Real Robot`
@@ -798,6 +806,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [DA-Nav: Direction-Aware City-Scale Vision-Language Navigation](https://arxiv.org/abs/2607.11638) — `Navigation`, `Humanoid`, `Vision-Language`, `Fine-tuning`, `Dataset`, `PPO`
+- [Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments](https://arxiv.org/abs/2607.09911) — `Navigation`, `Safety`, `Path Planning`, `Collision`, `Diffusion`, `Human Motion Analysis and Synthesis`
 - [Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion](https://arxiv.org/abs/2607.07390) — `Humanoid`, `Navigation`, `State Estimation`, `Human Motion Analysis and Synthesis`
 
 ### 2026-06
@@ -1050,6 +1060,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning](https://arxiv.org/abs/2607.11624) — `Reinforcement Learning`, `Locomotion`, `Biped`, `Benchmark`, `Policy Learning`, `Simulation Benchmark`
+- [WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\top$ Factorization](https://arxiv.org/abs/2607.11603) — `MPC`, `Humanoid`, `Benchmark`, `Dataset`, `Simulation Benchmark`
+- [Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors](https://arxiv.org/abs/2607.10815) — `Reinforcement Learning`, `Humanoid`, `Gait`, `Dataset`, `Simulation Benchmark`, `Loco-Manipulation and Whole-Body Control`
 - [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — `Locomotion`, `Transformer`, `Humanoid`, `Benchmark`, `Dataset`, `PPO`
 - [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — `Whole-Body Control`, `Human Demonstration`, `Robustness`, `Humanoid`, `Benchmark`, `Dataset`
 - [Conversational Human Audio-visual Talking Dialogue Generation](https://arxiv.org/abs/2607.02799) — `Humanoid`, `Pre-training`, `Dataset`, `Large Language Model`, `Simulation Benchmark`, `Real Robot`

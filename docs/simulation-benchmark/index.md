@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**60 papers** in this category.
+**63 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (5 papers)
+- [2026-07](/simulation-benchmark/2026-07) (8 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -24,6 +24,65 @@
 ---
 
 ## Recent Papers
+
+## SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11624)
+- **Authors:** Evelyn D'Elia, Weishu Zhan, Giulio Turrisi, Giulio Romualdi, Giuseppe L'Erario, Raffaello Camoriano et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Biped
+  - Benchmark
+  - Policy Learning
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Reinforcement learning (RL) algorithms classically suffer from poor sample efficiency. In robotics, a recent line of work has emerged addressing this problem by encoding physics priors in the learning process.
+
+---
+
+## WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\top$ Factorization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11603)
+- **Authors:** Henrik Hose, Se Hwan Jeon, Charles Khazoom, Sangbae Kim, Sebastian Trimpe
+- **Published:** 2026-07
+- **Tags:**
+  - MPC
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+This paper introduces numerical optimizations for maximizing throughput on GPU when solving large batches (10,000 to over 100,000) of sequential quadratic programming (SQP) iterations, where all problems have the same structure. The optimizations are implemented in a toolbox WarpMPC for model-predictive control (MPC) in JAX and Warp.
+
+---
+
+## Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.10815)
+- **Authors:** Yunkang Cheng, Yutong Wu, Menghan Li, Shihe Zhou, Mingguo Zhao
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Gait
+  - Dataset
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+  - State Estimation
+
+### Summary
+
+Humanoid roller-skating is difficult because the robot must coordinate whole-body balance, rolling contacts, and velocity-dependent posture regulation. This paper presents an adversarial motion prior based reinforcement learning framework for two humanoid roller-skating gaits: Pump Glide skating and Push Glide skating.
+
+---
 
 ## ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation
 
@@ -358,65 +417,5 @@ The explosion of generative 3D assets has created a massive demand for animation
 ### Summary
 
 Falls are one of the leading causes of injury and hospitalization among elderly individuals, making reliable fall awareness an essential capability for safety monitoring in residential environments. However, existing fall detection systems often rely on wearable devices or fixed sensing installations, which may suffer from low user compliance, limited spatial coverage, or degraded performance under occlusion and poor lighting conditions.
-
----
-
-## SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08278)
-- **Authors:** Songlin Wei, Zhenhao Ni, Jie Liu, Zhenyu Zhao, Junjie Ye, Hongyi Jing et al. (12 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Zero-Shot
-  - MuJoCo
-  - Humanoid
-  - Vision-Language
-  - Foundation Model
-  - Motion Planning
-
-### Summary
-
-Humanoid foundation models are advancing faster than we can evaluate them. While real-world testing is expensive and difficult to reproduce, existing simulation benchmarks focus primarily on table-top or wheeled robots.
-
----
-
-## OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08043)
-- **Authors:** Chao Wang, Guangyao Ma, John Doublestein, Junming Chen, Yiming Lin, Zhaoen Su et al. (13 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Biped
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Dataset
-  - PPO
-  - Simulation Benchmark
-
-### Summary
-
-Facial rigging - creating FACS-based blendshapes together with inner-mouth geometry (teeth, gums, and tongue) - remains a major bottleneck in 3D character production. Existing pipelines still require substantial designer effort, especially for manual landmark annotation, per-character template adjustment, and inner-mouth placement.
-
----
-
-## LIMMT: Less is More for Motion Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.06953)
-- **Authors:** Yu Guan, Zekun Qi, Chenghuai Lin, Xuchuan Chen, Dairu Liu, Wenyao Zhang et al. (10 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - Dataset
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-We argue that high-quality motion data can steer tracking policies toward better optimization trajectories early in training. In this work, we introduce LIMMT (Less Is More for Motion Tracking).
 
 ---

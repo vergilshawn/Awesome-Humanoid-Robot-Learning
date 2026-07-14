@@ -1,10 +1,10 @@
 # Locomotion
 
-**133 papers** in this category.
+**134 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (7 papers)
+- [2026-07](/locomotion/2026-07) (8 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,24 @@
 ---
 
 ## Recent Papers
+
+## Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11855)
+- **Authors:** Deniz Kerimoglu, Junnosuke Kamohara, Jiyeon Maeng, Ziwon Yoon, Seth Hutchinson, Ye Zhao et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Biped
+  - Walking
+
+### Summary
+
+Bipedal robots are challenging to control because they operate close to instability, where small variations in foot-terrain contact can rapidly destabilize locomotion. On rigid terrain, bipedal robots mitigate this fragility by using well-established contact mechanics and control strategies.
+
+---
 
 ## Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot
 
@@ -429,26 +447,5 @@ Multi-objective reinforcement learning for humanoid robots must coordinate locom
 ### Summary
 
 Spiking Neural Networks (SNNs) coupled with neuromorphic hardware offer energy-efficient solutions for humanoid robot control. However, existing SNN-based motor control systems address bipedal locomotion and arm control in isolation, leaving integrated control of both unaddressed.
-
----
-
-## GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.10449)
-- **Authors:** Haoxuan Han, Chen Chen, Linao Gong, Xin Yang, Hao Hu, Junhong Guo et al. (9 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — NAO
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Navigation
-  - Robustness
-  - Humanoid
-  - Distillation
-  - Behavior Cloning
-
-### Summary
-
-Humanoid robots have achieved strong locomotion capabilities, but reliable navigation on versatile terrains remains challenging because obstacle avoidance must be coordinated with dynamically feasible motion. In this work, we present GuideWalk, a unified end-to-end framework that integrates traversability-aware navigation guidance with terrain-adaptive locomotion teacher for humanoid navigation.
 
 ---

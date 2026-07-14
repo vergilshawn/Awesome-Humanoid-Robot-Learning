@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**221 papers** in this category.
+**227 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (3 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (9 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -36,6 +36,115 @@
 ---
 
 ## Recent Papers
+
+## A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11874)
+- **Authors:** Yunhai Feng, Natalie Leung, Jiaxuan Wang, Lujie Yang, Haozhi Qi, Preston Culbertson
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - System Identification
+
+### Summary
+
+Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipulation involves complex, contact-rich dynamics and requires delicate regulation of contact modes and forces.
+
+---
+
+## Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11690)
+- **Authors:** Dakarai Crowder, Ruohan Zhang, Alexis E. Block, Wenzhen Yuan
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Tactile Sensing
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+  - Teleoperation
+  - State Estimation
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Tactile sensing for social-physical human-robot interaction (spHRI) is designed in a hardware-driven manner, where predefined sensor configurations constrain coverage, spatial resolution, and the range of recognizable gestures. We propose a requirement-driven framework that derives sensing requirements, specifically spatial resolution and placement, directly from interaction data.
+
+---
+
+## Comparative Analysis of GAT and BERT for Human-Like Playtesting
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11501)
+- **Authors:** Kleio Fragkedaki, Theodoros Panagiotakopoulos, Matteo Biasielli, Hui Wang
+- **Published:** 2026-07
+- **Tags:**
+  - Transformer
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Accurately modeling and understanding player experience is crucial for designing engaging puzzle games. To achieve this, a common approach involves collecting diverse user data to train predictive playtesting models that mimic player behavior.
+
+---
+
+## Motion4Motion: Motion Transfer Across Subjects at Inference
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11644)
+- **Authors:** Ling-Hao Chen, Zixin Yin, Duomin Wang, Xianfang Zeng, Gang Yu
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This work explores the motion transfer from one video to another, which is crucial in animation for diverse characters. Previously, video motion transfer has been largely explored between human and human-like characters, enabling a lot of applications in digital creation.
+
+---
+
+## TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.10132)
+- **Authors:** Muqun Hu, Yuhao Zhou, Kabir Ray Malik, Chi Lin, Won Suk Lee, Yu She et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Zero-Shot
+  - Tactile Sensing
+  - Proprioception
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Dynamic loco-manipulation requires legged robots to coordinate whole-body motion while maintaining stable physical interaction with grasped objects under uncertain external forces. While tactile sensing has been widely studied for robotic manipulation, its role in dynamic whole-body control remains largely unexplored.
+
+---
+
+## Hallucination Detection in Large Language Models Using Diversion Decoding
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.10476)
+- **Authors:** Basel Abdeen, S M Tahmid Siddiqui, Meah Tahmeed Ahmed, Anoop Singhal, Latifur Khan, Punya Parag Modi et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Large language models (LLMs) have emerged as a powerful tool for retrieving knowledge through seamless, human-like interactions. Despite their advanced text generation capabilities, LLMs exhibit hallucination tendencies, where they generate factually incorrect statements and fabricate knowledge, undermining their reliability and trustworthiness.
+
+---
 
 ## Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control
 
@@ -316,127 +425,5 @@ Learning long-horizon humanoid loco-manipulation poses a dual challenge: it requ
 ### Summary
 
 High-level humanoid planners often output sparse task-space, low-rate trajectories, whereas whole-body controllers run at high frequency. This creates temporal asynchrony between the planning and execution, and structural incompleteness for full-body control.
-
----
-
-## DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.25295)
-- **Authors:** Zhinan Yu, Junyan Xu, Jiazhao Zhang, Zheng Qin, Yijie Tang, Yuhang Huang et al. (12 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Manipulation
-  - Isaac Gym
-  - Trajectory Prediction
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Mobile manipulation is a fundamental robotics task and has advanced rapidly in recent years, enabling robots to navigate, reach, and interact with objects in complex environments. However, mobile manipulation of dynamic objects remains highly challenging, as robots must coordinate the mobile base and arm while adapting to continuously evolving target poses.
-
----
-
-## RGB: RL Guided Whole-Body MPPI for Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.25123)
-- **Authors:** Yunsoo Seo, Sol Choi, Euncheol Im, Myo Taeg Lim, Yisoo Lee
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - MuJoCo
-  - Humanoid
-  - Walking
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid robots require whole-body controllers that are both robust and precise in contact-rich environments. While deep reinforcement learning (RL) achieves robust stability, its behavior is tightly coupled to the training objective and command interface, making it difficult to add new feedback objectives without retraining.
-
----
-
-## HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.23565)
-- **Authors:** Xiaolin Zhou, Liu Liu, Tingyang Xiao, Wei Feng, Fa Fu, Xinrui Meng et al. (12 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - Manipulation
-  - Navigation
-  - Safety
-  - Humanoid
-  - GAN
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-
-### Summary
-
-LLM agents follow a practical execution loop in digital environments: they reason over structured states, invoke tools, inspect feedback, and revise actions. Extending this loop to physical robots is difficult because physical execution is continuous, embodiment-dependent, uncertain, and constrained by safety.
-
----
-
-## LP-NavOA: Integrated Local Navigation and Obstacle Avoidance for Humanoid Robots under Limited Perception
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.23249)
-- **Authors:** Yukun Luo, Jianjun Ma, Yuyao Min, Jinzhe Li, Kaihong Huang, Peng Li
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Safety
-  - MuJoCo
-  - Humanoid
-  - Proprioception
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid local navigation in cluttered environments must jointly resolve obstacle avoidance, sparse-goal recovery, and stable whole-body locomotion under short-range and partially observable sensing. Explicit planner-control decompositions introduce latency and can mismatch agile humanoid command-tracking limits, while purely reactive controllers may lose the goal after obstacle occlusion.
-
----
-
-## OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.22174)
-- **Authors:** Yingdong Hu, Haodong Zhu, Boyuan Zheng, Yihang Hu, Tong Zhang, Zunhao Chen et al. (9 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-  - GAN
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-
-### Summary
-
-Whole-body humanoid loco-manipulation requires coordinating the robot's entire kinematic chain. However, most existing systems typically decouple the upper and lower bodies into separate controllers, limiting such coordination and yielding behaviors similar to those of a wheeled dual-arm platform.
-
----
-
-## Improving Reasoning in Vision-Language Models via Perception Verified Self-Training
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.22158)
-- **Authors:** Sourabh Sharma, Sonam Gupta,  Sadbhawna
-- **Published:** 2026-06
-- **Tags:**
-  - Vision-Language
-  - Curriculum Learning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Achieving human-like reasoning in Vision-Language Models (VLMs) remains a long-standing challenge. Recent approaches leverage Chain-of-Thought (CoT) rationales generated by human annotators or proprietary models to improve reasoning, which is costly and difficult to scale.
 
 ---

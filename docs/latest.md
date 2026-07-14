@@ -2,6 +2,233 @@
 
 All papers sorted by publication date (newest first).
 
+## A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11874)
+- **Authors:** Yunhai Feng, Natalie Leung, Jiaxuan Wang, Lujie Yang, Haozhi Qi, Preston Culbertson
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - System Identification
+
+### Summary
+
+Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipulation involves complex, contact-rich dynamics and requires delicate regulation of contact modes and forces.
+
+---
+
+## Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11855)
+- **Authors:** Deniz Kerimoglu, Junnosuke Kamohara, Jiyeon Maeng, Ziwon Yoon, Seth Hutchinson, Ye Zhao et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Biped
+  - Walking
+
+### Summary
+
+Bipedal robots are challenging to control because they operate close to instability, where small variations in foot-terrain contact can rapidly destabilize locomotion. On rigid terrain, bipedal robots mitigate this fragility by using well-established contact mechanics and control strategies.
+
+---
+
+## Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11690)
+- **Authors:** Dakarai Crowder, Ruohan Zhang, Alexis E. Block, Wenzhen Yuan
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Tactile Sensing
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+  - Teleoperation
+  - State Estimation
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Tactile sensing for social-physical human-robot interaction (spHRI) is designed in a hardware-driven manner, where predefined sensor configurations constrain coverage, spatial resolution, and the range of recognizable gestures. We propose a requirement-driven framework that derives sensing requirements, specifically spatial resolution and placement, directly from interaction data.
+
+---
+
+## DA-Nav: Direction-Aware City-Scale Vision-Language Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11638)
+- **Authors:** Ye Yuan, Kehan Chen, Xinqiang Yu, Wentao Xu, Heng Wang, Libo Huang et al. (10 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Humanoid
+  - Vision-Language
+  - Fine-tuning
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+City-scale outdoor navigation is currently hindered by the heavy reliance on dense maps or costly navigation supervision. In this work, we introduce a novel paradigm for leveraging directional instructions from commercial navigation tools (e.g., Google Maps).
+
+---
+
+## SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11624)
+- **Authors:** Evelyn D'Elia, Weishu Zhan, Giulio Turrisi, Giulio Romualdi, Giuseppe L'Erario, Raffaello Camoriano et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Biped
+  - Benchmark
+  - Policy Learning
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Reinforcement learning (RL) algorithms classically suffer from poor sample efficiency. In robotics, a recent line of work has emerged addressing this problem by encoding physics priors in the learning process.
+
+---
+
+## WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\top$ Factorization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11603)
+- **Authors:** Henrik Hose, Se Hwan Jeon, Charles Khazoom, Sangbae Kim, Sebastian Trimpe
+- **Published:** 2026-07
+- **Tags:**
+  - MPC
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+This paper introduces numerical optimizations for maximizing throughput on GPU when solving large batches (10,000 to over 100,000) of sequential quadratic programming (SQP) iterations, where all problems have the same structure. The optimizations are implemented in a toolbox WarpMPC for model-predictive control (MPC) in JAX and Warp.
+
+---
+
+## Comparative Analysis of GAT and BERT for Human-Like Playtesting
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11501)
+- **Authors:** Kleio Fragkedaki, Theodoros Panagiotakopoulos, Matteo Biasielli, Hui Wang
+- **Published:** 2026-07
+- **Tags:**
+  - Transformer
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Accurately modeling and understanding player experience is crucial for designing engaging puzzle games. To achieve this, a common approach involves collecting diverse user data to train predictive playtesting models that mimic player behavior.
+
+---
+
+## Motion4Motion: Motion Transfer Across Subjects at Inference
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11644)
+- **Authors:** Ling-Hao Chen, Zixin Yin, Duomin Wang, Xianfang Zeng, Gang Yu
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This work explores the motion transfer from one video to another, which is crucial in animation for diverse characters. Previously, video motion transfer has been largely explored between human and human-like characters, enabling a lot of applications in digital creation.
+
+---
+
+## Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.10815)
+- **Authors:** Yunkang Cheng, Yutong Wu, Menghan Li, Shihe Zhou, Mingguo Zhao
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Gait
+  - Dataset
+  - Simulation Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+  - State Estimation
+
+### Summary
+
+Humanoid roller-skating is difficult because the robot must coordinate whole-body balance, rolling contacts, and velocity-dependent posture regulation. This paper presents an adversarial motion prior based reinforcement learning framework for two humanoid roller-skating gaits: Pump Glide skating and Push Glide skating.
+
+---
+
+## TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.10132)
+- **Authors:** Muqun Hu, Yuhao Zhou, Kabir Ray Malik, Chi Lin, Won Suk Lee, Yu She et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Zero-Shot
+  - Tactile Sensing
+  - Proprioception
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Dynamic loco-manipulation requires legged robots to coordinate whole-body motion while maintaining stable physical interaction with grasped objects under uncertain external forces. While tactile sensing has been widely studied for robotic manipulation, its role in dynamic whole-body control remains largely unexplored.
+
+---
+
+## Hallucination Detection in Large Language Models Using Diversion Decoding
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.10476)
+- **Authors:** Basel Abdeen, S M Tahmid Siddiqui, Meah Tahmeed Ahmed, Anoop Singhal, Latifur Khan, Punya Parag Modi et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Large language models (LLMs) have emerged as a powerful tool for retrieving knowledge through seamless, human-like interactions. Despite their advanced text generation capabilities, LLMs exhibit hallucination tendencies, where they generate factually incorrect statements and fabricate knowledge, undermining their reliability and trustworthiness.
+
+---
+
+## Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.09911)
+- **Authors:** Vaibhav Sanjay, Yorai Shaoul, Jiaoyang Li
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Safety
+  - Path Planning
+  - Collision
+  - Diffusion
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Multi-robot path planning in human-shared environments requires a delicate balance between robust inter-robot coordination and socially aware behavior. While diffusion models excel at generating predictable, human-like paths, existing generative planners are often restricted to paths of fixed duration and high computational latency, limiting their adaptability to varying goal distances and hindering real-time deployment.
+
+---
+
 ## Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.09323)
@@ -38,6 +265,22 @@ The shortage of healthcare staff is a challenge in geriatric care. To address th
 ### Summary
 
 Tactile feedback is fundamental to Hand-Object Interaction (HOI), governing contact formation, force regulation, and stable manipulation, making it essential for achieving true human-like dexterous manipulation. Yet, current human-to-robot dexterous transfer pipelines primarily rely on kinematic trajectories, resulting in motion imitation without physically grounded interaction.
+
+---
+
+## A Biomimetic Myoelectric Tentacle Prosthesis with Sensorless Object Detection and Vibrotactile Feedback
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.09807)
+- **Authors:** Gabrielle Marion, Olivier Lecompte, Amandine Gesta, Abolfazl Mohebbi
+- **Published:** 2026-07
+- **Tags:**
+  - Robustness
+  - Teleoperation
+  - State Estimation
+
+### Summary
+
+This paper presents the design and evaluation of a myoelectric tentacle-shaped prosthesis integrating electromyographic (EMG) control, sensorless object detection, and vibrotactile feedback. The objective was to develop a responsive and intuitive assistive device that adapts to various object shapes while providing sensory feedback to the user.
 
 ---
 

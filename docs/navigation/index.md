@@ -1,10 +1,10 @@
 # Navigation
 
-**25 papers** in this category.
+**27 papers** in this category.
 
 ## Months
 
-- [2026-07](/navigation/2026-07) (1 papers)
+- [2026-07](/navigation/2026-07) (3 papers)
 - [2026-06](/navigation/2026-06) (6 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
@@ -23,6 +23,47 @@
 ---
 
 ## Recent Papers
+
+## DA-Nav: Direction-Aware City-Scale Vision-Language Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.11638)
+- **Authors:** Ye Yuan, Kehan Chen, Xinqiang Yu, Wentao Xu, Heng Wang, Libo Huang et al. (10 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Humanoid
+  - Vision-Language
+  - Fine-tuning
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+City-scale outdoor navigation is currently hindered by the heavy reliance on dense maps or costly navigation supervision. In this work, we introduce a novel paradigm for leveraging directional instructions from commercial navigation tools (e.g., Google Maps).
+
+---
+
+## Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.09911)
+- **Authors:** Vaibhav Sanjay, Yorai Shaoul, Jiaoyang Li
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Navigation
+  - Safety
+  - Path Planning
+  - Collision
+  - Diffusion
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Multi-robot path planning in human-shared environments requires a delicate balance between robust inter-robot coordination and socially aware behavior. While diffusion models excel at generating predictable, human-like paths, existing generative planners are often restricted to paths of fixed duration and high computational latency, limiting their adaptability to varying goal distances and hindering real-time deployment.
+
+---
 
 ## Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion
 
@@ -307,34 +348,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-08
 - **Tags:**
   - Locomotion
-  - Navigation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Humanoid Occupancy: Enabling A Generalized Multimodal Occupancy Perception System on Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2507.20217)
-- **Published:** 2025-07
-- **Tags:**
-  - Humanoid
-  - Navigation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## RL with Data Bootstrapping for Dynamic Subgoal Pursuit in Humanoid Robot Navigation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.02206)
-- **Published:** 2025-06
-- **Tags:**
   - Navigation
   - Humanoid
 
