@@ -1,5 +1,104 @@
 [
   {
+    "arxiv_id": "2607.12702",
+    "title": "Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning",
+    "paper_url": "https://arxiv.org/abs/2607.12702",
+    "project_url": null,
+    "authors": [
+      "Flavio Maiorana",
+      "Valerio Spagnoli",
+      "Eugenio Bugli",
+      "Flavio Volpi",
+      "Daniele Affinita",
+      "Vincenzo Suriani",
+      "Daniele Nardi",
+      "Luca Iocchi"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-14",
+    "abstract": "Recent advances in humanoid robotics have highlighted the importance of deployable loco-manipulation skills. Dribbling a soccer ball while evading active opponents requires simultaneous balance, precise ball control, and awareness of a dynamic adversary under onboard sensing and real-time constraints. Existing approaches typically separate perception and motion, which can be effective in controlled settings but may fail under occlusions, fast ball movements, and complex opponent interactions, since perception is not directly optimized for control. We propose an integrated approach in which a temporal depth encoder is embedded into a reinforcement learning policy through a task-specific projection layer. We apply this framework to a simulated Booster T1 humanoid robot and show that it is possible to learn vision-based, opponent-aware dribbling directly from depth observations, without explicit state estimation or privileged scene information. The learned policy achieves 100% success in nominal target-driven dribbling and 96% success with a single static obstacle, while reaching 46% success against an actively moving ball-attacker opponent. These results demonstrate that the proposed framework supports robust vision-based dribbling in nominal and moderately dynamic settings, and provides a strong foundation for handling more challenging moving-adversary scenarios.",
+    "categories": [
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "State Estimation",
+      "Humanoid",
+      "PPO",
+      "Representation Learning",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Booster",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2607.12631",
+    "title": "Can Induced Emotion Bias LLM Behaviors in Sequential Decision Making?",
+    "paper_url": "https://arxiv.org/abs/2607.12631",
+    "project_url": null,
+    "authors": [
+      "Minh Khoi Ho",
+      "Zihao Zhu",
+      "Runchuan Zhu",
+      "Levina Li",
+      "Zhiwen Fan",
+      "Zhangyang Wang",
+      "Junyuan Hong"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-14",
+    "abstract": "As Large Language Models (LLMs) are increasingly deployed as autonomous agents in high-stakes domains, understanding contextual factors that may modulate their decision-making becomes critical. While LLMs are trained to perceive and resonate with users' emotions, it remains unclear whether induced emotion can influence their sequential decision-making. We investigate this question using the Iowa Gambling Task (IGT), a classic psychological paradigm for studying decision-making under uncertainty, combined with an imagination-based emotion induction procedure. We first validate the feasibility of this paradigm by confirming that LLMs can sense strong, distinguishable emotions from context and that LLM agents can learn from sequential interactions in a human-like pace. With the validated setup, we find that, different from humans, induced emotion does not significantly bias the decision dynamics of LLM agents on average. However, the effects of anger are conditioned: inducing anger makes LLM agents less sensitive to penalties for bad decisions, and in early stages of the game, anger can lower exploration, locking decisions into a few choices early. These findings reveal the subtle yet distinct effects of induced emotion on LLM decision-making compared to human behavior, and provide a tool for future research on affective modulation of LLM agents.",
+    "categories": [
+      "Navigation"
+    ],
+    "tags": [
+      "Large Language Model",
+      "Navigation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2607.12114",
+    "title": "GaitSpan: Growing Humanoid Locomotion from Walking to Running",
+    "paper_url": "https://arxiv.org/abs/2607.12114",
+    "project_url": null,
+    "authors": [
+      "Kwan-Yee Lin",
+      "Zilin Wang",
+      "Janelle J. Liu",
+      "Stella X. Yu"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-13",
+    "abstract": "A humanoid that can walk should not relearn locomotion from scratch to jog or run. Yet current approaches often obtain gait diversity by prescribing gait schedules, imitating motion clips, training experts to switch between or distilling skills into one policy. These strategies can produce impressive behaviors, but offer limited flexibility across continuous speed commands, terrains, and morphologies. We study skill growth with GaitSpan, a framework that expands a pretrained, basic walking policy into faster locomotion. It treats walking as a seed skill: reusable motor structure for balance, support, body coordination, and contact transition that can be regenerated at new rhythms, extended into longer/higher strides, and corrected by residual adaptation. This expansion has three aspects: 1) rhythm generation, which modulates the frozen walking policy with multiple internal clocks and learns command-conditioned combinations of the resulting canonical actions; 2) stride shaping, which rewards dynamic locomotion patterns appropriate for higher commanded speeds using a physically grounded objective inspired by spring-loaded inverted pendulum dynamics; and 3) residual adaptation, which captures motion details not accounted for by rhythm generation or stride shaping. GaitSpan is the first to deliver a single command-conditioned humanoid policy that spans walking, jogging, and running-like regimes covering a continuous speed range, transfers across morphologies, and deploys zero-shot on unseen sim-to-sim, and real-world terrains. Compared with baselines either trained with multi-experts or imitation from humans, it learns faster and achieves stronger gait performance.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Zero-Shot",
+      "Humanoid",
+      "Gait",
+      "Walking",
+      "PPO"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2607.11874",
     "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
     "paper_url": "https://arxiv.org/abs/2607.11874",
@@ -171,7 +270,7 @@
     ],
     "published": "2026-07",
     "published_date": "2026-07-13",
-    "abstract": "Reinforcement learning (RL) algorithms classically suffer from poor sample efficiency. In robotics, a recent line of work has emerged addressing this problem by encoding physics priors in the learning process. However, most of these approaches are validated on well-defined, low-dimensional benchmark systems rather than high-dimensional robots with complex nonlinear dynamics. In this paper, we introduce \\textit{SKooP (Symmetric Koopman Predictions)}, an approach combining the advantages of morphological symmetries with those of a Koopman model learned via autoencoder to enhance policy learning. SKooP learns a Koopman model of the system dynamics alongside the policy. The resulting Koopman predictions are used as privileged observations for the critic, allowing the agent to learn based on smoother, more informative features. We also incorporate group symmetries into the actor, critic, encoder and decoder networks to produce a highly equivariant policy. The SKooP approach is validated via in-depth analysis of the learned Koopman models and symmetric policies to showcase how each of these influences the agent's performance. We also show that the learned policies are transferable to different simulation environments. Our results show that SKooP consistently reduces convergence time and increases the learned reward for multiple challenging bipedal locomotion tasks on a quadruped robot. Project page: https://evelyd.github.io/SymmetricKoopmanPredictions/",
+    "abstract": "Reinforcement learning (RL) algorithms classically suffer from poor sample efficiency. In robotics, a recent line of work has emerged addressing this problem by encoding physics priors in the learning process. However, most of these approaches are validated on well-defined, low-dimensional benchmark systems rather than high-dimensional robots with complex nonlinear dynamics. In this paper, we introduce \\textit{SKooP (Symmetric Koopman Predictions)}, an approach combining the advantages of morphological symmetries with those of a Koopman model learned via autoencoder to enhance policy learning. SKooP learns a Koopman model of the system dynamics alongside the policy. The resulting Koopman predictions are used as privileged observations for the critic, allowing the agent to learn based on smoother, more informative features. We also incorporate group symmetries into the actor, critic, encoder and decoder networks to produce a highly equivariant policy. The SKooP approach is validated via in-depth analysis of the learned Koopman models and symmetric policies to showcase how each of these influences the agent's performance. We also show that the learned policies are transferable to different simulation environments. Our results show that SKooP consistently reduces convergence time and increases the learned reward for multiple challenging bipedal locomotion tasks on a quadruped robot. Project page: https://evelyd.github.io/SymmetricKoopmanPredictions",
     "categories": [
       "Simulation Benchmark",
       "Locomotion",
@@ -224,31 +323,41 @@
     "primary_category": "Simulation Benchmark"
   },
   {
-    "arxiv_id": "2607.11501",
-    "title": "Comparative Analysis of GAT and BERT for Human-Like Playtesting",
-    "paper_url": "https://arxiv.org/abs/2607.11501",
+    "arxiv_id": "2607.12206",
+    "title": "RegHead: Non-Humanoid Head Blendshapes via Feed-Forward Registration",
+    "paper_url": "https://arxiv.org/abs/2607.12206",
     "project_url": null,
     "authors": [
-      "Kleio Fragkedaki",
-      "Theodoros Panagiotakopoulos",
-      "Matteo Biasielli",
-      "Hui Wang"
+      "Jiahao Luo",
+      "Hao Zhang",
+      "Jianqi Chen",
+      "Yijie He",
+      "Jiaxu Zou",
+      "Michael Vasilkovsky",
+      "Sergei Korolev",
+      "Sergey Tulyakov",
+      "Chaoyang Wang",
+      "Peter Wonka",
+      "James Davis",
+      "Jian Wang"
     ],
     "published": "2026-07",
     "published_date": "2026-07-13",
-    "abstract": "Accurately modeling and understanding player experience is crucial for designing engaging puzzle games. To achieve this, a common approach involves collecting diverse user data to train predictive playtesting models that mimic player behavior. However, existing data-driven methods often lack the ability to capture the full range of player strategies and require extensive feature engineering and network architecture modeling. This limitation becomes particularly evident when new game mechanics or features are introduced, which necessitate continual adjustments to the models. To addrss these challenges, we propose a more generalized representation that reduces - or even eliminates - the need for ongoing feature-engineering maintenance. Specifically, we investigate two general-purpose network architectures: (a) a transformer-based model (BERT) and (b) a graph attention model (GAT), both of which are designed to effectively capture the relational structure of Candy Crush Saga (CCS) game boards. Our experiments compare these approaches to Convolutional Neural Networks (CNN) baselines, revealing better performance on challenging board configurations and underscoring the benefits of our generalizable representation.",
+    "abstract": "We present RegHead, a framework for constructing semantic blendshape sets for animatable non-humanoid head avatars. With a fixed expression vocabulary, semantic blendshapes provide a low-dimensional and interpretable animation interface and support cross-identity retargeting. Building such blendshape sets remains expensive because (i) expression-consistent supervision is scarce, (ii) generated 4D assets typically lack correspondence, and (iii) facial motion is highly localized. We propose (1) a large-scale dataset of non-humanoid identities paired with a shared expression vocabulary, obtained by expanding a small artist-rigged library via fine-tuned image editing; (2) a dense stochastic anchor motion representation tailored to localized facial deformations; and (3) a fast feed-forward registration model that converts unregistered expression meshes into a corresponded blendshape basis by predicting anchor-based deformations from the neutral shape. Experiments show that our approach produces higher-fidelity expression meshes than baselines, while running orders of magnitude faster than optimization. We further demonstrate real-time retargeting from human face tracking signals to non-humanoid characters, capturing both head pose and localized facial motions. Our project page is available at https://snap-research.github.io/RegHead/.",
     "categories": [
-      "Loco-Manipulation and Whole-Body Control"
+      "Simulation Benchmark"
     ],
     "tags": [
-      "Transformer",
-      "Loco-Manipulation and Whole-Body Control"
+      "Humanoid",
+      "Dataset",
+      "PPO",
+      "Simulation Benchmark"
     ],
     "real_robot": false,
     "open_source": false,
     "platform": null,
     "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
+    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2607.11644",
@@ -496,6 +605,7 @@
       "Gabrielle Marion",
       "Olivier Lecompte",
       "Amandine Gesta",
+      "Parsa Maghsoudloo",
       "Abolfazl Mohebbi"
     ],
     "published": "2026-07",

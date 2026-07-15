@@ -27,7 +27,7 @@
 ## A Biomimetic Myoelectric Tentacle Prosthesis with Sensorless Object Detection and Vibrotactile Feedback
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.09807)
-- **Authors:** Gabrielle Marion, Olivier Lecompte, Amandine Gesta, Abolfazl Mohebbi
+- **Authors:** Gabrielle Marion, Olivier Lecompte, Amandine Gesta, Parsa Maghsoudloo, Abolfazl Mohebbi
 - **Published:** 2026-07
 - **Tags:**
   - Robustness

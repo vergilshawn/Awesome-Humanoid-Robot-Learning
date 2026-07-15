@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**227 papers** in this category.
+**226 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (9 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (8 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -77,21 +77,6 @@ Recent work in humanoid whole-body control has found success with a simple recip
 ### Summary
 
 Tactile sensing for social-physical human-robot interaction (spHRI) is designed in a hardware-driven manner, where predefined sensor configurations constrain coverage, spatial resolution, and the range of recognizable gestures. We propose a requirement-driven framework that derives sensing requirements, specifically spatial resolution and placement, directly from interaction data.
-
----
-
-## Comparative Analysis of GAT and BERT for Human-Like Playtesting
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.11501)
-- **Authors:** Kleio Fragkedaki, Theodoros Panagiotakopoulos, Matteo Biasielli, Hui Wang
-- **Published:** 2026-07
-- **Tags:**
-  - Transformer
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Accurately modeling and understanding player experience is crucial for designing engaging puzzle games. To achieve this, a common approach involves collecting diverse user data to train predictive playtesting models that mimic player behavior.
 
 ---
 
@@ -425,5 +410,26 @@ Learning long-horizon humanoid loco-manipulation poses a dual challenge: it requ
 ### Summary
 
 High-level humanoid planners often output sparse task-space, low-rate trajectories, whereas whole-body controllers run at high frequency. This creates temporal asynchrony between the planning and execution, and structural incompleteness for full-body control.
+
+---
+
+## DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.25295)
+- **Authors:** Zhinan Yu, Junyan Xu, Jiazhao Zhang, Zheng Qin, Yijie Tang, Yuhang Huang et al. (12 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Isaac Gym
+  - Trajectory Prediction
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Mobile manipulation is a fundamental robotics task and has advanced rapidly in recent years, enabling robots to navigate, reach, and interact with objects in complex environments. However, mobile manipulation of dynamic objects remains highly challenging, as robots must coordinate the mobile base and arm while adapting to continuously evolving target poses.
 
 ---

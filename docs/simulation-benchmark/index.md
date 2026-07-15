@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**63 papers** in this category.
+**64 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (8 papers)
+- [2026-07](/simulation-benchmark/2026-07) (9 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -60,6 +60,23 @@ Reinforcement learning (RL) algorithms classically suffer from poor sample effic
 ### Summary
 
 This paper introduces numerical optimizations for maximizing throughput on GPU when solving large batches (10,000 to over 100,000) of sequential quadratic programming (SQP) iterations, where all problems have the same structure. The optimizations are implemented in a toolbox WarpMPC for model-predictive control (MPC) in JAX and Warp.
+
+---
+
+## RegHead: Non-Humanoid Head Blendshapes via Feed-Forward Registration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.12206)
+- **Authors:** Jiahao Luo, Hao Zhang, Jianqi Chen, Yijie He, Jiaxu Zou, Michael Vasilkovsky et al. (12 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+We present RegHead, a framework for constructing semantic blendshape sets for animatable non-humanoid head avatars. With a fixed expression vocabulary, semantic blendshapes provide a low-dimensional and interpretable animation interface and support cross-identity retargeting.
 
 ---
 
@@ -399,23 +416,5 @@ Reinforcement learning with massively parallel simulations has become a standard
 ### Summary
 
 The explosion of generative 3D assets has created a massive demand for animation, yet current motion capture methods remain brittle, restricted to species-specific templates (e.g., SMPL) or requiring labor-intensive manual rigging. We introduce TopoCap, the first unified framework capable of extracting motion from monocular video and retargeting it onto characters with arbitrary, unseen skeletal topologies, i.e., from bipeds to hexapods and inanimate objects, without test-time optimization.
-
----
-
-## EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.11109)
-- **Authors:** Yanshuo Lu, Yuxuan Hu, Shenghai Yuan, Xinyu Zhou, Kuangji Zuo, Bofan Lyu et al. (8 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅
-- **Tags:**
-  - Safety
-  - Humanoid
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Falls are one of the leading causes of injury and hospitalization among elderly individuals, making reliable fall awareness an essential capability for safety monitoring in residential environments. However, existing fall detection systems often rely on wearable devices or fixed sensing installations, which may suffer from low user compliance, limited spatial coverage, or degraded performance under occlusion and poor lighting conditions.
 
 ---

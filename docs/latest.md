@@ -2,6 +2,61 @@
 
 All papers sorted by publication date (newest first).
 
+## Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.12702)
+- **Authors:** Flavio Maiorana, Valerio Spagnoli, Eugenio Bugli, Flavio Volpi, Daniele Affinita, Vincenzo Suriani et al. (8 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - State Estimation
+  - Humanoid
+  - PPO
+  - Representation Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Recent advances in humanoid robotics have highlighted the importance of deployable loco-manipulation skills. Dribbling a soccer ball while evading active opponents requires simultaneous balance, precise ball control, and awareness of a dynamic adversary under onboard sensing and real-time constraints.
+
+---
+
+## Can Induced Emotion Bias LLM Behaviors in Sequential Decision Making?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.12631)
+- **Authors:** Minh Khoi Ho, Zihao Zhu, Runchuan Zhu, Levina Li, Zhiwen Fan, Zhangyang Wang et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Large Language Model
+  - Navigation
+
+### Summary
+
+As Large Language Models (LLMs) are increasingly deployed as autonomous agents in high-stakes domains, understanding contextual factors that may modulate their decision-making becomes critical. While LLMs are trained to perceive and resonate with users' emotions, it remains unclear whether induced emotion can influence their sequential decision-making.
+
+---
+
+## GaitSpan: Growing Humanoid Locomotion from Walking to Running
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.12114)
+- **Authors:** Kwan-Yee Lin, Zilin Wang, Janelle J. Liu, Stella X. Yu
+- **Published:** 2026-07
+- **Tags:**
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Walking
+  - PPO
+
+### Summary
+
+A humanoid that can walk should not relearn locomotion from scratch to jog or run. Yet current approaches often obtain gait diversity by prescribing gait schedules, imitating motion clips, training experts to switch between or distilling skills into one policy.
+
+---
+
 ## A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.11874)
@@ -122,18 +177,20 @@ This paper introduces numerical optimizations for maximizing throughput on GPU w
 
 ---
 
-## Comparative Analysis of GAT and BERT for Human-Like Playtesting
+## RegHead: Non-Humanoid Head Blendshapes via Feed-Forward Registration
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.11501)
-- **Authors:** Kleio Fragkedaki, Theodoros Panagiotakopoulos, Matteo Biasielli, Hui Wang
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.12206)
+- **Authors:** Jiahao Luo, Hao Zhang, Jianqi Chen, Yijie He, Jiaxu Zou, Michael Vasilkovsky et al. (12 authors)
 - **Published:** 2026-07
 - **Tags:**
-  - Transformer
-  - Loco-Manipulation and Whole-Body Control
+  - Humanoid
+  - Dataset
+  - PPO
+  - Simulation Benchmark
 
 ### Summary
 
-Accurately modeling and understanding player experience is crucial for designing engaging puzzle games. To achieve this, a common approach involves collecting diverse user data to train predictive playtesting models that mimic player behavior.
+We present RegHead, a framework for constructing semantic blendshape sets for animatable non-humanoid head avatars. With a fixed expression vocabulary, semantic blendshapes provide a low-dimensional and interpretable animation interface and support cross-identity retargeting.
 
 ---
 
@@ -271,7 +328,7 @@ Tactile feedback is fundamental to Hand-Object Interaction (HOI), governing cont
 ## A Biomimetic Myoelectric Tentacle Prosthesis with Sensorless Object Detection and Vibrotactile Feedback
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.09807)
-- **Authors:** Gabrielle Marion, Olivier Lecompte, Amandine Gesta, Abolfazl Mohebbi
+- **Authors:** Gabrielle Marion, Olivier Lecompte, Amandine Gesta, Parsa Maghsoudloo, Abolfazl Mohebbi
 - **Published:** 2026-07
 - **Tags:**
   - Robustness

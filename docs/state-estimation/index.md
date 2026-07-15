@@ -1,9 +1,10 @@
 # State Estimation
 
-**29 papers** in this category.
+**30 papers** in this category.
 
 ## Months
 
+- [2026-07](/state-estimation/2026-07) (1 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
@@ -16,6 +17,27 @@
 ---
 
 ## Recent Papers
+
+## Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.12702)
+- **Authors:** Flavio Maiorana, Valerio Spagnoli, Eugenio Bugli, Flavio Volpi, Daniele Affinita, Vincenzo Suriani et al. (8 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - State Estimation
+  - Humanoid
+  - PPO
+  - Representation Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Recent advances in humanoid robotics have highlighted the importance of deployable loco-manipulation skills. Dribbling a soccer ball while evading active opponents requires simultaneous balance, precise ball control, and awareness of a dynamic adversary under onboard sensing and real-time constraints.
+
+---
 
 ## Mechanistic Personality Analysis of LLMs Steering Personality via Latent Feature Interventions
 
@@ -379,27 +401,5 @@ Large language models are increasingly used as behavioral simulators, but it rem
 ### Summary
 
 Imitation Learning from monocular video demonstrations provides a scalable approach for teaching complex skills to humanoid robots. However, translating human motion to humanoids requires overcoming significant morphological mismatches.
-
----
-
-## PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.17681)
-- **Authors:** Jiarong Kang, Kunzhao Ren, Tao Pang, Xiaobin Xiong
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - State Estimation
-  - Real Robot
-  - Humanoid
-  - Proprioception
-  - Foundation Model
-  - Contact Dynamics
-  - Friction
-
-### Summary
-
-Humanoid and legged robots interact with the environment through intermittent contacts, making accurate motion estimation fundamentally dependent on reasoning about contact dynamics. However, standard sensing pipelines-whether based on onboard proprioception with Extended Kalman Filters (EKFs) or external motion capture systems-recover only kinematics, while contact forces, contact timing, and inertial parameters remain unobserved.
 
 ---

@@ -5,7 +5,7 @@ Papers with real humanoid robot deployment and experiments.
 ## Platforms
 
 - **Atlas:** 1 papers
-- **Booster:** 2 papers
+- **Booster:** 3 papers
 - **Digit:** 8 papers
 - **Figure:** 37 papers
 - **NAO:** 4 papers
@@ -17,6 +17,27 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.12702)
+- **Authors:** Flavio Maiorana, Valerio Spagnoli, Eugenio Bugli, Flavio Volpi, Daniele Affinita, Vincenzo Suriani et al. (8 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - State Estimation
+  - Humanoid
+  - PPO
+  - Representation Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Recent advances in humanoid robotics have highlighted the importance of deployable loco-manipulation skills. Dribbling a soccer ball while evading active opponents requires simultaneous balance, precise ball control, and awareness of a dynamic adversary under onboard sensing and real-time constraints.
+
+---
 
 ## Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation
 

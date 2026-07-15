@@ -4,39 +4,39 @@ Browse papers by research topic and methodology.
 
 ---
 
-## Humanoid (507)
+## Humanoid (510)
 
+- [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](https://arxiv.org/abs/2607.12702) — 2026-07
+- [GaitSpan: Growing Humanoid Locomotion from Walking to Running](https://arxiv.org/abs/2607.12114) — 2026-07
 - [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — 2026-07
 - [Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction](https://arxiv.org/abs/2607.11690) — 2026-07
 - [DA-Nav: Direction-Aware City-Scale Vision-Language Navigation](https://arxiv.org/abs/2607.11638) — 2026-07
-- [WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\top$ Factorization](https://arxiv.org/abs/2607.11603) — 2026-07
-- [Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors](https://arxiv.org/abs/2607.10815) — 2026-07
 
 ## Loco-Manipulation and Whole-Body Control (259)
 
+- [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](https://arxiv.org/abs/2607.12702) — 2026-07
 - [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — 2026-07
 - [Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction](https://arxiv.org/abs/2607.11690) — 2026-07
-- [Comparative Analysis of GAT and BERT for Human-Like Playtesting](https://arxiv.org/abs/2607.11501) — 2026-07
 - [Motion4Motion: Motion Transfer Across Subjects at Inference](https://arxiv.org/abs/2607.11644) — 2026-07
 - [Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors](https://arxiv.org/abs/2607.10815) — 2026-07
 
-## Locomotion (188)
+## Locomotion (189)
 
+- [GaitSpan: Growing Humanoid Locomotion from Walking to Running](https://arxiv.org/abs/2607.12114) — 2026-07
 - [Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation](https://arxiv.org/abs/2607.11855) — 2026-07
 - [SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning](https://arxiv.org/abs/2607.11624) — 2026-07
 - [Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors](https://arxiv.org/abs/2607.10815) — 2026-07
 - [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323) — 2026-07
-- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
 
-## Manipulation (185)
+## Manipulation (186)
 
+- [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](https://arxiv.org/abs/2607.12702) — 2026-07
 - [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — 2026-07
 - [Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation](https://arxiv.org/abs/2607.11855) — 2026-07
 - [TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation](https://arxiv.org/abs/2607.10132) — 2026-07
 - [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) — 2026-07
-- [AgenticFocus: Object-Preserving Mixed Reality Synthesis from Human FPV Video for Dexterous Humanoid Learning](https://arxiv.org/abs/2607.08857) — 2026-07
 
-## Simulation Benchmark (148)
+## Simulation Benchmark (149)
 
 - [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — 2026-07
 - [Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction](https://arxiv.org/abs/2607.11690) — 2026-07
@@ -44,13 +44,13 @@ Browse papers by research topic and methodology.
 - [SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning](https://arxiv.org/abs/2607.11624) — 2026-07
 - [WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\top$ Factorization](https://arxiv.org/abs/2607.11603) — 2026-07
 
-## State Estimation (119)
+## State Estimation (120)
 
+- [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](https://arxiv.org/abs/2607.12702) — 2026-07
 - [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — 2026-07
 - [Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction](https://arxiv.org/abs/2607.11690) — 2026-07
 - [SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning](https://arxiv.org/abs/2607.11624) — 2026-07
 - [Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors](https://arxiv.org/abs/2607.10815) — 2026-07
-- [TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation](https://arxiv.org/abs/2607.10132) — 2026-07
 
 ## Physics-Based Character Animation (91)
 
@@ -60,13 +60,13 @@ Browse papers by research topic and methodology.
 - [A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths](https://arxiv.org/abs/2607.08620) — 2026-07
 - [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
 
-## Reinforcement Learning (84)
+## Reinforcement Learning (85)
 
+- [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](https://arxiv.org/abs/2607.12702) — 2026-07
 - [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — 2026-07
 - [SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning](https://arxiv.org/abs/2607.11624) — 2026-07
 - [Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors](https://arxiv.org/abs/2607.10815) — 2026-07
 - [TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation](https://arxiv.org/abs/2607.10132) — 2026-07
-- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
 
 ## Human Motion Analysis and Synthesis (69)
 
@@ -84,6 +84,14 @@ Browse papers by research topic and methodology.
 - [In vivo feasibility study of humanoid robots in surgery](https://arxiv.org/abs/2607.07972) — 2026-07
 - [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
 
+## PPO (60)
+
+- [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](https://arxiv.org/abs/2607.12702) — 2026-07
+- [GaitSpan: Growing Humanoid Locomotion from Walking to Running](https://arxiv.org/abs/2607.12114) — 2026-07
+- [DA-Nav: Direction-Aware City-Scale Vision-Language Navigation](https://arxiv.org/abs/2607.11638) — 2026-07
+- [RegHead: Non-Humanoid Head Blendshapes via Feed-Forward Registration](https://arxiv.org/abs/2607.12206) — 2026-07
+- [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323) — 2026-07
+
 ## Whole-Body Control (59)
 
 - [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — 2026-07
@@ -91,14 +99,6 @@ Browse papers by research topic and methodology.
 - [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — 2026-07
 - [Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control](https://arxiv.org/abs/2607.04837) — 2026-07
 - [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — 2026-07
-
-## PPO (57)
-
-- [DA-Nav: Direction-Aware City-Scale Vision-Language Navigation](https://arxiv.org/abs/2607.11638) — 2026-07
-- [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323) — 2026-07
-- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
-- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
-- [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
 
 ## Benchmark (57)
 
@@ -108,21 +108,21 @@ Browse papers by research topic and methodology.
 - [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
 - [ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations](https://arxiv.org/abs/2607.06052) — 2026-07
 
-## Navigation (53)
+## Navigation (54)
 
+- [Can Induced Emotion Bias LLM Behaviors in Sequential Decision Making?](https://arxiv.org/abs/2607.12631) — 2026-07
 - [DA-Nav: Direction-Aware City-Scale Vision-Language Navigation](https://arxiv.org/abs/2607.11638) — 2026-07
 - [Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments](https://arxiv.org/abs/2607.09911) — 2026-07
 - [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323) — 2026-07
 - [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
-- [Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion](https://arxiv.org/abs/2607.07390) — 2026-07
 
-## Dataset (52)
+## Dataset (53)
 
 - [Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction](https://arxiv.org/abs/2607.11690) — 2026-07
 - [DA-Nav: Direction-Aware City-Scale Vision-Language Navigation](https://arxiv.org/abs/2607.11638) — 2026-07
 - [WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\top$ Factorization](https://arxiv.org/abs/2607.11603) — 2026-07
+- [RegHead: Non-Humanoid Head Blendshapes via Feed-Forward Registration](https://arxiv.org/abs/2607.12206) — 2026-07
 - [Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors](https://arxiv.org/abs/2607.10815) — 2026-07
-- [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) — 2026-07
 
 ## Hardware Design (40)
 
@@ -156,13 +156,13 @@ Browse papers by research topic and methodology.
 - [VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes](https://arxiv.org/abs/2606.30645) — 2026-06
 - 🌟 [Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision](https://arxiv.org/abs/2606.30552) — 2026-06
 
-## Zero-Shot (29)
+## Zero-Shot (30)
 
+- [GaitSpan: Growing Humanoid Locomotion from Walking to Running](https://arxiv.org/abs/2607.12114) — 2026-07
 - [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — 2026-07
 - [TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation](https://arxiv.org/abs/2607.10132) — 2026-07
 - [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — 2026-07
 - [Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation](https://arxiv.org/abs/2607.04940) — 2026-07
-- [Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments](https://arxiv.org/abs/2606.32009) — 2026-06
 
 ## Safety (28)
 
@@ -171,6 +171,14 @@ Browse papers by research topic and methodology.
 - [In vivo feasibility study of humanoid robots in surgery](https://arxiv.org/abs/2607.07972) — 2026-07
 - [Initiation Safety: A Missing Dimension in Generalist-Robot Safety](https://arxiv.org/abs/2607.07420) — 2026-07
 - [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370) — 2026-07
+
+## Walking (23)
+
+- [GaitSpan: Growing Humanoid Locomotion from Walking to Running](https://arxiv.org/abs/2607.12114) — 2026-07
+- [Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation](https://arxiv.org/abs/2607.11855) — 2026-07
+- [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323) — 2026-07
+- [Coachable agents for interactive gameplay](https://arxiv.org/abs/2607.00642) — 2026-07
+- [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
 
 ## Human Demonstration (23)
 
@@ -187,14 +195,6 @@ Browse papers by research topic and methodology.
 - [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — 2026-07
 - [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089) — 2026-06
 - [Comparative Study on Agility, Efficiency, and Impact Absorption of Bipedal Robots with Active Toes](https://arxiv.org/abs/2606.19699) — 2026-06
-
-## Walking (22)
-
-- [Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation](https://arxiv.org/abs/2607.11855) — 2026-07
-- [Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot](https://arxiv.org/abs/2607.09323) — 2026-07
-- [Coachable agents for interactive gameplay](https://arxiv.org/abs/2607.00642) — 2026-07
-- [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
-- [CWI: Composite Humanoid Whole-Body Imitation System for Loco-manipulation](https://arxiv.org/abs/2606.27676) — 2026-06
 
 ## Robustness (21)
 
@@ -220,6 +220,14 @@ Browse papers by research topic and methodology.
 - [OMG: Omni-Modal Motion Generation for Generalist Humanoid Control](https://arxiv.org/abs/2606.10340) — 2026-06
 - [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — 2026-06
 
+## Gait (18)
+
+- [GaitSpan: Growing Humanoid Locomotion from Walking to Running](https://arxiv.org/abs/2607.12114) — 2026-07
+- [Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors](https://arxiv.org/abs/2607.10815) — 2026-07
+- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
+- [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
+- 🌟 [Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors](https://arxiv.org/abs/2606.28237) — 2026-06
+
 ## Imitation Learning (18)
 
 - [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
@@ -227,14 +235,6 @@ Browse papers by research topic and methodology.
 - [RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation](https://arxiv.org/abs/2606.31836) — 2026-06
 - [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
 - 🌟 [TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU](https://arxiv.org/abs/2606.24039) — 2026-06
-
-## Gait (17)
-
-- [Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors](https://arxiv.org/abs/2607.10815) — 2026-07
-- [Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains](https://arxiv.org/abs/2607.07830) — 2026-07
-- [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — 2026-06
-- 🌟 [Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors](https://arxiv.org/abs/2606.28237) — 2026-06
-- [MotionPyramid: Hierarchical Motion Representation and Residual Interfaces](https://arxiv.org/abs/2606.20705) — 2026-06
 
 ## Fine-tuning (15)
 
@@ -252,6 +252,14 @@ Browse papers by research topic and methodology.
 - [Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain](https://arxiv.org/abs/2606.08059) — 2026-06
 - [OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies](https://arxiv.org/abs/2606.08043) — 2026-06
 
+## Large Language Model (13)
+
+- [Can Induced Emotion Bias LLM Behaviors in Sequential Decision Making?](https://arxiv.org/abs/2607.12631) — 2026-07
+- [Hallucination Detection in Large Language Models Using Diversion Decoding](https://arxiv.org/abs/2607.10476) — 2026-07
+- [Conversational Human Audio-visual Talking Dialogue Generation](https://arxiv.org/abs/2607.02799) — 2026-07
+- [Mechanistic Personality Analysis of LLMs Steering Personality via Latent Feature Interventions](https://arxiv.org/abs/2606.28770) — 2026-06
+- 🌟 [WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots](https://arxiv.org/abs/2606.16600) — 2026-06
+
 ## Policy Learning (12)
 
 - [SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning](https://arxiv.org/abs/2607.11624) — 2026-07
@@ -267,14 +275,6 @@ Browse papers by research topic and methodology.
 - [CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.23680) — 2026-06
 - [LP-NavOA: Integrated Local Navigation and Obstacle Avoidance for Humanoid Robots under Limited Perception](https://arxiv.org/abs/2606.23249) — 2026-06
 - [HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning](https://arxiv.org/abs/2606.17833) — 2026-06
-
-## Large Language Model (12)
-
-- [Hallucination Detection in Large Language Models Using Diversion Decoding](https://arxiv.org/abs/2607.10476) — 2026-07
-- [Conversational Human Audio-visual Talking Dialogue Generation](https://arxiv.org/abs/2607.02799) — 2026-07
-- [Mechanistic Personality Analysis of LLMs Steering Personality via Latent Feature Interventions](https://arxiv.org/abs/2606.28770) — 2026-06
-- 🌟 [WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots](https://arxiv.org/abs/2606.16600) — 2026-06
-- [What Robots Do Matters More Than What They Look Like: Task Context Shapes Trust in Educational HRI](https://arxiv.org/abs/2606.14602) — 2026-06
 
 ## MuJoCo (12)
 
@@ -308,14 +308,6 @@ Browse papers by research topic and methodology.
 - [A Model of Multi-turn Human Persuadability Using Probabilistic Belief Tracing](https://arxiv.org/abs/2606.05330) — 2026-06
 - [LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World](https://arxiv.org/abs/2606.01458) — 2026-05
 
-## Transformer (10)
-
-- [Comparative Analysis of GAT and BERT for Human-Like Playtesting](https://arxiv.org/abs/2607.11501) — 2026-07
-- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
-- 🌟 [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) — 2026-07
-- 🌟 [Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision](https://arxiv.org/abs/2606.30552) — 2026-06
-- [AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance](https://arxiv.org/abs/2606.29209) — 2026-06
-
 ## World Model (10)
 
 - [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089) — 2026-06
@@ -323,6 +315,14 @@ Browse papers by research topic and methodology.
 - 🌟 [RoSHI: Large-scale Motion Imitation in Humanoid Robots via World Models](https://arxiv.org/abs/2604.07331) — 2026-04
 - 🌟 [HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model](https://arxiv.org/abs/2602.11758) — 2026-02
 - 🌟 [DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos](https://arxiv.org/abs/2602.06949) — 2026-02
+
+## Transformer (9)
+
+- [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://arxiv.org/abs/2607.08741) — 2026-07
+- 🌟 [SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction](https://arxiv.org/abs/2607.04119) — 2026-07
+- 🌟 [Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision](https://arxiv.org/abs/2606.30552) — 2026-06
+- [AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance](https://arxiv.org/abs/2606.29209) — 2026-06
+- [Duet: Dual-Robot Understanding via Efficient Teaching](https://arxiv.org/abs/2606.20990) — 2026-06
 
 ## Motion Planning (9)
 
@@ -469,6 +469,12 @@ Browse papers by research topic and methodology.
 - 🌟 [CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control](https://arxiv.org/abs/2410.03441) — 2024-10
 - [Multi-task Deep Reinforcement Learning with PopArt](https://arxiv.org/abs/1809.04474) — 2018-09
 
+## Representation Learning (3)
+
+- [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](https://arxiv.org/abs/2607.12702) — 2026-07
+- [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089) — 2026-06
+- [Contrastive Representation Learning for Robust Sim-to-Real Transfer of Adaptive Humanoid Locomotion](https://arxiv.org/abs/2509.12858) — 2025-09
+
 ## Few-Shot (3)
 
 - [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
@@ -544,11 +550,6 @@ Browse papers by research topic and methodology.
 
 - [DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects](https://arxiv.org/abs/2606.25295) — 2026-06
 - 🌟 [EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction](https://arxiv.org/abs/2605.19004) — 2026-05
-
-## Representation Learning (2)
-
-- [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs](https://arxiv.org/abs/2606.24089) — 2026-06
-- [Contrastive Representation Learning for Robust Sim-to-Real Transfer of Adaptive Humanoid Locomotion](https://arxiv.org/abs/2509.12858) — 2025-09
 
 ## Curriculum Learning (2)
 

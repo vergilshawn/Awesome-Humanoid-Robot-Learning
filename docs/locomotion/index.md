@@ -1,10 +1,10 @@
 # Locomotion
 
-**134 papers** in this category.
+**135 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (8 papers)
+- [2026-07](/locomotion/2026-07) (9 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,25 @@
 ---
 
 ## Recent Papers
+
+## GaitSpan: Growing Humanoid Locomotion from Walking to Running
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.12114)
+- **Authors:** Kwan-Yee Lin, Zilin Wang, Janelle J. Liu, Stella X. Yu
+- **Published:** 2026-07
+- **Tags:**
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Walking
+  - PPO
+
+### Summary
+
+A humanoid that can walk should not relearn locomotion from scratch to jog or run. Yet current approaches often obtain gait diversity by prescribing gait schedules, imitating motion clips, training experts to switch between or distilling skills into one policy.
+
+---
 
 ## Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation
 
@@ -425,27 +444,5 @@ Fall recovery is critical for autonomous legged locomotion. Existing methods hav
 ### Summary
 
 Multi-objective reinforcement learning for humanoid robots must coordinate locomotion and manipulation within a single policy. A natural design choice is whether to use a single (unified) critic that estimates the combined value of all objectives, or separate (dual) critics with disjoint reward signals.
-
----
-
-## A Spiking Neural Architecture for Coordinating Arm and Locomotor Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.11034)
-- **Authors:** Lea Steffen, Kathryn Simone, Graeme Damberger, Travis DeWolf, Hudson Ly, Chris Eliasmith
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - Locomotion
-  - Isaac Sim
-  - Biped
-  - Humanoid
-  - Walking
-  - GAN
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Spiking Neural Networks (SNNs) coupled with neuromorphic hardware offer energy-efficient solutions for humanoid robot control. However, existing SNN-based motor control systems address bipedal locomotion and arm control in isolation, leaving integrated control of both unaddressed.
 
 ---

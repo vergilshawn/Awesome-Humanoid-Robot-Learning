@@ -1,10 +1,10 @@
 # Navigation
 
-**27 papers** in this category.
+**28 papers** in this category.
 
 ## Months
 
-- [2026-07](/navigation/2026-07) (3 papers)
+- [2026-07](/navigation/2026-07) (4 papers)
 - [2026-06](/navigation/2026-06) (6 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
@@ -23,6 +23,21 @@
 ---
 
 ## Recent Papers
+
+## Can Induced Emotion Bias LLM Behaviors in Sequential Decision Making?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.12631)
+- **Authors:** Minh Khoi Ho, Zihao Zhu, Runchuan Zhu, Levina Li, Zhiwen Fan, Zhangyang Wang et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Large Language Model
+  - Navigation
+
+### Summary
+
+As Large Language Models (LLMs) are increasingly deployed as autonomous agents in high-stakes domains, understanding contextual factors that may modulate their decision-making becomes critical. While LLMs are trained to perceive and resonate with users' emotions, it remains unclear whether induced emotion can influence their sequential decision-making.
+
+---
 
 ## DA-Nav: Direction-Aware City-Scale Vision-Language Navigation
 
@@ -335,21 +350,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Humanoid
   - Navigation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Hand-Eye Autonomous Delivery: Learning Humanoid Navigation, Locomotion and Reaching
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.03068)
-- **Published:** 2025-08
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Humanoid
 
 ### Summary
 
