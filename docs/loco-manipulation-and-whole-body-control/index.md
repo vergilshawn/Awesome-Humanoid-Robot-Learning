@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**226 papers** in this category.
+**227 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (8 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (9 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -36,6 +36,23 @@
 ---
 
 ## Recent Papers
+
+## Beyond Color Geometry: Evaluating Human-Like Color Representations in Vision Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13647)
+- **Authors:** Ayan Igali, Pakizar Shamoi
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Transformer
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Do vision models see colors the way humans do? Existing evaluations of color representations usually compare them with geometric spaces such as CIELAB or with discrete color labels. These references capture perceptual distance or category membership, but not the graded way in which people organize colors.
+
+---
 
 ## A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation
 
@@ -410,26 +427,5 @@ Learning long-horizon humanoid loco-manipulation poses a dual challenge: it requ
 ### Summary
 
 High-level humanoid planners often output sparse task-space, low-rate trajectories, whereas whole-body controllers run at high frequency. This creates temporal asynchrony between the planning and execution, and structural incompleteness for full-body control.
-
----
-
-## DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.25295)
-- **Authors:** Zhinan Yu, Junyan Xu, Jiazhao Zhang, Zheng Qin, Yijie Tang, Yuhang Huang et al. (12 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Manipulation
-  - Isaac Gym
-  - Trajectory Prediction
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Mobile manipulation is a fundamental robotics task and has advanced rapidly in recent years, enabling robots to navigate, reach, and interact with objects in complex environments. However, mobile manipulation of dynamic objects remains highly challenging, as robots must coordinate the mobile base and arm while adapting to continuously evolving target poses.
 
 ---

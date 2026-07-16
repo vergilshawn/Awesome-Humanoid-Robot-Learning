@@ -1,10 +1,10 @@
 # State Estimation
 
-**30 papers** in this category.
+**31 papers** in this category.
 
 ## Months
 
-- [2026-07](/state-estimation/2026-07) (1 papers)
+- [2026-07](/state-estimation/2026-07) (2 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
@@ -36,6 +36,22 @@
 ### Summary
 
 Recent advances in humanoid robotics have highlighted the importance of deployable loco-manipulation skills. Dribbling a soccer ball while evading active opponents requires simultaneous balance, precise ball control, and awareness of a dynamic adversary under onboard sensing and real-time constraints.
+
+---
+
+## A Bayesian framework for the uncanny valley in humanoid robot design
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13060)
+- **Authors:** Shimon Honda, Rin Shibano, Hideyoshi Yanagisawa
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+The uncanny valley is a long-standing empirical rule in humanoid robot design: making robots more human-like can reduce, rather than increase, affinity. Yet existing guidelines, such as adopting robot-like appearances, avoiding excessive realism, and reducing cross-modal mismatches, remain difficult to use for algorithmic design because they are not expressed as manipulable variables.
 
 ---
 
@@ -381,25 +397,5 @@ Recent advances in Omni-Multimodal Large Language Models (Omni-MLLMs) have enabl
 ### Summary
 
 Large language models are increasingly used as behavioral simulators, but it remains unclear when their outputs reflect human-like cognitive mechanisms rather than prompt-sensitive surface patterns. We study this question through the realization effect, a well-characterized finding in behavioral economics in which risk-taking differs systematically after paper versus realized gains and losses.
-
----
-
-## Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.23762)
-- **Authors:** Constant Roux, Ludovic De Matteïs, Armand Jordana, Valentin Guillet, Nicolas Mansard, Olivier Stasse et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Imitation Learning
-  - Simulator
-  - Humanoid
-  - Sampling-Based
-  - State Estimation
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Imitation Learning from monocular video demonstrations provides a scalable approach for teaching complex skills to humanoid robots. However, translating human motion to humanoids requires overcoming significant morphological mismatches.
 
 ---

@@ -2,6 +2,65 @@
 
 All papers sorted by publication date (newest first).
 
+## The Nonsmooth Impact Direction (NSID) of Robotic Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13768)
+- **Authors:** Annika Kirner, Christian Ott
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Friction
+  - Impact
+  - Collision
+  - PPO
+
+### Summary
+
+Collisions of rigid-link robots and rigid environments are often modeled as instantaneous events. Under this idealization, the impact forces become impulsive and the system velocities nonsmooth.
+
+---
+
+## EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13472)
+- **Authors:** Alex Brandes, Haig Conti Georges Sajelian, Manthan Patel, Dominik Hollidt, Chenhao Li, Matthias Heyrman et al. (14 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Deploying humanoid robots in unstructured terrain remains an open problem. While classic reinforcement learning struggles with the sheer complexity of real-world interactions, more promising methods leveraging human priors remain limited to models lacking contextual awareness.
+
+---
+
+## Beyond Color Geometry: Evaluating Human-Like Color Representations in Vision Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13647)
+- **Authors:** Ayan Igali, Pakizar Shamoi
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Transformer
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Do vision models see colors the way humans do? Existing evaluations of color representations usually compare them with geometric spaces such as CIELAB or with discrete color labels. These references capture perceptual distance or category membership, but not the graded way in which people organize colors.
+
+---
+
 ## Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.12702)
@@ -20,21 +79,6 @@ All papers sorted by publication date (newest first).
 ### Summary
 
 Recent advances in humanoid robotics have highlighted the importance of deployable loco-manipulation skills. Dribbling a soccer ball while evading active opponents requires simultaneous balance, precise ball control, and awareness of a dynamic adversary under onboard sensing and real-time constraints.
-
----
-
-## Can Induced Emotion Bias LLM Behaviors in Sequential Decision Making?
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.12631)
-- **Authors:** Minh Khoi Ho, Zihao Zhu, Runchuan Zhu, Levina Li, Zhiwen Fan, Zhangyang Wang et al. (7 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Large Language Model
-  - Navigation
-
-### Summary
-
-As Large Language Models (LLMs) are increasingly deployed as autonomous agents in high-stakes domains, understanding contextual factors that may modulate their decision-making becomes critical. While LLMs are trained to perceive and resonate with users' emotions, it remains unclear whether induced emotion can influence their sequential decision-making.
 
 ---
 
@@ -227,6 +271,24 @@ This work explores the motion transfer from one video to another, which is cruci
 ### Summary
 
 Humanoid roller-skating is difficult because the robot must coordinate whole-body balance, rolling contacts, and velocity-dependent posture regulation. This paper presents an adversarial motion prior based reinforcement learning framework for two humanoid roller-skating gaits: Pump Glide skating and Push Glide skating.
+
+---
+
+## HRO: Hierarchical Room-to-Object Framework for Zero-Shot Object Goal Navigation with Large Language Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13072)
+- **Authors:** Luyuan Jia, Yinfeng Yu
+- **Published:** 2026-07
+- **Tags:**
+  - Navigation
+  - Zero-Shot
+  - Dataset
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Zero-shot object-goal navigation aims to enable an intelligent agent to explore and navigate to objects of unknown categories in an unfamiliar environment without specific target training. In zero-shot navigation tasks, pre-trained large models are usually employed to leverage their prior knowledge for guiding the agent's navigation.
 
 ---
 
@@ -605,6 +667,22 @@ Retargeting human object interaction demonstrations to physics based simulation 
 ### Summary
 
 Humanoid robots are increasingly expected to perform contact-rich tasks that require not only accurate whole-body motion but also robust physical interaction with surrounding objects and humans. Although recent advances in humanoid motion imitation and whole-body control have achieved remarkable tracking performance, existing datasets and benchmarks primarily focus on kinematic motion while largely overlooking synchronized interaction forces.
+
+---
+
+## A Bayesian framework for the uncanny valley in humanoid robot design
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13060)
+- **Authors:** Shimon Honda, Rin Shibano, Hideyoshi Yanagisawa
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+The uncanny valley is a long-standing empirical rule in humanoid robot design: making robots more human-like can reduce, rather than increase, affinity. Yet existing guidelines, such as adopting robot-like appearances, avoiding excessive realism, and reducing cross-modal mismatches, remain difficult to use for algorithmic design because they are not expressed as manipulable variables.
 
 ---
 

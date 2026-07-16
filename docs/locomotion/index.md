@@ -1,10 +1,10 @@
 # Locomotion
 
-**135 papers** in this category.
+**136 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (9 papers)
+- [2026-07](/locomotion/2026-07) (10 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,26 @@
 ---
 
 ## Recent Papers
+
+## The Nonsmooth Impact Direction (NSID) of Robotic Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13768)
+- **Authors:** Annika Kirner, Christian Ott
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Friction
+  - Impact
+  - Collision
+  - PPO
+
+### Summary
+
+Collisions of rigid-link robots and rigid environments are often modeled as instantaneous events. Under this idealization, the impact forces become impulsive and the system velocities nonsmooth.
+
+---
 
 ## GaitSpan: Growing Humanoid Locomotion from Walking to Running
 
@@ -422,27 +442,5 @@ In this letter, we present a hierarchical control framework that enables wheeled
 ### Summary
 
 Fall recovery is critical for autonomous legged locomotion. Existing methods have demonstrated that some legged robots, such as humanoids and quadrupeds, are capable of fall recovery from diverse postures by utilizing arms or coordinating multi-legs to generate support forces.
-
----
-
-## Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.11891)
-- **Authors:** Mehmet Turan Yardımcı
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Walking
-  - Fine-tuning
-  - Impact
-  - Simulation Benchmark
-
-### Summary
-
-Multi-objective reinforcement learning for humanoid robots must coordinate locomotion and manipulation within a single policy. A natural design choice is whether to use a single (unified) critic that estimates the combined value of all objectives, or separate (dual) critics with disjoint reward signals.
 
 ---

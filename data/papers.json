@@ -1,5 +1,106 @@
 [
   {
+    "arxiv_id": "2607.13768",
+    "title": "The Nonsmooth Impact Direction (NSID) of Robotic Systems",
+    "paper_url": "https://arxiv.org/abs/2607.13768",
+    "project_url": null,
+    "authors": [
+      "Annika Kirner",
+      "Christian Ott"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-15",
+    "abstract": "Collisions of rigid-link robots and rigid environments are often modeled as instantaneous events. Under this idealization, the impact forces become impulsive and the system velocities nonsmooth. In this work, we systematically analyze pre- and post-impact velocities focusing on what we refer to as the nonsmooth impact direction (NSID). We show that it is a characteristic direction of a robotic impact and largely independent of contact properties. The results are directly applicable to large classes of backdrivable robotic systems with rigid links. We address particularities of systems with nonelastic and flexible joints, unconstrained as well as constrained systems. Further, we show that the approach direction w.r.t the NSID sets the direction of the impulsive force in frictional, inelastic impacts. The comprehensive theoretical analysis of this work supported by an experimental validation may serve as a foundation for future planning and control algorithms for various robotic impact applications. These can include humanoid locomotion on a slippery surface or repetitive hammering.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "Friction",
+      "Impact",
+      "Collision",
+      "PPO"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.13472",
+    "title": "EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal",
+    "paper_url": "https://arxiv.org/abs/2607.13472",
+    "project_url": null,
+    "authors": [
+      "Alex Brandes",
+      "Haig Conti Georges Sajelian",
+      "Manthan Patel",
+      "Dominik Hollidt",
+      "Chenhao Li",
+      "Matthias Heyrman",
+      "Oliver Hausdoerfer",
+      "Manuel Kaufmann",
+      "Xi Wang",
+      "Jonas Frey",
+      "Angela P. Schoellig",
+      "Christian Holz",
+      "Marc Pollefeys",
+      "Marco Hutter"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-15",
+    "abstract": "Deploying humanoid robots in unstructured terrain remains an open problem. While classic reinforcement learning struggles with the sheer complexity of real-world interactions, more promising methods leveraging human priors remain limited to models lacking contextual awareness. The restricted motion synthesis is a direct consequence of existing dataset pipelines failing to capture human-scene sequences in challenging environments. To bridge this gap between humanoid learning and scene reconstruction, we introduce the Egocentric Human-Terrain Reconstruction (EgoHTR) dataset. We develop and open-source a reconstruction pipeline capturing 55 scene-aligned 4D human motion sequences in diverse, complex environments using a multi-sensor setup of egocentric wearables and a portable 3D scanner. The resulting dataset comprises over 150k frames, which we evaluate against motion-capture ground truth, demonstrating state-of-the-art accuracy and establishing a rigorous benchmark for human motion analysis and synthesis. Further, we leverage this data to train perceptive locomotion policies, demonstrating hardware deployment on a Unitree G1 for reconstructed reference motions. Our pipeline enables community-driven dataset extensions and factors the problem to help researchers build foundational, context-aware robots that reliably traverse uneven terrain.",
+    "categories": [
+      "Simulation Benchmark",
+      "Locomotion",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2607.13647",
+    "title": "Beyond Color Geometry: Evaluating Human-Like Color Representations in Vision Models",
+    "paper_url": "https://arxiv.org/abs/2607.13647",
+    "project_url": null,
+    "authors": [
+      "Ayan Igali",
+      "Pakizar Shamoi"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-15",
+    "abstract": "Do vision models see colors the way humans do? Existing evaluations of color representations usually compare them with geometric spaces such as CIELAB or with discrete color labels. These references capture perceptual distance or category membership, but not the graded way in which people organize colors. We evaluate color grounding against a fuzzy perceptual model with 86 graded categories fitted to human survey data. The framework can be applied to any image encoder and measures three complementary properties: category boundaries, category compactness, and graded alignment beyond what color geometry alone can explain. Across eleven Vision Transformer encoders, the category-level results are broadly similar, whereas graded alignment differs substantially. Masked Autoencoders achieve the strongest beyond-geometry alignment, with confidence intervals that do not overlap those of the other encoders. A layer-wise analysis further shows that masked reconstruction preserves this structure toward the output. On natural images, MAE represents surface color globally, while language-supervised models encode color more strongly in relation to the foreground object. These results show that human-like color grounding has several distinct aspects that should not be reduced to a single score.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Transformer",
+      "GAN",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2607.12702",
     "title": "Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning",
     "paper_url": "https://arxiv.org/abs/2607.12702",
@@ -36,36 +137,6 @@
     "platform": "Booster",
     "summary": "",
     "primary_category": "State Estimation"
-  },
-  {
-    "arxiv_id": "2607.12631",
-    "title": "Can Induced Emotion Bias LLM Behaviors in Sequential Decision Making?",
-    "paper_url": "https://arxiv.org/abs/2607.12631",
-    "project_url": null,
-    "authors": [
-      "Minh Khoi Ho",
-      "Zihao Zhu",
-      "Runchuan Zhu",
-      "Levina Li",
-      "Zhiwen Fan",
-      "Zhangyang Wang",
-      "Junyuan Hong"
-    ],
-    "published": "2026-07",
-    "published_date": "2026-07-14",
-    "abstract": "As Large Language Models (LLMs) are increasingly deployed as autonomous agents in high-stakes domains, understanding contextual factors that may modulate their decision-making becomes critical. While LLMs are trained to perceive and resonate with users' emotions, it remains unclear whether induced emotion can influence their sequential decision-making. We investigate this question using the Iowa Gambling Task (IGT), a classic psychological paradigm for studying decision-making under uncertainty, combined with an imagination-based emotion induction procedure. We first validate the feasibility of this paradigm by confirming that LLMs can sense strong, distinguishable emotions from context and that LLM agents can learn from sequential interactions in a human-like pace. With the validated setup, we find that, different from humans, induced emotion does not significantly bias the decision dynamics of LLM agents on average. However, the effects of anger are conditioned: inducing anger makes LLM agents less sensitive to penalties for bad decisions, and in early stages of the game, anger can lower exploration, locking decisions into a few choices early. These findings reveal the subtle yet distinct effects of induced emotion on LLM decision-making compared to human behavior, and provide a tool for future research on affective modulation of LLM agents.",
-    "categories": [
-      "Navigation"
-    ],
-    "tags": [
-      "Large Language Model",
-      "Navigation"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Navigation"
   },
   {
     "arxiv_id": "2607.12114",
@@ -424,6 +495,35 @@
     "platform": null,
     "summary": "",
     "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2607.13072",
+    "title": "HRO: Hierarchical Room-to-Object Framework for Zero-Shot Object Goal Navigation with Large Language Models",
+    "paper_url": "https://arxiv.org/abs/2607.13072",
+    "project_url": null,
+    "authors": [
+      "Luyuan Jia",
+      "Yinfeng Yu"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-12",
+    "abstract": "Zero-shot object-goal navigation aims to enable an intelligent agent to explore and navigate to objects of unknown categories in an unfamiliar environment without specific target training. In zero-shot navigation tasks, pre-trained large models are usually employed to leverage their prior knowledge for guiding the agent's navigation. However, existing zero-shot object-goal navigation methods based on large language models (LLMs) merely utilize LLMs as flat reasoning tools to directly associate objects or regions. They lack the hierarchical spatial cognition modeling of human-like room semantics to object localization, which leads to strong blindness in exploration, insufficient accuracy in semantic association, and failure to fully unleash the common-sense reasoning potential of LLMs. This paper proposes an LLM-driven hierarchical room-to-object (HRO) framework for zero-shot object-goal navigation, which guides the agent to explore and navigate to the target object in a coarse-to-fine manner. Experiments on Gibson and HM3D datasets verify that our HRO framework achieves superior success rate and generalization over existing LLM-based methods, underscoring LLMs' strong potential for zero-shot object-goal navigation.",
+    "categories": [
+      "Navigation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Navigation",
+      "Zero-Shot",
+      "Dataset",
+      "Large Language Model",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Navigation"
   },
   {
     "arxiv_id": "2607.10132",
@@ -1134,6 +1234,34 @@
     "platform": null,
     "summary": "",
     "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2607.13060",
+    "title": "A Bayesian framework for the uncanny valley in humanoid robot design",
+    "paper_url": "https://arxiv.org/abs/2607.13060",
+    "project_url": null,
+    "authors": [
+      "Shimon Honda",
+      "Rin Shibano",
+      "Hideyoshi Yanagisawa"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-07",
+    "abstract": "The uncanny valley is a long-standing empirical rule in humanoid robot design: making robots more human-like can reduce, rather than increase, affinity. Yet existing guidelines, such as adopting robot-like appearances, avoiding excessive realism, and reducing cross-modal mismatches, remain difficult to use for algorithmic design because they are not expressed as manipulable variables. Here, we propose a hierarchical Bayesian generative model that operationalizes these guidelines as mathematical design variables. The model represents affinity toward humanoid robots as posterior-weighted negative category-conditional surprise and explains category ambiguity and perceptual mismatch as increases in surprise. It maps uncanny-valley mechanisms onto four variables: deviation from the predicted robot-category mean, inconsistency in human likeness across modalities, prediction uncertainty, and observational uncertainty. Simulations showed that category ambiguity and appearance--motion mismatch can produce affinity reductions, and that uncertainty reshapes the valley. In a human-subject experiment with robot--human morphing images, we manipulated prediction uncertainty using blurred prior robot stimuli and observational uncertainty using blurred evaluation stimuli. Increased observational uncertainty attenuated the decrease in familiarity ratings at intermediate human likeness, whereas low prediction uncertainty increased ratings for robot-like appearances. This framework turns empirical uncanny-valley heuristics into a computational basis for algorithmically evaluating and optimizing humanoid robot appearance and behavior.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
   },
   {
     "arxiv_id": "2607.04940",

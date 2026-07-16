@@ -7,9 +7,9 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 3 papers
 - **Digit:** 8 papers
-- **Figure:** 37 papers
+- **Figure:** 39 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 46 papers
+- **Unitree G1:** 47 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 6 papers
 - **iCub:** 1 papers
@@ -17,6 +17,65 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## The Nonsmooth Impact Direction (NSID) of Robotic Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13768)
+- **Authors:** Annika Kirner, Christian Ott
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Friction
+  - Impact
+  - Collision
+  - PPO
+
+### Summary
+
+Collisions of rigid-link robots and rigid environments are often modeled as instantaneous events. Under this idealization, the impact forces become impulsive and the system velocities nonsmooth.
+
+---
+
+## EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13472)
+- **Authors:** Alex Brandes, Haig Conti Georges Sajelian, Manthan Patel, Dominik Hollidt, Chenhao Li, Matthias Heyrman et al. (14 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Deploying humanoid robots in unstructured terrain remains an open problem. While classic reinforcement learning struggles with the sheer complexity of real-world interactions, more promising methods leveraging human priors remain limited to models lacking contextual awareness.
+
+---
+
+## Beyond Color Geometry: Evaluating Human-Like Color Representations in Vision Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13647)
+- **Authors:** Ayan Igali, Pakizar Shamoi
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Transformer
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Do vision models see colors the way humans do? Existing evaluations of color representations usually compare them with geometric spaces such as CIELAB or with discrete color labels. These references capture perceptual distance or category membership, but not the graded way in which people organize colors.
+
+---
 
 ## Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning
 

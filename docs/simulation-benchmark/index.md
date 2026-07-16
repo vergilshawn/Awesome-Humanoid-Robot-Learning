@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**64 papers** in this category.
+**65 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (9 papers)
+- [2026-07](/simulation-benchmark/2026-07) (10 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -24,6 +24,28 @@
 ---
 
 ## Recent Papers
+
+## EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.13472)
+- **Authors:** Alex Brandes, Haig Conti Georges Sajelian, Manthan Patel, Dominik Hollidt, Chenhao Li, Matthias Heyrman et al. (14 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Deploying humanoid robots in unstructured terrain remains an open problem. While classic reinforcement learning struggles with the sheer complexity of real-world interactions, more promising methods leveraging human priors remain limited to models lacking contextual awareness.
+
+---
 
 ## SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning
 
@@ -395,26 +417,5 @@ Robotic systems routinely encounter conflicting objectives, modeling errors, and
 ### Summary
 
 Reinforcement learning with massively parallel simulations has become a standard framework for developing robust, deployable policies; however, most existing approaches still rely on simple Gaussian policy parameterizations. Diffusion models provide a more expressive policy class and have shown strong performance on challenging control problems, yet most diffusion-based RL methods are designed for offline or off-policy training.
-
----
-
-## TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.12153)
-- **Authors:** Cheng-Feng Pu, Jia-Peng Zhang, Meng-Hao Guo, Yan-Pei Cao, Shi-Min Hu
-- **Published:** 2026-06
-- **Tags:**
-  - Zero-Shot
-  - Biped
-  - Benchmark
-  - Dataset
-  - Flow Matching
-  - VAE
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-The explosion of generative 3D assets has created a massive demand for animation, yet current motion capture methods remain brittle, restricted to species-specific templates (e.g., SMPL) or requiring labor-intensive manual rigging. We introduce TopoCap, the first unified framework capable of extracting motion from monocular video and retargeting it onto characters with arbitrary, unseen skeletal topologies, i.e., from bipeds to hexapods and inanimate objects, without test-time optimization.
 
 ---
