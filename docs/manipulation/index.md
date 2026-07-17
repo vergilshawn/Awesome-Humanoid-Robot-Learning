@@ -1,10 +1,10 @@
 # Manipulation
 
-**84 papers** in this category.
+**86 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (7 papers)
+- [2026-07](/manipulation/2026-07) (9 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -32,6 +32,39 @@
 ---
 
 ## Recent Papers
+
+## Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14852)
+- **Authors:** Yao He, Gan Sun, Wenqi Liang, Fazeng Li, Yang Cong
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Vision-Language
+
+### Summary
+
+Similar to the natural capabilities of humans to sequentially learn new tasks, robots with Vision-Language-Action (VLA) models should possess lifelong learning ability to learn a new task when deployed in open-world environments. However, most recently proposed lifelong learning models aim to effectively learn the current task (plasticity) or maintain high accuracy on previous tasks (stability), while the plasticity-stability trade-off remains largely unsolved in robotic manipulation models.
+
+---
+
+## MIDAS Hand: Modular low-Impedance Direct-drive Anthropomorphic Sensing Hand
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14487)
+- **Authors:** Alvin Zhu, Mingzhang Zhu, Beom Jun Kim, Quanyou Wang, Jose Victor S. H. Ramos, Dennis Hong
+- **Published:** 2026-07
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Tactile Sensing
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Dexterous manipulation is limited not only by algorithms but by a shortage of accessible hand hardware that combines human-scale morphology, ease of manufacturing or maintenance, tactile sensing, and practical cost. Existing dexterous hands tend to optimize some of these properties at the expense of others.
+
+---
 
 ## TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation
 
@@ -376,43 +409,5 @@ How can we scalably generate data for robotic manipulation, especially on human-
 ### Summary
 
 Human demonstrations, which can be collected at scale and naturally capture active hand-eye coordination, are a promising data source for learning humanoid loco-manipulation. However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
-
----
-
-## DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.17418)
-- **Authors:** Hao Wu, Yanzhe Wang, Yu Feng, Jian Liu, Jihao Li, Jianshu Zhou et al. (7 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - PPO
-  - State Estimation
-  - Hardware Design
-
-### Summary
-
-Dexterous robotic hands face a longstanding trade-off among dexterity, compactness, and affordability. Particularly, high-degree-of-freedom designs typically demand complex actuation and transmission, hindering integration into human-scale forms.
-
----
-
-## ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.17011)
-- **Authors:** Wei Xiao, Weiliang Tang, Yuying Ge, Hui Zhou, Yao Mu, Li Zhang et al. (7 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Physics-Based Character Animation
-
-### Summary
-
-Human interventions provide crucial corrective signals for post-training Vision-Language-Action (VLA) models. However, enabling seamless humanoid interventions is a formidable systems challenge due to complex whole-body kinematics and dexterous-hand control.
 
 ---

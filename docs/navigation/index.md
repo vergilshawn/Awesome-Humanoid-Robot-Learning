@@ -1,10 +1,10 @@
 # Navigation
 
-**28 papers** in this category.
+**29 papers** in this category.
 
 ## Months
 
-- [2026-07](/navigation/2026-07) (4 papers)
+- [2026-07](/navigation/2026-07) (5 papers)
 - [2026-06](/navigation/2026-06) (6 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
@@ -23,6 +23,27 @@
 ---
 
 ## Recent Papers
+
+## Hierarchical Denoising For Multi-Step Visual Reasoning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15278)
+- **Authors:** Zezhong Qian, Xiaowei Chi, Chak-Wing Mak, Tianze Zhou, Ruibin Yuan, Yuhan Rui et al. (12 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Navigation
+  - World Model
+  - Foundation Model
+  - Benchmark
+  - Diffusion
+  - GAN
+  - Simulation Benchmark
+
+### Summary
+
+Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to dense frame-level denoising.
+
+---
 
 ## DA-Nav: Direction-Aware City-Scale Vision-Language Navigation
 
@@ -339,20 +360,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Navigation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## INTENTION: Inferring Tendencies of Humanoid Robot Motion Through Interactive Intuition and Grounded VLM
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.04931)
-- **Published:** 2025-08
-- **Tags:**
-  - Humanoid
-  - Navigation
 
 ### Summary
 

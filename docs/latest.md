@@ -2,6 +2,155 @@
 
 All papers sorted by publication date (newest first).
 
+## Scaling Behavior Foundation Model for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15163)
+- **Authors:** Weishuai Zeng, Kangning Yin, Xiaojie Niu, Shunlin Lu, Weixiang Zhong, Jiahe Chen et al. (18 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Transformer
+  - Humanoid
+  - Foundation Model
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Models (BFMs) have recently emerged as a promising solution to address these challenges by leveraging large-scale behavioral data to achieve superior expressiveness, versatility and generalization.
+
+---
+
+## Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14852)
+- **Authors:** Yao He, Gan Sun, Wenqi Liang, Fazeng Li, Yang Cong
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Vision-Language
+
+### Summary
+
+Similar to the natural capabilities of humans to sequentially learn new tasks, robots with Vision-Language-Action (VLA) models should possess lifelong learning ability to learn a new task when deployed in open-world environments. However, most recently proposed lifelong learning models aim to effectively learn the current task (plasticity) or maintain high accuracy on previous tasks (stability), while the plasticity-stability trade-off remains largely unsolved in robotic manipulation models.
+
+---
+
+## Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14488)
+- **Authors:** Bastien Muraccioli, Alice Cariou, Pierre-Alexandre Leziart, Mathieu Celerier, Arnaud Demont, Gentiane Venture et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - Reinforcement Learning
+  - Safety
+  - Humanoid
+  - Collision
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Reinforcement Learning (RL) has demonstrated remarkable capabilities for solving complex robotic control problems, but its lack of safety guarantees severely limits deployment on hardware. In particular, as legged robots and manipulators often operate near safety-critical boundaries, out-of-distribution states can lead to failure upon deployment.
+
+---
+
+## MIDAS Hand: Modular low-Impedance Direct-drive Anthropomorphic Sensing Hand
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14487)
+- **Authors:** Alvin Zhu, Mingzhang Zhu, Beom Jun Kim, Quanyou Wang, Jose Victor S. H. Ramos, Dennis Hong
+- **Published:** 2026-07
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Tactile Sensing
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Dexterous manipulation is limited not only by algorithms but by a shortage of accessible hand hardware that combines human-scale morphology, ease of manufacturing or maintenance, tactile sensing, and practical cost. Existing dexterous hands tend to optimize some of these properties at the expense of others.
+
+---
+
+## Hierarchical Denoising For Multi-Step Visual Reasoning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15278)
+- **Authors:** Zezhong Qian, Xiaowei Chi, Chak-Wing Mak, Tianze Zhou, Ruibin Yuan, Yuhan Rui et al. (12 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Navigation
+  - World Model
+  - Foundation Model
+  - Benchmark
+  - Diffusion
+  - GAN
+  - Simulation Benchmark
+
+### Summary
+
+Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to dense frame-level denoising.
+
+---
+
+## Physics-Informed Diffusion for Biomechanically Plausible 3D Sign Language Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14836)
+- **Authors:** Emanuele Colonna, Moises Diaz, Gennaro Vessio, Miguel Angel Ferrer, Giovanna Castellano
+- **Published:** 2026-07
+- **Tags:**
+  - Transformer
+  - Benchmark
+  - Diffusion
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Sign language production, which generates continuous 3D skeletal motion from spoken language input, must simultaneously satisfy two constraints: semantic fidelity, so that a deaf viewer can recognize the intended sequence of glosses, and biomechanical plausibility, so that the generated skeleton respects anatomical constraints. Existing approaches optimize semantic reconstruction through coordinate-based objectives that treat the skeleton as an unstructured vector, thus allowing for bone length drift, joint angle violations, and temporarily locked fingers.
+
+---
+
+## An LLM-Based Automatic Sportscast Solution for Robot Soccer Matches
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14809)
+- **Authors:** Francesco Petri, Michele Brienza, Daniele Nardi, Domenico Daniele Bloisi, Aldo Gangemi, Vincenzo Suriani
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+
+### Summary
+
+RoboCup has always been a scenario to develop systems that solve real-world problems. Driven by the main goal of playing against the 2050 FIFA World Cup champions, the RoboCup Soccer leagues need to constantly measure how the research community is progressing.
+
+---
+
+## Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14182)
+- **Authors:** J. M. A. Marcelo, M. Brienza, E. Bugli, L. Comito, D. Nardi, D. D. Bloisi et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Humanoid
+  - Multi-Modal
+  - Loco-Manipulation and Whole-Body Control
+  - Navigation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. However, most robotic performances remain based on pre-scripted sequences or externally triggered behaviors, limiting autonomy and responsiveness to dynamic environments.
+
+---
+
 ## The Nonsmooth Impact Direction (NSID) of Robotic Systems
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.13768)

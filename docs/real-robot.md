@@ -9,14 +9,77 @@ Papers with real humanoid robot deployment and experiments.
 - **Digit:** 8 papers
 - **Figure:** 39 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 47 papers
-- **Unitree H1:** 1 papers
-- **Unknown Platform:** 6 papers
+- **Unitree G1:** 48 papers
+- **Unitree H1:** 2 papers
+- **Unknown Platform:** 7 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14488)
+- **Authors:** Bastien Muraccioli, Alice Cariou, Pierre-Alexandre Leziart, Mathieu Celerier, Arnaud Demont, Gentiane Venture et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - Reinforcement Learning
+  - Safety
+  - Humanoid
+  - Collision
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Reinforcement Learning (RL) has demonstrated remarkable capabilities for solving complex robotic control problems, but its lack of safety guarantees severely limits deployment on hardware. In particular, as legged robots and manipulators often operate near safety-critical boundaries, out-of-distribution states can lead to failure upon deployment.
+
+---
+
+## Hierarchical Denoising For Multi-Step Visual Reasoning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15278)
+- **Authors:** Zezhong Qian, Xiaowei Chi, Chak-Wing Mak, Tianze Zhou, Ruibin Yuan, Yuhan Rui et al. (12 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Navigation
+  - World Model
+  - Foundation Model
+  - Benchmark
+  - Diffusion
+  - GAN
+  - Simulation Benchmark
+
+### Summary
+
+Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to dense frame-level denoising.
+
+---
+
+## Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14182)
+- **Authors:** J. M. A. Marcelo, M. Brienza, E. Bugli, L. Comito, D. Nardi, D. D. Bloisi et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Humanoid
+  - Multi-Modal
+  - Loco-Manipulation and Whole-Body Control
+  - Navigation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. However, most robotic performances remain based on pre-scripted sequences or externally triggered behaviors, limiting autonomy and responsiveness to dynamic environments.
+
+---
 
 ## The Nonsmooth Impact Direction (NSID) of Robotic Systems
 

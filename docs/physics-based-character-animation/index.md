@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**39 papers** in this category.
+**40 papers** in this category.
 
 ## Months
 
-- [2026-07](/physics-based-character-animation/2026-07) (1 papers)
+- [2026-07](/physics-based-character-animation/2026-07) (2 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (4 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
 - [2026-04](/physics-based-character-animation/2026-04) (1 papers)
@@ -35,6 +35,21 @@
 ---
 
 ## Recent Papers
+
+## An LLM-Based Automatic Sportscast Solution for Robot Soccer Matches
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14809)
+- **Authors:** Francesco Petri, Michele Brienza, Daniele Nardi, Domenico Daniele Bloisi, Aldo Gangemi, Vincenzo Suriani
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+
+### Summary
+
+RoboCup has always been a scenario to develop systems that solve real-world problems. Driven by the main goal of playing against the 2050 FIFA World Cup champions, the RoboCup Soccer leagues need to constantly measure how the research community is progressing.
+
+---
 
 ## A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths
 
@@ -331,20 +346,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-07
 - **Tags:**
   - GAN
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## RL from Physical Feedback: Aligning Large Motion Models with Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.12769)
-- **Published:** 2025-06
-- **Tags:**
-  - Humanoid
   - Physics-Based Character Animation
 
 ### Summary

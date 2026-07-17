@@ -2,24 +2,24 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 715
-- **Real Robot Papers:** 110
+- **Total Papers:** 723
+- **Real Robot Papers:** 113
 - **Open Source Papers:** 137
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (227)
-- [Manipulation](#manipulation) (84)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (229)
+- [Manipulation](#manipulation) (86)
 - [Teleoperation](#teleoperation) (36)
 - [Locomotion](#locomotion) (136)
-- [Navigation](#navigation) (28)
-- [State Estimation](#state-estimation) (31)
+- [Navigation](#navigation) (29)
+- [State Estimation](#state-estimation) (33)
 - [Sim-to-Real](#sim-to-real) (12)
 - [Hardware Design](#hardware-design) (31)
 - [Simulation Benchmark](#simulation-benchmark) (65)
-- [Physics-Based Character Animation](#physics-based-character-animation) (39)
+- [Physics-Based Character Animation](#physics-based-character-animation) (40)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (26)
 - [Usage](#usage)
 
@@ -29,6 +29,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Scaling Behavior Foundation Model for Humanoid Robots](https://arxiv.org/abs/2607.15163) — `Transformer`, `Humanoid`, `Foundation Model`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`, `Simulation Benchmark`
+- [Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control](https://arxiv.org/abs/2607.14182) — `Reinforcement Learning`, `Sim-to-Real`, `Humanoid`, `Multi-Modal`, `Loco-Manipulation and Whole-Body Control`, `Navigation`
 - [Beyond Color Geometry: Evaluating Human-Like Color Representations in Vision Models](https://arxiv.org/abs/2607.13647) — `Transformer`, `GAN`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — `Reinforcement Learning`, `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Human Demonstration`
 - [Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction](https://arxiv.org/abs/2607.11690) — `Humanoid`, `Tactile Sensing`, `Dataset`, `Loco-Manipulation and Whole-Body Control`, `Teleoperation`, `State Estimation`
@@ -342,6 +344,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation](https://arxiv.org/abs/2607.14852) — `Manipulation`, `Vision-Language`
+- [MIDAS Hand: Modular low-Impedance Direct-drive Anthropomorphic Sensing Hand](https://arxiv.org/abs/2607.14487) — `Teleoperation`, `Manipulation`, `Tactile Sensing`, `State Estimation`, `Simulation Benchmark`
 - [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) — `Manipulation`, `Human Demonstration`, `Benchmark`, `Dataset`, `GAN`, `Simulation Benchmark`
 - [AgenticFocus: Object-Preserving Mixed Reality Synthesis from Human FPV Video for Dexterous Humanoid Learning](https://arxiv.org/abs/2607.08857) — `Humanoid`, `Dataset`, `Policy Learning`, `Manipulation`, `Simulation Benchmark`
 - [ContactMimic: Humanoid Object Interaction via Contact Control](https://arxiv.org/abs/2607.08742) — `Manipulation`, `Humanoid`, `State Estimation`, `Sim-to-Real`, `Simulation Benchmark`
@@ -808,6 +812,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Hierarchical Denoising For Multi-Step Visual Reasoning](https://arxiv.org/abs/2607.15278) — `Navigation`, `World Model`, `Foundation Model`, `Benchmark`, `Diffusion`, `GAN`
 - [DA-Nav: Direction-Aware City-Scale Vision-Language Navigation](https://arxiv.org/abs/2607.11638) — `Navigation`, `Humanoid`, `Vision-Language`, `Fine-tuning`, `Dataset`, `PPO`
 - [HRO: Hierarchical Room-to-Object Framework for Zero-Shot Object Goal Navigation with Large Language Models](https://arxiv.org/abs/2607.13072) — `Navigation`, `Zero-Shot`, `Dataset`, `Large Language Model`, `Simulation Benchmark`
 - [Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments](https://arxiv.org/abs/2607.09911) — `Navigation`, `Safety`, `Path Planning`, `Collision`, `Diffusion`, `Human Motion Analysis and Synthesis`
@@ -883,6 +888,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments](https://arxiv.org/abs/2607.14488) — `Reinforcement Learning`, `Safety`, `Humanoid`, `Collision`, `State Estimation`, `Simulation Benchmark`
+- [Physics-Informed Diffusion for Biomechanically Plausible 3D Sign Language Generation](https://arxiv.org/abs/2607.14836) — `Transformer`, `Benchmark`, `Diffusion`, `State Estimation`, `Simulation Benchmark`, `Physics-Based Character Animation`
 - [Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning](https://arxiv.org/abs/2607.12702) — `Reinforcement Learning`, `Manipulation`, `State Estimation`, `Humanoid`, `PPO`, `Representation Learning`
 - [A Bayesian framework for the uncanny valley in humanoid robot design](https://arxiv.org/abs/2607.13060) — `Humanoid`, `State Estimation`, `Simulation Benchmark`
 
@@ -1183,6 +1190,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [An LLM-Based Automatic Sportscast Solution for Robot Soccer Matches](https://arxiv.org/abs/2607.14809) — `Humanoid`, `Physics-Based Character Animation`
 - [A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths](https://arxiv.org/abs/2607.08620) — `Humanoid`, `Physics-Based Character Animation`, `Human Motion Analysis and Synthesis`, `Real Robot`
 
 ### 2026-06

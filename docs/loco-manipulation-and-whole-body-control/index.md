@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**227 papers** in this category.
+**229 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (9 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (11 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -36,6 +36,47 @@
 ---
 
 ## Recent Papers
+
+## Scaling Behavior Foundation Model for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15163)
+- **Authors:** Weishuai Zeng, Kangning Yin, Xiaojie Niu, Shunlin Lu, Weixiang Zhong, Jiahe Chen et al. (18 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Transformer
+  - Humanoid
+  - Foundation Model
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Models (BFMs) have recently emerged as a promising solution to address these challenges by leveraging large-scale behavioral data to achieve superior expressiveness, versatility and generalization.
+
+---
+
+## Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14182)
+- **Authors:** J. M. A. Marcelo, M. Brienza, E. Bugli, L. Comito, D. Nardi, D. D. Bloisi et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Humanoid
+  - Multi-Modal
+  - Loco-Manipulation and Whole-Body Control
+  - Navigation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. However, most robotic performances remain based on pre-scripted sequences or externally triggered behaviors, limiting autonomy and responsiveness to dynamic environments.
+
+---
 
 ## Beyond Color Geometry: Evaluating Human-Like Color Representations in Vision Models
 
@@ -386,46 +427,5 @@ Imitating human demonstrations has emerged as a dominant paradigm for learning h
 ### Summary
 
 Humanoid robots could take on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole body motion, perception, contact, and operator supervision.
-
----
-
-## OmniContact: Chaining Meta-Skills via Contact Flow for Generalizable Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.26201)
-- **Authors:** Runyi Yu, Xiaoyi Lin, Ji Ma, Yinhuai Wang, Koukou Luo, Jiahao Ji et al. (14 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Dataset
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Learning long-horizon humanoid loco-manipulation poses a dual challenge: it requires not only the robust execution of meta-skills but also their seamless, closed-loop chaining equipped with autonomous recovery. Existing approaches remain limited: explicit humanoid-object interaction representations offer precision but are notoriously difficult for high-level planning, whereas implicit skill embeddings are compact but lack the interpretability required for reliable composition.
-
----
-
-## Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.25706)
-- **Authors:** Yumeng Liu, Dongqi Wang, Jiyu Yu, Yijun Fan, Rong Xiong, Yue Wang
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - MPC
-  - Whole-Body Control
-  - Humanoid
-  - Distillation
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-High-level humanoid planners often output sparse task-space, low-rate trajectories, whereas whole-body controllers run at high frequency. This creates temporal asynchrony between the planning and execution, and structural incompleteness for full-body control.
 
 ---

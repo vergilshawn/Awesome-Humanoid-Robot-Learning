@@ -1,10 +1,10 @@
 # State Estimation
 
-**31 papers** in this category.
+**33 papers** in this category.
 
 ## Months
 
-- [2026-07](/state-estimation/2026-07) (2 papers)
+- [2026-07](/state-estimation/2026-07) (4 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
@@ -17,6 +17,45 @@
 ---
 
 ## Recent Papers
+
+## Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14488)
+- **Authors:** Bastien Muraccioli, Alice Cariou, Pierre-Alexandre Leziart, Mathieu Celerier, Arnaud Demont, Gentiane Venture et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - Reinforcement Learning
+  - Safety
+  - Humanoid
+  - Collision
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Reinforcement Learning (RL) has demonstrated remarkable capabilities for solving complex robotic control problems, but its lack of safety guarantees severely limits deployment on hardware. In particular, as legged robots and manipulators often operate near safety-critical boundaries, out-of-distribution states can lead to failure upon deployment.
+
+---
+
+## Physics-Informed Diffusion for Biomechanically Plausible 3D Sign Language Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14836)
+- **Authors:** Emanuele Colonna, Moises Diaz, Gennaro Vessio, Miguel Angel Ferrer, Giovanna Castellano
+- **Published:** 2026-07
+- **Tags:**
+  - Transformer
+  - Benchmark
+  - Diffusion
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Sign language production, which generates continuous 3D skeletal motion from spoken language input, must simultaneously satisfy two constraints: semantic fidelity, so that a deaf viewer can recognize the intended sequence of glosses, and biomechanical plausibility, so that the generated skeleton respects anatomical constraints. Existing approaches optimize semantic reconstruction through coordinate-based objectives that treat the skeleton as an unstructured vector, thus allowing for bone length drift, joint angle violations, and temporarily locked fingers.
+
+---
 
 ## Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning
 
@@ -362,40 +401,5 @@ Large language models can shift human beliefs across high-stakes domains, but mo
 ### Summary
 
 Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under physical simulation due to interpenetrating, hovering, or sinking objects.
-
----
-
-## AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.07643)
-- **Authors:** Yaoting Wang, Ziyi Zhang, Wenming Tu, Shaoxuan Xu, Wenjie Du, Cheng Liang et al. (13 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Robustness
-  - Benchmark
-  - Large Language Model
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Recent advances in Omni-Multimodal Large Language Models (Omni-MLLMs) have enabled strong integration of vision, audio, and language. However, their audio-visual intelligence (AVI) remains insufficiently evaluated due to the lack of systematic and comprehensive benchmarks.
-
----
-
-## Representation Without Control: Testing the Realization Effect in Language Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.25151)
-- **Authors:** Ciarán Walsh, Emilio Barkett
-- **Published:** 2026-05
-- **Tags:**
-  - Simulator
-  - Large Language Model
-  - State Estimation
-
-### Summary
-
-Large language models are increasingly used as behavioral simulators, but it remains unclear when their outputs reflect human-like cognitive mechanisms rather than prompt-sensitive surface patterns. We study this question through the realization effect, a well-characterized finding in behavioral economics in which risk-taking differs systematically after paper versus realized gains and losses.
 
 ---
