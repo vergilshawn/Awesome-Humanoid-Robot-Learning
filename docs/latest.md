@@ -2,6 +2,120 @@
 
 All papers sorted by publication date (newest first).
 
+## Handroid: Bridging Dexterous Hand and Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.16187)
+- **Authors:** Ruogu Li, Chenyang Ma, Sikai Li, Zhenyu Wei, Yunchao Yao, Haochen Shi et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Gait
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Dexterous hands and humanoid robots are typically developed as distinct embodiments: the former enable contact-rich manipulation at the object scale, whereas the latter provide mobility and whole-body interaction in human-centered environments. We introduce \textbf{Handroid}, a desktop-scale dual-embodiment robot that integrates both capabilities within a single reconfigurable platform.
+
+---
+
+## Towards Artificial Nerves: Biomimetic Optical-Fiber Tactile Sensing for Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15746)
+- **Authors:** Laura E. Butcher, Chris J. Ford, Nathan F. Lepora, Efi Psomopoulou
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Tactile Sensing
+  - Evolutionary
+
+### Summary
+
+Robotic systems increasingly demand tactile sensing that approaches the adaptability and resolution of human skin to enable dexterous manipulation and safe interaction. OptiTac is a biomimetic tactile sensor that emulates the mechanoreceptor-to-nerve architecture of human touch by pairing each mechanical pin on a soft skin with an optical fiber acting as an artificial nerve.
+
+---
+
+## RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15701)
+- **Authors:** Ruochen Hou, Shiqi Wang, Beom Jun Kim, Hanzhang Fang, Mehak Singal, Dennis W. Hong
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - MPC
+  - Locomotion
+  - Navigation
+  - Safety
+  - Robustness
+  - Real Robot
+  - Humanoid
+
+### Summary
+
+Humanoid navigation in dynamic environments requires long-horizon planning while respecting short-horizon dynamic and safety constraints. Classical visibility-graph planners combined with model predictive control (MPC) can efficiently generate collision-free trajectories, but their performance depends on manually tuned parameters and accurate system modeling.
+
+---
+
+## PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15579)
+- **Authors:** Peizhen Li, Longbing Cao, Megani Rajendran, Timothy Liu, Aik Beng Ng, Simon See
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Impact
+  - Locomotion
+
+### Summary
+
+Equipping humanoid robots with coherent and adaptable personas is crucial for fostering natural, engaging, and trustworthy human-robot interaction (HRI). However, existing approaches often rely on static, hard-coded identities that lack the flexibility to adapt to individual user contexts.
+
+---
+
+## AuEmoChat: Authentic Emotion Understanding and Rendering for Conversational Speech Synthesis
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15755)
+- **Authors:** Zhenqi Jia, Yuan Zhao,  Aruukhan, Rui Liu, Haizhou Li
+- **Published:** 2026-07
+- **Tags:**
+  - Dataset
+  - Flow Matching
+  - Simulation Benchmark
+
+### Summary
+
+Conversational Speech Synthesis (CSS) aims to synthesize speech with human-like emotional expression and contextual consistency in user-agent interactions. Existing CSS methods struggle to render authentic human emotions due to limited predefined emotion label spaces (e.g., seven emotion categories), while redundant multimodal tokens in multi-turn dialogue history interfere with context understanding.
+
+---
+
+## VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15448)
+- **Authors:** Yuhao Zhou, Sheeraz Athar, Zhixian Hu, Binghao Huang, Yunzhu Li, Juan Wachs et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - PPO
+  - Multi-Modal
+  - Navigation
+  - Hardware Design
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+This paper presents a tactile-reactive gripper that integrates a Visuo-Tactile Active Palm (VTAP) and compliant, reconfigurable fingers equipped with tactile array sensors. The design exploits structured finger-palm synergy and multi-modal perception to achieve both robust grasping and fine manipulation.
+
+---
+
 ## Scaling Behavior Foundation Model for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.15163)

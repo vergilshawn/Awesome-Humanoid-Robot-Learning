@@ -7,7 +7,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 3 papers
 - **Digit:** 8 papers
-- **Figure:** 39 papers
+- **Figure:** 43 papers
 - **NAO:** 4 papers
 - **Unitree G1:** 48 papers
 - **Unitree H1:** 2 papers
@@ -17,6 +17,83 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Handroid: Bridging Dexterous Hand and Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.16187)
+- **Authors:** Ruogu Li, Chenyang Ma, Sikai Li, Zhenyu Wei, Yunchao Yao, Haochen Shi et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Gait
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Dexterous hands and humanoid robots are typically developed as distinct embodiments: the former enable contact-rich manipulation at the object scale, whereas the latter provide mobility and whole-body interaction in human-centered environments. We introduce \textbf{Handroid}, a desktop-scale dual-embodiment robot that integrates both capabilities within a single reconfigurable platform.
+
+---
+
+## Towards Artificial Nerves: Biomimetic Optical-Fiber Tactile Sensing for Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15746)
+- **Authors:** Laura E. Butcher, Chris J. Ford, Nathan F. Lepora, Efi Psomopoulou
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Tactile Sensing
+  - Evolutionary
+
+### Summary
+
+Robotic systems increasingly demand tactile sensing that approaches the adaptability and resolution of human skin to enable dexterous manipulation and safe interaction. OptiTac is a biomimetic tactile sensor that emulates the mechanoreceptor-to-nerve architecture of human touch by pairing each mechanical pin on a soft skin with an optical fiber acting as an artificial nerve.
+
+---
+
+## PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15579)
+- **Authors:** Peizhen Li, Longbing Cao, Megani Rajendran, Timothy Liu, Aik Beng Ng, Simon See
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Impact
+  - Locomotion
+
+### Summary
+
+Equipping humanoid robots with coherent and adaptable personas is crucial for fostering natural, engaging, and trustworthy human-robot interaction (HRI). However, existing approaches often rely on static, hard-coded identities that lack the flexibility to adapt to individual user contexts.
+
+---
+
+## VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15448)
+- **Authors:** Yuhao Zhou, Sheeraz Athar, Zhixian Hu, Binghao Huang, Yunzhu Li, Juan Wachs et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - PPO
+  - Multi-Modal
+  - Navigation
+  - Hardware Design
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+This paper presents a tactile-reactive gripper that integrates a Visuo-Tactile Active Palm (VTAP) and compliant, reconfigurable fingers equipped with tactile array sensors. The design exploits structured finger-palm synergy and multi-modal perception to achieve both robust grasping and fine manipulation.
+
+---
 
 ## Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments
 

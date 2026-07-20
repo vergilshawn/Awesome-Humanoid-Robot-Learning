@@ -1,10 +1,10 @@
 # Locomotion
 
-**136 papers** in this category.
+**138 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (10 papers)
+- [2026-07](/locomotion/2026-07) (12 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,44 @@
 ---
 
 ## Recent Papers
+
+## RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15701)
+- **Authors:** Ruochen Hou, Shiqi Wang, Beom Jun Kim, Hanzhang Fang, Mehak Singal, Dennis W. Hong
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - MPC
+  - Locomotion
+  - Navigation
+  - Safety
+  - Robustness
+  - Real Robot
+  - Humanoid
+
+### Summary
+
+Humanoid navigation in dynamic environments requires long-horizon planning while respecting short-horizon dynamic and safety constraints. Classical visibility-graph planners combined with model predictive control (MPC) can efficiently generate collision-free trajectories, but their performance depends on manually tuned parameters and accurate system modeling.
+
+---
+
+## PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15579)
+- **Authors:** Peizhen Li, Longbing Cao, Megani Rajendran, Timothy Liu, Aik Beng Ng, Simon See
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Impact
+  - Locomotion
+
+### Summary
+
+Equipping humanoid robots with coherent and adaptable personas is crucial for fostering natural, engaging, and trustworthy human-robot interaction (HRI). However, existing approaches often rely on static, hard-coded identities that lack the flexibility to adapt to individual user contexts.
+
+---
 
 ## The Nonsmooth Impact Direction (NSID) of Robotic Systems
 
@@ -400,47 +438,5 @@ The scalability of humanoid robots will depend not only on models and hardware, 
 ### Summary
 
 Human legs exhibit high efficiency, agility, and impact absorption, with toes playing a crucial role in these capabilities. While many attempts have been made to implement human-like toes in robots, they have not fully replicated human characteristics nor rigorously validated their benefits.
-
----
-
-## Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.19233)
-- **Authors:** Yue Qin, Yulun Zhuang, Zelin Shen, Yanran Ding
-- **Published:** 2026-06
-- **Real Robot:** ✅
-- **Tags:**
-  - MPC
-  - Locomotion
-  - Manipulation
-  - Biped
-  - Optimization-Based
-  - State Estimation
-
-### Summary
-
-In this letter, we present a hierarchical control framework that enables wheeled bipedal robots to perform planar object sliding tasks with their wheeled legs. The proposed approach formulates a nonlinear model predictive controller (NMPC) based on a reduced-order three rigid bodies (TRB) dynamical model that explicitly accounts for the hip roll degree of freedom and multiple wheel-environment contact modes, which is essential for lateral stepping and pedipulation tasks.
-
----
-
-## Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.14270)
-- **Authors:** Haidong Hou, Zhangguo Yu, Tao Han, Hengbo Qi, Khaleel Ghazal, Yu Zhang et al. (9 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Robustness
-  - Biped
-  - Humanoid
-  - PPO
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Fall recovery is critical for autonomous legged locomotion. Existing methods have demonstrated that some legged robots, such as humanoids and quadrupeds, are capable of fall recovery from diverse postures by utilizing arms or coordinating multi-legs to generate support forces.
 
 ---

@@ -1,10 +1,10 @@
 # Manipulation
 
-**86 papers** in this category.
+**89 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (9 papers)
+- [2026-07](/manipulation/2026-07) (12 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -32,6 +32,66 @@
 ---
 
 ## Recent Papers
+
+## Handroid: Bridging Dexterous Hand and Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.16187)
+- **Authors:** Ruogu Li, Chenyang Ma, Sikai Li, Zhenyu Wei, Yunchao Yao, Haochen Shi et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Gait
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Dexterous hands and humanoid robots are typically developed as distinct embodiments: the former enable contact-rich manipulation at the object scale, whereas the latter provide mobility and whole-body interaction in human-centered environments. We introduce \textbf{Handroid}, a desktop-scale dual-embodiment robot that integrates both capabilities within a single reconfigurable platform.
+
+---
+
+## Towards Artificial Nerves: Biomimetic Optical-Fiber Tactile Sensing for Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15746)
+- **Authors:** Laura E. Butcher, Chris J. Ford, Nathan F. Lepora, Efi Psomopoulou
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Tactile Sensing
+  - Evolutionary
+
+### Summary
+
+Robotic systems increasingly demand tactile sensing that approaches the adaptability and resolution of human skin to enable dexterous manipulation and safe interaction. OptiTac is a biomimetic tactile sensor that emulates the mechanoreceptor-to-nerve architecture of human touch by pairing each mechanical pin on a soft skin with an optical fiber acting as an artificial nerve.
+
+---
+
+## VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15448)
+- **Authors:** Yuhao Zhou, Sheeraz Athar, Zhixian Hu, Binghao Huang, Yunzhu Li, Juan Wachs et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - PPO
+  - Multi-Modal
+  - Navigation
+  - Hardware Design
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+This paper presents a tactile-reactive gripper that integrates a Visuo-Tactile Active Palm (VTAP) and compliant, reconfigurable fingers equipped with tactile array sensors. The design exploits structured finger-palm synergy and multi-modal perception to achieve both robust grasping and fine manipulation.
+
+---
 
 ## Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation
 
@@ -355,59 +415,5 @@ Multi-task robot manipulation policies are challenging to learn from demonstrati
 ### Summary
 
 Action chunking enables robot policies to produce temporally coherent behavior, but generating multi-step action sequences with flow-based policies incurs latency that is incompatible with real-time control. Under asynchronous execution, the robot continues executing the current chunk while the next one is generated, causing even minor delays to create inconsistencies at chunk boundaries.
-
----
-
-## Bidirectional Tutoring for Developmental Motor Learning in Robots: Co-Developed Interaction Dynamics Support Stable Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.19728)
-- **Authors:** Rui Fukushima, Jun Tani
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Manipulation
-  - Real Robot
-  - Humanoid
-  - PPO
-
-### Summary
-
-Infants are well known to develop their motor skills through dense interaction with caregivers. Although such social interaction is crucial for human development, motor-skill learning in robots is often treated as a unidirectional process in which robots passively receive demonstrations from tutors.
-
----
-
-## Do as I Do: Dexterous Manipulation Data from Everyday Human Videos
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.19333)
-- **Authors:** Bhawna Paliwal, Haritheja Etukuru, William Liang, Pieter Abbeel, Nur Muhammad Mahi Shafiullah, Jitendra Malik
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-How can we scalably generate data for robotic manipulation, especially on human-like platforms such as dexterous multi-fingered hands? Learning from human videos has recently emerged as a likely answer to this question. However, difficulties in estimating hand-object interaction and crossing the human-to-robot embodiment gap have hindered the adoption of abundant monocular RGB-only human videos as the primary source of robot manipulation data.
-
----
-
-## HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.18772)
-- **Authors:** Zehui Zhao, Yuxuan Zhao, Gaojing Zhang, Chenxi Liu, Maolin Zheng, Wenzhao Lian
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Navigation
-  - Human Demonstration
-  - Humanoid
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Human demonstrations, which can be collected at scale and naturally capture active hand-eye coordination, are a promising data source for learning humanoid loco-manipulation. However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
 
 ---

@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**65 papers** in this category.
+**66 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (10 papers)
+- [2026-07](/simulation-benchmark/2026-07) (11 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -24,6 +24,22 @@
 ---
 
 ## Recent Papers
+
+## AuEmoChat: Authentic Emotion Understanding and Rendering for Conversational Speech Synthesis
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.15755)
+- **Authors:** Zhenqi Jia, Yuan Zhao,  Aruukhan, Rui Liu, Haizhou Li
+- **Published:** 2026-07
+- **Tags:**
+  - Dataset
+  - Flow Matching
+  - Simulation Benchmark
+
+### Summary
+
+Conversational Speech Synthesis (CSS) aims to synthesize speech with human-like emotional expression and contextual consistency in user-agent interactions. Existing CSS methods struggle to render authentic human emotions due to limited predefined emotion label spaces (e.g., seven emotion categories), while redundant multimodal tokens in multi-turn dialogue history interfere with context understanding.
+
+---
 
 ## EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal
 
@@ -398,24 +414,5 @@ Achieving expert-level expressive full-body motion tracking across multiple huma
 ### Summary
 
 Robotic systems routinely encounter conflicting objectives, modeling errors, and degenerate contact conditions that render quadratic programs (QPs) infeasible. Yet most optimization solvers and differentiable QP layers assume feasibility, leading to numerical failures, unstable gradients, or solver breakdown when constraints cannot be simultaneously satisfied.
-
----
-
-## Trust-Region Diffusion Policies for Massively Parallel On-Policy RL
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.15260)
-- **Authors:** Huy Le, Onur Celik, Denis Blessing, Tai Hoang, Claas A Voelcker, Axel Brunnbauer et al. (9 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Benchmark
-  - Diffusion
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Reinforcement learning with massively parallel simulations has become a standard framework for developing robust, deployable policies; however, most existing approaches still rely on simple Gaussian policy parameterizations. Diffusion models provide a more expressive policy class and have shown strong performance on challenging control problems, yet most diffusion-based RL methods are designed for offline or off-policy training.
 
 ---

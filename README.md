@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 723
-- **Real Robot Papers:** 113
+- **Total Papers:** 729
+- **Real Robot Papers:** 117
 - **Open Source Papers:** 137
 
 🌟 indicates papers with detected project/code links.
@@ -11,14 +11,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 ## Contents
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (229)
-- [Manipulation](#manipulation) (86)
+- [Manipulation](#manipulation) (89)
 - [Teleoperation](#teleoperation) (36)
-- [Locomotion](#locomotion) (136)
+- [Locomotion](#locomotion) (138)
 - [Navigation](#navigation) (29)
 - [State Estimation](#state-estimation) (33)
 - [Sim-to-Real](#sim-to-real) (12)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (65)
+- [Simulation Benchmark](#simulation-benchmark) (66)
 - [Physics-Based Character Animation](#physics-based-character-animation) (40)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (26)
 - [Usage](#usage)
@@ -344,6 +344,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Handroid: Bridging Dexterous Hand and Humanoid](https://arxiv.org/abs/2607.16187) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Gait`, `PPO`
+- [Towards Artificial Nerves: Biomimetic Optical-Fiber Tactile Sensing for Robots](https://arxiv.org/abs/2607.15746) — `Manipulation`, `Tactile Sensing`, `Evolutionary`, `Real Robot`
+- [VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation](https://arxiv.org/abs/2607.15448) — `Teleoperation`, `Manipulation`, `PPO`, `Multi-Modal`, `Navigation`, `Hardware Design`
 - [Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation](https://arxiv.org/abs/2607.14852) — `Manipulation`, `Vision-Language`
 - [MIDAS Hand: Modular low-Impedance Direct-drive Anthropomorphic Sensing Hand](https://arxiv.org/abs/2607.14487) — `Teleoperation`, `Manipulation`, `Tactile Sensing`, `State Estimation`, `Simulation Benchmark`
 - [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) — `Manipulation`, `Human Demonstration`, `Benchmark`, `Dataset`, `GAN`, `Simulation Benchmark`
@@ -587,6 +590,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC](https://arxiv.org/abs/2607.15701) — `Reinforcement Learning`, `MPC`, `Locomotion`, `Navigation`, `Safety`, `Robustness`
+- [PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction](https://arxiv.org/abs/2607.15579) — `Humanoid`, `Impact`, `Locomotion`, `Real Robot`
 - [The Nonsmooth Impact Direction (NSID) of Robotic Systems](https://arxiv.org/abs/2607.13768) — `Locomotion`, `Humanoid`, `Friction`, `Impact`, `Collision`, `PPO`
 - [GaitSpan: Growing Humanoid Locomotion from Walking to Running](https://arxiv.org/abs/2607.12114) — `Locomotion`, `Zero-Shot`, `Humanoid`, `Gait`, `Walking`, `PPO`
 - [Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation](https://arxiv.org/abs/2607.11855) — `Locomotion`, `Manipulation`, `Biped`, `Walking`, `Real Robot`
@@ -1075,6 +1080,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [AuEmoChat: Authentic Emotion Understanding and Rendering for Conversational Speech Synthesis](https://arxiv.org/abs/2607.15755) — `Dataset`, `Flow Matching`, `Simulation Benchmark`
 - [EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal](https://arxiv.org/abs/2607.13472) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Benchmark`, `Dataset`, `Simulation Benchmark`
 - [SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning](https://arxiv.org/abs/2607.11624) — `Reinforcement Learning`, `Locomotion`, `Biped`, `Benchmark`, `Policy Learning`, `Simulation Benchmark`
 - [WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\top$ Factorization](https://arxiv.org/abs/2607.11603) — `MPC`, `Humanoid`, `Benchmark`, `Dataset`, `Simulation Benchmark`
