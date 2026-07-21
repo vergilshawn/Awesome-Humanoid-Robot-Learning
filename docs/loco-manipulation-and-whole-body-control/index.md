@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**229 papers** in this category.
+**230 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (11 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (12 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -36,6 +36,47 @@
 ---
 
 ## Recent Papers
+
+## Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18135)
+- **Authors:** Jordan Dowdy, Jean Chagas Vaz
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Sim-to-Real
+  - Locomotion
+  - Zero-Shot
+  - Isaac Sim
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Learning-based approaches to locomotion have risen in popularity in recent years, showing the capability for complex legged locomotion and whole-body control. Reinforcement learning (RL), the primary learning-based approach for locomotion, often utilizes a high-performance simulation tool, providing a controlled and efficient training and development environment.
+
+---
+
+## Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18016)
+- **Authors:** Peng Ren, Haoyang Ge, Jiang Zhao, Cong Huang, Yukun Shi, Pei Chi et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Vision-language-action policies are a promising foundation for general robot control, but long-horizon humanoid loco-manipulation requires the robot to treat task objects as persistent physical entities across movement, contact, occlusion, and recovery. We study this problem as object-state divergence: the object state used to condition a whole-body action can differ from the state used to decide whether the action achieved the intended physical relation.
+
+---
 
 ## Scaling Behavior Foundation Model for Humanoid Robots
 
@@ -75,23 +116,6 @@ Humanoid control requires natural whole-body coordination, precise real-time res
 ### Summary
 
 Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. However, most robotic performances remain based on pre-scripted sequences or externally triggered behaviors, limiting autonomy and responsiveness to dynamic environments.
-
----
-
-## Beyond Color Geometry: Evaluating Human-Like Color Representations in Vision Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.13647)
-- **Authors:** Ayan Igali, Pakizar Shamoi
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Transformer
-  - GAN
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Do vision models see colors the way humans do? Existing evaluations of color representations usually compare them with geometric spaces such as CIELAB or with discrete color labels. These references capture perceptual distance or category membership, but not the graded way in which people organize colors.
 
 ---
 
@@ -405,27 +429,5 @@ High-quality demonstration data are essential for humanoid robot skill learning,
 ### Summary
 
 Imitating human demonstrations has emerged as a dominant paradigm for learning humanoid loco-manipulation policies. However, scaling these approaches remains challenging due to the high cost of collecting diverse demonstrations and the need for continual human intervention to correct policy failures.
-
----
-
-## A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.26425)
-- **Authors:** Duncan William Calvert
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Atlas
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Walking
-  - PPO
-  - GAN
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots could take on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole body motion, perception, contact, and operator supervision.
 
 ---

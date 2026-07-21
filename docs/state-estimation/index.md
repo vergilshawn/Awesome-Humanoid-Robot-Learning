@@ -1,10 +1,10 @@
 # State Estimation
 
-**33 papers** in this category.
+**37 papers** in this category.
 
 ## Months
 
-- [2026-07](/state-estimation/2026-07) (4 papers)
+- [2026-07](/state-estimation/2026-07) (8 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
@@ -17,6 +17,72 @@
 ---
 
 ## Recent Papers
+
+## World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18154)
+- **Authors:** Xinchen Yao, Leixin Chang, Hua Chen
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Sim-to-Real
+  - Simulator
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+The gap between simulation and reality remains a fundamental challenge in deploying simulation-trained robotic policies in the real world. Real-to-sim methods narrow this gap from the real side, learning transition dynamics from real data to build a more realistic digital world.
+
+---
+
+## Denoising Models Develop Human-Like Perceptual Illusion Representations Across Architectures
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.17138)
+- **Authors:** Gautam Ranka, Paras Chopra
+- **Published:** 2026-07
+- **Tags:**
+  - State Estimation
+
+### Summary
+
+Deep neural networks trained on natural images are shown to produce outputs consistent with human observers for brightness illusions. While this phenomenon has been documented across architectures, all evidence, to date, is measured at the output level: restored pixels, decoded trajectories, or classification decisions.
+
+---
+
+## Back to the museum: Investigation of the acceptance of Android Andrea with and without emotion simulation in a museum
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.16428)
+- **Authors:** Marcel Heisler, Christian Becker-Asano
+- **Published:** 2026-07
+- **Tags:**
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+For a second time, the android robot Andrea was set up at a public museum in Germany for six consecutive days to have conversations with visitors, fully autonomously. Building on previously gathered qualitative results, the robot was now capable of engaging in multi-lingual conversation with the visitors about the museum context.
+
+---
+
+## Do Vision Encoders Exhibit Human-like Color Thresholds?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.16540)
+- **Authors:** Engy Ehab, Pablo Hernández-Cámara, Nahla Belal, Jesús Malo, Javier Vazquez-Corral, Alexandra Gomez-Villa
+- **Published:** 2026-07
+- **Tags:**
+  - Transformer
+  - Computer Vision
+  - Foundation Model
+  - Self-Supervised
+  - State Estimation
+
+### Summary
+
+Understanding and characterizing human color perception is a longstanding research goal. One of the most traditional approaches is looking for the human color discrimination thresholds, the minimum chromatic differences perceptible to human observers.
+
+---
 
 ## Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments
 
@@ -327,79 +393,5 @@ Accurate prediction of electrical power consumption is essential for energy-awar
 ### Summary
 
 Self-play reinforcement learning has recently emerged as a way to train driving policies without any human data. It uses cheap, large-scale simulations to substitute expensive, large-scale human driving demonstrations.
-
----
-
-## TAGA: Terrain-aware Active Gaze Learning for Generalizable Agile Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.05880)
-- **Authors:** Peizhuo Li, Hongyi Li, Mingfeng Fan, Fangzhou Xu, Shuhao Liao, Yuxuan Ma et al. (12 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Proprioception
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Agile humanoid locomotion across diverse challenging terrain demands both wide perceptual coverage and precise local geometry understanding. Motivated by the way humans selectively look at relevant terrain during locomotion, we introduce TAGA, a Terrain-aware Active Gaze learning framework for Attention-based humanoid control.
-
----
-
-## Anchored, Not Graded: Vision-Language Models Fail at Slant-from-Texture Perception
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.06714)
-- **Authors:** Qian Zhang, Michal Golovanevsky, Fulvio Domini, James Tompkin
-- **Published:** 2026-06
-- **Tags:**
-  - Zero-Shot
-  - Vision-Language
-  - Fine-tuning
-  - Benchmark
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Human perception of surface slant from texture exhibits systematic, graded biases that emerge reliably in psychophysical experiments. Prior work showed that unsupervised CNNs reproduce several human-like biases, while supervised CNNs do not.
-
----
-
-## A Model of Multi-turn Human Persuadability Using Probabilistic Belief Tracing
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.05330)
-- **Authors:** Jared Moore, Noah Goodman, Nick Haber, Max Kleiman-Weiner
-- **Published:** 2026-06
-- **Tags:**
-  - Simulator
-  - Large Language Model
-  - State Estimation
-
-### Summary
-
-Large language models can shift human beliefs across high-stakes domains, but most persuasion studies rely on pre/post belief change. These endpoint measures identify whether persuasion occurred, yet miss where and how beliefs moved within a dialogue.
-
----
-
-## SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.03994)
-- **Authors:** Inhee Lee, Sangwon Baik, Sungjoo Kim, Hyeonwoo Kim, Hyunsoo Cha, Hanbyul Joo
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - 3D Reconstruction
-  - Benchmark
-  - PPO
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under physical simulation due to interpenetrating, hovering, or sinking objects.
 
 ---

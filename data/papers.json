@@ -1,5 +1,324 @@
 [
   {
+    "arxiv_id": "2607.18210",
+    "title": "Optimization of sim-to-real transfer in the humanoid robot NICO",
+    "paper_url": "https://arxiv.org/abs/2607.18210",
+    "project_url": null,
+    "authors": [
+      "Juraj Gavura",
+      "Igor Farkaš"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-20",
+    "abstract": "Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positioning errors that prevent successful grasping. In our previous work, we introduced a low-cost haptic calibration method that improved 2D reaching accuracy of the humanoid robot NICO. In this paper, we extend this approach from reaching to tabletop object grasping by adding YOLO-based object and hand detection, stereo vision-based localization using the robot's built-in low-resolution fisheye cameras, and task-specific corrections for grasp execution. Together, these components form a novel calibration-based grasping pipeline that does not require RGB-D cameras, motion capture, or external tracking systems. We also implemented a visual feedback model that aligns the robot hand with the detected object before grasping. Our results show that the fully nonlinear calibration model achieved the best performance inside the calibrated area, while the visual feedback model achieved the highest overall grasping success across the full tabletop workspace.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Manipulation",
+      "Teleoperation",
+      "Navigation",
+      "State Estimation",
+      "Sim-to-Real",
+      "Hardware Design",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Humanoid",
+      "Inverse Kinematics",
+      "Physics-Based Character Animation",
+      "Manipulation",
+      "Teleoperation",
+      "Navigation",
+      "State Estimation",
+      "Hardware Design",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2607.18200",
+    "title": "Learning Adaptive Safety Margins for Visual Navigation",
+    "paper_url": "https://arxiv.org/abs/2607.18200",
+    "project_url": null,
+    "authors": [
+      "Junyi Hu",
+      "Shuaihang Yuan",
+      "Geeta Chandra Raju Bethala",
+      "Anthony Tzes",
+      "Yi Fang"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-20",
+    "abstract": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts under perception bias. Diffusion-based planners propose diverse trajectory candidates from egocentric RGB-D, yet reliable selection remains the bottleneck. We propose a context-conditioned safety critic that learns an adaptive clearance preference for ranking diffusion proposals, decomposed into three complementary terms: (i) a safety term with a clearance-budget penalty and a control-barrier-function residual for waypoint- and transition-wise safety, (ii) an efficiency term combining a smoothness penalty with a safety-gated detour-ratio penalty that avoids detours without incentivizing risky shortcuts, and (iii) a distance-constraint matching term that anchors the learned budget to realized ESDF clearances to prevent margin collapse. We train the critic with privileged ESDF geometry in simulation and distill it into a perception-only selector via a two-stage teacher-student procedure. On PointGoal navigation in HM3D and MP3D, including cross-dataset transfer, our method achieves the highest success rate (SR) and success weighted by path length (SPL) among strong diffusion, optimization, and RL baselines. Trained purely in simulation, it transfers to a Unitree G1 humanoid and navigates cluttered indoor scenes without task-specific tuning.",
+    "categories": [
+      "Simulation Benchmark",
+      "Navigation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Navigation",
+      "Safety",
+      "Humanoid",
+      "Collision",
+      "Dataset",
+      "Diffusion",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2607.18197",
+    "title": "Imitation of Arm Gestures by the Semi-Humanoid Robot NICO",
+    "paper_url": "https://arxiv.org/abs/2607.18197",
+    "project_url": null,
+    "authors": [
+      "Anastasiya Ihnatovich",
+      "Igor Farkaš"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-20",
+    "abstract": "Seamless human-robot interaction (HRI) requires a number of perceptual and motor abilities from the robot, one of them being the imitation of human gestures. Humanoid robots have an advantage in HRI thanks to their anthropomorphic features. In this work, we develop a system for imitation of human arm gestures by the semi-humanoid robot NICO based on analytical geometry and a pretrained MediaPipe pose-estimation model. For each input RGB frame, 3D coordinates of relevant human body landmarks, including arm joints and hand keypoints, are obtained using the MediaPipe framework. Joint angles are then computed from these coordinates using derived geometric relations. Finally, the computed angles are properly mapped to NICO's motor configuration and executed in a predefined motion sequence. Preliminary experiments on several representative arm gestures with six participants of different height indicate that the proposed method can produce meaningful imitative motions from monocular RGB input only, while also highlighting limitations in more complex poses and wrist-related movements.",
+    "categories": [
+      "Human Motion Analysis and Synthesis",
+      "State Estimation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Human Motion Analysis and Synthesis",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
+    "arxiv_id": "2607.18154",
+    "title": "World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation",
+    "paper_url": "https://arxiv.org/abs/2607.18154",
+    "project_url": null,
+    "authors": [
+      "Xinchen Yao",
+      "Leixin Chang",
+      "Hua Chen"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-20",
+    "abstract": "The gap between simulation and reality remains a fundamental challenge in deploying simulation-trained robotic policies in the real world. Real-to-sim methods narrow this gap from the real side, learning transition dynamics from real data to build a more realistic digital world. Learned dynamics models are their dominant instance. Such methods, however, face a partial observability problem: the same observation may branch to different transitions due to unobservable factors. Existing methods assume these factors can be recovered from observation history. However, this may fail whenever observation history is uninformative, such as a sudden contact event with no prior warning. To address this limitation, we propose \\textit{World Translation}, which exploits a complementary strength of simulators and learned dynamics. Simulators are deterministic but physically imperfect, while learned models are accurate but underdetermined under partial observability. Rather than predicting transitions forward from history, we extract the unobservable dynamics information backward from an observed transition, then translate this feature across simulation and reality as an unpaired domain-translation problem that preserves dynamics content while transferring domain style. Experiments across humanoid, quadruped, and manipulator platforms show that our method achieves more accurate dynamics modeling than baselines, with the largest gains when unobservable factors cannot be recovered from observation history. Real-robot deployment on Go2 quadruped confirms improved policy transfer.",
+    "categories": [
+      "State Estimation",
+      "Sim-to-Real",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Simulator",
+      "Humanoid",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2607.18135",
+    "title": "Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds",
+    "paper_url": "https://arxiv.org/abs/2607.18135",
+    "project_url": null,
+    "authors": [
+      "Jordan Dowdy",
+      "Jean Chagas Vaz"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-20",
+    "abstract": "Learning-based approaches to locomotion have risen in popularity in recent years, showing the capability for complex legged locomotion and whole-body control. Reinforcement learning (RL), the primary learning-based approach for locomotion, often utilizes a high-performance simulation tool, providing a controlled and efficient training and development environment. However, policies that perform well in simulation frequently encounter unexpected challenges when deployed on a physical system, known as the sim-to-real gap. This work presents a robust RL locomotion framework capable of whole-body control. The proposed RL framework utilizes Nvidia's new set of simulation tools, Isaac Sim, and its companion RL framework, Isaac Lab, for training, achieving a zero-shot sim-to-real policy. The performance of our policy is validated on physical hardware using the Unitree Go1, with experimental results showing similar velocity tracking performance to the quadruped's integrated controller, with a greater ability to recover from large disturbances, and achieve linear velocities of 2.0 m/s and angular velocities of 1.8 rad/s.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "Locomotion",
+      "State Estimation",
+      "Sim-to-Real"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Sim-to-Real",
+      "Locomotion",
+      "Zero-Shot",
+      "Isaac Sim",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.18016",
+    "title": "Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2607.18016",
+    "project_url": null,
+    "authors": [
+      "Peng Ren",
+      "Haoyang Ge",
+      "Jiang Zhao",
+      "Cong Huang",
+      "Yukun Shi",
+      "Pei Chi",
+      "Kai Chen"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-20",
+    "abstract": "Vision-language-action policies are a promising foundation for general robot control, but long-horizon humanoid loco-manipulation requires the robot to treat task objects as persistent physical entities across movement, contact, occlusion, and recovery. We study this problem as object-state divergence: the object state used to condition a whole-body action can differ from the state used to decide whether the action achieved the intended physical relation. We propose \\emph{Persistent Object Tokenization} (POT), which maintains role-indexed 3D object records from RGB-D observations and converts them into object tokens for a whole-body action expert. Instantiated as \\emph{POT-VLA}, the same object records condition action generation and support geometric predicate checks, yielding a closed-loop execution system in which object state is both actionable and verifiable. On a Unitree G1, POT-VLA improves a matched direct GR00T-N1.7 baseline from 39/80 to 71/80 successes over eight real-world task families. In an external Being-0-aligned reference, POT-VLA achieves 44/50 successes on aligned service tasks, compared with the 37/50 success reported by the Being-0 paper. The largest gains occur on tasks requiring maintained 3D relations, suggesting that persistent object-centered state is a useful abstraction for verifiable humanoid VLA execution.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.17769",
+    "title": "From Sign Language Generation to Humanoid Execution: Vision-Language Guided Retargeting with Collision Mitigation",
+    "paper_url": "https://arxiv.org/abs/2607.17769",
+    "project_url": null,
+    "authors": [
+      "Nabeela Khan",
+      "Bowen Wu",
+      "Runwu Shi",
+      "Benjamin Yen",
+      "Takeshi Ashizawa",
+      "Carlos Toshinori Ishi",
+      "Takashi Minato",
+      "Kazuhiro Nakadai"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-20",
+    "abstract": "Recent sign language generation (SLG) systems increasingly output dense 3D body representations, which better preserve full-body kinematics and geometry for downstream embodiment on humanoid robots. However, these generated motions frequently exhibit self-intersections such as hand-hand and hand-torso penetration. While such artifacts may be tolerated in offline rendering, they become critical in humanoid execution as they lead to infeasible inverse-kinematics (IK) solutions, collisions, and unstable retargeted trajectories. We present a system-level framework that bridges SLG outputs to humanoid joint-space execution via two components. First, we introduce a volumetric SMPL-X collision-mitigation module that projects generated signing motions toward physically plausible configurations while minimally deviating from the original trajectory. Second, we propose a vision-language-guided retargeting algorithm built on an IK backbone: a VLM serves as a visual critic over rendered humanoid motion, identifies embodiment-specific failure modes, and triggers targeted task-space corrections. Our results highlight collision handling and perception-guided refinement as key missing components for reliable humanoid signing.",
+    "categories": [
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Vision-Language",
+      "Collision",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2607.17191",
+    "title": "Toward Anthropomorphic Dialogue: A Closed-Loop Framework for Human-Like Chat Generation, Evaluation, and Preference Alignment",
+    "paper_url": "https://arxiv.org/abs/2607.17191",
+    "project_url": null,
+    "authors": [
+      "Wentao Liu",
+      "Siyu Song",
+      "Xi Chen",
+      "Youjia Li",
+      "Xiaokun Wang",
+      "Min Ji",
+      "Ji Wang"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-19",
+    "abstract": "Human-like private chat requires more than fluent response generation: a system must preserve persona, relationship, memory, bounded knowledge, medium-specific timing, and a coherent multi-turn arc. We present AnthroDial, a closed-loop framework that formulates anthropomorphic dialogue as a joint problem of system architecture, executable evaluation, and diagnostic alignment. It combines (1) a role-conditioned scheduled dialogue runtime with persona and scenario cards, long-term memory, virtual time, and single-draft message decisions; (2) an executable benchmark with an L0 validity gate, five per-turn dimensions, and five dialogue-level dimensions; and (3) a post-training pipeline that filters 16,436 scheduled-decision examples for SFT and applies GRPO with a cognitive-diagnostic, ZPD-aware reward. The reward maintains Kalman-filtered capability estimates for each behavioral dimension, upweights dimensions with larger capability deficits, and uses rollout scores as task-level ZPD matches to focus optimization on learnable weak skills. On a benchmark with 55 personas, 50 scenarios, 50 persona-scenario bindings, and 100 role-conditioned cases per model, we evaluate 16 systems spanning frontier baselines, open models, thinking/no-think variants, and SFT/RL ablations. The strongest non-trained baseline reaches 32.00% strict ACC, while Qwen3.6-27B-SFT+RL reaches 39.00% strict ACC and a 98.5 overall score. In the 9B no-think setting, SFT and RL improve strict ACC from 0.00% to 13.00% and 18.37%. These results show that anthropomorphic dialogue benefits when generation, evaluation, and reward shaping share the same behavioral dimensions.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2607.17138",
+    "title": "Denoising Models Develop Human-Like Perceptual Illusion Representations Across Architectures",
+    "paper_url": "https://arxiv.org/abs/2607.17138",
+    "project_url": null,
+    "authors": [
+      "Gautam Ranka",
+      "Paras Chopra"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-19",
+    "abstract": "Deep neural networks trained on natural images are shown to produce outputs consistent with human observers for brightness illusions. While this phenomenon has been documented across architectures, all evidence, to date, is measured at the output level: restored pixels, decoded trajectories, or classification decisions. Whether these models actually represent illusions internally, and if so where and how, remains unknown. We show that denoising models develop illusion-sensitive representations at specific internal layers, across varied architectures. Specifically, we identify the layers and channels that discriminate illusory from physically matched control regions. We show that the denoising objective is a more important driver of the effect than the architecture. On domain-appropriate stimuli, these activations track a validated psychophysical model of human brightness perception (FLODOG; Spearman $ρ\\geq 0.70$) and scale monotonically with parametric illusion strength. Leveraging these findings, we provide causal evidence via channel ablation showing that illusion-sensitive channels specifically and substantially affect the internal signal. Yet injecting these representations into the generation pipeline produces no measurable pixel shift across all tested architectures; we term such representations perceptual phantoms: active in internal processing yet invisible to any output-based evaluation. While related internal-output dissociations have been characterized in language models, this is the first such characterization for perceptual representations in denoising vision models.",
+    "categories": [
+      "State Estimation"
+    ],
+    "tags": [
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2607.16428",
+    "title": "Back to the museum: Investigation of the acceptance of Android Andrea with and without emotion simulation in a museum",
+    "paper_url": "https://arxiv.org/abs/2607.16428",
+    "project_url": null,
+    "authors": [
+      "Marcel Heisler",
+      "Christian Becker-Asano"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-17",
+    "abstract": "For a second time, the android robot Andrea was set up at a public museum in Germany for six consecutive days to have conversations with visitors, fully autonomously. Building on previously gathered qualitative results, the robot was now capable of engaging in multi-lingual conversation with the visitors about the museum context. The robot was prepared with context information about the museum in general and its surrounding exhibits this time. The robot featured a slightly artificial sounding voice that was previously evaluated as congruent with its gender-ambiguous but very humanlike design. Three experimental conditions were implemented, in which either (1) the robot simulated no emotions, (2) the robots emotions were determined by ChatGPT 4.1, or (3) the WASABI emotion simulation architecture simulated the robot's emotion dynamics. An extended version of the TAM2 questionnaire was employed to let 73 visitors report on several factors of their opinion about the android robot Andrea after having experienced it. In result, the statistical analysis suggests that these first two approaches to implementing emotions into the chat architecture of our android robot Andrea did not yield any positive effects on the subjective evaluations by the visitors and were not detectable on a conscious level.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
     "arxiv_id": "2607.16187",
     "title": "Handroid: Bridging Dexterous Hand and Humanoid",
     "paper_url": "https://arxiv.org/abs/2607.16187",
@@ -139,33 +458,67 @@
     "primary_category": "Locomotion"
   },
   {
-    "arxiv_id": "2607.15755",
-    "title": "AuEmoChat: Authentic Emotion Understanding and Rendering for Conversational Speech Synthesis",
-    "paper_url": "https://arxiv.org/abs/2607.15755",
+    "arxiv_id": "2607.16409",
+    "title": "Think, Plan, Paint: Layout-Aware Reasoning for Controllable Image Generation in Unified Models",
+    "paper_url": "https://arxiv.org/abs/2607.16409",
     "project_url": null,
     "authors": [
-      "Zhenqi Jia",
-      "Yuan Zhao",
-      " Aruukhan",
-      "Rui Liu",
-      "Haizhou Li"
+      "Junhao Liu",
+      "Jian-Wei Zhang",
+      "Tao Huang",
+      "Miles Yang",
+      "Zhao Zhong",
+      "Liefeng Bo"
     ],
     "published": "2026-07",
     "published_date": "2026-07-17",
-    "abstract": "Conversational Speech Synthesis (CSS) aims to synthesize speech with human-like emotional expression and contextual consistency in user-agent interactions. Existing CSS methods struggle to render authentic human emotions due to limited predefined emotion label spaces (e.g., seven emotion categories), while redundant multimodal tokens in multi-turn dialogue history interfere with context understanding. To address these issues, we propose AuEmoChat, a CSS framework for authentic emotion understanding and rendering. First, we develop AuEmoCodec, which learns a discrete authentic emotion token space from large-scale emotional speech via finite scalar quantization, enabling a more authentic emotion representation than limited basic emotion categories. We further propose AuEmoToMe, an authentic-emotion-guided token merging algorithm that merges redundant tokens in multimodal dialogue history while preserving emotion-relevant context. We integrate it into an autoregressive text-speech model to predict the target authentic emotion token and speech tokens. Finally, we propose Authentic Emotion Flow Matching, which renders speech by jointly conditioning on merged dialogue context, target authentic emotion, and acoustic priors. Extensive experiments on the NCSSD-EmCap dataset demonstrate that AuEmoChat outperforms state-of-the-art CSS baselines and generates more expressive and authentic emotional speech.",
+    "abstract": "Unified Multimodal Large Language Models (MLLMs) offer a promising paradigm for unifying visual understanding and generation, yet they still struggle to follow complex spatial instructions and logical constraints in controllable image generation. To address this gap, we present ATLAS, a unified framework that equips MLLMs with a human-like \"Think, Plan, and Paint\" paradigm. We adopt layout as the shared representation that connects the three stages, enabling the model to reason about spatial requirements, plan explicit object arrangements, and render the final image. We further improve plan-to-image fidelity with reinforcement-learning-based layout alignment. We instantiate ATLAS at 7B and 80B scales, achieving state-of-the-art performance among MLLMs on image generation benchmarks and an average 65.31% improvement over existing layout-based unified MLLMs. On spatially related tasks, ATLAS obtains an average 23.06% gain over the base models. Through the same layout interface, ATLAS also supports instruction-guided editing and multimodal grounding. We further introduce ATLAS-Reasoning, a benchmark for evaluating generation under complex spatial instructions.",
     "categories": [
       "Simulation Benchmark"
     ],
     "tags": [
-      "Dataset",
-      "Flow Matching",
+      "Benchmark",
+      "Large Language Model",
+      "PPO",
       "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Atlas",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2607.16540",
+    "title": "Do Vision Encoders Exhibit Human-like Color Thresholds?",
+    "paper_url": "https://arxiv.org/abs/2607.16540",
+    "project_url": null,
+    "authors": [
+      "Engy Ehab",
+      "Pablo Hernández-Cámara",
+      "Nahla Belal",
+      "Jesús Malo",
+      "Javier Vazquez-Corral",
+      "Alexandra Gomez-Villa"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-17",
+    "abstract": "Understanding and characterizing human color perception is a longstanding research goal. One of the most traditional approaches is looking for the human color discrimination thresholds, the minimum chromatic differences perceptible to human observers. In recent years, deep neural networks have become the standard networks for computer vision tasks. In particular, deep vision encoders, foundation models trained on large-scale visual data, map images into latent feature representations. Despite the widespread use of deep vision encoders, few studies have investigated whether their internal representations exhibit human-like discrimination thresholds. In this work, we present a large-scale exploratory study probing the chromatic sensitivity of more than 50 pretrained vision encoders, including convolutional networks and vision transformers, against human discrimination thresholds. Using controlled chromatic stimuli at multiple chroma levels, we compare model-derived chromatic discrimination thresholds with human discrimination ellipses through a region-overlap metric (mIoU). Our analysis reveals generally weak alignment between model representations and human perceptual thresholds across all model families, with the best mIoU < 0.25. Moreover, we find that self-supervised encoders consistently outperform supervised ones, while language-supervised models show the most polarized behavior, occupying both the top and bottom of the ranking. These findings suggest that human-like chromatic sensitivity does not emerge naturally from current large-scale visual training objectives for any of the analyzed architectures.",
+    "categories": [
+      "State Estimation"
+    ],
+    "tags": [
+      "Transformer",
+      "Computer Vision",
+      "Foundation Model",
+      "Self-Supervised",
+      "State Estimation"
     ],
     "real_robot": false,
     "open_source": false,
     "platform": null,
     "summary": "",
-    "primary_category": "Simulation Benchmark"
+    "primary_category": "State Estimation"
   },
   {
     "arxiv_id": "2607.15448",
@@ -571,32 +924,6 @@
     "primary_category": "Simulation Benchmark"
   },
   {
-    "arxiv_id": "2607.13647",
-    "title": "Beyond Color Geometry: Evaluating Human-Like Color Representations in Vision Models",
-    "paper_url": "https://arxiv.org/abs/2607.13647",
-    "project_url": null,
-    "authors": [
-      "Ayan Igali",
-      "Pakizar Shamoi"
-    ],
-    "published": "2026-07",
-    "published_date": "2026-07-15",
-    "abstract": "Do vision models see colors the way humans do? Existing evaluations of color representations usually compare them with geometric spaces such as CIELAB or with discrete color labels. These references capture perceptual distance or category membership, but not the graded way in which people organize colors. We evaluate color grounding against a fuzzy perceptual model with 86 graded categories fitted to human survey data. The framework can be applied to any image encoder and measures three complementary properties: category boundaries, category compactness, and graded alignment beyond what color geometry alone can explain. Across eleven Vision Transformer encoders, the category-level results are broadly similar, whereas graded alignment differs substantially. Masked Autoencoders achieve the strongest beyond-geometry alignment, with confidence intervals that do not overlap those of the other encoders. A layer-wise analysis further shows that masked reconstruction preserves this structure toward the output. On natural images, MAE represents surface color globally, while language-supervised models encode color more strongly in relation to the foreground object. These results show that human-like color grounding has several distinct aspects that should not be reduced to a single score.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "tags": [
-      "Transformer",
-      "GAN",
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "Figure",
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
     "arxiv_id": "2607.12702",
     "title": "Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning",
     "paper_url": "https://arxiv.org/abs/2607.12702",
@@ -633,6 +960,33 @@
     "platform": "Booster",
     "summary": "",
     "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2607.16299",
+    "title": "Algorithmic Accuracy as a Motivational Driver in Robot-Mediated Learning: A Comparative Study of Cross-Correlation and CNN-Based Sound Detection in an Interactive Quiz Game",
+    "paper_url": "https://arxiv.org/abs/2607.16299",
+    "project_url": null,
+    "authors": [
+      "Rezaul Tutul",
+      "Ilona Buchem",
+      "Niels Pinkwart"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-13",
+    "abstract": "In competitive learning activities, inaccurate robot decisions may reduce students' perceptions of fairness and competence, ultimately affecting their motivation. This paper investigates whether the accuracy of sound detection algorithms influences student motivation during a robot-mediated quiz game. A Pepper humanoid robot hosted an interactive buzzer-based quiz in which two sound detection approaches, a Convolutional Neural Network (CNN) and a Cross-Correlation algorithm, were evaluated using a controlled between-subjects experiment involving 40 university students. Participants were equally assigned to a CNN group (n = 20) and a Cross-Correlation group (n = 20). Both groups completed the same quiz under identical conditions, differing only in the sound detection algorithm used for first-responder identification. Student motivation was assessed using the Intrinsic Motivation Inventory (IMI), while algorithm performance was evaluated through real-time detection accuracy. The results indicate that the Cross-Correlation approach achieved more reliable sound detection under classroom conditions and produced significantly higher scores across all IMI subscales, demonstrating greater student interest, perceived competence, effort, perceived choice, and lower perceived pressure (after reverse coding). These findings provide empirical support for the proposed Algorithmic Precision-Motivation Relationship (APMR) model, demonstrating that algorithmic accuracy is not merely an engineering performance metric but an important factor influencing learner motivation in robot-assisted educational environments.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Pepper",
+    "summary": "",
+    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2607.12114",

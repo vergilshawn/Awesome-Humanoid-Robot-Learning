@@ -1,9 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**26 papers** in this category.
+**27 papers** in this category.
 
 ## Months
 
+- [2026-07](/human-motion-analysis-and-synthesis/2026-07) (1 papers)
 - [2026-06](/human-motion-analysis-and-synthesis/2026-06) (3 papers)
 - [2026-05](/human-motion-analysis-and-synthesis/2026-05) (3 papers)
 - [2026-04](/human-motion-analysis-and-synthesis/2026-04) (1 papers)
@@ -25,6 +26,23 @@
 ---
 
 ## Recent Papers
+
+## Imitation of Arm Gestures by the Semi-Humanoid Robot NICO
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18197)
+- **Authors:** Anastasiya Ihnatovich, Igor Farkaš
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Human Motion Analysis and Synthesis
+  - State Estimation
+
+### Summary
+
+Seamless human-robot interaction (HRI) requires a number of perceptual and motor abilities from the robot, one of them being the imitation of human gestures. Humanoid robots have an advantage in HRI thanks to their anthropomorphic features.
+
+---
 
 ## DanceDuo: Bridging Human Movement and AI Choreography
 
@@ -312,20 +330,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2410.03311)
 - **Published:** 2024-10
 - **Tags:**
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Flexible Motion In-betweening with Diffusion Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2405.11126)
-- **Published:** 2024-05
-- **Tags:**
-  - Diffusion
   - Human Motion Analysis and Synthesis
 
 ### Summary

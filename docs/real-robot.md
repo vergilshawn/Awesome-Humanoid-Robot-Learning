@@ -4,19 +4,157 @@ Papers with real humanoid robot deployment and experiments.
 
 ## Platforms
 
-- **Atlas:** 1 papers
+- **Atlas:** 2 papers
 - **Booster:** 3 papers
-- **Digit:** 8 papers
-- **Figure:** 43 papers
+- **Digit:** 9 papers
+- **Figure:** 45 papers
 - **NAO:** 4 papers
-- **Unitree G1:** 48 papers
+- **Pepper:** 1 papers
+- **Unitree G1:** 50 papers
 - **Unitree H1:** 2 papers
-- **Unknown Platform:** 7 papers
+- **Unknown Platform:** 8 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Optimization of sim-to-real transfer in the humanoid robot NICO
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18210)
+- **Authors:** Juraj Gavura, Igor Farkaš
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Sim-to-Real
+  - Humanoid
+  - Inverse Kinematics
+  - Physics-Based Character Animation
+  - Manipulation
+  - Teleoperation
+  - Navigation
+  - State Estimation
+
+### Summary
+
+Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positioning errors that prevent successful grasping.
+
+---
+
+## Learning Adaptive Safety Margins for Visual Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18200)
+- **Authors:** Junyi Hu, Shuaihang Yuan, Geeta Chandra Raju Bethala, Anthony Tzes, Yi Fang
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Navigation
+  - Safety
+  - Humanoid
+  - Collision
+  - Dataset
+  - Diffusion
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts under perception bias. Diffusion-based planners propose diverse trajectory candidates from egocentric RGB-D, yet reliable selection remains the bottleneck.
+
+---
+
+## Imitation of Arm Gestures by the Semi-Humanoid Robot NICO
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18197)
+- **Authors:** Anastasiya Ihnatovich, Igor Farkaš
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Human Motion Analysis and Synthesis
+  - State Estimation
+
+### Summary
+
+Seamless human-robot interaction (HRI) requires a number of perceptual and motor abilities from the robot, one of them being the imitation of human gestures. Humanoid robots have an advantage in HRI thanks to their anthropomorphic features.
+
+---
+
+## World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18154)
+- **Authors:** Xinchen Yao, Leixin Chang, Hua Chen
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Sim-to-Real
+  - Simulator
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+The gap between simulation and reality remains a fundamental challenge in deploying simulation-trained robotic policies in the real world. Real-to-sim methods narrow this gap from the real side, learning transition dynamics from real data to build a more realistic digital world.
+
+---
+
+## Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18135)
+- **Authors:** Jordan Dowdy, Jean Chagas Vaz
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Sim-to-Real
+  - Locomotion
+  - Zero-Shot
+  - Isaac Sim
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Learning-based approaches to locomotion have risen in popularity in recent years, showing the capability for complex legged locomotion and whole-body control. Reinforcement learning (RL), the primary learning-based approach for locomotion, often utilizes a high-performance simulation tool, providing a controlled and efficient training and development environment.
+
+---
+
+## Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18016)
+- **Authors:** Peng Ren, Haoyang Ge, Jiang Zhao, Cong Huang, Yukun Shi, Pei Chi et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Vision-language-action policies are a promising foundation for general robot control, but long-horizon humanoid loco-manipulation requires the robot to treat task objects as persistent physical entities across movement, contact, occlusion, and recovery. We study this problem as object-state divergence: the object state used to condition a whole-body action can differ from the state used to decide whether the action achieved the intended physical relation.
+
+---
+
+## Toward Anthropomorphic Dialogue: A Closed-Loop Framework for Human-Like Chat Generation, Evaluation, and Preference Alignment
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.17191)
+- **Authors:** Wentao Liu, Siyu Song, Xi Chen, Youjia Li, Xiaokun Wang, Min Ji et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Human-like private chat requires more than fluent response generation: a system must preserve persona, relationship, memory, bounded knowledge, medium-specific timing, and a coherent multi-turn arc. We present AnthroDial, a closed-loop framework that formulates anthropomorphic dialogue as a joint problem of system architecture, executable evaluation, and diagnostic alignment.
+
+---
 
 ## Handroid: Bridging Dexterous Hand and Humanoid
 
@@ -71,6 +209,24 @@ Robotic systems increasingly demand tactile sensing that approaches the adaptabi
 ### Summary
 
 Equipping humanoid robots with coherent and adaptable personas is crucial for fostering natural, engaging, and trustworthy human-robot interaction (HRI). However, existing approaches often rely on static, hard-coded identities that lack the flexibility to adapt to individual user contexts.
+
+---
+
+## Think, Plan, Paint: Layout-Aware Reasoning for Controllable Image Generation in Unified Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.16409)
+- **Authors:** Junhao Liu, Jian-Wei Zhang, Tao Huang, Miles Yang, Zhao Zhong, Liefeng Bo
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Atlas
+- **Tags:**
+  - Benchmark
+  - Large Language Model
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Unified Multimodal Large Language Models (MLLMs) offer a promising paradigm for unifying visual understanding and generation, yet they still struggle to follow complex spatial instructions and logical constraints in controllable image generation. To address this gap, we present ATLAS, a unified framework that equips MLLMs with a human-like "Think, Plan, and Paint" paradigm.
 
 ---
 
@@ -200,23 +356,6 @@ Deploying humanoid robots in unstructured terrain remains an open problem. While
 
 ---
 
-## Beyond Color Geometry: Evaluating Human-Like Color Representations in Vision Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.13647)
-- **Authors:** Ayan Igali, Pakizar Shamoi
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Transformer
-  - GAN
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Do vision models see colors the way humans do? Existing evaluations of color representations usually compare them with geometric spaces such as CIELAB or with discrete color labels. These references capture perceptual distance or category membership, but not the graded way in which people organize colors.
-
----
-
 ## Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.12702)
@@ -235,6 +374,23 @@ Do vision models see colors the way humans do? Existing evaluations of color rep
 ### Summary
 
 Recent advances in humanoid robotics have highlighted the importance of deployable loco-manipulation skills. Dribbling a soccer ball while evading active opponents requires simultaneous balance, precise ball control, and awareness of a dynamic adversary under onboard sensing and real-time constraints.
+
+---
+
+## Algorithmic Accuracy as a Motivational Driver in Robot-Mediated Learning: A Comparative Study of Cross-Correlation and CNN-Based Sound Detection in an Interactive Quiz Game
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.16299)
+- **Authors:** Rezaul Tutul, Ilona Buchem, Niels Pinkwart
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Pepper
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+In competitive learning activities, inaccurate robot decisions may reduce students' perceptions of fairness and competence, ultimately affecting their motivation. This paper investigates whether the accuracy of sound detection algorithms influences student motivation during a robot-mediated quiz game.
 
 ---
 

@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**40 papers** in this category.
+**42 papers** in this category.
 
 ## Months
 
-- [2026-07](/physics-based-character-animation/2026-07) (2 papers)
+- [2026-07](/physics-based-character-animation/2026-07) (4 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (4 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
 - [2026-04](/physics-based-character-animation/2026-04) (1 papers)
@@ -35,6 +35,45 @@
 ---
 
 ## Recent Papers
+
+## Optimization of sim-to-real transfer in the humanoid robot NICO
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18210)
+- **Authors:** Juraj Gavura, Igor Farkaš
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Sim-to-Real
+  - Humanoid
+  - Inverse Kinematics
+  - Physics-Based Character Animation
+  - Manipulation
+  - Teleoperation
+  - Navigation
+  - State Estimation
+
+### Summary
+
+Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positioning errors that prevent successful grasping.
+
+---
+
+## From Sign Language Generation to Humanoid Execution: Vision-Language Guided Retargeting with Collision Mitigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.17769)
+- **Authors:** Nabeela Khan, Bowen Wu, Runwu Shi, Benjamin Yen, Takeshi Ashizawa, Carlos Toshinori Ishi et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - Collision
+  - Physics-Based Character Animation
+
+### Summary
+
+Recent sign language generation (SLG) systems increasingly output dense 3D body representations, which better preserve full-body kinematics and geometry for downstream embodiment on humanoid robots. However, these generated motions frequently exhibit self-intersections such as hand-hand and hand-torso penetration.
+
+---
 
 ## An LLM-Based Automatic Sportscast Solution for Robot Soccer Matches
 
@@ -318,34 +357,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-08
 - **Tags:**
   - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Humanoid Robot Acrobatics Utilizing Complete Articulated Rigid Body Dynamics
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.08258)
-- **Published:** 2025-08
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Feature-Based vs. GAN-Based Learning from Demonstrations: When and Why
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2507.05906)
-- **Published:** 2025-07
-- **Tags:**
-  - GAN
   - Physics-Based Character Animation
 
 ### Summary

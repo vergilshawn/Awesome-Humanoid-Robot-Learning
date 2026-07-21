@@ -1,10 +1,10 @@
 # Locomotion
 
-**138 papers** in this category.
+**139 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (12 papers)
+- [2026-07](/locomotion/2026-07) (13 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -93,6 +93,23 @@ Equipping humanoid robots with coherent and adaptable personas is crucial for fo
 ### Summary
 
 Collisions of rigid-link robots and rigid environments are often modeled as instantaneous events. Under this idealization, the impact forces become impulsive and the system velocities nonsmooth.
+
+---
+
+## Algorithmic Accuracy as a Motivational Driver in Robot-Mediated Learning: A Comparative Study of Cross-Correlation and CNN-Based Sound Detection in an Interactive Quiz Game
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.16299)
+- **Authors:** Rezaul Tutul, Ilona Buchem, Niels Pinkwart
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Pepper
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+In competitive learning activities, inaccurate robot decisions may reduce students' perceptions of fairness and competence, ultimately affecting their motivation. This paper investigates whether the accuracy of sound detection algorithms influences student motivation during a robot-mediated quiz game.
 
 ---
 
@@ -417,26 +434,5 @@ Humanoid loco-manipulation is often simplified into a stop-and-go process: walki
 ### Summary
 
 The scalability of humanoid robots will depend not only on models and hardware, but also on whether physical experience can accumulate across robots, tasks, organizations, and time. Drawing on the authors' work in developing ISO/WD 26264-1, Humanoid robot datasets -- Part 1: General requirements, within ISO/TC 299/WG 16, this article argues that data standards are becoming foundational infrastructure for Physical AI.
-
----
-
-## Comparative Study on Agility, Efficiency, and Impact Absorption of Bipedal Robots with Active Toes
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.19699)
-- **Authors:** Joong-Gil Kim, Wontae Ye, Geunwoo Cho, Seong-Ho Yun, Se-Hyoung Cho, Yong-Jae Kim
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Biped
-  - Walking
-  - Impact
-  - Locomotion
-  - State Estimation
-  - Hardware Design
-  - Simulation Benchmark
-
-### Summary
-
-Human legs exhibit high efficiency, agility, and impact absorption, with toes playing a crucial role in these capabilities. While many attempts have been made to implement human-like toes in robots, they have not fully replicated human characteristics nor rigorously validated their benefits.
 
 ---

@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**66 papers** in this category.
+**68 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (11 papers)
+- [2026-07](/simulation-benchmark/2026-07) (13 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -25,19 +25,59 @@
 
 ## Recent Papers
 
-## AuEmoChat: Authentic Emotion Understanding and Rendering for Conversational Speech Synthesis
+## Learning Adaptive Safety Margins for Visual Navigation
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.15755)
-- **Authors:** Zhenqi Jia, Yuan Zhao,  Aruukhan, Rui Liu, Haizhou Li
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18200)
+- **Authors:** Junyi Hu, Shuaihang Yuan, Geeta Chandra Raju Bethala, Anthony Tzes, Yi Fang
 - **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
+  - Navigation
+  - Safety
+  - Humanoid
+  - Collision
   - Dataset
-  - Flow Matching
+  - Diffusion
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts under perception bias. Diffusion-based planners propose diverse trajectory candidates from egocentric RGB-D, yet reliable selection remains the bottleneck.
+
+---
+
+## Toward Anthropomorphic Dialogue: A Closed-Loop Framework for Human-Like Chat Generation, Evaluation, and Preference Alignment
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.17191)
+- **Authors:** Wentao Liu, Siyu Song, Xi Chen, Youjia Li, Xiaokun Wang, Min Ji et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Benchmark
   - Simulation Benchmark
 
 ### Summary
 
-Conversational Speech Synthesis (CSS) aims to synthesize speech with human-like emotional expression and contextual consistency in user-agent interactions. Existing CSS methods struggle to render authentic human emotions due to limited predefined emotion label spaces (e.g., seven emotion categories), while redundant multimodal tokens in multi-turn dialogue history interfere with context understanding.
+Human-like private chat requires more than fluent response generation: a system must preserve persona, relationship, memory, bounded knowledge, medium-specific timing, and a coherent multi-turn arc. We present AnthroDial, a closed-loop framework that formulates anthropomorphic dialogue as a joint problem of system architecture, executable evaluation, and diagnostic alignment.
+
+---
+
+## Think, Plan, Paint: Layout-Aware Reasoning for Controllable Image Generation in Unified Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.16409)
+- **Authors:** Junhao Liu, Jian-Wei Zhang, Tao Huang, Miles Yang, Zhao Zhong, Liefeng Bo
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Atlas
+- **Tags:**
+  - Benchmark
+  - Large Language Model
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Unified Multimodal Large Language Models (MLLMs) offer a promising paradigm for unifying visual understanding and generation, yet they still struggle to follow complex spatial instructions and logical constraints in controllable image generation. To address this gap, we present ATLAS, a unified framework that equips MLLMs with a human-like "Think, Plan, and Paint" paradigm.
 
 ---
 
@@ -374,45 +414,5 @@ Text-conditioned motion generation is a promising interface for programming huma
 ### Summary
 
 We present Reflow-regularized Flow Matching Policy Gradients (ReFPO), a simple online RL method that adds explicit Reflow regularization to FPO for efficient flow-based control. We uncover a key structural property: the gradient updates in Flow Matching Policy Gradients (FPO) can be interpreted as an implicit advantage-weighted Reflow process, providing a new geometric perspective on flow-based policy gradients.
-
----
-
-## VENOM: Versatile Embodied Network for Omni-bodied Motion tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.16696)
-- **Authors:** Siddharth Padmanabhan, Kazuki Miyazawa, Takato Horii
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Dataset
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Achieving expert-level expressive full-body motion tracking across multiple humanoids solely from demonstration data remains a challenging and relatively an underexplored problem in humanoid robot learning. Cross-embodiment motion tracking policies are mostly trained by decoupling the control problem into upper and lower body control.
-
----
-
-## Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.16564)
-- **Authors:** Aristotelis Papatheodorou, Jose Rojas, Ioannis Havoutis, Carlos Mastalli
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Robustness
-  - Humanoid
-  - Trajectory Optimization
-  - Optimal Control
-  - Benchmark
-  - PPO
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Robotic systems routinely encounter conflicting objectives, modeling errors, and degenerate contact conditions that render quadratic programs (QPs) infeasible. Yet most optimization solvers and differentiable QP layers assume feasibility, leading to numerical failures, unstable gradients, or solver breakdown when constraints cannot be simultaneously satisfied.
 
 ---

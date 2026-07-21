@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (229)",
+            "text": "Loco-Manipulation and Whole-Body Control (230)",
             "collapsed": true,
             "items": [
                   {
@@ -346,7 +346,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (138)",
+            "text": "Locomotion (139)",
             "collapsed": true,
             "items": [
                   {
@@ -542,7 +542,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (33)",
+            "text": "State Estimation (37)",
             "collapsed": true,
             "items": [
                   {
@@ -712,7 +712,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (66)",
+            "text": "Simulation Benchmark (68)",
             "collapsed": true,
             "items": [
                   {
@@ -786,7 +786,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (40)",
+            "text": "Physics-Based Character Animation (42)",
             "collapsed": true,
             "items": [
                   {
@@ -904,12 +904,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (26)",
+            "text": "Human Motion Analysis and Synthesis (27)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/human-motion-analysis-and-synthesis/"
+                  },
+                  {
+                        "text": "2026-07",
+                        "link": "/human-motion-analysis-and-synthesis/2026-07"
                   },
                   {
                         "text": "2026-06",
