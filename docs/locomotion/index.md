@@ -1,10 +1,10 @@
 # Locomotion
 
-**139 papers** in this category.
+**140 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (13 papers)
+- [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,23 @@
 ---
 
 ## Recent Papers
+
+## Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18760)
+- **Authors:** Stéphane Caron
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Walking
+
+### Summary
+
+In legged locomotion, divergent components of motion (DCMs) have emerged as characteristic states for balance control. They isolate the unstable mode of the dynamics but, in existing formulations, apply only to reduced models such as the linear inverted pendulum.
+
+---
 
 ## RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC
 
@@ -413,26 +430,5 @@ Recent advances in control have enabled bipedal-wheeled robots to traverse slope
 ### Summary
 
 Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive.
-
----
-
-## Data Standards for Humanoid Robotics: The Missing Infrastructure for Physical AI
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.19769)
-- **Authors:** Shaoshan Liu, Xiugong Qin, Xuan Wu, Xuan Xia, Ning Ding, Jialu Liu et al. (7 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Dataset
-  - GAN
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-The scalability of humanoid robots will depend not only on models and hardware, but also on whether physical experience can accumulate across robots, tasks, organizations, and time. Drawing on the authors' work in developing ISO/WD 26264-1, Humanoid robot datasets -- Part 1: General requirements, within ISO/TC 299/WG 16, this article argues that data standards are becoming foundational infrastructure for Physical AI.
 
 ---

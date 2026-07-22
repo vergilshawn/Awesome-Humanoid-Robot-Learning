@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**230 papers** in this category.
+**231 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (12 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (13 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -75,6 +75,25 @@ Learning-based approaches to locomotion have risen in popularity in recent years
 ### Summary
 
 Vision-language-action policies are a promising foundation for general robot control, but long-horizon humanoid loco-manipulation requires the robot to treat task objects as persistent physical entities across movement, contact, occlusion, and recovery. We study this problem as object-state divergence: the object state used to condition a whole-body action can differ from the state used to decide whether the action achieved the intended physical relation.
+
+---
+
+## FARO: Feasibility-Aware Robot Motion Optimization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18362)
+- **Authors:** Michal Ciebielski, Shafeef Omar, Aaron Johnson, Majid Khadiv
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Humanoid
+  - Underactuated
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Fast planning of novel behaviors in unseen scenarios remains a fundamental challenge in robotics. The high-dimensional, hybrid, and underactuated nature of humanoid loco-manipulation continues to hinder the realization of this goal.
 
 ---
 
@@ -408,26 +427,5 @@ Current humanoid reinforcement-learning policies excel at free-space motions but
 ### Summary
 
 High-quality demonstration data are essential for humanoid robot skill learning, especially for whole-body behaviors that require coordinated perception, locomotion, and manipulation. Existing data-collection methods largely rely on robot teleoperation, which is constrained by hardware accessibility, operator expertise, and limited efficiency.
-
----
-
-## Humanoid-DART: Humanoid Loco-Manipulation using Diffusion-guided Augmentation through Relabeling and Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.26855)
-- **Authors:** Pranav Debbad, Kanish Thiagarajan, Victor Dhédin, Shafeef Omar, Majid Khadiv
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - Human Demonstration
-  - Humanoid
-  - Goal-Conditioned
-  - Diffusion
-  - Self-Supervised
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Imitating human demonstrations has emerged as a dominant paradigm for learning humanoid loco-manipulation policies. However, scaling these approaches remains challenging due to the high cost of collecting diverse demonstrations and the need for continual human intervention to correct policy failures.
 
 ---

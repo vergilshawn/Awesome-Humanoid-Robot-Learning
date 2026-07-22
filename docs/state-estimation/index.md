@@ -1,10 +1,10 @@
 # State Estimation
 
-**37 papers** in this category.
+**38 papers** in this category.
 
 ## Months
 
-- [2026-07](/state-estimation/2026-07) (8 papers)
+- [2026-07](/state-estimation/2026-07) (9 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
@@ -17,6 +17,25 @@
 ---
 
 ## Recent Papers
+
+## Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18737)
+- **Authors:** Radovan Gregor, Igor Farkaš
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - PPO
+  - GAN
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Understanding the computational basis of action recognition is a central challenge in social cognition as well as in human-robot interaction. Inspired by the Mirror Neuron System (MNS), we propose a two-level architecture for motor primitive discovery and online phase recognition applied to the NICO humanoid robot.
+
+---
 
 ## World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation
 
@@ -373,25 +392,5 @@ We introduce $λ$-Reachability, a scalable approach to Hamilton--Jacobi safety a
 ### Summary
 
 Accurate prediction of electrical power consumption is essential for energy-aware motion planning, battery management, and thermal monitoring in battery-powered humanoid robots. This letter presents a physics-based, linear-in-parameters model for the electrical power consumption of the seven-degree-of-freedom left arm of the Unitree~G1 humanoid robot.
-
----
-
-## Human-like autonomy emerges from self-play and a pinch of human data
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.19370)
-- **Authors:** Daphne Cornelisse, Julian Hunt, Zixu Zhang, Waël Doulazmi, Kevin Joseph, Jaime Fernández Fisac et al. (7 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Imitation Learning
-  - Domain Randomization
-  - Human Demonstration
-  - State Estimation
-  - Sim-to-Real
-  - Simulation Benchmark
-
-### Summary
-
-Self-play reinforcement learning has recently emerged as a way to train driving policies without any human data. It uses cheap, large-scale simulations to substitute expensive, large-scale human driving demonstrations.
 
 ---

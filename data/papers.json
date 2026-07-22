@@ -1,5 +1,116 @@
 [
   {
+    "arxiv_id": "2607.19190",
+    "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+    "paper_url": "https://arxiv.org/abs/2607.19190",
+    "project_url": null,
+    "authors": [
+      "Guanxiong Chen",
+      "Qianjun Xia",
+      "Jiawei Peng",
+      "Heng Zhang",
+      "Bole Ma",
+      "Justin Qian",
+      "Ziyi Jiao",
+      "Bingyang Zhou",
+      "Luoxin Ye",
+      "Kaifeng Zhang",
+      "Kunyi Wang",
+      "Weijia Zeng",
+      "Yunuo Chen",
+      "Pengzhi Yang",
+      "Ziqiu Zeng",
+      "Huamin Wang",
+      "Chao Liu",
+      "Alan Yuille",
+      "Fan Shi",
+      "Changxi Zheng",
+      "Yunzhu Li",
+      "Chenfanfu Jiang",
+      "Peter Yichen Chen"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-21",
+    "abstract": "Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, cameras, poses, and trajectories into a runnable physical simulation. Today this process still depends on manual tuning of visual foundation models, mesh cleanup, coordinate-frame alignment, and brittle workflow glue across visual perception tools and simulators. We introduce \\textit{Agentic Real2Sim}, a framework for generalized physical world modeling with vision-language agents, converting a real-world recording of object-robot interaction into a simulatable episodic twin which preserves observations, geometries, robot interactions, and object states. We evaluate Agentic Real2Sim on rigid-object manipulation, deformable-object interaction, and humanoid motion scenes, spanning domains that are usually handled by separate Real2Sim pipelines, marking a first step toward scalable conversion. The framework's agentic decisions can be driven by an open-weight VLM backend at a small fraction of the cost of frontier models, while attaining comparable conversion success rate. We aim to use the resulting real-world-aligned twins for downstream robotics tasks, specifically policy learning and evaluation. The project site is available at https://ericchen321.github.io/agentic_real2sim.github.io/.",
+    "categories": [
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Manipulation",
+      "World Model",
+      "Simulator",
+      "Humanoid",
+      "Vision-Language",
+      "Foundation Model",
+      "Policy Learning",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2607.18760",
+    "title": "Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing",
+    "paper_url": "https://arxiv.org/abs/2607.18760",
+    "project_url": null,
+    "authors": [
+      "Stéphane Caron"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-21",
+    "abstract": "In legged locomotion, divergent components of motion (DCMs) have emerged as characteristic states for balance control. They isolate the unstable mode of the dynamics but, in existing formulations, apply only to reduced models such as the linear inverted pendulum. In this study, we show how DCMs can be more generally formulated as Koopman eigenfunctions. Whereas Koopman analysis typically targets eigenvalues near zero, which capture conserved or slowly varying quantities, our investigation leads us to deliberately search for unstable eigenpairs with large eigenvalues. The resulting Koopman DCMs are data-driven observables trained using only real-robot data. On a real biped, DCMs learned from one hour of robot data improve tracking of reference walking patterns. We further show how learned DCMs provide state-based viability constraints when combined with model predictive control.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Biped",
+      "Walking"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.18737",
+    "title": "Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition",
+    "paper_url": "https://arxiv.org/abs/2607.18737",
+    "project_url": null,
+    "authors": [
+      "Radovan Gregor",
+      "Igor Farkaš"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-21",
+    "abstract": "Understanding the computational basis of action recognition is a central challenge in social cognition as well as in human-robot interaction. Inspired by the Mirror Neuron System (MNS), we propose a two-level architecture for motor primitive discovery and online phase recognition applied to the NICO humanoid robot. At the first level, two Self-Organising Maps (SOMs) learn topographic representations of arm kinematics (A-SOM) and hand kinematics (H-SOM) from simulated trials covering seven motor actions. The maps are trained on non-redundant features identified through hierarchical correlation analysis of motion trajectories. The results show that the two SOMs encode complementary aspects of motor behaviour. At the second level, an Echo State Network (ESN) evaluates whether temporal trajectories of SOM activations, represented by consecutive best-matching units, are sufficient for online recognition of the currently executed movement phase. The results show that SOM-based trajectories preserve the dominant phase-discriminative structure of the movement, while contextual information provides only a secondary refinement. Our contribution is the integration of established SOM and ESN methods within an MNS-inspired architecture for motor primitive representation and online phase recognition. The results are compatible with the computational hypothesis that self-organised motor representations, when temporally integrated, can support accurate online recognition of ongoing movement phases.",
+    "categories": [
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Humanoid",
+      "PPO",
+      "GAN",
+      "State Estimation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
     "arxiv_id": "2607.18210",
     "title": "Optimization of sim-to-real transfer in the humanoid robot NICO",
     "paper_url": "https://arxiv.org/abs/2607.18210",
@@ -202,6 +313,38 @@
     "real_robot": true,
     "open_source": false,
     "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.18362",
+    "title": "FARO: Feasibility-Aware Robot Motion Optimization",
+    "paper_url": "https://arxiv.org/abs/2607.18362",
+    "project_url": null,
+    "authors": [
+      "Michal Ciebielski",
+      "Shafeef Omar",
+      "Aaron Johnson",
+      "Majid Khadiv"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-20",
+    "abstract": "Fast planning of novel behaviors in unseen scenarios remains a fundamental challenge in robotics. The high-dimensional, hybrid, and underactuated nature of humanoid loco-manipulation continues to hinder the realization of this goal. In this paper, we address this challenge by proposing a nested kino-dynamic framework for rapid feasibility checking and dynamically consistent trajectory generation given a candidate contact sequence. By integrating this module with a feasibility-guided tree search and a Large Language Model (LLM)-based contact plan sampling strategy, we demonstrate that the proposed framework can substantially improve the search process. Furthermore, we show that the generated trajectories can be tracked using a reinforcement learning (RL)-based controller and show that the resulting trajectories are of sufficiently high quality for execution in real-world loco-manipulation scenarios. A supplementary video is available at: https://youtu.be/R6qCHoCormQ.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "Humanoid",
+      "Underactuated",
+      "Large Language Model",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
@@ -608,7 +751,7 @@
   },
   {
     "arxiv_id": "2607.14852",
-    "title": "Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation",
+    "title": "Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation",
     "paper_url": "https://arxiv.org/abs/2607.14852",
     "project_url": null,
     "authors": [

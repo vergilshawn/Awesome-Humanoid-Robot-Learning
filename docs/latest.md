@@ -2,6 +2,63 @@
 
 All papers sorted by publication date (newest first).
 
+## Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.19190)
+- **Authors:** Guanxiong Chen, Qianjun Xia, Jiawei Peng, Heng Zhang, Bole Ma, Justin Qian et al. (23 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - World Model
+  - Simulator
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - Policy Learning
+  - State Estimation
+
+### Summary
+
+Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, cameras, poses, and trajectories into a runnable physical simulation. Today this process still depends on manual tuning of visual foundation models, mesh cleanup, coordinate-frame alignment, and brittle workflow glue across visual perception tools and simulators.
+
+---
+
+## Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18760)
+- **Authors:** Stéphane Caron
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Walking
+
+### Summary
+
+In legged locomotion, divergent components of motion (DCMs) have emerged as characteristic states for balance control. They isolate the unstable mode of the dynamics but, in existing formulations, apply only to reduced models such as the linear inverted pendulum.
+
+---
+
+## Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18737)
+- **Authors:** Radovan Gregor, Igor Farkaš
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - PPO
+  - GAN
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Understanding the computational basis of action recognition is a central challenge in social cognition as well as in human-robot interaction. Inspired by the Mirror Neuron System (MNS), we propose a two-level architecture for motor primitive discovery and online phase recognition applied to the NICO humanoid robot.
+
+---
+
 ## Optimization of sim-to-real transfer in the humanoid robot NICO
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.18210)
@@ -120,6 +177,25 @@ Learning-based approaches to locomotion have risen in popularity in recent years
 ### Summary
 
 Vision-language-action policies are a promising foundation for general robot control, but long-horizon humanoid loco-manipulation requires the robot to treat task objects as persistent physical entities across movement, contact, occlusion, and recovery. We study this problem as object-state divergence: the object state used to condition a whole-body action can differ from the state used to decide whether the action achieved the intended physical relation.
+
+---
+
+## FARO: Feasibility-Aware Robot Motion Optimization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18362)
+- **Authors:** Michal Ciebielski, Shafeef Omar, Aaron Johnson, Majid Khadiv
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Humanoid
+  - Underactuated
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Fast planning of novel behaviors in unseen scenarios remains a fundamental challenge in robotics. The high-dimensional, hybrid, and underactuated nature of humanoid loco-manipulation continues to hinder the realization of this goal.
 
 ---
 
@@ -338,7 +414,7 @@ Humanoid control requires natural whole-body coordination, precise real-time res
 
 ---
 
-## Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation
+## Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.14852)
 - **Authors:** Yao He, Gan Sun, Wenqi Liang, Fazeng Li, Yang Cong

@@ -1,10 +1,10 @@
 # Manipulation
 
-**89 papers** in this category.
+**90 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (12 papers)
+- [2026-07](/manipulation/2026-07) (13 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -32,6 +32,27 @@
 ---
 
 ## Recent Papers
+
+## Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.19190)
+- **Authors:** Guanxiong Chen, Qianjun Xia, Jiawei Peng, Heng Zhang, Bole Ma, Justin Qian et al. (23 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - World Model
+  - Simulator
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - Policy Learning
+  - State Estimation
+
+### Summary
+
+Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, cameras, poses, and trajectories into a runnable physical simulation. Today this process still depends on manual tuning of visual foundation models, mesh cleanup, coordinate-frame alignment, and brittle workflow glue across visual perception tools and simulators.
+
+---
 
 ## Handroid: Bridging Dexterous Hand and Humanoid
 
@@ -93,7 +114,7 @@ This paper presents a tactile-reactive gripper that integrates a Visuo-Tactile A
 
 ---
 
-## Towards Human-like Physical Intelligence: LifelongVision-Language-Action Learning for Robotic Manipulation
+## Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.14852)
 - **Authors:** Yao He, Gan Sun, Wenqi Liang, Fazeng Li, Yang Cong
@@ -397,23 +418,5 @@ Reinforcement learning can train bimanual dexterous hands to play piano in physi
 ### Summary
 
 Multi-task robot manipulation policies are challenging to learn from demonstration because traditionally a single network must select among qualitatively different action modes from a multimodal demonstration distribution, conditioned on language and visual context. A wrong mode selection means executing the wrong task or an action infeasible in the scene.
-
----
-
-## Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.19774)
-- **Authors:** Trong-Bao Ho, Quang-Tan Nguyen, Thien-Loc Ha, Gia-Binh Nguyen, Viet-Thanh Nguyen, Long Dinh et al. (10 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Benchmark
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Action chunking enables robot policies to produce temporally coherent behavior, but generating multi-step action sequences with flow-based policies incurs latency that is incompatible with real-time control. Under asynchronous execution, the robot continues executing the current chunk while the next one is generated, causing even minor delays to create inconsistencies at chunk boundaries.
 
 ---

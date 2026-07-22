@@ -7,7 +7,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 2 papers
 - **Booster:** 3 papers
 - **Digit:** 9 papers
-- **Figure:** 45 papers
+- **Figure:** 47 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **Unitree G1:** 50 papers
@@ -18,6 +18,42 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18760)
+- **Authors:** Stéphane Caron
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Walking
+
+### Summary
+
+In legged locomotion, divergent components of motion (DCMs) have emerged as characteristic states for balance control. They isolate the unstable mode of the dynamics but, in existing formulations, apply only to reduced models such as the linear inverted pendulum.
+
+---
+
+## Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18737)
+- **Authors:** Radovan Gregor, Igor Farkaš
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - PPO
+  - GAN
+  - State Estimation
+  - Physics-Based Character Animation
+
+### Summary
+
+Understanding the computational basis of action recognition is a central challenge in social cognition as well as in human-robot interaction. Inspired by the Mirror Neuron System (MNS), we propose a two-level architecture for motor primitive discovery and online phase recognition applied to the NICO humanoid robot.
+
+---
 
 ## Optimization of sim-to-real transfer in the humanoid robot NICO
 
