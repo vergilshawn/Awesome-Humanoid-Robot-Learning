@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (231)",
+            "text": "Loco-Manipulation and Whole-Body Control (233)",
             "collapsed": true,
             "items": [
                   {
@@ -346,7 +346,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (140)",
+            "text": "Locomotion (141)",
             "collapsed": true,
             "items": [
                   {
@@ -588,12 +588,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Sim-to-Real (12)",
+            "text": "Sim-to-Real (13)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/sim-to-real/"
+                  },
+                  {
+                        "text": "2026-07",
+                        "link": "/sim-to-real/2026-07"
                   },
                   {
                         "text": "2026-06",
@@ -712,7 +716,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (68)",
+            "text": "Simulation Benchmark (70)",
             "collapsed": true,
             "items": [
                   {

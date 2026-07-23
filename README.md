@@ -2,23 +2,23 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 744
-- **Real Robot Papers:** 127
-- **Open Source Papers:** 137
+- **Total Papers:** 750
+- **Real Robot Papers:** 131
+- **Open Source Papers:** 138
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (231)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (233)
 - [Manipulation](#manipulation) (90)
 - [Teleoperation](#teleoperation) (36)
-- [Locomotion](#locomotion) (140)
+- [Locomotion](#locomotion) (141)
 - [Navigation](#navigation) (29)
 - [State Estimation](#state-estimation) (38)
-- [Sim-to-Real](#sim-to-real) (12)
+- [Sim-to-Real](#sim-to-real) (13)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (68)
+- [Simulation Benchmark](#simulation-benchmark) (70)
 - [Physics-Based Character Animation](#physics-based-character-animation) (42)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (27)
 - [Usage](#usage)
@@ -29,6 +29,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Extreme-RGMT: Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control](https://arxiv.org/abs/2607.20110) — `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [What Matters in Humanoid General Motion Tracking? An Empirical Study](https://arxiv.org/abs/2607.19903) — `Zero-Shot`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Human Motion Analysis and Synthesis`, `Real Robot`
 - [Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds](https://arxiv.org/abs/2607.18135) — `Reinforcement Learning`, `Whole-Body Control`, `Sim-to-Real`, `Locomotion`, `Zero-Shot`, `Isaac Sim`
 - [Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation](https://arxiv.org/abs/2607.18016) — `Manipulation`, `Humanoid`, `Vision-Language`, `PPO`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [FARO: Feasibility-Aware Robot Motion Optimization](https://arxiv.org/abs/2607.18362) — `Reinforcement Learning`, `Manipulation`, `Humanoid`, `Underactuated`, `Large Language Model`, `Loco-Manipulation and Whole-Body Control`
@@ -593,6 +595,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning](https://arxiv.org/abs/2607.20399) — `Reinforcement Learning`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`
 - [Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing](https://arxiv.org/abs/2607.18760) — `Locomotion`, `Biped`, `Walking`, `Real Robot`
 - [RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC](https://arxiv.org/abs/2607.15701) — `Reinforcement Learning`, `MPC`, `Locomotion`, `Navigation`, `Safety`, `Robustness`
 - [PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction](https://arxiv.org/abs/2607.15579) — `Humanoid`, `Impact`, `Locomotion`, `Real Robot`
@@ -963,6 +966,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Sim-to-Real
 
+### 2026-07
+
+- 🌟 [ReferTrack: Referring Then Tracking for Embodied Visual Tracking](https://arxiv.org/abs/2607.20061), [website](https://github.com/medlartea/refertrack) — `Sim-to-Real`, `Humanoid`, `Vision-Language`, `Dataset`, `Simulation Benchmark`, `Open Source`
+
 ### 2026-06
 
 - [FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control](https://arxiv.org/abs/2606.28476) — `Few-Shot`, `Zero-Shot`, `Domain Randomization`, `Humanoid`, `Domain Adaptation`, `Residual Learning`
@@ -1090,6 +1097,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids](https://arxiv.org/abs/2607.20345) — `Humanoid`, `Vision-Language`, `Foundation Model`, `Fine-tuning`, `Benchmark`, `Simulation Benchmark`
+- [On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens](https://arxiv.org/abs/2607.20241) — `Dataset`, `Large Language Model`, `Simulation Benchmark`, `Real Robot`
 - [Learning Adaptive Safety Margins for Visual Navigation](https://arxiv.org/abs/2607.18200) — `Navigation`, `Safety`, `Humanoid`, `Collision`, `Dataset`, `Diffusion`
 - [Toward Anthropomorphic Dialogue: A Closed-Loop Framework for Human-Like Chat Generation, Evaluation, and Preference Alignment](https://arxiv.org/abs/2607.17191) — `Benchmark`, `Simulation Benchmark`, `Real Robot`
 - [Think, Plan, Paint: Layout-Aware Reasoning for Controllable Image Generation in Unified Models](https://arxiv.org/abs/2607.16409) — `Benchmark`, `Large Language Model`, `PPO`, `Simulation Benchmark`, `Real Robot`

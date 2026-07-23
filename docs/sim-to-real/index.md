@@ -1,9 +1,10 @@
 # Sim-to-Real
 
-**12 papers** in this category.
+**13 papers** in this category.
 
 ## Months
 
+- [2026-07](/sim-to-real/2026-07) (1 papers)
 - [2026-06](/sim-to-real/2026-06) (1 papers)
 - [2026-02](/sim-to-real/2026-02) (1 papers)
 - [2026-01](/sim-to-real/2026-01) (1 papers)
@@ -18,6 +19,25 @@
 ---
 
 ## Recent Papers
+
+## 🌟 ReferTrack: Referring Then Tracking for Embodied Visual Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20061)
+- **Project:** [GitHub](https://github.com/medlartea/refertrack)
+- **Authors:** Hanjing Ye, Tianle Zeng, Jiazhao Zhang, Shaoan Wang, Zibo Zhang, Weisi Situ et al. (9 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Sim-to-Real
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Embodied visual tracking (EVT) requires a mobile agent to continuously follow a specific target described in natural language using only onboard vision. While recent vision-language-action (VLA) policies unify target identification and trajectory planning, their chain-of-thought (CoT) reasoning often operates in abstract spatial latents that are difficult to supervise and weakly aligned with explicit image-space detections.
+
+---
 
 ## FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control
 

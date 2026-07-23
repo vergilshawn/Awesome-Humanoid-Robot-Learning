@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**231 papers** in this category.
+**233 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (13 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (15 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -36,6 +36,39 @@
 ---
 
 ## Recent Papers
+
+## Extreme-RGMT: Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20110)
+- **Authors:** Yubiao Ma, Han Yu, Kai Guo, Changtai Lv, Zhengquan Mao, Boyang Xing et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humans can progressively acquire highly dynamic motor skills while preserving reliable everyday motor abilities. In contrast, existing humanoid controllers face a trade-off between generalist and specialist capabilities: generalist motion tracking policies struggle to reliably execute rare highly dynamic motions, whereas specialist training can degrade previously acquired behaviors.
+
+---
+
+## What Matters in Humanoid General Motion Tracking? An Empirical Study
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.19903)
+- **Authors:** Fabio Amadio, Enrico Mingo Hoffman
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid general motion tracking requires policies that can follow diverse whole-body references while maintaining balance. Building such policies involves many practical design choices, and their individual effects are often hard to assess.
+
+---
 
 ## Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds
 
@@ -387,45 +420,5 @@ We present AnyBody, a unified whole-body humanoid controller driven by an arbitr
 ### Summary
 
 Achieving everyday tasks with humanoid robots requires coordinating stable locomotion with versatile manipulation. However, existing whole-body controllers still face significant challenges.
-
----
-
-## SceneBot: Contact-Prompted General Humanoid Whole Body Tracking with Scene-Interaction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.27581)
-- **Authors:** Sirui Chen, Shibo Zhao, Zhen Wu, Jiaman Li, Guanya Shi, C. Karen Liu
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Current humanoid reinforcement-learning policies excel at free-space motions but struggle with contact-rich tasks, as pure kinematic tracking cannot resolve the physical ambiguities of interacting with objects and uneven terrain. To address this, we introduce SceneBot, a unified motion-tracking framework capable of handling freespace locomotion, terrain traversal, and whole-body manipulation.
-
----
-
-## HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.27239)
-- **Authors:** Hongwu Wang, Chenhao Yu, Youhao Hu, Jiachen Zhang, Yuanyuan Li, Shaqi Luo
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Whole-Body Control
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-High-quality demonstration data are essential for humanoid robot skill learning, especially for whole-body behaviors that require coordinated perception, locomotion, and manipulation. Existing data-collection methods largely rely on robot teleoperation, which is constrained by hardware accessibility, operator expertise, and limited efficiency.
 
 ---

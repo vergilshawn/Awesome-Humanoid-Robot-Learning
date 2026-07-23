@@ -1,10 +1,10 @@
 # Locomotion
 
-**140 papers** in this category.
+**141 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (14 papers)
+- [2026-07](/locomotion/2026-07) (15 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,27 @@
 ---
 
 ## Recent Papers
+
+## Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20399)
+- **Authors:** Nicolas Kosanovic, Jordan Dowdy, Jean Chagas Vaz
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilizes Virtual Reality for upper-body teleoperation and Reinforcement Learning for lower-body balance and locomotion control.
+
+---
 
 ## Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing
 
@@ -408,27 +429,5 @@ Humanoid robot motion learning requires not only task-oriented control policies 
 ### Summary
 
 Recent advances in control have enabled bipedal-wheeled robots to traverse slopes and single-step obstacles, yet long staircase traversal remains challenging as current teacher-student frameworks suffer from weakened dynamics-aware representations and incomplete terrain geometry encoding. To bridge this gap, we propose DynaWM, a dynamics-aware representation learning framework.
-
----
-
-## CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.23680)
-- **Authors:** Sikai Li, Shuning Li, Zhenyu Wei, Yunchao Yao, Chenran Li, Mingyu Ding
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Walking
-  - Proprioception
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive.
 
 ---

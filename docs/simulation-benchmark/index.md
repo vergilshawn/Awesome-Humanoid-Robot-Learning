@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**68 papers** in this category.
+**70 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (13 papers)
+- [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -24,6 +24,43 @@
 ---
 
 ## Recent Papers
+
+## Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20345)
+- **Authors:** Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - Fine-tuning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. This paper presents DEED (Data-Efficient Post-Training and Experience-Driven Learning), a systems-level approach evaluated on a supermarket chip-restocking task using a Unitree G1-Edu humanoid robot and the GR00T N1.6 foundation model.
+
+---
+
+## On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20241)
+- **Authors:** Yiming Wang, Jiayuan Di
+- **Published:** 2026-07
+- **Real Robot:** ✅ — REEM
+- **Tags:**
+  - Dataset
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Culturally loaded translation poses unique challenges for machine translation (MT), as meanings are deeply embedded in socio-cultural contexts beyond surface linguistic forms. Although large language models (LLMs) have enabled MT systems to achieve human-like quality in many scenarios, their ability to handle culturally loaded expressions remains underexplored.
+
+---
 
 ## Learning Adaptive Safety Margins for Visual Navigation
 
@@ -371,48 +408,5 @@ Vision-Language-Action (VLA) models have recently demonstrated strong generaliza
 ### Summary
 
 Behavioral Foundation Models (BFMs) offer a promising path toward universal physics-based character control by organizing a rich repertoire of physically plausible behaviors into a latent space, guided by a large-scale motion dataset. While these models excel at time-invariant tasks, such as goal-reaching and state-based reward optimization, their latent space does not directly support time-varying objectives, such as tracking a motion sequence.
-
----
-
-## TEXEDO : Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.22998)
-- **Authors:** Jianuo Cao, Yuxin Chen, Yuzhen Song, Masayoshi Tomizuka, Chenran Li, Thomas Tian
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Humanoid
-  - Language-Conditioned
-  - Contact Dynamics
-  - Dataset
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Text-conditioned motion generation is a promising interface for programming humanoid robots, yet current generators are often trained on human motion datasets retargeted to robot morphologies. Although such data provides rich semantic and kinematic priors, it fails to capture the nuances of whole-body tracking controllers, including balance, contact dynamics, actuation limits, and controller-specific failure modes.
-
----
-
-## ReFPO: Reflow Regularization for Flow Matching Policy Gradients
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.21086)
-- **Authors:** Ge Wang, Yibo Peng, Fan Feng, Shenhao Yan, Chengsi Yao, Jiahao Yang et al. (13 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Robustness
-  - MuJoCo
-  - Humanoid
-  - Distillation
-  - PPO
-  - Flow Matching
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-We present Reflow-regularized Flow Matching Policy Gradients (ReFPO), a simple online RL method that adds explicit Reflow regularization to FPO for efficient flow-based control. We uncover a key structural property: the gradient updates in Flow Matching Policy Gradients (FPO) can be interpreted as an implicit advantage-weighted Reflow process, providing a new geometric perspective on flow-based policy gradients.
 
 ---

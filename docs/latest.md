@@ -2,6 +2,116 @@
 
 All papers sorted by publication date (newest first).
 
+## Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20399)
+- **Authors:** Nicolas Kosanovic, Jordan Dowdy, Jean Chagas Vaz
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilizes Virtual Reality for upper-body teleoperation and Reinforcement Learning for lower-body balance and locomotion control.
+
+---
+
+## Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20345)
+- **Authors:** Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - Fine-tuning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. This paper presents DEED (Data-Efficient Post-Training and Experience-Driven Learning), a systems-level approach evaluated on a supermarket chip-restocking task using a Unitree G1-Edu humanoid robot and the GR00T N1.6 foundation model.
+
+---
+
+## Extreme-RGMT: Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20110)
+- **Authors:** Yubiao Ma, Han Yu, Kai Guo, Changtai Lv, Zhengquan Mao, Boyang Xing et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humans can progressively acquire highly dynamic motor skills while preserving reliable everyday motor abilities. In contrast, existing humanoid controllers face a trade-off between generalist and specialist capabilities: generalist motion tracking policies struggle to reliably execute rare highly dynamic motions, whereas specialist training can degrade previously acquired behaviors.
+
+---
+
+## 🌟 ReferTrack: Referring Then Tracking for Embodied Visual Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20061)
+- **Project:** [GitHub](https://github.com/medlartea/refertrack)
+- **Authors:** Hanjing Ye, Tianle Zeng, Jiazhao Zhang, Shaoan Wang, Zibo Zhang, Weisi Situ et al. (9 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Sim-to-Real
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Embodied visual tracking (EVT) requires a mobile agent to continuously follow a specific target described in natural language using only onboard vision. While recent vision-language-action (VLA) policies unify target identification and trajectory planning, their chain-of-thought (CoT) reasoning often operates in abstract spatial latents that are difficult to supervise and weakly aligned with explicit image-space detections.
+
+---
+
+## What Matters in Humanoid General Motion Tracking? An Empirical Study
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.19903)
+- **Authors:** Fabio Amadio, Enrico Mingo Hoffman
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid general motion tracking requires policies that can follow diverse whole-body references while maintaining balance. Building such policies involves many practical design choices, and their individual effects are often hard to assess.
+
+---
+
+## On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20241)
+- **Authors:** Yiming Wang, Jiayuan Di
+- **Published:** 2026-07
+- **Real Robot:** ✅ — REEM
+- **Tags:**
+  - Dataset
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Culturally loaded translation poses unique challenges for machine translation (MT), as meanings are deeply embedded in socio-cultural contexts beyond surface linguistic forms. Although large language models (LLMs) have enabled MT systems to achieve human-like quality in many scenarios, their ability to handle culturally loaded expressions remains underexplored.
+
+---
+
 ## Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.19190)

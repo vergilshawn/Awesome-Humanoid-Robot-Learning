@@ -7,10 +7,11 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 2 papers
 - **Booster:** 3 papers
 - **Digit:** 9 papers
-- **Figure:** 47 papers
+- **Figure:** 48 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
-- **Unitree G1:** 50 papers
+- **REEM:** 1 papers
+- **Unitree G1:** 52 papers
 - **Unitree H1:** 2 papers
 - **Unknown Platform:** 8 papers
 - **iCub:** 1 papers
@@ -18,6 +19,82 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20399)
+- **Authors:** Nicolas Kosanovic, Jordan Dowdy, Jean Chagas Vaz
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilizes Virtual Reality for upper-body teleoperation and Reinforcement Learning for lower-body balance and locomotion control.
+
+---
+
+## Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20345)
+- **Authors:** Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - Fine-tuning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. This paper presents DEED (Data-Efficient Post-Training and Experience-Driven Learning), a systems-level approach evaluated on a supermarket chip-restocking task using a Unitree G1-Edu humanoid robot and the GR00T N1.6 foundation model.
+
+---
+
+## What Matters in Humanoid General Motion Tracking? An Empirical Study
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.19903)
+- **Authors:** Fabio Amadio, Enrico Mingo Hoffman
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid general motion tracking requires policies that can follow diverse whole-body references while maintaining balance. Building such policies involves many practical design choices, and their individual effects are often hard to assess.
+
+---
+
+## On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20241)
+- **Authors:** Yiming Wang, Jiayuan Di
+- **Published:** 2026-07
+- **Real Robot:** ✅ — REEM
+- **Tags:**
+  - Dataset
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Culturally loaded translation poses unique challenges for machine translation (MT), as meanings are deeply embedded in socio-cultural contexts beyond surface linguistic forms. Although large language models (LLMs) have enabled MT systems to achieve human-like quality in many scenarios, their ability to handle culturally loaded expressions remains underexplored.
+
+---
 
 ## Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing
 
