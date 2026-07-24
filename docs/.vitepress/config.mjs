@@ -472,7 +472,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (29)",
+            "text": "Navigation (31)",
             "collapsed": true,
             "items": [
                   {

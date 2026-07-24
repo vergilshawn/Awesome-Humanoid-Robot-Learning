@@ -2,6 +2,48 @@
 
 All papers sorted by publication date (newest first).
 
+## ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.21025)
+- **Authors:** Shaomin Liang, Xuanhong Liao, Shiyao Zhang
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Navigation
+  - Zero-Shot
+  - Biped
+  - Vision-Language
+  - Benchmark
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+In Object Goal Navigation task, existing methods are typically restricted to static and single-floor environments, ignoring cross-floor topologies and dynamic pedestrian, which limits their real-world deployment. To address these limitations, we propose ZONDA, a zero-shot object navigation with dynamic avoidance framework.
+
+---
+
+## Offline RL with Hierarchical Action Chunking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20834)
+- **Authors:** Ahad Jawaid
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Navigation
+  - Offline RL
+  - Humanoid
+  - Goal-Conditioned
+  - Dataset
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Offline goal-conditioned reinforcement learning (RL) holds the promise of learning general-purpose policies from static datasets. However, scaling these methods to long-horizon tasks remains a challenge due to the curse of horizon, where value estimation errors can compound through long chains of bootstrapped Bellman backups.
+
+---
+
 ## Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.20399)

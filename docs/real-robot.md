@@ -13,12 +13,33 @@ Papers with real humanoid robot deployment and experiments.
 - **REEM:** 1 papers
 - **Unitree G1:** 52 papers
 - **Unitree H1:** 2 papers
-- **Unknown Platform:** 8 papers
+- **Unknown Platform:** 9 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.21025)
+- **Authors:** Shaomin Liang, Xuanhong Liao, Shiyao Zhang
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Navigation
+  - Zero-Shot
+  - Biped
+  - Vision-Language
+  - Benchmark
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+In Object Goal Navigation task, existing methods are typically restricted to static and single-floor environments, ignoring cross-floor topologies and dynamic pedestrian, which limits their real-world deployment. To address these limitations, we propose ZONDA, a zero-shot object navigation with dynamic avoidance framework.
+
+---
 
 ## Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning
 

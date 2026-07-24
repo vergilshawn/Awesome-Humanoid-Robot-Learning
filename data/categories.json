@@ -6,8 +6,8 @@
   "Physics-Based Character Animation": 42,
   "State Estimation": 38,
   "Teleoperation": 36,
+  "Navigation": 31,
   "Hardware Design": 31,
-  "Navigation": 29,
   "Human Motion Analysis and Synthesis": 27,
   "Sim-to-Real": 13
 }

@@ -1,10 +1,10 @@
 # Navigation
 
-**29 papers** in this category.
+**31 papers** in this category.
 
 ## Months
 
-- [2026-07](/navigation/2026-07) (5 papers)
+- [2026-07](/navigation/2026-07) (7 papers)
 - [2026-06](/navigation/2026-06) (6 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
 - [2026-02](/navigation/2026-02) (1 papers)
@@ -23,6 +23,48 @@
 ---
 
 ## Recent Papers
+
+## ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.21025)
+- **Authors:** Shaomin Liang, Xuanhong Liao, Shiyao Zhang
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Navigation
+  - Zero-Shot
+  - Biped
+  - Vision-Language
+  - Benchmark
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+In Object Goal Navigation task, existing methods are typically restricted to static and single-floor environments, ignoring cross-floor topologies and dynamic pedestrian, which limits their real-world deployment. To address these limitations, we propose ZONDA, a zero-shot object navigation with dynamic avoidance framework.
+
+---
+
+## Offline RL with Hierarchical Action Chunking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20834)
+- **Authors:** Ahad Jawaid
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Navigation
+  - Offline RL
+  - Humanoid
+  - Goal-Conditioned
+  - Dataset
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Offline goal-conditioned reinforcement learning (RL) holds the promise of learning general-purpose policies from static datasets. However, scaling these methods to long-horizon tasks remains a challenge due to the curse of horizon, where value estimation errors can compound through long chains of bootstrapped Bellman backups.
+
+---
 
 ## Hierarchical Denoising For Multi-Step Visual Reasoning
 
@@ -331,33 +373,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-09
 - **Tags:**
   - Reinforcement Learning
-  - Navigation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Learning Social Navigation from Positive and Negative Demonstrations and Rule-Based Specifications
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.06779)
-- **Published:** 2025-08
-- **Tags:**
-  - Navigation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## LookOut: Real-World Humanoid Egocentric Navigation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.14466)
-- **Published:** 2025-08
-- **Tags:**
   - Navigation
   - Humanoid
 

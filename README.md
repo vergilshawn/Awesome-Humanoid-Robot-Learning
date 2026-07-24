@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 750
-- **Real Robot Papers:** 131
+- **Total Papers:** 752
+- **Real Robot Papers:** 132
 - **Open Source Papers:** 138
 
 🌟 indicates papers with detected project/code links.
@@ -14,7 +14,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Manipulation](#manipulation) (90)
 - [Teleoperation](#teleoperation) (36)
 - [Locomotion](#locomotion) (141)
-- [Navigation](#navigation) (29)
+- [Navigation](#navigation) (31)
 - [State Estimation](#state-estimation) (38)
 - [Sim-to-Real](#sim-to-real) (13)
 - [Hardware Design](#hardware-design) (31)
@@ -825,6 +825,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments](https://arxiv.org/abs/2607.21025) — `Navigation`, `Zero-Shot`, `Biped`, `Vision-Language`, `Benchmark`, `Simulation Benchmark`
+- [Offline RL with Hierarchical Action Chunking](https://arxiv.org/abs/2607.20834) — `Reinforcement Learning`, `Navigation`, `Offline RL`, `Humanoid`, `Goal-Conditioned`, `Dataset`
 - [Hierarchical Denoising For Multi-Step Visual Reasoning](https://arxiv.org/abs/2607.15278) — `Navigation`, `World Model`, `Foundation Model`, `Benchmark`, `Diffusion`, `GAN`
 - [DA-Nav: Direction-Aware City-Scale Vision-Language Navigation](https://arxiv.org/abs/2607.11638) — `Navigation`, `Humanoid`, `Vision-Language`, `Fine-tuning`, `Dataset`, `PPO`
 - [HRO: Hierarchical Room-to-Object Framework for Zero-Shot Object Goal Navigation with Large Language Models](https://arxiv.org/abs/2607.13072) — `Navigation`, `Zero-Shot`, `Dataset`, `Large Language Model`, `Simulation Benchmark`

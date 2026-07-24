@@ -8,8 +8,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 750
-- **Real Robot Papers:** 131
+- **Total Papers:** 752
+- **Real Robot Papers:** 132
 - **Open Source Papers:** 138
 - **Latest Month:** 2026-07
 
@@ -19,7 +19,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Manipulation](/manipulation/) (90)
 - [Teleoperation](/teleoperation/) (36)
 - [Locomotion](/locomotion/) (141)
-- [Navigation](/navigation/) (29)
+- [Navigation](/navigation/) (31)
 - [State Estimation](/state-estimation/) (38)
 - [Sim-to-Real](/sim-to-real/) (13)
 - [Hardware Design](/hardware-design/) (31)
@@ -31,6 +31,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments](https://arxiv.org/abs/2607.21025) — 2026-07
+  - [Navigation](/navigation/)
+-  [Offline RL with Hierarchical Action Chunking](https://arxiv.org/abs/2607.20834) — 2026-07
+  - [Navigation](/navigation/)
 -  🤖 [Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning](https://arxiv.org/abs/2607.20399) — 2026-07
   - [Locomotion](/locomotion/)
 -  🤖 [Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids](https://arxiv.org/abs/2607.20345) — 2026-07
@@ -47,39 +51,35 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Manipulation](/manipulation/)
 -  🤖 [Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing](https://arxiv.org/abs/2607.18760) — 2026-07
   - [Locomotion](/locomotion/)
--  🤖 [Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition](https://arxiv.org/abs/2607.18737) — 2026-07
-  - [State Estimation](/state-estimation/)
--  🤖 [Optimization of sim-to-real transfer in the humanoid robot NICO](https://arxiv.org/abs/2607.18210) — 2026-07
-  - [Physics-Based Character Animation](/physics-based-character-animation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (535)
+- **Humanoid** (536)
 - **Loco-Manipulation and Whole-Body Control** (268)
 - **Locomotion** (198)
 - **Manipulation** (196)
-- **Simulation Benchmark** (169)
-- **State Estimation** (137)
+- **Simulation Benchmark** (171)
+- **State Estimation** (139)
 - **Physics-Based Character Animation** (99)
-- **Reinforcement Learning** (92)
+- **Reinforcement Learning** (93)
 - **Human Motion Analysis and Synthesis** (74)
 - **Teleoperation** (69)
 - **PPO** (67)
-- **Benchmark** (63)
-- **Navigation** (60)
+- **Benchmark** (64)
+- **Navigation** (62)
 - **Whole-Body Control** (60)
-- **Dataset** (58)
+- **Dataset** (59)
 - **Hardware Design** (42)
 - **Sim-to-Real** (41)
+- **Vision-Language** (39)
 - **Diffusion** (39)
-- **Vision-Language** (38)
-- **Zero-Shot** (33)
+- **Zero-Shot** (34)
 - **Safety** (31)
 - **Foundation Model** (26)
+- **Biped** (25)
 - **Walking** (25)
-- **Biped** (24)
 - **Human Demonstration** (23)
 - **Robustness** (22)
 - **Distillation** (21)
@@ -891,6 +891,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/navigation/2026-07)
 
+- [ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments](https://arxiv.org/abs/2607.21025) — `Navigation`, `Zero-Shot`, `Biped`, `Vision-Language`, `Benchmark`, `Simulation Benchmark`
+- [Offline RL with Hierarchical Action Chunking](https://arxiv.org/abs/2607.20834) — `Reinforcement Learning`, `Navigation`, `Offline RL`, `Humanoid`, `Goal-Conditioned`, `Dataset`
 - [Hierarchical Denoising For Multi-Step Visual Reasoning](https://arxiv.org/abs/2607.15278) — `Navigation`, `World Model`, `Foundation Model`, `Benchmark`, `Diffusion`, `GAN`
 - [DA-Nav: Direction-Aware City-Scale Vision-Language Navigation](https://arxiv.org/abs/2607.11638) — `Navigation`, `Humanoid`, `Vision-Language`, `Fine-tuning`, `Dataset`, `PPO`
 - [HRO: Hierarchical Room-to-Object Framework for Zero-Shot Object Goal Navigation with Large Language Models](https://arxiv.org/abs/2607.13072) — `Navigation`, `Zero-Shot`, `Dataset`, `Large Language Model`, `Simulation Benchmark`
