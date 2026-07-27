@@ -36,7 +36,7 @@
 ## Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.19190)
-- **Authors:** Guanxiong Chen, Qianjun Xia, Jiawei Peng, Heng Zhang, Bole Ma, Justin Qian et al. (23 authors)
+- **Authors:** Guanxiong Chen, Qianjun Xia, Jiawei Peng, Heng Zhang, Bole Ma, Justin Qian et al. (24 authors)
 - **Published:** 2026-07
 - **Tags:**
   - Manipulation

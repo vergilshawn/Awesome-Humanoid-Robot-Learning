@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 752
-- **Real Robot Papers:** 132
+- **Total Papers:** 753
+- **Real Robot Papers:** 133
 - **Open Source Papers:** 138
 
 🌟 indicates papers with detected project/code links.
@@ -15,7 +15,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Teleoperation](#teleoperation) (36)
 - [Locomotion](#locomotion) (141)
 - [Navigation](#navigation) (31)
-- [State Estimation](#state-estimation) (38)
+- [State Estimation](#state-estimation) (39)
 - [Sim-to-Real](#sim-to-real) (13)
 - [Hardware Design](#hardware-design) (31)
 - [Simulation Benchmark](#simulation-benchmark) (70)
@@ -903,6 +903,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data](https://arxiv.org/abs/2607.21648) — `Humanoid`, `State Estimation`, `Simulation Benchmark`, `Human Motion Analysis and Synthesis`, `Real Robot`
 - [Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition](https://arxiv.org/abs/2607.18737) — `Humanoid`, `PPO`, `GAN`, `State Estimation`, `Physics-Based Character Animation`, `Real Robot`
 - [World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation](https://arxiv.org/abs/2607.18154) — `Sim-to-Real`, `Simulator`, `Humanoid`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
 - [Denoising Models Develop Human-Like Perceptual Illusion Representations Across Architectures](https://arxiv.org/abs/2607.17138) — `State Estimation`

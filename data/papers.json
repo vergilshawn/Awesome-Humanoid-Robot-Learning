@@ -225,6 +225,36 @@
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
+    "arxiv_id": "2607.21648",
+    "title": "Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data",
+    "paper_url": "https://arxiv.org/abs/2607.21648",
+    "project_url": null,
+    "authors": [
+      "Yun-Hao Tsai",
+      "Cong-Thanh Vu",
+      "Yen-Chen Liu"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-22",
+    "abstract": "The human-like morphology of humanoid robots grants them exceptional potential for agile and versatile motor capabilities, but it also introduces significant challenges in acquiring complex skills. Traditional Learning-from-Demonstrations methods are often constrained by the high cost of collecting real-world data, the difficulty of capturing motion-specific behaviors, and the limited diversity of demonstrations across individuals. Moreover, even for the same task, humans may execute the motion in multiple distinct ways. In this paper, we propose a new framework that leverages the power of Generative AI to convert textual prompts into realistic and diverse sequences of human body movements, enabling the robot to observe multiple variations of how a single task can be performed. These synthetic demonstrations are then used as a training resource, allowing the robot to learn a broad range of task-execution styles without requiring direct human intervention. We evaluate the proposed method across four simulation scenarios. Experimental results show that the robot not only completes the tasks successfully but also demonstrates strong adaptability to complex variations in motion.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Humanoid",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
     "arxiv_id": "2607.20241",
     "title": "On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens",
     "paper_url": "https://arxiv.org/abs/2607.20241",
@@ -271,6 +301,7 @@
       "Yunuo Chen",
       "Pengzhi Yang",
       "Ziqiu Zeng",
+      "Siyuan Luo",
       "Huamin Wang",
       "Chao Liu",
       "Alan Yuille",

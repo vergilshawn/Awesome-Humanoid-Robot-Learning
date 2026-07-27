@@ -8,8 +8,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 752
-- **Real Robot Papers:** 132
+- **Total Papers:** 753
+- **Real Robot Papers:** 133
 - **Open Source Papers:** 138
 - **Latest Month:** 2026-07
 
@@ -20,7 +20,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Teleoperation](/teleoperation/) (36)
 - [Locomotion](/locomotion/) (141)
 - [Navigation](/navigation/) (31)
-- [State Estimation](/state-estimation/) (38)
+- [State Estimation](/state-estimation/) (39)
 - [Sim-to-Real](/sim-to-real/) (13)
 - [Hardware Design](/hardware-design/) (31)
 - [Simulation Benchmark](/simulation-benchmark/) (70)
@@ -45,26 +45,26 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Sim-to-Real](/sim-to-real/)
 -  🤖 [What Matters in Humanoid General Motion Tracking? An Empirical Study](https://arxiv.org/abs/2607.19903) — 2026-07
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  🤖 [Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data](https://arxiv.org/abs/2607.21648) — 2026-07
+  - [State Estimation](/state-estimation/)
 -  🤖 [On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens](https://arxiv.org/abs/2607.20241) — 2026-07
   - [Simulation Benchmark](/simulation-benchmark/)
 -  [Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents](https://arxiv.org/abs/2607.19190) — 2026-07
   - [Manipulation](/manipulation/)
--  🤖 [Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing](https://arxiv.org/abs/2607.18760) — 2026-07
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (536)
+- **Humanoid** (537)
 - **Loco-Manipulation and Whole-Body Control** (268)
 - **Locomotion** (198)
 - **Manipulation** (196)
-- **Simulation Benchmark** (171)
-- **State Estimation** (139)
+- **Simulation Benchmark** (172)
+- **State Estimation** (140)
 - **Physics-Based Character Animation** (99)
 - **Reinforcement Learning** (93)
-- **Human Motion Analysis and Synthesis** (74)
+- **Human Motion Analysis and Synthesis** (75)
 - **Teleoperation** (69)
 - **PPO** (67)
 - **Benchmark** (64)
@@ -969,6 +969,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/state-estimation/2026-07)
 
+- [Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data](https://arxiv.org/abs/2607.21648) — `Humanoid`, `State Estimation`, `Simulation Benchmark`, `Human Motion Analysis and Synthesis`, `Real Robot`
 - [Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition](https://arxiv.org/abs/2607.18737) — `Humanoid`, `PPO`, `GAN`, `State Estimation`, `Physics-Based Character Animation`, `Real Robot`
 - [World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation](https://arxiv.org/abs/2607.18154) — `Sim-to-Real`, `Simulator`, `Humanoid`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
 - [Denoising Models Develop Human-Like Perceptual Illusion Representations Across Architectures](https://arxiv.org/abs/2607.17138) — `State Estimation`

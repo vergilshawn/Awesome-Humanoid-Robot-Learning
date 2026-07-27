@@ -137,6 +137,24 @@ Humanoid general motion tracking requires policies that can follow diverse whole
 
 ---
 
+## Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.21648)
+- **Authors:** Yun-Hao Tsai, Cong-Thanh Vu, Yen-Chen Liu
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+The human-like morphology of humanoid robots grants them exceptional potential for agile and versatile motor capabilities, but it also introduces significant challenges in acquiring complex skills. Traditional Learning-from-Demonstrations methods are often constrained by the high cost of collecting real-world data, the difficulty of capturing motion-specific behaviors, and the limited diversity of demonstrations across individuals.
+
+---
+
 ## On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.20241)
@@ -157,7 +175,7 @@ Culturally loaded translation poses unique challenges for machine translation (M
 ## Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.19190)
-- **Authors:** Guanxiong Chen, Qianjun Xia, Jiawei Peng, Heng Zhang, Bole Ma, Justin Qian et al. (23 authors)
+- **Authors:** Guanxiong Chen, Qianjun Xia, Jiawei Peng, Heng Zhang, Bole Ma, Justin Qian et al. (24 authors)
 - **Published:** 2026-07
 - **Tags:**
   - Manipulation

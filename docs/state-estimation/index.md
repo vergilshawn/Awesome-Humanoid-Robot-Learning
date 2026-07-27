@@ -1,10 +1,10 @@
 # State Estimation
 
-**38 papers** in this category.
+**39 papers** in this category.
 
 ## Months
 
-- [2026-07](/state-estimation/2026-07) (9 papers)
+- [2026-07](/state-estimation/2026-07) (10 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
@@ -17,6 +17,24 @@
 ---
 
 ## Recent Papers
+
+## Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.21648)
+- **Authors:** Yun-Hao Tsai, Cong-Thanh Vu, Yen-Chen Liu
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+The human-like morphology of humanoid robots grants them exceptional potential for agile and versatile motor capabilities, but it also introduces significant challenges in acquiring complex skills. Traditional Learning-from-Demonstrations methods are often constrained by the high cost of collecting real-world data, the difficulty of capturing motion-specific behaviors, and the limited diversity of demonstrations across individuals.
+
+---
 
 ## Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition
 
@@ -370,27 +388,5 @@ Humanoids deployed in human-centered environments must handle force-interactive 
 ### Summary
 
 We introduce $λ$-Reachability, a scalable approach to Hamilton--Jacobi safety analysis for high-dimensional robotic systems. Unlike prior discounted formulations that rely on fixed one-step Bellman updates, $λ$-Reachability employs a stochastic multi-step estimator of the safety value, using a geometrically distributed rollout horizon together with a randomly absorbed terminal.
-
----
-
-## Identification of a Physics-Based Electrical Power Consumption Model for the Unitree G1 Humanoid Arm
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.15915)
-- **Authors:** Nestor N. Deniz, Sebastian Vega, Simon Parsons, Fernando Auat Cheein
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Humanoid
-  - Friction
-  - Motion Planning
-  - Dataset
-  - State Estimation
-  - Hardware Design
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-Accurate prediction of electrical power consumption is essential for energy-aware motion planning, battery management, and thermal monitoring in battery-powered humanoid robots. This letter presents a physics-based, linear-in-parameters model for the electrical power consumption of the seven-degree-of-freedom left arm of the Unitree~G1 humanoid robot.
 
 ---

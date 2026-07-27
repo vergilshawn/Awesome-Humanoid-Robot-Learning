@@ -13,7 +13,7 @@ Papers with real humanoid robot deployment and experiments.
 - **REEM:** 1 papers
 - **Unitree G1:** 52 papers
 - **Unitree H1:** 2 papers
-- **Unknown Platform:** 9 papers
+- **Unknown Platform:** 10 papers
 - **iCub:** 1 papers
 
 ---
@@ -97,6 +97,24 @@ Closing the gap between benchmark performance and reliable real-world operation 
 ### Summary
 
 Humanoid general motion tracking requires policies that can follow diverse whole-body references while maintaining balance. Building such policies involves many practical design choices, and their individual effects are often hard to assess.
+
+---
+
+## Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.21648)
+- **Authors:** Yun-Hao Tsai, Cong-Thanh Vu, Yen-Chen Liu
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+The human-like morphology of humanoid robots grants them exceptional potential for agile and versatile motor capabilities, but it also introduces significant challenges in acquiring complex skills. Traditional Learning-from-Demonstrations methods are often constrained by the high cost of collecting real-world data, the difficulty of capturing motion-specific behaviors, and the limited diversity of demonstrations across individuals.
 
 ---
 
