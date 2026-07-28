@@ -11,14 +11,58 @@ Papers with real humanoid robot deployment and experiments.
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
-- **Unitree G1:** 52 papers
+- **Unitree G1:** 53 papers
 - **Unitree H1:** 2 papers
-- **Unknown Platform:** 10 papers
+- **Unknown Platform:** 11 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.24083)
+- **Authors:** Valerio Belli, Valerio Modugno, Enrico Mingo Hoffman, Fabio Amadio
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Navigation
+  - Humanoid
+  - Gait
+  - Distillation
+  - GAN
+  - State Estimation
+
+### Summary
+
+Reinforcement learning can produce robust humanoid controllers, but each new task is typically trained as a separate policy with its own reward design and training process. Motion imitation provides an alternative source of motor competence by training policies to track retargeted human motions, yet the resulting controllers remain reference trackers and are not directly usable as task policies.
+
+---
+
+## Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.22997)
+- **Authors:** Qing Yang, Xun Wang, Ziguan Wang, Zhenjiang Li, Hongqiang Wang, Dongdong Weng
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Gaussian Splatting
+  - Vision-Language
+  - Benchmark
+
+### Summary
+
+Physical AI -- the integration of large vision-language-action (VLA) models with embodied agents that act in the real world -- has emerged as the next major frontier for AI, echoed by industry leaders such as Jensen Huang (``the next big thing is Physical AI, AI with a body,'' GTC Paris, June 2025) and Dr. Lisa Su (`we're entering the world of Physical AI ...
+
+---
 
 ## ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments
 

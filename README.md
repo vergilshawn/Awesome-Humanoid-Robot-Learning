@@ -2,21 +2,21 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 753
-- **Real Robot Papers:** 133
+- **Total Papers:** 758
+- **Real Robot Papers:** 135
 - **Open Source Papers:** 138
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (233)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (234)
 - [Manipulation](#manipulation) (90)
 - [Teleoperation](#teleoperation) (36)
-- [Locomotion](#locomotion) (141)
+- [Locomotion](#locomotion) (143)
 - [Navigation](#navigation) (31)
-- [State Estimation](#state-estimation) (39)
-- [Sim-to-Real](#sim-to-real) (13)
+- [State Estimation](#state-estimation) (40)
+- [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
 - [Simulation Benchmark](#simulation-benchmark) (70)
 - [Physics-Based Character Animation](#physics-based-character-animation) (42)
@@ -29,6 +29,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search](https://arxiv.org/abs/2607.23854) — `Reinforcement Learning`, `Fine-tuning`, `Loco-Manipulation and Whole-Body Control`
 - [Extreme-RGMT: Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control](https://arxiv.org/abs/2607.20110) — `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [What Matters in Humanoid General Motion Tracking? An Empirical Study](https://arxiv.org/abs/2607.19903) — `Zero-Shot`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Human Motion Analysis and Synthesis`, `Real Robot`
 - [Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds](https://arxiv.org/abs/2607.18135) — `Reinforcement Learning`, `Whole-Body Control`, `Sim-to-Real`, `Locomotion`, `Zero-Shot`, `Isaac Sim`
@@ -595,6 +596,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation](https://arxiv.org/abs/2607.24083) — `Reinforcement Learning`, `Locomotion`, `Navigation`, `Humanoid`, `Gait`, `Distillation`
+- [PRISM: Polynomial Representations for Interaction-Structured Motor Control](https://arxiv.org/abs/2607.23473) — `Reinforcement Learning`, `Imitation Learning`, `Diffusion Policy`, `Locomotion`, `Manipulation`, `Humanoid`
 - [Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning](https://arxiv.org/abs/2607.20399) — `Reinforcement Learning`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`
 - [Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing](https://arxiv.org/abs/2607.18760) — `Locomotion`, `Biped`, `Walking`, `Real Robot`
 - [RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC](https://arxiv.org/abs/2607.15701) — `Reinforcement Learning`, `MPC`, `Locomotion`, `Navigation`, `Safety`, `Robustness`
@@ -903,6 +906,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [A Case Study on the Acceptance of a Humanoid Robotic Head Employed in Three Public Spaces](https://arxiv.org/abs/2607.24113) — `Humanoid`, `State Estimation`, `Simulation Benchmark`
 - [Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data](https://arxiv.org/abs/2607.21648) — `Humanoid`, `State Estimation`, `Simulation Benchmark`, `Human Motion Analysis and Synthesis`, `Real Robot`
 - [Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition](https://arxiv.org/abs/2607.18737) — `Humanoid`, `PPO`, `GAN`, `State Estimation`, `Physics-Based Character Animation`, `Real Robot`
 - [World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation](https://arxiv.org/abs/2607.18154) — `Sim-to-Real`, `Simulator`, `Humanoid`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
@@ -971,6 +975,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline](https://arxiv.org/abs/2607.22997) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Humanoid`, `Gaussian Splatting`
 - 🌟 [ReferTrack: Referring Then Tracking for Embodied Visual Tracking](https://arxiv.org/abs/2607.20061), [website](https://github.com/medlartea/refertrack) — `Sim-to-Real`, `Humanoid`, `Vision-Language`, `Dataset`, `Simulation Benchmark`, `Open Source`
 
 ### 2026-06

@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**233 papers** in this category.
+**234 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (15 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (16 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -36,6 +36,22 @@
 ---
 
 ## Recent Papers
+
+## Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.23854)
+- **Authors:** Haijiang Yan, Jian-Qiao Zhu, Liqiang Huang, Ming Meng
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humans often find good solutions to combinatorial optimization problems that are computationally hard even for advanced computer algorithms. In the Euclidean traveling salesman problems (TSP), people rapidly produce tours that are near-optimal, despite severe limits on time and computation.
+
+---
 
 ## Extreme-RGMT: Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control
 
@@ -399,26 +415,5 @@ This paper presents KYON, a hybrid wheel-legged quadruped robot equipped with a 
 ### Summary
 
 We present AnyBody, a unified whole-body humanoid controller driven by an arbitrary subset of body keypoints chosen at deploy time. Prior physics-based trackers either rely on expensive full-body motion capture and error-prone trajectory retargeting, which bottleneck scalable data collection and policy learning, or decompose upper- and lower-body control into separate hierarchical representations, sacrificing the coordinated whole-body motions that loco-manipulation requires.
-
----
-
-## CWI: Composite Humanoid Whole-Body Imitation System for Loco-manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.27676)
-- **Authors:** Wenqi Ge, Junde Guo, Zhen Fu, Shunpeng Yang, Jiayu Chen, Hua Chen
-- **Published:** 2026-06
-- **Tags:**
-  - Whole-Body Control
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Walking
-  - Distillation
-  - Dataset
-
-### Summary
-
-Achieving everyday tasks with humanoid robots requires coordinating stable locomotion with versatile manipulation. However, existing whole-body controllers still face significant challenges.
 
 ---

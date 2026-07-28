@@ -1,10 +1,10 @@
 # Locomotion
 
-**141 papers** in this category.
+**143 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (15 papers)
+- [2026-07](/locomotion/2026-07) (17 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,49 @@
 ---
 
 ## Recent Papers
+
+## Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.24083)
+- **Authors:** Valerio Belli, Valerio Modugno, Enrico Mingo Hoffman, Fabio Amadio
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Navigation
+  - Humanoid
+  - Gait
+  - Distillation
+  - GAN
+  - State Estimation
+
+### Summary
+
+Reinforcement learning can produce robust humanoid controllers, but each new task is typically trained as a separate policy with its own reward design and training process. Motion imitation provides an alternative source of motor competence by training policies to track retargeted human motions, yet the resulting controllers remain reference trackers and are not directly usable as task policies.
+
+---
+
+## PRISM: Polynomial Representations for Interaction-Structured Motor Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.23473)
+- **Authors:** Seung Hyun Lee, Stella X. Yu
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Diffusion Policy
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Admittance Control
+  - Diffusion
+
+### Summary
+
+Robot policies are typically MLPs mapping observations to actions. Yet robot observations are physical variables, and many action-relevant cues arise not from individual variables but from their interactions; power, inertial effects, contact, slip, and compliance depend on products among observable signals.
+
+---
 
 ## Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning
 
@@ -385,49 +428,5 @@ Scalable reinforcement learning has popularized high-throughput sampling archite
 ### Summary
 
 Quadruped robots have achieved remarkable locomotion, yet their behavioral repertoire remains confined to a few gaits--far from the expressive, companion-like presence long envisioned for them. Attempts to import the humanoid recipe of large-scale motion data have inherited one tacit assumption: that robot motion must first pass through an animal body, making data collection dependent on cooperative animals, reconstruction fragile across species, and retargeting ill-posed across incompatible morphologies.
-
----
-
-## Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.27813)
-- **Authors:** Penghui Chen, Tinglong Zheng, Yufeng Zhang, Mingguo Zhao
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Booster
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Locomotion
-  - Human Demonstration
-  - Real Robot
-  - Humanoid
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid robot motion learning requires not only task-oriented control policies but also physically feasible and natural behaviors that can be transferred to real robots. However, robot-feasible motion data are often scarce: raw human demonstrations may be incompatible with the robot morphology, open-source clips vary in quality, and simulation-collected robot trajectories still require feasibility checking.
-
----
-
-## DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.24089)
-- **Authors:** Haidong Hou, Zhangguo Yu, Hengbo Qi, Jianlin Zhang
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Locomotion
-  - World Model
-  - Biped
-  - Distillation
-  - Knowledge Transfer
-  - Representation Learning
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Recent advances in control have enabled bipedal-wheeled robots to traverse slopes and single-step obstacles, yet long staircase traversal remains challenging as current teacher-student frameworks suffer from weakened dynamics-aware representations and incomplete terrain geometry encoding. To bridge this gap, we propose DynaWM, a dynamics-aware representation learning framework.
 
 ---

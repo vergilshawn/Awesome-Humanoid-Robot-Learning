@@ -1,10 +1,10 @@
 # State Estimation
 
-**39 papers** in this category.
+**40 papers** in this category.
 
 ## Months
 
-- [2026-07](/state-estimation/2026-07) (10 papers)
+- [2026-07](/state-estimation/2026-07) (11 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
@@ -17,6 +17,22 @@
 ---
 
 ## Recent Papers
+
+## A Case Study on the Acceptance of a Humanoid Robotic Head Employed in Three Public Spaces
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.24113)
+- **Authors:** Marcel Heisler, Luca Randecker, Christian Becker-Asano
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Previous research has shown that a human-like robot's acceptance heavily depends on the setting in which it operates and its ability to perform relevant tasks. This paper, first, reports on how our robot processes natural language to generate a multimodal, verbal response integrating emotional expressions based on an emotion simulation backend.
+
+---
 
 ## Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data
 
@@ -370,23 +386,5 @@ Humanoid robots promise whole-body interaction in human-centered environments, b
 ### Summary
 
 Humanoids deployed in human-centered environments must handle force-interactive tasks, where external contacts introduce unexpected disturbances that disrupt locomotion accuracy and stability. Existing learning-based approaches rely on broad domain randomization, task-specific force objectives, or learning-based force estimators from motion history, each of which compromises accuracy, task transferability, or out-of-distribution (OOD) robustness.
-
----
-
-## $λ$-Reachability: Geometric-Horizon Safety Bellman Equations for Humanoid Safety
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.16022)
-- **Authors:** Rui Chen, Shangtao Li, Yifan Sun, Changliu Liu
-- **Published:** 2026-06
-- **Tags:**
-  - Safety
-  - Humanoid
-  - Collision
-  - State Estimation
-  - Navigation
-
-### Summary
-
-We introduce $λ$-Reachability, a scalable approach to Hamilton--Jacobi safety analysis for high-dimensional robotic systems. Unlike prior discounted formulations that rely on fixed one-step Bellman updates, $λ$-Reachability employs a stochastic multi-step estimator of the safety value, using a geometrically distributed rollout horizon together with a randomly absorbed terminal.
 
 ---

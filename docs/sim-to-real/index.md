@@ -1,10 +1,10 @@
 # Sim-to-Real
 
-**13 papers** in this category.
+**14 papers** in this category.
 
 ## Months
 
-- [2026-07](/sim-to-real/2026-07) (1 papers)
+- [2026-07](/sim-to-real/2026-07) (2 papers)
 - [2026-06](/sim-to-real/2026-06) (1 papers)
 - [2026-02](/sim-to-real/2026-02) (1 papers)
 - [2026-01](/sim-to-real/2026-01) (1 papers)
@@ -19,6 +19,28 @@
 ---
 
 ## Recent Papers
+
+## Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.22997)
+- **Authors:** Qing Yang, Xun Wang, Ziguan Wang, Zhenjiang Li, Hongqiang Wang, Dongdong Weng
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Gaussian Splatting
+  - Vision-Language
+  - Benchmark
+
+### Summary
+
+Physical AI -- the integration of large vision-language-action (VLA) models with embodied agents that act in the real world -- has emerged as the next major frontier for AI, echoed by industry leaders such as Jensen Huang (``the next big thing is Physical AI, AI with a body,'' GTC Paris, June 2025) and Dr. Lisa Su (`we're entering the world of Physical AI ...
+
+---
 
 ## 🌟 ReferTrack: Referring Then Tracking for Embodied Visual Tracking
 

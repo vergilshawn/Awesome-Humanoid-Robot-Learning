@@ -1,5 +1,175 @@
 [
   {
+    "arxiv_id": "2607.24113",
+    "title": "A Case Study on the Acceptance of a Humanoid Robotic Head Employed in Three Public Spaces",
+    "paper_url": "https://arxiv.org/abs/2607.24113",
+    "project_url": null,
+    "authors": [
+      "Marcel Heisler",
+      "Luca Randecker",
+      "Christian Becker-Asano"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-27",
+    "abstract": "Previous research has shown that a human-like robot's acceptance heavily depends on the setting in which it operates and its ability to perform relevant tasks. This paper, first, reports on how our robot processes natural language to generate a multimodal, verbal response integrating emotional expressions based on an emotion simulation backend. Then, it describes how visitors were invited to speak with our robot in their own language at three different, public locations, where the robot was running continuously for several days. The TAM2 questionnaire results reveal that on average users were motivated to use the robot and found it rather useful and easy to use regardless of the specific location. However, public spaces like the tourist information and the city library seem to be a better fit for our interactive, robotic head than an office environment such as the building authority, where the willingness to interact was lower. Overall, the robot's multi-lingual responses were very much appreciated, but every fifth user found the response time too slow impeding the dialog flow, which remains to be improved in future work.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2607.24083",
+    "title": "Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation",
+    "paper_url": "https://arxiv.org/abs/2607.24083",
+    "project_url": null,
+    "authors": [
+      "Valerio Belli",
+      "Valerio Modugno",
+      "Enrico Mingo Hoffman",
+      "Fabio Amadio"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-27",
+    "abstract": "Reinforcement learning can produce robust humanoid controllers, but each new task is typically trained as a separate policy with its own reward design and training process. Motion imitation provides an alternative source of motor competence by training policies to track retargeted human motions, yet the resulting controllers remain reference trackers and are not directly usable as task policies. We propose a three-stage pipeline that turns motion-imitation skills into a reusable hybrid motion prior (HMP) for humanoid locomotion. First, an expert policy is trained to imitate retargeted human motion-capture clips. Second, the expert is distilled into a frozen architecture composed of a proprioceptive encoder, a residual vector-quantized (RVQ) codebook, and an action decoder. Third, task-level policies are trained to solve locomotion tasks by selecting discrete codebook entries while the HMP remains frozen. We evaluate the method on velocity tracking, point-goal navigation, and fall-recovery velocity tracking in simulation, and deploy the velocity-tracking policy on a real Unitree G1 robot. The distillation process preserves the tracking behavior of the expert, while the resulting HMP can be reused without retraining as the action interface for different downstream locomotion policies. The learned HMP reveals an interpretable codebook structure in which the number of active RVQ stages modulates the available gait patterns. We further show that training the codebook with the rotation trick improves latent organization and reduces downstream falls compared with a standard straight-through estimator.",
+    "categories": [
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Navigation",
+      "Humanoid",
+      "Gait",
+      "Distillation",
+      "GAN",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.23473",
+    "title": "PRISM: Polynomial Representations for Interaction-Structured Motor Control",
+    "paper_url": "https://arxiv.org/abs/2607.23473",
+    "project_url": null,
+    "authors": [
+      "Seung Hyun Lee",
+      "Stella X. Yu"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-26",
+    "abstract": "Robot policies are typically MLPs mapping observations to actions. Yet robot observations are physical variables, and many action-relevant cues arise not from individual variables but from their interactions; power, inertial effects, contact, slip, and compliance depend on products among observable signals. We introduce PRISM, a policy representation that makes polynomial interactions among observable physical variables explicit, learnable, and compact. Rather than listing all polynomial terms, PRISM uses a factorized polynomial module to expose higher-order interaction features efficiently. In reinforcement learning, it keeps the standard MLP backbone but applies a gradually activated element-wise polynomial function after it. In imitation learning, it replaces linear proprioceptive conditioning in Diffusion Policy with a polynomial layer trained end-to-end. Across humanoid locomotion and contact-rich manipulation, PRISM improves performance over standard MLP policies and larger MLPs with matched capacity, showing that interaction structure cannot be replaced by capacity alone. It also yields sensorless compliant behavior without force, wrench, tactile input, contact labels, or admittance control. These results suggest that polynomial representations should become a standard architectural choice for embodied motor control. The project page is available at https://lsh3163.github.io/prism/",
+    "categories": [
+      "Locomotion",
+      "Manipulation",
+      "Navigation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Imitation Learning",
+      "Diffusion Policy",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Admittance Control",
+      "Diffusion",
+      "Navigation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.23854",
+    "title": "Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search",
+    "paper_url": "https://arxiv.org/abs/2607.23854",
+    "project_url": null,
+    "authors": [
+      "Haijiang Yan",
+      "Jian-Qiao Zhu",
+      "Liqiang Huang",
+      "Ming Meng"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-26",
+    "abstract": "Humans often find good solutions to combinatorial optimization problems that are computationally hard even for advanced computer algorithms. In the Euclidean traveling salesman problems (TSP), people rapidly produce tours that are near-optimal, despite severe limits on time and computation. What makes a tour human-like, and how might such solutions be learned? Here we address these questions through a large-scale behavioral and computational investigation of human performance in Euclidean TSP. We sampled a broad space of TSP instances, collected human solutions, and compared them with neural policies based on Pointer Networks, which are recurrent neural networks with an attention-based pointing mechanism that define probability distributions over valid tours. We trained these networks under multiple objectives, including reinforcement learning (RL), supervised learning from optimal tours, supervised learning from human tours, and RL fine-tuning after optimal-supervised pretraining. Human tours were not identical to optimal tours, but occupied a near-optimal geometric basin: they shared many structural properties with optimal solutions while preserving systematic human-specific deviations. The best account of human tours was not direct imitation of optimal tours, but a model pretrained on optimal tours, fine-tuned by RL, and decoded through $\\text{Best-of-}N$ sampling. These findings suggest that human-like solutions may emerge from a combination of structured supervised learning, RL, and test-time search, echoing computational principles underlying many modern artificial intelligence systems.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Fine-tuning",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2607.22997",
+    "title": "Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline",
+    "paper_url": "https://arxiv.org/abs/2607.22997",
+    "project_url": null,
+    "authors": [
+      "Qing Yang",
+      "Xun Wang",
+      "Ziguan Wang",
+      "Zhenjiang Li",
+      "Hongqiang Wang",
+      "Dongdong Weng"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-25",
+    "abstract": "Physical AI -- the integration of large vision-language-action (VLA) models with embodied agents that act in the real world -- has emerged as the next major frontier for AI, echoed by industry leaders such as Jensen Huang (``the next big thing is Physical AI, AI with a body,'' GTC Paris, June 2025) and Dr. Lisa Su (`we're entering the world of Physical AI ... this is where AI enters the real world,' CES 2026). This paper presents an end-to-end, fully AMD-accelerated technology stack for embodied manipulation, spanning data-center training silicon, Radeon PRO simulation/rendering GPUs, and Ryzen AI edge compute, unified by the open ROCm software stack. We demonstrate that training and deploying VLA-based manipulation policies does not require a CUDA-locked ecosystem. Four progressive demonstrations are presented: (1) a Sim-to-Real manipulation pipeline trained with SmolVLA and deployed on a physical Franka arm; (2) a semantic, language-grounded object-selection task (`one-of-three'); (3) a Real2Sim synthetic-data generation pipeline that fuses 3D Gaussian Splatting (3DGS) reconstructions of real scenes with the Genesis physics engine; and (4) large-scale reinforcement learning for quadruped and humanoid locomotion benchmarked across multiple hardware platforms. All pipelines run natively on ROCm + PyTorch on RDNA4 (Radeon AI PRO R9700) and RDNA3.5 (Radeon PRO W7900) hardware and are reproducible on the free Radeon Cloud Platform.",
+    "categories": [
+      "Sim-to-Real",
+      "Simulation Benchmark",
+      "Locomotion",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Sim-to-Real",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Gaussian Splatting",
+      "Vision-Language",
+      "Benchmark",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Sim-to-Real"
+  },
+  {
     "arxiv_id": "2607.21025",
     "title": "ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments",
     "paper_url": "https://arxiv.org/abs/2607.21025",

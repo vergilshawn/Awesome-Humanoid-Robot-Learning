@@ -2,6 +2,103 @@
 
 All papers sorted by publication date (newest first).
 
+## A Case Study on the Acceptance of a Humanoid Robotic Head Employed in Three Public Spaces
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.24113)
+- **Authors:** Marcel Heisler, Luca Randecker, Christian Becker-Asano
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Previous research has shown that a human-like robot's acceptance heavily depends on the setting in which it operates and its ability to perform relevant tasks. This paper, first, reports on how our robot processes natural language to generate a multimodal, verbal response integrating emotional expressions based on an emotion simulation backend.
+
+---
+
+## Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.24083)
+- **Authors:** Valerio Belli, Valerio Modugno, Enrico Mingo Hoffman, Fabio Amadio
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Navigation
+  - Humanoid
+  - Gait
+  - Distillation
+  - GAN
+  - State Estimation
+
+### Summary
+
+Reinforcement learning can produce robust humanoid controllers, but each new task is typically trained as a separate policy with its own reward design and training process. Motion imitation provides an alternative source of motor competence by training policies to track retargeted human motions, yet the resulting controllers remain reference trackers and are not directly usable as task policies.
+
+---
+
+## PRISM: Polynomial Representations for Interaction-Structured Motor Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.23473)
+- **Authors:** Seung Hyun Lee, Stella X. Yu
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Diffusion Policy
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Admittance Control
+  - Diffusion
+
+### Summary
+
+Robot policies are typically MLPs mapping observations to actions. Yet robot observations are physical variables, and many action-relevant cues arise not from individual variables but from their interactions; power, inertial effects, contact, slip, and compliance depend on products among observable signals.
+
+---
+
+## Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.23854)
+- **Authors:** Haijiang Yan, Jian-Qiao Zhu, Liqiang Huang, Ming Meng
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humans often find good solutions to combinatorial optimization problems that are computationally hard even for advanced computer algorithms. In the Euclidean traveling salesman problems (TSP), people rapidly produce tours that are near-optimal, despite severe limits on time and computation.
+
+---
+
+## Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.22997)
+- **Authors:** Qing Yang, Xun Wang, Ziguan Wang, Zhenjiang Li, Hongqiang Wang, Dongdong Weng
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Gaussian Splatting
+  - Vision-Language
+  - Benchmark
+
+### Summary
+
+Physical AI -- the integration of large vision-language-action (VLA) models with embodied agents that act in the real world -- has emerged as the next major frontier for AI, echoed by industry leaders such as Jensen Huang (``the next big thing is Physical AI, AI with a body,'' GTC Paris, June 2025) and Dr. Lisa Su (`we're entering the world of Physical AI ...
+
+---
+
 ## ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.21025)
