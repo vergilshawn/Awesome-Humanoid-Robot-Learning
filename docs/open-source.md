@@ -2,6 +2,25 @@
 
 Papers with open-source code repositories.
 
+## 🌟 P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.25541)
+- **Project:** [GitHub](https://github.com/ylyem9x/p3_open)
+- **Authors:** Liyun Yan, Jianming Ma, Yang Zhang, Shengcheng Fu, Zhanxiang Cao, Keqi Zhu et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Sampling-Based
+  - PPO
+  - VAE
+  - Locomotion
+
+### Summary
+
+Variational Autoencoders are widely used to encode high-dimensional and noisy observations in robotics. However, their stochastic latent creates a mismatch with Proximal Policy Optimization (PPO): an effective policy marginalizes over the latent distribution, whereas former implementations estimate its probability ratio and KL divergence using only one latent sample.
+
+---
+
 ## 🌟 ReferTrack: Referring Then Tracking for Embodied Visual Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.20061)

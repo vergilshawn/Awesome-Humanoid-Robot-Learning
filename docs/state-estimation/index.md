@@ -1,10 +1,10 @@
 # State Estimation
 
-**40 papers** in this category.
+**41 papers** in this category.
 
 ## Months
 
-- [2026-07](/state-estimation/2026-07) (11 papers)
+- [2026-07](/state-estimation/2026-07) (12 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
 - [2025-11](/state-estimation/2025-11) (2 papers)
@@ -17,6 +17,22 @@
 ---
 
 ## Recent Papers
+
+## A systematic evaluation of machine learning classifiers for event-by-event background rejection in LAFOV PET scanners
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.25732)
+- **Authors:** Konrad Klimaszewski, Michał Obara, Mateusz Bala, Beatrix C. Hiesmayr, Lech Raczyński, Roman Y. Shopa et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Robustness
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+The introduction of LAFOV PET scanners brings significant sensitivity gains but also a substantial increase in the background rate from accidental coincidences, phantom-scattered and detector-scattered photons. While machine learning methods have been applied to background reduction in PET imaging, they target specific background components in post-processing rather than event-by-event classification on the raw data.
+
+---
 
 ## A Case Study on the Acceptance of a Humanoid Robotic Head Employed in Three Public Spaces
 
@@ -364,27 +380,5 @@ This paper presents an invariant extended Kalman filtering (InEKF) approach for 
 ### Summary
 
 Humanoid robots promise whole-body interaction in human-centered environments, but scalable policy learning remains difficult because task-level decision-making and whole-body dynamic execution are tightly coupled. A practical solution is hierarchical control, where a high-level policy predicts intermediate whole-body actions and low-level general motion trackers (GMTs) execute them as stable humanoid motion.
-
----
-
-## ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.16542)
-- **Authors:** Bofan Lyu, Jindou Jia, Kuangji Zuo, Yanshuo Lu, Shijia Han, Gen Li et al. (10 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - Domain Randomization
-  - Robustness
-  - Humanoid
-  - Proprioception
-  - State Estimation
-  - Loco-Manipulation and Whole-Body Control
-  - Sim-to-Real
-
-### Summary
-
-Humanoids deployed in human-centered environments must handle force-interactive tasks, where external contacts introduce unexpected disturbances that disrupt locomotion accuracy and stability. Existing learning-based approaches rely on broad domain randomization, task-specific force objectives, or learning-based force estimators from motion history, each of which compromises accuracy, task transferability, or out-of-distribution (OOD) robustness.
 
 ---

@@ -1,10 +1,10 @@
 # Manipulation
 
-**90 papers** in this category.
+**92 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (13 papers)
+- [2026-07](/manipulation/2026-07) (15 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -32,6 +32,44 @@
 ---
 
 ## Recent Papers
+
+## Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.25798)
+- **Authors:** Huy Ha, C. Karen Liu, Shuran Song
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Transformer
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Evolutionary
+  - Diffusion
+
+### Summary
+
+An often overlooked factor of robot manipulation performance is the embodiment of the robot itself. Motivated by this problem, we study motion-conditioned robot co-design, where the goal is to generate complete robot designs that track target end-effector trajectories (from human demonstrations) while optimizing user-defined rewards.
+
+---
+
+## When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.25593)
+- **Authors:** Tao Wang, Hudson Hou, Yingdong Hu, Yufeng Liu, Qinghai Li, Yingjie Jiang et al. (10 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - State Estimation
+  - Hardware Design
+
+### Summary
+
+Robotic hardware evolves over time, but demonstration data is often tied to a specific sensor and actuator configuration. This raises a practical and underexplored question: when does legacy data begin to benefit an upgraded robot? We study this question on a wheeled humanoid platform across two hardware generations, where both the camera and gripper are changed while the overall morphology remains fixed.
+
+---
 
 ## Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents
 
@@ -377,46 +415,5 @@ Human videos are a scalable source of supervision for robot manipulation, as the
 ### Summary
 
 Tactile sensing is essential for humanoid robots to achieve safe physical interaction, dexterous manipulation, and truly human-like responsiveness. However, the design of such systems remains challenging.
-
----
-
-## 🌟 Enforcing Human-like Kinematics in Dexterous Piano Playing via Adversarial Posture Regularization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.23848)
-- **Project:** [GitHub](https://github.com/aprproject/aprpianist)
-- **Authors:** Bin Qiu, Yanming Shao, Guanyu Cai, Yao Mu
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - Physics-Based Character Animation
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Reinforcement learning can train bimanual dexterous hands to play piano in physics simulation with high note accuracy, but for high-DoF dexterous hands, relying solely on task rewards or IK inversion often leads to unnatural postures and joint overextension. We propose \textit{Adversarial Posture Regularization (APR)}.
-
----
-
-## VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.21600)
-- **Authors:** Zhigen Zhao, Mark Leggiero, Yipu Chen, Haoran Liu, Yifan Wu, Huishu Xue et al. (8 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Multi-Task
-  - Humanoid
-  - Benchmark
-  - Flow Matching
-  - Simulation Benchmark
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Multi-task robot manipulation policies are challenging to learn from demonstration because traditionally a single network must select among qualitatively different action modes from a multimodal demonstration distribution, conditioned on language and visual context. A wrong mode selection means executing the wrong task or an action infeasible in the scene.
 
 ---

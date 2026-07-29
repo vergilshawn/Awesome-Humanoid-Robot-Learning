@@ -1,10 +1,10 @@
 # Locomotion
 
-**143 papers** in this category.
+**144 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (17 papers)
+- [2026-07](/locomotion/2026-07) (18 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,25 @@
 ---
 
 ## Recent Papers
+
+## 🌟 P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.25541)
+- **Project:** [GitHub](https://github.com/ylyem9x/p3_open)
+- **Authors:** Liyun Yan, Jianming Ma, Yang Zhang, Shengcheng Fu, Zhanxiang Cao, Keqi Zhu et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Sampling-Based
+  - PPO
+  - VAE
+  - Locomotion
+
+### Summary
+
+Variational Autoencoders are widely used to encode high-dimensional and noisy observations in robotics. However, their stochastic latent creates a mismatch with Proximal Policy Optimization (PPO): an effective policy marginalizes over the latent distribution, whereas former implementations estimate its probability ratio and KL divergence using only one latent sample.
+
+---
 
 ## Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation
 
@@ -407,26 +426,5 @@ As humanoid robots become increasingly dynamic, coupling them with reinforcement
 ### Summary
 
 Scalable reinforcement learning has popularized high-throughput sampling architectures, which significantly compresses the training time for off-policy methods in robotic locomotion. However, the rapid increase of data volume and update frequency undermines the stability of value-based methods and diminishes the plasticity of policy networks.
-
----
-
-## 🌟 Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.28237)
-- **Project:** [GitHub](https://github.com/gaolii/quad-imaginarium.git)
-- **Authors:** Youzhi Liu, Li Gao, Yifei Qian, Liu Liu, Yang Cai, Ziqiao Li
-- **Published:** 2026-06
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Gait
-  - Dataset
-  - Diffusion
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Quadruped robots have achieved remarkable locomotion, yet their behavioral repertoire remains confined to a few gaits--far from the expressive, companion-like presence long envisioned for them. Attempts to import the humanoid recipe of large-scale motion data have inherited one tacit assumption: that robot motion must first pass through an animal body, making data collection dependent on cooperative animals, reconstruction fragile across species, and retargeting ill-posed across incompatible morphologies.
 
 ---

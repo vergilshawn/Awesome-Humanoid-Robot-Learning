@@ -7,7 +7,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 2 papers
 - **Booster:** 3 papers
 - **Digit:** 9 papers
-- **Figure:** 48 papers
+- **Figure:** 49 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
@@ -19,6 +19,27 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.25798)
+- **Authors:** Huy Ha, C. Karen Liu, Shuran Song
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Transformer
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Evolutionary
+  - Diffusion
+
+### Summary
+
+An often overlooked factor of robot manipulation performance is the embodiment of the robot itself. Motivated by this problem, we study motion-conditioned robot co-design, where the goal is to generate complete robot designs that track target end-effector trajectories (from human demonstrations) while optimizing user-defined rewards.
+
+---
 
 ## Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation
 

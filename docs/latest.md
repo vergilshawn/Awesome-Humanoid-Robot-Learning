@@ -2,6 +2,79 @@
 
 All papers sorted by publication date (newest first).
 
+## Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.25798)
+- **Authors:** Huy Ha, C. Karen Liu, Shuran Song
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Transformer
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Evolutionary
+  - Diffusion
+
+### Summary
+
+An often overlooked factor of robot manipulation performance is the embodiment of the robot itself. Motivated by this problem, we study motion-conditioned robot co-design, where the goal is to generate complete robot designs that track target end-effector trajectories (from human demonstrations) while optimizing user-defined rewards.
+
+---
+
+## When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.25593)
+- **Authors:** Tao Wang, Hudson Hou, Yingdong Hu, Yufeng Liu, Qinghai Li, Yingjie Jiang et al. (10 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - State Estimation
+  - Hardware Design
+
+### Summary
+
+Robotic hardware evolves over time, but demonstration data is often tied to a specific sensor and actuator configuration. This raises a practical and underexplored question: when does legacy data begin to benefit an upgraded robot? We study this question on a wheeled humanoid platform across two hardware generations, where both the camera and gripper are changed while the overall morphology remains fixed.
+
+---
+
+## 🌟 P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.25541)
+- **Project:** [GitHub](https://github.com/ylyem9x/p3_open)
+- **Authors:** Liyun Yan, Jianming Ma, Yang Zhang, Shengcheng Fu, Zhanxiang Cao, Keqi Zhu et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Humanoid
+  - Sampling-Based
+  - PPO
+  - VAE
+  - Locomotion
+
+### Summary
+
+Variational Autoencoders are widely used to encode high-dimensional and noisy observations in robotics. However, their stochastic latent creates a mismatch with Proximal Policy Optimization (PPO): an effective policy marginalizes over the latent distribution, whereas former implementations estimate its probability ratio and KL divergence using only one latent sample.
+
+---
+
+## A systematic evaluation of machine learning classifiers for event-by-event background rejection in LAFOV PET scanners
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.25732)
+- **Authors:** Konrad Klimaszewski, Michał Obara, Mateusz Bala, Beatrix C. Hiesmayr, Lech Raczyński, Roman Y. Shopa et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Robustness
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+The introduction of LAFOV PET scanners brings significant sensitivity gains but also a substantial increase in the background rate from accidental coincidences, phantom-scattered and detector-scattered photons. While machine learning methods have been applied to background reduction in PET imaging, they target specific background components in post-processing rather than event-by-event classification on the raw data.
+
+---
+
 ## A Case Study on the Acceptance of a Humanoid Robotic Head Employed in Three Public Spaces
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.24113)

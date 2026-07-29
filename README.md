@@ -2,20 +2,20 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 758
-- **Real Robot Papers:** 135
-- **Open Source Papers:** 138
+- **Total Papers:** 762
+- **Real Robot Papers:** 136
+- **Open Source Papers:** 139
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (234)
-- [Manipulation](#manipulation) (90)
+- [Manipulation](#manipulation) (92)
 - [Teleoperation](#teleoperation) (36)
-- [Locomotion](#locomotion) (143)
+- [Locomotion](#locomotion) (144)
 - [Navigation](#navigation) (31)
-- [State Estimation](#state-estimation) (40)
+- [State Estimation](#state-estimation) (41)
 - [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
 - [Simulation Benchmark](#simulation-benchmark) (70)
@@ -349,6 +349,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design](https://arxiv.org/abs/2607.25798) — `Manipulation`, `Transformer`, `Zero-Shot`, `Human Demonstration`, `Humanoid`, `Evolutionary`
+- [When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning](https://arxiv.org/abs/2607.25593) — `Manipulation`, `Humanoid`, `State Estimation`, `Hardware Design`
 - [Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents](https://arxiv.org/abs/2607.19190) — `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Vision-Language`, `Foundation Model`
 - [Handroid: Bridging Dexterous Hand and Humanoid](https://arxiv.org/abs/2607.16187) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Gait`, `PPO`
 - [Towards Artificial Nerves: Biomimetic Optical-Fiber Tactile Sensing for Robots](https://arxiv.org/abs/2607.15746) — `Manipulation`, `Tactile Sensing`, `Evolutionary`, `Real Robot`
@@ -596,6 +598,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- 🌟 [P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning](https://arxiv.org/abs/2607.25541), [website](https://github.com/ylyem9x/p3_open) — `Humanoid`, `Sampling-Based`, `PPO`, `VAE`, `Locomotion`, `Open Source`
 - [Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation](https://arxiv.org/abs/2607.24083) — `Reinforcement Learning`, `Locomotion`, `Navigation`, `Humanoid`, `Gait`, `Distillation`
 - [PRISM: Polynomial Representations for Interaction-Structured Motor Control](https://arxiv.org/abs/2607.23473) — `Reinforcement Learning`, `Imitation Learning`, `Diffusion Policy`, `Locomotion`, `Manipulation`, `Humanoid`
 - [Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning](https://arxiv.org/abs/2607.20399) — `Reinforcement Learning`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`
@@ -906,6 +909,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [A systematic evaluation of machine learning classifiers for event-by-event background rejection in LAFOV PET scanners](https://arxiv.org/abs/2607.25732) — `Robustness`, `State Estimation`, `Simulation Benchmark`
 - [A Case Study on the Acceptance of a Humanoid Robotic Head Employed in Three Public Spaces](https://arxiv.org/abs/2607.24113) — `Humanoid`, `State Estimation`, `Simulation Benchmark`
 - [Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data](https://arxiv.org/abs/2607.21648) — `Humanoid`, `State Estimation`, `Simulation Benchmark`, `Human Motion Analysis and Synthesis`, `Real Robot`
 - [Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition](https://arxiv.org/abs/2607.18737) — `Humanoid`, `PPO`, `GAN`, `State Estimation`, `Physics-Based Character Animation`, `Real Robot`

@@ -1,5 +1,140 @@
 [
   {
+    "arxiv_id": "2607.25798",
+    "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design",
+    "paper_url": "https://arxiv.org/abs/2607.25798",
+    "project_url": null,
+    "authors": [
+      "Huy Ha",
+      "C. Karen Liu",
+      "Shuran Song"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-28",
+    "abstract": "An often overlooked factor of robot manipulation performance is the embodiment of the robot itself. Motivated by this problem, we study motion-conditioned robot co-design, where the goal is to generate complete robot designs that track target end-effector trajectories (from human demonstrations) while optimizing user-defined rewards. We introduce Transformer Transformer, a diffusion transformer trained on RoboTokens, a unified tokenization of robot embodiments, states, and actions. The same architecture can be used across embodiment spaces (e.g., wheeled bimanual, quadrupeds, humanoids) and use cases (embodiment generation, cross embodiment controller). Rather than overfitting to one reward function, Transformer Transformer is a dynamics model, whose reward-agnostic state and action predictions can be converted into reward-specific value predictions. These value predictions are used to steer embodiment diffusion towards high value robot designs, through a procedure we call Dynamics Self-Guidance. Experiments across multiple design spaces show zero-shot optimization of unseen rewards and trajectories, improving performance and runtime over the evolutionary baseline. Finally, we fabricated an optimized ALOHA design, which reduced tracking error by over 70% compared to the original design.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Transformer",
+      "Zero-Shot",
+      "Human Demonstration",
+      "Humanoid",
+      "Evolutionary",
+      "Diffusion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2607.25593",
+    "title": "When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning",
+    "paper_url": "https://arxiv.org/abs/2607.25593",
+    "project_url": null,
+    "authors": [
+      "Tao Wang",
+      "Hudson Hou",
+      "Yingdong Hu",
+      "Yufeng Liu",
+      "Qinghai Li",
+      "Yingjie Jiang",
+      "Yingzhi Wang",
+      "Cheng Ma",
+      "Richard Wang",
+      "Yang Gao"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-28",
+    "abstract": "Robotic hardware evolves over time, but demonstration data is often tied to a specific sensor and actuator configuration. This raises a practical and underexplored question: when does legacy data begin to benefit an upgraded robot? We study this question on a wheeled humanoid platform across two hardware generations, where both the camera and gripper are changed while the overall morphology remains fixed. Contrary to the common assumption that more cross-configuration data is always helpful, we observe a grokking-like transition: legacy data remains ineffective until the upgraded configuration acquires a minimum level of task competence, after which co-training gains rise sharply before diminishing near saturation. We hypothesize that this task-dependent transition is governed by a transfer threshold and characterize the resulting three-phase pattern. Across real-robot manipulation tasks, we observe all three phases: no measurable benefit at low competence ($10.0\\% \\rightarrow 10.0\\%$), a sharp gain after crossing the threshold ($23.3\\% \\rightarrow 86.7\\%$ on flower insertion), and diminishing returns at high competence ($85.0\\% \\rightarrow 93.3\\%$ on pen insertion). We provide a theoretical account based on gradient alignment and residual policy uncertainty, and derive a phase-aware rule for deciding when to collect more new-hardware data and when to reuse legacy demonstrations. We further validate this three-phase pattern on a mobile dual-arm watering task, with results consistent with our predictions.",
+    "categories": [
+      "Manipulation",
+      "State Estimation",
+      "Hardware Design"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "State Estimation",
+      "Hardware Design"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2607.25541",
+    "title": "P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning",
+    "paper_url": "https://arxiv.org/abs/2607.25541",
+    "project_url": "https://github.com/ylyem9x/p3_open",
+    "authors": [
+      "Liyun Yan",
+      "Jianming Ma",
+      "Yang Zhang",
+      "Shengcheng Fu",
+      "Zhanxiang Cao",
+      "Keqi Zhu",
+      "Yizhi Chen",
+      "Yue Gao"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-28",
+    "abstract": "Variational Autoencoders are widely used to encode high-dimensional and noisy observations in robotics. However, their stochastic latent creates a mismatch with Proximal Policy Optimization (PPO): an effective policy marginalizes over the latent distribution, whereas former implementations estimate its probability ratio and KL divergence using only one latent sample. We identify a fundamental but overlooked theoretical cause: naive single-sample approximations in stochastic latent space induce significant variance and bias in the surrogate loss. To address this, we introduce P^3 (Probabilistic Policy Propagation), a distribution-aware optimization framework for VAE-based policies. $P^3$ couples moment-based probabilistic method for stable and efficient learning with sampling-based calibration for robust policy behavior under latent uncertainty. In our experiments, P^3 boosts data efficiency from 64.6% to >96%, reduces convergence steps by >20%. Furthermore, P^3 is evaluated on challenging humanoid parkour tasks and shows an effective foundation for VAE-based PPO. Code is available at https://github.com/ylyem9x/P3_Open.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Sampling-Based",
+      "PPO",
+      "VAE",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.25732",
+    "title": "A systematic evaluation of machine learning classifiers for event-by-event background rejection in LAFOV PET scanners",
+    "paper_url": "https://arxiv.org/abs/2607.25732",
+    "project_url": null,
+    "authors": [
+      "Konrad Klimaszewski",
+      "Michał Obara",
+      "Mateusz Bala",
+      "Beatrix C. Hiesmayr",
+      "Lech Raczyński",
+      "Roman Y. Shopa",
+      "Wojciech Zdeb",
+      "Wojciech Krzemien"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-28",
+    "abstract": "The introduction of LAFOV PET scanners brings significant sensitivity gains but also a substantial increase in the background rate from accidental coincidences, phantom-scattered and detector-scattered photons. While machine learning methods have been applied to background reduction in PET imaging, they target specific background components in post-processing rather than event-by-event classification on the raw data. In this work, we formulate coincidence classification as a supervised multi-class problem and evaluate XGBoost, AdaBoost and Neural Network classifiers as pre-reconstruction filters, using Monte Carlo simulations of the Siemens Biograph Vision Quadra scanner with NEMA IEC and anthropomorphic XCAT phantoms. We investigate two feature sets: a 4-feature representation based on the Attenuation Factor, photon time difference, energy sum, and energy difference, and an extended 6-feature set that incorporates topology-based variables. A systematic robustness study via cross-phantom inference reveals that the 4-feature models generalise significantly better across different phantom geometries, with XGBoost suffering an accuracy loss of only 0.04 compared to 0.13 for the 6-feature variant. Our best models achieve accuracies of up to 0.74 and 0.69 for the NEMA IEC and XCAT phantoms, respectively, outperforming traditional geometry-based cuts. However, we show that this compact feature set not only provides limited suppression of in-phantom scattered coincidences, but it also can lead to non-trivial spatial patterns. With scattered coincidences being the dominant background component in clinical conditions, this suggests that while the method serves as an effective and geometry-agnostic replacement for traditional cut-based selection, meaningful further gains in image quality will require either larger input representations or dedicated treatment of the phantom-scattered component.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Robustness",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
     "arxiv_id": "2607.24113",
     "title": "A Case Study on the Acceptance of a Humanoid Robotic Head Employed in Three Public Spaces",
     "paper_url": "https://arxiv.org/abs/2607.24113",
