@@ -2,6 +2,60 @@
 
 All papers sorted by publication date (newest first).
 
+## SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26985)
+- **Authors:** Gabe Everett, Brice Gunter, Ryan Vander Stelt, Cleiver Ruiz-Martinez, Blake Hull, Juan Rojas
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Proprioception
+  - Policy Learning
+  - State Estimation
+
+### Summary
+
+Deep reinforcement policy learning directly in physical robots (on-robot learning) remains bottlenecked by slow wall-clock training times. We present SymmGrid, a trajectory level augmentation framework inspired by parallelized symmetries that super-scales group transformations to significantly accelerate on-robot learning in both egocentric and exocentric visual setups.
+
+---
+
+## Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26567)
+- **Authors:** Hung Nguyen, Kim Nhat Minh Nguyen, Van Duc Vu, Van-Danh Le, Hoang Huy Le, Dinh Tuan Nguyen et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - Multi-Modal
+  - Locomotion
+
+### Summary
+
+Humanoid robots increasingly require multi-modal understanding for natural interaction with humans. Despite the prominence of vision-language models, they generally assume textual rather than the more natural speech inputs.
+
+---
+
+## Global Exponential Stabilization of the Kinematic Bicycle Model of a Car in Polar Coordinates
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26442)
+- **Authors:** Velimir Todorovski, Kwang Hak Kim, Alessandro Astolfi, Miroslav Krstic
+- **Published:** 2026-07
+- **Tags:**
+  - Locomotion
+  - Physics-Based Character Animation
+
+### Summary
+
+At parking speeds, the kinematic bicycle is the prevailing model for car-like vehicles. Yet, despite its wide use, stabilizing feedback laws for this system are scarce in the literature, and existing designs often do not reproduce realistic parking maneuvers.
+
+---
+
 ## Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.25798)
@@ -56,6 +110,24 @@ Robotic hardware evolves over time, but demonstration data is often tied to a sp
 ### Summary
 
 Variational Autoencoders are widely used to encode high-dimensional and noisy observations in robotics. However, their stochastic latent creates a mismatch with Proximal Policy Optimization (PPO): an effective policy marginalizes over the latent distribution, whereas former implementations estimate its probability ratio and KL divergence using only one latent sample.
+
+---
+
+## Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26179)
+- **Authors:** Chandra Sripada, Richard Lewis
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Large Language Model
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+LLMs are widely regarded as alien intelligences, systems whose cognitive operations are fundamentally unlike our own. Apparent similarities to human cognition are therefore often seen as the result of anthropomorphic projection.
 
 ---
 

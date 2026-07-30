@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**234 papers** in this category.
+**235 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (16 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (17 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -36,6 +36,24 @@
 ---
 
 ## Recent Papers
+
+## Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26179)
+- **Authors:** Chandra Sripada, Richard Lewis
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Large Language Model
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+LLMs are widely regarded as alien intelligences, systems whose cognitive operations are fundamentally unlike our own. Apparent similarities to human cognition are therefore often seen as the result of anthropomorphic projection.
+
+---
 
 ## Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search
 
@@ -394,26 +412,5 @@ While current Behavior Foundation Models (BFMs) provide robust control priors fo
 ### Summary
 
 This paper presents KYON, a hybrid wheel-legged quadruped robot equipped with a bimanual upper body for loco-manipulation tasks. The platform features a semi-modular design with a reconfigurable lower legs, enabling both wheeled and legged locomotion depending on the environment.
-
----
-
-## AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.29209)
-- **Authors:** Shuning Li, Sikai Li, Jiachen Li, Mingyu Ding
-- **Published:** 2026-06
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Transformer
-  - Humanoid
-  - Policy Learning
-  - SAC
-  - Loco-Manipulation and Whole-Body Control
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-We present AnyBody, a unified whole-body humanoid controller driven by an arbitrary subset of body keypoints chosen at deploy time. Prior physics-based trackers either rely on expensive full-body motion capture and error-prone trajectory retargeting, which bottleneck scalable data collection and policy learning, or decompose upper- and lower-body control into separate hierarchical representations, sacrificing the coordinated whole-body motions that loco-manipulation requires.
 
 ---

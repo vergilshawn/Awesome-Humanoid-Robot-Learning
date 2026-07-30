@@ -7,18 +7,57 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 2 papers
 - **Booster:** 3 papers
 - **Digit:** 9 papers
-- **Figure:** 49 papers
+- **Figure:** 50 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
 - **Unitree G1:** 53 papers
 - **Unitree H1:** 2 papers
-- **Unknown Platform:** 11 papers
+- **Unknown Platform:** 13 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26985)
+- **Authors:** Gabe Everett, Brice Gunter, Ryan Vander Stelt, Cleiver Ruiz-Martinez, Blake Hull, Juan Rojas
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Proprioception
+  - Policy Learning
+  - State Estimation
+
+### Summary
+
+Deep reinforcement policy learning directly in physical robots (on-robot learning) remains bottlenecked by slow wall-clock training times. We present SymmGrid, a trajectory level augmentation framework inspired by parallelized symmetries that super-scales group transformations to significantly accelerate on-robot learning in both egocentric and exocentric visual setups.
+
+---
+
+## Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26567)
+- **Authors:** Hung Nguyen, Kim Nhat Minh Nguyen, Van Duc Vu, Van-Danh Le, Hoang Huy Le, Dinh Tuan Nguyen et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - Multi-Modal
+  - Locomotion
+
+### Summary
+
+Humanoid robots increasingly require multi-modal understanding for natural interaction with humans. Despite the prominence of vision-language models, they generally assume textual rather than the more natural speech inputs.
+
+---
 
 ## Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design
 
@@ -38,6 +77,24 @@ Papers with real humanoid robot deployment and experiments.
 ### Summary
 
 An often overlooked factor of robot manipulation performance is the embodiment of the robot itself. Motivated by this problem, we study motion-conditioned robot co-design, where the goal is to generate complete robot designs that track target end-effector trajectories (from human demonstrations) while optimizing user-defined rewards.
+
+---
+
+## Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26179)
+- **Authors:** Chandra Sripada, Richard Lewis
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Large Language Model
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+LLMs are widely regarded as alien intelligences, systems whose cognitive operations are fundamentally unlike our own. Apparent similarities to human cognition are therefore often seen as the result of anthropomorphic projection.
 
 ---
 

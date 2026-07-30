@@ -1,10 +1,10 @@
 # Locomotion
 
-**144 papers** in this category.
+**146 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (18 papers)
+- [2026-07](/locomotion/2026-07) (20 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,40 @@
 ---
 
 ## Recent Papers
+
+## Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26567)
+- **Authors:** Hung Nguyen, Kim Nhat Minh Nguyen, Van Duc Vu, Van-Danh Le, Hoang Huy Le, Dinh Tuan Nguyen et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - Multi-Modal
+  - Locomotion
+
+### Summary
+
+Humanoid robots increasingly require multi-modal understanding for natural interaction with humans. Despite the prominence of vision-language models, they generally assume textual rather than the more natural speech inputs.
+
+---
+
+## Global Exponential Stabilization of the Kinematic Bicycle Model of a Car in Polar Coordinates
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26442)
+- **Authors:** Velimir Todorovski, Kwang Hak Kim, Alessandro Astolfi, Miroslav Krstic
+- **Published:** 2026-07
+- **Tags:**
+  - Locomotion
+  - Physics-Based Character Animation
+
+### Summary
+
+At parking speeds, the kinematic bicycle is the prevailing model for car-like vehicles. Yet, despite its wide use, stabilizing feedback laws for this system are scarce in the literature, and existing designs often do not reproduce realistic parking maneuvers.
+
+---
 
 ## 🌟 P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning
 
@@ -381,50 +415,5 @@ This paper presents a novel layered planning and control framework based on mult
 ### Summary
 
 Reinforcement learning has proven to be a valuable tool in the creation of advanced AI and robotic systems, contributing to everything from game playing to robotics to foundation models. Through trial-and-error, these AI systems typically learn one, near-optimal behavior to solve their tasks.
-
----
-
-## Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.31807)
-- **Authors:** Ethan Marot, Thomas Bi, Clemens Schwarke, Victor Klemm, Marco Hutter, Raffaello D'Andrea
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Booster
-- **Tags:**
-  - Reinforcement Learning
-  - Imitation Learning
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - Gait
-  - Walking
-  - Underactuated
-
-### Summary
-
-As humanoid robots become increasingly dynamic, coupling them with reinforcement learning offers a promising approach to solving the complex, underactuated mechanics of passive inline skating. Equipping a humanoid robot with passive inline skating wheels presents an opportunity to combine the versatile agility of humanoids with the high-speed, energy-efficient locomotion strategies utilized by human skaters.
-
----
-
-## 🌟 FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.31691)
-- **Project:** [GitHub](https://github.com/luge66/FastDSAC)
-- **Authors:** Guanchen Lu, Yajuan Dun, Yi Zhou, Letian Tao, Jingliang Duan, Jie Li et al. (7 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - MuJoCo
-  - Humanoid
-  - Actor-Critic
-  - SAC
-  - Navigation
-  - State Estimation
-
-### Summary
-
-Scalable reinforcement learning has popularized high-throughput sampling architectures, which significantly compresses the training time for off-policy methods in robotic locomotion. However, the rapid increase of data volume and update frequency undermines the stability of value-based methods and diminishes the plasticity of policy networks.
 
 ---

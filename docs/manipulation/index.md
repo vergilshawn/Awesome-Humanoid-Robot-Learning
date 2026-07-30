@@ -1,10 +1,10 @@
 # Manipulation
 
-**92 papers** in this category.
+**93 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (15 papers)
+- [2026-07](/manipulation/2026-07) (16 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -32,6 +32,26 @@
 ---
 
 ## Recent Papers
+
+## SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26985)
+- **Authors:** Gabe Everett, Brice Gunter, Ryan Vander Stelt, Cleiver Ruiz-Martinez, Blake Hull, Juan Rojas
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Proprioception
+  - Policy Learning
+  - State Estimation
+
+### Summary
+
+Deep reinforcement policy learning directly in physical robots (on-robot learning) remains bottlenecked by slow wall-clock training times. We present SymmGrid, a trajectory level augmentation framework inspired by parallelized symmetries that super-scales group transformations to significantly accelerate on-robot learning in both egocentric and exocentric visual setups.
+
+---
 
 ## Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design
 
@@ -399,21 +419,5 @@ Laboratory automation has made remarkable progress through robotic platforms and
 ### Summary
 
 Human videos are a scalable source of supervision for robot manipulation, as they are abundant and naturally capture rich object interactions. However, transferring human demonstrations to robots remains challenging due to embodiment mismatch, scene variation, and robot-specific feasibility constraints.
-
----
-
-## Self Capacitive Tactile Sensor System designed for Companion Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.25348)
-- **Authors:** Mohsin Ali, Hidenobu Sumioka, Shuhei Ikemoto
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Tactile Sensing
-
-### Summary
-
-Tactile sensing is essential for humanoid robots to achieve safe physical interaction, dexterous manipulation, and truly human-like responsiveness. However, the design of such systems remains challenging.
 
 ---

@@ -1,5 +1,102 @@
 [
   {
+    "arxiv_id": "2607.26985",
+    "title": "SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception",
+    "paper_url": "https://arxiv.org/abs/2607.26985",
+    "project_url": null,
+    "authors": [
+      "Gabe Everett",
+      "Brice Gunter",
+      "Ryan Vander Stelt",
+      "Cleiver Ruiz-Martinez",
+      "Blake Hull",
+      "Juan Rojas"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-29",
+    "abstract": "Deep reinforcement policy learning directly in physical robots (on-robot learning) remains bottlenecked by slow wall-clock training times. We present SymmGrid, a trajectory level augmentation framework inspired by parallelized symmetries that super-scales group transformations to significantly accelerate on-robot learning in both egocentric and exocentric visual setups. We model a Markov Decision Process (MDP) under a symmetry tree, in which state-action pairs have admissible parallelized invariant transformations that yield a geometric grid structure. The state is modelled with ego- or exocentric images and proprioception information. The latter require special treatment, in the form of homographies, to warp visual scenes in line with their corresponding spatial transformations. These parallelized transformations produce a large set of unique symmetric equivalences that populate the replay buffer with diverse and consistent experiences that speed up learning and improve performance. We present extensive training and evaluations performed directly on real robot manipulation contact tasks including peg-insertions, cable routing, and object relocations. Relative to SOTA, SymmGrid achieved wall-clock training convergence speed-ups of 1.37-2.17x, evaluation success rate improvements of 1.09x-1.27x, fastest training convergence times of 16.6, 10.9, and 79.3 minutes respectively. For trajectory wide assessments, we used normalized area under the curve (nAUC) ratios. SymmGrid achieved improvements of up to 2.59x. These results confirm that simple branch symmetries can have an outsized result due to super-scaling and bring us closer to sub-10 minute on-robot learning training in manipulation tasks suitable for arms and humanoids. The project page is available at symmgrid-robot.github.io",
+    "categories": [
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Real Robot",
+      "Humanoid",
+      "Proprioception",
+      "Policy Learning",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2607.26567",
+    "title": "Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2607.26567",
+    "project_url": null,
+    "authors": [
+      "Hung Nguyen",
+      "Kim Nhat Minh Nguyen",
+      "Van Duc Vu",
+      "Van-Danh Le",
+      "Hoang Huy Le",
+      "Dinh Tuan Nguyen",
+      "Pham Tuyen Le",
+      "Van-Truong Nguyen",
+      "Quan Nguyen"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-29",
+    "abstract": "Humanoid robots increasingly require multi-modal understanding for natural interaction with humans. Despite the prominence of vision-language models, they generally assume textual rather than the more natural speech inputs. In this paper, we investigate whether a well-established text-conditioned model can be transferred to speech in a data-efficient manner. Using ALBEF as a case study, we conduct diagnostic analyses showing that a lightweight MLP-based projector effectively adapts it to speech, while preserving semantic discrimination and robustness. Motivated by these findings, we introduce Speech2Grasp, a framework for data-efficient transfer of text-conditioned grasp detection to speech. Real-world humanoid robot experiments show that Speech2Grasp outperforms cascaded ASR-based pipeline, while reducing inference latency. Our findings suggest a practical paradigm for extending established text-conditioned systems to speech.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Robustness",
+      "Humanoid",
+      "Vision-Language",
+      "Multi-Modal",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.26442",
+    "title": "Global Exponential Stabilization of the Kinematic Bicycle Model of a Car in Polar Coordinates",
+    "paper_url": "https://arxiv.org/abs/2607.26442",
+    "project_url": null,
+    "authors": [
+      "Velimir Todorovski",
+      "Kwang Hak Kim",
+      "Alessandro Astolfi",
+      "Miroslav Krstic"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-29",
+    "abstract": "At parking speeds, the kinematic bicycle is the prevailing model for car-like vehicles. Yet, despite its wide use, stabilizing feedback laws for this system are scarce in the literature, and existing designs often do not reproduce realistic parking maneuvers. This limitation is inherent to the Cartesian coordinates, where Brockett's condition rules out smooth static feedback stabilization. We bypass this obstruction by transforming the system into polar coordinates together with additional range-normalized coordinates that encode the geometry of human-like parking maneuvers. In the transformed coordinates, the dynamics take a strict-feedback form, enabling a nonconventional backstepping design. We exploit the particular structure to develop smooth feedback laws that achieve global exponential stabilization in the transformed coordinates which in turn generates parking trajectories resembling the one performed by human drivers through feedback alone.",
+    "categories": [
+      "Locomotion",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2607.25798",
     "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design",
     "paper_url": "https://arxiv.org/abs/2607.25798",
@@ -100,6 +197,33 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.26179",
+    "title": "Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition",
+    "paper_url": "https://arxiv.org/abs/2607.26179",
+    "project_url": null,
+    "authors": [
+      "Chandra Sripada",
+      "Richard Lewis"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-28",
+    "abstract": "LLMs are widely regarded as alien intelligences, systems whose cognitive operations are fundamentally unlike our own. Apparent similarities to human cognition are therefore often seen as the result of anthropomorphic projection. We argue that this framing is mistaken. LLMs clearly differ from humans in important respects, including their physical substrate, learning history, and the environments with which they interact. These differences make it all the more striking that contemporary LLM-based systems converge with human cognition on a number of principles of cognitive organization with longstanding support in cognitive science. We identify structural correspondences across five dimensions: inferential organization, computational architecture, representational structure, prediction-driven learning, and reinforcement-learning-like mechanisms supporting goal-directed action. These correspondences support a broader model of intelligent cognition in which core principles long used to explain human intelligence also characterize contemporary LLM-based systems.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Large Language Model",
+      "PPO",
+      "GAN",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
     "arxiv_id": "2607.25732",

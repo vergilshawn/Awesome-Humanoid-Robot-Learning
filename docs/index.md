@@ -8,17 +8,17 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 762
-- **Real Robot Papers:** 136
+- **Total Papers:** 766
+- **Real Robot Papers:** 139
 - **Open Source Papers:** 139
 - **Latest Month:** 2026-07
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (234)
-- [Manipulation](/manipulation/) (92)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (235)
+- [Manipulation](/manipulation/) (93)
 - [Teleoperation](/teleoperation/) (36)
-- [Locomotion](/locomotion/) (144)
+- [Locomotion](/locomotion/) (146)
 - [Navigation](/navigation/) (31)
 - [State Estimation](/state-estimation/) (41)
 - [Sim-to-Real](/sim-to-real/) (14)
@@ -31,57 +31,57 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception](https://arxiv.org/abs/2607.26985) — 2026-07
+  - [Manipulation](/manipulation/)
+-  🤖 [Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots](https://arxiv.org/abs/2607.26567) — 2026-07
+  - [Locomotion](/locomotion/)
+-  [Global Exponential Stabilization of the Kinematic Bicycle Model of a Car in Polar Coordinates](https://arxiv.org/abs/2607.26442) — 2026-07
+  - [Locomotion](/locomotion/)
 -  🤖 [Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design](https://arxiv.org/abs/2607.25798) — 2026-07
   - [Manipulation](/manipulation/)
 -  [When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning](https://arxiv.org/abs/2607.25593) — 2026-07
   - [Manipulation](/manipulation/)
 - 🌟 [P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning](https://arxiv.org/abs/2607.25541) — 2026-07
   - [Locomotion](/locomotion/)
+-  🤖 [Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition](https://arxiv.org/abs/2607.26179) — 2026-07
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [A systematic evaluation of machine learning classifiers for event-by-event background rejection in LAFOV PET scanners](https://arxiv.org/abs/2607.25732) — 2026-07
   - [State Estimation](/state-estimation/)
 -  [A Case Study on the Acceptance of a Humanoid Robotic Head Employed in Three Public Spaces](https://arxiv.org/abs/2607.24113) — 2026-07
   - [State Estimation](/state-estimation/)
 -  🤖 [Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation](https://arxiv.org/abs/2607.24083) — 2026-07
   - [Locomotion](/locomotion/)
--  [PRISM: Polynomial Representations for Interaction-Structured Motor Control](https://arxiv.org/abs/2607.23473) — 2026-07
-  - [Locomotion](/locomotion/)
--  [Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search](https://arxiv.org/abs/2607.23854) — 2026-07
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline](https://arxiv.org/abs/2607.22997) — 2026-07
-  - [Sim-to-Real](/sim-to-real/)
--  🤖 [ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments](https://arxiv.org/abs/2607.21025) — 2026-07
-  - [Navigation](/navigation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (544)
-- **Loco-Manipulation and Whole-Body Control** (269)
-- **Locomotion** (202)
-- **Manipulation** (200)
+- **Humanoid** (546)
+- **Loco-Manipulation and Whole-Body Control** (270)
+- **Locomotion** (204)
+- **Manipulation** (201)
 - **Simulation Benchmark** (176)
-- **State Estimation** (145)
-- **Physics-Based Character Animation** (99)
+- **State Estimation** (146)
+- **Physics-Based Character Animation** (100)
 - **Reinforcement Learning** (97)
 - **Human Motion Analysis and Synthesis** (76)
+- **PPO** (69)
 - **Teleoperation** (69)
-- **PPO** (68)
 - **Benchmark** (65)
 - **Navigation** (64)
 - **Whole-Body Control** (60)
 - **Dataset** (59)
 - **Hardware Design** (43)
 - **Sim-to-Real** (42)
+- **Vision-Language** (41)
 - **Diffusion** (41)
-- **Vision-Language** (40)
 - **Zero-Shot** (35)
 - **Safety** (31)
 - **Foundation Model** (26)
 - **Biped** (25)
 - **Walking** (25)
+- **Robustness** (24)
 - **Human Demonstration** (24)
-- **Robustness** (23)
 - **Distillation** (22)
 - **Gait** (20)
 - **Collision** (20)
@@ -95,6 +95,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/loco-manipulation-and-whole-body-control/2026-07)
 
+- [Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition](https://arxiv.org/abs/2607.26179) — `Large Language Model`, `PPO`, `GAN`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search](https://arxiv.org/abs/2607.23854) — `Reinforcement Learning`, `Fine-tuning`, `Loco-Manipulation and Whole-Body Control`
 - [Extreme-RGMT: Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control](https://arxiv.org/abs/2607.20110) — `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [What Matters in Humanoid General Motion Tracking? An Empirical Study](https://arxiv.org/abs/2607.19903) — `Zero-Shot`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Human Motion Analysis and Synthesis`, `Real Robot`
@@ -415,6 +416,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/manipulation/2026-07)
 
+- [SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception](https://arxiv.org/abs/2607.26985) — `Manipulation`, `Real Robot`, `Humanoid`, `Proprioception`, `Policy Learning`, `State Estimation`
 - [Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design](https://arxiv.org/abs/2607.25798) — `Manipulation`, `Transformer`, `Zero-Shot`, `Human Demonstration`, `Humanoid`, `Evolutionary`
 - [When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning](https://arxiv.org/abs/2607.25593) — `Manipulation`, `Humanoid`, `State Estimation`, `Hardware Design`
 - [Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents](https://arxiv.org/abs/2607.19190) — `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Vision-Language`, `Foundation Model`
@@ -664,6 +666,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/locomotion/2026-07)
 
+- [Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots](https://arxiv.org/abs/2607.26567) — `Robustness`, `Humanoid`, `Vision-Language`, `Multi-Modal`, `Locomotion`, `Real Robot`
+- [Global Exponential Stabilization of the Kinematic Bicycle Model of a Car in Polar Coordinates](https://arxiv.org/abs/2607.26442) — `Locomotion`, `Physics-Based Character Animation`
 - 🌟 [P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning](https://arxiv.org/abs/2607.25541), [website](https://github.com/ylyem9x/p3_open) — `Humanoid`, `Sampling-Based`, `PPO`, `VAE`, `Locomotion`, `Open Source`
 - [Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation](https://arxiv.org/abs/2607.24083) — `Reinforcement Learning`, `Locomotion`, `Navigation`, `Humanoid`, `Gait`, `Distillation`
 - [PRISM: Polynomial Representations for Interaction-Structured Motor Control](https://arxiv.org/abs/2607.23473) — `Reinforcement Learning`, `Imitation Learning`, `Diffusion Policy`, `Locomotion`, `Manipulation`, `Humanoid`
