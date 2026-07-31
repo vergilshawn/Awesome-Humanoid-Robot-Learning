@@ -1,5 +1,38 @@
 [
   {
+    "arxiv_id": "2607.28623",
+    "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
+    "paper_url": "https://arxiv.org/abs/2607.28623",
+    "project_url": null,
+    "authors": [
+      "Lizhi Yang",
+      "Junheng Li",
+      "Aaron D. Ames"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-30",
+    "abstract": "We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance represents clearance to every body link, and an adversarial motion prior regularizes the resulting evasive reflexes. We evaluate on a controlled any-link contact benchmark with seeded throws in two regimes: single throws and a deployment loop in which the robot walks back to its station and recovers between throws. On this benchmark, the policy comes within a few points of a privileged state oracle: a fixed onboard camera alone is adequate for evasion. We find that usable barrier structure depends on perceptual observability: Joint-CBF gives the best performance with accurate ball states, degrades under fixed-camera observations when used only as training guidance, and recovers with a ball-tracking gimbal or privileged runtime filter. We therefore deploy a lightweight Link-CBF policy zero-shot on the Unitree G1 in the real world, where it tolerates imperfect perception, succeeds on 95% of throws, and uses semantic segmentation to dodge different balls.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Safety",
+      "Humanoid",
+      "Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2607.26985",
     "title": "SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception",
     "paper_url": "https://arxiv.org/abs/2607.26985",
@@ -95,6 +128,37 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2607.27422",
+    "title": "Good Rankers, Bad Objectives: Bilinear Contrastive Critics under Expressive Policy Search",
+    "paper_url": "https://arxiv.org/abs/2607.27422",
+    "project_url": null,
+    "authors": [
+      "Ayushman Singh",
+      "Siddharth Aphale"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-29",
+    "abstract": "Good action rankings do not make a contrastive critic safe to maximize. These critics increasingly act as value-like objectives for best-of-$K$ selection, planning, and critic-guided generation. Unbounded bilinear scores can let large embedding norms inflate off-support values, but cosine bounding does not remove the failure. A controlled support decomposition attributes most raw bilinear regret to norm drift. Cosine and hybrid critics nevertheless select off-support actions from most pools and incur comparable regret. Contrastive scores are weakly calibrated or inverted in the top score decile across four OGBench navigation tasks, and they fail to order fixed-query actions by value. Bellman-trained TD-Q succeeds, including in a parameter-matched function-class control. Realized costs depend on the task: simulator rollouts reveal single-step selection costs on PointMaze and the exact-$Q^*$ toy but well-powered nulls on AntMaze and HumanoidMaze, where the controller can self-correct. A training/readout decomposition traces the lost ordering to the cosine training objective; raw-trained embeddings retain weak ordering after inference-time normalization. Candidate maximization can therefore exploit false positives caused by norm drift, score saturation, or in-support misranking. Contrastive critics remain useful compatibility rankers on navigation and manipulation tasks, but action selection requires a value-calibrated scalar.",
+    "categories": [
+      "Manipulation",
+      "Navigation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Navigation",
+      "Simulator",
+      "Humanoid",
+      "PPO",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
   },
   {
     "arxiv_id": "2607.25798",

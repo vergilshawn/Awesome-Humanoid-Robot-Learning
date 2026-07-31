@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**235 papers** in this category.
+**236 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (17 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (18 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -36,6 +36,27 @@
 ---
 
 ## Recent Papers
+
+## PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.28623)
+- **Authors:** Lizhi Yang, Junheng Li, Aaron D. Ames
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Safety
+  - Humanoid
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+  - Simulation Benchmark
+
+### Summary
+
+We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance represents clearance to every body link, and an adversarial motion prior regularizes the resulting evasive reflexes.
+
+---
 
 ## Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition
 
@@ -392,25 +413,5 @@ Perception-based humanoid loco-manipulation requires connecting egocentric obser
 ### Summary
 
 While current Behavior Foundation Models (BFMs) provide robust control priors for humanoids, they only execute pre-defined reference motions. As a result, they are vulnerable to environmental shifts and incapable of reactive whole-body coordination.
-
----
-
-## KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.30243)
-- **Authors:** Luca Rossini, Arturo Laurenzi, Francesco Ruscelli, Yifang Zhang, Jingcheng Jiang, Giovanbattista Gravina et al. (11 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Robustness
-  - Loco-Manipulation and Whole-Body Control
-  - Hardware Design
-
-### Summary
-
-This paper presents KYON, a hybrid wheel-legged quadruped robot equipped with a bimanual upper body for loco-manipulation tasks. The platform features a semi-modular design with a reconfigurable lower legs, enabling both wheeled and legged locomotion depending on the environment.
 
 ---

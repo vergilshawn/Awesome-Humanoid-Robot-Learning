@@ -2,6 +2,27 @@
 
 All papers sorted by publication date (newest first).
 
+## PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.28623)
+- **Authors:** Lizhi Yang, Junheng Li, Aaron D. Ames
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Safety
+  - Humanoid
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+  - Simulation Benchmark
+
+### Summary
+
+We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance represents clearance to every body link, and an adversarial motion prior regularizes the resulting evasive reflexes.
+
+---
+
 ## SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.26985)
@@ -53,6 +74,25 @@ Humanoid robots increasingly require multi-modal understanding for natural inter
 ### Summary
 
 At parking speeds, the kinematic bicycle is the prevailing model for car-like vehicles. Yet, despite its wide use, stabilizing feedback laws for this system are scarce in the literature, and existing designs often do not reproduce realistic parking maneuvers.
+
+---
+
+## Good Rankers, Bad Objectives: Bilinear Contrastive Critics under Expressive Policy Search
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.27422)
+- **Authors:** Ayushman Singh, Siddharth Aphale
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Simulator
+  - Humanoid
+  - PPO
+  - State Estimation
+
+### Summary
+
+Good action rankings do not make a contrastive critic safe to maximize. These critics increasingly act as value-like objectives for best-of-$K$ selection, planning, and critic-guided generation.
 
 ---
 

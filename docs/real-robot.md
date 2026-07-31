@@ -11,7 +11,7 @@ Papers with real humanoid robot deployment and experiments.
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
-- **Unitree G1:** 53 papers
+- **Unitree G1:** 54 papers
 - **Unitree H1:** 2 papers
 - **Unknown Platform:** 13 papers
 - **iCub:** 1 papers
@@ -19,6 +19,27 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.28623)
+- **Authors:** Lizhi Yang, Junheng Li, Aaron D. Ames
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Safety
+  - Humanoid
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+  - Simulation Benchmark
+
+### Summary
+
+We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance represents clearance to every body link, and an adversarial motion prior regularizes the resulting evasive reflexes.
+
+---
 
 ## SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception
 

@@ -1,10 +1,10 @@
 # Manipulation
 
-**93 papers** in this category.
+**94 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (16 papers)
+- [2026-07](/manipulation/2026-07) (17 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -50,6 +50,25 @@
 ### Summary
 
 Deep reinforcement policy learning directly in physical robots (on-robot learning) remains bottlenecked by slow wall-clock training times. We present SymmGrid, a trajectory level augmentation framework inspired by parallelized symmetries that super-scales group transformations to significantly accelerate on-robot learning in both egocentric and exocentric visual setups.
+
+---
+
+## Good Rankers, Bad Objectives: Bilinear Contrastive Critics under Expressive Policy Search
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.27422)
+- **Authors:** Ayushman Singh, Siddharth Aphale
+- **Published:** 2026-07
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Simulator
+  - Humanoid
+  - PPO
+  - State Estimation
+
+### Summary
+
+Good action rankings do not make a contrastive critic safe to maximize. These critics increasingly act as value-like objectives for best-of-$K$ selection, planning, and critic-guided generation.
 
 ---
 
@@ -402,22 +421,5 @@ In the field of robot learning, large-scale and diverse demonstration trajectori
 ### Summary
 
 Laboratory automation has made remarkable progress through robotic platforms and AI-driven scientific reasoning. However, many laboratory operations (e.g., solid--solid transfer) remain inherently dynamic and require real-time adaptation to different materials and experimental conditions.
-
----
-
-## Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.28813)
-- **Authors:** Shuo Cheng, Chuye Zhang, Alfred Cueva, Caelan Garrett, Ajay Mandlekar, Danfei Xu
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Human Demonstration
-  - Humanoid
-  - Motion Planning
-
-### Summary
-
-Human videos are a scalable source of supervision for robot manipulation, as they are abundant and naturally capture rich object interactions. However, transferring human demonstrations to robots remains challenging due to embodiment mismatch, scene variation, and robot-specific feasibility constraints.
 
 ---

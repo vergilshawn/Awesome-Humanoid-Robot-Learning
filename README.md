@@ -2,16 +2,16 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 766
-- **Real Robot Papers:** 139
+- **Total Papers:** 768
+- **Real Robot Papers:** 140
 - **Open Source Papers:** 139
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (235)
-- [Manipulation](#manipulation) (93)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (236)
+- [Manipulation](#manipulation) (94)
 - [Teleoperation](#teleoperation) (36)
 - [Locomotion](#locomotion) (146)
 - [Navigation](#navigation) (31)
@@ -29,6 +29,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-07
 
+- [PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball](https://arxiv.org/abs/2607.28623) — `Zero-Shot`, `Safety`, `Humanoid`, `Benchmark`, `Loco-Manipulation and Whole-Body Control`, `Locomotion`
 - [Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition](https://arxiv.org/abs/2607.26179) — `Large Language Model`, `PPO`, `GAN`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search](https://arxiv.org/abs/2607.23854) — `Reinforcement Learning`, `Fine-tuning`, `Loco-Manipulation and Whole-Body Control`
 - [Extreme-RGMT: Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control](https://arxiv.org/abs/2607.20110) — `Humanoid`, `Loco-Manipulation and Whole-Body Control`
@@ -351,6 +352,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 ### 2026-07
 
 - [SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception](https://arxiv.org/abs/2607.26985) — `Manipulation`, `Real Robot`, `Humanoid`, `Proprioception`, `Policy Learning`, `State Estimation`
+- [Good Rankers, Bad Objectives: Bilinear Contrastive Critics under Expressive Policy Search](https://arxiv.org/abs/2607.27422) — `Manipulation`, `Navigation`, `Simulator`, `Humanoid`, `PPO`, `State Estimation`
 - [Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design](https://arxiv.org/abs/2607.25798) — `Manipulation`, `Transformer`, `Zero-Shot`, `Human Demonstration`, `Humanoid`, `Evolutionary`
 - [When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning](https://arxiv.org/abs/2607.25593) — `Manipulation`, `Humanoid`, `State Estimation`, `Hardware Design`
 - [Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents](https://arxiv.org/abs/2607.19190) — `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Vision-Language`, `Foundation Model`
