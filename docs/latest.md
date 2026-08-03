@@ -2,6 +2,98 @@
 
 All papers sorted by publication date (newest first).
 
+## Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29625)
+- **Authors:** Hyunjong Song, William Z. Peng, Joo H. Kim
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Biped
+  - Humanoid
+  - Trajectory Optimization
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+The demand for humanoid loco-manipulation tasks with an object has recently increased, and most existing control approaches for stability in such tasks rely on heuristics or machine-learning techniques. This study rigorously analyzes and exploits the dynamic effects of the object mass on balance stability.
+
+---
+
+## Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29227)
+- **Authors:** Haoyu Fu, Zhou Ge, Chengze Li, Chenzhao Sun, Ze Cui, Wenjing Zhou et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+We present a real-time upper-body human-to-humanoid motion imitation framework driven by neuromorphic event-based vision. This work addresses practical perceptual bottlenecks of conventional frame-based RGB sensors, specifically their difficulty in high dynamic range (HDR) scenes and rapid motions due to fixed integration times.
+
+---
+
+## CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29172)
+- **Authors:** Yuxin Chen, Hari Srikanth, Nathan Jew, Menglin Wu, Pengcheng Wang, Junli Ren et al. (10 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - Fine-tuning
+
+### Summary
+
+While robot foundation models are growing increasingly capable, the strongest models are typically trained on proprietary data and remain closed-source, limiting downstream users' ability to adapt them to new tasks, embodiments, and deployment settings. Following the LLM community, an emerging access paradigm for closed-weight robot foundation models is the managed supervised fine-tuning (SFT) API, where users submit training data and receive a tuned policy without access to model weights, gradients, or training internals.
+
+---
+
+## Advances, challenges, and opportunities for legged robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.28952)
+- **Authors:** Jonas Frey, Matías Mattamala, Hae-Won Park, Mayank Mittal, Georg Martius, Maike Osborne et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - PPO
+
+### Summary
+
+Humanoid and quadrupedal robots have the potential to revolutionize the way we work, interact, and coexist with intelligent machines. To understand their effects on society and how they can enable scientific discovery, we assess the current capabilities of these systems along hardware, locomotion, autonomy, data, and applications.
+
+---
+
+## Translation with Thought: Difficulty-Adaptive Reasoning via Reinforcement Learning for Multi-Domain Machine Translation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29287)
+- **Authors:** Yongshi Ye, Biao Fu, Chongxuan Huang, Yidong Chen, Xiaodong Shi
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Fine-tuning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Multi-domain machine translation (MDMT) poses a unique challenge due to varying levels of linguistic complexity across domains. Inspired by human translators' ability to adapt reasoning effort based on difficulty, we propose TwT (Translation with Thought), a resource-rational framework that learns to modulate inference between intuitive and deliberate reasoning.
+
+---
+
 ## PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.28623)

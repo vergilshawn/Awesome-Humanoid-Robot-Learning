@@ -1,10 +1,10 @@
 # Locomotion
 
-**146 papers** in this category.
+**147 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (20 papers)
+- [2026-07](/locomotion/2026-07) (21 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +37,22 @@
 ---
 
 ## Recent Papers
+
+## Advances, challenges, and opportunities for legged robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.28952)
+- **Authors:** Jonas Frey, Matías Mattamala, Hae-Won Park, Mayank Mittal, Georg Martius, Maike Osborne et al. (8 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - PPO
+
+### Summary
+
+Humanoid and quadrupedal robots have the potential to revolutionize the way we work, interact, and coexist with intelligent machines. To understand their effects on society and how they can enable scientific discovery, we assess the current capabilities of these systems along hardware, locomotion, autonomy, data, and applications.
+
+---
 
 ## Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots
 
@@ -396,24 +412,5 @@ In this paper, we propose Adversarial Dynamics Priors (ADP) for perturbation-res
 ### Summary
 
 This paper presents a novel layered planning and control framework based on multi-rate nonlinear model predictive control (MR-NMPC) that enables quadrupedal robots to perform hybrid bipedal locomotion with wall-assisted support in constrained environments. Real-time trajectory optimization for this locomotion presents significant challenges, as the controller must simultaneously plan for both the contact points and the continuous trajectories of the robot's center of mass (CoM) and orientation within the robot's nonlinear dynamics while accounting for unilateral contact constraints, underactuation, and the switching nature of the robot's dynamics.
-
----
-
-## Coachable agents for interactive gameplay
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.00642)
-- **Authors:** Roberto Capobianco, Harm van Seijen, Nolan D. Bard, Neil Burch, Fatima Davelouis, Josh Davidson et al. (41 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Walking
-  - Foundation Model
-  - Data Augmentation
-  - Locomotion
-
-### Summary
-
-Reinforcement learning has proven to be a valuable tool in the creation of advanced AI and robotic systems, contributing to everything from game playing to robotics to foundation models. Through trial-and-error, these AI systems typically learn one, near-optimal behavior to solve their tasks.
 
 ---

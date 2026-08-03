@@ -1,10 +1,10 @@
 # Teleoperation
 
-**36 papers** in this category.
+**37 papers** in this category.
 
 ## Months
 
-- [2026-07](/teleoperation/2026-07) (5 papers)
+- [2026-07](/teleoperation/2026-07) (6 papers)
 - [2026-06](/teleoperation/2026-06) (9 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
 - [2026-04](/teleoperation/2026-04) (1 papers)
@@ -23,6 +23,24 @@
 ---
 
 ## Recent Papers
+
+## Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29227)
+- **Authors:** Haoyu Fu, Zhou Ge, Chengze Li, Chenzhao Sun, Ze Cui, Wenjing Zhou et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+We present a real-time upper-body human-to-humanoid motion imitation framework driven by neuromorphic event-based vision. This work addresses practical perceptual bottlenecks of conventional frame-based RGB sensors, specifically their difficulty in high dynamic range (HDR) scenes and rapid motions due to fixed integration times.
+
+---
 
 ## A Biomimetic Myoelectric Tentacle Prosthesis with Sensorless Object Detection and Vibrotactile Feedback
 
@@ -379,20 +397,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## ExtremControl: Low-Latency Humanoid Teleoperation with Direct Extremity Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.11321)
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## TeleGate: Whole-Body Humanoid Teleoperation via Gated Expert Selection with Motion Prior
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.09628)
 - **Published:** 2026-02
 - **Tags:**
   - Teleoperation

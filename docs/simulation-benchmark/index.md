@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**70 papers** in this category.
+**71 papers** in this category.
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (15 papers)
+- [2026-07](/simulation-benchmark/2026-07) (16 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -24,6 +24,24 @@
 ---
 
 ## Recent Papers
+
+## Translation with Thought: Difficulty-Adaptive Reasoning via Reinforcement Learning for Multi-Domain Machine Translation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29287)
+- **Authors:** Yongshi Ye, Biao Fu, Chongxuan Huang, Yidong Chen, Xiaodong Shi
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Fine-tuning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Multi-domain machine translation (MDMT) poses a unique challenge due to varying levels of linguistic complexity across domains. Inspired by human translators' ability to adapt reasoning effort based on difficulty, we propose TwT (Translation with Thought), a resource-rational framework that learns to modulate inference between intuitive and deliberate reasoning.
+
+---
 
 ## Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids
 
@@ -387,26 +405,5 @@ How do we learn to hit a tennis backhand? Not from a thousand hours of tennis to
 ### Summary
 
 Vision-Language-Action (VLA) models have recently demonstrated strong generalization in robotic manipulation, yet their applicability to whole-body, contact-rich humanoid locomotion remains severely underexplored due to data scarcity, the absence of dynamically consistent demonstrations, and the difficulty of encoding optimality and safety in learning-based pipelines. This work introduces a unified framework WOLF-VLA that integrates whole-body optimal-control (OC) motion synthesis with large-scale multi-modal dataset to train VLAs capable of generating humanoid locomotion policies directly from natural-language instructions.
-
----
-
-## BFMTrack: Latent Sequence Optimization for Physics-Based Motion Tracking with Behavioral Foundation Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.25056)
-- **Authors:** Thomas Rupf, Agon Serifi, David Müller, Sammy Christen, Ruben Grandia, Espen Knoop et al. (7 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - Foundation Model
-  - Dataset
-  - PPO
-  - GAN
-  - Simulation Benchmark
-  - State Estimation
-  - Physics-Based Character Animation
-
-### Summary
-
-Behavioral Foundation Models (BFMs) offer a promising path toward universal physics-based character control by organizing a rich repertoire of physically plausible behaviors into a latent space, guided by a large-scale motion dataset. While these models excel at time-invariant tasks, such as goal-reaching and state-based reward optimization, their latent space does not directly support time-varying objectives, such as tracking a motion sequence.
 
 ---

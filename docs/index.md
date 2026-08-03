@@ -8,22 +8,22 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 768
-- **Real Robot Papers:** 140
+- **Total Papers:** 773
+- **Real Robot Papers:** 143
 - **Open Source Papers:** 139
 - **Latest Month:** 2026-07
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (236)
-- [Manipulation](/manipulation/) (94)
-- [Teleoperation](/teleoperation/) (36)
-- [Locomotion](/locomotion/) (146)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (237)
+- [Manipulation](/manipulation/) (95)
+- [Teleoperation](/teleoperation/) (37)
+- [Locomotion](/locomotion/) (147)
 - [Navigation](/navigation/) (31)
 - [State Estimation](/state-estimation/) (41)
 - [Sim-to-Real](/sim-to-real/) (14)
 - [Hardware Design](/hardware-design/) (31)
-- [Simulation Benchmark](/simulation-benchmark/) (70)
+- [Simulation Benchmark](/simulation-benchmark/) (71)
 - [Physics-Based Character Animation](/physics-based-character-animation/) (42)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (27)
 
@@ -31,6 +31,16 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control](https://arxiv.org/abs/2607.29625) — 2026-07
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  🤖 [Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination](https://arxiv.org/abs/2607.29227) — 2026-07
+  - [Teleoperation](/teleoperation/)
+-  [CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning](https://arxiv.org/abs/2607.29172) — 2026-07
+  - [Manipulation](/manipulation/)
+-  [Advances, challenges, and opportunities for legged robots](https://arxiv.org/abs/2607.28952) — 2026-07
+  - [Locomotion](/locomotion/)
+-  🤖 [Translation with Thought: Difficulty-Adaptive Reasoning via Reinforcement Learning for Multi-Domain Machine Translation](https://arxiv.org/abs/2607.29287) — 2026-07
+  - [Simulation Benchmark](/simulation-benchmark/)
 -  🤖 [PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball](https://arxiv.org/abs/2607.28623) — 2026-07
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception](https://arxiv.org/abs/2607.26985) — 2026-07
@@ -41,33 +51,23 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Locomotion](/locomotion/)
 -  [Good Rankers, Bad Objectives: Bilinear Contrastive Critics under Expressive Policy Search](https://arxiv.org/abs/2607.27422) — 2026-07
   - [Manipulation](/manipulation/)
--  🤖 [Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design](https://arxiv.org/abs/2607.25798) — 2026-07
-  - [Manipulation](/manipulation/)
--  [When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning](https://arxiv.org/abs/2607.25593) — 2026-07
-  - [Manipulation](/manipulation/)
-- 🌟 [P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning](https://arxiv.org/abs/2607.25541) — 2026-07
-  - [Locomotion](/locomotion/)
--  🤖 [Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition](https://arxiv.org/abs/2607.26179) — 2026-07
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [A systematic evaluation of machine learning classifiers for event-by-event background rejection in LAFOV PET scanners](https://arxiv.org/abs/2607.25732) — 2026-07
-  - [State Estimation](/state-estimation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (548)
-- **Loco-Manipulation and Whole-Body Control** (271)
-- **Locomotion** (205)
-- **Manipulation** (202)
-- **Simulation Benchmark** (177)
-- **State Estimation** (147)
-- **Physics-Based Character Animation** (100)
-- **Reinforcement Learning** (97)
+- **Humanoid** (552)
+- **Loco-Manipulation and Whole-Body Control** (272)
+- **Locomotion** (206)
+- **Manipulation** (204)
+- **Simulation Benchmark** (179)
+- **State Estimation** (148)
+- **Physics-Based Character Animation** (101)
+- **Reinforcement Learning** (99)
 - **Human Motion Analysis and Synthesis** (76)
-- **PPO** (70)
-- **Teleoperation** (69)
-- **Benchmark** (66)
+- **PPO** (73)
+- **Teleoperation** (70)
+- **Benchmark** (67)
 - **Navigation** (65)
 - **Whole-Body Control** (60)
 - **Dataset** (59)
@@ -77,15 +77,15 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Diffusion** (41)
 - **Zero-Shot** (36)
 - **Safety** (32)
-- **Foundation Model** (26)
-- **Biped** (25)
+- **Foundation Model** (27)
+- **Biped** (26)
 - **Walking** (25)
 - **Robustness** (24)
 - **Human Demonstration** (24)
 - **Distillation** (22)
 - **Gait** (20)
 - **Collision** (20)
-- **Imitation Learning** (19)
+- **Fine-tuning** (19)
 
 ---
 
@@ -95,6 +95,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/loco-manipulation-and-whole-body-control/2026-07)
 
+- [Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control](https://arxiv.org/abs/2607.29625) — `Manipulation`, `Biped`, `Humanoid`, `Trajectory Optimization`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball](https://arxiv.org/abs/2607.28623) — `Zero-Shot`, `Safety`, `Humanoid`, `Benchmark`, `Loco-Manipulation and Whole-Body Control`, `Locomotion`
 - [Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition](https://arxiv.org/abs/2607.26179) — `Large Language Model`, `PPO`, `GAN`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search](https://arxiv.org/abs/2607.23854) — `Reinforcement Learning`, `Fine-tuning`, `Loco-Manipulation and Whole-Body Control`
@@ -417,6 +418,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/manipulation/2026-07)
 
+- [CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning](https://arxiv.org/abs/2607.29172) — `Reinforcement Learning`, `Manipulation`, `Humanoid`, `Foundation Model`, `Fine-tuning`
 - [SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception](https://arxiv.org/abs/2607.26985) — `Manipulation`, `Real Robot`, `Humanoid`, `Proprioception`, `Policy Learning`, `State Estimation`
 - [Good Rankers, Bad Objectives: Bilinear Contrastive Critics under Expressive Policy Search](https://arxiv.org/abs/2607.27422) — `Manipulation`, `Navigation`, `Simulator`, `Humanoid`, `PPO`, `State Estimation`
 - [Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design](https://arxiv.org/abs/2607.25798) — `Manipulation`, `Transformer`, `Zero-Shot`, `Human Demonstration`, `Humanoid`, `Evolutionary`
@@ -585,6 +587,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/teleoperation/2026-07)
 
+- [Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination](https://arxiv.org/abs/2607.29227) — `Teleoperation`, `Humanoid`, `PPO`, `Physics-Based Character Animation`, `Real Robot`
 - [A Biomimetic Myoelectric Tentacle Prosthesis with Sensorless Object Detection and Vibrotactile Feedback](https://arxiv.org/abs/2607.09807) — `Robustness`, `Teleoperation`, `State Estimation`
 - [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — `Imitation Learning`, `Teleoperation`, `Few-Shot`, `Self-Supervised`, `Manipulation`, `Navigation`
 - [In vivo feasibility study of humanoid robots in surgery](https://arxiv.org/abs/2607.07972) — `Teleoperation`, `Manipulation`, `Safety`, `Humanoid`, `Real Robot`
@@ -668,6 +671,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/locomotion/2026-07)
 
+- [Advances, challenges, and opportunities for legged robots](https://arxiv.org/abs/2607.28952) — `Locomotion`, `Humanoid`, `PPO`
 - [Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots](https://arxiv.org/abs/2607.26567) — `Robustness`, `Humanoid`, `Vision-Language`, `Multi-Modal`, `Locomotion`, `Real Robot`
 - [Global Exponential Stabilization of the Kinematic Bicycle Model of a Car in Polar Coordinates](https://arxiv.org/abs/2607.26442) — `Locomotion`, `Physics-Based Character Animation`
 - 🌟 [P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning](https://arxiv.org/abs/2607.25541), [website](https://github.com/ylyem9x/p3_open) — `Humanoid`, `Sampling-Based`, `PPO`, `VAE`, `Locomotion`, `Open Source`
@@ -1181,6 +1185,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-07](/simulation-benchmark/2026-07)
 
+- [Translation with Thought: Difficulty-Adaptive Reasoning via Reinforcement Learning for Multi-Domain Machine Translation](https://arxiv.org/abs/2607.29287) — `Reinforcement Learning`, `Fine-tuning`, `Benchmark`, `Simulation Benchmark`, `Real Robot`
 - [Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids](https://arxiv.org/abs/2607.20345) — `Humanoid`, `Vision-Language`, `Foundation Model`, `Fine-tuning`, `Benchmark`, `Simulation Benchmark`
 - [On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens](https://arxiv.org/abs/2607.20241) — `Dataset`, `Large Language Model`, `Simulation Benchmark`, `Real Robot`
 - [Learning Adaptive Safety Margins for Visual Navigation](https://arxiv.org/abs/2607.18200) — `Navigation`, `Safety`, `Humanoid`, `Collision`, `Dataset`, `Diffusion`

@@ -1,10 +1,10 @@
 # Manipulation
 
-**94 papers** in this category.
+**95 papers** in this category.
 
 ## Months
 
-- [2026-07](/manipulation/2026-07) (17 papers)
+- [2026-07](/manipulation/2026-07) (18 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
 - [2026-04](/manipulation/2026-04) (1 papers)
@@ -32,6 +32,24 @@
 ---
 
 ## Recent Papers
+
+## CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29172)
+- **Authors:** Yuxin Chen, Hari Srikanth, Nathan Jew, Menglin Wu, Pengcheng Wang, Junli Ren et al. (10 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - Fine-tuning
+
+### Summary
+
+While robot foundation models are growing increasingly capable, the strongest models are typically trained on proprietary data and remain closed-source, limiting downstream users' ability to adapt them to new tasks, embodiments, and deployment settings. Following the LLM community, an emerging access paradigm for closed-weight robot foundation models is the managed supervised fine-tuning (SFT) API, where users submit training data and receive a tuned policy without access to model weights, gradients, or training internals.
+
+---
 
 ## SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception
 
@@ -401,25 +419,5 @@ Vision-language-action (VLA) models across robot embodiments require high-qualit
 ### Summary
 
 In the field of robot learning, large-scale and diverse demonstration trajectories provide the fundamental basis for enhancing robotic manipulation ability. We introduce RoboTacDex, a large, multi-modal, and diverse dataset of dexterous manipulation behaviors performed with a humanoid robot.
-
----
-
-## Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.31037)
-- **Authors:** Yuhan Wu, Zhao Jin, Tao Li, Yuheng Zhang, Zhichao Wang, Shuo Wang et al. (12 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Benchmark
-  - PPO
-  - GAN
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Laboratory automation has made remarkable progress through robotic platforms and AI-driven scientific reasoning. However, many laboratory operations (e.g., solid--solid transfer) remain inherently dynamic and require real-time adaptation to different materials and experimental conditions.
 
 ---

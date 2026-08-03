@@ -5,9 +5,9 @@ Papers with real humanoid robot deployment and experiments.
 ## Platforms
 
 - **Atlas:** 2 papers
-- **Booster:** 3 papers
+- **Booster:** 4 papers
 - **Digit:** 9 papers
-- **Figure:** 50 papers
+- **Figure:** 52 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
@@ -19,6 +19,64 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29625)
+- **Authors:** Hyunjong Song, William Z. Peng, Joo H. Kim
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Biped
+  - Humanoid
+  - Trajectory Optimization
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+The demand for humanoid loco-manipulation tasks with an object has recently increased, and most existing control approaches for stability in such tasks rely on heuristics or machine-learning techniques. This study rigorously analyzes and exploits the dynamic effects of the object mass on balance stability.
+
+---
+
+## Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29227)
+- **Authors:** Haoyu Fu, Zhou Ge, Chengze Li, Chenzhao Sun, Ze Cui, Wenjing Zhou et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Booster
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+We present a real-time upper-body human-to-humanoid motion imitation framework driven by neuromorphic event-based vision. This work addresses practical perceptual bottlenecks of conventional frame-based RGB sensors, specifically their difficulty in high dynamic range (HDR) scenes and rapid motions due to fixed integration times.
+
+---
+
+## Translation with Thought: Difficulty-Adaptive Reasoning via Reinforcement Learning for Multi-Domain Machine Translation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29287)
+- **Authors:** Yongshi Ye, Biao Fu, Chongxuan Huang, Yidong Chen, Xiaodong Shi
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Fine-tuning
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Multi-domain machine translation (MDMT) poses a unique challenge due to varying levels of linguistic complexity across domains. Inspired by human translators' ability to adapt reasoning effort based on difficulty, we propose TwT (Translation with Thought), a resource-rational framework that learns to modulate inference between intuitive and deliberate reasoning.
+
+---
 
 ## PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball
 

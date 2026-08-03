@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**236 papers** in this category.
+**237 papers** in this category.
 
 ## Months
 
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (18 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
 - [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
@@ -36,6 +36,28 @@
 ---
 
 ## Recent Papers
+
+## Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.29625)
+- **Authors:** Hyunjong Song, William Z. Peng, Joo H. Kim
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Biped
+  - Humanoid
+  - Trajectory Optimization
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+The demand for humanoid loco-manipulation tasks with an object has recently increased, and most existing control approaches for stability in such tasks rely on heuristics or machine-learning techniques. This study rigorously analyzes and exploits the dynamic effects of the object mass on balance stability.
+
+---
 
 ## PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball
 
@@ -391,27 +413,5 @@ Traffic complexity critically influences driver task demands in partially automa
 ### Summary
 
 Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this complete tuple at scale.
-
----
-
-## ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.30362)
-- **Authors:** Xiao Chen, Weishuai Zeng, Xiaojie Niu, Zirui Wang, Jianan Li, Huayi Wang et al. (15 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Zero-Shot
-  - Humanoid
-  - Foundation Model
-  - Robust Control
-  - Motion Planning
-  - Benchmark
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-While current Behavior Foundation Models (BFMs) provide robust control priors for humanoids, they only execute pre-defined reference motions. As a result, they are vulnerable to environmental shifts and incapable of reactive whole-body coordination.
 
 ---
