@@ -1,9 +1,10 @@
 # State Estimation
 
-**41 papers** in this category.
+**42 papers** in this category.
 
 ## Months
 
+- [2026-08](/state-estimation/2026-08) (1 papers)
 - [2026-07](/state-estimation/2026-07) (12 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
@@ -17,6 +18,27 @@
 ---
 
 ## Recent Papers
+
+## Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.00600)
+- **Authors:** Clinton Enwerem, John S. Baras, Calin Belta
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Underactuated
+  - Collision
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Standard multifingered grasp execution architectures plan a collision-free trajectory to a selected grasp pose and track it with a feedback law. Execution-time object pose uncertainty or perturbations may invalidate the planned trajectory, forcing a costly replanning step.
+
+---
 
 ## A systematic evaluation of machine learning classifiers for event-by-event background rejection in LAFOV PET scanners
 
@@ -358,27 +380,5 @@ Humanoid robots are emerging as co-workers in smart manufacturing, yet their dyn
 ### Summary
 
 This paper presents an invariant extended Kalman filtering (InEKF) approach for real-time state estimation of humanoid robots operating on non-inertial ground using only onboard proprioceptive sensing. The proposed approach estimates the robot's base position and velocity relative to the moving ground frame without requiring direct measurements of ground motion or externally mounted sensors.
-
----
-
-## HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.17833)
-- **Authors:** Taowen Wang, Zikang Xie, Bin Yang, Yunheng Wang, Zizhao Yuan, Yuetong Fang et al. (16 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Humanoid
-  - Proprioception
-  - Benchmark
-  - Policy Learning
-  - State Estimation
-  - Simulation Benchmark
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-
-### Summary
-
-Humanoid robots promise whole-body interaction in human-centered environments, but scalable policy learning remains difficult because task-level decision-making and whole-body dynamic execution are tightly coupled. A practical solution is hierarchical control, where a high-level policy predicts intermediate whole-body actions and low-level general motion trackers (GMTs) execute them as stable humanoid motion.
 
 ---

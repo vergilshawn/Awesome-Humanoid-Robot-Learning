@@ -1,10 +1,11 @@
 # Locomotion
 
-**147 papers** in this category.
+**152 papers** in this category.
 
 ## Months
 
-- [2026-07](/locomotion/2026-07) (21 papers)
+- [2026-08](/locomotion/2026-08) (4 papers)
+- [2026-07](/locomotion/2026-07) (22 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
 - [2026-04](/locomotion/2026-04) (2 papers)
@@ -37,6 +38,98 @@
 ---
 
 ## Recent Papers
+
+## StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.02385)
+- **Authors:** Weihao Wu, Ming Huang, Ruofei Liu, Jinglei Nie, Shuxiang Guo, Chunying Li
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Safety
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Humanoid motion trackers perform reliably within learned tracking distributions, but falls can move the robot into low-height, contact-rich states from which an advancing command is temporarily unreachable. Tracking-only policies may chase infeasible references, producing rapid, large-amplitude limb corrections that increase risk to the robot and its surroundings.
+
+---
+
+## Perception-and-action system for humanoid robot task execution in construction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.01600)
+- **Authors:** Yanxi Liu, Yizhi Liu
+- **Published:** 2026-08
+- **Tags:**
+  - Multi-Task
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Humanoid robots, with their human-like shape and multi-tasking capabilities, are well-aligned with human-dominated workplaces, like those in civil and construction engineering, where they could collaborate with human workers or autonomously perform physically demanding and hazardous tasks. Despite this promise, limited research has explored how to endow these robots with the practical capabilities needed to perform construction tasks.
+
+---
+
+## Emotional Expression in Persuasion by Quadruped Virtual Agents: Toward Cross-Species Design Patterns
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.01895)
+- **Authors:** Kaoru Sumi, Souki Osawa
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Persuasive technologies increasingly use virtual agents to influence attitudes and behavior, but research has focused mainly on humanoid agents. The persuasive design of non-humanoid, quadruped agents remains underexplored, and it is unclear whether emotional expression works consistently across animal species or whether species-specific motion is necessary.
+
+---
+
+## ORCESTRA: VLM-driven Visual Robot programming in Mixed Reality
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.00775)
+- **Authors:** Ivan Snegirev, Elizaveta Semenyakina, Mikhail Konenkov, Artem Lykov, Miguel Altamirano Cabrera, Dzmitry Tsetserukou
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Locomotion
+
+### Summary
+
+ORCESTRA is a mixed-reality system for programming robot digital twins through no-code waypoint teaching and language-guided control. In a passthrough mixed-reality workspace, users place robot twins on real surfaces, teach trajectories, save robot-relative episodes, or issue spoken/typed commands that a vision-language model converts into structured digital-twin plans.
+
+---
+
+## Developing Combined Manipulation and Locomotion Skills with Interaction Representation and Skill Composition
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.00208)
+- **Authors:** Fanxing Meng, Jing Xiao
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Walking
+  - Dataset
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This paper addresses how to enable a humanoid robot to learn motion policies based on developmental principles and combine policies to create more sophisticated and useful behaviors. Specifically, we present an approach to (1) learning a whole-body reaching and grasping policy and (2) combining it and a standing-up and walking policy to compose a more complex policy of manipulation and locomotion: grasping, standing up, and walking.
+
+---
 
 ## Advances, challenges, and opportunities for legged robots
 
@@ -316,101 +409,5 @@ Bipedal robots are challenging to control because they operate close to instabil
 ### Summary
 
 The shortage of healthcare staff is a challenge in geriatric care. To address this, robots can be integrated into care settings to provide assistance and emotional support.
-
----
-
-## Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.07830)
-- **Authors:** Xuanyu Chen, Mohan Liu, Dengchen Mei, Zhihao Gu, Haitian Zhang, Kaimin Mao et al. (9 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Locomotion
-  - Humanoid
-  - Gait
-  - PPO
-  - State Estimation
-
-### Summary
-
-Model-free reinforcement learning has enabled impressive humanoid locomotion; however, control on steep slopes remains largely unexplored. Unlike flat or discrete terrains, sloped terrains impose a persistent gravitational bias that demands simultaneous stability and posture control.
-
----
-
-## Initiation Safety: A Missing Dimension in Generalist-Robot Safety
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.07420)
-- **Authors:** Zhijin Meng, Francisco Cruz
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Safety
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Safety for generalist robots is usually discussed in terms of motion or dialogue. We argue a third question is missing: should the robot take its first hard-to-undo social action at all, such as a greeting, an uninvited grasp, or stepping into someone's space? We call this initiation authorization.
-
----
-
-## Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.07109)
-- **Authors:** Víctor Mayoral-Vilches
-- **Published:** 2026-07
-- **Tags:**
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-The EU Cyber Resilience Act (CRA) makes a smart bet. It does not demand that products be free of vulnerabilities, but only that manufacturers run a process: assess risk, handle flaws, ship updates.
-
----
-
-## ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.03454)
-- **Authors:** Seokju Lee, Jeongtae Lee, Jeonghyeok Lim, Jeonguk Kang, Byungwook Lee, Seungho Han et al. (9 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Trajectory Optimization
-  - Dataset
-  - PPO
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-In this paper, we propose Adversarial Dynamics Priors (ADP) for perturbation-resilient humanoid locomotion control. Existing motion prior-based methods induce natural motion styles by imitating kinematic motion features, but they do not directly regularize dynamics features, such as CoM motion, centroidal momentum, contact forces, and contact states.
-
----
-
-## Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.01574)
-- **Authors:** Taizoon Chunawala, Jeeseop Kim, Kaveh Akbari Hamed
-- **Published:** 2026-07
-- **Tags:**
-  - MPC
-  - Whole-Body Control
-  - Locomotion
-  - Biped
-  - Trajectory Optimization
-  - Optimal Control
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-This paper presents a novel layered planning and control framework based on multi-rate nonlinear model predictive control (MR-NMPC) that enables quadrupedal robots to perform hybrid bipedal locomotion with wall-assisted support in constrained environments. Real-time trajectory optimization for this locomotion presents significant challenges, as the controller must simultaneously plan for both the contact points and the continuous trajectories of the robot's center of mass (CoM) and orientation within the robot's nonlinear dynamics while accounting for unilateral contact constraints, underactuation, and the switching nature of the robot's dynamics.
 
 ---

@@ -1,5 +1,438 @@
 [
   {
+    "arxiv_id": "2608.02385",
+    "title": "StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior",
+    "paper_url": "https://arxiv.org/abs/2608.02385",
+    "project_url": null,
+    "authors": [
+      "Weihao Wu",
+      "Ming Huang",
+      "Ruofei Liu",
+      "Jinglei Nie",
+      "Shuxiang Guo",
+      "Chunying Li"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-03",
+    "abstract": "Humanoid motion trackers perform reliably within learned tracking distributions, but falls can move the robot into low-height, contact-rich states from which an advancing command is temporarily unreachable. Tracking-only policies may chase infeasible references, producing rapid, large-amplitude limb corrections that increase risk to the robot and its surroundings. We present StableMimic, a unified tracker trained beyond the nominal tracking distribution. Perturbed resets around multiple human get-up references expose prone, supine, off-balance, and intermediate ground-contact states, shaping structured recovery that returns the robot to the trackable region. Because tracking and recovery occupy markedly different state--action distributions, StableMimic uses dedicated experts for each regime and a proprioceptive gate that continuously blends their actions. A hidden successor-state objective teaches human-reference-shaped recovery without exposing reference identity or phase to the deployed Actor; deployment requires no get-up reference, recovery command, trajectory retrieval, or external policy switch. On the complete retargeted LAFAN1 dance subset, StableMimic achieves the lowest errors on all four tracking metrics among five methods. Across 100 matched push-to-fall trials per method, it recovers in 100/100 and attains the lowest values on six of seven post-fall motion and load measures, supporting improved interaction safety under this protocol. Real Unitree G1 dance and standing-reference deployments qualitatively demonstrate bounded limb motion, autonomous recovery, and command resumption.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Safety",
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2608.02080",
+    "title": "Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin",
+    "paper_url": "https://arxiv.org/abs/2608.02080",
+    "project_url": null,
+    "authors": [
+      "Haofeng Chen",
+      "Carson Kohlbrenner",
+      "Jiri Kubik",
+      "Lukas Rustler",
+      "Alexander Dickhans",
+      "Karel Bartunek",
+      "Alessandro Roncone",
+      "Hyosang Lee",
+      "Matej Hoffmann"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-03",
+    "abstract": "Whole-body tactile sensing is a prerequisite for humanoids that operate in contact-rich human environments, but conventional taxel arrays scale poorly with surface area, wiring complexity, and robot-specific curvature. We present a conformal electrical impedance tomography tactile skin fabricated through a geometry-adaptable additive-manufacturing workflow. A flexible conductive TPU layer forms a continuous sensing domain, while contact-induced coupling with conductive patches produces boundary voltage changes that are reconstructed using a one-step Gauss-Newton EIT solver. We first characterize the electromechanical design space of the layered structure and show that low-resistance contact-enhancement patches and a porous conductive TPU sensing layer improve sensitivity while preserving printability. We then validate contact localization on a planar prototype, a curved U-shaped prototype, and a qualitative iCub-face-shaped geometry. The curved sensor achieves a mean localization error of 6 mm over 18 contact positions without supervised post-processing. These results suggest that additively manufactured tomographic skins can reduce the morphology-specific redesign burden for humanoid tactile coverage and provide a practical route toward large-area contact sensing for human-centered deployment.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Navigation",
+      "Hardware Design"
+    ],
+    "tags": [
+      "Humanoid",
+      "Tactile Sensing",
+      "Loco-Manipulation and Whole-Body Control",
+      "Navigation",
+      "Hardware Design"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "iCub",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2608.01834",
+    "title": "Teleopit: A Full-Embodiment Humanoid Teleoperation System",
+    "paper_url": "https://arxiv.org/abs/2608.01834",
+    "project_url": null,
+    "authors": [
+      "Bingqian Wu",
+      "Zicheng Xu",
+      "Xianghui Fan",
+      "Dayu Li",
+      "Xiangru Huang"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-03",
+    "abstract": "Humanoid teleoperation for demonstration collection requires coordinated whole-body motion, continuous dexterous hand control, and viewpoint control. Existing systems either simplify hand commands or depend on dedicated wearable sensors for fine-grained hand motion. We introduce Teleopit, a full-embodiment teleoperation system that maps body, hand, and head signals from VR to a humanoid body, configurable dexterous hands, and a 2-DoF active vision module. A history encoder and failure-aware rewind sampling improve the motion tracker on both motion-capture and live VR references. An optimization-based hand retargeter combines normalized finger directions, fingertip closure, and thumb-frame alignment to map human hand motion to different dexterous hands without tuning hand-specific objective or solver hyperparameters. Component experiments evaluate tracking success rate and retargeting behavior, while real-robot teleoperation demonstrates coordinated locomotion, manipulation, and viewpoint control. ACT and GR00T N1.7 policies trained on 96 successful demonstrations collected with Teleopit achieve task success rates of 90.0% and 95.0%, respectively, when deployed on the humanoid. The project page is available at https://botrunner64.github.io/teleopit-page.",
+    "categories": [
+      "Manipulation",
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Optimization-Based",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2608.01826",
+    "title": "Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies",
+    "paper_url": "https://arxiv.org/abs/2608.01826",
+    "project_url": null,
+    "authors": [
+      "Jiarui Yang",
+      "Yehao Lu",
+      "Yuning Su",
+      "Yufeng Xie",
+      "Yu Zhong",
+      "Haiyu Lan",
+      "Tianjing Hao",
+      "Kaixiang Lu",
+      "Peiwen Lin",
+      "Chuang Wang",
+      "Enyu Li",
+      "Junwei Liang"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-03",
+    "abstract": "Vision-Language-Action (VLA) models have shown strong generalization in robotic manipulation, yet complex contact-rich tasks often benefit from multi-camera observations that jointly capture the end effector, objects, and targets under occlusion. Existing multi-camera VLAs usually concatenate view tokens, leaving action representations weak in metric depth and inconsistent across cameras. We introduce Multi-View Unified Camera Fields (MVUCF), a training-only framework that forms a shared action-facing latent field across views. A coordinate-query depth objective makes metric depth recoverable, while a preprocessing-aware correspondence objective aligns tokens observing the same physical point from different cameras. Both directly shape the hidden states consumed by the action module. After geometry injection, depth, camera calibration, and auxiliary heads are removed, so deployment uses the original RGB-only graph with no extra inference FLOPs. Held-out probes confirm stronger depth recovery and cross-view matching. Under matched GR00T-N1.6 settings, MVUCF reaches 98.9% on LIBERO, improves LIBERO-Plus by 22.4 points, and raises success by 23.3 points across six RoboTwin tasks spanning three action families: touch, move-and-place, and contact interaction. Real-world humanoid experiments further provide evidence of its practical effectiveness under RGB-only deployment.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2608.01600",
+    "title": "Perception-and-action system for humanoid robot task execution in construction",
+    "paper_url": "https://arxiv.org/abs/2608.01600",
+    "project_url": null,
+    "authors": [
+      "Yanxi Liu",
+      "Yizhi Liu"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-03",
+    "abstract": "Humanoid robots, with their human-like shape and multi-tasking capabilities, are well-aligned with human-dominated workplaces, like those in civil and construction engineering, where they could collaborate with human workers or autonomously perform physically demanding and hazardous tasks. Despite this promise, limited research has explored how to endow these robots with the practical capabilities needed to perform construction tasks. To this end, this study proposes a novel perception-and-action system that enables humanoid robots to learn and perform construction tasks from worker demonstrations. This system contains two deep networks: Humanoid-PoseNet, which extracts human postures and translates them into mechanically feasible poses for a humanoid robot; and Humanoid-ActionNet, which learns robot-executable actions based on these translated poses. Experimental results demonstrate that the humanoid robot reliably executed eight construction-related actions, achieving an average motion-tracking error of 82.45 mm MPJPE (Mean Per Joint Position Error). This work provides an early step toward deploying humanoid collaborators in construction.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Multi-Task",
+      "Humanoid",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2608.01895",
+    "title": "Emotional Expression in Persuasion by Quadruped Virtual Agents: Toward Cross-Species Design Patterns",
+    "paper_url": "https://arxiv.org/abs/2608.01895",
+    "project_url": null,
+    "authors": [
+      "Kaoru Sumi",
+      "Souki Osawa"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-03",
+    "abstract": "Persuasive technologies increasingly use virtual agents to influence attitudes and behavior, but research has focused mainly on humanoid agents. The persuasive design of non-humanoid, quadruped agents remains underexplored, and it is unclear whether emotional expression works consistently across animal species or whether species-specific motion is necessary.   We developed virtual dog, cat, and horse agents and compared three behavioral conditions: species-specific behavior, shared behavior across species, and a bark-only baseline. Participants completed everyday tasks involving trash disposal, feeding, and refraining from smartphone use. We evaluated intention understanding, behavioral intention, actual behavior, psychological reactance, discomfort, familiarity, and agent acceptance.   In several task contexts, the bark-only baseline produced lower intention-understanding and behavioral scores than the expressive conditions. Emotional expression and attention-guiding cues therefore appear to improve interpretation of agent intention and support behavior change. However, no consistent significant differences emerged between species-specific and shared behavior, suggesting that faithful reproduction of animal-specific motion is not the main determinant of persuasive effectiveness. Psychological reactance and discomfort remained low, while familiarity with an animal species was associated with actual behavior in some conditions.   These findings indicate that persuasion by quadruped virtual agents depends more on functional cues, including emotional expression, attention guidance, and intention readability, than on accurate species-specific behavior. The results support cross-species generalizability and provide a basis for reusable design patterns in persuasive technology and human-AI interaction.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2608.01410",
+    "title": "GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking",
+    "paper_url": "https://arxiv.org/abs/2608.01410",
+    "project_url": null,
+    "authors": [
+      "Zeyu Ling",
+      "Xinyao Yu",
+      "Renye Yan",
+      "Jikang Cheng",
+      "Zhanke Wang",
+      "Qing Shuai",
+      "Changqing Zou"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-02",
+    "abstract": "General-purpose humanoid trackers can execute diverse references, but their zero-shot coverage depends on large embodied corpora that are costly to extend. Text-to-motion generators offer scalable supervision, yet models trained on human motion or retargeted data inherit a gap between kinematic plausibility and robot executability. Existing one-way pipelines fix either the generated corpus or the reward tracker. We introduce GenTrack, an online generator--tracker framework that alternates execution-grounded, group-relative generator alignment with tracker training on newly generated references; anchoring and rehearsal constrain drift. On Unitree G1, we evaluate GenTrack with ProtoMotions and SONIC backbones across three zero-shot tracking splits including public AMASS and LAFAN benchmarks, and a private out-of-distribution test set of 1,024 prompt-motion pairs in the wild. The online co-training strategy consistently produces generators that output more robot-executable motions with strong semantic alignment, and trackers with markedly broader zero-shot coverage and improved tracking accuracy, especially on out-of-distribution references. These results demonstrate that joint online post-training effectively narrows the executability gap between retargeted references and robot-native motion, advancing zero-shot humanoid control without additional data collection and beyond the limitations of a static reference pool.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Humanoid",
+      "Benchmark",
+      "Physics-Based Character Animation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2608.00820",
+    "title": "LooperMuscle: Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts",
+    "paper_url": "https://arxiv.org/abs/2608.00820",
+    "project_url": null,
+    "authors": [
+      "Boyi Liu",
+      "Qijin Li",
+      "Tianqi Yu",
+      "Qinrui Yan",
+      "Xingxing Zuo"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-01",
+    "abstract": "FastSAC-style methods significantly reduce humanoid motion training time but often suffer from notable performance degradation compared with PPO in whole-body tracking tasks. We target this speed-performance gap by introducing LooperMuscle, a composed expert policy learning framework that restores tracking quality while preserving high training efficiency. LooperMuscle combines a semantically structured mixture-of-experts actor, an expert-aware distributional critic, and contribution-routed replay with deferred curriculum scheduling. These three components form a closed training loop in which expert contributions guide data routing, routed data shape value learning, and value gradients in turn refine expert specialization. Empirically, our approach substantially outperforms vanilla FastSAC in motion tracking accuracy while requiring far less wall-clock time than PPO: where FastSAC trains in about 15 minutes but underperforms, and PPO achieves stronger results but requires about 6 hours, LooperMuscle recovers a substantial fraction of the remaining gap to PPO in roughly 45 minutes of simulation training, delivering practical efficiency for rapid policy iteration. The code will be released to benefit the research community at https://loopermuscle.github.io/.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "Policy Learning",
+      "PPO",
+      "SAC",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2608.00775",
+    "title": "ORCESTRA: VLM-driven Visual Robot programming in Mixed Reality",
+    "paper_url": "https://arxiv.org/abs/2608.00775",
+    "project_url": null,
+    "authors": [
+      "Ivan Snegirev",
+      "Elizaveta Semenyakina",
+      "Mikhail Konenkov",
+      "Artem Lykov",
+      "Miguel Altamirano Cabrera",
+      "Dzmitry Tsetserukou"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-01",
+    "abstract": "ORCESTRA is a mixed-reality system for programming robot digital twins through no-code waypoint teaching and language-guided control. In a passthrough mixed-reality workspace, users place robot twins on real surfaces, teach trajectories, save robot-relative episodes, or issue spoken/typed commands that a vision-language model converts into structured digital-twin plans. Both interaction modes share a backend for metric grounding, embodiment-aware validation, preview, confirmation, and digital-twin execution. The system supports heterogeneous robot embodiments, including fixed-base manipulators, a mobile base, and a humanoid robot, demonstrating MR validation as a safety layer for language-guided robot programming before physical deployment.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Safety",
+      "Humanoid",
+      "Vision-Language",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2608.00613",
+    "title": "From Failures to Supervision: DynamicEnvPlan for Robust Long-Horizon Embodied Planning",
+    "paper_url": "https://arxiv.org/abs/2608.00613",
+    "project_url": null,
+    "authors": [
+      "Hao Yuan",
+      "Yuxin Wang",
+      "Lei Ji",
+      "Zhiwei Yu"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-01",
+    "abstract": "Physical-world interaction is inherently dynamic, as environments can evolve during execution, requiring agents to adapt their plans under non-stationary conditions. We study this challenge through long-horizon embodied planning under environment deviations and execution uncertainty. Existing embodied-task benchmarks can expose such failures, but these failures are usually treated as evaluation outcomes instead of learnable signals for training agents to recover. In this work, we introduce DynamicEnvPlan, a closed-loop framework for high-level planning in dynamic environments. It extends embodied task execution with humanoid agents, high-level primitive skills, structured semantic memory, and controllable perturbations. Our data synthesis design consists of planning, perturbation, and guarded correction modules that turn dynamic execution states into recovery-oriented traces. The resulting traces are used for staged supervised fine-tuning, enabling the planner to learn from both nominal execution and perturbed recovery trajectories. Using 104 task-scene combinations spanning i.i.d., compositional generalization, and out-of-distribution settings for fine-tuning and evaluation, DynamicEnvPlan boosts success rate from 33.3% for the base planner to 76.2%, while improving across all seven evaluation metrics critical to physical-world interaction, including safety and affordance compliance.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Safety",
+      "Humanoid",
+      "Fine-tuning",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2608.00600",
+    "title": "Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality",
+    "paper_url": "https://arxiv.org/abs/2608.00600",
+    "project_url": null,
+    "authors": [
+      "Clinton Enwerem",
+      "John S. Baras",
+      "Calin Belta"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-01",
+    "abstract": "Standard multifingered grasp execution architectures plan a collision-free trajectory to a selected grasp pose and track it with a feedback law. Execution-time object pose uncertainty or perturbations may invalidate the planned trajectory, forcing a costly replanning step. We present Grasp Distance Fields (GDFs), a smooth softmin distance field over grasp configurations in the arm-hand configuration space. Our controller executes a grasp by following this field's negative gradient with a stationary feedback law, eliminating the need for a planner, stored trajectory, or grasp selection. For safety, we filter this command through a CBF-CLF quadratic program (QP) constraining self-collision, workspace, object, and obstacle clearance, reporting impeded progress as explicit slack. We prove that the softmin tracks the true set distance within \\(\\log N/ρ\\) for \\(N\\) candidates and smoothing parameter \\(ρ\\), and that the filtered loop renders the safe set forward invariant. Since no smooth field captures hand-object contact switching, we switch modes with hysteresis at a pregrasp configuration, trading object collision avoidance for contact admission. A wrench-quality barrier then keeps the realized grasp's force-closure margin within a prescribed tolerance of its value at hold onset. We evaluate in kinematic simulation on a fixed-base arm and a Unitree G1 humanoid, both fitted with the same underactuated hand. Our controller navigates cluttered and dynamic scenes to safely reach for, grasp, and lift 46 of 50 objects spanning primitive, household, and adversarial classes. Across those lifts, the executed grasps retain a median 94\\% of their synthesized quality margin, at 0.09 ms QP solve time per 20 ms control step. Per-step softmax weights confirm that our controller executes the nearest candidate, obviating a separate selection step. Project page: www.clintonenwerem.com/gdf.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Safety",
+      "Humanoid",
+      "Underactuated",
+      "Collision",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2608.00500",
+    "title": "First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance",
+    "paper_url": "https://arxiv.org/abs/2608.00500",
+    "project_url": null,
+    "authors": [
+      "Yikai Zhou",
+      "Xingyun Wang",
+      "Jieming Cui",
+      "Bozhou Chen",
+      "Yikai Fan",
+      "Yixin Zhu",
+      "Wenxin Li"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-01",
+    "abstract": "Unified humanoid policies handle agile whole-body motion, yet stumble on a simple demand: staying balanced on one leg. On our single-leg-balance benchmark, eight released state-of-the-art general policies hold a clean single-leg stance on 0 of 90 test motions; they stay up only by stepping or hopping, recovering from imbalance rather than preventing it. Prevention needs the capture point (xCoM), the center of mass (CoM) extrapolated by its velocity, which has never driven a hardware policy because it requires a base linear velocity no on-board sensor provides; expressed relative to the support foot, that velocity cancels exactly, leaving an observation reconstructible from encoders and IMU alone. We put this first deployable dynamic-CoM observation directly into the actor that runs on hardware, and pair it with a reward library translated term by term from human postural control, under one principle: prevention over repair. Trained by asymmetric FastSAC with a privileged critic and no distillation, the resulting policy, FDDC (First Deployable Dynamic-CoM), holds clean single-leg balance on 86 of 90 held-out motions across nine stratified pose classes and transfers to a real Unitree G1; in ablation, the dynamic-CoM observation is the single largest driver: removing it alone costs 40 points of clean single-leg balance. We release the full stack with the first method-agnostic, reproducible sim2sim benchmark for humanoid single-leg balance, scoring each policy in a simulator distinct from its training one, a step toward turning balance from a per-task trick into a capability the field can measure.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Simulator",
+      "Humanoid",
+      "Distillation",
+      "Benchmark",
+      "PPO",
+      "SAC",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2608.00208",
+    "title": "Developing Combined Manipulation and Locomotion Skills with Interaction Representation and Skill Composition",
+    "paper_url": "https://arxiv.org/abs/2608.00208",
+    "project_url": null,
+    "authors": [
+      "Fanxing Meng",
+      "Jing Xiao"
+    ],
+    "published": "2026-07",
+    "published_date": "2026-07-31",
+    "abstract": "This paper addresses how to enable a humanoid robot to learn motion policies based on developmental principles and combine policies to create more sophisticated and useful behaviors. Specifically, we present an approach to (1) learning a whole-body reaching and grasping policy and (2) combining it and a standing-up and walking policy to compose a more complex policy of manipulation and locomotion: grasping, standing up, and walking.   In (1), our method draws inspiration from harmonic analysis and adopts cubic harmonics as weights to represent the hand-object spatial relationship via spatial convolution. Utilizing an intra-episode finger joint decoupling curriculum based on developmental principles, a robot can autonomously learn a generalizable grasping policy without relying on external datasets or pretrained models.   In (2), our method combines the grasping policy with a separately learned getting-up policy by providing both policies with their respective observation vectors and using hand-object interaction scores to determine when each policy should control which robot joints. Our results show a 93% zero-shot success rate for grasping unseen objects and a 96-100% success rate for standing up while holding the object. Our work also demonstrates that combining different policies is only effective if each policy learning happens on the same whole humanoid body even if a policy (such as for locomotion) does not seem to need all the body parts (such as fingers).",
+    "categories": [
+      "Locomotion",
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Zero-Shot",
+      "Humanoid",
+      "Walking",
+      "Dataset",
+      "Policy Learning",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2607.29625",
     "title": "Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control",
     "paper_url": "https://arxiv.org/abs/2607.29625",
@@ -134,36 +567,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
-  },
-  {
-    "arxiv_id": "2607.29287",
-    "title": "Translation with Thought: Difficulty-Adaptive Reasoning via Reinforcement Learning for Multi-Domain Machine Translation",
-    "paper_url": "https://arxiv.org/abs/2607.29287",
-    "project_url": null,
-    "authors": [
-      "Yongshi Ye",
-      "Biao Fu",
-      "Chongxuan Huang",
-      "Yidong Chen",
-      "Xiaodong Shi"
-    ],
-    "published": "2026-07",
-    "published_date": "2026-07-31",
-    "abstract": "Multi-domain machine translation (MDMT) poses a unique challenge due to varying levels of linguistic complexity across domains. Inspired by human translators' ability to adapt reasoning effort based on difficulty, we propose TwT (Translation with Thought), a resource-rational framework that learns to modulate inference between intuitive and deliberate reasoning. TwT is trained in two stages: (1) supervised fine-tuning on difficulty-aware long chain-of-thought traces distilled from DeepSeek-R1 and rewritten by GPT-4o to reflect human-like reasoning economy, and (2) reinforcement learning with a hybrid reward to optimize translation quality and reasoning efficiency. Evaluated on 15 benchmarks spanning in-domain and out-of-domain settings, as well as 3 seen and 59 unseen languages, with ablations across three backbone models, TwT-7B and TwT-14B outperform much larger SOTA reasoning models in translation quality, while reducing token usage by 32--60\\%. These results confirm that aligning translation behavior with cognitive principles enables robust generalization, high translation quality, and efficient reasoning in MDMT.",
-    "categories": [
-      "Simulation Benchmark"
-    ],
-    "tags": [
-      "Reinforcement Learning",
-      "Fine-tuning",
-      "Benchmark",
-      "Simulation Benchmark"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "Figure",
-    "summary": "",
-    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2607.28623",

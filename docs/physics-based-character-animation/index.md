@@ -1,9 +1,10 @@
 # Physics-Based Character Animation
 
-**42 papers** in this category.
+**43 papers** in this category.
 
 ## Months
 
+- [2026-08](/physics-based-character-animation/2026-08) (1 papers)
 - [2026-07](/physics-based-character-animation/2026-07) (4 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (4 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
@@ -35,6 +36,26 @@
 ---
 
 ## Recent Papers
+
+## GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.01410)
+- **Authors:** Zeyu Ling, Xinyao Yu, Renye Yan, Jikang Cheng, Zhanke Wang, Qing Shuai et al. (7 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Benchmark
+  - Physics-Based Character Animation
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+General-purpose humanoid trackers can execute diverse references, but their zero-shot coverage depends on large embodied corpora that are costly to extend. Text-to-motion generators offer scalable supervision, yet models trained on human motion or retargeted data inherit a gap between kinematic plausibility and robot executability.
+
+---
 
 ## Optimization of sim-to-real transfer in the humanoid robot NICO
 
@@ -340,20 +361,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.19926)
-- **Published:** 2025-08
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and RL
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.14120)
 - **Published:** 2025-08
 - **Tags:**
   - Humanoid

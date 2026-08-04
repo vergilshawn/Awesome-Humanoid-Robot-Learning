@@ -48,12 +48,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (237)",
+            "text": "Loco-Manipulation and Whole-Body Control (240)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/loco-manipulation-and-whole-body-control/"
+                  },
+                  {
+                        "text": "2026-08",
+                        "link": "/loco-manipulation-and-whole-body-control/2026-08"
                   },
                   {
                         "text": "2026-07",
@@ -170,12 +174,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (95)",
+            "text": "Manipulation (97)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/manipulation/"
+                  },
+                  {
+                        "text": "2026-08",
+                        "link": "/manipulation/2026-08"
                   },
                   {
                         "text": "2026-07",
@@ -346,12 +354,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (147)",
+            "text": "Locomotion (152)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/locomotion/"
+                  },
+                  {
+                        "text": "2026-08",
+                        "link": "/locomotion/2026-08"
                   },
                   {
                         "text": "2026-07",
@@ -542,12 +554,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (41)",
+            "text": "State Estimation (42)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/state-estimation/"
+                  },
+                  {
+                        "text": "2026-08",
+                        "link": "/state-estimation/2026-08"
                   },
                   {
                         "text": "2026-07",
@@ -724,6 +740,10 @@ export default defineConfig({
                         "link": "/simulation-benchmark/"
                   },
                   {
+                        "text": "2026-08",
+                        "link": "/simulation-benchmark/2026-08"
+                  },
+                  {
                         "text": "2026-07",
                         "link": "/simulation-benchmark/2026-07"
                   },
@@ -790,12 +810,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (42)",
+            "text": "Physics-Based Character Animation (43)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/physics-based-character-animation/"
+                  },
+                  {
+                        "text": "2026-08",
+                        "link": "/physics-based-character-animation/2026-08"
                   },
                   {
                         "text": "2026-07",

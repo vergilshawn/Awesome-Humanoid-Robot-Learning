@@ -1,9 +1,10 @@
 # Manipulation
 
-**95 papers** in this category.
+**97 papers** in this category.
 
 ## Months
 
+- [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (18 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
@@ -32,6 +33,42 @@
 ---
 
 ## Recent Papers
+
+## Teleopit: A Full-Embodiment Humanoid Teleoperation System
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.01834)
+- **Authors:** Bingqian Wu, Zicheng Xu, Xianghui Fan, Dayu Li, Xiangru Huang
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Optimization-Based
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid teleoperation for demonstration collection requires coordinated whole-body motion, continuous dexterous hand control, and viewpoint control. Existing systems either simplify hand commands or depend on dedicated wearable sensors for fine-grained hand motion.
+
+---
+
+## Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.01826)
+- **Authors:** Jiarui Yang, Yehao Lu, Yuning Su, Yufeng Xie, Yu Zhong, Haiyu Lan et al. (12 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+
+### Summary
+
+Vision-Language-Action (VLA) models have shown strong generalization in robotic manipulation, yet complex contact-rich tasks often benefit from multi-camera observations that jointly capture the end effector, objects, and targets under occlusion. Existing multi-camera VLAs usually concatenate view tokens, leaving action representations weak in metric depth and inconsistent across cameras.
+
+---
 
 ## CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning
 
@@ -376,48 +413,5 @@ Human-like dexterous hands with multiple fingers offer human-level manipulation 
 ### Summary
 
 Learning robot dexterous manipulation from human manipulation videos requires reliably retargeting human intent to executable robot actions while maintaining stable hand-object contact, which remains a key challenge in embodied intelligence. Existing retargeting methods often ignore explicit contact modeling or rely on reinforcement learning, resulting in limited accuracy and generalization.
-
----
-
-## Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.32009)
-- **Authors:** Xiaopeng Lin, Ruoqi Yang, Shijie Lian, Zhaolong Shen, Bin Yu, Changti Wu et al. (17 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Zero-Shot
-  - Human Demonstration
-  - Humanoid
-  - Inverse Kinematics
-  - Vision-Language
-  - Physics-Based Character Animation
-
-### Summary
-
-Vision-language-action (VLA) models across robot embodiments require high-quality observation--action supervision to learn deployable action distributions, yet scaling such robot data remains difficult, especially for high-DoF humanoids. Teleoperation provides controller-aligned supervision, while human egocentric videos capture diverse bimanual manipulation but do not directly provide executable robot actions.
-
----
-
-## RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.31836)
-- **Authors:** Xinyi Wang, Donghan Li, Zi'Ang Chen, Chong Yu, Chen Xin, Peng Ye et al. (8 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Imitation Learning
-  - Manipulation
-  - Humanoid
-  - Dataset
-  - Multi-Modal
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-In the field of robot learning, large-scale and diverse demonstration trajectories provide the fundamental basis for enhancing robotic manipulation ability. We introduce RoboTacDex, a large, multi-modal, and diverse dataset of dexterous manipulation behaviors performed with a humanoid robot.
 
 ---

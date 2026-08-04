@@ -1,9 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**237 papers** in this category.
+**240 papers** in this category.
 
 ## Months
 
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (3 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
@@ -36,6 +37,67 @@
 ---
 
 ## Recent Papers
+
+## Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.02080)
+- **Authors:** Haofeng Chen, Carson Kohlbrenner, Jiri Kubik, Lukas Rustler, Alexander Dickhans, Karel Bartunek et al. (9 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — iCub
+- **Tags:**
+  - Humanoid
+  - Tactile Sensing
+  - Loco-Manipulation and Whole-Body Control
+  - Navigation
+  - Hardware Design
+
+### Summary
+
+Whole-body tactile sensing is a prerequisite for humanoids that operate in contact-rich human environments, but conventional taxel arrays scale poorly with surface area, wiring complexity, and robot-specific curvature. We present a conformal electrical impedance tomography tactile skin fabricated through a geometry-adaptable additive-manufacturing workflow.
+
+---
+
+## LooperMuscle: Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.00820)
+- **Authors:** Boyi Liu, Qijin Li, Tianqi Yu, Qinrui Yan, Xingxing Zuo
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Policy Learning
+  - PPO
+  - SAC
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+FastSAC-style methods significantly reduce humanoid motion training time but often suffer from notable performance degradation compared with PPO in whole-body tracking tasks. We target this speed-performance gap by introducing LooperMuscle, a composed expert policy learning framework that restores tracking quality while preserving high training efficiency.
+
+---
+
+## First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.00500)
+- **Authors:** Yikai Zhou, Xingyun Wang, Jieming Cui, Bozhou Chen, Yikai Fan, Yixin Zhu et al. (7 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Simulator
+  - Humanoid
+  - Distillation
+  - Benchmark
+  - PPO
+  - SAC
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Unified humanoid policies handle agile whole-body motion, yet stumble on a simple demand: staying balanced on one leg. On our single-leg-balance benchmark, eight released state-of-the-art general policies hold a clean single-leg stance on 0 of 90 test motions; they stay up only by stepping or hopping, recovering from imbalance rather than preventing it.
+
+---
 
 ## Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control
 
@@ -358,60 +420,5 @@ Large language models (LLMs) have emerged as a powerful tool for retrieving know
 ### Summary
 
 Large-scale humanoid motion-tracking controllers are commonly improved by reallocating training effort: difficult motions are sampled more often, isolated into smaller subsets, or assigned to specialized experts. We show that this view is incomplete.
-
----
-
-## 🌟 SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.04119)
-- **Project:** [GitHub](https://github.com/lukephong/sov-cad)
-- **Authors:** Zhaopeng Feng, Chen Zhi, Xuhong Zhang, Zhengwen Feng, Xinkui Zhao
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Transformer
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Reconstructing Computer-Aided Design (CAD) modeling sequences from images is crucial for preserving design intent and supporting parametric editing. However, existing methods typically generate full CAD sequences holistically, overlooking the iterative, feedback-driven nature of human design workflows.
-
----
-
-## Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.00855)
-- **Authors:** Lukas Köning, Nataša Miličić, Klaus Bogenberger
-- **Published:** 2026-07
-- **Tags:**
-  - Safety
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Traffic complexity critically influences driver task demands in partially automated vehicles, yet subjective perception and its behavioral indicators remain underexplored in real-world settings. This paper analyzes driver behavior - vehicle interaction, glance patterns, and guiding fixation - across varying levels of subjective traffic complexity, using real-world data from 20 drivers in real urban traffic.
-
----
-
-## VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.30645)
-- **Authors:** Yen-Jen Wang, Jiaman Li, Sirui Chen, Takara E. Truong, Pei Xu, Pieter Abbeel et al. (12 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Sim-to-Real
-  - Manipulation
-  - Navigation
-  - Humanoid
-  - Gaussian Splatting
-  - Vision-Language
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-
-### Summary
-
-Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this complete tuple at scale.
 
 ---

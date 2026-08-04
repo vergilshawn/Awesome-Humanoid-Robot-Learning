@@ -4,7 +4,8 @@
 
 ## Months
 
-- [2026-07](/simulation-benchmark/2026-07) (16 papers)
+- [2026-08](/simulation-benchmark/2026-08) (1 papers)
+- [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
 - [2026-04](/simulation-benchmark/2026-04) (1 papers)
@@ -25,21 +26,21 @@
 
 ## Recent Papers
 
-## Translation with Thought: Difficulty-Adaptive Reasoning via Reinforcement Learning for Multi-Domain Machine Translation
+## From Failures to Supervision: DynamicEnvPlan for Robust Long-Horizon Embodied Planning
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.29287)
-- **Authors:** Yongshi Ye, Biao Fu, Chongxuan Huang, Yidong Chen, Xiaodong Shi
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.00613)
+- **Authors:** Hao Yuan, Yuxin Wang, Lei Ji, Zhiwei Yu
+- **Published:** 2026-08
 - **Tags:**
-  - Reinforcement Learning
+  - Safety
+  - Humanoid
   - Fine-tuning
   - Benchmark
   - Simulation Benchmark
 
 ### Summary
 
-Multi-domain machine translation (MDMT) poses a unique challenge due to varying levels of linguistic complexity across domains. Inspired by human translators' ability to adapt reasoning effort based on difficulty, we propose TwT (Translation with Thought), a resource-rational framework that learns to modulate inference between intuitive and deliberate reasoning.
+Physical-world interaction is inherently dynamic, as environments can evolve during execution, requiring agents to adapt their plans under non-stationary conditions. We study this challenge through long-horizon embodied planning under environment deviations and execution uncertainty.
 
 ---
 

@@ -6,19 +6,197 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 2 papers
 - **Booster:** 4 papers
-- **Digit:** 9 papers
-- **Figure:** 52 papers
+- **Digit:** 10 papers
+- **Figure:** 54 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
-- **Unitree G1:** 54 papers
+- **Unitree G1:** 58 papers
 - **Unitree H1:** 2 papers
 - **Unknown Platform:** 13 papers
-- **iCub:** 1 papers
+- **iCub:** 2 papers
 
 ---
 
 ## All Real Robot Papers
+
+## StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.02385)
+- **Authors:** Weihao Wu, Ming Huang, Ruofei Liu, Jinglei Nie, Shuxiang Guo, Chunying Li
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Safety
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Humanoid motion trackers perform reliably within learned tracking distributions, but falls can move the robot into low-height, contact-rich states from which an advancing command is temporarily unreachable. Tracking-only policies may chase infeasible references, producing rapid, large-amplitude limb corrections that increase risk to the robot and its surroundings.
+
+---
+
+## Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.02080)
+- **Authors:** Haofeng Chen, Carson Kohlbrenner, Jiri Kubik, Lukas Rustler, Alexander Dickhans, Karel Bartunek et al. (9 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — iCub
+- **Tags:**
+  - Humanoid
+  - Tactile Sensing
+  - Loco-Manipulation and Whole-Body Control
+  - Navigation
+  - Hardware Design
+
+### Summary
+
+Whole-body tactile sensing is a prerequisite for humanoids that operate in contact-rich human environments, but conventional taxel arrays scale poorly with surface area, wiring complexity, and robot-specific curvature. We present a conformal electrical impedance tomography tactile skin fabricated through a geometry-adaptable additive-manufacturing workflow.
+
+---
+
+## Teleopit: A Full-Embodiment Humanoid Teleoperation System
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.01834)
+- **Authors:** Bingqian Wu, Zicheng Xu, Xianghui Fan, Dayu Li, Xiangru Huang
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Optimization-Based
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid teleoperation for demonstration collection requires coordinated whole-body motion, continuous dexterous hand control, and viewpoint control. Existing systems either simplify hand commands or depend on dedicated wearable sensors for fine-grained hand motion.
+
+---
+
+## Emotional Expression in Persuasion by Quadruped Virtual Agents: Toward Cross-Species Design Patterns
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.01895)
+- **Authors:** Kaoru Sumi, Souki Osawa
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Persuasive technologies increasingly use virtual agents to influence attitudes and behavior, but research has focused mainly on humanoid agents. The persuasive design of non-humanoid, quadruped agents remains underexplored, and it is unclear whether emotional expression works consistently across animal species or whether species-specific motion is necessary.
+
+---
+
+## GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.01410)
+- **Authors:** Zeyu Ling, Xinyao Yu, Renye Yan, Jikang Cheng, Zhanke Wang, Qing Shuai et al. (7 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Benchmark
+  - Physics-Based Character Animation
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+General-purpose humanoid trackers can execute diverse references, but their zero-shot coverage depends on large embodied corpora that are costly to extend. Text-to-motion generators offer scalable supervision, yet models trained on human motion or retargeted data inherit a gap between kinematic plausibility and robot executability.
+
+---
+
+## ORCESTRA: VLM-driven Visual Robot programming in Mixed Reality
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.00775)
+- **Authors:** Ivan Snegirev, Elizaveta Semenyakina, Mikhail Konenkov, Artem Lykov, Miguel Altamirano Cabrera, Dzmitry Tsetserukou
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Locomotion
+
+### Summary
+
+ORCESTRA is a mixed-reality system for programming robot digital twins through no-code waypoint teaching and language-guided control. In a passthrough mixed-reality workspace, users place robot twins on real surfaces, teach trajectories, save robot-relative episodes, or issue spoken/typed commands that a vision-language model converts into structured digital-twin plans.
+
+---
+
+## Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.00600)
+- **Authors:** Clinton Enwerem, John S. Baras, Calin Belta
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Underactuated
+  - Collision
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Standard multifingered grasp execution architectures plan a collision-free trajectory to a selected grasp pose and track it with a feedback law. Execution-time object pose uncertainty or perturbations may invalidate the planned trajectory, forcing a costly replanning step.
+
+---
+
+## First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.00500)
+- **Authors:** Yikai Zhou, Xingyun Wang, Jieming Cui, Bozhou Chen, Yikai Fan, Yixin Zhu et al. (7 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Simulator
+  - Humanoid
+  - Distillation
+  - Benchmark
+  - PPO
+  - SAC
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Unified humanoid policies handle agile whole-body motion, yet stumble on a simple demand: staying balanced on one leg. On our single-leg-balance benchmark, eight released state-of-the-art general policies hold a clean single-leg stance on 0 of 90 test motions; they stay up only by stepping or hopping, recovering from imbalance rather than preventing it.
+
+---
+
+## Developing Combined Manipulation and Locomotion Skills with Interaction Representation and Skill Composition
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.00208)
+- **Authors:** Fanxing Meng, Jing Xiao
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Walking
+  - Dataset
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This paper addresses how to enable a humanoid robot to learn motion policies based on developmental principles and combine policies to create more sophisticated and useful behaviors. Specifically, we present an approach to (1) learning a whole-body reaching and grasping policy and (2) combining it and a standing-up and walking policy to compose a more complex policy of manipulation and locomotion: grasping, standing up, and walking.
+
+---
 
 ## Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control
 
@@ -57,24 +235,6 @@ The demand for humanoid loco-manipulation tasks with an object has recently incr
 ### Summary
 
 We present a real-time upper-body human-to-humanoid motion imitation framework driven by neuromorphic event-based vision. This work addresses practical perceptual bottlenecks of conventional frame-based RGB sensors, specifically their difficulty in high dynamic range (HDR) scenes and rapid motions due to fixed integration times.
-
----
-
-## Translation with Thought: Difficulty-Adaptive Reasoning via Reinforcement Learning for Multi-Domain Machine Translation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.29287)
-- **Authors:** Yongshi Ye, Biao Fu, Chongxuan Huang, Yidong Chen, Xiaodong Shi
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Reinforcement Learning
-  - Fine-tuning
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Multi-domain machine translation (MDMT) poses a unique challenge due to varying levels of linguistic complexity across domains. Inspired by human translators' ability to adapt reasoning effort based on difficulty, we propose TwT (Translation with Thought), a resource-rational framework that learns to modulate inference between intuitive and deliberate reasoning.
 
 ---
 
