@@ -11,14 +11,35 @@ Papers with real humanoid robot deployment and experiments.
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
-- **Unitree G1:** 58 papers
+- **Unitree G1:** 59 papers
 - **Unitree H1:** 2 papers
-- **Unknown Platform:** 13 papers
+- **Unknown Platform:** 14 papers
 - **iCub:** 2 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.02809)
+- **Authors:** Caiwu Ding, Tao Cui, Lingyun Wang, Chengtao Wen
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Safety
+  - Biped
+  - Humanoid
+  - Walking
+  - PPO
+
+### Summary
+
+Industrial humanoid robots are constrained less by locomotion or manipulation capability than by the immaturity of functional safety certification for legged platforms. The root difficulty is that the safe state of a legged robot is an actively-controlled state, which violates the fail-passive assumption underlying ISO~13849-1 / EN~60204-1: removing power from a walking biped causes an uncontrolled fall, so classical de-energization is itself a hazard.
+
+---
 
 ## StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior
 
@@ -173,6 +194,28 @@ Standard multifingered grasp execution architectures plan a collision-free traje
 ### Summary
 
 Unified humanoid policies handle agile whole-body motion, yet stumble on a simple demand: staying balanced on one leg. On our single-leg-balance benchmark, eight released state-of-the-art general policies hold a clean single-leg stance on 0 of 90 test motions; they stay up only by stepping or hopping, recovering from imbalance rather than preventing it.
+
+---
+
+## Light-Loco-Parkour: Versatile Perceptive Whole-Body Locomotion via Multi-Skill Distillation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.02653)
+- **Authors:** Hongming Chen, Zhuoran Li, Hongxi Wang, Jiangpeng Hu, Ziliang Li, Peize Liu et al. (12 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Distillation
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Existing humanoid whole-body control systems still fall short of the way humans move through cluttered terrain: they either track expressive whole-body references without terrain generalization, or react to terrain online while leaving the arms, torso, and knees largely unused. We present \texttt{Light-Loco-Parkour} (LLP), an end-to-end perceptive whole-body locomotion system that closes this gap with a single deployable policy.
 
 ---
 

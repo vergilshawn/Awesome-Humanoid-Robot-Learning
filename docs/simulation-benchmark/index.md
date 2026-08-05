@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**71 papers** in this category.
+**72 papers** in this category.
 
 ## Months
 
-- [2026-08](/simulation-benchmark/2026-08) (1 papers)
+- [2026-08](/simulation-benchmark/2026-08) (2 papers)
 - [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
@@ -25,6 +25,23 @@
 ---
 
 ## Recent Papers
+
+## Learning Context-Aware Motion Priors for Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.03234)
+- **Authors:** Yunyang Mo, Yi Gu, Yangchen Zhou, Hanyang Cao, Renjing Xu
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Policy Learning
+  - Simulation Benchmark
+
+### Summary
+
+Motion priors provide powerful guidance for learning naturalistic humanoid behaviors. However, existing methods typically learn a general, task-agnostic prior from the entire reference dataset and apply it uniformly throughout policy training.
+
+---
 
 ## From Failures to Supervision: DynamicEnvPlan for Robust Long-Horizon Embodied Planning
 
@@ -385,26 +402,5 @@ Robots operating in real-world environments must in general be able to recognize
 ### Summary
 
 How do we learn to hit a tennis backhand? Not from a thousand hours of tennis tournaments on TV - we work with a coach and practice. We argue this is also the right recipe for teaching dynamic skills to humanoid robots.
-
----
-
-## WOLF-VLA: Whole-Body Humanoid Optimal Locomotion Framework for Vision-Language-Action Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.25591)
-- **Authors:** Melya Boukheddimi, Omar Adjali, Daniel Sontag, Frank Kirchner
-- **Published:** 2026-06
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Safety
-  - Robustness
-  - Humanoid
-  - Vision-Language
-  - Impact
-  - Benchmark
-
-### Summary
-
-Vision-Language-Action (VLA) models have recently demonstrated strong generalization in robotic manipulation, yet their applicability to whole-body, contact-rich humanoid locomotion remains severely underexplored due to data scarcity, the absence of dynamically consistent demonstrations, and the difficulty of encoding optimality and safety in learning-based pipelines. This work introduces a unified framework WOLF-VLA that integrates whole-body optimal-control (OC) motion synthesis with large-scale multi-modal dataset to train VLAs capable of generating humanoid locomotion policies directly from natural-language instructions.
 
 ---

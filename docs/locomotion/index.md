@@ -1,10 +1,10 @@
 # Locomotion
 
-**152 papers** in this category.
+**153 papers** in this category.
 
 ## Months
 
-- [2026-08](/locomotion/2026-08) (4 papers)
+- [2026-08](/locomotion/2026-08) (5 papers)
 - [2026-07](/locomotion/2026-07) (22 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
@@ -38,6 +38,27 @@
 ---
 
 ## Recent Papers
+
+## Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.02809)
+- **Authors:** Caiwu Ding, Tao Cui, Lingyun Wang, Chengtao Wen
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Safety
+  - Biped
+  - Humanoid
+  - Walking
+  - PPO
+
+### Summary
+
+Industrial humanoid robots are constrained less by locomotion or manipulation capability than by the immaturity of functional safety certification for legged platforms. The root difficulty is that the safe state of a legged robot is an actively-controlled state, which violates the fail-passive assumption underlying ISO~13849-1 / EN~60204-1: removing power from a walking biped causes an uncontrolled fall, so classical de-energization is itself a hazard.
+
+---
 
 ## StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior
 
@@ -390,24 +411,5 @@ A humanoid that can walk should not relearn locomotion from scratch to jog or ru
 ### Summary
 
 Bipedal robots are challenging to control because they operate close to instability, where small variations in foot-terrain contact can rapidly destabilize locomotion. On rigid terrain, bipedal robots mitigate this fragility by using well-established contact mechanics and control strategies.
-
----
-
-## Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.09323)
-- **Authors:** Leonie Leven, Marko Ackermann, Christian Werner, Melina Schmetterer, Theresa Buchner, Monika Eckstein et al. (7 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Navigation
-  - Safety
-  - Humanoid
-  - Walking
-  - PPO
-  - Locomotion
-
-### Summary
-
-The shortage of healthcare staff is a challenge in geriatric care. To address this, robots can be integrated into care settings to provide assistance and emotional support.
 
 ---

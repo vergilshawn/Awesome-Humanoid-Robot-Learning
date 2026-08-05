@@ -8,22 +8,22 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 785
-- **Real Robot Papers:** 151
+- **Total Papers:** 790
+- **Real Robot Papers:** 153
 - **Open Source Papers:** 139
 - **Latest Month:** 2026-08
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (240)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (242)
 - [Manipulation](/manipulation/) (97)
 - [Teleoperation](/teleoperation/) (37)
-- [Locomotion](/locomotion/) (152)
-- [Navigation](/navigation/) (31)
+- [Locomotion](/locomotion/) (153)
+- [Navigation](/navigation/) (32)
 - [State Estimation](/state-estimation/) (42)
 - [Sim-to-Real](/sim-to-real/) (14)
 - [Hardware Design](/hardware-design/) (31)
-- [Simulation Benchmark](/simulation-benchmark/) (71)
+- [Simulation Benchmark](/simulation-benchmark/) (72)
 - [Physics-Based Character Animation](/physics-based-character-animation/) (43)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (27)
 
@@ -31,6 +31,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — 2026-08
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [Learning Context-Aware Motion Priors for Humanoid Control](https://arxiv.org/abs/2608.03234) — 2026-08
+  - [Simulation Benchmark](/simulation-benchmark/)
+-  [PFM-HR: Pose Flow Matching for Humanoid Robots](https://arxiv.org/abs/2608.03227) — 2026-08
+  - [Navigation](/navigation/)
+-  🤖 [Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study](https://arxiv.org/abs/2608.02809) — 2026-08
+  - [Locomotion](/locomotion/)
 -  🤖 [StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior](https://arxiv.org/abs/2608.02385) — 2026-08
   - [Locomotion](/locomotion/)
 -  🤖 [Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin](https://arxiv.org/abs/2608.02080) — 2026-08
@@ -43,46 +51,38 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Locomotion](/locomotion/)
 -  🤖 [Emotional Expression in Persuasion by Quadruped Virtual Agents: Toward Cross-Species Design Patterns](https://arxiv.org/abs/2608.01895) — 2026-08
   - [Locomotion](/locomotion/)
--  🤖 [GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking](https://arxiv.org/abs/2608.01410) — 2026-08
-  - [Physics-Based Character Animation](/physics-based-character-animation/)
--  [LooperMuscle: Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts](https://arxiv.org/abs/2608.00820) — 2026-08
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [ORCESTRA: VLM-driven Visual Robot programming in Mixed Reality](https://arxiv.org/abs/2608.00775) — 2026-08
-  - [Locomotion](/locomotion/)
--  [From Failures to Supervision: DynamicEnvPlan for Robust Long-Horizon Embodied Planning](https://arxiv.org/abs/2608.00613) — 2026-08
-  - [Simulation Benchmark](/simulation-benchmark/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (565)
-- **Loco-Manipulation and Whole-Body Control** (277)
-- **Locomotion** (213)
-- **Manipulation** (207)
-- **Simulation Benchmark** (184)
-- **State Estimation** (151)
-- **Physics-Based Character Animation** (103)
-- **Reinforcement Learning** (98)
-- **PPO** (78)
+- **Humanoid** (570)
+- **Loco-Manipulation and Whole-Body Control** (279)
+- **Locomotion** (215)
+- **Manipulation** (209)
+- **Simulation Benchmark** (186)
+- **State Estimation** (152)
+- **Physics-Based Character Animation** (104)
+- **Reinforcement Learning** (99)
+- **PPO** (80)
 - **Human Motion Analysis and Synthesis** (77)
-- **Teleoperation** (71)
-- **Benchmark** (69)
-- **Navigation** (66)
-- **Dataset** (60)
-- **Whole-Body Control** (60)
+- **Teleoperation** (72)
+- **Benchmark** (70)
+- **Navigation** (67)
+- **Whole-Body Control** (62)
+- **Dataset** (61)
+- **Vision-Language** (44)
 - **Hardware Design** (44)
-- **Vision-Language** (43)
 - **Sim-to-Real** (42)
 - **Diffusion** (41)
-- **Zero-Shot** (38)
-- **Safety** (36)
+- **Zero-Shot** (39)
+- **Safety** (37)
+- **Biped** (27)
+- **Walking** (27)
 - **Foundation Model** (27)
-- **Walking** (26)
-- **Biped** (26)
+- **Human Demonstration** (25)
+- **Distillation** (25)
 - **Robustness** (24)
-- **Human Demonstration** (24)
-- **Distillation** (23)
 - **Collision** (21)
 - **Gait** (20)
 - **Fine-tuning** (19)
@@ -95,9 +95,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/loco-manipulation-and-whole-body-control/2026-08)
 
+- [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Generative Models`, `Human Demonstration`, `Humanoid`
 - [Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin](https://arxiv.org/abs/2608.02080) — `Humanoid`, `Tactile Sensing`, `Loco-Manipulation and Whole-Body Control`, `Navigation`, `Hardware Design`, `Real Robot`
 - [LooperMuscle: Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts](https://arxiv.org/abs/2608.00820) — `Humanoid`, `Policy Learning`, `PPO`, `SAC`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
 - [First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance](https://arxiv.org/abs/2608.00500) — `Simulator`, `Humanoid`, `Distillation`, `Benchmark`, `PPO`, `SAC`
+- [Light-Loco-Parkour: Versatile Perceptive Whole-Body Locomotion via Multi-Skill Distillation](https://arxiv.org/abs/2608.02653) — `Whole-Body Control`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Distillation`, `Benchmark`
 
 #### [2026-07](/loco-manipulation-and-whole-body-control/2026-07)
 
@@ -682,6 +684,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/locomotion/2026-08)
 
+- [Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study](https://arxiv.org/abs/2608.02809) — `Locomotion`, `Manipulation`, `Safety`, `Biped`, `Humanoid`, `Walking`
 - [StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior](https://arxiv.org/abs/2608.02385) — `Safety`, `Humanoid`, `PPO`, `Locomotion`, `Real Robot`
 - [Perception-and-action system for humanoid robot task execution in construction](https://arxiv.org/abs/2608.01600) — `Multi-Task`, `Humanoid`, `Locomotion`
 - [Emotional Expression in Persuasion by Quadruped Virtual Agents: Toward Cross-Species Design Patterns](https://arxiv.org/abs/2608.01895) — `Humanoid`, `PPO`, `Locomotion`, `Real Robot`
@@ -923,6 +926,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Robust and Versatile Bipedal Jumping Control through Reinforcement Learning](https://arxiv.org/abs/2302.09450) — `Reinforcement Learning`, `Biped`, `Locomotion`
 
 ### [Navigation](/navigation/)
+
+#### [2026-08](/navigation/2026-08)
+
+- [PFM-HR: Pose Flow Matching for Humanoid Robots](https://arxiv.org/abs/2608.03227) — `Reinforcement Learning`, `Humanoid`, `Flow Matching`, `Navigation`, `Physics-Based Character Animation`
 
 #### [2026-07](/navigation/2026-07)
 
@@ -1208,6 +1215,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/simulation-benchmark/2026-08)
 
+- [Learning Context-Aware Motion Priors for Humanoid Control](https://arxiv.org/abs/2608.03234) — `Humanoid`, `Dataset`, `Policy Learning`, `Simulation Benchmark`
 - [From Failures to Supervision: DynamicEnvPlan for Robust Long-Horizon Embodied Planning](https://arxiv.org/abs/2608.00613) — `Safety`, `Humanoid`, `Fine-tuning`, `Benchmark`, `Simulation Benchmark`
 
 #### [2026-07](/simulation-benchmark/2026-07)

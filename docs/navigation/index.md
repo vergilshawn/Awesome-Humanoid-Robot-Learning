@@ -1,9 +1,10 @@
 # Navigation
 
-**31 papers** in this category.
+**32 papers** in this category.
 
 ## Months
 
+- [2026-08](/navigation/2026-08) (1 papers)
 - [2026-07](/navigation/2026-07) (7 papers)
 - [2026-06](/navigation/2026-06) (6 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
@@ -23,6 +24,24 @@
 ---
 
 ## Recent Papers
+
+## PFM-HR: Pose Flow Matching for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.03227)
+- **Authors:** Yukang Gao, Yi Gu, Yangchen Zhou, Xingyu Chen, Zhaorui Wang, Fanghai Zhang et al. (12 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Flow Matching
+  - Navigation
+  - Physics-Based Character Animation
+
+### Summary
+
+Motion priors improve reinforcement learning for physics-based humanoid tracking, but temporal priors require ordered motion clips, while pose priors provide limited guidance for policy-induced pose transitions. We present Pose Flow Matching for Humanoid Robots (PFM-HR), a reusable flow matching prior trained directly on large scale unordered pose data.
+
+---
 
 ## ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments
 
@@ -358,21 +377,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-11
 - **Tags:**
   - Locomotion
-  - Navigation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Quantum deep reinforcement learning for humanoid robot navigation task
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2509.11388)
-- **Published:** 2025-09
-- **Tags:**
-  - Reinforcement Learning
   - Navigation
   - Humanoid
 

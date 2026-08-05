@@ -2,23 +2,23 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 785
-- **Real Robot Papers:** 151
+- **Total Papers:** 790
+- **Real Robot Papers:** 153
 - **Open Source Papers:** 139
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (240)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (242)
 - [Manipulation](#manipulation) (97)
 - [Teleoperation](#teleoperation) (37)
-- [Locomotion](#locomotion) (152)
-- [Navigation](#navigation) (31)
+- [Locomotion](#locomotion) (153)
+- [Navigation](#navigation) (32)
 - [State Estimation](#state-estimation) (42)
 - [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (71)
+- [Simulation Benchmark](#simulation-benchmark) (72)
 - [Physics-Based Character Animation](#physics-based-character-animation) (43)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (27)
 - [Usage](#usage)
@@ -29,9 +29,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Generative Models`, `Human Demonstration`, `Humanoid`
 - [Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin](https://arxiv.org/abs/2608.02080) — `Humanoid`, `Tactile Sensing`, `Loco-Manipulation and Whole-Body Control`, `Navigation`, `Hardware Design`, `Real Robot`
 - [LooperMuscle: Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts](https://arxiv.org/abs/2608.00820) — `Humanoid`, `Policy Learning`, `PPO`, `SAC`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
 - [First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance](https://arxiv.org/abs/2608.00500) — `Simulator`, `Humanoid`, `Distillation`, `Benchmark`, `PPO`, `SAC`
+- [Light-Loco-Parkour: Versatile Perceptive Whole-Body Locomotion via Multi-Skill Distillation](https://arxiv.org/abs/2608.02653) — `Whole-Body Control`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Distillation`, `Benchmark`
 
 ### 2026-07
 
@@ -616,6 +618,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study](https://arxiv.org/abs/2608.02809) — `Locomotion`, `Manipulation`, `Safety`, `Biped`, `Humanoid`, `Walking`
 - [StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior](https://arxiv.org/abs/2608.02385) — `Safety`, `Humanoid`, `PPO`, `Locomotion`, `Real Robot`
 - [Perception-and-action system for humanoid robot task execution in construction](https://arxiv.org/abs/2608.01600) — `Multi-Task`, `Humanoid`, `Locomotion`
 - [Emotional Expression in Persuasion by Quadruped Virtual Agents: Toward Cross-Species Design Patterns](https://arxiv.org/abs/2608.01895) — `Humanoid`, `PPO`, `Locomotion`, `Real Robot`
@@ -857,6 +860,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Robust and Versatile Bipedal Jumping Control through Reinforcement Learning](https://arxiv.org/abs/2302.09450) — `Reinforcement Learning`, `Biped`, `Locomotion`
 
 ## Navigation
+
+### 2026-08
+
+- [PFM-HR: Pose Flow Matching for Humanoid Robots](https://arxiv.org/abs/2608.03227) — `Reinforcement Learning`, `Humanoid`, `Flow Matching`, `Navigation`, `Physics-Based Character Animation`
 
 ### 2026-07
 
@@ -1142,6 +1149,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Learning Context-Aware Motion Priors for Humanoid Control](https://arxiv.org/abs/2608.03234) — `Humanoid`, `Dataset`, `Policy Learning`, `Simulation Benchmark`
 - [From Failures to Supervision: DynamicEnvPlan for Robust Long-Horizon Embodied Planning](https://arxiv.org/abs/2608.00613) — `Safety`, `Humanoid`, `Fine-tuning`, `Benchmark`, `Simulation Benchmark`
 
 ### 2026-07

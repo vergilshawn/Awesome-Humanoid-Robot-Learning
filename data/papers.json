@@ -1,5 +1,147 @@
 [
   {
+    "arxiv_id": "2608.03387",
+    "title": "RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation",
+    "paper_url": "https://arxiv.org/abs/2608.03387",
+    "project_url": null,
+    "authors": [
+      "Shuliang He",
+      "Shuai Wang",
+      "Bo Yue",
+      "Junchi Teng",
+      "Changyu Wang",
+      "Guiliang Liu"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-04",
+    "abstract": "Humanoid robots have the potential to perform dexterous manipulation in human environments, yet acquiring diverse and generalizable skills remains costly due to expensive hardware data collection and labor-intensive annotation. Recent advances in video generative models provide a promising opportunity to synthesize rich manipulation experiences from visual observations, but transferring such imagined behaviors into executable whole-body humanoid skills remains largely unexplored. In this work, we present RoboReact, a framework that automatically synthesizes whole-body humanoid manipulation skills from a single egocentric RGB-D observation. RoboReact generates human manipulation videos, extracts geometry-preserving interaction keyframes through depth-aware 3D reconstruction, and retargets them to high-DoF humanoid platforms while preserving hand-object interaction geometry. To bridge the gap between imagined plans and physical execution, RoboReact performs online object-centric re-grounding and leverages a vision-language model-guided refinement loop to adapt skills under geometric mismatch and execution deviations. The refined skills are executed through a whole-body controller, enabling coordinated whole-body manipulation and dexterous interaction. Experiments on real humanoid robots demonstrate that RoboReact generalizes across diverse object configurations and robustly recovers from execution disturbances without requiring teleoperation or human demonstrations. These results highlight the potential of combining generative models, vision-language reasoning, and closed-loop control for scalable humanoid skill acquisition.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Teleoperation",
+      "Manipulation",
+      "Generative Models",
+      "Human Demonstration",
+      "Humanoid",
+      "3D Reconstruction",
+      "Vision-Language",
+      "Distillation",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2608.03234",
+    "title": "Learning Context-Aware Motion Priors for Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2608.03234",
+    "project_url": null,
+    "authors": [
+      "Yunyang Mo",
+      "Yi Gu",
+      "Yangchen Zhou",
+      "Hanyang Cao",
+      "Renjing Xu"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-04",
+    "abstract": "Motion priors provide powerful guidance for learning naturalistic humanoid behaviors. However, existing methods typically learn a general, task-agnostic prior from the entire reference dataset and apply it uniformly throughout policy training. As a result, the prior cannot distinguish which reference motions are relevant to the current task context, potentially providing irrelevant or conflicting guidance. We present Context-Aware Motion Priors (CMP), a framework that adapts a general motion prior to the current task context without manual skill labels, dataset partitioning, or a separate skill discovery stage. Specifically, CMP learns context-motion compatibility using high-advantage policy rollouts, while a demonstration-based objective keeps the learned relevance grounded in the reference distribution. The resulting relevance scores reweight reference supervision for training a lightweight context-conditioned adapter. To evaluate the effectiveness and generality of CMP, we instantiate it with both Adversarial Motion Priors and Score-Matching Motion Priors. Across five humanoid control tasks, CMP consistently improves task performance and sample efficiency, learns meaningful context-motion alignment, and remains robust to imbalanced reference distributions. These results show that adapting motion priors to task contexts provides more relevant guidance for humanoid policy learning.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "Dataset",
+      "Policy Learning",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2608.03227",
+    "title": "PFM-HR: Pose Flow Matching for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2608.03227",
+    "project_url": null,
+    "authors": [
+      "Yukang Gao",
+      "Yi Gu",
+      "Yangchen Zhou",
+      "Xingyu Chen",
+      "Zhaorui Wang",
+      "Fanghai Zhang",
+      "Hanyang Cao",
+      "Zhengyang Shen",
+      "Ji Ma",
+      "Runhan Zhang",
+      "Lei Han",
+      "Renjing Xu"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-04",
+    "abstract": "Motion priors improve reinforcement learning for physics-based humanoid tracking, but temporal priors require ordered motion clips, while pose priors provide limited guidance for policy-induced pose transitions. We present Pose Flow Matching for Humanoid Robots (PFM-HR), a reusable flow matching prior trained directly on large scale unordered pose data. PFM-HR introduces the Pose Geometry Score (PGS), which quantifies how joint coordinate changes during rollouts align with the local geometry of pose variation captured by the prior. Using PGS to modulate the tracking reward guides policy exploration toward structured pose changes while keeping the prior frozen across tracking tasks. Experiments demonstrate that PFM-HR improves both single motion and general motion tracking, especially for highly dynamic motions.",
+    "categories": [
+      "Navigation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Flow Matching",
+      "Navigation",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2608.02809",
+    "title": "Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study",
+    "paper_url": "https://arxiv.org/abs/2608.02809",
+    "project_url": null,
+    "authors": [
+      "Caiwu Ding",
+      "Tao Cui",
+      "Lingyun Wang",
+      "Chengtao Wen"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-03",
+    "abstract": "Industrial humanoid robots are constrained less by locomotion or manipulation capability than by the immaturity of functional safety certification for legged platforms. The root difficulty is that the safe state of a legged robot is an actively-controlled state, which violates the fail-passive assumption underlying ISO~13849-1 / EN~60204-1: removing power from a walking biped causes an uncontrolled fall, so classical de-energization is itself a hazard. We term this the fail-passive gap and use a certified external safety chain (light curtain, emergency stop, fail-safe input, fail-safe PLC, and wireless PROFIsafe) as an instrument to locate it precisely: because the external chain is closed and quantifiable with established methods (PFHD, DC, CCF, PL/SILCL), the residual uncertifiable element is pinpointed to the robot-side reaction chain. Using a Siemens fail-safe S7-1500 emergency-stop reference, we show its certifiable Reaction subsystem is contactor-based power removal (Stop Category~0)---exactly the element a balancing humanoid cannot have. We deliberately do not claim end-to-end certified PL~e / SIL~3. We validate the approach on a Unitree G1 EDU pick-and-place cell in a 3m x 1.5m semi-enclosed workspace, and contribute a humanoid-specific analysis of the active safe state (fall-as-hazard, single-support stop bounds, balancing-policy residual risk, ISO~13855 separation) and a provenance-labeled timing budget. Hosting an industrial software-defined automation (SDA) controller on the robot, co-located with the balancing policy, moves robot-side PROFINET/PROFIsafe reception onto a standardized IEC~61131-3 interface; because the G1's onboard compute is not safety-rated hardware, this endpoint is not a certified safety runtime, which reinforces rather than resolves the fail-passive gap and localizes it to the SDA-to-balancing-policy interface.",
+    "categories": [
+      "Locomotion",
+      "Manipulation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Safety",
+      "Biped",
+      "Humanoid",
+      "Walking",
+      "PPO"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2608.02385",
     "title": "StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior",
     "paper_url": "https://arxiv.org/abs/2608.02385",
@@ -335,7 +477,7 @@
     ],
     "published": "2026-08",
     "published_date": "2026-08-01",
-    "abstract": "Standard multifingered grasp execution architectures plan a collision-free trajectory to a selected grasp pose and track it with a feedback law. Execution-time object pose uncertainty or perturbations may invalidate the planned trajectory, forcing a costly replanning step. We present Grasp Distance Fields (GDFs), a smooth softmin distance field over grasp configurations in the arm-hand configuration space. Our controller executes a grasp by following this field's negative gradient with a stationary feedback law, eliminating the need for a planner, stored trajectory, or grasp selection. For safety, we filter this command through a CBF-CLF quadratic program (QP) constraining self-collision, workspace, object, and obstacle clearance, reporting impeded progress as explicit slack. We prove that the softmin tracks the true set distance within \\(\\log N/ρ\\) for \\(N\\) candidates and smoothing parameter \\(ρ\\), and that the filtered loop renders the safe set forward invariant. Since no smooth field captures hand-object contact switching, we switch modes with hysteresis at a pregrasp configuration, trading object collision avoidance for contact admission. A wrench-quality barrier then keeps the realized grasp's force-closure margin within a prescribed tolerance of its value at hold onset. We evaluate in kinematic simulation on a fixed-base arm and a Unitree G1 humanoid, both fitted with the same underactuated hand. Our controller navigates cluttered and dynamic scenes to safely reach for, grasp, and lift 46 of 50 objects spanning primitive, household, and adversarial classes. Across those lifts, the executed grasps retain a median 94\\% of their synthesized quality margin, at 0.09 ms QP solve time per 20 ms control step. Per-step softmax weights confirm that our controller executes the nearest candidate, obviating a separate selection step. Project page: www.clintonenwerem.com/gdf.",
+    "abstract": "Standard multifingered grasp execution architectures plan a collision-free trajectory to a selected grasp pose and track it with a feedback law. Execution-time object pose uncertainty or perturbations may invalidate the planned trajectory, forcing a costly replanning step. We present Grasp Distance Fields (GDFs), smooth softmin distance fields over grasp configurations in the arm-hand configuration space. Our controller executes a grasp by following the negative GDF gradient with a stationary feedback law, eliminating the need for a planner, stored trajectory, or grasp selection. For safety, we filter the resulting command through a CBF-CLF quadratic program (QP), constraining self-collision, workspace, object, and obstacle clearance, reporting impeded progress as explicit slack. We prove that the softmin tracks the true set distance within $\\log N/ρ$ for $N$ candidates and smoothing parameter $ρ$, and that the filtered closed loop renders the safe set forward invariant. Since no smooth field captures hand-object contact switching, we switch between hand closure and grasp retention modes using hysteresis at a pregrasp configuration, trading object collision avoidance for contact admission. A wrench-quality CBF then bounds the realized grasp's force-closure margin within a prescribed tolerance of its value at hold onset. We evaluate in kinematic simulation on a fixed-base arm and a Unitree G1 humanoid, both fitted with the same underactuated hand. Our controller navigates cluttered and dynamic scenes to safely reach for, grasp, and lift 46 of 50 test objects spanning primitive, household, and adversarial classes. Across the 46 lifts, the executed grasps retain a median 94% of their synthesized quality margin, at 0.09 ms QP solve time per 20 ms control step. Project page: www.clintonenwerem.com/gdf.",
     "categories": [
       "State Estimation",
       "Simulation Benchmark",
@@ -394,6 +536,51 @@
     "real_robot": true,
     "open_source": false,
     "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2608.02653",
+    "title": "Light-Loco-Parkour: Versatile Perceptive Whole-Body Locomotion via Multi-Skill Distillation",
+    "paper_url": "https://arxiv.org/abs/2608.02653",
+    "project_url": null,
+    "authors": [
+      "Hongming Chen",
+      "Zhuoran Li",
+      "Hongxi Wang",
+      "Jiangpeng Hu",
+      "Ziliang Li",
+      "Peize Liu",
+      "QingRui Zhao",
+      "Xuhao Liu",
+      "Liang Pan",
+      "Ximin Lyu",
+      "Yuntao Ma",
+      "Tingxiang Fan"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-01",
+    "abstract": "Existing humanoid whole-body control systems still fall short of the way humans move through cluttered terrain: they either track expressive whole-body references without terrain generalization, or react to terrain online while leaving the arms, torso, and knees largely unused. We present \\texttt{Light-Loco-Parkour} (LLP), an end-to-end perceptive whole-body locomotion system that closes this gap with a single deployable policy. Conditioned only on onboard depth and a velocity command, the policy decides when to walk, balance, climb, step down, or vault, with no reference input, skill label, hand-coded gate, or runtime motion graph. Compared with prior humanoid systems, LLP makes three contributions. First, it introduces a whole-body perceptive-control pipeline that extends an RL-trained, velocity-tracking locomotion policy with parkour skills learned from object-interacting motions, so the same policy tracks velocity in open terrain, executes whole-body traversal at obstacles, and resumes locomotion afterward. Second, it acquires terrain-conditioned skills from sparse seeds by expanding a single motion into dynamically feasible, terrain-paired references across obstacle geometry, rather than relying on a large motion corpus. Third, it learns autonomous skill transitions from reward, letting the policy decide when and which whole-body skill to invoke from depth and command alone, with no one-hot skill label, hand-coded state machine, or runtime motion generator. Simulation and real-world experiments show high success across both benchmarked terrains and unseen obstacle variations, and the same policy transfers zero-shot to indoor and outdoor hardware experiments. These results demonstrate autonomous perceptive whole-body locomotion on a humanoid in outdoor settings, using only onboard sensing and a single deployable policy.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Locomotion",
+      "Zero-Shot",
+      "Humanoid",
+      "Distillation",
+      "Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },

@@ -2,6 +2,83 @@
 
 All papers sorted by publication date (newest first).
 
+## RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.03387)
+- **Authors:** Shuliang He, Shuai Wang, Bo Yue, Junchi Teng, Changyu Wang, Guiliang Liu
+- **Published:** 2026-08
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Manipulation
+  - Generative Models
+  - Human Demonstration
+  - Humanoid
+  - 3D Reconstruction
+  - Vision-Language
+
+### Summary
+
+Humanoid robots have the potential to perform dexterous manipulation in human environments, yet acquiring diverse and generalizable skills remains costly due to expensive hardware data collection and labor-intensive annotation. Recent advances in video generative models provide a promising opportunity to synthesize rich manipulation experiences from visual observations, but transferring such imagined behaviors into executable whole-body humanoid skills remains largely unexplored.
+
+---
+
+## Learning Context-Aware Motion Priors for Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.03234)
+- **Authors:** Yunyang Mo, Yi Gu, Yangchen Zhou, Hanyang Cao, Renjing Xu
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Policy Learning
+  - Simulation Benchmark
+
+### Summary
+
+Motion priors provide powerful guidance for learning naturalistic humanoid behaviors. However, existing methods typically learn a general, task-agnostic prior from the entire reference dataset and apply it uniformly throughout policy training.
+
+---
+
+## PFM-HR: Pose Flow Matching for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.03227)
+- **Authors:** Yukang Gao, Yi Gu, Yangchen Zhou, Xingyu Chen, Zhaorui Wang, Fanghai Zhang et al. (12 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Flow Matching
+  - Navigation
+  - Physics-Based Character Animation
+
+### Summary
+
+Motion priors improve reinforcement learning for physics-based humanoid tracking, but temporal priors require ordered motion clips, while pose priors provide limited guidance for policy-induced pose transitions. We present Pose Flow Matching for Humanoid Robots (PFM-HR), a reusable flow matching prior trained directly on large scale unordered pose data.
+
+---
+
+## Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.02809)
+- **Authors:** Caiwu Ding, Tao Cui, Lingyun Wang, Chengtao Wen
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Safety
+  - Biped
+  - Humanoid
+  - Walking
+  - PPO
+
+### Summary
+
+Industrial humanoid robots are constrained less by locomotion or manipulation capability than by the immaturity of functional safety certification for legged platforms. The root difficulty is that the safe state of a legged robot is an actively-controlled state, which violates the fail-passive assumption underlying ISO~13849-1 / EN~60204-1: removing power from a walking biped causes an uncontrolled fall, so classical de-energization is itself a hazard.
+
+---
+
 ## StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.02385)
@@ -225,6 +302,28 @@ Standard multifingered grasp execution architectures plan a collision-free traje
 ### Summary
 
 Unified humanoid policies handle agile whole-body motion, yet stumble on a simple demand: staying balanced on one leg. On our single-leg-balance benchmark, eight released state-of-the-art general policies hold a clean single-leg stance on 0 of 90 test motions; they stay up only by stepping or hopping, recovering from imbalance rather than preventing it.
+
+---
+
+## Light-Loco-Parkour: Versatile Perceptive Whole-Body Locomotion via Multi-Skill Distillation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.02653)
+- **Authors:** Hongming Chen, Zhuoran Li, Hongxi Wang, Jiangpeng Hu, Ziliang Li, Peize Liu et al. (12 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Distillation
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Existing humanoid whole-body control systems still fall short of the way humans move through cluttered terrain: they either track expressive whole-body references without terrain generalization, or react to terrain online while leaving the arms, torso, and knees largely unused. We present \texttt{Light-Loco-Parkour} (LLP), an end-to-end perceptive whole-body locomotion system that closes this gap with a single deployable policy.
 
 ---
 
