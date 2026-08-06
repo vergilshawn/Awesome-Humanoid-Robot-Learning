@@ -1,5 +1,52 @@
 [
   {
+    "arxiv_id": "2608.04657",
+    "title": "MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight",
+    "paper_url": "https://arxiv.org/abs/2608.04657",
+    "project_url": null,
+    "authors": [
+      "Zehua Fan",
+      "Junjie He",
+      "Wenxuan Song",
+      "Xi Wang",
+      "Wenqi Lyu",
+      "Linge Zhao",
+      "Fuhao Li",
+      "Zihan You",
+      "Yifei Yang",
+      "Kaiming Xu",
+      "Qi Jiang",
+      "Yue Jiang",
+      "Haoang Li",
+      "Cheng Chi",
+      "Bailin Li",
+      "Yan Wang"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-05",
+    "abstract": "World action models (WAMs) built on video generation backbones are a rising recipe for robot learning, yet remain confined to tabletop manipulation. Mobile manipulation demands simultaneous locomotion and whole-body manipulation amid scene-scale dynamics, yet is still dominated by dynamics-blind visual encoders with hand-crafted coordination. We bridge this gap with MobileWAM, a mixture-of-transformers architecture that fuses a pretrained video diffusion transformer with a lightweight action expert through layerwise joint attention, translating internet-scale motion priors into whole-body control. To reconcile the heterogeneous dynamics of moving and manipulating, each feed-forward layer of the action expert becomes a three-expert mixture of shared, locomotion, and manipulation experts, softly routed by the motion intent in the action tokens. To densify supervision, we further propose Chain-of-Foresight (CoF): intermediate representations sequentially predict a chain of future latent chunks, each step conditioned on its predecessor. CoF pairs naturally with our decoupled video--action denoising scheme. At deployment, the WAM serves as a pure current-frame encoder; foresight acts only through gradients, so at inference the foresight chain and video generation are discarded, leaving only policy-level cost. MobileWAM surpasses state-of-the-art mobile manipulation policies on ManiSkill-HAB and fine-tunes to a real ARX Lift2 mobile manipulator across diverse tasks with strong generalization. Code will be released soon.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Transformer",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2608.03387",
     "title": "RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation",
     "paper_url": "https://arxiv.org/abs/2608.03387",

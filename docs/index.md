@@ -8,14 +8,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 790
+- **Total Papers:** 791
 - **Real Robot Papers:** 153
 - **Open Source Papers:** 139
 - **Latest Month:** 2026-08
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (242)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (243)
 - [Manipulation](/manipulation/) (97)
 - [Teleoperation](/teleoperation/) (37)
 - [Locomotion](/locomotion/) (153)
@@ -31,6 +31,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight](https://arxiv.org/abs/2608.04657) — 2026-08
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — 2026-08
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [Learning Context-Aware Motion Priors for Humanoid Control](https://arxiv.org/abs/2608.03234) — 2026-08
@@ -49,19 +51,17 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Manipulation](/manipulation/)
 -  [Perception-and-action system for humanoid robot task execution in construction](https://arxiv.org/abs/2608.01600) — 2026-08
   - [Locomotion](/locomotion/)
--  🤖 [Emotional Expression in Persuasion by Quadruped Virtual Agents: Toward Cross-Species Design Patterns](https://arxiv.org/abs/2608.01895) — 2026-08
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
 - **Humanoid** (570)
-- **Loco-Manipulation and Whole-Body Control** (279)
-- **Locomotion** (215)
-- **Manipulation** (209)
+- **Loco-Manipulation and Whole-Body Control** (280)
+- **Locomotion** (216)
+- **Manipulation** (210)
 - **Simulation Benchmark** (186)
-- **State Estimation** (152)
+- **State Estimation** (153)
 - **Physics-Based Character Animation** (104)
 - **Reinforcement Learning** (99)
 - **PPO** (80)
@@ -69,12 +69,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Teleoperation** (72)
 - **Benchmark** (70)
 - **Navigation** (67)
-- **Whole-Body Control** (62)
+- **Whole-Body Control** (63)
 - **Dataset** (61)
 - **Vision-Language** (44)
 - **Hardware Design** (44)
+- **Diffusion** (42)
 - **Sim-to-Real** (42)
-- **Diffusion** (41)
 - **Zero-Shot** (39)
 - **Safety** (37)
 - **Biped** (27)
@@ -95,6 +95,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/loco-manipulation-and-whole-body-control/2026-08)
 
+- [MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight](https://arxiv.org/abs/2608.04657) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Transformer`, `Diffusion`, `Loco-Manipulation and Whole-Body Control`
 - [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Generative Models`, `Human Demonstration`, `Humanoid`
 - [Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin](https://arxiv.org/abs/2608.02080) — `Humanoid`, `Tactile Sensing`, `Loco-Manipulation and Whole-Body Control`, `Navigation`, `Hardware Design`, `Real Robot`
 - [LooperMuscle: Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts](https://arxiv.org/abs/2608.00820) — `Humanoid`, `Policy Learning`, `PPO`, `SAC`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`

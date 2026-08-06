@@ -2,7 +2,7 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 790
+- **Total Papers:** 791
 - **Real Robot Papers:** 153
 - **Open Source Papers:** 139
 
@@ -10,7 +10,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (242)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (243)
 - [Manipulation](#manipulation) (97)
 - [Teleoperation](#teleoperation) (37)
 - [Locomotion](#locomotion) (153)
@@ -29,6 +29,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight](https://arxiv.org/abs/2608.04657) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Transformer`, `Diffusion`, `Loco-Manipulation and Whole-Body Control`
 - [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Generative Models`, `Human Demonstration`, `Humanoid`
 - [Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin](https://arxiv.org/abs/2608.02080) — `Humanoid`, `Tactile Sensing`, `Loco-Manipulation and Whole-Body Control`, `Navigation`, `Hardware Design`, `Real Robot`
 - [LooperMuscle: Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts](https://arxiv.org/abs/2608.00820) — `Humanoid`, `Policy Learning`, `PPO`, `SAC`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`

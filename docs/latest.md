@@ -2,6 +2,26 @@
 
 All papers sorted by publication date (newest first).
 
+## MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.04657)
+- **Authors:** Zehua Fan, Junjie He, Wenxuan Song, Xi Wang, Wenqi Lyu, Linge Zhao et al. (16 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Transformer
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+World action models (WAMs) built on video generation backbones are a rising recipe for robot learning, yet remain confined to tabletop manipulation. Mobile manipulation demands simultaneous locomotion and whole-body manipulation amid scene-scale dynamics, yet is still dominated by dynamics-blind visual encoders with hand-crafted coordination.
+
+---
+
 ## RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.03387)

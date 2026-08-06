@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**242 papers** in this category.
+**243 papers** in this category.
 
 ## Months
 
-- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (5 papers)
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (6 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
@@ -37,6 +37,26 @@
 ---
 
 ## Recent Papers
+
+## MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.04657)
+- **Authors:** Zehua Fan, Junjie He, Wenxuan Song, Xi Wang, Wenqi Lyu, Linge Zhao et al. (16 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Transformer
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+World action models (WAMs) built on video generation backbones are a rising recipe for robot learning, yet remain confined to tabletop manipulation. Mobile manipulation demands simultaneous locomotion and whole-body manipulation amid scene-scale dynamics, yet is still dominated by dynamics-blind visual encoders with hand-crafted coordination.
+
+---
 
 ## RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation
 
@@ -408,26 +428,5 @@ Tactile sensing for social-physical human-robot interaction (spHRI) is designed 
 ### Summary
 
 This work explores the motion transfer from one video to another, which is crucial in animation for diverse characters. Previously, video motion transfer has been largely explored between human and human-like characters, enabling a lot of applications in digital creation.
-
----
-
-## TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.10132)
-- **Authors:** Muqun Hu, Yuhao Zhou, Kabir Ray Malik, Chi Lin, Won Suk Lee, Yu She et al. (7 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Manipulation
-  - Zero-Shot
-  - Tactile Sensing
-  - Proprioception
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Dynamic loco-manipulation requires legged robots to coordinate whole-body motion while maintaining stable physical interaction with grasped objects under uncertain external forces. While tactile sensing has been widely studied for robotic manipulation, its role in dynamic whole-body control remains largely unexplored.
 
 ---
