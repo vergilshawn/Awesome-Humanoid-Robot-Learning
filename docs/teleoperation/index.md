@@ -1,9 +1,10 @@
 # Teleoperation
 
-**37 papers** in this category.
+**38 papers** in this category.
 
 ## Months
 
+- [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (6 papers)
 - [2026-06](/teleoperation/2026-06) (9 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
@@ -23,6 +24,25 @@
 ---
 
 ## Recent Papers
+
+## Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.06221)
+- **Authors:** Alperen Kenan, Paul Bremner, Manuel Giuliani
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Human Demonstration
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot. The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in human-robot interaction.
+
+---
 
 ## Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination
 
@@ -383,20 +403,6 @@ This paper presents a vision-based framework that enables a humanoid robot to im
 ## CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.15060)
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## ExtremControl: Low-Latency Humanoid Teleoperation with Direct Extremity Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.11321)
 - **Published:** 2026-02
 - **Tags:**
   - Teleoperation

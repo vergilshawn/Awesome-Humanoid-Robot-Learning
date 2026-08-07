@@ -8,19 +8,19 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 791
-- **Real Robot Papers:** 153
+- **Total Papers:** 795
+- **Real Robot Papers:** 155
 - **Open Source Papers:** 139
 - **Latest Month:** 2026-08
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (243)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (244)
 - [Manipulation](/manipulation/) (97)
-- [Teleoperation](/teleoperation/) (37)
-- [Locomotion](/locomotion/) (153)
+- [Teleoperation](/teleoperation/) (38)
+- [Locomotion](/locomotion/) (154)
 - [Navigation](/navigation/) (32)
-- [State Estimation](/state-estimation/) (42)
+- [State Estimation](/state-estimation/) (43)
 - [Sim-to-Real](/sim-to-real/) (14)
 - [Hardware Design](/hardware-design/) (31)
 - [Simulation Benchmark](/simulation-benchmark/) (72)
@@ -31,6 +31,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  🤖 [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) — 2026-08
+  - [Teleoperation](/teleoperation/)
+-  [Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control](https://arxiv.org/abs/2608.05989) — 2026-08
+  - [Locomotion](/locomotion/)
+-  🤖 [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — 2026-08
+  - [State Estimation](/state-estimation/)
 -  [MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight](https://arxiv.org/abs/2608.04657) — 2026-08
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — 2026-08
@@ -43,49 +51,41 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Locomotion](/locomotion/)
 -  🤖 [StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior](https://arxiv.org/abs/2608.02385) — 2026-08
   - [Locomotion](/locomotion/)
--  🤖 [Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin](https://arxiv.org/abs/2608.02080) — 2026-08
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [Teleopit: A Full-Embodiment Humanoid Teleoperation System](https://arxiv.org/abs/2608.01834) — 2026-08
-  - [Manipulation](/manipulation/)
--  [Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies](https://arxiv.org/abs/2608.01826) — 2026-08
-  - [Manipulation](/manipulation/)
--  [Perception-and-action system for humanoid robot task execution in construction](https://arxiv.org/abs/2608.01600) — 2026-08
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (570)
-- **Loco-Manipulation and Whole-Body Control** (280)
-- **Locomotion** (216)
-- **Manipulation** (210)
-- **Simulation Benchmark** (186)
-- **State Estimation** (153)
-- **Physics-Based Character Animation** (104)
-- **Reinforcement Learning** (99)
-- **PPO** (80)
+- **Humanoid** (573)
+- **Loco-Manipulation and Whole-Body Control** (281)
+- **Locomotion** (219)
+- **Manipulation** (211)
+- **Simulation Benchmark** (189)
+- **State Estimation** (155)
+- **Physics-Based Character Animation** (105)
+- **Reinforcement Learning** (100)
+- **PPO** (81)
 - **Human Motion Analysis and Synthesis** (77)
-- **Teleoperation** (72)
-- **Benchmark** (70)
+- **Teleoperation** (73)
+- **Benchmark** (71)
 - **Navigation** (67)
+- **Dataset** (64)
 - **Whole-Body Control** (63)
-- **Dataset** (61)
 - **Vision-Language** (44)
 - **Hardware Design** (44)
-- **Diffusion** (42)
+- **Diffusion** (43)
 - **Sim-to-Real** (42)
 - **Zero-Shot** (39)
 - **Safety** (37)
 - **Biped** (27)
 - **Walking** (27)
 - **Foundation Model** (27)
-- **Human Demonstration** (25)
+- **Human Demonstration** (26)
+- **Robustness** (25)
 - **Distillation** (25)
-- **Robustness** (24)
+- **Gait** (21)
 - **Collision** (21)
-- **Gait** (20)
-- **Fine-tuning** (19)
+- **Imitation Learning** (20)
 
 ---
 
@@ -95,6 +95,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/loco-manipulation-and-whole-body-control/2026-08)
 
+- [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — `Imitation Learning`, `Locomotion`, `Manipulation`, `Humanoid`, `Dataset`, `PPO`
 - [MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight](https://arxiv.org/abs/2608.04657) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Transformer`, `Diffusion`, `Loco-Manipulation and Whole-Body Control`
 - [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Generative Models`, `Human Demonstration`, `Humanoid`
 - [Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin](https://arxiv.org/abs/2608.02080) — `Humanoid`, `Tactile Sensing`, `Loco-Manipulation and Whole-Body Control`, `Navigation`, `Hardware Design`, `Real Robot`
@@ -599,6 +600,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### [Teleoperation](/teleoperation/)
 
+#### [2026-08](/teleoperation/2026-08)
+
+- [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) — `Teleoperation`, `Human Demonstration`, `Benchmark`, `Dataset`, `Simulation Benchmark`, `Real Robot`
+
 #### [2026-07](/teleoperation/2026-07)
 
 - [Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination](https://arxiv.org/abs/2607.29227) — `Teleoperation`, `Humanoid`, `PPO`, `Physics-Based Character Animation`, `Real Robot`
@@ -685,6 +690,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/locomotion/2026-08)
 
+- [Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control](https://arxiv.org/abs/2608.05989) — `Reinforcement Learning`, `Humanoid`, `Policy Learning`, `Representation Learning`, `Locomotion`
 - [Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study](https://arxiv.org/abs/2608.02809) — `Locomotion`, `Manipulation`, `Safety`, `Biped`, `Humanoid`, `Walking`
 - [StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior](https://arxiv.org/abs/2608.02385) — `Safety`, `Humanoid`, `PPO`, `Locomotion`, `Real Robot`
 - [Perception-and-action system for humanoid robot task execution in construction](https://arxiv.org/abs/2608.01600) — `Multi-Task`, `Humanoid`, `Locomotion`
@@ -1012,6 +1018,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/state-estimation/2026-08)
 
+- [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — `State Estimation`, `Robustness`, `Humanoid`, `Gait`, `Dataset`, `Locomotion`
 - [Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality](https://arxiv.org/abs/2608.00600) — `Safety`, `Humanoid`, `Underactuated`, `Collision`, `State Estimation`, `Simulation Benchmark`
 
 #### [2026-07](/state-estimation/2026-07)

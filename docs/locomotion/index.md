@@ -1,10 +1,10 @@
 # Locomotion
 
-**153 papers** in this category.
+**154 papers** in this category.
 
 ## Months
 
-- [2026-08](/locomotion/2026-08) (5 papers)
+- [2026-08](/locomotion/2026-08) (6 papers)
 - [2026-07](/locomotion/2026-07) (22 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
@@ -38,6 +38,24 @@
 ---
 
 ## Recent Papers
+
+## Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.05989)
+- **Authors:** Xinwei Liu, Junyuan Liang, Jianting Zhang, Wuhui Chen
+- **Published:** 2026-08
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Policy Learning
+  - Representation Learning
+  - Locomotion
+
+### Summary
+
+Sample-efficient policy learning from pixels is a long-standing challenge in reinforcement learning (RL). Recent dynamics-based representation learning methods have significantly improved the sample efficiency of model-free visual RL by learning dynamics-aware representations through auxiliary prediction performed either in latent space (self-prediction) or observation space (observation prediction).
+
+---
 
 ## Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study
 
@@ -393,23 +411,5 @@ In competitive learning activities, inaccurate robot decisions may reduce studen
 ### Summary
 
 A humanoid that can walk should not relearn locomotion from scratch to jog or run. Yet current approaches often obtain gait diversity by prescribing gait schedules, imitating motion clips, training experts to switch between or distilling skills into one policy.
-
----
-
-## Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.11855)
-- **Authors:** Deniz Kerimoglu, Junnosuke Kamohara, Jiyeon Maeng, Ziwon Yoon, Seth Hutchinson, Ye Zhao et al. (7 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Biped
-  - Walking
-
-### Summary
-
-Bipedal robots are challenging to control because they operate close to instability, where small variations in foot-terrain contact can rapidly destabilize locomotion. On rigid terrain, bipedal robots mitigate this fragility by using well-established contact mechanics and control strategies.
 
 ---

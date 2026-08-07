@@ -1,10 +1,10 @@
 # State Estimation
 
-**42 papers** in this category.
+**43 papers** in this category.
 
 ## Months
 
-- [2026-08](/state-estimation/2026-08) (1 papers)
+- [2026-08](/state-estimation/2026-08) (2 papers)
 - [2026-07](/state-estimation/2026-07) (12 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
@@ -18,6 +18,28 @@
 ---
 
 ## Recent Papers
+
+## KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.05647)
+- **Authors:** Jixin Gao, Fucheng Liu, Teng Zhang, Fusheng Zha
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - State Estimation
+  - Robustness
+  - Humanoid
+  - Gait
+  - Dataset
+  - Locomotion
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+This article presents a kinematic-inertial-LiDAR-visual odometry for humanoid robots, called KILVO. Tailored to the platform features, requirements, and real-world complexity, it fully utilizes the sensors commonly equipped on humanoid robots, including joint encoders, IMU, LiDAR, and camera, within an asynchronous-sequential hybrid error-state iterated Kalman filter (ESIKF).
+
+---
 
 ## Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality
 
@@ -361,24 +383,5 @@ Robotics increasingly relies on GPUs for parallel simulation, large-scale learni
 ### Summary
 
 Humanoid robots are emerging as co-workers in smart manufacturing, yet their dynamic, human-like movements introduce safety risks that differ fundamentally from those of fixed or wheeled robots. Conventional safety paradigms based on reactive force or distance limits fail to capture the sequential, uncertain nature of humanoid failures.
-
----
-
-## Proprioceptive Invariant State Estimation for Humanoid Robots on Non-Inertial Ground
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.19512)
-- **Authors:** Falak Mandali, Zijian He, Yan Gu
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - State Estimation
-  - Humanoid
-  - Walking
-  - Locomotion
-  - Physics-Based Character Animation
-
-### Summary
-
-This paper presents an invariant extended Kalman filtering (InEKF) approach for real-time state estimation of humanoid robots operating on non-inertial ground using only onboard proprioceptive sensing. The proposed approach estimates the robot's base position and velocity relative to the moving ground frame without requiring direct measurements of ground motion or externally mounted sensors.
 
 ---

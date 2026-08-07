@@ -2,10 +2,90 @@
 
 All papers sorted by publication date (newest first).
 
+## $ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.06375)
+- **Authors:** Zhe Li, Zhenzhe Zhang, Yangyang Wei, Wenjie Zhang, Xichen Yuan, Peiyuan Zhi et al. (11 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Imitation Learning
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - PPO
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered.
+
+---
+
+## Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.06221)
+- **Authors:** Alperen Kenan, Paul Bremner, Manuel Giuliani
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Human Demonstration
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot. The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in human-robot interaction.
+
+---
+
+## Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.05989)
+- **Authors:** Xinwei Liu, Junyuan Liang, Jianting Zhang, Wuhui Chen
+- **Published:** 2026-08
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Policy Learning
+  - Representation Learning
+  - Locomotion
+
+### Summary
+
+Sample-efficient policy learning from pixels is a long-standing challenge in reinforcement learning (RL). Recent dynamics-based representation learning methods have significantly improved the sample efficiency of model-free visual RL by learning dynamics-aware representations through auxiliary prediction performed either in latent space (self-prediction) or observation space (observation prediction).
+
+---
+
+## KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.05647)
+- **Authors:** Jixin Gao, Fucheng Liu, Teng Zhang, Fusheng Zha
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - State Estimation
+  - Robustness
+  - Humanoid
+  - Gait
+  - Dataset
+  - Locomotion
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+This article presents a kinematic-inertial-LiDAR-visual odometry for humanoid robots, called KILVO. Tailored to the platform features, requirements, and real-world complexity, it fully utilizes the sensors commonly equipped on humanoid robots, including joint encoders, IMU, LiDAR, and camera, within an asynchronous-sequential hybrid error-state iterated Kalman filter (ESIKF).
+
+---
+
 ## MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.04657)
-- **Authors:** Zehua Fan, Junjie He, Wenxuan Song, Xi Wang, Wenqi Lyu, Linge Zhao et al. (16 authors)
+- **Authors:** Zehua Fan, Junjie He, Wenxuan Song, Xi Wang, Wenqi Lyu, Linge Zhao et al. (17 authors)
 - **Published:** 2026-08
 - **Tags:**
   - Whole-Body Control

@@ -7,18 +7,59 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 2 papers
 - **Booster:** 4 papers
 - **Digit:** 10 papers
-- **Figure:** 54 papers
+- **Figure:** 55 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
 - **Unitree G1:** 59 papers
 - **Unitree H1:** 2 papers
-- **Unknown Platform:** 14 papers
+- **Unknown Platform:** 15 papers
 - **iCub:** 2 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.06221)
+- **Authors:** Alperen Kenan, Paul Bremner, Manuel Giuliani
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Human Demonstration
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot. The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in human-robot interaction.
+
+---
+
+## KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.05647)
+- **Authors:** Jixin Gao, Fucheng Liu, Teng Zhang, Fusheng Zha
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - State Estimation
+  - Robustness
+  - Humanoid
+  - Gait
+  - Dataset
+  - Locomotion
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+This article presents a kinematic-inertial-LiDAR-visual odometry for humanoid robots, called KILVO. Tailored to the platform features, requirements, and real-world complexity, it fully utilizes the sensors commonly equipped on humanoid robots, including joint encoders, IMU, LiDAR, and camera, within an asynchronous-sequential hybrid error-state iterated Kalman filter (ESIKF).
+
+---
 
 ## Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study
 

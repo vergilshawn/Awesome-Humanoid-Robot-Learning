@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**243 papers** in this category.
+**244 papers** in this category.
 
 ## Months
 
-- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (6 papers)
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (7 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
@@ -38,10 +38,31 @@
 
 ## Recent Papers
 
+## $ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.06375)
+- **Authors:** Zhe Li, Zhenzhe Zhang, Yangyang Wei, Wenjie Zhang, Xichen Yuan, Peiyuan Zhi et al. (11 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Imitation Learning
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - PPO
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered.
+
+---
+
 ## MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.04657)
-- **Authors:** Zehua Fan, Junjie He, Wenxuan Song, Xi Wang, Wenqi Lyu, Linge Zhao et al. (16 authors)
+- **Authors:** Zehua Fan, Junjie He, Wenxuan Song, Xi Wang, Wenqi Lyu, Linge Zhao et al. (17 authors)
 - **Published:** 2026-08
 - **Tags:**
   - Whole-Body Control
@@ -413,20 +434,5 @@ Recent work in humanoid whole-body control has found success with a simple recip
 ### Summary
 
 Tactile sensing for social-physical human-robot interaction (spHRI) is designed in a hardware-driven manner, where predefined sensor configurations constrain coverage, spatial resolution, and the range of recognizable gestures. We propose a requirement-driven framework that derives sensing requirements, specifically spatial resolution and placement, directly from interaction data.
-
----
-
-## Motion4Motion: Motion Transfer Across Subjects at Inference
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.11644)
-- **Authors:** Ling-Hao Chen, Zixin Yin, Duomin Wang, Xianfang Zeng, Gang Yu
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-This work explores the motion transfer from one video to another, which is crucial in animation for diverse characters. Previously, video motion transfer has been largely explored between human and human-like characters, enabling a lot of applications in digital creation.
 
 ---
