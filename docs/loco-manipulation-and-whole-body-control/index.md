@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**244 papers** in this category.
+**245 papers** in this category.
 
 ## Months
 
-- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (7 papers)
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (8 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
@@ -37,6 +37,21 @@
 ---
 
 ## Recent Papers
+
+## PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.07438)
+- **Authors:** Mohammad Amanlou, Parham Abed Azad, Farbod Davoodi, Mostafa Masumi, Behnam Bahrak, Abdol-Hossein Vahabie
+- **Published:** 2026-08
+- **Tags:**
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Human-like cognition does not select past experience by topical similarity alone: affective significance and unresolved conflict also shape what becomes accessible. We present PsychoAgent, a cognitive architecture for LLM agents that separates factual and affective memory and integrates both through a conflict-aware executive controller.
+
+---
 
 ## $ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation
 
@@ -412,27 +427,5 @@ Recent advances in humanoid robotics and reinforcement learning have enabled the
 ### Summary
 
 Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipulation involves complex, contact-rich dynamics and requires delicate regulation of contact modes and forces.
-
----
-
-## Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.11690)
-- **Authors:** Dakarai Crowder, Ruohan Zhang, Alexis E. Block, Wenzhen Yuan
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Humanoid
-  - Tactile Sensing
-  - Dataset
-  - Loco-Manipulation and Whole-Body Control
-  - Teleoperation
-  - State Estimation
-  - Simulation Benchmark
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Tactile sensing for social-physical human-robot interaction (spHRI) is designed in a hardware-driven manner, where predefined sensor configurations constrain coverage, spatial resolution, and the range of recognizable gestures. We propose a requirement-driven framework that derives sensing requirements, specifically spatial resolution and placement, directly from interaction data.
 
 ---

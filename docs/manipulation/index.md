@@ -1,10 +1,10 @@
 # Manipulation
 
-**97 papers** in this category.
+**98 papers** in this category.
 
 ## Months
 
-- [2026-08](/manipulation/2026-08) (2 papers)
+- [2026-08](/manipulation/2026-08) (3 papers)
 - [2026-07](/manipulation/2026-07) (18 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
@@ -33,6 +33,23 @@
 ---
 
 ## Recent Papers
+
+## A Haptic Robot Finger Designed for Guqin Instrument Playing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.07002)
+- **Authors:** Tianwei Zhang, Hanming Yan, Yang Yang. Ziya Wang
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Tactile Sensing
+  - Manipulation
+  - Teleoperation
+
+### Summary
+
+With the rapid advancement of humanoid robotics and embodied intelligence technologies, numerous musical instrument-playing robots have emerged in recent years, such as pianos, chime bells, and taiko drums. These robots primarily employ open-loop positional control, rendering them incapable of operating instruments requiring dexterous hands and precise tactile perception, such as a violin, guitar, and guqin.
+
+---
 
 ## Teleopit: A Full-Embodiment Humanoid Teleoperation System
 
@@ -395,23 +412,5 @@ Retargeting human object interaction demonstrations to physics based simulation 
 ### Summary
 
 Human-like dexterous hands with multiple fingers offer human-level manipulation capabilities but remain difficult to train the control policies that can deploy on real hardware due to contact-rich physics and imperfect actuation. We present a sim-to-real reinforcement learning method that leverages dense tactile feedback combined with joint torque sensing to explicitly regulate physical interactions.
-
----
-
-## ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.03828)
-- **Authors:** Yuanchuan Lai, Qing Gao, Ziyan Liang, Junjie Hu, Zhaojie Ju
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Motion Retargeting
-  - Manipulation
-  - Real Robot
-  - Teleoperation
-
-### Summary
-
-Learning robot dexterous manipulation from human manipulation videos requires reliably retargeting human intent to executable robot actions while maintaining stable hand-object contact, which remains a key challenge in embodied intelligence. Existing retargeting methods often ignore explicit contact modeling or rely on reinforcement learning, resulting in limited accuracy and generalization.
 
 ---

@@ -2,6 +2,38 @@
 
 All papers sorted by publication date (newest first).
 
+## A Haptic Robot Finger Designed for Guqin Instrument Playing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.07002)
+- **Authors:** Tianwei Zhang, Hanming Yan, Yang Yang. Ziya Wang
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Tactile Sensing
+  - Manipulation
+  - Teleoperation
+
+### Summary
+
+With the rapid advancement of humanoid robotics and embodied intelligence technologies, numerous musical instrument-playing robots have emerged in recent years, such as pianos, chime bells, and taiko drums. These robots primarily employ open-loop positional control, rendering them incapable of operating instruments requiring dexterous hands and precise tactile perception, such as a violin, guitar, and guqin.
+
+---
+
+## PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.07438)
+- **Authors:** Mohammad Amanlou, Parham Abed Azad, Farbod Davoodi, Mostafa Masumi, Behnam Bahrak, Abdol-Hossein Vahabie
+- **Published:** 2026-08
+- **Tags:**
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Human-like cognition does not select past experience by topical similarity alone: affective significance and unresolved conflict also shape what becomes accessible. We present PsychoAgent, a cognitive architecture for LLM agents that separates factual and affective memory and integrates both through a conflict-aware executive controller.
+
+---
+
 ## $ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.06375)
@@ -359,27 +391,6 @@ ORCESTRA is a mixed-reality system for programming robot digital twins through n
 ### Summary
 
 Physical-world interaction is inherently dynamic, as environments can evolve during execution, requiring agents to adapt their plans under non-stationary conditions. We study this challenge through long-horizon embodied planning under environment deviations and execution uncertainty.
-
----
-
-## Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.00600)
-- **Authors:** Clinton Enwerem, John S. Baras, Calin Belta
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Safety
-  - Humanoid
-  - Underactuated
-  - Collision
-  - State Estimation
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-Standard multifingered grasp execution architectures plan a collision-free trajectory to a selected grasp pose and track it with a feedback law. Execution-time object pose uncertainty or perturbations may invalidate the planned trajectory, forcing a costly replanning step.
 
 ---
 

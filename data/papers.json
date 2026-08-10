@@ -1,5 +1,63 @@
 [
   {
+    "arxiv_id": "2608.07002",
+    "title": "A Haptic Robot Finger Designed for Guqin Instrument Playing",
+    "paper_url": "https://arxiv.org/abs/2608.07002",
+    "project_url": null,
+    "authors": [
+      "Tianwei Zhang",
+      "Hanming Yan",
+      "Yang Yang. Ziya Wang"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-07",
+    "abstract": "With the rapid advancement of humanoid robotics and embodied intelligence technologies, numerous musical instrument-playing robots have emerged in recent years, such as pianos, chime bells, and taiko drums. These robots primarily employ open-loop positional control, rendering them incapable of operating instruments requiring dexterous hands and precise tactile perception, such as a violin, guitar, and guqin. This paper describes the design and validation of a high-precision tactile-sensing finger. By mimicking the shape of the fingertip and fingernail found on a human finger, we develop a biomimetic multimodal haptic fingertip and validate it on selected guqin string-contact tasks, including open-string and stopped-note comparisons, harmonic-tuning, and tactile-triggered bimanual coordination, using the guqin, a traditional Chinese musical instrument, as a challenging validation scenario rather than as a fully demonstrated robotic performance system. This research integrates tactile sensing with robotics technology, thereby contributing to applications in world heritage conservation and cultural dissemination.",
+    "categories": [
+      "Manipulation",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Tactile Sensing",
+      "Manipulation",
+      "Teleoperation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2608.07438",
+    "title": "PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents",
+    "paper_url": "https://arxiv.org/abs/2608.07438",
+    "project_url": null,
+    "authors": [
+      "Mohammad Amanlou",
+      "Parham Abed Azad",
+      "Farbod Davoodi",
+      "Mostafa Masumi",
+      "Behnam Bahrak",
+      "Abdol-Hossein Vahabie"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-07",
+    "abstract": "Human-like cognition does not select past experience by topical similarity alone: affective significance and unresolved conflict also shape what becomes accessible. We present PsychoAgent, a cognitive architecture for LLM agents that separates factual and affective memory and integrates both through a conflict-aware executive controller. Affective memories are first filtered by semantic relevance and then re-ranked by salience, preserving topical fit while allowing emotionally important traces to enter the prompt. Across three controlled conflict scenarios, the full architecture retrieved more conflict-critical memories than semantic-affective and single-memory RAG baselines (0.933 vs. 0.500 and 0.667), with a small semantic-similarity cost. Five blinded raters evaluated 27 outputs. After within-rater standardization, the full architecture had the highest overall mean (+0.22 SD), but corrected pairwise differences were not significant. A three-day illustrative trace further shows persistent affect, offline memory recombination, and selective memory reweighting. The findings support affect-sensitive retrieval as an inspectable mechanism for modeling human-like conflict effects in LLM agents.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2608.06375",
     "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
     "paper_url": "https://arxiv.org/abs/2608.06375",
@@ -654,39 +712,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Simulation Benchmark"
-  },
-  {
-    "arxiv_id": "2608.00600",
-    "title": "Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality",
-    "paper_url": "https://arxiv.org/abs/2608.00600",
-    "project_url": null,
-    "authors": [
-      "Clinton Enwerem",
-      "John S. Baras",
-      "Calin Belta"
-    ],
-    "published": "2026-08",
-    "published_date": "2026-08-01",
-    "abstract": "Standard multifingered grasp execution architectures plan a collision-free trajectory to a selected grasp pose and track it with a feedback law. Execution-time object pose uncertainty or perturbations may invalidate the planned trajectory, forcing a costly replanning step. We present Grasp Distance Fields (GDFs), smooth softmin distance fields over grasp configurations in the arm-hand configuration space. Our controller executes a grasp by following the negative GDF gradient with a stationary feedback law, eliminating the need for a planner, stored trajectory, or grasp selection. For safety, we filter the resulting command through a CBF-CLF quadratic program (QP), constraining self-collision, workspace, object, and obstacle clearance, reporting impeded progress as explicit slack. We prove that the softmin tracks the true set distance within $\\log N/ρ$ for $N$ candidates and smoothing parameter $ρ$, and that the filtered closed loop renders the safe set forward invariant. Since no smooth field captures hand-object contact switching, we switch between hand closure and grasp retention modes using hysteresis at a pregrasp configuration, trading object collision avoidance for contact admission. A wrench-quality CBF then bounds the realized grasp's force-closure margin within a prescribed tolerance of its value at hold onset. We evaluate in kinematic simulation on a fixed-base arm and a Unitree G1 humanoid, both fitted with the same underactuated hand. Our controller navigates cluttered and dynamic scenes to safely reach for, grasp, and lift 46 of 50 test objects spanning primitive, household, and adversarial classes. Across the 46 lifts, the executed grasps retain a median 94% of their synthesized quality margin, at 0.09 ms QP solve time per 20 ms control step. Project page: www.clintonenwerem.com/gdf.",
-    "categories": [
-      "State Estimation",
-      "Simulation Benchmark",
-      "Physics-Based Character Animation"
-    ],
-    "tags": [
-      "Safety",
-      "Humanoid",
-      "Underactuated",
-      "Collision",
-      "State Estimation",
-      "Simulation Benchmark",
-      "Physics-Based Character Animation"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "Unitree G1",
-    "summary": "",
-    "primary_category": "State Estimation"
   },
   {
     "arxiv_id": "2608.00500",

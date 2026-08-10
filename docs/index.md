@@ -8,19 +8,19 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 795
-- **Real Robot Papers:** 155
+- **Total Papers:** 796
+- **Real Robot Papers:** 154
 - **Open Source Papers:** 139
 - **Latest Month:** 2026-08
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (244)
-- [Manipulation](/manipulation/) (97)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (245)
+- [Manipulation](/manipulation/) (98)
 - [Teleoperation](/teleoperation/) (38)
 - [Locomotion](/locomotion/) (154)
 - [Navigation](/navigation/) (32)
-- [State Estimation](/state-estimation/) (43)
+- [State Estimation](/state-estimation/) (42)
 - [Sim-to-Real](/sim-to-real/) (14)
 - [Hardware Design](/hardware-design/) (31)
 - [Simulation Benchmark](/simulation-benchmark/) (72)
@@ -31,6 +31,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [A Haptic Robot Finger Designed for Guqin Instrument Playing](https://arxiv.org/abs/2608.07002) — 2026-08
+  - [Manipulation](/manipulation/)
+-  [PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents](https://arxiv.org/abs/2608.07438) — 2026-08
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) — 2026-08
@@ -47,26 +51,22 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Simulation Benchmark](/simulation-benchmark/)
 -  [PFM-HR: Pose Flow Matching for Humanoid Robots](https://arxiv.org/abs/2608.03227) — 2026-08
   - [Navigation](/navigation/)
--  🤖 [Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study](https://arxiv.org/abs/2608.02809) — 2026-08
-  - [Locomotion](/locomotion/)
--  🤖 [StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior](https://arxiv.org/abs/2608.02385) — 2026-08
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
 - **Humanoid** (573)
-- **Loco-Manipulation and Whole-Body Control** (281)
+- **Loco-Manipulation and Whole-Body Control** (282)
 - **Locomotion** (219)
-- **Manipulation** (211)
-- **Simulation Benchmark** (189)
-- **State Estimation** (155)
-- **Physics-Based Character Animation** (105)
+- **Manipulation** (212)
+- **Simulation Benchmark** (188)
+- **State Estimation** (154)
+- **Physics-Based Character Animation** (104)
 - **Reinforcement Learning** (100)
-- **PPO** (81)
+- **PPO** (82)
 - **Human Motion Analysis and Synthesis** (77)
-- **Teleoperation** (73)
+- **Teleoperation** (74)
 - **Benchmark** (71)
 - **Navigation** (67)
 - **Dataset** (64)
@@ -76,7 +76,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Diffusion** (43)
 - **Sim-to-Real** (42)
 - **Zero-Shot** (39)
-- **Safety** (37)
+- **Safety** (36)
 - **Biped** (27)
 - **Walking** (27)
 - **Foundation Model** (27)
@@ -84,8 +84,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Robustness** (25)
 - **Distillation** (25)
 - **Gait** (21)
-- **Collision** (21)
 - **Imitation Learning** (20)
+- **Collision** (20)
 
 ---
 
@@ -95,6 +95,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/loco-manipulation-and-whole-body-control/2026-08)
 
+- [PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents](https://arxiv.org/abs/2608.07438) — `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — `Imitation Learning`, `Locomotion`, `Manipulation`, `Humanoid`, `Dataset`, `PPO`
 - [MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight](https://arxiv.org/abs/2608.04657) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Transformer`, `Diffusion`, `Loco-Manipulation and Whole-Body Control`
 - [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Generative Models`, `Human Demonstration`, `Humanoid`
@@ -428,6 +429,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/manipulation/2026-08)
 
+- [A Haptic Robot Finger Designed for Guqin Instrument Playing](https://arxiv.org/abs/2608.07002) — `Humanoid`, `Tactile Sensing`, `Manipulation`, `Teleoperation`
 - [Teleopit: A Full-Embodiment Humanoid Teleoperation System](https://arxiv.org/abs/2608.01834) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Optimization-Based`, `Loco-Manipulation and Whole-Body Control`
 - [Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies](https://arxiv.org/abs/2608.01826) — `Manipulation`, `Humanoid`, `Vision-Language`
 
@@ -1019,7 +1021,6 @@ A curated and automatically updated collection of humanoid robot learning resear
 #### [2026-08](/state-estimation/2026-08)
 
 - [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — `State Estimation`, `Robustness`, `Humanoid`, `Gait`, `Dataset`, `Locomotion`
-- [Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality](https://arxiv.org/abs/2608.00600) — `Safety`, `Humanoid`, `Underactuated`, `Collision`, `State Estimation`, `Simulation Benchmark`
 
 #### [2026-07](/state-estimation/2026-07)
 

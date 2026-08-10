@@ -11,7 +11,7 @@ Papers with real humanoid robot deployment and experiments.
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
-- **Unitree G1:** 59 papers
+- **Unitree G1:** 58 papers
 - **Unitree H1:** 2 papers
 - **Unknown Platform:** 15 papers
 - **iCub:** 2 papers
@@ -192,27 +192,6 @@ General-purpose humanoid trackers can execute diverse references, but their zero
 ### Summary
 
 ORCESTRA is a mixed-reality system for programming robot digital twins through no-code waypoint teaching and language-guided control. In a passthrough mixed-reality workspace, users place robot twins on real surfaces, teach trajectories, save robot-relative episodes, or issue spoken/typed commands that a vision-language model converts into structured digital-twin plans.
-
----
-
-## Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.00600)
-- **Authors:** Clinton Enwerem, John S. Baras, Calin Belta
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Safety
-  - Humanoid
-  - Underactuated
-  - Collision
-  - State Estimation
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-Standard multifingered grasp execution architectures plan a collision-free trajectory to a selected grasp pose and track it with a feedback law. Execution-time object pose uncertainty or perturbations may invalidate the planned trajectory, forcing a costly replanning step.
 
 ---
 

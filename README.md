@@ -2,20 +2,20 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 795
-- **Real Robot Papers:** 155
+- **Total Papers:** 796
+- **Real Robot Papers:** 154
 - **Open Source Papers:** 139
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (244)
-- [Manipulation](#manipulation) (97)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (245)
+- [Manipulation](#manipulation) (98)
 - [Teleoperation](#teleoperation) (38)
 - [Locomotion](#locomotion) (154)
 - [Navigation](#navigation) (32)
-- [State Estimation](#state-estimation) (43)
+- [State Estimation](#state-estimation) (42)
 - [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
 - [Simulation Benchmark](#simulation-benchmark) (72)
@@ -29,6 +29,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents](https://arxiv.org/abs/2608.07438) — `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — `Imitation Learning`, `Locomotion`, `Manipulation`, `Humanoid`, `Dataset`, `PPO`
 - [MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight](https://arxiv.org/abs/2608.04657) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Transformer`, `Diffusion`, `Loco-Manipulation and Whole-Body Control`
 - [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Generative Models`, `Human Demonstration`, `Humanoid`
@@ -362,6 +363,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [A Haptic Robot Finger Designed for Guqin Instrument Playing](https://arxiv.org/abs/2608.07002) — `Humanoid`, `Tactile Sensing`, `Manipulation`, `Teleoperation`
 - [Teleopit: A Full-Embodiment Humanoid Teleoperation System](https://arxiv.org/abs/2608.01834) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Optimization-Based`, `Loco-Manipulation and Whole-Body Control`
 - [Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies](https://arxiv.org/abs/2608.01826) — `Manipulation`, `Humanoid`, `Vision-Language`
 
@@ -953,7 +955,6 @@ A curated and automatically updated collection of humanoid robot learning resear
 ### 2026-08
 
 - [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — `State Estimation`, `Robustness`, `Humanoid`, `Gait`, `Dataset`, `Locomotion`
-- [Grasp Execution Without a Planner: Configuration-Space Grasp Distance Fields with Certified Safety & Guaranteed Quality](https://arxiv.org/abs/2608.00600) — `Safety`, `Humanoid`, `Underactuated`, `Collision`, `State Estimation`, `Simulation Benchmark`
 
 ### 2026-07
 
