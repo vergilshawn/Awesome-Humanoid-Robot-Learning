@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**245 papers** in this category.
+**246 papers** in this category.
 
 ## Months
 
-- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (8 papers)
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (9 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
@@ -37,6 +37,25 @@
 ---
 
 ## Recent Papers
+
+## LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.07746)
+- **Authors:** Cheng Guo, Mingzhe Ni, Angelo Cangelosi, Arash Ajoudani
+- **Published:** 2026-08
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - World Model
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Long-horizon humanoid loco-manipulation requires composing versatile whole-body skills and reliable high-level decision making. Existing methods often coordinate pretrained skills with scripted planners, finite-state machines or task-specific model-free policies, restricting their ability to handle complex task sequences.
+
+---
 
 ## PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents
 
@@ -406,26 +425,5 @@ Humanoid control requires natural whole-body coordination, precise real-time res
 ### Summary
 
 Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. However, most robotic performances remain based on pre-scripted sequences or externally triggered behaviors, limiting autonomy and responsiveness to dynamic environments.
-
----
-
-## A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.11874)
-- **Authors:** Yunhai Feng, Natalie Leung, Jiaxuan Wang, Lujie Yang, Haozhi Qi, Preston Culbertson
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Sim-to-Real
-  - Manipulation
-  - Zero-Shot
-  - Human Demonstration
-  - Humanoid
-  - System Identification
-
-### Summary
-
-Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipulation involves complex, contact-rich dynamics and requires delicate regulation of contact modes and forces.
 
 ---

@@ -12,13 +12,36 @@ Papers with real humanoid robot deployment and experiments.
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
 - **Unitree G1:** 58 papers
-- **Unitree H1:** 2 papers
+- **Unitree H1:** 3 papers
 - **Unknown Platform:** 15 papers
+- **Walker:** 1 papers
 - **iCub:** 2 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.08545)
+- **Authors:** Prishita Ray
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Walker
+- **Tags:**
+  - Reinforcement Learning
+  - Navigation
+  - Robustness
+  - Biped
+  - Friction
+  - Gradient-Based
+  - Curriculum Learning
+  - Locomotion
+
+### Summary
+
+Robust navigation policies for autonomous agents must generalize across continuously varying environmental conditions such as turn rates, obstacles, friction, pits, and slopes. Curriculum generation provides a principled mechanism for improving generalization by progressively adapting training environments, but designing such curricula in a sample-efficient and automated manner remains challenging.
+
+---
 
 ## Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation
 
@@ -58,6 +81,25 @@ Learning from demonstration (LfD) provides a developmental framework through whi
 ### Summary
 
 This article presents a kinematic-inertial-LiDAR-visual odometry for humanoid robots, called KILVO. Tailored to the platform features, requirements, and real-world complexity, it fully utilizes the sensors commonly equipped on humanoid robots, including joint encoders, IMU, LiDAR, and camera, within an asynchronous-sequential hybrid error-state iterated Kalman filter (ESIKF).
+
+---
+
+## Projection-Retraction MPPI: Exact Constraint-Manifold Control for Manipulators
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.07573)
+- **Authors:** Seulchan Lee, Leesai Park, Minhyeong Kang, Sanghyun Kim
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Model Predictive Path Integral (MPPI) control is widely used in manipulation for its gradient-free, parallel handling of non-convex costs. Manipulation tasks, however, often impose constraints that hold throughout the motion: a closed kinematic chain that two grasping arms keep exactly, or joint limits and obstacle clearances that are never crossed.
 
 ---
 

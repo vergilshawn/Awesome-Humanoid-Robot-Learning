@@ -1,10 +1,10 @@
 # Locomotion
 
-**154 papers** in this category.
+**155 papers** in this category.
 
 ## Months
 
-- [2026-08](/locomotion/2026-08) (6 papers)
+- [2026-08](/locomotion/2026-08) (7 papers)
 - [2026-07](/locomotion/2026-07) (22 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
@@ -38,6 +38,28 @@
 ---
 
 ## Recent Papers
+
+## Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.08545)
+- **Authors:** Prishita Ray
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Walker
+- **Tags:**
+  - Reinforcement Learning
+  - Navigation
+  - Robustness
+  - Biped
+  - Friction
+  - Gradient-Based
+  - Curriculum Learning
+  - Locomotion
+
+### Summary
+
+Robust navigation policies for autonomous agents must generalize across continuously varying environmental conditions such as turn rates, obstacles, friction, pits, and slopes. Curriculum generation provides a principled mechanism for improving generalization by progressively adapting training environments, but designing such curricula in a sample-efficient and automated manner remains challenging.
+
+---
 
 ## Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control
 
@@ -392,24 +414,5 @@ Collisions of rigid-link robots and rigid environments are often modeled as inst
 ### Summary
 
 In competitive learning activities, inaccurate robot decisions may reduce students' perceptions of fairness and competence, ultimately affecting their motivation. This paper investigates whether the accuracy of sound detection algorithms influences student motivation during a robot-mediated quiz game.
-
----
-
-## GaitSpan: Growing Humanoid Locomotion from Walking to Running
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.12114)
-- **Authors:** Kwan-Yee Lin, Zilin Wang, Janelle J. Liu, Stella X. Yu
-- **Published:** 2026-07
-- **Tags:**
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - Gait
-  - Walking
-  - PPO
-
-### Summary
-
-A humanoid that can walk should not relearn locomotion from scratch to jog or run. Yet current approaches often obtain gait diversity by prescribing gait schedules, imitating motion clips, training experts to switch between or distilling skills into one policy.
 
 ---

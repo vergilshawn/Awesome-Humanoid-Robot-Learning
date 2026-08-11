@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**72 papers** in this category.
+**73 papers** in this category.
 
 ## Months
 
-- [2026-08](/simulation-benchmark/2026-08) (2 papers)
+- [2026-08](/simulation-benchmark/2026-08) (3 papers)
 - [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
@@ -25,6 +25,23 @@
 ---
 
 ## Recent Papers
+
+## 🌟 Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.09666)
+- **Project:** [GitHub](https://github.com/Vchitect/Evaluation-Agent)
+- **Authors:** Shulin Tian, Ziqi Huang, Fan Zhang, Hongyuan Zhu, Yu Qiao, Ziwei Liu
+- **Published:** 2026-08
+- **Tags:**
+  - Generative Models
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in visual generative models have enabled high-quality image and video generation, but evaluating these models often demands sampling hundreds or thousands of images or videos, which is computationally expensive. Existing evaluation methods also rely on rigid pipelines that overlook specific user needs and provide numerical results without clear explanations.
+
+---
 
 ## Learning Context-Aware Motion Priors for Humanoid Control
 
@@ -383,24 +400,5 @@ Cross-embodiment transfer in vision-language-action (VLA) models remains challen
 ### Summary
 
 Robots operating in real-world environments must in general be able to recognize previously unseen objects. As robotic systems move toward open-world autonomy, there is a growing, yet largely unmet, need for open vocabulary object detectors that are prompt-free and efficient enough for continuous deployment.
-
----
-
-## TaskNPoint: How to Teach Your Humanoid to Hit a Backhand in Minutes
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.26215)
-- **Authors:** Blake Werner, Ilona Demler, Pietro Perona, Aaron D. Ames
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Zero-Shot
-  - Robustness
-  - Humanoid
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-How do we learn to hit a tennis backhand? Not from a thousand hours of tennis tournaments on TV - we work with a coach and practice. We argue this is also the right recipe for teaching dynamic skills to humanoid robots.
 
 ---

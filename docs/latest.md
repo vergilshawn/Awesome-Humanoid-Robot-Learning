@@ -2,6 +2,79 @@
 
 All papers sorted by publication date (newest first).
 
+## 🌟 Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.09666)
+- **Project:** [GitHub](https://github.com/Vchitect/Evaluation-Agent)
+- **Authors:** Shulin Tian, Ziqi Huang, Fan Zhang, Hongyuan Zhu, Yu Qiao, Ziwei Liu
+- **Published:** 2026-08
+- **Tags:**
+  - Generative Models
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in visual generative models have enabled high-quality image and video generation, but evaluating these models often demands sampling hundreds or thousands of images or videos, which is computationally expensive. Existing evaluation methods also rely on rigid pipelines that overlook specific user needs and provide numerical results without clear explanations.
+
+---
+
+## Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.08545)
+- **Authors:** Prishita Ray
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Walker
+- **Tags:**
+  - Reinforcement Learning
+  - Navigation
+  - Robustness
+  - Biped
+  - Friction
+  - Gradient-Based
+  - Curriculum Learning
+  - Locomotion
+
+### Summary
+
+Robust navigation policies for autonomous agents must generalize across continuously varying environmental conditions such as turn rates, obstacles, friction, pits, and slopes. Curriculum generation provides a principled mechanism for improving generalization by progressively adapting training environments, but designing such curricula in a sample-efficient and automated manner remains challenging.
+
+---
+
+## When Is a Steerable Concept Representation Real? Measurement Confounds in a Cross-Family Audit of Neuroscience Parallels in LLMs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.08159)
+- **Authors:** Yuqi Wu, Shengming Zhao, Jie Chen
+- **Published:** 2026-08
+- **Tags:**
+  - Large Language Model
+  - State Estimation
+
+### Summary
+
+Large language models (LLMs) are increasingly reported to exhibit human-like neural and cognitive signatures, including concept cells, mental number lines, and cognitive maps. These claims often rely on linear probing and activation steering applied to a single model, yet both methods are highly sensitive to measurement choices.
+
+---
+
+## LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.07746)
+- **Authors:** Cheng Guo, Mingzhe Ni, Angelo Cangelosi, Arash Ajoudani
+- **Published:** 2026-08
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - World Model
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Long-horizon humanoid loco-manipulation requires composing versatile whole-body skills and reliable high-level decision making. Existing methods often coordinate pretrained skills with scripted planners, finite-state machines or task-specific model-free policies, restricting their ability to handle complex task sequences.
+
+---
+
 ## A Haptic Robot Finger Designed for Guqin Instrument Playing
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.07002)
@@ -131,6 +204,25 @@ This article presents a kinematic-inertial-LiDAR-visual odometry for humanoid ro
 ### Summary
 
 World action models (WAMs) built on video generation backbones are a rising recipe for robot learning, yet remain confined to tabletop manipulation. Mobile manipulation demands simultaneous locomotion and whole-body manipulation amid scene-scale dynamics, yet is still dominated by dynamics-blind visual encoders with hand-crafted coordination.
+
+---
+
+## Projection-Retraction MPPI: Exact Constraint-Manifold Control for Manipulators
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.07573)
+- **Authors:** Seulchan Lee, Leesai Park, Minhyeong Kang, Sanghyun Kim
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Model Predictive Path Integral (MPPI) control is widely used in manipulation for its gradient-free, parallel handling of non-convex costs. Manipulation tasks, however, often impose constraints that hold throughout the motion: a closed kinematic chain that two grasping arms keep exactly, or joint limits and obstacle clearances that are never crossed.
 
 ---
 

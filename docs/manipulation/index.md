@@ -1,10 +1,10 @@
 # Manipulation
 
-**98 papers** in this category.
+**99 papers** in this category.
 
 ## Months
 
-- [2026-08](/manipulation/2026-08) (3 papers)
+- [2026-08](/manipulation/2026-08) (4 papers)
 - [2026-07](/manipulation/2026-07) (18 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
@@ -48,6 +48,25 @@
 ### Summary
 
 With the rapid advancement of humanoid robotics and embodied intelligence technologies, numerous musical instrument-playing robots have emerged in recent years, such as pianos, chime bells, and taiko drums. These robots primarily employ open-loop positional control, rendering them incapable of operating instruments requiring dexterous hands and precise tactile perception, such as a violin, guitar, and guqin.
+
+---
+
+## Projection-Retraction MPPI: Exact Constraint-Manifold Control for Manipulators
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.07573)
+- **Authors:** Seulchan Lee, Leesai Park, Minhyeong Kang, Sanghyun Kim
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Model Predictive Path Integral (MPPI) control is widely used in manipulation for its gradient-free, parallel handling of non-convex costs. Manipulation tasks, however, often impose constraints that hold throughout the motion: a closed kinematic chain that two grasping arms keep exactly, or joint limits and obstacle clearances that are never crossed.
 
 ---
 
@@ -390,27 +409,5 @@ Humanoid robots can extend human presence to remote, constrained, or hazardous e
 ### Summary
 
 Retargeting human object interaction demonstrations to physics based simulation requires reproducing not only body motion but also the object motion and contacts that make manipulation succeed. However, position only hand trajectories do not specify the contact forces needed to manipulate objects, and directly tracking them can overconstrain contact rich finger behavior.
-
----
-
-## Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.04940)
-- **Authors:** Zhe Zhao, Zhibin Li, Yilin Ou, Mengshi Qi
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Manipulation
-  - Zero-Shot
-  - Fine-tuning
-  - Actor-Critic
-  - PPO
-  - Navigation
-
-### Summary
-
-Human-like dexterous hands with multiple fingers offer human-level manipulation capabilities but remain difficult to train the control policies that can deploy on real hardware due to contact-rich physics and imperfect actuation. We present a sim-to-real reinforcement learning method that leverages dense tactile feedback combined with joint torque sensing to explicitly regulate physical interactions.
 
 ---
