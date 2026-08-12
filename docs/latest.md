@@ -2,6 +2,25 @@
 
 All papers sorted by publication date (newest first).
 
+## Hip Energized Monopedal Hopping
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.10387)
+- **Authors:** Shane Rozen-Levy, Griffon McMahon, Daniel Koditschek
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Gait
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+We present a novel stepping strategy for pitch unlocked planar monopeds where the reaction torques from stabilizing pitch with a conventional PD + feedfoward controller are recruited to counteract energetic losses from damping. By moving the location of the mass center, our controller increases the pitch stabilization torque, thereby adding energy to the gait.
+
+---
+
 ## 🌟 Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.09666)

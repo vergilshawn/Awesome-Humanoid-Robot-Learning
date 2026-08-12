@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 801
-- **Real Robot Papers:** 156
+- **Total Papers:** 802
+- **Real Robot Papers:** 157
 - **Open Source Papers:** 140
 
 🌟 indicates papers with detected project/code links.
@@ -13,7 +13,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (246)
 - [Manipulation](#manipulation) (99)
 - [Teleoperation](#teleoperation) (38)
-- [Locomotion](#locomotion) (155)
+- [Locomotion](#locomotion) (156)
 - [Navigation](#navigation) (32)
 - [State Estimation](#state-estimation) (43)
 - [Sim-to-Real](#sim-to-real) (14)
@@ -628,6 +628,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Hip Energized Monopedal Hopping](https://arxiv.org/abs/2608.10387) — `Locomotion`, `Biped`, `Gait`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
 - [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — `Reinforcement Learning`, `Navigation`, `Robustness`, `Biped`, `Friction`, `Gradient-Based`
 - [Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control](https://arxiv.org/abs/2608.05989) — `Reinforcement Learning`, `Humanoid`, `Policy Learning`, `Representation Learning`, `Locomotion`
 - [Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study](https://arxiv.org/abs/2608.02809) — `Locomotion`, `Manipulation`, `Safety`, `Biped`, `Humanoid`, `Walking`

@@ -8,8 +8,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 801
-- **Real Robot Papers:** 156
+- **Total Papers:** 802
+- **Real Robot Papers:** 157
 - **Open Source Papers:** 140
 - **Latest Month:** 2026-08
 
@@ -18,7 +18,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (246)
 - [Manipulation](/manipulation/) (99)
 - [Teleoperation](/teleoperation/) (38)
-- [Locomotion](/locomotion/) (155)
+- [Locomotion](/locomotion/) (156)
 - [Navigation](/navigation/) (32)
 - [State Estimation](/state-estimation/) (43)
 - [Sim-to-Real](/sim-to-real/) (14)
@@ -31,6 +31,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [Hip Energized Monopedal Hopping](https://arxiv.org/abs/2608.10387) — 2026-08
+  - [Locomotion](/locomotion/)
 - 🌟 [Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models](https://arxiv.org/abs/2608.09666) — 2026-08
   - [Simulation Benchmark](/simulation-benchmark/)
 -  🤖 [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — 2026-08
@@ -49,8 +51,6 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Teleoperation](/teleoperation/)
 -  [Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control](https://arxiv.org/abs/2608.05989) — 2026-08
   - [Locomotion](/locomotion/)
--  🤖 [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — 2026-08
-  - [State Estimation](/state-estimation/)
 
 ---
 
@@ -58,10 +58,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - **Humanoid** (575)
 - **Loco-Manipulation and Whole-Body Control** (283)
-- **Locomotion** (220)
+- **Locomotion** (221)
 - **Manipulation** (214)
-- **Simulation Benchmark** (191)
-- **State Estimation** (157)
+- **Simulation Benchmark** (192)
+- **State Estimation** (158)
 - **Physics-Based Character Animation** (105)
 - **Reinforcement Learning** (102)
 - **PPO** (82)
@@ -77,13 +77,13 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Sim-to-Real** (42)
 - **Zero-Shot** (39)
 - **Safety** (36)
-- **Biped** (28)
+- **Biped** (29)
 - **Walking** (27)
 - **Foundation Model** (27)
 - **Robustness** (26)
 - **Human Demonstration** (26)
 - **Distillation** (25)
-- **Gait** (21)
+- **Gait** (22)
 - **Imitation Learning** (20)
 - **Collision** (20)
 
@@ -694,6 +694,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/locomotion/2026-08)
 
+- [Hip Energized Monopedal Hopping](https://arxiv.org/abs/2608.10387) — `Locomotion`, `Biped`, `Gait`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
 - [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — `Reinforcement Learning`, `Navigation`, `Robustness`, `Biped`, `Friction`, `Gradient-Based`
 - [Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control](https://arxiv.org/abs/2608.05989) — `Reinforcement Learning`, `Humanoid`, `Policy Learning`, `Representation Learning`, `Locomotion`
 - [Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study](https://arxiv.org/abs/2608.02809) — `Locomotion`, `Manipulation`, `Safety`, `Biped`, `Humanoid`, `Walking`

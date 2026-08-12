@@ -1,5 +1,36 @@
 [
   {
+    "arxiv_id": "2608.10387",
+    "title": "Hip Energized Monopedal Hopping",
+    "paper_url": "https://arxiv.org/abs/2608.10387",
+    "project_url": null,
+    "authors": [
+      "Shane Rozen-Levy",
+      "Griffon McMahon",
+      "Daniel Koditschek"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-11",
+    "abstract": "We present a novel stepping strategy for pitch unlocked planar monopeds where the reaction torques from stabilizing pitch with a conventional PD + feedfoward controller are recruited to counteract energetic losses from damping. By moving the location of the mass center, our controller increases the pitch stabilization torque, thereby adding energy to the gait. A new stepping policy adjusts the distribution of energy between the radial and angular degrees of freedom to counteract dissipative losses and achieve a user specified balance between steady state fore-aft speed and apex height. Hybrid averaging analysis yields closed form expressions for the fixed points and eigenvalues of the resulting gait, lending insight into the interplay between the physical and control parameters' influence on performance. Simulation studies on a generic 5 link biped and a careful model of the Penn Jerboa reveal a useful correspondence to these analytical predictions. Physical experiments on the Penn Jerboa exhibit stable locomotion with speeds ranging from 1.02 m/s to 1.77 m/s (5.10 leg lengths/s to 8.85 leg lengths/s) in a manner effectively approximated by the mathematical analysis.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Locomotion",
+      "Biped",
+      "Gait",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2608.09666",
     "title": "Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models",
     "paper_url": "https://arxiv.org/abs/2608.09666",

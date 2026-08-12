@@ -1,10 +1,10 @@
 # Locomotion
 
-**155 papers** in this category.
+**156 papers** in this category.
 
 ## Months
 
-- [2026-08](/locomotion/2026-08) (7 papers)
+- [2026-08](/locomotion/2026-08) (8 papers)
 - [2026-07](/locomotion/2026-07) (22 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
@@ -38,6 +38,25 @@
 ---
 
 ## Recent Papers
+
+## Hip Energized Monopedal Hopping
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.10387)
+- **Authors:** Shane Rozen-Levy, Griffon McMahon, Daniel Koditschek
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Gait
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+We present a novel stepping strategy for pitch unlocked planar monopeds where the reaction torques from stabilizing pitch with a conventional PD + feedfoward controller are recruited to counteract energetic losses from damping. By moving the location of the mass center, our controller increases the pitch stabilization torque, thereby adding energy to the gait.
+
+---
 
 ## Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies
 
@@ -397,22 +416,5 @@ Equipping humanoid robots with coherent and adaptable personas is crucial for fo
 ### Summary
 
 Collisions of rigid-link robots and rigid environments are often modeled as instantaneous events. Under this idealization, the impact forces become impulsive and the system velocities nonsmooth.
-
----
-
-## Algorithmic Accuracy as a Motivational Driver in Robot-Mediated Learning: A Comparative Study of Cross-Correlation and CNN-Based Sound Detection in an Interactive Quiz Game
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.16299)
-- **Authors:** Rezaul Tutul, Ilona Buchem, Niels Pinkwart
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Pepper
-- **Tags:**
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-In competitive learning activities, inaccurate robot decisions may reduce students' perceptions of fairness and competence, ultimately affecting their motivation. This paper investigates whether the accuracy of sound detection algorithms influences student motivation during a robot-mediated quiz game.
 
 ---

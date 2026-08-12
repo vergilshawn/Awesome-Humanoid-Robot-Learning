@@ -358,7 +358,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (155)",
+            "text": "Locomotion (156)",
             "collapsed": true,
             "items": [
                   {
