@@ -1,10 +1,10 @@
 # Manipulation
 
-**99 papers** in this category.
+**100 papers** in this category.
 
 ## Months
 
-- [2026-08](/manipulation/2026-08) (4 papers)
+- [2026-08](/manipulation/2026-08) (5 papers)
 - [2026-07](/manipulation/2026-07) (18 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
@@ -33,6 +33,26 @@
 ---
 
 ## Recent Papers
+
+## Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.11769)
+- **Authors:** Chaeyeon Jung, Juyoun Park
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Vision-language-action (VLA) policies are expected to operate robustly across variations in the robot's initial configuration, yet aggregate task success can conceal pose-specific failures and inappropriate hand selection. This work investigates initial-pose dependence in VLA-based humanoid dual-arm manipulation.
+
+---
 
 ## A Haptic Robot Finger Designed for Guqin Instrument Playing
 
@@ -390,24 +410,5 @@ Keypoint tracking alone is insufficient for object interaction tasks such as sit
 ### Summary
 
 Humanoid robots can extend human presence to remote, constrained, or hazardous environments, but existing teleoperation interfaces often require physically demanding motion tracking or cognitively demanding low-level control. This paper presents an immersive teleoperation framework that integrates voice-controlled locomotion, VR-based manipulation, and bidirectional social interaction for whole-body humanoid control.
-
----
-
-## WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.06438)
-- **Authors:** Wongyun Yu, Youngwoon Kim, Minsu Cho
-- **Published:** 2026-07
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-Retargeting human object interaction demonstrations to physics based simulation requires reproducing not only body motion but also the object motion and contacts that make manipulation succeed. However, position only hand trajectories do not specify the contact forces needed to manipulate objects, and directly tracking them can overconstrain contact rich finger behavior.
 
 ---

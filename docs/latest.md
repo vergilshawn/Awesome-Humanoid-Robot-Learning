@@ -2,6 +2,47 @@
 
 All papers sorted by publication date (newest first).
 
+## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.12063)
+- **Authors:** Martin Schuck, Maks Sorokin, Simone Manni, Duy Ta, Angela P. Schoellig, Marco Hutter et al. (8 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Reinforcement Learning
+  - MPC
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Optimal Control
+
+### Summary
+
+Integrating locomotion and manipulation is essential for robot autonomy, but scaling standard Reinforcement Learning (RL) to complex tasks is severely bottlenecked by the slow, manual process of dense reward shaping. To bypass this limitation, we leverage Sample-based Model Predictive Control (SMPC) entirely in simulation as an automated, rapidly tunable expert to generate massive offline datasets.
+
+---
+
+## Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.11769)
+- **Authors:** Chaeyeon Jung, Juyoun Park
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Vision-language-action (VLA) policies are expected to operate robustly across variations in the robot's initial configuration, yet aggregate task success can conceal pose-specific failures and inappropriate hand selection. This work investigates initial-pose dependence in VLA-based humanoid dual-arm manipulation.
+
+---
+
 ## Hip Energized Monopedal Hopping
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.10387)
@@ -21,20 +62,25 @@ We present a novel stepping strategy for pitch unlocked planar monopeds where th
 
 ---
 
-## 🌟 Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models
+## Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.09666)
-- **Project:** [GitHub](https://github.com/Vchitect/Evaluation-Agent)
-- **Authors:** Shulin Tian, Ziqi Huang, Fan Zhang, Hongyuan Zhu, Yu Qiao, Ziwei Liu
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.10220)
+- **Authors:** Carlos Gonzalez, Luis Sentis
 - **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
-  - Generative Models
+  - Reinforcement Learning
+  - Locomotion
+  - Domain Randomization
+  - Humanoid
+  - Path Planning
+  - Collision
   - Benchmark
   - Simulation Benchmark
 
 ### Summary
 
-Recent advances in visual generative models have enabled high-quality image and video generation, but evaluating these models often demands sampling hundreds or thousands of images or videos, which is computationally expensive. Existing evaluation methods also rely on rigid pipelines that overlook specific user needs and provide numerical results without clear explanations.
+Humanoid locomotion in highly confined environments requires navigating dense environmental obstacles and complex self-collision bounds while maintaining multi-contact dynamic feasibility. Traditional trajectory optimizers frequently struggle in these restricted spaces, as navigating the large collision space with splines on particle abstractions is insufficient and leads to poor local minima.
 
 ---
 

@@ -4,69 +4,69 @@ Browse papers by research topic and methodology.
 
 ---
 
-## Humanoid (575)
+## Humanoid (578)
 
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — 2026-08
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 - [LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.07746) — 2026-08
 - [A Haptic Robot Finger Designed for Guqin Instrument Playing](https://arxiv.org/abs/2608.07002) — 2026-08
-- [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
-- [Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control](https://arxiv.org/abs/2608.05989) — 2026-08
-- [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — 2026-08
 
-## Loco-Manipulation and Whole-Body Control (283)
+## Loco-Manipulation and Whole-Body Control (285)
 
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 - [LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.07746) — 2026-08
 - [PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents](https://arxiv.org/abs/2608.07438) — 2026-08
 - [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
-- [MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight](https://arxiv.org/abs/2608.04657) — 2026-08
-- [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — 2026-08
 
-## Locomotion (221)
+## Locomotion (223)
 
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
 - [Hip Energized Monopedal Hopping](https://arxiv.org/abs/2608.10387) — 2026-08
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 - [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — 2026-08
 - [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
-- [Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control](https://arxiv.org/abs/2608.05989) — 2026-08
-- [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — 2026-08
 
-## Manipulation (214)
+## Manipulation (216)
 
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — 2026-08
 - [LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.07746) — 2026-08
 - [A Haptic Robot Finger Designed for Guqin Instrument Playing](https://arxiv.org/abs/2608.07002) — 2026-08
 - [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
-- [MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight](https://arxiv.org/abs/2608.04657) — 2026-08
-- [Projection-Retraction MPPI: Exact Constraint-Manifold Control for Manipulators](https://arxiv.org/abs/2608.07573) — 2026-08
 
-## Simulation Benchmark (192)
+## Simulation Benchmark (194)
 
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — 2026-08
 - [Hip Energized Monopedal Hopping](https://arxiv.org/abs/2608.10387) — 2026-08
-- 🌟 [Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models](https://arxiv.org/abs/2608.09666) — 2026-08
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 - [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — 2026-08
-- [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
-- [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) — 2026-08
 
-## State Estimation (158)
+## State Estimation (161)
 
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — 2026-08
 - [Hip Energized Monopedal Hopping](https://arxiv.org/abs/2608.10387) — 2026-08
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 - [When Is a Steerable Concept Representation Real? Measurement Confounds in a Cross-Family Audit of Neuroscience Parallels in LLMs](https://arxiv.org/abs/2608.08159) — 2026-08
-- [LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.07746) — 2026-08
-- [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
-- [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — 2026-08
 
-## Physics-Based Character Animation (105)
+## Physics-Based Character Animation (106)
 
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 - [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — 2026-08
 - [Projection-Retraction MPPI: Exact Constraint-Manifold Control for Manipulators](https://arxiv.org/abs/2608.07573) — 2026-08
 - [PFM-HR: Pose Flow Matching for Humanoid Robots](https://arxiv.org/abs/2608.03227) — 2026-08
 - [GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking](https://arxiv.org/abs/2608.01410) — 2026-08
-- [Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination](https://arxiv.org/abs/2607.29227) — 2026-07
 
-## Reinforcement Learning (102)
+## Reinforcement Learning (104)
 
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 - [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — 2026-08
 - [LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.07746) — 2026-08
 - [Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control](https://arxiv.org/abs/2608.05989) — 2026-08
-- [PFM-HR: Pose Flow Matching for Humanoid Robots](https://arxiv.org/abs/2608.03227) — 2026-08
-- [CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning](https://arxiv.org/abs/2607.29172) — 2026-07
 
 ## PPO (82)
 
@@ -94,27 +94,27 @@ Browse papers by research topic and methodology.
 
 ## Benchmark (72)
 
-- 🌟 [Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models](https://arxiv.org/abs/2608.09666) — 2026-08
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 - [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) — 2026-08
 - [GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking](https://arxiv.org/abs/2608.01410) — 2026-08
 - [From Failures to Supervision: DynamicEnvPlan for Robust Long-Horizon Embodied Planning](https://arxiv.org/abs/2608.00613) — 2026-08
 - [First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance](https://arxiv.org/abs/2608.00500) — 2026-08
 
-## Navigation (68)
+## Navigation (70)
 
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 - [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — 2026-08
 - [PFM-HR: Pose Flow Matching for Humanoid Robots](https://arxiv.org/abs/2608.03227) — 2026-08
 - [Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin](https://arxiv.org/abs/2608.02080) — 2026-08
-- [Good Rankers, Bad Objectives: Bilinear Contrastive Critics under Expressive Policy Search](https://arxiv.org/abs/2607.27422) — 2026-07
-- [Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation](https://arxiv.org/abs/2607.24083) — 2026-07
 
-## Dataset (64)
+## Dataset (66)
 
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — 2026-08
 - [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
 - [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) — 2026-08
 - [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — 2026-08
-- [Learning Context-Aware Motion Priors for Humanoid Control](https://arxiv.org/abs/2608.03234) — 2026-08
-- [Developing Combined Manipulation and Locomotion Skills with Interaction Representation and Skill Composition](https://arxiv.org/abs/2608.00208) — 2026-07
 
 ## Whole-Body Control (63)
 
@@ -124,13 +124,21 @@ Browse papers by research topic and methodology.
 - [Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds](https://arxiv.org/abs/2607.18135) — 2026-07
 - [A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation](https://arxiv.org/abs/2607.11874) — 2026-07
 
-## Vision-Language (44)
+## Vision-Language (45)
 
+- [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — 2026-08
 - [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — 2026-08
 - [Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies](https://arxiv.org/abs/2608.01826) — 2026-08
 - [ORCESTRA: VLM-driven Visual Robot programming in Mixed Reality](https://arxiv.org/abs/2608.00775) — 2026-08
 - [Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots](https://arxiv.org/abs/2607.26567) — 2026-07
+
+## Sim-to-Real (44)
+
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 - [Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline](https://arxiv.org/abs/2607.22997) — 2026-07
+- 🌟 [ReferTrack: Referring Then Tracking for Embodied Visual Tracking](https://arxiv.org/abs/2607.20061) — 2026-07
+- [Optimization of sim-to-real transfer in the humanoid robot NICO](https://arxiv.org/abs/2607.18210) — 2026-07
 
 ## Hardware Design (44)
 
@@ -147,14 +155,6 @@ Browse papers by research topic and methodology.
 - [Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design](https://arxiv.org/abs/2607.25798) — 2026-07
 - [PRISM: Polynomial Representations for Interaction-Structured Motor Control](https://arxiv.org/abs/2607.23473) — 2026-07
 - [Learning Adaptive Safety Margins for Visual Navigation](https://arxiv.org/abs/2607.18200) — 2026-07
-
-## Sim-to-Real (42)
-
-- [Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline](https://arxiv.org/abs/2607.22997) — 2026-07
-- 🌟 [ReferTrack: Referring Then Tracking for Embodied Visual Tracking](https://arxiv.org/abs/2607.20061) — 2026-07
-- [Optimization of sim-to-real transfer in the humanoid robot NICO](https://arxiv.org/abs/2607.18210) — 2026-07
-- [World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation](https://arxiv.org/abs/2607.18154) — 2026-07
-- [Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds](https://arxiv.org/abs/2607.18135) — 2026-07
 
 ## Zero-Shot (39)
 
@@ -180,6 +180,14 @@ Browse papers by research topic and methodology.
 - [Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control](https://arxiv.org/abs/2607.29625) — 2026-07
 - [ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments](https://arxiv.org/abs/2607.21025) — 2026-07
 
+## Robustness (28)
+
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — 2026-08
+- [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — 2026-08
+- [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — 2026-08
+- [Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots](https://arxiv.org/abs/2607.26567) — 2026-07
+
 ## Walking (27)
 
 - [Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study](https://arxiv.org/abs/2608.02809) — 2026-08
@@ -195,14 +203,6 @@ Browse papers by research topic and methodology.
 - [Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents](https://arxiv.org/abs/2607.19190) — 2026-07
 - [Do Vision Encoders Exhibit Human-like Color Thresholds?](https://arxiv.org/abs/2607.16540) — 2026-07
 - [Scaling Behavior Foundation Model for Humanoid Robots](https://arxiv.org/abs/2607.15163) — 2026-07
-
-## Robustness (26)
-
-- [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — 2026-08
-- [KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots](https://arxiv.org/abs/2608.05647) — 2026-08
-- [Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots](https://arxiv.org/abs/2607.26567) — 2026-07
-- [A systematic evaluation of machine learning classifiers for event-by-event background rejection in LAFOV PET scanners](https://arxiv.org/abs/2607.25732) — 2026-07
-- [RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC](https://arxiv.org/abs/2607.15701) — 2026-07
 
 ## Human Demonstration (26)
 
@@ -228,6 +228,14 @@ Browse papers by research topic and methodology.
 - [Handroid: Bridging Dexterous Hand and Humanoid](https://arxiv.org/abs/2607.16187) — 2026-07
 - [GaitSpan: Growing Humanoid Locomotion from Walking to Running](https://arxiv.org/abs/2607.12114) — 2026-07
 
+## Collision (21)
+
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
+- [Learning Adaptive Safety Margins for Visual Navigation](https://arxiv.org/abs/2607.18200) — 2026-07
+- [From Sign Language Generation to Humanoid Execution: Vision-Language Guided Retargeting with Collision Mitigation](https://arxiv.org/abs/2607.17769) — 2026-07
+- [RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC](https://arxiv.org/abs/2607.15701) — 2026-07
+- [Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments](https://arxiv.org/abs/2607.14488) — 2026-07
+
 ## Imitation Learning (20)
 
 - [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
@@ -235,14 +243,6 @@ Browse papers by research topic and methodology.
 - [AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance](https://arxiv.org/abs/2607.08341) — 2026-07
 - [Immersive Social Interaction with VR and LLM-Assisted Humanoids](https://arxiv.org/abs/2607.07430) — 2026-07
 - [RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation](https://arxiv.org/abs/2606.31836) — 2026-06
-
-## Collision (20)
-
-- [Learning Adaptive Safety Margins for Visual Navigation](https://arxiv.org/abs/2607.18200) — 2026-07
-- [From Sign Language Generation to Humanoid Execution: Vision-Language Guided Retargeting with Collision Mitigation](https://arxiv.org/abs/2607.17769) — 2026-07
-- [RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC](https://arxiv.org/abs/2607.15701) — 2026-07
-- [Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments](https://arxiv.org/abs/2607.14488) — 2026-07
-- [The Nonsmooth Impact Direction (NSID) of Robotic Systems](https://arxiv.org/abs/2607.13768) — 2026-07
 
 ## Fine-tuning (19)
 
@@ -292,6 +292,14 @@ Browse papers by research topic and methodology.
 - [Scaling Behavior Foundation Model for Humanoid Robots](https://arxiv.org/abs/2607.15163) — 2026-07
 - [Physics-Informed Diffusion for Biomechanically Plausible 3D Sign Language Generation](https://arxiv.org/abs/2607.14836) — 2026-07
 
+## MPC (13)
+
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC](https://arxiv.org/abs/2607.15701) — 2026-07
+- [WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\top$ Factorization](https://arxiv.org/abs/2607.11603) — 2026-07
+- [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — 2026-07
+- [Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots](https://arxiv.org/abs/2606.25706) — 2026-06
+
 ## World Model (13)
 
 - [LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.07746) — 2026-08
@@ -307,14 +315,6 @@ Browse papers by research topic and methodology.
 - [PDS Joint: A Parametric Double-Spiral Joint Tailored for Dexterous Hands](https://arxiv.org/abs/2606.24377) — 2026-06
 - [CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.23680) — 2026-06
 - [LP-NavOA: Integrated Local Navigation and Obstacle Avoidance for Humanoid Robots under Limited Perception](https://arxiv.org/abs/2606.23249) — 2026-06
-
-## MPC (12)
-
-- [RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC](https://arxiv.org/abs/2607.15701) — 2026-07
-- [WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\top$ Factorization](https://arxiv.org/abs/2607.11603) — 2026-07
-- [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — 2026-07
-- [Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots](https://arxiv.org/abs/2606.25706) — 2026-06
-- 🌟 [TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU](https://arxiv.org/abs/2606.24039) — 2026-06
 
 ## MuJoCo (12)
 
@@ -388,6 +388,14 @@ Browse papers by research topic and methodology.
 - [Safe Human-to-Humanoid Motion Imitation Using Control Barrier Functions](https://arxiv.org/abs/2604.11447) — 2026-04
 - [Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking](https://arxiv.org/abs/2510.02252) — 2025-10
 
+## Domain Randomization (6)
+
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
+- [FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control](https://arxiv.org/abs/2606.28476) — 2026-06
+- [ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion](https://arxiv.org/abs/2606.16542) — 2026-06
+- [Human-like autonomy emerges from self-play and a pinch of human data](https://arxiv.org/abs/2606.19370) — 2026-06
+- [OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.08548) — 2026-06
+
 ## Sampling-Based (6)
 
 - 🌟 [P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning](https://arxiv.org/abs/2607.25541) — 2026-07
@@ -428,14 +436,6 @@ Browse papers by research topic and methodology.
 - [Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models](https://arxiv.org/abs/2606.15918) — 2026-06
 - [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814) — 2026-06
 
-## Domain Randomization (5)
-
-- [FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control](https://arxiv.org/abs/2606.28476) — 2026-06
-- [ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion](https://arxiv.org/abs/2606.16542) — 2026-06
-- [Human-like autonomy emerges from self-play and a pinch of human data](https://arxiv.org/abs/2606.19370) — 2026-06
-- [OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.08548) — 2026-06
-- [The Role of Domain Randomization in Training Diffusion Policies for Whole-Body Humanoid Control](https://arxiv.org/abs/2411.01349) — 2024-11
-
 ## Contact Dynamics (5)
 
 - [PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation](https://arxiv.org/abs/2606.26741) — 2026-06
@@ -443,13 +443,6 @@ Browse papers by research topic and methodology.
 - 🌟 [DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects](https://arxiv.org/abs/2606.15133) — 2026-06
 - [PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots](https://arxiv.org/abs/2605.17681) — 2026-05
 - [QuietWalk: Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear](https://arxiv.org/abs/2604.23702) — 2026-04
-
-## Generative Models (4)
-
-- 🌟 [Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models](https://arxiv.org/abs/2608.09666) — 2026-08
-- [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — 2026-08
-- [DanceDuo: Bridging Human Movement and AI Choreography](https://arxiv.org/abs/2606.26507) — 2026-06
-- [Let the Dynamics Flow: Stable Flow Matching Dynamical Systems](https://arxiv.org/abs/2606.03834) — 2026-06
 
 ## Friction (4)
 
@@ -528,11 +521,23 @@ Browse papers by research topic and methodology.
 - [Before the Body Moves: Learning Anticipatory Joint Intent for Language-Conditioned Humanoid Control](https://arxiv.org/abs/2605.14417) — 2026-05
 - 🌟 [CLAW: Composable Language-Annotated Whole-body Motion Generation](https://arxiv.org/abs/2604.11251) — 2026-04
 
+## Optimal Control (3)
+
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
+- [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — 2026-07
+- [Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics](https://arxiv.org/abs/2606.16564) — 2026-06
+
 ## Curriculum Learning (3)
 
 - [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — 2026-08
 - [Improving Reasoning in Vision-Language Models via Perception Verified Self-Training](https://arxiv.org/abs/2606.22158) — 2026-06
 - [HiFAR: Multi-Stage Curriculum Learning for High-Dynamics Humanoid Fall Recovery](https://arxiv.org/abs/2502.20061) — 2025-02
+
+## Generative Models (3)
+
+- [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](https://arxiv.org/abs/2608.03387) — 2026-08
+- [DanceDuo: Bridging Human Movement and AI Choreography](https://arxiv.org/abs/2606.26507) — 2026-06
+- [Let the Dynamics Flow: Stable Flow Matching Dynamical Systems](https://arxiv.org/abs/2606.03834) — 2026-06
 
 ## 3D Reconstruction (3)
 
@@ -564,6 +569,11 @@ Browse papers by research topic and methodology.
 - [Real2Sim in HOI: Toward Physically Plausible HOI Reconstruction from Monocular Videos](https://arxiv.org/abs/2605.14462) — 2026-05
 - 🌟 [ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI,  / [code](https://github.com/haosulab/ManiSkill)](https://arxiv.org/abs/2410.00425) — 2024-10
 
+## Path Planning (2)
+
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
+- [Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments](https://arxiv.org/abs/2607.09911) — 2026-07
+
 ## Admittance Control (2)
 
 - [PRISM: Polynomial Representations for Interaction-Structured Motor Control](https://arxiv.org/abs/2607.23473) — 2026-07
@@ -594,11 +604,6 @@ Browse papers by research topic and methodology.
 - [Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control](https://arxiv.org/abs/2607.04837) — 2026-07
 - [FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control](https://arxiv.org/abs/2606.28476) — 2026-06
 
-## Optimal Control (2)
-
-- [Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots](https://arxiv.org/abs/2607.01574) — 2026-07
-- [Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics](https://arxiv.org/abs/2606.16564) — 2026-06
-
 ## Deep Learning (2)
 
 - [DanceDuo: Bridging Human Movement and AI Choreography](https://arxiv.org/abs/2606.26507) — 2026-06
@@ -626,10 +631,6 @@ Browse papers by research topic and methodology.
 ## Offline RL (1)
 
 - [Offline RL with Hierarchical Action Chunking](https://arxiv.org/abs/2607.20834) — 2026-07
-
-## Path Planning (1)
-
-- [Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments](https://arxiv.org/abs/2607.09911) — 2026-07
 
 ## Data Augmentation (1)
 

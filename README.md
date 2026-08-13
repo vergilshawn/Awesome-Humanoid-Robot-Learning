@@ -2,23 +2,23 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 802
-- **Real Robot Papers:** 157
-- **Open Source Papers:** 140
+- **Total Papers:** 804
+- **Real Robot Papers:** 158
+- **Open Source Papers:** 139
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (246)
-- [Manipulation](#manipulation) (99)
+- [Manipulation](#manipulation) (100)
 - [Teleoperation](#teleoperation) (38)
 - [Locomotion](#locomotion) (156)
 - [Navigation](#navigation) (32)
 - [State Estimation](#state-estimation) (43)
 - [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (73)
+- [Simulation Benchmark](#simulation-benchmark) (74)
 - [Physics-Based Character Animation](#physics-based-character-animation) (43)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (27)
 - [Usage](#usage)
@@ -364,6 +364,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — `Manipulation`, `Robustness`, `Humanoid`, `Vision-Language`, `Dataset`, `Simulation Benchmark`
 - [A Haptic Robot Finger Designed for Guqin Instrument Playing](https://arxiv.org/abs/2608.07002) — `Humanoid`, `Tactile Sensing`, `Manipulation`, `Teleoperation`
 - [Projection-Retraction MPPI: Exact Constraint-Manifold Control for Manipulators](https://arxiv.org/abs/2608.07573) — `Manipulation`, `Humanoid`, `State Estimation`, `Simulation Benchmark`, `Physics-Based Character Animation`, `Real Robot`
 - [Teleopit: A Full-Embodiment Humanoid Teleoperation System](https://arxiv.org/abs/2608.01834) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Optimization-Based`, `Loco-Manipulation and Whole-Body Control`
@@ -1163,7 +1164,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
-- 🌟 [Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models](https://arxiv.org/abs/2608.09666), [website](https://github.com/Vchitect/Evaluation-Agent) — `Generative Models`, `Benchmark`, `Simulation Benchmark`, `Open Source`
+- [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — `Reinforcement Learning`, `MPC`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Robustness`
+- [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — `Reinforcement Learning`, `Locomotion`, `Domain Randomization`, `Humanoid`, `Path Planning`, `Collision`
 - [Learning Context-Aware Motion Priors for Humanoid Control](https://arxiv.org/abs/2608.03234) — `Humanoid`, `Dataset`, `Policy Learning`, `Simulation Benchmark`
 - [From Failures to Supervision: DynamicEnvPlan for Robust Long-Horizon Embodied Planning](https://arxiv.org/abs/2608.00613) — `Safety`, `Humanoid`, `Fine-tuning`, `Benchmark`, `Simulation Benchmark`
 

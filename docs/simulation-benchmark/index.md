@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**73 papers** in this category.
+**74 papers** in this category.
 
 ## Months
 
-- [2026-08](/simulation-benchmark/2026-08) (3 papers)
+- [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
@@ -26,20 +26,46 @@
 
 ## Recent Papers
 
-## 🌟 Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models
+## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.09666)
-- **Project:** [GitHub](https://github.com/Vchitect/Evaluation-Agent)
-- **Authors:** Shulin Tian, Ziqi Huang, Fan Zhang, Hongyuan Zhu, Yu Qiao, Ziwei Liu
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.12063)
+- **Authors:** Martin Schuck, Maks Sorokin, Simone Manni, Duy Ta, Angela P. Schoellig, Marco Hutter et al. (8 authors)
 - **Published:** 2026-08
 - **Tags:**
-  - Generative Models
+  - Reinforcement Learning
+  - MPC
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Optimal Control
+
+### Summary
+
+Integrating locomotion and manipulation is essential for robot autonomy, but scaling standard Reinforcement Learning (RL) to complex tasks is severely bottlenecked by the slow, manual process of dense reward shaping. To bypass this limitation, we leverage Sample-based Model Predictive Control (SMPC) entirely in simulation as an automated, rapidly tunable expert to generate massive offline datasets.
+
+---
+
+## Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.10220)
+- **Authors:** Carlos Gonzalez, Luis Sentis
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Domain Randomization
+  - Humanoid
+  - Path Planning
+  - Collision
   - Benchmark
   - Simulation Benchmark
 
 ### Summary
 
-Recent advances in visual generative models have enabled high-quality image and video generation, but evaluating these models often demands sampling hundreds or thousands of images or videos, which is computationally expensive. Existing evaluation methods also rely on rigid pipelines that overlook specific user needs and provide numerical results without clear explanations.
+Humanoid locomotion in highly confined environments requires navigating dense environmental obstacles and complex self-collision bounds while maintaining multi-contact dynamic feasibility. Traditional trajectory optimizers frequently struggle in these restricted spaces, as navigating the large collision space with splines on particle abstractions is insufficient and leads to poor local minima.
 
 ---
 
@@ -383,22 +409,5 @@ Vision-language models (VLMs) have achieved strong performance across diverse mu
 ### Summary
 
 Cross-embodiment transfer in vision-language-action (VLA) models remains challenging because low-level state and action spaces differ fundamentally across robot platforms. We observe that the high-level cognitive process underlying manipulation, including scene perception, object identification, task planning, and sub-task decomposition, is largely shared across embodiments.
-
----
-
-## Identifying the Unknown: Prompt-Free Open Vocabulary Anomaly Recognition for Robot-Object Interaction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.26829)
-- **Authors:** Philipp Allgeuer, Jan-Gerrit Habekost, Stefan Wermter
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - Dataset
-  - Open Vocabulary
-  - Simulation Benchmark
-
-### Summary
-
-Robots operating in real-world environments must in general be able to recognize previously unseen objects. As robotic systems move toward open-world autonomy, there is a growing, yet largely unmet, need for open vocabulary object detectors that are prompt-free and efficient enough for continuous deployment.
 
 ---

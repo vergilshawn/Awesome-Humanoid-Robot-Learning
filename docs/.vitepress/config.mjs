@@ -174,7 +174,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (99)",
+            "text": "Manipulation (100)",
             "collapsed": true,
             "items": [
                   {
@@ -740,7 +740,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (73)",
+            "text": "Simulation Benchmark (74)",
             "collapsed": true,
             "items": [
                   {

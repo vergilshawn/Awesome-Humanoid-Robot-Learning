@@ -11,7 +11,7 @@ Papers with real humanoid robot deployment and experiments.
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
-- **Unitree G1:** 58 papers
+- **Unitree G1:** 59 papers
 - **Unitree H1:** 3 papers
 - **Unknown Platform:** 15 papers
 - **Walker:** 1 papers
@@ -37,6 +37,28 @@ Papers with real humanoid robot deployment and experiments.
 ### Summary
 
 We present a novel stepping strategy for pitch unlocked planar monopeds where the reaction torques from stabilizing pitch with a conventional PD + feedfoward controller are recruited to counteract energetic losses from damping. By moving the location of the mass center, our controller increases the pitch stabilization torque, thereby adding energy to the gait.
+
+---
+
+## Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.10220)
+- **Authors:** Carlos Gonzalez, Luis Sentis
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Domain Randomization
+  - Humanoid
+  - Path Planning
+  - Collision
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion in highly confined environments requires navigating dense environmental obstacles and complex self-collision bounds while maintaining multi-contact dynamic feasibility. Traditional trajectory optimizers frequently struggle in these restricted spaces, as navigating the large collision space with splines on particle abstractions is insufficient and leads to poor local minima.
 
 ---
 

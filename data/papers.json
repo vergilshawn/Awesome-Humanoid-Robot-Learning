@@ -1,5 +1,85 @@
 [
   {
+    "arxiv_id": "2608.12063",
+    "title": "Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL",
+    "paper_url": "https://arxiv.org/abs/2608.12063",
+    "project_url": null,
+    "authors": [
+      "Martin Schuck",
+      "Maks Sorokin",
+      "Simone Manni",
+      "Duy Ta",
+      "Angela P. Schoellig",
+      "Marco Hutter",
+      "Simon Le Cleac'H",
+      "Jan Brüdigam"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-12",
+    "abstract": "Integrating locomotion and manipulation is essential for robot autonomy, but scaling standard Reinforcement Learning (RL) to complex tasks is severely bottlenecked by the slow, manual process of dense reward shaping. To bypass this limitation, we leverage Sample-based Model Predictive Control (SMPC) entirely in simulation as an automated, rapidly tunable expert to generate massive offline datasets. Because this data solves the fundamental exploration problem, we can train an off-policy RL agent using purely sparse task rewards, drastically reducing the time required to learn new skills and eliminating the need for manual tuning. Integrating this high-level agent with a low-level dynamic stability controller yields more optimal behaviors that strictly align with true task objectives, ultimately allowing the learned policies to surpass the original optimal control teacher. We validate the robustness of this sim-to-real framework by successfully deploying complex loco-manipulation skills across different morphologies, including an arm-equipped Spot quadruped and a G1 humanoid.",
+    "categories": [
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Navigation",
+      "State Estimation",
+      "Sim-to-Real"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "MPC",
+      "Sim-to-Real",
+      "Locomotion",
+      "Manipulation",
+      "Robustness",
+      "Humanoid",
+      "Optimal Control",
+      "Dataset",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Navigation",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2608.11769",
+    "title": "Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence",
+    "paper_url": "https://arxiv.org/abs/2608.11769",
+    "project_url": null,
+    "authors": [
+      "Chaeyeon Jung",
+      "Juyoun Park"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-12",
+    "abstract": "Vision-language-action (VLA) policies are expected to operate robustly across variations in the robot's initial configuration, yet aggregate task success can conceal pose-specific failures and inappropriate hand selection. This work investigates initial-pose dependence in VLA-based humanoid dual-arm manipulation. We characterize the initial-condition-dependent early hand preference as a policy-induced hand prior and quantify it using HandPriorScore, residual hand bias, and target responsiveness. Evaluations across multiple policies and 17 initial configurations reveal strong initial-pose--policy interactions: the same pose produces substantially different success rates across policies, while a single policy exhibits large performance variation across poses. Specific initial arm configurations can suppress or induce an asymmetric hand preference, with the resulting effect varying in direction and strength across policies. Wrist-camera observations also influence hand selection and task performance. Expanding initial-pose coverage in the training dataset substantially improves robustness, while targeted augmentation around a low-performing configuration increases its success rate. Comparisons across training configurations show that sufficient exposure to the target simulation task is beneficial, whereas the effect of real or auxiliary data depends on pose coverage, simulation ratio, and observation availability. These findings characterize a pose-conditioned hand prior, identify a localized initial arm configuration as a causal handle on hand-selection behavior, and demonstrate how data coverage and training composition affect initial-pose robustness.",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Robustness",
+      "Humanoid",
+      "Vision-Language",
+      "Dataset",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
     "arxiv_id": "2608.10387",
     "title": "Hip Energized Monopedal Hopping",
     "paper_url": "https://arxiv.org/abs/2608.10387",
@@ -31,32 +111,44 @@
     "primary_category": "Locomotion"
   },
   {
-    "arxiv_id": "2608.09666",
-    "title": "Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models",
-    "paper_url": "https://arxiv.org/abs/2608.09666",
-    "project_url": "https://github.com/Vchitect/Evaluation-Agent",
+    "arxiv_id": "2608.10220",
+    "title": "Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References",
+    "paper_url": "https://arxiv.org/abs/2608.10220",
+    "project_url": null,
     "authors": [
-      "Shulin Tian",
-      "Ziqi Huang",
-      "Fan Zhang",
-      "Hongyuan Zhu",
-      "Yu Qiao",
-      "Ziwei Liu"
+      "Carlos Gonzalez",
+      "Luis Sentis"
     ],
     "published": "2026-08",
     "published_date": "2026-08-10",
-    "abstract": "Recent advances in visual generative models have enabled high-quality image and video generation, but evaluating these models often demands sampling hundreds or thousands of images or videos, which is computationally expensive. Existing evaluation methods also rely on rigid pipelines that overlook specific user needs and provide numerical results without clear explanations. Mimicking how humans quickly form impressions of a model's capabilities from only a few samples, we propose the Evaluation Agent framework, which employs human-like strategies for efficient, dynamic, multi-round evaluations, offering detailed, user-tailored analyses. Given a natural-language evaluation request, the agent decomposes it into sub-aspects, generates targeted prompts, samples images or videos from the evaluated model, invokes suitable evaluation tools, and iteratively updates its plan from the observed evidence, covering both predefined benchmark dimensions and open-ended user concerns. The framework is thus efficient, promptable, explainable, and scalable across models and tools. Experiments show that Evaluation Agent reduces evaluation time to 10% of traditional methods while delivering comparable results. We further introduce Open Evaluation Agent (Open-EA) by constructing EA-CoT-10K, a corpus of history-conditioned step-level instruction-tuning records derived from multi-round evaluation rollouts, and training EA-3B from Qwen2.5-3B-Instruct as a local planning backbone that preserves the structured reasoning, tool invocation, and summary protocol of the API-based agent while reducing dependence on proprietary backbones. Experiments validate the API-based agent on established T2I/T2V benchmarks and open-ended queries, and evaluate Open-EA on four in-domain and three out-of-domain T2V generator families, showing partial cross-family transfer of the learned policy.",
+    "abstract": "Humanoid locomotion in highly confined environments requires navigating dense environmental obstacles and complex self-collision bounds while maintaining multi-contact dynamic feasibility. Traditional trajectory optimizers frequently struggle in these restricted spaces, as navigating the large collision space with splines on particle abstractions is insufficient and leads to poor local minima. To address this, we propose a three-stage whole-body planning framework that formulates kinematic path planning directly over kinematically reachable rigid-body volumes. By integrating differentiable collision avoidance into a reachability-constrained formulation, our framework synthesizes volume-informed guides that reliably guide a full-order trajectory optimizer over long horizons. We show that these optimized plans serve as high-quality references to train a residual reinforcement learning policy for robust online execution. We validate our approach on the Unitree G1 humanoid across three benchmark testbeds exceeding NIST emergency response standards, achieving restricted confinement ratios ($C_r < 1.5$). Our framework generates feasible trajectories across 12-to-18-second tasks with complex foot and hand contacts where standard baselines fail, while the learned policy successfully tracks these plans under extensive domain randomization in physics simulation.",
     "categories": [
-      "Simulation Benchmark"
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Sim-to-Real"
     ],
     "tags": [
-      "Generative Models",
+      "Reinforcement Learning",
+      "Locomotion",
+      "Domain Randomization",
+      "Humanoid",
+      "Path Planning",
+      "Collision",
       "Benchmark",
-      "Simulation Benchmark"
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Navigation",
+      "State Estimation",
+      "Sim-to-Real"
     ],
-    "real_robot": false,
-    "open_source": true,
-    "platform": null,
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Simulation Benchmark"
   },

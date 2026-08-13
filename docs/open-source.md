@@ -2,23 +2,6 @@
 
 Papers with open-source code repositories.
 
-## 🌟 Open Evaluation Agent: Efficient and Promptable Evaluation of Visual Generative Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.09666)
-- **Project:** [GitHub](https://github.com/Vchitect/Evaluation-Agent)
-- **Authors:** Shulin Tian, Ziqi Huang, Fan Zhang, Hongyuan Zhu, Yu Qiao, Ziwei Liu
-- **Published:** 2026-08
-- **Tags:**
-  - Generative Models
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Recent advances in visual generative models have enabled high-quality image and video generation, but evaluating these models often demands sampling hundreds or thousands of images or videos, which is computationally expensive. Existing evaluation methods also rely on rigid pipelines that overlook specific user needs and provide numerical results without clear explanations.
-
----
-
 ## 🌟 P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.25541)
