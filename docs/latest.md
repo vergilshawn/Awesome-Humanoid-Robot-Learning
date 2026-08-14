@@ -2,6 +2,27 @@
 
 All papers sorted by publication date (newest first).
 
+## HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.13555)
+- **Authors:** Dairu Liu, Zekun Qi, Jiayu Zeng, Ruixi Yu, Yu Guan, Yintianrun Zhang et al. (14 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Benchmark
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contacts such as foot skating and mistimed touch-downs.
+
+---
+
 ## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.12063)

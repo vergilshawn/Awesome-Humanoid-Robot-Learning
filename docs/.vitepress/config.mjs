@@ -284,7 +284,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (38)",
+            "text": "Teleoperation (39)",
             "collapsed": true,
             "items": [
                   {

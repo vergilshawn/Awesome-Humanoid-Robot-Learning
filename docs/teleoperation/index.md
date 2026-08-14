@@ -1,10 +1,10 @@
 # Teleoperation
 
-**38 papers** in this category.
+**39 papers** in this category.
 
 ## Months
 
-- [2026-08](/teleoperation/2026-08) (1 papers)
+- [2026-08](/teleoperation/2026-08) (2 papers)
 - [2026-07](/teleoperation/2026-07) (6 papers)
 - [2026-06](/teleoperation/2026-06) (9 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
@@ -24,6 +24,27 @@
 ---
 
 ## Recent Papers
+
+## HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.13555)
+- **Authors:** Dairu Liu, Zekun Qi, Jiayu Zeng, Ruixi Yu, Yu Guan, Yintianrun Zhang et al. (14 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Benchmark
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contacts such as foot skating and mistimed touch-downs.
+
+---
 
 ## Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation
 
@@ -397,19 +418,5 @@ Despite recent efforts to collect multi-task, multi-embodiment datasets, to desi
 ### Summary
 
 This paper presents a vision-based framework that enables a humanoid robot to imitate human movements while avoiding collisions. Human skeletal keypoints are captured by a single camera and converted into joint angles for motion retargeting.
-
----
-
-## CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.15060)
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---

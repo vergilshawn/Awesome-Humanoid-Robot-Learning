@@ -2,7 +2,7 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 804
+- **Total Papers:** 805
 - **Real Robot Papers:** 158
 - **Open Source Papers:** 139
 
@@ -12,7 +12,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (246)
 - [Manipulation](#manipulation) (100)
-- [Teleoperation](#teleoperation) (38)
+- [Teleoperation](#teleoperation) (39)
 - [Locomotion](#locomotion) (156)
 - [Navigation](#navigation) (32)
 - [State Estimation](#state-estimation) (43)
@@ -541,6 +541,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark](https://arxiv.org/abs/2608.13555) — `Teleoperation`, `Humanoid`, `Benchmark`, `PPO`, `GAN`, `Loco-Manipulation and Whole-Body Control`
 - [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) — `Teleoperation`, `Human Demonstration`, `Benchmark`, `Dataset`, `Simulation Benchmark`, `Real Robot`
 
 ### 2026-07

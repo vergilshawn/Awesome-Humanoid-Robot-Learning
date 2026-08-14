@@ -8,7 +8,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 804
+- **Total Papers:** 805
 - **Real Robot Papers:** 158
 - **Open Source Papers:** 139
 - **Latest Month:** 2026-08
@@ -17,7 +17,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (246)
 - [Manipulation](/manipulation/) (100)
-- [Teleoperation](/teleoperation/) (38)
+- [Teleoperation](/teleoperation/) (39)
 - [Locomotion](/locomotion/) (156)
 - [Navigation](/navigation/) (32)
 - [State Estimation](/state-estimation/) (43)
@@ -31,6 +31,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark](https://arxiv.org/abs/2608.13555) — 2026-08
+  - [Teleoperation](/teleoperation/)
 -  [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
   - [Simulation Benchmark](/simulation-benchmark/)
 -  [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — 2026-08
@@ -49,25 +51,23 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Manipulation](/manipulation/)
 -  [PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents](https://arxiv.org/abs/2608.07438) — 2026-08
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.06375) — 2026-08
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (578)
-- **Loco-Manipulation and Whole-Body Control** (285)
+- **Humanoid** (579)
+- **Loco-Manipulation and Whole-Body Control** (286)
 - **Locomotion** (223)
 - **Manipulation** (216)
-- **Simulation Benchmark** (194)
+- **Simulation Benchmark** (195)
 - **State Estimation** (161)
-- **Physics-Based Character Animation** (106)
+- **Physics-Based Character Animation** (107)
 - **Reinforcement Learning** (104)
-- **PPO** (82)
+- **PPO** (83)
 - **Human Motion Analysis and Synthesis** (77)
-- **Teleoperation** (74)
-- **Benchmark** (72)
+- **Teleoperation** (75)
+- **Benchmark** (73)
 - **Navigation** (70)
 - **Dataset** (66)
 - **Whole-Body Control** (63)
@@ -607,6 +607,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/teleoperation/2026-08)
 
+- [HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark](https://arxiv.org/abs/2608.13555) — `Teleoperation`, `Humanoid`, `Benchmark`, `PPO`, `GAN`, `Loco-Manipulation and Whole-Body Control`
 - [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) — `Teleoperation`, `Human Demonstration`, `Benchmark`, `Dataset`, `Simulation Benchmark`, `Real Robot`
 
 #### [2026-07](/teleoperation/2026-07)
