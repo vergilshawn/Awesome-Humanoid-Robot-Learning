@@ -740,7 +740,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (74)",
+            "text": "Simulation Benchmark (75)",
             "collapsed": true,
             "items": [
                   {

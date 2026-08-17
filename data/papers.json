@@ -1,5 +1,37 @@
 [
   {
+    "arxiv_id": "2608.14243",
+    "title": "Zero-Shot Skeleton-Based Action Anticipation",
+    "paper_url": "https://arxiv.org/abs/2608.14243",
+    "project_url": null,
+    "authors": [
+      "Hongsong Wang",
+      "Pengbo Yan",
+      "Yang Zhang",
+      "Qiuxia Lai"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-14",
+    "abstract": "Action anticipation (AA) aims to recognize ongoing human or humanoids actions from partial observations, enabling robots to predict intentions before the actions are completed. Although skeleton-based AA offers efficiency advantages, existing approaches assume that all action classes are seen during training, which limits their deployment in real-world scenarios where novel actions inevitably arise. To address this gap, we study the new task of Zero-Shot Skeleton-Based Action Anticipation (ZS-SkAA). This task requires recognizing unseen action classes using only limited early-stage skeleton sequences, combining the challenges of partial observations, temporal dynamics, and zero-shot generalization. To establish foundational research for ZS-SkAA, we introduce:(1) A baseline model comprising a spatio-temporal feature extractor and a mutual information estimation and maximization module. This baseline model explicitly aligns partial visual features with semantic class embeddings across modalities by estimating and maximizing their mutual information, enhancing generalization to unseen classes.(2) A benchmark protocol using the NTU RGB+D dataset, which is adapted for rigorous ZS-SkAA evaluation. Experiments demonstrate the effectiveness of our model as a strong baseline for ZS-SkAA, achieving high zero-shot accuracy on NTU RGB+D. This work establishes ZS-SkAA as a vital research direction for real-world systems requiring generalization to novel actions.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Humanoid",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
     "arxiv_id": "2608.13555",
     "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
     "paper_url": "https://arxiv.org/abs/2608.13555",

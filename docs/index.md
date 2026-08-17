@@ -8,7 +8,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 805
+- **Total Papers:** 806
 - **Real Robot Papers:** 158
 - **Open Source Papers:** 139
 - **Latest Month:** 2026-08
@@ -23,7 +23,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [State Estimation](/state-estimation/) (43)
 - [Sim-to-Real](/sim-to-real/) (14)
 - [Hardware Design](/hardware-design/) (31)
-- [Simulation Benchmark](/simulation-benchmark/) (74)
+- [Simulation Benchmark](/simulation-benchmark/) (75)
 - [Physics-Based Character Animation](/physics-based-character-animation/) (43)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (27)
 
@@ -31,6 +31,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [Zero-Shot Skeleton-Based Action Anticipation](https://arxiv.org/abs/2608.14243) — 2026-08
+  - [Simulation Benchmark](/simulation-benchmark/)
 -  [HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark](https://arxiv.org/abs/2608.13555) — 2026-08
   - [Teleoperation](/teleoperation/)
 -  [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — 2026-08
@@ -49,33 +51,31 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [A Haptic Robot Finger Designed for Guqin Instrument Playing](https://arxiv.org/abs/2608.07002) — 2026-08
   - [Manipulation](/manipulation/)
--  [PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents](https://arxiv.org/abs/2608.07438) — 2026-08
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (579)
+- **Humanoid** (580)
 - **Loco-Manipulation and Whole-Body Control** (286)
 - **Locomotion** (223)
 - **Manipulation** (216)
-- **Simulation Benchmark** (195)
-- **State Estimation** (161)
+- **Simulation Benchmark** (196)
+- **State Estimation** (162)
 - **Physics-Based Character Animation** (107)
 - **Reinforcement Learning** (104)
 - **PPO** (83)
 - **Human Motion Analysis and Synthesis** (77)
 - **Teleoperation** (75)
-- **Benchmark** (73)
+- **Benchmark** (74)
 - **Navigation** (70)
-- **Dataset** (66)
+- **Dataset** (67)
 - **Whole-Body Control** (63)
 - **Vision-Language** (45)
 - **Sim-to-Real** (44)
 - **Hardware Design** (44)
 - **Diffusion** (43)
-- **Zero-Shot** (39)
+- **Zero-Shot** (40)
 - **Safety** (36)
 - **Biped** (29)
 - **Robustness** (28)
@@ -1231,6 +1231,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/simulation-benchmark/2026-08)
 
+- [Zero-Shot Skeleton-Based Action Anticipation](https://arxiv.org/abs/2608.14243) — `Zero-Shot`, `Humanoid`, `Benchmark`, `Dataset`, `Simulation Benchmark`, `State Estimation`
 - [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — `Reinforcement Learning`, `MPC`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Robustness`
 - [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — `Reinforcement Learning`, `Locomotion`, `Domain Randomization`, `Humanoid`, `Path Planning`, `Collision`
 - [Learning Context-Aware Motion Priors for Humanoid Control](https://arxiv.org/abs/2608.03234) — `Humanoid`, `Dataset`, `Policy Learning`, `Simulation Benchmark`

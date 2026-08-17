@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**74 papers** in this category.
+**75 papers** in this category.
 
 ## Months
 
-- [2026-08](/simulation-benchmark/2026-08) (4 papers)
+- [2026-08](/simulation-benchmark/2026-08) (5 papers)
 - [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
@@ -25,6 +25,25 @@
 ---
 
 ## Recent Papers
+
+## Zero-Shot Skeleton-Based Action Anticipation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.14243)
+- **Authors:** Hongsong Wang, Pengbo Yan, Yang Zhang, Qiuxia Lai
+- **Published:** 2026-08
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Action anticipation (AA) aims to recognize ongoing human or humanoids actions from partial observations, enabling robots to predict intentions before the actions are completed. Although skeleton-based AA offers efficiency advantages, existing approaches assume that all action classes are seen during training, which limits their deployment in real-world scenarios where novel actions inevitably arise.
+
+---
 
 ## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
 
@@ -387,27 +406,5 @@ RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for trainin
 ### Summary
 
 Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, yet they remain vulnerable to unreliable reasoning. Existing self-correction methods mitigate these issues but typically rely on post-training or carefully engineered feedback, incurring high computational cost.
-
----
-
-## 🌟 Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.30552)
-- **Project:** [GitHub](https://github.com/ruckbreasoning/zr-0)
-- **Authors:** Haoyang Li, Guanlin Li, Youhe Feng, Chen Zhao, Zhuoran Wang, Yang Li et al. (12 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Transformer
-  - Humanoid
-  - Task Planning
-  - Vision-Language
-  - Benchmark
-  - Dataset
-  - Diffusion
-
-### Summary
-
-Cross-embodiment transfer in vision-language-action (VLA) models remains challenging because low-level state and action spaces differ fundamentally across robot platforms. We observe that the high-level cognitive process underlying manipulation, including scene perception, object identification, task planning, and sub-task decomposition, is largely shared across embodiments.
 
 ---

@@ -2,7 +2,7 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 805
+- **Total Papers:** 806
 - **Real Robot Papers:** 158
 - **Open Source Papers:** 139
 
@@ -18,7 +18,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [State Estimation](#state-estimation) (43)
 - [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (74)
+- [Simulation Benchmark](#simulation-benchmark) (75)
 - [Physics-Based Character Animation](#physics-based-character-animation) (43)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (27)
 - [Usage](#usage)
@@ -1165,6 +1165,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Zero-Shot Skeleton-Based Action Anticipation](https://arxiv.org/abs/2608.14243) — `Zero-Shot`, `Humanoid`, `Benchmark`, `Dataset`, `Simulation Benchmark`, `State Estimation`
 - [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — `Reinforcement Learning`, `MPC`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Robustness`
 - [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — `Reinforcement Learning`, `Locomotion`, `Domain Randomization`, `Humanoid`, `Path Planning`, `Collision`
 - [Learning Context-Aware Motion Priors for Humanoid Control](https://arxiv.org/abs/2608.03234) — `Humanoid`, `Dataset`, `Policy Learning`, `Simulation Benchmark`

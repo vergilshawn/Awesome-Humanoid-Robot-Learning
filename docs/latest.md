@@ -2,6 +2,25 @@
 
 All papers sorted by publication date (newest first).
 
+## Zero-Shot Skeleton-Based Action Anticipation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.14243)
+- **Authors:** Hongsong Wang, Pengbo Yan, Yang Zhang, Qiuxia Lai
+- **Published:** 2026-08
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Action anticipation (AA) aims to recognize ongoing human or humanoids actions from partial observations, enabling robots to predict intentions before the actions are completed. Although skeleton-based AA offers efficiency advantages, existing approaches assume that all action classes are seen during training, which limits their deployment in real-world scenarios where novel actions inevitably arise.
+
+---
+
 ## HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.13555)
