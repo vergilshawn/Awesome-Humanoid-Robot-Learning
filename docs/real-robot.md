@@ -7,19 +7,83 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 2 papers
 - **Booster:** 4 papers
 - **Digit:** 10 papers
-- **Figure:** 56 papers
+- **Figure:** 57 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
-- **Unitree G1:** 59 papers
+- **Unitree G1:** 60 papers
 - **Unitree H1:** 3 papers
-- **Unknown Platform:** 15 papers
+- **Unknown Platform:** 16 papers
 - **Walker:** 1 papers
 - **iCub:** 2 papers
 
 ---
 
 ## All Real Robot Papers
+
+## HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.16837)
+- **Authors:** Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Jiaming Liu, Xinyuan Lv et al. (17 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Safety
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - SAC
+
+### Summary
+
+Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it challenging for conventional single-stage VLA architectures to coordinate locomotion, waist posture, and dual-arm manipulation effectively.
+
+---
+
+## Throwing a Tight Spiral American Football by a Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.16642)
+- **Authors:** Zaid Mahboob, Bowen Weng
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Trajectory Optimization
+  - Underactuated
+  - Contact Dynamics
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Accurate throwing of the American football requires precise regulation of release conditions, where coupled linear and angular momentum determine flight stability and targeting accuracy. While prior work on robotic object throwing has largely focused on generating dynamically feasible release velocities using open-gripper paradigms, explicit control of spin injection at detachment remains underexplored, particularly for aerodynamically anisotropic objects like the American football.
+
+---
+
+## Tac4Loco: Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.15766)
+- **Authors:** Ziyun Liu, Sikai Guo, Zheng Li, Jiahang Cao, Haichao Liu, Pei Qu et al. (9 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - Policy Learning
+  - Actor-Critic
+  - PPO
+  - State Estimation
+
+### Summary
+
+Humanoid robots are expected to traverse complex terrains, where the plantar support may vary dramatically due to foot placement errors, ground properties, and transient dynamics.   To achieve robust locomotion, the robots are required to adapt to uneven terrain and uncertain foot--ground interactions.
+
+---
 
 ## Hip Energized Monopedal Hopping
 

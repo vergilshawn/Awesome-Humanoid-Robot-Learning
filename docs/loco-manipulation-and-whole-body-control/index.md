@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**246 papers** in this category.
+**251 papers** in this category.
 
 ## Months
 
-- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (9 papers)
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
@@ -37,6 +37,101 @@
 ---
 
 ## Recent Papers
+
+## HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.16837)
+- **Authors:** Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Jiaming Liu, Xinyuan Lv et al. (17 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Safety
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - SAC
+
+### Summary
+
+Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it challenging for conventional single-stage VLA architectures to coordinate locomotion, waist posture, and dual-arm manipulation effectively.
+
+---
+
+## Throwing a Tight Spiral American Football by a Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.16642)
+- **Authors:** Zaid Mahboob, Bowen Weng
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Trajectory Optimization
+  - Underactuated
+  - Contact Dynamics
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Accurate throwing of the American football requires precise regulation of release conditions, where coupled linear and angular momentum determine flight stability and targeting accuracy. While prior work on robotic object throwing has largely focused on generating dynamically feasible release velocities using open-gripper paradigms, explicit control of spin injection at detachment remains underexplored, particularly for aerodynamically anisotropic objects like the American football.
+
+---
+
+## DeepInsight II: One Trace from Benchmark to Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.16556)
+- **Authors:** Siyi Li, Yuchen Kang, Wuliang Wang, Zhengjie Zhang, Jiangpin Liu, Jianhao Yao et al. (7 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Navigation
+  - Simulator
+  - Foundation Model
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Across a Physical AI stack, evaluation maturity is inversely aligned with deployment risk: foundation models enjoy mature, standardized harnesses, while the embodied layers on which deployment actually turns remain fragmented across benchmark-specific simulators, embodiments, and interfaces. The first DeepInsight report (v1) unified evaluation across this stack behind three abstractions---task, resource, and result---but its quantitative evidence centered on the foundation-model layer; navigation and manipulation (System 1) and whole-body control (System 0) remained simulation case studies, and physical execution was outside its empirical scope.
+
+---
+
+## Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.16514)
+- **Authors:** Mohamed Amine Kerkouri, Marouane Tliba, Aladine Chetouani, Ulas Bagci, Alessandro Bruno
+- **Published:** 2026-08
+- **Tags:**
+  - Zero-Shot
+  - Large Language Model
+  - SAC
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath. Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores.
+
+---
+
+## Understanding Cognition-Induced Risks in Agentic AI Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.15304)
+- **Authors:** Guanchu Wang, Qinuo Li, Mengnan Du, Xia Hu, Bowen Zhou
+- **Published:** 2026-08
+- **Tags:**
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Frontier agentic systems powered by large language models (LLMs) exhibit human-like patterns of cognition. As these systems become deeply integrated across different domains, their cognitive engagement raises critical concerns for human society that remain insufficiently studied.
+
+---
 
 ## LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation
 
@@ -324,106 +419,5 @@ Humans can progressively acquire highly dynamic motor skills while preserving re
 ### Summary
 
 Humanoid general motion tracking requires policies that can follow diverse whole-body references while maintaining balance. Building such policies involves many practical design choices, and their individual effects are often hard to assess.
-
----
-
-## Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.18135)
-- **Authors:** Jordan Dowdy, Jean Chagas Vaz
-- **Published:** 2026-07
-- **Real Robot:** ✅
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Sim-to-Real
-  - Locomotion
-  - Zero-Shot
-  - Isaac Sim
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Learning-based approaches to locomotion have risen in popularity in recent years, showing the capability for complex legged locomotion and whole-body control. Reinforcement learning (RL), the primary learning-based approach for locomotion, often utilizes a high-performance simulation tool, providing a controlled and efficient training and development environment.
-
----
-
-## Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.18016)
-- **Authors:** Peng Ren, Haoyang Ge, Jiang Zhao, Cong Huang, Yukun Shi, Pei Chi et al. (7 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Vision-language-action policies are a promising foundation for general robot control, but long-horizon humanoid loco-manipulation requires the robot to treat task objects as persistent physical entities across movement, contact, occlusion, and recovery. We study this problem as object-state divergence: the object state used to condition a whole-body action can differ from the state used to decide whether the action achieved the intended physical relation.
-
----
-
-## FARO: Feasibility-Aware Robot Motion Optimization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.18362)
-- **Authors:** Michal Ciebielski, Shafeef Omar, Aaron Johnson, Majid Khadiv
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - Humanoid
-  - Underactuated
-  - Large Language Model
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Fast planning of novel behaviors in unseen scenarios remains a fundamental challenge in robotics. The high-dimensional, hybrid, and underactuated nature of humanoid loco-manipulation continues to hinder the realization of this goal.
-
----
-
-## Scaling Behavior Foundation Model for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.15163)
-- **Authors:** Weishuai Zeng, Kangning Yin, Xiaojie Niu, Shunlin Lu, Weixiang Zhong, Jiahe Chen et al. (18 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Transformer
-  - Humanoid
-  - Foundation Model
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Models (BFMs) have recently emerged as a promising solution to address these challenges by leveraging large-scale behavioral data to achieve superior expressiveness, versatility and generalization.
-
----
-
-## Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.14182)
-- **Authors:** J. M. A. Marcelo, M. Brienza, E. Bugli, L. Comito, D. Nardi, D. D. Bloisi et al. (7 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Humanoid
-  - Multi-Modal
-  - Loco-Manipulation and Whole-Body Control
-  - Navigation
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. However, most robotic performances remain based on pre-scripted sequences or externally triggered behaviors, limiting autonomy and responsiveness to dynamic environments.
 
 ---

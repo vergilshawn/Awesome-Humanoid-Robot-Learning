@@ -1,10 +1,10 @@
 # State Estimation
 
-**43 papers** in this category.
+**44 papers** in this category.
 
 ## Months
 
-- [2026-08](/state-estimation/2026-08) (2 papers)
+- [2026-08](/state-estimation/2026-08) (3 papers)
 - [2026-07](/state-estimation/2026-07) (12 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
@@ -18,6 +18,28 @@
 ---
 
 ## Recent Papers
+
+## Tac4Loco: Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.15766)
+- **Authors:** Ziyun Liu, Sikai Guo, Zheng Li, Jiahang Cao, Haichao Liu, Pei Qu et al. (9 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - Policy Learning
+  - Actor-Critic
+  - PPO
+  - State Estimation
+
+### Summary
+
+Humanoid robots are expected to traverse complex terrains, where the plantar support may vary dramatically due to foot placement errors, ground properties, and transient dynamics.   To achieve robust locomotion, the robots are required to adapt to uneven terrain and uncertain foot--ground interactions.
+
+---
 
 ## When Is a Steerable Concept Representation Real? Measurement Confounds in a Cross-Family Audit of Neuroscience Parallels in LLMs
 
@@ -359,23 +381,5 @@ Compliant joints can embed safety and adaptability into dexterous hands, but ach
 ### Summary
 
 Robotics increasingly relies on GPUs for parallel simulation, large-scale learning, and neural-network inference. For model predictive control (MPC) to scale with this paradigm, solvers must run efficiently on this hardware while remaining fast, differentiable, and compatible with expressive MPC formulations used in robotics.
-
----
-
-## Toward Machine Risk Perception: Integrating Trust Calibration and Precursor-Based Risk Estimation for Humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.20748)
-- **Authors:** He Wen
-- **Published:** 2026-06
-- **Tags:**
-  - Safety
-  - Humanoid
-  - Dataset
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid robots are emerging as co-workers in smart manufacturing, yet their dynamic, human-like movements introduce safety risks that differ fundamentally from those of fixed or wheeled robots. Conventional safety paradigms based on reactive force or distance limits fail to capture the sequential, uncertain nature of humanoid failures.
 
 ---

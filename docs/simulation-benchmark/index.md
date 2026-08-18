@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**75 papers** in this category.
+**76 papers** in this category.
 
 ## Months
 
-- [2026-08](/simulation-benchmark/2026-08) (5 papers)
+- [2026-08](/simulation-benchmark/2026-08) (6 papers)
 - [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
@@ -25,6 +25,27 @@
 ---
 
 ## Recent Papers
+
+## HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.16222)
+- **Authors:** Jiahao Ji, Ji Ma, Runhan Zhang, Runyi Yu, Wenjia Wang, Weiheng Chi et al. (15 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Policy Learning
+  - GAN
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid intelligence requires learning over an extremely diverse space of whole-body motions and physically grounded interactions. However, existing embodied datasets remain fundamentally limited: internet-scale video data lack precise physical states and interaction grounding, while laboratory motion datasets provide high fidelity but only narrow behavioral coverage.
+
+---
 
 ## Zero-Shot Skeleton-Based Action Anticipation
 
@@ -388,23 +409,5 @@ Large-scale dyadic interactive audio-visual dialogue (DIAD) datasets provide fun
 ### Summary
 
 RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current RLVR methods optimize only what can be objectively scored, often neglecting subjective, non-verifiable aspects of human-like outputs, such as style and structure.
-
----
-
-## ESC: Emotional Self-Correction for Reliable Vision-Language Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.02089)
-- **Authors:** Tien-Huy Nguyen, Minh-Nhat Nguyen, Nguyen Nhat Huy, Hung Viet Nguyen, Huy Nguyen Minh Nhat, Thanh-Huy Nguyen et al. (12 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Safety
-  - Vision-Language
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, yet they remain vulnerable to unreliable reasoning. Existing self-correction methods mitigate these issues but typically rely on post-training or carefully engineered feedback, incurring high computational cost.
 
 ---

@@ -1,9 +1,9 @@
 {
-  "Loco-Manipulation and Whole-Body Control": 246,
+  "Loco-Manipulation and Whole-Body Control": 251,
   "Locomotion": 156,
   "Manipulation": 100,
-  "Simulation Benchmark": 75,
-  "State Estimation": 43,
+  "Simulation Benchmark": 76,
+  "State Estimation": 44,
   "Physics-Based Character Animation": 43,
   "Teleoperation": 39,
   "Navigation": 32,
