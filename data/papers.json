@@ -1,5 +1,151 @@
 [
   {
+    "arxiv_id": "2608.17584",
+    "title": "HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction",
+    "paper_url": "https://arxiv.org/abs/2608.17584",
+    "project_url": null,
+    "authors": [
+      "Wang Warren Chen",
+      "Jiahao Zhang",
+      "Zhenjiang Li",
+      "Mingxu Wang",
+      "Lei Yi",
+      "Yuchen Kang",
+      "Shuo Sun",
+      "Ziping Chen",
+      "Jie Chen"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-18",
+    "abstract": "We propose HODAgent, a System-2 embodied agent for humanoid robots in service settings, addressing situated intent, responsive execution, task revision, and outcome verification. Its semi-duplex architecture integrates an Env-Interactor, Planner, Executor, and hierarchical Memory to maintain coherent interaction, planning, and task state during service episodes. This allows handling new requests during motion, retaining progress, revising actions, and grounding closure in execution outcomes. A shared interface connects simulation and physical robots (Unitree G1), isolating platform-specific control. In an interactive simulation with 164 cases, HODAgent achieves 84.8% and 91.5% Joint Success under two VLM backbones, outperforming baselines by 9.8 and 18.9 points. On physical robots, pass rates are 92% (atomic), 72% (composite), and 63.3% (complete tasks). On multiple embodied benchmarks, it improves over baselines by 0.7-9.0 points. Results show a unified System-2 agent enables adaptive humanoid service across simulation and reality.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Benchmark",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2608.17453",
+    "title": "EATR-Stereo: Embodiment-Aware Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control",
+    "paper_url": "https://arxiv.org/abs/2608.17453",
+    "project_url": null,
+    "authors": [
+      "Songwei Wu",
+      "Rui Zhao",
+      "Fan Yang",
+      "Zhongqiang Nie",
+      "Zhiduo Jiang",
+      "Wandong Sun",
+      "Yuwei Li",
+      "Yang Liu",
+      "Hong Liu"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-18",
+    "abstract": "Long-horizon humanoid vision--language--action (VLA) control with head-mounted stereo cameras requires visual interfaces that can exploit complementary views while maintaining compatibility with pretrained representations. Existing interfaces often discard complementary stereo evidence or fuse additional observations without preserving the native primary-view pathway and adapting auxiliary information to robot embodiment. We present EATR-Stereo, an embodiment-aware token-routing framework that retains primary-view tokens and constructs primary-aligned Cross-View Auxiliary Tokens (CVATs) by querying the synchronized auxiliary-view token sequence. A body-segmented proprioceptive encoder further conditions token-wise auxiliary usage on robot configuration history, enabling selective incorporation of stereo evidence during action generation. The routed auxiliary stream augments the language and primary-visual context of a pretrained VLA while keeping its vision--language model frozen. On a 33-DoF physical humanoid with a 37-D proprioceptive state, we evaluate nine configurations in over-100-s search--approach--grasp--place--return tasks. EATR-Stereo achieves 60.0% full-task success, 100.0% grasp success, and 80.0% stage success. Under severe asymmetric occlusion, it improves recovery to 80% compared with 30% for CVAT alone. Ablation studies further show the importance of preserving primary tokens and combining cross-view auxiliary features with structured proprioceptive routing. These results demonstrate that selectively routed paired stereo evidence improves spatial grounding for reliable long-horizon humanoid VLA control.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Vision-Language",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2608.17030",
+    "title": "Lambda-Hold Control: Human-Like Movement Emerges from a Minimal Task Reward in Predictive Musculoskeletal Simulation",
+    "paper_url": "https://arxiv.org/abs/2608.17030",
+    "project_url": null,
+    "authors": [
+      "Jun Hyuk Lee",
+      "Chihyeong Lee",
+      "Jooeun Ahn"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-17",
+    "abstract": "The massive overactuation in the human musculoskeletal system makes it challenging to train musculoskeletal models to generate human-like motion via reinforcement learning, primarily because exploration in the resulting high-dimensional and redundant action space is extremely inefficient. To address this problem, we propose the $λ$-hold controller, inspired by the equilibrium-point (EP) hypothesis, which has been widely supported by extensive evidence from human motor control studies. The policy's control variable is the per-muscle EP threshold length $λ$, from which a stretch-reflex recruitment law computes the muscle excitations automatically. Holding each $λ$ over an interval of the gait phase also sharply reduces the frequency at which the policy must be queried. Consequently, the controller, to our knowledge for the first time, enables a muscle-actuated skeletal model to learn human-like sprinting using only a minimal reward within an hour of training. The efficient exploration through the proposed $λ$-hold controller is not merely an engineering trick but an approach grounded in physiology, bringing together the EP hypothesis, intermittent control, and optimal feedback control. Beyond encapsulating human-like behavior in predictive simulation, this achievement contributes to developing a learnable model of the human motor controller.",
+    "categories": [
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Gait",
+      "PPO",
+      "Locomotion",
+      "Navigation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2608.17027",
+    "title": "FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences",
+    "paper_url": "https://arxiv.org/abs/2608.17027",
+    "project_url": null,
+    "authors": [
+      "Omar Rayyan",
+      "Zhi Li",
+      "Max Argus",
+      "Yuxin Jiang",
+      "Chang Yu",
+      "Chenfanfu Jiang",
+      "Yuchen Cui"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-17",
+    "abstract": "Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research. However, today's data-hungry algorithms make collecting sufficient demonstrations a struggle for tabletop manipulation, and even more so for humanoids that must also walk and balance. Learning from simulated data and transferring that behavior to the real world, as is commonly done in locomotion, sidesteps this struggle, so we replicate that recipe for loco-manipulation. In doing so, we find that cloning synthetic demonstrations results in a low performance ceiling no matter the amount of training data. Reinforcement learning breaks through it, and refining the cloned policy with Flow-GRPO on a single sparse reward yields performance that synthetic behavior cloning cannot match. Together, these stages form our end-to-end sim-to-real pipeline spanning more than 150,000 scenes, which we use to train FetchMan. We evaluate it on FetchMan-Bench, a simulation benchmark we release, and deploy it zero-shot on a real Unitree G1, where our single-object reach-and-pick policy walks to and grasps a target across unseen scenes at 73.3% success. Finally, we extend this recipe to multi-object training, a first step toward loco-manipulation generalist policies at this data scale.",
+    "categories": [
+      "Locomotion",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "State Estimation",
+      "Sim-to-Real"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Sim-to-Real",
+      "Locomotion",
+      "Manipulation",
+      "Zero-Shot",
+      "Humanoid",
+      "Benchmark",
+      "Behavior Cloning",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2608.16837",
     "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
     "paper_url": "https://arxiv.org/abs/2608.16837",
@@ -129,6 +275,36 @@
     "primary_category": "Simulation Benchmark"
   },
   {
+    "arxiv_id": "2608.16514",
+    "title": "Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans",
+    "paper_url": "https://arxiv.org/abs/2608.16514",
+    "project_url": null,
+    "authors": [
+      "Mohamed Amine Kerkouri",
+      "Marouane Tliba",
+      "Aladine Chetouani",
+      "Ulas Bagci",
+      "Alessandro Bruno"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-17",
+    "abstract": "Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath. Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores. We compare three general-purpose MLLMs with human eye-movement scanpaths on goal-directed search (COCO-Search18), driving each model fixation by fixation through an identical, human-matched foveated view and assessing it along three axes: the decision of target presence, the efficiency of reaching the target, and the gaze process itself. The axes dissociate. On the decision and on target acquisition the models match or exceed humans, detecting present targets near ceiling and reaching them on the first saccade more often than people do. The gaze process is not human. Under the human-matched condition, all three share one signature: low-entropy, large-amplitude, self-consistent scanpaths that agree with themselves far more closely than two humans agree with each other. That is consistent with a single-pass, non-serial architecture rather than a limit of acuity. Matched retinal input reproduces where humans look but not how the looking unfolds in time, and no degradation regime recovers human-like search at human-like success. The gap sits on a process axis that answer-alignment and saliency metrics do not measure. Because they miss it, such metrics cannot certify human-like vision, and zero-shot models suit outcome and spatial questions but not temporal, process-level ones.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Large Language Model",
+      "SAC",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2608.16556",
     "title": "DeepInsight II: One Trace from Benchmark to Robot",
     "paper_url": "https://arxiv.org/abs/2608.16556",
@@ -164,36 +340,6 @@
       "Loco-Manipulation and Whole-Body Control",
       "Simulation Benchmark",
       "State Estimation"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2608.16514",
-    "title": "Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans",
-    "paper_url": "https://arxiv.org/abs/2608.16514",
-    "project_url": null,
-    "authors": [
-      "Mohamed Amine Kerkouri",
-      "Marouane Tliba",
-      "Aladine Chetouani",
-      "Ulas Bagci",
-      "Alessandro Bruno"
-    ],
-    "published": "2026-08",
-    "published_date": "2026-08-17",
-    "abstract": "Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath. Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores. We compare three general-purpose MLLMs with human eye-movement scanpaths on goal-directed search (COCO-Search18), driving each model fixation by fixation through an identical, human-matched foveated view and assessing it along three axes: the decision of target presence, the efficiency of reaching the target, and the gaze process itself. The axes dissociate. On the decision and on target acquisition the models match or exceed humans, detecting present targets near ceiling and reaching them on the first saccade more often than people do. The gaze process is not human. Under the human-matched condition, all three share one signature: low-entropy, large-amplitude, self-consistent scanpaths that agree with themselves far more closely than two humans agree with each other. That is consistent with a single-pass, non-serial architecture rather than a limit of acuity. Matched retinal input reproduces where humans look but not how the looking unfolds in time, and no degradation regime recovers human-like search at human-like success. The gap sits on a process axis that answer-alignment and saliency metrics do not measure. Because they miss it, such metrics cannot certify human-like vision, and zero-shot models suit outcome and spatial questions but not temporal, process-level ones.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "tags": [
-      "Zero-Shot",
-      "Large Language Model",
-      "SAC",
-      "Loco-Manipulation and Whole-Body Control"
     ],
     "real_robot": false,
     "open_source": false,

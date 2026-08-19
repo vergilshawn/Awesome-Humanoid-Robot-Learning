@@ -1,10 +1,10 @@
 # Locomotion
 
-**156 papers** in this category.
+**159 papers** in this category.
 
 ## Months
 
-- [2026-08](/locomotion/2026-08) (8 papers)
+- [2026-08](/locomotion/2026-08) (11 papers)
 - [2026-07](/locomotion/2026-07) (22 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
@@ -38,6 +38,66 @@
 ---
 
 ## Recent Papers
+
+## EATR-Stereo: Embodiment-Aware Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.17453)
+- **Authors:** Songwei Wu, Rui Zhao, Fan Yang, Zhongqiang Nie, Zhiduo Jiang, Wandong Sun et al. (9 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - Locomotion
+
+### Summary
+
+Long-horizon humanoid vision--language--action (VLA) control with head-mounted stereo cameras requires visual interfaces that can exploit complementary views while maintaining compatibility with pretrained representations. Existing interfaces often discard complementary stereo evidence or fuse additional observations without preserving the native primary-view pathway and adapting auxiliary information to robot embodiment.
+
+---
+
+## Lambda-Hold Control: Human-Like Movement Emerges from a Minimal Task Reward in Predictive Musculoskeletal Simulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.17030)
+- **Authors:** Jun Hyuk Lee, Chihyeong Lee, Jooeun Ahn
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Gait
+  - PPO
+  - Locomotion
+  - Navigation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+The massive overactuation in the human musculoskeletal system makes it challenging to train musculoskeletal models to generate human-like motion via reinforcement learning, primarily because exploration in the resulting high-dimensional and redundant action space is extremely inefficient. To address this problem, we propose the $λ$-hold controller, inspired by the equilibrium-point (EP) hypothesis, which has been widely supported by extensive evidence from human motor control studies.
+
+---
+
+## FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.17027)
+- **Authors:** Omar Rayyan, Zhi Li, Max Argus, Yuxin Jiang, Chang Yu, Chenfanfu Jiang et al. (7 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Benchmark
+  - Behavior Cloning
+
+### Summary
+
+Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research. However, today's data-hungry algorithms make collecting sufficient demonstrations a struggle for tabletop manipulation, and even more so for humanoids that must also walk and balance.
+
+---
 
 ## Hip Energized Monopedal Hopping
 
@@ -358,63 +418,5 @@ Full-sized humanoid robot capabilities have grown exponentially in recent years,
 ### Summary
 
 In legged locomotion, divergent components of motion (DCMs) have emerged as characteristic states for balance control. They isolate the unstable mode of the dynamics but, in existing formulations, apply only to reduced models such as the linear inverted pendulum.
-
----
-
-## RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.15701)
-- **Authors:** Ruochen Hou, Shiqi Wang, Beom Jun Kim, Hanzhang Fang, Mehak Singal, Dennis W. Hong
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - MPC
-  - Locomotion
-  - Navigation
-  - Safety
-  - Robustness
-  - Real Robot
-  - Humanoid
-
-### Summary
-
-Humanoid navigation in dynamic environments requires long-horizon planning while respecting short-horizon dynamic and safety constraints. Classical visibility-graph planners combined with model predictive control (MPC) can efficiently generate collision-free trajectories, but their performance depends on manually tuned parameters and accurate system modeling.
-
----
-
-## PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.15579)
-- **Authors:** Peizhen Li, Longbing Cao, Megani Rajendran, Timothy Liu, Aik Beng Ng, Simon See
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Humanoid
-  - Impact
-  - Locomotion
-
-### Summary
-
-Equipping humanoid robots with coherent and adaptable personas is crucial for fostering natural, engaging, and trustworthy human-robot interaction (HRI). However, existing approaches often rely on static, hard-coded identities that lack the flexibility to adapt to individual user contexts.
-
----
-
-## The Nonsmooth Impact Direction (NSID) of Robotic Systems
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.13768)
-- **Authors:** Annika Kirner, Christian Ott
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Friction
-  - Impact
-  - Collision
-  - PPO
-
-### Summary
-
-Collisions of rigid-link robots and rigid environments are often modeled as instantaneous events. Under this idealization, the impact forces become impulsive and the system velocities nonsmooth.
 
 ---

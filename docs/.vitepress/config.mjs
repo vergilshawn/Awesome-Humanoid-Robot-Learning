@@ -358,7 +358,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (156)",
+            "text": "Locomotion (159)",
             "collapsed": true,
             "items": [
                   {
@@ -740,7 +740,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (76)",
+            "text": "Simulation Benchmark (77)",
             "collapsed": true,
             "items": [
                   {

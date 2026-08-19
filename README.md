@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 813
-- **Real Robot Papers:** 161
+- **Total Papers:** 817
+- **Real Robot Papers:** 165
 - **Open Source Papers:** 139
 
 🌟 indicates papers with detected project/code links.
@@ -13,12 +13,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (251)
 - [Manipulation](#manipulation) (100)
 - [Teleoperation](#teleoperation) (39)
-- [Locomotion](#locomotion) (156)
+- [Locomotion](#locomotion) (159)
 - [Navigation](#navigation) (32)
 - [State Estimation](#state-estimation) (44)
 - [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (76)
+- [Simulation Benchmark](#simulation-benchmark) (77)
 - [Physics-Based Character Animation](#physics-based-character-animation) (43)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (27)
 - [Usage](#usage)
@@ -31,8 +31,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Safety`, `Humanoid`, `Vision-Language`
 - [Throwing a Tight Spiral American Football by a Humanoid Robot](https://arxiv.org/abs/2608.16642) — `Whole-Body Control`, `Humanoid`, `Trajectory Optimization`, `Underactuated`, `Contact Dynamics`, `Loco-Manipulation and Whole-Body Control`
-- [DeepInsight II: One Trace from Benchmark to Robot](https://arxiv.org/abs/2608.16556) — `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Navigation`, `Simulator`, `Foundation Model`
 - [Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans](https://arxiv.org/abs/2608.16514) — `Zero-Shot`, `Large Language Model`, `SAC`, `Loco-Manipulation and Whole-Body Control`
+- [DeepInsight II: One Trace from Benchmark to Robot](https://arxiv.org/abs/2608.16556) — `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Navigation`, `Simulator`, `Foundation Model`
 - [Understanding Cognition-Induced Risks in Agentic AI Systems](https://arxiv.org/abs/2608.15304) — `Large Language Model`, `Loco-Manipulation and Whole-Body Control`
 - [LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2608.07746) — `Reinforcement Learning`, `Manipulation`, `World Model`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
 - [PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents](https://arxiv.org/abs/2608.07438) — `PPO`, `Loco-Manipulation and Whole-Body Control`
@@ -635,6 +635,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [EATR-Stereo: Embodiment-Aware Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control](https://arxiv.org/abs/2608.17453) — `Humanoid`, `Vision-Language`, `Locomotion`, `Real Robot`
+- [Lambda-Hold Control: Human-Like Movement Emerges from a Minimal Task Reward in Predictive Musculoskeletal Simulation](https://arxiv.org/abs/2608.17030) — `Reinforcement Learning`, `Gait`, `PPO`, `Locomotion`, `Navigation`, `State Estimation`
+- [FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences](https://arxiv.org/abs/2608.17027) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`
 - [Hip Energized Monopedal Hopping](https://arxiv.org/abs/2608.10387) — `Locomotion`, `Biped`, `Gait`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
 - [Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies](https://arxiv.org/abs/2608.08545) — `Reinforcement Learning`, `Navigation`, `Robustness`, `Biped`, `Friction`, `Gradient-Based`
 - [Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control](https://arxiv.org/abs/2608.05989) — `Reinforcement Learning`, `Humanoid`, `Policy Learning`, `Representation Learning`, `Locomotion`
@@ -1171,6 +1174,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction](https://arxiv.org/abs/2608.17584) — `Humanoid`, `Benchmark`, `Simulation Benchmark`, `State Estimation`, `Real Robot`
 - [HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction](https://arxiv.org/abs/2608.16222) — `Humanoid`, `Benchmark`, `Dataset`, `Policy Learning`, `GAN`, `Simulation Benchmark`
 - [Zero-Shot Skeleton-Based Action Anticipation](https://arxiv.org/abs/2608.14243) — `Zero-Shot`, `Humanoid`, `Benchmark`, `Dataset`, `Simulation Benchmark`, `State Estimation`
 - [Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL](https://arxiv.org/abs/2608.12063) — `Reinforcement Learning`, `MPC`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Robustness`

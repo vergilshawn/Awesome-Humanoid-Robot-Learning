@@ -80,6 +80,23 @@ Accurate throwing of the American football requires precise regulation of releas
 
 ---
 
+## Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.16514)
+- **Authors:** Mohamed Amine Kerkouri, Marouane Tliba, Aladine Chetouani, Ulas Bagci, Alessandro Bruno
+- **Published:** 2026-08
+- **Tags:**
+  - Zero-Shot
+  - Large Language Model
+  - SAC
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath. Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores.
+
+---
+
 ## DeepInsight II: One Trace from Benchmark to Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.16556)
@@ -98,23 +115,6 @@ Accurate throwing of the American football requires precise regulation of releas
 ### Summary
 
 Across a Physical AI stack, evaluation maturity is inversely aligned with deployment risk: foundation models enjoy mature, standardized harnesses, while the embodied layers on which deployment actually turns remain fragmented across benchmark-specific simulators, embodiments, and interfaces. The first DeepInsight report (v1) unified evaluation across this stack behind three abstractions---task, resource, and result---but its quantitative evidence centered on the foundation-model layer; navigation and manipulation (System 1) and whole-body control (System 0) remained simulation case studies, and physical execution was outside its empirical scope.
-
----
-
-## Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.16514)
-- **Authors:** Mohamed Amine Kerkouri, Marouane Tliba, Aladine Chetouani, Ulas Bagci, Alessandro Bruno
-- **Published:** 2026-08
-- **Tags:**
-  - Zero-Shot
-  - Large Language Model
-  - SAC
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath. Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores.
 
 ---
 

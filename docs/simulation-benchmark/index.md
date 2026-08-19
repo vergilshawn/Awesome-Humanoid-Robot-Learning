@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**76 papers** in this category.
+**77 papers** in this category.
 
 ## Months
 
-- [2026-08](/simulation-benchmark/2026-08) (6 papers)
+- [2026-08](/simulation-benchmark/2026-08) (7 papers)
 - [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
@@ -25,6 +25,24 @@
 ---
 
 ## Recent Papers
+
+## HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.17584)
+- **Authors:** Wang Warren Chen, Jiahao Zhang, Zhenjiang Li, Mingxu Wang, Lei Yi, Yuchen Kang et al. (9 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+We propose HODAgent, a System-2 embodied agent for humanoid robots in service settings, addressing situated intent, responsive execution, task revision, and outcome verification. Its semi-duplex architecture integrates an Env-Interactor, Planner, Executor, and hierarchical Memory to maintain coherent interaction, planning, and task state during service episodes.
+
+---
 
 ## HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction
 
@@ -393,21 +411,5 @@ Humanoid robots are increasingly expected to perform contact-rich tasks that req
 ### Summary
 
 Large-scale dyadic interactive audio-visual dialogue (DIAD) datasets provide fundamental data resources for developing humanoid interactive virtual agents and digital humans. However, collecting such data is time-consuming, expensive, and ethically sensitive.
-
----
-
-## Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.01181)
-- **Authors:** Mehul Damani, Isha Puri, Idan Shenfeld, Jacob Andreas
-- **Published:** 2026-07
-- **Tags:**
-  - Human Demonstration
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current RLVR methods optimize only what can be objectively scored, often neglecting subjective, non-verifiable aspects of human-like outputs, such as style and structure.
 
 ---
