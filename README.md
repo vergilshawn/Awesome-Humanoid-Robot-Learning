@@ -2,15 +2,15 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 817
-- **Real Robot Papers:** 165
+- **Total Papers:** 818
+- **Real Robot Papers:** 166
 - **Open Source Papers:** 139
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (251)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (252)
 - [Manipulation](#manipulation) (100)
 - [Teleoperation](#teleoperation) (39)
 - [Locomotion](#locomotion) (159)
@@ -29,6 +29,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) — `Whole-Body Control`, `Transformer`, `World Model`, `Humanoid`, `Fine-tuning`, `Robust Control`
 - [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Safety`, `Humanoid`, `Vision-Language`
 - [Throwing a Tight Spiral American Football by a Humanoid Robot](https://arxiv.org/abs/2608.16642) — `Whole-Body Control`, `Humanoid`, `Trajectory Optimization`, `Underactuated`, `Contact Dynamics`, `Loco-Manipulation and Whole-Body Control`
 - [Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans](https://arxiv.org/abs/2608.16514) — `Zero-Shot`, `Large Language Model`, `SAC`, `Loco-Manipulation and Whole-Body Control`
@@ -635,7 +636,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
-- [EATR-Stereo: Embodiment-Aware Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control](https://arxiv.org/abs/2608.17453) — `Humanoid`, `Vision-Language`, `Locomotion`, `Real Robot`
+- [EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control](https://arxiv.org/abs/2608.17453) — `Humanoid`, `Vision-Language`, `Locomotion`, `Real Robot`
 - [Lambda-Hold Control: Human-Like Movement Emerges from a Minimal Task Reward in Predictive Musculoskeletal Simulation](https://arxiv.org/abs/2608.17030) — `Reinforcement Learning`, `Gait`, `PPO`, `Locomotion`, `Navigation`, `State Estimation`
 - [FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences](https://arxiv.org/abs/2608.17027) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`
 - [Hip Energized Monopedal Hopping](https://arxiv.org/abs/2608.10387) — `Locomotion`, `Biped`, `Gait`, `State Estimation`, `Simulation Benchmark`, `Real Robot`

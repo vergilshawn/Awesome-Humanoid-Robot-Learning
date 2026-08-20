@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**251 papers** in this category.
+**252 papers** in this category.
 
 ## Months
 
-- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (15 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
@@ -37,6 +37,28 @@
 ---
 
 ## Recent Papers
+
+## GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.18234)
+- **Authors:** Ziyang Cheng, Tianshu Tang, Jinxin Lan, Xinze Chen, Yuhan Gong, Zhichao Liu et al. (20 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Transformer
+  - World Model
+  - Humanoid
+  - Fine-tuning
+  - Robust Control
+  - Dataset
+  - PPO
+
+### Summary
+
+Whole-body motion tracking policies turn a humanoid into a robust control interface: the teleoperator---or an upstream model---only supplies a coarse movement intent, while the low-level policy keeps the robot balanced and physically feasible. Existing trackers deliver this interface only on flat ground: trained in empty scenes, they never learn how contact with terrain and objects reshapes their dynamics, and they attempt to teach the policy to balance under any command by continually enlarging the reference-motion corpus, which stops working once feasible behaviors become environment-dependent.
+
+---
 
 ## HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL
 
@@ -401,23 +423,5 @@ Humans often find good solutions to combinatorial optimization problems that are
 ### Summary
 
 Humans can progressively acquire highly dynamic motor skills while preserving reliable everyday motor abilities. In contrast, existing humanoid controllers face a trade-off between generalist and specialist capabilities: generalist motion tracking policies struggle to reliably execute rare highly dynamic motions, whereas specialist training can degrade previously acquired behaviors.
-
----
-
-## What Matters in Humanoid General Motion Tracking? An Empirical Study
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.19903)
-- **Authors:** Fabio Amadio, Enrico Mingo Hoffman
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Zero-Shot
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Humanoid general motion tracking requires policies that can follow diverse whole-body references while maintaining balance. Building such policies involves many practical design choices, and their individual effects are often hard to assess.
 
 ---

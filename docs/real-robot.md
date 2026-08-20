@@ -11,7 +11,7 @@ Papers with real humanoid robot deployment and experiments.
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
-- **Unitree G1:** 62 papers
+- **Unitree G1:** 63 papers
 - **Unitree H1:** 3 papers
 - **Unknown Platform:** 16 papers
 - **Walker:** 1 papers
@@ -20,6 +20,28 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.18234)
+- **Authors:** Ziyang Cheng, Tianshu Tang, Jinxin Lan, Xinze Chen, Yuhan Gong, Zhichao Liu et al. (20 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Transformer
+  - World Model
+  - Humanoid
+  - Fine-tuning
+  - Robust Control
+  - Dataset
+  - PPO
+
+### Summary
+
+Whole-body motion tracking policies turn a humanoid into a robust control interface: the teleoperator---or an upstream model---only supplies a coarse movement intent, while the low-level policy keeps the robot balanced and physically feasible. Existing trackers deliver this interface only on flat ground: trained in empty scenes, they never learn how contact with terrain and objects reshapes their dynamics, and they attempt to teach the policy to balance under any command by continually enlarging the reference-motion corpus, which stops working once feasible behaviors become environment-dependent.
+
+---
 
 ## HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction
 
@@ -39,10 +61,10 @@ We propose HODAgent, a System-2 embodied agent for humanoid robots in service se
 
 ---
 
-## EATR-Stereo: Embodiment-Aware Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control
+## EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.17453)
-- **Authors:** Songwei Wu, Rui Zhao, Fan Yang, Zhongqiang Nie, Zhiduo Jiang, Wandong Sun et al. (9 authors)
+- **Authors:** Songwei Wu, Rui Zhao, Fan Yang, Zhongqiang Nie, Zhiduo Jiang, Wandong Sun et al. (10 authors)
 - **Published:** 2026-08
 - **Real Robot:** ✅ — Figure
 - **Tags:**

@@ -8,14 +8,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 817
-- **Real Robot Papers:** 165
+- **Total Papers:** 818
+- **Real Robot Papers:** 166
 - **Open Source Papers:** 139
 - **Latest Month:** 2026-08
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (251)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (252)
 - [Manipulation](/manipulation/) (100)
 - [Teleoperation](/teleoperation/) (39)
 - [Locomotion](/locomotion/) (159)
@@ -31,9 +31,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) — 2026-08
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction](https://arxiv.org/abs/2608.17584) — 2026-08
   - [Simulation Benchmark](/simulation-benchmark/)
--  🤖 [EATR-Stereo: Embodiment-Aware Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control](https://arxiv.org/abs/2608.17453) — 2026-08
+-  🤖 [EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control](https://arxiv.org/abs/2608.17453) — 2026-08
   - [Locomotion](/locomotion/)
 -  🤖 [Lambda-Hold Control: Human-Like Movement Emerges from a Minimal Task Reward in Predictive Musculoskeletal Simulation](https://arxiv.org/abs/2608.17030) — 2026-08
   - [Locomotion](/locomotion/)
@@ -49,28 +51,26 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [DeepInsight II: One Trace from Benchmark to Robot](https://arxiv.org/abs/2608.16556) — 2026-08
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [Tac4Loco: Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion](https://arxiv.org/abs/2608.15766) — 2026-08
-  - [State Estimation](/state-estimation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (587)
-- **Loco-Manipulation and Whole-Body Control** (293)
+- **Humanoid** (588)
+- **Loco-Manipulation and Whole-Body Control** (294)
 - **Locomotion** (228)
 - **Manipulation** (219)
-- **Simulation Benchmark** (202)
+- **Simulation Benchmark** (203)
 - **State Estimation** (167)
 - **Physics-Based Character Animation** (108)
 - **Reinforcement Learning** (107)
-- **PPO** (85)
+- **PPO** (86)
 - **Benchmark** (78)
 - **Human Motion Analysis and Synthesis** (78)
-- **Teleoperation** (75)
+- **Teleoperation** (76)
 - **Navigation** (73)
-- **Dataset** (68)
-- **Whole-Body Control** (65)
+- **Dataset** (69)
+- **Whole-Body Control** (66)
 - **Vision-Language** (47)
 - **Sim-to-Real** (46)
 - **Hardware Design** (44)
@@ -85,7 +85,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Distillation** (25)
 - **Gait** (23)
 - **Collision** (21)
-- **Policy Learning** (20)
+- **Fine-tuning** (20)
 
 ---
 
@@ -95,6 +95,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/loco-manipulation-and-whole-body-control/2026-08)
 
+- [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) — `Whole-Body Control`, `Transformer`, `World Model`, `Humanoid`, `Fine-tuning`, `Robust Control`
 - [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Safety`, `Humanoid`, `Vision-Language`
 - [Throwing a Tight Spiral American Football by a Humanoid Robot](https://arxiv.org/abs/2608.16642) — `Whole-Body Control`, `Humanoid`, `Trajectory Optimization`, `Underactuated`, `Contact Dynamics`, `Loco-Manipulation and Whole-Body Control`
 - [Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans](https://arxiv.org/abs/2608.16514) — `Zero-Shot`, `Large Language Model`, `SAC`, `Loco-Manipulation and Whole-Body Control`
@@ -701,7 +702,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/locomotion/2026-08)
 
-- [EATR-Stereo: Embodiment-Aware Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control](https://arxiv.org/abs/2608.17453) — `Humanoid`, `Vision-Language`, `Locomotion`, `Real Robot`
+- [EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control](https://arxiv.org/abs/2608.17453) — `Humanoid`, `Vision-Language`, `Locomotion`, `Real Robot`
 - [Lambda-Hold Control: Human-Like Movement Emerges from a Minimal Task Reward in Predictive Musculoskeletal Simulation](https://arxiv.org/abs/2608.17030) — `Reinforcement Learning`, `Gait`, `PPO`, `Locomotion`, `Navigation`, `State Estimation`
 - [FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences](https://arxiv.org/abs/2608.17027) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`
 - [Hip Energized Monopedal Hopping](https://arxiv.org/abs/2608.10387) — `Locomotion`, `Biped`, `Gait`, `State Estimation`, `Simulation Benchmark`, `Real Robot`
