@@ -1,5 +1,169 @@
 [
   {
+    "arxiv_id": "2608.20114",
+    "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
+    "paper_url": "https://arxiv.org/abs/2608.20114",
+    "project_url": null,
+    "authors": [
+      "Siyuan Ma",
+      "Boshi Zhang",
+      "Yutian Zhang",
+      "Qinglian Wu",
+      "Jiaqi Zhai",
+      "Dong Wei",
+      "Qiaojun Yu"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-20",
+    "abstract": "Mobile manipulation requires a robot to predict how locomotion and arm motion jointly alter future observations and control. Existing world-action models, developed largely for fixed-base platforms, do not explicitly distinguish camera ego-motion from base and arm actions. Here we introduce DECOWAM, a whole-body world-action model that separates these factors through dedicated conditional interfaces. DECOWAM freezes an adapted FastWAM backbone and trains residual adapters, an action-equivalent future bottleneck distilled from privileged observations, adversarially separated base and arm latents, and base-velocity conditioning for video prediction. We further introduce ARMDOG, a real-robot dataset that synchronizes video, whole-body state and action, and language. On a fixed replay protocol, DECOWAM improved both future-video and action prediction over FastWAM, reducing action MSE by 21.7% with 25.95M trainable adaptation parameters. Across 79 closed-loop trials per method, it achieved the highest observed whole-body coordination and base-displacement robustness among the compared systems, while task completion remained comparable to the strongest baseline. These results show that embodiment-aware factorization can support parameter-efficient joint visual prediction and whole-body control under moving viewpoints.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Robustness",
+      "Dataset",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2608.20087",
+    "title": "Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking",
+    "paper_url": "https://arxiv.org/abs/2608.20087",
+    "project_url": null,
+    "authors": [
+      "Tao Huang",
+      "Ruofei Liu",
+      "Xuchen Tang",
+      "Xinyin Zhang",
+      "Junli Ren",
+      "Huayi Wang",
+      "Feiyu Jia",
+      "Yukai Qi",
+      "Kangning Yin",
+      "Weishuai Zeng",
+      "Lipeng Chen",
+      "Xi Li",
+      "Ting Wu",
+      "Kailin Li",
+      "Ruoli Dai",
+      "Jingbo Wang",
+      "Lei Han",
+      "Jiangmiao Pang"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-20",
+    "abstract": "Humanoid robots have recently demonstrated promising capabilities in real-world ball sports. However, achieving professional motion styles while maintaining strong task performance remains challenging. In this work, we propose AdaPT, an Adaptive Motion Planning and Tracking framework that learns professional tennis serving and rally styles directly from broadcast videos. This hierarchical design is motivated by the key insight that the planner generates stylistic kinematic motions, while the tracker executes them with minimal interference with planning. Despite its effectiveness in simulation, a substantial sim-to-real gap emerges: tracking performance inevitably degrades on real robots, and this degradation is partially overlooked by autoregressive planning and further compounded by noisy perception. To address these issues, our adaptation mechanism improves tracking robustness by learning to track randomized execution speeds, while conditioning the planner on a learned motion-speed adapter to mitigate compounding errors. Real-world experiments on the Unitree G1 demonstrate the effectiveness of our adaptation mechanism in bridging the sim-to-real gap. We further deploy AdaPT policies on the full-size Dobot Atom humanoid robot (1.7m) and demonstrate in-the-wild serving without motion capture. Beyond these results, our real-world experiments reveal both algorithmic and engineering insights for future humanoid ball-sports systems. Videos and code are available on our \\href{https://humanoidtennis.github.io/AdaPT/}{project website}.",
+    "categories": [
+      "State Estimation",
+      "Sim-to-Real",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Robustness",
+      "Real Robot",
+      "Humanoid",
+      "Motion Planning",
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2608.19955",
+    "title": "MILD: Tractable Terrain Modeling for Learning Improved Bipedal Locomotion on Deformable Surfaces",
+    "paper_url": "https://arxiv.org/abs/2608.19955",
+    "project_url": null,
+    "authors": [
+      "Zeren Luo",
+      "Jiahui Zhang",
+      "Zhe Xu",
+      "Wanyue Li",
+      "Xinqi Li",
+      "Xuechao Chen",
+      "Zhangguo Yu",
+      "Annan Tang",
+      "Peng Lu"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-20",
+    "abstract": "Enabling robots to walk on yielding terrain is vital for applications ranging from disaster response to planetary exploration. While bipedal robots hold immense potential, their locomotion on deformable surfaces remains limited as current simulators fail to capture the spatiotemporal heterogeneity of such yielding substrates. We present MILD, featuring a physics-grounded discrete-element contact solver that accurately simulates spatially varying foot-terrain interactions. Complementing this model, we train a terrain-aware locomotion controller via deep reinforcement learning with latent modulation and proprioceptive estimation. Quantitative comparisons against state-of-the-art methods show our approach generates more diverse and realistic contact scenarios during training, resulting in controllers that exhibit natural adaptation on real deformable surfaces. Through hardware experiments, we demonstrate the system's capability for online terrain identification and adaptation across a wide range of surface stiffness.",
+    "categories": [
+      "Locomotion",
+      "State Estimation",
+      "Navigation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Simulator",
+      "Biped",
+      "State Estimation",
+      "Navigation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2608.19443",
+    "title": "Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control",
+    "paper_url": "https://arxiv.org/abs/2608.19443",
+    "project_url": null,
+    "authors": [
+      "Chaoyi Pan",
+      "Zeji Yi",
+      "John Zhang",
+      "Zachary Manchester",
+      "Guannan Qu",
+      "Guanya Shi"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-19",
+    "abstract": "Thanks to its parallelizability and flexibility, sampling-based Model Predictive Control (MPC) has become widely popular for controlling real-world robotic systems. However, for high-dimensional and open-loop unstable dynamical systems, the required number of samples to improve the control sequence will grow exponentially with the horizon, leading to poor sample efficiency and numerical instability. This paper investigates the instability of shooting methods in sampling-based MPC and shows that the optimal sampling proposal distribution can be realized by sampling with an optimized feedback policy. We refer to this algorithm as Feedback Sampling MPC (FS-MPC). FS-MPC involves a hybrid sampling design which balances local and global search based on the system stability and the available computation budget. Our theoretical analysis shows that our hybrid sampling approach achieves faster convergence than standard MPPI and better optimality than standard feedback sampling. Empirically, in diverse contact-rich control tasks like humanoid loco-manipulation and dexterous manipulation, we show that FS-MPC successfully tackles dynamically unstable tasks where standard sample-based approaches struggle, and strictly outperforms feedback policies alone. Finally, we validate our method on humanoid robot locomotion and manipulation tasks in the real world.",
+    "categories": [
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "tags": [
+      "MPC",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Sampling-Based",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
     "arxiv_id": "2608.18234",
     "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
     "paper_url": "https://arxiv.org/abs/2608.18234",

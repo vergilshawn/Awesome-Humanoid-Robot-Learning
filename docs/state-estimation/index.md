@@ -1,10 +1,10 @@
 # State Estimation
 
-**44 papers** in this category.
+**45 papers** in this category.
 
 ## Months
 
-- [2026-08](/state-estimation/2026-08) (3 papers)
+- [2026-08](/state-estimation/2026-08) (4 papers)
 - [2026-07](/state-estimation/2026-07) (12 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
@@ -18,6 +18,28 @@
 ---
 
 ## Recent Papers
+
+## Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.20087)
+- **Authors:** Tao Huang, Ruofei Liu, Xuchen Tang, Xinyin Zhang, Junli Ren, Huayi Wang et al. (18 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Robustness
+  - Real Robot
+  - Humanoid
+  - Motion Planning
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid robots have recently demonstrated promising capabilities in real-world ball sports. However, achieving professional motion styles while maintaining strong task performance remains challenging.
+
+---
 
 ## Tac4Loco: Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion
 
@@ -360,26 +382,5 @@ Humanoid motion imitation requires not only accurate perception of human kinemat
 ### Summary
 
 Compliant joints can embed safety and adaptability into dexterous hands, but achieving large-stroke anthropomorphic motion while maintaining joint-specific, directiondependent stiffness and reliable proprioception remains challenging. This paper presents the PDS joint, a parametric doublespiral (PDS) compliant joint that enables systematic shaping of directional stiffness across multiple deformation modes, including flexion/extension, abduction/adduction, and pronation/supination.
-
----
-
-## 🌟 TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.24039)
-- **Project:** [GitHub](https://github.com/toyotaresearchinstitute/turbompc)
-- **Authors:** Gabriel Bravo-Palacios, Jianghan Zhang, Zachary Pestrikov, Brian Plancher, Thomas Lew
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Imitation Learning
-  - MPC
-  - Humanoid
-  - PPO
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Robotics increasingly relies on GPUs for parallel simulation, large-scale learning, and neural-network inference. For model predictive control (MPC) to scale with this paradigm, solvers must run efficiently on this hardware while remaining fast, differentiable, and compatible with expressive MPC formulations used in robotics.
 
 ---

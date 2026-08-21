@@ -2,6 +2,90 @@
 
 All papers sorted by publication date (newest first).
 
+## DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.20114)
+- **Authors:** Siyuan Ma, Boshi Zhang, Yutian Zhang, Qinglian Wu, Jiaqi Zhai, Dong Wei et al. (7 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Robustness
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Mobile manipulation requires a robot to predict how locomotion and arm motion jointly alter future observations and control. Existing world-action models, developed largely for fixed-base platforms, do not explicitly distinguish camera ego-motion from base and arm actions.
+
+---
+
+## Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.20087)
+- **Authors:** Tao Huang, Ruofei Liu, Xuchen Tang, Xinyin Zhang, Junli Ren, Huayi Wang et al. (18 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Robustness
+  - Real Robot
+  - Humanoid
+  - Motion Planning
+  - State Estimation
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid robots have recently demonstrated promising capabilities in real-world ball sports. However, achieving professional motion styles while maintaining strong task performance remains challenging.
+
+---
+
+## MILD: Tractable Terrain Modeling for Learning Improved Bipedal Locomotion on Deformable Surfaces
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.19955)
+- **Authors:** Zeren Luo, Jiahui Zhang, Zhe Xu, Wanyue Li, Xinqi Li, Xuechao Chen et al. (9 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Simulator
+  - Biped
+  - State Estimation
+  - Navigation
+
+### Summary
+
+Enabling robots to walk on yielding terrain is vital for applications ranging from disaster response to planetary exploration. While bipedal robots hold immense potential, their locomotion on deformable surfaces remains limited as current simulators fail to capture the spatiotemporal heterogeneity of such yielding substrates.
+
+---
+
+## Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.19443)
+- **Authors:** Chaoyi Pan, Zeji Yi, John Zhang, Zachary Manchester, Guannan Qu, Guanya Shi
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - MPC
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Sampling-Based
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Thanks to its parallelizability and flexibility, sampling-based Model Predictive Control (MPC) has become widely popular for controlling real-world robotic systems. However, for high-dimensional and open-loop unstable dynamical systems, the required number of samples to improve the control sequence will grow exponentially with the horizon, leading to poor sample efficiency and numerical instability.
+
+---
+
 ## GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.18234)

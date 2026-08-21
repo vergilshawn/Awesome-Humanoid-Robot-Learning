@@ -1,10 +1,10 @@
 # Manipulation
 
-**100 papers** in this category.
+**101 papers** in this category.
 
 ## Months
 
-- [2026-08](/manipulation/2026-08) (5 papers)
+- [2026-08](/manipulation/2026-08) (6 papers)
 - [2026-07](/manipulation/2026-07) (18 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
@@ -33,6 +33,26 @@
 ---
 
 ## Recent Papers
+
+## Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.19443)
+- **Authors:** Chaoyi Pan, Zeji Yi, John Zhang, Zachary Manchester, Guannan Qu, Guanya Shi
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - MPC
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Sampling-Based
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Thanks to its parallelizability and flexibility, sampling-based Model Predictive Control (MPC) has become widely popular for controlling real-world robotic systems. However, for high-dimensional and open-loop unstable dynamical systems, the required number of samples to improve the control sequence will grow exponentially with the horizon, leading to poor sample efficiency and numerical instability.
+
+---
 
 ## Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence
 
@@ -388,27 +408,5 @@ Human egocentric video is a scalable supervision source for humanoid policy lear
 ### Summary
 
 Keypoint tracking alone is insufficient for object interaction tasks such as sitting on a chair, wiping a board, or pushing furniture, where the robot can reach the correct pose without making meaningful physical contact with the object. We present CONTACTMIMIC, a learning framework that tracks explicit partlevel binary contact commands alongside keypoint trajectories.
-
----
-
-## Immersive Social Interaction with VR and LLM-Assisted Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.07430)
-- **Authors:** Niraj Pudasaini, Geeta Chandra Raju Bethala, Pranav Doma, Anthony Tzes, Yi Fang
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Unitree H1
-- **Tags:**
-  - Imitation Learning
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Inverse Kinematics
-  - PPO
-  - Physics-Based Character Animation
-
-### Summary
-
-Humanoid robots can extend human presence to remote, constrained, or hazardous environments, but existing teleoperation interfaces often require physically demanding motion tracking or cognitively demanding low-level control. This paper presents an immersive teleoperation framework that integrates voice-controlled locomotion, VR-based manipulation, and bidirectional social interaction for whole-body humanoid control.
 
 ---

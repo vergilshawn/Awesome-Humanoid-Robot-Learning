@@ -1,10 +1,10 @@
 # Locomotion
 
-**159 papers** in this category.
+**160 papers** in this category.
 
 ## Months
 
-- [2026-08](/locomotion/2026-08) (11 papers)
+- [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (22 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
@@ -38,6 +38,26 @@
 ---
 
 ## Recent Papers
+
+## MILD: Tractable Terrain Modeling for Learning Improved Bipedal Locomotion on Deformable Surfaces
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.19955)
+- **Authors:** Zeren Luo, Jiahui Zhang, Zhe Xu, Wanyue Li, Xinqi Li, Xuechao Chen et al. (9 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Simulator
+  - Biped
+  - State Estimation
+  - Navigation
+
+### Summary
+
+Enabling robots to walk on yielding terrain is vital for applications ranging from disaster response to planetary exploration. While bipedal robots hold immense potential, their locomotion on deformable surfaces remains limited as current simulators fail to capture the spatiotemporal heterogeneity of such yielding substrates.
+
+---
 
 ## EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control
 
@@ -401,22 +421,5 @@ Robot policies are typically MLPs mapping observations to actions. Yet robot obs
 ### Summary
 
 Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilizes Virtual Reality for upper-body teleoperation and Reinforcement Learning for lower-body balance and locomotion control.
-
----
-
-## Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.18760)
-- **Authors:** Stéphane Caron
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Locomotion
-  - Biped
-  - Walking
-
-### Summary
-
-In legged locomotion, divergent components of motion (DCMs) have emerged as characteristic states for balance control. They isolate the unstable mode of the dynamics but, in existing formulations, apply only to reduced models such as the linear inverted pendulum.
 
 ---
