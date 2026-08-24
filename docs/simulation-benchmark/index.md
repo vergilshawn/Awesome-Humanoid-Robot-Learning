@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**77 papers** in this category.
+**78 papers** in this category.
 
 ## Months
 
-- [2026-08](/simulation-benchmark/2026-08) (7 papers)
+- [2026-08](/simulation-benchmark/2026-08) (8 papers)
 - [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
@@ -25,6 +25,28 @@
 ---
 
 ## Recent Papers
+
+## Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.20852)
+- **Authors:** Aniruddh Kushwah, Vyankatesh Ashtekar, Ashish Dutta
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Human Demonstration
+  - MuJoCo
+  - Humanoid
+  - Position Control
+  - PPO
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+This paper presents a reference-guided reinforcement learning framework to generate stand-up motion for a 29-DOF Unitree G1 humanoid on deformable soft ground, using a human demonstration recorded on hard ground. The terrain compliance is modelled using solref and solimp parameters from MuJoCo's rigid body soft-contact model.
+
+---
 
 ## HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction
 
@@ -392,24 +414,5 @@ Generating realistic 3D human motions in real-time within interactive applicatio
 ### Summary
 
 Humanoid robots are increasingly expected to perform contact-rich tasks that require not only accurate whole-body motion but also robust physical interaction with surrounding objects and humans. Although recent advances in humanoid motion imitation and whole-body control have achieved remarkable tracking performance, existing datasets and benchmarks primarily focus on kinematic motion while largely overlooking synchronized interaction forces.
-
----
-
-## Conversational Human Audio-visual Talking Dialogue Generation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.02799)
-- **Authors:** Junhao Song, Lluis Guasch, Xilin He, Zhongyu Yang, Yingfang Yuan, Weicheng Xie et al. (11 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - Humanoid
-  - Pre-training
-  - Dataset
-  - Large Language Model
-  - Simulation Benchmark
-
-### Summary
-
-Large-scale dyadic interactive audio-visual dialogue (DIAD) datasets provide fundamental data resources for developing humanoid interactive virtual agents and digital humans. However, collecting such data is time-consuming, expensive, and ethically sensitive.
 
 ---

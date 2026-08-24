@@ -1,10 +1,10 @@
 # Manipulation
 
-**101 papers** in this category.
+**102 papers** in this category.
 
 ## Months
 
-- [2026-08](/manipulation/2026-08) (6 papers)
+- [2026-08](/manipulation/2026-08) (7 papers)
 - [2026-07](/manipulation/2026-07) (18 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
@@ -33,6 +33,22 @@
 ---
 
 ## Recent Papers
+
+## Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.20433)
+- **Authors:** Vincent K. M. Cheung, Jia-Yeu Lin
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - State Estimation
+
+### Summary
+
+Advances in technology have led to increasingly sophisticated musical humanoid robots. However, their use has largely been limited to performance and related research in human-robot interaction.
+
+---
 
 ## Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control
 
@@ -390,23 +406,5 @@ Tactile feedback is fundamental to Hand-Object Interaction (HOI), governing cont
 ### Summary
 
 Human egocentric video is a scalable supervision source for humanoid policy learning, but current pipelines struggle with hand-object occlusion, oversimplified motion, or specialized capture hardware. We introduce AgenticFocus, a Mixed Reality synthesis pipeline that converts ordinary first-person-view human videos into robot-trainable demonstrations by restoring occluded object geometry, reconstructing full-hand motion, and retargeting it to a humanoid embodiment through camera-relative alignment and layered compositing.
-
----
-
-## ContactMimic: Humanoid Object Interaction via Contact Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.08742)
-- **Authors:** Xinyao Li, Xialin He, Runpei Dong, Saurabh Gupta
-- **Published:** 2026-07
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - State Estimation
-  - Sim-to-Real
-  - Simulation Benchmark
-
-### Summary
-
-Keypoint tracking alone is insufficient for object interaction tasks such as sitting on a chair, wiping a board, or pushing furniture, where the robot can reach the correct pose without making meaningful physical contact with the object. We present CONTACTMIMIC, a learning framework that tracks explicit partlevel binary contact commands alongside keypoint trajectories.
 
 ---

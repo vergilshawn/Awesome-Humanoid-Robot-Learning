@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 822
-- **Real Robot Papers:** 170
+- **Total Papers:** 825
+- **Real Robot Papers:** 171
 - **Open Source Papers:** 139
 
 🌟 indicates papers with detected project/code links.
@@ -11,15 +11,15 @@ A curated and automatically updated collection of humanoid robot learning resear
 ## Contents
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (253)
-- [Manipulation](#manipulation) (101)
+- [Manipulation](#manipulation) (102)
 - [Teleoperation](#teleoperation) (39)
 - [Locomotion](#locomotion) (160)
 - [Navigation](#navigation) (32)
 - [State Estimation](#state-estimation) (45)
 - [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (77)
-- [Physics-Based Character Animation](#physics-based-character-animation) (43)
+- [Simulation Benchmark](#simulation-benchmark) (78)
+- [Physics-Based Character Animation](#physics-based-character-animation) (44)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (27)
 - [Usage](#usage)
 
@@ -371,6 +371,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion](https://arxiv.org/abs/2608.20433) — `Manipulation`, `Humanoid`, `State Estimation`
 - [Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control](https://arxiv.org/abs/2608.19443) — `MPC`, `Locomotion`, `Manipulation`, `Humanoid`, `Sampling-Based`, `Loco-Manipulation and Whole-Body Control`
 - [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — `Manipulation`, `Robustness`, `Humanoid`, `Vision-Language`, `Dataset`, `Simulation Benchmark`
 - [A Haptic Robot Finger Designed for Guqin Instrument Playing](https://arxiv.org/abs/2608.07002) — `Humanoid`, `Tactile Sensing`, `Manipulation`, `Teleoperation`
@@ -1179,6 +1180,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface](https://arxiv.org/abs/2608.20852) — `Reinforcement Learning`, `Human Demonstration`, `MuJoCo`, `Humanoid`, `Position Control`, `PPO`
 - [HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction](https://arxiv.org/abs/2608.17584) — `Humanoid`, `Benchmark`, `Simulation Benchmark`, `State Estimation`, `Real Robot`
 - [HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction](https://arxiv.org/abs/2608.16222) — `Humanoid`, `Benchmark`, `Dataset`, `Policy Learning`, `GAN`, `Simulation Benchmark`
 - [Zero-Shot Skeleton-Based Action Anticipation](https://arxiv.org/abs/2608.14243) — `Zero-Shot`, `Humanoid`, `Benchmark`, `Dataset`, `Simulation Benchmark`, `State Estimation`
@@ -1309,6 +1311,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards](https://arxiv.org/abs/2608.20823) — `Reinforcement Learning`, `Robustness`, `Humanoid`, `Inverse Kinematics`, `Optimal Control`, `PPO`
 - [GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking](https://arxiv.org/abs/2608.01410) — `Zero-Shot`, `Humanoid`, `Benchmark`, `Physics-Based Character Animation`, `Simulation Benchmark`, `Human Motion Analysis and Synthesis`
 
 ### 2026-07

@@ -11,7 +11,7 @@ Papers with real humanoid robot deployment and experiments.
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
-- **Unitree G1:** 64 papers
+- **Unitree G1:** 65 papers
 - **Unitree H1:** 3 papers
 - **Unknown Platform:** 17 papers
 - **Walker:** 1 papers
@@ -20,6 +20,28 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.20852)
+- **Authors:** Aniruddh Kushwah, Vyankatesh Ashtekar, Ashish Dutta
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Human Demonstration
+  - MuJoCo
+  - Humanoid
+  - Position Control
+  - PPO
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+This paper presents a reference-guided reinforcement learning framework to generate stand-up motion for a 29-DOF Unitree G1 humanoid on deformable soft ground, using a human demonstration recorded on hard ground. The terrain compliance is modelled using solref and solimp parameters from MuJoCo's rigid body soft-contact model.
+
+---
 
 ## DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation
 

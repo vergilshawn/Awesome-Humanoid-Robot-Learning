@@ -2,6 +2,49 @@
 
 All papers sorted by publication date (newest first).
 
+## Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.20852)
+- **Authors:** Aniruddh Kushwah, Vyankatesh Ashtekar, Ashish Dutta
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Human Demonstration
+  - MuJoCo
+  - Humanoid
+  - Position Control
+  - PPO
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+This paper presents a reference-guided reinforcement learning framework to generate stand-up motion for a 29-DOF Unitree G1 humanoid on deformable soft ground, using a human demonstration recorded on hard ground. The terrain compliance is modelled using solref and solimp parameters from MuJoCo's rigid body soft-contact model.
+
+---
+
+## Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.20823)
+- **Authors:** Meet Pal Singh, Vyankatesh Ashtekar, Ashish Dutta
+- **Published:** 2026-08
+- **Tags:**
+  - Reinforcement Learning
+  - Robustness
+  - Humanoid
+  - Inverse Kinematics
+  - Optimal Control
+  - PPO
+  - Physics-Based Character Animation
+  - Navigation
+
+### Summary
+
+A humanoid has infinitely many ways to stand up from sitting while maintaining balance, making sit-to-stand (STS) a challenging control problem. We synthesise natural humanoid STS motion from scratch using reinforcement learning, without demonstrations or reference trajectories.
+
+---
+
 ## DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.20114)
@@ -63,6 +106,22 @@ Humanoid robots have recently demonstrated promising capabilities in real-world 
 ### Summary
 
 Enabling robots to walk on yielding terrain is vital for applications ranging from disaster response to planetary exploration. While bipedal robots hold immense potential, their locomotion on deformable surfaces remains limited as current simulators fail to capture the spatiotemporal heterogeneity of such yielding substrates.
+
+---
+
+## Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.20433)
+- **Authors:** Vincent K. M. Cheung, Jia-Yeu Lin
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - State Estimation
+
+### Summary
+
+Advances in technology have led to increasingly sophisticated musical humanoid robots. However, their use has largely been limited to performance and related research in human-robot interaction.
 
 ---
 

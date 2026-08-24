@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**43 papers** in this category.
+**44 papers** in this category.
 
 ## Months
 
-- [2026-08](/physics-based-character-animation/2026-08) (1 papers)
+- [2026-08](/physics-based-character-animation/2026-08) (2 papers)
 - [2026-07](/physics-based-character-animation/2026-07) (4 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (4 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
@@ -36,6 +36,27 @@
 ---
 
 ## Recent Papers
+
+## Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.20823)
+- **Authors:** Meet Pal Singh, Vyankatesh Ashtekar, Ashish Dutta
+- **Published:** 2026-08
+- **Tags:**
+  - Reinforcement Learning
+  - Robustness
+  - Humanoid
+  - Inverse Kinematics
+  - Optimal Control
+  - PPO
+  - Physics-Based Character Animation
+  - Navigation
+
+### Summary
+
+A humanoid has infinitely many ways to stand up from sitting while maintaining balance, making sit-to-stand (STS) a challenging control problem. We synthesise natural humanoid STS motion from scratch using reinforcement learning, without demonstrations or reference trajectories.
+
+---
 
 ## GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking
 
@@ -348,20 +369,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.20717)
 - **Published:** 2025-09
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.19926)
-- **Published:** 2025-08
 - **Tags:**
   - Humanoid
   - Physics-Based Character Animation

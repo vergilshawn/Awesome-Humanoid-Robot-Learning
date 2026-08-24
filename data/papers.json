@@ -1,5 +1,71 @@
 [
   {
+    "arxiv_id": "2608.20852",
+    "title": "Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface",
+    "paper_url": "https://arxiv.org/abs/2608.20852",
+    "project_url": null,
+    "authors": [
+      "Aniruddh Kushwah",
+      "Vyankatesh Ashtekar",
+      "Ashish Dutta"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-21",
+    "abstract": "This paper presents a reference-guided reinforcement learning framework to generate stand-up motion for a 29-DOF Unitree G1 humanoid on deformable soft ground, using a human demonstration recorded on hard ground. The terrain compliance is modelled using solref and solimp parameters from MuJoCo's rigid body soft-contact model. The rewards consists of (i) reference motion tracking through residual joint-position control and (ii) explicit recovery objectives such as pelvis height, torso uprightness, and the final posture. First, the policy is trained with the specified rewards considering hard ground. Next, the terrain stiffness is lowered by updating solref and the nominal surface penetration zone is expanded using solimp. Subsequent training enables the policy to adapt to the delayed support force generation due to significant surface penetration during contact-intensive phases while preserving the original demonstration pattern. The learned policy successfully completes the fallen-to-standing task in simulation, reaching the targeted pelvis height and uprightness, with a maximum contact penetration of approximately 40 mm during the process. The proposed method is demonstrated on two stand-up sequences and successfully achieves the final recovery objective on both hard and soft ground. Ablation studies show that reference tracking alone is insufficient for successful stand-up, and that explicit recovery rewards are essential.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Human Demonstration",
+      "MuJoCo",
+      "Humanoid",
+      "Position Control",
+      "PPO",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2608.20823",
+    "title": "Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards",
+    "paper_url": "https://arxiv.org/abs/2608.20823",
+    "project_url": null,
+    "authors": [
+      "Meet Pal Singh",
+      "Vyankatesh Ashtekar",
+      "Ashish Dutta"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-21",
+    "abstract": "A humanoid has infinitely many ways to stand up from sitting while maintaining balance, making sit-to-stand (STS) a challenging control problem. We synthesise natural humanoid STS motion from scratch using reinforcement learning, without demonstrations or reference trajectories. A single Proximal Policy Optimisation policy learns smooth, human-like rising driven by three complementary components. (i) A coupled force/chair-height curriculum is used. A vertical pelvis-assist force aids early trajectory exploration and decays over training. Taller chairs are unlocked with decaying assisting force. This ensures that the policy masters a viable STS trajectory at each chair height before being exposed to harder ones, avoiding the premature distribution shift that otherwise collapses generalisation. (ii) Motion robustness is achieved by randomly sampling from a large number of inverse kinematics-generated initial and target poses spanning over eight chair heights. (iii) A set of rewards is defined inspired from biomechanics and optimal control studies. They shape the robot's angular momentum for seat-off, and enable support-region transition via centre of pressure attraction function to ensure smooth low-effort actuation. On a deterministic force-free evaluator, the policy attains more than 97% balanced-standing success across eight chair heights. The policy generalises smooth motion across chair heights and enables the robot to rise from substantially deep-seated postures as compared to the state of the art.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Navigation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Robustness",
+      "Humanoid",
+      "Inverse Kinematics",
+      "Optimal Control",
+      "PPO",
+      "Physics-Based Character Animation",
+      "Navigation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
     "arxiv_id": "2608.20114",
     "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
     "paper_url": "https://arxiv.org/abs/2608.20114",
@@ -127,6 +193,33 @@
     "platform": "Figure",
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2608.20433",
+    "title": "Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion",
+    "paper_url": "https://arxiv.org/abs/2608.20433",
+    "project_url": null,
+    "authors": [
+      "Vincent K. M. Cheung",
+      "Jia-Yeu Lin"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-20",
+    "abstract": "Advances in technology have led to increasingly sophisticated musical humanoid robots. However, their use has largely been limited to performance and related research in human-robot interaction. In this position paper, we propose a novel perspective: musical humanoid robots as experimental interfaces for investigating music-evoked emotions. We argue that current research is constrained by paradigms relying on pre-recorded auditory stimuli, which fail to capture the multimodal, embodied, and interactive nature of real-world musical experience. Building on existing theories of music cognition and emotion, we identify mechanisms that require controlled manipulation of both acoustic and non-acoustic variables. We show that humanoid robots are well-suited as they enable parametric control of performance variables, reproducibility across trials, and the decoupling and recombination of auditory, visual, and interactive components. We illustrate the technical feasibility of this perspective through a case study of the WAseda Saxophonist Robot 5 (WAS-5), demonstrating reproducible control of acoustic and interaction variables that are prerequisites for future music-emotion experiments. Our work positions musical humanoid robots as a methodological platform that enables future controlled investigations of music-evoked emotions.",
+    "categories": [
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
   },
   {
     "arxiv_id": "2608.19443",

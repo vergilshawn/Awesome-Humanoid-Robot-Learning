@@ -174,7 +174,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (101)",
+            "text": "Manipulation (102)",
             "collapsed": true,
             "items": [
                   {
@@ -740,7 +740,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (77)",
+            "text": "Simulation Benchmark (78)",
             "collapsed": true,
             "items": [
                   {
@@ -818,7 +818,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (43)",
+            "text": "Physics-Based Character Animation (44)",
             "collapsed": true,
             "items": [
                   {
