@@ -6,20 +6,76 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 2 papers
 - **Booster:** 4 papers
-- **Digit:** 10 papers
+- **Digit:** 11 papers
 - **Figure:** 61 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
 - **Unitree G1:** 65 papers
-- **Unitree H1:** 3 papers
-- **Unknown Platform:** 17 papers
+- **Unitree H1:** 4 papers
+- **Unknown Platform:** 18 papers
 - **Walker:** 1 papers
 - **iCub:** 2 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.23304)
+- **Authors:** Akihiro Miki, Shun Hasegawa, Yoshimoto Ribayashi, Kento Kawaharazuka, Kei Okada
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - State Estimation
+  - Humanoid
+  - Proprioception
+  - PPO
+
+### Summary
+
+Proprioception in musculoskeletal humanoids is typically estimated primarily from muscle sensing, while the role of cutaneous deformation around joints remains insufficiently explored. In biological systems, mechanoreceptors distributed within soft tissue complement muscle feedback and support reliable joint state estimation.
+
+---
+
+## An Interpretable Deep Learning Framework for Material Perception and Classification from Multisensory Tactile Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.21894)
+- **Authors:** Li Zou, Dave Hogendoorn, Yasemin Vardar
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Deep Learning
+  - Teleoperation
+
+### Summary
+
+Human tactile perception relies on complex multisensory cues. Yet the relationship between tactile signals and perceptual representations remains poorly understood, limiting the integration of touch in digital environments and human-like robotic perception.
+
+---
+
+## GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.21550)
+- **Authors:** Max Conway, William Xie, Allen Devaraj, Yutong Zhang, Niraj Pudasaini, Mateo Feit et al. (17 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - MPC
+  - Manipulation
+  - Navigation
+  - MuJoCo
+  - Humanoid
+  - Walking
+  - Sampling-Based
+  - Simulation Benchmark
+
+### Summary
+
+Disassembling end-of-life electric vehicle (EV) battery packs is dull and dangerous work, performed almost entirely by humans. We present GOLEM (Generalized Open Library of Embodied Modules), an end-to-end, open-source system architecture for EV battery disassembly with the Unitree H1-2 humanoid robot in which walking, manipulation, dynamic stability, navigation, and spatial memory are independent modules with abstract interfaces, so that methods are easily developed, interchanged, and compared.
+
+---
 
 ## Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface
 

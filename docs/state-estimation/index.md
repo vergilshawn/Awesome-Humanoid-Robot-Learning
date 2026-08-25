@@ -1,10 +1,10 @@
 # State Estimation
 
-**45 papers** in this category.
+**47 papers** in this category.
 
 ## Months
 
-- [2026-08](/state-estimation/2026-08) (4 papers)
+- [2026-08](/state-estimation/2026-08) (6 papers)
 - [2026-07](/state-estimation/2026-07) (12 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
@@ -18,6 +18,40 @@
 ---
 
 ## Recent Papers
+
+## Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.23304)
+- **Authors:** Akihiro Miki, Shun Hasegawa, Yoshimoto Ribayashi, Kento Kawaharazuka, Kei Okada
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - State Estimation
+  - Humanoid
+  - Proprioception
+  - PPO
+
+### Summary
+
+Proprioception in musculoskeletal humanoids is typically estimated primarily from muscle sensing, while the role of cutaneous deformation around joints remains insufficiently explored. In biological systems, mechanoreceptors distributed within soft tissue complement muscle feedback and support reliable joint state estimation.
+
+---
+
+## LLM-Based Selection of Incongruent Verbal and Nonverbal Behavior for Virtual Humans
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.22731)
+- **Authors:** Parisa Ghanad Torshizi, Stacy Marsella
+- **Published:** 2026-08
+- **Tags:**
+  - Large Language Model
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Nonverbal behavior generation systems for virtual agents often take an utterance as input and generate nonverbal behaviors that emphasize or illustrate the content of the verbal channel. However, human nonverbal behavior is shaped by more than the content of the speech.
+
+---
 
 ## Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking
 
@@ -342,45 +376,5 @@ Large Language Models (LLMs) have demonstrated the ability to simulate human-lik
 ### Summary
 
 Robot initiative is a central challenge in multi-party human-robot collaboration. A robot that contributes without being addressed may provide timely support, but it may also disrupt coordination, divide attention, or interrupt turn-taking; a robot that waits to be addressed may preserve human control, but it may also miss opportunities to assist.
-
----
-
-## PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.26741)
-- **Authors:** Yi Lu, Shenghao Ren, Tianyu Xiong, Zhaoxiang Li, Jiaqi Li, He Zhang et al. (9 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Contact Dynamics
-  - Dataset
-  - PPO
-  - State Estimation
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-Humanoid motion imitation requires not only accurate perception of human kinematics but also faithful reproduction of physical interactions with the environment. However, existing pipelines rely primarily on vision-based motion capture and kinematic imitation, largely ignoring contact dynamics, leading to artifacts such as foot sliding, floor penetration, and unstable behaviors.
-
----
-
-## PDS Joint: A Parametric Double-Spiral Joint Tailored for Dexterous Hands
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.24377)
-- **Authors:** Haoyang Li, Yibo Wen, Yixiang Fan, Yiheng Xu, Yufeng Yue
-- **Published:** 2026-06
-- **Tags:**
-  - State Estimation
-  - Safety
-  - Proprioception
-  - PPO
-  - Manipulation
-  - Navigation
-
-### Summary
-
-Compliant joints can embed safety and adaptability into dexterous hands, but achieving large-stroke anthropomorphic motion while maintaining joint-specific, directiondependent stiffness and reliable proprioception remains challenging. This paper presents the PDS joint, a parametric doublespiral (PDS) compliant joint that enables systematic shaping of directional stiffness across multiple deformation modes, including flexion/extension, abduction/adduction, and pronation/supination.
 
 ---

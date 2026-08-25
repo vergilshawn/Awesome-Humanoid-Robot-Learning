@@ -1,10 +1,10 @@
 # Navigation
 
-**32 papers** in this category.
+**33 papers** in this category.
 
 ## Months
 
-- [2026-08](/navigation/2026-08) (1 papers)
+- [2026-08](/navigation/2026-08) (2 papers)
 - [2026-07](/navigation/2026-07) (7 papers)
 - [2026-06](/navigation/2026-06) (6 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
@@ -24,6 +24,25 @@
 ---
 
 ## Recent Papers
+
+## 🌟 SketchFlow: Zero-Shot Vector Sketch Generation via GMM Prior Flow in CLIP Latent Space
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.21659)
+- **Project:** [GitHub](https://github.com/qiuhong-1202/sketchflow)
+- **Authors:** Jin Zhou, Hongliang Yang, Pengfei Xu, Hui Huang
+- **Published:** 2026-08
+- **Tags:**
+  - Transformer
+  - Zero-Shot
+  - Diffusion
+  - Flow Matching
+  - Navigation
+
+### Summary
+
+Vector sketches remain one of the most concise and immediate mediums for abstract human expression. However, generating high-quality vector strokes that exhibit human-like drawing styles remains an open challenge due to the severe scarcity of fine-grained, high-quality text-to-sketch paired data.
+
+---
 
 ## PFM-HR: Pose Flow Matching for Humanoid Robots
 
@@ -364,21 +383,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Humanoid
   - Navigation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.14625)
-- **Published:** 2025-11
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Humanoid
 
 ### Summary
 

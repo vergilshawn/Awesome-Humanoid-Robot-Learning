@@ -1,5 +1,176 @@
 [
   {
+    "arxiv_id": "2608.23304",
+    "title": "Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid",
+    "paper_url": "https://arxiv.org/abs/2608.23304",
+    "project_url": null,
+    "authors": [
+      "Akihiro Miki",
+      "Shun Hasegawa",
+      "Yoshimoto Ribayashi",
+      "Kento Kawaharazuka",
+      "Kei Okada"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-24",
+    "abstract": "Proprioception in musculoskeletal humanoids is typically estimated primarily from muscle sensing, while the role of cutaneous deformation around joints remains insufficiently explored. In biological systems, mechanoreceptors distributed within soft tissue complement muscle feedback and support reliable joint state estimation. This study presents the design of a biomimetic joint-covering skin with a tissue-like layered structure that integrates pressure- and stretch-sensitive elements within the joint-covering tissue. The proposed skin is implemented on the musculoskeletal humanoid Musashi-W, and its independent proprioceptive capability as well as its integration with muscle sensing are evaluated. Experimental results show that the proposed skin alone achieves joint angle estimation with an average error of approximately 3 degrees. Furthermore, integration with muscle sensing improves estimation accuracy. Owing to its joint-covering structure, the skin may mechanically mitigate the influence of external disturbances on the muscles, and the integration of multiple modalities suggests the possibility of contributing to the identification of external stimuli that are difficult to interpret using muscle sensing alone. This work presents a design methodology for biomimetic joint-covering skin and demonstrates that such tissue-structured skin can serve as an effective approach for extending proprioceptive systems in musculoskeletal humanoids.",
+    "categories": [
+      "State Estimation"
+    ],
+    "tags": [
+      "State Estimation",
+      "Humanoid",
+      "Proprioception",
+      "PPO"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2608.22731",
+    "title": "LLM-Based Selection of Incongruent Verbal and Nonverbal Behavior for Virtual Humans",
+    "paper_url": "https://arxiv.org/abs/2608.22731",
+    "project_url": null,
+    "authors": [
+      "Parisa Ghanad Torshizi",
+      "Stacy Marsella"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-24",
+    "abstract": "Nonverbal behavior generation systems for virtual agents often take an utterance as input and generate nonverbal behaviors that emphasize or illustrate the content of the verbal channel. However, human nonverbal behavior is shaped by more than the content of the speech. It is also influenced by speaker roles, interpersonal relationships, social context, and the cognitive and emotional states of the interactants. As a result, the nonverbal channel may reinforce, weaken, qualify, or even contradict the verbal channel. It may also reveal internal states that are hidden or only indirectly implied in speech, including emotional \"leakage\" that may be incidental to the immediate interaction. Modeling this richer relationship between verbal and nonverbal behavior is important for designing virtual agents that exhibit realistic, human-like behavior. It is especially critical in training contexts that require nuanced social interpretation, such as counseling simulations involving virtual patients. Drawing on Ekman's framework of verbal nonverbal relationships, we propose a taxonomy of categories in which mismatches between verbal and nonverbal behavior can occur. We then examine alternative approaches for realizing these behaviors using large language models, focusing on whether LLMs can select contextually appropriate mismatched verbal and nonverbal behaviors from a given dialogue and social interaction context. Finally, we evaluate the resulting behaviors in a human-subject study, assessing whether context-driven nonverbal behavior, when embodied in a virtual human, produces the intended effects on observers.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Large Language Model",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2608.22278",
+    "title": "DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model",
+    "paper_url": "https://arxiv.org/abs/2608.22278",
+    "project_url": "https://github.com/DreamMimic/DreamMimic",
+    "authors": [
+      "Jie Yin",
+      "Xingyu Lai"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-23",
+    "abstract": "Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \\href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation. Instead of using a Dreamer-style RSSM for planning, we repurpose it to learn predictive latent dynamics that serve as both a representation space and an action-conditioned multi-step supervision signal, while exposing compact predictive features to the student policy to reduce long-term drift. Beyond standard reconstruction objectives for proprioceptive and visual observations, we add auxiliary prediction heads for privileged state, contact, object state, and reward estimation. These heads provide additional supervision related to agent--object interaction and task progress, encouraging the latent representation to retain signals that are useful for contact-rich loco-manipulation. We further introduce Performance-Conditioned Guidance (PCG), a reward-driven adaptive distillation schedule that computes performance scores for both teacher and student to dynamically balance guidance and exploration. PCG prevents both premature teacher annealing and excessive teacher interference in challenging visual settings. Experiments on OMOMO and BEHAVE show improved tracking-based loco-manipulation performance over strong vision-based baselines, without exposing online privileged interaction states to the student at deployment. Qualitative simulations further examine morphology and simulator changes. These results suggest that world models can provide a useful mechanism for stabilizing visual policy distillation in contact-rich humanoid behaviors.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Manipulation",
+      "Navigation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "World Model",
+      "Simulator",
+      "Humanoid",
+      "Distillation",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation",
+      "Navigation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2608.21894",
+    "title": "An Interpretable Deep Learning Framework for Material Perception and Classification from Multisensory Tactile Data",
+    "paper_url": "https://arxiv.org/abs/2608.21894",
+    "project_url": null,
+    "authors": [
+      "Li Zou",
+      "Dave Hogendoorn",
+      "Yasemin Vardar"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-22",
+    "abstract": "Human tactile perception relies on complex multisensory cues. Yet the relationship between tactile signals and perceptual representations remains poorly understood, limiting the integration of touch in digital environments and human-like robotic perception. To address this gap, we developed a computational framework comprising three interconnected deep learning models that map multisensory touch data to material perception, without relying on hand-crafted features. The models represent progressively different routes from tactile signals to material class: from low-level interaction signals to perceptual attribute distributions (Model 1), from predicted attribute distributions to material classification (Model 2), and directly from tactile signals to material categories, bypassing intermediate representations (Model 3). By combining deep learning with Integrated Gradients, the framework achieved high accuracy while offering interpretability, revealing which sensory modalities most strongly drive its decisions. Our results show that deep learning can approach near-perfect material classification when unconstrained by intermediate perceptual stages, but matching human-like performance is harder once those stages are modeled explicitly. Notably, thermal cues emerged as particularly informative across all models, providing robust signals for material differentiation. The results offer a computational account of how tactile signals lead to material perception and show how interpretable deep learning can both approach human-level performance and reveal cues that robotic and haptic systems need to incorporate.",
+    "categories": [
+      "Teleoperation"
+    ],
+    "tags": [
+      "Deep Learning",
+      "Teleoperation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2608.21550",
+    "title": "GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly",
+    "paper_url": "https://arxiv.org/abs/2608.21550",
+    "project_url": null,
+    "authors": [
+      "Max Conway",
+      "William Xie",
+      "Allen Devaraj",
+      "Yutong Zhang",
+      "Niraj Pudasaini",
+      "Mateo Feit",
+      "Adam Abid",
+      "Zachary Allen",
+      "Chen Liu",
+      "Xuan Tan",
+      "Jensen Lavering",
+      "Jason Chen",
+      "Lyle Antieau",
+      "Anthony Von Pischke",
+      "Alessandro Roncone",
+      "Zachary Sunberg",
+      "Nikolaus Correll"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-21",
+    "abstract": "Disassembling end-of-life electric vehicle (EV) battery packs is dull and dangerous work, performed almost entirely by humans. We present GOLEM (Generalized Open Library of Embodied Modules), an end-to-end, open-source system architecture for EV battery disassembly with the Unitree H1-2 humanoid robot in which walking, manipulation, dynamic stability, navigation, and spatial memory are independent modules with abstract interfaces, so that methods are easily developed, interchanged, and compared. GOLEM is deployed as a Docker-based ROS 2 abstraction in which MuJoCo and IsaacLab digital twins expose interfaces matching the physical robot. GOLEM's composability and per-module customization enable development and demonstration of humanoid EV battery disassembly, from simulation to reality. GOLEM provides fair comparison between humanoid modules, enabling evaluation as a capability ladder, in which one module is characterized at a time and added as a rung: LiDAR-inertial navigation places the robot within 13.0cm of a 6m goal; a learned standing controller recovers from external disturbances that sampling-based lower-body MPC does not; and grasping loosened fasteners from a real Hyundai Ioniq 5 pack degrades from 97% tethered to 87% free-standing to 37% under navigation-induced pose variance. Source code is available at the project page https://golem-humanoid.github.io",
+    "categories": [
+      "Simulation Benchmark",
+      "Locomotion",
+      "Manipulation",
+      "Navigation",
+      "State Estimation"
+    ],
+    "tags": [
+      "MPC",
+      "Manipulation",
+      "Navigation",
+      "MuJoCo",
+      "Humanoid",
+      "Walking",
+      "Sampling-Based",
+      "Simulation Benchmark",
+      "Locomotion",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree H1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
     "arxiv_id": "2608.20852",
     "title": "Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface",
     "paper_url": "https://arxiv.org/abs/2608.20852",
@@ -64,6 +235,36 @@
     "platform": null,
     "summary": "",
     "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2608.21659",
+    "title": "SketchFlow: Zero-Shot Vector Sketch Generation via GMM Prior Flow in CLIP Latent Space",
+    "paper_url": "https://arxiv.org/abs/2608.21659",
+    "project_url": "https://github.com/qiuhong-1202/sketchflow",
+    "authors": [
+      "Jin Zhou",
+      "Hongliang Yang",
+      "Pengfei Xu",
+      "Hui Huang"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-21",
+    "abstract": "Vector sketches remain one of the most concise and immediate mediums for abstract human expression. However, generating high-quality vector strokes that exhibit human-like drawing styles remains an open challenge due to the severe scarcity of fine-grained, high-quality text-to-sketch paired data. Existing text-conditioned generation methods often rely on unstable, time-consuming optimization or struggle to generalize to unseen categories in a zero-shot manner. To address these limitations, we present SketchFlow, a novel generative framework rooted in Optimal Transport (OT) theory and flow matching. By leveraging pre-trained CLIP models to bypass labor-intensive image-level text annotations, we formulate cross-modal alignment as a continuous mapping problem directly within the CLIP latent space. To bridge the inevitable modality gap between discrete text concepts and continuous sketch features, we first inject noise into discrete category embeddings to construct a continuous Gaussian Mixture Model (GMM) prior. We then utilize an Optimal Transport Conditional Flow Matching (OT-CFM) model to learn a deterministic vector field mapping from this continuous GMM prior to the target sketch feature distribution. Finally, a Hybrid Diffusion Decoder, fusing 1D U-Net and Transformer architectures, is designed to decode these features into fast and high-fidelity stroke trajectories. Extensive experiments demonstrate that SketchFlow substantially outperforms existing baselines in visual quality and adherence to natural human drawing styles. Furthermore, our geometry-preserving framework demonstrates promising local zero-shot synthesis for prompts beyond the QuickDraw training vocabulary, including unseen concept labels and semantic modifiers, while enabling smooth, continuous semantic interpolation between distinct concepts. Source code is available at: https://github.com/QiuHong-1202/SketchFlow.",
+    "categories": [
+      "Navigation"
+    ],
+    "tags": [
+      "Transformer",
+      "Zero-Shot",
+      "Diffusion",
+      "Flow Matching",
+      "Navigation"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Navigation"
   },
   {
     "arxiv_id": "2608.20114",

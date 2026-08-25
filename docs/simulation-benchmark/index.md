@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**78 papers** in this category.
+**79 papers** in this category.
 
 ## Months
 
-- [2026-08](/simulation-benchmark/2026-08) (8 papers)
+- [2026-08](/simulation-benchmark/2026-08) (9 papers)
 - [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
@@ -25,6 +25,28 @@
 ---
 
 ## Recent Papers
+
+## GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.21550)
+- **Authors:** Max Conway, William Xie, Allen Devaraj, Yutong Zhang, Niraj Pudasaini, Mateo Feit et al. (17 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - MPC
+  - Manipulation
+  - Navigation
+  - MuJoCo
+  - Humanoid
+  - Walking
+  - Sampling-Based
+  - Simulation Benchmark
+
+### Summary
+
+Disassembling end-of-life electric vehicle (EV) battery packs is dull and dangerous work, performed almost entirely by humans. We present GOLEM (Generalized Open Library of Embodied Modules), an end-to-end, open-source system architecture for EV battery disassembly with the Unitree H1-2 humanoid robot in which walking, manipulation, dynamic stability, navigation, and spatial memory are independent modules with abstract interfaces, so that methods are easily developed, interchanged, and compared.
+
+---
 
 ## Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface
 
@@ -393,26 +415,5 @@ Humanoid roller-skating is difficult because the robot must coordinate whole-bod
 ### Summary
 
 Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, they lack the inference speed required for interactive settings.
-
----
-
-## ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.06052)
-- **Authors:** Chenhao Yu, Hongwu Wang, Weitao Zhang, Youhao Hu, Jiachen Zhang, Gangyang Li et al. (8 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Whole-Body Control
-  - Human Demonstration
-  - Robustness
-  - Humanoid
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots are increasingly expected to perform contact-rich tasks that require not only accurate whole-body motion but also robust physical interaction with surrounding objects and humans. Although recent advances in humanoid motion imitation and whole-body control have achieved remarkable tracking performance, existing datasets and benchmarks primarily focus on kinematic motion while largely overlooking synchronized interaction forces.
 
 ---

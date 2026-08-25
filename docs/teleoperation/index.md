@@ -1,10 +1,10 @@
 # Teleoperation
 
-**39 papers** in this category.
+**40 papers** in this category.
 
 ## Months
 
-- [2026-08](/teleoperation/2026-08) (2 papers)
+- [2026-08](/teleoperation/2026-08) (3 papers)
 - [2026-07](/teleoperation/2026-07) (6 papers)
 - [2026-06](/teleoperation/2026-06) (9 papers)
 - [2026-05](/teleoperation/2026-05) (2 papers)
@@ -24,6 +24,22 @@
 ---
 
 ## Recent Papers
+
+## An Interpretable Deep Learning Framework for Material Perception and Classification from Multisensory Tactile Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.21894)
+- **Authors:** Li Zou, Dave Hogendoorn, Yasemin Vardar
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Deep Learning
+  - Teleoperation
+
+### Summary
+
+Human tactile perception relies on complex multisensory cues. Yet the relationship between tactile signals and perceptual representations remains poorly understood, limiting the integration of touch in digital environments and human-like robotic perception.
+
+---
 
 ## HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark
 
@@ -398,25 +414,5 @@ Recent advances in reinforcement learning (RL) have demonstrated impressive whol
 ### Summary
 
 Despite recent efforts to collect multi-task, multi-embodiment datasets, to design recipes for training Vision-Language-Action models (VLAs), and to showcase these models on different robot platforms, generalist cross-embodiment robot capabilities remains a largely elusive ideal. Progress is limited by fragmented infrastructure: most robot code is highly specific to the exact setup the user decided on, which adds major overhead when attempting to reuse, recycle, or share artifacts between users.
-
----
-
-## Safe Human-to-Humanoid Motion Imitation Using Control Barrier Functions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.11447)
-- **Authors:** Wenqi Cai, John Abanes, Nikolaos Evangeliou, Anthony Tzes
-- **Published:** 2026-04
-- **Tags:**
-  - Motion Retargeting
-  - Safety
-  - Humanoid
-  - Collision
-  - Teleoperation
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-This paper presents a vision-based framework that enables a humanoid robot to imitate human movements while avoiding collisions. Human skeletal keypoints are captured by a single camera and converted into joint angles for motion retargeting.
 
 ---

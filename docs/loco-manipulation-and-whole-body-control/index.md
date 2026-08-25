@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**253 papers** in this category.
+**254 papers** in this category.
 
 ## Months
 
-- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (16 papers)
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (17 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
@@ -37,6 +37,28 @@
 ---
 
 ## Recent Papers
+
+## 🌟 DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.22278)
+- **Project:** [GitHub](https://github.com/DreamMimic/DreamMimic)
+- **Authors:** Jie Yin, Xingyu Lai
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - World Model
+  - Simulator
+  - Humanoid
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Navigation
+
+### Summary
+
+Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation.
+
+---
 
 ## DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation
 
@@ -414,21 +436,5 @@ We present PAC-MAN, a perception-aware CBF-RL framework that couples control-bar
 ### Summary
 
 LLMs are widely regarded as alien intelligences, systems whose cognitive operations are fundamentally unlike our own. Apparent similarities to human cognition are therefore often seen as the result of anthropomorphic projection.
-
----
-
-## Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.23854)
-- **Authors:** Haijiang Yan, Jian-Qiao Zhu, Liqiang Huang, Ming Meng
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Fine-tuning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humans often find good solutions to combinatorial optimization problems that are computationally hard even for advanced computer algorithms. In the Euclidean traveling salesman problems (TSP), people rapidly produce tours that are near-optimal, despite severe limits on time and computation.
 
 ---

@@ -2,6 +2,100 @@
 
 All papers sorted by publication date (newest first).
 
+## Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.23304)
+- **Authors:** Akihiro Miki, Shun Hasegawa, Yoshimoto Ribayashi, Kento Kawaharazuka, Kei Okada
+- **Published:** 2026-08
+- **Real Robot:** ✅
+- **Tags:**
+  - State Estimation
+  - Humanoid
+  - Proprioception
+  - PPO
+
+### Summary
+
+Proprioception in musculoskeletal humanoids is typically estimated primarily from muscle sensing, while the role of cutaneous deformation around joints remains insufficiently explored. In biological systems, mechanoreceptors distributed within soft tissue complement muscle feedback and support reliable joint state estimation.
+
+---
+
+## LLM-Based Selection of Incongruent Verbal and Nonverbal Behavior for Virtual Humans
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.22731)
+- **Authors:** Parisa Ghanad Torshizi, Stacy Marsella
+- **Published:** 2026-08
+- **Tags:**
+  - Large Language Model
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Nonverbal behavior generation systems for virtual agents often take an utterance as input and generate nonverbal behaviors that emphasize or illustrate the content of the verbal channel. However, human nonverbal behavior is shaped by more than the content of the speech.
+
+---
+
+## 🌟 DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.22278)
+- **Project:** [GitHub](https://github.com/DreamMimic/DreamMimic)
+- **Authors:** Jie Yin, Xingyu Lai
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - World Model
+  - Simulator
+  - Humanoid
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Navigation
+
+### Summary
+
+Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation.
+
+---
+
+## An Interpretable Deep Learning Framework for Material Perception and Classification from Multisensory Tactile Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.21894)
+- **Authors:** Li Zou, Dave Hogendoorn, Yasemin Vardar
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Deep Learning
+  - Teleoperation
+
+### Summary
+
+Human tactile perception relies on complex multisensory cues. Yet the relationship between tactile signals and perceptual representations remains poorly understood, limiting the integration of touch in digital environments and human-like robotic perception.
+
+---
+
+## GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.21550)
+- **Authors:** Max Conway, William Xie, Allen Devaraj, Yutong Zhang, Niraj Pudasaini, Mateo Feit et al. (17 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - MPC
+  - Manipulation
+  - Navigation
+  - MuJoCo
+  - Humanoid
+  - Walking
+  - Sampling-Based
+  - Simulation Benchmark
+
+### Summary
+
+Disassembling end-of-life electric vehicle (EV) battery packs is dull and dangerous work, performed almost entirely by humans. We present GOLEM (Generalized Open Library of Embodied Modules), an end-to-end, open-source system architecture for EV battery disassembly with the Unitree H1-2 humanoid robot in which walking, manipulation, dynamic stability, navigation, and spatial memory are independent modules with abstract interfaces, so that methods are easily developed, interchanged, and compared.
+
+---
+
 ## Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.20852)
@@ -42,6 +136,25 @@ This paper presents a reference-guided reinforcement learning framework to gener
 ### Summary
 
 A humanoid has infinitely many ways to stand up from sitting while maintaining balance, making sit-to-stand (STS) a challenging control problem. We synthesise natural humanoid STS motion from scratch using reinforcement learning, without demonstrations or reference trajectories.
+
+---
+
+## 🌟 SketchFlow: Zero-Shot Vector Sketch Generation via GMM Prior Flow in CLIP Latent Space
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.21659)
+- **Project:** [GitHub](https://github.com/qiuhong-1202/sketchflow)
+- **Authors:** Jin Zhou, Hongliang Yang, Pengfei Xu, Hui Huang
+- **Published:** 2026-08
+- **Tags:**
+  - Transformer
+  - Zero-Shot
+  - Diffusion
+  - Flow Matching
+  - Navigation
+
+### Summary
+
+Vector sketches remain one of the most concise and immediate mediums for abstract human expression. However, generating high-quality vector strokes that exhibit human-like drawing styles remains an open challenge due to the severe scarcity of fine-grained, high-quality text-to-sketch paired data.
 
 ---
 

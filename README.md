@@ -2,23 +2,23 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 825
-- **Real Robot Papers:** 171
-- **Open Source Papers:** 139
+- **Total Papers:** 831
+- **Real Robot Papers:** 174
+- **Open Source Papers:** 141
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (253)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (254)
 - [Manipulation](#manipulation) (102)
-- [Teleoperation](#teleoperation) (39)
+- [Teleoperation](#teleoperation) (40)
 - [Locomotion](#locomotion) (160)
-- [Navigation](#navigation) (32)
-- [State Estimation](#state-estimation) (45)
+- [Navigation](#navigation) (33)
+- [State Estimation](#state-estimation) (47)
 - [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
-- [Simulation Benchmark](#simulation-benchmark) (78)
+- [Simulation Benchmark](#simulation-benchmark) (79)
 - [Physics-Based Character Animation](#physics-based-character-animation) (44)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (27)
 - [Usage](#usage)
@@ -29,6 +29,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- 🌟 [DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model](https://arxiv.org/abs/2608.22278), [website](https://github.com/DreamMimic/DreamMimic) — `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Distillation`, `Loco-Manipulation and Whole-Body Control`
 - [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](https://arxiv.org/abs/2608.20114) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Robustness`, `Dataset`, `PPO`
 - [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) — `Whole-Body Control`, `Transformer`, `World Model`, `Humanoid`, `Fine-tuning`, `Robust Control`
 - [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Safety`, `Humanoid`, `Vision-Language`
@@ -550,6 +551,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [An Interpretable Deep Learning Framework for Material Perception and Classification from Multisensory Tactile Data](https://arxiv.org/abs/2608.21894) — `Deep Learning`, `Teleoperation`, `Real Robot`
 - [HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark](https://arxiv.org/abs/2608.13555) — `Teleoperation`, `Humanoid`, `Benchmark`, `PPO`, `GAN`, `Loco-Manipulation and Whole-Body Control`
 - [Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation](https://arxiv.org/abs/2608.06221) — `Teleoperation`, `Human Demonstration`, `Benchmark`, `Dataset`, `Simulation Benchmark`, `Real Robot`
 
@@ -891,6 +893,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- 🌟 [SketchFlow: Zero-Shot Vector Sketch Generation via GMM Prior Flow in CLIP Latent Space](https://arxiv.org/abs/2608.21659), [website](https://github.com/qiuhong-1202/sketchflow) — `Transformer`, `Zero-Shot`, `Diffusion`, `Flow Matching`, `Navigation`, `Open Source`
 - [PFM-HR: Pose Flow Matching for Humanoid Robots](https://arxiv.org/abs/2608.03227) — `Reinforcement Learning`, `Humanoid`, `Flow Matching`, `Navigation`, `Physics-Based Character Animation`
 
 ### 2026-07
@@ -973,6 +976,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid](https://arxiv.org/abs/2608.23304) — `State Estimation`, `Humanoid`, `Proprioception`, `PPO`, `Real Robot`
+- [LLM-Based Selection of Incongruent Verbal and Nonverbal Behavior for Virtual Humans](https://arxiv.org/abs/2608.22731) — `Large Language Model`, `State Estimation`, `Simulation Benchmark`
 - [Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking](https://arxiv.org/abs/2608.20087) — `Sim-to-Real`, `Robustness`, `Real Robot`, `Humanoid`, `Motion Planning`, `State Estimation`
 - [Tac4Loco: Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion](https://arxiv.org/abs/2608.15766) — `Locomotion`, `Zero-Shot`, `Humanoid`, `Proprioception`, `Policy Learning`, `Actor-Critic`
 - [When Is a Steerable Concept Representation Real? Measurement Confounds in a Cross-Family Audit of Neuroscience Parallels in LLMs](https://arxiv.org/abs/2608.08159) — `Large Language Model`, `State Estimation`
@@ -1180,6 +1185,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly](https://arxiv.org/abs/2608.21550) — `MPC`, `Manipulation`, `Navigation`, `MuJoCo`, `Humanoid`, `Walking`
 - [Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface](https://arxiv.org/abs/2608.20852) — `Reinforcement Learning`, `Human Demonstration`, `MuJoCo`, `Humanoid`, `Position Control`, `PPO`
 - [HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction](https://arxiv.org/abs/2608.17584) — `Humanoid`, `Benchmark`, `Simulation Benchmark`, `State Estimation`, `Real Robot`
 - [HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction](https://arxiv.org/abs/2608.16222) — `Humanoid`, `Benchmark`, `Dataset`, `Policy Learning`, `GAN`, `Simulation Benchmark`

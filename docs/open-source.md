@@ -2,6 +2,47 @@
 
 Papers with open-source code repositories.
 
+## 🌟 DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.22278)
+- **Project:** [GitHub](https://github.com/DreamMimic/DreamMimic)
+- **Authors:** Jie Yin, Xingyu Lai
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - World Model
+  - Simulator
+  - Humanoid
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Navigation
+
+### Summary
+
+Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation.
+
+---
+
+## 🌟 SketchFlow: Zero-Shot Vector Sketch Generation via GMM Prior Flow in CLIP Latent Space
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.21659)
+- **Project:** [GitHub](https://github.com/qiuhong-1202/sketchflow)
+- **Authors:** Jin Zhou, Hongliang Yang, Pengfei Xu, Hui Huang
+- **Published:** 2026-08
+- **Tags:**
+  - Transformer
+  - Zero-Shot
+  - Diffusion
+  - Flow Matching
+  - Navigation
+
+### Summary
+
+Vector sketches remain one of the most concise and immediate mediums for abstract human expression. However, generating high-quality vector strokes that exhibit human-like drawing styles remains an open challenge due to the severe scarcity of fine-grained, high-quality text-to-sketch paired data.
+
+---
+
 ## 🌟 P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.25541)
