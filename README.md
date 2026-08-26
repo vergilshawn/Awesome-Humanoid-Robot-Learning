@@ -2,20 +2,20 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 831
-- **Real Robot Papers:** 174
+- **Total Papers:** 833
+- **Real Robot Papers:** 176
 - **Open Source Papers:** 141
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (254)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (255)
 - [Manipulation](#manipulation) (102)
 - [Teleoperation](#teleoperation) (40)
 - [Locomotion](#locomotion) (160)
 - [Navigation](#navigation) (33)
-- [State Estimation](#state-estimation) (47)
+- [State Estimation](#state-estimation) (48)
 - [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
 - [Simulation Benchmark](#simulation-benchmark) (79)
@@ -29,6 +29,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Method, Mind, and Morality: How People Make Sense of Artificial Intelligence](https://arxiv.org/abs/2608.24748) — `Impact`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - 🌟 [DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model](https://arxiv.org/abs/2608.22278), [website](https://github.com/DreamMimic/DreamMimic) — `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Distillation`, `Loco-Manipulation and Whole-Body Control`
 - [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](https://arxiv.org/abs/2608.20114) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Robustness`, `Dataset`, `PPO`
 - [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) — `Whole-Body Control`, `Transformer`, `World Model`, `Humanoid`, `Fine-tuning`, `Robust Control`
@@ -976,6 +977,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Dynamical System-Based Imitation Learning and Neuroadaptive Control for Trajectory Recovery in Autonomous Ships](https://arxiv.org/abs/2608.23924) — `Imitation Learning`, `Human Demonstration`, `Simulator`, `Adaptive Control`, `State Estimation`, `Simulation Benchmark`
 - [Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid](https://arxiv.org/abs/2608.23304) — `State Estimation`, `Humanoid`, `Proprioception`, `PPO`, `Real Robot`
 - [LLM-Based Selection of Incongruent Verbal and Nonverbal Behavior for Virtual Humans](https://arxiv.org/abs/2608.22731) — `Large Language Model`, `State Estimation`, `Simulation Benchmark`
 - [Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking](https://arxiv.org/abs/2608.20087) — `Sim-to-Real`, `Robustness`, `Real Robot`, `Humanoid`, `Motion Planning`, `State Estimation`

@@ -1,5 +1,61 @@
 [
   {
+    "arxiv_id": "2608.23924",
+    "title": "Dynamical System-Based Imitation Learning and Neuroadaptive Control for Trajectory Recovery in Autonomous Ships",
+    "paper_url": "https://arxiv.org/abs/2608.23924",
+    "project_url": null,
+    "authors": [
+      "Yeyson A. Becerra-Mora",
+      "José Ángel Acosta"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-25",
+    "abstract": "Repetitive maritime operations can be effectively learned using the Imitation Learning (IL) paradigm, which transfers human expertise directly to Unmanned Surface Vehicle (USV) control systems. Dynamical Systems (DS) are widely used to model non-linear human demonstrations while offering inherent stability guarantees. However, real-world execution under persistent marine perturbations reveals a critical trade-off: standard DS-based IL approaches prioritize global target convergence at the expense of localized trajectory reproduction fidelity. To address this limitation, we present a hybrid learning-control architecture that integrates a DS-based IL reference generator with a neuroadaptive controller. Our approach introduces a control action that drives the USV back to the demonstrated path following exogenous disturbances, enabling dynamic human-like reactive alignment-termed behavioral tracking. The proposed methodology is validated using the Marine Systems Simulator (MSS) toolbox. Simulation results confirm that the framework generalizes complex maneuvering tasks while substantially improving trajectory tracking fidelity under disturbances compared to alternative control strategies.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Imitation Learning",
+      "Human Demonstration",
+      "Simulator",
+      "Adaptive Control",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2608.24748",
+    "title": "Method, Mind, and Morality: How People Make Sense of Artificial Intelligence",
+    "paper_url": "https://arxiv.org/abs/2608.24748",
+    "project_url": null,
+    "authors": [
+      "Jacy Reese Anthis",
+      "Erik Brynjolfsson",
+      "James Evans"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-25",
+    "abstract": "How can humans make sense of the rapid takeoff of artificial intelligence (AI)? We studied the sensemaking dynamics of AI through an open-ended, mixed-methods study with computational text analysis of millions of AI-related newspaper articles and social media posts grounded in 57 semi-structured interviews with AI professionals in 2021 and 2023--before and after the recent surge of public interest. We identify a range of sociological frames (interpretive schemas that structure collective cognition) and show how AI professionals use frames to address significant cognitive challenges, such as assigning responsibility for societal impacts. We develop a framework of three primary debates across which frames are adopted and contested: (i) the $\\textit{method}$ of AI development, between frames of top-down expert systems and bottom-up emergent capabilities, (ii) the $\\textit{mind}$ of an AI system, ranging from a passive tool to a humanlike \"digital mind,\" and (iii) the $\\textit{morality}$ of how AI is used, particularly the decision of whether to slow down or speed up AI development. As humanity enters the era of transformative AI, technologists and policymakers must account for the framing dynamics that will circumscribe our beliefs, values, and actions.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Impact",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2608.23304",
     "title": "Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid",
     "paper_url": "https://arxiv.org/abs/2608.23304",

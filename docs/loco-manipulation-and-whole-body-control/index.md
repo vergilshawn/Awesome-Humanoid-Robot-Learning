@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**254 papers** in this category.
+**255 papers** in this category.
 
 ## Months
 
-- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (17 papers)
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (18 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
@@ -37,6 +37,22 @@
 ---
 
 ## Recent Papers
+
+## Method, Mind, and Morality: How People Make Sense of Artificial Intelligence
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.24748)
+- **Authors:** Jacy Reese Anthis, Erik Brynjolfsson, James Evans
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Impact
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+How can humans make sense of the rapid takeoff of artificial intelligence (AI)? We studied the sensemaking dynamics of AI through an open-ended, mixed-methods study with computational text analysis of millions of AI-related newspaper articles and social media posts grounded in 57 semi-structured interviews with AI professionals in 2021 and 2023--before and after the recent surge of public interest. We identify a range of sociological frames (interpretive schemas that structure collective cognition) and show how AI professionals use frames to address significant cognitive challenges, such as assigning responsibility for societal impacts.
+
+---
 
 ## 🌟 DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model
 
@@ -418,23 +434,5 @@ The demand for humanoid loco-manipulation tasks with an object has recently incr
 ### Summary
 
 We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance represents clearance to every body link, and an adversarial motion prior regularizes the resulting evasive reflexes.
-
----
-
-## Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.26179)
-- **Authors:** Chandra Sripada, Richard Lewis
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Large Language Model
-  - PPO
-  - GAN
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-LLMs are widely regarded as alien intelligences, systems whose cognitive operations are fundamentally unlike our own. Apparent similarities to human cognition are therefore often seen as the result of anthropomorphic projection.
 
 ---

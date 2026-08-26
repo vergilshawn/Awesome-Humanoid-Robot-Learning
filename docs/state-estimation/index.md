@@ -1,10 +1,10 @@
 # State Estimation
 
-**47 papers** in this category.
+**48 papers** in this category.
 
 ## Months
 
-- [2026-08](/state-estimation/2026-08) (6 papers)
+- [2026-08](/state-estimation/2026-08) (7 papers)
 - [2026-07](/state-estimation/2026-07) (12 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
@@ -18,6 +18,26 @@
 ---
 
 ## Recent Papers
+
+## Dynamical System-Based Imitation Learning and Neuroadaptive Control for Trajectory Recovery in Autonomous Ships
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.23924)
+- **Authors:** Yeyson A. Becerra-Mora, José Ángel Acosta
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Imitation Learning
+  - Human Demonstration
+  - Simulator
+  - Adaptive Control
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Repetitive maritime operations can be effectively learned using the Imitation Learning (IL) paradigm, which transfers human expertise directly to Unmanned Surface Vehicle (USV) control systems. Dynamical Systems (DS) are widely used to model non-linear human demonstrations while offering inherent stability guarantees.
+
+---
 
 ## Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid
 
@@ -360,21 +380,5 @@ The uncanny valley is a long-standing empirical rule in humanoid robot design: m
 ### Summary
 
 Large Language Models (LLMs) have demonstrated the ability to simulate human-like OCEAN personality traits in generated text. Previous efforts have focused on prompt engineering or fine-tuning to shape LLM personality.
-
----
-
-## When May I Help You? On The Effect of Proactivity on Group Human-Robot Collaboration
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.28469)
-- **Authors:** Thomas Vitry, Vanessa Maeder, Kieran Edgeworth, Asihati Hazaiti, Doga Deniz Ates, Connor Gäde et al. (9 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - PPO
-  - State Estimation
-
-### Summary
-
-Robot initiative is a central challenge in multi-party human-robot collaboration. A robot that contributes without being addressed may provide timely support, but it may also disrupt coordination, divide attention, or interrupt turn-taking; a robot that waits to be addressed may preserve human control, but it may also miss opportunities to assist.
 
 ---
