@@ -6,7 +6,7 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 2 papers
 - **Booster:** 4 papers
-- **Digit:** 12 papers
+- **Digit:** 11 papers
 - **Figure:** 62 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
@@ -38,22 +38,6 @@ Papers with real humanoid robot deployment and experiments.
 ### Summary
 
 Repetitive maritime operations can be effectively learned using the Imitation Learning (IL) paradigm, which transfers human expertise directly to Unmanned Surface Vehicle (USV) control systems. Dynamical Systems (DS) are widely used to model non-linear human demonstrations while offering inherent stability guarantees.
-
----
-
-## Method, Mind, and Morality: How People Make Sense of Artificial Intelligence
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.24748)
-- **Authors:** Jacy Reese Anthis, Erik Brynjolfsson, James Evans
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - Impact
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-How can humans make sense of the rapid takeoff of artificial intelligence (AI)? We studied the sensemaking dynamics of AI through an open-ended, mixed-methods study with computational text analysis of millions of AI-related newspaper articles and social media posts grounded in 57 semi-structured interviews with AI professionals in 2021 and 2023--before and after the recent surge of public interest. We identify a range of sociological frames (interpretive schemas that structure collective cognition) and show how AI professionals use frames to address significant cognitive challenges, such as assigning responsibility for societal impacts.
 
 ---
 

@@ -1,10 +1,10 @@
 # Navigation
 
-**33 papers** in this category.
+**34 papers** in this category.
 
 ## Months
 
-- [2026-08](/navigation/2026-08) (2 papers)
+- [2026-08](/navigation/2026-08) (3 papers)
 - [2026-07](/navigation/2026-07) (7 papers)
 - [2026-06](/navigation/2026-06) (6 papers)
 - [2026-05](/navigation/2026-05) (1 papers)
@@ -24,6 +24,26 @@
 ---
 
 ## Recent Papers
+
+## EgoNav: Bridging Learned Waypoints and Geometry-Aware Local Control for Robust Indoor Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.25642)
+- **Authors:** Jing Wang, Shiqi Zhao, Hairong Qu, Peng Yin
+- **Published:** 2026-08
+- **Tags:**
+  - Navigation
+  - Safety
+  - Humanoid
+  - Pose Estimation
+  - Collision
+  - State Estimation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Image-goal navigation using lightweight topological maps is a practical paradigm for indoor robot deployment: the map requires only geotagged images, and localization relies on visual matching rather than precise pose estimation. However, learned waypoint predictors can produce targets that violate geometric constraints or deviate from the global path.
+
+---
 
 ## 🌟 SketchFlow: Zero-Shot Vector Sketch Generation via GMM Prior Flow in CLIP Latent Space
 
@@ -369,20 +389,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Navigation
   - Biped
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Thinking in 360: Humanoid Visual Search in the Wild
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.20351)
-- **Published:** 2025-11
-- **Tags:**
-  - Humanoid
-  - Navigation
 
 ### Summary
 

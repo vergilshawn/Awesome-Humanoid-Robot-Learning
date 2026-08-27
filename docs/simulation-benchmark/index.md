@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**79 papers** in this category.
+**80 papers** in this category.
 
 ## Months
 
-- [2026-08](/simulation-benchmark/2026-08) (9 papers)
+- [2026-08](/simulation-benchmark/2026-08) (10 papers)
 - [2026-07](/simulation-benchmark/2026-07) (15 papers)
 - [2026-06](/simulation-benchmark/2026-06) (18 papers)
 - [2026-05](/simulation-benchmark/2026-05) (15 papers)
@@ -25,6 +25,27 @@
 ---
 
 ## Recent Papers
+
+## One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.26058)
+- **Authors:**  Xiaomi Embodied Intelligence Team, University of Macau,  :, Shaoqing Xu, Fang Li, Guozhi Zhan et al. (24 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Vision-Language
+  - Pre-training
+  - Fine-tuning
+  - Benchmark
+
+### Summary
+
+Scaling generalist vision-language-action (VLA) policies is severely bottlenecked by the inherent heterogeneity of embodied data, which spans diverse robot morphologies, camera configurations, and low-level action spaces. Existing paradigms typically address this mismatch through explicit action retargeting, human-to-robot video synthesis, or dataset-specific adaptation branches, fundamentally hindering the joint learning of a unified policy.
+
+---
 
 ## GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly
 
@@ -394,26 +415,5 @@ We present RegHead, a framework for constructing semantic blendshape sets for an
 ### Summary
 
 Humanoid roller-skating is difficult because the robot must coordinate whole-body balance, rolling contacts, and velocity-dependent posture regulation. This paper presents an adversarial motion prior based reinforcement learning framework for two humanoid roller-skating gaits: Pump Glide skating and Push Glide skating.
-
----
-
-## ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.08741)
-- **Authors:** Kaifeng Zhao, Mathis Petrovich, Haotian Zhang, Tingwu Wang, Siyu Tang, Davis Rempe
-- **Published:** 2026-07
-- **Tags:**
-  - Locomotion
-  - Transformer
-  - Humanoid
-  - Benchmark
-  - Dataset
-  - PPO
-  - SAC
-  - Diffusion
-
-### Summary
-
-Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, they lack the inference speed required for interactive settings.
 
 ---

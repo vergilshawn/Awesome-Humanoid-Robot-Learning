@@ -2,6 +2,84 @@
 
 All papers sorted by publication date (newest first).
 
+## One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.26058)
+- **Authors:**  Xiaomi Embodied Intelligence Team, University of Macau,  :, Shaoqing Xu, Fang Li, Guozhi Zhan et al. (24 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Vision-Language
+  - Pre-training
+  - Fine-tuning
+  - Benchmark
+
+### Summary
+
+Scaling generalist vision-language-action (VLA) policies is severely bottlenecked by the inherent heterogeneity of embodied data, which spans diverse robot morphologies, camera configurations, and low-level action spaces. Existing paradigms typically address this mismatch through explicit action retargeting, human-to-robot video synthesis, or dataset-specific adaptation branches, fundamentally hindering the joint learning of a unified policy.
+
+---
+
+## EgoNav: Bridging Learned Waypoints and Geometry-Aware Local Control for Robust Indoor Navigation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.25642)
+- **Authors:** Jing Wang, Shiqi Zhao, Hairong Qu, Peng Yin
+- **Published:** 2026-08
+- **Tags:**
+  - Navigation
+  - Safety
+  - Humanoid
+  - Pose Estimation
+  - Collision
+  - State Estimation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Image-goal navigation using lightweight topological maps is a practical paradigm for indoor robot deployment: the map requires only geotagged images, and localization relies on visual matching rather than precise pose estimation. However, learned waypoint predictors can produce targets that violate geometric constraints or deviate from the global path.
+
+---
+
+## LAC: Linear and Angular Compliance for Humanoid Whole-body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.25405)
+- **Authors:** Yang Liu, Zhongkai Gu, Wei Zhu, Mitsuhiro Hayashibe
+- **Published:** 2026-08
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+  - Teleoperation
+
+### Summary
+
+Real-world humanoid tasks involve physical interaction with objects and humans, yet current controllers either reject external forces as disturbances or restrict compliance to limited body links while ignoring angular effects. We present LAC, a general whole-body controller that simultaneously realizes commanded Linear and Angular Compliance for wrenches applied to the upper body.
+
+---
+
+## V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.25308)
+- **Authors:** Yehao Lu, Jiarui Yang, Yuning Su, Yufeng Xie, Yu Zhong, Yazhou Zhang et al. (13 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+
+### Summary
+
+Vision-language-action (VLA) models provide a scalable path toward generalist robotic manipulation by integrating visual perception, language understanding, and continuous action control. However, we reveal a critical limitation of VLA architectures: the action expert has limited access to the 3D geometric and 2D semantic information available in VLM features.
+
+---
+
 ## Dynamical System-Based Imitation Learning and Neuroadaptive Control for Trajectory Recovery in Autonomous Ships
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.23924)
@@ -19,22 +97,6 @@ All papers sorted by publication date (newest first).
 ### Summary
 
 Repetitive maritime operations can be effectively learned using the Imitation Learning (IL) paradigm, which transfers human expertise directly to Unmanned Surface Vehicle (USV) control systems. Dynamical Systems (DS) are widely used to model non-linear human demonstrations while offering inherent stability guarantees.
-
----
-
-## Method, Mind, and Morality: How People Make Sense of Artificial Intelligence
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.24748)
-- **Authors:** Jacy Reese Anthis, Erik Brynjolfsson, James Evans
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - Impact
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-How can humans make sense of the rapid takeoff of artificial intelligence (AI)? We studied the sensemaking dynamics of AI through an open-ended, mixed-methods study with computational text analysis of millions of AI-related newspaper articles and social media posts grounded in 57 semi-structured interviews with AI professionals in 2021 and 2023--before and after the recent surge of public interest. We identify a range of sociological frames (interpretive schemas that structure collective cognition) and show how AI professionals use frames to address significant cognitive challenges, such as assigning responsibility for societal impacts.
 
 ---
 

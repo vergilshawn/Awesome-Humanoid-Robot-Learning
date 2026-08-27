@@ -1,10 +1,10 @@
 # Manipulation
 
-**102 papers** in this category.
+**103 papers** in this category.
 
 ## Months
 
-- [2026-08](/manipulation/2026-08) (7 papers)
+- [2026-08](/manipulation/2026-08) (8 papers)
 - [2026-07](/manipulation/2026-07) (18 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
@@ -33,6 +33,22 @@
 ---
 
 ## Recent Papers
+
+## V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.25308)
+- **Authors:** Yehao Lu, Jiarui Yang, Yuning Su, Yufeng Xie, Yu Zhong, Yazhou Zhang et al. (13 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+
+### Summary
+
+Vision-language-action (VLA) models provide a scalable path toward generalist robotic manipulation by integrating visual perception, language understanding, and continuous action control. However, we reveal a critical limitation of VLA architectures: the action expert has limited access to the 3D geometric and 2D semantic information available in VLM features.
+
+---
 
 ## Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion
 
@@ -388,23 +404,5 @@ Dexterous manipulation is limited not only by algorithms but by a shortage of ac
 ### Summary
 
 Tactile feedback is fundamental to Hand-Object Interaction (HOI), governing contact formation, force regulation, and stable manipulation, making it essential for achieving true human-like dexterous manipulation. Yet, current human-to-robot dexterous transfer pipelines primarily rely on kinematic trajectories, resulting in motion imitation without physically grounded interaction.
-
----
-
-## AgenticFocus: Object-Preserving Mixed Reality Synthesis from Human FPV Video for Dexterous Humanoid Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.08857)
-- **Authors:** Iaroslav Kolomiets, Miguel Altamirano Cabrera, Artem Lykov, Jeffrin Sam, Dmitrii Iarchuk, Yara Mahmoud et al. (9 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Humanoid
-  - Dataset
-  - Policy Learning
-  - Manipulation
-  - Simulation Benchmark
-
-### Summary
-
-Human egocentric video is a scalable supervision source for humanoid policy learning, but current pipelines struggle with hand-object occlusion, oversimplified motion, or specialized capture hardware. We introduce AgenticFocus, a Mixed Reality synthesis pipeline that converts ordinary first-person-view human videos into robot-trainable demonstrations by restoring occluded object geometry, reconstructing full-hand motion, and retargeting it to a humanoid embodiment through camera-relative alignment and layered compositing.
 
 ---
