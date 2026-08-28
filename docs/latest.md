@@ -2,6 +2,65 @@
 
 All papers sorted by publication date (newest first).
 
+## CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.27406)
+- **Authors:** Kechen Liu, Ola Shorinwa
+- **Published:** 2026-08
+- **Tags:**
+  - World Model
+  - Few-Shot
+  - Zero-Shot
+  - Simulator
+  - Humanoid
+  - Manipulation
+  - State Estimation
+
+### Summary
+
+State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cross-embodiment action-conditioned video generation capable of being trained on diverse, internet-scale videos across human and robotic agents.
+
+---
+
+## SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.26583)
+- **Authors:** Pihai Sun, Gang Han, Jingkai Sun, Jiahao Ma, Zeran Su, Zelin Tao et al. (20 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Fourier
+- **Tags:**
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - Distillation
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humans traverse complex terrain over long distances without losing balance, whereas perceptive humanoid policies become fragile as perception and control errors accumulate. We present SOLO, a unified framework addressing two compounding causes of this long-horizon fragility: dense terrain reconstruction smooths action-critical details, and pointwise imitation lacks temporal credit assignment.
+
+---
+
+## Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.26505)
+- **Authors:** Xulin Chen, Borui He, Ruipeng Liu, Naveed Tahir, Zhenyu Gan, Garrett E. Katz
+- **Published:** 2026-08
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Walking
+
+### Summary
+
+The Poppy Humanoid is an open-source, low-cost robot suitable for research and education in artificial intelligence. However, we are unaware of any published methodology that achieves reliable, unassisted bipedal locomotion on the standard Poppy hardware.
+
+---
+
 ## One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.26058)

@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 836
-- **Real Robot Papers:** 175
+- **Total Papers:** 839
+- **Real Robot Papers:** 176
 - **Open Source Papers:** 141
 
 🌟 indicates papers with detected project/code links.
@@ -11,11 +11,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 ## Contents
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (255)
-- [Manipulation](#manipulation) (103)
+- [Manipulation](#manipulation) (104)
 - [Teleoperation](#teleoperation) (40)
-- [Locomotion](#locomotion) (160)
+- [Locomotion](#locomotion) (161)
 - [Navigation](#navigation) (34)
-- [State Estimation](#state-estimation) (48)
+- [State Estimation](#state-estimation) (49)
 - [Sim-to-Real](#sim-to-real) (14)
 - [Hardware Design](#hardware-design) (31)
 - [Simulation Benchmark](#simulation-benchmark) (80)
@@ -373,6 +373,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators](https://arxiv.org/abs/2608.27406) — `World Model`, `Few-Shot`, `Zero-Shot`, `Simulator`, `Humanoid`, `Manipulation`
 - [V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models](https://arxiv.org/abs/2608.25308) — `Manipulation`, `Humanoid`, `Vision-Language`
 - [Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion](https://arxiv.org/abs/2608.20433) — `Manipulation`, `Humanoid`, `State Estimation`
 - [Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control](https://arxiv.org/abs/2608.19443) — `MPC`, `Locomotion`, `Manipulation`, `Humanoid`, `Sampling-Based`, `Loco-Manipulation and Whole-Body Control`
@@ -643,6 +644,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions](https://arxiv.org/abs/2608.26505) — `Locomotion`, `Biped`, `Humanoid`, `Walking`
 - [MILD: Tractable Terrain Modeling for Learning Improved Bipedal Locomotion on Deformable Surfaces](https://arxiv.org/abs/2608.19955) — `Reinforcement Learning`, `Locomotion`, `Simulator`, `Biped`, `State Estimation`, `Navigation`
 - [EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control](https://arxiv.org/abs/2608.17453) — `Humanoid`, `Vision-Language`, `Locomotion`, `Real Robot`
 - [Lambda-Hold Control: Human-Like Movement Emerges from a Minimal Task Reward in Predictive Musculoskeletal Simulation](https://arxiv.org/abs/2608.17030) — `Reinforcement Learning`, `Gait`, `PPO`, `Locomotion`, `Navigation`, `State Estimation`
@@ -979,6 +981,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
+- [SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion](https://arxiv.org/abs/2608.26583) — `Locomotion`, `Zero-Shot`, `Humanoid`, `Proprioception`, `Distillation`, `PPO`
 - [Dynamical System-Based Imitation Learning and Neuroadaptive Control for Trajectory Recovery in Autonomous Ships](https://arxiv.org/abs/2608.23924) — `Imitation Learning`, `Human Demonstration`, `Simulator`, `Adaptive Control`, `State Estimation`, `Simulation Benchmark`
 - [Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid](https://arxiv.org/abs/2608.23304) — `State Estimation`, `Humanoid`, `Proprioception`, `PPO`, `Real Robot`
 - [LLM-Based Selection of Incongruent Verbal and Nonverbal Behavior for Virtual Humans](https://arxiv.org/abs/2608.22731) — `Large Language Model`, `State Estimation`, `Simulation Benchmark`

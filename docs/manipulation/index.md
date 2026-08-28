@@ -1,10 +1,10 @@
 # Manipulation
 
-**103 papers** in this category.
+**104 papers** in this category.
 
 ## Months
 
-- [2026-08](/manipulation/2026-08) (8 papers)
+- [2026-08](/manipulation/2026-08) (9 papers)
 - [2026-07](/manipulation/2026-07) (18 papers)
 - [2026-06](/manipulation/2026-06) (22 papers)
 - [2026-05](/manipulation/2026-05) (5 papers)
@@ -33,6 +33,26 @@
 ---
 
 ## Recent Papers
+
+## CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.27406)
+- **Authors:** Kechen Liu, Ola Shorinwa
+- **Published:** 2026-08
+- **Tags:**
+  - World Model
+  - Few-Shot
+  - Zero-Shot
+  - Simulator
+  - Humanoid
+  - Manipulation
+  - State Estimation
+
+### Summary
+
+State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cross-embodiment action-conditioned video generation capable of being trained on diverse, internet-scale videos across human and robotic agents.
+
+---
 
 ## V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models
 
@@ -384,25 +404,5 @@ Similar to the natural capabilities of humans to sequentially learn new tasks, r
 ### Summary
 
 Dexterous manipulation is limited not only by algorithms but by a shortage of accessible hand hardware that combines human-scale morphology, ease of manufacturing or maintenance, tactile sensing, and practical cost. Existing dexterous hands tend to optimize some of these properties at the expense of others.
-
----
-
-## TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.09190)
-- **Authors:** Suting Ni, Hanbing Zhang, Zhenyu Wei, Guo Chen, Chixuan Zhang, Ye Shi et al. (7 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Manipulation
-  - Human Demonstration
-  - Benchmark
-  - Dataset
-  - GAN
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-Tactile feedback is fundamental to Hand-Object Interaction (HOI), governing contact formation, force regulation, and stable manipulation, making it essential for achieving true human-like dexterous manipulation. Yet, current human-to-robot dexterous transfer pipelines primarily rely on kinematic trajectories, resulting in motion imitation without physically grounded interaction.
 
 ---

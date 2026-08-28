@@ -8,6 +8,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Booster:** 4 papers
 - **Digit:** 11 papers
 - **Figure:** 62 papers
+- **Fourier:** 1 papers
 - **NAO:** 4 papers
 - **Pepper:** 1 papers
 - **REEM:** 1 papers
@@ -20,6 +21,28 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.26583)
+- **Authors:** Pihai Sun, Gang Han, Jingkai Sun, Jiahao Ma, Zeran Su, Zelin Tao et al. (20 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Fourier
+- **Tags:**
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - Distillation
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humans traverse complex terrain over long distances without losing balance, whereas perceptive humanoid policies become fragile as perception and control errors accumulate. We present SOLO, a unified framework addressing two compounding causes of this long-horizon fragility: dense terrain reconstruction smooths action-critical details, and pointwise imitation lacks temporal credit assignment.
+
+---
 
 ## Dynamical System-Based Imitation Learning and Neuroadaptive Control for Trajectory Recovery in Autonomous Ships
 

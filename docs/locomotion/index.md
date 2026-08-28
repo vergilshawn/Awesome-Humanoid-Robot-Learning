@@ -1,10 +1,10 @@
 # Locomotion
 
-**160 papers** in this category.
+**161 papers** in this category.
 
 ## Months
 
-- [2026-08](/locomotion/2026-08) (12 papers)
+- [2026-08](/locomotion/2026-08) (13 papers)
 - [2026-07](/locomotion/2026-07) (22 papers)
 - [2026-06](/locomotion/2026-06) (21 papers)
 - [2026-05](/locomotion/2026-05) (10 papers)
@@ -38,6 +38,23 @@
 ---
 
 ## Recent Papers
+
+## Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.26505)
+- **Authors:** Xulin Chen, Borui He, Ruipeng Liu, Naveed Tahir, Zhenyu Gan, Garrett E. Katz
+- **Published:** 2026-08
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Walking
+
+### Summary
+
+The Poppy Humanoid is an open-source, low-cost robot suitable for research and education in artificial intelligence. However, we are unaware of any published methodology that achieves reliable, unassisted bipedal locomotion on the standard Poppy hardware.
+
+---
 
 ## MILD: Tractable Terrain Modeling for Learning Improved Bipedal Locomotion on Deformable Surfaces
 
@@ -400,26 +417,5 @@ Reinforcement learning can produce robust humanoid controllers, but each new tas
 ### Summary
 
 Robot policies are typically MLPs mapping observations to actions. Yet robot observations are physical variables, and many action-relevant cues arise not from individual variables but from their interactions; power, inertial effects, contact, slip, and compliance depend on products among observable signals.
-
----
-
-## Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.20399)
-- **Authors:** Nicolas Kosanovic, Jordan Dowdy, Jean Chagas Vaz
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Reinforcement Learning
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Walking
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilizes Virtual Reality for upper-body teleoperation and Reinforcement Learning for lower-body balance and locomotion control.
 
 ---

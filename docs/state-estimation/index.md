@@ -1,10 +1,10 @@
 # State Estimation
 
-**48 papers** in this category.
+**49 papers** in this category.
 
 ## Months
 
-- [2026-08](/state-estimation/2026-08) (7 papers)
+- [2026-08](/state-estimation/2026-08) (8 papers)
 - [2026-07](/state-estimation/2026-07) (12 papers)
 - [2026-06](/state-estimation/2026-06) (17 papers)
 - [2026-05](/state-estimation/2026-05) (5 papers)
@@ -18,6 +18,28 @@
 ---
 
 ## Recent Papers
+
+## SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.26583)
+- **Authors:** Pihai Sun, Gang Han, Jingkai Sun, Jiahao Ma, Zeran Su, Zelin Tao et al. (20 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Fourier
+- **Tags:**
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - Distillation
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humans traverse complex terrain over long distances without losing balance, whereas perceptive humanoid policies become fragile as perception and control errors accumulate. We present SOLO, a unified framework addressing two compounding causes of this long-horizon fragility: dense terrain reconstruction smooths action-critical details, and pointwise imitation lacks temporal credit assignment.
+
+---
 
 ## Dynamical System-Based Imitation Learning and Neuroadaptive Control for Trajectory Recovery in Autonomous Ships
 
@@ -362,23 +384,5 @@ Recent advances in humanoid robotics have highlighted the importance of deployab
 ### Summary
 
 The uncanny valley is a long-standing empirical rule in humanoid robot design: making robots more human-like can reduce, rather than increase, affinity. Yet existing guidelines, such as adopting robot-like appearances, avoiding excessive realism, and reducing cross-modal mismatches, remain difficult to use for algorithmic design because they are not expressed as manipulable variables.
-
----
-
-## Mechanistic Personality Analysis of LLMs Steering Personality via Latent Feature Interventions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.28770)
-- **Authors:** David Courtis, Ting Hu
-- **Published:** 2026-06
-- **Tags:**
-  - Fine-tuning
-  - Benchmark
-  - Large Language Model
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Large Language Models (LLMs) have demonstrated the ability to simulate human-like OCEAN personality traits in generated text. Previous efforts have focused on prompt engineering or fine-tuning to shape LLM personality.
 
 ---

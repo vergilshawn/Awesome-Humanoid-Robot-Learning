@@ -1,5 +1,118 @@
 [
   {
+    "arxiv_id": "2608.27406",
+    "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+    "paper_url": "https://arxiv.org/abs/2608.27406",
+    "project_url": null,
+    "authors": [
+      "Kechen Liu",
+      "Ola Shorinwa"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-27",
+    "abstract": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cross-embodiment action-conditioned video generation capable of being trained on diverse, internet-scale videos across human and robotic agents. CLAP is grounded in the insight that universal physical laws govern spatiotemporal dynamics regardless of the actor. However, cross-embodiment learning is non-trivial because action representations vary sharply across robot platforms and are typically absent in human videos. CLAP addresses this fundamental challenge through the following core contributions. First, CLAP reconciles disparate action spaces using end-effector poses, language instructions, and latent actions. Second, to resolve their individual limitations, CLAP introduces a curriculum-based cross-embodiment learning recipe that first learns foundational physical priors across unlabeled video data using latent actions and subsequently grounds them in end-effector action spaces for zero-shot deployment to real-world tasks. Crucially, CLAP approaches or surpasses state-of-the-art single-embodiment video models in challenging environments like DROID. These performance advantages compound via few-shot adaptation to establish a novel paradigm for training single-embodiment video world models. Ultimately, CLAP delivers the most comprehensive suite of action-conditioned video world models to date - spanning diverse action-conditioning spaces (end-effector, language, and latent) and robot morphologies (including cross-embodiment, DROID, Bridge, bimanual YAM robots, and G1 humanoids). We open-source all code and models. Project Website at https://omni-clap.github.io .",
+    "categories": [
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "World Model",
+      "Few-Shot",
+      "Zero-Shot",
+      "Simulator",
+      "Humanoid",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2608.26583",
+    "title": "SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2608.26583",
+    "project_url": null,
+    "authors": [
+      "Pihai Sun",
+      "Gang Han",
+      "Jingkai Sun",
+      "Jiahao Ma",
+      "Zeran Su",
+      "Zelin Tao",
+      "Peiran Liu",
+      "Shuai Shi",
+      "Wei Cui",
+      "Zifan Wang",
+      "Jialin Yu",
+      "Wen Zhao",
+      "Kangning Yin",
+      "Jiaxu Wang",
+      "Jiahang Cao",
+      "Lingfeng Zhang",
+      "Hao Cheng",
+      "Jian Tang",
+      "Yijie Guo",
+      "Qiang Zhang"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-27",
+    "abstract": "Humans traverse complex terrain over long distances without losing balance, whereas perceptive humanoid policies become fragile as perception and control errors accumulate. We present SOLO, a unified framework addressing two compounding causes of this long-horizon fragility: dense terrain reconstruction smooths action-critical details, and pointwise imitation lacks temporal credit assignment. Its Query Reconstructor (QR) uses Fourier-encoded cell queries to retrieve spatially specific evidence from depth-proprioception tokens, preserving sharp terrain boundaries. Trajectory-Aware MSE (TA-MSE) Distillation adds next-state teacher-student disagreement to the PPO reward, enabling Generalized Advantage Estimation to propagate future disagreement penalties to preceding actions. In simulation, QR reduces height-map L1 error by factors of 3.3-4.0, while TA-MSE surpasses PPO and MSE+PPO in curriculum progression. On stress-test terrains, SOLO achieves 97.5% mean traversal success and 96% stepping-stone success, versus 75.0-75.6% and 0-3% for dense-reconstructor variants. Deployed zero-shot with only a chest-mounted depth camera and proprioception, SOLO completes a continuous 1.5-km outdoor route and an indoor mixed-terrain course. Project page: https://sunpihai-up.github.io/solo/",
+    "categories": [
+      "State Estimation",
+      "Locomotion",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Locomotion",
+      "Zero-Shot",
+      "Humanoid",
+      "Proprioception",
+      "Distillation",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Fourier",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2608.26505",
+    "title": "Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions",
+    "paper_url": "https://arxiv.org/abs/2608.26505",
+    "project_url": null,
+    "authors": [
+      "Xulin Chen",
+      "Borui He",
+      "Ruipeng Liu",
+      "Naveed Tahir",
+      "Zhenyu Gan",
+      "Garrett E. Katz"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-27",
+    "abstract": "The Poppy Humanoid is an open-source, low-cost robot suitable for research and education in artificial intelligence. However, we are unaware of any published methodology that achieves reliable, unassisted bipedal locomotion on the standard Poppy hardware. This paper contributes a functional closed-loop walking controller for Poppy, based on the linear-quadratic regulator (LQR) framework for trajectory tracking. Starting with data collected from open-loop playback of a nominal walking trajectory, our proposed method learns a quadratic cost function for an LQR controller that substantially improves the reliability of the motion. The closed-loop controller is validated empirically, demonstrating statistically significant improvements in walking performance compared to open-loop trajectory playback.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Biped",
+      "Humanoid",
+      "Walking"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2608.26058",
     "title": "One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation",
     "paper_url": "https://arxiv.org/abs/2608.26058",
