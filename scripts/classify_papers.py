@@ -22,15 +22,22 @@ def load_config() -> dict:
 
 def score_categories(paper: Paper, config: dict) -> list[tuple[str, int]]:
     """Score category matches for a paper."""
-    text = (paper.title + " " + paper.abstract).lower()
+    title = paper.title.lower()
+    abstract = paper.abstract.lower()
     scored = []
 
     for cat in config["categories"]:
         cat_score = 0
         for keyword in cat["keywords"]:
-            if keyword.lower() in text:
+            keyword = keyword.lower()
+            # A title match is substantially more informative than a passing
+            # mention in a long abstract.
+            if keyword in title:
+                cat_score += 4
+            elif keyword in abstract:
                 cat_score += 1
-        if cat_score >= 1:
+        # Avoid assigning a category from one incidental abstract keyword.
+        if cat_score >= 2:
             scored.append((cat["name"], cat_score))
 
     return sorted(scored, key=lambda item: item[1], reverse=True)

@@ -1,0 +1,1232 @@
+{
+  "input_count": 839,
+  "kept_count": 635,
+  "removed_count": 204,
+  "human_reviewed_exclusions": 34,
+  "removed": [
+    {
+      "arxiv_id": "2608.27406",
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.26058",
+      "title": "One Policy, Many Embodiments: Unified Camera-Centric Action Geometry Pre-training for Heterogeneous Embodied Manipulation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.25642",
+      "title": "EgoNav: Bridging Learned Waypoints and Geometry-Aware Local Control for Robust Indoor Navigation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.25308",
+      "title": "V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.23924",
+      "title": "Dynamical System-Based Imitation Learning and Neuroadaptive Control for Trajectory Recovery in Autonomous Ships",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.22731",
+      "title": "LLM-Based Selection of Incongruent Verbal and Nonverbal Behavior for Virtual Humans",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.21894",
+      "title": "An Interpretable Deep Learning Framework for Material Perception and Classification from Multisensory Tactile Data",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.21659",
+      "title": "SketchFlow: Zero-Shot Vector Sketch Generation via GMM Prior Flow in CLIP Latent Space",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.20433",
+      "title": "Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion",
+      "reason": "HRI/music-emotion study; not humanoid robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2608.20114",
+      "title": "DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.19955",
+      "title": "MILD: Tractable Terrain Modeling for Learning Improved Bipedal Locomotion on Deformable Surfaces",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.19443",
+      "title": "Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.17030",
+      "title": "Lambda-Hold Control: Human-Like Movement Emerges from a Minimal Task Reward in Predictive Musculoskeletal Simulation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.16556",
+      "title": "DeepInsight II: One Trace from Benchmark to Robot",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.16514",
+      "title": "Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.16222",
+      "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.15304",
+      "title": "Understanding Cognition-Induced Risks in Agentic AI Systems",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.14243",
+      "title": "Zero-Shot Skeleton-Based Action Anticipation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.13555",
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.10387",
+      "title": "Hip Energized Monopedal Hopping",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.08545",
+      "title": "Curriculum Generation under Structured Parametric Environments for Robust Navigation Policies",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.08159",
+      "title": "When Is a Steerable Concept Representation Real? Measurement Confounds in a Cross-Family Audit of Neuroscience Parallels in LLMs",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.07573",
+      "title": "Projection-Retraction MPPI: Exact Constraint-Manifold Control for Manipulators",
+      "reason": "generic manipulator MPC; humanoids are not the research target",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2608.07438",
+      "title": "PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.07002",
+      "title": "A Haptic Robot Finger Designed for Guqin Instrument Playing",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.06221",
+      "title": "Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.05989",
+      "title": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.04657",
+      "title": "MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.01895",
+      "title": "Emotional Expression in Persuasion by Quadruped Virtual Agents: Toward Cross-Species Design Patterns",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.01826",
+      "title": "Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.00775",
+      "title": "ORCESTRA: VLM-driven Visual Robot programming in Mixed Reality",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.00613",
+      "title": "From Failures to Supervision: DynamicEnvPlan for Robust Long-Horizon Embodied Planning",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2608.00208",
+      "title": "Developing Combined Manipulation and Locomotion Skills with Interaction Representation and Skill Composition",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.28952",
+      "title": "Advances, challenges, and opportunities for legged robots",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.27422",
+      "title": "Good Rankers, Bad Objectives: Bilinear Contrastive Critics under Expressive Policy Search",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.26985",
+      "title": "SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.26442",
+      "title": "Global Exponential Stabilization of the Kinematic Bicycle Model of a Car in Polar Coordinates",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.26179",
+      "title": "Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.25798",
+      "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.25732",
+      "title": "A systematic evaluation of machine learning classifiers for event-by-event background rejection in LAFOV PET scanners",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.25593",
+      "title": "When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.25541",
+      "title": "P3: Probabilistic Policy Propagation for Stable VAE-Based Robot Learning",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.24113",
+      "title": "A Case Study on the Acceptance of a Humanoid Robotic Head Employed in Three Public Spaces",
+      "reason": "public acceptance study; not robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.23854",
+      "title": "Understanding Human-like Solutions in Combinatorial Optimization via Learning and Search",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.23473",
+      "title": "PRISM: Polynomial Representations for Interaction-Structured Motor Control",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.22997",
+      "title": "Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.21025",
+      "title": "ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.20834",
+      "title": "Offline RL with Hierarchical Action Chunking",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.20241",
+      "title": "On the Systematic Challenges of Culturally Loaded Machine Translation: Dream of the Red Chamber as the Cultural Lens",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.20061",
+      "title": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.19190",
+      "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.18760",
+      "title": "Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.18362",
+      "title": "FARO: Feasibility-Aware Robot Motion Optimization",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.18200",
+      "title": "Learning Adaptive Safety Margins for Visual Navigation",
+      "reason": "generic visual-navigation safety method; not humanoid-specific",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.18154",
+      "title": "World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.18135",
+      "title": "Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.17191",
+      "title": "Toward Anthropomorphic Dialogue: A Closed-Loop Framework for Human-Like Chat Generation, Evaluation, and Preference Alignment",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.17138",
+      "title": "Denoising Models Develop Human-Like Perceptual Illusion Representations Across Architectures",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.16540",
+      "title": "Do Vision Encoders Exhibit Human-like Color Thresholds?",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.16428",
+      "title": "Back to the museum: Investigation of the acceptance of Android Andrea with and without emotion simulation in a museum",
+      "reason": "museum acceptance study; not robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.16409",
+      "title": "Think, Plan, Paint: Layout-Aware Reasoning for Controllable Image Generation in Unified Models",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.16299",
+      "title": "Algorithmic Accuracy as a Motivational Driver in Robot-Mediated Learning: A Comparative Study of Cross-Correlation and CNN-Based Sound Detection in an Interactive Quiz Game",
+      "reason": "robot-mediated education study; not humanoid robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.15746",
+      "title": "Towards Artificial Nerves: Biomimetic Optical-Fiber Tactile Sensing for Robots",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.15579",
+      "title": "PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction",
+      "reason": "conversational HRI study; not humanoid control or learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.15448",
+      "title": "VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.15278",
+      "title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.14852",
+      "title": "Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.14836",
+      "title": "Physics-Informed Diffusion for Biomechanically Plausible 3D Sign Language Generation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.14809",
+      "title": "An LLM-Based Automatic Sportscast Solution for Robot Soccer Matches",
+      "reason": "automatic sportscasting; not humanoid robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.14488",
+      "title": "Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments",
+      "reason": "generic robot safety wrapper; not humanoid-specific",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.14487",
+      "title": "MIDAS Hand: Modular low-Impedance Direct-drive Anthropomorphic Sensing Hand",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.13768",
+      "title": "The Nonsmooth Impact Direction (NSID) of Robotic Systems",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.13472",
+      "title": "EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal",
+      "reason": "human terrain-traversal dataset; not humanoid robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.13072",
+      "title": "HRO: Hierarchical Room-to-Object Framework for Zero-Shot Object Goal Navigation with Large Language Models",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.13060",
+      "title": "A Bayesian framework for the uncanny valley in humanoid robot design",
+      "reason": "uncanny-valley design study; not robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.12206",
+      "title": "RegHead: Non-Humanoid Head Blendshapes via Feed-Forward Registration",
+      "reason": "explicitly non-humanoid facial animation work",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.11874",
+      "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.11855",
+      "title": "Robust bipedal locomotion on flowable slopes via foot-driven terrain manipulation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.11690",
+      "title": "Requirement-Driven Design of Whole-Body Social Tactile Sensing via Virtual Human-Robot Interaction",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.11644",
+      "title": "Motion4Motion: Motion Transfer Across Subjects at Inference",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.11638",
+      "title": "DA-Nav: Direction-Aware City-Scale Vision-Language Navigation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.11624",
+      "title": "SKooP: Symmetric Koopman Predictions for Faster and More Generalizable Legged Robot Locomotion with Reinforcement Learning",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.11603",
+      "title": "WarpMPC: Large-Batch MPC on GPU via ADMM with Unrolled $LDL^\\top$ Factorization",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.10476",
+      "title": "Hallucination Detection in Large Language Models Using Diversion Decoding",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.10132",
+      "title": "TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation",
+      "reason": "quadrupedal loco-manipulation; not humanoid robotics",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.09911",
+      "title": "Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.09807",
+      "title": "A Biomimetic Myoelectric Tentacle Prosthesis with Sensorless Object Detection and Vibrotactile Feedback",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.09323",
+      "title": "Effects of Robotic Touch on Older Users During Walking Guidance by a Humanoid Robot",
+      "reason": "user study of robotic touch; not robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.09190",
+      "title": "TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.08741",
+      "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.08620",
+      "title": "A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.08341",
+      "title": "AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.07972",
+      "title": "In vivo feasibility study of humanoid robots in surgery",
+      "reason": "surgical application; outside collection scope",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.07430",
+      "title": "Immersive Social Interaction with VR and LLM-Assisted Humanoids",
+      "reason": "social VR/LLM interaction study; not robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.07420",
+      "title": "Initiation Safety: A Missing Dimension in Generalist-Robot Safety",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.07390",
+      "title": "Communicative Efficiency of Single vs. Multi-Axis Robot Neck Motion",
+      "reason": "robot motion communication study; not humanoid learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.07370",
+      "title": "Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report",
+      "reason": "quadruped foundation model; not humanoid robotics",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.07109",
+      "title": "Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act",
+      "reason": "cybersecurity regulation study; unrelated to humanoid robotics",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.04940",
+      "title": "Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.04119",
+      "title": "SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.03828",
+      "title": "ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.02799",
+      "title": "Conversational Human Audio-visual Talking Dialogue Generation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.02089",
+      "title": "ESC: Emotional Self-Correction for Reliable Vision-Language Models",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.01574",
+      "title": "Multi-Rate Nonlinear Model Predictive Control for Wall-Supported Bipedal Locomotion of Quadrupedal Robots",
+      "reason": "quadrupedal locomotion study; not humanoid robotics",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2607.01181",
+      "title": "Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.00855",
+      "title": "Investigating Driver Behavior in Complex Traffic Situations While Driving Partially Automated Vehicles",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2607.00642",
+      "title": "Coachable agents for interactive gameplay",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.30552",
+      "title": "Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.30290",
+      "title": "X-Morph: Human Motion Priors for Scalable Robot Learning Across Morphologies",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.30243",
+      "title": "KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.29820",
+      "title": "Dual-Flow Reinforcement Learning with State-Aware Exploration",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.28770",
+      "title": "Mechanistic Personality Analysis of LLMs Steering Personality via Latent Feature Interventions",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.28469",
+      "title": "When May I Help You? On The Effect of Proactivity on Group Human-Robot Collaboration",
+      "reason": "group HRI study; not humanoid robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2606.28237",
+      "title": "Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.26829",
+      "title": "Identifying the Unknown: Prompt-Free Open Vocabulary Anomaly Recognition for Robot-Object Interaction",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.26507",
+      "title": "DanceDuo: Bridging Human Movement and AI Choreography",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.26213",
+      "title": "RoboTales: ROBOTic Anthropomorphic LEarning Systems",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.25348",
+      "title": "Self Capacitive Tactile Sensor System designed for Companion Robots",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.25295",
+      "title": "DynaMOMA: Instantaneous Prediction of Grasp Poses for Mobile Manipulation of Dynamic Objects",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.25056",
+      "title": "BFMTrack: Latent Sequence Optimization for Physics-Based Motion Tracking with Behavioral Foundation Models",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.24445",
+      "title": "Legible and Intuitive Multi-modal Robot State and Intent Communication Validated in Online and Real-world Studies",
+      "reason": "robot intent communication study; not humanoid learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2606.24377",
+      "title": "PDS Joint: A Parametric Double-Spiral Joint Tailored for Dexterous Hands",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.24089",
+      "title": "DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.24039",
+      "title": "TurboMPC: Fast, Scalable, and Differentiable Model Predictive Control on the GPU",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.23848",
+      "title": "Enforcing Human-like Kinematics in Dexterous Piano Playing via Adversarial Posture Regularization",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.23565",
+      "title": "HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.22158",
+      "title": "Improving Reasoning in Vision-Language Models via Perception Verified Self-Training",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.21600",
+      "title": "VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation",
+      "reason": "generic manipulation policy; not humanoid-specific",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2606.21086",
+      "title": "ReFPO: Reflow Regularization for Flow Matching Policy Gradients",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.20990",
+      "title": "Duet: Dual-Robot Understanding via Efficient Teaching",
+      "reason": "generic dual-robot teaching method; not humanoid-specific",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2606.20748",
+      "title": "Toward Machine Risk Perception: Integrating Trust Calibration and Precursor-Based Risk Estimation for Humanoid",
+      "reason": "risk-perception framework; not robot control or learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2606.20705",
+      "title": "MotionPyramid: Hierarchical Motion Representation and Residual Interfaces",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.20199",
+      "title": "Evaluation of Image Matching for Art Skills Assessment",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.19774",
+      "title": "Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.19728",
+      "title": "Bidirectional Tutoring for Developmental Motor Learning in Robots: Co-Developed Interaction Dynamics Support Stable Learning",
+      "reason": "developmental HRI study; not humanoid robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2606.19370",
+      "title": "Human-like autonomy emerges from self-play and a pinch of human data",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.19333",
+      "title": "Do as I Do: Dexterous Manipulation Data from Everyday Human Videos",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.17574",
+      "title": "DeepInsight: A Unified Evaluation Infrastructure Across the Physical AI Stack",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.17418",
+      "title": "DexLink Hand: A Compact, Affordable, 16-DOF Linkage-Driven Hand with Human-Like Dexterity",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.16978",
+      "title": "Task-Error Residual Learning for Real-Robot Five-Ball Juggling",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.16696",
+      "title": "VENOM: Versatile Embodied Network for Omni-bodied Motion tracking",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.16564",
+      "title": "Elastic ODYN: Differentiable Optimization for Infeasible Control and Learning in Robotics",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.16436",
+      "title": "V2P-Manip: Learning Dexterous Manipulation from Monocular Human Videos",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.15260",
+      "title": "Trust-Region Diffusion Policies for Massively Parallel On-Policy RL",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.15133",
+      "title": "DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.14922",
+      "title": "An Empirical Study on Learning Latent Representations for Emotional Speech Synthesis",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.14602",
+      "title": "What Robots Do Matters More Than What They Look Like: Task Context Shapes Trust in Educational HRI",
+      "reason": "educational HRI trust study; not humanoid learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2606.14561",
+      "title": "ORCA: A Platform for Open-Source Dexterity Research",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.14512",
+      "title": "Fodor and Pylyshyn's Systematicity Challenge Still Stands",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.14270",
+      "title": "Robust Fall Recovery for Armless Bipedal-Wheeled Robots Via Force-Guided Learning",
+      "reason": "bipedal-wheeled platform rather than humanoid robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2606.14250",
+      "title": "SyLink Hand: A Synergy-Inspired Linkage-Driven Anthropomorphic Hand for Human-Like Dexterity",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.12153",
+      "title": "TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.11826",
+      "title": "Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.11034",
+      "title": "A Spiking Neural Architecture for Coordinating Arm and Locomotor Control",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.10903",
+      "title": "AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.10113",
+      "title": "Emotion Profiling in LLM-Based Literary Translation: Systematic Shifts Across MT and Post-Editing",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.09798",
+      "title": "SynManDex: Synthesizing Human-like Dexterous Grasps from Synthetic Human Pre-Grasps",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.09741",
+      "title": "bbsolver: A Unified Error-Bounded Spatiotemporal Optimization Solver for Key Timing and Topology-Consistent Vector Paths",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.08107",
+      "title": "Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.08099",
+      "title": "Cybernetic Android Avatar \"Yui\": System Integration, Field Deployment, and Evaluation",
+      "reason": "android avatar integration/HRI; not robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2606.08081",
+      "title": "Aligned but Not Partner-Specific: Distinguishing How Multimodal LLM Agents Succeed in Reference Games Without Human-Like Conventions",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.08059",
+      "title": "Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.08043",
+      "title": "OmniFaceRig: Fully Automatic Inner-Mouth-Aware Face Rigging Across Diverse 3D Character Topologies",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.08029",
+      "title": "IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.07643",
+      "title": "AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.07435",
+      "title": "The Lipreading Gap: Do VSR Models Perceive Visual Speech Like Human Lipreaders?",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.06953",
+      "title": "LIMMT: Less is More for Motion Tracking",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.06714",
+      "title": "Anchored, Not Graded: Vision-Language Models Fail at Slant-from-Texture Perception",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.05330",
+      "title": "A Model of Multi-turn Human Persuadability Using Probabilistic Belief Tracing",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.03994",
+      "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.03834",
+      "title": "Let the Dynamics Flow: Stable Flow Matching Dynamical Systems",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.02745",
+      "title": "SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.02449",
+      "title": "HLL: Can Agents Cross Humanity's Last Line of Verification?",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2606.00616",
+      "title": "Pause and Think: A Dataset and Benchmark for Video-Grounded Assistive Action Suggestion",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.31343",
+      "title": "Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation",
+      "reason": "generic legged loco-manipulation; not humanoid-specific",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2605.30928",
+      "title": "Enhancing Human-Likeness in Reinforcement Learning Agents via Hierarchical Macro Action Quantization",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.30569",
+      "title": "Any-ttach: Quick End-effector Swapping Enables Manipulation Dexterity with Simplicity",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.30508",
+      "title": "ARISTO Hand: Sensing-Driven Distal Hyperextension for Fine-Grained Manipulation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.30282",
+      "title": "Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation",
+      "reason": "generic robot-manipulation VLA; not humanoid-specific",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2605.28491",
+      "title": "DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Control with Diffusion Forcing",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.28468",
+      "title": "EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.28394",
+      "title": "Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.28272",
+      "title": "EchoAvatar: Real-time Generative Avatar Animation from Audio Streams",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.27886",
+      "title": "Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.25151",
+      "title": "Representation Without Control: Testing the Realization Effect in Language Models",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.24602",
+      "title": "Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.23819",
+      "title": "Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.23240",
+      "title": "Signal Temporal Logic Motion Planning via Graphs of Convex Sets",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.19004",
+      "title": "EgoTraj: Real-World Egocentric Human Trajectory Dataset for Multimodal Prediction",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.18956",
+      "title": "MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.17300",
+      "title": "HCLM: A Hierarchical Framework for Cooperative Loco-Manipulation with Dual Quadrupeds",
+      "reason": "dual-quadruped loco-manipulation; not humanoid robotics",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2605.16692",
+      "title": "EfficientTDMPC: Improved MPC Objectives for Sample-Efficient Continuous Control",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.16676",
+      "title": "Enhancing Metacognitive AI: Knowledge-Graph Population with Graph-Theoretic LLM Enrichment",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.16602",
+      "title": "Why Modeling Human Haptic Material Perception with AI Is Difficult",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.16578",
+      "title": "Voice ''Cloning'' is Style Transfer",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.15336",
+      "title": "HoloMotion-1 Technical Report",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.15122",
+      "title": "CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.14462",
+      "title": "Real2Sim in HOI: Toward Physically Plausible HOI Reconstruction from Monocular Videos",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.14269",
+      "title": "PhyMotion: Structured 3D Motion Reward for Physics-Grounded Human Video Generation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.12786",
+      "title": "Emotional Expression in Low-Degrees-of-Freedom Robots: Assessing Perception with Reachy Mini",
+      "reason": "low-DoF social robot emotion study; outside scope",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2605.11972",
+      "title": "Cooperative Robotics Reinforced by Collective Perception for Traffic Moderation",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.11825",
+      "title": "Mapping Embodied Affective Touch Strategies on a Humanoid Robot",
+      "reason": "affective-touch HRI study; not humanoid robot learning",
+      "decision": "human-reviewed exclusion"
+    },
+    {
+      "arxiv_id": "2605.11564",
+      "title": "RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    },
+    {
+      "arxiv_id": "2605.11223",
+      "title": "Do Vision-Language-Models show human-like logical problem-solving capability in point and click puzzle games?",
+      "reason": "insufficient evidence that humanoid/biped robotics is the research target",
+      "decision": "strict relevance gate"
+    }
+  ]
+}

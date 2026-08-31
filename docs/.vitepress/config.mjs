@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (255)",
+            "text": "Loco-Manipulation and Whole-Body Control (221)",
             "collapsed": true,
             "items": [
                   {
@@ -174,7 +174,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (104)",
+            "text": "Manipulation (63)",
             "collapsed": true,
             "items": [
                   {
@@ -192,10 +192,6 @@ export default defineConfig({
                   {
                         "text": "2026-06",
                         "link": "/manipulation/2026-06"
-                  },
-                  {
-                        "text": "2026-05",
-                        "link": "/manipulation/2026-05"
                   },
                   {
                         "text": "2026-04",
@@ -284,7 +280,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (40)",
+            "text": "Teleoperation (25)",
             "collapsed": true,
             "items": [
                   {
@@ -306,10 +302,6 @@ export default defineConfig({
                   {
                         "text": "2026-05",
                         "link": "/teleoperation/2026-05"
-                  },
-                  {
-                        "text": "2026-04",
-                        "link": "/teleoperation/2026-04"
                   },
                   {
                         "text": "2026-02",
@@ -358,7 +350,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (161)",
+            "text": "Locomotion (151)",
             "collapsed": true,
             "items": [
                   {
@@ -488,16 +480,12 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (34)",
+            "text": "Navigation (22)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/navigation/"
-                  },
-                  {
-                        "text": "2026-08",
-                        "link": "/navigation/2026-08"
                   },
                   {
                         "text": "2026-07",
@@ -510,6 +498,10 @@ export default defineConfig({
                   {
                         "text": "2026-05",
                         "link": "/navigation/2026-05"
+                  },
+                  {
+                        "text": "2026-04",
+                        "link": "/navigation/2026-04"
                   },
                   {
                         "text": "2026-02",
@@ -562,7 +554,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (49)",
+            "text": "State Estimation (13)",
             "collapsed": true,
             "items": [
                   {
@@ -612,7 +604,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Sim-to-Real (14)",
+            "text": "Sim-to-Real (13)",
             "collapsed": true,
             "items": [
                   {
@@ -740,7 +732,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (80)",
+            "text": "Simulation Benchmark (32)",
             "collapsed": true,
             "items": [
                   {
@@ -762,10 +754,6 @@ export default defineConfig({
                   {
                         "text": "2026-05",
                         "link": "/simulation-benchmark/2026-05"
-                  },
-                  {
-                        "text": "2026-04",
-                        "link": "/simulation-benchmark/2026-04"
                   },
                   {
                         "text": "2026-03",
@@ -818,7 +806,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (44)",
+            "text": "Physics-Based Character Animation (41)",
             "collapsed": true,
             "items": [
                   {
@@ -830,20 +818,12 @@ export default defineConfig({
                         "link": "/physics-based-character-animation/2026-08"
                   },
                   {
-                        "text": "2026-07",
-                        "link": "/physics-based-character-animation/2026-07"
-                  },
-                  {
                         "text": "2026-06",
                         "link": "/physics-based-character-animation/2026-06"
                   },
                   {
                         "text": "2026-05",
                         "link": "/physics-based-character-animation/2026-05"
-                  },
-                  {
-                        "text": "2026-04",
-                        "link": "/physics-based-character-animation/2026-04"
                   },
                   {
                         "text": "2026-02",
@@ -940,7 +920,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (27)",
+            "text": "Human Motion Analysis and Synthesis (23)",
             "collapsed": true,
             "items": [
                   {
@@ -958,10 +938,6 @@ export default defineConfig({
                   {
                         "text": "2026-05",
                         "link": "/human-motion-analysis-and-synthesis/2026-05"
-                  },
-                  {
-                        "text": "2026-04",
-                        "link": "/human-motion-analysis-and-synthesis/2026-04"
                   },
                   {
                         "text": "2026-02",

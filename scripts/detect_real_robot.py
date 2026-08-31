@@ -48,10 +48,6 @@ def detect_real_robot_for_paper(paper: Paper, config: dict) -> tuple[bool, Optio
     # Require at least 2 indicators OR one indicator + platform mention
     is_real = indicator_count >= 2 or (indicator_count >= 1 and platform is not None)
 
-    # Strong signal: specific platform name
-    if platform:
-        is_real = True
-
     return is_real, platform
 
 

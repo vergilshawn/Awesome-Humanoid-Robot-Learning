@@ -1,14 +1,13 @@
 # Manipulation
 
-**104 papers** in this category.
+**63 papers** in this category.
 
 ## Months
 
-- [2026-08](/manipulation/2026-08) (9 papers)
-- [2026-07](/manipulation/2026-07) (18 papers)
-- [2026-06](/manipulation/2026-06) (22 papers)
-- [2026-05](/manipulation/2026-05) (5 papers)
-- [2026-04](/manipulation/2026-04) (1 papers)
+- [2026-08](/manipulation/2026-08) (1 papers)
+- [2026-07](/manipulation/2026-07) (3 papers)
+- [2026-06](/manipulation/2026-06) (8 papers)
+- [2026-04](/manipulation/2026-04) (2 papers)
 - [2026-03](/manipulation/2026-03) (2 papers)
 - [2026-02](/manipulation/2026-02) (1 papers)
 - [2026-01](/manipulation/2026-01) (4 papers)
@@ -34,78 +33,6 @@
 
 ## Recent Papers
 
-## CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.27406)
-- **Authors:** Kechen Liu, Ola Shorinwa
-- **Published:** 2026-08
-- **Tags:**
-  - World Model
-  - Few-Shot
-  - Zero-Shot
-  - Simulator
-  - Humanoid
-  - Manipulation
-  - State Estimation
-
-### Summary
-
-State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cross-embodiment action-conditioned video generation capable of being trained on diverse, internet-scale videos across human and robotic agents.
-
----
-
-## V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.25308)
-- **Authors:** Yehao Lu, Jiarui Yang, Yuning Su, Yufeng Xie, Yu Zhong, Yazhou Zhang et al. (13 authors)
-- **Published:** 2026-08
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-
-### Summary
-
-Vision-language-action (VLA) models provide a scalable path toward generalist robotic manipulation by integrating visual perception, language understanding, and continuous action control. However, we reveal a critical limitation of VLA architectures: the action expert has limited access to the 3D geometric and 2D semantic information available in VLM features.
-
----
-
-## Humanoid Musical Robots as Experimental Interfaces for Music-Evoked Emotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.20433)
-- **Authors:** Vincent K. M. Cheung, Jia-Yeu Lin
-- **Published:** 2026-08
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - State Estimation
-
-### Summary
-
-Advances in technology have led to increasingly sophisticated musical humanoid robots. However, their use has largely been limited to performance and related research in human-robot interaction.
-
----
-
-## Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.19443)
-- **Authors:** Chaoyi Pan, Zeji Yi, John Zhang, Zachary Manchester, Guannan Qu, Guanya Shi
-- **Published:** 2026-08
-- **Real Robot:** ✅
-- **Tags:**
-  - MPC
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Sampling-Based
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Thanks to its parallelizability and flexibility, sampling-based Model Predictive Control (MPC) has become widely popular for controlling real-world robotic systems. However, for high-dimensional and open-loop unstable dynamical systems, the required number of samples to improve the control sequence will grow exponentially with the horizon, leading to poor sample efficiency and numerical instability.
-
----
-
 ## Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.11769)
@@ -118,199 +45,10 @@ Thanks to its parallelizability and flexibility, sampling-based Model Predictive
   - Vision-Language
   - Dataset
   - Simulation Benchmark
-  - State Estimation
 
 ### Summary
 
 Vision-language-action (VLA) policies are expected to operate robustly across variations in the robot's initial configuration, yet aggregate task success can conceal pose-specific failures and inappropriate hand selection. This work investigates initial-pose dependence in VLA-based humanoid dual-arm manipulation.
-
----
-
-## A Haptic Robot Finger Designed for Guqin Instrument Playing
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.07002)
-- **Authors:** Tianwei Zhang, Hanming Yan, Yang Yang. Ziya Wang
-- **Published:** 2026-08
-- **Tags:**
-  - Humanoid
-  - Tactile Sensing
-  - Manipulation
-  - Teleoperation
-
-### Summary
-
-With the rapid advancement of humanoid robotics and embodied intelligence technologies, numerous musical instrument-playing robots have emerged in recent years, such as pianos, chime bells, and taiko drums. These robots primarily employ open-loop positional control, rendering them incapable of operating instruments requiring dexterous hands and precise tactile perception, such as a violin, guitar, and guqin.
-
----
-
-## Projection-Retraction MPPI: Exact Constraint-Manifold Control for Manipulators
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.07573)
-- **Authors:** Seulchan Lee, Leesai Park, Minhyeong Kang, Sanghyun Kim
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Unitree H1
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - State Estimation
-  - Simulation Benchmark
-  - Physics-Based Character Animation
-
-### Summary
-
-Model Predictive Path Integral (MPPI) control is widely used in manipulation for its gradient-free, parallel handling of non-convex costs. Manipulation tasks, however, often impose constraints that hold throughout the motion: a closed kinematic chain that two grasping arms keep exactly, or joint limits and obstacle clearances that are never crossed.
-
----
-
-## Teleopit: A Full-Embodiment Humanoid Teleoperation System
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.01834)
-- **Authors:** Bingqian Wu, Zicheng Xu, Xianghui Fan, Dayu Li, Xiangru Huang
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Optimization-Based
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid teleoperation for demonstration collection requires coordinated whole-body motion, continuous dexterous hand control, and viewpoint control. Existing systems either simplify hand commands or depend on dedicated wearable sensors for fine-grained hand motion.
-
----
-
-## Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.01826)
-- **Authors:** Jiarui Yang, Yehao Lu, Yuning Su, Yufeng Xie, Yu Zhong, Haiyu Lan et al. (12 authors)
-- **Published:** 2026-08
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-
-### Summary
-
-Vision-Language-Action (VLA) models have shown strong generalization in robotic manipulation, yet complex contact-rich tasks often benefit from multi-camera observations that jointly capture the end effector, objects, and targets under occlusion. Existing multi-camera VLAs usually concatenate view tokens, leaving action representations weak in metric depth and inconsistent across cameras.
-
----
-
-## CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.29172)
-- **Authors:** Yuxin Chen, Hari Srikanth, Nathan Jew, Menglin Wu, Pengcheng Wang, Junli Ren et al. (10 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - Humanoid
-  - Foundation Model
-  - Fine-tuning
-
-### Summary
-
-While robot foundation models are growing increasingly capable, the strongest models are typically trained on proprietary data and remain closed-source, limiting downstream users' ability to adapt them to new tasks, embodiments, and deployment settings. Following the LLM community, an emerging access paradigm for closed-weight robot foundation models is the managed supervised fine-tuning (SFT) API, where users submit training data and receive a tuned policy without access to model weights, gradients, or training internals.
-
----
-
-## SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.26985)
-- **Authors:** Gabe Everett, Brice Gunter, Ryan Vander Stelt, Cleiver Ruiz-Martinez, Blake Hull, Juan Rojas
-- **Published:** 2026-07
-- **Real Robot:** ✅
-- **Tags:**
-  - Manipulation
-  - Real Robot
-  - Humanoid
-  - Proprioception
-  - Policy Learning
-  - State Estimation
-
-### Summary
-
-Deep reinforcement policy learning directly in physical robots (on-robot learning) remains bottlenecked by slow wall-clock training times. We present SymmGrid, a trajectory level augmentation framework inspired by parallelized symmetries that super-scales group transformations to significantly accelerate on-robot learning in both egocentric and exocentric visual setups.
-
----
-
-## Good Rankers, Bad Objectives: Bilinear Contrastive Critics under Expressive Policy Search
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.27422)
-- **Authors:** Ayushman Singh, Siddharth Aphale
-- **Published:** 2026-07
-- **Tags:**
-  - Manipulation
-  - Navigation
-  - Simulator
-  - Humanoid
-  - PPO
-  - State Estimation
-
-### Summary
-
-Good action rankings do not make a contrastive critic safe to maximize. These critics increasingly act as value-like objectives for best-of-$K$ selection, planning, and critic-guided generation.
-
----
-
-## Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.25798)
-- **Authors:** Huy Ha, C. Karen Liu, Shuran Song
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Manipulation
-  - Transformer
-  - Zero-Shot
-  - Human Demonstration
-  - Humanoid
-  - Evolutionary
-  - Diffusion
-
-### Summary
-
-An often overlooked factor of robot manipulation performance is the embodiment of the robot itself. Motivated by this problem, we study motion-conditioned robot co-design, where the goal is to generate complete robot designs that track target end-effector trajectories (from human demonstrations) while optimizing user-defined rewards.
-
----
-
-## When Does Legacy Data Start to Help? Emergent Transfer in Cross-Configuration Robot Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.25593)
-- **Authors:** Tao Wang, Hudson Hou, Yingdong Hu, Yufeng Liu, Qinghai Li, Yingjie Jiang et al. (10 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - State Estimation
-  - Hardware Design
-
-### Summary
-
-Robotic hardware evolves over time, but demonstration data is often tied to a specific sensor and actuator configuration. This raises a practical and underexplored question: when does legacy data begin to benefit an upgraded robot? We study this question on a wheeled humanoid platform across two hardware generations, where both the camera and gripper are changed while the overall morphology remains fixed.
-
----
-
-## Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.19190)
-- **Authors:** Guanxiong Chen, Qianjun Xia, Jiawei Peng, Heng Zhang, Bole Ma, Justin Qian et al. (24 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Manipulation
-  - World Model
-  - Simulator
-  - Humanoid
-  - Vision-Language
-  - Foundation Model
-  - Policy Learning
-  - State Estimation
-
-### Summary
-
-Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, cameras, poses, and trajectories into a runnable physical simulation. Today this process still depends on manual tuning of visual foundation models, mesh cleanup, coordinate-frame alignment, and brittle workflow glue across visual perception tools and simulators.
 
 ---
 
@@ -327,8 +65,6 @@ Real-to-sim conversion for robotic interaction with objects remains labor-intens
   - Humanoid
   - Gait
   - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
 
 ### Summary
 
@@ -336,73 +72,309 @@ Dexterous hands and humanoid robots are typically developed as distinct embodime
 
 ---
 
-## Towards Artificial Nerves: Biomimetic Optical-Fiber Tactile Sensing for Robots
+## AgenticFocus: Object-Preserving Mixed Reality Synthesis from Human FPV Video for Dexterous Humanoid Learning
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.15746)
-- **Authors:** Laura E. Butcher, Chris J. Ford, Nathan F. Lepora, Efi Psomopoulou
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.08857)
+- **Authors:** Iaroslav Kolomiets, Miguel Altamirano Cabrera, Artem Lykov, Jeffrin Sam, Dmitrii Iarchuk, Yara Mahmoud et al. (9 authors)
 - **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
 - **Tags:**
+  - Humanoid
+  - Dataset
+  - Policy Learning
   - Manipulation
-  - Tactile Sensing
-  - Evolutionary
 
 ### Summary
 
-Robotic systems increasingly demand tactile sensing that approaches the adaptability and resolution of human skin to enable dexterous manipulation and safe interaction. OptiTac is a biomimetic tactile sensor that emulates the mechanoreceptor-to-nerve architecture of human touch by pairing each mechanical pin on a soft skin with an optical fiber acting as an artificial nerve.
+Human egocentric video is a scalable supervision source for humanoid policy learning, but current pipelines struggle with hand-object occlusion, oversimplified motion, or specialized capture hardware. We introduce AgenticFocus, a Mixed Reality synthesis pipeline that converts ordinary first-person-view human videos into robot-trainable demonstrations by restoring occluded object geometry, reconstructing full-hand motion, and retargeting it to a humanoid embodiment through camera-relative alignment and layered compositing.
 
 ---
 
-## VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation
+## WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.15448)
-- **Authors:** Yuhao Zhou, Sheeraz Athar, Zhixian Hu, Binghao Huang, Yunzhu Li, Juan Wachs et al. (7 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.06438)
+- **Authors:** Wongyun Yu, Youngwoon Kim, Minsu Cho
 - **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+Retargeting human object interaction demonstrations to physics based simulation requires reproducing not only body motion but also the object motion and contacts that make manipulation succeed. However, position only hand trajectories do not specify the contact forces needed to manipulate objects, and directly tracking them can overconstrain contact rich finger behavior.
+
+---
+
+## Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.32009)
+- **Authors:** Xiaopeng Lin, Ruoqi Yang, Shijie Lian, Zhaolong Shen, Bin Yu, Changti Wu et al. (17 authors)
+- **Published:** 2026-06
 - **Tags:**
   - Teleoperation
   - Manipulation
-  - PPO
-  - Multi-Modal
-  - Navigation
-  - Hardware Design
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-This paper presents a tactile-reactive gripper that integrates a Visuo-Tactile Active Palm (VTAP) and compliant, reconfigurable fingers equipped with tactile array sensors. The design exploits structured finger-palm synergy and multi-modal perception to achieve both robust grasping and fine manipulation.
-
----
-
-## Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.14852)
-- **Authors:** Yao He, Gan Sun, Wenqi Liang, Fazeng Li, Yang Cong
-- **Published:** 2026-07
-- **Tags:**
-  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Inverse Kinematics
   - Vision-Language
+  - Physics-Based Character Animation
 
 ### Summary
 
-Similar to the natural capabilities of humans to sequentially learn new tasks, robots with Vision-Language-Action (VLA) models should possess lifelong learning ability to learn a new task when deployed in open-world environments. However, most recently proposed lifelong learning models aim to effectively learn the current task (plasticity) or maintain high accuracy on previous tasks (stability), while the plasticity-stability trade-off remains largely unsolved in robotic manipulation models.
+Vision-language-action (VLA) models across robot embodiments require high-quality observation--action supervision to learn deployable action distributions, yet scaling such robot data remains difficult, especially for high-DoF humanoids. Teleoperation provides controller-aligned supervision, while human egocentric videos capture diverse bimanual manipulation but do not directly provide executable robot actions.
 
 ---
 
-## MIDAS Hand: Modular low-Impedance Direct-drive Anthropomorphic Sensing Hand
+## RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.14487)
-- **Authors:** Alvin Zhu, Mingzhang Zhu, Beom Jun Kim, Quanyou Wang, Jose Victor S. H. Ramos, Dennis Hong
-- **Published:** 2026-07
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31836)
+- **Authors:** Xinyi Wang, Donghan Li, Zi'Ang Chen, Chong Yu, Chen Xin, Peng Ye et al. (8 authors)
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
-  - Teleoperation
+  - Imitation Learning
   - Manipulation
-  - Tactile Sensing
-  - State Estimation
+  - Humanoid
+  - Dataset
+  - Multi-Modal
   - Simulation Benchmark
 
 ### Summary
 
-Dexterous manipulation is limited not only by algorithms but by a shortage of accessible hand hardware that combines human-scale morphology, ease of manufacturing or maintenance, tactile sensing, and practical cost. Existing dexterous hands tend to optimize some of these properties at the expense of others.
+In the field of robot learning, large-scale and diverse demonstration trajectories provide the fundamental basis for enhancing robotic manipulation ability. We introduce RoboTacDex, a large, multi-modal, and diverse dataset of dexterous manipulation behaviors performed with a humanoid robot.
+
+---
+
+## Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.31037)
+- **Authors:** Yuhan Wu, Zhao Jin, Tao Li, Yuheng Zhang, Zhichao Wang, Shuo Wang et al. (12 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - PPO
+  - GAN
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Laboratory automation has made remarkable progress through robotic platforms and AI-driven scientific reasoning. However, many laboratory operations (e.g., solid--solid transfer) remain inherently dynamic and require real-time adaptation to different materials and experimental conditions.
+
+---
+
+## CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.23680)
+- **Authors:** Sikai Li, Shuning Li, Zhenyu Wei, Yunchao Yao, Chenran Li, Mingyu Ding
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Proprioception
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive.
+
+---
+
+## HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.18772)
+- **Authors:** Zehui Zhao, Yuxuan Zhao, Gaojing Zhang, Chenxi Liu, Maolin Zheng, Wenzhao Lian
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Human Demonstration
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Human demonstrations, which can be collected at scale and naturally capture active hand-eye coordination, are a promising data source for learning humanoid loco-manipulation. However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
+
+---
+
+## ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.17011)
+- **Authors:** Wei Xiao, Weiliang Tang, Yuying Ge, Hui Zhou, Yao Mu, Li Zhang et al. (7 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+
+### Summary
+
+Human interventions provide crucial corrective signals for post-training Vision-Language-Action (VLA) models. However, enabling seamless humanoid interventions is a formidable systems challenge due to complex whole-body kinematics and dexterous-hand control.
+
+---
+
+## GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.12995)
+- **Authors:** Zhihai Bi, Qiang Zhang, Guoyang Zhao, Jiahang Cao, Xueyin Luo, Yushan Zhang et al. (11 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Manipulation
+
+### Summary
+
+Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects. Existing methods often require time-consuming task-specific policy training or rely on rigid trajectory replay, which limits their ability to accommodate novel interaction scenarios.
+
+---
+
+## Vision-Guided Dual-Arm Humanoid Robotic Disassembly of End-of-Life 18650 Lithium-ion Battery Packs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08152)
+- **Authors:** Yile Chen, Zhihao Liu, Xi Vincent Wang, Lihui Wang
+- **Published:** 2026-06
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Manipulation
+
+### Summary
+
+The growing volume of retired lithium-ion battery packs from electric vehicles and portable electronics calls for automated disassembly that is safe, flexible, and selective down to the individual cell. Existing robotic systems, however, mostly assume known pack poses, external fixtures, or specialised tooling, leaving fixture-free cell-level disassembly under pose uncertainty largely unsolved.
+
+---
+
+## A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.17258)
+- **Authors:** Yifei Yan, Yankai Liao, Linqi Ye
+- **Published:** 2026-04
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Real Robot
+  - Humanoid
+  - Inverse Kinematics
+  - 3D Reconstruction
+  - Foundation Model
+  - Manipulation
+  - Physics-Based Character Animation
+
+### Summary
+
+This paper presents an end-to-end rapid deployment pipeline for humanoid grasping that combines foundation-model components for annotation, 3D reconstruction, and zero-shot pose tracking. The estimated pose drives a Unity inverse kinematics planner whose joint commands are streamed to a Unitree G1 humanoid via UDP and executed through the Unitree SDK.
+
+---
+
+## 🌟 Humanoid Manipulation with Touch Dreaming
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2604.13015)
+- **Project:** [GitHub](https://humanoid-touch-dream.github.io/)
+- **Authors:** Han Wang, Hongjie Fang, Changyang He, Tairan He, Zhenyu Jiang, Sizhe Yang et al. (11 authors)
+- **Published:** 2026-04
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Policy Learning
+
+### Summary
+
+This paper studies humanoid manipulation with touch dreaming, using tactile imagination and policy learning to improve contact-rich manipulation. The system targets dexterous humanoid manipulation and whole-body interaction with objects under sparse or difficult tactile supervision..
+
+---
+
+## 🌟 HumDex: Humanoid Dexterous Manipulation Made Easy
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.12260)
+- **Published:** 2026-03
+- **Tags:**
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## cuRoboV2: Dynamics-Aware Motion Generation with Depth-Fused Distance Fields for High-DoF Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2603.05493)
+- **Published:** 2026-03
+- **Tags:**
+  - Manipulation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## 🌟 DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.06949)
+- **Project:** [GitHub](https://dreamdojo-world.github.io/)
+- **Published:** 2026-02
+- **Tags:**
+  - World Model
+  - Manipulation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## HumanoidVLM: Vision-Language-Guided Impedance Control for Contact-Rich Humanoid Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2601.14874)
+- **Published:** 2026-01
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Impedance Control
+  - Vision-Language
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Generalizable Geometric Prior and Recurrent Spiking Feature Learning for Humanoid Robot Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2601.09031)
+- **Published:** 2026-01
+- **Tags:**
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## DexterCap: An Affordable and Automated System for Capturing Dexterous Hand-Object Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2601.05844)
+- **Published:** 2026-01
+- **Tags:**
+  - Manipulation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
 
 ---

@@ -1,10 +1,10 @@
 # Sim-to-Real
 
-**14 papers** in this category.
+**13 papers** in this category.
 
 ## Months
 
-- [2026-07](/sim-to-real/2026-07) (2 papers)
+- [2026-07](/sim-to-real/2026-07) (1 papers)
 - [2026-06](/sim-to-real/2026-06) (1 papers)
 - [2026-02](/sim-to-real/2026-02) (1 papers)
 - [2026-01](/sim-to-real/2026-01) (1 papers)
@@ -20,44 +20,20 @@
 
 ## Recent Papers
 
-## Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline
+## Optimization of sim-to-real transfer in the humanoid robot NICO
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.22997)
-- **Authors:** Qing Yang, Xun Wang, Ziguan Wang, Zhenjiang Li, Hongqiang Wang, Dongdong Weng
-- **Published:** 2026-07
-- **Real Robot:** ✅
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Gaussian Splatting
-  - Vision-Language
-  - Benchmark
-
-### Summary
-
-Physical AI -- the integration of large vision-language-action (VLA) models with embodied agents that act in the real world -- has emerged as the next major frontier for AI, echoed by industry leaders such as Jensen Huang (``the next big thing is Physical AI, AI with a body,'' GTC Paris, June 2025) and Dr. Lisa Su (`we're entering the world of Physical AI ...
-
----
-
-## 🌟 ReferTrack: Referring Then Tracking for Embodied Visual Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.20061)
-- **Project:** [GitHub](https://github.com/medlartea/refertrack)
-- **Authors:** Hanjing Ye, Tianle Zeng, Jiazhao Zhang, Shaoan Wang, Zibo Zhang, Weisi Situ et al. (9 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18210)
+- **Authors:** Juraj Gavura, Igor Farkaš
 - **Published:** 2026-07
 - **Tags:**
   - Sim-to-Real
   - Humanoid
-  - Vision-Language
-  - Dataset
-  - Simulation Benchmark
+  - Inverse Kinematics
+  - Physics-Based Character Animation
 
 ### Summary
 
-Embodied visual tracking (EVT) requires a mobile agent to continuously follow a specific target described in natural language using only onboard vision. While recent vision-language-action (VLA) policies unify target identification and trajectory planning, their chain-of-thought (CoT) reasoning often operates in abstract spatial latents that are difficult to supervise and weakly aligned with explicit image-space detections.
+Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positioning errors that prevent successful grasping.
 
 ---
 
@@ -96,7 +72,7 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 ---
 
-## 🌟 Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control,  / [code](https://github.com/bigai-ai/LIFT-humanoid)
+## 🌟 Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2601.21363)
 - **Project:** [GitHub](https://lift-humanoid.github.io/)

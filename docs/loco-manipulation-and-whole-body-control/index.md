@@ -1,14 +1,14 @@
 # Loco-Manipulation and Whole-Body Control
 
-**255 papers** in this category.
+**221 papers** in this category.
 
 ## Months
 
-- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (18 papers)
-- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (19 papers)
-- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (39 papers)
-- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (9 papers)
-- [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (3 papers)
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
+- [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
+- [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
+- [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (5 papers)
+- [2026-04](/loco-manipulation-and-whole-body-control/2026-04) (4 papers)
 - [2026-03](/loco-manipulation-and-whole-body-control/2026-03) (9 papers)
 - [2026-02](/loco-manipulation-and-whole-body-control/2026-02) (23 papers)
 - [2026-01](/loco-manipulation-and-whole-body-control/2026-01) (8 papers)
@@ -51,7 +51,6 @@
   - Dataset
   - Loco-Manipulation and Whole-Body Control
   - Simulation Benchmark
-  - Teleoperation
 
 ### Summary
 
@@ -73,33 +72,10 @@ Real-world humanoid tasks involve physical interaction with objects and humans, 
   - Distillation
   - Loco-Manipulation and Whole-Body Control
   - State Estimation
-  - Navigation
 
 ### Summary
 
 Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation.
-
----
-
-## DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.20114)
-- **Authors:** Siyuan Ma, Boshi Zhang, Yutian Zhang, Qinglian Wu, Jiaqi Zhai, Dong Wei et al. (7 authors)
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Robustness
-  - Dataset
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Mobile manipulation requires a robot to predict how locomotion and arm motion jointly alter future observations and control. Existing world-action models, developed largely for fixed-base platforms, do not explicitly distinguish camera ego-motion from base and arm actions.
 
 ---
 
@@ -108,7 +84,6 @@ Mobile manipulation requires a robot to predict how locomotion and arm motion jo
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.18234)
 - **Authors:** Ziyang Cheng, Tianshu Tang, Jinxin Lan, Xinze Chen, Yuhan Gong, Zhichao Liu et al. (20 authors)
 - **Published:** 2026-08
-- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
   - Whole-Body Control
   - Transformer
@@ -122,6 +97,28 @@ Mobile manipulation requires a robot to predict how locomotion and arm motion jo
 ### Summary
 
 Whole-body motion tracking policies turn a humanoid into a robust control interface: the teleoperator---or an upstream model---only supplies a coarse movement intent, while the low-level policy keeps the robot balanced and physically feasible. Existing trackers deliver this interface only on flat ground: trained in empty scenes, they never learn how contact with terrain and objects reshapes their dynamics, and they attempt to teach the policy to balance under any command by continually enlarging the reference-motion corpus, which stops working once feasible behaviors become environment-dependent.
+
+---
+
+## FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.17027)
+- **Authors:** Omar Rayyan, Zhi Li, Max Argus, Yuxin Jiang, Chang Yu, Chenfanfu Jiang et al. (7 authors)
+- **Published:** 2026-08
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Benchmark
+  - Behavior Cloning
+
+### Summary
+
+Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research. However, today's data-hungry algorithms make collecting sufficient demonstrations a struggle for tabletop manipulation, and even more so for humanoids that must also walk and balance.
 
 ---
 
@@ -167,56 +164,45 @@ Accurate throwing of the American football requires precise regulation of releas
 
 ---
 
-## Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans
+## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.16514)
-- **Authors:** Mohamed Amine Kerkouri, Marouane Tliba, Aladine Chetouani, Ulas Bagci, Alessandro Bruno
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.12063)
+- **Authors:** Martin Schuck, Maks Sorokin, Simone Manni, Duy Ta, Angela P. Schoellig, Marco Hutter et al. (8 authors)
 - **Published:** 2026-08
 - **Tags:**
-  - Zero-Shot
-  - Large Language Model
-  - SAC
-  - Loco-Manipulation and Whole-Body Control
+  - Reinforcement Learning
+  - MPC
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Optimal Control
 
 ### Summary
 
-Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath. Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores.
+Integrating locomotion and manipulation is essential for robot autonomy, but scaling standard Reinforcement Learning (RL) to complex tasks is severely bottlenecked by the slow, manual process of dense reward shaping. To bypass this limitation, we leverage Sample-based Model Predictive Control (SMPC) entirely in simulation as an automated, rapidly tunable expert to generate massive offline datasets.
 
 ---
 
-## DeepInsight II: One Trace from Benchmark to Robot
+## Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.16556)
-- **Authors:** Siyi Li, Yuchen Kang, Wuliang Wang, Zhengjie Zhang, Jiangpin Liu, Jianhao Yao et al. (7 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.10220)
+- **Authors:** Carlos Gonzalez, Luis Sentis
 - **Published:** 2026-08
 - **Tags:**
-  - Whole-Body Control
-  - Sim-to-Real
-  - Manipulation
-  - Navigation
-  - Simulator
-  - Foundation Model
+  - Reinforcement Learning
+  - Locomotion
+  - Domain Randomization
+  - Humanoid
+  - Path Planning
+  - Collision
   - Benchmark
   - Loco-Manipulation and Whole-Body Control
 
 ### Summary
 
-Across a Physical AI stack, evaluation maturity is inversely aligned with deployment risk: foundation models enjoy mature, standardized harnesses, while the embodied layers on which deployment actually turns remain fragmented across benchmark-specific simulators, embodiments, and interfaces. The first DeepInsight report (v1) unified evaluation across this stack behind three abstractions---task, resource, and result---but its quantitative evidence centered on the foundation-model layer; navigation and manipulation (System 1) and whole-body control (System 0) remained simulation case studies, and physical execution was outside its empirical scope.
-
----
-
-## Understanding Cognition-Induced Risks in Agentic AI Systems
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.15304)
-- **Authors:** Guanchu Wang, Qinuo Li, Mengnan Du, Xia Hu, Bowen Zhou
-- **Published:** 2026-08
-- **Tags:**
-  - Large Language Model
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Frontier agentic systems powered by large language models (LLMs) exhibit human-like patterns of cognition. As these systems become deeply integrated across different domains, their cognitive engagement raises critical concerns for human society that remain insufficiently studied.
+Humanoid locomotion in highly confined environments requires navigating dense environmental obstacles and complex self-collision bounds while maintaining multi-contact dynamic feasibility. Traditional trajectory optimizers frequently struggle in these restricted spaces, as navigating the large collision space with splines on particle abstractions is insufficient and leads to poor local minima.
 
 ---
 
@@ -231,26 +217,10 @@ Frontier agentic systems powered by large language models (LLMs) exhibit human-l
   - World Model
   - Humanoid
   - Loco-Manipulation and Whole-Body Control
-  - State Estimation
 
 ### Summary
 
 Long-horizon humanoid loco-manipulation requires composing versatile whole-body skills and reliable high-level decision making. Existing methods often coordinate pretrained skills with scripted planners, finite-state machines or task-specific model-free policies, restricting their ability to handle complex task sequences.
-
----
-
-## PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.07438)
-- **Authors:** Mohammad Amanlou, Parham Abed Azad, Farbod Davoodi, Mostafa Masumi, Behnam Bahrak, Abdol-Hossein Vahabie
-- **Published:** 2026-08
-- **Tags:**
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Human-like cognition does not select past experience by topical similarity alone: affective significance and unresolved conflict also shape what becomes accessible. We present PsychoAgent, a cognitive architecture for LLM agents that separates factual and affective memory and integrates both through a conflict-aware executive controller.
 
 ---
 
@@ -272,26 +242,6 @@ Human-like cognition does not select past experience by topical similarity alone
 ### Summary
 
 Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered.
-
----
-
-## MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.04657)
-- **Authors:** Zehua Fan, Junjie He, Wenxuan Song, Xi Wang, Wenqi Lyu, Linge Zhao et al. (17 authors)
-- **Published:** 2026-08
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Transformer
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-World action models (WAMs) built on video generation backbones are a rising recipe for robot learning, yet remain confined to tabletop manipulation. Mobile manipulation demands simultaneous locomotion and whole-body manipulation amid scene-scale dynamics, yet is still dominated by dynamics-blind visual encoders with hand-crafted coordination.
 
 ---
 
@@ -326,8 +276,6 @@ Humanoid robots have the potential to perform dexterous manipulation in human en
   - Humanoid
   - Tactile Sensing
   - Loco-Manipulation and Whole-Body Control
-  - Navigation
-  - Hardware Design
 
 ### Summary
 
@@ -346,34 +294,10 @@ Whole-body tactile sensing is a prerequisite for humanoids that operate in conta
   - PPO
   - SAC
   - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Simulation Benchmark
 
 ### Summary
 
 FastSAC-style methods significantly reduce humanoid motion training time but often suffer from notable performance degradation compared with PPO in whole-body tracking tasks. We target this speed-performance gap by introducing LooperMuscle, a composed expert policy learning framework that restores tracking quality while preserving high training efficiency.
-
----
-
-## First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.00500)
-- **Authors:** Yikai Zhou, Xingyun Wang, Jieming Cui, Bozhou Chen, Yikai Fan, Yixin Zhu et al. (7 authors)
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Simulator
-  - Humanoid
-  - Distillation
-  - Benchmark
-  - PPO
-  - SAC
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-
-### Summary
-
-Unified humanoid policies handle agile whole-body motion, yet stumble on a simple demand: staying balanced on one leg. On our single-leg-balance benchmark, eight released state-of-the-art general policies hold a clean single-leg stance on 0 of 90 test motions; they stay up only by stepping or hopping, recovering from imbalance rather than preventing it.
 
 ---
 
@@ -404,7 +328,6 @@ Existing humanoid whole-body control systems still fall short of the way humans 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.29625)
 - **Authors:** Hyunjong Song, William Z. Peng, Joo H. Kim
 - **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
 - **Tags:**
   - Manipulation
   - Biped
@@ -412,8 +335,6 @@ Existing humanoid whole-body control systems still fall short of the way humans 
   - Trajectory Optimization
   - PPO
   - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Simulation Benchmark
 
 ### Summary
 
@@ -433,11 +354,85 @@ The demand for humanoid loco-manipulation tasks with an object has recently incr
   - Humanoid
   - Benchmark
   - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-  - Simulation Benchmark
 
 ### Summary
 
 We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance represents clearance to every body link, and an adversarial motion prior regularizes the resulting evasive reflexes.
+
+---
+
+## Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20399)
+- **Authors:** Nicolas Kosanovic, Jordan Dowdy, Jean Chagas Vaz
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilizes Virtual Reality for upper-body teleoperation and Reinforcement Learning for lower-body balance and locomotion control.
+
+---
+
+## Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.18016)
+- **Authors:** Peng Ren, Haoyang Ge, Jiang Zhao, Cong Huang, Yukun Shi, Pei Chi et al. (7 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Vision-language-action policies are a promising foundation for general robot control, but long-horizon humanoid loco-manipulation requires the robot to treat task objects as persistent physical entities across movement, contact, occlusion, and recovery. We study this problem as object-state divergence: the object state used to condition a whole-body action can differ from the state used to decide whether the action achieved the intended physical relation.
+
+---
+
+## Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.14182)
+- **Authors:** J. M. A. Marcelo, M. Brienza, E. Bugli, L. Comito, D. Nardi, D. D. Bloisi et al. (7 authors)
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Humanoid
+  - Multi-Modal
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. However, most robotic performances remain based on pre-scripted sequences or externally triggered behaviors, limiting autonomy and responsiveness to dynamic environments.
+
+---
+
+## Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.04837)
+- **Authors:** Yuan Jiang, Ningyuan Zhang, Xicun Yang, Yuzhi Jiang, Jie Chen
+- **Published:** 2026-07
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Fine-tuning
+  - Distillation
+  - DAgger
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Large-scale humanoid motion-tracking controllers are commonly improved by reallocating training effort: difficult motions are sampled more often, isolated into smaller subsets, or assigned to specialized experts. We show that this view is incomplete.
 
 ---

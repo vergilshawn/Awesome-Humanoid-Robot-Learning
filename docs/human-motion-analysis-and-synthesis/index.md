@@ -1,13 +1,12 @@
 # Human Motion Analysis and Synthesis
 
-**27 papers** in this category.
+**23 papers** in this category.
 
 ## Months
 
 - [2026-07](/human-motion-analysis-and-synthesis/2026-07) (1 papers)
-- [2026-06](/human-motion-analysis-and-synthesis/2026-06) (3 papers)
-- [2026-05](/human-motion-analysis-and-synthesis/2026-05) (3 papers)
-- [2026-04](/human-motion-analysis-and-synthesis/2026-04) (1 papers)
+- [2026-06](/human-motion-analysis-and-synthesis/2026-06) (2 papers)
+- [2026-05](/human-motion-analysis-and-synthesis/2026-05) (1 papers)
 - [2026-02](/human-motion-analysis-and-synthesis/2026-02) (2 papers)
 - [2025-12](/human-motion-analysis-and-synthesis/2025-12) (2 papers)
 - [2025-08](/human-motion-analysis-and-synthesis/2025-08) (1 papers)
@@ -32,11 +31,9 @@
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.18197)
 - **Authors:** Anastasiya Ihnatovich, Igor Farkaš
 - **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
 - **Tags:**
   - Humanoid
   - Human Motion Analysis and Synthesis
-  - State Estimation
 
 ### Summary
 
@@ -44,55 +41,40 @@ Seamless human-robot interaction (HRI) requires a number of perceptual and motor
 
 ---
 
-## DanceDuo: Bridging Human Movement and AI Choreography
+## PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.26507)
-- **Authors:** Gia-Cat Bui-Le, Tuong-Vy Truong-Thuy, Hai-Dang Nguyen, Trung-Nghia Le
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.26741)
+- **Authors:** Yi Lu, Shenghao Ren, Tianyu Xiong, Zhaoxiang Li, Jiaqi Li, He Zhang et al. (9 authors)
 - **Published:** 2026-06
 - **Tags:**
-  - Generative Models
+  - Reinforcement Learning
   - Humanoid
-  - Deep Learning
-  - Pose Estimation
-  - Diffusion
-  - Human Motion Analysis and Synthesis
-  - State Estimation
-
-### Summary
-
-In recent years, advancements in deep learning and generative models have revolutionized music-driven dance generation. This paper introduces a novel platform, namely DanceDuo, leveraging diffusion models to generate AI-choreographed dance sequences synchronized with a variety of music genres, to encourage dancing practice.
-
----
-
-## RoboTales: ROBOTic Anthropomorphic LEarning Systems
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.26213)
-- **Authors:** Andrew Chen, Ju-Hung Chen, Phurinat Pinyomit, Alexis E. Block
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Figure
-- **Tags:**
+  - Contact Dynamics
+  - Dataset
   - PPO
   - Human Motion Analysis and Synthesis
 
 ### Summary
 
-RoboTales is a low-cost robotic storytelling system that animates narratives using expressive sock puppetry. Implemented autonomously on a Baxter robot as a test case, RoboTales synchronizes narration, gestures, and mouth movements to perform character-driven stories.
+Humanoid motion imitation requires not only accurate perception of human kinematics but also faithful reproduction of physical interactions with the environment. However, existing pipelines rely primarily on vision-based motion capture and kinematic imitation, largely ignoring contact dynamics, leading to artifacts such as foot sliding, floor penetration, and unstable behaviors.
 
 ---
 
-## Legible and Intuitive Multi-modal Robot State and Intent Communication Validated in Online and Real-world Studies
+## 🌟 WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.24445)
-- **Authors:** Tim Schreiter, Jens V. Rüppel, Andrey Rudenko, Martin Magnusson, Achim J. Lilienthal
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.16600)
+- **Project:** [GitHub](https://github.com/pairs-lab/WaveSync)
+- **Authors:** Thang Tran Viet, Thanh Nguyen Canh, Gia Huy Uong, Phuc Van Dinh, Tan Viet Tuyen Nguyen, Xiem HoangVan et al. (7 authors)
 - **Published:** 2026-06
 - **Tags:**
   - Humanoid
-  - Multi-Modal
+  - Motion Planning
+  - Large Language Model
   - Human Motion Analysis and Synthesis
 
 ### Summary
 
-Effective robot-to-human communication can increase transparency and trust, reduce uncertainty, and contribute to safer collaboration in shared workspaces. Designing and validating an effective robot communication strategy is challenging due to the varying and often limited communication modalities across robots, differences in how diverse recipients interpret messages, and the underexplored virtual-to-real gap in studies of communication legibility.
+Expressive co-speech gestures are crucial for natural human-robot interaction, but generating them on physical humanoid robots is difficult because gesture strokes must align with speech emphasis while satisfying strict kinematic and dynamic constraints. Unlike virtual avatars, humanoid robots cannot freely execute rapid or overlapping motions, making word-level synchronization and hardware-safe motion planning a coupled problem.
 
 ---
 
@@ -107,68 +89,10 @@ Effective robot-to-human communication can increase transparency and trust, redu
   - Gait
   - Foundation Model
   - Human Motion Analysis and Synthesis
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
 
 ### Summary
 
 Whole-body Humanoid-Object Interaction (HOI) is bottlenecked by the scarcity of high-fidelity 3D data. While video generative priors offer a promising alternative, existing methods suffer from \textit{Representation Misalignment} due to their reliance on geometric priors (e.g., explicit CAD models), and \textit{Retargeting Complexity} arising from intensive morphing and morphological mismatch.
-
----
-
-## Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.12347)
-- **Authors:** Hamza Ahmed Durrani, Suleman Khan
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Sim-to-Real
-  - Teleoperation
-  - MuJoCo
-  - Humanoid
-  - Walking
-  - Human Motion Analysis and Synthesis
-  - Locomotion
-  - Simulation Benchmark
-
-### Summary
-
-Stable, low-latency whole-body teleoperation of humanoid robots is an open research challenge, complicated by kinematic mismatches between human and robot morphologies, accumulated inertial sensor noise, non-trivial control latency, and persistent sim-to-real transfer gaps. This paper presents a complete real-time whole-body teleoperation system that maps human motion, recorded with a Virdyn IMU-based full-body motion capture suit, directly onto a Unitree G1 humanoid robot.
-
----
-
-## Cooperative Robotics Reinforced by Collective Perception for Traffic Moderation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.11972)
-- **Authors:** Mohammad Khoshkdahan, John Pravin Arockiasamy, Andy Flores Comeca, Alexey Vinel
-- **Published:** 2026-05
-- **Tags:**
-  - Safety
-  - Humanoid
-  - Collision
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Collisions at non-line-of-sight (NLOS) intersections remain a major safety concern because drivers have limited visibility of approaching traffic. V2X based warnings can reduce these risks, yet many vehicles are not equipped with V2X and drivers may ignore in vehicle alerts.
-
----
-
-## 🌟 RoSHI: Large-scale Motion Imitation in Humanoid Robots via World Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.07331)
-- **Project:** [GitHub](https://roshi-mocap.github.io)
-- **Authors:** Aobo Liang, Juntong Li, Qingnan Liu, Gaofeng Li, Jiawei Li, Runyu Zhang et al. (10 authors)
-- **Published:** 2026-04
-- **Tags:**
-  - World Model
-  - Humanoid
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-RoSHI studies large-scale motion imitation for humanoid robots via world models. The method learns from large human motion corpora and trains humanoid control policies for motion tracking and imitation, targeting scalable humanoid skill acquisition from motion data..
 
 ---
 
@@ -330,6 +254,61 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2410.03311)
 - **Published:** 2024-10
 - **Tags:**
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Flexible Motion In-betweening with Diffusion Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2405.11126)
+- **Published:** 2024-05
+- **Tags:**
+  - Diffusion
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Taming Diffusion Probabilistic Models for Character Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2404.15121)
+- **Published:** 2024-04
+- **Tags:**
+  - Diffusion
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## OmniControl: Control Any Joint at Any Time for Human Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2310.08580)
+- **Published:** 2023-10
+- **Tags:**
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## TEDi: Temporally-Entangled Diffusion for Long-Term Motion Synthesis
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2307.15042)
+- **Published:** 2023-07
+- **Tags:**
+  - Diffusion
   - Human Motion Analysis and Synthesis
 
 ### Summary

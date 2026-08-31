@@ -149,15 +149,48 @@ categories:
       - human body
 
 relevance_keywords:
+  # Historical entries were manually imported from established reading lists.
+  # Apply the stricter automatic gate to the noisy 2026 expansion and onward.
+  strict_filter_from: "2026-05-01"
+  # A paper must have one of these in its title, or pair a humanoid/biped term
+  # with explicit robotics context in its abstract. "human-like" alone is not
+  # evidence of relevance.
+  title_required:
+    - humanoid
+    - bipedal robot
+    - biped robot
+    - whole-body humanoid
+    - whole-body control
+    - whole-body manipulation
+    - whole-body locomotion
+    - whole-body tracking
+    - loco-manipulation
+    - human-to-robot
+    - human2robot
+    - human2humanoid
+    - unitree g1
+    - unitree h1
+    - atlas robot
+    - digit robot
+  platform_context:
+    - unitree g1
+    - unitree h1
+    - fourier gr-1
+    - fourier gr1
+    - agility digit
+    - atlas humanoid
+    - booster t1
+    - booster k1
+    - nao humanoid
+    - hrp-2
+    - hrp-4
   high_priority:
     - humanoid
     - biped
     - bipedal
     - whole-body control
     - humanoid robot
-    - anthropomorphic
-    - human-like
-    - humanlike
+    - anthropomorphic robot
   medium_priority:
     - locomotion
     - manipulation

@@ -1,14 +1,12 @@
 # Physics-Based Character Animation
 
-**44 papers** in this category.
+**41 papers** in this category.
 
 ## Months
 
 - [2026-08](/physics-based-character-animation/2026-08) (2 papers)
-- [2026-07](/physics-based-character-animation/2026-07) (4 papers)
-- [2026-06](/physics-based-character-animation/2026-06) (4 papers)
+- [2026-06](/physics-based-character-animation/2026-06) (6 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
-- [2026-04](/physics-based-character-animation/2026-04) (1 papers)
 - [2026-02](/physics-based-character-animation/2026-02) (2 papers)
 - [2025-12](/physics-based-character-animation/2025-12) (2 papers)
 - [2025-10](/physics-based-character-animation/2025-10) (1 papers)
@@ -50,7 +48,6 @@
   - Optimal Control
   - PPO
   - Physics-Based Character Animation
-  - Navigation
 
 ### Summary
 
@@ -63,14 +60,11 @@ A humanoid has infinitely many ways to stand up from sitting while maintaining b
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.01410)
 - **Authors:** Zeyu Ling, Xinyao Yu, Renye Yan, Jikang Cheng, Zhanke Wang, Qing Shuai et al. (7 authors)
 - **Published:** 2026-08
-- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
   - Zero-Shot
   - Humanoid
   - Benchmark
   - Physics-Based Character Animation
-  - Simulation Benchmark
-  - Human Motion Analysis and Synthesis
 
 ### Summary
 
@@ -78,74 +72,23 @@ General-purpose humanoid trackers can execute diverse references, but their zero
 
 ---
 
-## Optimization of sim-to-real transfer in the humanoid robot NICO
+## TEXEDO : Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.18210)
-- **Authors:** Juraj Gavura, Igor Farkaš
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.22998)
+- **Authors:** Jianuo Cao, Yuxin Chen, Yuzhen Song, Masayoshi Tomizuka, Chenran Li, Thomas Tian
+- **Published:** 2026-06
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
-  - Sim-to-Real
   - Humanoid
-  - Inverse Kinematics
+  - Language-Conditioned
+  - Contact Dynamics
+  - Dataset
   - Physics-Based Character Animation
-  - Manipulation
-  - Teleoperation
-  - Navigation
-  - State Estimation
+  - Simulation Benchmark
 
 ### Summary
 
-Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positioning errors that prevent successful grasping.
-
----
-
-## From Sign Language Generation to Humanoid Execution: Vision-Language Guided Retargeting with Collision Mitigation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.17769)
-- **Authors:** Nabeela Khan, Bowen Wu, Runwu Shi, Benjamin Yen, Takeshi Ashizawa, Carlos Toshinori Ishi et al. (8 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Humanoid
-  - Vision-Language
-  - Collision
-  - Physics-Based Character Animation
-
-### Summary
-
-Recent sign language generation (SLG) systems increasingly output dense 3D body representations, which better preserve full-body kinematics and geometry for downstream embodiment on humanoid robots. However, these generated motions frequently exhibit self-intersections such as hand-hand and hand-torso penetration.
-
----
-
-## An LLM-Based Automatic Sportscast Solution for Robot Soccer Matches
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.14809)
-- **Authors:** Francesco Petri, Michele Brienza, Daniele Nardi, Domenico Daniele Bloisi, Aldo Gangemi, Vincenzo Suriani
-- **Published:** 2026-07
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-RoboCup has always been a scenario to develop systems that solve real-world problems. Driven by the main goal of playing against the 2050 FIFA World Cup champions, the RoboCup Soccer leagues need to constantly measure how the research community is progressing.
-
----
-
-## A New Human-Likeness and Comfort Index for Robot Movements Along Prescribed Paths
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.08620)
-- **Authors:** Rosanna Coccaro, Enrico Ferrentino, Antonio Parziale, Angelo Marcelli, Pasquale Chiacchio
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-As human-robot interaction rapidly spreads in numerous fields, the subject of robot acceptance gains increasing importance. Visual similarity to the human body, as occurs for humanoids, is generally not enough to ensure acceptance in physical interaction, as acceptance directly links to comfort and ergonomics, which are measured in terms of the quality of the robot movement perceived by the human.
+Text-conditioned motion generation is a promising interface for programming humanoid robots, yet current generators are often trained on human motion datasets retargeted to robot morphologies. Although such data provides rich semantic and kinematic priors, it fails to capture the nuances of whole-body tracking controllers, including balance, contact dynamics, actuation limits, and controller-specific failure modes.
 
 ---
 
@@ -158,31 +101,10 @@ As human-robot interaction rapidly spreads in numerous fields, the subject of ro
   - Humanoid
   - Dataset
   - Physics-Based Character Animation
-  - Simulation Benchmark
-  - Human Motion Analysis and Synthesis
 
 ### Summary
 
 Humanoid robots require co-speech motions that are not only expressive and speech-aligned, but also physically executable under embodiment constraints. Existing co-speech generation pipelines are predominantly human-centric: motions are first generated in human-body representations such as SMPL-X and subsequently retargeted to humanoid robots.
-
----
-
-## 🌟 WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.16600)
-- **Project:** [GitHub](https://github.com/pairs-lab/WaveSync)
-- **Authors:** Thang Tran Viet, Thanh Nguyen Canh, Gia Huy Uong, Phuc Van Dinh, Tan Viet Tuyen Nguyen, Xiem HoangVan et al. (7 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - Motion Planning
-  - Large Language Model
-  - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Expressive co-speech gestures are crucial for natural human-robot interaction, but generating them on physical humanoid robots is difficult because gesture strokes must align with speech emphasis while satisfying strict kinematic and dynamic constraints. Unlike virtual avatars, humanoid robots cannot freely execute rapid or overlapping motions, making word-level synchronization and hardware-safe motion planning a coupled problem.
 
 ---
 
@@ -199,7 +121,6 @@ Expressive co-speech gestures are crucial for natural human-robot interaction, b
   - Actor-Critic
   - SAC
   - Physics-Based Character Animation
-  - State Estimation
 
 ### Summary
 
@@ -207,43 +128,59 @@ Humanoid robots performing in-field manipulation tasks, such as robotic apple ha
 
 ---
 
-## 🌟 MotionVLA: Vision-Language-Action Model for Humanoid Motion
+## Identification of a Physics-Based Electrical Power Consumption Model for the Unitree G1 Humanoid Arm
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.15142)
-- **Project:** [GitHub](https://github.com/aigeeksgroup/motionvla)
-- **Authors:** Nonghai Zhang, Siyu Zhai, Yanjun Li, Zeyu Zhang, Zhihan Yin, Yandong Guo et al. (8 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.15915)
+- **Authors:** Nestor N. Deniz, Sebastian Vega, Simon Parsons, Fernando Auat Cheein
 - **Published:** 2026-06
 - **Tags:**
+  - Humanoid
+  - Friction
+  - Motion Planning
+  - Dataset
+  - Physics-Based Character Animation
+
+### Summary
+
+Accurate prediction of electrical power consumption is essential for energy-aware motion planning, battery management, and thermal monitoring in battery-powered humanoid robots. This letter presents a physics-based, linear-in-parameters model for the electrical power consumption of the seven-degree-of-freedom left arm of the Unitree~G1 humanoid robot.
+
+---
+
+## OMG: Omni-Modal Motion Generation for Generalist Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.10340)
+- **Authors:** Siqiao Huang, Kun-Ying Lee, Dongming Qiao, Guanqi He, Zhenyu Wang, Yitang Li et al. (8 authors)
+- **Published:** 2026-06
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Foundation Model
+  - Diffusion
+  - Multi-Modal
+  - Physics-Based Character Animation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid whole-body control has made significant progress in recent years, yet existing approaches remain limited to few-skill policies with heavy reward engineering, or motion trackers that are difficult to extend to new input modalities. We argue that the key to general-purpose humanoid control is to build a scalable brain, a module capable of reasoning with diverse conditioning modalities, atop a reactive motion tracking cerebellum, mirroring the hierarchical structure of biological motor systems.
+
+---
+
+## EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.08495)
+- **Authors:** Haoyang Ge, Peng Ren, Yukun Shi, Cong Huang, Kun Li, Kai Chen
+- **Published:** 2026-06
+- **Tags:**
+  - Human Demonstration
   - Humanoid
   - Vision-Language
   - PPO
   - Physics-Based Character Animation
-  - Human Motion Analysis and Synthesis
 
 ### Summary
 
-Generating realistic humanoid motion from scene images and text involves both low-frequency pose semantics and high-frequency physical dynamics. However, many existing methods tokenize motion with a single shared codebook, forcing heterogeneous motion signals into the same quantization space.
-
----
-
-## Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.28394)
-- **Authors:** Gaurav Rai, Ojaswa Sharma
-- **Published:** 2026-05
-- **Tags:**
-  - Simulator
-  - Biped
-  - Distillation
-  - Dataset
-  - Diffusion
-  - Physics-Based Character Animation
-  - Locomotion
-  - Navigation
-
-### Summary
-
-Animation of 2D hand-drawn sketches provides an effective medium for visual communication. However, these sketches pose challenges, particularly in handling occlusions and accurately mapping motion.
+Humanoid robots require whole-body motions that adapt to scene context, task requirements, and user intent. Motion tracking reproduces specified trajectories, and humanoid vision-language-action systems provide semantic interfaces, but neither offers a scalable and interactive prior for broad full-body behavior.
 
 ---
 
@@ -263,25 +200,24 @@ Enabling physics-based humanoids to execute diverse behaviors from high-level te
 
 ---
 
-## A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models
+## SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-based Humanoid Control
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.17258)
-- **Authors:** Yifei Yan, Yankai Liao, Linqi Ye
-- **Published:** 2026-04
-- **Real Robot:** ✅ — Unitree G1
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.22894)
+- **Authors:** Jingyan Zhang, Han Liang, Ruichi Zhang, Bin Li, Juze Zhang, Xin Chen et al. (9 authors)
+- **Published:** 2026-05
 - **Tags:**
-  - Zero-Shot
-  - Real Robot
+  - Reinforcement Learning
+  - Diffusion Policy
+  - Transformer
   - Humanoid
-  - Inverse Kinematics
-  - 3D Reconstruction
-  - Foundation Model
+  - Pre-training
+  - Dataset
+  - Diffusion
   - Physics-Based Character Animation
-  - Manipulation
 
 ### Summary
 
-This paper presents an end-to-end rapid deployment pipeline for humanoid grasping that combines foundation-model components for annotation, 3D reconstruction, and zero-shot pose tracking. The estimated pose drives a Unity inverse kinematics planner whose joint commands are streamed to a Unitree G1 humanoid via UDP and executed through the Unitree SDK.
+Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control.
 
 ---
 
@@ -369,6 +305,48 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.20717)
 - **Published:** 2025-09
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2508.19926)
+- **Published:** 2025-08
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and RL
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2508.14120)
+- **Published:** 2025-08
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Humanoid Robot Acrobatics Utilizing Complete Articulated Rigid Body Dynamics
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2508.08258)
+- **Published:** 2025-08
 - **Tags:**
   - Humanoid
   - Physics-Based Character Animation
