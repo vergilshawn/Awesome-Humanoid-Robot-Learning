@@ -1,5 +1,63 @@
 [
   {
+    "arxiv_id": "2608.28213",
+    "title": "PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2608.28213",
+    "project_url": null,
+    "authors": [
+      "Yan Pan",
+      "Lingfan Bao",
+      "Tianhu Peng",
+      "Chengxu Zhou"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-28",
+    "abstract": "People read a humanoid robot's motion in social settings not only for the action performed but for the affect conveyed. Motion carrying that affect has so far been generated for human avatars, where style is taken from a reference clip or an emotion word, neither of which can be quantitatively parameterized. We present PAMoR, which turns affect into a measured control parameter: a valence-arousal (V-A) coordinate computed natively on robot kinematics. It is obtained in closed form from postural expansion and movement energy, and these measurements serve directly as generation conditions, with no human annotation. An action prior and two affect priors, trained in a shared latent space, are composed at each denoising step: the action prior fixes what is performed, the affect priors modulate how. Whole-body motion rolls out autoregressively on a 29-DoF Unitree G1 in real time, with action and affect both editable. Generated motion tracks the commanded V-A over its full range while text-to-motion fidelity still matches text-only baselines. In a perceptual study, raters identify the commanded emotion on 0.38 of trials, above both baselines and approaching the 0.44 reported for acted human bodies.",
+    "categories": [
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2608.28090",
+    "title": "Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters",
+    "paper_url": "https://arxiv.org/abs/2608.28090",
+    "project_url": null,
+    "authors": [
+      "Kango Yanagida",
+      "Kazuki Miyazawa",
+      "Takato Horii"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-28",
+    "abstract": "Humanoid robots with quasi-direct-drive actuators continuously generate joint torque while standing, whereas seated humans delegate weight support to chairs during desk work. As a first step toward seated loco-manipulation, we study omnidirectional seated locomotion on a passive mobile chair, requiring unfixed pelvis-seat contact and intermittent foot-floor propulsion of the robot-chair system. We extend a standard standing velocity-tracking environment with a passive-chair model, seated-state rewards, critic-only chair observations, and task-tailored contact settings. The policy is learned without motion-imitation rewards; its actor uses only proprioception and velocity commands, without contact sensing or chair states. In random-command evaluation, the policies tracked omnidirectional commands through nearly all 20-s rollouts, and the best seated policies could outperform the Standing policy in velocity tracking. Across four training seeds, a $2^3$ full-factorial comparison of symmetry regularization (SY), foot-slip regularization (FS), and command curriculum (CC) showed that FS reduced CoT but increased tracking error and that some FS-only policies converged to stationary local optima. Combining FS with either SY or CC avoided this failure without retuning FS, while SY improved bilateral leg symmetry during longitudinal motion. Direction-resolved analysis showed CoT ordered backward $<$ lateral $\\ll$ forward, with planted-leg extension in backward and lateral motion and knee flexion following heel contact in forward motion. The learned policy achieved zero-shot sim-to-real transfer to a Unitree G1 and generated omnidirectional seated locomotion.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Locomotion",
+      "Manipulation",
+      "Zero-Shot",
+      "Humanoid",
+      "Proprioception",
+      "PPO"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2608.26583",
     "title": "SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion",
     "paper_url": "https://arxiv.org/abs/2608.26583",
@@ -141,38 +199,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "State Estimation"
-  },
-  {
-    "arxiv_id": "2608.22278",
-    "title": "DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model",
-    "paper_url": "https://arxiv.org/abs/2608.22278",
-    "project_url": "https://github.com/DreamMimic/DreamMimic",
-    "authors": [
-      "Jie Yin",
-      "Xingyu Lai"
-    ],
-    "published": "2026-08",
-    "published_date": "2026-08-23",
-    "abstract": "Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \\href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation. Instead of using a Dreamer-style RSSM for planning, we repurpose it to learn predictive latent dynamics that serve as both a representation space and an action-conditioned multi-step supervision signal, while exposing compact predictive features to the student policy to reduce long-term drift. Beyond standard reconstruction objectives for proprioceptive and visual observations, we add auxiliary prediction heads for privileged state, contact, object state, and reward estimation. These heads provide additional supervision related to agent--object interaction and task progress, encouraging the latent representation to retain signals that are useful for contact-rich loco-manipulation. We further introduce Performance-Conditioned Guidance (PCG), a reward-driven adaptive distillation schedule that computes performance scores for both teacher and student to dynamically balance guidance and exploration. PCG prevents both premature teacher annealing and excessive teacher interference in challenging visual settings. Experiments on OMOMO and BEHAVE show improved tracking-based loco-manipulation performance over strong vision-based baselines, without exposing online privileged interaction states to the student at deployment. Qualitative simulations further examine morphology and simulator changes. These results suggest that world models can provide a useful mechanism for stabilizing visual policy distillation in contact-rich humanoid behaviors.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control",
-      "Manipulation",
-      "State Estimation"
-    ],
-    "tags": [
-      "Manipulation",
-      "World Model",
-      "Simulator",
-      "Humanoid",
-      "Distillation",
-      "Loco-Manipulation and Whole-Body Control",
-      "State Estimation"
-    ],
-    "real_robot": false,
-    "open_source": true,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
     "arxiv_id": "2608.21550",

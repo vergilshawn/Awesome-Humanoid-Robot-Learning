@@ -8,29 +8,33 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 635
+- **Total Papers:** 636
 - **Real Robot Papers:** 44
-- **Open Source Papers:** 126
+- **Open Source Papers:** 125
 - **Latest Month:** 2026-08
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (221)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (220)
 - [Manipulation](/manipulation/) (63)
 - [Teleoperation](/teleoperation/) (25)
-- [Locomotion](/locomotion/) (151)
+- [Locomotion](/locomotion/) (152)
 - [Navigation](/navigation/) (22)
 - [State Estimation](/state-estimation/) (13)
 - [Sim-to-Real](/sim-to-real/) (13)
 - [Hardware Design](/hardware-design/) (31)
 - [Simulation Benchmark](/simulation-benchmark/) (32)
-- [Physics-Based Character Animation](/physics-based-character-animation/) (41)
+- [Physics-Based Character Animation](/physics-based-character-animation/) (42)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (23)
 
 ---
 
 ## 🔥 Latest Papers
 
+-  [PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots](https://arxiv.org/abs/2608.28213) — 2026-08
+  - [Physics-Based Character Animation](/physics-based-character-animation/)
+-  [Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters](https://arxiv.org/abs/2608.28090) — 2026-08
+  - [Locomotion](/locomotion/)
 -  [SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion](https://arxiv.org/abs/2608.26583) — 2026-08
   - [Locomotion](/locomotion/)
 -  [Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions](https://arxiv.org/abs/2608.26505) — 2026-08
@@ -39,8 +43,6 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid](https://arxiv.org/abs/2608.23304) — 2026-08
   - [State Estimation](/state-estimation/)
-- 🌟 [DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model](https://arxiv.org/abs/2608.22278) — 2026-08
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly](https://arxiv.org/abs/2608.21550) — 2026-08
   - [Simulation Benchmark](/simulation-benchmark/)
 -  🤖 [Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface](https://arxiv.org/abs/2608.20852) — 2026-08
@@ -49,35 +51,33 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Physics-Based Character Animation](/physics-based-character-animation/)
 -  🤖 [Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking](https://arxiv.org/abs/2608.20087) — 2026-08
   - [Locomotion](/locomotion/)
--  [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) — 2026-08
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (499)
-- **Loco-Manipulation and Whole-Body Control** (228)
-- **Locomotion** (200)
+- **Humanoid** (500)
+- **Loco-Manipulation and Whole-Body Control** (227)
+- **Locomotion** (201)
 - **Manipulation** (163)
 - **Reinforcement Learning** (77)
 - **Whole-Body Control** (55)
 - **Simulation Benchmark** (52)
 - **Teleoperation** (50)
-- **Physics-Based Character Animation** (48)
-- **PPO** (43)
-- **Sim-to-Real** (35)
+- **Physics-Based Character Animation** (49)
+- **PPO** (44)
+- **Sim-to-Real** (36)
 - **Navigation** (34)
 - **Dataset** (33)
 - **Hardware Design** (31)
-- **State Estimation** (29)
+- **Zero-Shot** (29)
 - **Vision-Language** (29)
-- **Zero-Shot** (28)
+- **State Estimation** (28)
 - **Human Motion Analysis and Synthesis** (27)
 - **Diffusion** (26)
 - **Benchmark** (25)
-- **Distillation** (23)
 - **Walking** (23)
+- **Distillation** (22)
 - **Safety** (21)
 - **Foundation Model** (21)
 - **Robustness** (19)
@@ -85,7 +85,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Biped** (16)
 - **Human Demonstration** (15)
 - **Imitation Learning** (14)
-- **Proprioception** (12)
+- **Proprioception** (13)
 
 ---
 
@@ -96,7 +96,6 @@ A curated and automatically updated collection of humanoid robot learning resear
 #### [2026-08](/loco-manipulation-and-whole-body-control/2026-08)
 
 - [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](https://arxiv.org/abs/2608.25405) — `Reinforcement Learning`, `Whole-Body Control`, `Manipulation`, `Humanoid`, `Dataset`, `Loco-Manipulation and Whole-Body Control`
-- 🌟 [DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model](https://arxiv.org/abs/2608.22278), [website](https://github.com/DreamMimic/DreamMimic) — `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Distillation`, `Loco-Manipulation and Whole-Body Control`
 - [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) — `Whole-Body Control`, `Transformer`, `World Model`, `Humanoid`, `Fine-tuning`, `Robust Control`
 - [FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences](https://arxiv.org/abs/2608.17027) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`
 - [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Safety`, `Humanoid`, `Vision-Language`
@@ -614,6 +613,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/locomotion/2026-08)
 
+- [Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters](https://arxiv.org/abs/2608.28090) — `Sim-to-Real`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Proprioception`
 - [SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion](https://arxiv.org/abs/2608.26583) — `Locomotion`, `Zero-Shot`, `Humanoid`, `Proprioception`, `Distillation`, `PPO`
 - [Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions](https://arxiv.org/abs/2608.26505) — `Locomotion`, `Biped`, `Humanoid`, `Walking`
 - [Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking](https://arxiv.org/abs/2608.20087) — `Sim-to-Real`, `Robustness`, `Real Robot`, `Humanoid`, `Motion Planning`, `Locomotion`
@@ -1185,6 +1185,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-08](/physics-based-character-animation/2026-08)
 
+- [PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots](https://arxiv.org/abs/2608.28213) — `Humanoid`, `Physics-Based Character Animation`
 - [Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards](https://arxiv.org/abs/2608.20823) — `Reinforcement Learning`, `Robustness`, `Humanoid`, `Inverse Kinematics`, `Optimal Control`, `PPO`
 - [GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking](https://arxiv.org/abs/2608.01410) — `Zero-Shot`, `Humanoid`, `Benchmark`, `Physics-Based Character Animation`
 

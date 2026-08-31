@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**41 papers** in this category.
+**42 papers** in this category.
 
 ## Months
 
-- [2026-08](/physics-based-character-animation/2026-08) (2 papers)
+- [2026-08](/physics-based-character-animation/2026-08) (3 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (6 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
 - [2026-02](/physics-based-character-animation/2026-02) (2 papers)
@@ -34,6 +34,21 @@
 ---
 
 ## Recent Papers
+
+## PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.28213)
+- **Authors:** Yan Pan, Lingfan Bao, Tianhu Peng, Chengxu Zhou
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+
+### Summary
+
+People read a humanoid robot's motion in social settings not only for the action performed but for the affect conveyed. Motion carrying that affect has so far been generated for human avatars, where style is taken from a reference clip or an emotion word, neither of which can be quantitatively parameterized.
+
+---
 
 ## Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards
 
@@ -332,20 +347,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and RL
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.14120)
-- **Published:** 2025-08
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Humanoid Robot Acrobatics Utilizing Complete Articulated Rigid Body Dynamics
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.08258)
 - **Published:** 2025-08
 - **Tags:**
   - Humanoid

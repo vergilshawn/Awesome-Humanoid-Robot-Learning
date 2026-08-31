@@ -2,6 +2,41 @@
 
 All papers sorted by publication date (newest first).
 
+## PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.28213)
+- **Authors:** Yan Pan, Lingfan Bao, Tianhu Peng, Chengxu Zhou
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+
+### Summary
+
+People read a humanoid robot's motion in social settings not only for the action performed but for the affect conveyed. Motion carrying that affect has so far been generated for human avatars, where style is taken from a reference clip or an emotion word, neither of which can be quantitatively parameterized.
+
+---
+
+## Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.28090)
+- **Authors:** Kango Yanagida, Kazuki Miyazawa, Takato Horii
+- **Published:** 2026-08
+- **Tags:**
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - PPO
+
+### Summary
+
+Humanoid robots with quasi-direct-drive actuators continuously generate joint torque while standing, whereas seated humans delegate weight support to chairs during desk work. As a first step toward seated loco-manipulation, we study omnidirectional seated locomotion on a passive mobile chair, requiring unfixed pelvis-seat contact and intermittent foot-floor propulsion of the robot-chair system.
+
+---
+
 ## SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.26583)
@@ -74,27 +109,6 @@ Real-world humanoid tasks involve physical interaction with objects and humans, 
 ### Summary
 
 Proprioception in musculoskeletal humanoids is typically estimated primarily from muscle sensing, while the role of cutaneous deformation around joints remains insufficiently explored. In biological systems, mechanoreceptors distributed within soft tissue complement muscle feedback and support reliable joint state estimation.
-
----
-
-## 🌟 DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.22278)
-- **Project:** [GitHub](https://github.com/DreamMimic/DreamMimic)
-- **Authors:** Jie Yin, Xingyu Lai
-- **Published:** 2026-08
-- **Tags:**
-  - Manipulation
-  - World Model
-  - Simulator
-  - Humanoid
-  - Distillation
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation.
 
 ---
 

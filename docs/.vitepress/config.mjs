@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (221)",
+            "text": "Loco-Manipulation and Whole-Body Control (220)",
             "collapsed": true,
             "items": [
                   {
@@ -350,7 +350,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (151)",
+            "text": "Locomotion (152)",
             "collapsed": true,
             "items": [
                   {
@@ -806,7 +806,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (41)",
+            "text": "Physics-Based Character Animation (42)",
             "collapsed": true,
             "items": [
                   {

@@ -1,10 +1,10 @@
 # Locomotion
 
-**151 papers** in this category.
+**152 papers** in this category.
 
 ## Months
 
-- [2026-08](/locomotion/2026-08) (10 papers)
+- [2026-08](/locomotion/2026-08) (11 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
 - [2026-05](/locomotion/2026-05) (7 papers)
@@ -38,6 +38,26 @@
 ---
 
 ## Recent Papers
+
+## Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.28090)
+- **Authors:** Kango Yanagida, Kazuki Miyazawa, Takato Horii
+- **Published:** 2026-08
+- **Tags:**
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - PPO
+
+### Summary
+
+Humanoid robots with quasi-direct-drive actuators continuously generate joint torque while standing, whereas seated humans delegate weight support to chairs during desk work. As a first step toward seated loco-manipulation, we study omnidirectional seated locomotion on a passive mobile chair, requiring unfixed pelvis-seat contact and intermittent foot-floor propulsion of the robot-chair system.
+
+---
 
 ## SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion
 
@@ -376,22 +396,5 @@ Understanding the computational basis of action recognition is a central challen
 ### Summary
 
 Recent sign language generation (SLG) systems increasingly output dense 3D body representations, which better preserve full-body kinematics and geometry for downstream embodiment on humanoid robots. However, these generated motions frequently exhibit self-intersections such as hand-hand and hand-torso penetration.
-
----
-
-## Scaling Behavior Foundation Model for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.15163)
-- **Authors:** Weishuai Zeng, Kangning Yin, Xiaojie Niu, Shunlin Lu, Weixiang Zhong, Jiahe Chen et al. (18 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Transformer
-  - Humanoid
-  - Foundation Model
-  - Locomotion
-
-### Summary
-
-Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Models (BFMs) have recently emerged as a promising solution to address these challenges by leveraging large-scale behavioral data to achieve superior expressiveness, versatility and generalization.
 
 ---
