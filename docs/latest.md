@@ -112,6 +112,27 @@ Proprioception in musculoskeletal humanoids is typically estimated primarily fro
 
 ---
 
+## 🌟 DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.22278)
+- **Project:** [GitHub](https://github.com/DreamMimic/DreamMimic)
+- **Authors:** Jie Yin, Xingyu Lai
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - World Model
+  - Simulator
+  - Humanoid
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation.
+
+---
+
 ## GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.21550)

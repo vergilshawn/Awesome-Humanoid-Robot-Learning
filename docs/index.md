@@ -8,14 +8,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 636
+- **Total Papers:** 637
 - **Real Robot Papers:** 44
-- **Open Source Papers:** 125
+- **Open Source Papers:** 126
 - **Latest Month:** 2026-08
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (220)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (221)
 - [Manipulation](/manipulation/) (63)
 - [Teleoperation](/teleoperation/) (25)
 - [Locomotion](/locomotion/) (152)
@@ -43,23 +43,23 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid](https://arxiv.org/abs/2608.23304) — 2026-08
   - [State Estimation](/state-estimation/)
+- 🌟 [DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model](https://arxiv.org/abs/2608.22278) — 2026-08
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly](https://arxiv.org/abs/2608.21550) — 2026-08
   - [Simulation Benchmark](/simulation-benchmark/)
 -  🤖 [Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface](https://arxiv.org/abs/2608.20852) — 2026-08
   - [Simulation Benchmark](/simulation-benchmark/)
 -  [Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards](https://arxiv.org/abs/2608.20823) — 2026-08
   - [Physics-Based Character Animation](/physics-based-character-animation/)
--  🤖 [Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking](https://arxiv.org/abs/2608.20087) — 2026-08
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (500)
-- **Loco-Manipulation and Whole-Body Control** (227)
+- **Humanoid** (501)
+- **Loco-Manipulation and Whole-Body Control** (228)
 - **Locomotion** (201)
-- **Manipulation** (163)
+- **Manipulation** (164)
 - **Reinforcement Learning** (77)
 - **Whole-Body Control** (55)
 - **Simulation Benchmark** (52)
@@ -71,13 +71,13 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Dataset** (33)
 - **Hardware Design** (31)
 - **Zero-Shot** (29)
+- **State Estimation** (29)
 - **Vision-Language** (29)
-- **State Estimation** (28)
 - **Human Motion Analysis and Synthesis** (27)
 - **Diffusion** (26)
 - **Benchmark** (25)
+- **Distillation** (23)
 - **Walking** (23)
-- **Distillation** (22)
 - **Safety** (21)
 - **Foundation Model** (21)
 - **Robustness** (19)
@@ -96,6 +96,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 #### [2026-08](/loco-manipulation-and-whole-body-control/2026-08)
 
 - [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](https://arxiv.org/abs/2608.25405) — `Reinforcement Learning`, `Whole-Body Control`, `Manipulation`, `Humanoid`, `Dataset`, `Loco-Manipulation and Whole-Body Control`
+- 🌟 [DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model](https://arxiv.org/abs/2608.22278), [website](https://github.com/DreamMimic/DreamMimic) — `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Distillation`, `Loco-Manipulation and Whole-Body Control`
 - [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) — `Whole-Body Control`, `Transformer`, `World Model`, `Humanoid`, `Fine-tuning`, `Robust Control`
 - [FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences](https://arxiv.org/abs/2608.17027) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`
 - [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Safety`, `Humanoid`, `Vision-Language`

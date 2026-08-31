@@ -2,15 +2,15 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 636
+- **Total Papers:** 637
 - **Real Robot Papers:** 44
-- **Open Source Papers:** 125
+- **Open Source Papers:** 126
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (220)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (221)
 - [Manipulation](#manipulation) (63)
 - [Teleoperation](#teleoperation) (25)
 - [Locomotion](#locomotion) (152)
@@ -30,6 +30,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 ### 2026-08
 
 - [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](https://arxiv.org/abs/2608.25405) — `Reinforcement Learning`, `Whole-Body Control`, `Manipulation`, `Humanoid`, `Dataset`, `Loco-Manipulation and Whole-Body Control`
+- 🌟 [DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model](https://arxiv.org/abs/2608.22278), [website](https://github.com/DreamMimic/DreamMimic) — `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Distillation`, `Loco-Manipulation and Whole-Body Control`
 - [GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction](https://arxiv.org/abs/2608.18234) — `Whole-Body Control`, `Transformer`, `World Model`, `Humanoid`, `Fine-tuning`, `Robust Control`
 - [FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences](https://arxiv.org/abs/2608.17027) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`
 - [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Safety`, `Humanoid`, `Vision-Language`

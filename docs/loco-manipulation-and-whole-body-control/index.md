@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**220 papers** in this category.
+**221 papers** in this category.
 
 ## Months
 
-- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (13 papers)
+- [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
 - [2026-05](/loco-manipulation-and-whole-body-control/2026-05) (5 papers)
@@ -55,6 +55,27 @@
 ### Summary
 
 Real-world humanoid tasks involve physical interaction with objects and humans, yet current controllers either reject external forces as disturbances or restrict compliance to limited body links while ignoring angular effects. We present LAC, a general whole-body controller that simultaneously realizes commanded Linear and Angular Compliance for wrenches applied to the upper body.
+
+---
+
+## 🌟 DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.22278)
+- **Project:** [GitHub](https://github.com/DreamMimic/DreamMimic)
+- **Authors:** Jie Yin, Xingyu Lai
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - World Model
+  - Simulator
+  - Humanoid
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation.
 
 ---
 
@@ -413,25 +434,5 @@ Recent advances in humanoid robotics and reinforcement learning have enabled the
 ### Summary
 
 Large-scale humanoid motion-tracking controllers are commonly improved by reallocating training effort: difficult motions are sampled more often, isolated into smaller subsets, or assigned to specialized experts. We show that this view is incomplete.
-
----
-
-## VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.30645)
-- **Authors:** Yen-Jen Wang, Jiaman Li, Sirui Chen, Takara E. Truong, Pei Xu, Pieter Abbeel et al. (12 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Sim-to-Real
-  - Manipulation
-  - Navigation
-  - Humanoid
-  - Gaussian Splatting
-  - Vision-Language
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this complete tuple at scale.
 
 ---
