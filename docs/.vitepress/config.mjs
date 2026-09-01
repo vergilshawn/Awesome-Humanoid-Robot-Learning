@@ -174,7 +174,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (63)",
+            "text": "Manipulation (64)",
             "collapsed": true,
             "items": [
                   {
@@ -350,7 +350,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (152)",
+            "text": "Locomotion (153)",
             "collapsed": true,
             "items": [
                   {
@@ -658,12 +658,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Hardware Design (31)",
+            "text": "Hardware Design (32)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/hardware-design/"
+                  },
+                  {
+                        "text": "2026-08",
+                        "link": "/hardware-design/2026-08"
                   },
                   {
                         "text": "2026-02",
@@ -920,12 +924,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (23)",
+            "text": "Human Motion Analysis and Synthesis (24)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/human-motion-analysis-and-synthesis/"
+                  },
+                  {
+                        "text": "2026-08",
+                        "link": "/human-motion-analysis-and-synthesis/2026-08"
                   },
                   {
                         "text": "2026-07",

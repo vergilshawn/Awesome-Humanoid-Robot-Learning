@@ -2,6 +2,59 @@
 
 All papers sorted by publication date (newest first).
 
+## A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.30832)
+- **Authors:** Jingcheng Jiang, Yifang Zhang, Nikos G. Tsagarakis
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Optimization-Based
+  - Hardware Design
+
+### Summary
+
+To improve torque capacity and energy efficiency of humanoid ankles, this paper proposes a 2-DoF parallel elastic actuator (PEA). The main novelty of the proposed design lies in its dual-cam, single-gas-spring architecture, which enables torque compensation in both pitch and roll using a shared elastic element, thereby improving structural compactness compared with conventional multi-element compensation schemes.
+
+---
+
+## Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.29769)
+- **Authors:** Efe Ongan, Chong Zhang, Boyang Sun, Andrei Cramariuc, Cesar Cadena, Marco Hutter
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Traversing sparse 3D structures requires humanoid robots to perceive thin, overhanging geometry while executing agile, accurate whole-body motions. We study this problem through monkey-bar traversal, where the robot must jump to the structure, traverse it through sparse bar interactions, and land safely.
+
+---
+
+## Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.29487)
+- **Authors:** Aditya Bhatt, Oleg Kaidanov, Puze Liu, Jan Peters
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Biped
+  - Humanoid
+  - Walking
+  - Proprioception
+  - State Estimation
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+We present blind, whole-body manipulation skills on a Unitree G1 humanoid using only onboard proprioception, without cameras, markers, force-torque, or tactile sensors. Despite this minimal sensing, the trained policies exhibit surprising capability across qualitatively different tasks: push-resilient bipedal walking without IMU feedback, active soccer ball trapping with a foot, seeking and lifting a suitcase by its handle, and mounting a randomly positioned skateboard.
+
+---
+
 ## PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.28213)
@@ -54,6 +107,27 @@ Humanoid robots with quasi-direct-drive actuators continuously generate joint to
 ### Summary
 
 Humans traverse complex terrain over long distances without losing balance, whereas perceptive humanoid policies become fragile as perception and control errors accumulate. We present SOLO, a unified framework addressing two compounding causes of this long-horizon fragility: dense terrain reconstruction smooths action-critical details, and pointwise imitation lacks temporal credit assignment.
+
+---
+
+## RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.28693)
+- **Authors:** Zifan Wang, Ziang Ren, Pengyang Shi, Zirui Wang, Chenghuai Lin, Tianze Wang et al. (10 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - MPC
+  - Sim-to-Real
+  - Transformer
+  - Safety
+  - Humanoid
+  - Collision
+  - Dataset
+  - Diffusion
+
+### Summary
+
+Enabling humanoid robots to respond to human speech with synchronized and semantically meaningful gestures is fundamental to natural human-robot interaction. However, this task faces three critical barriers: the scarcity of semantically rich datasets, the "modality eclipse" where models ignore audio cues in favor of kinematic inertia, and the sim-to-real gap regarding physical safety.
 
 ---
 

@@ -1,10 +1,10 @@
 # Manipulation
 
-**63 papers** in this category.
+**64 papers** in this category.
 
 ## Months
 
-- [2026-08](/manipulation/2026-08) (1 papers)
+- [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
 - [2026-06](/manipulation/2026-06) (8 papers)
 - [2026-04](/manipulation/2026-04) (2 papers)
@@ -32,6 +32,27 @@
 ---
 
 ## Recent Papers
+
+## Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.29487)
+- **Authors:** Aditya Bhatt, Oleg Kaidanov, Puze Liu, Jan Peters
+- **Published:** 2026-08
+- **Tags:**
+  - Manipulation
+  - Biped
+  - Humanoid
+  - Walking
+  - Proprioception
+  - State Estimation
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+We present blind, whole-body manipulation skills on a Unitree G1 humanoid using only onboard proprioception, without cameras, markers, force-torque, or tactile sensors. Despite this minimal sensing, the trained policies exhibit surprising capability across qualitatively different tasks: push-resilient bipedal walking without IMU feedback, active soccer ball trapping with a foot, seeking and lifting a suitcase by its handle, and mounting a randomly positioned skateboard.
+
+---
 
 ## Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence
 
@@ -359,19 +380,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Manipulation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## DexterCap: An Affordable and Automated System for Capturing Dexterous Hand-Object Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.05844)
-- **Published:** 2026-01
-- **Tags:**
-  - Manipulation
 
 ### Summary
 

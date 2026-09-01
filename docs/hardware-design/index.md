@@ -1,9 +1,10 @@
 # Hardware Design
 
-**31 papers** in this category.
+**32 papers** in this category.
 
 ## Months
 
+- [2026-08](/hardware-design/2026-08) (1 papers)
 - [2026-02](/hardware-design/2026-02) (1 papers)
 - [2026-01](/hardware-design/2026-01) (1 papers)
 - [2025-12](/hardware-design/2025-12) (4 papers)
@@ -24,6 +25,22 @@
 ---
 
 ## Recent Papers
+
+## A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.30832)
+- **Authors:** Jingcheng Jiang, Yifang Zhang, Nikos G. Tsagarakis
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Optimization-Based
+  - Hardware Design
+
+### Summary
+
+To improve torque capacity and energy efficiency of humanoid ankles, this paper proposes a 2-DoF parallel elastic actuator (PEA). The main novelty of the proposed design lies in its dual-cam, single-gas-spring architecture, which enables torque compensation in both pitch and roll using a shared elastic element, thereby improving structural compactness compared with conventional multi-element compensation schemes.
+
+---
 
 ## Characteristics, Management, and Utilization of Muscles in Musculoskeletal Humanoids
 
@@ -284,20 +301,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-06
 - **Tags:**
   - Manipulation
-  - Hardware Design
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## iRonCub 3: The Jet-Powered Flying Humanoid Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.01125)
-- **Published:** 2025-06
-- **Tags:**
-  - Humanoid
   - Hardware Design
 
 ### Summary

@@ -1,10 +1,10 @@
 # Locomotion
 
-**152 papers** in this category.
+**153 papers** in this category.
 
 ## Months
 
-- [2026-08](/locomotion/2026-08) (11 papers)
+- [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
 - [2026-05](/locomotion/2026-05) (7 papers)
@@ -38,6 +38,22 @@
 ---
 
 ## Recent Papers
+
+## Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.29769)
+- **Authors:** Efe Ongan, Chong Zhang, Boyang Sun, Andrei Cramariuc, Cesar Cadena, Marco Hutter
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Traversing sparse 3D structures requires humanoid robots to perceive thin, overhanging geometry while executing agile, accurate whole-body motions. We study this problem through monkey-bar traversal, where the robot must jump to the structure, traverse it through sparse bar interactions, and land safely.
+
+---
 
 ## Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters
 
@@ -379,22 +395,5 @@ The human-like morphology of humanoid robots grants them exceptional potential f
 ### Summary
 
 Understanding the computational basis of action recognition is a central challenge in social cognition as well as in human-robot interaction. Inspired by the Mirror Neuron System (MNS), we propose a two-level architecture for motor primitive discovery and online phase recognition applied to the NICO humanoid robot.
-
----
-
-## From Sign Language Generation to Humanoid Execution: Vision-Language Guided Retargeting with Collision Mitigation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.17769)
-- **Authors:** Nabeela Khan, Bowen Wu, Runwu Shi, Benjamin Yen, Takeshi Ashizawa, Carlos Toshinori Ishi et al. (8 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Humanoid
-  - Vision-Language
-  - Collision
-  - Locomotion
-
-### Summary
-
-Recent sign language generation (SLG) systems increasingly output dense 3D body representations, which better preserve full-body kinematics and geometry for downstream embodiment on humanoid robots. However, these generated motions frequently exhibit self-intersections such as hand-hand and hand-torso penetration.
 
 ---

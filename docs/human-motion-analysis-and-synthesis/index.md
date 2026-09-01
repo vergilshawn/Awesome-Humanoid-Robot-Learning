@@ -1,9 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**23 papers** in this category.
+**24 papers** in this category.
 
 ## Months
 
+- [2026-08](/human-motion-analysis-and-synthesis/2026-08) (1 papers)
 - [2026-07](/human-motion-analysis-and-synthesis/2026-07) (1 papers)
 - [2026-06](/human-motion-analysis-and-synthesis/2026-06) (2 papers)
 - [2026-05](/human-motion-analysis-and-synthesis/2026-05) (1 papers)
@@ -25,6 +26,27 @@
 ---
 
 ## Recent Papers
+
+## RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.28693)
+- **Authors:** Zifan Wang, Ziang Ren, Pengyang Shi, Zirui Wang, Chenghuai Lin, Tianze Wang et al. (10 authors)
+- **Published:** 2026-08
+- **Tags:**
+  - MPC
+  - Sim-to-Real
+  - Transformer
+  - Safety
+  - Humanoid
+  - Collision
+  - Dataset
+  - Diffusion
+
+### Summary
+
+Enabling humanoid robots to respond to human speech with synchronized and semantically meaningful gestures is fundamental to natural human-robot interaction. However, this task faces three critical barriers: the scarcity of semantically rich datasets, the "modality eclipse" where models ignore audio cues in favor of kinematic inertia, and the sim-to-real gap regarding physical safety.
+
+---
 
 ## Imitation of Arm Gestures by the Semi-Humanoid Robot NICO
 
@@ -295,20 +317,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2310.08580)
 - **Published:** 2023-10
 - **Tags:**
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## TEDi: Temporally-Entangled Diffusion for Long-Term Motion Synthesis
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2307.15042)
-- **Published:** 2023-07
-- **Tags:**
-  - Diffusion
   - Human Motion Analysis and Synthesis
 
 ### Summary

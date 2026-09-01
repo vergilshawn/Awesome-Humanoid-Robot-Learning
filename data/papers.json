@@ -1,5 +1,98 @@
 [
   {
+    "arxiv_id": "2608.30832",
+    "title": "A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles",
+    "paper_url": "https://arxiv.org/abs/2608.30832",
+    "project_url": null,
+    "authors": [
+      "Jingcheng Jiang",
+      "Yifang Zhang",
+      "Nikos G. Tsagarakis"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-31",
+    "abstract": "To improve torque capacity and energy efficiency of humanoid ankles, this paper proposes a 2-DoF parallel elastic actuator (PEA). The main novelty of the proposed design lies in its dual-cam, single-gas-spring architecture, which enables torque compensation in both pitch and roll using a shared elastic element, thereby improving structural compactness compared with conventional multi-element compensation schemes. By leveraging parallel gas springs and customized cam modules, the proposed architecture provides dual-axis torque assistance tailored to specific task requirements. The second key contribution is the formulation of a coupled 2-DoF mathematical model that explicitly captures the interdependence between the two compensation units through the shared spring. Based on this model, an optimization-based design framework is developed to synthesize customized cam profiles from prescribed torque references, establishing a systematic link from task requirements to hardware realization. The complete lower-leg CAD integration is presented in detail. Static FEA and kinematic simulations confirm the design's feasibility and torque-relief effectiveness. The results highlight the proposed design as a compact, customizable solution for 2-DoF humanoid ankle torque compensation.",
+    "categories": [
+      "Hardware Design"
+    ],
+    "tags": [
+      "Humanoid",
+      "Optimization-Based",
+      "Hardware Design"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Hardware Design"
+  },
+  {
+    "arxiv_id": "2608.29769",
+    "title": "Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids",
+    "paper_url": "https://arxiv.org/abs/2608.29769",
+    "project_url": null,
+    "authors": [
+      "Efe Ongan",
+      "Chong Zhang",
+      "Boyang Sun",
+      "Andrei Cramariuc",
+      "Cesar Cadena",
+      "Marco Hutter"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-30",
+    "abstract": "Traversing sparse 3D structures requires humanoid robots to perceive thin, overhanging geometry while executing agile, accurate whole-body motions. We study this problem through monkey-bar traversal, where the robot must jump to the structure, traverse it through sparse bar interactions, and land safely. For this task, we present a reinforcement-learning-based perceptive control system that operates directly on observations from a head-mounted solid-state lidar. To extract task-relevant geometry from the sparse returns, the policy consumes the raw lidar scan through an attention-based encoder with recurrent memory. This policy is obtained by a phase-scheduled teacher- student pipeline that combines privileged experts for jumping up, brachiating, and jumping down. For transfer to hardware, we model lidar noise, battery-voltage sag, and actuator thermal limits, and equip the humanoid with passive hook end-effectors for robust bar interaction. On hardware, the resulting policy completes the full jump-up->brachiation->jump-down sequence in 14 of 15 trials across three bar configurations and reaches brachiation speeds up to 0.5 m/s. Beyond brachiation, the same perception backbone supports a separately trained policy that ducks beneath thin overhead obstacles with 2 cm cross-sections.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2608.29487",
+    "title": "Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception",
+    "paper_url": "https://arxiv.org/abs/2608.29487",
+    "project_url": null,
+    "authors": [
+      "Aditya Bhatt",
+      "Oleg Kaidanov",
+      "Puze Liu",
+      "Jan Peters"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-30",
+    "abstract": "We present blind, whole-body manipulation skills on a Unitree G1 humanoid using only onboard proprioception, without cameras, markers, force-torque, or tactile sensors. Despite this minimal sensing, the trained policies exhibit surprising capability across qualitatively different tasks: push-resilient bipedal walking without IMU feedback, active soccer ball trapping with a foot, seeking and lifting a suitcase by its handle, and mounting a randomly positioned skateboard.   We argue that these capabilities arise from a key underappreciated signal: the way the joint encoder readouts evolve under purposeful compliant contact, effectively forming a whole-body tactile channel. By generating contact-rich motions, the trained policies actively probe the environment; as a result, task-relevant object state (e.g., pose) becomes increasingly decodable from short proprioceptive histories. We expose this information using compact task-specific state estimators trained alongside, but fully separately from, the policies; their prediction errors decrease rapidly after informative contact.   Our results indicate that joint encoder-based proprioception, combined with compliant actuation (now widely available on commercial robots and low-cost motors) is already a strong, practical substrate for whole-body dexterous manipulation and interactive perception, and therefore a natural foundation on which richer sensing can be layered.",
+    "categories": [
+      "Manipulation",
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "tags": [
+      "Manipulation",
+      "Biped",
+      "Humanoid",
+      "Walking",
+      "Proprioception",
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
     "arxiv_id": "2608.28213",
     "title": "PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots",
     "paper_url": "https://arxiv.org/abs/2608.28213",
@@ -81,8 +174,8 @@
       "Lingfeng Zhang",
       "Hao Cheng",
       "Jian Tang",
-      "Yijie Guo",
-      "Qiang Zhang"
+      "Qiang Zhang",
+      "Yijie Guo"
     ],
     "published": "2026-08",
     "published_date": "2026-08-27",
@@ -105,6 +198,47 @@
     "platform": "Fourier",
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2608.28693",
+    "title": "RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction",
+    "paper_url": "https://arxiv.org/abs/2608.28693",
+    "project_url": null,
+    "authors": [
+      "Zifan Wang",
+      "Ziang Ren",
+      "Pengyang Shi",
+      "Zirui Wang",
+      "Chenghuai Lin",
+      "Tianze Wang",
+      "Zekun Qi",
+      "Liangliang Zhao",
+      "He Wang",
+      "Li Yi"
+    ],
+    "published": "2026-08",
+    "published_date": "2026-08-27",
+    "abstract": "Enabling humanoid robots to respond to human speech with synchronized and semantically meaningful gestures is fundamental to natural human-robot interaction. However, this task faces three critical barriers: the scarcity of semantically rich datasets, the \"modality eclipse\" where models ignore audio cues in favor of kinematic inertia, and the sim-to-real gap regarding physical safety. We propose RoboGesture, a robot-centric framework that co-designs data, modeling, and control to power a complete interactive human-humanoid system in which the robot listens, responds, and gestures in real time. We first establish the RoboGesture dataset featuring over 300 gesture categories and develop an automated pipeline to synthesize large-scale collision-free, robot-specific audio-motion pairs. Our architecture features a Hierarchical Semantic-Acoustic Aligner that extracts multi-granular prosodic and semantic cues directly from raw audio tokens. These cues drive a Streaming Conditional Motion Generator based on a diffusion transformer with conditional flow matching. To ensure high responsiveness, we introduce Anti-Inertia CFG Masking, which prevents the model from collapsing into repetitive historical patterns by compelling it to proactively mine control signals from the audio modality. Finally, an MPC-based safety filter ensures real-time, collision-free execution on physical hardware. Experiments on a Unitree G1 humanoid demonstrate that RoboGesture generates safer, more rhythmic, and more semantically appropriate responses compared to state-of-the-art baselines.",
+    "categories": [
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "MPC",
+      "Sim-to-Real",
+      "Transformer",
+      "Safety",
+      "Humanoid",
+      "Collision",
+      "Dataset",
+      "Diffusion",
+      "Flow Matching",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
   },
   {
     "arxiv_id": "2608.26505",
