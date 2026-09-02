@@ -1,9 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**221 papers** in this category.
+**223 papers** in this category.
 
 ## Months
 
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (2 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -37,6 +38,47 @@
 ---
 
 ## Recent Papers
+
+## A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.01518)
+- **Authors:** Duncan Calvert, Luigi Penco, Dexton Anderson, Tomasz Bialek, Arghya Chatterjee, Beomyeong Park et al. (7 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+There is tremendous value in humanoid robots taking on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole-body motion, perception, contact, and operator supervision.
+
+---
+
+## ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.00677)
+- **Authors:** Yan Wu, Chenhao Li, Kaifeng Zhao, Gen Li, Marco Hutter, Siyu Tang
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Diffusion Policy
+  - Whole-Body Control
+  - Robustness
+  - Humanoid
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We present ADAPT, an end-to-end framework for interactive, text-conditioned humanoid whole-body control. Unlike dominant text-to-motion pipelines that generate kinematic motions for a separate tracker, ADAPT solves language control with an end-to-end closed-loop control framework, where the robot must continuously respond to changing commands while maintaining balance, natural motion, and smooth transitions.
+
+---
 
 ## LAC: Linear and Angular Compliance for Humanoid Whole-body Control
 
@@ -397,42 +439,5 @@ Full-sized humanoid robot capabilities have grown exponentially in recent years,
 ### Summary
 
 Vision-language-action policies are a promising foundation for general robot control, but long-horizon humanoid loco-manipulation requires the robot to treat task objects as persistent physical entities across movement, contact, occlusion, and recovery. We study this problem as object-state divergence: the object state used to condition a whole-body action can differ from the state used to decide whether the action achieved the intended physical relation.
-
----
-
-## Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.14182)
-- **Authors:** J. M. A. Marcelo, M. Brienza, E. Bugli, L. Comito, D. Nardi, D. D. Bloisi et al. (7 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Humanoid
-  - Multi-Modal
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. However, most robotic performances remain based on pre-scripted sequences or externally triggered behaviors, limiting autonomy and responsiveness to dynamic environments.
-
----
-
-## Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.04837)
-- **Authors:** Yuan Jiang, Ningyuan Zhang, Xicun Yang, Yuzhi Jiang, Jie Chen
-- **Published:** 2026-07
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Fine-tuning
-  - Distillation
-  - DAgger
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Large-scale humanoid motion-tracking controllers are commonly improved by reallocating training effort: difficult motions are sampled more often, isolated into smaller subsets, or assigned to specialized experts. We show that this view is incomplete.
 
 ---

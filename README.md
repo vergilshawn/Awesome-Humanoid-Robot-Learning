@@ -2,7 +2,7 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 641
+- **Total Papers:** 643
 - **Real Robot Papers:** 44
 - **Open Source Papers:** 126
 
@@ -10,7 +10,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (221)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (223)
 - [Manipulation](#manipulation) (64)
 - [Teleoperation](#teleoperation) (25)
 - [Locomotion](#locomotion) (153)
@@ -26,6 +26,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 ---
 
 ## Loco-Manipulation and Whole-Body Control
+
+### 2026-09
+
+- [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2609.01518) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `PPO`
+- [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677) — `Reinforcement Learning`, `Diffusion Policy`, `Whole-Body Control`, `Robustness`, `Humanoid`, `Diffusion`
 
 ### 2026-08
 

@@ -48,12 +48,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (221)",
+            "text": "Loco-Manipulation and Whole-Body Control (223)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/loco-manipulation-and-whole-body-control/"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/loco-manipulation-and-whole-body-control/2026-09"
                   },
                   {
                         "text": "2026-08",

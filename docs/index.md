@@ -8,14 +8,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 641
+- **Total Papers:** 643
 - **Real Robot Papers:** 44
 - **Open Source Papers:** 126
-- **Latest Month:** 2026-08
+- **Latest Month:** 2026-09
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (221)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (223)
 - [Manipulation](/manipulation/) (64)
 - [Teleoperation](/teleoperation/) (25)
 - [Locomotion](/locomotion/) (153)
@@ -31,6 +31,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2609.01518) — 2026-09
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677) — 2026-09
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles](https://arxiv.org/abs/2608.30832) — 2026-08
   - [Hardware Design](/hardware-design/)
 -  [Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids](https://arxiv.org/abs/2608.29769) — 2026-08
@@ -47,25 +51,21 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/)
 -  [Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions](https://arxiv.org/abs/2608.26505) — 2026-08
   - [Locomotion](/locomotion/)
--  [LAC: Linear and Angular Compliance for Humanoid Whole-body Control](https://arxiv.org/abs/2608.25405) — 2026-08
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid](https://arxiv.org/abs/2608.23304) — 2026-08
-  - [State Estimation](/state-estimation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (505)
-- **Loco-Manipulation and Whole-Body Control** (229)
-- **Locomotion** (203)
-- **Manipulation** (165)
-- **Reinforcement Learning** (77)
-- **Whole-Body Control** (55)
+- **Humanoid** (507)
+- **Loco-Manipulation and Whole-Body Control** (231)
+- **Locomotion** (204)
+- **Manipulation** (166)
+- **Reinforcement Learning** (78)
+- **Whole-Body Control** (57)
 - **Simulation Benchmark** (52)
 - **Teleoperation** (50)
 - **Physics-Based Character Animation** (49)
-- **PPO** (45)
+- **PPO** (46)
 - **Sim-to-Real** (37)
 - **Dataset** (34)
 - **Navigation** (34)
@@ -73,14 +73,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **State Estimation** (30)
 - **Zero-Shot** (29)
 - **Vision-Language** (29)
+- **Diffusion** (28)
 - **Human Motion Analysis and Synthesis** (28)
-- **Diffusion** (27)
+- **Walking** (25)
 - **Benchmark** (25)
-- **Walking** (24)
 - **Distillation** (23)
 - **Safety** (22)
 - **Foundation Model** (21)
-- **Robustness** (19)
+- **Robustness** (20)
 - **Gait** (19)
 - **Biped** (17)
 - **Human Demonstration** (15)
@@ -92,6 +92,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 ## 📚 Paper Directory
 
 ### [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+
+#### [2026-09](/loco-manipulation-and-whole-body-control/2026-09)
+
+- [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2609.01518) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `PPO`
+- [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677) — `Reinforcement Learning`, `Diffusion Policy`, `Whole-Body Control`, `Robustness`, `Humanoid`, `Diffusion`
 
 #### [2026-08](/loco-manipulation-and-whole-body-control/2026-08)
 
