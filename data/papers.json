@@ -1,5 +1,176 @@
 [
   {
+    "arxiv_id": "2609.02542",
+    "title": "World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain",
+    "paper_url": "https://arxiv.org/abs/2609.02542",
+    "project_url": null,
+    "authors": [
+      "Yuxi Liu",
+      "Lijun Han",
+      "Ziming Wang",
+      "Ao Zhang",
+      "Cong Yang",
+      "Wei Sui"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-02",
+    "abstract": "Foothold-constrained terrain is characterized by sparse, discontinuous, or geometrically restricted feasible foot contacts, as encountered on stepping stones, across gaps, and on narrow stair treads. On such terrain, a single misstep often leaves little room to recover, so policies that base foot-placement decisions primarily on the immediately visible terrain are prone to failure. We ask whether a learned predictive summary of near-future observations and rewards can provide the anticipatory information required in such settings. We present World-Model-Augmented Visual Locomotion (WM-LOCO), which jointly trains a recurrent world model and a PPO policy. Conditioned on proprioception and a single onboard depth image, the world model produces a predictive recurrent feature that guides the policy, without explicit foothold labels. In simulation, WM-LOCO succeeds on gaps and stepping stones where a matched baseline fails completely, and matches the baseline's success rate on stairs while improving stride efficiency and reducing pelvis acceleration. We deploy the same policy onboard a physical Unitree G1 humanoid using onboard proprioception and a single depth stream; it traverses all three terrain classes with an average success rate of 93.3%.",
+    "categories": [
+      "Locomotion",
+      "State Estimation"
+    ],
+    "tags": [
+      "Locomotion",
+      "World Model",
+      "Humanoid",
+      "Proprioception",
+      "PPO",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.02358",
+    "title": "Humanoid Safe Stop via Learned Stoppability Value",
+    "paper_url": "https://arxiv.org/abs/2609.02358",
+    "project_url": null,
+    "authors": [
+      "Junfeng Long",
+      "Pieter Abbeel",
+      "Koushil Sreenath",
+      "Roberto Horowitz",
+      "Guanya Shi",
+      "C. Karen Liu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-02",
+    "abstract": "Humanoid robots responding to emergency stop commands typically execute a fixed maneuver, without reasoning about whether a safe stop is actually feasible from the current state. We cast emergency stopping as a reach-avoid problem and propose Safe-Stop, a task-agnostic framework that pairs a learned stop policy with learned stoppability estimators. The estimators are complementary: a stop-probability estimator supervised by the actual outcomes of the fixed stop policy, and a reach-avoidance estimator supervised by a Hamilton-Jacobi backup over physical state. The first captures emergent stopping behavior of the learned controller; the second provides a complementary recoverability signal. Because the stop policy and estimators do not depend on the behavior policy that preceded the stop command, they transfer across diverse upstream tasks without retraining. At deployment, the two estimates are combined: Safe-Stop commits to the stop only when both estimators indicate that stopping remains feasible, otherwise it hands off to a fall policy, instantiated as a damping fallback. This agreement check yields decisions that are robust without sacrificing reactivity.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "SAC",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "REEM",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.02306",
+    "title": "Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2609.02306",
+    "project_url": null,
+    "authors": [
+      "Kaixiang Lu",
+      "Haiyu Lan",
+      "Chunxiao Qiao",
+      "You Li",
+      "Chengyuan Luo",
+      "Enyu Li",
+      "Peiwen Lin",
+      "Chuang Wang"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-02",
+    "abstract": "Accurate joint encoder offsets are essential for kinematic consistency in humanoid lower limbs, yet existing calibration methods typically require external motion-capture systems or fiducial targets. We present a self-contained calibration framework exploiting only onboard joint encoders and a pelvis-mounted IMU during static double-support contact. The inter-foot transform from forward kinematics must stay constant when both feet are fixed; minimizing its posture-dependent dispersion yields a nonlinear least-squares problem over the 12-dimensional offset vector. A Hessian eigenstructure analysis shows that parallel pitch axes induce a rotational coupling. Orientation residuals then observe only the pitch-offset sum, while translation and posture diversity set the remaining numerical observability. For the A3 pitch-to-roll-to-yaw ordering, hip-roll and hip-yaw excitation reduce hip-pitch coupling. A standing-posture knee prior then anchors the remaining weak pitch-chain decomposition. Simulation and real-machine injection tests show consistent recovery, and on held-out recordings calibration reduces foot-height RMS residuals from 4.26 to 2.20 mm on A3 and from 8.03 to 1.43 mm on A2. An independent LiDAR-inertial reference checks the pitch-coupled channel. Removing an injected pitch offset moves the leg-odometry vertical drift back toward the LiDAR trajectory. A few static double-support stances thus provide contact-consistent corrections for well-excited directions. Individual offsets in the weak pitch chain remain prior-dependent.",
+    "categories": [
+      "State Estimation"
+    ],
+    "tags": [
+      "Humanoid",
+      "PPO",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2609.02222",
+    "title": "FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry",
+    "paper_url": "https://arxiv.org/abs/2609.02222",
+    "project_url": null,
+    "authors": [
+      "Kaixin Feng",
+      "Angsong Li",
+      "Shaopeng Zhang",
+      "Enyu Li",
+      "Peiwen Lin",
+      "Chuang Wang",
+      "You Li",
+      "Haiyu Lan"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-02",
+    "abstract": "Foot forward kinematics (FK) is widely used to improve proprioceptive legged odometry by providing reliable velocity constraints during foot support. Existing contact-aided estimators generally rely on binary contact decisions to determine whether the FK measurements of an entire foot should be trusted. However, contact does not necessarily imply FK reliability. Dynamic locomotion often involves partial support, toe dragging, and foot slip, causing binary contact decisions to accumulate significant drift over long trajectories. To address this limitation, we propose FOCUS (Foot Observation Confidence from Unannotated Simulation), which predicts a continuous FK reliability weight for each foot instead of estimating binary foot contact. Rather than replacing the model-based estimator, the predicted reliability weights are used to blend FK velocity observations with IMU-propagated body velocity and to adapt the observation covariance of an extended Kalman filter (EKF), enabling smooth reliability-aware fusion without hard contact switching. The network is trained from automatically generated simulation signals using an FK-weighted velocity consistency loss with lightweight simulator-contact regularization, without manually annotated continuous FK-reliability labels. The deployed model relies only on IMU and joint kinematic measurements, making it suitable for hardware platforms with unreliable torque sensing. Experiments demonstrate that FOCUS reduces absolute trajectory error (ATE) by 83.7% on simulated walking episodes, preserves simulated dynamic-motion fidelity in motion scale and spectral energy, reduces ATE by 70.8% across 19 real walking segments, and reduces mean ATE by 42.7% across four real dynamic-motion routines.",
+    "categories": [
+      "State Estimation",
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Simulator",
+      "Humanoid",
+      "Walking",
+      "PPO",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2609.02134",
+    "title": "Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence",
+    "paper_url": "https://arxiv.org/abs/2609.02134",
+    "project_url": null,
+    "authors": [
+      "Hanyang Cao",
+      "Yuetong Fang",
+      "Taesoo Kwon",
+      "Runyi Yu",
+      "Ji Ma",
+      "Jing Tan",
+      "Yangchen Zhou",
+      "Baoze Du",
+      "Yi Gu",
+      "Yukang Gao",
+      "Ruoli Dai",
+      "Lei Han",
+      "Renjing Xu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-02",
+    "abstract": "Humanoid learning increasingly relies on transforming vast and diverse human motion data into high-quality robot reference trajectories. However, retargeting human motion to humanoid robots is challenging due to substantial differences in morphology, degrees of freedom, joint ranges, and kinematic constraints between humans and robots. Existing retargeting methods typically address these differences by defining human-robot correspondence through hand-crafted sparse keypoints or body-part pairs. As a result, retargeting quality depends heavily on manual semantic design, limiting scalability across motion sources and robot morphologies and providing only sparse guidance for reproducing detailed poses and interactions. In this paper, we present Unified Motion Retargeting (UMR), a framework that learns dense point cloud correspondence without requiring manually designed human-robot mappings. By treating exterior point clouds as a unified interface between human motion and humanoid robots, UMR decouples retargeting from source-specific skeletal semantics and robot-specific topology. The learned dense correspondence provides fine-grained geometric anchors for constrained point cloud matching optimization, enabling surface-level pose alignment and direct transfer of interaction contacts. Experiments demonstrate that UMR unifies retargeting across heterogeneous motion sources, robot embodiments, and downstream scenarios ranging from locomotion to interaction, while achieving higher motion fidelity and plausibility than state-of-the-art methods. UMR therefore provides a scalable foundation for transforming large-scale human motion references into robot-ready training data.",
+    "categories": [
+      "Teleoperation"
+    ],
+    "tags": [
+      "Motion Retargeting",
+      "Locomotion",
+      "Humanoid",
+      "Point Cloud",
+      "Teleoperation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
     "arxiv_id": "2609.01518",
     "title": "A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots",
     "paper_url": "https://arxiv.org/abs/2609.01518",

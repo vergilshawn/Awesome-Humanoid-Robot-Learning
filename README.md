@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 643
-- **Real Robot Papers:** 44
+- **Total Papers:** 648
+- **Real Robot Papers:** 45
 - **Open Source Papers:** 126
 
 🌟 indicates papers with detected project/code links.
@@ -12,10 +12,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (223)
 - [Manipulation](#manipulation) (64)
-- [Teleoperation](#teleoperation) (25)
-- [Locomotion](#locomotion) (153)
+- [Teleoperation](#teleoperation) (26)
+- [Locomotion](#locomotion) (155)
 - [Navigation](#navigation) (22)
-- [State Estimation](#state-estimation) (13)
+- [State Estimation](#state-estimation) (15)
 - [Sim-to-Real](#sim-to-real) (13)
 - [Hardware Design](#hardware-design) (32)
 - [Simulation Benchmark](#simulation-benchmark) (32)
@@ -480,6 +480,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Teleoperation
 
+### 2026-09
+
+- [Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence](https://arxiv.org/abs/2609.02134) — `Motion Retargeting`, `Locomotion`, `Humanoid`, `Point Cloud`, `Teleoperation`
+
 ### 2026-08
 
 - [Teleopit: A Full-Embodiment Humanoid Teleoperation System](https://arxiv.org/abs/2608.01834) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Optimization-Based`
@@ -551,6 +555,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [iCub3 Avatar System: Enabling Remote Fully-Immersive Embodiment of Humanoid Robots](https://arxiv.org/abs/2203.06972), [website](https://www.science.org/doi/10.1126/scirobotics.adh3834) — `Humanoid`, `Teleoperation`
 
 ## Locomotion
+
+### 2026-09
+
+- [World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain](https://arxiv.org/abs/2609.02542) — `Locomotion`, `World Model`, `Humanoid`, `Proprioception`, `PPO`, `State Estimation`
+- [Humanoid Safe Stop via Learned Stoppability Value](https://arxiv.org/abs/2609.02358) — `Humanoid`, `SAC`, `Locomotion`
 
 ### 2026-08
 
@@ -868,6 +877,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration](https://arxiv.org/abs/2310.07896) — `Navigation`, `Diffusion`
 
 ## State Estimation
+
+### 2026-09
+
+- [Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots](https://arxiv.org/abs/2609.02306) — `Humanoid`, `PPO`, `State Estimation`
+- [FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry](https://arxiv.org/abs/2609.02222) — `Locomotion`, `Simulator`, `Humanoid`, `Walking`, `PPO`, `State Estimation`
 
 ### 2026-08
 

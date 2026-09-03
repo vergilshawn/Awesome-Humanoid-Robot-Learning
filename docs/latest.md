@@ -2,6 +2,95 @@
 
 All papers sorted by publication date (newest first).
 
+## World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02542)
+- **Authors:** Yuxi Liu, Lijun Han, Ziming Wang, Ao Zhang, Cong Yang, Wei Sui
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - World Model
+  - Humanoid
+  - Proprioception
+  - PPO
+  - State Estimation
+
+### Summary
+
+Foothold-constrained terrain is characterized by sparse, discontinuous, or geometrically restricted feasible foot contacts, as encountered on stepping stones, across gaps, and on narrow stair treads. On such terrain, a single misstep often leaves little room to recover, so policies that base foot-placement decisions primarily on the immediately visible terrain are prone to failure.
+
+---
+
+## Humanoid Safe Stop via Learned Stoppability Value
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02358)
+- **Authors:** Junfeng Long, Pieter Abbeel, Koushil Sreenath, Roberto Horowitz, Guanya Shi, C. Karen Liu
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - SAC
+  - Locomotion
+
+### Summary
+
+Humanoid robots responding to emergency stop commands typically execute a fixed maneuver, without reasoning about whether a safe stop is actually feasible from the current state. We cast emergency stopping as a reach-avoid problem and propose Safe-Stop, a task-agnostic framework that pairs a learned stop policy with learned stoppability estimators.
+
+---
+
+## Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02306)
+- **Authors:** Kaixiang Lu, Haiyu Lan, Chunxiao Qiao, You Li, Chengyuan Luo, Enyu Li et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - PPO
+  - State Estimation
+
+### Summary
+
+Accurate joint encoder offsets are essential for kinematic consistency in humanoid lower limbs, yet existing calibration methods typically require external motion-capture systems or fiducial targets. We present a self-contained calibration framework exploiting only onboard joint encoders and a pelvis-mounted IMU during static double-support contact.
+
+---
+
+## FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02222)
+- **Authors:** Kaixin Feng, Angsong Li, Shaopeng Zhang, Enyu Li, Peiwen Lin, Chuang Wang et al. (8 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Simulator
+  - Humanoid
+  - Walking
+  - PPO
+  - State Estimation
+
+### Summary
+
+Foot forward kinematics (FK) is widely used to improve proprioceptive legged odometry by providing reliable velocity constraints during foot support. Existing contact-aided estimators generally rely on binary contact decisions to determine whether the FK measurements of an entire foot should be trusted.
+
+---
+
+## Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02134)
+- **Authors:** Hanyang Cao, Yuetong Fang, Taesoo Kwon, Runyi Yu, Ji Ma, Jing Tan et al. (13 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Motion Retargeting
+  - Locomotion
+  - Humanoid
+  - Point Cloud
+  - Teleoperation
+
+### Summary
+
+Humanoid learning increasingly relies on transforming vast and diverse human motion data into high-quality robot reference trajectories. However, retargeting human motion to humanoid robots is challenging due to substantial differences in morphology, degrees of freedom, joint ranges, and kinematic constraints between humans and robots.
+
+---
+
 ## A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.01518)

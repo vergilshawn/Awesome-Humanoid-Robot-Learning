@@ -1,9 +1,10 @@
 # Locomotion
 
-**153 papers** in this category.
+**155 papers** in this category.
 
 ## Months
 
+- [2026-09](/locomotion/2026-09) (2 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -38,6 +39,41 @@
 ---
 
 ## Recent Papers
+
+## World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02542)
+- **Authors:** Yuxi Liu, Lijun Han, Ziming Wang, Ao Zhang, Cong Yang, Wei Sui
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - World Model
+  - Humanoid
+  - Proprioception
+  - PPO
+  - State Estimation
+
+### Summary
+
+Foothold-constrained terrain is characterized by sparse, discontinuous, or geometrically restricted feasible foot contacts, as encountered on stepping stones, across gaps, and on narrow stair treads. On such terrain, a single misstep often leaves little room to recover, so policies that base foot-placement decisions primarily on the immediately visible terrain are prone to failure.
+
+---
+
+## Humanoid Safe Stop via Learned Stoppability Value
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02358)
+- **Authors:** Junfeng Long, Pieter Abbeel, Koushil Sreenath, Roberto Horowitz, Guanya Shi, C. Karen Liu
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - SAC
+  - Locomotion
+
+### Summary
+
+Humanoid robots responding to emergency stop commands typically execute a fixed maneuver, without reasoning about whether a safe stop is actually feasible from the current state. We cast emergency stopping as a reach-avoid problem and propose Safe-Stop, a task-agnostic framework that pairs a learned stop policy with learned stoppability estimators.
+
+---
 
 ## Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids
 
@@ -362,38 +398,5 @@ Humans can progressively acquire highly dynamic motor skills while preserving re
 ### Summary
 
 Humanoid general motion tracking requires policies that can follow diverse whole-body references while maintaining balance. Building such policies involves many practical design choices, and their individual effects are often hard to assess.
-
----
-
-## Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.21648)
-- **Authors:** Yun-Hao Tsai, Cong-Thanh Vu, Yen-Chen Liu
-- **Published:** 2026-07
-- **Real Robot:** ✅
-- **Tags:**
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-The human-like morphology of humanoid robots grants them exceptional potential for agile and versatile motor capabilities, but it also introduces significant challenges in acquiring complex skills. Traditional Learning-from-Demonstrations methods are often constrained by the high cost of collecting real-world data, the difficulty of capturing motion-specific behaviors, and the limited diversity of demonstrations across individuals.
-
----
-
-## Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.18737)
-- **Authors:** Radovan Gregor, Igor Farkaš
-- **Published:** 2026-07
-- **Tags:**
-  - Humanoid
-  - PPO
-  - GAN
-  - Locomotion
-
-### Summary
-
-Understanding the computational basis of action recognition is a central challenge in social cognition as well as in human-robot interaction. Inspired by the Mirror Neuron System (MNS), we propose a two-level architecture for motor primitive discovery and online phase recognition applied to the NICO humanoid robot.
 
 ---

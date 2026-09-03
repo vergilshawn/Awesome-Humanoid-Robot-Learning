@@ -8,8 +8,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 643
-- **Real Robot Papers:** 44
+- **Total Papers:** 648
+- **Real Robot Papers:** 45
 - **Open Source Papers:** 126
 - **Latest Month:** 2026-09
 
@@ -17,10 +17,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (223)
 - [Manipulation](/manipulation/) (64)
-- [Teleoperation](/teleoperation/) (25)
-- [Locomotion](/locomotion/) (153)
+- [Teleoperation](/teleoperation/) (26)
+- [Locomotion](/locomotion/) (155)
 - [Navigation](/navigation/) (22)
-- [State Estimation](/state-estimation/) (13)
+- [State Estimation](/state-estimation/) (15)
 - [Sim-to-Real](/sim-to-real/) (13)
 - [Hardware Design](/hardware-design/) (32)
 - [Simulation Benchmark](/simulation-benchmark/) (32)
@@ -31,6 +31,16 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain](https://arxiv.org/abs/2609.02542) — 2026-09
+  - [Locomotion](/locomotion/)
+-  [Humanoid Safe Stop via Learned Stoppability Value](https://arxiv.org/abs/2609.02358) — 2026-09
+  - [Locomotion](/locomotion/)
+-  [Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots](https://arxiv.org/abs/2609.02306) — 2026-09
+  - [State Estimation](/state-estimation/)
+-  🤖 [FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry](https://arxiv.org/abs/2609.02222) — 2026-09
+  - [State Estimation](/state-estimation/)
+-  [Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence](https://arxiv.org/abs/2609.02134) — 2026-09
+  - [Teleoperation](/teleoperation/)
 -  [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2609.01518) — 2026-09
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677) — 2026-09
@@ -41,41 +51,31 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Locomotion](/locomotion/)
 -  [Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception](https://arxiv.org/abs/2608.29487) — 2026-08
   - [Manipulation](/manipulation/)
--  [PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots](https://arxiv.org/abs/2608.28213) — 2026-08
-  - [Physics-Based Character Animation](/physics-based-character-animation/)
--  [Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters](https://arxiv.org/abs/2608.28090) — 2026-08
-  - [Locomotion](/locomotion/)
--  [SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion](https://arxiv.org/abs/2608.26583) — 2026-08
-  - [Locomotion](/locomotion/)
--  [RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction](https://arxiv.org/abs/2608.28693) — 2026-08
-  - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/)
--  [Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions](https://arxiv.org/abs/2608.26505) — 2026-08
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (507)
+- **Humanoid** (512)
 - **Loco-Manipulation and Whole-Body Control** (231)
-- **Locomotion** (204)
+- **Locomotion** (208)
 - **Manipulation** (166)
 - **Reinforcement Learning** (78)
 - **Whole-Body Control** (57)
 - **Simulation Benchmark** (52)
-- **Teleoperation** (50)
+- **Teleoperation** (51)
+- **PPO** (49)
 - **Physics-Based Character Animation** (49)
-- **PPO** (46)
 - **Sim-to-Real** (37)
 - **Dataset** (34)
 - **Navigation** (34)
+- **State Estimation** (33)
 - **Hardware Design** (32)
-- **State Estimation** (30)
 - **Zero-Shot** (29)
 - **Vision-Language** (29)
 - **Diffusion** (28)
 - **Human Motion Analysis and Synthesis** (28)
-- **Walking** (25)
+- **Walking** (26)
 - **Benchmark** (25)
 - **Distillation** (23)
 - **Safety** (22)
@@ -83,8 +83,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Robustness** (20)
 - **Gait** (19)
 - **Biped** (17)
+- **Proprioception** (15)
 - **Human Demonstration** (15)
-- **Proprioception** (14)
 - **Imitation Learning** (14)
 
 ---
@@ -546,6 +546,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### [Teleoperation](/teleoperation/)
 
+#### [2026-09](/teleoperation/2026-09)
+
+- [Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence](https://arxiv.org/abs/2609.02134) — `Motion Retargeting`, `Locomotion`, `Humanoid`, `Point Cloud`, `Teleoperation`
+
 #### [2026-08](/teleoperation/2026-08)
 
 - [Teleopit: A Full-Embodiment Humanoid Teleoperation System](https://arxiv.org/abs/2608.01834) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Optimization-Based`
@@ -617,6 +621,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [iCub3 Avatar System: Enabling Remote Fully-Immersive Embodiment of Humanoid Robots](https://arxiv.org/abs/2203.06972), [website](https://www.science.org/doi/10.1126/scirobotics.adh3834) — `Humanoid`, `Teleoperation`
 
 ### [Locomotion](/locomotion/)
+
+#### [2026-09](/locomotion/2026-09)
+
+- [World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain](https://arxiv.org/abs/2609.02542) — `Locomotion`, `World Model`, `Humanoid`, `Proprioception`, `PPO`, `State Estimation`
+- [Humanoid Safe Stop via Learned Stoppability Value](https://arxiv.org/abs/2609.02358) — `Humanoid`, `SAC`, `Locomotion`
 
 #### [2026-08](/locomotion/2026-08)
 
@@ -934,6 +943,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration](https://arxiv.org/abs/2310.07896) — `Navigation`, `Diffusion`
 
 ### [State Estimation](/state-estimation/)
+
+#### [2026-09](/state-estimation/2026-09)
+
+- [Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots](https://arxiv.org/abs/2609.02306) — `Humanoid`, `PPO`, `State Estimation`
+- [FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry](https://arxiv.org/abs/2609.02222) — `Locomotion`, `Simulator`, `Humanoid`, `Walking`, `PPO`, `State Estimation`
 
 #### [2026-08](/state-estimation/2026-08)
 

@@ -284,12 +284,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (25)",
+            "text": "Teleoperation (26)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/teleoperation/"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/teleoperation/2026-09"
                   },
                   {
                         "text": "2026-08",
@@ -354,12 +358,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (153)",
+            "text": "Locomotion (155)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/locomotion/"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/locomotion/2026-09"
                   },
                   {
                         "text": "2026-08",
@@ -558,12 +566,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (13)",
+            "text": "State Estimation (15)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/state-estimation/"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/state-estimation/2026-09"
                   },
                   {
                         "text": "2026-08",

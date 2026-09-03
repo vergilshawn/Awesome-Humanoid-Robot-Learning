@@ -1,9 +1,10 @@
 # Teleoperation
 
-**25 papers** in this category.
+**26 papers** in this category.
 
 ## Months
 
+- [2026-09](/teleoperation/2026-09) (1 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
 - [2026-06](/teleoperation/2026-06) (2 papers)
@@ -23,6 +24,24 @@
 ---
 
 ## Recent Papers
+
+## Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02134)
+- **Authors:** Hanyang Cao, Yuetong Fang, Taesoo Kwon, Runyi Yu, Ji Ma, Jing Tan et al. (13 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Motion Retargeting
+  - Locomotion
+  - Humanoid
+  - Point Cloud
+  - Teleoperation
+
+### Summary
+
+Humanoid learning increasingly relies on transforming vast and diverse human motion data into high-quality robot reference trajectories. However, retargeting human motion to humanoid robots is challenging due to substantial differences in morphology, degrees of freedom, joint ranges, and kinematic constraints between humans and robots.
+
+---
 
 ## Teleopit: A Full-Embodiment Humanoid Teleoperation System
 
@@ -315,20 +334,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Teleoperation
   - Simulator
   - Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Human-Robot Collaboration for the Remote Control of Mobile Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.05773)
-- **Published:** 2025-05
-- **Tags:**
-  - Humanoid
-  - Teleoperation
 
 ### Summary
 

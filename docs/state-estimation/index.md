@@ -1,9 +1,10 @@
 # State Estimation
 
-**13 papers** in this category.
+**15 papers** in this category.
 
 ## Months
 
+- [2026-09](/state-estimation/2026-09) (2 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
 - [2026-07](/state-estimation/2026-07) (1 papers)
 - [2026-06](/state-estimation/2026-06) (2 papers)
@@ -18,6 +19,42 @@
 ---
 
 ## Recent Papers
+
+## Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02306)
+- **Authors:** Kaixiang Lu, Haiyu Lan, Chunxiao Qiao, You Li, Chengyuan Luo, Enyu Li et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - PPO
+  - State Estimation
+
+### Summary
+
+Accurate joint encoder offsets are essential for kinematic consistency in humanoid lower limbs, yet existing calibration methods typically require external motion-capture systems or fiducial targets. We present a self-contained calibration framework exploiting only onboard joint encoders and a pelvis-mounted IMU during static double-support contact.
+
+---
+
+## FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02222)
+- **Authors:** Kaixin Feng, Angsong Li, Shaopeng Zhang, Enyu Li, Peiwen Lin, Chuang Wang et al. (8 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Simulator
+  - Humanoid
+  - Walking
+  - PPO
+  - State Estimation
+
+### Summary
+
+Foot forward kinematics (FK) is widely used to improve proprioceptive legged odometry by providing reliable velocity constraints during foot support. Existing contact-aided estimators generally rely on binary contact decisions to determine whether the FK measurements of an entire foot should be trusted.
+
+---
 
 ## Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid
 

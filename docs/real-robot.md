@@ -6,7 +6,7 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
-- **Figure:** 1 papers
+- **Figure:** 2 papers
 - **Unitree G1:** 27 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 11 papers
@@ -15,6 +15,26 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.02222)
+- **Authors:** Kaixin Feng, Angsong Li, Shaopeng Zhang, Enyu Li, Peiwen Lin, Chuang Wang et al. (8 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Simulator
+  - Humanoid
+  - Walking
+  - PPO
+  - State Estimation
+
+### Summary
+
+Foot forward kinematics (FK) is widely used to improve proprioceptive legged odometry by providing reliable velocity constraints during foot support. Existing contact-aided estimators generally rely on binary contact decisions to determine whether the FK measurements of an entire foot should be trusted.
+
+---
 
 ## Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid
 
