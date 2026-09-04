@@ -8,14 +8,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 648
-- **Real Robot Papers:** 45
+- **Total Papers:** 651
+- **Real Robot Papers:** 46
 - **Open Source Papers:** 126
 - **Latest Month:** 2026-09
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (223)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (225)
 - [Manipulation](/manipulation/) (64)
 - [Teleoperation](/teleoperation/) (26)
 - [Locomotion](/locomotion/) (155)
@@ -23,7 +23,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [State Estimation](/state-estimation/) (15)
 - [Sim-to-Real](/sim-to-real/) (13)
 - [Hardware Design](/hardware-design/) (32)
-- [Simulation Benchmark](/simulation-benchmark/) (32)
+- [Simulation Benchmark](/simulation-benchmark/) (33)
 - [Physics-Based Character Animation](/physics-based-character-animation/) (42)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (24)
 
@@ -31,6 +31,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) — 2026-09
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI](https://arxiv.org/abs/2609.03497) — 2026-09
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot](https://arxiv.org/abs/2609.03255) — 2026-09
+  - [Simulation Benchmark](/simulation-benchmark/)
 -  [World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain](https://arxiv.org/abs/2609.02542) — 2026-09
   - [Locomotion](/locomotion/)
 -  [Humanoid Safe Stop via Learned Stoppability Value](https://arxiv.org/abs/2609.02358) — 2026-09
@@ -45,34 +51,28 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677) — 2026-09
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles](https://arxiv.org/abs/2608.30832) — 2026-08
-  - [Hardware Design](/hardware-design/)
--  [Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids](https://arxiv.org/abs/2608.29769) — 2026-08
-  - [Locomotion](/locomotion/)
--  [Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception](https://arxiv.org/abs/2608.29487) — 2026-08
-  - [Manipulation](/manipulation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (512)
-- **Loco-Manipulation and Whole-Body Control** (231)
-- **Locomotion** (208)
-- **Manipulation** (166)
+- **Humanoid** (514)
+- **Loco-Manipulation and Whole-Body Control** (233)
+- **Locomotion** (209)
+- **Manipulation** (167)
 - **Reinforcement Learning** (78)
-- **Whole-Body Control** (57)
-- **Simulation Benchmark** (52)
+- **Whole-Body Control** (59)
+- **Simulation Benchmark** (53)
 - **Teleoperation** (51)
 - **PPO** (49)
 - **Physics-Based Character Animation** (49)
 - **Sim-to-Real** (37)
-- **Dataset** (34)
+- **Dataset** (36)
 - **Navigation** (34)
 - **State Estimation** (33)
 - **Hardware Design** (32)
+- **Vision-Language** (30)
 - **Zero-Shot** (29)
-- **Vision-Language** (29)
 - **Diffusion** (28)
 - **Human Motion Analysis and Synthesis** (28)
 - **Walking** (26)
@@ -95,6 +95,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-09](/loco-manipulation-and-whole-body-control/2026-09)
 
+- [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) — `Whole-Body Control`, `Manipulation`, `Vision-Language`, `Dataset`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
+- [BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI](https://arxiv.org/abs/2609.03497) — `Whole-Body Control`, `Locomotion`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2609.01518) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `PPO`
 - [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677) — `Reinforcement Learning`, `Diffusion Policy`, `Whole-Body Control`, `Robustness`, `Humanoid`, `Diffusion`
 
@@ -1126,6 +1128,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - 🌟 [Quasi-Direct Drive for Low-Cost Compliant Robotic Manipulation](https://arxiv.org/abs/1904.03815), [website](https://berkeleyopenarms.github.io/) — `Manipulation`, `Hardware Design`, `Open Source`
 
 ### [Simulation Benchmark](/simulation-benchmark/)
+
+#### [2026-09](/simulation-benchmark/2026-09)
+
+- [Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot](https://arxiv.org/abs/2609.03255) — `Humanoid`, `Dataset`, `Simulation Benchmark`
 
 #### [2026-08](/simulation-benchmark/2026-08)
 

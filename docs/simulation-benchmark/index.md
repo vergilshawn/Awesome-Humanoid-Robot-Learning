@@ -1,9 +1,10 @@
 # Simulation Benchmark
 
-**32 papers** in this category.
+**33 papers** in this category.
 
 ## Months
 
+- [2026-09](/simulation-benchmark/2026-09) (1 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
 - [2026-06](/simulation-benchmark/2026-06) (4 papers)
@@ -24,6 +25,22 @@
 ---
 
 ## Recent Papers
+
+## Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.03255)
+- **Authors:** Buwan Kim, Wonse Jo
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+This paper presents an experimental design for constructing a multimodal dataset to analyze user engagement in human-robot interaction (HRI). Prior studies have mainly relied on observable behavioral cues, with limited frameworks integrating physiological signals.
+
+---
 
 ## GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly
 
@@ -363,22 +380,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-10
 - **Tags:**
   - World Model
-  - Humanoid
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2507.00833)
-- **Project:** [GitHub](https://openhumanoidgen.github.io/)
-- **Published:** 2025-07
-- **Tags:**
-  - Manipulation
   - Humanoid
   - Simulation Benchmark
 

@@ -2,6 +2,58 @@
 
 All papers sorted by publication date (newest first).
 
+## FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.03889)
+- **Authors:** Yutian Zhang, Siyuan Ma, Liwen Yang, Yang Li, Ce Hao, Haozhen Chi et al. (9 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Vision-Language
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions induced by those actions.
+
+---
+
+## BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.03497)
+- **Authors:** Jianren Wang, Letian Qian, Zikai Wang, Weiwei Wu, Junjie Zong, Abhinav Gupta et al. (7 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Developing humanoid robots capable of leveraging human behavioral data is essential for general-purpose embodiment, yet conventional development remains bottlenecked by a decoupled paradigm that isolates hardware design from whole-body control. This approach leads to suboptimal systems that compromise human-like fluidity and agility.
+
+---
+
+## Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.03255)
+- **Authors:** Buwan Kim, Wonse Jo
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+This paper presents an experimental design for constructing a multimodal dataset to analyze user engagement in human-robot interaction (HRI). Prior studies have mainly relied on observable behavioral cues, with limited frameworks integrating physiological signals.
+
+---
+
 ## World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.02542)
