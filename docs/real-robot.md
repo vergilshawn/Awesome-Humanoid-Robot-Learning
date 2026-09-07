@@ -9,12 +9,30 @@ Papers with real humanoid robot deployment and experiments.
 - **Figure:** 3 papers
 - **Unitree G1:** 27 papers
 - **Unitree H1:** 1 papers
-- **Unknown Platform:** 11 papers
+- **Unknown Platform:** 12 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.05361)
+- **Authors:** Thang Tran Viet, Thanh Nguyen Canh, Huy Uong Gia, Phuc Dinh Van, Son Tran Duc, Ngoc Minh Do et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Large Language Model
+  - PPO
+
+### Summary
+
+Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This paper introduces a humanoid robot prototype designed as a flexible testbed for developing and integrating artificial intelligence (AI) modules in HRI tasks.
+
+---
 
 ## FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation
 

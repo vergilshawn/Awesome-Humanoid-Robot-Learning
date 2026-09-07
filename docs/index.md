@@ -8,15 +8,15 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 651
-- **Real Robot Papers:** 46
+- **Total Papers:** 652
+- **Real Robot Papers:** 47
 - **Open Source Papers:** 126
 - **Latest Month:** 2026-09
 
 ### Categories
 
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (225)
-- [Manipulation](/manipulation/) (64)
+- [Manipulation](/manipulation/) (65)
 - [Teleoperation](/teleoperation/) (26)
 - [Locomotion](/locomotion/) (155)
 - [Navigation](/navigation/) (22)
@@ -31,6 +31,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction](https://arxiv.org/abs/2609.05361) — 2026-09
+  - [Manipulation](/manipulation/)
 -  🤖 [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) — 2026-09
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI](https://arxiv.org/abs/2609.03497) — 2026-09
@@ -49,22 +51,20 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Teleoperation](/teleoperation/)
 -  [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2609.01518) — 2026-09
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677) — 2026-09
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (514)
+- **Humanoid** (515)
 - **Loco-Manipulation and Whole-Body Control** (233)
 - **Locomotion** (209)
-- **Manipulation** (167)
+- **Manipulation** (168)
 - **Reinforcement Learning** (78)
 - **Whole-Body Control** (59)
 - **Simulation Benchmark** (53)
 - **Teleoperation** (51)
-- **PPO** (49)
+- **PPO** (50)
 - **Physics-Based Character Animation** (49)
 - **Sim-to-Real** (37)
 - **Dataset** (36)
@@ -409,6 +409,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Predictive Sampling: Real-time Behaviour Synthesis with MuJoCo](https://arxiv.org/abs/2212.00541) — `MuJoCo`, `Loco-Manipulation and Whole-Body Control`
 
 ### [Manipulation](/manipulation/)
+
+#### [2026-09](/manipulation/2026-09)
+
+- [Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction](https://arxiv.org/abs/2609.05361) — `Manipulation`, `Humanoid`, `Large Language Model`, `PPO`, `Real Robot`
 
 #### [2026-08](/manipulation/2026-08)
 

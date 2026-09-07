@@ -1,9 +1,10 @@
 # Manipulation
 
-**64 papers** in this category.
+**65 papers** in this category.
 
 ## Months
 
+- [2026-09](/manipulation/2026-09) (1 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
 - [2026-06](/manipulation/2026-06) (8 papers)
@@ -32,6 +33,24 @@
 ---
 
 ## Recent Papers
+
+## Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.05361)
+- **Authors:** Thang Tran Viet, Thanh Nguyen Canh, Huy Uong Gia, Phuc Dinh Van, Son Tran Duc, Ngoc Minh Do et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Large Language Model
+  - PPO
+
+### Summary
+
+Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This paper introduces a humanoid robot prototype designed as a flexible testbed for developing and integrating artificial intelligence (AI) modules in HRI tasks.
+
+---
 
 ## Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception
 
@@ -366,20 +385,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Humanoid
   - Impedance Control
   - Vision-Language
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Generalizable Geometric Prior and Recurrent Spiking Feature Learning for Humanoid Robot Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.09031)
-- **Published:** 2026-01
-- **Tags:**
-  - Manipulation
-  - Humanoid
 
 ### Summary
 

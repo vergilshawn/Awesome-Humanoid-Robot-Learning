@@ -178,12 +178,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (64)",
+            "text": "Manipulation (65)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/manipulation/"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/manipulation/2026-09"
                   },
                   {
                         "text": "2026-08",

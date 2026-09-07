@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 651
-- **Real Robot Papers:** 46
+- **Total Papers:** 652
+- **Real Robot Papers:** 47
 - **Open Source Papers:** 126
 
 🌟 indicates papers with detected project/code links.
@@ -11,7 +11,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 ## Contents
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (225)
-- [Manipulation](#manipulation) (64)
+- [Manipulation](#manipulation) (65)
 - [Teleoperation](#teleoperation) (26)
 - [Locomotion](#locomotion) (155)
 - [Navigation](#navigation) (22)
@@ -343,6 +343,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Predictive Sampling: Real-time Behaviour Synthesis with MuJoCo](https://arxiv.org/abs/2212.00541) — `MuJoCo`, `Loco-Manipulation and Whole-Body Control`
 
 ## Manipulation
+
+### 2026-09
+
+- [Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction](https://arxiv.org/abs/2609.05361) — `Manipulation`, `Humanoid`, `Large Language Model`, `PPO`, `Real Robot`
 
 ### 2026-08
 
