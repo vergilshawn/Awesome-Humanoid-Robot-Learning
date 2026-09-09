@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (225)",
+            "text": "Loco-Manipulation and Whole-Body Control (228)",
             "collapsed": true,
             "items": [
                   {
@@ -288,7 +288,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (26)",
+            "text": "Teleoperation (29)",
             "collapsed": true,
             "items": [
                   {
@@ -362,7 +362,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (155)",
+            "text": "Locomotion (158)",
             "collapsed": true,
             "items": [
                   {
@@ -756,7 +756,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (33)",
+            "text": "Simulation Benchmark (34)",
             "collapsed": true,
             "items": [
                   {
@@ -834,12 +834,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (42)",
+            "text": "Physics-Based Character Animation (43)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/physics-based-character-animation/"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/physics-based-character-animation/2026-09"
                   },
                   {
                         "text": "2026-08",

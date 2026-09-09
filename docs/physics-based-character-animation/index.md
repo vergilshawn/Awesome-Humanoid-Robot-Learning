@@ -1,9 +1,10 @@
 # Physics-Based Character Animation
 
-**42 papers** in this category.
+**43 papers** in this category.
 
 ## Months
 
+- [2026-09](/physics-based-character-animation/2026-09) (1 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (6 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
@@ -34,6 +35,24 @@
 ---
 
 ## Recent Papers
+
+## Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.06591)
+- **Authors:** Jianan Li, Xiao Chen, Tien-Tsin Wong
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Developing unified physics-based humanoid controllers that can navigate complex 3D scenes and manipulate objects remains a longstanding challenge. Existing approaches are often specialized for either locomotion or object-centric manipulation, or rely on task-specific reward engineering that does not scale well across diverse behaviors.
+
+---
 
 ## PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots
 
@@ -333,20 +352,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.19926)
-- **Published:** 2025-08
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and RL
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.14120)
 - **Published:** 2025-08
 - **Tags:**
   - Humanoid

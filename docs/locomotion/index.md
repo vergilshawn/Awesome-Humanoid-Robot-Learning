@@ -1,10 +1,10 @@
 # Locomotion
 
-**155 papers** in this category.
+**158 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (2 papers)
+- [2026-09](/locomotion/2026-09) (5 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,64 @@
 ---
 
 ## Recent Papers
+
+## Visible-Reachable Workspace for Perception-Aware Humanoid Design
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.08905)
+- **Authors:** Boxi Xia, Zijiang Yang, Ryan Shin, Bokuan Li, Eric Wun-Hao Lu, Jacob Lee et al. (8 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - Locomotion
+
+### Summary
+
+Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it.
+
+---
+
+## Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07544)
+- **Authors:** Kazuki Sugihara, Kei Okada
+- **Published:** 2026-09
+- **Tags:**
+  - MPC
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Walking
+  - Optimal Control
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Flying humanoids are expected to perform tasks in diverse environments, while their existing locomotion is mainly limited to aerial flight and ground walking. The capability to move in complex three-dimensional space can greatly expand their application range.
+
+---
+
+## RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07096)
+- **Authors:** Zhe Li, Yangyang Wei, Xichen Yuan, Zhenzhe Zhang, Weihao Yuan, Shanghang Zhang et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Distillation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion requires control policies that remain stable under imperfect sensing while exploiting temporal context for consistent motion. We present RoboDreamer, a two-stage teacher--student framework that combines next-observation consistency with randomized continuous temporal masking.
+
+---
 
 ## World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain
 
@@ -347,56 +405,5 @@ Humanoid robots increasingly require multi-modal understanding for natural inter
 ### Summary
 
 Reinforcement learning can produce robust humanoid controllers, but each new task is typically trained as a separate policy with its own reward design and training process. Motion imitation provides an alternative source of motor competence by training policies to track retargeted human motions, yet the resulting controllers remain reference trackers and are not directly usable as task policies.
-
----
-
-## Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.20345)
-- **Authors:** Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Humanoid
-  - Vision-Language
-  - Foundation Model
-  - Fine-tuning
-  - Benchmark
-  - Locomotion
-
-### Summary
-
-Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. This paper presents DEED (Data-Efficient Post-Training and Experience-Driven Learning), a systems-level approach evaluated on a supermarket chip-restocking task using a Unitree G1-Edu humanoid robot and the GR00T N1.6 foundation model.
-
----
-
-## Extreme-RGMT: Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.20110)
-- **Authors:** Yubiao Ma, Han Yu, Kai Guo, Changtai Lv, Zhengquan Mao, Boyang Xing et al. (8 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Humans can progressively acquire highly dynamic motor skills while preserving reliable everyday motor abilities. In contrast, existing humanoid controllers face a trade-off between generalist and specialist capabilities: generalist motion tracking policies struggle to reliably execute rare highly dynamic motions, whereas specialist training can degrade previously acquired behaviors.
-
----
-
-## What Matters in Humanoid General Motion Tracking? An Empirical Study
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.19903)
-- **Authors:** Fabio Amadio, Enrico Mingo Hoffman
-- **Published:** 2026-07
-- **Tags:**
-  - Zero-Shot
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Humanoid general motion tracking requires policies that can follow diverse whole-body references while maintaining balance. Building such policies involves many practical design choices, and their individual effects are often hard to assess.
 
 ---

@@ -2,6 +2,215 @@
 
 All papers sorted by publication date (newest first).
 
+## TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.09158)
+- **Authors:** Anqi Li, Yuxin Chen, Zhaobo Li, Zhuo Cao, Junli Ren, Masayoshi Tomizuka et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Navigation
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Path Planning
+  - Language-Conditioned
+  - Vision-Language
+
+### Summary
+
+We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces.
+
+---
+
+## Visible-Reachable Workspace for Perception-Aware Humanoid Design
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.08905)
+- **Authors:** Boxi Xia, Zijiang Yang, Ryan Shin, Bokuan Li, Eric Wun-Hao Lu, Jacob Lee et al. (8 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - Locomotion
+
+### Summary
+
+Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it.
+
+---
+
+## PGMT: Perceptive General Motion Tracking for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.08511)
+- **Authors:** Hongyi Li, Li Peizhuo, Yucheng Tao, Ze Wang, Fangzhou Xu, Jinyi Chen et al. (12 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - PPO
+
+### Summary
+
+Humanoid motion trackers can reproduce diverse whole-body motions, but their performance degrades on complex terrain where terrain-agnostic references become physically infeasible. We present PGMT, a Perceptive General Motion Tracking pipeline for humanoid robots that learns terrain adaptation from independently selected motion references and terrains.
+
+---
+
+## SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07933)
+- **Authors:** Lixing Fang, Ziyan Xiong, Sunli Chen, Zhiyang Dou, Chuang Gan
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+High-quality demonstration data is becoming a central bottleneck for training general-purpose humanoid robots. While recent humanoid teleoperation systems have made substantial progress in retargeting human motion to robot motion, long-horizon loco-manipulation requires another capability: operators must maintain task-relevant spatial awareness over time, e.g., object locations, surrounding environments, the robot's pose.
+
+---
+
+## Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07544)
+- **Authors:** Kazuki Sugihara, Kei Okada
+- **Published:** 2026-09
+- **Tags:**
+  - MPC
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Walking
+  - Optimal Control
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Flying humanoids are expected to perform tasks in diverse environments, while their existing locomotion is mainly limited to aerial flight and ground walking. The capability to move in complex three-dimensional space can greatly expand their application range.
+
+---
+
+## How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07288)
+- **Authors:** Aulon Bajrami, Mohamed Elshamouty, Werner Kraus
+- **Published:** 2026-09
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Benchmark
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Large Language Models (LLMs) are increasingly employed to orchestrate robot behavior through natural-language interfaces, yet no benchmark exists to evaluate their reliability as safety-aware decision makers in human-humanoid collaboration. Unlike deterministic safety systems that enforce binary allow/deny decisions, LLM-based orchestrators exhibit a compliance spectrum ranging from overcompliance (refusing safe actions) to full safety violations.
+
+---
+
+## RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07096)
+- **Authors:** Zhe Li, Yangyang Wei, Xichen Yuan, Zhenzhe Zhang, Weihao Yuan, Shanghang Zhang et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Distillation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion requires control policies that remain stable under imperfect sensing while exploiting temporal context for consistent motion. We present RoboDreamer, a two-stage teacher--student framework that combines next-observation consistency with randomized continuous temporal masking.
+
+---
+
+## SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.06718)
+- **Authors:** Zhangchen Ye, Enxuan Ruan, Yifei Bao, Runhan Huang, Jiankun Yang, Jiakang Jin et al. (13 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Sim-to-Real
+  - Locomotion
+  - Humanoid
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid soccer is a challenging testbed for dynamic whole-body control, requiring robots to coordinate balance, locomotion, object interaction, and skill switching over long horizons. Existing humanoid sports methods often rely on task-specific multi-stage pipelines, making it difficult to jointly learn and compose multiple object-interactive skills within a single deployable policy.
+
+---
+
+## Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.06591)
+- **Authors:** Jianan Li, Xiao Chen, Tien-Tsin Wong
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Developing unified physics-based humanoid controllers that can navigate complex 3D scenes and manipulate objects remains a longstanding challenge. Existing approaches are often specialized for either locomotion or object-centric manipulation, or rely on task-specific reward engineering that does not scale well across diverse behaviors.
+
+---
+
+## Can People Distinguish Human and AI Agency in Humanoid Teleoperation? A Preliminary Study of Agency Perception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.06434)
+- **Authors:** Xiang Li, Koya Dendo, Keigo Minamida, Yuto Nakamura, Per Ola Kristensson, Jun Rekimoto
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - PPO
+
+### Summary
+
+Can people distinguish between human and AI agency in humanoid teleoperation? To explore this question, we developed \textit{Ghost-in-the-Loop}, a teleoperation framework that supports both human-operated and AI-generated control of a robot's voice, facial expressions, and gestures while maintaining a consistent embodiment. We conducted a preliminary online study ($N=50$) in which participants viewed short interaction clips generated by either a Human Operator or an AI Control and judged the perceived source of control.
+
+---
+
+## GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.05994)
+- **Authors:** Qingyao Xu, Sheng Yin, Zibo Zhou, Ya Zhang, Siheng Chen, Yue Hu
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Manipulation
+  - Isaac Gym
+  - MuJoCo
+  - Humanoid
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires accurate whole-body motion tracking in the world frame for physical interaction. While local references preserve motion structure, they lack explicit constraints on absolute spatial placement, leading to accumulated global errors.
+
+---
+
 ## Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.05361)

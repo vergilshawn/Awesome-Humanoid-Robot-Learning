@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**225 papers** in this category.
+**228 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (4 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (7 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,69 @@
 ---
 
 ## Recent Papers
+
+## TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.09158)
+- **Authors:** Anqi Li, Yuxin Chen, Zhaobo Li, Zhuo Cao, Junli Ren, Masayoshi Tomizuka et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Navigation
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Path Planning
+  - Language-Conditioned
+  - Vision-Language
+
+### Summary
+
+We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces.
+
+---
+
+## SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.06718)
+- **Authors:** Zhangchen Ye, Enxuan Ruan, Yifei Bao, Runhan Huang, Jiankun Yang, Jiakang Jin et al. (13 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Sim-to-Real
+  - Locomotion
+  - Humanoid
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid soccer is a challenging testbed for dynamic whole-body control, requiring robots to coordinate balance, locomotion, object interaction, and skill switching over long horizons. Existing humanoid sports methods often rely on task-specific multi-stage pipelines, making it difficult to jointly learn and compose multiple object-interactive skills within a single deployable policy.
+
+---
+
+## GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.05994)
+- **Authors:** Qingyao Xu, Sheng Yin, Zibo Zhou, Ya Zhang, Siheng Chen, Yue Hu
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Manipulation
+  - Isaac Gym
+  - MuJoCo
+  - Humanoid
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires accurate whole-body motion tracking in the world frame for physical interaction. While local references preserve motion structure, they lack explicit constraints on absolute spatial placement, leading to accumulated global errors.
+
+---
 
 ## FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation
 
@@ -376,65 +439,5 @@ Whole-body tactile sensing is a prerequisite for humanoids that operate in conta
 ### Summary
 
 FastSAC-style methods significantly reduce humanoid motion training time but often suffer from notable performance degradation compared with PPO in whole-body tracking tasks. We target this speed-performance gap by introducing LooperMuscle, a composed expert policy learning framework that restores tracking quality while preserving high training efficiency.
-
----
-
-## Light-Loco-Parkour: Versatile Perceptive Whole-Body Locomotion via Multi-Skill Distillation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.02653)
-- **Authors:** Hongming Chen, Zhuoran Li, Hongxi Wang, Jiangpeng Hu, Ziliang Li, Peize Liu et al. (12 authors)
-- **Published:** 2026-08
-- **Real Robot:** ✅
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - Distillation
-  - Benchmark
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Existing humanoid whole-body control systems still fall short of the way humans move through cluttered terrain: they either track expressive whole-body references without terrain generalization, or react to terrain online while leaving the arms, torso, and knees largely unused. We present \texttt{Light-Loco-Parkour} (LLP), an end-to-end perceptive whole-body locomotion system that closes this gap with a single deployable policy.
-
----
-
-## Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.29625)
-- **Authors:** Hyunjong Song, William Z. Peng, Joo H. Kim
-- **Published:** 2026-07
-- **Tags:**
-  - Manipulation
-  - Biped
-  - Humanoid
-  - Trajectory Optimization
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-The demand for humanoid loco-manipulation tasks with an object has recently increased, and most existing control approaches for stability in such tasks rely on heuristics or machine-learning techniques. This study rigorously analyzes and exploits the dynamic effects of the object mass on balance stability.
-
----
-
-## PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.28623)
-- **Authors:** Lizhi Yang, Junheng Li, Aaron D. Ames
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Zero-Shot
-  - Safety
-  - Humanoid
-  - Benchmark
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance represents clearance to every body link, and an adversarial motion prior regularizes the resulting evasive reflexes.
 
 ---
