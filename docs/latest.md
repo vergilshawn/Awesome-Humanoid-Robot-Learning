@@ -2,6 +2,66 @@
 
 All papers sorted by publication date (newest first).
 
+## Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.10286)
+- **Authors:** Junnosuke Kamohara, Feiyang Wu, Andy Ningan Zong, Daniel I. Goldman, Yashwanth Nakka, Seth Hutchinson et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Contact Dynamics
+
+### Summary
+
+Humanoid locomotion on granular terrain remains a significant challenge due to its complex foot-terrain interaction dynamics that are difficult to model. Existing approaches either ignore granular contact dynamics or incorporate simplified normal force models with heuristic tangential components.
+
+---
+
+## SwingBot: Learning Whole-Body Brachiation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.10283)
+- **Authors:** Yujie Xiong, Peng Zhai, Taixian Hou, Quancheng Qian, Cunwang Liu, Kangmai Hu et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - State Estimation
+  - Robustness
+  - Humanoid
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capabil?ity to high-DoF humanoid robots is difficult because the controller must discover a long-horizon release-swing-capture sequence, coordinate alternating contacts with whole-body momentum, and act without reliable measurements of segment?relative displacement or hook-contact state.
+
+---
+
+## ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.09918)
+- **Authors:** Lokesh Krishna, Sarvesh Venkatesan, An Zhang, Quan Nguyen
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Walking
+  - Fine-tuning
+  - Distillation
+
+### Summary
+
+Motion tracking provides a scalable recipe for humanoid whole-body control. By design, the resulting trackers lack exteroceptive feedback hence reacting to the environment remains the responsibility of a higher-level planner.
+
+---
+
 ## TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.09158)

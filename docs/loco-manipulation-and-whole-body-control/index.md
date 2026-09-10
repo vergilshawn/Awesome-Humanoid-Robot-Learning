@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**228 papers** in this category.
+**230 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (7 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (9 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,47 @@
 ---
 
 ## Recent Papers
+
+## SwingBot: Learning Whole-Body Brachiation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.10283)
+- **Authors:** Yujie Xiong, Peng Zhai, Taixian Hou, Quancheng Qian, Cunwang Liu, Kangmai Hu et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - State Estimation
+  - Robustness
+  - Humanoid
+  - PPO
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capabil?ity to high-DoF humanoid robots is difficult because the controller must discover a long-horizon release-swing-capture sequence, coordinate alternating contacts with whole-body momentum, and act without reliable measurements of segment?relative displacement or hook-contact state.
+
+---
+
+## ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.09918)
+- **Authors:** Lokesh Krishna, Sarvesh Venkatesan, An Zhang, Quan Nguyen
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Walking
+  - Fine-tuning
+  - Distillation
+
+### Summary
+
+Motion tracking provides a scalable recipe for humanoid whole-body control. By design, the resulting trackers lack exteroceptive feedback hence reacting to the environment remains the responsibility of a higher-level planner.
+
+---
 
 ## TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model
 
@@ -404,40 +445,5 @@ Humanoid household tasks often require concurrent loco-manipulation, where the r
 ### Summary
 
 Humanoid robots have the potential to perform dexterous manipulation in human environments, yet acquiring diverse and generalizable skills remains costly due to expensive hardware data collection and labor-intensive annotation. Recent advances in video generative models provide a promising opportunity to synthesize rich manipulation experiences from visual observations, but transferring such imagined behaviors into executable whole-body humanoid skills remains largely unexplored.
-
----
-
-## Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.02080)
-- **Authors:** Haofeng Chen, Carson Kohlbrenner, Jiri Kubik, Lukas Rustler, Alexander Dickhans, Karel Bartunek et al. (9 authors)
-- **Published:** 2026-08
-- **Real Robot:** ✅ — iCub
-- **Tags:**
-  - Humanoid
-  - Tactile Sensing
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Whole-body tactile sensing is a prerequisite for humanoids that operate in contact-rich human environments, but conventional taxel arrays scale poorly with surface area, wiring complexity, and robot-specific curvature. We present a conformal electrical impedance tomography tactile skin fabricated through a geometry-adaptable additive-manufacturing workflow.
-
----
-
-## LooperMuscle: Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.00820)
-- **Authors:** Boyi Liu, Qijin Li, Tianqi Yu, Qinrui Yan, Xingxing Zuo
-- **Published:** 2026-08
-- **Tags:**
-  - Humanoid
-  - Policy Learning
-  - PPO
-  - SAC
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-FastSAC-style methods significantly reduce humanoid motion training time but often suffer from notable performance degradation compared with PPO in whole-body tracking tasks. We target this speed-performance gap by introducing LooperMuscle, a composed expert policy learning framework that restores tracking quality while preserving high training efficiency.
 
 ---

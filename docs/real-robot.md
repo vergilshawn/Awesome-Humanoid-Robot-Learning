@@ -9,12 +9,31 @@ Papers with real humanoid robot deployment and experiments.
 - **Figure:** 4 papers
 - **Unitree G1:** 30 papers
 - **Unitree H1:** 1 papers
-- **Unknown Platform:** 12 papers
+- **Unknown Platform:** 13 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.10286)
+- **Authors:** Junnosuke Kamohara, Feiyang Wu, Andy Ningan Zong, Daniel I. Goldman, Yashwanth Nakka, Seth Hutchinson et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Contact Dynamics
+
+### Summary
+
+Humanoid locomotion on granular terrain remains a significant challenge due to its complex foot-terrain interaction dynamics that are difficult to model. Existing approaches either ignore granular contact dynamics or incorporate simplified normal force models with heuristic tangential components.
+
+---
 
 ## TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model
 

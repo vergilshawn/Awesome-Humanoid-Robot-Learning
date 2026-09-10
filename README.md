@@ -2,18 +2,18 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 663
-- **Real Robot Papers:** 51
+- **Total Papers:** 666
+- **Real Robot Papers:** 52
 - **Open Source Papers:** 126
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (228)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (230)
 - [Manipulation](#manipulation) (65)
 - [Teleoperation](#teleoperation) (29)
-- [Locomotion](#locomotion) (158)
+- [Locomotion](#locomotion) (159)
 - [Navigation](#navigation) (22)
 - [State Estimation](#state-estimation) (15)
 - [Sim-to-Real](#sim-to-real) (13)
@@ -29,6 +29,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-09
 
+- [SwingBot: Learning Whole-Body Brachiation for Humanoid Robots](https://arxiv.org/abs/2609.10283) — `Locomotion`, `State Estimation`, `Robustness`, `Humanoid`, `PPO`, `GAN`
+- [ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control](https://arxiv.org/abs/2609.09918) — `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Walking`
 - [TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model](https://arxiv.org/abs/2609.09158) — `Whole-Body Control`, `Navigation`, `Zero-Shot`, `Humanoid`, `Gait`, `Path Planning`
 - [SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer](https://arxiv.org/abs/2609.06718) — `Reinforcement Learning`, `Whole-Body Control`, `Sim-to-Real`, `Locomotion`, `Humanoid`, `Policy Learning`
 - [GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.05994) — `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Isaac Gym`, `MuJoCo`, `Humanoid`
@@ -570,6 +572,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-09
 
+- [Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain](https://arxiv.org/abs/2609.10286) — `Reinforcement Learning`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Contact Dynamics`, `Real Robot`
 - [Visible-Reachable Workspace for Perception-Aware Humanoid Design](https://arxiv.org/abs/2609.08905) — `Manipulation`, `Humanoid`, `Benchmark`, `Locomotion`, `Real Robot`
 - [Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control](https://arxiv.org/abs/2609.07544) — `MPC`, `Locomotion`, `Biped`, `Humanoid`, `Walking`, `Optimal Control`
 - [RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models](https://arxiv.org/abs/2609.07096) — `Locomotion`, `MuJoCo`, `Humanoid`, `Distillation`, `Simulation Benchmark`, `Real Robot`
