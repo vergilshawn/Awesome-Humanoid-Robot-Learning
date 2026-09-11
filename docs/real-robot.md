@@ -7,7 +7,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Figure:** 4 papers
-- **Unitree G1:** 30 papers
+- **Unitree G1:** 31 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 13 papers
 - **iCub:** 1 papers
@@ -15,6 +15,22 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.11553)
+- **Authors:** Hongjin Chen, Zijun Xu, Shihao Ma, Yi Zhao, Xilai Liu, Ke Ma et al. (11 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Humanoid locomotion across complex terrain demands forward-looking exteroception to anticipate obstacles, yet this signal is unreliable in real-world deployment, failing partially and intermittently. Existing perceptive policies often assume that depth observations remain clean and in-distribution, while recent attempts to unify perceptive and blind control typically route or switch between separate sub-policies, leaving recoverable information in partially corrupted depth unexploited.
+
+---
 
 ## Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain
 

@@ -1,10 +1,10 @@
 # Locomotion
 
-**159 papers** in this category.
+**160 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (6 papers)
+- [2026-09](/locomotion/2026-09) (7 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,22 @@
 ---
 
 ## Recent Papers
+
+## CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.11553)
+- **Authors:** Hongjin Chen, Zijun Xu, Shihao Ma, Yi Zhao, Xilai Liu, Ke Ma et al. (11 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Humanoid locomotion across complex terrain demands forward-looking exteroception to anticipate obstacles, yet this signal is unreliable in real-world deployment, failing partially and intermittently. Existing perceptive policies often assume that depth observations remain clean and in-distribution, while recent attempts to unify perceptive and blind control typically route or switch between separate sub-policies, leaving recoverable information in partially corrupted depth unexploited.
+
+---
 
 ## Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain
 
@@ -385,24 +401,5 @@ Humanoid robots, with their human-like shape and multi-tasking capabilities, are
 ### Summary
 
 While robot foundation models are growing increasingly capable, the strongest models are typically trained on proprietary data and remain closed-source, limiting downstream users' ability to adapt them to new tasks, embodiments, and deployment settings. Following the LLM community, an emerging access paradigm for closed-weight robot foundation models is the managed supervised fine-tuning (SFT) API, where users submit training data and receive a tuned policy without access to model weights, gradients, or training internals.
-
----
-
-## Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.26567)
-- **Authors:** Hung Nguyen, Kim Nhat Minh Nguyen, Van Duc Vu, Van-Danh Le, Hoang Huy Le, Dinh Tuan Nguyen et al. (9 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅
-- **Tags:**
-  - Robustness
-  - Humanoid
-  - Vision-Language
-  - Multi-Modal
-  - Locomotion
-
-### Summary
-
-Humanoid robots increasingly require multi-modal understanding for natural interaction with humans. Despite the prominence of vision-language models, they generally assume textual rather than the more natural speech inputs.
 
 ---

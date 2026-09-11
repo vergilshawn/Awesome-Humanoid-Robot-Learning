@@ -1,5 +1,80 @@
 [
   {
+    "arxiv_id": "2609.11553",
+    "title": "CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising",
+    "paper_url": "https://arxiv.org/abs/2609.11553",
+    "project_url": null,
+    "authors": [
+      "Hongjin Chen",
+      "Zijun Xu",
+      "Shihao Ma",
+      "Yi Zhao",
+      "Xilai Liu",
+      "Ke Ma",
+      "Wei Zhang",
+      "Chunyang Xie",
+      "Pengfei Li",
+      "Jieru Zhao",
+      "Wenchao Ding"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-10",
+    "abstract": "Humanoid locomotion across complex terrain demands forward-looking exteroception to anticipate obstacles, yet this signal is unreliable in real-world deployment, failing partially and intermittently. Existing perceptive policies often assume that depth observations remain clean and in-distribution, while recent attempts to unify perceptive and blind control typically route or switch between separate sub-policies, leaving recoverable information in partially corrupted depth unexploited. We instead propose CAP, a single-stage humanoid locomotion policy that recovers this signal with a perceptive world-model encoder trained as a learned denoiser to reconstruct clean depth from a corrupted input, together with a co-active proprioceptive variational encoder that supplies depth-free body-state information. A coupled training recipe pairs a depth-noise curriculum on the world-model input with world-model feature dropout on the policy-facing latent, exposing the policy to failures across the entire perception-quality spectrum. In simulation, CAP matches or improves upon perceptive baselines when depth remains informative, and degrades more smoothly than a binary-switching baseline as perception worsens. On the Unitree G1, controlled trials and indoor-outdoor deployments demonstrate perception-robust locomotion under intermittent occlusion, real-sensor corruption, and outdoor depth artifacts.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.11357",
+    "title": "Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2609.11357",
+    "project_url": null,
+    "authors": [
+      "Chenbo Xia",
+      "Chao Ye"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-10",
+    "abstract": "Human-to-humanoid retargeting has largely been studied on legged platforms, while comparatively few wheeled-humanoid systems support coupled locomotion and manipulation from general human motion. Building on GMR's configurable general-motion retargeting and BeyondMimic's physically simulated R1 Pro learning framework, we present a reproducible pipeline that converts multi-dataset SMPLX motion into executable loco-manipulation behavior for the Galaxea R1 Pro wheeled humanoid. The robot has a planar three-wheel base, a serial torso, and two arms but no leg joints, so human lower-body motion must be redistributed across base motion and torso posture without sacrificing manipulation-relevant arm geometry. Our pipeline combines canonical body-shape preprocessing, planar-base normalization, morphology-aware differential inverse kinematics, shoulder-rooted hierarchical arm retargeting, and continuous torso substitution for bending and squatting. A reference-twist-driven planning layer then decodes planar base motion into continuous three-wheel steering and rolling commands subject to hysteresis, kinematic continuity, acceleration, and actuator-rate limits. Finally, a 21-dimensional BaseDecode policy is trained in Isaac Lab with directional joint-limit scaling, focused upper-body tracking, and a staged wheel-contact reward. The resulting system provides a complete bridge from human motion data to physically trackable wheeled-humanoid loco-manipulation rather than a visualization-only retargeter; quantitative policy comparisons remain scheduled for a later revision.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Teleoperation",
+      "Human Motion Analysis and Synthesis",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Motion Retargeting",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Inverse Kinematics",
+      "Dataset",
+      "PPO",
+      "SAC",
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation",
+      "Human Motion Analysis and Synthesis",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2609.10286",
     "title": "Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain",
     "paper_url": "https://arxiv.org/abs/2609.10286",
@@ -50,7 +125,7 @@
     ],
     "published": "2026-09",
     "published_date": "2026-09-09",
-    "abstract": "Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capabil?ity to high-DoF humanoid robots is difficult because the controller must discover a long-horizon release-swing-capture sequence, coordinate alternating contacts with whole-body momentum, and act without reliable measurements of segment?relative displacement or hook-contact state. We present SwingBot, a learning framework for continuous humanoid brachiation with passive wrist hooks. Swing?Bot makes the task trainable by organizing learning around the structure of brachi?ation: biomimetic keyframes make rare release-swing-capture transitions reach?able during early exploration, and recurrent privileged-state estimation provides compact position and contact latents for deployment. Hardware experiments demonstrate continuous bar traversal and robustness to payload, external distur?bances and different bar spacings, showing that this formulation offers a practical route to whole-body robotic brachiation.",
+    "abstract": "Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capability to high-DoF humanoid robots is difficult because the controller must discover a long-horizon release-swing-capture sequence, coordinate alternating contacts with whole-body momentum, and act without reliable measurements of segment-relative displacement or hook-contact state. We present SwingBot, a learning framework for continuous humanoid brachiation with passive wrist hooks. SwingBot makes the task trainable by organizing learning around the structure of brachiation: biomimetic keyframes make rare release-swing-capture transitions reachable during early exploration, and recurrent privileged-state estimation provides compact position and contact latents for deployment. Hardware experiments demonstrate continuous bar traversal and robustness to payload, external disturbances and different bar spacings, showing that this formulation offers a practical route to whole-body robotic brachiation.",
     "categories": [
       "Loco-Manipulation and Whole-Body Control",
       "State Estimation"

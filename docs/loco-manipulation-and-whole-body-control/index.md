@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**230 papers** in this category.
+**231 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (9 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (10 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -39,6 +39,27 @@
 
 ## Recent Papers
 
+## Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.11357)
+- **Authors:** Chenbo Xia, Chao Ye
+- **Published:** 2026-09
+- **Tags:**
+  - Motion Retargeting
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Inverse Kinematics
+  - Dataset
+  - PPO
+  - SAC
+
+### Summary
+
+Human-to-humanoid retargeting has largely been studied on legged platforms, while comparatively few wheeled-humanoid systems support coupled locomotion and manipulation from general human motion. Building on GMR's configurable general-motion retargeting and BeyondMimic's physically simulated R1 Pro learning framework, we present a reproducible pipeline that converts multi-dataset SMPLX motion into executable loco-manipulation behavior for the Galaxea R1 Pro wheeled humanoid.
+
+---
+
 ## SwingBot: Learning Whole-Body Brachiation for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.10283)
@@ -55,7 +76,7 @@
 
 ### Summary
 
-Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capabil?ity to high-DoF humanoid robots is difficult because the controller must discover a long-horizon release-swing-capture sequence, coordinate alternating contacts with whole-body momentum, and act without reliable measurements of segment?relative displacement or hook-contact state.
+Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capability to high-DoF humanoid robots is difficult because the controller must discover a long-horizon release-swing-capture sequence, coordinate alternating contacts with whole-body momentum, and act without reliable measurements of segment-relative displacement or hook-contact state.
 
 ---
 
@@ -424,26 +445,5 @@ Long-horizon humanoid loco-manipulation requires composing versatile whole-body 
 ### Summary
 
 Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered.
-
----
-
-## RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.03387)
-- **Authors:** Shuliang He, Shuai Wang, Bo Yue, Junchi Teng, Changyu Wang, Guiliang Liu
-- **Published:** 2026-08
-- **Tags:**
-  - Whole-Body Control
-  - Teleoperation
-  - Manipulation
-  - Generative Models
-  - Human Demonstration
-  - Humanoid
-  - 3D Reconstruction
-  - Vision-Language
-
-### Summary
-
-Humanoid robots have the potential to perform dexterous manipulation in human environments, yet acquiring diverse and generalizable skills remains costly due to expensive hardware data collection and labor-intensive annotation. Recent advances in video generative models provide a promising opportunity to synthesize rich manipulation experiences from visual observations, but transferring such imagined behaviors into executable whole-body humanoid skills remains largely unexplored.
 
 ---

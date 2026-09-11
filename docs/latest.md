@@ -2,6 +2,43 @@
 
 All papers sorted by publication date (newest first).
 
+## CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.11553)
+- **Authors:** Hongjin Chen, Zijun Xu, Shihao Ma, Yi Zhao, Xilai Liu, Ke Ma et al. (11 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Humanoid locomotion across complex terrain demands forward-looking exteroception to anticipate obstacles, yet this signal is unreliable in real-world deployment, failing partially and intermittently. Existing perceptive policies often assume that depth observations remain clean and in-distribution, while recent attempts to unify perceptive and blind control typically route or switch between separate sub-policies, leaving recoverable information in partially corrupted depth unexploited.
+
+---
+
+## Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.11357)
+- **Authors:** Chenbo Xia, Chao Ye
+- **Published:** 2026-09
+- **Tags:**
+  - Motion Retargeting
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Inverse Kinematics
+  - Dataset
+  - PPO
+  - SAC
+
+### Summary
+
+Human-to-humanoid retargeting has largely been studied on legged platforms, while comparatively few wheeled-humanoid systems support coupled locomotion and manipulation from general human motion. Building on GMR's configurable general-motion retargeting and BeyondMimic's physically simulated R1 Pro learning framework, we present a reproducible pipeline that converts multi-dataset SMPLX motion into executable loco-manipulation behavior for the Galaxea R1 Pro wheeled humanoid.
+
+---
+
 ## Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.10286)
@@ -37,7 +74,7 @@ Humanoid locomotion on granular terrain remains a significant challenge due to i
 
 ### Summary
 
-Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capabil?ity to high-DoF humanoid robots is difficult because the controller must discover a long-horizon release-swing-capture sequence, coordinate alternating contacts with whole-body momentum, and act without reliable measurements of segment?relative displacement or hook-contact state.
+Brachiation enables primates to move across overhead supports when ground paths are blocked, suggesting a complementary locomotion mode for robots operating in cluttered or hazardous environments. Bringing this capability to high-DoF humanoid robots is difficult because the controller must discover a long-horizon release-swing-capture sequence, coordinate alternating contacts with whole-body momentum, and act without reliable measurements of segment-relative displacement or hook-contact state.
 
 ---
 
