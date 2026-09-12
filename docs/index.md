@@ -101,8 +101,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model](https://arxiv.org/abs/2609.09158) — `Whole-Body Control`, `Navigation`, `Zero-Shot`, `Humanoid`, `Gait`, `Path Planning`
 - [SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer](https://arxiv.org/abs/2609.06718) — `Reinforcement Learning`, `Whole-Body Control`, `Sim-to-Real`, `Locomotion`, `Humanoid`, `Policy Learning`
 - [GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.05994) — `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Isaac Gym`, `MuJoCo`, `Humanoid`
-- [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) — `Whole-Body Control`, `Manipulation`, `Vision-Language`, `Dataset`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI](https://arxiv.org/abs/2609.03497) — `Whole-Body Control`, `Locomotion`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) — `Whole-Body Control`, `Manipulation`, `Vision-Language`, `Dataset`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2609.01518) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `PPO`
 - [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677) — `Reinforcement Learning`, `Diffusion Policy`, `Whole-Body Control`, `Robustness`, `Humanoid`, `Diffusion`
 

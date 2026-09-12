@@ -326,25 +326,6 @@ Human-robot interaction (HRI) enables intuitive and intelligent collaboration be
 
 ---
 
-## FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.03889)
-- **Authors:** Yutian Zhang, Siyuan Ma, Liwen Yang, Yang Li, Ce Hao, Haozhen Chi et al. (9 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - Vision-Language
-  - Dataset
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions induced by those actions.
-
----
-
 ## BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.03497)
@@ -375,6 +356,25 @@ Developing humanoid robots capable of leveraging human behavioral data is essent
 ### Summary
 
 This paper presents an experimental design for constructing a multimodal dataset to analyze user engagement in human-robot interaction (HRI). Prior studies have mainly relied on observable behavioral cues, with limited frameworks integrating physiological signals.
+
+---
+
+## FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.03889)
+- **Authors:** Yutian Zhang, Siyuan Ma, Liwen Yang, Yang Li, Ce Hao, Haozhen Chi et al. (9 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Vision-Language
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions induced by those actions.
 
 ---
 

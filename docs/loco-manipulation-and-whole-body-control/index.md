@@ -164,6 +164,23 @@ Humanoid loco-manipulation requires accurate whole-body motion tracking in the w
 
 ---
 
+## BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.03497)
+- **Authors:** Jianren Wang, Letian Qian, Zikai Wang, Weiwei Wu, Junjie Zong, Abhinav Gupta et al. (7 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Developing humanoid robots capable of leveraging human behavioral data is essential for general-purpose embodiment, yet conventional development remains bottlenecked by a decoupled paradigm that isolates hardware design from whole-body control. This approach leads to suboptimal systems that compromise human-like fluidity and agility.
+
+---
+
 ## FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.03889)
@@ -180,23 +197,6 @@ Humanoid loco-manipulation requires accurate whole-body motion tracking in the w
 ### Summary
 
 Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions induced by those actions.
-
----
-
-## BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.03497)
-- **Authors:** Jianren Wang, Letian Qian, Zikai Wang, Weiwei Wu, Junjie Zong, Abhinav Gupta et al. (7 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Developing humanoid robots capable of leveraging human behavioral data is essential for general-purpose embodiment, yet conventional development remains bottlenecked by a decoupled paradigm that isolates hardware design from whole-body control. This approach leads to suboptimal systems that compromise human-like fluidity and agility.
 
 ---
 

@@ -50,7 +50,7 @@ Browse papers by research topic and methodology.
 - [TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model](https://arxiv.org/abs/2609.09158) — 2026-09
 - [SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer](https://arxiv.org/abs/2609.06718) — 2026-09
 - [GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.05994) — 2026-09
-- [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) — 2026-09
+- [BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI](https://arxiv.org/abs/2609.03497) — 2026-09
 
 ## Simulation Benchmark (57)
 
@@ -96,8 +96,8 @@ Browse papers by research topic and methodology.
 
 - [Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.11357) — 2026-09
 - [ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control](https://arxiv.org/abs/2609.09918) — 2026-09
-- [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) — 2026-09
 - [Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot](https://arxiv.org/abs/2609.03255) — 2026-09
+- [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) — 2026-09
 - [RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction](https://arxiv.org/abs/2608.28693) — 2026-08
 
 ## Navigation (35)
