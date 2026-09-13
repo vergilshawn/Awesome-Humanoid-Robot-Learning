@@ -288,7 +288,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (29)",
+            "text": "Teleoperation (27)",
             "collapsed": true,
             "items": [
                   {
@@ -362,7 +362,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (160)",
+            "text": "Locomotion (157)",
             "collapsed": true,
             "items": [
                   {
@@ -756,7 +756,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (34)",
+            "text": "Simulation Benchmark (33)",
             "collapsed": true,
             "items": [
                   {

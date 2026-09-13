@@ -1,10 +1,10 @@
 # Locomotion
 
-**160 papers** in this category.
+**157 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (7 papers)
+- [2026-09](/locomotion/2026-09) (4 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -72,64 +72,6 @@ Humanoid locomotion across complex terrain demands forward-looking exteroception
 ### Summary
 
 Humanoid locomotion on granular terrain remains a significant challenge due to its complex foot-terrain interaction dynamics that are difficult to model. Existing approaches either ignore granular contact dynamics or incorporate simplified normal force models with heuristic tangential components.
-
----
-
-## Visible-Reachable Workspace for Perception-Aware Humanoid Design
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.08905)
-- **Authors:** Boxi Xia, Zijiang Yang, Ryan Shin, Bokuan Li, Eric Wun-Hao Lu, Jacob Lee et al. (8 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Benchmark
-  - Locomotion
-
-### Summary
-
-Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it.
-
----
-
-## Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.07544)
-- **Authors:** Kazuki Sugihara, Kei Okada
-- **Published:** 2026-09
-- **Tags:**
-  - MPC
-  - Locomotion
-  - Biped
-  - Humanoid
-  - Walking
-  - Optimal Control
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Flying humanoids are expected to perform tasks in diverse environments, while their existing locomotion is mainly limited to aerial flight and ground walking. The capability to move in complex three-dimensional space can greatly expand their application range.
-
----
-
-## RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.07096)
-- **Authors:** Zhe Li, Yangyang Wei, Xichen Yuan, Zhenzhe Zhang, Weihao Yuan, Shanghang Zhang et al. (7 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - MuJoCo
-  - Humanoid
-  - Distillation
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid locomotion requires control policies that remain stable under imperfect sensing while exploiting temporal context for consistent motion. We present RoboDreamer, a two-stage teacher--student framework that combines next-observation consistency with randomized continuous temporal masking.
 
 ---
 
@@ -401,5 +343,64 @@ Humanoid robots, with their human-like shape and multi-tasking capabilities, are
 ### Summary
 
 While robot foundation models are growing increasingly capable, the strongest models are typically trained on proprietary data and remain closed-source, limiting downstream users' ability to adapt them to new tasks, embodiments, and deployment settings. Following the LLM community, an emerging access paradigm for closed-weight robot foundation models is the managed supervised fine-tuning (SFT) API, where users submit training data and receive a tuned policy without access to model weights, gradients, or training internals.
+
+---
+
+## Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.26567)
+- **Authors:** Hung Nguyen, Kim Nhat Minh Nguyen, Van Duc Vu, Van-Danh Le, Hoang Huy Le, Dinh Tuan Nguyen et al. (9 authors)
+- **Published:** 2026-07
+- **Real Robot:** ✅
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - Multi-Modal
+  - Locomotion
+
+### Summary
+
+Humanoid robots increasingly require multi-modal understanding for natural interaction with humans. Despite the prominence of vision-language models, they generally assume textual rather than the more natural speech inputs.
+
+---
+
+## Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.24083)
+- **Authors:** Valerio Belli, Valerio Modugno, Enrico Mingo Hoffman, Fabio Amadio
+- **Published:** 2026-07
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Navigation
+  - Humanoid
+  - Gait
+  - Distillation
+  - GAN
+
+### Summary
+
+Reinforcement learning can produce robust humanoid controllers, but each new task is typically trained as a separate policy with its own reward design and training process. Motion imitation provides an alternative source of motor competence by training policies to track retargeted human motions, yet the resulting controllers remain reference trackers and are not directly usable as task policies.
+
+---
+
+## Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2607.20345)
+- **Authors:** Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le
+- **Published:** 2026-07
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - Fine-tuning
+  - Benchmark
+  - Locomotion
+
+### Summary
+
+Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. This paper presents DEED (Data-Efficient Post-Training and Experience-Driven Learning), a systems-level approach evaluated on a supermarket chip-restocking task using a Unitree G1-Edu humanoid robot and the GR00T N1.6 foundation model.
 
 ---

@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**34 papers** in this category.
+**33 papers** in this category.
 
 ## Months
 
-- [2026-09](/simulation-benchmark/2026-09) (2 papers)
+- [2026-09](/simulation-benchmark/2026-09) (1 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
 - [2026-06](/simulation-benchmark/2026-06) (4 papers)
@@ -25,24 +25,6 @@
 ---
 
 ## Recent Papers
-
-## How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.07288)
-- **Authors:** Aulon Bajrami, Mohamed Elshamouty, Werner Kraus
-- **Published:** 2026-09
-- **Tags:**
-  - Safety
-  - Humanoid
-  - Benchmark
-  - Large Language Model
-  - Simulation Benchmark
-
-### Summary
-
-Large Language Models (LLMs) are increasingly employed to orchestrate robot behavior through natural-language interfaces, yet no benchmark exists to evaluate their reliability as safety-aware decision makers in human-humanoid collaboration. Unlike deterministic safety systems that enforce binary allow/deny decisions, LLM-based orchestrators exhibit a compliance spectrum ranging from overcompliance (refusing safe actions) to full safety violations.
-
----
 
 ## Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot
 
@@ -384,6 +366,21 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Manipulation
   - Humanoid
   - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2510.07092)
+- **Published:** 2025-10
+- **Tags:**
+  - World Model
+  - Humanoid
   - Simulation Benchmark
 
 ### Summary
