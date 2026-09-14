@@ -6,8 +6,8 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
-- **Figure:** 3 papers
-- **Unitree G1:** 29 papers
+- **Figure:** 4 papers
+- **Unitree G1:** 30 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 13 papers
 - **iCub:** 1 papers
@@ -70,6 +70,43 @@ Humanoid locomotion on granular terrain remains a significant challenge due to i
 ### Summary
 
 We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces.
+
+---
+
+## Visible-Reachable Workspace for Perception-Aware Humanoid Design
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.08905)
+- **Authors:** Boxi Xia, Zijiang Yang, Ryan Shin, Bokuan Li, Eric Wun-Hao Lu, Jacob Lee et al. (8 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - Locomotion
+
+### Summary
+
+Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it.
+
+---
+
+## PGMT: Perceptive General Motion Tracking for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.08511)
+- **Authors:** Hongyi Li, Li Peizhuo, Yucheng Tao, Ze Wang, Fangzhou Xu, Jinyi Chen et al. (12 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - PPO
+
+### Summary
+
+Humanoid motion trackers can reproduce diverse whole-body motions, but their performance degrades on complex terrain where terrain-agnostic references become physically infeasible. We present PGMT, a Perceptive General Motion Tracking pipeline for humanoid robots that learns terrain adaptation from independently selected motion references and terrains.
 
 ---
 

@@ -1,10 +1,10 @@
 # Teleoperation
 
-**27 papers** in this category.
+**28 papers** in this category.
 
 ## Months
 
-- [2026-09](/teleoperation/2026-09) (2 papers)
+- [2026-09](/teleoperation/2026-09) (3 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
 - [2026-06](/teleoperation/2026-06) (2 papers)
@@ -24,6 +24,25 @@
 ---
 
 ## Recent Papers
+
+## PGMT: Perceptive General Motion Tracking for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.08511)
+- **Authors:** Hongyi Li, Li Peizhuo, Yucheng Tao, Ze Wang, Fangzhou Xu, Jinyi Chen et al. (12 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - PPO
+
+### Summary
+
+Humanoid motion trackers can reproduce diverse whole-body motions, but their performance degrades on complex terrain where terrain-agnostic references become physically infeasible. We present PGMT, a Perceptive General Motion Tracking pipeline for humanoid robots that learns terrain adaptation from independently selected motion references and terrains.
+
+---
 
 ## Can People Distinguish Human and AI Agency in Humanoid Teleoperation? A Preliminary Study of Agency Perception
 
@@ -317,20 +336,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2506.08931)
 - **Published:** 2025-06
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Heavy lifting tasks via haptic teleoperation of a wheeled humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.19530)
-- **Published:** 2025-05
 - **Tags:**
   - Teleoperation
   - Humanoid

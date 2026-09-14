@@ -2,8 +2,8 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 662
-- **Real Robot Papers:** 50
+- **Total Papers:** 664
+- **Real Robot Papers:** 52
 - **Open Source Papers:** 126
 
 🌟 indicates papers with detected project/code links.
@@ -12,8 +12,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (231)
 - [Manipulation](#manipulation) (65)
-- [Teleoperation](#teleoperation) (27)
-- [Locomotion](#locomotion) (157)
+- [Teleoperation](#teleoperation) (28)
+- [Locomotion](#locomotion) (158)
 - [Navigation](#navigation) (22)
 - [State Estimation](#state-estimation) (15)
 - [Sim-to-Real](#sim-to-real) (13)
@@ -494,6 +494,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-09
 
+- [PGMT: Perceptive General Motion Tracking for Humanoid Robots](https://arxiv.org/abs/2609.08511) — `Teleoperation`, `Locomotion`, `Zero-Shot`, `Humanoid`, `PPO`, `Real Robot`
 - [Can People Distinguish Human and AI Agency in Humanoid Teleoperation? A Preliminary Study of Agency Perception](https://arxiv.org/abs/2609.06434) — `Teleoperation`, `Humanoid`, `PPO`
 - [Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence](https://arxiv.org/abs/2609.02134) — `Motion Retargeting`, `Locomotion`, `Humanoid`, `Point Cloud`, `Teleoperation`
 
@@ -573,6 +574,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising](https://arxiv.org/abs/2609.11553) — `Locomotion`, `Humanoid`, `Real Robot`
 - [Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain](https://arxiv.org/abs/2609.10286) — `Reinforcement Learning`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Contact Dynamics`, `Real Robot`
+- [Visible-Reachable Workspace for Perception-Aware Humanoid Design](https://arxiv.org/abs/2609.08905) — `Manipulation`, `Humanoid`, `Benchmark`, `Locomotion`, `Real Robot`
 - [World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain](https://arxiv.org/abs/2609.02542) — `Locomotion`, `World Model`, `Humanoid`, `Proprioception`, `PPO`, `State Estimation`
 - [Humanoid Safe Stop via Learned Stoppability Value](https://arxiv.org/abs/2609.02358) — `Humanoid`, `SAC`, `Locomotion`
 
