@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**231 papers** in this category.
+**232 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (10 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (11 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,27 @@
 ---
 
 ## Recent Papers
+
+## X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.15213)
+- **Authors:** Juntong Zhang, Chun Gu, Li Zhang
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Transformer
+  - Real Robot
+  - Humanoid
+  - Proprioception
+  - Foundation Model
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Scaling humanoid whole-body control toward general-purpose deployment requires large human motion corpora and training experience shared across robot bodies. Existing methods usually train one policy per robot, leaving motion experience isolated across embodiments.
+
+---
 
 ## Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation
 
@@ -424,26 +445,5 @@ Humanoid locomotion in highly confined environments requires navigating dense en
 ### Summary
 
 Long-horizon humanoid loco-manipulation requires composing versatile whole-body skills and reliable high-level decision making. Existing methods often coordinate pretrained skills with scripted planners, finite-state machines or task-specific model-free policies, restricting their ability to handle complex task sequences.
-
----
-
-## $ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.06375)
-- **Authors:** Zhe Li, Zhenzhe Zhang, Yangyang Wei, Wenjie Zhang, Xichen Yuan, Peiyuan Zhi et al. (11 authors)
-- **Published:** 2026-08
-- **Tags:**
-  - Imitation Learning
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Dataset
-  - PPO
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered.
 
 ---

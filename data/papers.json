@@ -1,5 +1,72 @@
 [
   {
+    "arxiv_id": "2609.15988",
+    "title": "ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids",
+    "paper_url": "https://arxiv.org/abs/2609.15988",
+    "project_url": null,
+    "authors": [
+      "Gechen Qu",
+      "Tong Zhang",
+      "Bike Zhang",
+      "Yen-Jen Wang",
+      "Koushil Sreenath",
+      "Claire Tomlin",
+      "Jason Jangho Choi"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-14",
+    "abstract": "Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned policies can still generate unsafe actions that lead to instability or falls. In this work, we propose residual reinforcement learning as an implicit safety-filtering mechanism for safe humanoid control. Instead of relying on a single nominal policy to simultaneously balance performance, safety, and robustness, we decouple performance and safety. The nominal policy focuses solely on task performance, while a residual policy learns safety corrections. This decoupling leads to a better performance--safety Pareto trade-off and avoids the need for careful tuning of multiple competing reward terms within a single policy training. We show that the residual policy can act as an implicit safety filter.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Safety",
+      "Robustness",
+      "Humanoid"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.15213",
+    "title": "X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control",
+    "paper_url": "https://arxiv.org/abs/2609.15213",
+    "project_url": null,
+    "authors": [
+      "Juntong Zhang",
+      "Chun Gu",
+      "Li Zhang"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-14",
+    "abstract": "Scaling humanoid whole-body control toward general-purpose deployment requires large human motion corpora and training experience shared across robot bodies. Existing methods usually train one policy per robot, leaving motion experience isolated across embodiments. We introduce X-WBC, a cross-embodiment foundation framework that separates relatively shared human motion semantics from embodiment-specific physical execution. Human-centered command tokens align full human motion, robot reference motion, and sparse VR observations. A causal Transformer learns reusable temporal structure from mixed multi-robot rollouts, while lightweight robot-specific modules map the shared representation to each robot's proprioception and action space. Across nine simulated embodiments, external motions, and four real robots, experiments show that joint training improves tracking, the aligned representation supports consistent control across command sources, and the learned policy remains competitive beyond the training corpus. These results support heterogeneous humanoids as joint data sources and establish cross-embodiment joint training as a practical route toward whole-body control foundation models.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Transformer",
+      "Real Robot",
+      "Humanoid",
+      "Proprioception",
+      "Foundation Model",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2609.11553",
     "title": "CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising",
     "paper_url": "https://arxiv.org/abs/2609.11553",

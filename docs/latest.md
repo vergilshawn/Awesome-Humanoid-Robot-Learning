@@ -2,6 +2,45 @@
 
 All papers sorted by publication date (newest first).
 
+## ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.15988)
+- **Authors:** Gechen Qu, Tong Zhang, Bike Zhang, Yen-Jen Wang, Koushil Sreenath, Claire Tomlin et al. (7 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Safety
+  - Robustness
+  - Humanoid
+
+### Summary
+
+Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned policies can still generate unsafe actions that lead to instability or falls.
+
+---
+
+## X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.15213)
+- **Authors:** Juntong Zhang, Chun Gu, Li Zhang
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Transformer
+  - Real Robot
+  - Humanoid
+  - Proprioception
+  - Foundation Model
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Scaling humanoid whole-body control toward general-purpose deployment requires large human motion corpora and training experience shared across robot bodies. Existing methods usually train one policy per robot, leaving motion experience isolated across embodiments.
+
+---
+
 ## CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.11553)

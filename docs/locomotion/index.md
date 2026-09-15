@@ -1,10 +1,10 @@
 # Locomotion
 
-**158 papers** in this category.
+**159 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (5 papers)
+- [2026-09](/locomotion/2026-09) (6 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,24 @@
 ---
 
 ## Recent Papers
+
+## ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.15988)
+- **Authors:** Gechen Qu, Tong Zhang, Bike Zhang, Yen-Jen Wang, Koushil Sreenath, Claire Tomlin et al. (7 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Safety
+  - Robustness
+  - Humanoid
+
+### Summary
+
+Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned policies can still generate unsafe actions that lead to instability or falls.
+
+---
 
 ## CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising
 
@@ -380,25 +398,5 @@ While robot foundation models are growing increasingly capable, the strongest mo
 ### Summary
 
 Humanoid robots increasingly require multi-modal understanding for natural interaction with humans. Despite the prominence of vision-language models, they generally assume textual rather than the more natural speech inputs.
-
----
-
-## Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.24083)
-- **Authors:** Valerio Belli, Valerio Modugno, Enrico Mingo Hoffman, Fabio Amadio
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Navigation
-  - Humanoid
-  - Gait
-  - Distillation
-  - GAN
-
-### Summary
-
-Reinforcement learning can produce robust humanoid controllers, but each new task is typically trained as a separate policy with its own reward design and training process. Motion imitation provides an alternative source of motor competence by training policies to track retargeted human motions, yet the resulting controllers remain reference trackers and are not directly usable as task policies.
 
 ---
