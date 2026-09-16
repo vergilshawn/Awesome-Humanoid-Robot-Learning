@@ -1,5 +1,108 @@
 [
   {
+    "arxiv_id": "2609.16683",
+    "title": "Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions",
+    "paper_url": "https://arxiv.org/abs/2609.16683",
+    "project_url": null,
+    "authors": [
+      "Liu Cao",
+      "Xingze Wu",
+      "Jingzhi Cui",
+      "Botian Xu",
+      "Mingzhi Pei",
+      "Ruoqu Chen",
+      "Mengdi Xu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-15",
+    "abstract": "Learning humanoid-object interaction requires coordinating whole-body balance, locomotion, and dexterous hand contact to control both robot and object motion. Human demonstrations provide examples of coordinated interaction, but transferring these behaviors to humanoid robots requires learning how to establish and maintain effective contacts under different embodiments and dynamics. We present Weave, a unified framework for learning whole-body dexterous humanoid-object interaction from captured human demonstrations. Weave first converts captured human-object interactions into executable robot-object references through contact-aware retargeting and approach-motion completion. At its core is a contact- and geometry-aware policy that jointly commands 29 body joints and 12 actuated finger joints across multiple objects and interaction sequences. Evaluation across nine objects yields a 92.5% success rate on trained interactions and, without any additional training, 65.0% on sequences never seen during training. We additionally release ~9,000 physically executed rollouts spanning ~23 hours, providing robot-object trajectories with contact annotations for downstream interaction-policy learning and physically consistent HOI motion generation. Project website: https://xiaohu-art.github.io/Weave/",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Human Demonstration",
+      "Humanoid",
+      "Policy Learning",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.16644",
+    "title": "WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination",
+    "paper_url": "https://arxiv.org/abs/2609.16644",
+    "project_url": null,
+    "authors": [
+      "Zhuo Li",
+      "Yiming Yao",
+      "Jim Tan",
+      "Mengjie Jing",
+      "Zhipeng Dong",
+      "Fei Chen"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-15",
+    "abstract": "World Action Models (WAMs) offer a promising approach to general-purpose robot manipulation by jointly modeling visual dynamics and actions. However, most WAM studies focus on tabletop or arm-centric manipulation, while humanoid loco-manipulation remains less explored. To address this gap, we introduce WholeBodyWAM, which jointly predicts future visual dynamics, manipulation actions, and whole-body control intents for generalizable humanoid loco-manipulation. It preserves pre-trained world-action priors while grounding heterogeneous whole-body controller (WBC) semantics and coordinating whole-body behavior. Extensive experiments show that WholeBodyWAM achieves an overall simulation task success rate of 91.9%, with a 0.23 improvement in real-world out-of-distribution task progress and a 70% reduction in success-rate variance across WBCs relative to the respective baselines. These results suggest a path toward scalable humanoid whole-body intelligence by extending pre-trained world-action priors through structured WBC grounding and coordination, rather than relearning whole-body behavior from scratch. Project page: https://wholebodywam.github.io/.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Manipulation",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.16405",
+    "title": "Collision-Aware Humanoid Whole-Body Control under Imperfect Tracking Targets",
+    "paper_url": "https://arxiv.org/abs/2609.16405",
+    "project_url": null,
+    "authors": [
+      "Mohitvishnu S. Gadde",
+      "Ashish Malik",
+      "Pranay Dugar",
+      "Aayam Kumar Shrestha",
+      "Alan Fern"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-14",
+    "abstract": "Humanoid robots often execute motion commands through whole-body controllers (WBCs) that track targets while maintaining balance and stability. However, most WBCs are blind to scene geometry, which can lead to collisions from imperfect target motions that are geometrically unsafe due to perception, planning, or teleoperation errors. We propose RECAL, a Robot--Environment Cross-Attention Layer that wraps a blind WBC to trade off target tracking against collision avoidance using external scene geometry. RECAL supports collision-aware tracking of floating-base and end-effector commands, including collision avoidance for held objects. It represents the robot, held objects, and environment as point clouds, using cross-attention between robot/object points and the environment to produce geometry-aware control features. In simulation, RECAL improves collision avoidance while preserving target-tracking performance across frozen-arm and adaptive-arm locomotion, object-carrying, and standing-manipulation scenarios relative to alternative geometry-aware WBC architectures. We further demonstrate the controller on a real Digit V3 humanoid robot.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Point Cloud",
+      "Collision",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2609.15988",
     "title": "ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids",
     "paper_url": "https://arxiv.org/abs/2609.15988",
@@ -65,6 +168,71 @@
     "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.14432",
+    "title": "EMoG: Emotion-Modulated Gait Generation for Expressive Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2609.14432",
+    "project_url": null,
+    "authors": [
+      "Yi Lu",
+      "Tianhao Jiang",
+      "Honglong Tian",
+      "Yumeng Zhang",
+      "Qingrui Zhao",
+      "Zhengtao Wang",
+      "Xiao-Xiao Long",
+      "Qiu Shen",
+      "Xun Cao"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-13",
+    "abstract": "Existing humanoid locomotion systems primarily focus on stability and task execution, while integrating expressiveness with explicit locomotion control remains challenging. We propose EMoG, an emotion-modulated gait generation framework for expressive humanoid locomotion. EMoG introduces an emotional-style code with continuously adjustable intensity. Conditioned on this code and physical commands, a lightweight MLP generates expressive, command-consistent periodic gait trajectories in real time, which are tracked by a unified reinforcement learning policy for physical execution. To support training, we collect a large-scale emotion-annotated gait dataset from professional performers and develop an automated pipeline to extract physically consistent periodic gait cycles. EMoG also integrates an LLM-based parser that converts free-form language into emotional style and motion parameters for interactive control. Experiments demonstrate continuous gait-style modulation with perceptible expressive cues while maintaining command tracking. EMoG provides a practical approach to parameterized emotional-style walking for human-robot interaction.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Gait",
+      "Walking",
+      "Dataset",
+      "PPO"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.12347",
+    "title": "DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal",
+    "paper_url": "https://arxiv.org/abs/2609.12347",
+    "project_url": null,
+    "authors": [
+      "Rongjun Jin",
+      "Jianming Ma",
+      "Yue Gao"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-11",
+    "abstract": "Humanoid robots must traverse cluttered obstacle fields using onboard proprioceptive and visual observations, yet existing methods usually process multimodal observations without explicitly considering their different characteristics: proprioceptive observations are low-dimensional but governed by highly nonlinear robot dynamics, while egocentric visual observations are high-dimensional, noisy, and redundant. We propose DWMP (Dual World Model Policy), a framework that provides the actor with separate but complementary world-model representations for humanoid obstacle traversal. A Koopman-based dynamics world model lifts proprioceptive observations into a latent space where their temporal evolution is approximately linear, making the dynamics features easier for the actor to learn from. An RSSM-based visual world model compresses egocentric depth observations into compact stochastic states while preserving obstacle-related geometry. The student policy receives the fused latent representation for action generation, combining linearized proprioceptive dynamics with compressed visual perception. Experiments in simulation and on a Unitree G1 humanoid robot show that DWMP improves obstacle traversal performance over baselines and supports real-world deployment under randomized obstacle layouts.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "World Model",
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2609.11553",
@@ -143,7 +311,7 @@
   },
   {
     "arxiv_id": "2609.10286",
-    "title": "Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain",
+    "title": "GM-Loco: Terrain-Adaptive Humanoid Locomotion on Granular Media",
     "paper_url": "https://arxiv.org/abs/2609.10286",
     "project_url": null,
     "authors": [
@@ -360,6 +528,132 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2609.07933",
+    "title": "SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation",
+    "paper_url": "https://arxiv.org/abs/2609.07933",
+    "project_url": null,
+    "authors": [
+      "Lixing Fang",
+      "Ziyan Xiong",
+      "Sunli Chen",
+      "Zhiyang Dou",
+      "Chuang Gan"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-07",
+    "abstract": "High-quality demonstration data is becoming a central bottleneck for training general-purpose humanoid robots. While recent humanoid teleoperation systems have made substantial progress in retargeting human motion to robot motion, long-horizon loco-manipulation requires another capability: operators must maintain task-relevant spatial awareness over time, e.g., object locations, surrounding environments, the robot's pose. We call the extent of this awareness the operator's perceptual horizon. However, existing methods often shorten this: narrow views miss peripheral events, robot-mounted cameras become unstable during locomotion, and coupled head-view control makes looking around interfere with robot motion. We present SPOT, a Spatial Perception-Oriented VR Teleoperation system for collecting long-horizon humanoid demonstration data by providing extended perceptual horizon. SPOT combines a robot-mounted binocular fisheye camera, a wide-field stereoscopic display, viewpoint-decoupled free-looking, and visual stabilization to provide a robot-centric view that is wide, stable, and actively inspectable. Unlike conventional egocentric interfaces, SPOT decouples visual exploration from robot actuation: the egocentric stereo observation is rendered on a virtual hemisphere around the operator, so natural head rotations change where the operator looks within the wide-field view rather than commanding the robot head, camera, or torso. We evaluate SPOT on perception-critical humanoid data-collection tasks spanning drop recovery, peripheral retrieval, large-workspace bimanual manipulation, fine alignment, and dynamic interaction. SPOT improves efficiency, accuracy, and recovery speed, demonstrating its effectiveness for user-friendly and scalable long-horizon humanoid data collection.",
+    "categories": [
+      "Teleoperation",
+      "Manipulation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2609.07544",
+    "title": "Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control",
+    "paper_url": "https://arxiv.org/abs/2609.07544",
+    "project_url": null,
+    "authors": [
+      "Kazuki Sugihara",
+      "Kei Okada"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-07",
+    "abstract": "Flying humanoids are expected to perform tasks in diverse environments, while their existing locomotion is mainly limited to aerial flight and ground walking. The capability to move in complex three-dimensional space can greatly expand their application range. For such walking motion on ceilings and similar anti-gravity environments, whole-body MPC is effective. However, the discontinuous changes in dynamic structure accompanying contact switching during walking can induce thrust spikes, resulting in control instability. Therefore, in this work, we propose and implement a real-time whole-body MPC framework for anti-gravity bipedal walking. First, we formulate whole-body MPC using the time derivative of thrust, namely thrust-rate, as the control input. This formulation guarantees continuity of the thrust trajectory during contact switching while preserving the sparse structure of the optimal control problem for fast computation. Second, we address the lack of natural support forces in anti-gravity environments. We introduce lower bounds on the foot-normal component of the contact force, and smoothly transfer them during the doublesupport phase. Finally, we implement the proposed framework and demonstrate anti-gravity walking by a flying humanoid through simulation and a hardware experiment. To the best of our knowledge, this is the first demonstration of multi-contact whole-body MPC for a transformable aerial robot and walking by a flying humanoid beyond the ground.",
+    "categories": [
+      "Locomotion",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "MPC",
+      "Locomotion",
+      "Biped",
+      "Humanoid",
+      "Walking",
+      "Optimal Control",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.07288",
+    "title": "How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration",
+    "paper_url": "https://arxiv.org/abs/2609.07288",
+    "project_url": null,
+    "authors": [
+      "Aulon Bajrami",
+      "Mohamed Elshamouty",
+      "Werner Kraus"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-07",
+    "abstract": "Large Language Models (LLMs) are increasingly employed to orchestrate robot behavior through natural-language interfaces, yet no benchmark exists to evaluate their reliability as safety-aware decision makers in human-humanoid collaboration. Unlike deterministic safety systems that enforce binary allow/deny decisions, LLM-based orchestrators exhibit a compliance spectrum ranging from overcompliance (refusing safe actions) to full safety violations. This paper introduces the first safety benchmarking environment for LLM orchestrators in human-humanoid collaboration, built on a Model Context Protocol (MCP)-based architecture with safety invariants grounded in ISO 10218-2:2025 protective measures. The benchmark defines five testable safety invariants, a four-level compliance taxonomy (correct compliance, overcompliance, undercompliance, full violation), and a three-layer evaluation pipeline (text prompting, simulated sensor-actuator loops, and physical validation on a Unitree G1 EDU humanoid). We report Layer-1 results: three cloud backends (Claude Haiku 4.5, GPT-4o-mini, Gemini 2.5 Flash) and a local open-weights baseline (qwen3:8b) across 40 100-turn sessions under full-context and sliding-window budget conditions, while the simulation and physical layers remain ongoing. We find that (1) model family determines the safety floor, as Claude and Gemini remain at or near zero violations while GPT-4o-mini commits up to 13 per session, (2) context management dissociates two failure axes, reducing mean behavioral issues by 42-57% for every cloud backend while nearly doubling GPT-4o-mini's violations (3.8 to 7.2 per session), and (3) proportional compliance, clamping movement speed to the rule-specified maximum rather than refusing, emerges consistently only in Gemini; the preliminary simulation layer reproduces the model ranking and the GPT-4o-mini failure-mode inversion.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Safety",
+      "Humanoid",
+      "Benchmark",
+      "Large Language Model",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2609.07096",
+    "title": "RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models",
+    "paper_url": "https://arxiv.org/abs/2609.07096",
+    "project_url": null,
+    "authors": [
+      "Zhe Li",
+      "Yangyang Wei",
+      "Xichen Yuan",
+      "Zhenzhe Zhang",
+      "Weihao Yuan",
+      "Shanghang Zhang",
+      "Jianfei Yang"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-07",
+    "abstract": "Humanoid locomotion requires control policies that remain stable under imperfect sensing while exploiting temporal context for consistent motion. We present RoboDreamer, a two-stage teacher--student framework that combines next-observation consistency with randomized continuous temporal masking. A teacher is first trained on clean observations, and a student is then distilled under masked recent observations, encouraging the policy to infer missing current information from history. At inference, the same masking interface is reused for implicit closed-loop action refinement and optional multi-step action chunking. Mamba is used as the temporal backbone, while matched ablations show that masking/distillation provides a substantial part of the gain and Mamba contributes additional tracking improvements with real-time latency. Experiments in IsaacLab, MuJoCo, and on a Unitree G1 demonstrate robust motion tracking under observation masking and successful real-world deployment.",
+    "categories": [
+      "Locomotion",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Locomotion",
+      "MuJoCo",
+      "Humanoid",
+      "Distillation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2609.06718",

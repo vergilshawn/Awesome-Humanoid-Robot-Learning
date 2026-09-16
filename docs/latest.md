@@ -2,6 +2,64 @@
 
 All papers sorted by publication date (newest first).
 
+## Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.16683)
+- **Authors:** Liu Cao, Xingze Wu, Jingzhi Cui, Botian Xu, Mingzhi Pei, Ruoqu Chen et al. (7 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Learning humanoid-object interaction requires coordinating whole-body balance, locomotion, and dexterous hand contact to control both robot and object motion. Human demonstrations provide examples of coordinated interaction, but transferring these behaviors to humanoid robots requires learning how to establish and maintain effective contacts under different embodiments and dynamics.
+
+---
+
+## WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.16644)
+- **Authors:** Zhuo Li, Yiming Yao, Jim Tan, Mengjie Jing, Zhipeng Dong, Fei Chen
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+World Action Models (WAMs) offer a promising approach to general-purpose robot manipulation by jointly modeling visual dynamics and actions. However, most WAM studies focus on tabletop or arm-centric manipulation, while humanoid loco-manipulation remains less explored.
+
+---
+
+## Collision-Aware Humanoid Whole-Body Control under Imperfect Tracking Targets
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.16405)
+- **Authors:** Mohitvishnu S. Gadde, Ashish Malik, Pranay Dugar, Aayam Kumar Shrestha, Alan Fern
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Point Cloud
+  - Collision
+  - PPO
+
+### Summary
+
+Humanoid robots often execute motion commands through whole-body controllers (WBCs) that track targets while maintaining balance and stability. However, most WBCs are blind to scene geometry, which can lead to collisions from imperfect target motions that are geometrically unsafe due to perception, planning, or teleoperation errors.
+
+---
+
 ## ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.15988)
@@ -38,6 +96,44 @@ Safe control of humanoid robots remains challenging due to their high-dimensiona
 ### Summary
 
 Scaling humanoid whole-body control toward general-purpose deployment requires large human motion corpora and training experience shared across robot bodies. Existing methods usually train one policy per robot, leaving motion experience isolated across embodiments.
+
+---
+
+## EMoG: Emotion-Modulated Gait Generation for Expressive Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.14432)
+- **Authors:** Yi Lu, Tianhao Jiang, Honglong Tian, Yumeng Zhang, Qingrui Zhao, Zhengtao Wang et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Gait
+  - Walking
+  - Dataset
+  - PPO
+
+### Summary
+
+Existing humanoid locomotion systems primarily focus on stability and task execution, while integrating expressiveness with explicit locomotion control remains challenging. We propose EMoG, an emotion-modulated gait generation framework for expressive humanoid locomotion.
+
+---
+
+## DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.12347)
+- **Authors:** Rongjun Jin, Jianming Ma, Yue Gao
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - World Model
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Humanoid robots must traverse cluttered obstacle fields using onboard proprioceptive and visual observations, yet existing methods usually process multimodal observations without explicitly considering their different characteristics: proprioceptive observations are low-dimensional but governed by highly nonlinear robot dynamics, while egocentric visual observations are high-dimensional, noisy, and redundant. We propose DWMP (Dual World Model Policy), a framework that provides the actor with separate but complementary world-model representations for humanoid obstacle traversal.
 
 ---
 
@@ -78,7 +174,7 @@ Human-to-humanoid retargeting has largely been studied on legged platforms, whil
 
 ---
 
-## Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain
+## GM-Loco: Terrain-Adaptive Humanoid Locomotion on Granular Media
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.10286)
 - **Authors:** Junnosuke Kamohara, Feiyang Wu, Andy Ningan Zong, Daniel I. Goldman, Yashwanth Nakka, Seth Hutchinson et al. (7 authors)
@@ -194,6 +290,81 @@ Workspace analysis measures where a robot can place its end effector. For visual
 ### Summary
 
 Humanoid motion trackers can reproduce diverse whole-body motions, but their performance degrades on complex terrain where terrain-agnostic references become physically infeasible. We present PGMT, a Perceptive General Motion Tracking pipeline for humanoid robots that learns terrain adaptation from independently selected motion references and terrains.
+
+---
+
+## SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07933)
+- **Authors:** Lixing Fang, Ziyan Xiong, Sunli Chen, Zhiyang Dou, Chuang Gan
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+High-quality demonstration data is becoming a central bottleneck for training general-purpose humanoid robots. While recent humanoid teleoperation systems have made substantial progress in retargeting human motion to robot motion, long-horizon loco-manipulation requires another capability: operators must maintain task-relevant spatial awareness over time, e.g., object locations, surrounding environments, the robot's pose.
+
+---
+
+## Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07544)
+- **Authors:** Kazuki Sugihara, Kei Okada
+- **Published:** 2026-09
+- **Tags:**
+  - MPC
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Walking
+  - Optimal Control
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Flying humanoids are expected to perform tasks in diverse environments, while their existing locomotion is mainly limited to aerial flight and ground walking. The capability to move in complex three-dimensional space can greatly expand their application range.
+
+---
+
+## How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07288)
+- **Authors:** Aulon Bajrami, Mohamed Elshamouty, Werner Kraus
+- **Published:** 2026-09
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Benchmark
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Large Language Models (LLMs) are increasingly employed to orchestrate robot behavior through natural-language interfaces, yet no benchmark exists to evaluate their reliability as safety-aware decision makers in human-humanoid collaboration. Unlike deterministic safety systems that enforce binary allow/deny decisions, LLM-based orchestrators exhibit a compliance spectrum ranging from overcompliance (refusing safe actions) to full safety violations.
+
+---
+
+## RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07096)
+- **Authors:** Zhe Li, Yangyang Wei, Xichen Yuan, Zhenzhe Zhang, Weihao Yuan, Shanghang Zhang et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Distillation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion requires control policies that remain stable under imperfect sensing while exploiting temporal context for consistent motion. We present RoboDreamer, a two-stage teacher--student framework that combines next-observation consistency with randomized continuous temporal masking.
 
 ---
 

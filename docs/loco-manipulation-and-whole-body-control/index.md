@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**232 papers** in this category.
+**235 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (11 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (14 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,64 @@
 ---
 
 ## Recent Papers
+
+## Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.16683)
+- **Authors:** Liu Cao, Xingze Wu, Jingzhi Cui, Botian Xu, Mingzhi Pei, Ruoqu Chen et al. (7 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Learning humanoid-object interaction requires coordinating whole-body balance, locomotion, and dexterous hand contact to control both robot and object motion. Human demonstrations provide examples of coordinated interaction, but transferring these behaviors to humanoid robots requires learning how to establish and maintain effective contacts under different embodiments and dynamics.
+
+---
+
+## WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.16644)
+- **Authors:** Zhuo Li, Yiming Yao, Jim Tan, Mengjie Jing, Zhipeng Dong, Fei Chen
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+World Action Models (WAMs) offer a promising approach to general-purpose robot manipulation by jointly modeling visual dynamics and actions. However, most WAM studies focus on tabletop or arm-centric manipulation, while humanoid loco-manipulation remains less explored.
+
+---
+
+## Collision-Aware Humanoid Whole-Body Control under Imperfect Tracking Targets
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.16405)
+- **Authors:** Mohitvishnu S. Gadde, Ashish Malik, Pranay Dugar, Aayam Kumar Shrestha, Alan Fern
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Point Cloud
+  - Collision
+  - PPO
+
+### Summary
+
+Humanoid robots often execute motion commands through whole-body controllers (WBCs) that track targets while maintaining balance and stability. However, most WBCs are blind to scene geometry, which can lead to collisions from imperfect target motions that are geometrically unsafe due to perception, planning, or teleoperation errors.
+
+---
 
 ## X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control
 
@@ -385,65 +443,5 @@ Humanoid robots hold great promise as general-purpose agents in human-centered e
 ### Summary
 
 Accurate throwing of the American football requires precise regulation of release conditions, where coupled linear and angular momentum determine flight stability and targeting accuracy. While prior work on robotic object throwing has largely focused on generating dynamically feasible release velocities using open-gripper paradigms, explicit control of spin injection at detachment remains underexplored, particularly for aerodynamically anisotropic objects like the American football.
-
----
-
-## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.12063)
-- **Authors:** Martin Schuck, Maks Sorokin, Simone Manni, Duy Ta, Angela P. Schoellig, Marco Hutter et al. (8 authors)
-- **Published:** 2026-08
-- **Tags:**
-  - Reinforcement Learning
-  - MPC
-  - Sim-to-Real
-  - Locomotion
-  - Manipulation
-  - Robustness
-  - Humanoid
-  - Optimal Control
-
-### Summary
-
-Integrating locomotion and manipulation is essential for robot autonomy, but scaling standard Reinforcement Learning (RL) to complex tasks is severely bottlenecked by the slow, manual process of dense reward shaping. To bypass this limitation, we leverage Sample-based Model Predictive Control (SMPC) entirely in simulation as an automated, rapidly tunable expert to generate massive offline datasets.
-
----
-
-## Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.10220)
-- **Authors:** Carlos Gonzalez, Luis Sentis
-- **Published:** 2026-08
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Domain Randomization
-  - Humanoid
-  - Path Planning
-  - Collision
-  - Benchmark
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid locomotion in highly confined environments requires navigating dense environmental obstacles and complex self-collision bounds while maintaining multi-contact dynamic feasibility. Traditional trajectory optimizers frequently struggle in these restricted spaces, as navigating the large collision space with splines on particle abstractions is insufficient and leads to poor local minima.
-
----
-
-## LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.07746)
-- **Authors:** Cheng Guo, Mingzhe Ni, Angelo Cangelosi, Arash Ajoudani
-- **Published:** 2026-08
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - World Model
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Long-horizon humanoid loco-manipulation requires composing versatile whole-body skills and reliable high-level decision making. Existing methods often coordinate pretrained skills with scripted planners, finite-state machines or task-specific model-free policies, restricting their ability to handle complex task sequences.
 
 ---

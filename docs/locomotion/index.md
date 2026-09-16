@@ -1,10 +1,10 @@
 # Locomotion
 
-**159 papers** in this category.
+**163 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (6 papers)
+- [2026-09](/locomotion/2026-09) (10 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -58,6 +58,44 @@ Safe control of humanoid robots remains challenging due to their high-dimensiona
 
 ---
 
+## EMoG: Emotion-Modulated Gait Generation for Expressive Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.14432)
+- **Authors:** Yi Lu, Tianhao Jiang, Honglong Tian, Yumeng Zhang, Qingrui Zhao, Zhengtao Wang et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Gait
+  - Walking
+  - Dataset
+  - PPO
+
+### Summary
+
+Existing humanoid locomotion systems primarily focus on stability and task execution, while integrating expressiveness with explicit locomotion control remains challenging. We propose EMoG, an emotion-modulated gait generation framework for expressive humanoid locomotion.
+
+---
+
+## DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.12347)
+- **Authors:** Rongjun Jin, Jianming Ma, Yue Gao
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - World Model
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Humanoid robots must traverse cluttered obstacle fields using onboard proprioceptive and visual observations, yet existing methods usually process multimodal observations without explicitly considering their different characteristics: proprioceptive observations are low-dimensional but governed by highly nonlinear robot dynamics, while egocentric visual observations are high-dimensional, noisy, and redundant. We propose DWMP (Dual World Model Policy), a framework that provides the actor with separate but complementary world-model representations for humanoid obstacle traversal.
+
+---
+
 ## CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.11553)
@@ -74,7 +112,7 @@ Humanoid locomotion across complex terrain demands forward-looking exteroception
 
 ---
 
-## Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain
+## GM-Loco: Terrain-Adaptive Humanoid Locomotion on Granular Media
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.10286)
 - **Authors:** Junnosuke Kamohara, Feiyang Wu, Andy Ningan Zong, Daniel I. Goldman, Yashwanth Nakka, Seth Hutchinson et al. (7 authors)
@@ -108,6 +146,46 @@ Humanoid locomotion on granular terrain remains a significant challenge due to i
 ### Summary
 
 Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it.
+
+---
+
+## Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07544)
+- **Authors:** Kazuki Sugihara, Kei Okada
+- **Published:** 2026-09
+- **Tags:**
+  - MPC
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Walking
+  - Optimal Control
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Flying humanoids are expected to perform tasks in diverse environments, while their existing locomotion is mainly limited to aerial flight and ground walking. The capability to move in complex three-dimensional space can greatly expand their application range.
+
+---
+
+## RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07096)
+- **Authors:** Zhe Li, Yangyang Wei, Xichen Yuan, Zhenzhe Zhang, Weihao Yuan, Shanghang Zhang et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Distillation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion requires control policies that remain stable under imperfect sensing while exploiting temporal context for consistent motion. We present RoboDreamer, a two-stage teacher--student framework that combines next-observation consistency with randomized continuous temporal masking.
 
 ---
 
@@ -327,76 +405,5 @@ Motion priors improve reinforcement learning for physics-based humanoid tracking
 ### Summary
 
 Industrial humanoid robots are constrained less by locomotion or manipulation capability than by the immaturity of functional safety certification for legged platforms. The root difficulty is that the safe state of a legged robot is an actively-controlled state, which violates the fail-passive assumption underlying ISO~13849-1 / EN~60204-1: removing power from a walking biped causes an uncontrolled fall, so classical de-energization is itself a hazard.
-
----
-
-## StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.02385)
-- **Authors:** Weihao Wu, Ming Huang, Ruofei Liu, Jinglei Nie, Shuxiang Guo, Chunying Li
-- **Published:** 2026-08
-- **Tags:**
-  - Safety
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-Humanoid motion trackers perform reliably within learned tracking distributions, but falls can move the robot into low-height, contact-rich states from which an advancing command is temporarily unreachable. Tracking-only policies may chase infeasible references, producing rapid, large-amplitude limb corrections that increase risk to the robot and its surroundings.
-
----
-
-## Perception-and-action system for humanoid robot task execution in construction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.01600)
-- **Authors:** Yanxi Liu, Yizhi Liu
-- **Published:** 2026-08
-- **Tags:**
-  - Multi-Task
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Humanoid robots, with their human-like shape and multi-tasking capabilities, are well-aligned with human-dominated workplaces, like those in civil and construction engineering, where they could collaborate with human workers or autonomously perform physically demanding and hazardous tasks. Despite this promise, limited research has explored how to endow these robots with the practical capabilities needed to perform construction tasks.
-
----
-
-## CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.29172)
-- **Authors:** Yuxin Chen, Hari Srikanth, Nathan Jew, Menglin Wu, Pengcheng Wang, Junli Ren et al. (10 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - Humanoid
-  - Foundation Model
-  - Fine-tuning
-  - Locomotion
-
-### Summary
-
-While robot foundation models are growing increasingly capable, the strongest models are typically trained on proprietary data and remain closed-source, limiting downstream users' ability to adapt them to new tasks, embodiments, and deployment settings. Following the LLM community, an emerging access paradigm for closed-weight robot foundation models is the managed supervised fine-tuning (SFT) API, where users submit training data and receive a tuned policy without access to model weights, gradients, or training internals.
-
----
-
-## Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.26567)
-- **Authors:** Hung Nguyen, Kim Nhat Minh Nguyen, Van Duc Vu, Van-Danh Le, Hoang Huy Le, Dinh Tuan Nguyen et al. (9 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅
-- **Tags:**
-  - Robustness
-  - Humanoid
-  - Vision-Language
-  - Multi-Modal
-  - Locomotion
-
-### Summary
-
-Humanoid robots increasingly require multi-modal understanding for natural interaction with humans. Despite the prominence of vision-language models, they generally assume textual rather than the more natural speech inputs.
 
 ---

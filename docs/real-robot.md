@@ -6,8 +6,8 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
-- **Figure:** 4 papers
-- **Unitree G1:** 30 papers
+- **Figure:** 5 papers
+- **Unitree G1:** 32 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 13 papers
 - **iCub:** 1 papers
@@ -15,6 +15,42 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.16644)
+- **Authors:** Zhuo Li, Yiming Yao, Jim Tan, Mengjie Jing, Zhipeng Dong, Fei Chen
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+World Action Models (WAMs) offer a promising approach to general-purpose robot manipulation by jointly modeling visual dynamics and actions. However, most WAM studies focus on tabletop or arm-centric manipulation, while humanoid loco-manipulation remains less explored.
+
+---
+
+## DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.12347)
+- **Authors:** Rongjun Jin, Jianming Ma, Yue Gao
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - World Model
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Humanoid robots must traverse cluttered obstacle fields using onboard proprioceptive and visual observations, yet existing methods usually process multimodal observations without explicitly considering their different characteristics: proprioceptive observations are low-dimensional but governed by highly nonlinear robot dynamics, while egocentric visual observations are high-dimensional, noisy, and redundant. We propose DWMP (Dual World Model Policy), a framework that provides the actor with separate but complementary world-model representations for humanoid obstacle traversal.
+
+---
 
 ## CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising
 
@@ -32,7 +68,7 @@ Humanoid locomotion across complex terrain demands forward-looking exteroception
 
 ---
 
-## Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain
+## GM-Loco: Terrain-Adaptive Humanoid Locomotion on Granular Media
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.10286)
 - **Authors:** Junnosuke Kamohara, Feiyang Wu, Andy Ningan Zong, Daniel I. Goldman, Yashwanth Nakka, Seth Hutchinson et al. (7 authors)
@@ -107,6 +143,25 @@ Workspace analysis measures where a robot can place its end effector. For visual
 ### Summary
 
 Humanoid motion trackers can reproduce diverse whole-body motions, but their performance degrades on complex terrain where terrain-agnostic references become physically infeasible. We present PGMT, a Perceptive General Motion Tracking pipeline for humanoid robots that learns terrain adaptation from independently selected motion references and terrains.
+
+---
+
+## RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07096)
+- **Authors:** Zhe Li, Yangyang Wei, Xichen Yuan, Zhenzhe Zhang, Weihao Yuan, Shanghang Zhang et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Distillation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion requires control policies that remain stable under imperfect sensing while exploiting temporal context for consistent motion. We present RoboDreamer, a two-stage teacher--student framework that combines next-observation consistency with randomized continuous temporal masking.
 
 ---
 
