@@ -1,5 +1,147 @@
 [
   {
+    "arxiv_id": "2609.18869",
+    "title": "KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2609.18869",
+    "project_url": null,
+    "authors": [
+      "Sitong Chen",
+      "Fatemeh Zargarbashi",
+      "Jin Cheng",
+      "Tianxu An",
+      "Stelian Coros"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-16",
+    "abstract": "Humanoid loco-manipulation requires robots to interpret task instructions and scene semantics while executing coordinated whole-body motions. We propose a hierarchical framework that uses motion keyframes as an intermediate representation between Vision-Language Model (VLM) planning and Reinforcement Learning (RL) control. Each keyframe specifies a target whole-body robot pose and, when applicable, an object pose. Given a language instruction, scene observations, and execution feedback, the VLM selects successive task-relevant keyframes from a predefined library. The selected keyframes are retargeted to the current scene to account for object poses and dimensions. A keyframe-conditioned whole-body policy then generates joint-level actions to reach these goals. We introduce a saliency-based keyframe sampling strategy for low-level policy training that improves end-to-end task success rate from 44% to 92% when using sparse VLM keyframes. We evaluate our framework on object pickup, transport, and placement tasks in simulation and on a Unitree G1 humanoid. The system successfully performs both one- and two-handed manipulation and generalises to placement locations beyond the training reference data.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.18763",
+    "title": "Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation",
+    "paper_url": "https://arxiv.org/abs/2609.18763",
+    "project_url": null,
+    "authors": [
+      "Ruiming Wu",
+      "Shuang Li",
+      "Liding Zhang",
+      "Alois Knoll",
+      "Zhaopeng Chen"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-16",
+    "abstract": "Whole-body humanoid teleoperation commonly combines a motion-tracking policy with a separate dexterous-hand retargeter. However, independently generated commands do not explicitly preserve body-hand geometric relations, leading to mismatches in relative wrist poses and fingertip positions during bimanual interaction. We present a gated residual coordination framework that keeps both modules frozen and applies bounded corrections to their outputs. A motion-conditioned action gate allocates correction authority across joint groups, while reference-geometry-dependent reward gates emphasize relevant interaction objectives during training. To establish the nominal body controller on Agile One, we introduce multi-pose morphology calibration that jointly estimates triaxial scales and effector-local offsets, together with staged motion dataset curation for training a SONIC-based tracker. The residual policy uses human motion references, initial commands, and robot proprioception without explicit object or contact observations. In simulation, it reduces wrist and fingertip geometry errors by 39.2-56.3% over direct composition on held-out GRAB motions, while preserving whole-body tracking on AMASS, with success rates of 89.03% without residual coordination and 89.29% with it. Ablations characterize the contributions of reward gating, adaptive correction authority, and separate body and hand correction heads.",
+    "categories": [
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Humanoid",
+      "Proprioception",
+      "Dataset",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2609.18732",
+    "title": "PASSAGE: Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments",
+    "paper_url": "https://arxiv.org/abs/2609.18732",
+    "project_url": null,
+    "authors": [
+      "Yuxuan Ma",
+      "Zicheng Zeng",
+      "Chunlin Peng",
+      "Zhoujian Li",
+      "Zetong Zhao",
+      "Zhikai Zhang",
+      "Yunrui Lian",
+      "Han Xue",
+      "Sikai Liang",
+      "Weiyi Zhu",
+      "Mulin Chen",
+      "Chenghuai Lin",
+      "Jiayu Zeng",
+      "Yanwei An",
+      "Songan Zhang",
+      "Jiayuan Gu",
+      "Jilong Wang",
+      "Jingbo Wang",
+      "He Wang",
+      "Li Yi"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-16",
+    "abstract": "Humanoid robots can step over, squeeze past, and duck under obstacles, but learning to select and coordinate these behaviors from onboard perception remains challenging. Many existing approaches rely on task-specific reinforcement-learning objectives or curated motion libraries, making broad behavioral coverage costly. We present PASSAGE, a perception-conditioned planner--tracker framework for humanoid traversal. Using virtual reality and inertial motion capture, we collect 100 h of scene-aligned human motion across 1,500 cluttered scenes. A conditional flow-matching planner generates short-horizon references from motion history, a local destination, and a robot-centric multi-layer elevation map, while a perceptive whole-body tracker executes them at 50 Hz with geometric feedback. Real-time chunking promotes inter-chunk consistency, and planner-side RL post-training under the frozen tracker further improves closed-loop performance. Without skill annotations or obstacle-specific policies, one planner--tracker pair selects and composes traversal behaviors across unseen geometries. In simulation, component ablations quantify the contribution of each stage. Across three independent training seeds, scaling captured data from 6 to 100 h increases mean contact-free success from 48.1% to 68.9% on held-out scenes, while the final model with validated scene augmentation reaches 70.3%. The fully onboard system integrates egocentric 3D LiDAR perception, online occupancy mapping, 6.25 Hz planning, and 50 Hz control on a Jetson AGX Orin; tests across 50 unseen physical layouts demonstrate traversal without prebuilt maps or offboard computation.",
+    "categories": [
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Humanoid",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
+    "arxiv_id": "2609.17824",
+    "title": "Learning Multi-Humanoid Pickup and Transport via Decentralized Object-Centric Control",
+    "paper_url": "https://arxiv.org/abs/2609.17824",
+    "project_url": null,
+    "authors": [
+      "Bikram Pandit",
+      "Mohitvishnu S. Gadde",
+      "Aayam Kumar Shrestha",
+      "Alan Fern"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-15",
+    "abstract": "We study cooperative multi-humanoid pickup and transport of objects with varying size, weight, and geometry, requiring robot teams of different sizes. Our approach uses decentralized object-centric control, where each humanoid is assigned a local attachment region on the shared object and learns to realize pickup and transport through gripperless bimanual pinching. This attachment-based interface provides a common control abstraction spanning single-robot pickup, cooperative multi-robot transport, and robot-to-robot handover, without per-task redesign. We find that policies trained only on single-robot pickup already transfer nontrivially to cooperative settings, suggesting that this abstraction captures much of the structure needed for coordination. At the same time, explicit multi-robot training further improves performance, showing that shared-object coupling introduces coordination dynamics that are beneficial to learn directly. We validate the approach in simulation across varying team sizes and object geometries, and demonstrate sim-to-real transfer on hardware, where the learned controllers enable real humanoids to perform cooperative manipulation tasks.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Manipulation",
+      "Humanoid"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
     "arxiv_id": "2609.16683",
     "title": "Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions",
     "paper_url": "https://arxiv.org/abs/2609.16683",

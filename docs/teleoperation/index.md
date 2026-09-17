@@ -1,10 +1,10 @@
 # Teleoperation
 
-**29 papers** in this category.
+**30 papers** in this category.
 
 ## Months
 
-- [2026-09](/teleoperation/2026-09) (4 papers)
+- [2026-09](/teleoperation/2026-09) (5 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
 - [2026-06](/teleoperation/2026-06) (2 papers)
@@ -24,6 +24,27 @@
 ---
 
 ## Recent Papers
+
+## Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.18763)
+- **Authors:** Ruiming Wu, Shuang Li, Liding Zhang, Alois Knoll, Zhaopeng Chen
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Proprioception
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+  - Manipulation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Whole-body humanoid teleoperation commonly combines a motion-tracking policy with a separate dexterous-hand retargeter. However, independently generated commands do not explicitly preserve body-hand geometric relations, leading to mismatches in relative wrist poses and fingertip positions during bimanual interaction.
+
+---
 
 ## PGMT: Perceptive General Motion Tracking for Humanoid Robots
 
@@ -328,20 +349,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Manipulation
   - Humanoid
   - Parameter Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## CHILD: a Whole-Body Humanoid Teleoperation System
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.00162)
-- **Published:** 2025-08
-- **Tags:**
-  - Teleoperation
-  - Humanoid
 
 ### Summary
 

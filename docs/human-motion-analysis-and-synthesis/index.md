@@ -1,9 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**24 papers** in this category.
+**25 papers** in this category.
 
 ## Months
 
+- [2026-09](/human-motion-analysis-and-synthesis/2026-09) (1 papers)
 - [2026-08](/human-motion-analysis-and-synthesis/2026-08) (1 papers)
 - [2026-07](/human-motion-analysis-and-synthesis/2026-07) (1 papers)
 - [2026-06](/human-motion-analysis-and-synthesis/2026-06) (2 papers)
@@ -26,6 +27,21 @@
 ---
 
 ## Recent Papers
+
+## PASSAGE: Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.18732)
+- **Authors:** Yuxuan Ma, Zicheng Zeng, Chunlin Peng, Zhoujian Li, Zetong Zhao, Zhikai Zhang et al. (20 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid robots can step over, squeeze past, and duck under obstacles, but learning to select and coordinate these behaviors from onboard perception remains challenging. Many existing approaches rely on task-specific reinforcement-learning objectives or curated motion libraries, making broad behavioral coverage costly.
+
+---
 
 ## RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction
 
@@ -304,19 +320,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2024-04
 - **Tags:**
   - Diffusion
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## OmniControl: Control Any Joint at Any Time for Human Motion Generation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2310.08580)
-- **Published:** 2023-10
-- **Tags:**
   - Human Motion Analysis and Synthesis
 
 ### Summary

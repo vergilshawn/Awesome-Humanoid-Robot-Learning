@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**235 papers** in this category.
+**236 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (14 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (15 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,25 @@
 ---
 
 ## Recent Papers
+
+## KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.18869)
+- **Authors:** Sitong Chen, Fatemeh Zargarbashi, Jin Cheng, Tianxu An, Stelian Coros
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires robots to interpret task instructions and scene semantics while executing coordinated whole-body motions. We propose a hierarchical framework that uses motion keyframes as an intermediate representation between Vision-Language Model (VLM) planning and Reinforcement Learning (RL) control.
+
+---
 
 ## Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions
 
@@ -423,25 +442,5 @@ Visual loco-manipulation policies that can generalize to novel scenes and object
 ### Summary
 
 Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it challenging for conventional single-stage VLA architectures to coordinate locomotion, waist posture, and dual-arm manipulation effectively.
-
----
-
-## Throwing a Tight Spiral American Football by a Humanoid Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.16642)
-- **Authors:** Zaid Mahboob, Bowen Weng
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Trajectory Optimization
-  - Underactuated
-  - Contact Dynamics
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Accurate throwing of the American football requires precise regulation of release conditions, where coupled linear and angular momentum determine flight stability and targeting accuracy. While prior work on robotic object throwing has largely focused on generating dynamically feasible release velocities using open-gripper paradigms, explicit control of spin injection at detachment remains underexplored, particularly for aerodynamically anisotropic objects like the American football.
 
 ---

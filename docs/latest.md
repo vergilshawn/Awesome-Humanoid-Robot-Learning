@@ -2,6 +2,77 @@
 
 All papers sorted by publication date (newest first).
 
+## KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.18869)
+- **Authors:** Sitong Chen, Fatemeh Zargarbashi, Jin Cheng, Tianxu An, Stelian Coros
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires robots to interpret task instructions and scene semantics while executing coordinated whole-body motions. We propose a hierarchical framework that uses motion keyframes as an intermediate representation between Vision-Language Model (VLM) planning and Reinforcement Learning (RL) control.
+
+---
+
+## Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.18763)
+- **Authors:** Ruiming Wu, Shuang Li, Liding Zhang, Alois Knoll, Zhaopeng Chen
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Proprioception
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+  - Manipulation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Whole-body humanoid teleoperation commonly combines a motion-tracking policy with a separate dexterous-hand retargeter. However, independently generated commands do not explicitly preserve body-hand geometric relations, leading to mismatches in relative wrist poses and fingertip positions during bimanual interaction.
+
+---
+
+## PASSAGE: Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.18732)
+- **Authors:** Yuxuan Ma, Zicheng Zeng, Chunlin Peng, Zhoujian Li, Zetong Zhao, Zhikai Zhang et al. (20 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid robots can step over, squeeze past, and duck under obstacles, but learning to select and coordinate these behaviors from onboard perception remains challenging. Many existing approaches rely on task-specific reinforcement-learning objectives or curated motion libraries, making broad behavioral coverage costly.
+
+---
+
+## Learning Multi-Humanoid Pickup and Transport via Decentralized Object-Centric Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.17824)
+- **Authors:** Bikram Pandit, Mohitvishnu S. Gadde, Aayam Kumar Shrestha, Alan Fern
+- **Published:** 2026-09
+- **Tags:**
+  - Sim-to-Real
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+We study cooperative multi-humanoid pickup and transport of objects with varying size, weight, and geometry, requiring robot teams of different sizes. Our approach uses decentralized object-centric control, where each humanoid is assigned a local attachment region on the shared object and learns to realize pickup and transport through gripperless bimanual pinching.
+
+---
+
 ## Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.16683)

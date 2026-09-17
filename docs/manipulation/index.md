@@ -1,10 +1,10 @@
 # Manipulation
 
-**65 papers** in this category.
+**66 papers** in this category.
 
 ## Months
 
-- [2026-09](/manipulation/2026-09) (1 papers)
+- [2026-09](/manipulation/2026-09) (2 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
 - [2026-06](/manipulation/2026-06) (8 papers)
@@ -33,6 +33,22 @@
 ---
 
 ## Recent Papers
+
+## Learning Multi-Humanoid Pickup and Transport via Decentralized Object-Centric Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.17824)
+- **Authors:** Bikram Pandit, Mohitvishnu S. Gadde, Aayam Kumar Shrestha, Alan Fern
+- **Published:** 2026-09
+- **Tags:**
+  - Sim-to-Real
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+We study cooperative multi-humanoid pickup and transport of objects with varying size, weight, and geometry, requiring robot teams of different sizes. Our approach uses decentralized object-centric control, where each humanoid is assigned a local attachment region on the shared object and learns to realize pickup and transport through gripperless bimanual pinching.
+
+---
 
 ## Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction
 
@@ -369,22 +385,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - World Model
   - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## HumanoidVLM: Vision-Language-Guided Impedance Control for Contact-Rich Humanoid Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2601.14874)
-- **Published:** 2026-01
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Impedance Control
-  - Vision-Language
 
 ### Summary
 
