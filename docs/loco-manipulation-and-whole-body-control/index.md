@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**236 papers** in this category.
+**237 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (15 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (16 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,28 @@
 ---
 
 ## Recent Papers
+
+## ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.19340)
+- **Authors:** Zejie Tian, Ruibing Hou, Bingpeng Ma, Börje F. Karlsson, Shiguang Shan
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Proprioception
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Humanoid loco-manipulation requires adaptive whole-body coordination to seamlessly integrate locomotion and physical interaction. Despite recent advances, learning autonomous loco-manipulation remains challenging due to the scarcity of diverse, physically executable robot-object interaction data and the difficulty of learning unified whole-body control directly from onboard observations.
+
+---
 
 ## KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation
 
@@ -420,27 +442,5 @@ Whole-body motion tracking policies turn a humanoid into a robust control interf
 ### Summary
 
 Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research. However, today's data-hungry algorithms make collecting sufficient demonstrations a struggle for tabletop manipulation, and even more so for humanoids that must also walk and balance.
-
----
-
-## HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.16837)
-- **Authors:** Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Jiaming Liu, Xinyuan Lv et al. (17 authors)
-- **Published:** 2026-08
-- **Real Robot:** ✅
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Manipulation
-  - Safety
-  - Humanoid
-  - Vision-Language
-  - Foundation Model
-  - SAC
-
-### Summary
-
-Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it challenging for conventional single-stage VLA architectures to coordinate locomotion, waist posture, and dual-arm manipulation effectively.
 
 ---

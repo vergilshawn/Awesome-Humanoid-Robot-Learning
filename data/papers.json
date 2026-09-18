@@ -1,5 +1,138 @@
 [
   {
+    "arxiv_id": "2609.20558",
+    "title": "Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction",
+    "paper_url": "https://arxiv.org/abs/2609.20558",
+    "project_url": null,
+    "authors": [
+      "Songyang Liu",
+      "Shuai Li"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-17",
+    "abstract": "Roofing requires workers to coordinate locomotion, balance, and work-related body motions on pitched surfaces, creating a challenging application for humanoid robots. Directly retargeted human demonstrations, however, may preserve motion appearance while placing the robot's feet or hands incorrectly relative to the roof. This study presents a task-semantic scene-grounded framework for learning roofer-style whole-body motions on a Unitree G1. Human demonstrations are captured using a tracking system and retargeted to the robot, while a metric roof model supplies the spatial reference unavailable from the tracking system. A trajectory-level optimization grounds inferred support contacts and annotated work relations to the roof, and execution-aware reinforcement learning encourages the resulting policy to preserve these relations under dynamic tracking errors. The framework is evaluated through a multi-motion tracking study, a roof-pitch coverage matrix, a five-way nailgun ablation, cross-task experiments on hammering and lateral pushing, and comparisons with pure reinforcement learning and zero-shot teleoperation. Our method enables the robot to satisfy support, work-clearance, and nonpenetration criteria across all evaluated seeds. Across nailgun, hammering, and pushing, it achieves work-clearance errors between 0.256 and 0.531 cm and 3/3 successful evaluations per task. Physical experiments reproduce uphill walking, nailgun, hammering, and bending motions with mean base-frame motion errors below 80 mm. These findings establish scene-grounded human motion learning as a promising basis for construction-oriented humanoid motion primitives.",
+    "categories": [
+      "Locomotion",
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Teleoperation",
+      "Locomotion",
+      "Zero-Shot",
+      "Human Demonstration",
+      "Humanoid",
+      "Walking",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.19582",
+    "title": "OmniCalib: Target-Free, Task-Structured Self-Calibration for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2609.19582",
+    "project_url": null,
+    "authors": [
+      "Kaixiang Lu",
+      "Haiyu Lan",
+      "Chunxiao Qiao",
+      "You Li",
+      "Enyu Li",
+      "Yehao Lu",
+      "Jiarui Yang",
+      "Peiwen Lin",
+      "Chuang Wang"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-17",
+    "abstract": "Assembly, wear, and component replacement perturb the sensor extrinsics and joint zeros encoded by a humanoid CAD model. Existing procedures calibrate one sensor pair or require external fiducials. Using only robot-native motion and onboard sensing, we present OmniCalib, a target-free workflow that calibrates the full upper limbs---all 14 arm joint zeros and the extrinsics of both wrist and chest cameras---as well as lower limbs and the multi-camera head rig. Each module matches a robot-native task to a parameter block, checks observability, and writes only supported corrections to the CAD model. Our depth ICP method recovers all 14 arm joint zeros and calibrates all RGB-D camera extrinsics without any calibration target. Relative to CAD, the estimated extrinsic corrections are 10.56 mm and 1.74 degrees for the left wrist, 6.33 mm and 1.25 degrees for the right wrist, and 9.81 mm and 0.929 degrees for the chest RGB-D camera. ICP point-to-plane residual is 2.09 mm. On the same injected offsets, ICP and ArUco recover all 14 joint zeros below the 0.1-degree encoder-resolution reference. On an AGIBOT A3 Ultra humanoid, four static double-support stances recover all 12 lower-limb joint-zero offsets injected with an RMS error of 0.063 degrees. The head module combines multi-camera visual odometry with legged odometry and dynamic compensation through the live ROS transform tree. Using only planar walking, it attains a mean SO(3) error of 1.061 degrees across three sequences. The best sequence reaches 0.775 degrees, competitive with iKalibr at 0.902 degrees from rich 6-DOF excitation. Rig-relative angles repeat within 0.140 degrees. Injection recovery and held-out tests validate each observable block.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Walking",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.19340",
+    "title": "ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2609.19340",
+    "project_url": null,
+    "authors": [
+      "Zejie Tian",
+      "Ruibing Hou",
+      "Bingpeng Ma",
+      "Börje F. Karlsson",
+      "Shiguang Shan"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-16",
+    "abstract": "Humanoid loco-manipulation requires adaptive whole-body coordination to seamlessly integrate locomotion and physical interaction. Despite recent advances, learning autonomous loco-manipulation remains challenging due to the scarcity of diverse, physically executable robot-object interaction data and the difficulty of learning unified whole-body control directly from onboard observations. We present ViLoMan, a scalable framework for autonomous humanoid loco-manipulation. ViLoMan first transforms partial kinematic demonstrations of human-object interactions into complete, physically executable robot trajectories. It then leverages these trajectories within a teacher-student distillation framework to learn a unified policy that maps egocentric depth observations and proprioceptive measurements directly to joint-level whole-body actions. During deployment, the policy requires neither reference motions nor intermediate commands. We evaluate ViLoMan on door-closing tasks across diverse door configurations and robot initial conditions in both simulation and the real world. Experimental results demonstrate that a single policy enables a Unitree G1 humanoid to complete the full task using only onboard depth sensing and proprioception, while generalizing robustly across task variations and transferring effectively from simulation to reality. Project page: viloman-anonymous.pages.dev.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Proprioception",
+      "Distillation",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.19272",
+    "title": "Learning Safe Humanoid Navigation from Reduced Order Models",
+    "paper_url": "https://arxiv.org/abs/2609.19272",
+    "project_url": null,
+    "authors": [
+      "William D. Compton",
+      "Zachary Olkin",
+      "Ryan Bena",
+      "Aaron D. Ames"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-16",
+    "abstract": "Research in humanoid robotics has achieved rapid progress in locomotion, and recent results have pushed the boundary on autonomous navigation. We demonstrate that a standard single-stage RL navigation pipeline struggles to scale to multi-level and multi-story terrain, limited by the difficulty of complex humanoid terrain interactions such as stairs. To overcome this challenge, we decompose the navigation problem into two pieces. First, we train a policy operating on the reduced order dynamics but with full 3D LiDAR observations to navigate complex, multi-story terrain. We then utilize this navigation knowledge to kickstart a policy operating on the full-order humanoid dynamics, with a frozen locomotion policy in the loop. Additionally, we demonstrate that applying a Poisson safety filter to the navigation policy output recovers safety in the presence of out-of-distribution obstacles, without dropping navigation success rate. We demonstrate the resulting RoM-Nav policy on a Unitree G1, accomplishing mapless multi-floor navigation covering trials with over 10m of vertical displacement and over 100m of path length. Project page with videos https://wdc3iii.github.io/rom-nav/ .",
+    "categories": [
+      "Navigation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Navigation",
+      "Safety",
+      "Humanoid"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
     "arxiv_id": "2609.18869",
     "title": "KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation",
     "paper_url": "https://arxiv.org/abs/2609.18869",

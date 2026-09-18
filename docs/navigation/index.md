@@ -1,9 +1,10 @@
 # Navigation
 
-**22 papers** in this category.
+**23 papers** in this category.
 
 ## Months
 
+- [2026-09](/navigation/2026-09) (1 papers)
 - [2026-07](/navigation/2026-07) (1 papers)
 - [2026-06](/navigation/2026-06) (1 papers)
 - [2026-05](/navigation/2026-05) (2 papers)
@@ -24,6 +25,23 @@
 ---
 
 ## Recent Papers
+
+## Learning Safe Humanoid Navigation from Reduced Order Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.19272)
+- **Authors:** William D. Compton, Zachary Olkin, Ryan Bena, Aaron D. Ames
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Safety
+  - Humanoid
+
+### Summary
+
+Research in humanoid robotics has achieved rapid progress in locomotion, and recent results have pushed the boundary on autonomous navigation. We demonstrate that a standard single-stage RL navigation pipeline struggles to scale to multi-level and multi-story terrain, limited by the difficulty of complex humanoid terrain interactions such as stairs.
+
+---
 
 ## RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC
 
@@ -320,21 +338,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Humanoid
   - Navigation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 NaVILA: Legged Robot Vision-Language-Action Model for Navigation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2412.04453)
-- **Project:** [GitHub](https://navila-bot.github.io/)
-- **Published:** 2024-12
-- **Tags:**
-  - Navigation
-  - Vision-Language
 
 ### Summary
 

@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (236)",
+            "text": "Loco-Manipulation and Whole-Body Control (237)",
             "collapsed": true,
             "items": [
                   {
@@ -362,7 +362,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (163)",
+            "text": "Locomotion (165)",
             "collapsed": true,
             "items": [
                   {
@@ -496,12 +496,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (22)",
+            "text": "Navigation (23)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/navigation/"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/navigation/2026-09"
                   },
                   {
                         "text": "2026-07",

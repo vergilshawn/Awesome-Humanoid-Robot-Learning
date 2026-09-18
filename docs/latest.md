@@ -2,6 +2,84 @@
 
 All papers sorted by publication date (newest first).
 
+## Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.20558)
+- **Authors:** Songyang Liu, Shuai Li
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Locomotion
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Walking
+  - PPO
+
+### Summary
+
+Roofing requires workers to coordinate locomotion, balance, and work-related body motions on pitched surfaces, creating a challenging application for humanoid robots. Directly retargeted human demonstrations, however, may preserve motion appearance while placing the robot's feet or hands incorrectly relative to the roof.
+
+---
+
+## OmniCalib: Target-Free, Task-Structured Self-Calibration for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.19582)
+- **Authors:** Kaixiang Lu, Haiyu Lan, Chunxiao Qiao, You Li, Enyu Li, Yehao Lu et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Walking
+  - PPO
+  - Locomotion
+
+### Summary
+
+Assembly, wear, and component replacement perturb the sensor extrinsics and joint zeros encoded by a humanoid CAD model. Existing procedures calibrate one sensor pair or require external fiducials.
+
+---
+
+## ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.19340)
+- **Authors:** Zejie Tian, Ruibing Hou, Bingpeng Ma, Börje F. Karlsson, Shiguang Shan
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Proprioception
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Humanoid loco-manipulation requires adaptive whole-body coordination to seamlessly integrate locomotion and physical interaction. Despite recent advances, learning autonomous loco-manipulation remains challenging due to the scarcity of diverse, physically executable robot-object interaction data and the difficulty of learning unified whole-body control directly from onboard observations.
+
+---
+
+## Learning Safe Humanoid Navigation from Reduced Order Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.19272)
+- **Authors:** William D. Compton, Zachary Olkin, Ryan Bena, Aaron D. Ames
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Safety
+  - Humanoid
+
+### Summary
+
+Research in humanoid robotics has achieved rapid progress in locomotion, and recent results have pushed the boundary on autonomous navigation. We demonstrate that a standard single-stage RL navigation pipeline struggles to scale to multi-level and multi-story terrain, limited by the difficulty of complex humanoid terrain interactions such as stairs.
+
+---
+
 ## KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.18869)

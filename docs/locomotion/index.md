@@ -1,10 +1,10 @@
 # Locomotion
 
-**163 papers** in this category.
+**165 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (10 papers)
+- [2026-09](/locomotion/2026-09) (12 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,45 @@
 ---
 
 ## Recent Papers
+
+## Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.20558)
+- **Authors:** Songyang Liu, Shuai Li
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Locomotion
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Walking
+  - PPO
+
+### Summary
+
+Roofing requires workers to coordinate locomotion, balance, and work-related body motions on pitched surfaces, creating a challenging application for humanoid robots. Directly retargeted human demonstrations, however, may preserve motion appearance while placing the robot's feet or hands incorrectly relative to the roof.
+
+---
+
+## OmniCalib: Target-Free, Task-Structured Self-Calibration for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.19582)
+- **Authors:** Kaixiang Lu, Haiyu Lan, Chunxiao Qiao, You Li, Enyu Li, Yehao Lu et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Walking
+  - PPO
+  - Locomotion
+
+### Summary
+
+Assembly, wear, and component replacement perturb the sensor extrinsics and joint zeros encoded by a humanoid CAD model. Existing procedures calibrate one sensor pair or require external fiducials.
+
+---
 
 ## ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids
 
@@ -368,42 +407,5 @@ Humanoid robots are expected to traverse complex terrains, where the plantar sup
 ### Summary
 
 Motion priors provide powerful guidance for learning naturalistic humanoid behaviors. However, existing methods typically learn a general, task-agnostic prior from the entire reference dataset and apply it uniformly throughout policy training.
-
----
-
-## PFM-HR: Pose Flow Matching for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.03227)
-- **Authors:** Yukang Gao, Yi Gu, Yangchen Zhou, Xingyu Chen, Zhaorui Wang, Fanghai Zhang et al. (12 authors)
-- **Published:** 2026-08
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Flow Matching
-  - Locomotion
-
-### Summary
-
-Motion priors improve reinforcement learning for physics-based humanoid tracking, but temporal priors require ordered motion clips, while pose priors provide limited guidance for policy-induced pose transitions. We present Pose Flow Matching for Humanoid Robots (PFM-HR), a reusable flow matching prior trained directly on large scale unordered pose data.
-
----
-
-## Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.02809)
-- **Authors:** Caiwu Ding, Tao Cui, Lingyun Wang, Chengtao Wen
-- **Published:** 2026-08
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Safety
-  - Biped
-  - Humanoid
-  - Walking
-  - PPO
-
-### Summary
-
-Industrial humanoid robots are constrained less by locomotion or manipulation capability than by the immaturity of functional safety certification for legged platforms. The root difficulty is that the safe state of a legged robot is an actively-controlled state, which violates the fail-passive assumption underlying ISO~13849-1 / EN~60204-1: removing power from a walking biped causes an uncontrolled fall, so classical de-energization is itself a hazard.
 
 ---

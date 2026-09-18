@@ -7,7 +7,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Figure:** 5 papers
-- **Unitree G1:** 32 papers
+- **Unitree G1:** 34 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 13 papers
 - **iCub:** 1 papers
@@ -15,6 +15,50 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.20558)
+- **Authors:** Songyang Liu, Shuai Li
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Locomotion
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Walking
+  - PPO
+
+### Summary
+
+Roofing requires workers to coordinate locomotion, balance, and work-related body motions on pitched surfaces, creating a challenging application for humanoid robots. Directly retargeted human demonstrations, however, may preserve motion appearance while placing the robot's feet or hands incorrectly relative to the roof.
+
+---
+
+## ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.19340)
+- **Authors:** Zejie Tian, Ruibing Hou, Bingpeng Ma, Börje F. Karlsson, Shiguang Shan
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Proprioception
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Humanoid loco-manipulation requires adaptive whole-body coordination to seamlessly integrate locomotion and physical interaction. Despite recent advances, learning autonomous loco-manipulation remains challenging due to the scarcity of diverse, physically executable robot-object interaction data and the difficulty of learning unified whole-body control directly from onboard observations.
+
+---
 
 ## WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination
 
