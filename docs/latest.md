@@ -2,6 +2,85 @@
 
 All papers sorted by publication date (newest first).
 
+## LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.22075)
+- **Authors:** Jake Gonzales, Arturo Flores Alvarez, Yu-Ming Chen, Aaron D. Ames, Lillian J. Ratliff, Manikantan Nambi
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for synthesizing a state-action control barrier function and distilling its safety structure into a task policy.
+
+---
+
+## Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.21467)
+- **Authors:** Yuhyeon Hwang, Daniel Sungho Jung, YongHyeok Seo, Mingi Jung, Chang Nho Cho, Jung-Hoon Hwang et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Simulator
+  - Humanoid
+  - Fine-tuning
+  - Behavior Cloning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Motion tracking can reproduce humanoid loco-manipulation from a single retargeted motion clip, but a policy trained on a fixed reference primarily reproduces its demonstrated transport outcome. Although the source trajectory visits intermediate object displacements, transport termination is demonstrated only at its endpoint.
+
+---
+
+## FootQuery: Future-Touchdown-Guided Retrieval from Depth History for Perceptive Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.21447)
+- **Authors:** Tao Dong, Jia Yu, Yuxuan Fan, Linna Zhao, Jiaqi Gong, Andong Yang et al. (8 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Proprioception
+  - PPO
+  - GAN
+  - State Estimation
+
+### Summary
+
+Humanoid locomotion over complex terrain requires anticipating footholds that may no longer be visible at touchdown. Limited camera coverage and self-occlusion make it necessary to retrieve relevant terrain information from earlier observations.
+
+---
+
+## Learning Scene-Aware Humanoid Locomotion through 3D Clutter from Immersive Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.21107)
+- **Authors:** Beichen Wang, Tong Xu, Daniel Kosukhin, Yuen-Hei Yeung, Yuanjie Lu, Xuesu Xiao
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Motion Retargeting
+  - Locomotion
+  - Human Demonstration
+  - Humanoid
+  - Collision
+
+### Summary
+
+While learning from human motions has enabled highly dynamic humanoid skills such as dancing and martial arts in obstacle-free space, traversal through densely cluttered environments remains underexplored. These spaces are three-dimensional and geometrically constrained, requiring scene-aware locomotion that tightly couples whole-body motion with scene geometry for obstacle avoidance.
+
+---
+
 ## Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.20558)

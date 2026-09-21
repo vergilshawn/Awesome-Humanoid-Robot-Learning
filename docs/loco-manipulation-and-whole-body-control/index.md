@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**237 papers** in this category.
+**239 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (16 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (18 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,46 @@
 ---
 
 ## Recent Papers
+
+## LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.22075)
+- **Authors:** Jake Gonzales, Arturo Flores Alvarez, Yu-Ming Chen, Aaron D. Ames, Lillian J. Ratliff, Manikantan Nambi
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Safety
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for synthesizing a state-action control barrier function and distilling its safety structure into a task policy.
+
+---
+
+## Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.21467)
+- **Authors:** Yuhyeon Hwang, Daniel Sungho Jung, YongHyeok Seo, Mingi Jung, Chang Nho Cho, Jung-Hoon Hwang et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Simulator
+  - Humanoid
+  - Fine-tuning
+  - Behavior Cloning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Motion tracking can reproduce humanoid loco-manipulation from a single retargeted motion clip, but a policy trained on a fixed reference primarily reproduces its demonstrated transport outcome. Although the source trajectory visits intermediate object displacements, transport termination is demonstrated only at its endpoint.
+
+---
 
 ## ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots
 
@@ -399,48 +439,5 @@ Real-world humanoid tasks involve physical interaction with objects and humans, 
 ### Summary
 
 Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation.
-
----
-
-## GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.18234)
-- **Authors:** Ziyang Cheng, Tianshu Tang, Jinxin Lan, Xinze Chen, Yuhan Gong, Zhichao Liu et al. (20 authors)
-- **Published:** 2026-08
-- **Tags:**
-  - Whole-Body Control
-  - Transformer
-  - World Model
-  - Humanoid
-  - Fine-tuning
-  - Robust Control
-  - Dataset
-  - PPO
-
-### Summary
-
-Whole-body motion tracking policies turn a humanoid into a robust control interface: the teleoperator---or an upstream model---only supplies a coarse movement intent, while the low-level policy keeps the robot balanced and physically feasible. Existing trackers deliver this interface only on flat ground: trained in empty scenes, they never learn how contact with terrain and objects reshapes their dynamics, and they attempt to teach the policy to balance under any command by continually enlarging the reference-motion corpus, which stops working once feasible behaviors become environment-dependent.
-
----
-
-## FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.17027)
-- **Authors:** Omar Rayyan, Zhi Li, Max Argus, Yuxin Jiang, Chang Yu, Chenfanfu Jiang et al. (7 authors)
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Locomotion
-  - Manipulation
-  - Zero-Shot
-  - Humanoid
-  - Benchmark
-  - Behavior Cloning
-
-### Summary
-
-Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research. However, today's data-hungry algorithms make collecting sufficient demonstrations a struggle for tabletop manipulation, and even more so for humanoids that must also walk and balance.
 
 ---

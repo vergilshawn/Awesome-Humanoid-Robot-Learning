@@ -1,10 +1,10 @@
 # Locomotion
 
-**165 papers** in this category.
+**167 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (12 papers)
+- [2026-09](/locomotion/2026-09) (14 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,45 @@
 ---
 
 ## Recent Papers
+
+## FootQuery: Future-Touchdown-Guided Retrieval from Depth History for Perceptive Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.21447)
+- **Authors:** Tao Dong, Jia Yu, Yuxuan Fan, Linna Zhao, Jiaqi Gong, Andong Yang et al. (8 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Proprioception
+  - PPO
+  - GAN
+  - State Estimation
+
+### Summary
+
+Humanoid locomotion over complex terrain requires anticipating footholds that may no longer be visible at touchdown. Limited camera coverage and self-occlusion make it necessary to retrieve relevant terrain information from earlier observations.
+
+---
+
+## Learning Scene-Aware Humanoid Locomotion through 3D Clutter from Immersive Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.21107)
+- **Authors:** Beichen Wang, Tong Xu, Daniel Kosukhin, Yuen-Hei Yeung, Yuanjie Lu, Xuesu Xiao
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Motion Retargeting
+  - Locomotion
+  - Human Demonstration
+  - Humanoid
+  - Collision
+
+### Summary
+
+While learning from human motions has enabled highly dynamic humanoid skills such as dancing and martial arts in obstacle-free space, traversal through densely cluttered environments remains underexplored. These spaces are three-dimensional and geometrically constrained, requiring scene-aware locomotion that tightly couples whole-body motion with scene geometry for obstacle avoidance.
+
+---
 
 ## Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction
 
@@ -369,43 +408,5 @@ Humanoid robots have recently demonstrated promising capabilities in real-world 
 ### Summary
 
 Long-horizon humanoid vision--language--action (VLA) control with head-mounted stereo cameras requires visual interfaces that can exploit complementary views while maintaining compatibility with pretrained representations. Existing interfaces often discard complementary stereo evidence or fuse additional observations without preserving the native primary-view pathway and adapting auxiliary information to robot embodiment.
-
----
-
-## Tac4Loco: Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.15766)
-- **Authors:** Ziyun Liu, Sikai Guo, Zheng Li, Jiahang Cao, Haichao Liu, Pei Qu et al. (9 authors)
-- **Published:** 2026-08
-- **Tags:**
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - Proprioception
-  - Policy Learning
-  - Actor-Critic
-  - PPO
-  - State Estimation
-
-### Summary
-
-Humanoid robots are expected to traverse complex terrains, where the plantar support may vary dramatically due to foot placement errors, ground properties, and transient dynamics.   To achieve robust locomotion, the robots are required to adapt to uneven terrain and uncertain foot--ground interactions.
-
----
-
-## Learning Context-Aware Motion Priors for Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.03234)
-- **Authors:** Yunyang Mo, Yi Gu, Yangchen Zhou, Hanyang Cao, Renjing Xu
-- **Published:** 2026-08
-- **Tags:**
-  - Humanoid
-  - Dataset
-  - Policy Learning
-  - Locomotion
-
-### Summary
-
-Motion priors provide powerful guidance for learning naturalistic humanoid behaviors. However, existing methods typically learn a general, task-agnostic prior from the entire reference dataset and apply it uniformly throughout policy training.
 
 ---
