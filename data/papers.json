@@ -1,5 +1,385 @@
 [
   {
+    "arxiv_id": "2609.24840",
+    "title": "PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2609.24840",
+    "project_url": null,
+    "authors": [
+      "Lei Ye",
+      "Haibo Gao",
+      "Yitang Li",
+      "Peng Xu",
+      "Zetong Jing",
+      "Junhan Sun",
+      "Fanrong Dong",
+      "Ziqi Han",
+      "Xue Wang",
+      "Jianhua Sun",
+      "Cewu Lu",
+      "Hao Zhao",
+      "Liang Ding"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-21",
+    "abstract": "Diffusion models offer flexible motion generation, but translating this flexibility into feedback-responsive humanoid control remains challenging. Hierarchical systems steer motion through references that may exceed a separate tracker's capabilities, leaving recovery and physical execution largely to the tracker. Action-only diffusion generates actions directly but lacks an explicit future-state trajectory for test-time motion objectives. Joint state-action diffusion provides this representation, yet representative controllers often depend on privileged full-body states, and support for learned behavior selection and test-time motion steering remains fragmented. We present PredActor, a predictive action diffusion policy that brings these complementary steering capabilities into one directly executed policy using proprioceptive observations. Conditioned on proprioceptive history and optional task context, PredActor jointly generates executable actions and an internal future-state trajectory. Classifier-free guidance strengthens text-conditioned behavior, while classifier guidance steers predicted states toward test-time objectives. Only actions are executed, without a separate motion-reference tracker or externally estimated full-body states as policy inputs. In simulation, PredActor reaches all 15 destination targets and achieves a text retrieval score of 0.580, compared with 0.373 for conditional action diffusion, with similar observed disturbance survival. To make this guided policy practical onboard, rolling denoising and computation-preserving runtime optimizations reduce the complete callback to 16.790 ms median and 19.383 ms p95 on a Jetson Orin NX, both below the 20 ms control period. We deploy PredActor on a Unitree G1; evaluations across simulation and physical hardware demonstrate text-conditioned motion, disturbance response, joystick control, and semantic interpolation.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Diffusion Policy",
+      "Humanoid",
+      "PPO",
+      "Diffusion",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.24742",
+    "title": "LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot",
+    "paper_url": "https://arxiv.org/abs/2609.24742",
+    "project_url": null,
+    "authors": [
+      "Hanxiao Chen"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-21",
+    "abstract": "Humanoid robots are increasingly being popular and developed for human-centered applications, yet their ability to provide intelligent conversations and natural interactive knowledge assistance remains constrained by traditional rule-based dialogue systems, pre-defined responses and limited knowledge repositories. Large language models (LLMs) have emerged as a powerful foundation for enabling natural, adaptive, and context-aware Human-Robot Interaction (HRI), which provides a significant opportunity to address such limitations by enabling robots to understand natural speech language, reason over complicated queries, maintain high-quality conversational context, and generate knowledge-rich responses. In this work, we originally present and implement an LLM-based versatile Conversational AI Knowledge Assistant for the Raspberry-Pi-powered 13-Axis MyBuddy humanoid robot, which integrates LLM-driven language understanding and AI reasoning with real-time speech recognition, knowledge retrieval via extensible access of internet engines (e.g., Wikipedia, arXiv), flexible dialogue management, and natural speech synthesis to enable much more intelligent multi-turn continuous conversations and advanced emotional-support Human-Robot Interaction.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Large Language Model",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.24552",
+    "title": "Smoothness as a Constraint for Stable Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2609.24552",
+    "project_url": null,
+    "authors": [
+      "Utsav Panchal",
+      "Denis Kleyko",
+      "Unal Artan",
+      "Amy Loutfi"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-21",
+    "abstract": "Embodied AI systems, particularly humanoid robots deployed in real world scenarios require whole-body control policies that are both task-responsive and physically smooth. However, smoothness is not uniform across the body: lower body must remain sufficiently reactive, while the upper body must be tightly regulated to preserve stability. Existing reinforcement learning approaches typically impose smoothness through auxiliary terms in the reward function, which compete with task objectives, treating the body as uniform and provide no direct control over the physical quantities responsible for smooth behavior. We introduce DeCap (Decoupled Constraint-aware policy), a constrained reinforcement learning algorithm that decouples whole-body smoothness into separate upper- and lower-body constraint groups, each formulates smoothness as explicit constraints on physical motion limits. To improve constraint satisfaction near feasibility boundaries, DeCap incorporates a bounded barrier penalty that activates proactively as limits are approached and remains bounded at the constraint limit. On real-world humanoid whole-body control task, DeCap reduces upper-body action rate by 2.50x and acceleration by 2.18x relative to reward-based smoothness policies, while also improving lower-body smoothness and reducing transient motion. We demonstrate that a fixed set of smoothness constraints transfers across diverse terrains, alleviating the need of extensive reward tuning.",
+    "categories": [
+      "Locomotion",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Locomotion",
+      "Embodied AI",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.23968",
+    "title": "Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation",
+    "paper_url": "https://arxiv.org/abs/2609.23968",
+    "project_url": null,
+    "authors": [
+      "Fukang Liu",
+      "Yipu Chen",
+      "Jaehwi Jang",
+      "Danfei Xu",
+      "Zsolt Kira",
+      "Ye Zhao"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-21",
+    "abstract": "Humanoid robots are expected to perform diverse human-level tasks in daily environments, many of which require precise regulation of interaction forces. While recent vision-language-action (VLA) models have shown promise for semantic planning and visuomotor control, existing humanoid systems primarily represent actions through geometric motion goals and rely on whole-body controllers focused on motion tracking, with limited explicit reasoning or control of interaction forces. This limitation is particularly relevant in contact-rich tasks, where geometrically similar motions may require different force regimes depending on the task context and where visual observations may become unreliable after contact. In this work, we present Opt2VLA, a force-aware VLA framework that introduces explicit force commands at the VLA-to-control interface for humanoid whole-body manipulation. A single multi-task VLA policy jointly predicts both geometric motion goals and continuous contact-force references, which are tracked by task-specific reinforcement learning (RL)-based whole-body controllers. To provide scalable and physically grounded supervision, we generate dynamically feasible and contact-consistent training data via whole-body trajectory optimization (TO) with explicit force references. We evaluate Opt2VLA on three contact-rich humanoid tasks and show that explicit force conditioning enables more accurate and consistent force regulation than motion-only control, while physically grounded torque supervision from TO further improves force tracking accuracy and stability. Closed-loop evaluations further demonstrate language-conditioned force modulation with Opt2VLA in simulation and on humanoid hardware.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Manipulation",
+      "Multi-Task",
+      "Humanoid",
+      "Trajectory Optimization",
+      "Language-Conditioned",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.23666",
+    "title": "UniPoint: Unified Point-Level Sensor Fusion for Humanoid Locomotion Across Challenging Terrains",
+    "paper_url": "https://arxiv.org/abs/2609.23666",
+    "project_url": null,
+    "authors": [
+      "Sicen Li",
+      "Zhen Chu",
+      "Chao Li",
+      "Qiuguo Zhu",
+      "Jun Wu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-20",
+    "abstract": "Open-world deployment requires humanoid robots to cross highly heterogeneous terrain safely, with perception that simultaneously provides wide coverage, local accuracy, and redundancy against sensor failure. Existing approaches struggle to satisfy all three: one forward depth camera or nearby height sampling covers too little; odometry-corrected elevation maps drift under aggressive motion and miss thin vertical structures; image-level encoding costs grow with camera count. We present UniPoint, a humanoid whole-body locomotion framework built on multi-source point-level sensor fusion. Measurements from a 360° light detection and ranging (LiDAR) sensor and two depth cameras are early-fused into one base-frame point set. Voxelization resamples it to a fixed number of tokens encoded by linear self-attention and proprioception-queried cross-attention, decoupling forward cost from sensor count. The point set retains standing thin barriers; a single-modality failure removes only part of the tokens, so the policy degrades gracefully. A single training run with terrain-aware rewards, perception-degradation injection, and domain randomization produces one policy for all eight terrain types, deployed on an onboard RK3588 without fine-tuning. On a DR02 humanoid, 20 trials at each of nine real-world settings over seven terrain types validate the policy on 70-cm-high platforms, 100-cm gaps, thin barriers, and sparse or narrow footholds; it also generalizes zero-shot outdoors.",
+    "categories": [
+      "State Estimation",
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Zero-Shot",
+      "Domain Randomization",
+      "Humanoid",
+      "Proprioception",
+      "Fine-tuning",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2609.23610",
+    "title": "PRIMO: Prior-Informed Odometry from Human-Motion Tracking for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2609.23610",
+    "project_url": "https://github.com/agibot-spatial-intelligence/primo",
+    "authors": [
+      "Xu Han",
+      "Angsong Li",
+      "Shaopeng Zhang",
+      "Enyu Li",
+      "Peiwen Lin",
+      "Chuang Wang",
+      "Yuan Zhuang",
+      "Haiyu Lan"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-20",
+    "abstract": "Simulation-trained humanoid proprioceptive odometry faces two transfer challenges: training trajectories generated by specific robot control policies intended for deployment cover only a limited range of motions, while sim-to-real mismatch can make unconstrained predictions unreliable. We address both with Prior-Informed Odometry from Human-Motion Tracking (PRIMO). On the data side, we generate odometry supervision by having the humanoid track diverse retargeted human motions in simulation, decoupling supervision from the deployment policies and broadening the training motion distribution. On the model side, a Prior-Informed estimator uses physics- and symmetry-informed priors to structure velocity and rotation prediction and a coarse raw-context pathway to preserve sensor context alongside encoded features, thereby strengthening sim-to-real generalization. Under a unified real-robot protocol, PRIMO reduces mean error by 31.6%-61.7% relative to the strongest evaluated external baseline in each domain-metric comparison. Across two locomotion-policy revisions, policy specialists exhibit symmetric crossover, whereas Tracking-Locomotion training reduces mean opposite-policy simulation error by 86.8%-94.6%. On real dynamic motion, Tracking-Locomotion training reduces mean error by 69.2%-81.7% relative to training on the union of both deployment policies. Across the tested motion compositions, the Prior-Informed estimator consistently lowers mean trajectory errors relative to its Unconstrained counterpart in both simulation and real-robot evaluation. Code is available at https://github.com/Agibot-Spatial-Intelligence/PRIMO.",
+    "categories": [
+      "State Estimation"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Locomotion",
+      "Humanoid",
+      "PPO",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2609.23483",
+    "title": "STRIDER: Stepping-Enabled Multi-Gait Hierarchical 3D Loco-Manipulation Framework for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2609.23483",
+    "project_url": null,
+    "authors": [
+      "Yuanzhuo Li",
+      "Wen Zhao",
+      "Zhe Yong",
+      "Xiang Meng",
+      "Gang Han",
+      "Hengle Ren",
+      "Xiaoyang Zheng",
+      "Zhen Wang",
+      "Yijie Guo"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-20",
+    "abstract": "Humanoid loco-manipulation faces two prominent limitations: controllers using continuous velocity commands cannot precisely regulate individual footholds, while specialized foothold-tracking modules are difficult to integrate with whole-body manipulation. Furthermore, standard action-based imitation distillation primarily transfers expert actions, without explicitly encouraging a shared representation of heterogeneous skills. This paper introduces STRIDER, a hierarchical multi-gait framework to bridge these gaps. The framework integrates terrain-aware 3D stepping logic, Adversarial Motion Priors (AMP)-based natural walking, and Cartesian upper-body control: its stepping expert selects feasible footholds in the stance-foot frame and generates clearance-aware swing trajectories. To fuse distinct walking and stepping experts into one executable student policy, we propose Latent Distillation Proximal Policy Optimization (LD-PPO), a distillation algorithm augmented with teacher-conditioned latent alignment. By jointly optimizing on-policy reinforcement learning, DAgger-based action reconstruction, and latent alignment, LD-PPO transfers expert actions while encouraging a shared skill representation across heterogeneous modes. Simulation and real-robot evaluations on the TianGong Omni humanoid show that LD-PPO outperforms vanilla distillation-PPO in foothold-tracking and posture-tracking accuracy. Deployed on hardware, STRIDER realizes multi-gait loco-manipulation with accurate foothold and end-effector tracking.",
+    "categories": [
+      "Locomotion",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "Humanoid",
+      "Gait",
+      "Walking",
+      "Distillation",
+      "PPO",
+      "DAgger",
+      "Locomotion",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.23414",
+    "title": "EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2609.23414",
+    "project_url": null,
+    "authors": [
+      "Daojie Peng",
+      "Bingtao Wang",
+      "Fulong Ma",
+      "Wenjun Yue",
+      "Liang Zhang",
+      "Jun Ma"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-20",
+    "abstract": "Socially competent humanoid robots must communicate affect and intent through gesture as well as speech, yet open-ended interaction must become motion that is both expressive and executable on a specific body. This demands semantic flexibility for contextual social intent while preserving deterministic, embodiment-aware robot control. We present EmoPose, a vision-language model (VLM)-guided framework that bridges this gap through an executable semantic interface. Given language, dialogue history, and optional visual context, the VLM selects an ordered gesture plan containing a communicative class, library variant, intensity, and speech anchor. A scalable robot-owned motion library defines the available expressive vocabulary and the source of 14-DoF joint targets. Pose Studio supports automatic trajectory generation, MuJoCo preview, and automatic synchronization of new library entries with the VLM guide; deterministic robot-side modules validate plans, construct trajectories, schedule gestures, and manage queueing and interruption. This division lets the interaction repertoire grow for new social contexts without changing the control interface or delegating raw joint commands to the foundation model. On the EmoPose-Bench, structured GPT-5.5 planning reaches $98.25\\pm0.52\\%$ on the Easy tier and $76.50\\pm0.54\\%$ overall, exceeding same-model direct-label prompting. Further tests validate dialogue-context use and ordered multi-action composition. The system completes the nominal MuJoCo suite and realizes all 29 authored variants on the physical Unitree G1. A four-stop laboratory tour demonstrates expressive narration with interruption, camera-grounded dialogue, and navigation.",
+    "categories": [
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Navigation",
+      "MuJoCo",
+      "Humanoid",
+      "Vision-Language",
+      "Foundation Model",
+      "PPO",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
+    "arxiv_id": "2609.22829",
+    "title": "Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation",
+    "paper_url": "https://arxiv.org/abs/2609.22829",
+    "project_url": null,
+    "authors": [
+      "Yuxuan Nai",
+      "Leixin Chang",
+      "Liangjing Yang",
+      "Shuo Yang",
+      "Zhongyu Li"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-19",
+    "abstract": "Collecting whole-body demonstrations for humanoid manipulation mostly relies on teleoperation, which is costly and hard to scale up. The Universal Manipulation Interface (UMI) provides a scalable data collection paradigm, but end-effector trajectories alone underdetermine humanoid whole-body coordination, which is insufficient for whole-body demonstration collection. Therefore, we introduce Whole-Body UMI (WB-UMI), a task-agnostic, real-time and end-effector conditioned motion generator that decouples whole-body coordination learning from task semantics learning through a shared end-effector interface. A diffusion policy learns from native UMI demonstrations, while WB-UMI learns independently from retargeted motion capture, requiring no body trackers or paired image--whole-body demonstrations during task-specific data collection. In real deployment, an asynchronous hierarchy integrates the diffusion policy, motion generator, and a whole-body controller with latency compensation and measured-state feedback. Real-robot experiments on G1 support real-time closed-loop transfer across four tasks, achieving 90% success in drawer closing, 80% in shelf pick-and-place, 30% in ball toss, and 40% in Loco-PnP, which shows the effectiveness of this hierarchy in transferring native UMI skills to humanoid whole-body manipulation.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Physics-Based Character Animation",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Diffusion Policy",
+      "Whole-Body Control",
+      "Teleoperation",
+      "Manipulation",
+      "Humanoid",
+      "PPO",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.22611",
+    "title": "HIGenNTO: Scalable Humanoid Interaction Generation via Noise-Space Trajectory Optimization",
+    "paper_url": "https://arxiv.org/abs/2609.22611",
+    "project_url": null,
+    "authors": [
+      "Lalit Jayanti",
+      "Kashu Yamazaki",
+      "Yuto Shibata",
+      "Kotaro Amaya",
+      "Katerina Fragkiadaki"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-18",
+    "abstract": "Humanoid robots can acquire complex skills by imitating kinematic humanoid motion references, yet reliable references for contact-rich interactions remain difficult to obtain: motion capture deteriorates under occlusion and close physical contact, while retargeting introduces additional contact and geometric inconsistencies. We present HIGenNTO, a framework that synthesizes humanoid-scene interaction motion references by optimizing the initial noise of a pretrained text-conditioned motion model under sparse spatiotemporal and scene constraints. The same formulation satisfies desired contacts, avoids collisions, and maintains stable support while retaining the prior's realism and temporal coherence, generating interaction motions from scratch and composing long-horizon behaviors stage-wise. Across robot-environment and robot-object tasks, HIGenNTO produces motions that can be executed by tracking policies in simulation and used to train depth-conditioned visuomotor policies operating solely from onboard sensing. We deploy these policies on a Unitree G1 across four contact-rich tasks. Finally, the task specifications themselves can be written by a coding agent, which proposes interaction tasks and compiles them into prompt, constraint, and scene programs, authoring three of our eight evaluated tasks and four further behaviors. Together, these results establish a scalable path from high-level task descriptions to physically executable humanoid interactions.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Trajectory Optimization",
+      "Collision",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.22538",
+    "title": "FRAMES: Failure Recovery And Monitoring of Embodied Skills for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2609.22538",
+    "project_url": null,
+    "authors": [
+      "Ajay Vikram Periasami",
+      "Xinyuan Luo",
+      "Haoyu Li",
+      "Xianyi Cheng"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-18",
+    "abstract": "Large language model (LLM) planners can decompose natural-language instructions and select reusable robot skills, but choosing the correct skill does not guarantee successful physical execution. This gap is especially important in humanoid loco-manipulation, where errors during approach, grasping, transport, or placement can invalidate the remainder of a long-horizon plan. We present FRAMES, a failure-aware supervisory framework for the Unitree G1 humanoid that operates above the CEER whole-body controller. A Planner Agent selects subtasks through parameterized mid-level skills, while a vision-language-model-based Monitor Agent evaluates each skill using temporal multi-view observations and structured robot and contact evidence. Detected failures stop the active skill and provide grounded feedback to a Recovery Agent. The framework further includes a Memory Module for reusing prior skill experience, and geometric grounding via depth and segmentation. We independently evaluate the monitoring module of the framework in MuJoCo using 100 trials comprising 50 failed and 50 successful executions across five tasks. The monitor detects 48 of 50 failures, correctly accepts 46 of 50 successful executions, and achieves 94.0% overall accuracy. These results provide initial evidence for the monitoring component, while end-to-end evaluation of the complete recovery loop remains ongoing.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Manipulation",
+      "MuJoCo",
+      "Humanoid",
+      "Vision-Language",
+      "Large Language Model",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2609.22075",
     "title": "LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control",
     "paper_url": "https://arxiv.org/abs/2609.22075",
@@ -27,42 +407,6 @@
       "Loco-Manipulation and Whole-Body Control"
     ],
     "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
-    "arxiv_id": "2609.21467",
-    "title": "Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip",
-    "paper_url": "https://arxiv.org/abs/2609.21467",
-    "project_url": null,
-    "authors": [
-      "Yuhyeon Hwang",
-      "Daniel Sungho Jung",
-      "YongHyeok Seo",
-      "Mingi Jung",
-      "Chang Nho Cho",
-      "Jung-Hoon Hwang",
-      "Dongin Shin"
-    ],
-    "published": "2026-09",
-    "published_date": "2026-09-18",
-    "abstract": "Motion tracking can reproduce humanoid loco-manipulation from a single retargeted motion clip, but a policy trained on a fixed reference primarily reproduces its demonstrated transport outcome. Although the source trajectory visits intermediate object displacements, transport termination is demonstrated only at its endpoint. We identify this mismatch as the termination-versus-passage gap: intermediate displacements are observed as passage states rather than termination-complete outcomes. We introduce Distance-Conditioned Reference Recomposition (DCRR), which relocates the demonstrated termination segment to intermediate transport states. A frozen tracking teacher replays the recomposed references under closed-loop dynamics, and the retained trajectories are relabeled by their achieved object placements and distilled into a reference-free policy. This procedure constructs distance-conditioned supervision from the interaction behavior encoded in the source motion. Across Carry, Kick-Push, Crouch-Push, and Drag, DCRR-BC produces command-dependent transport with an overall normalized distance mean absolute error (MAE) of 0.15, compared with 0.28 for source-only behavior cloning. RL fine-tuning further improves the command response and execution robustness in the training simulator and under sim-to-sim transfer. Finally, hardware experiments demonstrate transport-distance modulation across all four interaction modes.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control",
-      "Manipulation"
-    ],
-    "tags": [
-      "Manipulation",
-      "Robustness",
-      "Simulator",
-      "Humanoid",
-      "Fine-tuning",
-      "Behavior Cloning",
-      "Loco-Manipulation and Whole-Body Control"
-    ],
-    "real_robot": true,
     "open_source": false,
     "platform": null,
     "summary": "",
@@ -103,6 +447,42 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.21467",
+    "title": "Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip",
+    "paper_url": "https://arxiv.org/abs/2609.21467",
+    "project_url": null,
+    "authors": [
+      "Yuhyeon Hwang",
+      "Daniel Sungho Jung",
+      "YongHyeok Seo",
+      "Mingi Jung",
+      "Chang Nho Cho",
+      "Jung-Hoon Hwang",
+      "Dongin Shin"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-18",
+    "abstract": "Motion tracking can reproduce humanoid loco-manipulation from a single retargeted motion clip, but a policy trained on a fixed reference primarily reproduces its demonstrated transport outcome. Although the source trajectory visits intermediate object displacements, transport termination is demonstrated only at its endpoint. We identify this mismatch as the termination-versus-passage gap: intermediate displacements are observed as passage states rather than termination-complete outcomes. We introduce Distance-Conditioned Reference Recomposition (DCRR), which relocates the demonstrated termination segment to intermediate transport states. A frozen tracking teacher replays the recomposed references under closed-loop dynamics, and the retained trajectories are relabeled by their achieved object placements and distilled into a reference-free policy. This procedure constructs distance-conditioned supervision from the interaction behavior encoded in the source motion. Across Carry, Kick-Push, Crouch-Push, and Drag, DCRR-BC produces command-dependent transport with an overall normalized distance mean absolute error (MAE) of 0.15, compared with 0.28 for source-only behavior cloning. RL fine-tuning further improves the command response and execution robustness in the training simulator and under sim-to-sim transfer. Finally, hardware experiments demonstrate transport-distance modulation across all four interaction modes.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Robustness",
+      "Simulator",
+      "Humanoid",
+      "Fine-tuning",
+      "Behavior Cloning",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
     "arxiv_id": "2609.21107",
@@ -582,6 +962,32 @@
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
+    "arxiv_id": "2609.22289",
+    "title": "OJOx: Specification-Conditioned Demonstrations for Embodied AI in Construction",
+    "paper_url": "https://arxiv.org/abs/2609.22289",
+    "project_url": null,
+    "authors": [
+      "Mohamed Dawod"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-13",
+    "abstract": "Large-scale egocentric and whole-body human demonstrations are becoming a primary source of data for embodied intelligence. They record what people perceive and do, but rarely the external specification that gave an action its purpose. In construction that omission is consequential: skilled work is directed at project-specific configurations defined in a design model - configurations not yet present in the environment being observed. A mason's transferable competence is not the geometry of one wall but the ability to realise a new geometry from a specification. We introduce the specification-conditioned demonstration: a synchronised record of the physical state a demonstrator perceives, the intended state supplied to them by an external design, and the behaviour connecting the two. We present OJOx, a capture interface that realises this for construction - delivering design geometry to a headset, anchoring it in the physical workspace, rendering it into a demonstrator's stereo passthrough view, and recording that view synchronously with whole-body and hand motion. We report one fully instrumented session - a 33-component wall laid against a specification that changes while the work proceeds - and check the record against the physical scene through an external camera registered independently of the capture. Recorded sessions remain compatible with existing humanoid retargeting infrastructure and replay onto a Unitree G1 in simulation. The result is a data interface for testing whether embodied policies can learn not merely to imitate demonstrated actions, but to act toward specifications absent from their training experience.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Human Demonstration",
+      "Embodied AI",
+      "Humanoid",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2609.14432",
     "title": "EMoG: Emotion-Modulated Gait Generation for Expressive Humanoid Locomotion",
     "paper_url": "https://arxiv.org/abs/2609.14432",
@@ -599,7 +1005,7 @@
     ],
     "published": "2026-09",
     "published_date": "2026-09-13",
-    "abstract": "Existing humanoid locomotion systems primarily focus on stability and task execution, while integrating expressiveness with explicit locomotion control remains challenging. We propose EMoG, an emotion-modulated gait generation framework for expressive humanoid locomotion. EMoG introduces an emotional-style code with continuously adjustable intensity. Conditioned on this code and physical commands, a lightweight MLP generates expressive, command-consistent periodic gait trajectories in real time, which are tracked by a unified reinforcement learning policy for physical execution. To support training, we collect a large-scale emotion-annotated gait dataset from professional performers and develop an automated pipeline to extract physically consistent periodic gait cycles. EMoG also integrates an LLM-based parser that converts free-form language into emotional style and motion parameters for interactive control. Experiments demonstrate continuous gait-style modulation with perceptible expressive cues while maintaining command tracking. EMoG provides a practical approach to parameterized emotional-style walking for human-robot interaction.",
+    "abstract": "Existing humanoid locomotion systems primarily focus on stability and task execution, while integrating expressiveness with explicit locomotion control remains challenging. We propose EMoG, an emotion-modulated gait generation framework for expressive humanoid locomotion. EMoG introduces an emotional-style code with continuously adjustable intensity. Conditioned on this code and physical commands, a lightweight MLP generates expressive, command-consistent periodic gait trajectories in real time, which are tracked by a unified reinforcement learning policy for physical execution. To support training, we collect a large-scale emotion-annotated gait dataset from professional performers and develop an automated pipeline to extract physically consistent periodic gait cycles. EMoG also integrates an LLM-based parser that converts free-form language into emotional style and motion parameters for interactive control. Experiments demonstrate that our system achieves continuous gait-style modulation with perceptible expressive cues while maintaining command tracking. EMoG provides a practical approach to parameterized emotional-style walking for human-robot interaction.",
     "categories": [
       "Locomotion"
     ],

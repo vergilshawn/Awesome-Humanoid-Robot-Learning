@@ -6,34 +6,76 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
-- **Figure:** 5 papers
+- **Figure:** 6 papers
 - **Unitree G1:** 36 papers
 - **Unitree H1:** 1 papers
-- **Unknown Platform:** 14 papers
+- **Unknown Platform:** 16 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
 
-## Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip
+## Smoothness as a Constraint for Stable Humanoid Locomotion
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.21467)
-- **Authors:** Yuhyeon Hwang, Daniel Sungho Jung, YongHyeok Seo, Mingi Jung, Chang Nho Cho, Jung-Hoon Hwang et al. (7 authors)
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.24552)
+- **Authors:** Utsav Panchal, Denis Kleyko, Unal Artan, Amy Loutfi
 - **Published:** 2026-09
 - **Real Robot:** ✅
 - **Tags:**
-  - Manipulation
-  - Robustness
-  - Simulator
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Embodied AI
   - Humanoid
-  - Fine-tuning
-  - Behavior Cloning
   - Loco-Manipulation and Whole-Body Control
 
 ### Summary
 
-Motion tracking can reproduce humanoid loco-manipulation from a single retargeted motion clip, but a policy trained on a fixed reference primarily reproduces its demonstrated transport outcome. Although the source trajectory visits intermediate object displacements, transport termination is demonstrated only at its endpoint.
+Embodied AI systems, particularly humanoid robots deployed in real world scenarios require whole-body control policies that are both task-responsive and physically smooth. However, smoothness is not uniform across the body: lower body must remain sufficiently reactive, while the upper body must be tightly regulated to preserve stability.
+
+---
+
+## UniPoint: Unified Point-Level Sensor Fusion for Humanoid Locomotion Across Challenging Terrains
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.23666)
+- **Authors:** Sicen Li, Zhen Chu, Chao Li, Qiuguo Zhu, Jun Wu
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Locomotion
+  - Zero-Shot
+  - Domain Randomization
+  - Humanoid
+  - Proprioception
+  - Fine-tuning
+  - State Estimation
+
+### Summary
+
+Open-world deployment requires humanoid robots to cross highly heterogeneous terrain safely, with perception that simultaneously provides wide coverage, local accuracy, and redundancy against sensor failure. Existing approaches struggle to satisfy all three: one forward depth camera or nearby height sampling covers too little; odometry-corrected elevation maps drift under aggressive motion and miss thin vertical structures; image-level encoding costs grow with camera count.
+
+---
+
+## Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.22829)
+- **Authors:** Yuxuan Nai, Leixin Chang, Liangjing Yang, Shuo Yang, Zhongyu Li
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Diffusion Policy
+  - Whole-Body Control
+  - Teleoperation
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Collecting whole-body demonstrations for humanoid manipulation mostly relies on teleoperation, which is costly and hard to scale up. The Universal Manipulation Interface (UMI) provides a scalable data collection paradigm, but end-effector trajectories alone underdetermine humanoid whole-body coordination, which is insufficient for whole-body demonstration collection.
 
 ---
 
@@ -54,6 +96,27 @@ Motion tracking can reproduce humanoid loco-manipulation from a single retargete
 ### Summary
 
 Humanoid locomotion over complex terrain requires anticipating footholds that may no longer be visible at touchdown. Limited camera coverage and self-occlusion make it necessary to retrieve relevant terrain information from earlier observations.
+
+---
+
+## Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.21467)
+- **Authors:** Yuhyeon Hwang, Daniel Sungho Jung, YongHyeok Seo, Mingi Jung, Chang Nho Cho, Jung-Hoon Hwang et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Simulator
+  - Humanoid
+  - Fine-tuning
+  - Behavior Cloning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Motion tracking can reproduce humanoid loco-manipulation from a single retargeted motion clip, but a policy trained on a fixed reference primarily reproduces its demonstrated transport outcome. Although the source trajectory visits intermediate object displacements, transport termination is demonstrated only at its endpoint.
 
 ---
 

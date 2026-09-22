@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**239 papers** in this category.
+**242 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (18 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (21 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,69 @@
 ---
 
 ## Recent Papers
+
+## Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.23968)
+- **Authors:** Fukang Liu, Yipu Chen, Jaehwi Jang, Danfei Xu, Zsolt Kira, Ye Zhao
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Multi-Task
+  - Humanoid
+  - Trajectory Optimization
+  - Language-Conditioned
+  - Vision-Language
+
+### Summary
+
+Humanoid robots are expected to perform diverse human-level tasks in daily environments, many of which require precise regulation of interaction forces. While recent vision-language-action (VLA) models have shown promise for semantic planning and visuomotor control, existing humanoid systems primarily represent actions through geometric motion goals and rely on whole-body controllers focused on motion tracking, with limited explicit reasoning or control of interaction forces.
+
+---
+
+## Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.22829)
+- **Authors:** Yuxuan Nai, Leixin Chang, Liangjing Yang, Shuo Yang, Zhongyu Li
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Diffusion Policy
+  - Whole-Body Control
+  - Teleoperation
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Collecting whole-body demonstrations for humanoid manipulation mostly relies on teleoperation, which is costly and hard to scale up. The Universal Manipulation Interface (UMI) provides a scalable data collection paradigm, but end-effector trajectories alone underdetermine humanoid whole-body coordination, which is insufficient for whole-body demonstration collection.
+
+---
+
+## FRAMES: Failure Recovery And Monitoring of Embodied Skills for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.22538)
+- **Authors:** Ajay Vikram Periasami, Xinyuan Luo, Haoyu Li, Xianyi Cheng
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - MuJoCo
+  - Humanoid
+  - Vision-Language
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Large language model (LLM) planners can decompose natural-language instructions and select reusable robot skills, but choosing the correct skill does not guarantee successful physical execution. This gap is especially important in humanoid loco-manipulation, where errors during approach, grasping, transport, or placement can invalidate the remainder of a long-horizon plan.
+
+---
 
 ## LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control
 
@@ -378,66 +441,5 @@ Contact-rich loco-manipulation requires a bridge between semantic action generat
 ### Summary
 
 There is tremendous value in humanoid robots taking on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole-body motion, perception, contact, and operator supervision.
-
----
-
-## ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.00677)
-- **Authors:** Yan Wu, Chenhao Li, Kaifeng Zhao, Gen Li, Marco Hutter, Siyu Tang
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Diffusion Policy
-  - Whole-Body Control
-  - Robustness
-  - Humanoid
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-We present ADAPT, an end-to-end framework for interactive, text-conditioned humanoid whole-body control. Unlike dominant text-to-motion pipelines that generate kinematic motions for a separate tracker, ADAPT solves language control with an end-to-end closed-loop control framework, where the robot must continuously respond to changing commands while maintaining balance, natural motion, and smooth transitions.
-
----
-
-## LAC: Linear and Angular Compliance for Humanoid Whole-body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.25405)
-- **Authors:** Yang Liu, Zhongkai Gu, Wei Zhu, Mitsuhiro Hayashibe
-- **Published:** 2026-08
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Manipulation
-  - Humanoid
-  - Dataset
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Real-world humanoid tasks involve physical interaction with objects and humans, yet current controllers either reject external forces as disturbances or restrict compliance to limited body links while ignoring angular effects. We present LAC, a general whole-body controller that simultaneously realizes commanded Linear and Angular Compliance for wrenches applied to the upper body.
-
----
-
-## 🌟 DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.22278)
-- **Project:** [GitHub](https://github.com/DreamMimic/DreamMimic)
-- **Authors:** Jie Yin, Xingyu Lai
-- **Published:** 2026-08
-- **Tags:**
-  - Manipulation
-  - World Model
-  - Simulator
-  - Humanoid
-  - Distillation
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Vision-based whole-body loco-manipulation on humanoid robots is challenging due to partial observability, contact-rich dynamics, and the difficulty of learning long-horizon behaviors from high-dimensional visual inputs. We present \href{https://github.com/DreamMimic/DreamMimic}{DreamMimic}, a framework that distills privileged teacher policies into vision-based humanoid controllers via world-model-assisted distillation.
 
 ---

@@ -1,10 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**25 papers** in this category.
+**26 papers** in this category.
 
 ## Months
 
-- [2026-09](/human-motion-analysis-and-synthesis/2026-09) (1 papers)
+- [2026-09](/human-motion-analysis-and-synthesis/2026-09) (2 papers)
 - [2026-08](/human-motion-analysis-and-synthesis/2026-08) (1 papers)
 - [2026-07](/human-motion-analysis-and-synthesis/2026-07) (1 papers)
 - [2026-06](/human-motion-analysis-and-synthesis/2026-06) (2 papers)
@@ -27,6 +27,26 @@
 ---
 
 ## Recent Papers
+
+## EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.23414)
+- **Authors:** Daojie Peng, Bingtao Wang, Fulong Ma, Wenjun Yue, Liang Zhang, Jun Ma
+- **Published:** 2026-09
+- **Tags:**
+  - Navigation
+  - MuJoCo
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - PPO
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Socially competent humanoid robots must communicate affect and intent through gesture as well as speech, yet open-ended interaction must become motion that is both expressive and executable on a specific body. This demands semantic flexibility for contextual social intent while preserving deterministic, embodiment-aware robot control.
+
+---
 
 ## PASSAGE: Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments
 
@@ -304,20 +324,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2405.11126)
 - **Published:** 2024-05
-- **Tags:**
-  - Diffusion
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Taming Diffusion Probabilistic Models for Character Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2404.15121)
-- **Published:** 2024-04
 - **Tags:**
   - Diffusion
   - Human Motion Analysis and Synthesis

@@ -1,10 +1,10 @@
 # Locomotion
 
-**167 papers** in this category.
+**173 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (14 papers)
+- [2026-09](/locomotion/2026-09) (20 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,100 @@
 ---
 
 ## Recent Papers
+
+## PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.24840)
+- **Authors:** Lei Ye, Haibo Gao, Yitang Li, Peng Xu, Zetong Jing, Junhan Sun et al. (13 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Diffusion Policy
+  - Humanoid
+  - PPO
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+Diffusion models offer flexible motion generation, but translating this flexibility into feedback-responsive humanoid control remains challenging. Hierarchical systems steer motion through references that may exceed a separate tracker's capabilities, leaving recovery and physical execution largely to the tracker.
+
+---
+
+## LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.24742)
+- **Authors:** Hanxiao Chen
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Large Language Model
+  - PPO
+  - Locomotion
+
+### Summary
+
+Humanoid robots are increasingly being popular and developed for human-centered applications, yet their ability to provide intelligent conversations and natural interactive knowledge assistance remains constrained by traditional rule-based dialogue systems, pre-defined responses and limited knowledge repositories. Large language models (LLMs) have emerged as a powerful foundation for enabling natural, adaptive, and context-aware Human-Robot Interaction (HRI), which provides a significant opportunity to address such limitations by enabling robots to understand natural speech language, reason over complicated queries, maintain high-quality conversational context, and generate knowledge-rich responses.
+
+---
+
+## Smoothness as a Constraint for Stable Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.24552)
+- **Authors:** Utsav Panchal, Denis Kleyko, Unal Artan, Amy Loutfi
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Embodied AI
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Embodied AI systems, particularly humanoid robots deployed in real world scenarios require whole-body control policies that are both task-responsive and physically smooth. However, smoothness is not uniform across the body: lower body must remain sufficiently reactive, while the upper body must be tightly regulated to preserve stability.
+
+---
+
+## STRIDER: Stepping-Enabled Multi-Gait Hierarchical 3D Loco-Manipulation Framework for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.23483)
+- **Authors:** Yuanzhuo Li, Wen Zhao, Zhe Yong, Xiang Meng, Gang Han, Hengle Ren et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Humanoid
+  - Gait
+  - Walking
+  - Distillation
+  - PPO
+  - DAgger
+
+### Summary
+
+Humanoid loco-manipulation faces two prominent limitations: controllers using continuous velocity commands cannot precisely regulate individual footholds, while specialized foothold-tracking modules are difficult to integrate with whole-body manipulation. Furthermore, standard action-based imitation distillation primarily transfers expert actions, without explicitly encouraging a shared representation of heterogeneous skills.
+
+---
+
+## HIGenNTO: Scalable Humanoid Interaction Generation via Noise-Space Trajectory Optimization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.22611)
+- **Authors:** Lalit Jayanti, Kashu Yamazaki, Yuto Shibata, Kotaro Amaya, Katerina Fragkiadaki
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Trajectory Optimization
+  - Collision
+  - PPO
+  - Locomotion
+
+### Summary
+
+Humanoid robots can acquire complex skills by imitating kinematic humanoid motion references, yet reliable references for contact-rich interactions remain difficult to obtain: motion capture deteriorates under occlusion and close physical contact, while retargeting introduces additional contact and geometric inconsistencies. We present HIGenNTO, a framework that synthesizes humanoid-scene interaction motion references by optimizing the initial noise of a pretrained text-conditioned motion model under sparse spatiotemporal and scene constraints.
+
+---
 
 ## FootQuery: Future-Touchdown-Guided Retrieval from Depth History for Perceptive Humanoid Locomotion
 
@@ -133,6 +227,23 @@ Assembly, wear, and component replacement perturb the sensor extrinsics and join
 ### Summary
 
 Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned policies can still generate unsafe actions that lead to instability or falls.
+
+---
+
+## OJOx: Specification-Conditioned Demonstrations for Embodied AI in Construction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.22289)
+- **Authors:** Mohamed Dawod
+- **Published:** 2026-09
+- **Tags:**
+  - Human Demonstration
+  - Embodied AI
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Large-scale egocentric and whole-body human demonstrations are becoming a primary source of data for embodied intelligence. They record what people perceive and do, but rarely the external specification that gave an action its purpose.
 
 ---
 
@@ -299,114 +410,5 @@ Foothold-constrained terrain is characterized by sparse, discontinuous, or geome
 ### Summary
 
 Humanoid robots responding to emergency stop commands typically execute a fixed maneuver, without reasoning about whether a safe stop is actually feasible from the current state. We cast emergency stopping as a reach-avoid problem and propose Safe-Stop, a task-agnostic framework that pairs a learned stop policy with learned stoppability estimators.
-
----
-
-## Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.29769)
-- **Authors:** Efe Ongan, Chong Zhang, Boyang Sun, Andrei Cramariuc, Cesar Cadena, Marco Hutter
-- **Published:** 2026-08
-- **Tags:**
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-Traversing sparse 3D structures requires humanoid robots to perceive thin, overhanging geometry while executing agile, accurate whole-body motions. We study this problem through monkey-bar traversal, where the robot must jump to the structure, traverse it through sparse bar interactions, and land safely.
-
----
-
-## Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.28090)
-- **Authors:** Kango Yanagida, Kazuki Miyazawa, Takato Horii
-- **Published:** 2026-08
-- **Tags:**
-  - Sim-to-Real
-  - Locomotion
-  - Manipulation
-  - Zero-Shot
-  - Humanoid
-  - Proprioception
-  - PPO
-
-### Summary
-
-Humanoid robots with quasi-direct-drive actuators continuously generate joint torque while standing, whereas seated humans delegate weight support to chairs during desk work. As a first step toward seated loco-manipulation, we study omnidirectional seated locomotion on a passive mobile chair, requiring unfixed pelvis-seat contact and intermittent foot-floor propulsion of the robot-chair system.
-
----
-
-## SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.26583)
-- **Authors:** Pihai Sun, Gang Han, Jingkai Sun, Jiahao Ma, Zeran Su, Zelin Tao et al. (20 authors)
-- **Published:** 2026-08
-- **Tags:**
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - Proprioception
-  - Distillation
-  - PPO
-  - State Estimation
-
-### Summary
-
-Humans traverse complex terrain over long distances without losing balance, whereas perceptive humanoid policies become fragile as perception and control errors accumulate. We present SOLO, a unified framework addressing two compounding causes of this long-horizon fragility: dense terrain reconstruction smooths action-critical details, and pointwise imitation lacks temporal credit assignment.
-
----
-
-## Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.26505)
-- **Authors:** Xulin Chen, Borui He, Ruipeng Liu, Naveed Tahir, Zhenyu Gan, Garrett E. Katz
-- **Published:** 2026-08
-- **Tags:**
-  - Locomotion
-  - Biped
-  - Humanoid
-  - Walking
-
-### Summary
-
-The Poppy Humanoid is an open-source, low-cost robot suitable for research and education in artificial intelligence. However, we are unaware of any published methodology that achieves reliable, unassisted bipedal locomotion on the standard Poppy hardware.
-
----
-
-## Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.20087)
-- **Authors:** Tao Huang, Ruofei Liu, Xuchen Tang, Xinyin Zhang, Junli Ren, Huayi Wang et al. (18 authors)
-- **Published:** 2026-08
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Sim-to-Real
-  - Robustness
-  - Real Robot
-  - Humanoid
-  - Motion Planning
-  - Locomotion
-
-### Summary
-
-Humanoid robots have recently demonstrated promising capabilities in real-world ball sports. However, achieving professional motion styles while maintaining strong task performance remains challenging.
-
----
-
-## EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.17453)
-- **Authors:** Songwei Wu, Rui Zhao, Fan Yang, Zhongqiang Nie, Zhiduo Jiang, Wandong Sun et al. (10 authors)
-- **Published:** 2026-08
-- **Tags:**
-  - Humanoid
-  - Vision-Language
-  - Locomotion
-
-### Summary
-
-Long-horizon humanoid vision--language--action (VLA) control with head-mounted stereo cameras requires visual interfaces that can exploit complementary views while maintaining compatibility with pretrained representations. Existing interfaces often discard complementary stereo evidence or fuse additional observations without preserving the native primary-view pathway and adapting auxiliary information to robot embodiment.
 
 ---
