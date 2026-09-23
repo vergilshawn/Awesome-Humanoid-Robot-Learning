@@ -1,10 +1,10 @@
 # Locomotion
 
-**173 papers** in this category.
+**175 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (20 papers)
+- [2026-09](/locomotion/2026-09) (22 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,46 @@
 ---
 
 ## Recent Papers
+
+## PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.25754)
+- **Authors:** Zepeng Wang, Jiangxing Wang, Chao Ma, Xiaochuan Shi, Zongqing Lu
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Goal-Conditioned
+  - Policy Learning
+  - DAgger
+  - Locomotion
+
+### Summary
+
+Humanoid motion tracking policies rely on dense frame-by-frame references, limiting their use as high-level motion controllers for planning and interactive motion generation. We study \emph{Sparse Timed Keyframe Motion Tracking}, where a policy receives only sparse future keyframes and their desired arrival times, and must execute stable whole-body motions that reach successive goals.
+
+---
+
+## Teaching Reinforcement Learning and Humanoid Robotics to High-School Students: An Expert-Validated Curriculum Design on a Low-Cost Open Platform
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.25674)
+- **Authors:** Yuanzhe Dong, Jie Cao, Shuman Wang
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Open Source
+  - Humanoid
+  - Walking
+  - System Identification
+  - Policy Learning
+  - PPO
+  - GAN
+
+### Summary
+
+Lower cost open source robots and reinforcement learning (RL) simulation tools create new opportunities for precollege students to engage with contemporary robotics. However, translating a complete research workflow, spanning mechanical assembly, electrical setup, simulation, policy learning, system identification, and physical deployment, into a coherent course for novice learners remains challenging.
+
+---
 
 ## PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control
 
@@ -375,40 +415,5 @@ Flying humanoids are expected to perform tasks in diverse environments, while th
 ### Summary
 
 Humanoid locomotion requires control policies that remain stable under imperfect sensing while exploiting temporal context for consistent motion. We present RoboDreamer, a two-stage teacher--student framework that combines next-observation consistency with randomized continuous temporal masking.
-
----
-
-## World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.02542)
-- **Authors:** Yuxi Liu, Lijun Han, Ziming Wang, Ao Zhang, Cong Yang, Wei Sui
-- **Published:** 2026-09
-- **Tags:**
-  - Locomotion
-  - World Model
-  - Humanoid
-  - Proprioception
-  - PPO
-  - State Estimation
-
-### Summary
-
-Foothold-constrained terrain is characterized by sparse, discontinuous, or geometrically restricted feasible foot contacts, as encountered on stepping stones, across gaps, and on narrow stair treads. On such terrain, a single misstep often leaves little room to recover, so policies that base foot-placement decisions primarily on the immediately visible terrain are prone to failure.
-
----
-
-## Humanoid Safe Stop via Learned Stoppability Value
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.02358)
-- **Authors:** Junfeng Long, Pieter Abbeel, Koushil Sreenath, Roberto Horowitz, Guanya Shi, C. Karen Liu
-- **Published:** 2026-09
-- **Tags:**
-  - Humanoid
-  - SAC
-  - Locomotion
-
-### Summary
-
-Humanoid robots responding to emergency stop commands typically execute a fixed maneuver, without reasoning about whether a safe stop is actually feasible from the current state. We cast emergency stopping as a reach-avoid problem and propose Safe-Stop, a task-agnostic framework that pairs a learned stop policy with learned stoppability estimators.
 
 ---

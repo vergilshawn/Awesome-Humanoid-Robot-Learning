@@ -1,5 +1,164 @@
 [
   {
+    "arxiv_id": "2609.26420",
+    "title": "Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training",
+    "paper_url": "https://arxiv.org/abs/2609.26420",
+    "project_url": null,
+    "authors": [
+      "Raphael Memmesheimer",
+      "Sven Behnke"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-22",
+    "abstract": "Text-to-motion models generate plausible human motion but do not model a robot's dynamics; whole-body tracking controllers execute robot references reliably but cannot replan an infeasible one. Recent language-to-humanoid systems bridge this gap by training. We measure how much of the gap closes with no training at all, by putting the deployment controller itself in the loop. Sample-simulate-select (S$^3$) draws $N$ motions per prompt from a frozen text-to-motion model, retargets each to a Unitree G1 by direction-matching inverse kinematics, rolls all of them out under full rigid-body dynamics with the pretrained SONIC tracking policy, and keeps the candidate the policy executed best. Because the verifier is the deterministic simulator itself, S$^3$ attains the any-of-$N$ ceiling by construction; what we measure is where that ceiling lies and what falls short of it. On 200 stratified HumanML3D test prompts with $N=8$, upright execution rises from 83.5% to 89.5% and hardware-gate passes from 33 to 85; on the complete test split (4,184 prompts) it rises from 80.5% to 89.5%. A kinematic verifier that predicts falls well (AUROC 0.90) recovers only a quarter of this gain: ranking a prompt's own candidates is harder than classifying the population. What selection cannot fix is one class, prompts that lower the pelvis, which a generator trained on retargeted robot data does execute. We further score the semantic fidelity of the executed motion with the standard text-motion evaluator, with a real-mocap control that attributes the loss to the robot projection, ablate the retargeter against GMR (complementary failures: the any-of-8 ceiling rises to 95.0% over both), and execute all 177 gate-selected clips on the real G1: every one completes standing, with hardware tracking error matching simulation ($r=0.94$).",
+    "categories": [
+      "State Estimation",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Simulator",
+      "Humanoid",
+      "Inverse Kinematics",
+      "State Estimation",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2609.25754",
+    "title": "PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning",
+    "paper_url": "https://arxiv.org/abs/2609.25754",
+    "project_url": null,
+    "authors": [
+      "Zepeng Wang",
+      "Jiangxing Wang",
+      "Chao Ma",
+      "Xiaochuan Shi",
+      "Zongqing Lu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-22",
+    "abstract": "Humanoid motion tracking policies rely on dense frame-by-frame references, limiting their use as high-level motion controllers for planning and interactive motion generation. We study \\emph{Sparse Timed Keyframe Motion Tracking}, where a policy receives only sparse future keyframes and their desired arrival times, and must execute stable whole-body motions that reach successive goals. We propose \\textbf{PLAT}, a three-stage sparse timed keyframe motion tracking policy learning framework with \\textbf{P}rivileged \\textbf{LA}tent \\textbf{T}ransition learning. PLAT bridges dense motion tracking and sparse goal-conditioned control by exploiting dense goal sequences as privileged supervision during training while requiring only sparse timed keyframe commands at deployment. A pretrained dense tracking expert first provides robust motion priors. A privileged latent prior is then learned through DAgger-style imitation, followed by latent residual reinforcement learning that refines latent transitions instead of directly optimizing actions. Extensive simulation experiments demonstrate that PLAT maintains accurate and stable sparse timed keyframe tracking across varying planning horizons, with particularly strong performance under long-horizon commands. Successful deployment on a Unitree G1 humanoid robot further demonstrates the effectiveness and practicality of PLAT for sparse humanoid motion control.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Goal-Conditioned",
+      "Policy Learning",
+      "DAgger",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.25674",
+    "title": "Teaching Reinforcement Learning and Humanoid Robotics to High-School Students: An Expert-Validated Curriculum Design on a Low-Cost Open Platform",
+    "paper_url": "https://arxiv.org/abs/2609.25674",
+    "project_url": null,
+    "authors": [
+      "Yuanzhe Dong",
+      "Jie Cao",
+      "Shuman Wang"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-22",
+    "abstract": "Lower cost open source robots and reinforcement learning (RL) simulation tools create new opportunities for precollege students to engage with contemporary robotics. However, translating a complete research workflow, spanning mechanical assembly, electrical setup, simulation, policy learning, system identification, and physical deployment, into a coherent course for novice learners remains challenging. We present an integrated robotics course framework that organizes these activities around a shared robotic artifact. The framework combines parallel disciplinary tracks, sequencing based on technical dependencies, progressive integration of simulation and hardware, layered performance checkpoints, and structures for balancing collaborative work with individual accountability. We illustrate the framework through a high school curriculum organized around a robot project in which pairs of students assemble an open source humanoid robot, train a walking policy in simulation, and deploy it on the physical platform. The framework was developed through an iterative design process that included formative review by five experts in robotics research, engineering, secondary STEM education, and curriculum design. Expert feedback highlighted three central design tensions: authenticity versus cognitive load, system integration versus timely visible progress, and team construction versus individual accountability. These tensions informed the final framework presented in this paper. This work offers a structured approach for adapting robotics research workflows into interdisciplinary precollege courses; future classroom studies are needed to examine implementation and student learning.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Open Source",
+      "Humanoid",
+      "Walking",
+      "System Identification",
+      "Policy Learning",
+      "PPO",
+      "GAN",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.25486",
+    "title": "Brace Yourself: Task-Conditioned Environmental Bracing for Forceful Humanoid Manipulation",
+    "paper_url": "https://arxiv.org/abs/2609.25486",
+    "project_url": null,
+    "authors": [
+      "Zongyuan Zhang",
+      "Christopher Lehnert",
+      "Will N. Browne",
+      "Jonathan M. Roberts"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-21",
+    "abstract": "Forceful manipulation is challenging for humanoid robots because interaction forces can disturb whole-body balance. We introduce the Supporting Hand Strategy (SHS), which enables a humanoid to brace against the environment with one hand while performing forceful manipulation with the other. SHS optimises a task-conditioned support configuration that guides two synchronous reinforcement-learning policies, without human motion data or online whole-body trajectory planning. On a Unitree G1, SHS achieved usable contact forces up to 60 N, compared with a maximum sustained force of 13.5 N without environmental bracing, while substantially improving force tracking over a task-independent support configuration. The same policies generalised to different task regions without retraining. SHS therefore provides a simple mechanism for substantially extending humanoid forceful-manipulation capability.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "PPO"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2609.25363",
+    "title": "HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments",
+    "paper_url": "https://arxiv.org/abs/2609.25363",
+    "project_url": null,
+    "authors": [
+      "Toan Nguyen",
+      "Weiduo Yuan",
+      "Siheng Zhao",
+      "Yue Wang",
+      "Daniel Seita"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-21",
+    "abstract": "Object transportation is a fundamental capability for humanoid robots operating in real-world, human-centric environments, yet existing methods struggle when clutter constrains free space around both the robot and its carried payload. We present HOTICE, a whole-body humanoid learning framework for transporting objects through such cluttered environments. First, we introduce Humanoid-Object Decoupled Potential Fields, which jointly encode collision-avoidance guidance for the robot and the carried object, enabling coordinated, obstacle-aware motion for both. Second, to address the large action space inherent to whole-body loco-manipulation, we design a dual-agent reinforcement learning architecture that decouples upper- and lower-body control while preserving whole-body coordination via shared state observations and rewards. To train a policy that generalizes across diverse cluttered scenes, we further employ a specialist-to-generalist distillation strategy, in which privileged teacher policies are distilled into a single deployable student policy. We evaluate HOTICE in MuJoCo simulation and on a real Unitree G1 humanoid, demonstrating effective and robust object transportation across cluttered scenarios for objects of varying shapes. Our results show that HOTICE reliably coordinates whole-body motion and object-aware collision avoidance, generalizing effectively to previously unseen cluttered environments while achieving strong performance in sim2real deployment.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "MuJoCo",
+      "Humanoid",
+      "Distillation",
+      "Collision",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2609.24840",
     "title": "PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control",
     "paper_url": "https://arxiv.org/abs/2609.24840",

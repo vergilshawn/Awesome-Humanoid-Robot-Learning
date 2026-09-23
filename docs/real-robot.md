@@ -7,7 +7,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Figure:** 6 papers
-- **Unitree G1:** 36 papers
+- **Unitree G1:** 37 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 16 papers
 - **iCub:** 1 papers
@@ -15,6 +15,28 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.25363)
+- **Authors:** Toan Nguyen, Weiduo Yuan, Siheng Zhao, Yue Wang, Daniel Seita
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - MuJoCo
+  - Humanoid
+  - Distillation
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Object transportation is a fundamental capability for humanoid robots operating in real-world, human-centric environments, yet existing methods struggle when clutter constrains free space around both the robot and its carried payload. We present HOTICE, a whole-body humanoid learning framework for transporting objects through such cluttered environments.
+
+---
 
 ## Smoothness as a Constraint for Stable Humanoid Locomotion
 

@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**242 papers** in this category.
+**243 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (21 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (22 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,28 @@
 ---
 
 ## Recent Papers
+
+## HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.25363)
+- **Authors:** Toan Nguyen, Weiduo Yuan, Siheng Zhao, Yue Wang, Daniel Seita
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - MuJoCo
+  - Humanoid
+  - Distillation
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Object transportation is a fundamental capability for humanoid robots operating in real-world, human-centric environments, yet existing methods struggle when clutter constrains free space around both the robot and its carried payload. We present HOTICE, a whole-body humanoid learning framework for transporting objects through such cluttered environments.
+
+---
 
 ## Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation
 
@@ -420,26 +442,5 @@ Developing humanoid robots capable of leveraging human behavioral data is essent
 ### Summary
 
 Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions induced by those actions.
-
----
-
-## A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.01518)
-- **Authors:** Duncan Calvert, Luigi Penco, Dexton Anderson, Tomasz Bialek, Arghya Chatterjee, Beomyeong Park et al. (7 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Walking
-  - PPO
-  - GAN
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-There is tremendous value in humanoid robots taking on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole-body motion, perception, contact, and operator supervision.
 
 ---

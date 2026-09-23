@@ -1,10 +1,10 @@
 # State Estimation
 
-**17 papers** in this category.
+**18 papers** in this category.
 
 ## Months
 
-- [2026-09](/state-estimation/2026-09) (4 papers)
+- [2026-09](/state-estimation/2026-09) (5 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
 - [2026-07](/state-estimation/2026-07) (1 papers)
 - [2026-06](/state-estimation/2026-06) (2 papers)
@@ -19,6 +19,25 @@
 ---
 
 ## Recent Papers
+
+## Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.26420)
+- **Authors:** Raphael Memmesheimer, Sven Behnke
+- **Published:** 2026-09
+- **Tags:**
+  - Simulator
+  - Humanoid
+  - Inverse Kinematics
+  - State Estimation
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Text-to-motion models generate plausible human motion but do not model a robot's dynamics; whole-body tracking controllers execute robot references reliably but cannot replan an infeasible one. Recent language-to-humanoid systems bridge this gap by training.
+
+---
 
 ## UniPoint: Unified Point-Level Sensor Fusion for Humanoid Locomotion Across Challenging Terrains
 

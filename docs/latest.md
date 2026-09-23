@@ -2,6 +2,103 @@
 
 All papers sorted by publication date (newest first).
 
+## Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.26420)
+- **Authors:** Raphael Memmesheimer, Sven Behnke
+- **Published:** 2026-09
+- **Tags:**
+  - Simulator
+  - Humanoid
+  - Inverse Kinematics
+  - State Estimation
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Text-to-motion models generate plausible human motion but do not model a robot's dynamics; whole-body tracking controllers execute robot references reliably but cannot replan an infeasible one. Recent language-to-humanoid systems bridge this gap by training.
+
+---
+
+## PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.25754)
+- **Authors:** Zepeng Wang, Jiangxing Wang, Chao Ma, Xiaochuan Shi, Zongqing Lu
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Goal-Conditioned
+  - Policy Learning
+  - DAgger
+  - Locomotion
+
+### Summary
+
+Humanoid motion tracking policies rely on dense frame-by-frame references, limiting their use as high-level motion controllers for planning and interactive motion generation. We study \emph{Sparse Timed Keyframe Motion Tracking}, where a policy receives only sparse future keyframes and their desired arrival times, and must execute stable whole-body motions that reach successive goals.
+
+---
+
+## Teaching Reinforcement Learning and Humanoid Robotics to High-School Students: An Expert-Validated Curriculum Design on a Low-Cost Open Platform
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.25674)
+- **Authors:** Yuanzhe Dong, Jie Cao, Shuman Wang
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Open Source
+  - Humanoid
+  - Walking
+  - System Identification
+  - Policy Learning
+  - PPO
+  - GAN
+
+### Summary
+
+Lower cost open source robots and reinforcement learning (RL) simulation tools create new opportunities for precollege students to engage with contemporary robotics. However, translating a complete research workflow, spanning mechanical assembly, electrical setup, simulation, policy learning, system identification, and physical deployment, into a coherent course for novice learners remains challenging.
+
+---
+
+## Brace Yourself: Task-Conditioned Environmental Bracing for Forceful Humanoid Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.25486)
+- **Authors:** Zongyuan Zhang, Christopher Lehnert, Will N. Browne, Jonathan M. Roberts
+- **Published:** 2026-09
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - PPO
+
+### Summary
+
+Forceful manipulation is challenging for humanoid robots because interaction forces can disturb whole-body balance. We introduce the Supporting Hand Strategy (SHS), which enables a humanoid to brace against the environment with one hand while performing forceful manipulation with the other.
+
+---
+
+## HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.25363)
+- **Authors:** Toan Nguyen, Weiduo Yuan, Siheng Zhao, Yue Wang, Daniel Seita
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - MuJoCo
+  - Humanoid
+  - Distillation
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Object transportation is a fundamental capability for humanoid robots operating in real-world, human-centric environments, yet existing methods struggle when clutter constrains free space around both the robot and its carried payload. We present HOTICE, a whole-body humanoid learning framework for transporting objects through such cluttered environments.
+
+---
+
 ## PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.24840)

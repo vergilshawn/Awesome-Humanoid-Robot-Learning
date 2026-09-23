@@ -1,10 +1,10 @@
 # Manipulation
 
-**66 papers** in this category.
+**67 papers** in this category.
 
 ## Months
 
-- [2026-09](/manipulation/2026-09) (2 papers)
+- [2026-09](/manipulation/2026-09) (3 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
 - [2026-06](/manipulation/2026-06) (8 papers)
@@ -33,6 +33,22 @@
 ---
 
 ## Recent Papers
+
+## Brace Yourself: Task-Conditioned Environmental Bracing for Forceful Humanoid Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.25486)
+- **Authors:** Zongyuan Zhang, Christopher Lehnert, Will N. Browne, Jonathan M. Roberts
+- **Published:** 2026-09
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - PPO
+
+### Summary
+
+Forceful manipulation is challenging for humanoid robots because interaction forces can disturb whole-body balance. We introduce the Supporting Hand Strategy (SHS), which enables a humanoid to brace against the environment with one hand while performing forceful manipulation with the other.
+
+---
 
 ## Learning Multi-Humanoid Pickup and Transport via Decentralized Object-Centric Control
 
@@ -369,21 +385,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2603.05493)
 - **Published:** 2026-03
 - **Tags:**
-  - Manipulation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.06949)
-- **Project:** [GitHub](https://dreamdojo-world.github.io/)
-- **Published:** 2026-02
-- **Tags:**
-  - World Model
   - Manipulation
 
 ### Summary
