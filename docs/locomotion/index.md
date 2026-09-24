@@ -1,10 +1,10 @@
 # Locomotion
 
-**175 papers** in this category.
+**180 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (22 papers)
+- [2026-09](/locomotion/2026-09) (27 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,93 @@
 ---
 
 ## Recent Papers
+
+## 🌟 ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.28378)
+- **Project:** [GitHub](https://github.com/Zili1000/ForgetMimic)
+- **Authors:** Xukun Luan, Zhongxiang Lei, Chen Gong, Shaowei Li, Yuanguo Bi, Jinyan Liu
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Human Demonstration
+  - Safety
+  - Humanoid
+
+### Summary
+
+Humanoid control, leveraging human demonstrations, has achieved diverse, agile, and natural locomotion behaviors through reinforcement learning (RL). While this paradigm has yielded remarkable performance in physical humanoid control, how to eliminate specific motions from learned policies remains insufficiently explored.
+
+---
+
+## DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.28175)
+- **Authors:** Jiakang Jin, Yixiao Huo, Pengyuan Wang, Yinan Han, Tingxuan Zhang, Zhuobing Zhao et al. (15 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Impact
+  - Locomotion
+
+### Summary
+
+Humanoid soccer contact skills require more than producing high-impact foot-ball contacts: the robot must close the loop over perception, approach, alignment, impact, and recovery while its own motion induces substantial viewpoint changes, frequent loss of the ball from view, and uncertain contact outcomes. In this work, we ask a compact yet stricter question: can a humanoid learn soccer contact skills using only a head-mounted depth image, proprioceptive history, and an optional low-dimensional task command, and directly output 25-DoF joint PD targets without extra runtime perception or planning modules? To this end, we propose DAVIS, a depth-only end-to-end framework for humanoid soccer skills that learns visibility-aware auxiliary geometry during training, and combines GT-to-prediction annealing, task curricula, and AMP-style motion priors to smoothly bridge privileged supervision and real deployment.
+
+---
+
+## Banana Kick: Response-Informed Skill Evolution for Humanoid Soccer
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.27269)
+- **Authors:** Hao E. Zhang, Ruize Geng, Raihan Haque, Khalil Zbiss, Guanyang Luo, Hui-ping Wang et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Humanoid kicking requires coordinated whole-body motion and precise contact, while a banana kick demands contact mechanics that generate ball spin and aerodynamic curvature. Motion imitation provides a reliable ordinary-kick prior, but reinforcement learning may improve shot speed and placement accuracy without changing the underlying kicking technique.
+
+---
+
+## Learning Expressive Humanoid Locomotion from Monocular Runway Videos for Robot Fashion Shows
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.27003)
+- **Authors:** Kyrylo Kolesnichenko, Irvin Steve Cardenas, Jong-Hoon Kim
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Walking
+
+### Summary
+
+Runway walking requires coordinated control of posture, stride, foot placement, and whole-body motion to effectively present clothing and convey a distinctive style. However, humanoid robots used in fashion shows typically rely on locomotion policies optimized primarily for stability and walking speed, limiting their ability to reproduce expressive, human-like runway motions.
+
+---
+
+## Humanoid Locomotion with a Fly-Inspired Recurrent Controller
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.27001)
+- **Authors:** Isabel Guan, Yuntian Zhao, Dingyuan Zhang, Shipeng Lyu
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - PPO
+
+### Summary
+
+We investigate humanoid locomotion with a fly-inspired recurrent controller and identify the pathways supporting its deployed behavior. The controller couples 3,609 continuous neural states to a simulated Unitree G1 through body-observation projections, a motor-neuron-labelled readout, and joint servos.
+
+---
 
 ## PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning
 
@@ -322,98 +409,5 @@ Existing humanoid locomotion systems primarily focus on stability and task execu
 ### Summary
 
 Humanoid robots must traverse cluttered obstacle fields using onboard proprioceptive and visual observations, yet existing methods usually process multimodal observations without explicitly considering their different characteristics: proprioceptive observations are low-dimensional but governed by highly nonlinear robot dynamics, while egocentric visual observations are high-dimensional, noisy, and redundant. We propose DWMP (Dual World Model Policy), a framework that provides the actor with separate but complementary world-model representations for humanoid obstacle traversal.
-
----
-
-## CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.11553)
-- **Authors:** Hongjin Chen, Zijun Xu, Shihao Ma, Yi Zhao, Xilai Liu, Ke Ma et al. (11 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Humanoid locomotion across complex terrain demands forward-looking exteroception to anticipate obstacles, yet this signal is unreliable in real-world deployment, failing partially and intermittently. Existing perceptive policies often assume that depth observations remain clean and in-distribution, while recent attempts to unify perceptive and blind control typically route or switch between separate sub-policies, leaving recoverable information in partially corrupted depth unexploited.
-
----
-
-## GM-Loco: Terrain-Adaptive Humanoid Locomotion on Granular Media
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.10286)
-- **Authors:** Junnosuke Kamohara, Feiyang Wu, Andy Ningan Zong, Daniel I. Goldman, Yashwanth Nakka, Seth Hutchinson et al. (7 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - Contact Dynamics
-
-### Summary
-
-Humanoid locomotion on granular terrain remains a significant challenge due to its complex foot-terrain interaction dynamics that are difficult to model. Existing approaches either ignore granular contact dynamics or incorporate simplified normal force models with heuristic tangential components.
-
----
-
-## Visible-Reachable Workspace for Perception-Aware Humanoid Design
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.08905)
-- **Authors:** Boxi Xia, Zijiang Yang, Ryan Shin, Bokuan Li, Eric Wun-Hao Lu, Jacob Lee et al. (8 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Benchmark
-  - Locomotion
-
-### Summary
-
-Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it.
-
----
-
-## Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.07544)
-- **Authors:** Kazuki Sugihara, Kei Okada
-- **Published:** 2026-09
-- **Tags:**
-  - MPC
-  - Locomotion
-  - Biped
-  - Humanoid
-  - Walking
-  - Optimal Control
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Flying humanoids are expected to perform tasks in diverse environments, while their existing locomotion is mainly limited to aerial flight and ground walking. The capability to move in complex three-dimensional space can greatly expand their application range.
-
----
-
-## RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.07096)
-- **Authors:** Zhe Li, Yangyang Wei, Xichen Yuan, Zhenzhe Zhang, Weihao Yuan, Shanghang Zhang et al. (7 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - MuJoCo
-  - Humanoid
-  - Distillation
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid locomotion requires control policies that remain stable under imperfect sensing while exploiting temporal context for consistent motion. We present RoboDreamer, a two-stage teacher--student framework that combines next-observation consistency with randomized continuous temporal masking.
 
 ---

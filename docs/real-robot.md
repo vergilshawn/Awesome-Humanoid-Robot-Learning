@@ -6,8 +6,8 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
-- **Figure:** 6 papers
-- **Unitree G1:** 37 papers
+- **Figure:** 7 papers
+- **Unitree G1:** 38 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 16 papers
 - **iCub:** 1 papers
@@ -15,6 +15,43 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## 🌟 ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.28378)
+- **Project:** [GitHub](https://github.com/Zili1000/ForgetMimic)
+- **Authors:** Xukun Luan, Zhongxiang Lei, Chen Gong, Shaowei Li, Yuanguo Bi, Jinyan Liu
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Human Demonstration
+  - Safety
+  - Humanoid
+
+### Summary
+
+Humanoid control, leveraging human demonstrations, has achieved diverse, agile, and natural locomotion behaviors through reinforcement learning (RL). While this paradigm has yielded remarkable performance in physical humanoid control, how to eliminate specific motions from learned policies remains insufficiently explored.
+
+---
+
+## DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.28175)
+- **Authors:** Jiakang Jin, Yixiao Huo, Pengyuan Wang, Yinan Han, Tingxuan Zhang, Zhuobing Zhao et al. (15 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Impact
+  - Locomotion
+
+### Summary
+
+Humanoid soccer contact skills require more than producing high-impact foot-ball contacts: the robot must close the loop over perception, approach, alignment, impact, and recovery while its own motion induces substantial viewpoint changes, frequent loss of the ball from view, and uncertain contact outcomes. In this work, we ask a compact yet stricter question: can a humanoid learn soccer contact skills using only a head-mounted depth image, proprioceptive history, and an optional low-dimensional task command, and directly output 25-DoF joint PD targets without extra runtime perception or planning modules? To this end, we propose DAVIS, a depth-only end-to-end framework for humanoid soccer skills that learns visibility-aware auxiliary geometry during training, and combines GT-to-prediction annealing, task curricula, and AMP-style motion priors to smoothly bridge privileged supervision and real deployment.
+
+---
 
 ## HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments
 

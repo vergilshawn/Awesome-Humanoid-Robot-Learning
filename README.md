@@ -2,9 +2,9 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 704
-- **Real Robot Papers:** 64
-- **Open Source Papers:** 127
+- **Total Papers:** 709
+- **Real Robot Papers:** 66
+- **Open Source Papers:** 128
 
 🌟 indicates papers with detected project/code links.
 
@@ -13,7 +13,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (243)
 - [Manipulation](#manipulation) (67)
 - [Teleoperation](#teleoperation) (30)
-- [Locomotion](#locomotion) (175)
+- [Locomotion](#locomotion) (180)
 - [Navigation](#navigation) (23)
 - [State Estimation](#state-estimation) (18)
 - [Sim-to-Real](#sim-to-real) (13)
@@ -588,6 +588,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-09
 
+- 🌟 [ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control](https://arxiv.org/abs/2609.28378), [website](https://github.com/Zili1000/ForgetMimic) — `Reinforcement Learning`, `Locomotion`, `Human Demonstration`, `Safety`, `Humanoid`, `Real Robot`
+- [DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills](https://arxiv.org/abs/2609.28175) — `Humanoid`, `Impact`, `Locomotion`, `Real Robot`
+- [Banana Kick: Response-Informed Skill Evolution for Humanoid Soccer](https://arxiv.org/abs/2609.27269) — `Reinforcement Learning`, `Sim-to-Real`, `Humanoid`, `PPO`, `Locomotion`
+- [Learning Expressive Humanoid Locomotion from Monocular Runway Videos for Robot Fashion Shows](https://arxiv.org/abs/2609.27003) — `Locomotion`, `Humanoid`, `Walking`
+- [Humanoid Locomotion with a Fly-Inspired Recurrent Controller](https://arxiv.org/abs/2609.27001) — `Locomotion`, `Humanoid`, `PPO`
 - [PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning](https://arxiv.org/abs/2609.25754) — `Reinforcement Learning`, `Humanoid`, `Goal-Conditioned`, `Policy Learning`, `DAgger`, `Locomotion`
 - [Teaching Reinforcement Learning and Humanoid Robotics to High-School Students: An Expert-Validated Curriculum Design on a Low-Cost Open Platform](https://arxiv.org/abs/2609.25674) — `Reinforcement Learning`, `Open Source`, `Humanoid`, `Walking`, `System Identification`, `Policy Learning`
 - [PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control](https://arxiv.org/abs/2609.24840) — `Diffusion Policy`, `Humanoid`, `PPO`, `Diffusion`, `Locomotion`

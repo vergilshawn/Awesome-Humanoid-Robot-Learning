@@ -2,6 +2,26 @@
 
 Papers with open-source code repositories.
 
+## 🌟 ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.28378)
+- **Project:** [GitHub](https://github.com/Zili1000/ForgetMimic)
+- **Authors:** Xukun Luan, Zhongxiang Lei, Chen Gong, Shaowei Li, Yuanguo Bi, Jinyan Liu
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Human Demonstration
+  - Safety
+  - Humanoid
+
+### Summary
+
+Humanoid control, leveraging human demonstrations, has achieved diverse, agile, and natural locomotion behaviors through reinforcement learning (RL). While this paradigm has yielded remarkable performance in physical humanoid control, how to eliminate specific motions from learned policies remains insufficiently explored.
+
+---
+
 ## 🌟 PRIMO: Prior-Informed Odometry from Human-Motion Tracking for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.23610)

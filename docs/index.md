@@ -8,9 +8,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 704
-- **Real Robot Papers:** 64
-- **Open Source Papers:** 127
+- **Total Papers:** 709
+- **Real Robot Papers:** 66
+- **Open Source Papers:** 128
 - **Latest Month:** 2026-09
 
 ### Categories
@@ -18,7 +18,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (243)
 - [Manipulation](/manipulation/) (67)
 - [Teleoperation](/teleoperation/) (30)
-- [Locomotion](/locomotion/) (175)
+- [Locomotion](/locomotion/) (180)
 - [Navigation](/navigation/) (23)
 - [State Estimation](/state-estimation/) (18)
 - [Sim-to-Real](/sim-to-real/) (13)
@@ -31,6 +31,16 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+- 🌟 🤖 [ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control](https://arxiv.org/abs/2609.28378) — 2026-09
+  - [Locomotion](/locomotion/)
+-  🤖 [DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills](https://arxiv.org/abs/2609.28175) — 2026-09
+  - [Locomotion](/locomotion/)
+-  [Banana Kick: Response-Informed Skill Evolution for Humanoid Soccer](https://arxiv.org/abs/2609.27269) — 2026-09
+  - [Locomotion](/locomotion/)
+-  [Learning Expressive Humanoid Locomotion from Monocular Runway Videos for Robot Fashion Shows](https://arxiv.org/abs/2609.27003) — 2026-09
+  - [Locomotion](/locomotion/)
+-  [Humanoid Locomotion with a Fly-Inspired Recurrent Controller](https://arxiv.org/abs/2609.27001) — 2026-09
+  - [Locomotion](/locomotion/)
 -  [Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training](https://arxiv.org/abs/2609.26420) — 2026-09
   - [State Estimation](/state-estimation/)
 -  [PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning](https://arxiv.org/abs/2609.25754) — 2026-09
@@ -41,50 +51,40 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Manipulation](/manipulation/)
 -  🤖 [HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments](https://arxiv.org/abs/2609.25363) — 2026-09
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control](https://arxiv.org/abs/2609.24840) — 2026-09
-  - [Locomotion](/locomotion/)
--  [LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot](https://arxiv.org/abs/2609.24742) — 2026-09
-  - [Locomotion](/locomotion/)
--  🤖 [Smoothness as a Constraint for Stable Humanoid Locomotion](https://arxiv.org/abs/2609.24552) — 2026-09
-  - [Locomotion](/locomotion/)
--  [Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation](https://arxiv.org/abs/2609.23968) — 2026-09
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [UniPoint: Unified Point-Level Sensor Fusion for Humanoid Locomotion Across Challenging Terrains](https://arxiv.org/abs/2609.23666) — 2026-09
-  - [State Estimation](/state-estimation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (567)
+- **Humanoid** (572)
 - **Loco-Manipulation and Whole-Body Control** (256)
-- **Locomotion** (243)
+- **Locomotion** (248)
 - **Manipulation** (188)
-- **Reinforcement Learning** (90)
+- **Reinforcement Learning** (92)
+- **PPO** (74)
 - **Whole-Body Control** (73)
-- **PPO** (72)
 - **Teleoperation** (60)
 - **Simulation Benchmark** (59)
 - **Physics-Based Character Animation** (54)
+- **Sim-to-Real** (42)
 - **State Estimation** (41)
-- **Sim-to-Real** (41)
 - **Dataset** (40)
 - **Navigation** (37)
 - **Vision-Language** (35)
 - **Zero-Shot** (35)
-- **Walking** (33)
+- **Walking** (34)
 - **Human Motion Analysis and Synthesis** (32)
 - **Hardware Design** (32)
 - **Diffusion** (30)
 - **Distillation** (28)
+- **Safety** (27)
 - **Benchmark** (27)
-- **Safety** (26)
 - **Foundation Model** (23)
 - **Robustness** (23)
 - **Gait** (22)
+- **Human Demonstration** (20)
 - **Proprioception** (20)
 - **Collision** (19)
-- **Human Demonstration** (19)
 - **Biped** (18)
 
 ---
@@ -654,6 +654,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-09](/locomotion/2026-09)
 
+- 🌟 [ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control](https://arxiv.org/abs/2609.28378), [website](https://github.com/Zili1000/ForgetMimic) — `Reinforcement Learning`, `Locomotion`, `Human Demonstration`, `Safety`, `Humanoid`, `Real Robot`
+- [DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills](https://arxiv.org/abs/2609.28175) — `Humanoid`, `Impact`, `Locomotion`, `Real Robot`
+- [Banana Kick: Response-Informed Skill Evolution for Humanoid Soccer](https://arxiv.org/abs/2609.27269) — `Reinforcement Learning`, `Sim-to-Real`, `Humanoid`, `PPO`, `Locomotion`
+- [Learning Expressive Humanoid Locomotion from Monocular Runway Videos for Robot Fashion Shows](https://arxiv.org/abs/2609.27003) — `Locomotion`, `Humanoid`, `Walking`
+- [Humanoid Locomotion with a Fly-Inspired Recurrent Controller](https://arxiv.org/abs/2609.27001) — `Locomotion`, `Humanoid`, `PPO`
 - [PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning](https://arxiv.org/abs/2609.25754) — `Reinforcement Learning`, `Humanoid`, `Goal-Conditioned`, `Policy Learning`, `DAgger`, `Locomotion`
 - [Teaching Reinforcement Learning and Humanoid Robotics to High-School Students: An Expert-Validated Curriculum Design on a Low-Cost Open Platform](https://arxiv.org/abs/2609.25674) — `Reinforcement Learning`, `Open Source`, `Humanoid`, `Walking`, `System Identification`, `Policy Learning`
 - [PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control](https://arxiv.org/abs/2609.24840) — `Diffusion Policy`, `Humanoid`, `PPO`, `Diffusion`, `Locomotion`

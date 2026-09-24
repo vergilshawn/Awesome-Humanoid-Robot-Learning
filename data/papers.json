@@ -1,5 +1,165 @@
 [
   {
+    "arxiv_id": "2609.28378",
+    "title": "ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2609.28378",
+    "project_url": "https://github.com/Zili1000/ForgetMimic",
+    "authors": [
+      "Xukun Luan",
+      "Zhongxiang Lei",
+      "Chen Gong",
+      "Shaowei Li",
+      "Yuanguo Bi",
+      "Jinyan Liu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-23",
+    "abstract": "Humanoid control, leveraging human demonstrations, has achieved diverse, agile, and natural locomotion behaviors through reinforcement learning (RL). While this paradigm has yielded remarkable performance in physical humanoid control, how to eliminate specific motions from learned policies remains insufficiently explored. Addressing this issue is motivated by pressing safety and privacy concerns: the removal of malicious, poisoned, or suboptimal motions, as well as copyright-protected motions subject to the right to be forgotten under regulations such as the GDPR, is of critical importance. To this end, we propose {ForgetMimic}, the first motion-level unlearning method designed specifically for physical-world humanoid control. The core idea of ForgetMimic is as follows: given a policy $π_θ$ trained on $N$ motions, our method degrades performance on a target subset of $K$ motions while preserving the effectiveness of the remaining $N-K$ motions. Furthermore, we identify and resolve two key training mechanisms in robot control that lead to unlearning failure. We conduct extensive experiments on the Unitree G1 and H2 humanoid robots across 12 motions, including Dance, Fight, Flip, and others. Experimental results demonstrate that ForgetMimic effectively eliminates memory of designated motions while maintaining the normal operation of all other motions.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Human Demonstration",
+      "Safety",
+      "Humanoid"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.28175",
+    "title": "DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills",
+    "paper_url": "https://arxiv.org/abs/2609.28175",
+    "project_url": null,
+    "authors": [
+      "Jiakang Jin",
+      "Yixiao Huo",
+      "Pengyuan Wang",
+      "Yinan Han",
+      "Tingxuan Zhang",
+      "Zhuobing Zhao",
+      "Xuanxin Zhou",
+      "Zhangchen Ye",
+      "Enxuan Ruan",
+      "Yifei Bao",
+      "Jiankun Yang",
+      "Chenghao Sun",
+      "Wenhao Cui",
+      "Xiaoyu Tian",
+      "Yiming Li"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-23",
+    "abstract": "Humanoid soccer contact skills require more than producing high-impact foot-ball contacts: the robot must close the loop over perception, approach, alignment, impact, and recovery while its own motion induces substantial viewpoint changes, frequent loss of the ball from view, and uncertain contact outcomes. In this work, we ask a compact yet stricter question: can a humanoid learn soccer contact skills using only a head-mounted depth image, proprioceptive history, and an optional low-dimensional task command, and directly output 25-DoF joint PD targets without extra runtime perception or planning modules? To this end, we propose DAVIS, a depth-only end-to-end framework for humanoid soccer skills that learns visibility-aware auxiliary geometry during training, and combines GT-to-prediction annealing, task curricula, and AMP-style motion priors to smoothly bridge privileged supervision and real deployment. Built on this framework, we instantiate representative soccer contact skills, including goal-directed shooting and directional dribbling, through task-specific definitions of objects, commands, rewards, and curricula, and validate them through simulation, Noetix E1 real-robot experiments, and ablations.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Impact",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.27269",
+    "title": "Banana Kick: Response-Informed Skill Evolution for Humanoid Soccer",
+    "paper_url": "https://arxiv.org/abs/2609.27269",
+    "project_url": null,
+    "authors": [
+      "Hao E. Zhang",
+      "Ruize Geng",
+      "Raihan Haque",
+      "Khalil Zbiss",
+      "Guanyang Luo",
+      "Hui-ping Wang",
+      "H. Eric Tseng",
+      "Ding Zhao"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-23",
+    "abstract": "Humanoid kicking requires coordinated whole-body motion and precise contact, while a banana kick demands contact mechanics that generate ball spin and aerodynamic curvature. Motion imitation provides a reliable ordinary-kick prior, but reinforcement learning may improve shot speed and placement accuracy without changing the underlying kicking technique. Adapting this prior to a qualitatively different contact-rich skill can fail even when the reward is dense and optimization remains stable. The failure occurs when the task objective is locally flat over the current policy's responses. We term this condition first-order learning starvation. To address it, we propose response-informed skill evolution (RISE), a closed-loop objective-continuation method for policy adaptation. RISE ranks bounded objective changes using response sensitivity estimated from cached rollouts and accepts updates only when they produce verified response progress while preserving kicking reliability. Our analysis shows that rescaling a saturated spin reward cannot recover first-order sensitivity at zero spin, whereas adapting coupled contact responses can provide a learnable path to spin generation. We integrate RISE into a humanoid kicking pipeline under calibrated contact and Magnus-force aerodynamics, and sim-to-real transfer. Experiments show that RISE evolves the ordinary kick into a high-spin curved kick with 11.55 rad/s mean ball spin, improves the mean evaluation score by 19.8% over a learning-progress curriculum, and raises joint target attainment from 15.2% to 50.9%. Ablations and response diagnostics support the mechanism, while 30 motion-capture-recorded physical trials demonstrate consistent hardware transfer of the learned curved kick. Project website: https://haozhang-thu.github.io/bananakick/",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Sim-to-Real",
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.27003",
+    "title": "Learning Expressive Humanoid Locomotion from Monocular Runway Videos for Robot Fashion Shows",
+    "paper_url": "https://arxiv.org/abs/2609.27003",
+    "project_url": null,
+    "authors": [
+      "Kyrylo Kolesnichenko",
+      "Irvin Steve Cardenas",
+      "Jong-Hoon Kim"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-22",
+    "abstract": "Runway walking requires coordinated control of posture, stride, foot placement, and whole-body motion to effectively present clothing and convey a distinctive style. However, humanoid robots used in fashion shows typically rely on locomotion policies optimized primarily for stability and walking speed, limiting their ability to reproduce expressive, human-like runway motions. In this work, we present an end-to-end framework that transforms monocular runway videos into deployable humanoid locomotion policies through motion recovery, robot retargeting, motion correction, policy training, simulation-based evaluation, and physical deployment. We evaluate the proposed framework on the Booster K1 humanoid robot using runway-style catwalk motions. The learned policy completed every physical trial without falling, while reproducing the characteristic narrow foot placement and coordinated movement of the legs, torso, and arms. The results demonstrate that our proposed training framework enables the Booster K1 to perform stable and expressive catwalk motions, highlighting its potential for humanoid robotic applications in fashion shows and other performance-oriented scenarios.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "Walking"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Booster",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.27001",
+    "title": "Humanoid Locomotion with a Fly-Inspired Recurrent Controller",
+    "paper_url": "https://arxiv.org/abs/2609.27001",
+    "project_url": null,
+    "authors": [
+      "Isabel Guan",
+      "Yuntian Zhao",
+      "Dingyuan Zhang",
+      "Shipeng Lyu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-22",
+    "abstract": "We investigate humanoid locomotion with a fly-inspired recurrent controller and identify the pathways supporting its deployed behavior. The controller couples 3,609 continuous neural states to a simulated Unitree G1 through body-observation projections, a motor-neuron-labelled readout, and joint servos. We formulate this neural-body feedback system and evaluate a fixed checkpoint across seven terrain instances, three speeds, and three initial yaw offsets. It completes 61/63 conditions under a survival-and-forward-progress criterion; a privileged reference completes 62/63. At nominal yaw, resetting the recurrent motor state before every policy call changes success from 19/21 to 0/21. Conversely, depth and upstream-state substitutions at 252 recorded states leave actions unchanged, with zero measured descending output throughout the intact rollouts. Recorded trajectories and state-matched images connect these findings to sustained movement, lateral drift, and termination events. The study characterizes an embodied recurrent control system whose tested locomotion is supported by direct body-and-command input and carried motor state, providing a concrete basis for subsequent comparisons of circuit structure and control resources.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "PPO"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2609.26420",
     "title": "Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training",
     "paper_url": "https://arxiv.org/abs/2609.26420",
