@@ -1,10 +1,10 @@
 # Locomotion
 
-**180 papers** in this category.
+**183 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (27 papers)
+- [2026-09](/locomotion/2026-09) (30 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,59 @@
 ---
 
 ## Recent Papers
+
+## Rolling-WAM: World Action Models with Rolling Imagination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30247)
+- **Authors:** Yinghua Zhou, Junjie Ye, Yiqi Zhao, Hao Dong, Celina Shiyu Wang, Ruohai Ge et al. (11 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness.
+
+---
+
+## Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.28960)
+- **Authors:** Ming-Ju Lee, Zizhuo Wang, Shaoting Zhu, Haozhe Lou, Hang Zhao, Yiming Li
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Robustness
+  - Humanoid
+  - Gait
+  - PPO
+
+### Summary
+
+While recent advances in perceptive locomotion have enabled humanoid robots to traverse structured terrains, agile parkour in highly discontinuous environments remains an open challenge. In particular, crossing sparse footholds and narrow support regions requires precise foothold selection, effective use of visual observations, and consistent alternating foot placement during fast transitions.
+
+---
+
+## TactileStep: Sole Tactile Learning for Regulating Foot-Terrain Interaction in Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.28959)
+- **Authors:** Zizhuo Wang, Ming-ju Lee, Shaoting Zhu, Haozhe Lou, Hang Zhao, Yiming Li
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Tactile Sensing
+  - Impact
+  - PPO
+
+### Summary
+
+Humanoid parkour policies can traverse various terrains, but task completion may mask challenges of harsh landings, edge contacts, and unstable stance contacts. Humans naturally regulate foot-terrain interaction through tactile feedback, modulating contact compliance according to terrain stiffness.
+
+---
 
 ## 🌟 ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
 
@@ -354,60 +407,5 @@ Assembly, wear, and component replacement perturb the sensor extrinsics and join
 ### Summary
 
 Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned policies can still generate unsafe actions that lead to instability or falls.
-
----
-
-## OJOx: Specification-Conditioned Demonstrations for Embodied AI in Construction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.22289)
-- **Authors:** Mohamed Dawod
-- **Published:** 2026-09
-- **Tags:**
-  - Human Demonstration
-  - Embodied AI
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Large-scale egocentric and whole-body human demonstrations are becoming a primary source of data for embodied intelligence. They record what people perceive and do, but rarely the external specification that gave an action its purpose.
-
----
-
-## EMoG: Emotion-Modulated Gait Generation for Expressive Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.14432)
-- **Authors:** Yi Lu, Tianhao Jiang, Honglong Tian, Yumeng Zhang, Qingrui Zhao, Zhengtao Wang et al. (9 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Gait
-  - Walking
-  - Dataset
-  - PPO
-
-### Summary
-
-Existing humanoid locomotion systems primarily focus on stability and task execution, while integrating expressiveness with explicit locomotion control remains challenging. We propose EMoG, an emotion-modulated gait generation framework for expressive humanoid locomotion.
-
----
-
-## DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.12347)
-- **Authors:** Rongjun Jin, Jianming Ma, Yue Gao
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - World Model
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-Humanoid robots must traverse cluttered obstacle fields using onboard proprioceptive and visual observations, yet existing methods usually process multimodal observations without explicitly considering their different characteristics: proprioceptive observations are low-dimensional but governed by highly nonlinear robot dynamics, while egocentric visual observations are high-dimensional, noisy, and redundant. We propose DWMP (Dual World Model Policy), a framework that provides the actor with separate but complementary world-model representations for humanoid obstacle traversal.
 
 ---

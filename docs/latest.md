@@ -2,6 +2,78 @@
 
 All papers sorted by publication date (newest first).
 
+## Rolling-WAM: World Action Models with Rolling Imagination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30247)
+- **Authors:** Yinghua Zhou, Junjie Ye, Yiqi Zhao, Hao Dong, Celina Shiyu Wang, Ruohai Ge et al. (11 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness.
+
+---
+
+## BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.29850)
+- **Authors:** Tianyu Xiong, Yi Lu, Jinrui Wang, Ziqi Liang, Dandan Lei, Xiaoyang Zhou et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Motion Retargeting
+  - Locomotion
+  - Robustness
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Learning executable motions from human videos offers a scalable solution for humanoid robots to acquire demonstration motions. However, existing pipelines typically first construct an explicit human motion representation and then convert it into robot motions via motion retargeting.
+
+---
+
+## Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.28960)
+- **Authors:** Ming-Ju Lee, Zizhuo Wang, Shaoting Zhu, Haozhe Lou, Hang Zhao, Yiming Li
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Robustness
+  - Humanoid
+  - Gait
+  - PPO
+
+### Summary
+
+While recent advances in perceptive locomotion have enabled humanoid robots to traverse structured terrains, agile parkour in highly discontinuous environments remains an open challenge. In particular, crossing sparse footholds and narrow support regions requires precise foothold selection, effective use of visual observations, and consistent alternating foot placement during fast transitions.
+
+---
+
+## TactileStep: Sole Tactile Learning for Regulating Foot-Terrain Interaction in Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.28959)
+- **Authors:** Zizhuo Wang, Ming-ju Lee, Shaoting Zhu, Haozhe Lou, Hang Zhao, Yiming Li
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Tactile Sensing
+  - Impact
+  - PPO
+
+### Summary
+
+Humanoid parkour policies can traverse various terrains, but task completion may mask challenges of harsh landings, edge contacts, and unstable stance contacts. Humans naturally regulate foot-terrain interaction through tactile feedback, modulating contact compliance according to terrain stiffness.
+
+---
+
 ## 🌟 ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.28378)

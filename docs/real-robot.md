@@ -7,7 +7,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Figure:** 7 papers
-- **Unitree G1:** 38 papers
+- **Unitree G1:** 39 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 16 papers
 - **iCub:** 1 papers
@@ -15,6 +15,23 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Rolling-WAM: World Action Models with Rolling Imagination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30247)
+- **Authors:** Yinghua Zhou, Junjie Ye, Yiqi Zhao, Hao Dong, Celina Shiyu Wang, Ruohai Ge et al. (11 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness.
+
+---
 
 ## 🌟 ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
 

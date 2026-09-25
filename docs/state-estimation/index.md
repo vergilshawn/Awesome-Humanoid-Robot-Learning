@@ -1,10 +1,10 @@
 # State Estimation
 
-**18 papers** in this category.
+**19 papers** in this category.
 
 ## Months
 
-- [2026-09](/state-estimation/2026-09) (5 papers)
+- [2026-09](/state-estimation/2026-09) (6 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
 - [2026-07](/state-estimation/2026-07) (1 papers)
 - [2026-06](/state-estimation/2026-06) (2 papers)
@@ -19,6 +19,25 @@
 ---
 
 ## Recent Papers
+
+## BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.29850)
+- **Authors:** Tianyu Xiong, Yi Lu, Jinrui Wang, Ziqi Liang, Dandan Lei, Xiaoyang Zhou et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Motion Retargeting
+  - Locomotion
+  - Robustness
+  - Humanoid
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Learning executable motions from human videos offers a scalable solution for humanoid robots to acquire demonstration motions. However, existing pipelines typically first construct an explicit human motion representation and then convert it into robot motions via motion retargeting.
+
+---
 
 ## Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training
 

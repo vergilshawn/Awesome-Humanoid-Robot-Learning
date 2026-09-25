@@ -8,8 +8,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 709
-- **Real Robot Papers:** 66
+- **Total Papers:** 713
+- **Real Robot Papers:** 67
 - **Open Source Papers:** 128
 - **Latest Month:** 2026-09
 
@@ -18,9 +18,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (243)
 - [Manipulation](/manipulation/) (67)
 - [Teleoperation](/teleoperation/) (30)
-- [Locomotion](/locomotion/) (180)
+- [Locomotion](/locomotion/) (183)
 - [Navigation](/navigation/) (23)
-- [State Estimation](/state-estimation/) (18)
+- [State Estimation](/state-estimation/) (19)
 - [Sim-to-Real](/sim-to-real/) (13)
 - [Hardware Design](/hardware-design/) (32)
 - [Simulation Benchmark](/simulation-benchmark/) (34)
@@ -31,6 +31,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  🤖 [Rolling-WAM: World Action Models with Rolling Imagination](https://arxiv.org/abs/2609.30247) — 2026-09
+  - [Locomotion](/locomotion/)
+-  [BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video](https://arxiv.org/abs/2609.29850) — 2026-09
+  - [State Estimation](/state-estimation/)
+-  [Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory](https://arxiv.org/abs/2609.28960) — 2026-09
+  - [Locomotion](/locomotion/)
+-  [TactileStep: Sole Tactile Learning for Regulating Foot-Terrain Interaction in Humanoid Locomotion](https://arxiv.org/abs/2609.28959) — 2026-09
+  - [Locomotion](/locomotion/)
 - 🌟 🤖 [ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control](https://arxiv.org/abs/2609.28378) — 2026-09
   - [Locomotion](/locomotion/)
 -  🤖 [DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills](https://arxiv.org/abs/2609.28175) — 2026-09
@@ -43,31 +51,23 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Locomotion](/locomotion/)
 -  [Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training](https://arxiv.org/abs/2609.26420) — 2026-09
   - [State Estimation](/state-estimation/)
--  [PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning](https://arxiv.org/abs/2609.25754) — 2026-09
-  - [Locomotion](/locomotion/)
--  [Teaching Reinforcement Learning and Humanoid Robotics to High-School Students: An Expert-Validated Curriculum Design on a Low-Cost Open Platform](https://arxiv.org/abs/2609.25674) — 2026-09
-  - [Locomotion](/locomotion/)
--  [Brace Yourself: Task-Conditioned Environmental Bracing for Forceful Humanoid Manipulation](https://arxiv.org/abs/2609.25486) — 2026-09
-  - [Manipulation](/manipulation/)
--  🤖 [HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments](https://arxiv.org/abs/2609.25363) — 2026-09
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (572)
+- **Humanoid** (576)
 - **Loco-Manipulation and Whole-Body Control** (256)
-- **Locomotion** (248)
-- **Manipulation** (188)
+- **Locomotion** (252)
+- **Manipulation** (189)
 - **Reinforcement Learning** (92)
-- **PPO** (74)
+- **PPO** (76)
 - **Whole-Body Control** (73)
+- **Simulation Benchmark** (60)
 - **Teleoperation** (60)
-- **Simulation Benchmark** (59)
 - **Physics-Based Character Animation** (54)
+- **State Estimation** (42)
 - **Sim-to-Real** (42)
-- **State Estimation** (41)
 - **Dataset** (40)
 - **Navigation** (37)
 - **Vision-Language** (35)
@@ -79,9 +79,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Distillation** (28)
 - **Safety** (27)
 - **Benchmark** (27)
+- **Robustness** (25)
+- **Gait** (23)
 - **Foundation Model** (23)
-- **Robustness** (23)
-- **Gait** (22)
 - **Human Demonstration** (20)
 - **Proprioception** (20)
 - **Collision** (19)
@@ -654,6 +654,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-09](/locomotion/2026-09)
 
+- [Rolling-WAM: World Action Models with Rolling Imagination](https://arxiv.org/abs/2609.30247) — `Manipulation`, `Humanoid`, `Locomotion`, `Real Robot`
+- [Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory](https://arxiv.org/abs/2609.28960) — `Locomotion`, `Robustness`, `Humanoid`, `Gait`, `PPO`
+- [TactileStep: Sole Tactile Learning for Regulating Foot-Terrain Interaction in Humanoid Locomotion](https://arxiv.org/abs/2609.28959) — `Locomotion`, `Humanoid`, `Tactile Sensing`, `Impact`, `PPO`
 - 🌟 [ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control](https://arxiv.org/abs/2609.28378), [website](https://github.com/Zili1000/ForgetMimic) — `Reinforcement Learning`, `Locomotion`, `Human Demonstration`, `Safety`, `Humanoid`, `Real Robot`
 - [DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills](https://arxiv.org/abs/2609.28175) — `Humanoid`, `Impact`, `Locomotion`, `Real Robot`
 - [Banana Kick: Response-Informed Skill Evolution for Humanoid Soccer](https://arxiv.org/abs/2609.27269) — `Reinforcement Learning`, `Sim-to-Real`, `Humanoid`, `PPO`, `Locomotion`
@@ -1005,6 +1008,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-09](/state-estimation/2026-09)
 
+- [BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video](https://arxiv.org/abs/2609.29850) — `Motion Retargeting`, `Locomotion`, `Robustness`, `Humanoid`, `State Estimation`, `Simulation Benchmark`
 - [Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training](https://arxiv.org/abs/2609.26420) — `Simulator`, `Humanoid`, `Inverse Kinematics`, `State Estimation`, `Physics-Based Character Animation`, `Human Motion Analysis and Synthesis`
 - [UniPoint: Unified Point-Level Sensor Fusion for Humanoid Locomotion Across Challenging Terrains](https://arxiv.org/abs/2609.23666) — `Locomotion`, `Zero-Shot`, `Domain Randomization`, `Humanoid`, `Proprioception`, `Fine-tuning`
 - 🌟 [PRIMO: Prior-Informed Odometry from Human-Motion Tracking for Humanoid Robots](https://arxiv.org/abs/2609.23610), [website](https://github.com/agibot-spatial-intelligence/primo) — `Sim-to-Real`, `Locomotion`, `Humanoid`, `PPO`, `State Estimation`, `Open Source`
