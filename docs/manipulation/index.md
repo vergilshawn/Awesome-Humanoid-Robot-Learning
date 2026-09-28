@@ -1,10 +1,10 @@
 # Manipulation
 
-**67 papers** in this category.
+**68 papers** in this category.
 
 ## Months
 
-- [2026-09](/manipulation/2026-09) (3 papers)
+- [2026-09](/manipulation/2026-09) (4 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
 - [2026-06](/manipulation/2026-06) (8 papers)
@@ -33,6 +33,25 @@
 ---
 
 ## Recent Papers
+
+## Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30735)
+- **Authors:** Shuliang He, Ruiyan Xu, Bo Yue, Hengming Zhang, Huayi Zhou, Shuai Wang et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Human Demonstration
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Mobile humanoid manipulation requires both reaching a usable workspace and preserving precise hand-object interactions as object poses and contact conditions change. Learning these behaviors from limited task-specific data remains challenging.
+
+---
 
 ## Brace Yourself: Task-Conditioned Environmental Bracing for Forceful Humanoid Manipulation
 
@@ -373,19 +392,6 @@ This paper studies humanoid manipulation with touch dreaming, using tactile imag
 - **Tags:**
   - Manipulation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## cuRoboV2: Dynamics-Aware Motion Generation with Depth-Fused Distance Fields for High-DoF Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.05493)
-- **Published:** 2026-03
-- **Tags:**
-  - Manipulation
 
 ### Summary
 

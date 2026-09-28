@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**243 papers** in this category.
+**245 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (22 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (24 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,48 @@
 ---
 
 ## Recent Papers
+
+## HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30594)
+- **Authors:** Seoyeon Choi, Shizhao Ye, Nicholas Bui, Aayushi Shrivastava, Kanghyun Ryu, Dhruva Tirumala et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+For humanoids to be useful in everyday environments, they must perform a wide range of tasks that couple locomotion and manipulation. Existing approaches commonly acquire a loco-manipulation policy through reward engineering or demonstrations followed by task-specific training, making it costly to scale to new tasks.
+
+---
+
+## Aerial Manipulation in the Wild with Onboard Perception, Policy Learning, and Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30521)
+- **Authors:** Yuanzhu Zhan, Yufei Jiang, Zemu Zhang, Junyi Geng
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Imitation Learning
+  - Diffusion Policy
+  - MPC
+  - Whole-Body Control
+  - Manipulation
+  - State Estimation
+  - Policy Learning
+  - Diffusion
+
+### Summary
+
+Aerial manipulation in outdoor environments remains challenging due to the simultaneous requirements of reliable state estimation, stable aerial motion, and precise manipulation under external disturbances. In this work, we present a real-world outdoor aerial manipulation framework that integrates imitation learning, onboard LiDAR-inertial state estimation, and whole-body model predictive control.
+
+---
 
 ## HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments
 
@@ -406,41 +448,5 @@ Humanoid soccer is a challenging testbed for dynamic whole-body control, requiri
 ### Summary
 
 Humanoid loco-manipulation requires accurate whole-body motion tracking in the world frame for physical interaction. While local references preserve motion structure, they lack explicit constraints on absolute spatial placement, leading to accumulated global errors.
-
----
-
-## BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.03497)
-- **Authors:** Jianren Wang, Letian Qian, Zikai Wang, Weiwei Wu, Junjie Zong, Abhinav Gupta et al. (7 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Developing humanoid robots capable of leveraging human behavioral data is essential for general-purpose embodiment, yet conventional development remains bottlenecked by a decoupled paradigm that isolates hardware design from whole-body control. This approach leads to suboptimal systems that compromise human-like fluidity and agility.
-
----
-
-## FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.03889)
-- **Authors:** Yutian Zhang, Siyuan Ma, Liwen Yang, Yang Li, Ce Hao, Haozhen Chi et al. (9 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - Vision-Language
-  - Dataset
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions induced by those actions.
 
 ---

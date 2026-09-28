@@ -1,10 +1,10 @@
 # State Estimation
 
-**19 papers** in this category.
+**20 papers** in this category.
 
 ## Months
 
-- [2026-09](/state-estimation/2026-09) (6 papers)
+- [2026-09](/state-estimation/2026-09) (7 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
 - [2026-07](/state-estimation/2026-07) (1 papers)
 - [2026-06](/state-estimation/2026-06) (2 papers)
@@ -19,6 +19,26 @@
 ---
 
 ## Recent Papers
+
+## Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30951)
+- **Authors:** Dyuman Aditya, Jin Cheng, Clemens Schwarke, Quan Nguyen, Gaurav Sukhatme, Stelian Coros et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Contact Dynamics
+  - Policy Learning
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Differentiable simulation provides analytic gradients of robot dynamics, enabling fast and sample-efficient first-order policy optimization. However, obtaining smooth and informative gradients through rigid-body contact typically requires softened contact models, often at the expense of physical fidelity and thereby limiting learned policies largely to simulation.
+
+---
 
 ## BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video
 

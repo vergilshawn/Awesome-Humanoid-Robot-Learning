@@ -2,6 +2,120 @@
 
 All papers sorted by publication date (newest first).
 
+## Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.31577)
+- **Authors:** Zachary Olkin, William D. Compton, Aaron D. Ames
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Flow Matching
+
+### Summary
+
+General purpose humanoids require locomotion controllers that are multi-skill, perceptive, dynamic, and robust enough to go anywhere humans can. In this work, we present a two layer locomotion architecture: (1) a perceptive flow matching motion generator plans whole body trajectories from raw depth images while a (2) perceptive tracking policy trained with control-guided RL follows these motions.
+
+---
+
+## Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30951)
+- **Authors:** Dyuman Aditya, Jin Cheng, Clemens Schwarke, Quan Nguyen, Gaurav Sukhatme, Stelian Coros et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Contact Dynamics
+  - Policy Learning
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Differentiable simulation provides analytic gradients of robot dynamics, enabling fast and sample-efficient first-order policy optimization. However, obtaining smooth and informative gradients through rigid-body contact typically requires softened contact models, often at the expense of physical fidelity and thereby limiting learned policies largely to simulation.
+
+---
+
+## Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30735)
+- **Authors:** Shuliang He, Ruiyan Xu, Bo Yue, Hengming Zhang, Huayi Zhou, Shuai Wang et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Human Demonstration
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Mobile humanoid manipulation requires both reaching a usable workspace and preserving precise hand-object interactions as object poses and contact conditions change. Learning these behaviors from limited task-specific data remains challenging.
+
+---
+
+## HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30594)
+- **Authors:** Seoyeon Choi, Shizhao Ye, Nicholas Bui, Aayushi Shrivastava, Kanghyun Ryu, Dhruva Tirumala et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+For humanoids to be useful in everyday environments, they must perform a wide range of tasks that couple locomotion and manipulation. Existing approaches commonly acquire a loco-manipulation policy through reward engineering or demonstrations followed by task-specific training, making it costly to scale to new tasks.
+
+---
+
+## Aerial Manipulation in the Wild with Onboard Perception, Policy Learning, and Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30521)
+- **Authors:** Yuanzhu Zhan, Yufei Jiang, Zemu Zhang, Junyi Geng
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Imitation Learning
+  - Diffusion Policy
+  - MPC
+  - Whole-Body Control
+  - Manipulation
+  - State Estimation
+  - Policy Learning
+  - Diffusion
+
+### Summary
+
+Aerial manipulation in outdoor environments remains challenging due to the simultaneous requirements of reliable state estimation, stable aerial motion, and precise manipulation under external disturbances. In this work, we present a real-world outdoor aerial manipulation framework that integrates imitation learning, onboard LiDAR-inertial state estimation, and whole-body model predictive control.
+
+---
+
+## Tactile Sensing Array for Multi-Phalanx Sensing in Humanoid Hands
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30506)
+- **Authors:** Neel Adwani, Muhaiminul Islam Akash, Rituja Bhattacharya, Cong Wang
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Tactile Sensing
+  - Proprioception
+  - Locomotion
+
+### Summary
+
+Humanoid hands require tactile feedback across the whole finger, not just the fingertip, to grasp and manipulate objects properly. Vision and proprioception alone cannot reliably provide this information, particularly when the hand's own fingers occlude the camera's view of the grasp.
+
+---
+
 ## Rolling-WAM: World Action Models with Rolling Imagination
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.30247)

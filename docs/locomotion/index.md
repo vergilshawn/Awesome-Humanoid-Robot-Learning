@@ -1,10 +1,10 @@
 # Locomotion
 
-**183 papers** in this category.
+**185 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (30 papers)
+- [2026-09](/locomotion/2026-09) (32 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,39 @@
 ---
 
 ## Recent Papers
+
+## Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.31577)
+- **Authors:** Zachary Olkin, William D. Compton, Aaron D. Ames
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Flow Matching
+
+### Summary
+
+General purpose humanoids require locomotion controllers that are multi-skill, perceptive, dynamic, and robust enough to go anywhere humans can. In this work, we present a two layer locomotion architecture: (1) a perceptive flow matching motion generator plans whole body trajectories from raw depth images while a (2) perceptive tracking policy trained with control-guided RL follows these motions.
+
+---
+
+## Tactile Sensing Array for Multi-Phalanx Sensing in Humanoid Hands
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30506)
+- **Authors:** Neel Adwani, Muhaiminul Islam Akash, Rituja Bhattacharya, Cong Wang
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Tactile Sensing
+  - Proprioception
+  - Locomotion
+
+### Summary
+
+Humanoid hands require tactile feedback across the whole finger, not just the fingertip, to grasp and manipulate objects properly. Vision and proprioception alone cannot reliably provide this information, particularly when the hand's own fingers occlude the camera's view of the grasp.
+
+---
 
 ## Rolling-WAM: World Action Models with Rolling Imagination
 
@@ -372,40 +405,5 @@ While learning from human motions has enabled highly dynamic humanoid skills suc
 ### Summary
 
 Roofing requires workers to coordinate locomotion, balance, and work-related body motions on pitched surfaces, creating a challenging application for humanoid robots. Directly retargeted human demonstrations, however, may preserve motion appearance while placing the robot's feet or hands incorrectly relative to the roof.
-
----
-
-## OmniCalib: Target-Free, Task-Structured Self-Calibration for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.19582)
-- **Authors:** Kaixiang Lu, Haiyu Lan, Chunxiao Qiao, You Li, Enyu Li, Yehao Lu et al. (9 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Humanoid
-  - Walking
-  - PPO
-  - Locomotion
-
-### Summary
-
-Assembly, wear, and component replacement perturb the sensor extrinsics and joint zeros encoded by a humanoid CAD model. Existing procedures calibrate one sensor pair or require external fiducials.
-
----
-
-## ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.15988)
-- **Authors:** Gechen Qu, Tong Zhang, Bike Zhang, Yen-Jen Wang, Koushil Sreenath, Claire Tomlin et al. (7 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Safety
-  - Robustness
-  - Humanoid
-
-### Summary
-
-Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned policies can still generate unsafe actions that lead to instability or falls.
 
 ---

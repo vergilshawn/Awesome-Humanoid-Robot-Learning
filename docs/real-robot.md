@@ -7,14 +7,56 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Figure:** 7 papers
-- **Unitree G1:** 39 papers
+- **Unitree G1:** 40 papers
 - **Unitree H1:** 1 papers
-- **Unknown Platform:** 16 papers
+- **Unknown Platform:** 17 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30951)
+- **Authors:** Dyuman Aditya, Jin Cheng, Clemens Schwarke, Quan Nguyen, Gaurav Sukhatme, Stelian Coros et al. (7 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Contact Dynamics
+  - Policy Learning
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Differentiable simulation provides analytic gradients of robot dynamics, enabling fast and sample-efficient first-order policy optimization. However, obtaining smooth and informative gradients through rigid-body contact typically requires softened contact models, often at the expense of physical fidelity and thereby limiting learned policies largely to simulation.
+
+---
+
+## Aerial Manipulation in the Wild with Onboard Perception, Policy Learning, and Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.30521)
+- **Authors:** Yuanzhu Zhan, Yufei Jiang, Zemu Zhang, Junyi Geng
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Imitation Learning
+  - Diffusion Policy
+  - MPC
+  - Whole-Body Control
+  - Manipulation
+  - State Estimation
+  - Policy Learning
+  - Diffusion
+
+### Summary
+
+Aerial manipulation in outdoor environments remains challenging due to the simultaneous requirements of reliable state estimation, stable aerial motion, and precise manipulation under external disturbances. In this work, we present a real-world outdoor aerial manipulation framework that integrates imitation learning, onboard LiDAR-inertial state estimation, and whole-body model predictive control.
+
+---
 
 ## Rolling-WAM: World Action Models with Rolling Imagination
 

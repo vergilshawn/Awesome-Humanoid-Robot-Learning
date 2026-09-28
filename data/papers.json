@@ -1,5 +1,205 @@
 [
   {
+    "arxiv_id": "2609.31577",
+    "title": "Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators",
+    "paper_url": "https://arxiv.org/abs/2609.31577",
+    "project_url": null,
+    "authors": [
+      "Zachary Olkin",
+      "William D. Compton",
+      "Aaron D. Ames"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-25",
+    "abstract": "General purpose humanoids require locomotion controllers that are multi-skill, perceptive, dynamic, and robust enough to go anywhere humans can. In this work, we present a two layer locomotion architecture: (1) a perceptive flow matching motion generator plans whole body trajectories from raw depth images while a (2) perceptive tracking policy trained with control-guided RL follows these motions. Both policies are trained on a library of terrain consistent motion clips created with dynamically optimized human data which yields both accurate velocity tracking and terrain consistent references. Our central contribution is a simple yet effective off-policy RL fine tuning loop that improves the motion generator. A structured search method is used with the generator to gather data for advantage weighted regression. This off-policy loop is much more sample efficient than on-policy residual fine tuning and improves terrain consistency on unseen geometries and skill compositions. We find that successful terrain traversals increased by up to 25 percentage points and skill selection improved by up to 80 percentage points. By using raw depth images to perceive the environment no odometry or height maps are needed, and outdoor deployment is easy. With two cameras, the policy can see terrain coming from further away and adjust its velocity regardless of the commanded speed so it can traverse the terrain. A single policy pair enables a Unitree G1 humanoid to walk, run, stand, jump on and off of boxes, and traverse stairs in outdoor environments. Project page: https://zolkin1.github.io/generate-track-improve/",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "Flow Matching"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.30951",
+    "title": "Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks",
+    "paper_url": "https://arxiv.org/abs/2609.30951",
+    "project_url": null,
+    "authors": [
+      "Dyuman Aditya",
+      "Jin Cheng",
+      "Clemens Schwarke",
+      "Quan Nguyen",
+      "Gaurav Sukhatme",
+      "Stelian Coros",
+      "Gabriele Fadini"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-25",
+    "abstract": "Differentiable simulation provides analytic gradients of robot dynamics, enabling fast and sample-efficient first-order policy optimization. However, obtaining smooth and informative gradients through rigid-body contact typically requires softened contact models, often at the expense of physical fidelity and thereby limiting learned policies largely to simulation. This trade-off becomes particularly consequential for dynamic humanoid motions, where accurate contact dynamics are critical for transferring policies to the real world. Increasing contact stiffness in rigid-body simulation improves the fidelity of interactions, but also makes the dynamics increasingly sensitive to small state perturbations, producing high-variance gradients that can destabilize first-order policy learning. To address this, we propose \\emph{Bundled Contact Gradients (BCG)}, a contact-local randomized smoothing framework for differentiable policy learning. When stiff contact is detected, our method evaluates a local bundle of randomized perturbation rollouts around the stiff contact configuration and aggregates their gradient signal thereby reducing gradient variance. We demonstrate the effectiveness of our method by successfully training and transferring dynamic motions zero-shot onto a real-world Unitree G1 humanoid platform. Videos and supplementary information can be found at https://bundledcontactgradients.github.io/",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "Humanoid",
+      "Contact Dynamics",
+      "Policy Learning",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2609.30735",
+    "title": "Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation",
+    "paper_url": "https://arxiv.org/abs/2609.30735",
+    "project_url": null,
+    "authors": [
+      "Shuliang He",
+      "Ruiyan Xu",
+      "Bo Yue",
+      "Hengming Zhang",
+      "Huayi Zhou",
+      "Shuai Wang",
+      "Wei-Shi Zheng",
+      "Guiliang Liu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-25",
+    "abstract": "Mobile humanoid manipulation requires both reaching a usable workspace and preserving precise hand-object interactions as object poses and contact conditions change. Learning these behaviors from limited task-specific data remains challenging. To bridge this gap, we introduce Praxis, a whole-body manipulation framework that combines physical interaction priors from one-shot egocentric video demonstrations with closed-loop posture calibration and online perception. The framework coordinates three stages: vision-language-guided navigation toward target objects, closed-loop posture calibration to align the arm-hand workspace, and dexterous manipulation with synchronized upper- and lower-body control. Online visual feedback re-grounds demonstrated interaction geometry under new object poses and scene configurations, while tactile feedback adapts hand motions to actual contact conditions. Each manipulation skill is specified by one human demonstration, without task-specific manipulation-policy retraining. Experiments across five long-horizon manipulation tasks demonstrate spatial, visual, and cross-object generalization, as well as recovery from external physical disturbances across all three stages.",
+    "categories": [
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Manipulation",
+      "Navigation",
+      "Human Demonstration",
+      "Humanoid",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2609.30594",
+    "title": "HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2609.30594",
+    "project_url": null,
+    "authors": [
+      "Seoyeon Choi",
+      "Shizhao Ye",
+      "Nicholas Bui",
+      "Aayushi Shrivastava",
+      "Kanghyun Ryu",
+      "Dhruva Tirumala",
+      "Markus Wulfmeier",
+      "Negar Mehr"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-24",
+    "abstract": "For humanoids to be useful in everyday environments, they must perform a wide range of tasks that couple locomotion and manipulation. Existing approaches commonly acquire a loco-manipulation policy through reward engineering or demonstrations followed by task-specific training, making it costly to scale to new tasks. In this work, we propose a hierarchical approach to humanoid loco-manipulation that eliminates these per-task requirements. HuGo, Humanoid policy code Generation, uses a Large Language Model (LLM) to generate executable, closed-loop high-level policy code from a task description on top of a frozen low-level whole-body policy. Given the task, observation, and command specifications, the LLM constructs the task logic in code. HuGo then refines the policy from its rollouts using numerical trajectories and selected video frames to produce feedback and targeted code updates. Across five simulation tasks, using two different low-level policies, HuGo substantially outperforms a high-level reinforcement learning baseline and approaches the performance of a demonstration-based baseline. We achieve this level of performance without task-specific reward design or demonstration collection. We further demonstrate zero-shot transfer of simulation-generated policies to hardware and show that applying the same refinement loop to real-world rollouts can further improve transfer performance without expert demonstrations or policy retraining. Project website is https://iconlab.negarmehr.com/HuGo/",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Manipulation",
+      "Zero-Shot",
+      "Humanoid",
+      "Large Language Model",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.30521",
+    "title": "Aerial Manipulation in the Wild with Onboard Perception, Policy Learning, and Whole-Body Control",
+    "paper_url": "https://arxiv.org/abs/2609.30521",
+    "project_url": null,
+    "authors": [
+      "Yuanzhu Zhan",
+      "Yufei Jiang",
+      "Zemu Zhang",
+      "Junyi Geng"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-24",
+    "abstract": "Aerial manipulation in outdoor environments remains challenging due to the simultaneous requirements of reliable state estimation, stable aerial motion, and precise manipulation under external disturbances. In this work, we present a real-world outdoor aerial manipulation framework that integrates imitation learning, onboard LiDAR-inertial state estimation, and whole-body model predictive control. A Diffusion Policy is trained from manipulation demonstrations to generate desired end-effector motions from onboard observations. These learned commands are executed by a whole-body MPC that jointly coordinates the aerial platform and manipulator to realize the desired end-effector trajectory. To eliminate reliance on external motion-capture infrastructure, the platform employs onboard LiDAR-inertial odometry for state estimation during outdoor operation. We validate the complete framework on a physical aerial manipulator and demonstrate successful execution of outdoor manipulation tasks. The experimental results show that demonstration-driven manipulation policies can be effectively integrated with onboard state estimation and model-based whole-body control to enable aerial manipulation beyond controlled indoor environments.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Imitation Learning",
+      "Diffusion Policy",
+      "MPC",
+      "Whole-Body Control",
+      "Manipulation",
+      "State Estimation",
+      "Policy Learning",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.30506",
+    "title": "Tactile Sensing Array for Multi-Phalanx Sensing in Humanoid Hands",
+    "paper_url": "https://arxiv.org/abs/2609.30506",
+    "project_url": null,
+    "authors": [
+      "Neel Adwani",
+      "Muhaiminul Islam Akash",
+      "Rituja Bhattacharya",
+      "Cong Wang"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-24",
+    "abstract": "Humanoid hands require tactile feedback across the whole finger, not just the fingertip, to grasp and manipulate objects properly. Vision and proprioception alone cannot reliably provide this information, particularly when the hand's own fingers occlude the camera's view of the grasp. We present a low-cost tactile array for a humanoid finger, made from Velostat and conductive tape. The fingertip carries seven contact points including a 2x3 matrix wrapped across its front, left, and right faces, and a separate contact point at the tip. The proximal and middle phalanges each carry a single front-facing contact line. We measure the sensor's hysteresis and recovery time after release, through repeated loading and press-release tests. We also test a compliant, 3D-printed contact structure with a gap and a bump, inspired by similar designs in prior work, and show it cuts recovery time by 74% compared to a flush-contact baseline. We then show the sensor can produce distinct activation patterns for different contact geometries (flat, edge, corner) at the fingertip, and that it registers contact across all three phalanges during a grip. Finally, we discuss the limits of our fabrication changes and point to software-based compensation as a promising way to more directly fix the remaining hysteresis in the future.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Tactile Sensing",
+      "Proprioception",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2609.30247",
     "title": "Rolling-WAM: World Action Models with Rolling Imagination",
     "paper_url": "https://arxiv.org/abs/2609.30247",
