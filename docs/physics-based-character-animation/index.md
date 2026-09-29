@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**43 papers** in this category.
+**44 papers** in this category.
 
 ## Months
 
-- [2026-09](/physics-based-character-animation/2026-09) (1 papers)
+- [2026-09](/physics-based-character-animation/2026-09) (2 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (6 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
@@ -35,6 +35,27 @@
 ---
 
 ## Recent Papers
+
+## SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.33311)
+- **Authors:** Chengqun Yang, Tengjie Zhu, Liang Xu, Fulong Liu, Guanzhu Ren, Yitong Xing et al. (13 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Dataset
+  - PPO
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots are increasingly expected to serve as embodied social agents that communicate naturally with humans through face-to-face interaction. During such communication, humanoid robots require body behaviors that are synchronized with speech, affectively expressive, and suitable for real-time execution.
+
+---
 
 ## Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior
 
@@ -339,20 +360,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.20717)
 - **Published:** 2025-09
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.19926)
-- **Published:** 2025-08
 - **Tags:**
   - Humanoid
   - Physics-Based Character Animation

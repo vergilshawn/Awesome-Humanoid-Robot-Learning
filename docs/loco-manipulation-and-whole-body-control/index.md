@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**245 papers** in this category.
+**247 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (24 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (26 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,48 @@
 ---
 
 ## Recent Papers
+
+## Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.35450)
+- **Authors:** Zihao Wang, Shutong Liu, Siqi Zheng, Liu Cao, Ruoqi Chen, Rundong Liu et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Tactile Sensing
+  - Proprioception
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Physical contact often determines how a humanoid should respond during loco-manipulation, yet vision and proprioception alone are often insufficient to characterize physical interaction, especially when the contact region is occluded. Unlike sparse force or torque measurements at predefined regions, distributed tactile sensing preserves spatially resolved contact patterns across the robot body.
+
+---
+
+## WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.34199)
+- **Authors:** Chuan Qin, Shaoting Zhu, Siyuan Luo, Siqiao Huang, Hongyu Zhao, Hang Zhao
+- **Published:** 2026-09
+- **Tags:**
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Pre-training
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid loco-manipulation demands coordinated body and hand behavior, while conventional robot pre-training data provide limited coverage of such whole-body motion. We present WB-WAM, a World Action Model that incorporates explicit whole-body action supervision into generative video pre-training.
+
+---
 
 ## HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation
 
@@ -407,46 +449,5 @@ Motion tracking provides a scalable recipe for humanoid whole-body control. By d
 ### Summary
 
 We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces.
-
----
-
-## SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.06718)
-- **Authors:** Zhangchen Ye, Enxuan Ruan, Yifei Bao, Runhan Huang, Jiankun Yang, Jiakang Jin et al. (13 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Sim-to-Real
-  - Locomotion
-  - Humanoid
-  - Policy Learning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid soccer is a challenging testbed for dynamic whole-body control, requiring robots to coordinate balance, locomotion, object interaction, and skill switching over long horizons. Existing humanoid sports methods often rely on task-specific multi-stage pipelines, making it difficult to jointly learn and compose multiple object-interactive skills within a single deployable policy.
-
----
-
-## GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.05994)
-- **Authors:** Qingyao Xu, Sheng Yin, Zibo Zhou, Ya Zhang, Siheng Chen, Yue Hu
-- **Published:** 2026-09
-- **Tags:**
-  - Whole-Body Control
-  - Teleoperation
-  - Manipulation
-  - Isaac Gym
-  - MuJoCo
-  - Humanoid
-  - Fine-tuning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid loco-manipulation requires accurate whole-body motion tracking in the world frame for physical interaction. While local references preserve motion structure, they lack explicit constraints on absolute spatial placement, leading to accumulated global errors.
 
 ---

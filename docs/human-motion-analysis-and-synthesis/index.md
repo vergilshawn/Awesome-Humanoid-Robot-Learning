@@ -1,10 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**26 papers** in this category.
+**27 papers** in this category.
 
 ## Months
 
-- [2026-09](/human-motion-analysis-and-synthesis/2026-09) (2 papers)
+- [2026-09](/human-motion-analysis-and-synthesis/2026-09) (3 papers)
 - [2026-08](/human-motion-analysis-and-synthesis/2026-08) (1 papers)
 - [2026-07](/human-motion-analysis-and-synthesis/2026-07) (1 papers)
 - [2026-06](/human-motion-analysis-and-synthesis/2026-06) (2 papers)
@@ -27,6 +27,23 @@
 ---
 
 ## Recent Papers
+
+## Humanoid Badminton: Learning Dynamic Racket Skills from Limited Human Motion Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.31840)
+- **Authors:** Jingzhi Cui, Zhexiong Wang, Bangjie Xu, Pengyu Zhao, Youyuan Li, Zhi Su et al. (12 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+High-speed racket sports provide a demanding testbed for humanoid robots, requiring time-critical decisions, precise striking, and dynamic whole-body coordination. In badminton, fast-changing shuttle trajectories require timely contact decisions, while successful returns demand precise racket pose and velocity within a brief contact window and across a broad three-dimensional striking workspace.
+
+---
 
 ## EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots
 
@@ -312,20 +329,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2410.03311)
 - **Published:** 2024-10
 - **Tags:**
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Flexible Motion In-betweening with Diffusion Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2405.11126)
-- **Published:** 2024-05
-- **Tags:**
-  - Diffusion
   - Human Motion Analysis and Synthesis
 
 ### Summary

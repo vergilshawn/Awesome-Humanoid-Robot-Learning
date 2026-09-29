@@ -1,10 +1,10 @@
 # Teleoperation
 
-**30 papers** in this category.
+**31 papers** in this category.
 
 ## Months
 
-- [2026-09](/teleoperation/2026-09) (5 papers)
+- [2026-09](/teleoperation/2026-09) (6 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
 - [2026-06](/teleoperation/2026-06) (2 papers)
@@ -24,6 +24,26 @@
 ---
 
 ## Recent Papers
+
+## GAE: General Action Expert for Real-Time Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.34233)
+- **Authors:** Yuefan Wang, Huaicheng Zhou, Xiao He, Zhijie He, Mingchuan Yang, Huayi Zhang et al. (9 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Domain Randomization
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid avatars extend human physical presence beyond the body, enabling people to participate in social, service, and labor activities through remotely operated robots. This requires teleoperation systems capable of realizing diverse and dynamic whole-body behaviors while maintaining responsive human-robot synchronization.
+
+---
 
 ## Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation
 
@@ -333,22 +353,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Humanoid
   - Teleoperation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Whole-Body Bilateral Teleoperation with Multi-Stage Object Parameter Estimation for Wheeled Humanoid Locomanipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.09846)
-- **Published:** 2025-08
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Humanoid
-  - Parameter Estimation
 
 ### Summary
 

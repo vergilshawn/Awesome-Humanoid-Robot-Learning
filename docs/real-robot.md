@@ -6,15 +6,115 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
+- **Digit:** 1 papers
 - **Figure:** 7 papers
-- **Unitree G1:** 40 papers
+- **Unitree G1:** 43 papers
 - **Unitree H1:** 1 papers
-- **Unknown Platform:** 17 papers
+- **Unknown Platform:** 18 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## DexWeave: Learning Dexterous Humanoid Loco-Manipulation from Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.34724)
+- **Authors:** Naichuan Sun, Haotian Shen, Yizhang Zhang, Luying Feng, Haoze Wang, Yuanbo Xiangli et al. (8 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Motion Retargeting
+  - Manipulation
+  - Transformer
+  - Human Demonstration
+  - Humanoid
+  - Distillation
+  - Policy Learning
+
+### Summary
+
+Learning dexterous humanoid loco-manipulation from human demonstrations requires transferring not only human motion, but also the coordinated interaction structure underlying the demonstrated behavior. This is challenging because embodiment differences distort the coupling among body motion, wrist placement, finger articulation, and object interaction, while kinematically accurate references may still be difficult to realize under robot dynamics.
+
+---
+
+## GAE: General Action Expert for Real-Time Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.34233)
+- **Authors:** Yuefan Wang, Huaicheng Zhou, Xiao He, Zhijie He, Mingchuan Yang, Huayi Zhang et al. (9 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Domain Randomization
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid avatars extend human physical presence beyond the body, enabling people to participate in social, service, and labor activities through remotely operated robots. This requires teleoperation systems capable of realizing diverse and dynamic whole-body behaviors while maintaining responsive human-robot synchronization.
+
+---
+
+## SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.33311)
+- **Authors:** Chengqun Yang, Tengjie Zhu, Liang Xu, Fulong Liu, Guanzhu Ren, Yitong Xing et al. (13 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Dataset
+  - PPO
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots are increasingly expected to serve as embodied social agents that communicate naturally with humans through face-to-face interaction. During such communication, humanoid robots require body behaviors that are synchronized with speech, affectively expressive, and suitable for real-time execution.
+
+---
+
+## Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.33269)
+- **Authors:** Arash Akbari, Arman Akbari, Jingwu Luo, Yuhao Lei, Yi Gao, Weiwei Chen et al. (10 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - Diffusion
+  - Simulation Benchmark
+
+### Summary
+
+World Action Models (WAMs) jointly generate video and robot actions through iterative diffusion and perform strongly in robotic manipulation. However, their prohibitive compute and memory costs pose substantial deployment challenges.
+
+---
+
+## Humanoid Badminton: Learning Dynamic Racket Skills from Limited Human Motion Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.31840)
+- **Authors:** Jingzhi Cui, Zhexiong Wang, Bangjie Xu, Pengyu Zhao, Youyuan Li, Zhi Su et al. (12 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+High-speed racket sports provide a demanding testbed for humanoid robots, requiring time-critical decisions, precise striking, and dynamic whole-body coordination. In badminton, fast-changing shuttle trajectories require timely contact decisions, while successful returns demand precise racket pose and velocity within a brief contact window and across a broad three-dimensional striking workspace.
+
+---
 
 ## Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks
 

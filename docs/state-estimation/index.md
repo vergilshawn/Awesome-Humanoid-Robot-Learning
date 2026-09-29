@@ -1,10 +1,10 @@
 # State Estimation
 
-**20 papers** in this category.
+**21 papers** in this category.
 
 ## Months
 
-- [2026-09](/state-estimation/2026-09) (7 papers)
+- [2026-09](/state-estimation/2026-09) (8 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
 - [2026-07](/state-estimation/2026-07) (1 papers)
 - [2026-06](/state-estimation/2026-06) (2 papers)
@@ -19,6 +19,23 @@
 ---
 
 ## Recent Papers
+
+## CompliantWBC: Whole-Body Compliance for Heavy Humanoids via Force Latent Estimation and Residual Impedance Targets
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.33310)
+- **Authors:** Tan-Dzung Do, Cuc T. Trinh, Tuan Dat Phuong, Chien Le, Thanh Ly, Vien Anh Ngo et al. (7 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Compliant Control
+  - State Estimation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Whole-body compliant control is essential for deploying heavy humanoids under high payload in human-centric environments. Most prior force-aware learning-based pipelines focus on end-effector resistance, per-link upper-body springs, or end-effector stiffness modulation, leaving arbitrary-site perturbations on heavy platforms with lower-body engagement largely unaddressed.
+
+---
 
 ## Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks
 
@@ -338,19 +355,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/1712.05873)
 - **Published:** 2017-05
-- **Tags:**
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## The invariant extended Kalman filter as a stable observer
-
-- **Paper:** [arXiv](https://arxiv.org/abs/1410.1465)
-- **Published:** 2014-10
 - **Tags:**
   - State Estimation
 

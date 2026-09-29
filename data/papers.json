@@ -1,5 +1,478 @@
 [
   {
+    "arxiv_id": "2609.35450",
+    "title": "Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2609.35450",
+    "project_url": null,
+    "authors": [
+      "Zihao Wang",
+      "Shutong Liu",
+      "Siqi Zheng",
+      "Liu Cao",
+      "Ruoqi Chen",
+      "Rundong Liu",
+      "Yanchao Yang",
+      "Mengdi Xu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-28",
+    "abstract": "Physical contact often determines how a humanoid should respond during loco-manipulation, yet vision and proprioception alone are often insufficient to characterize physical interaction, especially when the contact region is occluded. Unlike sparse force or torque measurements at predefined regions, distributed tactile sensing preserves spatially resolved contact patterns across the robot body. We therefore study how to integrate such whole-body tactile information into vision-language-action (VLA) policies for contact-rich control. Our approach, Uni-VLaT, introduces a tactile pathway whose latent state is trained not only for action generation, but also to predict future tactile, proprioceptive, and visual representations. This predictive objective builds a tactile-anchored multimodal context, encouraging a more structured understanding of the physical world. We evaluate Uni-VLaT on five real-robot tasks covering tactile-triggered locomotion, sustained physical interaction, human-robot contact, and loco-manipulation. Uni-VLaT achieves a 75% average success rate, outperforming a baseline without tactile input by 43 points and a tactile-input baseline without predictive supervision by 7 points. Across two pretrained VLA backbones, our method improves Table Sweeping by 30 points on both backbones and Back-Tap Walking by 85-90 points. Ablations further show that contextualized tactile prediction and absolute future targets are critical to performance. These results indicate that predictive tactile learning provides an effective route for extending pretrained VLA policies to whole-body physical interaction.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Walking",
+      "Tactile Sensing",
+      "Proprioception",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.34782",
+    "title": "CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration",
+    "paper_url": "https://arxiv.org/abs/2609.34782",
+    "project_url": null,
+    "authors": [
+      "Hyunjin Park",
+      "Jebeom Chae",
+      "Minwoo Park",
+      "Sunghyun Park",
+      "Hanjun Yoo",
+      "Seoyeon Choi",
+      "Soochul Yoo",
+      "Joohwan Seo",
+      "Sarmad Idrees",
+      "Jae-Sang Hyun",
+      "Jongmin Lee",
+      "Roberto Horowitz",
+      "Youngwoon Lee",
+      "Jongeun Choi"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-28",
+    "abstract": "Many physical tasks in human environments require collaboration, from assisting a partner to jointly manipulating an object. Yet, existing humanoid benchmarks largely focus on single-humanoid skills and lack evaluation of multi-humanoid collaboration under egocentric visual observations. We introduce CoHuB (Collaborative Multi-Humanoid Benchmark), a simulation benchmark for multi-humanoid collaboration under egocentric visual observations. CoHuB provides 10 tasks, eight with two humanoids and two with three humanoids, spanning diverse collaboration patterns. We also provide synchronized demonstrations collected through a multi-operator VR teleoperation pipeline, in which each operator controls one humanoid from its egocentric view. Experiments with representative visuomotor policies reveal substantial challenges across different forms of coordinated perception and control. CoHuB provides a foundation for developing and evaluating multi-humanoid collaboration policies.",
+    "categories": [
+      "Simulation Benchmark",
+      "State Estimation",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Humanoid",
+      "Benchmark",
+      "Simulation Benchmark",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2609.34724",
+    "title": "DexWeave: Learning Dexterous Humanoid Loco-Manipulation from Human Demonstrations",
+    "paper_url": "https://arxiv.org/abs/2609.34724",
+    "project_url": null,
+    "authors": [
+      "Naichuan Sun",
+      "Haotian Shen",
+      "Yizhang Zhang",
+      "Luying Feng",
+      "Haoze Wang",
+      "Yuanbo Xiangli",
+      "Yaochu Jin",
+      "Peidong Liu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-28",
+    "abstract": "Learning dexterous humanoid loco-manipulation from human demonstrations requires transferring not only human motion, but also the coordinated interaction structure underlying the demonstrated behavior. This is challenging because embodiment differences distort the coupling among body motion, wrist placement, finger articulation, and object interaction, while kinematically accurate references may still be difficult to realize under robot dynamics. We present DexWeave, a unified framework that connects interaction-consistent motion retargeting with anatomy-aware whole-body policy learning. DexWeave first employs a two-stage retargeting procedure that initializes body and hand motions with specialized solvers and subsequently performs coupled refinement over the upper-body interaction chain while preserving lower-body support. The resulting references are tracked by an anatomy-aware Transformer policy that represents anatomical regions as structured tokens and uses directed masked attention to model their dependencies, with object information selectively conditioning the upper-body pathway for dexterous interaction. The policy jointly outputs body and dexterous-hand actions and is trained directly with reinforcement learning, without pretrained tracking policies, teacher-student distillation, or subsequent residual refinement. DexWeave improves retargeting fidelity and interaction consistency while achieving higher manipulation performance and faster policy convergence than MLP baselines. We further deploy the learned policies on a physical Unitree G1 humanoid equipped with Inspire dexterous hands, demonstrating dexterous whole-body loco-manipulation in the real world. See our project page (https://dexweave.github.io) for videos.",
+    "categories": [
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Motion Retargeting",
+      "Manipulation",
+      "Transformer",
+      "Human Demonstration",
+      "Humanoid",
+      "Distillation",
+      "Policy Learning",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2609.34233",
+    "title": "GAE: General Action Expert for Real-Time Humanoid Teleoperation",
+    "paper_url": "https://arxiv.org/abs/2609.34233",
+    "project_url": null,
+    "authors": [
+      "Yuefan Wang",
+      "Huaicheng Zhou",
+      "Xiao He",
+      "Zhijie He",
+      "Mingchuan Yang",
+      "Huayi Zhang",
+      "Li Chai",
+      "Jinxin Liu",
+      "Donglin Wang"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-28",
+    "abstract": "Humanoid avatars extend human physical presence beyond the body, enabling people to participate in social, service, and labor activities through remotely operated robots. This requires teleoperation systems capable of realizing diverse and dynamic whole-body behaviors while maintaining responsive human-robot synchronization. We present General Action Expert(GAE), a unified learning framework for general-purpose, low-latency humanoid whole-body teleoperation. To cover diverse human behaviors, GAE builds a large-scale human motion dataset from heterogeneous sources, including videos, animations, and motion capture, followed by standardization and augmentation. GAE then addresses the noise and embodiment mismatch in human motions with a two-stage training paradigm: a privileged generator policy first tracks human motion references in simulation and rolls out feasible humanoid trajectories; a deployable executor policy then learns to track these generated trajectories under curriculum domain randomization. For responsive human-robot synchronization, GAE introduces a latency-conditioned anticipation mechanism that adaptively compensates for end-to-end delay during real-time teleoperation. Simulation and real-world experiments on Unitree G1 and Westlake O1 robots demonstrate that GAE enables humanoids to smoothly mirror diverse, agile, and expressive human behaviors. Project website: https://wangyf0928.github.io/gae-wlrobotics/",
+    "categories": [
+      "Teleoperation",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Domain Randomization",
+      "Humanoid",
+      "Dataset",
+      "Simulation Benchmark",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2609.34199",
+    "title": "WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2609.34199",
+    "project_url": null,
+    "authors": [
+      "Chuan Qin",
+      "Shaoting Zhu",
+      "Siyuan Luo",
+      "Siqiao Huang",
+      "Hongyu Zhao",
+      "Hang Zhao"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-28",
+    "abstract": "Humanoid loco-manipulation demands coordinated body and hand behavior, while conventional robot pre-training data provide limited coverage of such whole-body motion. We present WB-WAM, a World Action Model that incorporates explicit whole-body action supervision into generative video pre-training. A shared physical action space integrates body, root, and dexterous hand annotations from heterogeneous sources, enabling joint video and action learning from 1880.2 hours of partially annotated video and motion data. The resulting priors are refined through PICO mid-training and adapted to robot tasks with auxiliary forward kinematics supervision. We construct WB-Datasets to support these stages with retargeted egocentric human demonstrations and robot trajectories, allowing task-aligned human motion to supplement limited robot data. Evaluations in simulation demonstrate strong whole-body task performance with 81.9% in HumanoidArena, while real-world experiments further validate WB-WAM with 84.0% mean success across five tasks. Moreover, task-aligned PICO mid-training improves downstream task performance while reducing the need for real-robot demonstrations. These results support heterogeneous whole-body pre-training and human motion transfer as a practical route to data-efficient humanoid loco-manipulation.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "Human Demonstration",
+      "Humanoid",
+      "Pre-training",
+      "Dataset",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.33484",
+    "title": "AMBIT: Anticipatory Multimodal Body Recruitment for Bimanual Tracking on a Humanoid",
+    "paper_url": "https://arxiv.org/abs/2609.33484",
+    "project_url": null,
+    "authors": [
+      "Hanlong Li",
+      "Sihan Tan",
+      "Takeshi Ashizawa",
+      "Benjamin Yen",
+      "Kazuhiro Nakadai"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-27",
+    "abstract": "A humanoid with 5-DoF arms cannot track generic bimanual end-effector trajectories with its arms alone; pelvis and waist motion must be recruited, but which motion, and when, is not uniquely determined. On a Unitree R1 in fixed double support, the set of dynamically valid recruitment strategies (pelvis pose and waist trajectories) for a task is a diverse continuous manifold, and a deterministic regressor trained on it mode-averages into strategies valid only 35% of the time, against 52% for a conditional variational autoencoder (CVAE) and 82% for the best of 16 CVAE samples. We introduce AMBIT: the CVAE proposes strategies from a preview of the commanded trajectory, a non-learned selector filters, ranks and verifies them, and a receding-horizon loop commits to one with hysteresis. The committed strategy is the reference of the same whole-body differential-IK QP a reactive tracker runs, which keeps authority over residual error. On 160 held-out episodes that admit a valid strategy, in full MuJoCo dynamics under a torque controller, AMBIT reaches 85% success at a 3 cm/15 deg tolerance against 74% for the tracker (disjoint confidence intervals) and recruits the body before the arms saturate in 48% of episodes against 35%. Because diversity is preserved, constraints unknown at training time are enforced by selection alone: under five zero-shot shifts AMBIT beats the warm-started tracker on every shift and matches a test-time re-optimisation baseline 17x more expensive. On a Unitree G1, with hyperparameters unchanged, the protocol reproduces the structure of the valid set and widens the gap over the tracker to 0.85 against 0.53. Five selected strategies execute on the externally supported physical R1, distinct in pelvis excursion and tracking the planned end-effector motion to a median of 11 mm by encoder forward kinematics, which establishes kinematic realisability, not balance.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Zero-Shot",
+      "MuJoCo",
+      "Humanoid",
+      "Torque Control",
+      "PPO",
+      "VAE",
+      "Manipulation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2609.33354",
+    "title": "Traceable Human-to-Humanoid Sign Language Benchmarking",
+    "paper_url": "https://arxiv.org/abs/2609.33354",
+    "project_url": null,
+    "authors": [
+      "Ao Liu",
+      "Shengeng Tang",
+      "Lechao Cheng",
+      "Yanbin Hao",
+      "Bingkun Bao",
+      "Richang Hong"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-27",
+    "abstract": "Sign data collection is costly, and teleoperation scales poorly, motivating reuse of large video corpora. Humanoid signing requires converting video-derived human motion into robot trajectories while preserving linguistic motion cues. Errors from fitting, human-motion repair, retargeting, robot geometry repair, and control are hard to separate from the final trajectory alone. We introduce HumanoidCSL-20K, a dataset and benchmark of 20,648 sentence-level Chinese Sign Language sequences, each with four aligned versions: the source, the repaired human motion, the direct robot reference, and the geometry-repaired robot reference. Observation-supported local human-motion repair, full-robot geometry repair, and cross-representation provenance make each transformation traceable. Paired evaluations measure human-motion continuity and content preservation, robot-reference feasibility, and physical execution. A sign-specific kinematic-reference protocol scores handshape, location, palm orientation, and inter-hand relation over the full planned motion. Full-corpus results show fewer abnormal arm / hand steps and less inter-hand and hand-body penetration after repair. Control experiments separate reference learnability from curriculum effects, while component scores expose remaining execution errors.",
+    "categories": [
+      "Simulation Benchmark",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Humanoid",
+      "Benchmark",
+      "Dataset",
+      "PPO",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2609.33311",
+    "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation",
+    "paper_url": "https://arxiv.org/abs/2609.33311",
+    "project_url": null,
+    "authors": [
+      "Chengqun Yang",
+      "Tengjie Zhu",
+      "Liang Xu",
+      "Fulong Liu",
+      "Guanzhu Ren",
+      "Yitong Xing",
+      "Xuefeng Lu",
+      "Fei Shi",
+      "Siyuan Fan",
+      "Weijie Dong",
+      "Yao Mu",
+      "Xiaokang Yang",
+      "Yichao Yan"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-27",
+    "abstract": "Humanoid robots are increasingly expected to serve as embodied social agents that communicate naturally with humans through face-to-face interaction. During such communication, humanoid robots require body behaviors that are synchronized with speech, affectively expressive, and suitable for real-time execution. However, existing co-speech methods are primarily developed for digital humans and lack joint support for affective control and low-latency continuous generation on physical embodiments. To bridge this gap, we present SocialHumanoid, a system for expressive humanoid behavior via one-step co-speech motion generation. Given response speech and a specified affective condition, SocialHumanoid generates each full-body motion window in a single forward pass and connects successive windows through motion-history conditioning. The generated human motion is further converted online into embodiment-compatible robot references and tracked by a whole-body controller for physical execution. To provide explicit supervision for affective body expression, we further introduce AffectMoCap, a 4-hour dataset captured from two professional actors, containing synchronized speech, body motion, fine-grained hand motion, and emotion annotations. On BEAT2, SocialHumanoid achieves the best FGD among the compared generation methods, competitive speech-motion synchrony, and approximately $6\\times$ faster inference than GestureLSM under the same protocol. Perceptual evaluations further show that training with AffectMoCap improves affect recognition from generated body motion, while real-robot experiments demonstrate continuous affect-conditioned behavior and stable long-horizon execution. Our project page is https://rex0191.github.io/SocialHumanoid/.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Humanoid",
+      "Dataset",
+      "PPO",
+      "Physics-Based Character Animation",
+      "Human Motion Analysis and Synthesis",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2609.33310",
+    "title": "CompliantWBC: Whole-Body Compliance for Heavy Humanoids via Force Latent Estimation and Residual Impedance Targets",
+    "paper_url": "https://arxiv.org/abs/2609.33310",
+    "project_url": null,
+    "authors": [
+      "Tan-Dzung Do",
+      "Cuc T. Trinh",
+      "Tuan Dat Phuong",
+      "Chien Le",
+      "Thanh Ly",
+      "Vien Anh Ngo",
+      "An Thai Le"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-27",
+    "abstract": "Whole-body compliant control is essential for deploying heavy humanoids under high payload in human-centric environments. Most prior force-aware learning-based pipelines focus on end-effector resistance, per-link upper-body springs, or end-effector stiffness modulation, leaving arbitrary-site perturbations on heavy platforms with lower-body engagement largely unaddressed. We close this gap with CompliantWBC comprising: (1) A base policy trained with RL to maximize compliance-fidelity reward, guided by a multi-site whole-body impedance reference controller, extending classical Cartesian impedance to any controlled link; (2) A bounded residual policy that edits the per-link impedance equilibrium over a frozen base, correcting the coarse but structured wrench estimate supplied by a force encoder co-trained behind a gradient barrier; (3) A Phong-weighted force-origin sampler with an axis-decoupled pelvis anchor induces lower-body-inclusive compliance curriculum training via two interpretable parameters. We evaluate CompliantWBC in simulation against both compliant and stiff baselines, achieving best compliant fidelity of 2.58cm deviation from analytical solutions, and demonstrate it on a real heavy humanoid across static/dynamic force reaction, board wiping, squat under payload, and cooperative payload transport. Project website: https://dotandung.github.io/compliantwbc/",
+    "categories": [
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Humanoid",
+      "Compliant Control",
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2609.33269",
+    "title": "Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection",
+    "paper_url": "https://arxiv.org/abs/2609.33269",
+    "project_url": null,
+    "authors": [
+      "Arash Akbari",
+      "Arman Akbari",
+      "Jingwu Luo",
+      "Yuhao Lei",
+      "Yi Gao",
+      "Weiwei Chen",
+      "Xuan Zhang",
+      "Zhenman Fang",
+      "Geng Yuan",
+      "Yanzhi Wang"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-27",
+    "abstract": "World Action Models (WAMs) jointly generate video and robot actions through iterative diffusion and perform strongly in robotic manipulation. However, their prohibitive compute and memory costs pose substantial deployment challenges. Post-training quantization (PTQ) can reduce these costs, but existing PTQ methods such as smoothing and rotation are insufficient to maintain the precision of action generation. To overcome this limitation, we propose Q-WAM, a new 4-bit weight-activation quantization for WAMs that preserves the actions the model generates. Specifically, we introduce the \\textit{Action Observability Gramian (AOG)}, which measures how much rounding errors in each weighted combination of a layer's input channels change the final action through all denoising steps. We also develop Action-Subspace Protection (ASP), which keeps the few most action-sensitive channel combinations in a tiny 16-bit low-rank branch and quantizes the complementary weights and activations to 4 bits, both as dense matrix multiplications that run efficiently on GPUs. Finally, to preserve action quality with minimal overhead, we identify the experts that matter most for the generated action by aggregating the AOG-derived action mass across the layers of each expert and apply ASP only to those experts. We evaluate Q-WAM on three WAMs, both in simulation and in real-world deployment. On the RoboTwin 2.0 benchmark, it reaches 89.6--93.0\\% average success rate, within 1.1 percentage points of the 16-bit models, while reducing the memory of the quantized blocks by 3.1--3.4$\\times$. Our method outperforms the strongest baseline, SVDQuant, by 2.5--8.7 percentage points. On a Unitree G1 humanoid and a bimanual UR3 robot, it improves success over SVDQuant by 12.8-17.6 percentage points.",
+    "categories": [
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Benchmark",
+      "Diffusion",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2609.33096",
+    "title": "Humanoids for Robot-Assisted Surgery: Bimanual Base Placement and Tool-Mount Optimization via Capability Maps",
+    "paper_url": "https://arxiv.org/abs/2609.33096",
+    "project_url": null,
+    "authors": [
+      "Peihan Zhang",
+      "Zekai Liang",
+      "Florian Richter",
+      "Nikita Thareja",
+      "Ryan Broderick",
+      "Shanglei Liu",
+      "Michael Yip"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-27",
+    "abstract": "Rapid advances in humanoid robotics have motivated growing interest in the application of humanoids for healthcare and clinical tasks. However, it remains unclear how close contemporary humanoids are to meeting the kinematic demands of robot-assisted laparoscopic surgery. In this work, we address the question of optimal robot positioning through a quantitative analysis of workspace and robot setup configurations. We present a capability-map-based robot setup framework that optimizes humanoid base placement and tool mounting orientation to maximize bimanual humanoid reachability while accounting for tool-tip kinematics and remote-center-of-motion (RCM) constraints. We evaluate three humanoid platforms spanning different body dimensions and kinematic redundancy on workspace reachability for three representative general surgery procedures: cholecystectomy, inguinal hernia repair, and sleeve gastrectomy. The proposed joint optimization of base placement and tool mounting consistently outperforms base-only optimization and heuristic baselines. For cholecystectomy and inguinal hernia repair, which are characterized by relatively small and minimally overlapping workspaces, humanoid reachability approached 90%. For the larger, overlapping multi-port arm workspace of sleeve gastrectomy, humanoids yield substantially lower coverage. These results quantify the near-term promise of humanoids for selected laparoscopic procedures and clarify key limitations that must be addressed for broader deployment.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Manipulation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2609.32250",
+    "title": "RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2609.32250",
+    "project_url": null,
+    "authors": [
+      "Yujia Zeng",
+      "Chensheng Peng",
+      "Yuxin Chen",
+      "Alex Shao",
+      "Nathan Jew",
+      "Masayoshi Tomizuka"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-26",
+    "abstract": "Sign-language interpretation in public communication relies on qualified professional interpreters and can be difficult to scale, motivating robotic signing as a complementary accessibility interface. We present RoBoSTAR, a text-conditioned sign language production (SLP) framework for generating human-centric sign motion that can be retargeted for robotic execution, with speech supported optionally through an external ASR front end. Conventional autoregressive approaches flatten motion into a single full-resolution token sequence, forcing long-range and local dependencies to be modeled at a uniform temporal granularity. RoBoSTAR instead combines part-wise Finite Scalar Quantization with next-scale autoregression, generating motion over progressively finer temporal resolutions while predicting synchronized body and hand tokens in parallel within each step. This coarse-to-fine formulation provides compact long-range context before progressively refining motion details, while self-conditioning and context corruption improve robustness to cross-scale prediction errors. The generated motion is subsequently retargeted for physical humanoid execution. Extensive qualitative and quantitative evaluations are conducted to demonstrate the effectiveness of RoBoSTAR.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Robustness",
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.31840",
+    "title": "Humanoid Badminton: Learning Dynamic Racket Skills from Limited Human Motion Data",
+    "paper_url": "https://arxiv.org/abs/2609.31840",
+    "project_url": null,
+    "authors": [
+      "Jingzhi Cui",
+      "Zhexiong Wang",
+      "Bangjie Xu",
+      "Pengyu Zhao",
+      "Youyuan Li",
+      "Zhi Su",
+      "Peng Ren",
+      "Mengdi Xu",
+      "Chao Yu",
+      "Yi Wu",
+      "Luyang Wang",
+      "Zhongyu Li"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-25",
+    "abstract": "High-speed racket sports provide a demanding testbed for humanoid robots, requiring time-critical decisions, precise striking, and dynamic whole-body coordination. In badminton, fast-changing shuttle trajectories require timely contact decisions, while successful returns demand precise racket pose and velocity within a brief contact window and across a broad three-dimensional striking workspace. Human motion data provide valuable priors for such athletic skills, but usable badminton references are limited and imperfect. Direct tracking provides insufficient executable variation for diverse shuttle conditions, while purely task-driven optimization may produce unnatural motion. To address these challenges, we present a three-stage hierarchical reinforcement learning framework for dynamic humanoid badminton. First, task-randomized motion augmentation expands sparse annotated hitting events into executable target-conditioned stroke variations, forming a continuous latent skill space. Second, a high-level planner outputs continuous latent skill codes to compose these skills online according to the observed shuttle state. Third, a context-conditioned adversarial regularizer encourages more natural planner-level skill usage while preserving return performance. When deployed on a real humanoid robot, our system achieves sustained multi-skill rallies with human players, including forehand, backhand, and highly dynamic jump returns. This is the first real-world humanoid racket-sport system to demonstrate multi-skill human--robot rallies including highly dynamic jump returns.",
+    "categories": [
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
     "arxiv_id": "2609.31577",
     "title": "Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators",
     "paper_url": "https://arxiv.org/abs/2609.31577",
@@ -676,7 +1149,7 @@
     ],
     "published": "2026-09",
     "published_date": "2026-09-21",
-    "abstract": "Diffusion models offer flexible motion generation, but translating this flexibility into feedback-responsive humanoid control remains challenging. Hierarchical systems steer motion through references that may exceed a separate tracker's capabilities, leaving recovery and physical execution largely to the tracker. Action-only diffusion generates actions directly but lacks an explicit future-state trajectory for test-time motion objectives. Joint state-action diffusion provides this representation, yet representative controllers often depend on privileged full-body states, and support for learned behavior selection and test-time motion steering remains fragmented. We present PredActor, a predictive action diffusion policy that brings these complementary steering capabilities into one directly executed policy using proprioceptive observations. Conditioned on proprioceptive history and optional task context, PredActor jointly generates executable actions and an internal future-state trajectory. Classifier-free guidance strengthens text-conditioned behavior, while classifier guidance steers predicted states toward test-time objectives. Only actions are executed, without a separate motion-reference tracker or externally estimated full-body states as policy inputs. In simulation, PredActor reaches all 15 destination targets and achieves a text retrieval score of 0.580, compared with 0.373 for conditional action diffusion, with similar observed disturbance survival. To make this guided policy practical onboard, rolling denoising and computation-preserving runtime optimizations reduce the complete callback to 16.790 ms median and 19.383 ms p95 on a Jetson Orin NX, both below the 20 ms control period. We deploy PredActor on a Unitree G1; evaluations across simulation and physical hardware demonstrate text-conditioned motion, disturbance response, joystick control, and semantic interpolation.",
+    "abstract": "Diffusion models offer flexible motion generation, but translating this flexibility into feedback-responsive humanoid control remains challenging. Hierarchical systems steer motion through references that may exceed a separate tracker's capabilities, leaving recovery and physical execution largely to the tracker. Action-only diffusion generates actions directly but lacks an explicit future-state trajectory for test-time motion objectives. Joint state-action diffusion provides this representation, yet representative controllers often depend on privileged full-body states, and support for learned behavior selection and test-time motion steering remains fragmented. We present PredActor, a predictive action diffusion policy that brings these complementary steering capabilities into one directly executed policy using proprioceptive observations. Conditioned on proprioceptive history and optional task context, PredActor jointly generates executable actions and an internal future-state trajectory. Classifier-free guidance strengthens text-conditioned behavior, while classifier guidance steers predicted states toward test-time objectives. Only actions are executed, without a separate motion-reference tracker or externally estimated full-body states as policy inputs. In simulation, PredActor reaches 44 of 45 destination targets and achieves a text retrieval score of 0.539, compared with 0.424 for conditional action diffusion, with similar observed disturbance survival. To make this guided policy practical onboard, rolling denoising and computation-preserving runtime optimizations reduce the complete callback to 16.790 ms median and 19.383 ms p95 on a Jetson Orin NX, both below the 20 ms control period. We deploy PredActor on a Unitree G1; evaluations across simulation and physical hardware demonstrate text-conditioned motion, disturbance response, joystick control, and semantic interpolation.",
     "categories": [
       "Locomotion"
     ],

@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**34 papers** in this category.
+**36 papers** in this category.
 
 ## Months
 
-- [2026-09](/simulation-benchmark/2026-09) (2 papers)
+- [2026-09](/simulation-benchmark/2026-09) (4 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
 - [2026-06](/simulation-benchmark/2026-06) (4 papers)
@@ -25,6 +25,43 @@
 ---
 
 ## Recent Papers
+
+## CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.34782)
+- **Authors:** Hyunjin Park, Jebeom Chae, Minwoo Park, Sunghyun Park, Hanjun Yoo, Seoyeon Choi et al. (14 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Many physical tasks in human environments require collaboration, from assisting a partner to jointly manipulating an object. Yet, existing humanoid benchmarks largely focus on single-humanoid skills and lack evaluation of multi-humanoid collaboration under egocentric visual observations.
+
+---
+
+## Traceable Human-to-Humanoid Sign Language Benchmarking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.33354)
+- **Authors:** Ao Liu, Shengeng Tang, Lechao Cheng, Yanbin Hao, Bingkun Bao, Richang Hong
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Sign data collection is costly, and teleoperation scales poorly, motivating reuse of large video corpora. Humanoid signing requires converting video-derived human motion into robot trajectories while preserving linguistic motion cues.
+
+---
 
 ## How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration
 
@@ -352,38 +389,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Manipulation
   - Navigation
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Benchmarking Humanoid Imitation Learning with Motion Difficulty
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2512.07248)
-- **Published:** 2025-12
-- **Tags:**
-  - Imitation Learning
-  - Humanoid
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.08807)
-- **Published:** 2025-10
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Dataset
   - Simulation Benchmark
 
 ### Summary

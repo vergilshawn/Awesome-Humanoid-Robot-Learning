@@ -1,10 +1,10 @@
 # Manipulation
 
-**68 papers** in this category.
+**72 papers** in this category.
 
 ## Months
 
-- [2026-09](/manipulation/2026-09) (4 papers)
+- [2026-09](/manipulation/2026-09) (8 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
 - [2026-06](/manipulation/2026-06) (8 papers)
@@ -33,6 +33,82 @@
 ---
 
 ## Recent Papers
+
+## DexWeave: Learning Dexterous Humanoid Loco-Manipulation from Human Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.34724)
+- **Authors:** Naichuan Sun, Haotian Shen, Yizhang Zhang, Luying Feng, Haoze Wang, Yuanbo Xiangli et al. (8 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Motion Retargeting
+  - Manipulation
+  - Transformer
+  - Human Demonstration
+  - Humanoid
+  - Distillation
+  - Policy Learning
+
+### Summary
+
+Learning dexterous humanoid loco-manipulation from human demonstrations requires transferring not only human motion, but also the coordinated interaction structure underlying the demonstrated behavior. This is challenging because embodiment differences distort the coupling among body motion, wrist placement, finger articulation, and object interaction, while kinematically accurate references may still be difficult to realize under robot dynamics.
+
+---
+
+## AMBIT: Anticipatory Multimodal Body Recruitment for Bimanual Tracking on a Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.33484)
+- **Authors:** Hanlong Li, Sihan Tan, Takeshi Ashizawa, Benjamin Yen, Kazuhiro Nakadai
+- **Published:** 2026-09
+- **Tags:**
+  - Zero-Shot
+  - MuJoCo
+  - Humanoid
+  - Torque Control
+  - PPO
+  - VAE
+  - Manipulation
+
+### Summary
+
+A humanoid with 5-DoF arms cannot track generic bimanual end-effector trajectories with its arms alone; pelvis and waist motion must be recruited, but which motion, and when, is not uniquely determined. On a Unitree R1 in fixed double support, the set of dynamically valid recruitment strategies (pelvis pose and waist trajectories) for a task is a diverse continuous manifold, and a deterministic regressor trained on it mode-averages into strategies valid only 35% of the time, against 52% for a conditional variational autoencoder (CVAE) and 82% for the best of 16 CVAE samples.
+
+---
+
+## Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.33269)
+- **Authors:** Arash Akbari, Arman Akbari, Jingwu Luo, Yuhao Lei, Yi Gao, Weiwei Chen et al. (10 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - Diffusion
+  - Simulation Benchmark
+
+### Summary
+
+World Action Models (WAMs) jointly generate video and robot actions through iterative diffusion and perform strongly in robotic manipulation. However, their prohibitive compute and memory costs pose substantial deployment challenges.
+
+---
+
+## Humanoids for Robot-Assisted Surgery: Bimanual Base Placement and Tool-Mount Optimization via Capability Maps
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.33096)
+- **Authors:** Peihan Zhang, Zekai Liang, Florian Richter, Nikita Thareja, Ryan Broderick, Shanglei Liu et al. (7 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Manipulation
+
+### Summary
+
+Rapid advances in humanoid robotics have motivated growing interest in the application of humanoids for healthcare and clinical tasks. However, it remains unclear how close contemporary humanoids are to meeting the kinematic demands of robot-assisted laparoscopic surgery.
+
+---
 
 ## Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation
 
@@ -327,74 +403,5 @@ Human interventions provide crucial corrective signals for post-training Vision-
 ### Summary
 
 Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects. Existing methods often require time-consuming task-specific policy training or rely on rigid trajectory replay, which limits their ability to accommodate novel interaction scenarios.
-
----
-
-## Vision-Guided Dual-Arm Humanoid Robotic Disassembly of End-of-Life 18650 Lithium-ion Battery Packs
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08152)
-- **Authors:** Yile Chen, Zhihao Liu, Xi Vincent Wang, Lihui Wang
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - PPO
-  - Manipulation
-
-### Summary
-
-The growing volume of retired lithium-ion battery packs from electric vehicles and portable electronics calls for automated disassembly that is safe, flexible, and selective down to the individual cell. Existing robotic systems, however, mostly assume known pack poses, external fixtures, or specialised tooling, leaving fixture-free cell-level disassembly under pose uncertainty largely unsolved.
-
----
-
-## A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.17258)
-- **Authors:** Yifei Yan, Yankai Liao, Linqi Ye
-- **Published:** 2026-04
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Zero-Shot
-  - Real Robot
-  - Humanoid
-  - Inverse Kinematics
-  - 3D Reconstruction
-  - Foundation Model
-  - Manipulation
-  - Physics-Based Character Animation
-
-### Summary
-
-This paper presents an end-to-end rapid deployment pipeline for humanoid grasping that combines foundation-model components for annotation, 3D reconstruction, and zero-shot pose tracking. The estimated pose drives a Unity inverse kinematics planner whose joint commands are streamed to a Unitree G1 humanoid via UDP and executed through the Unitree SDK.
-
----
-
-## 🌟 Humanoid Manipulation with Touch Dreaming
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2604.13015)
-- **Project:** [GitHub](https://humanoid-touch-dream.github.io/)
-- **Authors:** Han Wang, Hongjie Fang, Changyang He, Tairan He, Zhenyu Jiang, Sizhe Yang et al. (11 authors)
-- **Published:** 2026-04
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Policy Learning
-
-### Summary
-
-This paper studies humanoid manipulation with touch dreaming, using tactile imagination and policy learning to improve contact-rich manipulation. The system targets dexterous humanoid manipulation and whole-body interaction with objects under sparse or difficult tactile supervision..
-
----
-
-## 🌟 HumDex: Humanoid Dexterous Manipulation Made Easy
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.12260)
-- **Published:** 2026-03
-- **Tags:**
-  - Manipulation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---

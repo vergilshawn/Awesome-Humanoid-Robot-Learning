@@ -1,10 +1,10 @@
 # Locomotion
 
-**185 papers** in this category.
+**186 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (32 papers)
+- [2026-09](/locomotion/2026-09) (33 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,23 @@
 ---
 
 ## Recent Papers
+
+## RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.32250)
+- **Authors:** Yujia Zeng, Chensheng Peng, Yuxin Chen, Alex Shao, Nathan Jew, Masayoshi Tomizuka
+- **Published:** 2026-09
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Sign-language interpretation in public communication relies on qualified professional interpreters and can be difficult to scale, motivating robotic signing as a complementary accessibility interface. We present RoBoSTAR, a text-conditioned sign language production (SLP) framework for generating human-centric sign motion that can be retargeted for robotic execution, with speech supported optionally through an external ASR front end.
+
+---
 
 ## Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators
 
@@ -383,27 +400,5 @@ Humanoid locomotion over complex terrain requires anticipating footholds that ma
 ### Summary
 
 While learning from human motions has enabled highly dynamic humanoid skills such as dancing and martial arts in obstacle-free space, traversal through densely cluttered environments remains underexplored. These spaces are three-dimensional and geometrically constrained, requiring scene-aware locomotion that tightly couples whole-body motion with scene geometry for obstacle avoidance.
-
----
-
-## Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.20558)
-- **Authors:** Songyang Liu, Shuai Li
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Teleoperation
-  - Locomotion
-  - Zero-Shot
-  - Human Demonstration
-  - Humanoid
-  - Walking
-  - PPO
-
-### Summary
-
-Roofing requires workers to coordinate locomotion, balance, and work-related body motions on pitched surfaces, creating a challenging application for humanoid robots. Directly retargeted human demonstrations, however, may preserve motion appearance while placing the robot's feet or hands incorrectly relative to the roof.
 
 ---
