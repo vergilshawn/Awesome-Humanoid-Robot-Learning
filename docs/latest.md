@@ -2,6 +2,161 @@
 
 All papers sorted by publication date (newest first).
 
+## Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38172)
+- **Authors:** Zihan Wang, Zhen Wu, Pieter Abbeel, Rocky Duan, Jitendra Malik, Carmelo Sferrazza et al. (9 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Sim-to-Real
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's full body and unoccluded interactions with objects, poses a practical barrier to scaling this approach.
+
+---
+
+## CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38087)
+- **Authors:** Tan-Dzung Do, Tuan Dat Phuong, Nico Bohlinger, Cuc T. Trinh, Siwei Ju, Vien Anh Ngo et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Real Robot
+  - Humanoid
+  - Foundation Model
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Behavior Foundation Models (BFMs) give humanoids a promptable policy over a latent behavior space, enabling one single vector to represent a motion to imitate, a pose to reach, or a reward to maximize. Forward-Backward representations successfully produce such spaces, but at the cost of hundreds of GPU-hours for a single robot.
+
+---
+
+## EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38046)
+- **Authors:** Yiming Jiang, Chen Jin, Chongyang Xu, Yilun Chen, Aimin Hao, Yisheng He
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Zero-Shot
+  - Human Demonstration
+  - Simulator
+
+### Summary
+
+Egocentric human demonstrations offer an accessible source of task experience, but differences in body scale and controller response, together with missing robot states, limit their value as humanoid training supervision. We present EgoAlign, a data-construction framework that converts these demonstrations into action and state supervision compatible with a general-purpose, continuous whole-body controller, without collecting physical-robot demonstrations.
+
+---
+
+## Learning Expressive and Compositional Motion Representation via Spectral Skills
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.37677)
+- **Authors:** Feiyang Wu, Chenxiao Gao, Chen Yang, Ye Zhao, Bo Dai, Anqi Wu
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Language-Conditioned
+  - Foundation Model
+  - PPO
+  - Representation Learning
+  - Locomotion
+
+### Summary
+
+Robotic foundation models offer a promising path toward general-purpose humanoid robot control, often through hierarchical architectures. However, their effectiveness depends on the command interface between the planner and the controller, which must support accurate execution while remaining easy to predict, and ideally allow new behaviors to be composed from prior ones.
+
+---
+
+## EgoHumanoid-V2: Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.37181)
+- **Authors:** Jin Chen, Yiming Jiang, Chongyang Xu, Modi Shi, Shijia Peng, Li Chen et al. (11 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - PPO
+
+### Summary
+
+Human demonstrations capture diverse scenes and rich whole-body skills without requiring robot teleoperation. Prior work on egocentric transfer has emphasized scene generalization in loco-manipulation under decoupled control, leaving direct transfer of coordinated whole-body skills less explored.
+
+---
+
+## Track-and-Complete: Learning Humanoid Skills from a Single Failed Human Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.36924)
+- **Authors:** Sarmad Idrees, Jongeun Choi
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Dataset
+  - Locomotion
+
+### Summary
+
+Learning humanoid skills from videos typically requires a successful human demonstration, which often demands custom data collection. Although failures have traditionally been treated only as negative examples in robot learning, they can still reveal a usable trajectory prefix before the task fails, as well as the intended outcome.
+
+---
+
+## EquivDP3: A SIM(3)-Invariant Point-Cloud Encoder for Data-Efficient Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.36575)
+- **Authors:** Abu Hanif Muhammad Syarubany, Chang D. Yoo
+- **Published:** 2026-09
+- **Tags:**
+  - Diffusion Policy
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Proprioception
+  - Point Cloud
+  - Benchmark
+  - Behavior Cloning
+
+### Summary
+
+Visuomotor policies for humanoid loco-manipulation must generalize across object poses and lighting from only a handful of demonstrations. 3D Diffusion Policy (DP3) conditions a diffusion-based action generator on point-cloud features, but its PointNet-style encoder has no built-in equivariance to the rotations, translations, and scalings (SIM(3)) that manipulation tasks respect.
+
+---
+
+## KPI: A Promptable Kernel for Physical Interaction on Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.36151)
+- **Authors:** Yikai Wang, Honghao Zhu, Xiao Hu, Hao Zhang, Zelin Wang, Yip Fun Yeung et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - Locomotion
+
+### Summary
+
+Humanoids now walk, balance and reach with remarkable generality: one whole-body tracking policy follows references from a human, or from an end-to-end policy. That generality travels in the trajectory, and a trajectory alone carries limited information about the interaction it should produce: at contact, the executing controller determines how the robot behaves.
+
+---
+
 ## Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.35450)
@@ -20,6 +175,25 @@ All papers sorted by publication date (newest first).
 ### Summary
 
 Physical contact often determines how a humanoid should respond during loco-manipulation, yet vision and proprioception alone are often insufficient to characterize physical interaction, especially when the contact region is occluded. Unlike sparse force or torque measurements at predefined regions, distributed tactile sensing preserves spatially resolved contact patterns across the robot body.
+
+---
+
+## Passive-Dynamic-Walking-Inspired Dynamics Guidance for Energy-Efficient Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.35935)
+- **Authors:** Hyeonjin Choi, Joongheon Kim, Daekyum Kim
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Gait
+  - Walking
+  - Collision
+
+### Summary
+
+Learning energy-efficient humanoid locomotion requires discovering mechanically economical gait coordination, not merely reducing actuator effort. Reinforcement learning promotes efficiency through effort-related reward penalties, which guide the step-to-step mechanics of walking only indirectly.
 
 ---
 

@@ -1,10 +1,10 @@
 # Locomotion
 
-**186 papers** in this category.
+**190 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (33 papers)
+- [2026-09](/locomotion/2026-09) (37 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,78 @@
 ---
 
 ## Recent Papers
+
+## Learning Expressive and Compositional Motion Representation via Spectral Skills
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.37677)
+- **Authors:** Feiyang Wu, Chenxiao Gao, Chen Yang, Ye Zhao, Bo Dai, Anqi Wu
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Language-Conditioned
+  - Foundation Model
+  - PPO
+  - Representation Learning
+  - Locomotion
+
+### Summary
+
+Robotic foundation models offer a promising path toward general-purpose humanoid robot control, often through hierarchical architectures. However, their effectiveness depends on the command interface between the planner and the controller, which must support accurate execution while remaining easy to predict, and ideally allow new behaviors to be composed from prior ones.
+
+---
+
+## Track-and-Complete: Learning Humanoid Skills from a Single Failed Human Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.36924)
+- **Authors:** Sarmad Idrees, Jongeun Choi
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Dataset
+  - Locomotion
+
+### Summary
+
+Learning humanoid skills from videos typically requires a successful human demonstration, which often demands custom data collection. Although failures have traditionally been treated only as negative examples in robot learning, they can still reveal a usable trajectory prefix before the task fails, as well as the intended outcome.
+
+---
+
+## KPI: A Promptable Kernel for Physical Interaction on Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.36151)
+- **Authors:** Yikai Wang, Honghao Zhu, Xiao Hu, Hao Zhang, Zelin Wang, Yip Fun Yeung et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - Locomotion
+
+### Summary
+
+Humanoids now walk, balance and reach with remarkable generality: one whole-body tracking policy follows references from a human, or from an end-to-end policy. That generality travels in the trajectory, and a trajectory alone carries limited information about the interaction it should produce: at contact, the executing controller determines how the robot behaves.
+
+---
+
+## Passive-Dynamic-Walking-Inspired Dynamics Guidance for Energy-Efficient Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.35935)
+- **Authors:** Hyeonjin Choi, Joongheon Kim, Daekyum Kim
+- **Published:** 2026-09
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Gait
+  - Walking
+  - Collision
+
+### Summary
+
+Learning energy-efficient humanoid locomotion requires discovering mechanically economical gait coordination, not merely reducing actuator effort. Reinforcement learning promotes efficiency through effort-related reward penalties, which guide the step-to-step mechanics of walking only indirectly.
+
+---
 
 ## RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots
 
@@ -322,83 +394,5 @@ Humanoid robots are increasingly being popular and developed for human-centered 
 ### Summary
 
 Embodied AI systems, particularly humanoid robots deployed in real world scenarios require whole-body control policies that are both task-responsive and physically smooth. However, smoothness is not uniform across the body: lower body must remain sufficiently reactive, while the upper body must be tightly regulated to preserve stability.
-
----
-
-## STRIDER: Stepping-Enabled Multi-Gait Hierarchical 3D Loco-Manipulation Framework for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.23483)
-- **Authors:** Yuanzhuo Li, Wen Zhao, Zhe Yong, Xiang Meng, Gang Han, Hengle Ren et al. (9 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - Humanoid
-  - Gait
-  - Walking
-  - Distillation
-  - PPO
-  - DAgger
-
-### Summary
-
-Humanoid loco-manipulation faces two prominent limitations: controllers using continuous velocity commands cannot precisely regulate individual footholds, while specialized foothold-tracking modules are difficult to integrate with whole-body manipulation. Furthermore, standard action-based imitation distillation primarily transfers expert actions, without explicitly encouraging a shared representation of heterogeneous skills.
-
----
-
-## HIGenNTO: Scalable Humanoid Interaction Generation via Noise-Space Trajectory Optimization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.22611)
-- **Authors:** Lalit Jayanti, Kashu Yamazaki, Yuto Shibata, Kotaro Amaya, Katerina Fragkiadaki
-- **Published:** 2026-09
-- **Tags:**
-  - Humanoid
-  - Trajectory Optimization
-  - Collision
-  - PPO
-  - Locomotion
-
-### Summary
-
-Humanoid robots can acquire complex skills by imitating kinematic humanoid motion references, yet reliable references for contact-rich interactions remain difficult to obtain: motion capture deteriorates under occlusion and close physical contact, while retargeting introduces additional contact and geometric inconsistencies. We present HIGenNTO, a framework that synthesizes humanoid-scene interaction motion references by optimizing the initial noise of a pretrained text-conditioned motion model under sparse spatiotemporal and scene constraints.
-
----
-
-## FootQuery: Future-Touchdown-Guided Retrieval from Depth History for Perceptive Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.21447)
-- **Authors:** Tao Dong, Jia Yu, Yuxuan Fan, Linna Zhao, Jiaqi Gong, Andong Yang et al. (8 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Proprioception
-  - PPO
-  - GAN
-  - State Estimation
-
-### Summary
-
-Humanoid locomotion over complex terrain requires anticipating footholds that may no longer be visible at touchdown. Limited camera coverage and self-occlusion make it necessary to retrieve relevant terrain information from earlier observations.
-
----
-
-## Learning Scene-Aware Humanoid Locomotion through 3D Clutter from Immersive Human Demonstrations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.21107)
-- **Authors:** Beichen Wang, Tong Xu, Daniel Kosukhin, Yuen-Hei Yeung, Yuanjie Lu, Xuesu Xiao
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Motion Retargeting
-  - Locomotion
-  - Human Demonstration
-  - Humanoid
-  - Collision
-
-### Summary
-
-While learning from human motions has enabled highly dynamic humanoid skills such as dancing and martial arts in obstacle-free space, traversal through densely cluttered environments remains underexplored. These spaces are three-dimensional and geometrically constrained, requiring scene-aware locomotion that tightly couples whole-body motion with scene geometry for obstacle avoidance.
 
 ---

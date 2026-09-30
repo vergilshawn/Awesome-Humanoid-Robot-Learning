@@ -2,18 +2,18 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 732
-- **Real Robot Papers:** 74
+- **Total Papers:** 741
+- **Real Robot Papers:** 76
 - **Open Source Papers:** 128
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (247)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (252)
 - [Manipulation](#manipulation) (72)
 - [Teleoperation](#teleoperation) (31)
-- [Locomotion](#locomotion) (186)
+- [Locomotion](#locomotion) (190)
 - [Navigation](#navigation) (23)
 - [State Estimation](#state-estimation) (21)
 - [Sim-to-Real](#sim-to-real) (13)
@@ -29,6 +29,11 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-09
 
+- [Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.38172) — `Sim-to-Real`, `Manipulation`, `Real Robot`, `Humanoid`, `Fine-tuning`, `Loco-Manipulation and Whole-Body Control`
+- [CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments](https://arxiv.org/abs/2609.38087) — `Whole-Body Control`, `Real Robot`, `Humanoid`, `Foundation Model`, `PPO`, `Loco-Manipulation and Whole-Body Control`
+- [EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation](https://arxiv.org/abs/2609.38046) — `Whole-Body Control`, `Teleoperation`, `Locomotion`, `Manipulation`, `Navigation`, `Zero-Shot`
+- [EgoHumanoid-V2: Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation](https://arxiv.org/abs/2609.37181) — `Teleoperation`, `Manipulation`, `Zero-Shot`, `Human Demonstration`, `Robustness`, `Humanoid`
+- [EquivDP3: A SIM(3)-Invariant Point-Cloud Encoder for Data-Efficient Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.36575) — `Diffusion Policy`, `Locomotion`, `Manipulation`, `Humanoid`, `Proprioception`, `Point Cloud`
 - [Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.35450) — `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `Tactile Sensing`, `Proprioception`
 - [WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.34199) — `Manipulation`, `Human Demonstration`, `Humanoid`, `Pre-training`, `Dataset`, `PPO`
 - [HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.30594) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Large Language Model`
@@ -598,6 +603,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-09
 
+- [Learning Expressive and Compositional Motion Representation via Spectral Skills](https://arxiv.org/abs/2609.37677) — `Humanoid`, `Language-Conditioned`, `Foundation Model`, `PPO`, `Representation Learning`, `Locomotion`
+- [Track-and-Complete: Learning Humanoid Skills from a Single Failed Human Video](https://arxiv.org/abs/2609.36924) — `Human Demonstration`, `Humanoid`, `Dataset`, `Locomotion`, `Real Robot`
+- [KPI: A Promptable Kernel for Physical Interaction on Humanoids](https://arxiv.org/abs/2609.36151) — `Humanoid`, `Vision-Language`, `Locomotion`
+- [Passive-Dynamic-Walking-Inspired Dynamics Guidance for Energy-Efficient Humanoid Locomotion](https://arxiv.org/abs/2609.35935) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Gait`, `Walking`, `Collision`
 - [RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots](https://arxiv.org/abs/2609.32250) — `Robustness`, `Humanoid`, `PPO`, `Locomotion`
 - [Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators](https://arxiv.org/abs/2609.31577) — `Locomotion`, `Humanoid`, `Flow Matching`
 - [Tactile Sensing Array for Multi-Phalanx Sensing in Humanoid Hands](https://arxiv.org/abs/2609.30506) — `Humanoid`, `Tactile Sensing`, `Proprioception`, `Locomotion`

@@ -7,15 +7,53 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 1 papers
-- **Figure:** 7 papers
+- **Figure:** 8 papers
 - **Unitree G1:** 43 papers
 - **Unitree H1:** 1 papers
-- **Unknown Platform:** 18 papers
+- **Unknown Platform:** 19 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38172)
+- **Authors:** Zihan Wang, Zhen Wu, Pieter Abbeel, Rocky Duan, Jitendra Malik, Carmelo Sferrazza et al. (9 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅
+- **Tags:**
+  - Sim-to-Real
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's full body and unoccluded interactions with objects, poses a practical barrier to scaling this approach.
+
+---
+
+## Track-and-Complete: Learning Humanoid Skills from a Single Failed Human Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.36924)
+- **Authors:** Sarmad Idrees, Jongeun Choi
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Dataset
+  - Locomotion
+
+### Summary
+
+Learning humanoid skills from videos typically requires a successful human demonstration, which often demands custom data collection. Although failures have traditionally been treated only as negative examples in robot learning, they can still reveal a usable trajectory prefix before the task fails, as well as the intended outcome.
+
+---
 
 ## DexWeave: Learning Dexterous Humanoid Loco-Manipulation from Human Demonstrations
 
