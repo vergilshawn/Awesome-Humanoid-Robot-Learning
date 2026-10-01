@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**252 papers** in this category.
+**254 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (31 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (33 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +38,44 @@
 ---
 
 ## Recent Papers
+
+## NEXUS: Perceptive Whole-Body Control for Terrain-Adaptive Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.39000)
+- **Authors:** Xiangyu Miao, Junsong Wu, Jiyuan Shi, Weiji Xie, Jinrui Han, Xingyi Wang et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Zero-Shot
+  - Humanoid
+  - Adaptive Control
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Whole-body teleoperation requires a humanoid robot to reproduce a human operator's behavior even when their terrains differ. This demands that the robot perceive local terrain and adapt its posture and contacts accordingly, rather than copy the operator's motion frame by frame.
+
+---
+
+## CEER2: Directional and Tunable End-Effector and Root Compliance for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38709)
+- **Authors:** Xinyuan Luo, Chunyuan Yang, Boyuan Chen, Xianyi Cheng
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoids are increasingly capable of tracking complex whole-body motions, but physical interaction introduces a different challenge. When a robot makes contact with a person or the environment, it needs to respond to external forces while preserving the motion needed for the task.
+
+---
 
 ## Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
 
@@ -81,7 +119,7 @@ Behavior Foundation Models (BFMs) give humanoids a promptable policy over a late
 ## EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.38046)
-- **Authors:** Yiming Jiang, Chen Jin, Chongyang Xu, Yilun Chen, Aimin Hao, Yisheng He
+- **Authors:** Yiming Jiang, Jin Chen, Chongyang Xu, Yilun Chen, Aimin Hao, Yisheng He
 - **Published:** 2026-09
 - **Tags:**
   - Whole-Body Control
@@ -144,7 +182,7 @@ Visuomotor policies for humanoid loco-manipulation must generalize across object
 ## Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.35450)
-- **Authors:** Zihao Wang, Shutong Liu, Siqi Zheng, Liu Cao, Ruoqi Chen, Rundong Liu et al. (8 authors)
+- **Authors:** Zihao Wang, Shutong Liu, Siqi Zheng, Liu Cao, Ruoqu Chen, Rundong Liu et al. (8 authors)
 - **Published:** 2026-09
 - **Tags:**
   - Locomotion
@@ -165,7 +203,7 @@ Physical contact often determines how a humanoid should respond during loco-mani
 ## WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.34199)
-- **Authors:** Chuan Qin, Shaoting Zhu, Siyuan Luo, Siqiao Huang, Hongyu Zhao, Hang Zhao
+- **Authors:** Chuan Qin, Shaoting Zhu, Siyuan Luo, Siqiao Huang, Hongyu Zhao, Shanaka Baduge et al. (7 authors)
 - **Published:** 2026-09
 - **Tags:**
   - Manipulation
@@ -407,44 +445,5 @@ Humanoid loco-manipulation requires robots to interpret task instructions and sc
 ### Summary
 
 Learning humanoid-object interaction requires coordinating whole-body balance, locomotion, and dexterous hand contact to control both robot and object motion. Human demonstrations provide examples of coordinated interaction, but transferring these behaviors to humanoid robots requires learning how to establish and maintain effective contacts under different embodiments and dynamics.
-
----
-
-## WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.16644)
-- **Authors:** Zhuo Li, Yiming Yao, Jim Tan, Mengjie Jing, Zhipeng Dong, Fei Chen
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-World Action Models (WAMs) offer a promising approach to general-purpose robot manipulation by jointly modeling visual dynamics and actions. However, most WAM studies focus on tabletop or arm-centric manipulation, while humanoid loco-manipulation remains less explored.
-
----
-
-## Collision-Aware Humanoid Whole-Body Control under Imperfect Tracking Targets
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.16405)
-- **Authors:** Mohitvishnu S. Gadde, Ashish Malik, Pranay Dugar, Aayam Kumar Shrestha, Alan Fern
-- **Published:** 2026-09
-- **Tags:**
-  - Whole-Body Control
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Point Cloud
-  - Collision
-  - PPO
-
-### Summary
-
-Humanoid robots often execute motion commands through whole-body controllers (WBCs) that track targets while maintaining balance and stability. However, most WBCs are blind to scene geometry, which can lead to collisions from imperfect target motions that are geometrically unsafe due to perception, planning, or teleoperation errors.
 
 ---

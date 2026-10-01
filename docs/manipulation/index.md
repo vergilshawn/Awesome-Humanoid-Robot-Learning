@@ -1,10 +1,10 @@
 # Manipulation
 
-**72 papers** in this category.
+**73 papers** in this category.
 
 ## Months
 
-- [2026-09](/manipulation/2026-09) (8 papers)
+- [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
 - [2026-06](/manipulation/2026-06) (8 papers)
@@ -33,6 +33,23 @@
 ---
 
 ## Recent Papers
+
+## IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.39403)
+- **Authors:** Huimin Pan, Yufan Ren, Kunpeng Song, Siyang Wang, Xiwen Zhang, Xiaoyun Hu et al. (19 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - PPO
+
+### Summary
+
+Egocentric human video offers a scalable data source for dexterous manipulation, yet using it to train humanoid robots presents two challenges: (1) an embodiment gap, as human hands differ structurally from robot end-effectors and low-cost egocentric recordings lack the torso kinematics required by conventional retargeting; and (2) heterogeneous data quality, including noisy hand-pose tracking and weakly aligned text annotations. We introduce IronMind, a vision-language-action (VLA) model that uses egocentric human video and heterogeneous robot data to pretrain policies for humanoid dexterous manipulation.
+
+---
 
 ## DexWeave: Learning Dexterous Humanoid Loco-Manipulation from Human Demonstrations
 
@@ -387,21 +404,5 @@ Human demonstrations, which can be collected at scale and naturally capture acti
 ### Summary
 
 Human interventions provide crucial corrective signals for post-training Vision-Language-Action (VLA) models. However, enabling seamless humanoid interventions is a formidable systems challenge due to complex whole-body kinematics and dexterous-hand control.
-
----
-
-## GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.12995)
-- **Authors:** Zhihai Bi, Qiang Zhang, Guoyang Zhao, Jiahang Cao, Xueyin Luo, Yushan Zhang et al. (11 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Zero-Shot
-  - Humanoid
-  - Manipulation
-
-### Summary
-
-Humanoid-Object Interaction (HOI) is a fundamental capability for humanoid robots, yet it remains challenging due to the tight coupling between dynamic balance and stable interaction with diverse objects. Existing methods often require time-consuming task-specific policy training or rely on rigid trajectory replay, which limits their ability to accommodate novel interaction scenarios.
 
 ---

@@ -2,6 +2,134 @@
 
 All papers sorted by publication date (newest first).
 
+## ECHO-G: Embodied Co-speech Humanoid mOtion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.39575)
+- **Authors:** Yizhao Li, Pusen Gao, Ming Wang, Shaojie Shen, Shuo Yang, Hao Xu
+- **Published:** 2026-09
+- **Tags:**
+  - Transformer
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - PPO
+  - Diffusion
+  - Flow Matching
+  - Physics-Based Character Animation
+
+### Summary
+
+Generating full-body co-speech motion for humanoid robots requires coordinating speech prosody, linguistic content, and embodiment-specific motion. To this end, we present ECHO-G, a framework jointly conditioned on speech audio and timed transcripts.
+
+---
+
+## IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.39403)
+- **Authors:** Huimin Pan, Yufan Ren, Kunpeng Song, Siyang Wang, Xiwen Zhang, Xiaoyun Hu et al. (19 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - PPO
+
+### Summary
+
+Egocentric human video offers a scalable data source for dexterous manipulation, yet using it to train humanoid robots presents two challenges: (1) an embodiment gap, as human hands differ structurally from robot end-effectors and low-cost egocentric recordings lack the torso kinematics required by conventional retargeting; and (2) heterogeneous data quality, including noisy hand-pose tracking and weakly aligned text annotations. We introduce IronMind, a vision-language-action (VLA) model that uses egocentric human video and heterogeneous robot data to pretrain policies for humanoid dexterous manipulation.
+
+---
+
+## RoboAssist: Interactive Human-Humanoid Planning for Long-Horizon Surgical Assistance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.39384)
+- **Authors:** Jingwei Jia, Keyu Zhou, Jiewei Wang, Peisen Xu, Xingyuan Zhou, Liang Wang et al. (10 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Navigation
+  - Safety
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Long-horizon surgical assistance requires humanoid robots to coordinate with evolving human activities while maintaining safety across planning and execution. We present RoboAssist, an agent-based framework for interactive human-humanoid planning that integrates workflow reasoning, task coordination, and cross-layer safety.
+
+---
+
+## NEXUS: Perceptive Whole-Body Control for Terrain-Adaptive Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.39000)
+- **Authors:** Xiangyu Miao, Junsong Wu, Jiyuan Shi, Weiji Xie, Jinrui Han, Xingyi Wang et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Zero-Shot
+  - Humanoid
+  - Adaptive Control
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Whole-body teleoperation requires a humanoid robot to reproduce a human operator's behavior even when their terrains differ. This demands that the robot perceive local terrain and adapt its posture and contacts accordingly, rather than copy the operator's motion frame by frame.
+
+---
+
+## Locomotion-Grounded Humanoid Soccer: Task-Gated Reinforcement Learning of a Multi-Directional Kicking Library
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38852)
+- **Authors:** Abu Hanif Muhammad Syarubany, Jaehyun Jang, Hwanhee Kim, Kyuwon Kim, Seungyeon Ryu, Chang D. Yoo
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Gait
+
+### Summary
+
+Recent humanoid soccer systems make motion tracking the substrate and derive locomotion from it, typically by steering a motion-reference anchor toward the ball. This yields strong shooting results, but locomotion is trained only on the narrow, deterministic command distribution ball approach induces, never evaluated as a capability in its own right.
+
+---
+
+## CEER2: Directional and Tunable End-Effector and Root Compliance for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38709)
+- **Authors:** Xinyuan Luo, Chunyuan Yang, Boyuan Chen, Xianyi Cheng
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoids are increasingly capable of tracking complex whole-body motions, but physical interaction introduces a different challenge. When a robot makes contact with a person or the environment, it needs to respond to external forces while preserving the motion needed for the task.
+
+---
+
+## GestAdapt: Workspace-Conditioned Co-Speech Gesture Generation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38400)
+- **Authors:** Bosong Ding, Xianglin Zhang, Miao Xin, Murat Kirtay, Giacomo Spigler
+- **Published:** 2026-09
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - PPO
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Co-speech gestures for robots must adapt not only to speech and embodiment, but also to the workspace available for performing the motion. Since the same speech can be accompanied by different gestures, a robot can respond to workspace constraints, e.g., gestures for speech next to a wall.
+
+---
+
 ## Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.38172)
@@ -44,7 +172,7 @@ Behavior Foundation Models (BFMs) give humanoids a promptable policy over a late
 ## EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.38046)
-- **Authors:** Yiming Jiang, Chen Jin, Chongyang Xu, Yilun Chen, Aimin Hao, Yisheng He
+- **Authors:** Yiming Jiang, Jin Chen, Chongyang Xu, Yilun Chen, Aimin Hao, Yisheng He
 - **Published:** 2026-09
 - **Tags:**
   - Whole-Body Control
@@ -160,7 +288,7 @@ Humanoids now walk, balance and reach with remarkable generality: one whole-body
 ## Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.35450)
-- **Authors:** Zihao Wang, Shutong Liu, Siqi Zheng, Liu Cao, Ruoqi Chen, Rundong Liu et al. (8 authors)
+- **Authors:** Zihao Wang, Shutong Liu, Siqi Zheng, Liu Cao, Ruoqu Chen, Rundong Liu et al. (8 authors)
 - **Published:** 2026-09
 - **Tags:**
   - Locomotion
@@ -260,7 +388,7 @@ Humanoid avatars extend human physical presence beyond the body, enabling people
 ## WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.34199)
-- **Authors:** Chuan Qin, Shaoting Zhu, Siyuan Luo, Siqiao Huang, Hongyu Zhao, Hang Zhao
+- **Authors:** Chuan Qin, Shaoting Zhu, Siyuan Luo, Siqiao Huang, Hongyu Zhao, Shanaka Baduge et al. (7 authors)
 - **Published:** 2026-09
 - **Tags:**
   - Manipulation
@@ -371,6 +499,28 @@ Whole-body compliant control is essential for deploying heavy humanoids under hi
 ### Summary
 
 World Action Models (WAMs) jointly generate video and robot actions through iterative diffusion and perform strongly in robotic manipulation. However, their prohibitive compute and memory costs pose substantial deployment challenges.
+
+---
+
+## Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38216)
+- **Authors:** Pavel Bushuyeu, Yujin Chen, Anton Nikolaev, Brian Shu, Igor Molybog
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Simulator
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+
+### Summary
+
+Existing benchmarks evaluate tabletop manipulation, flat-floor household activity, or humanoid locomotion and manipulation as separate task groups; none scores vertical mobility and dexterous work on a fragile payload in one long-horizon episode. We present Fiatlux, a light-bulb replacement benchmark built on NVIDIA Isaac Lab.
 
 ---
 

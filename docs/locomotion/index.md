@@ -1,10 +1,10 @@
 # Locomotion
 
-**190 papers** in this category.
+**192 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (37 papers)
+- [2026-09](/locomotion/2026-09) (39 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +39,41 @@
 ---
 
 ## Recent Papers
+
+## RoboAssist: Interactive Human-Humanoid Planning for Long-Horizon Surgical Assistance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.39384)
+- **Authors:** Jingwei Jia, Keyu Zhou, Jiewei Wang, Peisen Xu, Xingyuan Zhou, Liang Wang et al. (10 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Navigation
+  - Safety
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Long-horizon surgical assistance requires humanoid robots to coordinate with evolving human activities while maintaining safety across planning and execution. We present RoboAssist, an agent-based framework for interactive human-humanoid planning that integrates workflow reasoning, task coordination, and cross-layer safety.
+
+---
+
+## Locomotion-Grounded Humanoid Soccer: Task-Gated Reinforcement Learning of a Multi-Directional Kicking Library
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38852)
+- **Authors:** Abu Hanif Muhammad Syarubany, Jaehyun Jang, Hwanhee Kim, Kyuwon Kim, Seungyeon Ryu, Chang D. Yoo
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Gait
+
+### Summary
+
+Recent humanoid soccer systems make motion tracking the substrate and derive locomotion from it, typically by steering a motion-reference anchor toward the ball. This yields strong shooting results, but locomotion is trained only on the narrow, deterministic command distribution ball approach induces, never evaluated as a capability in its own right.
+
+---
 
 ## Learning Expressive and Compositional Motion Representation via Spectral Skills
 
@@ -357,42 +392,5 @@ Lower cost open source robots and reinforcement learning (RL) simulation tools c
 ### Summary
 
 Diffusion models offer flexible motion generation, but translating this flexibility into feedback-responsive humanoid control remains challenging. Hierarchical systems steer motion through references that may exceed a separate tracker's capabilities, leaving recovery and physical execution largely to the tracker.
-
----
-
-## LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.24742)
-- **Authors:** Hanxiao Chen
-- **Published:** 2026-09
-- **Tags:**
-  - Humanoid
-  - Large Language Model
-  - PPO
-  - Locomotion
-
-### Summary
-
-Humanoid robots are increasingly being popular and developed for human-centered applications, yet their ability to provide intelligent conversations and natural interactive knowledge assistance remains constrained by traditional rule-based dialogue systems, pre-defined responses and limited knowledge repositories. Large language models (LLMs) have emerged as a powerful foundation for enabling natural, adaptive, and context-aware Human-Robot Interaction (HRI), which provides a significant opportunity to address such limitations by enabling robots to understand natural speech language, reason over complicated queries, maintain high-quality conversational context, and generate knowledge-rich responses.
-
----
-
-## Smoothness as a Constraint for Stable Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.24552)
-- **Authors:** Utsav Panchal, Denis Kleyko, Unal Artan, Amy Loutfi
-- **Published:** 2026-09
-- **Real Robot:** ✅
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Locomotion
-  - Embodied AI
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Embodied AI systems, particularly humanoid robots deployed in real world scenarios require whole-body control policies that are both task-responsive and physically smooth. However, smoothness is not uniform across the body: lower body must remain sufficiently reactive, while the upper body must be tightly regulated to preserve stability.
 
 ---

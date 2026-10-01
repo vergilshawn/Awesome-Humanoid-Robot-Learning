@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**44 papers** in this category.
+**45 papers** in this category.
 
 ## Months
 
-- [2026-09](/physics-based-character-animation/2026-09) (2 papers)
+- [2026-09](/physics-based-character-animation/2026-09) (3 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (6 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
@@ -35,6 +35,27 @@
 ---
 
 ## Recent Papers
+
+## ECHO-G: Embodied Co-speech Humanoid mOtion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.39575)
+- **Authors:** Yizhao Li, Pusen Gao, Ming Wang, Shaojie Shen, Shuo Yang, Hao Xu
+- **Published:** 2026-09
+- **Tags:**
+  - Transformer
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - PPO
+  - Diffusion
+  - Flow Matching
+  - Physics-Based Character Animation
+
+### Summary
+
+Generating full-body co-speech motion for humanoid robots requires coordinating speech prosody, linguistic content, and embodiment-specific motion. To this end, we present ECHO-G, a framework jointly conditioned on speech audio and timed transcripts.
+
+---
 
 ## SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation
 
@@ -348,20 +369,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.22442)
 - **Published:** 2025-09
 - **Tags:**
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## RobotDancing: Residual-Action RL Enables Robust Long-Horizon Humanoid Motion Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2509.20717)
-- **Published:** 2025-09
-- **Tags:**
-  - Humanoid
   - Physics-Based Character Animation
 
 ### Summary

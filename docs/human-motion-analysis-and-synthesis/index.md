@@ -1,10 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**27 papers** in this category.
+**28 papers** in this category.
 
 ## Months
 
-- [2026-09](/human-motion-analysis-and-synthesis/2026-09) (3 papers)
+- [2026-09](/human-motion-analysis-and-synthesis/2026-09) (4 papers)
 - [2026-08](/human-motion-analysis-and-synthesis/2026-08) (1 papers)
 - [2026-07](/human-motion-analysis-and-synthesis/2026-07) (1 papers)
 - [2026-06](/human-motion-analysis-and-synthesis/2026-06) (2 papers)
@@ -27,6 +27,23 @@
 ---
 
 ## Recent Papers
+
+## GestAdapt: Workspace-Conditioned Co-Speech Gesture Generation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38400)
+- **Authors:** Bosong Ding, Xianglin Zhang, Miao Xin, Murat Kirtay, Giacomo Spigler
+- **Published:** 2026-09
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - PPO
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Co-speech gestures for robots must adapt not only to speech and embodiment, but also to the workspace available for performing the motion. Since the same speech can be accompanied by different gestures, a robot can respond to workspace constraints, e.g., gestures for speech next to a wall.
+
+---
 
 ## Humanoid Badminton: Learning Dynamic Racket Skills from Limited Human Motion Data
 
@@ -316,19 +333,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Dataset
   - Multi-Modal
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Scaling Large Motion Models with Million-Level Human Motions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2410.03311)
-- **Published:** 2024-10
-- **Tags:**
   - Human Motion Analysis and Synthesis
 
 ### Summary

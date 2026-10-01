@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**36 papers** in this category.
+**37 papers** in this category.
 
 ## Months
 
-- [2026-09](/simulation-benchmark/2026-09) (4 papers)
+- [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
 - [2026-06](/simulation-benchmark/2026-06) (4 papers)
@@ -60,6 +60,28 @@ Many physical tasks in human environments require collaboration, from assisting 
 ### Summary
 
 Sign data collection is costly, and teleoperation scales poorly, motivating reuse of large video corpora. Humanoid signing requires converting video-derived human motion into robot trajectories while preserving linguistic motion cues.
+
+---
+
+## Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38216)
+- **Authors:** Pavel Bushuyeu, Yujin Chen, Anton Nikolaev, Brian Shu, Igor Molybog
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Simulator
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+
+### Summary
+
+Existing benchmarks evaluate tabletop manipulation, flat-floor household activity, or humanoid locomotion and manipulation as separate task groups; none scores vertical mobility and dexterous work on a fragile payload in one long-horizon episode. We present Fiatlux, a light-bulb replacement benchmark built on NVIDIA Isaac Lab.
 
 ---
 
@@ -374,21 +396,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2026-03
 - **Tags:**
   - Humanoid
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.11337)
-- **Published:** 2026-02
-- **Tags:**
-  - Manipulation
-  - Navigation
   - Simulation Benchmark
 
 ### Summary

@@ -1,5 +1,250 @@
 [
   {
+    "arxiv_id": "2609.39575",
+    "title": "ECHO-G: Embodied Co-speech Humanoid mOtion Generation",
+    "paper_url": "https://arxiv.org/abs/2609.39575",
+    "project_url": null,
+    "authors": [
+      "Yizhao Li",
+      "Pusen Gao",
+      "Ming Wang",
+      "Shaojie Shen",
+      "Shuo Yang",
+      "Hao Xu"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-30",
+    "abstract": "Generating full-body co-speech motion for humanoid robots requires coordinating speech prosody, linguistic content, and embodiment-specific motion. To this end, we present ECHO-G, a framework jointly conditioned on speech audio and timed transcripts. Its Speech-Grounded Diffusion Transformer (SGDiT) combines frame-aligned acoustic features with token-level linguistic context, preserving their distinct granularities. Trained with rectified flow matching, it models one-to-many utterance-motion relationships directly in robot space. To support training and evaluation, we introduce a BEAT2-derived audio-text-robot dataset and a benchmark covering co-speech characteristics, robot-motion quality, and runtime efficiency. Comparative evaluation supports direct robot-space generation over the evaluated human-motion generation and retargeting pipelines, while modality ablations highlight the benefits of joint audio-text conditioning. We further demonstrate deployment on a physical humanoid robot. A complementary video-rating study also favors joint conditioning over the alternatives. The dataset and training, inference, and evaluation code are available through our project page.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Transformer",
+      "Humanoid",
+      "Benchmark",
+      "Dataset",
+      "PPO",
+      "Diffusion",
+      "Flow Matching",
+      "Physics-Based Character Animation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2609.39403",
+    "title": "IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining",
+    "paper_url": "https://arxiv.org/abs/2609.39403",
+    "project_url": null,
+    "authors": [
+      "Huimin Pan",
+      "Yufan Ren",
+      "Kunpeng Song",
+      "Siyang Wang",
+      "Xiwen Zhang",
+      "Xiaoyun Hu",
+      "Zhuoxu Duan",
+      "Hanrui Zheng",
+      "Jialeng Ni",
+      "Nathan Zhao",
+      "Sibo Ma",
+      "Zhenxuan Fan",
+      "Zhongyang Che",
+      "Danny Bao",
+      "Jiacheng Wei",
+      "Jerry Bai",
+      "Xiaoyu Yue",
+      "Xiaoyang Guo",
+      "Chenyi Chen"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-30",
+    "abstract": "Egocentric human video offers a scalable data source for dexterous manipulation, yet using it to train humanoid robots presents two challenges: (1) an embodiment gap, as human hands differ structurally from robot end-effectors and low-cost egocentric recordings lack the torso kinematics required by conventional retargeting; and (2) heterogeneous data quality, including noisy hand-pose tracking and weakly aligned text annotations. We introduce IronMind, a vision-language-action (VLA) model that uses egocentric human video and heterogeneous robot data to pretrain policies for humanoid dexterous manipulation. To bridge the embodiment gap, IronMind bypasses explicit body-retargeting by using a camera-space action representation, the native reference space of egocentric video, and semantically aligning robot and human action dimensions. Across total pretraining budgets from 250 to 10,000 hours, validation loss decreases approximately log-linearly with data scale. Larger pretraining budgets also improve out-of-distribution real-robot manipulation after post-training: across six challenging tasks with unseen objects, affordances, and reasoning prompts, the 10,000-hour model achieves a 55.0% success rate, compared with at most 11.7% for every pretraining budget up to 5,000 hours and 5.0% without pretraining. At the same pretraining budget, the camera-space action representation also outperforms the torso-frame baseline. Together, these findings support pretraining with a camera-space action representation on large-scale human egocentric data as a scalable foundation for humanoid robot manipulation.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "PPO"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2609.39384",
+    "title": "RoboAssist: Interactive Human-Humanoid Planning for Long-Horizon Surgical Assistance",
+    "paper_url": "https://arxiv.org/abs/2609.39384",
+    "project_url": null,
+    "authors": [
+      "Jingwei Jia",
+      "Keyu Zhou",
+      "Jiewei Wang",
+      "Peisen Xu",
+      "Xingyuan Zhou",
+      "Liang Wang",
+      "Jiming Chen",
+      "Gaofeng Li",
+      "Jin Wang",
+      "Shunlei Li"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-30",
+    "abstract": "Long-horizon surgical assistance requires humanoid robots to coordinate with evolving human activities while maintaining safety across planning and execution. We present RoboAssist, an agent-based framework for interactive human-humanoid planning that integrates workflow reasoning, task coordination, and cross-layer safety. At its core is an asymmetric dual-track representation that separates partially observed human process states from executable robot task sequences. By updating human-process estimates, scene context, and task dependencies online, RoboAssist revalidates the remaining task sequence and replans only the affected suffix when workflow requests change. A cross-layer safety architecture combines preventive navigation regulation, reactive regulation during close-range handover, and independent whole-body runtime supervision. This design couples online task coordination with safety constraints throughout execution. We demonstrate the framework on a Unitree G1 humanoid robot in long-horizon, multi-stage simulated surgical assistance scenarios encompassing multimodal interaction, instrument handling, medical material transport, navigation, and safe human-robot handover. Experiments show multi-stage task completion and adaptation to workflow-request changes. A targeted full-replanning ablation shows that residual replanning reduces plan-update latency and post-update token usage. Separate safety experiments demonstrate complementary protection across navigation, handover, and runtime supervision. Additional results and demonstrations are available online at https://roboassist.github.io.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Navigation",
+      "Safety",
+      "Humanoid",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.39000",
+    "title": "NEXUS: Perceptive Whole-Body Control for Terrain-Adaptive Teleoperation",
+    "paper_url": "https://arxiv.org/abs/2609.39000",
+    "project_url": null,
+    "authors": [
+      "Xiangyu Miao",
+      "Junsong Wu",
+      "Jiyuan Shi",
+      "Weiji Xie",
+      "Jinrui Han",
+      "Xingyi Wang",
+      "Weinan Zhang",
+      "Chenjia Bai",
+      "Xuelong Li"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-30",
+    "abstract": "Whole-body teleoperation requires a humanoid robot to reproduce a human operator's behavior even when their terrains differ. This demands that the robot perceive local terrain and adapt its posture and contacts accordingly, rather than copy the operator's motion frame by frame. However, paired motion data linking the same behaviors across flat ground and different terrains remain scarce, limiting supervision for learning terrain-adaptive control. To enable whole-body teleoperation across mismatched terrains, we introduce NEXUS, a perceptive whole-body control framework that combines human motion commands with onboard sensory feedback. We first develop a scalable terrain-aware adaptation algorithm that efficiently generates high-quality motion pairs across motions and terrains without per-motion or per-terrain tuning. Using a paired motion corpus totaling nearly 1,000 hours, we train a perceptive whole-body controller through teacher-student learning to reproduce commanded behaviors across terrains. Experiments demonstrate efficient, scalable generation of high-quality motion data and show that NEXUS combines broad behavioral coverage with terrain adaptability and tracking fidelity, outperforming existing whole-body controllers on the evaluated benchmarks. Zero-shot real-world deployment enables real-time whole-body teleoperation on diverse unseen terrains, further validating the generalization of our method. Project website: https://nexus-humanoid.github.io/",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Teleoperation",
+      "Zero-Shot",
+      "Humanoid",
+      "Adaptive Control",
+      "Benchmark",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.38852",
+    "title": "Locomotion-Grounded Humanoid Soccer: Task-Gated Reinforcement Learning of a Multi-Directional Kicking Library",
+    "paper_url": "https://arxiv.org/abs/2609.38852",
+    "project_url": null,
+    "authors": [
+      "Abu Hanif Muhammad Syarubany",
+      "Jaehyun Jang",
+      "Hwanhee Kim",
+      "Kyuwon Kim",
+      "Seungyeon Ryu",
+      "Chang D. Yoo"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-30",
+    "abstract": "Recent humanoid soccer systems make motion tracking the substrate and derive locomotion from it, typically by steering a motion-reference anchor toward the ball. This yields strong shooting results, but locomotion is trained only on the narrow, deterministic command distribution ball approach induces, never evaluated as a capability in its own right. We invert the stack: a general, command-conditioned locomotion policy is trained first as the substrate, and N motion-guided kicking skills are added on top as task-gated layers, so the reachable gait space is set by the locomotion curriculum rather than any reference clip. Because every skill starts from and returns to this same commandable state, locomotion also becomes a composition hub (O(N) transitions rather than O(N^2)), and post-strike stabilisation is handed back to the trained controller rather than scripted per clip. We instantiate this on a 29-DoF Unitree G1 with seven retargeted kicking skills spanning 259.5 degrees of nominal aim direction, including lateral, rearward and weak-foot strikes a single forward-facing reference cannot express, and report shooting accuracy alongside command-tracking, terrain and push-recovery results with the full skill library attached, an axis prior humanoid soccer systems do not report. The library is validated on hardware across forward, lateral, rearward and commanded approaches.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Gait"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2609.38709",
+    "title": "CEER2: Directional and Tunable End-Effector and Root Compliance for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2609.38709",
+    "project_url": null,
+    "authors": [
+      "Xinyuan Luo",
+      "Chunyuan Yang",
+      "Boyuan Chen",
+      "Xianyi Cheng"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-30",
+    "abstract": "Humanoids are increasingly capable of tracking complex whole-body motions, but physical interaction introduces a different challenge. When a robot makes contact with a person or the environment, it needs to respond to external forces while preserving the motion needed for the task. This response can vary across directions in the end-effectors and on the body. For example, an end effector may need to accommodate contact force in one direction while maintaining motion accuracy in another, while the robot body may resist an external force or move with it. We present a compliance framework for humanoid loco-manipulation that combines directional and tunable end-effector (EE) compliance with selectable root compliance for external force rejection or force following. A hierarchical reinforcement learning controller modulates a fixed whole-body tracking policy through high-level EE and root commands, while interaction forces are estimated from proprioceptive history. Our simulation and real-world experiments on a humanoid demonstrate directional stiffness control, online stiffness adjustment, distinct root compliance, compliant manipulation, and collaborative carrying.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2609.38400",
+    "title": "GestAdapt: Workspace-Conditioned Co-Speech Gesture Generation for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2609.38400",
+    "project_url": null,
+    "authors": [
+      "Bosong Ding",
+      "Xianglin Zhang",
+      "Miao Xin",
+      "Murat Kirtay",
+      "Giacomo Spigler"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-29",
+    "abstract": "Co-speech gestures for robots must adapt not only to speech and embodiment, but also to the workspace available for performing the motion. Since the same speech can be accompanied by different gestures, a robot can respond to workspace constraints, e.g., gestures for speech next to a wall. In these scenarios, the robot should gesture in a suitable motion rather than simply correcting an unconstrained one. To achieve this goal, we present GestAdapt, a workspace-conditioned framework that conditions co-speech gesture generation on a prescribed wrist workspace. The GestAdapt framework learns from six complementary co-speech corpora through a shared motion representation and supports retargeting to different robot embodiments. Quantitative evaluation shows that generated motions remain close to the real-motion distribution while respecting the workspace. In a user study, gestures generated under modified workspace constraints receive a mean quality score of 3.24/5, above our no-workspace variant (2.43/5) and below the reference motions (3.68/5). In a real robot evaluation, all compared motions are retargeted to the Reachy2 humanoid robot under identical workspace constraints. Motions generated with our framework rank first in 69.7\\% of comparisons, higher than our no-workspace variant baseline and retargeted ground-truth motions constrained afterward. Overall, the results support adapting gestures to the available workspace during generation, rather than modifying unconstrained trajectories afterward to satisfy workspace constraints, potentially compromising gesture naturalness.",
+    "categories": [
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Real Robot",
+      "Humanoid",
+      "PPO",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
     "arxiv_id": "2609.38172",
     "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
     "paper_url": "https://arxiv.org/abs/2609.38172",
@@ -79,7 +324,7 @@
     "project_url": null,
     "authors": [
       "Yiming Jiang",
-      "Chen Jin",
+      "Jin Chen",
       "Chongyang Xu",
       "Yilun Chen",
       "Aimin Hao",
@@ -296,7 +541,7 @@
       "Shutong Liu",
       "Siqi Zheng",
       "Liu Cao",
-      "Ruoqi Chen",
+      "Ruoqu Chen",
       "Rundong Liu",
       "Yanchao Yang",
       "Mengdi Xu"
@@ -486,6 +731,7 @@
       "Siyuan Luo",
       "Siqiao Huang",
       "Hongyu Zhao",
+      "Shanaka Baduge",
       "Hang Zhao"
     ],
     "published": "2026-09",
@@ -691,6 +937,45 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2609.38216",
+    "title": "Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement",
+    "paper_url": "https://arxiv.org/abs/2609.38216",
+    "project_url": null,
+    "authors": [
+      "Pavel Bushuyeu",
+      "Yujin Chen",
+      "Anton Nikolaev",
+      "Brian Shu",
+      "Igor Molybog"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-27",
+    "abstract": "Existing benchmarks evaluate tabletop manipulation, flat-floor household activity, or humanoid locomotion and manipulation as separate task groups; none scores vertical mobility and dexterous work on a fragile payload in one long-horizon episode. We present Fiatlux, a light-bulb replacement benchmark built on NVIDIA Isaac Lab. In one episode, a Unitree G1 humanoid positions a step ladder under a ceiling or wall fixture, climbs it, exchanges a spent bulb in a socket for a fresh one, and leaves the spent one in a disposal crate. We decompose the episode into twelve subtask environments scored on difficulty-weighted gates. The goal is a successful replacement, with the fresh bulb seated, the spent one disposed of, neither dropped, and a fragility bound not crossed. Runs that fall short can earn partial credit. Observations are split into a standard mode (signals a physical robot could sense or estimate) and a privileged mode (exact simulator state). We specify the evaluation protocol and provide reference baseline implementations spanning RSL-RL PPO, zero-shot NVIDIA GR00T N1.7 Vision-Language-Action (VLA) models, and whole-body controllers. Additionally, we provide the teleoperated recordings used to specify and check the success gates. The benchmark code and the teleoperated recordings are available at fiatlux-bench.github.io.",
+    "categories": [
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Zero-Shot",
+      "Simulator",
+      "Humanoid",
+      "Vision-Language",
+      "Benchmark",
+      "PPO",
+      "Simulation Benchmark",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
   },
   {
     "arxiv_id": "2609.33096",
