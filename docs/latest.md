@@ -2,6 +2,120 @@
 
 All papers sorted by publication date (newest first).
 
+## InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.02196)
+- **Authors:** Zhuo Lin, Sirui Xu, Liuyu Bian, Yu-Xiong Wang, Liang-Yan Gui
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interactions, yet executable and measurable enough that execution feedback can guide planning from experience.
+
+---
+
+## HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.02089)
+- **Authors:** Kyochul Jang, Seohyeon Park, Ohchul Kwon, Sangjun Park, Junhyeok Choi, Seungyeop Yi et al. (12 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+As robotic hardware and learning methods advance, humanoids need tools to perform tasks beyond their inherent physical limits. Successful tool use requires selecting a suitable tool and coordinating manipulation and, when needed, locomotion to complete the task.
+
+---
+
+## Continue, Abort, or Fall: Viability-Aware Policy Selection (VAPS) for Safe Humanoid Acrobatics
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.01397)
+- **Authors:** Siwei Ju, Lu Liu, Jan Peters, Oleg Arenz
+- **Published:** 2026-10
+- **Tags:**
+  - Sim-to-Real
+  - Safety
+  - Humanoid
+  - Impact
+  - SAC
+  - Locomotion
+
+### Summary
+
+Dynamic humanoid motions such as flips risk hardware damage due to suboptimal policies, disturbances or sim-to-real gaps. A motion tracking policy offers no way out once the maneuver leaves its reference, and a backup policy needs to take over to protect the hardware for a minimum-damage landing.
+
+---
+
+## Reactive Humanoid Multi-Contact Using Learned Stability Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.00823)
+- **Authors:** Stephen McCrory, Beomyeong Park, Nicholas Kitchel, Nehar Poddar, Robert Griffin
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Walking
+  - Impact
+  - Optimization-Based
+  - Locomotion
+
+### Summary
+
+We present a planning and control approach to reactively use hand contacts to stabilize a humanoid in low stability scenarios, where only using feet contacts may result in a fall. Candidate contacts are sampled within the robot's reachable workspace, and a preview is computed by rolling out the centroidal dynamics through pre-impact, impact and post-impact phases.
+
+---
+
+## Toward Humanoid Robots in Construction: A Teleoperation Feasibility Study
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.00718)
+- **Authors:** Parastoo Ali Pour, David R. Martin, Chang Min Hur, Bo Zhang, Tommy Zhou, Brandon Thomas Lichter et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+We present a teleoperation system that enables a single operator to perform construction tasks on a Unitree G1 humanoid, combining extended reality (XR) based upper body control with pedal-based locomotion to enable simultaneous manipulation and locomotion. Motivated by persistent labor shortages, hazardous working conditions, and challenges in humanoid autonomy, we investigate teleoperation as a practical near-term approach for reducing physical strain on workers while generating high quality demonstration data.
+
+---
+
+## Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.00438)
+- **Authors:** Chongyang Xu, Zhao Wu, Jin Chen, Yiming Jiang, Jinhui Ye, Yuming Jiang et al. (12 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements. Meanwhile, egocentric human videos provide diverse examples of everyday interactions across objects and scenes, offering scalable supervision without robot operation.
+
+---
+
 ## ECHO-G: Embodied Co-speech Humanoid mOtion Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.39575)

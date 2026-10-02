@@ -48,12 +48,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (254)",
+            "text": "Loco-Manipulation and Whole-Body Control (256)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/loco-manipulation-and-whole-body-control/"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/loco-manipulation-and-whole-body-control/2026-10"
                   },
                   {
                         "text": "2026-09",
@@ -288,7 +292,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (31)",
+            "text": "Teleoperation (32)",
             "collapsed": true,
             "items": [
                   {
@@ -362,12 +366,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (192)",
+            "text": "Locomotion (194)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/locomotion/"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/locomotion/2026-10"
                   },
                   {
                         "text": "2026-09",
@@ -760,12 +768,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (37)",
+            "text": "Simulation Benchmark (38)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/simulation-benchmark/"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/simulation-benchmark/2026-10"
                   },
                   {
                         "text": "2026-09",

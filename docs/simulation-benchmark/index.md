@@ -1,9 +1,10 @@
 # Simulation Benchmark
 
-**37 papers** in this category.
+**38 papers** in this category.
 
 ## Months
 
+- [2026-10](/simulation-benchmark/2026-10) (1 papers)
 - [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
@@ -25,6 +26,27 @@
 ---
 
 ## Recent Papers
+
+## HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.02089)
+- **Authors:** Kyochul Jang, Seohyeon Park, Ohchul Kwon, Sangjun Park, Junhyeok Choi, Seungyeop Yi et al. (12 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+As robotic hardware and learning methods advance, humanoids need tools to perform tasks beyond their inherent physical limits. Successful tool use requires selecting a suitable tool and coordinating manipulation and, when needed, locomotion to complete the task.
+
+---
 
 ## CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration
 
@@ -382,20 +404,6 @@ Recent advances in humanoid locomotion have enabled dynamic behaviors, but clutt
 - **Project:** [GitHub](https://irislab.tech/comfree-sim/)
 - **Published:** 2026-03
 - **Tags:**
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.06181)
-- **Published:** 2026-03
-- **Tags:**
-  - Humanoid
   - Simulation Benchmark
 
 ### Summary

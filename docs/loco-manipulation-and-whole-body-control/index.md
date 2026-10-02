@@ -1,10 +1,11 @@
 # Loco-Manipulation and Whole-Body Control
 
-**254 papers** in this category.
+**256 papers** in this category.
 
 ## Months
 
-- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (33 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (1 papers)
+- [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
 - [2026-06](/loco-manipulation-and-whole-body-control/2026-06) (25 papers)
@@ -38,6 +39,45 @@
 ---
 
 ## Recent Papers
+
+## InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.02196)
+- **Authors:** Zhuo Lin, Sirui Xu, Liuyu Bian, Yu-Xiong Wang, Liang-Yan Gui
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interactions, yet executable and measurable enough that execution feedback can guide planning from experience.
+
+---
+
+## Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.00438)
+- **Authors:** Chongyang Xu, Zhao Wu, Jin Chen, Yiming Jiang, Jinhui Ye, Yuming Jiang et al. (12 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements. Meanwhile, egocentric human videos provide diverse examples of everyday interactions across objects and scenes, offering scalable supervision without robot operation.
+
+---
 
 ## NEXUS: Perceptive Whole-Body Control for Terrain-Adaptive Teleoperation
 
@@ -407,43 +447,5 @@ Motion tracking can reproduce humanoid loco-manipulation from a single retargete
 ### Summary
 
 Humanoid loco-manipulation requires adaptive whole-body coordination to seamlessly integrate locomotion and physical interaction. Despite recent advances, learning autonomous loco-manipulation remains challenging due to the scarcity of diverse, physically executable robot-object interaction data and the difficulty of learning unified whole-body control directly from onboard observations.
-
----
-
-## KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.18869)
-- **Authors:** Sitong Chen, Fatemeh Zargarbashi, Jin Cheng, Tianxu An, Stelian Coros
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid loco-manipulation requires robots to interpret task instructions and scene semantics while executing coordinated whole-body motions. We propose a hierarchical framework that uses motion keyframes as an intermediate representation between Vision-Language Model (VLM) planning and Reinforcement Learning (RL) control.
-
----
-
-## Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.16683)
-- **Authors:** Liu Cao, Xingze Wu, Jingzhi Cui, Botian Xu, Mingzhi Pei, Ruoqu Chen et al. (7 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Human Demonstration
-  - Humanoid
-  - Policy Learning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Learning humanoid-object interaction requires coordinating whole-body balance, locomotion, and dexterous hand contact to control both robot and object motion. Human demonstrations provide examples of coordinated interaction, but transferring these behaviors to humanoid robots requires learning how to establish and maintain effective contacts under different embodiments and dynamics.
 
 ---

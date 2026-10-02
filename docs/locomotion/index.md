@@ -1,10 +1,11 @@
 # Locomotion
 
-**192 papers** in this category.
+**194 papers** in this category.
 
 ## Months
 
-- [2026-09](/locomotion/2026-09) (39 papers)
+- [2026-10](/locomotion/2026-10) (1 papers)
+- [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
@@ -39,6 +40,43 @@
 ---
 
 ## Recent Papers
+
+## Continue, Abort, or Fall: Viability-Aware Policy Selection (VAPS) for Safe Humanoid Acrobatics
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.01397)
+- **Authors:** Siwei Ju, Lu Liu, Jan Peters, Oleg Arenz
+- **Published:** 2026-10
+- **Tags:**
+  - Sim-to-Real
+  - Safety
+  - Humanoid
+  - Impact
+  - SAC
+  - Locomotion
+
+### Summary
+
+Dynamic humanoid motions such as flips risk hardware damage due to suboptimal policies, disturbances or sim-to-real gaps. A motion tracking policy offers no way out once the maneuver leaves its reference, and a backup policy needs to take over to protect the hardware for a minimum-damage landing.
+
+---
+
+## Reactive Humanoid Multi-Contact Using Learned Stability Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.00823)
+- **Authors:** Stephen McCrory, Beomyeong Park, Nicholas Kitchel, Nehar Poddar, Robert Griffin
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Walking
+  - Impact
+  - Optimization-Based
+  - Locomotion
+
+### Summary
+
+We present a planning and control approach to reactively use hand contacts to stabilize a humanoid in low stability scenarios, where only using feet contacts may result in a fall. Candidate contacts are sampled within the robot's reachable workspace, and a preview is computed by rolling out the centroidal dynamics through pre-impact, impact and post-impact phases.
+
+---
 
 ## RoboAssist: Interactive Human-Humanoid Planning for Long-Horizon Surgical Assistance
 
@@ -353,44 +391,5 @@ We investigate humanoid locomotion with a fly-inspired recurrent controller and 
 ### Summary
 
 Humanoid motion tracking policies rely on dense frame-by-frame references, limiting their use as high-level motion controllers for planning and interactive motion generation. We study \emph{Sparse Timed Keyframe Motion Tracking}, where a policy receives only sparse future keyframes and their desired arrival times, and must execute stable whole-body motions that reach successive goals.
-
----
-
-## Teaching Reinforcement Learning and Humanoid Robotics to High-School Students: An Expert-Validated Curriculum Design on a Low-Cost Open Platform
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.25674)
-- **Authors:** Yuanzhe Dong, Jie Cao, Shuman Wang
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Open Source
-  - Humanoid
-  - Walking
-  - System Identification
-  - Policy Learning
-  - PPO
-  - GAN
-
-### Summary
-
-Lower cost open source robots and reinforcement learning (RL) simulation tools create new opportunities for precollege students to engage with contemporary robotics. However, translating a complete research workflow, spanning mechanical assembly, electrical setup, simulation, policy learning, system identification, and physical deployment, into a coherent course for novice learners remains challenging.
-
----
-
-## PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.24840)
-- **Authors:** Lei Ye, Haibo Gao, Yitang Li, Peng Xu, Zetong Jing, Junhan Sun et al. (13 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Diffusion Policy
-  - Humanoid
-  - PPO
-  - Diffusion
-  - Locomotion
-
-### Summary
-
-Diffusion models offer flexible motion generation, but translating this flexibility into feedback-responsive humanoid control remains challenging. Hierarchical systems steer motion through references that may exceed a separate tracker's capabilities, leaving recovery and physical execution largely to the tracker.
 
 ---

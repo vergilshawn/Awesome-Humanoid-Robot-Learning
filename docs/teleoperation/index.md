@@ -1,10 +1,10 @@
 # Teleoperation
 
-**31 papers** in this category.
+**32 papers** in this category.
 
 ## Months
 
-- [2026-09](/teleoperation/2026-09) (6 papers)
+- [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
 - [2026-06](/teleoperation/2026-06) (2 papers)
@@ -24,6 +24,23 @@
 ---
 
 ## Recent Papers
+
+## Toward Humanoid Robots in Construction: A Teleoperation Feasibility Study
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.00718)
+- **Authors:** Parastoo Ali Pour, David R. Martin, Chang Min Hur, Bo Zhang, Tommy Zhou, Brandon Thomas Lichter et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+We present a teleoperation system that enables a single operator to perform construction tasks on a Unitree G1 humanoid, combining extended reality (XR) based upper body control with pedal-based locomotion to enable simultaneous manipulation and locomotion. Motivated by persistent labor shortages, hazardous working conditions, and challenges in humanoid autonomy, we investigate teleoperation as a practical near-term approach for reducing physical strain on workers while generating high quality demonstration data.
+
+---
 
 ## GAE: General Action Expert for Real-Time Humanoid Teleoperation
 
@@ -339,20 +356,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Teleoperation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## LapSurgie: Humanoid Robots Performing Surgery via Teleoperated Handheld Laparoscopy
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.03529)
-- **Published:** 2025-10
-- **Tags:**
-  - Humanoid
-  - Teleoperation
 
 ### Summary
 

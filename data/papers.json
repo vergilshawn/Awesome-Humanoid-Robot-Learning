@@ -1,5 +1,216 @@
 [
   {
+    "arxiv_id": "2610.02196",
+    "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.02196",
+    "project_url": null,
+    "authors": [
+      "Zhuo Lin",
+      "Sirui Xu",
+      "Liuyu Bian",
+      "Yu-Xiong Wang",
+      "Liang-Yan Gui"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-01",
+    "abstract": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interactions, yet executable and measurable enough that execution feedback can guide planning from experience. InterEvolve realizes this interface with two components. First, we develop an object-aware forward-backward (FB) behavioral foundation model, whose object residuals on a frozen body prior turn a new reward about the body or objects into loco-manipulation behavior at test time. Second, we specify tasks as reward programs: staged rewards with completion conditions and tunable constants. A large language model (LLM) agent revises the program structure in context, drawing on execution feedback and a skill library of verified programs, while a numerical optimizer tunes its constants. With every candidate verified across parallel simulation scenarios, the program explores new ways to induce, repurpose, and compose the controller's existing motor competence for the task at hand, and thus improves over iterations. Experiments show that human-designed rewards leave much of the FB model's loco-manipulation competence untapped, whereas the programs InterEvolve evolves release it, sometimes through novel strategies. It further produces behaviors for diverse tasks, complex scenes, and long-horizon compositions in simulation, and evolved skills run autonomously on a physical Unitree G1 from egocentric onboard perception.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Foundation Model",
+      "Large Language Model",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.02089",
+    "title": "HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution",
+    "paper_url": "https://arxiv.org/abs/2610.02089",
+    "project_url": null,
+    "authors": [
+      "Kyochul Jang",
+      "Seohyeon Park",
+      "Ohchul Kwon",
+      "Sangjun Park",
+      "Junhyeok Choi",
+      "Seungyeop Yi",
+      "Chaeyun Kim",
+      "Sangkyu Lee",
+      "Idan Szpektor",
+      "Avi Caciularu",
+      "Jongmin Park",
+      "Youngjae Yu"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-01",
+    "abstract": "As robotic hardware and learning methods advance, humanoids need tools to perform tasks beyond their inherent physical limits. Successful tool use requires selecting a suitable tool and coordinating manipulation and, when needed, locomotion to complete the task. Existing benchmarks do not jointly evaluate these capabilities on a humanoid. We introduce HumanoidToolBench, an 18-task benchmark spanning three scenarios, three execution levels, and two tool-set modes, together with ToolBook, a dataset of 3.1k demonstrations collected in simulation and on a real Unitree G1. Evaluation of seven policies in simulation and three on the real robot reveals substantial gaps between selecting a suitable tool and completing the task. Focused GR00T N1.7 probes show reduced selection accuracy on unseen tools and continued task execution under unrelated instructions. Code and data are available at https://snu-pi.github.io/HumanoidToolBench/.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Real Robot",
+      "Humanoid",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2610.01397",
+    "title": "Continue, Abort, or Fall: Viability-Aware Policy Selection (VAPS) for Safe Humanoid Acrobatics",
+    "paper_url": "https://arxiv.org/abs/2610.01397",
+    "project_url": null,
+    "authors": [
+      "Siwei Ju",
+      "Lu Liu",
+      "Jan Peters",
+      "Oleg Arenz"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-01",
+    "abstract": "Dynamic humanoid motions such as flips risk hardware damage due to suboptimal policies, disturbances or sim-to-real gaps. A motion tracking policy offers no way out once the maneuver leaves its reference, and a backup policy needs to take over to protect the hardware for a minimum-damage landing. Which backup to use matters as much as when to switch. We present Viability-Aware Policy Selection (VAPS), which treats safety as a policy-conditioned, receding-horizon decision. Besides a protective fall policy, we also train an abort policy which can abort the motion at any time, landing on its feet. At every control step, learned predictors estimate whether the nominal tracking policy and the abort policy remain viable over a short horizon, and a least-sacrificial hierarchy keeps the most task-ambitious behavior that remains viable. In simulation with randomized disturbances, VAPS sharply reduces head contact and hand contact, which are the dominant sources of hardware damage, with both a Unitree G1 and a LimX Oli; on the LimX Oli, we validate the viability predictors and the full VAPS controller for side-flip motions. VAPS Pareto-dominates the strongest single-network alternatives we could train, including an end-to-end safe-tracking policy and students distilled from VAPS's own oracle-routed decisions, in both task success and head impact. We also show that VAPS is a powerful framework to supervise undertrained policies and protect the hardware.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Safety",
+      "Humanoid",
+      "Impact",
+      "SAC",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.00823",
+    "title": "Reactive Humanoid Multi-Contact Using Learned Stability Models",
+    "paper_url": "https://arxiv.org/abs/2610.00823",
+    "project_url": null,
+    "authors": [
+      "Stephen McCrory",
+      "Beomyeong Park",
+      "Nicholas Kitchel",
+      "Nehar Poddar",
+      "Robert Griffin"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-30",
+    "abstract": "We present a planning and control approach to reactively use hand contacts to stabilize a humanoid in low stability scenarios, where only using feet contacts may result in a fall. Candidate contacts are sampled within the robot's reachable workspace, and a preview is computed by rolling out the centroidal dynamics through pre-impact, impact and post-impact phases. Sampled points are scored based on the Center of Pressure (CoP) control authority at the post-impact phase. Central to our approach is a learned model of the robot's CoP region during post-impact, which enables rapid evaluation of candidate contact points compared to traditional optimization-based methods. The presented planner has two stages: the first selects an optimal bracing region and the second computes an optimal bracing point within the region. Our simulation results demonstrate an average increase in impulse resilience of 89% over recovery without hand contacts and 17% over a naive planning strategy (closest reachable region). We validate our framework on hardware, performing push tests while standing and walking. The standing trials show an average 43% reduction in stabilization time compared to naive hand placement and the walking trials demonstrate a 18% reduction compared to baseline recovery (without hand contacts).",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Walking",
+      "Impact",
+      "Optimization-Based",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.00718",
+    "title": "Toward Humanoid Robots in Construction: A Teleoperation Feasibility Study",
+    "paper_url": "https://arxiv.org/abs/2610.00718",
+    "project_url": null,
+    "authors": [
+      "Parastoo Ali Pour",
+      "David R. Martin",
+      "Chang Min Hur",
+      "Bo Zhang",
+      "Tommy Zhou",
+      "Brandon Thomas Lichter",
+      "Shane Stanfield",
+      "Pramod Khargonekar",
+      "Mohammad Abdullah Al Faruque"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-30",
+    "abstract": "We present a teleoperation system that enables a single operator to perform construction tasks on a Unitree G1 humanoid, combining extended reality (XR) based upper body control with pedal-based locomotion to enable simultaneous manipulation and locomotion. Motivated by persistent labor shortages, hazardous working conditions, and challenges in humanoid autonomy, we investigate teleoperation as a practical near-term approach for reducing physical strain on workers while generating high quality demonstration data. We evaluate the system on two representative construction tasks drawn from O*NET occupational database, and report task success and completion time relative to a manual baseline. The system achieved 100% success on tool transport and 80% success on surface painting, with teleoperation requiring substantially more time compared to manual execution.",
+    "categories": [
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2610.00438",
+    "title": "Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining",
+    "paper_url": "https://arxiv.org/abs/2610.00438",
+    "project_url": null,
+    "authors": [
+      "Chongyang Xu",
+      "Zhao Wu",
+      "Jin Chen",
+      "Yiming Jiang",
+      "Jinhui Ye",
+      "Yuming Jiang",
+      "Shifeng Zhang",
+      "Ziliang Feng",
+      "Mu Xu",
+      "Yilun Chen",
+      "Li Lu",
+      "Steven C. H. Hoi"
+    ],
+    "published": "2026-09",
+    "published_date": "2026-09-30",
+    "abstract": "Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements. Meanwhile, egocentric human videos provide diverse examples of everyday interactions across objects and scenes, offering scalable supervision without robot operation. However, existing supervision from these videos provides limited coverage of whole-body movement and coordination with hand-object interaction, while obtaining such supervision through humanoid teleoperation is also costly and difficult to scale. We therefore explore how human experience can support scalable learning of humanoid loco-manipulation. To support this study, we introduce HumanVerse-500, a 500-hour dataset of diverse human loco-manipulation behaviors in open-world environments, collected with a lightweight wearable system that synchronizes egocentric video with body and hand motion. Building on this dataset, we develop $λ_0$, a whole-body humanoid vision-language-action policy, through three-stage training that first learns interaction from diverse egocentric datasets, then coordinates body and hand motion using HumanVerse-500, and finally adapts the policy to downstream tasks and robot embodiments. Across these stages, $λ_0$ learns a shared representation space for human experience transfer, while domain-specific interfaces handle differences between human and robot states and actions. We evaluate $λ_0$ on SIMPLE and 4 real-world loco-manipulation tasks, achieving state-of-the-art performance, and further analyze its scaling behavior, generalization, and training-stage contributions to understand how human data support downstream whole-body humanoid control. We will release our code, models, and data to support further research.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "Dataset",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2609.39575",
     "title": "ECHO-G: Embodied Co-speech Humanoid mOtion Generation",
     "paper_url": "https://arxiv.org/abs/2609.39575",

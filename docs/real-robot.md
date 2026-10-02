@@ -8,7 +8,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Booster:** 2 papers
 - **Digit:** 1 papers
 - **Figure:** 9 papers
-- **Unitree G1:** 45 papers
+- **Unitree G1:** 46 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 19 papers
 - **iCub:** 1 papers
@@ -16,6 +16,27 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.02089)
+- **Authors:** Kyochul Jang, Seohyeon Park, Ohchul Kwon, Sangjun Park, Junhyeok Choi, Seungyeop Yi et al. (12 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+As robotic hardware and learning methods advance, humanoids need tools to perform tasks beyond their inherent physical limits. Successful tool use requires selecting a suitable tool and coordinating manipulation and, when needed, locomotion to complete the task.
+
+---
 
 ## Locomotion-Grounded Humanoid Soccer: Task-Gated Reinforcement Learning of a Multi-Directional Kicking Library
 
