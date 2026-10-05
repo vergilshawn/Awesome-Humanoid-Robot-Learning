@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**256 papers** in this category.
+**257 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (1 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (2 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,24 @@
 ---
 
 ## Recent Papers
+
+## Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.02341)
+- **Authors:** Pranit Mohnot, Christian Helten, Daniele Gammelli, Marco Pavone
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Safety
+  - Humanoid
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Safe whole-body motion is essential for deploying humanoid robots in unstructured environments. Modern humanoid control commonly separates reference specification from execution, with a planner, teleoperator, or motion generator providing a reference that a reinforcement-learning policy tracks through dynamically feasible whole-body control.
+
+---
 
 ## InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation
 
@@ -425,27 +443,5 @@ Safe whole-body control requires coordinating collision avoidance and balance un
 ### Summary
 
 Motion tracking can reproduce humanoid loco-manipulation from a single retargeted motion clip, but a policy trained on a fixed reference primarily reproduces its demonstrated transport outcome. Although the source trajectory visits intermediate object displacements, transport termination is demonstrated only at its endpoint.
-
----
-
-## ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.19340)
-- **Authors:** Zejie Tian, Ruibing Hou, Bingpeng Ma, Börje F. Karlsson, Shiguang Shan
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Proprioception
-  - Distillation
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Humanoid loco-manipulation requires adaptive whole-body coordination to seamlessly integrate locomotion and physical interaction. Despite recent advances, learning autonomous loco-manipulation remains challenging due to the scarcity of diverse, physically executable robot-object interaction data and the difficulty of learning unified whole-body control directly from onboard observations.
 
 ---

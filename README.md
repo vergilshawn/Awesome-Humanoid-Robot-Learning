@@ -2,7 +2,7 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 755
+- **Total Papers:** 758
 - **Real Robot Papers:** 80
 - **Open Source Papers:** 128
 
@@ -10,10 +10,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (256)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (257)
 - [Manipulation](#manipulation) (73)
 - [Teleoperation](#teleoperation) (32)
-- [Locomotion](#locomotion) (194)
+- [Locomotion](#locomotion) (196)
 - [Navigation](#navigation) (23)
 - [State Estimation](#state-estimation) (21)
 - [Sim-to-Real](#sim-to-real) (13)
@@ -29,6 +29,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-10
 
+- [Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking](https://arxiv.org/abs/2610.02341) — `Whole-Body Control`, `Safety`, `Humanoid`, `Fine-tuning`, `Loco-Manipulation and Whole-Body Control`
 - [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.02196) — `Manipulation`, `Humanoid`, `Foundation Model`, `Large Language Model`, `Loco-Manipulation and Whole-Body Control`
 
 ### 2026-09
@@ -612,6 +613,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-10
 
+- [KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery](https://arxiv.org/abs/2610.03388) — `Humanoid`, `Dataset`, `PPO`, `Locomotion`
+- [Beyond Reward Hacking: Proxy Divergence Across Four Layers of a Staged Humanoid Learning Pipeline](https://arxiv.org/abs/2610.03196) — `Robustness`, `Humanoid`, `Gait`, `PPO`, `Locomotion`
 - [Continue, Abort, or Fall: Viability-Aware Policy Selection (VAPS) for Safe Humanoid Acrobatics](https://arxiv.org/abs/2610.01397) — `Sim-to-Real`, `Safety`, `Humanoid`, `Impact`, `SAC`, `Locomotion`
 
 ### 2026-09

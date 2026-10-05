@@ -1,10 +1,10 @@
 # Locomotion
 
-**194 papers** in this category.
+**196 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (1 papers)
+- [2026-10](/locomotion/2026-10) (3 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,41 @@
 ---
 
 ## Recent Papers
+
+## KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.03388)
+- **Authors:** Zhongxiang Lei, Lulu Cao, Xuyang Wang, Tianyi Qian, Jinyan Liu, Xuesong Li
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - PPO
+  - Locomotion
+
+### Summary
+
+Video is an abundant, inexpensive source of human motion data that is rich in extreme athletic behaviors. Making it usable for humanoid robots, however, is not a matter of simply retargeting a reconstructed trajectory: video-derived motion is physically inconsistent, devoid of actuation information, and says nothing about failure or recovery.
+
+---
+
+## Beyond Reward Hacking: Proxy Divergence Across Four Layers of a Staged Humanoid Learning Pipeline
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.03196)
+- **Authors:** Arunabh Bora
+- **Published:** 2026-10
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - Gait
+  - PPO
+  - Locomotion
+
+### Summary
+
+A reinforcement-learning (RL) pipeline for a legged robot is assembled from proxies. A reward stands in for intended behaviour, a curriculum gate stands in for competence, an evaluation statistic stands in for robustness, and a reference motion stands in for an achievable skill.
+
+---
 
 ## Continue, Abort, or Fall: Viability-Aware Policy Selection (VAPS) for Safe Humanoid Acrobatics
 
@@ -356,40 +391,5 @@ Humanoid kicking requires coordinated whole-body motion and precise contact, whi
 ### Summary
 
 Runway walking requires coordinated control of posture, stride, foot placement, and whole-body motion to effectively present clothing and convey a distinctive style. However, humanoid robots used in fashion shows typically rely on locomotion policies optimized primarily for stability and walking speed, limiting their ability to reproduce expressive, human-like runway motions.
-
----
-
-## Humanoid Locomotion with a Fly-Inspired Recurrent Controller
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.27001)
-- **Authors:** Isabel Guan, Yuntian Zhao, Dingyuan Zhang, Shipeng Lyu
-- **Published:** 2026-09
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - PPO
-
-### Summary
-
-We investigate humanoid locomotion with a fly-inspired recurrent controller and identify the pathways supporting its deployed behavior. The controller couples 3,609 continuous neural states to a simulated Unitree G1 through body-observation projections, a motor-neuron-labelled readout, and joint servos.
-
----
-
-## PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.25754)
-- **Authors:** Zepeng Wang, Jiangxing Wang, Chao Ma, Xiaochuan Shi, Zongqing Lu
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Goal-Conditioned
-  - Policy Learning
-  - DAgger
-  - Locomotion
-
-### Summary
-
-Humanoid motion tracking policies rely on dense frame-by-frame references, limiting their use as high-level motion controllers for planning and interactive motion generation. We study \emph{Sparse Timed Keyframe Motion Tracking}, where a policy receives only sparse future keyframes and their desired arrival times, and must execute stable whole-body motions that reach successive goals.
 
 ---

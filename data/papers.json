@@ -1,5 +1,93 @@
 [
   {
+    "arxiv_id": "2610.03388",
+    "title": "KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery",
+    "paper_url": "https://arxiv.org/abs/2610.03388",
+    "project_url": null,
+    "authors": [
+      "Zhongxiang Lei",
+      "Lulu Cao",
+      "Xuyang Wang",
+      "Tianyi Qian",
+      "Jinyan Liu",
+      "Xuesong Li"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-02",
+    "abstract": "Video is an abundant, inexpensive source of human motion data that is rich in extreme athletic behaviors. Making it usable for humanoid robots, however, is not a matter of simply retargeting a reconstructed trajectory: video-derived motion is physically inconsistent, devoid of actuation information, and says nothing about failure or recovery. We present KungfuAthleteBot (KAB), a framework that treats learning high-dynamic motion from video as the central problem and resolves each of these three failure modes in turn. (C1) We build the KungfuAthlete dataset from videos of national-level martial artists and introduce a physics-guided parabolic trajectory correction that removes height floating, ground penetration, and high-frequency jitter from reconstructed aerial and landing phases. (C2) Because video carries no force information, strict tracking of a reconstructed trajectory is dynamically infeasible, and error-driven initialization keeps re-launching the policy from infeasible aerial poses. We introduce physics-driven pseudo-low-kinetic-energy (LKE) sampling, our central mechanism for making such references learnable: it biases initialization towards dynamically feasible states, letting the policy discover feasible actuation patterns instead of imitating infeasible ones. (C3) Finally, we introduce a direct training paradigm in which disturbance rejection and fall recovery are learned inside the same policy that tracks the video motion, requiring no recovery reference data and no manual mode switching. On a humanoid robot, KAB learns dynamic skills from video and recovers from arbitrary falls in about 0.7 s, the fastest reported recovery for a unified policy. Ablations on the unified policy confirm the necessity of its components, supporting the view that repairing and compensating video data, rather than only collecting more of it, is what unlocks high-dynamic humanoid skills.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Dataset",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.03196",
+    "title": "Beyond Reward Hacking: Proxy Divergence Across Four Layers of a Staged Humanoid Learning Pipeline",
+    "paper_url": "https://arxiv.org/abs/2610.03196",
+    "project_url": null,
+    "authors": [
+      "Arunabh Bora"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-02",
+    "abstract": "A reinforcement-learning (RL) pipeline for a legged robot is assembled from proxies. A reward stands in for intended behaviour, a curriculum gate stands in for competence, an evaluation statistic stands in for robustness, and a reference motion stands in for an achievable skill. The traditional view treats only the first of these as optimised against, and so locates specification failure (reward hacking) in the reward alone. I argue that all four are proxies in the same formal sense, that each has a characteristic divergence mechanism, and that each admits a reformulation that closes it. For every layer I state the traditional formulation, derive the condition under which it diverges from its target, and give the alternative: first-order (L1) costs where quadratic kernels are flat, peak and outcome statistics where curriculum gates average, gate reachability and information checks, deterministic and phase-desynchronised evaluation, curriculum state treated as part of the model, feasibility-first reference design with residual feed-forward, and function-preserving input widening that lets one policy grow instead of being retrained. The arguments are illustrated by measurements from one continuous lineage of a PPO policy for a simulated 1.91 m humanoid, grown over four stages and 13,500 iterations on a single laptop GPU. Among them, a curriculum gate built on averaged error advanced at its rate limit on every check while the skill it gated was absent, and a batched push test whose synchronised resets aliased the gait phase ranked a 0.5 m/s push as more dangerous than a 2.0 m/s one.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Robustness",
+      "Humanoid",
+      "Gait",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.02341",
+    "title": "Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking",
+    "paper_url": "https://arxiv.org/abs/2610.02341",
+    "project_url": null,
+    "authors": [
+      "Pranit Mohnot",
+      "Christian Helten",
+      "Daniele Gammelli",
+      "Marco Pavone"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-01",
+    "abstract": "Safe whole-body motion is essential for deploying humanoid robots in unstructured environments. Modern humanoid control commonly separates reference specification from execution, with a planner, teleoperator, or motion generator providing a reference that a reinforcement-learning policy tracks through dynamically feasible whole-body control. Runtime safety filters, such as control barrier functions (CBFs), offer a promising approach for enforcing newly introduced constraints via interventions on the tracker's outputs. We show, however, that treating the tracking policy and safety filter independently induces fundamental mismatches, as filtering alters both the executed actions and the induced state distribution. We study this policy-filter interface through case studies that isolate dynamics, objective, and information mismatches, highlight their root causes, and use these insights to develop CoFiT (Constrained Filter-aware Tuning), a filter-aware fine-tuning method for pretrained trackers. Across diverse constraint scenes, CoFiT reduces violation time relative to filter-only training by 91% on TWIST2 and 21% on SONIC, while requiring smaller safety filter corrections. On Unitree G1 hardware, CoFiT reduces violation time by 83% for TWIST2 and completes every trial without operator intervention, whereas 50% of baseline trials require an operator stop. Together, these results provide actionable insights into policy-filter interactions and establish design principles for integrating learned trackers with runtime safety filters.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Safety",
+      "Humanoid",
+      "Fine-tuning",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2610.02196",
     "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
     "paper_url": "https://arxiv.org/abs/2610.02196",

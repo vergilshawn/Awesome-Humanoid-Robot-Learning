@@ -2,6 +2,59 @@
 
 All papers sorted by publication date (newest first).
 
+## KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.03388)
+- **Authors:** Zhongxiang Lei, Lulu Cao, Xuyang Wang, Tianyi Qian, Jinyan Liu, Xuesong Li
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - PPO
+  - Locomotion
+
+### Summary
+
+Video is an abundant, inexpensive source of human motion data that is rich in extreme athletic behaviors. Making it usable for humanoid robots, however, is not a matter of simply retargeting a reconstructed trajectory: video-derived motion is physically inconsistent, devoid of actuation information, and says nothing about failure or recovery.
+
+---
+
+## Beyond Reward Hacking: Proxy Divergence Across Four Layers of a Staged Humanoid Learning Pipeline
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.03196)
+- **Authors:** Arunabh Bora
+- **Published:** 2026-10
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - Gait
+  - PPO
+  - Locomotion
+
+### Summary
+
+A reinforcement-learning (RL) pipeline for a legged robot is assembled from proxies. A reward stands in for intended behaviour, a curriculum gate stands in for competence, an evaluation statistic stands in for robustness, and a reference motion stands in for an achievable skill.
+
+---
+
+## Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.02341)
+- **Authors:** Pranit Mohnot, Christian Helten, Daniele Gammelli, Marco Pavone
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Safety
+  - Humanoid
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Safe whole-body motion is essential for deploying humanoid robots in unstructured environments. Modern humanoid control commonly separates reference specification from execution, with a planner, teleoperator, or motion generator providing a reference that a reinforcement-learning policy tracks through dynamically feasible whole-body control.
+
+---
+
 ## InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.02196)

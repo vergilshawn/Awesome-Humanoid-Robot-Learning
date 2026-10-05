@@ -8,17 +8,17 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 755
+- **Total Papers:** 758
 - **Real Robot Papers:** 80
 - **Open Source Papers:** 128
 - **Latest Month:** 2026-10
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (256)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (257)
 - [Manipulation](/manipulation/) (73)
 - [Teleoperation](/teleoperation/) (32)
-- [Locomotion](/locomotion/) (194)
+- [Locomotion](/locomotion/) (196)
 - [Navigation](/navigation/) (23)
 - [State Estimation](/state-estimation/) (21)
 - [Sim-to-Real](/sim-to-real/) (13)
@@ -31,6 +31,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery](https://arxiv.org/abs/2610.03388) — 2026-10
+  - [Locomotion](/locomotion/)
+-  [Beyond Reward Hacking: Proxy Divergence Across Four Layers of a Staged Humanoid Learning Pipeline](https://arxiv.org/abs/2610.03196) — 2026-10
+  - [Locomotion](/locomotion/)
+-  [Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking](https://arxiv.org/abs/2610.02341) — 2026-10
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.02196) — 2026-10
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution](https://arxiv.org/abs/2610.02089) — 2026-10
@@ -45,28 +51,22 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [ECHO-G: Embodied Co-speech Humanoid mOtion Generation](https://arxiv.org/abs/2609.39575) — 2026-09
   - [Physics-Based Character Animation](/physics-based-character-animation/)
--  [IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining](https://arxiv.org/abs/2609.39403) — 2026-09
-  - [Manipulation](/manipulation/)
--  [RoboAssist: Interactive Human-Humanoid Planning for Long-Horizon Surgical Assistance](https://arxiv.org/abs/2609.39384) — 2026-09
-  - [Locomotion](/locomotion/)
--  [NEXUS: Perceptive Whole-Body Control for Terrain-Adaptive Teleoperation](https://arxiv.org/abs/2609.39000) — 2026-09
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (617)
-- **Loco-Manipulation and Whole-Body Control** (274)
-- **Locomotion** (271)
+- **Humanoid** (620)
+- **Loco-Manipulation and Whole-Body Control** (275)
+- **Locomotion** (273)
 - **Manipulation** (209)
 - **Reinforcement Learning** (98)
-- **PPO** (90)
-- **Whole-Body Control** (79)
+- **PPO** (92)
+- **Whole-Body Control** (80)
 - **Simulation Benchmark** (70)
 - **Teleoperation** (68)
 - **Physics-Based Character Animation** (56)
-- **Dataset** (48)
+- **Dataset** (49)
 - **State Estimation** (47)
 - **Sim-to-Real** (44)
 - **Vision-Language** (42)
@@ -77,15 +77,15 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Benchmark** (35)
 - **Diffusion** (34)
 - **Hardware Design** (32)
-- **Safety** (29)
+- **Safety** (30)
 - **Distillation** (29)
-- **Robustness** (27)
+- **Robustness** (28)
+- **Gait** (26)
 - **Foundation Model** (26)
 - **Human Demonstration** (26)
-- **Gait** (25)
 - **Proprioception** (23)
 - **Collision** (20)
-- **Policy Learning** (18)
+- **Fine-tuning** (18)
 
 ---
 
@@ -95,6 +95,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/loco-manipulation-and-whole-body-control/2026-10)
 
+- [Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking](https://arxiv.org/abs/2610.02341) — `Whole-Body Control`, `Safety`, `Humanoid`, `Fine-tuning`, `Loco-Manipulation and Whole-Body Control`
 - [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.02196) — `Manipulation`, `Humanoid`, `Foundation Model`, `Large Language Model`, `Loco-Manipulation and Whole-Body Control`
 
 #### [2026-09](/loco-manipulation-and-whole-body-control/2026-09)
@@ -678,6 +679,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/locomotion/2026-10)
 
+- [KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery](https://arxiv.org/abs/2610.03388) — `Humanoid`, `Dataset`, `PPO`, `Locomotion`
+- [Beyond Reward Hacking: Proxy Divergence Across Four Layers of a Staged Humanoid Learning Pipeline](https://arxiv.org/abs/2610.03196) — `Robustness`, `Humanoid`, `Gait`, `PPO`, `Locomotion`
 - [Continue, Abort, or Fall: Viability-Aware Policy Selection (VAPS) for Safe Humanoid Acrobatics](https://arxiv.org/abs/2610.01397) — `Sim-to-Real`, `Safety`, `Humanoid`, `Impact`, `SAC`, `Locomotion`
 
 #### [2026-09](/locomotion/2026-09)
