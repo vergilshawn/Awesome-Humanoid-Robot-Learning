@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**257 papers** in this category.
+**262 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (2 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (7 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,102 @@
 ---
 
 ## Recent Papers
+
+## InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.06850)
+- **Authors:** Yucheng Zhang, Sirui Xu, Jinhong Li, Liuyu Bian, Anatulya Nandi, Derek Zhang et al. (11 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Human Demonstration
+  - Real Robot
+  - Humanoid
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each other.
+
+---
+
+## I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.06129)
+- **Authors:** Ziqi Han, Yitang Li, Junhan Sun, Fanrong Dong, Yaojie Shen, Lei Ye et al. (11 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Behavioral foundation models (BFMs) have recently shown that a single humanoid policy can support diverse whole-body control, but extending such generality to physical interaction remains challenging. We introduce I-BFM, to our knowledge the first BFM for humanoid-object interaction.
+
+---
+
+## Dataset-Free Compliant Humanoid Loco-Manipulation with Dynamic Online Posture
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.05678)
+- **Authors:** Seungho Yeom, Zhenyu Wu, Jaeyoung Huh, Diego Williams, Yuheng Zhi, Soofiyan Atar et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Dataset
+  - SAC
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+  - Locomotion
+
+### Summary
+
+Most humanoid loco-manipulation controllers require human motion data to learn whole-body coordination and posture, leaving policies reliant on external sources to provide this data. We present OCLO (Online-posture Compliant LOco-manipulation), a humanoid loco-manipulation system trained without human motion data and commanded only through two end-effector targets.
+
+---
+
+## Exploiting Hierarchical Controller Structure in Contextual Parameter Learning for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.04609)
+- **Authors:** Sebastian Hirt, Lukas Theiner, Jan Peters, Rolf Findeisen
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Hierarchical control architectures are widely used to decompose complex control problems into interacting control levels and are particularly important in robotics, where planning, whole-body motion, and lower-level control must be coordinated across different levels of abstraction and time scales. Their overall closed-loop performance, however, depends strongly on parameters distributed across the hierarchy, such that tuning controllers on different levels independently may neglect relevant cross-layer interactions.
+
+---
+
+## Continual Humanoid Motion Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.04231)
+- **Authors:** Zhewen He, Hao Huang, Geeta Chandra Raju Bethala, Chong Yu, Tao Chen, Anthony Tzes et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid whole-body controllers can now track a diverse set of dynamic motions, but they are typically trained offline and then frozen, so teaching such a controller a new skill tends to erode the skills it already mastered. We study continual learning for humanoid whole-body motion, where a single controller must acquire skills from a sequential task stream without revisiting past data.
+
+---
 
 ## Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking
 
@@ -340,108 +436,5 @@ Aerial manipulation in outdoor environments remains challenging due to the simul
 ### Summary
 
 Object transportation is a fundamental capability for humanoid robots operating in real-world, human-centric environments, yet existing methods struggle when clutter constrains free space around both the robot and its carried payload. We present HOTICE, a whole-body humanoid learning framework for transporting objects through such cluttered environments.
-
----
-
-## Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.23968)
-- **Authors:** Fukang Liu, Yipu Chen, Jaehwi Jang, Danfei Xu, Zsolt Kira, Ye Zhao
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Manipulation
-  - Multi-Task
-  - Humanoid
-  - Trajectory Optimization
-  - Language-Conditioned
-  - Vision-Language
-
-### Summary
-
-Humanoid robots are expected to perform diverse human-level tasks in daily environments, many of which require precise regulation of interaction forces. While recent vision-language-action (VLA) models have shown promise for semantic planning and visuomotor control, existing humanoid systems primarily represent actions through geometric motion goals and rely on whole-body controllers focused on motion tracking, with limited explicit reasoning or control of interaction forces.
-
----
-
-## Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.22829)
-- **Authors:** Yuxuan Nai, Leixin Chang, Liangjing Yang, Shuo Yang, Zhongyu Li
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Diffusion Policy
-  - Whole-Body Control
-  - Teleoperation
-  - Manipulation
-  - Humanoid
-  - PPO
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Collecting whole-body demonstrations for humanoid manipulation mostly relies on teleoperation, which is costly and hard to scale up. The Universal Manipulation Interface (UMI) provides a scalable data collection paradigm, but end-effector trajectories alone underdetermine humanoid whole-body coordination, which is insufficient for whole-body demonstration collection.
-
----
-
-## FRAMES: Failure Recovery And Monitoring of Embodied Skills for Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.22538)
-- **Authors:** Ajay Vikram Periasami, Xinyuan Luo, Haoyu Li, Xianyi Cheng
-- **Published:** 2026-09
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - MuJoCo
-  - Humanoid
-  - Vision-Language
-  - Large Language Model
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Large language model (LLM) planners can decompose natural-language instructions and select reusable robot skills, but choosing the correct skill does not guarantee successful physical execution. This gap is especially important in humanoid loco-manipulation, where errors during approach, grasping, transport, or placement can invalidate the remainder of a long-horizon plan.
-
----
-
-## LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.22075)
-- **Authors:** Jake Gonzales, Arturo Flores Alvarez, Yu-Ming Chen, Aaron D. Ames, Lillian J. Ratliff, Manikantan Nambi
-- **Published:** 2026-09
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Safety
-  - Humanoid
-  - Collision
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for synthesizing a state-action control barrier function and distilling its safety structure into a task policy.
-
----
-
-## Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.21467)
-- **Authors:** Yuhyeon Hwang, Daniel Sungho Jung, YongHyeok Seo, Mingi Jung, Chang Nho Cho, Jung-Hoon Hwang et al. (7 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅
-- **Tags:**
-  - Manipulation
-  - Robustness
-  - Simulator
-  - Humanoid
-  - Fine-tuning
-  - Behavior Cloning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Motion tracking can reproduce humanoid loco-manipulation from a single retargeted motion clip, but a policy trained on a fixed reference primarily reproduces its demonstrated transport outcome. Although the source trajectory visits intermediate object displacements, transport termination is demonstrated only at its endpoint.
 
 ---

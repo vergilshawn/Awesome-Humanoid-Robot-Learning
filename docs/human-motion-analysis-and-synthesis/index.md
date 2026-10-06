@@ -1,9 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**28 papers** in this category.
+**29 papers** in this category.
 
 ## Months
 
+- [2026-10](/human-motion-analysis-and-synthesis/2026-10) (1 papers)
 - [2026-09](/human-motion-analysis-and-synthesis/2026-09) (4 papers)
 - [2026-08](/human-motion-analysis-and-synthesis/2026-08) (1 papers)
 - [2026-07](/human-motion-analysis-and-synthesis/2026-07) (1 papers)
@@ -27,6 +28,22 @@
 ---
 
 ## Recent Papers
+
+## Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.06153)
+- **Authors:** Jin Jiang, Kun Li, Jiancong Ma, Shengcai Liao
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Motion Planning
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Expressive humanoid interaction requires speech, facial animation, and body gestures to form a coherent response. However, many full-body humanoid robots produce speech and gestures without a visually expressive face, while talking-face animation and robot gesture generation are typically developed separately.
+
+---
 
 ## GestAdapt: Workspace-Conditioned Co-Speech Gesture Generation for Humanoid Robots
 
@@ -318,21 +335,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2503.17544)
 - **Published:** 2025-03
 - **Tags:**
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## ClimbingCap: Multi-Modal Dataset and Method for Rock Climbing in World Coordinate
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2503.21268)
-- **Published:** 2025-03
-- **Tags:**
-  - Dataset
-  - Multi-Modal
   - Human Motion Analysis and Synthesis
 
 ### Summary

@@ -2,6 +2,169 @@
 
 All papers sorted by publication date (newest first).
 
+## InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.06850)
+- **Authors:** Yucheng Zhang, Sirui Xu, Jinhong Li, Liuyu Bian, Anatulya Nandi, Derek Zhang et al. (11 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Human Demonstration
+  - Real Robot
+  - Humanoid
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each other.
+
+---
+
+## Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.06153)
+- **Authors:** Jin Jiang, Kun Li, Jiancong Ma, Shengcai Liao
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Motion Planning
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Expressive humanoid interaction requires speech, facial animation, and body gestures to form a coherent response. However, many full-body humanoid robots produce speech and gestures without a visually expressive face, while talking-face animation and robot gesture generation are typically developed separately.
+
+---
+
+## I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.06129)
+- **Authors:** Ziqi Han, Yitang Li, Junhan Sun, Fanrong Dong, Yaojie Shen, Lei Ye et al. (11 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Behavioral foundation models (BFMs) have recently shown that a single humanoid policy can support diverse whole-body control, but extending such generality to physical interaction remains challenging. We introduce I-BFM, to our knowledge the first BFM for humanoid-object interaction.
+
+---
+
+## Dataset-Free Compliant Humanoid Loco-Manipulation with Dynamic Online Posture
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.05678)
+- **Authors:** Seungho Yeom, Zhenyu Wu, Jaeyoung Huh, Diego Williams, Yuheng Zhi, Soofiyan Atar et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Walking
+  - Dataset
+  - SAC
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+  - Locomotion
+
+### Summary
+
+Most humanoid loco-manipulation controllers require human motion data to learn whole-body coordination and posture, leaving policies reliant on external sources to provide this data. We present OCLO (Online-posture Compliant LOco-manipulation), a humanoid loco-manipulation system trained without human motion data and commanded only through two end-effector targets.
+
+---
+
+## CoDance: Learning Reactive and Compliant Human-Humanoid Interaction from Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.05324)
+- **Authors:** Zhuoqun Chen, Shucheng Jia, Boyuan Chen
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Partnered human-humanoid interaction couples locomotion with continuous physical contact. A humanoid needs to coordinate with a person's motion while responding to interaction forces and maintaining stable and natural movement.
+
+---
+
+## Exploiting Hierarchical Controller Structure in Contextual Parameter Learning for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.04609)
+- **Authors:** Sebastian Hirt, Lukas Theiner, Jan Peters, Rolf Findeisen
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Hierarchical control architectures are widely used to decompose complex control problems into interacting control levels and are particularly important in robotics, where planning, whole-body motion, and lower-level control must be coordinated across different levels of abstraction and time scales. Their overall closed-loop performance, however, depends strongly on parameters distributed across the hierarchy, such that tuning controllers on different levels independently may neglect relevant cross-layer interactions.
+
+---
+
+## Humanoid Rickshaw Pulling: Whole-Body Locomotion under Coupled Wheeled Loads
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.04238)
+- **Authors:** Yangzhi Yang, Xiansheng Lin, Zhaoming Xie, Xiaobin Xiong
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Humanoid
+  - Gait
+  - Walking
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots could transport payloads substantially heavier than themselves by pulling passive wheeled vehicles instead of carrying the load. This capability, however, creates a coupled locomotion problem: the robot must maintain persistent upper-body contact while adapting to unknown, configuration-dependent forces arising from the payload, vehicle, and terrain.
+
+---
+
+## Continual Humanoid Motion Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.04231)
+- **Authors:** Zhewen He, Hao Huang, Geeta Chandra Raju Bethala, Chong Yu, Tao Chen, Anthony Tzes et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid whole-body controllers can now track a diverse set of dynamic motions, but they are typically trained offline and then frozen, so teaching such a controller a new skill tends to erode the skills it already mastered. We study continual learning for humanoid whole-body motion, where a single controller must acquire skills from a sequential task stream without revisiting past data.
+
+---
+
+## TAME:Topology-Aware Text-Driven Motion Editing across Heterogeneous Humanoid Skeletons
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.04529)
+- **Authors:** Qichen Zheng, Siyuan Yang, Chong Wang, Jun Liu, Shijian Lu, Alex Kot et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Transformer
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Text-driven motion editing modifies an existing motion sequence according to a text instruction while preserving the content of the source motion. Existing methods are typically built for a single, fixed skeletal topology, which limits their use in animation pipelines where characters differ in joint count and skeletal hierarchy.
+
+---
+
 ## KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.03388)

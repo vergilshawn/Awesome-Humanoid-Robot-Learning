@@ -1,10 +1,10 @@
 # Locomotion
 
-**196 papers** in this category.
+**199 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (3 papers)
+- [2026-10](/locomotion/2026-10) (6 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,57 @@
 ---
 
 ## Recent Papers
+
+## CoDance: Learning Reactive and Compliant Human-Humanoid Interaction from Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.05324)
+- **Authors:** Zhuoqun Chen, Shucheng Jia, Boyuan Chen
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Partnered human-humanoid interaction couples locomotion with continuous physical contact. A humanoid needs to coordinate with a person's motion while responding to interaction forces and maintaining stable and natural movement.
+
+---
+
+## Humanoid Rickshaw Pulling: Whole-Body Locomotion under Coupled Wheeled Loads
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.04238)
+- **Authors:** Yangzhi Yang, Xiansheng Lin, Zhaoming Xie, Xiaobin Xiong
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Humanoid
+  - Gait
+  - Walking
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots could transport payloads substantially heavier than themselves by pulling passive wheeled vehicles instead of carrying the load. This capability, however, creates a coupled locomotion problem: the robot must maintain persistent upper-body contact while adapting to unknown, configuration-dependent forces arising from the payload, vehicle, and terrain.
+
+---
+
+## TAME:Topology-Aware Text-Driven Motion Editing across Heterogeneous Humanoid Skeletons
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.04529)
+- **Authors:** Qichen Zheng, Siyuan Yang, Chong Wang, Jun Liu, Shijian Lu, Alex Kot et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Transformer
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Text-driven motion editing modifies an existing motion sequence according to a text instruction while preserving the content of the source motion. Existing methods are typically built for a single, fixed skeletal topology, which limits their use in animation pipelines where characters differ in joint count and skeletal hierarchy.
+
+---
 
 ## KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery
 
@@ -340,56 +391,5 @@ Humanoid parkour policies can traverse various terrains, but task completion may
 ### Summary
 
 Humanoid control, leveraging human demonstrations, has achieved diverse, agile, and natural locomotion behaviors through reinforcement learning (RL). While this paradigm has yielded remarkable performance in physical humanoid control, how to eliminate specific motions from learned policies remains insufficiently explored.
-
----
-
-## DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.28175)
-- **Authors:** Jiakang Jin, Yixiao Huo, Pengyuan Wang, Yinan Han, Tingxuan Zhang, Zhuobing Zhao et al. (15 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Humanoid
-  - Impact
-  - Locomotion
-
-### Summary
-
-Humanoid soccer contact skills require more than producing high-impact foot-ball contacts: the robot must close the loop over perception, approach, alignment, impact, and recovery while its own motion induces substantial viewpoint changes, frequent loss of the ball from view, and uncertain contact outcomes. In this work, we ask a compact yet stricter question: can a humanoid learn soccer contact skills using only a head-mounted depth image, proprioceptive history, and an optional low-dimensional task command, and directly output 25-DoF joint PD targets without extra runtime perception or planning modules? To this end, we propose DAVIS, a depth-only end-to-end framework for humanoid soccer skills that learns visibility-aware auxiliary geometry during training, and combines GT-to-prediction annealing, task curricula, and AMP-style motion priors to smoothly bridge privileged supervision and real deployment.
-
----
-
-## Banana Kick: Response-Informed Skill Evolution for Humanoid Soccer
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.27269)
-- **Authors:** Hao E. Zhang, Ruize Geng, Raihan Haque, Khalil Zbiss, Guanyang Luo, Hui-ping Wang et al. (8 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-Humanoid kicking requires coordinated whole-body motion and precise contact, while a banana kick demands contact mechanics that generate ball spin and aerodynamic curvature. Motion imitation provides a reliable ordinary-kick prior, but reinforcement learning may improve shot speed and placement accuracy without changing the underlying kicking technique.
-
----
-
-## Learning Expressive Humanoid Locomotion from Monocular Runway Videos for Robot Fashion Shows
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.27003)
-- **Authors:** Kyrylo Kolesnichenko, Irvin Steve Cardenas, Jong-Hoon Kim
-- **Published:** 2026-09
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Walking
-
-### Summary
-
-Runway walking requires coordinated control of posture, stride, foot placement, and whole-body motion to effectively present clothing and convey a distinctive style. However, humanoid robots used in fashion shows typically rely on locomotion policies optimized primarily for stability and walking speed, limiting their ability to reproduce expressive, human-like runway motions.
 
 ---
