@@ -2,6 +2,162 @@
 
 All papers sorted by publication date (newest first).
 
+## PhoneBot: A Low-Cost Open Humanoid Robot Platform Reusing Smartphones
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08737)
+- **Authors:** Ruochen Hou, Quanyou Wang, Daniel Koh, Dennis W. Hong
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Walking
+  - PPO
+  - Hardware Design
+
+### Summary
+
+The adoption of humanoid robots in education and research remains limited by high hardware costs, complex sensing systems, and substantial computational requirements. This paper presents PhoneBot, a low-cost, open-source humanoid robot platform that repurposes commodity smartphones as its primary sensing and computing unit.
+
+---
+
+## From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08381)
+- **Authors:** Jiyeon Koo, Eunseom Pyo, Jeonghee Seo, Taehwa Kim, Andrew Jaeyong Choi
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Motion Retargeting
+  - Humanoid
+  - Walking
+  - Teleoperation
+  - Human Motion Analysis and Synthesis
+  - Locomotion
+
+### Summary
+
+Human video offers a scalable source of robot demonstrations, yet most human-to-humanoid retargeting methods assume a legged robot with human-like kinematics. This assumption does not hold for mobile-base humanoids equipped with a wheeled base, vertical lift, and two arms.
+
+---
+
+## Humanoid Horizon: Extending Task Horizon in Whole-Body Loco-Manipulation via Parallel Training, Dynamic Starting, and Reward Gating
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08320)
+- **Authors:** Haozhuo Zhang, Qiang Zhang, Jian Tang, Mingzhe Ni, Michele Caprio, Angelo Cangelosi et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Benchmark
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Cluttered indoor environments, where large and heavy objects are scattered across diverse surfaces, require humanoid robots to sequentially navigate, grasp, transport, and accurately place each item at its target location within a single uninterrupted episode. This long-horizon, whole-body loco-manipulation task remains a significant challenge for current methods.
+
+---
+
+## iGPC: Generative Motion Priors for Object-Aware Humanoid Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08120)
+- **Authors:** Anujith Muraleedharan, Abdul Ahad Butt, Nolan Fey, Yash Prabhu, Anamika J H, Sandor Felber et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Distillation
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots operating in unstructured environments must combine robust whole-body control with the ability to perceive and physically interact with surrounding objects. While large-scale human motion data provides powerful priors for natural and versatile humanoid control, effectively transferring such priors to perception-driven object interaction remains challenging.
+
+---
+
+## AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08119)
+- **Authors:** Sergei Kurchev, Iaroslav Kolomiets, Miguel Altamirano Cabrera, Artem Lykov, Dzmitry Tsetserukou
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Inverse Kinematics
+  - Fine-tuning
+  - Distillation
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+World-action models (WAMs) such as Cosmos 3 jointly generate future video and robot actions from an observation and instruction. Adapting one such model with a lightweight LoRA fine-tune to a previously unseen robot, a Unitree G1 humanoid with five-fingered BrainCo hands, exposes a video-action asymmetry: the video renders plausible task executions, while the co-generated action is systematically mis-targeted.
+
+---
+
+## Beyond Retargeting: Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07891)
+- **Authors:** Xiayan Xu, Jiyu Yu, Xingzhou Chen, Siyi Qian, Zongyu Ma, Lilu Liu et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Motion Retargeting
+  - Robustness
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid whole-body teleoperation translates human motion into stable robot behavior in real time. Existing systems typically rely on online motion retargeting to bridge human--robot morphological differences, but this process adds latency and can produce physically infeasible targets.
+
+---
+
+## 🌟 BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07594)
+- **Project:** [GitHub](https://github.com/swirl-uk/bigym2)
+- **Authors:** Zexi Zhang, Zecheng Zhu, Zidong Chen, Zulkhuu Tuya, Stephen James
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Whole-Body Control
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Proprioception
+  - Vision-Language
+
+### Summary
+
+Humanoid household manipulation requires the arms to act while the body balances, steps and changes posture. We present BiGym 2.0, an adaptation of BiGym for the Unitree G1 across 20 household tasks using a unified whole-body controller for demonstration and evaluation.
+
+---
+
+## What the Elevation Map Cannot See: Semantic-Aware Locomotion and Execution-Aware Navigation for Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07396)
+- **Authors:** Shunyu Yao, Songyang Liu, Dinghao Chen, Yuanyuan Lei, Shuai Li
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Safety
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often impractical due to cost and safety concerns, making simulation benchmarks essential. Existing VLN benchmarks achieve physically executable navigation, but still assume (1) all hazards are observable from elevation maps; (2) realized motions closely match desired motions.
+
+---
+
 ## InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.06850)
@@ -35,6 +191,26 @@ Captured human-object interactions provide rich supervision for humanoid loco-ma
 ### Summary
 
 Expressive humanoid interaction requires speech, facial animation, and body gestures to form a coherent response. However, many full-body humanoid robots produce speech and gestures without a visually expressive face, while talking-face animation and robot gesture generation are typically developed separately.
+
+---
+
+## BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07052)
+- **Authors:** Sudarshan Harithas, Chen Yu, Juan Borbon, Shubhankar Mondal, Winston Zha, Srinath Sridhar et al. (8 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Proprioception
+  - DAgger
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consumes are recorded on level ground and carrying nothing, so the tracker is aware of neither the forces the robot must exchange with objects nor the terrain it must stand on. Existing controllers address one side of this gap: force-capable policies command an end-effector force but prescribe no whole-body pose, while terrain-adaptive trackers treat loads as disturbances to reject rather than wrenches to command.
 
 ---
 

@@ -2,6 +2,28 @@
 
 Papers with open-source code repositories.
 
+## 🌟 BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07594)
+- **Project:** [GitHub](https://github.com/swirl-uk/bigym2)
+- **Authors:** Zexi Zhang, Zecheng Zhu, Zidong Chen, Zulkhuu Tuya, Stephen James
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Whole-Body Control
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Proprioception
+  - Vision-Language
+
+### Summary
+
+Humanoid household manipulation requires the arms to act while the body balances, steps and changes posture. We present BiGym 2.0, an adaptation of BiGym for the Unitree G1 across 20 household tasks using a unified whole-body controller for demonstration and evaluation.
+
+---
+
 ## 🌟 ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.28378)

@@ -7,15 +7,55 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 1 papers
-- **Figure:** 9 papers
+- **Figure:** 10 papers
 - **Unitree G1:** 48 papers
 - **Unitree H1:** 1 papers
-- **Unknown Platform:** 19 papers
+- **Unknown Platform:** 20 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08381)
+- **Authors:** Jiyeon Koo, Eunseom Pyo, Jeonghee Seo, Taehwa Kim, Andrew Jaeyong Choi
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Motion Retargeting
+  - Humanoid
+  - Walking
+  - Teleoperation
+  - Human Motion Analysis and Synthesis
+  - Locomotion
+
+### Summary
+
+Human video offers a scalable source of robot demonstrations, yet most human-to-humanoid retargeting methods assume a legged robot with human-like kinematics. This assumption does not hold for mobile-base humanoids equipped with a wheeled base, vertical lift, and two arms.
+
+---
+
+## BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07052)
+- **Authors:** Sudarshan Harithas, Chen Yu, Juan Borbon, Shubhankar Mondal, Winston Zha, Srinath Sridhar et al. (8 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Proprioception
+  - DAgger
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consumes are recorded on level ground and carrying nothing, so the tracker is aware of neither the forces the robot must exchange with objects nor the terrain it must stand on. Existing controllers address one side of this gap: force-capable policies command an end-effector force but prescribe no whole-body pose, while terrain-adaptive trackers treat loads as disturbances to reject rather than wrenches to command.
+
+---
 
 ## I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning
 

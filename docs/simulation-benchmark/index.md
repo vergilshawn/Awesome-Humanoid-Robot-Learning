@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**38 papers** in this category.
+**39 papers** in this category.
 
 ## Months
 
-- [2026-10](/simulation-benchmark/2026-10) (1 papers)
+- [2026-10](/simulation-benchmark/2026-10) (2 papers)
 - [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
@@ -26,6 +26,28 @@
 ---
 
 ## Recent Papers
+
+## 🌟 BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07594)
+- **Project:** [GitHub](https://github.com/swirl-uk/bigym2)
+- **Authors:** Zexi Zhang, Zecheng Zhu, Zidong Chen, Zulkhuu Tuya, Stephen James
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Whole-Body Control
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Proprioception
+  - Vision-Language
+
+### Summary
+
+Humanoid household manipulation requires the arms to act while the body balances, steps and changes posture. We present BiGym 2.0, an adaptation of BiGym for the Unitree G1 across 20 household tasks using a unified whole-body controller for demonstration and evaluation.
+
+---
 
 ## HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution
 
@@ -395,19 +417,5 @@ Cross-embodiment video generation aims to transfer motions across different huma
 ### Summary
 
 Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
-
----
-
-## 🌟 ComFree-Sim: A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation and Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.12185)
-- **Project:** [GitHub](https://irislab.tech/comfree-sim/)
-- **Published:** 2026-03
-- **Tags:**
-  - Simulation Benchmark
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---

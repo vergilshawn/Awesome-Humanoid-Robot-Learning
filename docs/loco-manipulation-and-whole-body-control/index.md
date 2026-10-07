@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**262 papers** in this category.
+**265 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (7 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (10 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -40,6 +40,43 @@
 
 ## Recent Papers
 
+## Humanoid Horizon: Extending Task Horizon in Whole-Body Loco-Manipulation via Parallel Training, Dynamic Starting, and Reward Gating
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08320)
+- **Authors:** Haozhuo Zhang, Qiang Zhang, Jian Tang, Mingzhe Ni, Michele Caprio, Angelo Cangelosi et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Benchmark
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Cluttered indoor environments, where large and heavy objects are scattered across diverse surfaces, require humanoid robots to sequentially navigate, grasp, transport, and accurately place each item at its target location within a single uninterrupted episode. This long-horizon, whole-body loco-manipulation task remains a significant challenge for current methods.
+
+---
+
+## iGPC: Generative Motion Priors for Object-Aware Humanoid Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08120)
+- **Authors:** Anujith Muraleedharan, Abdul Ahad Butt, Nolan Fey, Yash Prabhu, Anamika J H, Sandor Felber et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Distillation
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots operating in unstructured environments must combine robust whole-body control with the ability to perceive and physically interact with surrounding objects. While large-scale human motion data provides powerful priors for natural and versatile humanoid control, effectively transferring such priors to perception-driven object interaction remains challenging.
+
+---
+
 ## InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.06850)
@@ -57,6 +94,26 @@
 ### Summary
 
 Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each other.
+
+---
+
+## BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07052)
+- **Authors:** Sudarshan Harithas, Chen Yu, Juan Borbon, Shubhankar Mondal, Winston Zha, Srinath Sridhar et al. (8 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Proprioception
+  - DAgger
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consumes are recorded on level ground and carrying nothing, so the tracker is aware of neither the forces the robot must exchange with objects nor the terrain it must stand on. Existing controllers address one side of this gap: force-capable policies command an end-effector force but prescribe no whole-body pose, while terrain-adaptive trackers treat loads as disturbances to reject rather than wrenches to command.
 
 ---
 
@@ -372,69 +429,5 @@ Physical contact often determines how a humanoid should respond during loco-mani
 ### Summary
 
 Humanoid loco-manipulation demands coordinated body and hand behavior, while conventional robot pre-training data provide limited coverage of such whole-body motion. We present WB-WAM, a World Action Model that incorporates explicit whole-body action supervision into generative video pre-training.
-
----
-
-## HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.30594)
-- **Authors:** Seoyeon Choi, Shizhao Ye, Nicholas Bui, Aayushi Shrivastava, Kanghyun Ryu, Dhruva Tirumala et al. (8 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Manipulation
-  - Zero-Shot
-  - Humanoid
-  - Large Language Model
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-For humanoids to be useful in everyday environments, they must perform a wide range of tasks that couple locomotion and manipulation. Existing approaches commonly acquire a loco-manipulation policy through reward engineering or demonstrations followed by task-specific training, making it costly to scale to new tasks.
-
----
-
-## Aerial Manipulation in the Wild with Onboard Perception, Policy Learning, and Whole-Body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.30521)
-- **Authors:** Yuanzhu Zhan, Yufei Jiang, Zemu Zhang, Junyi Geng
-- **Published:** 2026-09
-- **Real Robot:** ✅
-- **Tags:**
-  - Imitation Learning
-  - Diffusion Policy
-  - MPC
-  - Whole-Body Control
-  - Manipulation
-  - State Estimation
-  - Policy Learning
-  - Diffusion
-
-### Summary
-
-Aerial manipulation in outdoor environments remains challenging due to the simultaneous requirements of reliable state estimation, stable aerial motion, and precise manipulation under external disturbances. In this work, we present a real-world outdoor aerial manipulation framework that integrates imitation learning, onboard LiDAR-inertial state estimation, and whole-body model predictive control.
-
----
-
-## HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.25363)
-- **Authors:** Toan Nguyen, Weiduo Yuan, Siheng Zhao, Yue Wang, Daniel Seita
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - MuJoCo
-  - Humanoid
-  - Distillation
-  - Collision
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Object transportation is a fundamental capability for humanoid robots operating in real-world, human-centric environments, yet existing methods struggle when clutter constrains free space around both the robot and its carried payload. We present HOTICE, a whole-body humanoid learning framework for transporting objects through such cluttered environments.
 
 ---

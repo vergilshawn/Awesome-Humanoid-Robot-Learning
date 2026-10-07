@@ -1,10 +1,10 @@
 # Locomotion
 
-**199 papers** in this category.
+**201 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (6 papers)
+- [2026-10](/locomotion/2026-10) (8 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,43 @@
 ---
 
 ## Recent Papers
+
+## PhoneBot: A Low-Cost Open Humanoid Robot Platform Reusing Smartphones
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08737)
+- **Authors:** Ruochen Hou, Quanyou Wang, Daniel Koh, Dennis W. Hong
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Walking
+  - PPO
+  - Hardware Design
+
+### Summary
+
+The adoption of humanoid robots in education and research remains limited by high hardware costs, complex sensing systems, and substantial computational requirements. This paper presents PhoneBot, a low-cost, open-source humanoid robot platform that repurposes commodity smartphones as its primary sensing and computing unit.
+
+---
+
+## What the Elevation Map Cannot See: Semantic-Aware Locomotion and Execution-Aware Navigation for Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07396)
+- **Authors:** Shunyu Yao, Songyang Liu, Dinghao Chen, Yuanyuan Lei, Shuai Li
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Safety
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often impractical due to cost and safety concerns, making simulation benchmarks essential. Existing VLN benchmarks achieve physically executable navigation, but still assume (1) all hazards are observable from elevation maps; (2) realized motions closely match desired motions.
+
+---
 
 ## CoDance: Learning Reactive and Compliant Human-Humanoid Interaction from Video
 
@@ -353,43 +390,5 @@ World Action Models (WAMs) couple action generation with future visual predictio
 ### Summary
 
 While recent advances in perceptive locomotion have enabled humanoid robots to traverse structured terrains, agile parkour in highly discontinuous environments remains an open challenge. In particular, crossing sparse footholds and narrow support regions requires precise foothold selection, effective use of visual observations, and consistent alternating foot placement during fast transitions.
-
----
-
-## TactileStep: Sole Tactile Learning for Regulating Foot-Terrain Interaction in Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.28959)
-- **Authors:** Zizhuo Wang, Ming-ju Lee, Shaoting Zhu, Haozhe Lou, Hang Zhao, Yiming Li
-- **Published:** 2026-09
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Tactile Sensing
-  - Impact
-  - PPO
-
-### Summary
-
-Humanoid parkour policies can traverse various terrains, but task completion may mask challenges of harsh landings, edge contacts, and unstable stance contacts. Humans naturally regulate foot-terrain interaction through tactile feedback, modulating contact compliance according to terrain stiffness.
-
----
-
-## 🌟 ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.28378)
-- **Project:** [GitHub](https://github.com/Zili1000/ForgetMimic)
-- **Authors:** Xukun Luan, Zhongxiang Lei, Chen Gong, Shaowei Li, Yuanguo Bi, Jinyan Liu
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Human Demonstration
-  - Safety
-  - Humanoid
-
-### Summary
-
-Humanoid control, leveraging human demonstrations, has achieved diverse, agile, and natural locomotion behaviors through reinforcement learning (RL). While this paradigm has yielded remarkable performance in physical humanoid control, how to eliminate specific motions from learned policies remains insufficiently explored.
 
 ---
