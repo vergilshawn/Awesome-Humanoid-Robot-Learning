@@ -1,10 +1,10 @@
 # Locomotion
 
-**201 papers** in this category.
+**204 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (8 papers)
+- [2026-10](/locomotion/2026-10) (11 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -41,6 +41,44 @@
 
 ## Recent Papers
 
+## HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.10489)
+- **Authors:** Mike Zhang, Dongho Kang, Kevin Bergamin, Nicola Burger, Robin Deits, Jonathan Foster et al. (22 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Multi-Task
+  - Robustness
+  - Humanoid
+  - Gait
+  - Proprioception
+  - Goal-Conditioned
+
+### Summary
+
+Despite recent advances in humanoid locomotion, controllers optimized for command tracking and robustness tend to produce mechanical gaits, whereas controllers tied to human motion data often fail to generalize to commands outside the data distribution. This work introduces a learning framework that balances these competing objectives to synthesize real-time steerable, robust, and biomimetic locomotion policies from human data.
+
+---
+
+## MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.09055)
+- **Authors:** Shuaijun Liu, Chenglong Zhang, Xuhao Liu, Feiyang You, Yifan Liao, Shuyang Hao et al. (10 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Collision
+  - Locomotion
+
+### Summary
+
+Human videos provide rich motion targets for humanoid learning, yet visually plausible references can still produce persistent failures under physics-based execution. These failures reveal where training supervision should change.
+
+---
+
 ## PhoneBot: A Low-Cost Open Humanoid Robot Platform Reusing Smartphones
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08737)
@@ -75,6 +113,22 @@ The adoption of humanoid robots in education and research remains limited by hig
 ### Summary
 
 Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often impractical due to cost and safety concerns, making simulation benchmarks essential. Existing VLN benchmarks achieve physically executable navigation, but still assume (1) all hazards are observable from elevation maps; (2) realized motions closely match desired motions.
+
+---
+
+## CIRRA: Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08862)
+- **Authors:** Ci Zhang, Enfu Nan, Arman Akbari, Lin Zhao, Li Wang, Chen Wang et al. (9 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Benchmark
+  - Locomotion
+
+### Summary
+
+Household robots must accommodate new user instructions while executing ongoing tasks. Existing agents often regenerate or extensively revise the remaining task sequence, introducing plan ambiguity, logical inconsistency, and redundant execution.
 
 ---
 
@@ -338,57 +392,5 @@ Sign-language interpretation in public communication relies on qualified profess
 ### Summary
 
 General purpose humanoids require locomotion controllers that are multi-skill, perceptive, dynamic, and robust enough to go anywhere humans can. In this work, we present a two layer locomotion architecture: (1) a perceptive flow matching motion generator plans whole body trajectories from raw depth images while a (2) perceptive tracking policy trained with control-guided RL follows these motions.
-
----
-
-## Tactile Sensing Array for Multi-Phalanx Sensing in Humanoid Hands
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.30506)
-- **Authors:** Neel Adwani, Muhaiminul Islam Akash, Rituja Bhattacharya, Cong Wang
-- **Published:** 2026-09
-- **Tags:**
-  - Humanoid
-  - Tactile Sensing
-  - Proprioception
-  - Locomotion
-
-### Summary
-
-Humanoid hands require tactile feedback across the whole finger, not just the fingertip, to grasp and manipulate objects properly. Vision and proprioception alone cannot reliably provide this information, particularly when the hand's own fingers occlude the camera's view of the grasp.
-
----
-
-## Rolling-WAM: World Action Models with Rolling Imagination
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.30247)
-- **Authors:** Yinghua Zhou, Junjie Ye, Yiqi Zhao, Hao Dong, Celina Shiyu Wang, Ruohai Ge et al. (11 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness.
-
----
-
-## Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.28960)
-- **Authors:** Ming-Ju Lee, Zizhuo Wang, Shaoting Zhu, Haozhe Lou, Hang Zhao, Yiming Li
-- **Published:** 2026-09
-- **Tags:**
-  - Locomotion
-  - Robustness
-  - Humanoid
-  - Gait
-  - PPO
-
-### Summary
-
-While recent advances in perceptive locomotion have enabled humanoid robots to traverse structured terrains, agile parkour in highly discontinuous environments remains an open challenge. In particular, crossing sparse footholds and narrow support regions requires precise foothold selection, effective use of visual observations, and consistent alternating foot placement during fast transitions.
 
 ---

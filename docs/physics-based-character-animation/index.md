@@ -1,9 +1,10 @@
 # Physics-Based Character Animation
 
-**45 papers** in this category.
+**46 papers** in this category.
 
 ## Months
 
+- [2026-10](/physics-based-character-animation/2026-10) (1 papers)
 - [2026-09](/physics-based-character-animation/2026-09) (3 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (6 papers)
@@ -35,6 +36,25 @@
 ---
 
 ## Recent Papers
+
+## From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.10322)
+- **Authors:** Kerui Chen, Jianrong Zhang, Kai Lv, Hehe Fan
+- **Published:** 2026-10
+- **Tags:**
+  - Simulator
+  - Humanoid
+  - Fine-tuning
+  - Friction
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+Recent methods have made promising progress in generating interactions between two humanoids, largely relying on physics-based tracking policies to convert digital reference motions into executable trajectories. However, limited tracking capabilities restrict the range of reference motions that can be successfully executed, reducing data utilization.
+
+---
 
 ## ECHO-G: Embodied Co-speech Humanoid mOtion Generation
 
@@ -356,19 +376,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-10
 - **Tags:**
   - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Learning to Ball: Composing Policies for Long-Horizon Basketball Moves
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2509.22442)
-- **Published:** 2025-09
-- **Tags:**
   - Physics-Based Character Animation
 
 ### Summary

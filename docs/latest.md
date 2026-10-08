@@ -2,6 +2,161 @@
 
 All papers sorted by publication date (newest first).
 
+## HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.10489)
+- **Authors:** Mike Zhang, Dongho Kang, Kevin Bergamin, Nicola Burger, Robin Deits, Jonathan Foster et al. (22 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Multi-Task
+  - Robustness
+  - Humanoid
+  - Gait
+  - Proprioception
+  - Goal-Conditioned
+
+### Summary
+
+Despite recent advances in humanoid locomotion, controllers optimized for command tracking and robustness tend to produce mechanical gaits, whereas controllers tied to human motion data often fail to generalize to commands outside the data distribution. This work introduces a learning framework that balances these competing objectives to synthesize real-time steerable, robust, and biomimetic locomotion policies from human data.
+
+---
+
+## LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.10465)
+- **Authors:** Sebin Jung, Maitham F. AL-Sunni, Juan Alvarez-Padilla, Zachary Manchester, Changliu Liu, John M. Dolan
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Simulator
+  - Walking
+  - Contact Dynamics
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+  - Simulation Benchmark
+  - Locomotion
+
+### Summary
+
+Real-time whole-body controllers for legged robots typically plan through a fixed nominal model and degrade when the deployed dynamics change. Adaptive methods typically require a model structure that contact dynamics do not provide, or they need offline training for each anticipated condition.
+
+---
+
+## From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.10322)
+- **Authors:** Kerui Chen, Jianrong Zhang, Kai Lv, Hehe Fan
+- **Published:** 2026-10
+- **Tags:**
+  - Simulator
+  - Humanoid
+  - Fine-tuning
+  - Friction
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+Recent methods have made promising progress in generating interactions between two humanoids, largely relying on physics-based tracking policies to convert digital reference motions into executable trajectories. However, limited tracking capabilities restrict the range of reference motions that can be successfully executed, reducing data utilization.
+
+---
+
+## Precise SE(3) End-Effector Tracking in Whole-Body Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.09479)
+- **Authors:** Joohwan Seo, Xiaofeng Guo, Jinkun Cao, Roberto Horowitz, Rocky Duan, Guanya Shi et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Admittance Control
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Precise end-effector tracking during humanoid whole-body motion is challenging due to floating-base oscillations, gravity, dynamic coupling, and locomotion-induced disturbances. We propose ResGAC, a whole-body humanoid controller for precise end-effector pose tracking that combines geometric admittance control (GAC) with residual reinforcement learning.
+
+---
+
+## Co${}^{2}$Skill: Whole-Body Control via Skill Composition for Long-Horizon Human-Environment Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.09291)
+- **Authors:** Jeonghwan Kim, Hyeonwoo Kim, Hanbyul Joo
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Goal-Conditioned
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Achieving human-level dexterity in complex, unstructured environments requires the seamless integration of whole-body scene interaction and dexterous object manipulation skills. While existing physics-based controllers generate physically plausible behaviors in each domain, they largely address these two capabilities independently.
+
+---
+
+## Workhorse: Learning Robust Whole-Body Humanoid Loco-Manipulation from Human Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.09117)
+- **Authors:** Songbo Hu, Qiayuan Liao, Yufeng Chi, Kevin Zakka, Yakun Sophia Shao, Pieter Abbeel et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Proprioception
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Humanoid robots still struggle to plan contact-rich whole-body manipulation from egocentric RGB and proprioception. Workhorse learns such manipulation from robot-free human demonstrations.
+
+---
+
+## MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.09055)
+- **Authors:** Shuaijun Liu, Chenglong Zhang, Xuhao Liu, Feiyang You, Yifan Liao, Shuyang Hao et al. (10 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Collision
+  - Locomotion
+
+### Summary
+
+Human videos provide rich motion targets for humanoid learning, yet visually plausible references can still produce persistent failures under physics-based execution. These failures reveal where training supervision should change.
+
+---
+
+## HULK: Learning Whole-Body Forceful Loco-Manipulation for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08970)
+- **Authors:** An Dang, Arturo Flores Alvarez, Yu-Ming Chen, Conor Mc Gartoll, Helen Sun, Aaron Ames et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - MPC
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation of large, heavy objects demands forceful interaction across the entire body. However, such payloads shift a humanoid's center of mass and impose sustained loads across the upper body, challenging balance and command tracking.
+
+---
+
 ## PhoneBot: A Low-Cost Open Humanoid Robot Platform Reusing Smartphones
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08737)
@@ -155,6 +310,22 @@ Humanoid household manipulation requires the arms to act while the body balances
 ### Summary
 
 Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often impractical due to cost and safety concerns, making simulation benchmarks essential. Existing VLN benchmarks achieve physically executable navigation, but still assume (1) all hazards are observable from elevation maps; (2) realized motions closely match desired motions.
+
+---
+
+## CIRRA: Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08862)
+- **Authors:** Ci Zhang, Enfu Nan, Arman Akbari, Lin Zhao, Li Wang, Chen Wang et al. (9 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Benchmark
+  - Locomotion
+
+### Summary
+
+Household robots must accommodate new user instructions while executing ongoing tasks. Existing agents often regenerate or extensively revise the remaining task sequence, introducing plan ambiguity, logical inconsistency, and redundant execution.
 
 ---
 

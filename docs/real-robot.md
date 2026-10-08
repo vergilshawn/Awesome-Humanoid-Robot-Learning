@@ -8,7 +8,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Booster:** 2 papers
 - **Digit:** 1 papers
 - **Figure:** 10 papers
-- **Unitree G1:** 48 papers
+- **Unitree G1:** 50 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 20 papers
 - **iCub:** 1 papers
@@ -16,6 +16,49 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.10489)
+- **Authors:** Mike Zhang, Dongho Kang, Kevin Bergamin, Nicola Burger, Robin Deits, Jonathan Foster et al. (22 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Multi-Task
+  - Robustness
+  - Humanoid
+  - Gait
+  - Proprioception
+  - Goal-Conditioned
+
+### Summary
+
+Despite recent advances in humanoid locomotion, controllers optimized for command tracking and robustness tend to produce mechanical gaits, whereas controllers tied to human motion data often fail to generalize to commands outside the data distribution. This work introduces a learning framework that balances these competing objectives to synthesize real-time steerable, robust, and biomimetic locomotion policies from human data.
+
+---
+
+## Precise SE(3) End-Effector Tracking in Whole-Body Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.09479)
+- **Authors:** Joohwan Seo, Xiaofeng Guo, Jinkun Cao, Roberto Horowitz, Rocky Duan, Guanya Shi et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Admittance Control
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Precise end-effector tracking during humanoid whole-body motion is challenging due to floating-base oscillations, gravity, dynamic coupling, and locomotion-induced disturbances. We propose ResGAC, a whole-body humanoid controller for precise end-effector pose tracking that combines geometric admittance control (GAC) with residual reinforcement learning.
+
+---
 
 ## From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids
 
