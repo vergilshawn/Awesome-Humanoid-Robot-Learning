@@ -1,10 +1,10 @@
 # Locomotion
 
-**204 papers** in this category.
+**207 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (11 papers)
+- [2026-10](/locomotion/2026-10) (14 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,64 @@
 ---
 
 ## Recent Papers
+
+## VioLA: Learning Generalist Humanoid Control Policies from Human Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.12435)
+- **Authors:** Mert Albaba, Jens Beißwenger, Anna Manasyan, Daniel Marta, Michael J. Black, Wieland Brendel et al. (9 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Real Robot
+  - Humanoid
+  - Fine-tuning
+
+### Summary
+
+Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-level actions hard to learn.
+
+---
+
+## FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.12432)
+- **Authors:** Songyuan Zhang, Baljeet Singh, Sarthak Ranjeet Kaingade, Chuchu Fan, Bryan Trinh
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Safety
+  - Humanoid
+  - Walking
+  - SAC
+  - Locomotion
+
+### Summary
+
+Safe reinforcement learning commonly places safety and task performance in the same policy objective, where they can introduce competing updates. Safety filters separate them at action execution, but classical designs require an analytic safety function and dynamics model, and standard minimal-intervention filters are myopic to long-horizon task return because they minimize only instantaneous action deviation.
+
+---
+
+## DAMP: Humanoid Locomotion via Denoised Belief Learning and Adversarial Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.11505)
+- **Authors:** Puying Shen, Wenhao Cui, Huaxing Huang, Bangyu Qin, Shengtao Li, Ziyang Dong et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Robustness
+  - Humanoid
+  - Policy Learning
+
+### Summary
+
+Humanoid robots possess the structural capability to traverse complex terrains. However, achieving stable t raversal without relying on perceived information remains challenging, particularly in complex environments.
+
+---
 
 ## HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion
 
@@ -340,57 +398,5 @@ Learning humanoid skills from videos typically requires a successful human demon
 ### Summary
 
 Humanoids now walk, balance and reach with remarkable generality: one whole-body tracking policy follows references from a human, or from an end-to-end policy. That generality travels in the trajectory, and a trajectory alone carries limited information about the interaction it should produce: at contact, the executing controller determines how the robot behaves.
-
----
-
-## Passive-Dynamic-Walking-Inspired Dynamics Guidance for Energy-Efficient Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.35935)
-- **Authors:** Hyeonjin Choi, Joongheon Kim, Daekyum Kim
-- **Published:** 2026-09
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Gait
-  - Walking
-  - Collision
-
-### Summary
-
-Learning energy-efficient humanoid locomotion requires discovering mechanically economical gait coordination, not merely reducing actuator effort. Reinforcement learning promotes efficiency through effort-related reward penalties, which guide the step-to-step mechanics of walking only indirectly.
-
----
-
-## RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.32250)
-- **Authors:** Yujia Zeng, Chensheng Peng, Yuxin Chen, Alex Shao, Nathan Jew, Masayoshi Tomizuka
-- **Published:** 2026-09
-- **Tags:**
-  - Robustness
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-Sign-language interpretation in public communication relies on qualified professional interpreters and can be difficult to scale, motivating robotic signing as a complementary accessibility interface. We present RoBoSTAR, a text-conditioned sign language production (SLP) framework for generating human-centric sign motion that can be retargeted for robotic execution, with speech supported optionally through an external ASR front end.
-
----
-
-## Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.31577)
-- **Authors:** Zachary Olkin, William D. Compton, Aaron D. Ames
-- **Published:** 2026-09
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Flow Matching
-
-### Summary
-
-General purpose humanoids require locomotion controllers that are multi-skill, perceptive, dynamic, and robust enough to go anywhere humans can. In this work, we present a two layer locomotion architecture: (1) a perceptive flow matching motion generator plans whole body trajectories from raw depth images while a (2) perceptive tracking policy trained with control-guided RL follows these motions.
 
 ---

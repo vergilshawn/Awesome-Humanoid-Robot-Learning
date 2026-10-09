@@ -8,7 +8,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Booster:** 2 papers
 - **Digit:** 1 papers
 - **Figure:** 10 papers
-- **Unitree G1:** 50 papers
+- **Unitree G1:** 52 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 20 papers
 - **iCub:** 1 papers
@@ -16,6 +16,47 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.12432)
+- **Authors:** Songyuan Zhang, Baljeet Singh, Sarthak Ranjeet Kaingade, Chuchu Fan, Bryan Trinh
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Safety
+  - Humanoid
+  - Walking
+  - SAC
+  - Locomotion
+
+### Summary
+
+Safe reinforcement learning commonly places safety and task performance in the same policy objective, where they can introduce competing updates. Safety filters separate them at action execution, but classical designs require an analytic safety function and dynamics model, and standard minimal-intervention filters are myopic to long-horizon task return because they minimize only instantaneous action deviation.
+
+---
+
+## Being-M0.7: A Latent World-Action Model for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.11283)
+- **Authors:** Junpeng Yue, Boyuan Li, Yuxuan Wang, Zepeng Wang, Yuhui Fu, Feiyang Xie et al. (14 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Proprioception
+  - Pre-training
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires coordinated locomotion and manipulation informed by future scene evolution and whole-body motion, yet learning these capabilities is constrained by scarce robot demonstrations. Human video and motion datasets offer scalable supervision, but many contain only video or motion rather than paired video-motion data.
+
+---
 
 ## HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion
 

@@ -2,6 +2,123 @@
 
 All papers sorted by publication date (newest first).
 
+## VioLA: Learning Generalist Humanoid Control Policies from Human Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.12435)
+- **Authors:** Mert Albaba, Jens Beißwenger, Anna Manasyan, Daniel Marta, Michael J. Black, Wieland Brendel et al. (9 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Real Robot
+  - Humanoid
+  - Fine-tuning
+
+### Summary
+
+Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-level actions hard to learn.
+
+---
+
+## FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.12432)
+- **Authors:** Songyuan Zhang, Baljeet Singh, Sarthak Ranjeet Kaingade, Chuchu Fan, Bryan Trinh
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Safety
+  - Humanoid
+  - Walking
+  - SAC
+  - Locomotion
+
+### Summary
+
+Safe reinforcement learning commonly places safety and task performance in the same policy objective, where they can introduce competing updates. Safety filters separate them at action execution, but classical designs require an analytic safety function and dynamics model, and standard minimal-intervention filters are myopic to long-horizon task return because they minimize only instantaneous action deviation.
+
+---
+
+## Humanoid World Action Model With Joint State--Action Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.12026)
+- **Authors:** Yan Yang, Jikun Rong, Minzhao Zhu, Zheyi Zhao, Qirui Hu, Zihan Lan et al. (10 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots are a promising platform for general-purpose manipulation. Recent Vision-Language-Action (VLA) policies learn actions directly from multimodal observations, while World Action Models (WAMs) further incorporate future visual prediction to improve action generation.
+
+---
+
+## DAMP: Humanoid Locomotion via Denoised Belief Learning and Adversarial Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.11505)
+- **Authors:** Puying Shen, Wenhao Cui, Huaxing Huang, Bangyu Qin, Shengtao Li, Ziyang Dong et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Robustness
+  - Humanoid
+  - Policy Learning
+
+### Summary
+
+Humanoid robots possess the structural capability to traverse complex terrains. However, achieving stable t raversal without relying on perceived information remains challenging, particularly in complex environments.
+
+---
+
+## Being-M0.7: A Latent World-Action Model for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.11283)
+- **Authors:** Junpeng Yue, Boyuan Li, Yuxuan Wang, Zepeng Wang, Yuhui Fu, Feiyang Xie et al. (14 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Proprioception
+  - Pre-training
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires coordinated locomotion and manipulation informed by future scene evolution and whole-body motion, yet learning these capabilities is constrained by scarce robot demonstrations. Human video and motion datasets offer scalable supervision, but many contain only video or motion rather than paired video-motion data.
+
+---
+
+## TAPNAV: Humanoid Navigation through Tactile Active Perception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.10748)
+- **Authors:** Huaze Liu, Zhenyu Wu, Jaehwi Jang, Junjie Sheng, Andrew Collins, Aaron Xie et al. (11 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Navigation
+  - State Estimation
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Navigation in vision-denied environments is challenging for humanoid robots because proprioceptive odometry drifts and localization uncertainty accumulates rapidly. We present TAPNAV, a tactile active-perception framework that enables humanoid navigation toward a goal by actively probing surrounding structures without relying on vision.
+
+---
+
 ## HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.10489)

@@ -1,9 +1,10 @@
 # Navigation
 
-**23 papers** in this category.
+**24 papers** in this category.
 
 ## Months
 
+- [2026-10](/navigation/2026-10) (1 papers)
 - [2026-09](/navigation/2026-09) (1 papers)
 - [2026-07](/navigation/2026-07) (1 papers)
 - [2026-06](/navigation/2026-06) (1 papers)
@@ -25,6 +26,26 @@
 ---
 
 ## Recent Papers
+
+## TAPNAV: Humanoid Navigation through Tactile Active Perception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.10748)
+- **Authors:** Huaze Liu, Zhenyu Wu, Jaehwi Jang, Junjie Sheng, Andrew Collins, Aaron Xie et al. (11 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Navigation
+  - State Estimation
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Navigation in vision-denied environments is challenging for humanoid robots because proprioceptive odometry drifts and localization uncertainty accumulates rapidly. We present TAPNAV, a tactile active-perception framework that enables humanoid navigation toward a goal by actively probing surrounding structures without relying on vision.
+
+---
 
 ## Learning Safe Humanoid Navigation from Reduced Order Models
 
@@ -324,20 +345,6 @@ Summary unavailable. This entry was imported from a curated paper list.
   - Sim-to-Real
   - Navigation
   - Diffusion
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## HumanoidPano: Hybrid Spherical Panoramic-LiDAR Cross-Modal Perception for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2503.09010)
-- **Published:** 2025-03
-- **Tags:**
-  - Humanoid
-  - Navigation
 
 ### Summary
 

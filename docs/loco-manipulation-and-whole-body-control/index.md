@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**270 papers** in this category.
+**272 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (15 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (17 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,45 @@
 ---
 
 ## Recent Papers
+
+## Humanoid World Action Model With Joint State--Action Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.12026)
+- **Authors:** Yan Yang, Jikun Rong, Minzhao Zhu, Zheyi Zhao, Qirui Hu, Zihan Lan et al. (10 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots are a promising platform for general-purpose manipulation. Recent Vision-Language-Action (VLA) policies learn actions directly from multimodal observations, while World Action Models (WAMs) further incorporate future visual prediction to improve action generation.
+
+---
+
+## Being-M0.7: A Latent World-Action Model for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.11283)
+- **Authors:** Junpeng Yue, Boyuan Li, Yuxuan Wang, Zepeng Wang, Yuhui Fu, Feiyang Xie et al. (14 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Proprioception
+  - Pre-training
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires coordinated locomotion and manipulation informed by future scene evolution and whole-body motion, yet learning these capabilities is constrained by scarce robot demonstrations. Human video and motion datasets offer scalable supervision, but many contain only video or motion rather than paired video-motion data.
+
+---
 
 ## LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations
 
@@ -383,44 +422,5 @@ Whole-body teleoperation requires a humanoid robot to reproduce a human operator
 ### Summary
 
 Humanoids are increasingly capable of tracking complex whole-body motions, but physical interaction introduces a different challenge. When a robot makes contact with a person or the environment, it needs to respond to external forces while preserving the motion needed for the task.
-
----
-
-## Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.38172)
-- **Authors:** Zihan Wang, Zhen Wu, Pieter Abbeel, Rocky Duan, Jitendra Malik, Carmelo Sferrazza et al. (9 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅
-- **Tags:**
-  - Sim-to-Real
-  - Manipulation
-  - Real Robot
-  - Humanoid
-  - Fine-tuning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's full body and unoccluded interactions with objects, poses a practical barrier to scaling this approach.
-
----
-
-## CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.38087)
-- **Authors:** Tan-Dzung Do, Tuan Dat Phuong, Nico Bohlinger, Cuc T. Trinh, Siwei Ju, Vien Anh Ngo et al. (9 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Whole-Body Control
-  - Real Robot
-  - Humanoid
-  - Foundation Model
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Behavior Foundation Models (BFMs) give humanoids a promptable policy over a latent behavior space, enabling one single vector to represent a motion to imitate, a pose to reach, or a reward to maximize. Forward-Backward representations successfully produce such spaces, but at the cost of hundreds of GPU-hours for a single robot.
 
 ---
