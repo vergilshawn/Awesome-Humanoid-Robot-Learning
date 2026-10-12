@@ -1,10 +1,10 @@
 # Teleoperation
 
-**35 papers** in this category.
+**37 papers** in this category.
 
 ## Months
 
-- [2026-10](/teleoperation/2026-10) (3 papers)
+- [2026-10](/teleoperation/2026-10) (5 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
@@ -25,6 +25,41 @@
 ---
 
 ## Recent Papers
+
+## VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.13079)
+- **Authors:** Dvij Kalaria, Bike Zhang, S. Shankar Sastry
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Humanoid
+  - Collision
+
+### Summary
+
+Third-person human videos offer a scalable alternative to task-specific reward engineering, teleoperation, and manually scripted demonstrations for humanoid loco-manipulation. Recent video-to-humanoid systems have shown that noisy human motion, object trajectories, and contacts can be extracted from unstructured videos and refined into deployable skills.
+
+---
+
+## PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.12642)
+- **Authors:** Nicholas Ioannidis, Dun Yang, Max Smith, Tue Vu, Ziyu Zhang, Shayegan Omidshafiei et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Motion Retargeting
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - Teleoperation
+
+### Summary
+
+Motion retargeting is a critical preprocessing step for transferring human motion data to humanoid robots. While existing methods are effective for single-character motions, interactions involving multiple characters and objects introduce additional contacts and spatial relationships that must be preserved.
+
+---
 
 ## From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids
 
@@ -343,34 +378,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## ExtremControl: Low-Latency Humanoid Teleoperation with Direct Extremity Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.11321)
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## TeleGate: Whole-Body Humanoid Teleoperation via Gated Expert Selection with Motion Prior
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.09628)
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## A Closed-Form Geometric Retargeting Solver for Upper Body Humanoid Robot Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.01632)
 - **Published:** 2026-02
 - **Tags:**
   - Teleoperation

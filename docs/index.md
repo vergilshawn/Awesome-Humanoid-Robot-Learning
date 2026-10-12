@@ -8,66 +8,66 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 791
+- **Total Papers:** 799
 - **Real Robot Papers:** 88
 - **Open Source Papers:** 129
 - **Latest Month:** 2026-10
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (272)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (276)
 - [Manipulation](/manipulation/) (73)
-- [Teleoperation](/teleoperation/) (35)
-- [Locomotion](/locomotion/) (207)
+- [Teleoperation](/teleoperation/) (37)
+- [Locomotion](/locomotion/) (208)
 - [Navigation](/navigation/) (24)
 - [State Estimation](/state-estimation/) (21)
 - [Sim-to-Real](/sim-to-real/) (13)
 - [Hardware Design](/hardware-design/) (32)
 - [Simulation Benchmark](/simulation-benchmark/) (39)
-- [Physics-Based Character Animation](/physics-based-character-animation/) (46)
+- [Physics-Based Character Animation](/physics-based-character-animation/) (47)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (29)
 
 ---
 
 ## 🔥 Latest Papers
 
+-  [ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching](https://arxiv.org/abs/2610.13572) — 2026-10
+  - [Locomotion](/locomotion/)
+-  [PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation](https://arxiv.org/abs/2610.13373) — 2026-10
+  - [Physics-Based Character Animation](/physics-based-character-animation/)
+-  [Belief-Overlap Partial Inversion: Object-Centric Flow Replanning for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.13087) — 2026-10
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills](https://arxiv.org/abs/2610.13079) — 2026-10
+  - [Teleoperation](/teleoperation/)
+-  [Adaptive Whole-Body MPC with Optimal Posture Planning for Humanoid Robots under Unknown Payloads](https://arxiv.org/abs/2610.12972) — 2026-10
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [Reflex: Visually Grounded Reactive Humanoid Control](https://arxiv.org/abs/2610.12772) — 2026-10
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting](https://arxiv.org/abs/2610.12642) — 2026-10
+  - [Teleoperation](/teleoperation/)
+-  [PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface](https://arxiv.org/abs/2610.12558) — 2026-10
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [VioLA: Learning Generalist Humanoid Control Policies from Human Data](https://arxiv.org/abs/2610.12435) — 2026-10
   - [Locomotion](/locomotion/)
 -  🤖 [FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems](https://arxiv.org/abs/2610.12432) — 2026-10
   - [Locomotion](/locomotion/)
--  [Humanoid World Action Model With Joint State--Action Generation](https://arxiv.org/abs/2610.12026) — 2026-10
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [DAMP: Humanoid Locomotion via Denoised Belief Learning and Adversarial Motion Priors](https://arxiv.org/abs/2610.11505) — 2026-10
-  - [Locomotion](/locomotion/)
--  🤖 [Being-M0.7: A Latent World-Action Model for Humanoid Robots](https://arxiv.org/abs/2610.11283) — 2026-10
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [TAPNAV: Humanoid Navigation through Tactile Active Perception](https://arxiv.org/abs/2610.10748) — 2026-10
-  - [Navigation](/navigation/)
--  🤖 [HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion](https://arxiv.org/abs/2610.10489) — 2026-10
-  - [Locomotion](/locomotion/)
--  [LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations](https://arxiv.org/abs/2610.10465) — 2026-10
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators](https://arxiv.org/abs/2610.10322) — 2026-10
-  - [Physics-Based Character Animation](/physics-based-character-animation/)
--  🤖 [Precise SE(3) End-Effector Tracking in Whole-Body Humanoid Control](https://arxiv.org/abs/2610.09479) — 2026-10
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (651)
-- **Loco-Manipulation and Whole-Body Control** (294)
-- **Locomotion** (290)
-- **Manipulation** (222)
-- **Reinforcement Learning** (105)
-- **PPO** (97)
-- **Whole-Body Control** (91)
-- **Simulation Benchmark** (76)
-- **Teleoperation** (71)
-- **Physics-Based Character Animation** (59)
-- **Dataset** (53)
-- **State Estimation** (51)
+- **Humanoid** (659)
+- **Loco-Manipulation and Whole-Body Control** (298)
+- **Locomotion** (291)
+- **Manipulation** (226)
+- **Reinforcement Learning** (106)
+- **PPO** (100)
+- **Whole-Body Control** (95)
+- **Simulation Benchmark** (77)
+- **Teleoperation** (73)
+- **Physics-Based Character Animation** (60)
+- **Dataset** (54)
+- **State Estimation** (52)
 - **Vision-Language** (44)
 - **Sim-to-Real** (44)
 - **Zero-Shot** (43)
@@ -75,17 +75,17 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Navigation** (42)
 - **Benchmark** (41)
 - **Human Motion Analysis and Synthesis** (40)
-- **Diffusion** (36)
+- **Diffusion** (37)
+- **Distillation** (33)
+- **Robustness** (33)
 - **Hardware Design** (33)
 - **Safety** (32)
-- **Robustness** (32)
-- **Distillation** (32)
-- **Human Demonstration** (30)
+- **Human Demonstration** (31)
 - **Proprioception** (28)
 - **Gait** (28)
 - **Foundation Model** (27)
-- **Fine-tuning** (23)
-- **Collision** (21)
+- **Fine-tuning** (24)
+- **Collision** (22)
 
 ---
 
@@ -95,6 +95,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/loco-manipulation-and-whole-body-control/2026-10)
 
+- [Belief-Overlap Partial Inversion: Object-Centric Flow Replanning for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.13087) — `Whole-Body Control`, `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
+- [Adaptive Whole-Body MPC with Optimal Posture Planning for Humanoid Robots under Unknown Payloads](https://arxiv.org/abs/2610.12972) — `MPC`, `Whole-Body Control`, `Robustness`, `Humanoid`, `PPO`, `Loco-Manipulation and Whole-Body Control`
+- [Reflex: Visually Grounded Reactive Humanoid Control](https://arxiv.org/abs/2610.12772) — `Reinforcement Learning`, `Whole-Body Control`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface](https://arxiv.org/abs/2610.12558) — `Whole-Body Control`, `Manipulation`, `Human Demonstration`, `Humanoid`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [Humanoid World Action Model With Joint State--Action Generation](https://arxiv.org/abs/2610.12026) — `Whole-Body Control`, `Manipulation`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`
 - [Being-M0.7: A Latent World-Action Model for Humanoid Robots](https://arxiv.org/abs/2610.11283) — `Locomotion`, `Manipulation`, `Humanoid`, `Proprioception`, `Pre-training`, `Dataset`
 - [LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations](https://arxiv.org/abs/2610.10465) — `Whole-Body Control`, `Simulator`, `Walking`, `Contact Dynamics`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
@@ -612,6 +616,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/teleoperation/2026-10)
 
+- [VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills](https://arxiv.org/abs/2610.13079) — `Teleoperation`, `Manipulation`, `Humanoid`, `Collision`
+- [PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting](https://arxiv.org/abs/2610.12642) — `Motion Retargeting`, `Manipulation`, `Humanoid`, `Dataset`, `Teleoperation`
 - [From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids](https://arxiv.org/abs/2610.08381) — `Motion Retargeting`, `Humanoid`, `Walking`, `Teleoperation`, `Human Motion Analysis and Synthesis`, `Locomotion`
 - [AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions](https://arxiv.org/abs/2610.08119) — `Teleoperation`, `Humanoid`, `Inverse Kinematics`, `Fine-tuning`, `Distillation`, `Diffusion`
 - [Beyond Retargeting: Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives](https://arxiv.org/abs/2610.07891) — `Teleoperation`, `Motion Retargeting`, `Robustness`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Physics-Based Character Animation`
@@ -700,6 +706,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/locomotion/2026-10)
 
+- [ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching](https://arxiv.org/abs/2610.13572) — `Locomotion`, `Humanoid`, `Fine-tuning`, `Distillation`, `PPO`, `DAgger`
 - [VioLA: Learning Generalist Humanoid Control Policies from Human Data](https://arxiv.org/abs/2610.12435) — `Locomotion`, `Manipulation`, `Zero-Shot`, `Human Demonstration`, `Real Robot`, `Humanoid`
 - [FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems](https://arxiv.org/abs/2610.12432) — `Reinforcement Learning`, `Safety`, `Humanoid`, `Walking`, `SAC`, `Locomotion`
 - [DAMP: Humanoid Locomotion via Denoised Belief Learning and Adversarial Motion Priors](https://arxiv.org/abs/2610.11505) — `Reinforcement Learning`, `Locomotion`, `Robustness`, `Humanoid`, `Policy Learning`
@@ -1369,6 +1376,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/physics-based-character-animation/2026-10)
 
+- [PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation](https://arxiv.org/abs/2610.13373) — `MuJoCo`, `Humanoid`, `Language-Conditioned`, `Diffusion`, `Physics-Based Character Animation`, `Simulation Benchmark`
 - [From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators](https://arxiv.org/abs/2610.10322) — `Simulator`, `Humanoid`, `Fine-tuning`, `Friction`, `Diffusion`, `Physics-Based Character Animation`
 
 #### [2026-09](/physics-based-character-animation/2026-09)
