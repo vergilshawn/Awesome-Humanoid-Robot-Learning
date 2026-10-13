@@ -1,10 +1,10 @@
 # Locomotion
 
-**208 papers** in this category.
+**207 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (15 papers)
+- [2026-10](/locomotion/2026-10) (14 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,25 +40,6 @@
 ---
 
 ## Recent Papers
-
-## ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.13572)
-- **Authors:** Zhihao Tian, Zifan Wang, Enzheng Zhu, Xun Yang, Jialong Qin, Mengbo Wang et al. (7 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Fine-tuning
-  - Distillation
-  - PPO
-  - DAgger
-
-### Summary
-
-Humanoid tennis requires reactive whole-body coordination under rapidly changing ball dynamics, yet collecting task-specific motion-capture demonstrations that cover diverse approach states, contact locations, and timing conditions is costly. Inspired by how humans acquire new skills by combining reusable motor experience with task-specific demonstrations, we present ATHLETE, a framework for learning reactive humanoid tennis from generic locomotion data and ordinary tennis videos.
-
----
 
 ## VioLA: Learning Generalist Humanoid Control Policies from Human Data
 
@@ -401,5 +382,21 @@ Robotic foundation models offer a promising path toward general-purpose humanoid
 ### Summary
 
 Learning humanoid skills from videos typically requires a successful human demonstration, which often demands custom data collection. Although failures have traditionally been treated only as negative examples in robot learning, they can still reveal a usable trajectory prefix before the task fails, as well as the intended outcome.
+
+---
+
+## KPI: A Promptable Kernel for Physical Interaction on Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.36151)
+- **Authors:** Yikai Wang, Honghao Zhu, Xiao Hu, Hao Zhang, Zelin Wang, Yip Fun Yeung et al. (8 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - Locomotion
+
+### Summary
+
+Humanoids now walk, balance and reach with remarkable generality: one whole-body tracking policy follows references from a human, or from an end-to-end policy. That generality travels in the trajectory, and a trajectory alone carries limited information about the interaction it should produce: at contact, the executing controller determines how the robot behaves.
 
 ---

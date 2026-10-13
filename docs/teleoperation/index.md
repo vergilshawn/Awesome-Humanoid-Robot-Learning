@@ -1,10 +1,10 @@
 # Teleoperation
 
-**37 papers** in this category.
+**36 papers** in this category.
 
 ## Months
 
-- [2026-10](/teleoperation/2026-10) (5 papers)
+- [2026-10](/teleoperation/2026-10) (4 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
@@ -25,23 +25,6 @@
 ---
 
 ## Recent Papers
-
-## VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.13079)
-- **Authors:** Dvij Kalaria, Bike Zhang, S. Shankar Sastry
-- **Published:** 2026-10
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Humanoid
-  - Collision
-
-### Summary
-
-Third-person human videos offer a scalable alternative to task-specific reward engineering, teleoperation, and manually scripted demonstrations for humanoid loco-manipulation. Recent video-to-humanoid systems have shown that noisy human motion, object trajectories, and contacts can be extracted from unstructured videos and refined into deployable skills.
-
----
 
 ## PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting
 
@@ -378,6 +361,20 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## ExtremControl: Low-Latency Humanoid Teleoperation with Direct Extremity Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.11321)
+- **Published:** 2026-02
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+
+### Summary
+
+Summary unavailable. This entry was imported from a curated paper list.
+
+---
+
+## TeleGate: Whole-Body Humanoid Teleoperation via Gated Expert Selection with Motion Prior
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2602.09628)
 - **Published:** 2026-02
 - **Tags:**
   - Teleoperation

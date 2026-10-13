@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**276 papers** in this category.
+**274 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (21 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (19 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,43 +39,6 @@
 ---
 
 ## Recent Papers
-
-## Belief-Overlap Partial Inversion: Object-Centric Flow Replanning for Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.13087)
-- **Authors:** Chen Yu, Sudarshan S Harithas, Juan Borbon, Dingqi Zhang, Jiuguang Wang
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-People often learn how an unfamiliar object moves through a small exploratory push, using its response to guide their next motion. Inspired by this behavior, we study humanoids pushing carts whose mass and caster stiffness are initially unknown.
-
----
-
-## Adaptive Whole-Body MPC with Optimal Posture Planning for Humanoid Robots under Unknown Payloads
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.12972)
-- **Authors:** Manh Cuong Nguyen, Duc Cuong Vu, Viet Anh Vu, Duc Tuan Pham, Toan Nguyen, Minh Hiep Phung et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - MPC
-  - Whole-Body Control
-  - Robustness
-  - Humanoid
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots performing lifting and material-handling tasks must maintain balance despite unknown and varying payloads. However, payload uncertainty significantly affects whole-body dynamics and may destabilize conventional controllers.
-
----
 
 ## Reflex: Visually Grounded Reactive Humanoid Control
 
@@ -418,5 +381,44 @@ Humanoid whole-body controllers can now track a diverse set of dynamic motions, 
 ### Summary
 
 Safe whole-body motion is essential for deploying humanoid robots in unstructured environments. Modern humanoid control commonly separates reference specification from execution, with a planner, teleoperator, or motion generator providing a reference that a reinforcement-learning policy tracks through dynamically feasible whole-body control.
+
+---
+
+## InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.02196)
+- **Authors:** Zhuo Lin, Sirui Xu, Liuyu Bian, Yu-Xiong Wang, Liang-Yan Gui
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - Large Language Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interactions, yet executable and measurable enough that execution feedback can guide planning from experience.
+
+---
+
+## Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.00438)
+- **Authors:** Chongyang Xu, Zhao Wu, Jin Chen, Yiming Jiang, Jinhui Ye, Yuming Jiang et al. (12 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements. Meanwhile, egocentric human videos provide diverse examples of everyday interactions across objects and scenes, offering scalable supervision without robot operation.
 
 ---
