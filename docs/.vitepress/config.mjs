@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (274)",
+            "text": "Loco-Manipulation and Whole-Body Control (279)",
             "collapsed": true,
             "items": [
                   {
@@ -292,7 +292,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (36)",
+            "text": "Teleoperation (39)",
             "collapsed": true,
             "items": [
                   {
@@ -370,7 +370,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (207)",
+            "text": "Locomotion (215)",
             "collapsed": true,
             "items": [
                   {
@@ -508,7 +508,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (24)",
+            "text": "Navigation (25)",
             "collapsed": true,
             "items": [
                   {
@@ -776,7 +776,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (39)",
+            "text": "Simulation Benchmark (40)",
             "collapsed": true,
             "items": [
                   {
@@ -858,7 +858,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (46)",
+            "text": "Physics-Based Character Animation (47)",
             "collapsed": true,
             "items": [
                   {
@@ -980,7 +980,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (29)",
+            "text": "Human Motion Analysis and Synthesis (30)",
             "collapsed": true,
             "items": [
                   {

@@ -7,8 +7,8 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 1 papers
-- **Figure:** 10 papers
-- **Unitree G1:** 52 papers
+- **Figure:** 12 papers
+- **Unitree G1:** 53 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 20 papers
 - **iCub:** 1 papers
@@ -16,6 +16,59 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.16855)
+- **Authors:** Chao Tan, Ming Shin Cindy Sung, Shuxian Liang, Chaoqun Wan, Zhen Huang, Xian-Sheng Hua
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Manipulation
+
+### Summary
+
+Real-time bimanual humanoid teleoperation requires accurate wrist tracking while keeping arm configurations predictable. Because a 7-DoF arm admits multiple elbow configurations for the same wrist pose, wrist-only tracking can cause elbow drift or abrupt configuration changes.
+
+---
+
+## P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.15833)
+- **Authors:** Xue Wang, Yitang Li, Yiming Zhang, Siqin Wang, Junhan Sun, Zhihao Liu et al. (10 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Zero-Shot
+  - Humanoid
+  - Foundation Model
+  - PPO
+
+### Summary
+
+Behavioral foundation models (BFMs) provide humanoids with reusable repertoires of whole-body behaviors; in real-world humanoid control, the same behavioral intent may require fundamentally different motions under different terrain constraints. Covering such variation with terrain-matched demonstrations requires enumerating a combinatorial space of behaviors and terrain geometries.
+
+---
+
+## RoboFake: Are Deepfake Detectors Ready for Humanoid Face Robots?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.14269)
+- **Authors:** Hao Chen, Junnan Xu
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Humanoid face robots can now move their lips in sync with speech and show detailed facial expressions. Give such a robot the face of a real person and drive it with generated speech, and you get a face forgery that happens in front of the camera: the camera records a real object, and no pixel is edited.
+
+---
 
 ## FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems
 

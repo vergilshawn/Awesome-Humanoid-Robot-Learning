@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**39 papers** in this category.
+**40 papers** in this category.
 
 ## Months
 
-- [2026-10](/simulation-benchmark/2026-10) (2 papers)
+- [2026-10](/simulation-benchmark/2026-10) (3 papers)
 - [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
@@ -26,6 +26,23 @@
 ---
 
 ## Recent Papers
+
+## Composable Dynamics for Cooperative Humanoids: A RoboCompiler Extension
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.14237)
+- **Authors:** Mehdi Heydari Shahna, Jouni Mattila
+- **Published:** 2026-10
+- **Tags:**
+  - MuJoCo
+  - Humanoid
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Physically connected humanoids need consistent dynamics for internal actuator loops, inter-robot forces, and changing ground supports. We extend RoboCompiler with member-wise dynamics assembly, compiling reduced dynamics from rigid bodies, moving actuator parts, and reflected rotor inertias.
+
+---
 
 ## 🌟 BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
 
@@ -396,26 +413,5 @@ Humanoid robots are difficult to deploy safely because they have high-dimensiona
 ### Summary
 
 Cross-embodiment video generation aims to transfer motions across different humanoid embodiments, such as human-to-robot and robot-to-robot, enabling scalable data generation for embodied intelligence. A major challenge in this setting is that motion dynamics are partly transferable across embodiments, whereas appearance and morphology remain embodiment-specific.
-
----
-
-## Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.05993)
-- **Authors:** Beichen Wang, Yuanjie Lu, Linji Wang, Liuchuan Yu, Xuesu Xiao
-- **Published:** 2026-03
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Safety
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Dataset
-  - PPO
-
-### Summary
-
-Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
 
 ---

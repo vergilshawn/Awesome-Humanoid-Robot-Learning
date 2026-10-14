@@ -1,10 +1,10 @@
 # Locomotion
 
-**207 papers** in this category.
+**215 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (14 papers)
+- [2026-10](/locomotion/2026-10) (22 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,111 @@
 ---
 
 ## Recent Papers
+
+## Design and Analysis of a Nonlinear Parallel Mechanism Coupling for Dynamic Humanoid Legs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.16604)
+- **Authors:** Rohit Kumar, Heiner Peters, Felix Wiebe, Franek Stark, Janne Janzen, Dennis Mronga et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Humanoids increasingly demand lightweight leg mechanisms for agile, dynamic, and energy-efficient locomotion. Reducing distal inertia through proximal actuation has thus become a common design goal.
+
+---
+
+## Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.15274)
+- **Authors:** Yongpeng Cao, Masahiro Hirano, Yuji Yamakawa
+- **Published:** 2026-10
+- **Tags:**
+  - Motion Retargeting
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive.
+
+---
+
+## Modeling and Control of a Rigid-soft Hybrid-link Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.15073)
+- **Authors:** Zewen He, Taiki Ishigaki, Ko Yamamoto
+- **Published:** 2026-10
+- **Tags:**
+  - Biped
+  - Humanoid
+  - Walking
+  - Inverse Kinematics
+  - Impact
+  - Optimization-Based
+  - PPO
+  - Locomotion
+
+### Summary
+
+Physical flexibility plays a significant role not only in human motions but also in robot motions. For example, a humanoid robot with passive and flexible elements, which can be regarded as a rigid--soft hybrid-link system, has the advantages of storing energy and mitigating impact in a dynamic motion.
+
+---
+
+## Push the Limit: Learning High-Speed Sprinting and Aggressive Cornering on a Full-Scale Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.14840)
+- **Authors:** Huaxing Huang, Ruidong Li, Jinchao Han, Ziyang Dong, Wenhao Cui
+- **Published:** 2026-10
+- **Tags:**
+  - Biped
+  - Humanoid
+  - Gait
+  - Impact
+  - Locomotion
+
+### Summary
+
+We present a learning-based framework that enables a full-scale bipedal humanoid to sprint at over 7 m/s with motion-prior-guided gait and perform aggressive cornering at high speed with a pronounced trunk lean of up to $25^\circ$. Achieving this combination is challenging: above approximately 4 m/s, periodic foot impacts induce severe, high-frequency yaw-rate oscillations intrinsic to high-speed gaits.
+
+---
+
+## RoboFake: Are Deepfake Detectors Ready for Humanoid Face Robots?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.14269)
+- **Authors:** Hao Chen, Junnan Xu
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Humanoid face robots can now move their lips in sync with speech and show detailed facial expressions. Give such a robot the face of a real person and drive it with generated speech, and you get a face forgery that happens in front of the camera: the camera records a real object, and no pixel is edited.
+
+---
+
+## ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.13572)
+- **Authors:** Zhihao Tian, Zifan Wang, Enzheng Zhu, Xun Yang, Jialong Qin, Mengbo Wang et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Fine-tuning
+  - Distillation
+  - PPO
+  - DAgger
+
+### Summary
+
+Humanoid tennis requires reactive whole-body coordination under rapidly changing ball dynamics, yet collecting task-specific motion-capture demonstrations that cover diverse approach states, contact locations, and timing conditions is costly. Inspired by how humans acquire new skills by combining reusable motor experience with task-specific demonstrations, we present ATHLETE, a framework for learning reactive humanoid tennis from generic locomotion data and ordinary tennis videos.
+
+---
 
 ## VioLA: Learning Generalist Humanoid Control Policies from Human Data
 
@@ -118,6 +223,40 @@ Humanoid robots possess the structural capability to traverse complex terrains. 
 ### Summary
 
 Despite recent advances in humanoid locomotion, controllers optimized for command tracking and robustness tend to produce mechanical gaits, whereas controllers tied to human motion data often fail to generalize to commands outside the data distribution. This work introduces a learning framework that balances these competing objectives to synthesize real-time steerable, robust, and biomimetic locomotion policies from human data.
+
+---
+
+## From Hitter to Player: Separating Motor Execution and Strategy in Competitive Humanoid Table Tennis
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.14067)
+- **Authors:** Fanrong Dong, Ziyi Sun, Ziqi Han, Junhan Sun, Lei Ye, Zetong Jing et al. (9 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Competitive humanoid table tennis requires two distinct abilities: executing a desired return and deciding where to return the ball. We separate these two problems, with the ball landing target serving as an interface between motor control and strategy.
+
+---
+
+## Terrain Traversal Without Motion Priors: Expert-Routed Humanoid Locomotion at Deployment Fidelity
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.14061)
+- **Authors:** Thanh Ly, Chien Le, Truong-Duy Dang, Duy M. H. Nguyen, Duy-Dung Le, Vien Anh Ngo et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Simulator
+  - Humanoid
+  - Distillation
+  - Self-Supervised
+
+### Summary
+
+State-of-the-art perceptive humanoid locomotion is mostly built on retargeted motion capture, a generative motion prior, and a distillation stage. We report a complete system that does not require this pipeline for a humanoid to cross varied terrain.
 
 ---
 
@@ -255,148 +394,5 @@ Text-driven motion editing modifies an existing motion sequence according to a t
 ### Summary
 
 Video is an abundant, inexpensive source of human motion data that is rich in extreme athletic behaviors. Making it usable for humanoid robots, however, is not a matter of simply retargeting a reconstructed trajectory: video-derived motion is physically inconsistent, devoid of actuation information, and says nothing about failure or recovery.
-
----
-
-## Beyond Reward Hacking: Proxy Divergence Across Four Layers of a Staged Humanoid Learning Pipeline
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.03196)
-- **Authors:** Arunabh Bora
-- **Published:** 2026-10
-- **Tags:**
-  - Robustness
-  - Humanoid
-  - Gait
-  - PPO
-  - Locomotion
-
-### Summary
-
-A reinforcement-learning (RL) pipeline for a legged robot is assembled from proxies. A reward stands in for intended behaviour, a curriculum gate stands in for competence, an evaluation statistic stands in for robustness, and a reference motion stands in for an achievable skill.
-
----
-
-## Continue, Abort, or Fall: Viability-Aware Policy Selection (VAPS) for Safe Humanoid Acrobatics
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.01397)
-- **Authors:** Siwei Ju, Lu Liu, Jan Peters, Oleg Arenz
-- **Published:** 2026-10
-- **Tags:**
-  - Sim-to-Real
-  - Safety
-  - Humanoid
-  - Impact
-  - SAC
-  - Locomotion
-
-### Summary
-
-Dynamic humanoid motions such as flips risk hardware damage due to suboptimal policies, disturbances or sim-to-real gaps. A motion tracking policy offers no way out once the maneuver leaves its reference, and a backup policy needs to take over to protect the hardware for a minimum-damage landing.
-
----
-
-## Reactive Humanoid Multi-Contact Using Learned Stability Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.00823)
-- **Authors:** Stephen McCrory, Beomyeong Park, Nicholas Kitchel, Nehar Poddar, Robert Griffin
-- **Published:** 2026-09
-- **Tags:**
-  - Humanoid
-  - Walking
-  - Impact
-  - Optimization-Based
-  - Locomotion
-
-### Summary
-
-We present a planning and control approach to reactively use hand contacts to stabilize a humanoid in low stability scenarios, where only using feet contacts may result in a fall. Candidate contacts are sampled within the robot's reachable workspace, and a preview is computed by rolling out the centroidal dynamics through pre-impact, impact and post-impact phases.
-
----
-
-## RoboAssist: Interactive Human-Humanoid Planning for Long-Horizon Surgical Assistance
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.39384)
-- **Authors:** Jingwei Jia, Keyu Zhou, Jiewei Wang, Peisen Xu, Xingyuan Zhou, Liang Wang et al. (10 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Navigation
-  - Safety
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Long-horizon surgical assistance requires humanoid robots to coordinate with evolving human activities while maintaining safety across planning and execution. We present RoboAssist, an agent-based framework for interactive human-humanoid planning that integrates workflow reasoning, task coordination, and cross-layer safety.
-
----
-
-## Locomotion-Grounded Humanoid Soccer: Task-Gated Reinforcement Learning of a Multi-Directional Kicking Library
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.38852)
-- **Authors:** Abu Hanif Muhammad Syarubany, Jaehyun Jang, Hwanhee Kim, Kyuwon Kim, Seungyeon Ryu, Chang D. Yoo
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Gait
-
-### Summary
-
-Recent humanoid soccer systems make motion tracking the substrate and derive locomotion from it, typically by steering a motion-reference anchor toward the ball. This yields strong shooting results, but locomotion is trained only on the narrow, deterministic command distribution ball approach induces, never evaluated as a capability in its own right.
-
----
-
-## Learning Expressive and Compositional Motion Representation via Spectral Skills
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.37677)
-- **Authors:** Feiyang Wu, Chenxiao Gao, Chen Yang, Ye Zhao, Bo Dai, Anqi Wu
-- **Published:** 2026-09
-- **Tags:**
-  - Humanoid
-  - Language-Conditioned
-  - Foundation Model
-  - PPO
-  - Representation Learning
-  - Locomotion
-
-### Summary
-
-Robotic foundation models offer a promising path toward general-purpose humanoid robot control, often through hierarchical architectures. However, their effectiveness depends on the command interface between the planner and the controller, which must support accurate execution while remaining easy to predict, and ideally allow new behaviors to be composed from prior ones.
-
----
-
-## Track-and-Complete: Learning Humanoid Skills from a Single Failed Human Video
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.36924)
-- **Authors:** Sarmad Idrees, Jongeun Choi
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Human Demonstration
-  - Humanoid
-  - Dataset
-  - Locomotion
-
-### Summary
-
-Learning humanoid skills from videos typically requires a successful human demonstration, which often demands custom data collection. Although failures have traditionally been treated only as negative examples in robot learning, they can still reveal a usable trajectory prefix before the task fails, as well as the intended outcome.
-
----
-
-## KPI: A Promptable Kernel for Physical Interaction on Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.36151)
-- **Authors:** Yikai Wang, Honghao Zhu, Xiao Hu, Hao Zhang, Zelin Wang, Yip Fun Yeung et al. (8 authors)
-- **Published:** 2026-09
-- **Tags:**
-  - Humanoid
-  - Vision-Language
-  - Locomotion
-
-### Summary
-
-Humanoids now walk, balance and reach with remarkable generality: one whole-body tracking policy follows references from a human, or from an end-to-end policy. That generality travels in the trajectory, and a trajectory alone carries limited information about the interaction it should produce: at contact, the executing controller determines how the robot behaves.
 
 ---

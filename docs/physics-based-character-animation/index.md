@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**46 papers** in this category.
+**47 papers** in this category.
 
 ## Months
 
-- [2026-10](/physics-based-character-animation/2026-10) (1 papers)
+- [2026-10](/physics-based-character-animation/2026-10) (2 papers)
 - [2026-09](/physics-based-character-animation/2026-09) (3 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (6 papers)
@@ -36,6 +36,25 @@
 ---
 
 ## Recent Papers
+
+## PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.13373)
+- **Authors:** Chuxuan Huang, Zhanxiang Cao, Tianyue Zhan, Haoyang Li, Yang Zhang, Liyun Yan et al. (17 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - MuJoCo
+  - Humanoid
+  - Language-Conditioned
+  - Diffusion
+  - Physics-Based Character Animation
+  - Simulation Benchmark
+
+### Summary
+
+Translating language into humanoid motion requires coordinating body parts, determining motion duration, and producing references suitable for robot execution. We introduce PartiGen, a part-aware latent diffusion framework that incorporates anatomical structure into a shared whole-body motion representation.
+
+---
 
 ## From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators
 
@@ -362,20 +381,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.08500)
 - **Published:** 2025-12
 - **Tags:**
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## PhysHMR: Learning Humanoid Control Policies from Vision for Physically Plausible Human Motion Reconstruction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.02566)
-- **Published:** 2025-10
-- **Tags:**
-  - Humanoid
   - Physics-Based Character Animation
 
 ### Summary

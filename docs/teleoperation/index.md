@@ -1,10 +1,10 @@
 # Teleoperation
 
-**36 papers** in this category.
+**39 papers** in this category.
 
 ## Months
 
-- [2026-10](/teleoperation/2026-10) (4 papers)
+- [2026-10](/teleoperation/2026-10) (7 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
@@ -25,6 +25,60 @@
 ---
 
 ## Recent Papers
+
+## Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.16855)
+- **Authors:** Chao Tan, Ming Shin Cindy Sung, Shuxian Liang, Chaoqun Wan, Zhen Huang, Xian-Sheng Hua
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Manipulation
+
+### Summary
+
+Real-time bimanual humanoid teleoperation requires accurate wrist tracking while keeping arm configurations predictable. Because a 7-DoF arm admits multiple elbow configurations for the same wrist pose, wrist-only tracking can cause elbow drift or abrupt configuration changes.
+
+---
+
+## P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.15833)
+- **Authors:** Xue Wang, Yitang Li, Yiming Zhang, Siqin Wang, Junhan Sun, Zhihao Liu et al. (10 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Zero-Shot
+  - Humanoid
+  - Foundation Model
+  - PPO
+
+### Summary
+
+Behavioral foundation models (BFMs) provide humanoids with reusable repertoires of whole-body behaviors; in real-world humanoid control, the same behavioral intent may require fundamentally different motions under different terrain constraints. Covering such variation with terrain-matched demonstrations requires enumerating a combinatorial space of behaviors and terrain geometries.
+
+---
+
+## VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.13079)
+- **Authors:** Dvij Kalaria, Bike Zhang, S. Shankar Sastry
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Humanoid
+  - Collision
+
+### Summary
+
+Third-person human videos offer a scalable alternative to task-specific reward engineering, teleoperation, and manually scripted demonstrations for humanoid loco-manipulation. Recent video-to-humanoid systems have shown that noisy human motion, object trajectories, and contacts can be extracted from unstructured videos and refined into deployable skills.
+
+---
 
 ## PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting
 
@@ -341,47 +395,5 @@ Retargeting human motion to humanoid robots is critical for teleoperation, imita
 ### Summary
 
 Stable, low-latency whole-body teleoperation of humanoid robots is an open research challenge, complicated by kinematic mismatches between human and robot morphologies, accumulated inertial sensor noise, non-trivial control latency, and persistent sim-to-real transfer gaps. This paper presents a complete real-time whole-body teleoperation system that maps human motion, recorded with a Virdyn IMU-based full-body motion capture suit, directly onto a Unitree G1 humanoid robot.
-
----
-
-## CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.15060)
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## ExtremControl: Low-Latency Humanoid Teleoperation with Direct Extremity Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.11321)
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## TeleGate: Whole-Body Humanoid Teleoperation via Gated Expert Selection with Motion Prior
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.09628)
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---

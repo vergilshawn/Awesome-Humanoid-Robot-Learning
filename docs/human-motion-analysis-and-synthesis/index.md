@@ -1,10 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**29 papers** in this category.
+**30 papers** in this category.
 
 ## Months
 
-- [2026-10](/human-motion-analysis-and-synthesis/2026-10) (1 papers)
+- [2026-10](/human-motion-analysis-and-synthesis/2026-10) (2 papers)
 - [2026-09](/human-motion-analysis-and-synthesis/2026-09) (4 papers)
 - [2026-08](/human-motion-analysis-and-synthesis/2026-08) (1 papers)
 - [2026-07](/human-motion-analysis-and-synthesis/2026-07) (1 papers)
@@ -28,6 +28,26 @@
 ---
 
 ## Recent Papers
+
+## From Video to Vision: Learning Generalizable Humanoid Carrying from Human Motion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.14561)
+- **Authors:** Ziluo Ding
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Distillation
+  - Data Augmentation
+  - PPO
+  - DAgger
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Most existing approaches rely on video or motion-capture data for reinforcement learning (RL) training; however, all of these methods require an upper-level module to generate reference trajectories in real time. In object carrying tasks, the humanoid can only lift objects from designated locations along the reference trajectory, resulting in poor spatial generalization.
+
+---
 
 ## Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot
 
@@ -320,19 +340,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2503.23094)
 - **Project:** [GitHub](https://vcai.mpi-inf.mpg.de/projects/FRAME/)
-- **Published:** 2025-03
-- **Tags:**
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## PRIMAL Physically Reactive and Interactive Motor Model for Avatar Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2503.17544)
 - **Published:** 2025-03
 - **Tags:**
   - Human Motion Analysis and Synthesis

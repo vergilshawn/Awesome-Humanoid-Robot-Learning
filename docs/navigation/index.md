@@ -1,10 +1,10 @@
 # Navigation
 
-**24 papers** in this category.
+**25 papers** in this category.
 
 ## Months
 
-- [2026-10](/navigation/2026-10) (1 papers)
+- [2026-10](/navigation/2026-10) (2 papers)
 - [2026-09](/navigation/2026-09) (1 papers)
 - [2026-07](/navigation/2026-07) (1 papers)
 - [2026-06](/navigation/2026-06) (1 papers)
@@ -26,6 +26,24 @@
 ---
 
 ## Recent Papers
+
+## LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.17232)
+- **Authors:** Shubham S. Kumbhar, Panagiotis Artemiadis
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Robustness
+  - Humanoid
+  - Footstep Planning
+
+### Summary
+
+Navigating humanoid robots through dynamic, non-convex environments requires tightly coupling onboard perception with footstep planning and dynamic locomotion control. Existing methods frequently discard complex free space through simplified convex obstacle bounds and fail to account for real-time dynamic occupancy predictions.
+
+---
 
 ## TAPNAV: Humanoid Navigation through Tactile Active Perception
 
@@ -329,22 +347,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Navigation
   - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.08712)
-- **Published:** 2025-05
-- **Tags:**
-  - Diffusion Policy
-  - Sim-to-Real
-  - Navigation
-  - Diffusion
 
 ### Summary
 
