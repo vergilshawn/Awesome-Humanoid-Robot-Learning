@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (279)",
+            "text": "Loco-Manipulation and Whole-Body Control (281)",
             "collapsed": true,
             "items": [
                   {
@@ -182,12 +182,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (73)",
+            "text": "Manipulation (74)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/manipulation/"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/manipulation/2026-10"
                   },
                   {
                         "text": "2026-09",
@@ -370,7 +374,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (215)",
+            "text": "Locomotion (217)",
             "collapsed": true,
             "items": [
                   {
@@ -698,12 +702,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Hardware Design (32)",
+            "text": "Hardware Design (33)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/hardware-design/"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/hardware-design/2026-10"
                   },
                   {
                         "text": "2026-08",

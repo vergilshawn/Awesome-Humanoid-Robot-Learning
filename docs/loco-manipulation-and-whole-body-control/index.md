@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**279 papers** in this category.
+**281 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (24 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (26 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -40,6 +40,25 @@
 
 ## Recent Papers
 
+## Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.19393)
+- **Authors:** Lingfan Bao, Hanshang Zhu, Yan Pan, Jincheng Wang, Jingyang Yu, Tianhu Peng et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Residual Learning
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Whole-body control plays a crucial role in enabling humanoid robots to execute expressive motions. Faithful execution requires preserving both the intended action and its expressive characteristics.
+
+---
+
 ## EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.18872)
@@ -58,6 +77,28 @@
 ### Summary
 
 Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems.
+
+---
+
+## $λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.18950)
+- **Authors:** Lambda-humanoid Team
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Foundation Model
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly. Human demonstrations offer a scalable alternative, but existing egocentric human supervision often omits locomotion and posture, while embodiment differences and controller dynamics hinder accurate end-effector execution.
 
 ---
 
@@ -387,47 +428,5 @@ Captured human-object interactions provide rich supervision for humanoid loco-ma
 ### Summary
 
 Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consumes are recorded on level ground and carrying nothing, so the tracker is aware of neither the forces the robot must exchange with objects nor the terrain it must stand on. Existing controllers address one side of this gap: force-capable policies command an end-effector force but prescribe no whole-body pose, while terrain-adaptive trackers treat loads as disturbances to reject rather than wrenches to command.
-
----
-
-## I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.06129)
-- **Authors:** Ziqi Han, Yitang Li, Junhan Sun, Fanrong Dong, Yaojie Shen, Lei Ye et al. (11 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Manipulation
-  - Humanoid
-  - Foundation Model
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Behavioral foundation models (BFMs) have recently shown that a single humanoid policy can support diverse whole-body control, but extending such generality to physical interaction remains challenging. We introduce I-BFM, to our knowledge the first BFM for humanoid-object interaction.
-
----
-
-## Dataset-Free Compliant Humanoid Loco-Manipulation with Dynamic Online Posture
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.05678)
-- **Authors:** Seungho Yeom, Zhenyu Wu, Jaeyoung Huh, Diego Williams, Yuheng Zhi, Soofiyan Atar et al. (7 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Walking
-  - Dataset
-  - SAC
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-  - Locomotion
-
-### Summary
-
-Most humanoid loco-manipulation controllers require human motion data to learn whole-body coordination and posture, leaving policies reliant on external sources to provide this data. We present OCLO (Online-posture Compliant LOco-manipulation), a humanoid loco-manipulation system trained without human motion data and commanded only through two end-effector targets.
 
 ---

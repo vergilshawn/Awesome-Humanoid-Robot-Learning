@@ -1,5 +1,184 @@
 [
   {
+    "arxiv_id": "2610.20606",
+    "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+    "paper_url": "https://arxiv.org/abs/2610.20606",
+    "project_url": null,
+    "authors": [
+      "Huixuan Cheng",
+      "Bike Zhang",
+      "Shankar Sastry",
+      "Koushil Sreenath"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-14",
+    "abstract": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space. In this work, we investigate whether high-performing humanoid control networks can be generatively modeled directly through their weights. We adopt a latent diffusion framework that couples a linear autoencoder with a Diffusion Transformer. The autoencoder compresses actor network parameters into a compact latent space, and the Diffusion Transformer models the distribution of these latents. Trained on networks collected from reinforcement learning for the Unitree G1 robot, our approach generates deployable networks that perform various motions in the real world, including walking, dancing, and spin kick. Beyond generation, we further study the learned weight space to better understand the structure captured by these humanoid control networks. We identify a structural principle in the first-layer weights that consistently reflects the robot's kinematic prior. Notably, this kinematic prior emerges under both Reinforcement Learning (RL) and Imitation Learning (IL) training, suggesting that it is not specific to a particular optimization process but may instead reflect common knowledge associated with humanoid embodiment. Together, these results demonstrate the feasibility of generative modeling in humanoid network weight space, while providing initial insights into the information encoded by their learned weights. Additional results are available on our project website: https://humanoid-weight-diffusion.github.io/",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Imitation Learning",
+      "Transformer",
+      "Humanoid",
+      "Walking",
+      "Diffusion",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.20579",
+    "title": "PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination",
+    "paper_url": "https://arxiv.org/abs/2610.20579",
+    "project_url": null,
+    "authors": [
+      "Haoran Jiang",
+      "Yichao Zhong",
+      "Kai Zhang",
+      "Cheng Liu",
+      "Yixuan Pan",
+      "Zhenjie Yang",
+      "Jingbo Wang",
+      "Tianyu Li",
+      "Li Chen"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-14",
+    "abstract": "Unlike singles, humanoid table tennis doubles requires teammates to strike in strict alternation while sharing a confined workspace. Rapid repositioning can compromise striking accuracy, while uncoordinated teammate movements introduce collision risks. We present PingpongDuo, a hierarchical framework for agile humanoid doubles with safe team coordination. At the team level, a planner jointly selects positioning targets and uses learned risk estimates to filter risky proposals, preferentially preserving the current striker's target. At the individual level, separate footwork and striking skills combine agile movement with precise racket control. The skills are guided by human motion references, including footwork collected from human doubles play, and trained from states produced by one another to support rapid transitions. A racket-arm residual further refines strikes after movement using return feedback from a simulator calibrated with real ball-flight and contact measurements. In simulation, PingpongDuo improves the ball-return success rate by 13.2% over the state-of-the-art baseline, while achieving approximately 2 cm positioning error during clearance. In real-world experiments, a robot completes a 2.15 m clearance-and-recovery cycle in 2.4 s with a peak speed of 2.23 m/s, while two robots sustain more than 10 consecutive strikes in strict alternation.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Simulator",
+      "Humanoid",
+      "Collision",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.20552",
+    "title": "KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation",
+    "paper_url": "https://arxiv.org/abs/2610.20552",
+    "project_url": null,
+    "authors": [
+      "Qi Wu",
+      "Lulu Zhao",
+      "Sanghyun Hahn",
+      "Rishi Yennu",
+      "Emmy Yang",
+      "Dingqi Zhang",
+      "Tao Pang",
+      "Jiuguang Wang",
+      "Kuan Fang"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-14",
+    "abstract": "We present KinoGen, a framework that synthesizes customizable humanoid loco-manipulation references through kinematically grounded video generation. KinoGen conditions a pretrained video generator on calibrated renders of the target robot and object in a simulated task instance and recovers the reference by fitting the same models to the generated two-view video, so that the reference lies in the robot configuration space by construction without a human body proxy or retargeting. Body, hand, and object priors initialize the reconstruction, and direct optimization against cross-view evidence refines it. Since an edited keyframe is simply another rendered state, a user can prescribe a goal object pose, regenerate the video around the edited keyframe, and obtain a reference that satisfies the pose exactly. Across eight loco-manipulation tasks, KinoGen yields lower penetration and foot skating than video-based baselines and preserves over 90% of annotated contacts, and its customized references satisfy every prescribed target with substantially less penetration than direct interpolation. Tracking policies trained on the synthesized references are deployed on a Unitree G1 humanoid with dexterous hands. Project webpage: https://kinogen-humanoid.github.io/.",
+    "categories": [
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2610.19393",
+    "title": "Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control",
+    "paper_url": "https://arxiv.org/abs/2610.19393",
+    "project_url": null,
+    "authors": [
+      "Lingfan Bao",
+      "Hanshang Zhu",
+      "Yan Pan",
+      "Jincheng Wang",
+      "Jingyang Yu",
+      "Tianhu Peng",
+      "Yiyang Jia",
+      "Dimitrios Kanoulas",
+      "Chengxu Zhou"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-14",
+    "abstract": "Whole-body control plays a crucial role in enabling humanoid robots to execute expressive motions. Faithful execution requires preserving both the intended action and its expressive characteristics. Existing whole-body trackers typically balance joint and keypoint tracking with physical stability across diverse motions, but these objectives do not necessarily prioritize the expressive characteristics of each action. Our analysis shows that lower average positional tracking error does not guarantee better preservation of dynamic and postural motion characteristics. To address this gap, we propose a residual learning framework with compensation objectives targeting amplitude, energy, body expansion, body lean, and pelvis height. To concentrate compensation while limiting interference with the underlying tracking behavior, motion-aware gating allocates correction capacity according to body-part activity, preserving larger correction ranges in more active parts and restricting them elsewhere. For each frozen tracker, we train motion-specific residual policies and distill them into a unified policy shared across motion categories. Simulation and physical experiments on the Unitree G1 across eight motion categories demonstrate superior preservation of dynamic and postural motion characteristics compared with the corresponding baselines.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Humanoid",
+      "Residual Learning",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.18991",
+    "title": "Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2610.18991",
+    "project_url": null,
+    "authors": [
+      "Nolan Fey",
+      "Khai Nguyen",
+      "Yash Prabhu",
+      "Gabriel B. Margolis",
+      "Pulkit Agrawal"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-13",
+    "abstract": "Humanoid policies trained in simulation can transfer qualitatively to hardware while failing to transfer the force interactions learned during training, compromising torque efficiency, load regulation, and robustness to impacts. This failure can arise from actuator sim-to-real gaps because forces depend on actuator torques. We introduce Contact-UAN, a residual world model that preserves a simulator's physics priors while correcting actuator dynamics to align simulated rollouts with recorded hardware rollouts. For humanoid motion with contact, this requires contact-consistent replay: if hardware playback in simulation begins with misaligned contact wrenches, the residual model learns to correct reset artifacts rather than actuator discrepancies. Using only onboard proprioception, Contact-UAN infers the simulator-side stance-foot pose needed to initialize replay with consistent contact forces. We show that a UAN trained on 6.5 minutes of real-world walking data generalizes to tasks that benefit from accurate force and impulse regulation and produces policies that transfer seamlessly to the real world, yielding 20% lower running torque, 43% lower force-tracking error, extreme compliance, accurate impedance control, and dynamic, robust jumps.",
+    "categories": [
+      "Hardware Design",
+      "Locomotion",
+      "State Estimation"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "World Model",
+      "Robustness",
+      "Simulator",
+      "Humanoid",
+      "Walking",
+      "Impedance Control",
+      "Proprioception",
+      "Impact",
+      "Hardware Design",
+      "Locomotion",
+      "State Estimation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Hardware Design"
+  },
+  {
     "arxiv_id": "2610.18872",
     "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
     "paper_url": "https://arxiv.org/abs/2610.18872",
@@ -43,6 +222,37 @@
     "real_robot": false,
     "open_source": false,
     "platform": "REEM",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.18950",
+    "title": "$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.18950",
+    "project_url": null,
+    "authors": [
+      "Lambda-humanoid Team"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-13",
+    "abstract": "Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly. Human demonstrations offer a scalable alternative, but existing egocentric human supervision often omits locomotion and posture, while embodiment differences and controller dynamics hinder accurate end-effector execution. We introduce HumanVerse, a 500-hour dataset of open-world human loco-manipulation pairing egocentric video with synchronized body and hand motion. Our human-to-humanoid pipeline aligns camera viewpoints and arm appearance, and refines motion references and controller inputs offline to reduce end-effector errors while preserving whole-body coordination. We validate the pipeline through zero-shot transfer to Unitree G1 on representative whole-body manipulation and long-range loco-manipulation tasks, without target-task robot demonstrations. Building on this pipeline, we develop $λ_0$, a humanoid foundation model for whole-body loco-manipulation, with robot-aligned human demonstrations providing supervision for mid-training. Increasing whole-body human data consistently improves downstream task progress. $λ_0$ achieves 90.0% success on SIMPLE and 62.5% across real-world loco-manipulation tasks. We expect this study to guide scalable whole-body human data collection toward humanoid foundation models for richer interaction with the physical world. Homepage: https://lambdahumanoid.github.io/",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Zero-Shot",
+      "Human Demonstration",
+      "Humanoid",
+      "Foundation Model",
+      "Dataset",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },

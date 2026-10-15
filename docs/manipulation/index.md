@@ -1,9 +1,10 @@
 # Manipulation
 
-**73 papers** in this category.
+**74 papers** in this category.
 
 ## Months
 
+- [2026-10](/manipulation/2026-10) (1 papers)
 - [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
@@ -33,6 +34,24 @@
 ---
 
 ## Recent Papers
+
+## KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.20552)
+- **Authors:** Qi Wu, Lulu Zhao, Sanghyun Hahn, Rishi Yennu, Emmy Yang, Dingqi Zhang et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+We present KinoGen, a framework that synthesizes customizable humanoid loco-manipulation references through kinematically grounded video generation. KinoGen conditions a pretrained video generator on calibrated renders of the target robot and object in a simulated task instance and recovers the reference by fitting the same models to the generated two-view video, so that the reference lies in the robot configuration space by construction without a human body proxy or retargeting.
+
+---
 
 ## IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining
 
@@ -387,22 +406,5 @@ Humanoid loco-manipulation is often simplified into a stop-and-go process: walki
 ### Summary
 
 Human demonstrations, which can be collected at scale and naturally capture active hand-eye coordination, are a promising data source for learning humanoid loco-manipulation. However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
-
----
-
-## ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.17011)
-- **Authors:** Wei Xiao, Weiliang Tang, Yuying Ge, Hui Zhou, Yao Mu, Li Zhang et al. (7 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-
-### Summary
-
-Human interventions provide crucial corrective signals for post-training Vision-Language-Action (VLA) models. However, enabling seamless humanoid interventions is a formidable systems challenge due to complex whole-body kinematics and dexterous-hand control.
 
 ---

@@ -7,15 +7,136 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 1 papers
-- **Figure:** 12 papers
-- **Unitree G1:** 53 papers
+- **Figure:** 13 papers
+- **Unitree G1:** 57 papers
 - **Unitree H1:** 1 papers
-- **Unknown Platform:** 20 papers
+- **Unknown Platform:** 21 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.20606)
+- **Authors:** Huixuan Cheng, Bike Zhang, Shankar Sastry, Koushil Sreenath
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Transformer
+  - Humanoid
+  - Walking
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space.
+
+---
+
+## PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.20579)
+- **Authors:** Haoran Jiang, Yichao Zhong, Kai Zhang, Cheng Liu, Yixuan Pan, Zhenjie Yang et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Simulator
+  - Humanoid
+  - Collision
+  - PPO
+  - Locomotion
+
+### Summary
+
+Unlike singles, humanoid table tennis doubles requires teammates to strike in strict alternation while sharing a confined workspace. Rapid repositioning can compromise striking accuracy, while uncoordinated teammate movements introduce collision risks.
+
+---
+
+## KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.20552)
+- **Authors:** Qi Wu, Lulu Zhao, Sanghyun Hahn, Rishi Yennu, Emmy Yang, Dingqi Zhang et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+We present KinoGen, a framework that synthesizes customizable humanoid loco-manipulation references through kinematically grounded video generation. KinoGen conditions a pretrained video generator on calibrated renders of the target robot and object in a simulated task instance and recovers the reference by fitting the same models to the generated two-view video, so that the reference lies in the robot configuration space by construction without a human body proxy or retargeting.
+
+---
+
+## Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.19393)
+- **Authors:** Lingfan Bao, Hanshang Zhu, Yan Pan, Jincheng Wang, Jingyang Yu, Tianhu Peng et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Residual Learning
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Whole-body control plays a crucial role in enabling humanoid robots to execute expressive motions. Faithful execution requires preserving both the intended action and its expressive characteristics.
+
+---
+
+## Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.18991)
+- **Authors:** Nolan Fey, Khai Nguyen, Yash Prabhu, Gabriel B. Margolis, Pulkit Agrawal
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Sim-to-Real
+  - World Model
+  - Robustness
+  - Simulator
+  - Humanoid
+  - Walking
+  - Impedance Control
+  - Proprioception
+
+### Summary
+
+Humanoid policies trained in simulation can transfer qualitatively to hardware while failing to transfer the force interactions learned during training, compromising torque efficiency, load regulation, and robustness to impacts. This failure can arise from actuator sim-to-real gaps because forces depend on actuator torques.
+
+---
+
+## $λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.18950)
+- **Authors:** Lambda-humanoid Team
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Human Demonstration
+  - Humanoid
+  - Foundation Model
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly. Human demonstrations offer a scalable alternative, but existing egocentric human supervision often omits locomotion and posture, while embodiment differences and controller dynamics hinder accurate end-effector execution.
+
+---
 
 ## Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation
 

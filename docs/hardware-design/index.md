@@ -1,9 +1,10 @@
 # Hardware Design
 
-**32 papers** in this category.
+**33 papers** in this category.
 
 ## Months
 
+- [2026-10](/hardware-design/2026-10) (1 papers)
 - [2026-08](/hardware-design/2026-08) (1 papers)
 - [2026-02](/hardware-design/2026-02) (1 papers)
 - [2026-01](/hardware-design/2026-01) (1 papers)
@@ -25,6 +26,28 @@
 ---
 
 ## Recent Papers
+
+## Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.18991)
+- **Authors:** Nolan Fey, Khai Nguyen, Yash Prabhu, Gabriel B. Margolis, Pulkit Agrawal
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Sim-to-Real
+  - World Model
+  - Robustness
+  - Simulator
+  - Humanoid
+  - Walking
+  - Impedance Control
+  - Proprioception
+
+### Summary
+
+Humanoid policies trained in simulation can transfer qualitatively to hardware while failing to transfer the force interactions learned during training, compromising torque efficiency, load regulation, and robustness to impacts. This failure can arise from actuator sim-to-real gaps because forces depend on actuator torques.
+
+---
 
 ## A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles
 
@@ -287,20 +310,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-06
 - **Tags:**
   - Humanoid
-  - Hardware Design
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## RAPID Hand: A Robust, Affordable, Perception-Integrated, Dexterous Manipulation Platform for Generalist Robot Autonomy
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.07490)
-- **Published:** 2025-06
-- **Tags:**
-  - Manipulation
   - Hardware Design
 
 ### Summary

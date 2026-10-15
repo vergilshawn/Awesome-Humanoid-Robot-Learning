@@ -1,10 +1,10 @@
 # Locomotion
 
-**215 papers** in this category.
+**217 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (22 papers)
+- [2026-10](/locomotion/2026-10) (24 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,46 @@
 ---
 
 ## Recent Papers
+
+## Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.20606)
+- **Authors:** Huixuan Cheng, Bike Zhang, Shankar Sastry, Koushil Sreenath
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Transformer
+  - Humanoid
+  - Walking
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space.
+
+---
+
+## PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.20579)
+- **Authors:** Haoran Jiang, Yichao Zhong, Kai Zhang, Cheng Liu, Yixuan Pan, Zhenjie Yang et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Simulator
+  - Humanoid
+  - Collision
+  - PPO
+  - Locomotion
+
+### Summary
+
+Unlike singles, humanoid table tennis doubles requires teammates to strike in strict alternation while sharing a confined workspace. Rapid repositioning can compromise striking accuracy, while uncoordinated teammate movements introduce collision risks.
+
+---
 
 ## Design and Analysis of a Nonlinear Parallel Mechanism Coupling for Dynamic Humanoid Legs
 
@@ -361,38 +401,5 @@ Partnered human-humanoid interaction couples locomotion with continuous physical
 ### Summary
 
 Humanoid robots could transport payloads substantially heavier than themselves by pulling passive wheeled vehicles instead of carrying the load. This capability, however, creates a coupled locomotion problem: the robot must maintain persistent upper-body contact while adapting to unknown, configuration-dependent forces arising from the payload, vehicle, and terrain.
-
----
-
-## TAME:Topology-Aware Text-Driven Motion Editing across Heterogeneous Humanoid Skeletons
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.04529)
-- **Authors:** Qichen Zheng, Siyuan Yang, Chong Wang, Jun Liu, Shijian Lu, Alex Kot et al. (7 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Transformer
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Text-driven motion editing modifies an existing motion sequence according to a text instruction while preserving the content of the source motion. Existing methods are typically built for a single, fixed skeletal topology, which limits their use in animation pipelines where characters differ in joint count and skeletal hierarchy.
-
----
-
-## KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.03388)
-- **Authors:** Zhongxiang Lei, Lulu Cao, Xuyang Wang, Tianyi Qian, Jinyan Liu, Xuesong Li
-- **Published:** 2026-10
-- **Tags:**
-  - Humanoid
-  - Dataset
-  - PPO
-  - Locomotion
-
-### Summary
-
-Video is an abundant, inexpensive source of human motion data that is rich in extreme athletic behaviors. Making it usable for humanoid robots, however, is not a matter of simply retargeting a reconstructed trajectory: video-derived motion is physically inconsistent, devoid of actuation information, and says nothing about failure or recovery.
 
 ---
