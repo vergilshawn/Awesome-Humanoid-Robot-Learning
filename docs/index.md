@@ -8,29 +8,37 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 820
-- **Real Robot Papers:** 97
+- **Total Papers:** 824
+- **Real Robot Papers:** 98
 - **Open Source Papers:** 129
 - **Latest Month:** 2026-10
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (281)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (282)
 - [Manipulation](/manipulation/) (74)
-- [Teleoperation](/teleoperation/) (39)
+- [Teleoperation](/teleoperation/) (40)
 - [Locomotion](/locomotion/) (217)
 - [Navigation](/navigation/) (25)
 - [State Estimation](/state-estimation/) (21)
 - [Sim-to-Real](/sim-to-real/) (13)
 - [Hardware Design](/hardware-design/) (33)
 - [Simulation Benchmark](/simulation-benchmark/) (40)
-- [Physics-Based Character Animation](/physics-based-character-animation/) (47)
+- [Physics-Based Character Animation](/physics-based-character-animation/) (49)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (30)
 
 ---
 
 ## 🔥 Latest Papers
 
+-  🤖 [Whole-Body Dexterity](https://arxiv.org/abs/2610.22184) — 2026-10
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation](https://arxiv.org/abs/2610.22176) — 2026-10
+  - [Teleoperation](/teleoperation/)
+-  [TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion](https://arxiv.org/abs/2610.21515) — 2026-10
+  - [Physics-Based Character Animation](/physics-based-character-animation/)
+-  [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152) — 2026-10
+  - [Physics-Based Character Animation](/physics-based-character-animation/)
 -  🤖 [Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion](https://arxiv.org/abs/2610.20606) — 2026-10
   - [Locomotion](/locomotion/)
 -  🤖 [PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination](https://arxiv.org/abs/2610.20579) — 2026-10
@@ -43,46 +51,38 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Hardware Design](/hardware-design/)
 -  [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872) — 2026-10
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.18950) — 2026-10
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [TRACE: Efficient Transfer Learning for Neural Whole-Body Control Across Humanoid Embodiments](https://arxiv.org/abs/2610.17999) — 2026-10
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors](https://arxiv.org/abs/2610.17232) — 2026-10
-  - [Navigation](/navigation/)
--  🤖 [Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation](https://arxiv.org/abs/2610.16855) — 2026-10
-  - [Teleoperation](/teleoperation/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (680)
+- **Humanoid** (684)
+- **Loco-Manipulation and Whole-Body Control** (307)
 - **Locomotion** (304)
-- **Loco-Manipulation and Whole-Body Control** (304)
-- **Manipulation** (231)
+- **Manipulation** (233)
 - **Reinforcement Learning** (110)
-- **PPO** (108)
-- **Whole-Body Control** (98)
+- **PPO** (109)
+- **Whole-Body Control** (100)
 - **Simulation Benchmark** (80)
-- **Teleoperation** (77)
-- **Physics-Based Character Animation** (63)
-- **Dataset** (57)
-- **State Estimation** (54)
+- **Teleoperation** (78)
+- **Physics-Based Character Animation** (65)
+- **Dataset** (58)
+- **State Estimation** (55)
+- **Sim-to-Real** (47)
+- **Zero-Shot** (46)
+- **Vision-Language** (46)
 - **Walking** (46)
-- **Sim-to-Real** (46)
-- **Zero-Shot** (45)
-- **Vision-Language** (45)
 - **Navigation** (43)
 - **Human Motion Analysis and Synthesis** (42)
 - **Benchmark** (41)
-- **Diffusion** (38)
+- **Diffusion** (39)
 - **Robustness** (35)
 - **Distillation** (35)
+- **Human Demonstration** (34)
 - **Hardware Design** (34)
-- **Human Demonstration** (33)
 - **Safety** (32)
 - **Foundation Model** (31)
-- **Proprioception** (29)
+- **Proprioception** (30)
 - **Gait** (29)
 - **Fine-tuning** (25)
 - **Collision** (23)
@@ -95,6 +95,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/loco-manipulation-and-whole-body-control/2026-10)
 
+- [Whole-Body Dexterity](https://arxiv.org/abs/2610.22184) — `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Proprioception`
 - [Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control](https://arxiv.org/abs/2610.19393) — `Whole-Body Control`, `Humanoid`, `Residual Learning`, `Loco-Manipulation and Whole-Body Control`, `Physics-Based Character Animation`, `Real Robot`
 - [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Human Demonstration`, `Humanoid`, `Dataset`
 - [$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.18950) — `Locomotion`, `Manipulation`, `Zero-Shot`, `Human Demonstration`, `Humanoid`, `Foundation Model`
@@ -625,6 +626,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/teleoperation/2026-10)
 
+- [Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation](https://arxiv.org/abs/2610.22176) — `MPC`, `Teleoperation`, `Humanoid`, `Parameter Estimation`, `State Estimation`, `Loco-Manipulation and Whole-Body Control`
 - [Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation](https://arxiv.org/abs/2610.16855) — `Teleoperation`, `Humanoid`, `Manipulation`, `Real Robot`
 - [P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning](https://arxiv.org/abs/2610.15833) — `Reinforcement Learning`, `Teleoperation`, `Zero-Shot`, `Humanoid`, `Foundation Model`, `PPO`
 - [VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills](https://arxiv.org/abs/2610.13079) — `Teleoperation`, `Manipulation`, `Humanoid`, `Collision`
@@ -1402,6 +1404,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/physics-based-character-animation/2026-10)
 
+- [TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion](https://arxiv.org/abs/2610.21515) — `Humanoid`, `Language-Conditioned`, `PPO`, `Diffusion`, `Physics-Based Character Animation`
+- [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152) — `Whole-Body Control`, `Manipulation`, `Human Demonstration`, `Simulator`, `Humanoid`, `Vision-Language`
 - [PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation](https://arxiv.org/abs/2610.13373) — `MuJoCo`, `Humanoid`, `Language-Conditioned`, `Diffusion`, `Physics-Based Character Animation`, `Simulation Benchmark`
 - [From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators](https://arxiv.org/abs/2610.10322) — `Simulator`, `Humanoid`, `Fine-tuning`, `Friction`, `Diffusion`, `Physics-Based Character Animation`
 

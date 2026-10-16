@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**281 papers** in this category.
+**282 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (26 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (27 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,28 @@
 ---
 
 ## Recent Papers
+
+## Whole-Body Dexterity
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.22184)
+- **Authors:** Conor Mc Gartoll, An Dang, Pranay Thangeda, Arjun Gupta, Carolina Higuera, Nima Fazeli et al. (8 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Current humanoid dexterous manipulation remains largely confined to end-effectors and simple grasps, falling short of humans' ability to engage the entire body by bracing and sliding bulky objects against the arms and torso. We introduce Whole-Body Dexterity (WBD), a general framework that uses the robot's body and appendages as contact surfaces to grasp and manipulate objects.
+
+---
 
 ## Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control
 
@@ -408,25 +430,5 @@ Humanoid robots operating in unstructured environments must combine robust whole
 ### Summary
 
 Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each other.
-
----
-
-## BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.07052)
-- **Authors:** Sudarshan Harithas, Chen Yu, Juan Borbon, Shubhankar Mondal, Winston Zha, Srinath Sridhar et al. (8 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅
-- **Tags:**
-  - Real Robot
-  - Humanoid
-  - Proprioception
-  - DAgger
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consumes are recorded on level ground and carrying nothing, so the tracker is aware of neither the forces the robot must exchange with objects nor the terrain it must stand on. Existing controllers address one side of this gap: force-capable policies command an end-effector force but prescribe no whole-body pose, while terrain-adaptive trackers treat loads as disturbances to reject rather than wrenches to command.
 
 ---

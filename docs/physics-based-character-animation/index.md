@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**47 papers** in this category.
+**49 papers** in this category.
 
 ## Months
 
-- [2026-10](/physics-based-character-animation/2026-10) (2 papers)
+- [2026-10](/physics-based-character-animation/2026-10) (4 papers)
 - [2026-09](/physics-based-character-animation/2026-09) (3 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (6 papers)
@@ -36,6 +36,45 @@
 ---
 
 ## Recent Papers
+
+## TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.21515)
+- **Authors:** Zejian Kang, Yifu Luo, Boyang Shen, Jingxuan Li, Zekai Chen, Zekun Shi et al. (12 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Language-Conditioned
+  - PPO
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted reference.
+
+---
+
+## KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.21152)
+- **Authors:** Zibo Zhou, Yueru Chen, Junsong Wu, Weiji Xie, Qingyao Xu, Sheng Yin et al. (11 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Human Demonstration
+  - Simulator
+  - Humanoid
+  - Vision-Language
+  - Sampling-Based
+  - Physics-Based Character Animation
+
+### Summary
+
+Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels. Egocentric human demonstrations offer scalable supervision but have misaligned views and sparse motion cues.
+
+---
 
 ## PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation
 
@@ -354,32 +393,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.06035)
 - **Published:** 2026-02
-- **Tags:**
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2512.14696)
-- **Published:** 2025-12
-- **Tags:**
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Learning to Control Physically-simulated 3D Characters via Generating and Mimicking 2D Motions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2512.08500)
-- **Published:** 2025-12
 - **Tags:**
   - Physics-Based Character Animation
 

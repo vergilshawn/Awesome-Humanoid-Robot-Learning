@@ -1,10 +1,10 @@
 # Teleoperation
 
-**39 papers** in this category.
+**40 papers** in this category.
 
 ## Months
 
-- [2026-10](/teleoperation/2026-10) (7 papers)
+- [2026-10](/teleoperation/2026-10) (8 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
@@ -25,6 +25,25 @@
 ---
 
 ## Recent Papers
+
+## Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.22176)
+- **Authors:** James Foster, Beomyeong Park, Luigi Penco, Robert Griffin
+- **Published:** 2026-10
+- **Tags:**
+  - MPC
+  - Teleoperation
+  - Humanoid
+  - Parameter Estimation
+  - State Estimation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+The effective deployment of humanoid robots in practical tasks of interest will require a capability of sensing and adapting to variations in inertial parameters, as occurs during heavy tool use or when carrying significant payload. Such payloads constitute a significant proportion of the combined payload-robot system, the effects of which cannot be ignored by delegating to feedback control.
+
+---
 
 ## Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation
 
@@ -373,27 +392,5 @@ Humanoid robots hold great promise for operating in human-centered environments,
 ### Summary
 
 Retargeting human motion to humanoid robots is critical for teleoperation, imitation learning and human-robot interaction. However, it remains challenging because of substantial morphological discrepancies between humans and robots, including differences in skeletal topology, limb proportions and degrees of freedom, as well as the scarcity of paired motion data.
-
----
-
-## Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.12347)
-- **Authors:** Hamza Ahmed Durrani, Suleman Khan
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Sim-to-Real
-  - Teleoperation
-  - MuJoCo
-  - Humanoid
-  - Walking
-  - Human Motion Analysis and Synthesis
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Stable, low-latency whole-body teleoperation of humanoid robots is an open research challenge, complicated by kinematic mismatches between human and robot morphologies, accumulated inertial sensor noise, non-trivial control latency, and persistent sim-to-real transfer gaps. This paper presents a complete real-time whole-body teleoperation system that maps human motion, recorded with a Virdyn IMU-based full-body motion capture suit, directly onto a Unitree G1 humanoid robot.
 
 ---

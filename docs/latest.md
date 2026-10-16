@@ -2,6 +2,86 @@
 
 All papers sorted by publication date (newest first).
 
+## Whole-Body Dexterity
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.22184)
+- **Authors:** Conor Mc Gartoll, An Dang, Pranay Thangeda, Arjun Gupta, Carolina Higuera, Nima Fazeli et al. (8 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Current humanoid dexterous manipulation remains largely confined to end-effectors and simple grasps, falling short of humans' ability to engage the entire body by bracing and sliding bulky objects against the arms and torso. We introduce Whole-Body Dexterity (WBD), a general framework that uses the robot's body and appendages as contact surfaces to grasp and manipulate objects.
+
+---
+
+## Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.22176)
+- **Authors:** James Foster, Beomyeong Park, Luigi Penco, Robert Griffin
+- **Published:** 2026-10
+- **Tags:**
+  - MPC
+  - Teleoperation
+  - Humanoid
+  - Parameter Estimation
+  - State Estimation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+The effective deployment of humanoid robots in practical tasks of interest will require a capability of sensing and adapting to variations in inertial parameters, as occurs during heavy tool use or when carrying significant payload. Such payloads constitute a significant proportion of the combined payload-robot system, the effects of which cannot be ignored by delegating to feedback control.
+
+---
+
+## TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.21515)
+- **Authors:** Zejian Kang, Yifu Luo, Boyang Shen, Jingxuan Li, Zekai Chen, Zekun Shi et al. (12 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Language-Conditioned
+  - PPO
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted reference.
+
+---
+
+## KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.21152)
+- **Authors:** Zibo Zhou, Yueru Chen, Junsong Wu, Weiji Xie, Qingyao Xu, Sheng Yin et al. (11 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Human Demonstration
+  - Simulator
+  - Humanoid
+  - Vision-Language
+  - Sampling-Based
+  - Physics-Based Character Animation
+
+### Summary
+
+Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels. Egocentric human demonstrations offer scalable supervision but have misaligned views and sparse motion cues.
+
+---
+
 ## Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.20606)

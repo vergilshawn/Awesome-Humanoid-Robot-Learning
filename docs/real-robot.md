@@ -8,7 +8,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Booster:** 2 papers
 - **Digit:** 1 papers
 - **Figure:** 13 papers
-- **Unitree G1:** 57 papers
+- **Unitree G1:** 58 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 21 papers
 - **iCub:** 1 papers
@@ -16,6 +16,28 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Whole-Body Dexterity
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.22184)
+- **Authors:** Conor Mc Gartoll, An Dang, Pranay Thangeda, Arjun Gupta, Carolina Higuera, Nima Fazeli et al. (8 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Current humanoid dexterous manipulation remains largely confined to end-effectors and simple grasps, falling short of humans' ability to engage the entire body by bracing and sliding bulky objects against the arms and torso. We introduce Whole-Body Dexterity (WBD), a general framework that uses the robot's body and appendages as contact surfaces to grasp and manipulate objects.
+
+---
 
 ## Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion
 

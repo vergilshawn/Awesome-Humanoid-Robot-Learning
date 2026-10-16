@@ -1,5 +1,156 @@
 [
   {
+    "arxiv_id": "2610.22184",
+    "title": "Whole-Body Dexterity",
+    "paper_url": "https://arxiv.org/abs/2610.22184",
+    "project_url": null,
+    "authors": [
+      "Conor Mc Gartoll",
+      "An Dang",
+      "Pranay Thangeda",
+      "Arjun Gupta",
+      "Carolina Higuera",
+      "Nima Fazeli",
+      "Mustafa Mukadam",
+      "Manikantan Nambi"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-15",
+    "abstract": "Current humanoid dexterous manipulation remains largely confined to end-effectors and simple grasps, falling short of humans' ability to engage the entire body by bracing and sliding bulky objects against the arms and torso. We introduce Whole-Body Dexterity (WBD), a general framework that uses the robot's body and appendages as contact surfaces to grasp and manipulate objects. Our sim-to-real pipeline first generates a dataset of feasible whole-body grasps, then trains reinforcement-learning experts on a general any-to-any repositioning objective by sampling initial and goal grasps from the dataset, and distills these experts into a single policy that uses proprioception and object geometry. We show that the distilled policy transfers zero-shot to a real Unitree G1, where it repositions a basketball and a cardboard box to regions around the torso and completes a long-horizon task that stows a box under one arm, carries it from a shelf to a table, and places it. The controller operates interactively, steered by coarse motion references from a human teleoperator. Across real-world whole-body manipulation tasks, the distilled controller completes 90% of trials, compared with 18% for direct retargeting and 4% for a generalist whole-body controller.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Sim-to-Real",
+      "Manipulation",
+      "Zero-Shot",
+      "Humanoid",
+      "Proprioception",
+      "Dataset",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.22176",
+    "title": "Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation",
+    "paper_url": "https://arxiv.org/abs/2610.22176",
+    "project_url": null,
+    "authors": [
+      "James Foster",
+      "Beomyeong Park",
+      "Luigi Penco",
+      "Robert Griffin"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-15",
+    "abstract": "The effective deployment of humanoid robots in practical tasks of interest will require a capability of sensing and adapting to variations in inertial parameters, as occurs during heavy tool use or when carrying significant payload. Such payloads constitute a significant proportion of the combined payload-robot system, the effects of which cannot be ignored by delegating to feedback control. This paper showcases a general solution to this problem by integrating a whole body model predictive controller (WB-MPC) with an extended Kalman filter (EKF) for online estimation of fully physically consistent time-varying inertial parameters. These estimates are fed through to the WB-MPC's full rigid body dynamics model, resulting in more accurate feedforward torques for task demands under external load. Additionally, a virtual reality (VR) interface is provided that enables an operator to provide task-specific references without regard to payload while delegating dynamic balance to the WB-MPC. The framework is validated with simulation and hardware experiments on a humanoid system.",
+    "categories": [
+      "Teleoperation",
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "MPC",
+      "Teleoperation",
+      "Humanoid",
+      "Parameter Estimation",
+      "State Estimation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2610.21515",
+    "title": "TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion",
+    "paper_url": "https://arxiv.org/abs/2610.21515",
+    "project_url": null,
+    "authors": [
+      "Zejian Kang",
+      "Yifu Luo",
+      "Boyang Shen",
+      "Jingxuan Li",
+      "Zekai Chen",
+      "Zekun Shi",
+      "Yongxue Xu",
+      "Zhenyu Hou",
+      "Bingqian Wu",
+      "Shaolei Zhang",
+      "Wentao Yang",
+      "Xiangru Huang"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-15",
+    "abstract": "Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted reference. We present TRACE, a generation and editing framework for the Unitree G1 humanoid robot built around typed, measurable kinematic quantities. Our insight is to ground generation conditions in paired training motions and editing goals in the current motion. A language model learns to predict support, root, and hand events from motion-derived supervision; their time-aligned encodings complement the original text in a diffusion generator. Gravity-referenced states and trajectory--contact objectives improve kinematic consistency. For editing, typed requests define body--time scopes and source-relative goals. A separate reference-conditioned diffusion editor uses these goals and revised events to realize changes, while sampling-time projection preserves protected state coordinates. Quantitative evaluation and human assessment show improved semantic alignment and motion quality over the compared methods. Controlled ablations support the value of motion-grounded conditioning and kinematic consistency, while multi-turn editing evaluations demonstrate more reliable execution of successive relative requests under shared preservation constraints. Together, these results support typed kinematic structure as a common basis for motion generation and reference-aware revision.",
+    "categories": [
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Language-Conditioned",
+      "PPO",
+      "Diffusion",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2610.21152",
+    "title": "KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration",
+    "paper_url": "https://arxiv.org/abs/2610.21152",
+    "project_url": null,
+    "authors": [
+      "Zibo Zhou",
+      "Yueru Chen",
+      "Junsong Wu",
+      "Weiji Xie",
+      "Qingyao Xu",
+      "Sheng Yin",
+      "Shiqing Wang",
+      "Jiyuan Shi",
+      "Siheng Chen",
+      "Chenjia Bai",
+      "Xuelong Li"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-15",
+    "abstract": "Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels. Egocentric human demonstrations offer scalable supervision but have misaligned views and sparse motion cues. Existing approaches either pretrain policies that still require robot data for adaptation or generate controller-specific commands that limit reuse. Conversion also requires robot-view observations aligned with the generated whole-body motion. We present KODA (Kinematics-Observation Data Alignment), which converts egocentric RGB demonstrations into whole-body VLA training data using a reusable canonical trajectory to guide robot-view synthesis and generate controller-specific whole-body state-action supervision. KODA first generates a simulator-checked whole-body trajectory using a sparse tracker with sampling-based command optimization. This generated trajectory directly determines the onboard camera poses used to synthesize corresponding robot-view observations. The motion, observations, and task instruction form a canonical record. For each deployment controller, KODA optimizes commands to track the stored motion and records the corresponding action labels and proprioceptive states. When switching controllers, KODA retains this canonical record and regenerates whole-body state-action supervision for co-training with matching robot demonstrations. We evaluate KODA on four Unitree G1 loco-manipulation tasks using two whole-body controllers, SONIC and HEFT. With robot data held fixed, macro-average success on conditions covered by human demonstrations but absent from robot data improves by 45.0 and 46.25 percentage points, respectively. Under both controllers, this metric shows an upward trend across the evaluated human-data budgets, suggesting potential for further scaling.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Manipulation",
+      "Human Demonstration",
+      "Simulator",
+      "Humanoid",
+      "Vision-Language",
+      "Sampling-Based",
+      "Physics-Based Character Animation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
     "arxiv_id": "2610.20606",
     "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
     "paper_url": "https://arxiv.org/abs/2610.20606",
