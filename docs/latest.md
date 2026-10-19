@@ -2,6 +2,63 @@
 
 All papers sorted by publication date (newest first).
 
+## Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.23548)
+- **Authors:** Yanzhou Jin, Fei Suo, Chang Liu, Yasuhisa Hasegawa, Liming Chen, Yusuke Iwasawa et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Legged robots equipped with manipulators offer promising capabilities for loco-manipulation tasks in unstructured environments. However, achieving task-consistent end-effector behavior during locomotion remains challenging due to terrain-induced disturbances and the strong coupling between locomotion and manipulation, particularly for small-scale quadruped platforms.
+
+---
+
+## CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.23288)
+- **Authors:** Zicheng Liu, Haochen Wu, Jiawei He, Suyun Zhao, Huan Yang, Cheng Chi et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - PPO
+  - Locomotion
+
+### Summary
+
+Recent advances in Vision-Language-Action (VLA) models and World Action Models (WAMs) have expanded the manipulation and whole body capabilities of individual robots. Yet a single robot remains limited by its embodiment, and many real world tasks require capabilities that can only emerge through cooperation.
+
+---
+
+## BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.23127)
+- **Authors:** Liyun Yan, Haoyang Li, Yang Zhang, Jialing Zhu, Zhanxiang Cao, Zihao Zhou et al. (14 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - World Model
+  - Humanoid
+  - Goal-Conditioned
+  - GAN
+  - Locomotion
+
+### Summary
+
+Humanoid control requires coordinating whole-body posture with position and heading in the world frame. Mainstream controllers imitate trajectories in the root frame, but struggle to regain the target world pose after displacement.
+
+---
+
 ## Whole-Body Dexterity
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.22184)
@@ -295,6 +352,22 @@ Humanoids increasingly demand lightweight leg mechanisms for agile, dynamic, and
 
 ---
 
+## Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.15274)
+- **Authors:** Yongpeng Cao, Masahiro Hirano, Yuji Yamakawa
+- **Published:** 2026-10
+- **Tags:**
+  - Motion Retargeting
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive.
+
+---
+
 ## P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.15833)
@@ -312,22 +385,6 @@ Humanoids increasingly demand lightweight leg mechanisms for agile, dynamic, and
 ### Summary
 
 Behavioral foundation models (BFMs) provide humanoids with reusable repertoires of whole-body behaviors; in real-world humanoid control, the same behavioral intent may require fundamentally different motions under different terrain constraints. Covering such variation with terrain-matched demonstrations requires enumerating a combinatorial space of behaviors and terrain geometries.
-
----
-
-## Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.15274)
-- **Authors:** Yongpeng Cao, Masahiro Hirano, Yuji Yamakawa
-- **Published:** 2026-10
-- **Tags:**
-  - Motion Retargeting
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive.
 
 ---
 

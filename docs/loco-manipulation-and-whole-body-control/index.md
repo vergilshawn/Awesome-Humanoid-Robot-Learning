@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**282 papers** in this category.
+**283 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (27 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (28 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,24 @@
 ---
 
 ## Recent Papers
+
+## Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.23548)
+- **Authors:** Yanzhou Jin, Fei Suo, Chang Liu, Yasuhisa Hasegawa, Liming Chen, Yusuke Iwasawa et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Legged robots equipped with manipulators offer promising capabilities for loco-manipulation tasks in unstructured environments. However, achieving task-consistent end-effector behavior during locomotion remains challenging due to terrain-induced disturbances and the strong coupling between locomotion and manipulation, particularly for small-scale quadruped platforms.
+
+---
 
 ## Whole-Body Dexterity
 
@@ -410,25 +428,5 @@ Cluttered indoor environments, where large and heavy objects are scattered acros
 ### Summary
 
 Humanoid robots operating in unstructured environments must combine robust whole-body control with the ability to perceive and physically interact with surrounding objects. While large-scale human motion data provides powerful priors for natural and versatile humanoid control, effectively transferring such priors to perception-driven object interaction remains challenging.
-
----
-
-## InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.06850)
-- **Authors:** Yucheng Zhang, Sirui Xu, Jinhong Li, Liuyu Bian, Anatulya Nandi, Derek Zhang et al. (11 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Manipulation
-  - Human Demonstration
-  - Real Robot
-  - Humanoid
-  - Dataset
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each other.
 
 ---

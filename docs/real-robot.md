@@ -8,7 +8,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Booster:** 2 papers
 - **Digit:** 1 papers
 - **Figure:** 13 papers
-- **Unitree G1:** 58 papers
+- **Unitree G1:** 59 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 21 papers
 - **iCub:** 1 papers
@@ -16,6 +16,26 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.23288)
+- **Authors:** Zicheng Liu, Haochen Wu, Jiawei He, Suyun Zhao, Huan Yang, Cheng Chi et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - PPO
+  - Locomotion
+
+### Summary
+
+Recent advances in Vision-Language-Action (VLA) models and World Action Models (WAMs) have expanded the manipulation and whole body capabilities of individual robots. Yet a single robot remains limited by its embodiment, and many real world tasks require capabilities that can only emerge through cooperation.
+
+---
 
 ## Whole-Body Dexterity
 

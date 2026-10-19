@@ -1,5 +1,114 @@
 [
   {
+    "arxiv_id": "2610.23548",
+    "title": "Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator",
+    "paper_url": "https://arxiv.org/abs/2610.23548",
+    "project_url": null,
+    "authors": [
+      "Yanzhou Jin",
+      "Fei Suo",
+      "Chang Liu",
+      "Yasuhisa Hasegawa",
+      "Liming Chen",
+      "Yusuke Iwasawa",
+      "Yutaka Matsuo",
+      "Yaonan Zhu"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-16",
+    "abstract": "Legged robots equipped with manipulators offer promising capabilities for loco-manipulation tasks in unstructured environments. However, achieving task-consistent end-effector behavior during locomotion remains challenging due to terrain-induced disturbances and the strong coupling between locomotion and manipulation, particularly for small-scale quadruped platforms. A reinforcement-learning based whole-body control framework is proposed for quadruped loco-manipulation on complex terrain. The proposed framework combines a hybrid task representation with task-prioritized whole-body learning to coordinate locomotion and manipulation while preserving task-consistent end-effector behavior. A lightweight quadruped manipulator platform is further developed to validate the proposed framework on a small-scale quadruped system. Real-world experiments demonstrate successful deployment on complex terrains such as slopes up to 30 degrees, stairs, and deformable terrain. These results demonstrate the feasibility of deploying learned whole-body control policy for quadruped loco-manipulation in real-world environments and highlight the importance of task-consistent whole-body coordination for terrain-adaptive loco-manipulation.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.23288",
+    "title": "CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2610.23288",
+    "project_url": null,
+    "authors": [
+      "Zicheng Liu",
+      "Haochen Wu",
+      "Jiawei He",
+      "Suyun Zhao",
+      "Huan Yang",
+      "Cheng Chi",
+      "Hao Tang"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-16",
+    "abstract": "Recent advances in Vision-Language-Action (VLA) models and World Action Models (WAMs) have expanded the manipulation and whole body capabilities of individual robots. Yet a single robot remains limited by its embodiment, and many real world tasks require capabilities that can only emerge through cooperation. Existing multi robot frameworks largely emphasize task decomposition, allocation, and replanning, while providing limited support for adapting executable coordination when physical execution deviates from the intended behavior. We present CoEvolve, a framework that represents team coordination as executable code over fixed robot motor skills. CoEvolve introduces Verifier Guided Coordination Evolution, where a multimodal foundation model instantiates coordination strategies through motion primitives, semantic objectives, temporary robot roles, and bounded execution parameters. Physical verification evaluates each executed transition, rejected behaviors trigger structured coordination revision from an accepted checkpoint, and verified experience is retained to guide subsequent decisions. We evaluate CoEvolve with two simulated Unitree G1 humanoids transporting a freely supported rigid payload through constrained corridors. Across 15 base task runs with three multimodal backbone families, CoEvolve completes 8 tasks, with every backbone achieving end to end success. Additional evaluations yield verified placement on two additional corridor layouts and after both same-backbone and cross-backbone experience initialization, while exposing persistent limitations in motion precision and contact stability. These results support executable coordination as a practical interface for adapting long horizon multi robot collaboration under shared physical constraints.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "Foundation Model",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.23127",
+    "title": "BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL",
+    "paper_url": "https://arxiv.org/abs/2610.23127",
+    "project_url": null,
+    "authors": [
+      "Liyun Yan",
+      "Haoyang Li",
+      "Yang Zhang",
+      "Jialing Zhu",
+      "Zhanxiang Cao",
+      "Zihao Zhou",
+      "Keqi Zhu",
+      "Yizhi Chen",
+      "Huang Chuxuan",
+      "Shengcheng Fu",
+      "Zhong Jiangwei",
+      "Qiao Sun",
+      "Chen Zhang",
+      "Yue Gao"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-16",
+    "abstract": "Humanoid control requires coordinating whole-body posture with position and heading in the world frame. Mainstream controllers imitate trajectories in the root frame, but struggle to regain the target world pose after displacement. We introduce BeJEPA, a goal-conditioned Behavior World Model learned through unsupervised reinforcement learning from human motion priors and robot interaction. BeJEPA learns a shared representation of body configuration and world placement through a joint-embedding predictive architecture (JEPA). A Dynamic Predictor predicts the next state embedding under an action, while a Successor Predictor summarizes a goal-conditioned policy's expected discounted future state embeddings in a single vector. During joint training, Dynamic grounds the initial representation in observed physical transitions, while Successor increasingly organizes it around long-term behavior. Their composition guides policy improvement through one physical prediction and one behavioral summary, without long imagined rollouts. In 20-second motion-tracking experiments, BeJEPA with online action refinement using Dynamic outperforms all evaluated baselines in global body-position error, reducing it on AMASS by 61.7% relative to BFM-Zero with world-pose inputs and 58.7% relative to SONIC. Physical deployment on a Unitree G1 demonstrates joint attainment of posture, world position, and heading goals, recovery from the ground, and closed-loop return after disturbances and goal changes. Project page: https://ylyem9x.github.io/BeJEPA-project.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "World Model",
+      "Humanoid",
+      "Goal-Conditioned",
+      "GAN",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2610.22184",
     "title": "Whole-Body Dexterity",
     "paper_url": "https://arxiv.org/abs/2610.22184",
@@ -537,6 +646,33 @@
     "primary_category": "Locomotion"
   },
   {
+    "arxiv_id": "2610.15274",
+    "title": "Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting",
+    "paper_url": "https://arxiv.org/abs/2610.15274",
+    "project_url": null,
+    "authors": [
+      "Yongpeng Cao",
+      "Masahiro Hirano",
+      "Yuji Yamakawa"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-11",
+    "abstract": "Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive. Human-to-humanoid motion retargeting provides a more scalable alternative, allowing human-human reaction data to serve as a common motion representation for different humanoid embodiments. However, due to morphological and kinematic differences between humans and humanoid robots, a reaction preferred in human motion space may not be the most suitable one for execution on a particular robot embodiment.   In this work, we propose an inference-time reaction search framework that leverages stochastic sampling from a generative reaction model and jointly considers reaction quality and humanoid embodiment feasibility. Given the observed interaction, our framework generates multiple plausible reaction candidates. Each candidate is retargeted to the target humanoid and evaluated using complementary interaction and embodiment-specific feasibility criteria, allowing candidate selection under the physical constraints of the target embodiment. Since the reaction generator remains frozen, the framework can adapt to different humanoid embodiments at inference time without retraining. Experimental results demonstrate that the proposed framework maintains overall human reaction quality while improving the feasibility of retargeted humanoid reactions across different embodiments. The proposed pipeline improves humanoid retargeting feasibility by 1.61%. Moreover, human-space and G1 best-candidate selections disagree in 78.98% of samples, demonstrating substantial embodiment dependence. Code will be released.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Motion Retargeting",
+      "Humanoid",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2610.15833",
     "title": "P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning",
     "paper_url": "https://arxiv.org/abs/2610.15833",
@@ -572,33 +708,6 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Teleoperation"
-  },
-  {
-    "arxiv_id": "2610.15274",
-    "title": "Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting",
-    "paper_url": "https://arxiv.org/abs/2610.15274",
-    "project_url": null,
-    "authors": [
-      "Yongpeng Cao",
-      "Masahiro Hirano",
-      "Yuji Yamakawa"
-    ],
-    "published": "2026-10",
-    "published_date": "2026-10-11",
-    "abstract": "Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive. Human-to-humanoid motion retargeting provides a more scalable alternative, allowing human-human reaction data to serve as a common motion representation for different humanoid embodiments. However, due to morphological and kinematic differences between humans and humanoid robots, a reaction preferred in human motion space may not be the most suitable one for execution on a particular robot embodiment.   In this work, we propose an inference-time reaction search framework that leverages stochastic sampling from a generative reaction model and jointly considers reaction quality and humanoid embodiment feasibility. Given the observed interaction, our framework generates multiple plausible reaction candidates. Each candidate is retargeted to the target humanoid and evaluated using complementary interaction and embodiment-specific feasibility criteria, allowing candidate selection under the physical constraints of the target embodiment. Since the reaction generator remains frozen, the framework can adapt to different humanoid embodiments at inference time without retraining. Experimental results demonstrate that the proposed framework maintains overall human reaction quality while improving the feasibility of retargeted humanoid reactions across different embodiments. The proposed pipeline improves humanoid retargeting feasibility by 1.61%. Moreover, human-space and G1 best-candidate selections disagree in 78.98% of samples, demonstrating substantial embodiment dependence. Code will be released.",
-    "categories": [
-      "Locomotion"
-    ],
-    "tags": [
-      "Motion Retargeting",
-      "Humanoid",
-      "Locomotion"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2610.15073",

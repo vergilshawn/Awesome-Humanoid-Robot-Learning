@@ -1,10 +1,10 @@
 # Locomotion
 
-**217 papers** in this category.
+**219 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (24 papers)
+- [2026-10](/locomotion/2026-10) (26 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,45 @@
 ---
 
 ## Recent Papers
+
+## CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.23288)
+- **Authors:** Zicheng Liu, Haochen Wu, Jiawei He, Suyun Zhao, Huan Yang, Cheng Chi et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - PPO
+  - Locomotion
+
+### Summary
+
+Recent advances in Vision-Language-Action (VLA) models and World Action Models (WAMs) have expanded the manipulation and whole body capabilities of individual robots. Yet a single robot remains limited by its embodiment, and many real world tasks require capabilities that can only emerge through cooperation.
+
+---
+
+## BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.23127)
+- **Authors:** Liyun Yan, Haoyang Li, Yang Zhang, Jialing Zhu, Zhanxiang Cao, Zihao Zhou et al. (14 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - World Model
+  - Humanoid
+  - Goal-Conditioned
+  - GAN
+  - Locomotion
+
+### Summary
+
+Humanoid control requires coordinating whole-body posture with position and heading in the world frame. Mainstream controllers imitate trajectories in the root frame, but struggle to regain the target world pose after displacement.
+
+---
 
 ## Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion
 
@@ -366,40 +405,5 @@ Navigation for humanoid robots is critical, yet large-scale evaluation on physic
 ### Summary
 
 Household robots must accommodate new user instructions while executing ongoing tasks. Existing agents often regenerate or extensively revise the remaining task sequence, introducing plan ambiguity, logical inconsistency, and redundant execution.
-
----
-
-## CoDance: Learning Reactive and Compliant Human-Humanoid Interaction from Video
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.05324)
-- **Authors:** Zhuoqun Chen, Shucheng Jia, Boyuan Chen
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Partnered human-humanoid interaction couples locomotion with continuous physical contact. A humanoid needs to coordinate with a person's motion while responding to interaction forces and maintaining stable and natural movement.
-
----
-
-## Humanoid Rickshaw Pulling: Whole-Body Locomotion under Coupled Wheeled Loads
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.04238)
-- **Authors:** Yangzhi Yang, Xiansheng Lin, Zhaoming Xie, Xiaobin Xiong
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Humanoid
-  - Gait
-  - Walking
-  - Fine-tuning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots could transport payloads substantially heavier than themselves by pulling passive wheeled vehicles instead of carrying the load. This capability, however, creates a coupled locomotion problem: the robot must maintain persistent upper-body contact while adapting to unknown, configuration-dependent forces arising from the payload, vehicle, and terrain.
 
 ---
