@@ -2,6 +2,45 @@
 
 Papers with open-source code repositories.
 
+## 🌟 Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26855)
+- **Project:** [GitHub](https://github.com/Ropedia/ropedia-w0)
+- **Authors:** Tianqi Liu, Hanfei Zhao, Qifeng Liang, Hui En Pang, Jiarui Xu, Sayang Mu et al. (15 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - World Model
+  - Few-Shot
+  - Zero-Shot
+  - Humanoid
+  - Foundation Model
+
+### Summary
+
+World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments.
+
+---
+
+## 🌟 Vision as Proprioception: Estimating Humanoid Robot Pose from Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.25288)
+- **Project:** [GitHub](https://github.com/eth-siplab/HumanoidPose)
+- **Authors:** Jiaxi Jiang, Matthias Heyrman, René Zurbrügg, Marco Hutter, Christian Holz
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Proprioception
+  - State Estimation
+
+### Summary
+
+Estimating a humanoid robot's internal state from video has a wide range of real-world applications but remains unexplored. During interactions with a robot, its onboard state information may be unavailable due to privacy, ownership, or communication constraints.
+
+---
+
 ## 🌟 BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.07594)

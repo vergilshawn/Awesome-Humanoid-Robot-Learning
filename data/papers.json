@@ -1,5 +1,495 @@
 [
   {
+    "arxiv_id": "2610.26855",
+    "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+    "paper_url": "https://arxiv.org/abs/2610.26855",
+    "project_url": "https://github.com/Ropedia/ropedia-w0",
+    "authors": [
+      "Tianqi Liu",
+      "Hanfei Zhao",
+      "Qifeng Liang",
+      "Hui En Pang",
+      "Jiarui Xu",
+      "Sayang Mu",
+      "Penghao Qiu",
+      "YingSheng Zhang",
+      "Jun Wang",
+      "Ziang Cao",
+      "Mingze Sun",
+      "Yukang Cao",
+      "Fangzhou Hong",
+      "Zhaoxi Chen",
+      "Ziwei Liu"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-19",
+    "abstract": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, comprising 10k hours of egocentric human data and 3k hours of robot data with unified multimodal annotations and systematic quality control. A unified kinematic representation encodes locomotion through camera poses and manipulation through projected skeletons, with robot skeletons combining embodiment-specific forward kinematics with extensive manual keypoint annotation and correction. We also introduce Xp-Teleop, a long-horizon loco-manipulation benchmark based on high-quality dexterous humanoid teleoperation data. Evaluations demonstrate state-of-the-art performance across five cross-embodiment benchmarks (DreamDojo, $Ψ_0$, $ω$-HOME, Xp-Teleop, and AgiBot) and on held-out human egocentric video, from zero-shot inference to few-shot and full-data post-training. Scaling human pre-training data improves performance on both human and robot evaluations. After distillation, our model supports real-time, minute-long rollouts, enabling live VR interaction. Applications in policy evaluation, model-based planning, and world-action modeling further demonstrate the model's utility for embodied decision-making.",
+    "categories": [
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "World Model",
+      "Few-Shot",
+      "Zero-Shot",
+      "Humanoid",
+      "Foundation Model",
+      "Pre-training",
+      "Distillation",
+      "Benchmark",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2610.26584",
+    "title": "HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control",
+    "paper_url": "https://arxiv.org/abs/2610.26584",
+    "project_url": null,
+    "authors": [
+      "Langzhe Gu",
+      "Chengkai Hou",
+      "Meng Li",
+      "Xinhua Wang",
+      "Xinyuan Lv",
+      "Shuanghao Bai",
+      "Guangrun Li",
+      "Jingyang He",
+      "Ziluo Ding",
+      "Zhiyuan Xu",
+      "Ning Ding",
+      "Kuan Cheng",
+      "Jian Tang",
+      "Shanghang Zhang",
+      "Zhengping Che"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-19",
+    "abstract": "Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet adapting generalist vision-language-action (VLA) policies to real-world humanoid loco-manipulation remains challenging. Unlike fixed-base or wheeled manipulators, humanoids must coordinate locomotion, posture, gaze, and dual-arm manipulation over a high-dimensional whole-body action space, where inaccurate base or waist motions can easily induce unstable and aggressive upper-body compensation. We propose HAF-VLA, a hierarchical action-flow framework for humanoid VLA control. Built upon a pretrained flow-matching VLA, HAF-VLA inherits the vision-language prefix encoder and action expert weights, and adapts them to humanoid whole-body loco-manipulation with learnable stage embeddings and cross-stage KV-cache conditioning. Instead of generating the full action chunk in a single pass, HAF-VLA progressively denoises a shared whole-body action space: first locomotion and head commands, then waist refinement, and finally full-body manipulation. To preserve structural dependencies across stages, we introduce a cross-stage KV cache conditioning mechanism, enabling subsequent action generation stages to refine and augment their outputs based on the action representations from preceding stages. Experimental results across six real-world tasks demonstrate that our framework significantly enhances the performance of existing models in humanoid loco-manipulation tasks, demonstrating an effective pathway for adapting strong mobile-manipulation VLAs to humanoid whole-body loco-manipulation.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.26170",
+    "title": "Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection",
+    "paper_url": "https://arxiv.org/abs/2610.26170",
+    "project_url": null,
+    "authors": [
+      "Keyhan Rayati",
+      "AliReza Beigy",
+      "Anoosheh Saadati",
+      "Pourya Shahverdi",
+      "Mehdi Tale Masouleh",
+      "Ahmad Kalhor",
+      "Wing-Yue Geoffrey Louie"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-19",
+    "abstract": "Learning from Demonstration (LfD) allows robots to learn new skills from human examples; however, many vision-based methods require large datasets and resource-intensive end-to-end training. This paper introduces a data-efficient LfD framework for humanoid robots that learns manipulation skills from compact, task-specific features instead of raw images. The proposed approach integrates layered visual preprocessing, Kinect-based human joint estimation, prompt-based object detection, and depth information to extract human motion features and three-dimensional object locations from demonstration videos. These features are used to train a temporal deep learning model that predicts robot joint-angle trajectories for execution. The framework is implemented on a NAO humanoid robot, evaluated quantitatively in simulation, and demonstrated on physical hardware. In simulation, the robot achieves a 78% success rate on a pick-and-place task using only 16 demonstrations, which increases to 86% when trained with 100 demonstrations. The framework also achieves a 71% success rate on a pushing task using eight demonstrations, highlighting its effectiveness for data-efficient humanoid skill acquisition.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Deep Learning",
+      "Dataset",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "NAO",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2610.26043",
+    "title": "OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids",
+    "paper_url": "https://arxiv.org/abs/2610.26043",
+    "project_url": null,
+    "authors": [
+      "Yinghao Li",
+      "Tianyu Zhang",
+      "Zhuohao Li",
+      "Yi-Lin Wei",
+      "Fa-Ting Hong",
+      "Qing Zhang",
+      "Wei-Shi Zheng"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-19",
+    "abstract": "Physical interaction is a key capability for humanoid collaboration, requiring coordinated whole-body motion and precise contact. However, learning diverse dual-humanoid interactions faces two major challenges: (1) human-robot morphological differences disrupt contact interfaces and spatial relationships during retargeting, and (2) jointly learning motor skills and partner coordination makes it difficult to retain control fidelity as interaction diversity grows. In this paper, we propose OmniInteract to address these challenges through surface-aware modeling and scalable residual policy learning. First, we introduce Surface Contact-Aware Retargeting, which leverages dense human-robot surface correspondences to jointly retarget both humanoids, preserving explicit interaction contact interfaces and their near-field geometric context. Second, we propose a Scalable Flow-based Interaction Policy for partner-conditioned residual generation. It factorizes dual-humanoid control into a reusable motor foundation and interaction-specific adaptations: partner-aware experts learn corrections over a frozen whole-body motion prior, while conditional flow matching unifies them in a shared residual action space. This enables scalable skill consolidation while retaining pretrained motor capabilities. Extensive experiments demonstrate that OmniInteract improves retargeting fidelity and dual-humanoid coordination while better retaining interaction performance as skill diversity grows. Real-world deployment further demonstrates successful contact establishment, stable whole-body coordination, and recovery from external perturbations.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Humanoid",
+      "Policy Learning",
+      "Flow Matching",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.25711",
+    "title": "SWAP: Test-Time Steerable Humanoid Whole-Body Collision Avoidance",
+    "paper_url": "https://arxiv.org/abs/2610.25711",
+    "project_url": null,
+    "authors": [
+      "Zeji Yi",
+      "Guanqi He",
+      "Xiaofeng Guo",
+      "Guannan Qu",
+      "Pieter Abbeel",
+      "Yan Duan",
+      "Karen Liu",
+      "Guanya Shi"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-19",
+    "abstract": "Humanoid robots operating in human-centric environments must coordinate the entire body to traverse tight, cluttered spaces while maintaining balance. Existing methods often struggle to jointly consider dynamic stability and collision avoidance from high-dimensional perceptual inputs. Moreover, for humanoids, safe behavior is inherently multimodal: the same obstacle may admit multiple valid traversals, which is difficult to represent with a single deterministic policy. To address these challenges, we propose SWAP (Steerable Whole-body Avoidance Policy), a hierarchical framework that separates collision-aware decision making from stabilization. A high-level, perception-conditioned diffusion policy generates multimodal, collision-aware motion proposals, while a low-level whole-body RL controller tracks these proposals and maintains dynamic balance. To efficiently train the high-level policy, we obtain scalable supervision via hindsight labeling: we roll out the low-level policy under randomized commands, place obstacles only in the space that each executed motion did not sweep, so the motion is collision-free by construction, and re-render the perception the robot would have seen. At deployment, Monte Carlo sampling with simple cost signals steers the diffusion model toward safe, task-aligned behaviors without heavy reward tuning.   Experiments in simulation and on a real Unitree G1 humanoid show reliable avoidance with static and dynamic obstacles. Test-time steering further enables customization, improving targeted rewards (e.g., speed, orientation, or posture) by 34% on average while maintaining a high collision avoidance rate. Together, these results support a practical solution to humanoid whole-body collision avoidance with test-time steerability. Project website: https://iscoyizj.github.io/SWAP-steerable-humanoid-oa-website/",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Diffusion Policy",
+      "Humanoid",
+      "Collision",
+      "PPO",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.25701",
+    "title": "Validation of Human Motor Development Scales with Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2610.25701",
+    "project_url": null,
+    "authors": [
+      "Fanxing Meng",
+      "Jing Xiao"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-19",
+    "abstract": "We investigate how humanoid robots can learn a series of motor skills defined by human infant motor development scales, and we evaluate which scales are comprehensive enough to serve as self-contained guides for developing gross motor skills up to standing and walking. We represent each motor development scale as a developmental graph that guides the training of a humanoid robot. We then apply this graph within a reinforcement learning framework so that the robot learns skills following the natural phases of human motor development described by the scale. Our work demonstrates that graphs derived from three out of four popular pediatric motor scales can successfully guide humanoid robots to develop these skills. The fourth scale misses some intermediate milestones that the other scales have, which causes some failures. After adding a missing milestone in its graph, it also enables the robot to develop those skills successfully.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Walking",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.25628",
+    "title": "Humanoid SRL: Augmenting Humanoids with Supernumerary Limbs for Coordinated Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.25628",
+    "project_url": null,
+    "authors": [
+      "Fukang Liu",
+      "Feiyang Wu",
+      "Paul Barsa",
+      "Jaehwi Jang",
+      "Akshat Jain",
+      "Zhigen Zhao",
+      "Yipu Chen",
+      "Zhaoyuan Gu",
+      "Nikhil Vemuri",
+      "Anshul Chandaliya",
+      "Kaijie Zhu",
+      "Sean Lublinsky",
+      "Matthew Zhu",
+      "Tony G. Chen",
+      "Ye Zhao"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-19",
+    "abstract": "Humanoid robots are envisioned to perform diverse human-level tasks through their anthropomorphic morphology. Their dual-arm configuration enables a broad range of everyday actions. Yet, as in humans, this morphology can constrain loco-manipulation when both arms are occupied or additional contacts are required beyond their reach. Supernumerary robotic limbs (SRLs) offer a way to extend these capabilities, but their integration requires the added limb to be coordinated with whole-body motion and balance. In this study, we develop and integrate a supernumerary arm into a humanoid platform to investigate how morphological augmentation reshapes its feasible action space. Through quantitative analysis and hardware experiments across two configurations, we show how the additional limb expands whole-body interaction capabilities by enabling manipulation and support to be coordinated beyond the constraints of the native dual-arm configuration. To control this augmented morphology, we leverage model-based trajectory optimization (TO) to generate dynamically feasible motions for goal-conditioned reinforcement learning (RL) controllers. The controllers are trained in simulation and transferred to hardware in a zero-shot manner, enabling coordinated whole-body skills for contact-rich tri-arm loco-manipulation. We further show vision-guided autonomous execution on selected tasks using diffusion policies trained from hardware demonstrations. Our findings suggest that humanoid morphology need not be restricted to human-like forms, but can be reimagined as an extensible design space for robotic augmentation.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "Zero-Shot",
+      "Humanoid",
+      "Trajectory Optimization",
+      "Goal-Conditioned",
+      "PPO",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.25288",
+    "title": "Vision as Proprioception: Estimating Humanoid Robot Pose from Video",
+    "paper_url": "https://arxiv.org/abs/2610.25288",
+    "project_url": "https://github.com/eth-siplab/HumanoidPose",
+    "authors": [
+      "Jiaxi Jiang",
+      "Matthias Heyrman",
+      "René Zurbrügg",
+      "Marco Hutter",
+      "Christian Holz"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-18",
+    "abstract": "Estimating a humanoid robot's internal state from video has a wide range of real-world applications but remains unexplored. During interactions with a robot, its onboard state information may be unavailable due to privacy, ownership, or communication constraints. Meanwhile, online and AI-generated robot videos provide rich sources of data but typically lack corresponding joint configurations, limiting their direct use in robot learning. To address these issues, we present HumanoidPose, a new framework that treats vision as proprioception to recover full-body joint configurations in world space from video alone. Specifically, we combine pretrained human-pose features with robot kinematics in a unified model that predicts each embodiment's joint configurations. We retarget human motions to sixteen different humanoid embodiments, enabling scalable learning entirely from synthetic data. To improve real-world generalization, we further leverage unlabeled online videos through self-training to develop a 2D robot-pose detector. In our evaluation, HumanoidPose improves joint-angle and joint-position accuracy over the evaluated baselines and reduces joint-angle error by 18-32% relative to the best-performing baseline on each of the three real humanoid platforms. We further show improved global localization and generalization to unseen embodiments. HumanoidPose enables visual understanding of other robots during interaction and extraction of robot motion from online and generated videos.",
+    "categories": [
+      "State Estimation"
+    ],
+    "tags": [
+      "Humanoid",
+      "Proprioception",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2610.24847",
+    "title": "DiPLO: Self-distilled Diffusion Planning for Loco-manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.24847",
+    "project_url": null,
+    "authors": [
+      "Shafeef Omar",
+      "Sebastian Sanokowski",
+      "Elham Daneshmand",
+      "Dian Yu",
+      "Daniel Cremers",
+      "Cordelia Schmid",
+      "Majid Khadiv"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-17",
+    "abstract": "Humanoid loco-manipulation is particularly challenging because it requires coordinating locomotion, balance, and object interaction, making it difficult to learn from limited demonstrations or from scratch through Reinforcement Learning (RL). We introduce DiPLO (self-distilled Diffusion Planning for Loco-manipulation), a framework that combines a self-distilled diffusion planner with a low-level whole-body tracking policy. Our planner is pretrained via supervised learning on motions derived from human-to-humanoid retargeting, while the tracker is trained via RL to execute them. DiPLO centers around two complementary post-training stages. First, we introduce Self-Distillation Diffusion Policy Optimisation (SD:DPO) to remove the planner's dependence on strong task conditioning, which we identify as a crucial ingredient for effective pretraining, as downstream fine-tuning does not recover comparable performance when it is omitted.. We then fine-tune this distilled model with Diffusion-Augmented Proximal Policy Optimization (DA:PPO), a maximum-entropy RL method for diffusion models, to improve task success and align generated plans with the frozen tracker's execution capabilities. Together, these stages enable motion generation through state-history and goal conditioning alone, enabling 99% task success in pick-carry-place tasks, compared to just 45% for the pretrained model. The resulting planner also generates motions for unseen object goals, with further evaluations on kicking and pushing/pulling tasks. Finally, we deploy our pipeline on the hardware, using our DA:PPO planner-tracker on a Unitree G1, achieving repeated successful executions without any real-world fine-tuning.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Diffusion Policy",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Fine-tuning",
+      "Distillation",
+      "PPO",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.24779",
+    "title": "Learning Structured Locomotion References for Optimization-Based Whole-Body Control",
+    "paper_url": "https://arxiv.org/abs/2610.24779",
+    "project_url": null,
+    "authors": [
+      "Ömer Tarık Banuş",
+      "Uluç Saranlı",
+      "M. Mert Ankaralı"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-17",
+    "abstract": "Quadruped locomotion requires coordinating body motion,contact forces, foothold placement, and gait timing. We present a hierarchical controller in which reinforcement learning adapts these structured locomotion references while a gait scheduler, reactive footstep planner, and whole-body impulse controller retain responsibility for high-frequency execution. The model-based backbone can sustain a nominal trot independently, allowing the policy to focus on when and how to modify an already functional locomotion controller. We train the complete hierarchy in a vectorized controller-in-the-loop environment using a six-direction disturbance curriculum. Under a common simulator and evaluation protocol, the proposed controller achieves 77.29% mean survival across the tested disturbance grid, compared with 50.35% for the model-based reference controller. Training-time channel ablations identify adaptive foothold placement as the largest marginal contributor to grid survival and reveal direction-dependent effects of gait-rate adaptation. Together, these results demonstrate the viability of the proposed hierarchical controller architecture for integrating learned adaptation with optimization-based whole-body control through structured locomotion references.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Locomotion",
+      "Simulator",
+      "Gait",
+      "Optimization-Based",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.24675",
+    "title": "Action-Aligned Latent Planning for Versatile Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.24675",
+    "project_url": null,
+    "authors": [
+      "Yutang Lin",
+      "Guanya Shi",
+      "C. Karen Liu"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-17",
+    "abstract": "Learning a single perceptive policy for diverse humanoid loco-manipulation requires unifying high-level task decisions without losing the state-dependent physical responses that make each interaction succeed. This makes the representation between high-level planning and whole-body control critical: kinematic or contact targets provide compact abstractions but do not directly encode interaction-specific control responses, while directly predicting low-level actions requires the planner to model high-frequency closed-loop feedback. We propose FIBER, a framework that uses the executable latent space of a frozen behavioral foundation model (BFM) as a shared planning representation for heterogeneous interaction skills. Our latent policy projection (LPP) maps independently acquired task-specific policies into this representation by identifying latent commands whose induced actions match their local control responses, enabling lower-rate planning while retaining the BFM's high-frequency state feedback. After projection, we aggregate closed-loop latent rollouts from all skills and train a single perceptive flow planner entirely offline. We further introduce AH-BFM, an adaptive-horizon BFM trained with multi-gamma forward-backward (FB) learning to support both precise control and temporally extended whole-body behavior. We evaluate FIBER on box pickup, door opening, and object grasping in simulation and on a real Unitree G1 humanoid. Across 128 diverse variations per task in simulation, FIBER achieves 42.0% mean success, more than tripling projected latent replay (11.6%) and substantially outperforming kinematic planning (3.5%). Real-world experiments further demonstrate sim-to-real transfer, skill chaining, and conditional steering through the same unified planner.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Sim-to-Real",
+      "Manipulation",
+      "Humanoid",
+      "Foundation Model",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.24559",
+    "title": "SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2610.24559",
+    "project_url": null,
+    "authors": [
+      "Jiancong Ma",
+      "Kun Li",
+      "Jin Jiang",
+      "Shengcai Liao"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-17",
+    "abstract": "Enabling humanoid robots to participate effectively in social interactions is important for their integration into human-centered environments. Existing methods, however, typically map pre-generated speech directly to continuous motion trajectories but have limited awareness of complex social environments and lack explicit high-level semantic action planning. We introduce SocialCoAct, a unified agent-centered framework for VLM-based egocentric social co-action. We formulate egocentric social co-action as an end-to-end agent task and develop SocialCoAct-Agent, which transforms egocentric observations and dialogue history into verbal responses and atomic action sequences, aligns each action with its corresponding utterance span, and executes the resulting behaviors in MuJoCo and on a physical humanoid robot. To evaluate the VLM capabilities required by this task, we construct SocialCoAct-Bench from continuous egocentric recordings of natural multi-party interactions. The benchmark comprises 423 human-verified multiple-choice questions across three subtasks: Long Episode Understanding (LEU), Speaker Intention Understanding (SIU), and Coordinated Action Planning (CAP). Across a diverse set of closed-source and open-weight VLMs, including general and egocentric models, the highest overall accuracy is 77.54%, while accuracy on the hard subset reaches only 46.51%. Extended reasoning improves Qwen3-VL-2B and Qwen3-VL-4B by 19.62 and 17.02 percentage points, respectively, but reduces inference throughput by 53.6$\\times$ and 20.2$\\times$. Visual-input ablations further show that the benefits of visual context vary across models. SocialCoAct provides a foundation for developing and evaluating VLM-based humanoid agents that coordinate context-aware speech and action in complex social interactions. The codebase and benchmark will be made publicly available upon publication.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "MuJoCo",
+      "Humanoid",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2610.24312",
+    "title": "Beyond Human-Derived Motion: Exploring Robot-Specific Execution for Construction Humanoids",
+    "paper_url": "https://arxiv.org/abs/2610.24312",
+    "project_url": null,
+    "authors": [
+      "MinJun Chang",
+      "Taehyung Kim",
+      "Yong K. Cho",
+      "Francis Baek"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-16",
+    "abstract": "Construction productivity has remained a per- sistent challenge, motivating growing interest in humanoid robots that can operate in workspaces and with tools designed for human workers. Realizing this potential requires effective motion control, for which human-derived motion transfer has emerged as a promising approach by capturing and retargeting human demonstrations to humanoid robots. While promising, however, human-derived motion transfer may not fully define how a humanoid should ultimately execute the transferred motion. Once task-relevant motion information has been con- veyed, the humanoid may also exploit its own embodiment through motions that depart from the human demonstration. This study examines whether such Robot-Specific Motion offers an advantage in motion execution efficiency over Human- Derived Motion. On an adult-sized Unitree H1-2, Human- Derived Motion was generated through vision-based capture and retargeting, whereas Robot-Specific Motion used inverse kinematics and minimum-jerk transfers to reach the same targets while departing from the demonstrated posture, as verified using Rapid Upper Limb Assessment (RULA). Across a pick-and-stack sequence representing construction material handling, with four matched motion targets and three trials per condition, Robot-Specific Motion achieved 12.87 s versus 25.03 s in execution time, 0.92 m versus 4.33 m in trajectory length, and 58.7 J versus 247.3 J in two-arm mechanical work. These findings suggest that allowing humanoids to depart from demonstrated human motion may offer additional opportunities for more efficient motion execution, while broader construction tasks are needed to determine whether such differences trans- late into productivity gains.",
+    "categories": [
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Human Demonstration",
+      "Humanoid",
+      "Inverse Kinematics",
+      "PPO",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree H1",
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2610.24257",
+    "title": "Evaluating Lightweight Contact Feedback in Dual-Operator Collaborative Humanoid Teleoperation",
+    "paper_url": "https://arxiv.org/abs/2610.24257",
+    "project_url": null,
+    "authors": [
+      "Austin Graves",
+      "Chuizheng Kong",
+      "Yunho Cho",
+      "Yuanshao Yang",
+      "Advaith Nidumukkala",
+      "Shreyas Kousik",
+      "Mohsen Moghaddam"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-16",
+    "abstract": "Dual-operator humanoid teleoperation enables collaborative manipulation through two separate robots, but operators lack direct awareness of robot-object contact that is normally available during physical interaction. To address this, we present eXtended Reality Teleoperation (XRT), an extended reality teleoperation framework that returns a robot's fingertip contact through lightweight vibrotactile and/or auditory feedback, and a synchronized dual-humanoid testbed built on it for two operators. Sixteen dyads performed a collaborative crate lift-and-flip under vision only and the three feedback conditions in a counterbalanced within-subject design with verified feedback-channel delivery. Three results follow. First, operators rated our finger-localized vibrotactile display as more effective than our open-ear sonification: all 32 ranked it above the sonification, 18 ranked it most effective, and its cues were rated far easier to perceive and interpret than the auditory cues. Second, completion time, failures, workload, discomfort, and partner awareness showed no detected condition differences, with wide completion-time intervals and smaller meaningful effects unresolved. Third, performance changed substantially with practice, especially on the harder flip-over task: completion time improved across blocks, and attempt-to-attempt variation within a dyad (SD x1.51) was larger than the largest condition contrast (x1.16). Exploratory analyses detected no difference in immediate grip or motion responses between feedback conditions. For novice collaborative teleoperation, our fingertip vibrotactile cues were rated more effective and easier to interpret than our auditory cues, while their effect on task performance remains unresolved.",
+    "categories": [
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Humanoid"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
     "arxiv_id": "2610.23548",
     "title": "Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator",
     "paper_url": "https://arxiv.org/abs/2610.23548",
@@ -646,33 +1136,6 @@
     "primary_category": "Locomotion"
   },
   {
-    "arxiv_id": "2610.15274",
-    "title": "Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting",
-    "paper_url": "https://arxiv.org/abs/2610.15274",
-    "project_url": null,
-    "authors": [
-      "Yongpeng Cao",
-      "Masahiro Hirano",
-      "Yuji Yamakawa"
-    ],
-    "published": "2026-10",
-    "published_date": "2026-10-11",
-    "abstract": "Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive. Human-to-humanoid motion retargeting provides a more scalable alternative, allowing human-human reaction data to serve as a common motion representation for different humanoid embodiments. However, due to morphological and kinematic differences between humans and humanoid robots, a reaction preferred in human motion space may not be the most suitable one for execution on a particular robot embodiment.   In this work, we propose an inference-time reaction search framework that leverages stochastic sampling from a generative reaction model and jointly considers reaction quality and humanoid embodiment feasibility. Given the observed interaction, our framework generates multiple plausible reaction candidates. Each candidate is retargeted to the target humanoid and evaluated using complementary interaction and embodiment-specific feasibility criteria, allowing candidate selection under the physical constraints of the target embodiment. Since the reaction generator remains frozen, the framework can adapt to different humanoid embodiments at inference time without retraining. Experimental results demonstrate that the proposed framework maintains overall human reaction quality while improving the feasibility of retargeted humanoid reactions across different embodiments. The proposed pipeline improves humanoid retargeting feasibility by 1.61%. Moreover, human-space and G1 best-candidate selections disagree in 78.98% of samples, demonstrating substantial embodiment dependence. Code will be released.",
-    "categories": [
-      "Locomotion"
-    ],
-    "tags": [
-      "Motion Retargeting",
-      "Humanoid",
-      "Locomotion"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Locomotion"
-  },
-  {
     "arxiv_id": "2610.15833",
     "title": "P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning",
     "paper_url": "https://arxiv.org/abs/2610.15833",
@@ -708,6 +1171,33 @@
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2610.15274",
+    "title": "Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting",
+    "paper_url": "https://arxiv.org/abs/2610.15274",
+    "project_url": null,
+    "authors": [
+      "Yongpeng Cao",
+      "Masahiro Hirano",
+      "Yuji Yamakawa"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-11",
+    "abstract": "Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive. Human-to-humanoid motion retargeting provides a more scalable alternative, allowing human-human reaction data to serve as a common motion representation for different humanoid embodiments. However, due to morphological and kinematic differences between humans and humanoid robots, a reaction preferred in human motion space may not be the most suitable one for execution on a particular robot embodiment.   In this work, we propose an inference-time reaction search framework that leverages stochastic sampling from a generative reaction model and jointly considers reaction quality and humanoid embodiment feasibility. Given the observed interaction, our framework generates multiple plausible reaction candidates. Each candidate is retargeted to the target humanoid and evaluated using complementary interaction and embodiment-specific feasibility criteria, allowing candidate selection under the physical constraints of the target embodiment. Since the reaction generator remains frozen, the framework can adapt to different humanoid embodiments at inference time without retraining. Experimental results demonstrate that the proposed framework maintains overall human reaction quality while improving the feasibility of retargeted humanoid reactions across different embodiments. The proposed pipeline improves humanoid retargeting feasibility by 1.61%. Moreover, human-space and G1 best-candidate selections disagree in 78.98% of samples, demonstrating substantial embodiment dependence. Code will be released.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Motion Retargeting",
+      "Humanoid",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
   },
   {
     "arxiv_id": "2610.15073",

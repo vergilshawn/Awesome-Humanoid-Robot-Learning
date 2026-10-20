@@ -7,15 +7,116 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 1 papers
-- **Figure:** 13 papers
-- **Unitree G1:** 59 papers
+- **Figure:** 14 papers
+- **NAO:** 1 papers
+- **Unitree G1:** 61 papers
 - **Unitree H1:** 1 papers
-- **Unknown Platform:** 21 papers
+- **Unknown Platform:** 22 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
+
+## HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26584)
+- **Authors:** Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Xinyuan Lv, Shuanghao Bai et al. (15 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet adapting generalist vision-language-action (VLA) policies to real-world humanoid loco-manipulation remains challenging. Unlike fixed-base or wheeled manipulators, humanoids must coordinate locomotion, posture, gaze, and dual-arm manipulation over a high-dimensional whole-body action space, where inaccurate base or waist motions can easily induce unstable and aggressive upper-body compensation.
+
+---
+
+## Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26170)
+- **Authors:** Keyhan Rayati, AliReza Beigy, Anoosheh Saadati, Pourya Shahverdi, Mehdi Tale Masouleh, Ahmad Kalhor et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — NAO
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Deep Learning
+  - Dataset
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Learning from Demonstration (LfD) allows robots to learn new skills from human examples; however, many vision-based methods require large datasets and resource-intensive end-to-end training. This paper introduces a data-efficient LfD framework for humanoid robots that learns manipulation skills from compact, task-specific features instead of raw images.
+
+---
+
+## OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26043)
+- **Authors:** Yinghao Li, Tianyu Zhang, Zhuohao Li, Yi-Lin Wei, Fa-Ting Hong, Qing Zhang et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Policy Learning
+  - Flow Matching
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Physical interaction is a key capability for humanoid collaboration, requiring coordinated whole-body motion and precise contact. However, learning diverse dual-humanoid interactions faces two major challenges: (1) human-robot morphological differences disrupt contact interfaces and spatial relationships during retargeting, and (2) jointly learning motor skills and partner coordination makes it difficult to retain control fidelity as interaction diversity grows.
+
+---
+
+## DiPLO: Self-distilled Diffusion Planning for Loco-manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24847)
+- **Authors:** Shafeef Omar, Sebastian Sanokowski, Elham Daneshmand, Dian Yu, Daniel Cremers, Cordelia Schmid et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Diffusion Policy
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Fine-tuning
+  - Distillation
+  - PPO
+
+### Summary
+
+Humanoid loco-manipulation is particularly challenging because it requires coordinating locomotion, balance, and object interaction, making it difficult to learn from limited demonstrations or from scratch through Reinforcement Learning (RL). We introduce DiPLO (self-distilled Diffusion Planning for Loco-manipulation), a framework that combines a self-distilled diffusion planner with a low-level whole-body tracking policy.
+
+---
+
+## Action-Aligned Latent Planning for Versatile Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24675)
+- **Authors:** Yutang Lin, Guanya Shi, C. Karen Liu
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Learning a single perceptive policy for diverse humanoid loco-manipulation requires unifying high-level task decisions without losing the state-dependent physical responses that make each interaction succeed. This makes the representation between high-level planning and whole-body control critical: kinematic or contact targets provide compact abstractions but do not directly encode interaction-specific control responses, while directly predicting low-level actions requires the planner to model high-frequency closed-loop feedback.
+
+---
 
 ## CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots
 

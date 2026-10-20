@@ -2,6 +2,273 @@
 
 All papers sorted by publication date (newest first).
 
+## 🌟 Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26855)
+- **Project:** [GitHub](https://github.com/Ropedia/ropedia-w0)
+- **Authors:** Tianqi Liu, Hanfei Zhao, Qifeng Liang, Hui En Pang, Jiarui Xu, Sayang Mu et al. (15 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - World Model
+  - Few-Shot
+  - Zero-Shot
+  - Humanoid
+  - Foundation Model
+
+### Summary
+
+World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments.
+
+---
+
+## HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26584)
+- **Authors:** Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Xinyuan Lv, Shuanghao Bai et al. (15 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet adapting generalist vision-language-action (VLA) policies to real-world humanoid loco-manipulation remains challenging. Unlike fixed-base or wheeled manipulators, humanoids must coordinate locomotion, posture, gaze, and dual-arm manipulation over a high-dimensional whole-body action space, where inaccurate base or waist motions can easily induce unstable and aggressive upper-body compensation.
+
+---
+
+## Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26170)
+- **Authors:** Keyhan Rayati, AliReza Beigy, Anoosheh Saadati, Pourya Shahverdi, Mehdi Tale Masouleh, Ahmad Kalhor et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — NAO
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Deep Learning
+  - Dataset
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Learning from Demonstration (LfD) allows robots to learn new skills from human examples; however, many vision-based methods require large datasets and resource-intensive end-to-end training. This paper introduces a data-efficient LfD framework for humanoid robots that learns manipulation skills from compact, task-specific features instead of raw images.
+
+---
+
+## OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26043)
+- **Authors:** Yinghao Li, Tianyu Zhang, Zhuohao Li, Yi-Lin Wei, Fa-Ting Hong, Qing Zhang et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Policy Learning
+  - Flow Matching
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Physical interaction is a key capability for humanoid collaboration, requiring coordinated whole-body motion and precise contact. However, learning diverse dual-humanoid interactions faces two major challenges: (1) human-robot morphological differences disrupt contact interfaces and spatial relationships during retargeting, and (2) jointly learning motor skills and partner coordination makes it difficult to retain control fidelity as interaction diversity grows.
+
+---
+
+## SWAP: Test-Time Steerable Humanoid Whole-Body Collision Avoidance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.25711)
+- **Authors:** Zeji Yi, Guanqi He, Xiaofeng Guo, Guannan Qu, Pieter Abbeel, Yan Duan et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Diffusion Policy
+  - Humanoid
+  - Collision
+  - PPO
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots operating in human-centric environments must coordinate the entire body to traverse tight, cluttered spaces while maintaining balance. Existing methods often struggle to jointly consider dynamic stability and collision avoidance from high-dimensional perceptual inputs.
+
+---
+
+## Validation of Human Motor Development Scales with Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.25701)
+- **Authors:** Fanxing Meng, Jing Xiao
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Walking
+  - Locomotion
+
+### Summary
+
+We investigate how humanoid robots can learn a series of motor skills defined by human infant motor development scales, and we evaluate which scales are comprehensive enough to serve as self-contained guides for developing gross motor skills up to standing and walking. We represent each motor development scale as a developmental graph that guides the training of a humanoid robot.
+
+---
+
+## Humanoid SRL: Augmenting Humanoids with Supernumerary Limbs for Coordinated Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.25628)
+- **Authors:** Fukang Liu, Feiyang Wu, Paul Barsa, Jaehwi Jang, Akshat Jain, Zhigen Zhao et al. (15 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Trajectory Optimization
+  - Goal-Conditioned
+  - PPO
+  - Diffusion
+
+### Summary
+
+Humanoid robots are envisioned to perform diverse human-level tasks through their anthropomorphic morphology. Their dual-arm configuration enables a broad range of everyday actions.
+
+---
+
+## 🌟 Vision as Proprioception: Estimating Humanoid Robot Pose from Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.25288)
+- **Project:** [GitHub](https://github.com/eth-siplab/HumanoidPose)
+- **Authors:** Jiaxi Jiang, Matthias Heyrman, René Zurbrügg, Marco Hutter, Christian Holz
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Proprioception
+  - State Estimation
+
+### Summary
+
+Estimating a humanoid robot's internal state from video has a wide range of real-world applications but remains unexplored. During interactions with a robot, its onboard state information may be unavailable due to privacy, ownership, or communication constraints.
+
+---
+
+## DiPLO: Self-distilled Diffusion Planning for Loco-manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24847)
+- **Authors:** Shafeef Omar, Sebastian Sanokowski, Elham Daneshmand, Dian Yu, Daniel Cremers, Cordelia Schmid et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Diffusion Policy
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Fine-tuning
+  - Distillation
+  - PPO
+
+### Summary
+
+Humanoid loco-manipulation is particularly challenging because it requires coordinating locomotion, balance, and object interaction, making it difficult to learn from limited demonstrations or from scratch through Reinforcement Learning (RL). We introduce DiPLO (self-distilled Diffusion Planning for Loco-manipulation), a framework that combines a self-distilled diffusion planner with a low-level whole-body tracking policy.
+
+---
+
+## Learning Structured Locomotion References for Optimization-Based Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24779)
+- **Authors:** Ömer Tarık Banuş, Uluç Saranlı, M. Mert Ankaralı
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Simulator
+  - Gait
+  - Optimization-Based
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Quadruped locomotion requires coordinating body motion,contact forces, foothold placement, and gait timing. We present a hierarchical controller in which reinforcement learning adapts these structured locomotion references while a gait scheduler, reactive footstep planner, and whole-body impulse controller retain responsibility for high-frequency execution.
+
+---
+
+## Action-Aligned Latent Planning for Versatile Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24675)
+- **Authors:** Yutang Lin, Guanya Shi, C. Karen Liu
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Learning a single perceptive policy for diverse humanoid loco-manipulation requires unifying high-level task decisions without losing the state-dependent physical responses that make each interaction succeed. This makes the representation between high-level planning and whole-body control critical: kinematic or contact targets provide compact abstractions but do not directly encode interaction-specific control responses, while directly predicting low-level actions requires the planner to model high-frequency closed-loop feedback.
+
+---
+
+## SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24559)
+- **Authors:** Jiancong Ma, Kun Li, Jin Jiang, Shengcai Liao
+- **Published:** 2026-10
+- **Tags:**
+  - MuJoCo
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Enabling humanoid robots to participate effectively in social interactions is important for their integration into human-centered environments. Existing methods, however, typically map pre-generated speech directly to continuous motion trajectories but have limited awareness of complex social environments and lack explicit high-level semantic action planning.
+
+---
+
+## Beyond Human-Derived Motion: Exploring Robot-Specific Execution for Construction Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24312)
+- **Authors:** MinJun Chang, Taehyung Kim, Yong K. Cho, Francis Baek
+- **Published:** 2026-10
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Inverse Kinematics
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Construction productivity has remained a per- sistent challenge, motivating growing interest in humanoid robots that can operate in workspaces and with tools designed for human workers. Realizing this potential requires effective motion control, for which human-derived motion transfer has emerged as a promising approach by capturing and retargeting human demonstrations to humanoid robots.
+
+---
+
+## Evaluating Lightweight Contact Feedback in Dual-Operator Collaborative Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24257)
+- **Authors:** Austin Graves, Chuizheng Kong, Yunho Cho, Yuanshao Yang, Advaith Nidumukkala, Shreyas Kousik et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+Dual-operator humanoid teleoperation enables collaborative manipulation through two separate robots, but operators lack direct awareness of robot-object contact that is normally available during physical interaction. To address this, we present eXtended Reality Teleoperation (XRT), an extended reality teleoperation framework that returns a robot's fingertip contact through lightweight vibrotactile and/or auditory feedback, and a synchronized dual-humanoid testbed built on it for two operators.
+
+---
+
 ## Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.23548)
@@ -352,22 +619,6 @@ Humanoids increasingly demand lightweight leg mechanisms for agile, dynamic, and
 
 ---
 
-## Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.15274)
-- **Authors:** Yongpeng Cao, Masahiro Hirano, Yuji Yamakawa
-- **Published:** 2026-10
-- **Tags:**
-  - Motion Retargeting
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive.
-
----
-
 ## P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.15833)
@@ -385,6 +636,22 @@ Training humanoid robots to learn human behaviors requires expensive data collec
 ### Summary
 
 Behavioral foundation models (BFMs) provide humanoids with reusable repertoires of whole-body behaviors; in real-world humanoid control, the same behavioral intent may require fundamentally different motions under different terrain constraints. Covering such variation with terrain-matched demonstrations requires enumerating a combinatorial space of behaviors and terrain geometries.
+
+---
+
+## Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.15274)
+- **Authors:** Yongpeng Cao, Masahiro Hirano, Yuji Yamakawa
+- **Published:** 2026-10
+- **Tags:**
+  - Motion Retargeting
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive.
 
 ---
 

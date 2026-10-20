@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**40 papers** in this category.
+**41 papers** in this category.
 
 ## Months
 
-- [2026-10](/simulation-benchmark/2026-10) (3 papers)
+- [2026-10](/simulation-benchmark/2026-10) (4 papers)
 - [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
@@ -26,6 +26,23 @@
 ---
 
 ## Recent Papers
+
+## SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24559)
+- **Authors:** Jiancong Ma, Kun Li, Jin Jiang, Shengcai Liao
+- **Published:** 2026-10
+- **Tags:**
+  - MuJoCo
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Enabling humanoid robots to participate effectively in social interactions is important for their integration into human-centered environments. Existing methods, however, typically map pre-generated speech directly to continuous motion trajectories but have limited awareness of complex social environments and lack explicit high-level semantic action planning.
+
+---
 
 ## Composable Dynamics for Cooperative Humanoids: A RoboCompiler Extension
 
@@ -396,22 +413,5 @@ World-action models (WAMs) jointly generate future video and robot actions throu
 ### Summary
 
 Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
-
----
-
-## OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.12038)
-- **Authors:** Yiren Song, Xiyao Deng, Pei Yang, Yihan Wang, Mike Zheng Shou
-- **Published:** 2026-05
-- **Tags:**
-  - Humanoid
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Cross-embodiment video generation aims to transfer motions across different humanoid embodiments, such as human-to-robot and robot-to-robot, enabling scalable data generation for embodied intelligence. A major challenge in this setting is that motion dynamics are partly transferable across embodiments, whereas appearance and morphology remain embodiment-specific.
 
 ---

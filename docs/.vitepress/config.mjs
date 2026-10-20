@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (283)",
+            "text": "Loco-Manipulation and Whole-Body Control (290)",
             "collapsed": true,
             "items": [
                   {
@@ -182,7 +182,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (74)",
+            "text": "Manipulation (75)",
             "collapsed": true,
             "items": [
                   {
@@ -296,7 +296,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (40)",
+            "text": "Teleoperation (41)",
             "collapsed": true,
             "items": [
                   {
@@ -374,7 +374,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (219)",
+            "text": "Locomotion (220)",
             "collapsed": true,
             "items": [
                   {
@@ -594,12 +594,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (21)",
+            "text": "State Estimation (23)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/state-estimation/"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/state-estimation/2026-10"
                   },
                   {
                         "text": "2026-09",
@@ -784,7 +788,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (40)",
+            "text": "Simulation Benchmark (41)",
             "collapsed": true,
             "items": [
                   {
@@ -866,7 +870,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (49)",
+            "text": "Physics-Based Character Animation (50)",
             "collapsed": true,
             "items": [
                   {

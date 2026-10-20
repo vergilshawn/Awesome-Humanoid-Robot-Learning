@@ -1,10 +1,10 @@
 # Locomotion
 
-**219 papers** in this category.
+**220 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (26 papers)
+- [2026-10](/locomotion/2026-10) (27 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,23 @@
 ---
 
 ## Recent Papers
+
+## Validation of Human Motor Development Scales with Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.25701)
+- **Authors:** Fanxing Meng, Jing Xiao
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Walking
+  - Locomotion
+
+### Summary
+
+We investigate how humanoid robots can learn a series of motor skills defined by human infant motor development scales, and we evaluate which scales are comprehensive enough to serve as self-contained guides for developing gross motor skills up to standing and walking. We represent each motor development scale as a developmental graph that guides the training of a humanoid robot.
+
+---
 
 ## CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots
 
@@ -389,21 +406,5 @@ The adoption of humanoid robots in education and research remains limited by hig
 ### Summary
 
 Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often impractical due to cost and safety concerns, making simulation benchmarks essential. Existing VLN benchmarks achieve physically executable navigation, but still assume (1) all hazards are observable from elevation maps; (2) realized motions closely match desired motions.
-
----
-
-## CIRRA: Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.08862)
-- **Authors:** Ci Zhang, Enfu Nan, Arman Akbari, Lin Zhao, Li Wang, Chen Wang et al. (9 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Humanoid
-  - Benchmark
-  - Locomotion
-
-### Summary
-
-Household robots must accommodate new user instructions while executing ongoing tasks. Existing agents often regenerate or extensively revise the remaining task sequence, introducing plan ambiguity, logical inconsistency, and redundant execution.
 
 ---

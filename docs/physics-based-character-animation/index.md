@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**49 papers** in this category.
+**50 papers** in this category.
 
 ## Months
 
-- [2026-10](/physics-based-character-animation/2026-10) (4 papers)
+- [2026-10](/physics-based-character-animation/2026-10) (5 papers)
 - [2026-09](/physics-based-character-animation/2026-09) (3 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (6 papers)
@@ -36,6 +36,24 @@
 ---
 
 ## Recent Papers
+
+## Beyond Human-Derived Motion: Exploring Robot-Specific Execution for Construction Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24312)
+- **Authors:** MinJun Chang, Taehyung Kim, Yong K. Cho, Francis Baek
+- **Published:** 2026-10
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Inverse Kinematics
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Construction productivity has remained a per- sistent challenge, motivating growing interest in humanoid robots that can operate in workspaces and with tools designed for human workers. Realizing this potential requires effective motion control, for which human-derived motion transfer has emerged as a promising approach by capturing and retargeting human demonstrations to humanoid robots.
+
+---
 
 ## TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
 
@@ -381,19 +399,6 @@ Controlling physics-based humanoids from natural-language instructions is a crit
 - **Published:** 2026-02
 - **Tags:**
   - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## InterPrior: Scaling Generative Control for Physics-Based Human-Object Interactions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.06035)
-- **Published:** 2026-02
-- **Tags:**
   - Physics-Based Character Animation
 
 ### Summary

@@ -1,9 +1,10 @@
 # State Estimation
 
-**21 papers** in this category.
+**23 papers** in this category.
 
 ## Months
 
+- [2026-10](/state-estimation/2026-10) (2 papers)
 - [2026-09](/state-estimation/2026-09) (8 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
 - [2026-07](/state-estimation/2026-07) (1 papers)
@@ -19,6 +20,43 @@
 ---
 
 ## Recent Papers
+
+## Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26170)
+- **Authors:** Keyhan Rayati, AliReza Beigy, Anoosheh Saadati, Pourya Shahverdi, Mehdi Tale Masouleh, Ahmad Kalhor et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — NAO
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Deep Learning
+  - Dataset
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Learning from Demonstration (LfD) allows robots to learn new skills from human examples; however, many vision-based methods require large datasets and resource-intensive end-to-end training. This paper introduces a data-efficient LfD framework for humanoid robots that learns manipulation skills from compact, task-specific features instead of raw images.
+
+---
+
+## 🌟 Vision as Proprioception: Estimating Humanoid Robot Pose from Video
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.25288)
+- **Project:** [GitHub](https://github.com/eth-siplab/HumanoidPose)
+- **Authors:** Jiaxi Jiang, Matthias Heyrman, René Zurbrügg, Marco Hutter, Christian Holz
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Proprioception
+  - State Estimation
+
+### Summary
+
+Estimating a humanoid robot's internal state from video has a wide range of real-world applications but remains unexplored. During interactions with a robot, its onboard state information may be unavailable due to privacy, ownership, or communication constraints.
+
+---
 
 ## CompliantWBC: Whole-Body Compliance for Heavy Humanoids via Force Latent Estimation and Residual Impedance Targets
 
@@ -329,32 +367,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2207.06780)
 - **Published:** 2022-07
-- **Tags:**
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Contact-Aided Invariant Extended Kalman Filtering for Robot State Estimation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/1904.09251)
-- **Published:** 2019-04
-- **Tags:**
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Legged Robot State-Estimation Through Combined Forward Kinematic and Preintegrated Contact Factors
-
-- **Paper:** [arXiv](https://arxiv.org/abs/1712.05873)
-- **Published:** 2017-05
 - **Tags:**
   - State Estimation
 

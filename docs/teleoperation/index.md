@@ -1,10 +1,10 @@
 # Teleoperation
 
-**40 papers** in this category.
+**41 papers** in this category.
 
 ## Months
 
-- [2026-10](/teleoperation/2026-10) (8 papers)
+- [2026-10](/teleoperation/2026-10) (9 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
@@ -25,6 +25,22 @@
 ---
 
 ## Recent Papers
+
+## Evaluating Lightweight Contact Feedback in Dual-Operator Collaborative Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24257)
+- **Authors:** Austin Graves, Chuizheng Kong, Yunho Cho, Yuanshao Yang, Advaith Nidumukkala, Shreyas Kousik et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+Dual-operator humanoid teleoperation enables collaborative manipulation through two separate robots, but operators lack direct awareness of robot-object contact that is normally available during physical interaction. To address this, we present eXtended Reality Teleoperation (XRT), an extended reality teleoperation framework that returns a robot's fingertip contact through lightweight vibrotactile and/or auditory feedback, and a synchronized dual-humanoid testbed built on it for two operators.
+
+---
 
 ## Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation
 
@@ -373,24 +389,5 @@ General motion tracking and teleoperation offer a promising path to scalable hum
 ### Summary
 
 Humanoid robots hold great promise for operating in human-centered environments, yet ladder climbing remains one of the most challenging tasks due to sparse footholds and handholds, complex whole-body coordination, and sensitivity to perception and control errors. We present \textbf{LadderMan}, a unified system that enables humanoid robots to robustly climb diverse ladders and perform manipulation under such constrained conditions.
-
----
-
-## Human2Humanoid: Physics-Aware Cross-Morphology Motion Retargeting for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.03476)
-- **Authors:** Tianchen Huang, Feiyang Yuan, Junchi Gu, Shurui Fang, Xiaohu Zhang, Yu Wang et al. (8 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Imitation Learning
-  - Teleoperation
-  - Motion Retargeting
-  - Humanoid
-  - GAN
-
-### Summary
-
-Retargeting human motion to humanoid robots is critical for teleoperation, imitation learning and human-robot interaction. However, it remains challenging because of substantial morphological discrepancies between humans and robots, including differences in skeletal topology, limb proportions and degrees of freedom, as well as the scarcity of paired motion data.
 
 ---

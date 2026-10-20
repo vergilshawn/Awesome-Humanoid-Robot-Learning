@@ -1,10 +1,10 @@
 # Manipulation
 
-**74 papers** in this category.
+**75 papers** in this category.
 
 ## Months
 
-- [2026-10](/manipulation/2026-10) (1 papers)
+- [2026-10](/manipulation/2026-10) (2 papers)
 - [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
@@ -34,6 +34,28 @@
 ---
 
 ## Recent Papers
+
+## 🌟 Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26855)
+- **Project:** [GitHub](https://github.com/Ropedia/ropedia-w0)
+- **Authors:** Tianqi Liu, Hanfei Zhao, Qifeng Liang, Hui En Pang, Jiarui Xu, Sayang Mu et al. (15 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - World Model
+  - Few-Shot
+  - Zero-Shot
+  - Humanoid
+  - Foundation Model
+
+### Summary
+
+World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments.
+
+---
 
 ## KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation
 
@@ -386,25 +408,5 @@ Laboratory automation has made remarkable progress through robotic platforms and
 ### Summary
 
 Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive.
-
----
-
-## HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.18772)
-- **Authors:** Zehui Zhao, Yuxuan Zhao, Gaojing Zhang, Chenxi Liu, Maolin Zheng, Wenzhao Lian
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Navigation
-  - Human Demonstration
-  - Humanoid
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Human demonstrations, which can be collected at scale and naturally capture active hand-eye coordination, are a promising data source for learning humanoid loco-manipulation. However, directly transferring human demonstrations to humanoids requires a precise world-frame tracking controller, which is often brittle under Out-of-Distribution(OOD) targets, while human-to-humanoid gaps persist in both egocentric observation and action execution.
 
 ---

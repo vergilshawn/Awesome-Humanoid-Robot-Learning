@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**283 papers** in this category.
+**290 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (28 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (35 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,146 @@
 ---
 
 ## Recent Papers
+
+## HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26584)
+- **Authors:** Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Xinyuan Lv, Shuanghao Bai et al. (15 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet adapting generalist vision-language-action (VLA) policies to real-world humanoid loco-manipulation remains challenging. Unlike fixed-base or wheeled manipulators, humanoids must coordinate locomotion, posture, gaze, and dual-arm manipulation over a high-dimensional whole-body action space, where inaccurate base or waist motions can easily induce unstable and aggressive upper-body compensation.
+
+---
+
+## OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.26043)
+- **Authors:** Yinghao Li, Tianyu Zhang, Zhuohao Li, Yi-Lin Wei, Fa-Ting Hong, Qing Zhang et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Policy Learning
+  - Flow Matching
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Physical interaction is a key capability for humanoid collaboration, requiring coordinated whole-body motion and precise contact. However, learning diverse dual-humanoid interactions faces two major challenges: (1) human-robot morphological differences disrupt contact interfaces and spatial relationships during retargeting, and (2) jointly learning motor skills and partner coordination makes it difficult to retain control fidelity as interaction diversity grows.
+
+---
+
+## SWAP: Test-Time Steerable Humanoid Whole-Body Collision Avoidance
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.25711)
+- **Authors:** Zeji Yi, Guanqi He, Xiaofeng Guo, Guannan Qu, Pieter Abbeel, Yan Duan et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Diffusion Policy
+  - Humanoid
+  - Collision
+  - PPO
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots operating in human-centric environments must coordinate the entire body to traverse tight, cluttered spaces while maintaining balance. Existing methods often struggle to jointly consider dynamic stability and collision avoidance from high-dimensional perceptual inputs.
+
+---
+
+## Humanoid SRL: Augmenting Humanoids with Supernumerary Limbs for Coordinated Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.25628)
+- **Authors:** Fukang Liu, Feiyang Wu, Paul Barsa, Jaehwi Jang, Akshat Jain, Zhigen Zhao et al. (15 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Trajectory Optimization
+  - Goal-Conditioned
+  - PPO
+  - Diffusion
+
+### Summary
+
+Humanoid robots are envisioned to perform diverse human-level tasks through their anthropomorphic morphology. Their dual-arm configuration enables a broad range of everyday actions.
+
+---
+
+## DiPLO: Self-distilled Diffusion Planning for Loco-manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24847)
+- **Authors:** Shafeef Omar, Sebastian Sanokowski, Elham Daneshmand, Dian Yu, Daniel Cremers, Cordelia Schmid et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Diffusion Policy
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Fine-tuning
+  - Distillation
+  - PPO
+
+### Summary
+
+Humanoid loco-manipulation is particularly challenging because it requires coordinating locomotion, balance, and object interaction, making it difficult to learn from limited demonstrations or from scratch through Reinforcement Learning (RL). We introduce DiPLO (self-distilled Diffusion Planning for Loco-manipulation), a framework that combines a self-distilled diffusion planner with a low-level whole-body tracking policy.
+
+---
+
+## Learning Structured Locomotion References for Optimization-Based Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24779)
+- **Authors:** Ömer Tarık Banuş, Uluç Saranlı, M. Mert Ankaralı
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Simulator
+  - Gait
+  - Optimization-Based
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Quadruped locomotion requires coordinating body motion,contact forces, foothold placement, and gait timing. We present a hierarchical controller in which reinforcement learning adapts these structured locomotion references while a gait scheduler, reactive footstep planner, and whole-body impulse controller retain responsibility for high-frequency execution.
+
+---
+
+## Action-Aligned Latent Planning for Versatile Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24675)
+- **Authors:** Yutang Lin, Guanya Shi, C. Karen Liu
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Learning a single perceptive policy for diverse humanoid loco-manipulation requires unifying high-level task decisions without losing the state-dependent physical responses that make each interaction succeed. This makes the representation between high-level planning and whole-body control critical: kinematic or contact targets provide compact abstractions but do not directly encode interaction-specific control responses, while directly predicting low-level actions requires the planner to model high-frequency closed-loop feedback.
+
+---
 
 ## Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator
 
@@ -293,140 +433,5 @@ Humanoid robots are a promising platform for general-purpose manipulation. Recen
 ### Summary
 
 Humanoid loco-manipulation requires coordinated locomotion and manipulation informed by future scene evolution and whole-body motion, yet learning these capabilities is constrained by scarce robot demonstrations. Human video and motion datasets offer scalable supervision, but many contain only video or motion rather than paired video-motion data.
-
----
-
-## LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.10465)
-- **Authors:** Sebin Jung, Maitham F. AL-Sunni, Juan Alvarez-Padilla, Zachary Manchester, Changliu Liu, John M. Dolan
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Simulator
-  - Walking
-  - Contact Dynamics
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-  - Simulation Benchmark
-  - Locomotion
-
-### Summary
-
-Real-time whole-body controllers for legged robots typically plan through a fixed nominal model and degrade when the deployed dynamics change. Adaptive methods typically require a model structure that contact dynamics do not provide, or they need offline training for each anticipated condition.
-
----
-
-## Precise SE(3) End-Effector Tracking in Whole-Body Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.09479)
-- **Authors:** Joohwan Seo, Xiaofeng Guo, Jinkun Cao, Roberto Horowitz, Rocky Duan, Guanya Shi et al. (7 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Admittance Control
-  - Benchmark
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Precise end-effector tracking during humanoid whole-body motion is challenging due to floating-base oscillations, gravity, dynamic coupling, and locomotion-induced disturbances. We propose ResGAC, a whole-body humanoid controller for precise end-effector pose tracking that combines geometric admittance control (GAC) with residual reinforcement learning.
-
----
-
-## Co${}^{2}$Skill: Whole-Body Control via Skill Composition for Long-Horizon Human-Environment Interaction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.09291)
-- **Authors:** Jeonghwan Kim, Hyeonwoo Kim, Hanbyul Joo
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - Goal-Conditioned
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Achieving human-level dexterity in complex, unstructured environments requires the seamless integration of whole-body scene interaction and dexterous object manipulation skills. While existing physics-based controllers generate physically plausible behaviors in each domain, they largely address these two capabilities independently.
-
----
-
-## Workhorse: Learning Robust Whole-Body Humanoid Loco-Manipulation from Human Data
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.09117)
-- **Authors:** Songbo Hu, Qiayuan Liao, Yufeng Chi, Kevin Zakka, Yakun Sophia Shao, Pieter Abbeel et al. (7 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Manipulation
-  - Human Demonstration
-  - Humanoid
-  - Proprioception
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Humanoid robots still struggle to plan contact-rich whole-body manipulation from egocentric RGB and proprioception. Workhorse learns such manipulation from robot-free human demonstrations.
-
----
-
-## HULK: Learning Whole-Body Forceful Loco-Manipulation for Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.08970)
-- **Authors:** An Dang, Arturo Flores Alvarez, Yu-Ming Chen, Conor Mc Gartoll, Helen Sun, Aaron Ames et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - MPC
-  - Whole-Body Control
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid loco-manipulation of large, heavy objects demands forceful interaction across the entire body. However, such payloads shift a humanoid's center of mass and impose sustained loads across the upper body, challenging balance and command tracking.
-
----
-
-## Humanoid Horizon: Extending Task Horizon in Whole-Body Loco-Manipulation via Parallel Training, Dynamic Starting, and Reward Gating
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.08320)
-- **Authors:** Haozhuo Zhang, Qiang Zhang, Jian Tang, Mingzhe Ni, Michele Caprio, Angelo Cangelosi et al. (7 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Manipulation
-  - Robustness
-  - Humanoid
-  - Benchmark
-  - GAN
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Cluttered indoor environments, where large and heavy objects are scattered across diverse surfaces, require humanoid robots to sequentially navigate, grasp, transport, and accurately place each item at its target location within a single uninterrupted episode. This long-horizon, whole-body loco-manipulation task remains a significant challenge for current methods.
-
----
-
-## iGPC: Generative Motion Priors for Object-Aware Humanoid Interaction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.08120)
-- **Authors:** Anujith Muraleedharan, Abdul Ahad Butt, Nolan Fey, Yash Prabhu, Anamika J H, Sandor Felber et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Pre-training
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots operating in unstructured environments must combine robust whole-body control with the ability to perceive and physically interact with surrounding objects. While large-scale human motion data provides powerful priors for natural and versatile humanoid control, effectively transferring such priors to perception-driven object interaction remains challenging.
 
 ---

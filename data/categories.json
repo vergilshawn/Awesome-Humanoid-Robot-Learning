@@ -1,13 +1,13 @@
 {
-  "Loco-Manipulation and Whole-Body Control": 283,
-  "Locomotion": 219,
-  "Manipulation": 74,
-  "Physics-Based Character Animation": 49,
-  "Teleoperation": 40,
-  "Simulation Benchmark": 40,
+  "Loco-Manipulation and Whole-Body Control": 290,
+  "Locomotion": 220,
+  "Manipulation": 75,
+  "Physics-Based Character Animation": 50,
+  "Simulation Benchmark": 41,
+  "Teleoperation": 41,
   "Hardware Design": 33,
   "Human Motion Analysis and Synthesis": 30,
   "Navigation": 25,
-  "State Estimation": 21,
+  "State Estimation": 23,
   "Sim-to-Real": 13
 }
