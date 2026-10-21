@@ -2,6 +2,26 @@
 
 Papers with open-source code repositories.
 
+## 🌟 Adaptive Traversal Tubes for Posture-Aware Navigation of Bipedal Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.27688)
+- **Project:** [GitHub](http://github.com/lborogzj997/Humanoid-Navigation-in-Crowds-and-Narrow-Spaces)
+- **Authors:** Zijian Ge
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - MuJoCo
+  - Biped
+  - Humanoid
+  - Simulation Benchmark
+
+### Summary
+
+Bipedal humanoids can change their effective footprint by adjusting body yaw, enabling both narrow-passage traversal and socially aware yielding. This paper presents a posture-aware navigation framework centered on \emph{Adaptive Traversal Tubes} (ATT), \emph{Interval Velocity--Heading} (IVH) control, and a sidestep-enhanced AMP locomotion prior.
+
+---
+
 ## 🌟 Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.26855)

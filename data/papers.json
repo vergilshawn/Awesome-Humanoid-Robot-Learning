@@ -1,5 +1,199 @@
 [
   {
+    "arxiv_id": "2610.28523",
+    "title": "VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction",
+    "paper_url": "https://arxiv.org/abs/2610.28523",
+    "project_url": null,
+    "authors": [
+      "Yuto Shibata",
+      "Kotaro Amaya",
+      "Kashu Yamazaki",
+      "Lalit Jayanti",
+      "Yoshimitsu Aoki",
+      "Mariko Isogawa",
+      "Katerina Fragkiadaki"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-20",
+    "abstract": "Humanoid-human interaction requires robots to operate under severe partial observability: during close physical contact, the human partner is occluded, truncated, or outside the robot's field of view, causing pose estimation to fail and often necessitating external tracking or privileged human state. At the same time, heavy mutual occlusions introduce errors into the human-human motion-capture data used for learning. We present REACT, a framework for learning deployable humanoid-human interaction policies from human-human demonstrations. REACT treats semantic contact structure as the key supervisory signal connecting demonstration processing, interaction learning, and onboard control. First, a VLM-guided contact modeling and retargeting pipeline identifies semantically meaningful contacts and transfers them onto humanoid-human geometry while preserving interaction structure. Using these annotations, privileged interaction policies learn physically grounded behaviors through interaction-aware contact rewards and are then distilled into deployable egocentric depth policies trained entirely from onboard sensing using photorealistic human depth rendering. To address severe partial observability, we introduce generative partner-state modeling objectives that predict partner motion from occluded egocentric views. We evaluate REACT in simulation and on a real Unitree G1 humanoid across five contact-rich interactions. Semantic contact modeling substantially improves preservation of demonstrated interactions, while generative partner-state modeling improves contact recall on four of five interactions, most under heavy occlusion. On real hardware, REACT performs all five interactions using onboard sensing alone.",
+    "categories": [
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Human Demonstration",
+      "Humanoid",
+      "Pose Estimation",
+      "State Estimation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2610.28480",
+    "title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+    "paper_url": "https://arxiv.org/abs/2610.28480",
+    "project_url": null,
+    "authors": [
+      "Qiayuan Liao",
+      "Yiyang Shao",
+      "Junfeng Long",
+      "Kevin Zakka",
+      "Roberto Horowitz",
+      "Pieter Abbeel",
+      "Koushil Sreenath"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-20",
+    "abstract": "Tracking large human-motion datasets has become the dominant route to general, expressive humanoid whole-body control, but scaling across many motions is expensive. Current pipelines use model-free reinforcement learning, either merging per-motion specialists through lossy distillation, or brute-forcing a single policy with cluster-scale compute. SuperMimic amortizes learning across all motions with one differentiable world model of their shared dynamics, fit from logged transitions of a standard rigid-body simulator. The world model and the tracking policy train together in one loop, and backpropagation-through-time over short imagined rollouts gives the policy analytic gradients. Fast imagined rollouts and analytic gradients make policy learning efficient. In 3 hours on a single GPU, SuperMimic surpasses the return of a state-of-the-art motion tracker baseline trained for 7 days on 128 GPUs. It reduces GPU-hours by more than $1000\\times$ and fails on only 25 of 129,514 benchmark motions, versus 179 failures for the baseline. After 9.8 hours on two GPUs, SuperMimic achieves zero failures. From 1 to 264 hours of motion, the world model's prediction error stays stable, and GPU-hours to a target return grow slowly. Our policy transfers to a physical Unitree G1 across diverse and acrobatic motions. SuperMimic removes compute as the bottleneck to scaling humanoid whole-body control, making it practical to measure motion-tracking scaling laws.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "World Model",
+      "Simulator",
+      "Humanoid",
+      "Distillation",
+      "Benchmark",
+      "Dataset",
+      "Policy Learning",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.28470",
+    "title": "Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning",
+    "paper_url": "https://arxiv.org/abs/2610.28470",
+    "project_url": null,
+    "authors": [
+      "Daniel Marew",
+      "Sangjun Park",
+      "Nisal Perera",
+      "Donghyun Kim"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-20",
+    "abstract": "While large-scale human motion capture datasets provide a rich source of demonstrations for humanoid robot learning, retargeting the diverse motions to different humanoid robots remains a nontrivial challenge. Existing kinodynamic trajectory optimization pipelines are computationally expensive and often require manual adjustments per motion. We present FRDV (Fast Retargeting with Dynamics Validation), a scalable framework consisting of rapid constrained kinematic retargeting and an additional dynamics validation pipeline. Its kinematic stage integrates a custom Sequential Quadratic Programming solver, Real-Time Iteration, and parallel chunk-based processing, achieving up to 9,156 frames per second, approximately up to 136 times faster than GMR and ProtoMotions, while robot-specific constraints are incorporated into the optimization to reduce common retargeting artifacts, such as ground penetration and self-collision. For motions requiring additional verification, a contact implicit iLQR controller is utilized to test the retargeted reference under full rigid body dynamics. This dynamics-based validation identifies dynamically infeasible motions and refines contact-related artifacts such as foot floating and foot skating. We evaluate retargeting quality by training motion tracking reinforcement learning policies using several state-of-the-art pipelines and comparing their tracking fidelity and success rates. Furthermore, sim-to-real transfer is demonstrated on a Unitree G1 humanoid. Videos and code are available at: https://daroslab.github.io/frdv/.",
+    "categories": [
+      "Teleoperation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Sim-to-Real",
+      "Motion Retargeting",
+      "Humanoid",
+      "Trajectory Optimization",
+      "Collision",
+      "Dataset",
+      "Teleoperation",
+      "Human Motion Analysis and Synthesis"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2610.27688",
+    "title": "Adaptive Traversal Tubes for Posture-Aware Navigation of Bipedal Humanoids",
+    "paper_url": "https://arxiv.org/abs/2610.27688",
+    "project_url": "http://github.com/lborogzj997/Humanoid-Navigation-in-Crowds-and-Narrow-Spaces",
+    "authors": [
+      "Zijian Ge"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-20",
+    "abstract": "Bipedal humanoids can change their effective footprint by adjusting body yaw, enabling both narrow-passage traversal and socially aware yielding. This paper presents a posture-aware navigation framework centered on \\emph{Adaptive Traversal Tubes} (ATT), \\emph{Interval Velocity--Heading} (IVH) control, and a sidestep-enhanced AMP locomotion prior. ATT represents a behavior-feasible corridor width field along a reference path, unifying geometric clearance and social comfort into a continuous signal. IVH maps this width to a continuous frontal-to-sidestep posture schedule and omnidirectional velocity commands. A velocity-conditioned AMP policy, trained with GVHMR-retargeted frontal/sidestep motions and coupled \\((v_x,v_y)\\) tracking rewards, is designed to improve transition stability over a generic locomotion controller while remaining interchangeable with the default onboard policy. This preprint presents the full method; a planned evaluation protocol on a Unitree G1 is outlined, with quantitative results to follow. Demo videos of MuJoCo simulation and real-robot deployment are available at: github.com/lborogzj997/Humanoid-Navigation-in-Crowds-and-Narrow-Spaces.",
+    "categories": [
+      "Locomotion",
+      "Navigation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Locomotion",
+      "Navigation",
+      "MuJoCo",
+      "Biped",
+      "Humanoid",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.27242",
+    "title": "EmbodyHOI: Embodiment-Aware Generation of Hand-Object Interactions for Humanoid Dexterous Manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.27242",
+    "project_url": null,
+    "authors": [
+      "Chaitanya Chawla",
+      "Kartik Sharma",
+      "Ananya Bal",
+      "Laszlo A. Jeni",
+      "Guanya Shi"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-19",
+    "abstract": "Humanoid dexterous manipulation needs reference motions that are both semantically rich and kinematically feasible for the target robot. Text-conditioned hand-object interaction (HOI) generators supply diverse, language-specified demonstrations, but they synthesize motion in human (MANO) space. The embodiment gap is therefore deferred to post-hoc retargeting, where trajectories deployed on the robot can fail to maintain contact with objects and also degrade policy learning. Our key idea is that robot reachability should constrain the interaction trajectories while they are being generated. We present EmbodyHOI, which runs a differentiable inverse-kinematics (IK) solver for a specific humanoid embodiment inside the sampling loop of a frozen flow-matching HOI trajectory generator. We feed back gradients from the embodiment-aware IK solver into the HOI sampler and jointly optimize the position of the humanoid with respect to the object. Because guidance acts only at inference, one HOI trajectory generator trained on human hand poses transfers across humanoid embodiments without retraining. On ARCTIC trajectories with two contrasting humanoids (Unitree G1 and H1-2), our proposed guidance-based method cuts the retargeted wrist error from 8.9 cm to 0.6 cm while leaving text-to-HOI generation quality intact, and raises task success from 68% to 79% on 50 random G1 tasks and from 62% to 76% on a four-task H1-2 suite. Critically, cheaper alternatives for bridging the embodiment gap fail to beat EmbodyHOI. Post-hoc wrist refinement and compute-matched best-of-N selection both reach lower IK energy than our guidance yet train worse policies. For simulation results, see our website: https://embodyhoi.github.io/",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Policy Learning"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2610.27162",
+    "title": "Visual Task Modeling and Automated Planning for Humanoid Robots in Education of Individuals with Autism Spectrum Disorder",
+    "paper_url": "https://arxiv.org/abs/2610.27162",
+    "project_url": null,
+    "authors": [
+      "Lada Kudláčková"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-19",
+    "abstract": "In robot-assisted education, a robot must understand how to complete a task in order to effectively guide a student through it. We present a novel method that enables a semi-autonomous, camera-equipped robot to recognise the task goal and plan actions to achieve it. Our work focuses on Shoebox Tasks, an activity commonly used in the education of individuals with Autism Spectrum Disorder (ASD). These tasks are designed so that the goal can be inferred directly from their visual structure. We have developed a solver that uses a vision-based Large Language Model to convert photos of a Shoebox Task into a Planning Domain Definition Language (PDDL) representation and generate action plans for solving it. We have also implemented a robotic interface that enables a Nao robot to autonomously execute various Shoebox Tasks and assist a student by suggesting next steps or signalling detected failures through action demonstrations, voice commands, or gestures. With an adapted robotic interface, the solver can be integrated into a variety of educational robots. No programming expertise is required from teachers, and the solver operates exclusively on captured images as input. Research in special educational needs indicates that students with ASD can benefit substantially from robot-assisted teaching, and our system aims to strengthen these learning opportunities while also fostering interest in robotics among individuals with ASD.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Large Language Model",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "NAO",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2610.26855",
     "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
     "paper_url": "https://arxiv.org/abs/2610.26855",
@@ -1074,37 +1268,6 @@
     "primary_category": "Navigation"
   },
   {
-    "arxiv_id": "2610.16855",
-    "title": "Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation",
-    "paper_url": "https://arxiv.org/abs/2610.16855",
-    "project_url": null,
-    "authors": [
-      "Chao Tan",
-      "Ming Shin Cindy Sung",
-      "Shuxian Liang",
-      "Chaoqun Wan",
-      "Zhen Huang",
-      "Xian-Sheng Hua"
-    ],
-    "published": "2026-10",
-    "published_date": "2026-10-12",
-    "abstract": "Real-time bimanual humanoid teleoperation requires accurate wrist tracking while keeping arm configurations predictable. Because a 7-DoF arm admits multiple elbow configurations for the same wrist pose, wrist-only tracking can cause elbow drift or abrupt configuration changes. Fixed anthropomorphic constraints can stabilize elbow posture, but they can also block the redundant adjustments needed near singular configurations. We propose a human-like redundancy-resolution framework that combines adaptive elbow guidance with singularity-robust wrist tracking. Shoulder-wrist geometric retargeting generates robot-scale wrist targets. An adaptive elbow-offset criterion uses the offset direction to guide posture and scales this guidance by the offset magnitude, so the redundant degree of freedom is progressively released as the human arm straightens. A hierarchical velocity solver prioritizes wrist tracking and projects the adaptive elbow guidance into the wrist-task null space. In a fixed-wrist-target ablation, adaptive guidance reduces mean elbow-direction error by 54.4% compared with removing this guidance. In a workspace-boundary stress test, singularity-robust tracking reduces peak raw joint-velocity demand by 97.9% compared with the undamped pseudoinverse. Real-world bimanual tasks and cross-platform retargeting show applicability across robot morphologies.",
-    "categories": [
-      "Teleoperation",
-      "Manipulation"
-    ],
-    "tags": [
-      "Teleoperation",
-      "Humanoid",
-      "Manipulation"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "Figure",
-    "summary": "",
-    "primary_category": "Teleoperation"
-  },
-  {
     "arxiv_id": "2610.16604",
     "title": "Design and Analysis of a Nonlinear Parallel Mechanism Coupling for Dynamic Humanoid Legs",
     "paper_url": "https://arxiv.org/abs/2610.16604",
@@ -1134,6 +1297,37 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.16855",
+    "title": "Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation",
+    "paper_url": "https://arxiv.org/abs/2610.16855",
+    "project_url": null,
+    "authors": [
+      "Chao Tan",
+      "Ming Shin Cindy Sung",
+      "Shuxian Liang",
+      "Chaoqun Wan",
+      "Zhen Huang",
+      "Xian-Sheng Hua"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-12",
+    "abstract": "Real-time bimanual humanoid teleoperation requires accurate wrist tracking while keeping arm configurations predictable. Because a 7-DoF arm admits multiple elbow configurations for the same wrist pose, wrist-only tracking can cause elbow drift or abrupt configuration changes. Fixed anthropomorphic constraints can stabilize elbow posture, but they can also block the redundant adjustments needed near singular configurations. We propose a human-like redundancy-resolution framework that combines adaptive elbow guidance with singularity-robust wrist tracking. Shoulder-wrist geometric retargeting generates robot-scale wrist targets. An adaptive elbow-offset criterion uses the offset direction to guide posture and scales this guidance by the offset magnitude, so the redundant degree of freedom is progressively released as the human arm straightens. A hierarchical velocity solver prioritizes wrist tracking and projects the adaptive elbow guidance into the wrist-task null space. In a fixed-wrist-target ablation, adaptive guidance reduces mean elbow-direction error by 54.4% compared with removing this guidance. In a workspace-boundary stress test, singularity-robust tracking reduces peak raw joint-velocity demand by 97.9% compared with the undamped pseudoinverse. Real-world bimanual tasks and cross-platform retargeting show applicability across robot morphologies.",
+    "categories": [
+      "Teleoperation",
+      "Manipulation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Humanoid",
+      "Manipulation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Teleoperation"
   },
   {
     "arxiv_id": "2610.15833",

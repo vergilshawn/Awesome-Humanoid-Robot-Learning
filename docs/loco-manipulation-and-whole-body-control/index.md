@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**290 papers** in this category.
+**291 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (35 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (36 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,27 @@
 ---
 
 ## Recent Papers
+
+## SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28480)
+- **Authors:** Qiayuan Liao, Yiyang Shao, Junfeng Long, Kevin Zakka, Roberto Horowitz, Pieter Abbeel et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - World Model
+  - Simulator
+  - Humanoid
+  - Distillation
+  - Benchmark
+  - Dataset
+
+### Summary
+
+Tracking large human-motion datasets has become the dominant route to general, expressive humanoid whole-body control, but scaling across many motions is expensive. Current pipelines use model-free reinforcement learning, either merging per-motion specialists through lossy distillation, or brute-forcing a single policy with cluster-scale compute.
+
+---
 
 ## HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control
 
@@ -412,26 +433,5 @@ Humanoid robots have many degrees of freedom and contact surfaces, yet most loco
 ### Summary
 
 Humanoid robots are a promising platform for general-purpose manipulation. Recent Vision-Language-Action (VLA) policies learn actions directly from multimodal observations, while World Action Models (WAMs) further incorporate future visual prediction to improve action generation.
-
----
-
-## Being-M0.7: A Latent World-Action Model for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.11283)
-- **Authors:** Junpeng Yue, Boyuan Li, Yuxuan Wang, Zepeng Wang, Yuhui Fu, Feiyang Xie et al. (14 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Proprioception
-  - Pre-training
-  - Dataset
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid loco-manipulation requires coordinated locomotion and manipulation informed by future scene evolution and whole-body motion, yet learning these capabilities is constrained by scarce robot demonstrations. Human video and motion datasets offer scalable supervision, but many contain only video or motion rather than paired video-motion data.
 
 ---

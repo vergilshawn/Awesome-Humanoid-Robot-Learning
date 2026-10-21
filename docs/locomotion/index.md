@@ -1,10 +1,10 @@
 # Locomotion
 
-**220 papers** in this category.
+**222 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (27 papers)
+- [2026-10](/locomotion/2026-10) (29 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,43 @@
 ---
 
 ## Recent Papers
+
+## 🌟 Adaptive Traversal Tubes for Posture-Aware Navigation of Bipedal Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.27688)
+- **Project:** [GitHub](http://github.com/lborogzj997/Humanoid-Navigation-in-Crowds-and-Narrow-Spaces)
+- **Authors:** Zijian Ge
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - MuJoCo
+  - Biped
+  - Humanoid
+  - Simulation Benchmark
+
+### Summary
+
+Bipedal humanoids can change their effective footprint by adjusting body yaw, enabling both narrow-passage traversal and socially aware yielding. This paper presents a posture-aware navigation framework centered on \emph{Adaptive Traversal Tubes} (ATT), \emph{Interval Velocity--Heading} (IVH) control, and a sidestep-enhanced AMP locomotion prior.
+
+---
+
+## Visual Task Modeling and Automated Planning for Humanoid Robots in Education of Individuals with Autism Spectrum Disorder
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.27162)
+- **Authors:** Lada Kudláčková
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Large Language Model
+  - PPO
+  - Locomotion
+
+### Summary
+
+In robot-assisted education, a robot must understand how to complete a task in order to effectively guide a student through it. We present a novel method that enables a semi-autonomous, camera-equipped robot to recognise the task goal and plan actions to achieve it.
+
+---
 
 ## Validation of Human Motor Development Scales with Humanoid Robots
 
@@ -369,42 +406,5 @@ State-of-the-art perceptive humanoid locomotion is mostly built on retargeted mo
 ### Summary
 
 Human videos provide rich motion targets for humanoid learning, yet visually plausible references can still produce persistent failures under physics-based execution. These failures reveal where training supervision should change.
-
----
-
-## PhoneBot: A Low-Cost Open Humanoid Robot Platform Reusing Smartphones
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.08737)
-- **Authors:** Ruochen Hou, Quanyou Wang, Daniel Koh, Dennis W. Hong
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Walking
-  - PPO
-  - Hardware Design
-
-### Summary
-
-The adoption of humanoid robots in education and research remains limited by high hardware costs, complex sensing systems, and substantial computational requirements. This paper presents PhoneBot, a low-cost, open-source humanoid robot platform that repurposes commodity smartphones as its primary sensing and computing unit.
-
----
-
-## What the Elevation Map Cannot See: Semantic-Aware Locomotion and Execution-Aware Navigation for Humanoid Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.07396)
-- **Authors:** Shunyu Yao, Songyang Liu, Dinghao Chen, Yuanyuan Lei, Shuai Li
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Safety
-  - Humanoid
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often impractical due to cost and safety concerns, making simulation benchmarks essential. Existing VLN benchmarks achieve physically executable navigation, but still assume (1) all hazards are observable from elevation maps; (2) realized motions closely match desired motions.
 
 ---

@@ -1,10 +1,10 @@
 # Teleoperation
 
-**41 papers** in this category.
+**42 papers** in this category.
 
 ## Months
 
-- [2026-10](/teleoperation/2026-10) (9 papers)
+- [2026-10](/teleoperation/2026-10) (10 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
@@ -25,6 +25,28 @@
 ---
 
 ## Recent Papers
+
+## Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28470)
+- **Authors:** Daniel Marew, Sangjun Park, Nisal Perera, Donghyun Kim
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Motion Retargeting
+  - Humanoid
+  - Trajectory Optimization
+  - Collision
+  - Dataset
+  - Teleoperation
+
+### Summary
+
+While large-scale human motion capture datasets provide a rich source of demonstrations for humanoid robot learning, retargeting the diverse motions to different humanoid robots remains a nontrivial challenge. Existing kinodynamic trajectory optimization pipelines are computationally expensive and often require manual adjustments per motion.
+
+---
 
 ## Evaluating Lightweight Contact Feedback in Dual-Operator Collaborative Humanoid Teleoperation
 
@@ -368,26 +390,5 @@ We present a real-time upper-body human-to-humanoid motion imitation framework d
 ### Summary
 
 General motion tracking and teleoperation offer a promising path to scalable humanoid skill acquisition, yet most existing frameworks are validated on compact platforms or without real payload interaction, leaving full-size humanoids with real payloads largely unexplored. Scaling to full-size humanoids introduces two compounding challenges: their larger inertia and tighter balance margins make tracking highly sensitive to noise, drift, and retargeting errors from commodity VR trackers, while their payload potential remains largely underutilized.
-
----
-
-## LadderMan: Learning Humanoid Perceptive Ladder Climbing
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.05873)
-- **Authors:** Siheng Zhao, Yuanhang Zhang, Ziqi Lu, Pieter Abbeel, Rocky Duan, Koushil Sreenath et al. (9 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Teleoperation
-  - Manipulation
-  - Zero-Shot
-  - Humanoid
-  - Foundation Model
-  - PPO
-
-### Summary
-
-Humanoid robots hold great promise for operating in human-centered environments, yet ladder climbing remains one of the most challenging tasks due to sparse footholds and handholds, complex whole-body coordination, and sensitivity to perception and control errors. We present \textbf{LadderMan}, a unified system that enables humanoid robots to robustly climb diverse ladders and perform manipulation under such constrained conditions.
 
 ---

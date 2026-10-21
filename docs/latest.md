@@ -2,6 +2,121 @@
 
 All papers sorted by publication date (newest first).
 
+## VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28523)
+- **Authors:** Yuto Shibata, Kotaro Amaya, Kashu Yamazaki, Lalit Jayanti, Yoshimitsu Aoki, Mariko Isogawa et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Pose Estimation
+  - State Estimation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid-human interaction requires robots to operate under severe partial observability: during close physical contact, the human partner is occluded, truncated, or outside the robot's field of view, causing pose estimation to fail and often necessitating external tracking or privileged human state. At the same time, heavy mutual occlusions introduce errors into the human-human motion-capture data used for learning.
+
+---
+
+## SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28480)
+- **Authors:** Qiayuan Liao, Yiyang Shao, Junfeng Long, Kevin Zakka, Roberto Horowitz, Pieter Abbeel et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - World Model
+  - Simulator
+  - Humanoid
+  - Distillation
+  - Benchmark
+  - Dataset
+
+### Summary
+
+Tracking large human-motion datasets has become the dominant route to general, expressive humanoid whole-body control, but scaling across many motions is expensive. Current pipelines use model-free reinforcement learning, either merging per-motion specialists through lossy distillation, or brute-forcing a single policy with cluster-scale compute.
+
+---
+
+## Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28470)
+- **Authors:** Daniel Marew, Sangjun Park, Nisal Perera, Donghyun Kim
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Motion Retargeting
+  - Humanoid
+  - Trajectory Optimization
+  - Collision
+  - Dataset
+  - Teleoperation
+
+### Summary
+
+While large-scale human motion capture datasets provide a rich source of demonstrations for humanoid robot learning, retargeting the diverse motions to different humanoid robots remains a nontrivial challenge. Existing kinodynamic trajectory optimization pipelines are computationally expensive and often require manual adjustments per motion.
+
+---
+
+## 🌟 Adaptive Traversal Tubes for Posture-Aware Navigation of Bipedal Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.27688)
+- **Project:** [GitHub](http://github.com/lborogzj997/Humanoid-Navigation-in-Crowds-and-Narrow-Spaces)
+- **Authors:** Zijian Ge
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - MuJoCo
+  - Biped
+  - Humanoid
+  - Simulation Benchmark
+
+### Summary
+
+Bipedal humanoids can change their effective footprint by adjusting body yaw, enabling both narrow-passage traversal and socially aware yielding. This paper presents a posture-aware navigation framework centered on \emph{Adaptive Traversal Tubes} (ATT), \emph{Interval Velocity--Heading} (IVH) control, and a sidestep-enhanced AMP locomotion prior.
+
+---
+
+## EmbodyHOI: Embodiment-Aware Generation of Hand-Object Interactions for Humanoid Dexterous Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.27242)
+- **Authors:** Chaitanya Chawla, Kartik Sharma, Ananya Bal, Laszlo A. Jeni, Guanya Shi
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Policy Learning
+
+### Summary
+
+Humanoid dexterous manipulation needs reference motions that are both semantically rich and kinematically feasible for the target robot. Text-conditioned hand-object interaction (HOI) generators supply diverse, language-specified demonstrations, but they synthesize motion in human (MANO) space.
+
+---
+
+## Visual Task Modeling and Automated Planning for Humanoid Robots in Education of Individuals with Autism Spectrum Disorder
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.27162)
+- **Authors:** Lada Kudláčková
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Large Language Model
+  - PPO
+  - Locomotion
+
+### Summary
+
+In robot-assisted education, a robot must understand how to complete a task in order to effectively guide a student through it. We present a novel method that enables a semi-autonomous, camera-equipped robot to recognise the task goal and plan actions to achieve it.
+
+---
+
 ## 🌟 Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.26855)
@@ -587,6 +702,21 @@ Navigating humanoid robots through dynamic, non-convex environments requires tig
 
 ---
 
+## Design and Analysis of a Nonlinear Parallel Mechanism Coupling for Dynamic Humanoid Legs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.16604)
+- **Authors:** Rohit Kumar, Heiner Peters, Felix Wiebe, Franek Stark, Janne Janzen, Dennis Mronga et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Humanoids increasingly demand lightweight leg mechanisms for agile, dynamic, and energy-efficient locomotion. Reducing distal inertia through proximal actuation has thus become a common design goal.
+
+---
+
 ## Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.16855)
@@ -601,21 +731,6 @@ Navigating humanoid robots through dynamic, non-convex environments requires tig
 ### Summary
 
 Real-time bimanual humanoid teleoperation requires accurate wrist tracking while keeping arm configurations predictable. Because a 7-DoF arm admits multiple elbow configurations for the same wrist pose, wrist-only tracking can cause elbow drift or abrupt configuration changes.
-
----
-
-## Design and Analysis of a Nonlinear Parallel Mechanism Coupling for Dynamic Humanoid Legs
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.16604)
-- **Authors:** Rohit Kumar, Heiner Peters, Felix Wiebe, Franek Stark, Janne Janzen, Dennis Mronga et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Humanoids increasingly demand lightweight leg mechanisms for agile, dynamic, and energy-efficient locomotion. Reducing distal inertia through proximal actuation has thus become a common design goal.
 
 ---
 

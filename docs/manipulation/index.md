@@ -1,10 +1,10 @@
 # Manipulation
 
-**75 papers** in this category.
+**76 papers** in this category.
 
 ## Months
 
-- [2026-10](/manipulation/2026-10) (2 papers)
+- [2026-10](/manipulation/2026-10) (3 papers)
 - [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
@@ -34,6 +34,23 @@
 ---
 
 ## Recent Papers
+
+## EmbodyHOI: Embodiment-Aware Generation of Hand-Object Interactions for Humanoid Dexterous Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.27242)
+- **Authors:** Chaitanya Chawla, Kartik Sharma, Ananya Bal, Laszlo A. Jeni, Guanya Shi
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Policy Learning
+
+### Summary
+
+Humanoid dexterous manipulation needs reference motions that are both semantically rich and kinematically feasible for the target robot. Text-conditioned hand-object interaction (HOI) generators supply diverse, language-specified demonstrations, but they synthesize motion in human (MANO) space.
+
+---
 
 ## 🌟 Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience
 
@@ -387,26 +404,5 @@ In the field of robot learning, large-scale and diverse demonstration trajectori
 ### Summary
 
 Laboratory automation has made remarkable progress through robotic platforms and AI-driven scientific reasoning. However, many laboratory operations (e.g., solid--solid transfer) remain inherently dynamic and require real-time adaptation to different materials and experimental conditions.
-
----
-
-## CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.23680)
-- **Authors:** Sikai Li, Shuning Li, Zhenyu Wei, Yunchao Yao, Chenran Li, Mingyu Ding
-- **Published:** 2026-06
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Walking
-  - Proprioception
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive.
 
 ---

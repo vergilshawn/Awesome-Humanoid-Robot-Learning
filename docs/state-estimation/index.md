@@ -1,10 +1,10 @@
 # State Estimation
 
-**23 papers** in this category.
+**24 papers** in this category.
 
 ## Months
 
-- [2026-10](/state-estimation/2026-10) (2 papers)
+- [2026-10](/state-estimation/2026-10) (3 papers)
 - [2026-09](/state-estimation/2026-09) (8 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
 - [2026-07](/state-estimation/2026-07) (1 papers)
@@ -20,6 +20,24 @@
 ---
 
 ## Recent Papers
+
+## VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28523)
+- **Authors:** Yuto Shibata, Kotaro Amaya, Kashu Yamazaki, Lalit Jayanti, Yoshimitsu Aoki, Mariko Isogawa et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Pose Estimation
+  - State Estimation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid-human interaction requires robots to operate under severe partial observability: during close physical contact, the human partner is occluded, truncated, or outside the robot's field of view, causing pose estimation to fail and often necessitating external tracking or privileged human state. At the same time, heavy mutual occlusions introduce errors into the human-human motion-capture data used for learning.
+
+---
 
 ## Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection
 
@@ -354,19 +372,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2507.10105)
 - **Published:** 2025-07
-- **Tags:**
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## An Empirical Evaluation of Four Off-the-Shelf Proprietary Visual-Inertial Odometry Systems
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2207.06780)
-- **Published:** 2022-07
 - **Tags:**
   - State Estimation
 
