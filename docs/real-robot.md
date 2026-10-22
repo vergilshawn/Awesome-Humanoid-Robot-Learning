@@ -6,10 +6,10 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
-- **Digit:** 1 papers
+- **Digit:** 2 papers
 - **Figure:** 14 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 63 papers
+- **Unitree G1:** 64 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 22 papers
 - **iCub:** 1 papers
@@ -17,6 +17,41 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Test-Time Motion Steering for Perceptive Humanoid Fall Recovery
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30061)
+- **Authors:** Osher Azulay, Cheng-Lin Hsieh, Stella X. Yu
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+Humanoid fall recovery requires selecting a motion that suits both the surrounding scene and the task. The same fallen pose can admit several ways to stand, with different routes, support transitions, and final headings.
+
+---
+
+## PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29030)
+- **Authors:** Neel Adwani, Muhaiminul Islam Akash, Saffia Ouali, Ethan Liu, Cong Wang
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Hardware Design
+
+### Summary
+
+Currently, dexterous humanoid robot hands are widely considered the final hardware bottleneck that hampers generalist robots from physically assisting people at home and work. As conventional tendon-driven designs suffer from high cost, demanding maintenance, poor reliability, and short durability, alternative linkage-driven designs have increasingly gained attention.
+
+---
 
 ## Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning
 
@@ -301,7 +336,7 @@ Humanoid policies trained in simulation can transfer qualitatively to hardware w
 ## $λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.18950)
-- **Authors:** Lambda-humanoid Team
+- **Authors:** Lambda-humanoid Team,  :, Chongyang Xu, Jin Chen, Jinhui Ye, Yilun Chen et al. (17 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
 - **Tags:**

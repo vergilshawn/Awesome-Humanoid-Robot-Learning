@@ -2,18 +2,18 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 847
-- **Real Robot Papers:** 106
+- **Total Papers:** 857
+- **Real Robot Papers:** 108
 - **Open Source Papers:** 132
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (291)
-- [Manipulation](#manipulation) (76)
-- [Teleoperation](#teleoperation) (42)
-- [Locomotion](#locomotion) (222)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (292)
+- [Manipulation](#manipulation) (78)
+- [Teleoperation](#teleoperation) (45)
+- [Locomotion](#locomotion) (226)
 - [Navigation](#navigation) (25)
 - [State Estimation](#state-estimation) (24)
 - [Sim-to-Real](#sim-to-real) (13)
@@ -29,6 +29,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-10
 
+- [SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30044) — `Whole-Body Control`, `Manipulation`, `Humanoid`, `Vision-Language`, `Distillation`, `Loco-Manipulation and Whole-Body Control`
 - [SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model](https://arxiv.org/abs/2610.28480) — `Reinforcement Learning`, `Whole-Body Control`, `World Model`, `Simulator`, `Humanoid`, `Distillation`
 - [HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control](https://arxiv.org/abs/2610.26584) — `Locomotion`, `Manipulation`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids](https://arxiv.org/abs/2610.26043) — `Humanoid`, `Policy Learning`, `Flow Matching`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
@@ -415,6 +416,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-10
 
+- [PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits](https://arxiv.org/abs/2610.29030) — `Manipulation`, `Humanoid`, `Hardware Design`, `Real Robot`
+- [COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation](https://arxiv.org/abs/2610.28948) — `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Collision`, `Loco-Manipulation and Whole-Body Control`
 - [EmbodyHOI: Embodiment-Aware Generation of Hand-Object Interactions for Humanoid Dexterous Manipulation](https://arxiv.org/abs/2610.27242) — `Manipulation`, `Humanoid`, `Policy Learning`, `Real Robot`
 - 🌟 [Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience](https://arxiv.org/abs/2610.26855), [website](https://github.com/Ropedia/ropedia-w0) — `Teleoperation`, `Locomotion`, `Manipulation`, `World Model`, `Few-Shot`, `Zero-Shot`
 - [KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation](https://arxiv.org/abs/2610.20552) — `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Physics-Based Character Animation`, `Real Robot`
@@ -571,6 +574,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-10
 
+- [HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking](https://arxiv.org/abs/2610.29903) — `Teleoperation`, `Manipulation`, `Humanoid`, `Optimization-Based`, `Loco-Manipulation and Whole-Body Control`
+- [SMR: Learning streaming motion retargeting for humanoids from human semantic](https://arxiv.org/abs/2610.29169) — `Whole-Body Control`, `Motion Retargeting`, `Transformer`, `Humanoid`, `Optimization-Based`, `Teleoperation`
+- [Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation](https://arxiv.org/abs/2610.28712) — `Teleoperation`, `Humanoid`, `Navigation`
 - [Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning](https://arxiv.org/abs/2610.28470) — `Reinforcement Learning`, `Sim-to-Real`, `Motion Retargeting`, `Humanoid`, `Trajectory Optimization`, `Collision`
 - [Evaluating Lightweight Contact Feedback in Dual-Operator Collaborative Humanoid Teleoperation](https://arxiv.org/abs/2610.24257) — `Teleoperation`, `Manipulation`, `Humanoid`
 - [Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation](https://arxiv.org/abs/2610.22176) — `MPC`, `Teleoperation`, `Humanoid`, `Parameter Estimation`, `State Estimation`, `Loco-Manipulation and Whole-Body Control`
@@ -666,6 +672,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-10
 
+- [Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer](https://arxiv.org/abs/2610.30080) — `Locomotion`, `Humanoid`, `Fine-tuning`
+- [Test-Time Motion Steering for Perceptive Humanoid Fall Recovery](https://arxiv.org/abs/2610.30061) — `Humanoid`, `PPO`, `Diffusion`, `Locomotion`, `Real Robot`
+- [Watch Your Step: Anticipated Perception for Humanoid Locomotion](https://arxiv.org/abs/2610.29612) — `Locomotion`, `Zero-Shot`, `Humanoid`, `Gait`, `Proprioception`
+- [One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?](https://arxiv.org/abs/2610.28925) — `Reinforcement Learning`, `Humanoid`, `PPO`, `Locomotion`
 - 🌟 [Adaptive Traversal Tubes for Posture-Aware Navigation of Bipedal Humanoids](https://arxiv.org/abs/2610.27688), [website](http://github.com/lborogzj997/Humanoid-Navigation-in-Crowds-and-Narrow-Spaces) — `Locomotion`, `Navigation`, `MuJoCo`, `Biped`, `Humanoid`, `Simulation Benchmark`
 - [Visual Task Modeling and Automated Planning for Humanoid Robots in Education of Individuals with Autism Spectrum Disorder](https://arxiv.org/abs/2610.27162) — `Humanoid`, `Large Language Model`, `PPO`, `Locomotion`
 - [Validation of Human Motor Development Scales with Humanoid Robots](https://arxiv.org/abs/2610.25701) — `Reinforcement Learning`, `Humanoid`, `Walking`, `Locomotion`

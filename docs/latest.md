@@ -2,6 +2,185 @@
 
 All papers sorted by publication date (newest first).
 
+## Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30080)
+- **Authors:** Guillem Casadesus Vila, Sri Aditya Deevi, Grace X. Gao
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Fine-tuning
+
+### Summary
+
+The Moon changes gravity, terrain, and soil at once. Learned locomotion has studied reduced gravity on rigid ground and granular terrain mostly at Earth gravity, but not humanoids under both, generalist-controller transfer, or the Earth cost of lunar adaptation.
+
+---
+
+## Test-Time Motion Steering for Perceptive Humanoid Fall Recovery
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30061)
+- **Authors:** Osher Azulay, Cheng-Lin Hsieh, Stella X. Yu
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+Humanoid fall recovery requires selecting a motion that suits both the surrounding scene and the task. The same fallen pose can admit several ways to stand, with different routes, support transitions, and final headings.
+
+---
+
+## SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30044)
+- **Authors:** Zhaohui Yang, Quanbao Lin, Chengqi Shi, Zhenglang Weng, Jicheng Lin, Boyu Chen et al. (12 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid loco-manipulation requires an effective interface between high-level task policies and whole-body control. Existing interfaces typically rely on a single action representation for both task intent and whole-body coordination.
+
+---
+
+## HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29903)
+- **Authors:** Liu Cao, Botian Xu, Ruoqu Chen, Jiajun Liu, Mingzhi Pei, Zihao Wang et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Humanoid
+  - Optimization-Based
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Real-time whole-body humanoid teleoperation remains challenging due to the computational latency introduced by optimization-based retargeting pipelines and future-frame conditioning. Existing motion tracking policies typically require dense reference targets including full joint positions, body-part transformations, and even future frames, which tightly couples the controller to expensive upstream modules.
+
+---
+
+## Watch Your Step: Anticipated Perception for Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29612)
+- **Authors:** Matthias Heyrman, Chenhao Li, Ioannis Dadiotis, Marco Hutter
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Proprioception
+
+### Summary
+
+Perceptive locomotion policies typically observe a dense robot-centric elevation map, although only the terrain beneath and around the next footsteps informs the control decision. Learned encoders compress the whole visual input, leaving the policy to work out which inputs matter while learning the baseline locomotion task.
+
+---
+
+## SMR: Learning streaming motion retargeting for humanoids from human semantic
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29169)
+- **Authors:** Chun Gu, Juntong Zhang, Jingyu Li, Li Zhang
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Motion Retargeting
+  - Transformer
+  - Humanoid
+  - Optimization-Based
+  - Teleoperation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Retargeting human motion to humanoids requires preserving motion semantics while accounting for the robot's physical constraints. Kinematic pipelines prescribe a robot trajectory through geometric matching, without establishing whether it can be executed under the robot's dynamics.
+
+---
+
+## PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29030)
+- **Authors:** Neel Adwani, Muhaiminul Islam Akash, Saffia Ouali, Ethan Liu, Cong Wang
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Hardware Design
+
+### Summary
+
+Currently, dexterous humanoid robot hands are widely considered the final hardware bottleneck that hampers generalist robots from physically assisting people at home and work. As conventional tendon-driven designs suffer from high cost, demanding maintenance, poor reliability, and short durability, alternative linkage-driven designs have increasingly gained attention.
+
+---
+
+## COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28948)
+- **Authors:** Jiahui Yang, Jason Jingzhou Liu, Ray Muxin Liu, Andrew E. Wang, Kenneth Shaw, Deepak Pathak et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Mobile manipulators must adapt not only to objects, but also to the spatial context in which they appear: where to position the base, how to manipulate, and where to look while navigating surrounding scene geometry. To address this, we present COWBOY, a scalable sim-to-real framework for learning such contextual whole-body manipulation.
+
+---
+
+## One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28925)
+- **Authors:** Ziqian Huang, Yuzhuo Chen, Shimin Zhang, Junyang He, Xinyue Annie Yang, Animesh Garg
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Modern robotic agents are increasingly expected to support steerable control, where a single policy can adjust its behavioral style at runtime under changing user preferences. Preference-conditioned reinforcement learning provides this interface, but conditioning alone does not ensure that a requested behavior change is strong, does not leak into unrelated behaviors, and does not compromise task performance.
+
+---
+
+## Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28712)
+- **Authors:** Keigo Minamida, Koya Dendo, Yuto Nakamura, Jun Rekimoto
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Navigation
+
+### Summary
+
+First-person humanoid teleoperation ties access to side and rear targets to operator rotation. We present coupled visual--motor remapping, pairing a panoramic azimuth warp with its inverse upper-limb yaw transform.
+
+---
+
 ## VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.28523)
@@ -644,7 +823,7 @@ Learning humanoid loco-manipulation from human demonstrations rests on observing
 ## $λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.18950)
-- **Authors:** Lambda-humanoid Team
+- **Authors:** Lambda-humanoid Team,  :, Chongyang Xu, Jin Chen, Jinhui Ye, Yilun Chen et al. (17 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
 - **Tags:**

@@ -1,10 +1,10 @@
 # Manipulation
 
-**76 papers** in this category.
+**78 papers** in this category.
 
 ## Months
 
-- [2026-10](/manipulation/2026-10) (3 papers)
+- [2026-10](/manipulation/2026-10) (5 papers)
 - [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
@@ -34,6 +34,42 @@
 ---
 
 ## Recent Papers
+
+## PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29030)
+- **Authors:** Neel Adwani, Muhaiminul Islam Akash, Saffia Ouali, Ethan Liu, Cong Wang
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Hardware Design
+
+### Summary
+
+Currently, dexterous humanoid robot hands are widely considered the final hardware bottleneck that hampers generalist robots from physically assisting people at home and work. As conventional tendon-driven designs suffer from high cost, demanding maintenance, poor reliability, and short durability, alternative linkage-driven designs have increasingly gained attention.
+
+---
+
+## COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28948)
+- **Authors:** Jiahui Yang, Jason Jingzhou Liu, Ray Muxin Liu, Andrew E. Wang, Kenneth Shaw, Deepak Pathak et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Mobile manipulators must adapt not only to objects, but also to the spatial context in which they appear: where to position the base, how to manipulate, and where to look while navigating surrounding scene geometry. To address this, we present COWBOY, a scalable sim-to-real framework for learning such contextual whole-body manipulation.
+
+---
 
 ## EmbodyHOI: Embodiment-Aware Generation of Hand-Object Interactions for Humanoid Dexterous Manipulation
 
@@ -364,45 +400,5 @@ Retargeting human object interaction demonstrations to physics based simulation 
 ### Summary
 
 Vision-language-action (VLA) models across robot embodiments require high-quality observation--action supervision to learn deployable action distributions, yet scaling such robot data remains difficult, especially for high-DoF humanoids. Teleoperation provides controller-aligned supervision, while human egocentric videos capture diverse bimanual manipulation but do not directly provide executable robot actions.
-
----
-
-## RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.31836)
-- **Authors:** Xinyi Wang, Donghan Li, Zi'Ang Chen, Chong Yu, Chen Xin, Peng Ye et al. (8 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Imitation Learning
-  - Manipulation
-  - Humanoid
-  - Dataset
-  - Multi-Modal
-  - Simulation Benchmark
-
-### Summary
-
-In the field of robot learning, large-scale and diverse demonstration trajectories provide the fundamental basis for enhancing robotic manipulation ability. We introduce RoboTacDex, a large, multi-modal, and diverse dataset of dexterous manipulation behaviors performed with a humanoid robot.
-
----
-
-## Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.31037)
-- **Authors:** Yuhan Wu, Zhao Jin, Tao Li, Yuheng Zhang, Zhichao Wang, Shuo Wang et al. (12 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Benchmark
-  - PPO
-  - GAN
-  - Simulation Benchmark
-  - State Estimation
-
-### Summary
-
-Laboratory automation has made remarkable progress through robotic platforms and AI-driven scientific reasoning. However, many laboratory operations (e.g., solid--solid transfer) remain inherently dynamic and require real-time adaptation to different materials and experimental conditions.
 
 ---

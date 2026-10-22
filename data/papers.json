@@ -1,5 +1,326 @@
 [
   {
+    "arxiv_id": "2610.30080",
+    "title": "Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer",
+    "paper_url": "https://arxiv.org/abs/2610.30080",
+    "project_url": null,
+    "authors": [
+      "Guillem Casadesus Vila",
+      "Sri Aditya Deevi",
+      "Grace X. Gao"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-21",
+    "abstract": "The Moon changes gravity, terrain, and soil at once. Learned locomotion has studied reduced gravity on rigid ground and granular terrain mostly at Earth gravity, but not humanoids under both, generalist-controller transfer, or the Earth cost of lunar adaptation. On a simulated Unitree G1, we train 12 policies with one recipe, varying gravity, terrain geometry, and ground contact (rigid or three-dimensional resistive force theory, 3D RFT), and including Earth-to-Moon fine-tuning and gravity randomization. We test them at both gravities on rigid ground and 3D RFT, and at their training gravity on three held-out soil models. We also test the frozen SONIC, a released generalist humanoid controller, at both gravities on rigid ground only. Gravity transfer is asymmetric. Earth-trained policies keep 0.64 to 0.75 survival at the Moon on flat rigid ground, Moon-trained and fine-tuned policies cannot stand at Earth, and SONIC survives at most 0.10 at the Moon. Rough training lifts combined-tile survival from 0.53 to 0.98 at Earth and 0.80 to 0.99 at the Moon. In 3D RFT, soil training helps on Earth sand, on tiles and for rough-trained policies also on flat sand. On the stiffer lunar soil it helps only flat-trained Earth policies at Earth and changes the survival of Moon-trained policies by at most a few hundredths. In the sampled rollouts of the held-out soil models, Moon-trained policies keep most of their rigid-ground progress on lunar regolith at the low G1 foot pressure, with per-seed progress ratios of 0.84 to 1.39 apart from one seed with a short rigid reference. A gravity-randomized policy trained on rough 3D RFT terrain has a seed-mean survival of at least 0.84 at Earth and 0.96 at the Moon on every key test cell up to 20 degrees. Lunar results are simulation predictions conditional on the contact model and soil stiffness.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "Fine-tuning"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.30061",
+    "title": "Test-Time Motion Steering for Perceptive Humanoid Fall Recovery",
+    "paper_url": "https://arxiv.org/abs/2610.30061",
+    "project_url": null,
+    "authors": [
+      "Osher Azulay",
+      "Cheng-Lin Hsieh",
+      "Stella X. Yu"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-21",
+    "abstract": "Humanoid fall recovery requires selecting a motion that suits both the surrounding scene and the task. The same fallen pose can admit several ways to stand, with different routes, support transitions, and final headings. Yet reliable recovery alone does not provide control over which of these alternatives the robot executes. Steering this choice requires anticipating the physical consequences of a requested movement. We present RISE, an approach to perceptive humanoid recovery that lets task objectives steer how the robot returns to standing at inference time. It builds on two insights: diverse recoveries can be composed from shared movements, and anticipating how these movements unfold allows recovery to be steered toward a task objective. We learn a recovery vocabulary that connects intended movements to motor actions through sensory feedback. A visual diffusion planner learns from executions of this vocabulary to predict motion intent as future body states. Task costs guide this prediction toward a desired heading, rise speed, or path. The planner then generates motion latents conditioned on the steered intent, allowing the requested movement to shape its execution. Simulation experiments demonstrate diverse recoveries, terrain adaptation, and test-time steering without retraining, complemented by real-world demonstrations on a Unitree G1. Project page: https://osheraz.github.io/RISE/",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "PPO",
+      "Diffusion",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.30044",
+    "title": "SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.30044",
+    "project_url": null,
+    "authors": [
+      "Zhaohui Yang",
+      "Quanbao Lin",
+      "Chengqi Shi",
+      "Zhenglang Weng",
+      "Jicheng Lin",
+      "Boyu Chen",
+      "Tengjie Zhu",
+      "Guanzhu Ren",
+      "Jiahao Xu",
+      "Yang Feng",
+      "Xiaokang Yang",
+      "Yao Mu"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-21",
+    "abstract": "Humanoid loco-manipulation requires an effective interface between high-level task policies and whole-body control. Existing interfaces typically rely on a single action representation for both task intent and whole-body coordination. This may burden the high-level policy or leave one aspect underspecified. We present SP-HLM, a framework built on a sparse-pose-driven interface. The interface combines five task-critical body poses with a learned latent motion prior to represent spatial intent and whole-body coordination in complementary forms. SP-VLA, a vision-language-action model, first predicts task-relevant sparse poses and finger joint positions from multimodal observations and language instructions using asynchronous action-chunk inference. Given these sparse targets, SP-MGM, a motion generation model trained through two-stage distillation, reconstructs coordinated full-body motion in real time. A pretrained motion encoder maps this motion to a compact latent representation. SP-GMT, a general motion tracker, then integrates the explicit sparse targets with this implicit motion prior for whole-body control. Experiments in simulation and on a real humanoid robot demonstrate improved motion tracking, whole-body coordination, and loco-manipulation success over existing approaches. Additional results and videos are available on our \\href{https://sp-hlm.github.io/}{\\textcolor{blue}{project page}}.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "Distillation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.29903",
+    "title": "HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking",
+    "paper_url": "https://arxiv.org/abs/2610.29903",
+    "project_url": null,
+    "authors": [
+      "Liu Cao",
+      "Botian Xu",
+      "Ruoqu Chen",
+      "Jiajun Liu",
+      "Mingzhi Pei",
+      "Zihao Wang",
+      "Zhongyu Li",
+      "Mengdi Xu"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-21",
+    "abstract": "Real-time whole-body humanoid teleoperation remains challenging due to the computational latency introduced by optimization-based retargeting pipelines and future-frame conditioning. Existing motion tracking policies typically require dense reference targets including full joint positions, body-part transformations, and even future frames, which tightly couples the controller to expensive upstream modules. In this work, we present HuMiT, a whole-body teleoperation system built on a unified tracking policy that requires only a compact reference target, consisting of root height, root velocity, and the SE(3) poses of four sparse keypoints at the current frame, yet achieves competitive tracking fidelity compared to methods relying on more diverse reference states including complete joint positions, dense body-part transformations, and even future frames. Experiments show that our policy achieves a communication-to-inference latency of $\\sim$20 ms measured between headset streaming and policy output and a video-based optical flow latency of 65 ms (median) across different motion types. We validate the system on a Unitree G1 humanoid, showcasing split-second reactive responses such as catching a tossed ball, as well as coordinated loco-manipulation capabilities. Project page: https://xiaohu-art.github.io/Track/.",
+    "categories": [
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Humanoid",
+      "Optimization-Based",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2610.29612",
+    "title": "Watch Your Step: Anticipated Perception for Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2610.29612",
+    "project_url": null,
+    "authors": [
+      "Matthias Heyrman",
+      "Chenhao Li",
+      "Ioannis Dadiotis",
+      "Marco Hutter"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-21",
+    "abstract": "Perceptive locomotion policies typically observe a dense robot-centric elevation map, although only the terrain beneath and around the next footsteps informs the control decision. Learned encoders compress the whole visual input, leaving the policy to work out which inputs matter while learning the baseline locomotion task. Learning both at once slows training and, without computationally expensive attention mechanisms, makes generalization to new terrain harder. We instead remove redundant inputs from the elevation map before the policy sees it. A lightweight foothold prediction model (FPM) predicts future footholds from proprioception and the velocity command alone, and we sample the elevation map only in small patches around these predicted footholds. We train the prediction model alongside the locomotion policy, periodically retraining it on new policy rollouts as the robot's gait matures. This allows the perception to anticipate where the policy will step, while the policy learns to leverage terrain information around those steps. With the proposed lightweight preprocessing, the policy reaches a given terrain difficulty in roughly a third of the training iterations required with the complete map. It outperforms policies that observe the complete map where footholds are sparse, including in narrow walled corridors, and on unseen terrain, and it matches an attention-based encoder trained at several times the cost. The policy transfers zero-shot to a Unitree G1 humanoid traversing various obstacles, stairs, gaps, and step-downs beyond the training distribution in both indoor and outdoor environments.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Zero-Shot",
+      "Humanoid",
+      "Gait",
+      "Proprioception"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.29169",
+    "title": "SMR: Learning streaming motion retargeting for humanoids from human semantic",
+    "paper_url": "https://arxiv.org/abs/2610.29169",
+    "project_url": null,
+    "authors": [
+      "Chun Gu",
+      "Juntong Zhang",
+      "Jingyu Li",
+      "Li Zhang"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-21",
+    "abstract": "Retargeting human motion to humanoids requires preserving motion semantics while accounting for the robot's physical constraints. Kinematic pipelines prescribe a robot trajectory through geometric matching, without establishing whether it can be executed under the robot's dynamics. Prior physics-supervised neural methods train bidirectional full-sequence models on physics-refined kinematic trajectories, remaining tied to prescribed kinematic solutions and requiring noncausal context. We propose SMR, a streaming neural motion retargeter learned from semantic-conditioned physics experts. We convert human motion into robot-aware task-space targets for body landmark positions, orientations, and velocities. Physics experts track these targets directly in simulation under contact, dynamics, and actuator constraints. We train a single strictly causal Transformer on their executed state trajectories that complete the motion and pass semantic and physical validity checks. At each incoming frame, the student uses only current and past human observations to generate a robot motion reference for a downstream whole-body controller. Experiments demonstrate that semantic-conditioned physics experts generate motion with higher semantic fidelity and physical validity than direct optimization-based retargeting, while the resulting streaming retargeter achieves improved closed-loop performance over kinematic and physics-refined baselines under a common whole-body controller.",
+    "categories": [
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Motion Retargeting",
+      "Transformer",
+      "Humanoid",
+      "Optimization-Based",
+      "Teleoperation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2610.29030",
+    "title": "PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits",
+    "paper_url": "https://arxiv.org/abs/2610.29030",
+    "project_url": null,
+    "authors": [
+      "Neel Adwani",
+      "Muhaiminul Islam Akash",
+      "Saffia Ouali",
+      "Ethan Liu",
+      "Cong Wang"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-21",
+    "abstract": "Currently, dexterous humanoid robot hands are widely considered the final hardware bottleneck that hampers generalist robots from physically assisting people at home and work. As conventional tendon-driven designs suffer from high cost, demanding maintenance, poor reliability, and short durability, alternative linkage-driven designs have increasingly gained attention. Despite their potential to avoid the weaknesses of tendon-driven hands, integrating multiple degrees of actuation (DOA) in a single digit with linkage drivetrains is a challenge for design and fabrication. Only a few studies have managed to present functional humanoid hands that are completely linkage-driven and have at least three DOAs per digit without compromising actuator placement and other design preferences. Our work introduces a new linkage-driven hand featuring a unique flexure hinge. Together with elastic drive rods made of spring steel, the linkage drivetrains are significantly simplified. Unlike other linkage-driven designs of similar dexterity, our design does not require many miniature moving parts. As a result, the hand can be fabricated easily with a budget 3D printer. This not only significantly lowers the barrier to entry for using and developing dexterous humanoid robot hand functions, but also allows the hands to be sized much closer to regular human hands. The design offers desirable kinematic advantages as well. A prototype is evaluated for grasping and object manipulation. In addition, this paper presents our latest findings on kinematics and control of the hand.",
+    "categories": [
+      "Manipulation",
+      "Hardware Design"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Hardware Design"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2610.28948",
+    "title": "COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.28948",
+    "project_url": null,
+    "authors": [
+      "Jiahui Yang",
+      "Jason Jingzhou Liu",
+      "Ray Muxin Liu",
+      "Andrew E. Wang",
+      "Kenneth Shaw",
+      "Deepak Pathak",
+      "Ruslan Salakhutdinov"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-20",
+    "abstract": "Mobile manipulators must adapt not only to objects, but also to the spatial context in which they appear: where to position the base, how to manipulate, and where to look while navigating surrounding scene geometry. To address this, we present COWBOY, a scalable sim-to-real framework for learning such contextual whole-body manipulation. On whole-body dexterous grasping, COWBOY transfers zero-shot to hundreds of objects and diverse in-the-wild scenes, spanning cluttered tabletops, shelves, drawers, and other unstructured settings. Rather than learning scene adaptation directly with RL in simulation, a vectorized environment-aware whole-body controller (WBC) handles reaching in thousands of scenes by coordinating base-arm motion, collision avoidance, and active vision. Then, local RL experts are trained in local scenes for object interaction and can be reused across thousands of full-scene layouts. We distill these composed WBC-RL teachers into a single vision policy that controls the mobile base, arm, dexterous hand, and actuated camera from point-cloud observations. The resulting policy exhibits contextual whole-body behavior, automatically adapting base placement, camera viewpoint, arm trajectory, and grasp strategy to observed scene and object geometry. Videos are available at https://cowboy-manip.com",
+    "categories": [
+      "Manipulation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Sim-to-Real"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Sim-to-Real",
+      "Manipulation",
+      "Zero-Shot",
+      "Collision",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2610.28925",
+    "title": "One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?",
+    "paper_url": "https://arxiv.org/abs/2610.28925",
+    "project_url": null,
+    "authors": [
+      "Ziqian Huang",
+      "Yuzhuo Chen",
+      "Shimin Zhang",
+      "Junyang He",
+      "Xinyue Annie Yang",
+      "Animesh Garg"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-20",
+    "abstract": "Modern robotic agents are increasingly expected to support steerable control, where a single policy can adjust its behavioral style at runtime under changing user preferences. Preference-conditioned reinforcement learning provides this interface, but conditioning alone does not ensure that a requested behavior change is strong, does not leak into unrelated behaviors, and does not compromise task performance. Our evaluation combines Preference Reward Responsiveness (PRR) with coverage and utility metrics. We use these measures to compare reward-level, advantage-level, loss-level, and PCGrad-based aggregation across two humanoid-control frameworks. No aggregation level performs best across all environments and criteria. Experiments show that aggregating objectives early produces a wider range of behavioral responses but greater unintended changes in other objectives, while aggregating them later improves control precision at some cost to responsiveness.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.28712",
+    "title": "Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation",
+    "paper_url": "https://arxiv.org/abs/2610.28712",
+    "project_url": null,
+    "authors": [
+      "Keigo Minamida",
+      "Koya Dendo",
+      "Yuto Nakamura",
+      "Jun Rekimoto"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-20",
+    "abstract": "First-person humanoid teleoperation ties access to side and rear targets to operator rotation. We present coupled visual--motor remapping, pairing a panoramic azimuth warp with its inverse upper-limb yaw transform. A working prototype implements Global Zoom (GZ) and Focus+Context (F+C). In a within-subject study (N=8); 72 trials), GZ had the largest completion count (23/24; Fixed: 20/24; F+C: 21/24), whereas F+C was preferred by 6/8 participants. Therefore, completion and preference favored different mappings in this sample.",
+    "categories": [
+      "Teleoperation",
+      "Navigation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Humanoid",
+      "Navigation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
     "arxiv_id": "2610.28523",
     "title": "VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction",
     "paper_url": "https://arxiv.org/abs/2610.28523",
@@ -1175,7 +1496,23 @@
     "paper_url": "https://arxiv.org/abs/2610.18950",
     "project_url": null,
     "authors": [
-      "Lambda-humanoid Team"
+      "Lambda-humanoid Team",
+      " :",
+      "Chongyang Xu",
+      "Jin Chen",
+      "Jinhui Ye",
+      "Yilun Chen",
+      "Yiming Jiang",
+      "Zhao Wu",
+      "Hu Wei",
+      "Lin Qu",
+      "Shifeng Zhang",
+      "Yisheng He",
+      "Yuming Jiang",
+      "Zenan Meng",
+      "Zheng Wu",
+      "Mu Xu",
+      "Steven Hoi"
     ],
     "published": "2026-10",
     "published_date": "2026-10-13",

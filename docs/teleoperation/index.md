@@ -1,10 +1,10 @@
 # Teleoperation
 
-**42 papers** in this category.
+**45 papers** in this category.
 
 ## Months
 
-- [2026-10](/teleoperation/2026-10) (10 papers)
+- [2026-10](/teleoperation/2026-10) (13 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
@@ -25,6 +25,60 @@
 ---
 
 ## Recent Papers
+
+## HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29903)
+- **Authors:** Liu Cao, Botian Xu, Ruoqu Chen, Jiajun Liu, Mingzhi Pei, Zihao Wang et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Humanoid
+  - Optimization-Based
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Real-time whole-body humanoid teleoperation remains challenging due to the computational latency introduced by optimization-based retargeting pipelines and future-frame conditioning. Existing motion tracking policies typically require dense reference targets including full joint positions, body-part transformations, and even future frames, which tightly couples the controller to expensive upstream modules.
+
+---
+
+## SMR: Learning streaming motion retargeting for humanoids from human semantic
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29169)
+- **Authors:** Chun Gu, Juntong Zhang, Jingyu Li, Li Zhang
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Motion Retargeting
+  - Transformer
+  - Humanoid
+  - Optimization-Based
+  - Teleoperation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Retargeting human motion to humanoids requires preserving motion semantics while accounting for the robot's physical constraints. Kinematic pipelines prescribe a robot trajectory through geometric matching, without establishing whether it can be executed under the robot's dynamics.
+
+---
+
+## Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28712)
+- **Authors:** Keigo Minamida, Koya Dendo, Yuto Nakamura, Jun Rekimoto
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Navigation
+
+### Summary
+
+First-person humanoid teleoperation ties access to side and rear targets to operator rotation. We present coupled visual--motor remapping, pairing a panoramic azimuth warp with its inverse upper-limb yaw transform.
+
+---
 
 ## Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning
 
@@ -340,55 +394,5 @@ Can people distinguish between human and AI agency in humanoid teleoperation? To
 ### Summary
 
 Humanoid learning increasingly relies on transforming vast and diverse human motion data into high-quality robot reference trajectories. However, retargeting human motion to humanoid robots is challenging due to substantial differences in morphology, degrees of freedom, joint ranges, and kinematic constraints between humans and robots.
-
----
-
-## Teleopit: A Full-Embodiment Humanoid Teleoperation System
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.01834)
-- **Authors:** Bingqian Wu, Zicheng Xu, Xianghui Fan, Dayu Li, Xiangru Huang
-- **Published:** 2026-08
-- **Tags:**
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Optimization-Based
-
-### Summary
-
-Humanoid teleoperation for demonstration collection requires coordinated whole-body motion, continuous dexterous hand control, and viewpoint control. Existing systems either simplify hand commands or depend on dedicated wearable sensors for fine-grained hand motion.
-
----
-
-## Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.29227)
-- **Authors:** Haoyu Fu, Zhou Ge, Chengze Li, Chenzhao Sun, Ze Cui, Wenjing Zhou et al. (7 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-  - PPO
-
-### Summary
-
-We present a real-time upper-body human-to-humanoid motion imitation framework driven by neuromorphic event-based vision. This work addresses practical perceptual bottlenecks of conventional frame-based RGB sensors, specifically their difficulty in high dynamic range (HDR) scenes and rapid motions due to fixed integration times.
-
----
-
-## HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.02332)
-- **Authors:** Chenxin Liu, Qingzhou Lu, Guangxiao Yang, Xuanyang Shi, Chenghan Yang, Yanjiang Guo et al. (7 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Teleoperation
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-General motion tracking and teleoperation offer a promising path to scalable humanoid skill acquisition, yet most existing frameworks are validated on compact platforms or without real payload interaction, leaving full-size humanoids with real payloads largely unexplored. Scaling to full-size humanoids introduces two compounding challenges: their larger inertia and tighter balance margins make tracking highly sensitive to noise, drift, and retargeting errors from commodity VR trackers, while their payload potential remains largely underutilized.
 
 ---

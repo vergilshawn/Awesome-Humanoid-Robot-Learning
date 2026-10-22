@@ -1,10 +1,10 @@
 # Locomotion
 
-**222 papers** in this category.
+**226 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (29 papers)
+- [2026-10](/locomotion/2026-10) (33 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,75 @@
 ---
 
 ## Recent Papers
+
+## Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30080)
+- **Authors:** Guillem Casadesus Vila, Sri Aditya Deevi, Grace X. Gao
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Fine-tuning
+
+### Summary
+
+The Moon changes gravity, terrain, and soil at once. Learned locomotion has studied reduced gravity on rigid ground and granular terrain mostly at Earth gravity, but not humanoids under both, generalist-controller transfer, or the Earth cost of lunar adaptation.
+
+---
+
+## Test-Time Motion Steering for Perceptive Humanoid Fall Recovery
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30061)
+- **Authors:** Osher Azulay, Cheng-Lin Hsieh, Stella X. Yu
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+Humanoid fall recovery requires selecting a motion that suits both the surrounding scene and the task. The same fallen pose can admit several ways to stand, with different routes, support transitions, and final headings.
+
+---
+
+## Watch Your Step: Anticipated Perception for Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29612)
+- **Authors:** Matthias Heyrman, Chenhao Li, Ioannis Dadiotis, Marco Hutter
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - Gait
+  - Proprioception
+
+### Summary
+
+Perceptive locomotion policies typically observe a dense robot-centric elevation map, although only the terrain beneath and around the next footsteps informs the control decision. Learned encoders compress the whole visual input, leaving the policy to work out which inputs matter while learning the baseline locomotion task.
+
+---
+
+## One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28925)
+- **Authors:** Ziqian Huang, Yuzhuo Chen, Shimin Zhang, Junyang He, Xinyue Annie Yang, Animesh Garg
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Modern robotic agents are increasingly expected to support steerable control, where a single policy can adjust its behavioral style at runtime under changing user preferences. Preference-conditioned reinforcement learning provides this interface, but conditioning alone does not ensure that a requested behavior change is strong, does not leak into unrelated behaviors, and does not compromise task performance.
+
+---
 
 ## 🌟 Adaptive Traversal Tubes for Posture-Aware Navigation of Bipedal Humanoids
 
@@ -334,77 +403,5 @@ Safe reinforcement learning commonly places safety and task performance in the s
 ### Summary
 
 Humanoid robots possess the structural capability to traverse complex terrains. However, achieving stable t raversal without relying on perceived information remains challenging, particularly in complex environments.
-
----
-
-## HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.10489)
-- **Authors:** Mike Zhang, Dongho Kang, Kevin Bergamin, Nicola Burger, Robin Deits, Jonathan Foster et al. (22 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Multi-Task
-  - Robustness
-  - Humanoid
-  - Gait
-  - Proprioception
-  - Goal-Conditioned
-
-### Summary
-
-Despite recent advances in humanoid locomotion, controllers optimized for command tracking and robustness tend to produce mechanical gaits, whereas controllers tied to human motion data often fail to generalize to commands outside the data distribution. This work introduces a learning framework that balances these competing objectives to synthesize real-time steerable, robust, and biomimetic locomotion policies from human data.
-
----
-
-## From Hitter to Player: Separating Motor Execution and Strategy in Competitive Humanoid Table Tennis
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.14067)
-- **Authors:** Fanrong Dong, Ziyi Sun, Ziqi Han, Junhan Sun, Lei Ye, Zetong Jing et al. (9 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-Competitive humanoid table tennis requires two distinct abilities: executing a desired return and deciding where to return the ball. We separate these two problems, with the ball landing target serving as an interface between motor control and strategy.
-
----
-
-## Terrain Traversal Without Motion Priors: Expert-Routed Humanoid Locomotion at Deployment Fidelity
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.14061)
-- **Authors:** Thanh Ly, Chien Le, Truong-Duy Dang, Duy M. H. Nguyen, Duy-Dung Le, Vien Anh Ngo et al. (7 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Simulator
-  - Humanoid
-  - Distillation
-  - Self-Supervised
-
-### Summary
-
-State-of-the-art perceptive humanoid locomotion is mostly built on retargeted motion capture, a generative motion prior, and a distillation stage. We report a complete system that does not require this pipeline for a humanoid to cross varied terrain.
-
----
-
-## MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.09055)
-- **Authors:** Shuaijun Liu, Chenglong Zhang, Xuhao Liu, Feiyang You, Yifan Liao, Shuyang Hao et al. (10 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Humanoid
-  - Collision
-  - Locomotion
-
-### Summary
-
-Human videos provide rich motion targets for humanoid learning, yet visually plausible references can still produce persistent failures under physics-based execution. These failures reveal where training supervision should change.
 
 ---

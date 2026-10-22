@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**291 papers** in this category.
+**292 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (36 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (37 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,26 @@
 ---
 
 ## Recent Papers
+
+## SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30044)
+- **Authors:** Zhaohui Yang, Quanbao Lin, Chengqi Shi, Zhenglang Weng, Jicheng Lin, Boyu Chen et al. (12 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Distillation
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid loco-manipulation requires an effective interface between high-level task policies and whole-body control. Existing interfaces typically rely on a single action representation for both task intent and whole-body coordination.
+
+---
 
 ## SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model
 
@@ -284,7 +304,7 @@ Learning humanoid loco-manipulation from human demonstrations rests on observing
 ## $λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.18950)
-- **Authors:** Lambda-humanoid Team
+- **Authors:** Lambda-humanoid Team,  :, Chongyang Xu, Jin Chen, Jinhui Ye, Yilun Chen et al. (17 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
 - **Tags:**
@@ -415,23 +435,5 @@ Humans effortlessly react to the world; they adeptly return a tennis shot, catch
 ### Summary
 
 Humanoid robots have many degrees of freedom and contact surfaces, yet most loco-manipulation research restricts manipulation to the hands and avoids other body contacts with the environment. To extend manipulation beyond the hands, we present PanTact, a system that learns humanoid whole-body dexterity, the capability to manipulate with any suitable body surface, directly from robot-free human demonstrations.
-
----
-
-## HWAM: Humanoid World Action Model With Joint State--Action Generation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.12026)
-- **Authors:** Yan Yang, Jikun Rong, Minzhao Zhu, Zheyi Zhao, Qirui Hu, Zihan Lan et al. (10 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots are a promising platform for general-purpose manipulation. Recent Vision-Language-Action (VLA) policies learn actions directly from multimodal observations, while World Action Models (WAMs) further incorporate future visual prediction to improve action generation.
 
 ---
