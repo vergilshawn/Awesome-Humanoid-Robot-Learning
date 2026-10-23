@@ -1,10 +1,10 @@
 # Locomotion
 
-**226 papers** in this category.
+**228 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (33 papers)
+- [2026-10](/locomotion/2026-10) (35 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,41 @@
 ---
 
 ## Recent Papers
+
+## Humanoid Mobility via Attention-based Contacts
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.31608)
+- **Authors:** Junzhe He, Kehan Wen, Chong Zhang, Clemens Schwarke, Zewei Zhang, Kaixian Qu et al. (10 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Fine-tuning
+  - Self-Supervised
+
+### Summary
+
+Humanoid mobility over complex terrain requires accurate foot placement and coordinated whole-body motion capable of robust adaptation. Reinforcement learning (RL) policies trained without motion references generalize well across terrains, yet eliciting effective whole-body coordination through reward design and exploration alone remains challenging.
+
+---
+
+## MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30334)
+- **Authors:** Van Chung Nguyen, Hung Manh La
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Navigation
+
+### Summary
+
+Designing and tuning reward functions remains one of the main challenges in building effective reinforcement learning (RL) pipelines for humanoid locomotion. While shaping rewards can accelerate learning, naively formulated terms often conflict with the desired behavior, overfit to a specific robot, or become unstable under small weight changes.
+
+---
 
 ## Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer
 
@@ -365,43 +400,5 @@ Humanoid tennis requires reactive whole-body coordination under rapidly changing
 ### Summary
 
 Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-level actions hard to learn.
-
----
-
-## FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.12432)
-- **Authors:** Songyuan Zhang, Baljeet Singh, Sarthak Ranjeet Kaingade, Chuchu Fan, Bryan Trinh
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Safety
-  - Humanoid
-  - Walking
-  - SAC
-  - Locomotion
-
-### Summary
-
-Safe reinforcement learning commonly places safety and task performance in the same policy objective, where they can introduce competing updates. Safety filters separate them at action execution, but classical designs require an analytic safety function and dynamics model, and standard minimal-intervention filters are myopic to long-horizon task return because they minimize only instantaneous action deviation.
-
----
-
-## DAMP: Humanoid Locomotion via Denoised Belief Learning and Adversarial Motion Priors
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.11505)
-- **Authors:** Puying Shen, Wenhao Cui, Huaxing Huang, Bangyu Qin, Shengtao Li, Ziyang Dong et al. (7 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Robustness
-  - Humanoid
-  - Policy Learning
-
-### Summary
-
-Humanoid robots possess the structural capability to traverse complex terrains. However, achieving stable t raversal without relying on perceived information remains challenging, particularly in complex environments.
 
 ---

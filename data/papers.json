@@ -1,5 +1,186 @@
 [
   {
+    "arxiv_id": "2610.31608",
+    "title": "Humanoid Mobility via Attention-based Contacts",
+    "paper_url": "https://arxiv.org/abs/2610.31608",
+    "project_url": null,
+    "authors": [
+      "Junzhe He",
+      "Kehan Wen",
+      "Chong Zhang",
+      "Clemens Schwarke",
+      "Zewei Zhang",
+      "Kaixian Qu",
+      "Siyuan Hu",
+      "Matthias Müller",
+      "Vladlen Koltun",
+      "Marco Hutter"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-22",
+    "abstract": "Humanoid mobility over complex terrain requires accurate foot placement and coordinated whole-body motion capable of robust adaptation. Reinforcement learning (RL) policies trained without motion references generalize well across terrains, yet eliciting effective whole-body coordination through reward design and exploration alone remains challenging. In contrast, reference-based methods yield natural motions but struggle to adapt beyond the predefined trajectories in their training data. We introduce a learning framework that bridges these two approaches by using motion data strictly as a training prior. An explicit, self-supervised, attention-based contact planner predicts future body-environment contacts, while a contact-conditioned tracker translates these plans into coordinated whole-body motion. Together, they establish contact as an interface between sensory observations and control actions. This abstraction allows the policy to internalize the contact-aware structure of locomotion rather than directly replicating kinematics. Consequently, a single policy can exploit data-driven motion priors for natural whole-body coordination while retaining the flexibility to discover environment-dependent behaviors through reinforcement learning. Building on the learned contact planner and tracker, a subsequent fine-tuning stage bootstraps their acquired capabilities to explore environment variations beyond those covered by the original motion data. Operating entirely from onboard observations without any reference inputs at deployment, this framework enables versatile humanoid mobility in challenging environments.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Fine-tuning",
+      "Self-Supervised"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.31166",
+    "title": "Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.31166",
+    "project_url": null,
+    "authors": [
+      "Chenyuan Chen",
+      "Ran Ding",
+      "Lechen Zhang",
+      "Zewen He",
+      "Yoshihiko Nakamura"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-22",
+    "abstract": "Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as objects change or are hidden, or leave the view as the robot turns and walks, yet whole-body vision-language-action (VLA) policies see only the present. We present WholeBodyMem, an object-guided perceptual memory that keeps the pre-history of object events seen before the robot acts on its goal. SAM3 tracks the task objects, and their events causally select key frames within an adaptive budget, which the action expert reads by cross-attention together with object tokens encoding appearance, geometry and time. We also contribute HuMeGo, a humanoid memory benchmark with six simulated and six real-world Unitree G1 tasks. Keeping the right frames rather than more frames, WholeBodyMem surpasses memoryless and uniform-memory baselines, raising its base policy's success from 29.1% to 72.6% in simulation and from 36.7% to 88.3% on the real robot, while also improving the standard SIMPLE tasks (70.2% to 86.9%).",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Manipulation",
+      "Real Robot",
+      "Humanoid",
+      "Vision-Language",
+      "Benchmark",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.30876",
+    "title": "LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.30876",
+    "project_url": null,
+    "authors": [
+      "Dewei Wang",
+      "Jinrui Han",
+      "Jiyuan Shi",
+      "Chenyun Zhang",
+      "Xianbo Lu",
+      "Jiabao Wu",
+      "Jiqin Feng",
+      "Jipeng Kong",
+      "Ping Luo",
+      "Chenjia Bai",
+      "Xuelong Li"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-22",
+    "abstract": "Humanoid robots must coordinate locomotion and manipulation in everyday environments, yet progress is difficult to assess across differing policies, controllers, and task settings. LocoManiLab provides an integrated testbed spanning data collection and generation, policy training, evaluation, and physical deployment. Its task suite covers 234 atomic and compositional tasks across five household scene categories, supported by 51.5 hours of simulated teleoperation. The evaluation covers twelve policies with a shared controller across task and scene splits and perturbation levels, two policies across five controllers, and studies of demonstration scale and data-source mixtures. Success rates fall on unseen tasks and scenes and generally decline as visual perturbations increase, with differences in generalization and robustness across policies. For data generation, a humanoid motion generation model is fine-tuned for loco-manipulation to study the alignment of its outputs with task execution requirements and its integration into the data generation pipeline. Three simulated loco-manipulation tasks closely match real-world setups, enabling evaluation of three policies in both domains. Similar policy rankings support the reliability of simulation-based evaluation.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Robustness",
+      "Humanoid",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.30540",
+    "title": "Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2610.30540",
+    "project_url": null,
+    "authors": [
+      "Xiongbo Shi",
+      "Shihang Du",
+      "Zongyou Yu",
+      "Ao Zhou",
+      "Xudong Zhang",
+      "Ziyu Lin",
+      "Haodong Zhang",
+      "Junqiao Zhao",
+      "Guang Chen"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-21",
+    "abstract": "Human motion retargeting bridges the embodiment gap between humans and humanoid robots by converting human demonstrations into reference trajectories for whole-body control and loco-manipulation. For object-interaction tasks, successful execution depends on accurately preserving body--object relations at critical stages. However, uniform per-frame iteration budgets do not account for these localized accuracy requirements, limiting the computational efficiency of retargeting. To address this limitation, we present Spatiotemporal Retargeting (STR), which uses keyframes and key body parts to allocate optimization effort. Specifically, a vision-language model selects relevant motion signals and body parts, and keyframes are identified from changes in the selected signals. Based on these selections, STR assigns additional solver iterations to keyframes and higher interaction weights to the selected parts. To further improve contact fidelity, we introduce Mechanics-Aware Contact Anchoring (MCA) to refine object-surface contact positions using an approximate object-wrench model while retaining the selected surface directions. Building on the resulting references, we develop Spatiotemporal Reinforcement Learning (STRL), which combines adaptive key-stage sampling with a contact reward based on target proximity and object contact forces for downstream control. Simulation experiments on a Unitree G1 and real-world experiments on a Unitree R1 demonstrate that STR improves geometric contact coverage and continuity at lower computational cost, while the resulting references improve downstream task completion across diverse object-interaction motions.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Whole-Body Control",
+      "Motion Retargeting",
+      "Manipulation",
+      "Human Demonstration",
+      "Humanoid",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control",
+      "Teleoperation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.30334",
+    "title": "MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2610.30334",
+    "project_url": null,
+    "authors": [
+      "Van Chung Nguyen",
+      "Hung Manh La"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-21",
+    "abstract": "Designing and tuning reward functions remains one of the main challenges in building effective reinforcement learning (RL) pipelines for humanoid locomotion. While shaping rewards can accelerate learning, naively formulated terms often conflict with the desired behavior, overfit to a specific robot, or become unstable under small weight changes. Potential-Based Reward Shaping (PBRS) offers an alternative solution: shaping the reward via differences of a potential function to guide exploration without changing the optimal policy. In this paper, we study Multi-PBRS for humanoid locomotion and propose a unified reward configuration. We then evaluate the same reward structure and weights across nine humanoid robots, requiring only robot-specific metadata (joint/link mappings and default poses) rather than per-robot reward redesign. Our experiments show that, compared to standard shaping, MPBRS provides more consistent scaling behavior and reduced tuning sensitivity across robots, making it easier to tune without altering the optimal policy.",
+    "categories": [
+      "Locomotion",
+      "Navigation"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Humanoid",
+      "Navigation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2610.30080",
     "title": "Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer",
     "paper_url": "https://arxiv.org/abs/2610.30080",
@@ -162,6 +343,36 @@
     "primary_category": "Locomotion"
   },
   {
+    "arxiv_id": "2610.29030",
+    "title": "PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits",
+    "paper_url": "https://arxiv.org/abs/2610.29030",
+    "project_url": null,
+    "authors": [
+      "Neel Adwani",
+      "Muhaiminul Islam Akash",
+      "Saffia Ouali",
+      "Ethan Liu",
+      "Cong Wang"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-21",
+    "abstract": "Currently, dexterous humanoid robot hands are widely considered the final hardware bottleneck that hampers generalist robots from physically assisting people at home and work. As conventional tendon-driven designs suffer from high cost, demanding maintenance, poor reliability, and short durability, alternative linkage-driven designs have increasingly gained attention. Despite their potential to avoid the weaknesses of tendon-driven hands, integrating multiple degrees of actuation (DOA) in a single digit with linkage drivetrains is a challenge for design and fabrication. Only a few studies have managed to present functional humanoid hands that are completely linkage-driven and have at least three DOAs per digit without compromising actuator placement and other design preferences. Our work introduces a new linkage-driven hand featuring a unique flexure hinge. Together with elastic drive rods made of spring steel, the linkage drivetrains are significantly simplified. Unlike other linkage-driven designs of similar dexterity, our design does not require many miniature moving parts. As a result, the hand can be fabricated easily with a budget 3D printer. This not only significantly lowers the barrier to entry for using and developing dexterous humanoid robot hand functions, but also allows the hands to be sized much closer to regular human hands. The design offers desirable kinematic advantages as well. A prototype is evaluated for grasping and object manipulation. In addition, this paper presents our latest findings on kinematics and control of the hand.",
+    "categories": [
+      "Manipulation",
+      "Hardware Design"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Hardware Design"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Digit",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
     "arxiv_id": "2610.29169",
     "title": "SMR: Learning streaming motion retargeting for humanoids from human semantic",
     "paper_url": "https://arxiv.org/abs/2610.29169",
@@ -193,36 +404,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Teleoperation"
-  },
-  {
-    "arxiv_id": "2610.29030",
-    "title": "PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits",
-    "paper_url": "https://arxiv.org/abs/2610.29030",
-    "project_url": null,
-    "authors": [
-      "Neel Adwani",
-      "Muhaiminul Islam Akash",
-      "Saffia Ouali",
-      "Ethan Liu",
-      "Cong Wang"
-    ],
-    "published": "2026-10",
-    "published_date": "2026-10-21",
-    "abstract": "Currently, dexterous humanoid robot hands are widely considered the final hardware bottleneck that hampers generalist robots from physically assisting people at home and work. As conventional tendon-driven designs suffer from high cost, demanding maintenance, poor reliability, and short durability, alternative linkage-driven designs have increasingly gained attention. Despite their potential to avoid the weaknesses of tendon-driven hands, integrating multiple degrees of actuation (DOA) in a single digit with linkage drivetrains is a challenge for design and fabrication. Only a few studies have managed to present functional humanoid hands that are completely linkage-driven and have at least three DOAs per digit without compromising actuator placement and other design preferences. Our work introduces a new linkage-driven hand featuring a unique flexure hinge. Together with elastic drive rods made of spring steel, the linkage drivetrains are significantly simplified. Unlike other linkage-driven designs of similar dexterity, our design does not require many miniature moving parts. As a result, the hand can be fabricated easily with a budget 3D printer. This not only significantly lowers the barrier to entry for using and developing dexterous humanoid robot hand functions, but also allows the hands to be sized much closer to regular human hands. The design offers desirable kinematic advantages as well. A prototype is evaluated for grasping and object manipulation. In addition, this paper presents our latest findings on kinematics and control of the hand.",
-    "categories": [
-      "Manipulation",
-      "Hardware Design"
-    ],
-    "tags": [
-      "Manipulation",
-      "Humanoid",
-      "Hardware Design"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": "Digit",
-    "summary": "",
-    "primary_category": "Manipulation"
   },
   {
     "arxiv_id": "2610.28948",
@@ -1188,7 +1369,7 @@
     "arxiv_id": "2610.21515",
     "title": "TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion",
     "paper_url": "https://arxiv.org/abs/2610.21515",
-    "project_url": null,
+    "project_url": "https://github.com/multimodal-perception-action/trace",
     "authors": [
       "Zejian Kang",
       "Yifu Luo",
@@ -1205,7 +1386,7 @@
     ],
     "published": "2026-10",
     "published_date": "2026-10-15",
-    "abstract": "Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted reference. We present TRACE, a generation and editing framework for the Unitree G1 humanoid robot built around typed, measurable kinematic quantities. Our insight is to ground generation conditions in paired training motions and editing goals in the current motion. A language model learns to predict support, root, and hand events from motion-derived supervision; their time-aligned encodings complement the original text in a diffusion generator. Gravity-referenced states and trajectory--contact objectives improve kinematic consistency. For editing, typed requests define body--time scopes and source-relative goals. A separate reference-conditioned diffusion editor uses these goals and revised events to realize changes, while sampling-time projection preserves protected state coordinates. Quantitative evaluation and human assessment show improved semantic alignment and motion quality over the compared methods. Controlled ablations support the value of motion-grounded conditioning and kinematic consistency, while multi-turn editing evaluations demonstrate more reliable execution of successive relative requests under shared preservation constraints. Together, these results support typed kinematic structure as a common basis for motion generation and reference-aware revision.",
+    "abstract": "Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted reference. We present TRACE, a generation and editing framework for the Unitree G1 humanoid robot built around typed, measurable kinematic quantities. Our insight is to ground generation conditions in paired training motions and editing goals in the current motion. A language model learns to predict support, root, and hand events from motion-derived supervision; their time-aligned encodings complement the original text in a diffusion generator. Gravity-referenced states and trajectory--contact objectives improve kinematic consistency. For editing, typed requests define body--time scopes and source-relative goals. A separate reference-conditioned diffusion editor uses these goals and revised events to realize changes, while sampling-time projection preserves protected state coordinates. Quantitative evaluation and human assessment show improved semantic alignment and motion quality over the compared methods. Multi-turn editing evaluations demonstrate more reliable execution of successive relative requests under shared preservation constraints. Code is available at https://github.com/Multimodal-Perception-Action/TRACE.",
     "categories": [
       "Physics-Based Character Animation"
     ],
@@ -1217,7 +1398,7 @@
       "Physics-Based Character Animation"
     ],
     "real_robot": false,
-    "open_source": false,
+    "open_source": true,
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Physics-Based Character Animation"

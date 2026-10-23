@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**292 papers** in this category.
+**295 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (37 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (40 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,69 @@
 ---
 
 ## Recent Papers
+
+## Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.31166)
+- **Authors:** Chenyuan Chen, Ran Ding, Lechen Zhang, Zewen He, Yoshihiko Nakamura
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as objects change or are hidden, or leave the view as the robot turns and walks, yet whole-body vision-language-action (VLA) policies see only the present. We present WholeBodyMem, an object-guided perceptual memory that keeps the pre-history of object events seen before the robot acts on its goal.
+
+---
+
+## LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30876)
+- **Authors:** Dewei Wang, Jinrui Han, Jiyuan Shi, Chenyun Zhang, Xianbo Lu, Jiabao Wu et al. (11 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots must coordinate locomotion and manipulation in everyday environments, yet progress is difficult to assess across differing policies, controllers, and task settings. LocoManiLab provides an integrated testbed spanning data collection and generation, policy training, evaluation, and physical deployment.
+
+---
+
+## Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30540)
+- **Authors:** Xiongbo Shi, Shihang Du, Zongyou Yu, Ao Zhou, Xudong Zhang, Ziyu Lin et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Motion Retargeting
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Human motion retargeting bridges the embodiment gap between humans and humanoid robots by converting human demonstrations into reference trajectories for whole-body control and loco-manipulation. For object-interaction tasks, successful execution depends on accurately preserving body--object relations at critical stages.
+
+---
 
 ## SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation
 
@@ -381,59 +444,5 @@ Humanoid Behavior Foundation Models (BFMs) can execute impressive motions, but d
 ### Summary
 
 Humanoid robots performing lifting and material-handling tasks must maintain balance despite unknown and varying payloads. However, payload uncertainty significantly affects whole-body dynamics and may destabilize conventional controllers.
-
----
-
-## Belief-Overlap Partial Inversion: Object-Centric Flow Replanning for Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.13087)
-- **Authors:** Chen Yu, Sudarshan S Harithas, Juan Borbon, Dingqi Zhang, Jiuguang Wang
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-People often learn how an unfamiliar object moves through a small exploratory push, using its response to guide their next motion. Inspired by this behavior, we study humanoids pushing carts whose mass and caster stiffness are initially unknown.
-
----
-
-## Reflex: Visually Grounded Reactive Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.12772)
-- **Authors:** Taoyang Jia, Weikai Huang, Linxin Song, Jared Darlington, Jieyu Zhao, Yue Wang et al. (9 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humans effortlessly react to the world; they adeptly return a tennis shot, catch a falling cup, step aside from a passing cart, or pass a box tossed during truck unloading. These everyday actions require anticipating a moving target and reflexively responding with the whole body within about a second.
-
----
-
-## PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.12558)
-- **Authors:** Xiaomeng Xu, Han Zhang, Zhian Ruan, Xiaofeng Guo, Jinkun Cao, Ruihan Yang et al. (9 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - Human Demonstration
-  - Humanoid
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots have many degrees of freedom and contact surfaces, yet most loco-manipulation research restricts manipulation to the hands and avoids other body contacts with the environment. To extend manipulation beyond the hands, we present PanTact, a system that learns humanoid whole-body dexterity, the capability to manipulate with any suitable body surface, directly from robot-free human demonstrations.
 
 ---

@@ -9,7 +9,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Digit:** 2 papers
 - **Figure:** 14 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 64 papers
+- **Unitree G1:** 66 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 22 papers
 - **iCub:** 1 papers
@@ -17,6 +17,49 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.31166)
+- **Authors:** Chenyuan Chen, Ran Ding, Lechen Zhang, Zewen He, Yoshihiko Nakamura
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as objects change or are hidden, or leave the view as the robot turns and walks, yet whole-body vision-language-action (VLA) policies see only the present. We present WholeBodyMem, an object-guided perceptual memory that keeps the pre-history of object events seen before the robot acts on its goal.
+
+---
+
+## Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30540)
+- **Authors:** Xiongbo Shi, Shihang Du, Zongyou Yu, Ao Zhou, Xudong Zhang, Ziyu Lin et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Motion Retargeting
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Human motion retargeting bridges the embodiment gap between humans and humanoid robots by converting human demonstrations into reference trajectories for whole-body control and loco-manipulation. For object-interaction tasks, successful execution depends on accurately preserving body--object relations at critical stages.
+
+---
 
 ## Test-Time Motion Steering for Perceptive Humanoid Fall Recovery
 

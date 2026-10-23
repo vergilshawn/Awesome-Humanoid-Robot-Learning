@@ -61,6 +61,25 @@ Estimating a humanoid robot's internal state from video has a wide range of real
 
 ---
 
+## 🌟 TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.21515)
+- **Project:** [GitHub](https://github.com/multimodal-perception-action/trace)
+- **Authors:** Zejian Kang, Yifu Luo, Boyang Shen, Jingxuan Li, Zekai Chen, Zekun Shi et al. (12 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Language-Conditioned
+  - PPO
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted reference.
+
+---
+
 ## 🌟 BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.07594)

@@ -55,9 +55,10 @@ Construction productivity has remained a per- sistent challenge, motivating grow
 
 ---
 
-## TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
+## 🌟 TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.21515)
+- **Project:** [GitHub](https://github.com/multimodal-perception-action/trace)
 - **Authors:** Zejian Kang, Yifu Luo, Boyang Shen, Jingxuan Li, Zekai Chen, Zekun Shi et al. (12 authors)
 - **Published:** 2026-10
 - **Tags:**

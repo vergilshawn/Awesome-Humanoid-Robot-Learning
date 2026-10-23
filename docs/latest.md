@@ -2,6 +2,104 @@
 
 All papers sorted by publication date (newest first).
 
+## Humanoid Mobility via Attention-based Contacts
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.31608)
+- **Authors:** Junzhe He, Kehan Wen, Chong Zhang, Clemens Schwarke, Zewei Zhang, Kaixian Qu et al. (10 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Fine-tuning
+  - Self-Supervised
+
+### Summary
+
+Humanoid mobility over complex terrain requires accurate foot placement and coordinated whole-body motion capable of robust adaptation. Reinforcement learning (RL) policies trained without motion references generalize well across terrains, yet eliciting effective whole-body coordination through reward design and exploration alone remains challenging.
+
+---
+
+## Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.31166)
+- **Authors:** Chenyuan Chen, Ran Ding, Lechen Zhang, Zewen He, Yoshihiko Nakamura
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as objects change or are hidden, or leave the view as the robot turns and walks, yet whole-body vision-language-action (VLA) policies see only the present. We present WholeBodyMem, an object-guided perceptual memory that keeps the pre-history of object events seen before the robot acts on its goal.
+
+---
+
+## LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30876)
+- **Authors:** Dewei Wang, Jinrui Han, Jiyuan Shi, Chenyun Zhang, Xianbo Lu, Jiabao Wu et al. (11 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots must coordinate locomotion and manipulation in everyday environments, yet progress is difficult to assess across differing policies, controllers, and task settings. LocoManiLab provides an integrated testbed spanning data collection and generation, policy training, evaluation, and physical deployment.
+
+---
+
+## Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30540)
+- **Authors:** Xiongbo Shi, Shihang Du, Zongyou Yu, Ao Zhou, Xudong Zhang, Ziyu Lin et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Motion Retargeting
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Human motion retargeting bridges the embodiment gap between humans and humanoid robots by converting human demonstrations into reference trajectories for whole-body control and loco-manipulation. For object-interaction tasks, successful execution depends on accurately preserving body--object relations at critical stages.
+
+---
+
+## MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.30334)
+- **Authors:** Van Chung Nguyen, Hung Manh La
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+  - Navigation
+
+### Summary
+
+Designing and tuning reward functions remains one of the main challenges in building effective reinforcement learning (RL) pipelines for humanoid locomotion. While shaping rewards can accelerate learning, naively formulated terms often conflict with the desired behavior, overfit to a specific robot, or become unstable under small weight changes.
+
+---
+
 ## Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.30080)
@@ -92,6 +190,23 @@ Perceptive locomotion policies typically observe a dense robot-centric elevation
 
 ---
 
+## PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29030)
+- **Authors:** Neel Adwani, Muhaiminul Islam Akash, Saffia Ouali, Ethan Liu, Cong Wang
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Hardware Design
+
+### Summary
+
+Currently, dexterous humanoid robot hands are widely considered the final hardware bottleneck that hampers generalist robots from physically assisting people at home and work. As conventional tendon-driven designs suffer from high cost, demanding maintenance, poor reliability, and short durability, alternative linkage-driven designs have increasingly gained attention.
+
+---
+
 ## SMR: Learning streaming motion retargeting for humanoids from human semantic
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.29169)
@@ -109,23 +224,6 @@ Perceptive locomotion policies typically observe a dense robot-centric elevation
 ### Summary
 
 Retargeting human motion to humanoids requires preserving motion semantics while accounting for the robot's physical constraints. Kinematic pipelines prescribe a robot trajectory through geometric matching, without establishing whether it can be executed under the robot's dynamics.
-
----
-
-## PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.29030)
-- **Authors:** Neel Adwani, Muhaiminul Islam Akash, Saffia Ouali, Ethan Liu, Cong Wang
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Digit
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Hardware Design
-
-### Summary
-
-Currently, dexterous humanoid robot hands are widely considered the final hardware bottleneck that hampers generalist robots from physically assisting people at home and work. As conventional tendon-driven designs suffer from high cost, demanding maintenance, poor reliability, and short durability, alternative linkage-driven designs have increasingly gained attention.
 
 ---
 
@@ -661,9 +759,10 @@ The effective deployment of humanoid robots in practical tasks of interest will 
 
 ---
 
-## TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
+## 🌟 TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.21515)
+- **Project:** [GitHub](https://github.com/multimodal-perception-action/trace)
 - **Authors:** Zejian Kang, Yifu Luo, Boyang Shen, Jingxuan Li, Zekai Chen, Zekun Shi et al. (12 authors)
 - **Published:** 2026-10
 - **Tags:**
