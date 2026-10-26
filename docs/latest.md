@@ -2,6 +2,98 @@
 
 All papers sorted by publication date (newest first).
 
+## ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.32966)
+- **Authors:** Zimo He, Tianyi Bian, Zizhong Yang, Hongjie Li, Nan Jiang, Jieming Cui et al. (10 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Pre-training
+  - Diffusion
+
+### Summary
+
+Learning humanoid control from monocular human videos offers a scalable way to acquire diverse whole-body behaviors. Yet, existing reconstruction-retargeting-tracking pipelines are limited in system-level scalability by separately optimized intermediate stages and cannot directly optimize reference motion executability using downstream tracking feedback.
+
+---
+
+## HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.32909)
+- **Authors:** Xihan Ma, Bo Zhang, Boxiong Li, Yuhan Bao, Ziyue Liu, Yucheng Wang
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+HoloBoxing presents a simple recipe for learning humanoid boxing by building on a pretrained whole-body controller. The recipe separates reusable motor skills from task decisions: a compact planner requests future body-point targets, while the frozen controller handles joint-level execution.
+
+---
+
+## CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.32460)
+- **Authors:** Ziyu Lin, Shihang Du, Tianhang Wang, Xiaodong Liu, Runze Zhang, Zongyou Yu et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Motion Retargeting
+  - Humanoid
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in large-scale human motion data, motion retargeting, and motion imitation have enabled increasingly capable whole-body control for individual humanoids. Cooperative carrying is more challenging because successful coordination requires not only plausible individual motions, but also consistent cross-agent and agent-object relations, including shared grasp, relative configuration, and whole-body support.
+
+---
+
+## Delay Randomization Widens the Delay Margin of Learned Humanoid Motion Trackers
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.32277)
+- **Authors:** Shaoqin Li, Yi Sun
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Robustness
+  - Simulator
+  - MuJoCo
+  - Humanoid
+
+### Summary
+
+Learned humanoid controllers are usually trained in one simulator and then checked in a second one before they go near hardware. We ask what that check says about command delay.
+
+---
+
+## Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.31923)
+- **Authors:** Tiffany Bao, Shangtao Li, Yifan Sun, Mengwen He, Bowei Li, Alden Wang et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Collision
+  - Dataset
+  - Locomotion
+
+### Summary
+
+As humanoid robots move from research laboratories toward deployment in human-centered environments such as homes, hospitals, and warehouses, safe operation around nearby people and objects becomes a fundamental requirement. Safety filters have emerged as a promising technique to address this challenge by providing mathematical guarantees that generated control actions do not result in collisions.
+
+---
+
 ## Humanoid Mobility via Attention-based Contacts
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.31608)

@@ -7,9 +7,9 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 2 papers
-- **Figure:** 14 papers
+- **Figure:** 15 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 66 papers
+- **Unitree G1:** 67 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 22 papers
 - **iCub:** 1 papers
@@ -17,6 +17,46 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.32460)
+- **Authors:** Ziyu Lin, Shihang Du, Tianhang Wang, Xiaodong Liu, Runze Zhang, Zongyou Yu et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Motion Retargeting
+  - Humanoid
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in large-scale human motion data, motion retargeting, and motion imitation have enabled increasingly capable whole-body control for individual humanoids. Cooperative carrying is more challenging because successful coordination requires not only plausible individual motions, but also consistent cross-agent and agent-object relations, including shared grasp, relative configuration, and whole-body support.
+
+---
+
+## Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.31923)
+- **Authors:** Tiffany Bao, Shangtao Li, Yifan Sun, Mengwen He, Bowei Li, Alden Wang et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Collision
+  - Dataset
+  - Locomotion
+
+### Summary
+
+As humanoid robots move from research laboratories toward deployment in human-centered environments such as homes, hospitals, and warehouses, safe operation around nearby people and objects becomes a fundamental requirement. Safety filters have emerged as a promising technique to address this challenge by providing mathematical guarantees that generated control actions do not result in collisions.
+
+---
 
 ## Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation
 

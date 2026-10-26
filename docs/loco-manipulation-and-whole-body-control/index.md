@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**295 papers** in this category.
+**297 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (40 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (42 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,44 @@
 ---
 
 ## Recent Papers
+
+## HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.32909)
+- **Authors:** Xihan Ma, Bo Zhang, Boxiong Li, Yuhan Bao, Ziyue Liu, Yucheng Wang
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+HoloBoxing presents a simple recipe for learning humanoid boxing by building on a pretrained whole-body controller. The recipe separates reusable motor skills from task decisions: a compact planner requests future body-point targets, while the frozen controller handles joint-level execution.
+
+---
+
+## CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.32460)
+- **Authors:** Ziyu Lin, Shihang Du, Tianhang Wang, Xiaodong Liu, Runze Zhang, Zongyou Yu et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Motion Retargeting
+  - Humanoid
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Recent advances in large-scale human motion data, motion retargeting, and motion imitation have enabled increasingly capable whole-body control for individual humanoids. Cooperative carrying is more challenging because successful coordination requires not only plausible individual motions, but also consistent cross-agent and agent-object relations, including shared grasp, relative configuration, and whole-body support.
+
+---
 
 ## Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation
 
@@ -404,45 +442,5 @@ Humanoid loco-manipulation requires coordinated whole-body interaction with the 
 ### Summary
 
 Humanoid behavior foundation models (BFMs) enable diverse whole-body control, but adapting a pretrained controller to a new embodiment remains challenging because of kinematic and dynamic mismatch. We present TRACE, a framework for efficient cross-embodiment adaptation that preserves pretrained motion representations while specializing feedback control to the target robot.TRACE first injects kinematic priors into input and output projection layers and aligns nominal joint dynamics to reduce embodiment mismatch and support stable fine-tuning.
-
----
-
-## Test-Time Compute for Humanoid Behavior Foundation Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.14896)
-- **Authors:** Weiji Xie, Junsong Wu, Zibo Zhou, Yueru Chen, Xingyi Wang, Zhenhua Xiong et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Humanoid
-  - Foundation Model
-  - Sampling-Based
-  - Dataset
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid Behavior Foundation Models (BFMs) can execute impressive motions, but downstream applications such as loco-manipulation demand high whole-body positional accuracy. Existing BFMs suffer from a systematic command-execution gap, where executed motions deviate from desired ones.
-
----
-
-## Adaptive Whole-Body MPC with Optimal Posture Planning for Humanoid Robots under Unknown Payloads
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.12972)
-- **Authors:** Manh Cuong Nguyen, Duc Cuong Vu, Viet Anh Vu, Duc Tuan Pham, Toan Nguyen, Minh Hiep Phung et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - MPC
-  - Whole-Body Control
-  - Robustness
-  - Humanoid
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots performing lifting and material-handling tasks must maintain balance despite unknown and varying payloads. However, payload uncertainty significantly affects whole-body dynamics and may destabilize conventional controllers.
 
 ---

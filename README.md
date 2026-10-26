@@ -2,18 +2,18 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 862
-- **Real Robot Papers:** 110
+- **Total Papers:** 867
+- **Real Robot Papers:** 112
 - **Open Source Papers:** 133
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (295)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (297)
 - [Manipulation](#manipulation) (78)
-- [Teleoperation](#teleoperation) (45)
-- [Locomotion](#locomotion) (228)
+- [Teleoperation](#teleoperation) (46)
+- [Locomotion](#locomotion) (230)
 - [Navigation](#navigation) (25)
 - [State Estimation](#state-estimation) (24)
 - [Sim-to-Real](#sim-to-real) (13)
@@ -29,6 +29,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-10
 
+- [HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training](https://arxiv.org/abs/2610.32909) — `Reinforcement Learning`, `Whole-Body Control`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying](https://arxiv.org/abs/2610.32460) — `Whole-Body Control`, `Motion Retargeting`, `Humanoid`, `Dataset`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.31166) — `Manipulation`, `Real Robot`, `Humanoid`, `Vision-Language`, `Benchmark`, `Loco-Manipulation and Whole-Body Control`
 - [LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30876) — `Teleoperation`, `Locomotion`, `Manipulation`, `Robustness`, `Humanoid`, `PPO`
 - [Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30540) — `Reinforcement Learning`, `Whole-Body Control`, `Motion Retargeting`, `Manipulation`, `Human Demonstration`, `Humanoid`
@@ -577,6 +579,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-10
 
+- [ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback](https://arxiv.org/abs/2610.32966) — `Teleoperation`, `Humanoid`, `Pre-training`, `Diffusion`
 - [HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking](https://arxiv.org/abs/2610.29903) — `Teleoperation`, `Manipulation`, `Humanoid`, `Optimization-Based`, `Loco-Manipulation and Whole-Body Control`
 - [SMR: Learning streaming motion retargeting for humanoids from human semantic](https://arxiv.org/abs/2610.29169) — `Whole-Body Control`, `Motion Retargeting`, `Transformer`, `Humanoid`, `Optimization-Based`, `Teleoperation`
 - [Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation](https://arxiv.org/abs/2610.28712) — `Teleoperation`, `Humanoid`, `Navigation`
@@ -675,6 +678,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-10
 
+- [Delay Randomization Widens the Delay Margin of Learned Humanoid Motion Trackers](https://arxiv.org/abs/2610.32277) — `Locomotion`, `Robustness`, `Simulator`, `MuJoCo`, `Humanoid`
+- [Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots](https://arxiv.org/abs/2610.31923) — `Safety`, `Humanoid`, `Collision`, `Dataset`, `Locomotion`, `Real Robot`
 - [Humanoid Mobility via Attention-based Contacts](https://arxiv.org/abs/2610.31608) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Fine-tuning`, `Self-Supervised`
 - [MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion](https://arxiv.org/abs/2610.30334) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Navigation`
 - [Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer](https://arxiv.org/abs/2610.30080) — `Locomotion`, `Humanoid`, `Fine-tuning`

@@ -1,10 +1,10 @@
 # Locomotion
 
-**228 papers** in this category.
+**230 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (35 papers)
+- [2026-10](/locomotion/2026-10) (37 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,43 @@
 ---
 
 ## Recent Papers
+
+## Delay Randomization Widens the Delay Margin of Learned Humanoid Motion Trackers
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.32277)
+- **Authors:** Shaoqin Li, Yi Sun
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Robustness
+  - Simulator
+  - MuJoCo
+  - Humanoid
+
+### Summary
+
+Learned humanoid controllers are usually trained in one simulator and then checked in a second one before they go near hardware. We ask what that check says about command delay.
+
+---
+
+## Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.31923)
+- **Authors:** Tiffany Bao, Shangtao Li, Yifan Sun, Mengwen He, Bowei Li, Alden Wang et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Collision
+  - Dataset
+  - Locomotion
+
+### Summary
+
+As humanoid robots move from research laboratories toward deployment in human-centered environments such as homes, hospitals, and warehouses, safe operation around nearby people and objects becomes a fundamental requirement. Safety filters have emerged as a promising technique to address this challenge by providing mathematical guarantees that generated control actions do not result in collisions.
+
+---
 
 ## Humanoid Mobility via Attention-based Contacts
 
@@ -361,44 +398,5 @@ We present a learning-based framework that enables a full-scale bipedal humanoid
 ### Summary
 
 Humanoid face robots can now move their lips in sync with speech and show detailed facial expressions. Give such a robot the face of a real person and drive it with generated speech, and you get a face forgery that happens in front of the camera: the camera records a real object, and no pixel is edited.
-
----
-
-## ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.13572)
-- **Authors:** Zhihao Tian, Zifan Wang, Enzheng Zhu, Xun Yang, Jialong Qin, Mengbo Wang et al. (7 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Fine-tuning
-  - Distillation
-  - PPO
-  - DAgger
-
-### Summary
-
-Humanoid tennis requires reactive whole-body coordination under rapidly changing ball dynamics, yet collecting task-specific motion-capture demonstrations that cover diverse approach states, contact locations, and timing conditions is costly. Inspired by how humans acquire new skills by combining reusable motor experience with task-specific demonstrations, we present ATHLETE, a framework for learning reactive humanoid tennis from generic locomotion data and ordinary tennis videos.
-
----
-
-## VioLA: Learning Generalist Humanoid Control Policies from Human Data
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.12435)
-- **Authors:** Mert Albaba, Jens Beißwenger, Anna Manasyan, Daniel Marta, Michael J. Black, Wieland Brendel et al. (9 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Zero-Shot
-  - Human Demonstration
-  - Real Robot
-  - Humanoid
-  - Fine-tuning
-
-### Summary
-
-Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-level actions hard to learn.
 
 ---

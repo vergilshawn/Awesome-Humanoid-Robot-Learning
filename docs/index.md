@@ -8,17 +8,17 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 862
-- **Real Robot Papers:** 110
+- **Total Papers:** 867
+- **Real Robot Papers:** 112
 - **Open Source Papers:** 133
 - **Latest Month:** 2026-10
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (295)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (297)
 - [Manipulation](/manipulation/) (78)
-- [Teleoperation](/teleoperation/) (45)
-- [Locomotion](/locomotion/) (228)
+- [Teleoperation](/teleoperation/) (46)
+- [Locomotion](/locomotion/) (230)
 - [Navigation](/navigation/) (25)
 - [State Estimation](/state-estimation/) (24)
 - [Sim-to-Real](/sim-to-real/) (13)
@@ -31,6 +31,16 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback](https://arxiv.org/abs/2610.32966) — 2026-10
+  - [Teleoperation](/teleoperation/)
+-  [HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training](https://arxiv.org/abs/2610.32909) — 2026-10
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  🤖 [CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying](https://arxiv.org/abs/2610.32460) — 2026-10
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [Delay Randomization Widens the Delay Margin of Learned Humanoid Motion Trackers](https://arxiv.org/abs/2610.32277) — 2026-10
+  - [Locomotion](/locomotion/)
+-  🤖 [Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots](https://arxiv.org/abs/2610.31923) — 2026-10
+  - [Locomotion](/locomotion/)
 -  [Humanoid Mobility via Attention-based Contacts](https://arxiv.org/abs/2610.31608) — 2026-10
   - [Locomotion](/locomotion/)
 -  🤖 [Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.31166) — 2026-10
@@ -41,32 +51,22 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  [MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion](https://arxiv.org/abs/2610.30334) — 2026-10
   - [Locomotion](/locomotion/)
--  [Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer](https://arxiv.org/abs/2610.30080) — 2026-10
-  - [Locomotion](/locomotion/)
--  🤖 [Test-Time Motion Steering for Perceptive Humanoid Fall Recovery](https://arxiv.org/abs/2610.30061) — 2026-10
-  - [Locomotion](/locomotion/)
--  [SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30044) — 2026-10
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking](https://arxiv.org/abs/2610.29903) — 2026-10
-  - [Teleoperation](/teleoperation/)
--  [Watch Your Step: Anticipated Perception for Humanoid Locomotion](https://arxiv.org/abs/2610.29612) — 2026-10
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (719)
-- **Loco-Manipulation and Whole-Body Control** (324)
-- **Locomotion** (321)
+- **Humanoid** (724)
+- **Loco-Manipulation and Whole-Body Control** (326)
+- **Locomotion** (323)
 - **Manipulation** (250)
-- **Reinforcement Learning** (122)
-- **PPO** (120)
-- **Whole-Body Control** (108)
-- **Teleoperation** (86)
-- **Simulation Benchmark** (85)
+- **Reinforcement Learning** (123)
+- **PPO** (121)
+- **Whole-Body Control** (110)
+- **Teleoperation** (87)
+- **Simulation Benchmark** (86)
 - **Physics-Based Character Animation** (67)
-- **Dataset** (61)
+- **Dataset** (63)
 - **State Estimation** (58)
 - **Vision-Language** (51)
 - **Zero-Shot** (50)
@@ -74,18 +74,18 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Walking** (47)
 - **Navigation** (46)
 - **Benchmark** (45)
+- **Diffusion** (44)
 - **Human Motion Analysis and Synthesis** (44)
-- **Diffusion** (43)
 - **Distillation** (39)
+- **Robustness** (37)
 - **Human Demonstration** (37)
-- **Robustness** (36)
 - **Hardware Design** (35)
 - **Foundation Model** (34)
+- **Safety** (33)
 - **Proprioception** (32)
-- **Safety** (32)
 - **Gait** (31)
 - **Fine-tuning** (28)
-- **Collision** (26)
+- **Collision** (27)
 
 ---
 
@@ -95,6 +95,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/loco-manipulation-and-whole-body-control/2026-10)
 
+- [HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training](https://arxiv.org/abs/2610.32909) — `Reinforcement Learning`, `Whole-Body Control`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying](https://arxiv.org/abs/2610.32460) — `Whole-Body Control`, `Motion Retargeting`, `Humanoid`, `Dataset`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.31166) — `Manipulation`, `Real Robot`, `Humanoid`, `Vision-Language`, `Benchmark`, `Loco-Manipulation and Whole-Body Control`
 - [LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30876) — `Teleoperation`, `Locomotion`, `Manipulation`, `Robustness`, `Humanoid`, `PPO`
 - [Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30540) — `Reinforcement Learning`, `Whole-Body Control`, `Motion Retargeting`, `Manipulation`, `Human Demonstration`, `Humanoid`
@@ -643,6 +645,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/teleoperation/2026-10)
 
+- [ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback](https://arxiv.org/abs/2610.32966) — `Teleoperation`, `Humanoid`, `Pre-training`, `Diffusion`
 - [HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking](https://arxiv.org/abs/2610.29903) — `Teleoperation`, `Manipulation`, `Humanoid`, `Optimization-Based`, `Loco-Manipulation and Whole-Body Control`
 - [SMR: Learning streaming motion retargeting for humanoids from human semantic](https://arxiv.org/abs/2610.29169) — `Whole-Body Control`, `Motion Retargeting`, `Transformer`, `Humanoid`, `Optimization-Based`, `Teleoperation`
 - [Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation](https://arxiv.org/abs/2610.28712) — `Teleoperation`, `Humanoid`, `Navigation`
@@ -741,6 +744,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/locomotion/2026-10)
 
+- [Delay Randomization Widens the Delay Margin of Learned Humanoid Motion Trackers](https://arxiv.org/abs/2610.32277) — `Locomotion`, `Robustness`, `Simulator`, `MuJoCo`, `Humanoid`
+- [Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots](https://arxiv.org/abs/2610.31923) — `Safety`, `Humanoid`, `Collision`, `Dataset`, `Locomotion`, `Real Robot`
 - [Humanoid Mobility via Attention-based Contacts](https://arxiv.org/abs/2610.31608) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Fine-tuning`, `Self-Supervised`
 - [MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion](https://arxiv.org/abs/2610.30334) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Navigation`
 - [Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer](https://arxiv.org/abs/2610.30080) — `Locomotion`, `Humanoid`, `Fine-tuning`
