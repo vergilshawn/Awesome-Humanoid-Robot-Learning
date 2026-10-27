@@ -7,9 +7,9 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 2 papers
-- **Figure:** 15 papers
+- **Figure:** 16 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 67 papers
+- **Unitree G1:** 71 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 22 papers
 - **iCub:** 1 papers
@@ -17,6 +17,102 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.35075)
+- **Authors:** Dianyi Yang, Mengya Liu, Zhumei Wang, Yu Liu, Xiaochen Zhang, Yixuan Li et al. (12 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Real Robot
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Learning generalizable humanoid loco-manipulation remains bottlenecked by costly real-world demonstrations. Simulation provides a scalable alternative, but requires visually faithful, physics-ready scenes and executable whole-body motions.
+
+---
+
+## HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.34186)
+- **Authors:** Yang Liu, Jiacheng Liu, Hengtao Li, Yuheng Huang, Zijian Yang, Ji Dai et al. (17 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Human Demonstration
+  - Humanoid
+  - Proprioception
+  - Vision-Language
+  - Pre-training
+  - Fine-tuning
+  - Benchmark
+
+### Summary
+
+Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios. Although egocentric human demonstrations provide a complementary source of task experience, differences in visual embodiment and missing robot proprioception complicate transfer to humanoid policies.
+
+---
+
+## HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.34126)
+- **Authors:** Chao Chen, Zhenrong Wang, Jilong Wang, Yusen Feng, Jiangran Lyu, Li Yi et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Fine-tuning
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid robots have recently achieved remarkable success in motion tracking. However, during real-world deployment, robots inevitably encounter dynamics gaps arising from either extra physical disturbances or inaccurate simulation modeling, resulting in a significant training-deployment gap.
+
+---
+
+## Active Reachability Learning for Humanoid Recoverability Monitoring
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.33317)
+- **Authors:** Zeyuan Feng, Baljeet Singh, Sarthak Ranjeet Kaingade, Somil Bansal, Bryan Trinh
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Benchmark
+  - PPO
+  - Locomotion
+
+### Summary
+
+Deploying humanoid task policies requires reliable runtime monitors that anticipate unrecoverable falls in time to trigger a fallback. We formulate this task as learning the stochastic, finite-horizon recoverability envelope of a given fallback policy.
+
+---
+
+## RAIWAY: A Large-Wheeled Bipedal Robot with Contact-Informed Blind Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.33172)
+- **Authors:** Kyungmin Nam, Jiseong Lee, Donghyuk Choi, Jeongsoo Park, Woojin Kim, Jemin Hwangbo
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Proprioception
+  - State Estimation
+
+### Summary
+
+We present RAIWAY, an in-house wheeled bipedal robot with 20-inch wheels, together with a contact-informed control approach for rolling locomotion across irregular and discontinuous terrain. Such locomotion is fundamentally contact-dominated, governed by local wheel--terrain interaction that is impractical to instrument directly and depends on more than terrain geometry alone.
+
+---
 
 ## CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying
 
@@ -82,7 +178,7 @@ Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as ob
 ## Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.30540)
-- **Authors:** Xiongbo Shi, Shihang Du, Zongyou Yu, Ao Zhou, Xudong Zhang, Ziyu Lin et al. (9 authors)
+- **Authors:** Xiongbo Shi, Shihang Du, Zongyou Yu, Ziyu Lin, Ao Zhou, Xudong Zhang et al. (9 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
 - **Tags:**

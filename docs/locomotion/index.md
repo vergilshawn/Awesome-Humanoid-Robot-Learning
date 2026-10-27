@@ -1,10 +1,10 @@
 # Locomotion
 
-**230 papers** in this category.
+**232 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (37 papers)
+- [2026-10](/locomotion/2026-10) (39 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,43 @@
 ---
 
 ## Recent Papers
+
+## Active Reachability Learning for Humanoid Recoverability Monitoring
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.33317)
+- **Authors:** Zeyuan Feng, Baljeet Singh, Sarthak Ranjeet Kaingade, Somil Bansal, Bryan Trinh
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Benchmark
+  - PPO
+  - Locomotion
+
+### Summary
+
+Deploying humanoid task policies requires reliable runtime monitors that anticipate unrecoverable falls in time to trigger a fallback. We formulate this task as learning the stochastic, finite-horizon recoverability envelope of a given fallback policy.
+
+---
+
+## RAIWAY: A Large-Wheeled Bipedal Robot with Contact-Informed Blind Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.33172)
+- **Authors:** Kyungmin Nam, Jiseong Lee, Donghyuk Choi, Jeongsoo Park, Woojin Kim, Jemin Hwangbo
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Proprioception
+  - State Estimation
+
+### Summary
+
+We present RAIWAY, an in-house wheeled bipedal robot with 20-inch wheels, together with a contact-informed control approach for rolling locomotion across irregular and discontinuous terrain. Such locomotion is fundamentally contact-dominated, governed by local wheel--terrain interaction that is impractical to instrument directly and depends on more than terrain geometry alone.
+
+---
 
 ## Delay Randomization Widens the Delay Margin of Learned Humanoid Motion Trackers
 
@@ -364,39 +401,5 @@ Training humanoid robots to learn human behaviors requires expensive data collec
 ### Summary
 
 Physical flexibility plays a significant role not only in human motions but also in robot motions. For example, a humanoid robot with passive and flexible elements, which can be regarded as a rigid--soft hybrid-link system, has the advantages of storing energy and mitigating impact in a dynamic motion.
-
----
-
-## Push the Limit: Learning High-Speed Sprinting and Aggressive Cornering on a Full-Scale Humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.14840)
-- **Authors:** Huaxing Huang, Ruidong Li, Jinchao Han, Ziyang Dong, Wenhao Cui
-- **Published:** 2026-10
-- **Tags:**
-  - Biped
-  - Humanoid
-  - Gait
-  - Impact
-  - Locomotion
-
-### Summary
-
-We present a learning-based framework that enables a full-scale bipedal humanoid to sprint at over 7 m/s with motion-prior-guided gait and perform aggressive cornering at high speed with a pronounced trunk lean of up to $25^\circ$. Achieving this combination is challenging: above approximately 4 m/s, periodic foot impacts induce severe, high-frequency yaw-rate oscillations intrinsic to high-speed gaits.
-
----
-
-## RoboFake: Are Deepfake Detectors Ready for Humanoid Face Robots?
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.14269)
-- **Authors:** Hao Chen, Junnan Xu
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Humanoid face robots can now move their lips in sync with speech and show detailed facial expressions. Give such a robot the face of a real person and drive it with generated speech, and you get a face forgery that happens in front of the camera: the camera records a real object, and no pixel is edited.
 
 ---

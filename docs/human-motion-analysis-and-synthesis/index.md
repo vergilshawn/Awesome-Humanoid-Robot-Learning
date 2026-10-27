@@ -1,10 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**30 papers** in this category.
+**31 papers** in this category.
 
 ## Months
 
-- [2026-10](/human-motion-analysis-and-synthesis/2026-10) (2 papers)
+- [2026-10](/human-motion-analysis-and-synthesis/2026-10) (3 papers)
 - [2026-09](/human-motion-analysis-and-synthesis/2026-09) (4 papers)
 - [2026-08](/human-motion-analysis-and-synthesis/2026-08) (1 papers)
 - [2026-07](/human-motion-analysis-and-synthesis/2026-07) (1 papers)
@@ -28,6 +28,23 @@
 ---
 
 ## Recent Papers
+
+## HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.34126)
+- **Authors:** Chao Chen, Zhenrong Wang, Jilong Wang, Yusen Feng, Jiangran Lyu, Li Yi et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Fine-tuning
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid robots have recently achieved remarkable success in motion tracking. However, during real-world deployment, robots inevitably encounter dynamics gaps arising from either extra physical disturbances or inaccurate simulation modeling, resulting in a significant training-deployment gap.
+
+---
 
 ## From Video to Vision: Learning Generalizable Humanoid Carrying from Human Motion
 
@@ -327,20 +344,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2504.17695)
 - **Published:** 2025-04
-- **Tags:**
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## 🌟 FRAME: Floor-aligned Representation for Avatar Motion from Egocentric Video
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2503.23094)
-- **Project:** [GitHub](https://vcai.mpi-inf.mpg.de/projects/FRAME/)
-- **Published:** 2025-03
 - **Tags:**
   - Human Motion Analysis and Synthesis
 

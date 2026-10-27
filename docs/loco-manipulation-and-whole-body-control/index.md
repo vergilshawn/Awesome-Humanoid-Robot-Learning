@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**297 papers** in this category.
+**303 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (42 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (48 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,125 @@
 ---
 
 ## Recent Papers
+
+## Learning Force-Reactive Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.35862)
+- **Authors:** Sihang Li, Xiaofeng Guo, Jinkun Cao, Charlie Cheng, Ruihan Yang, Chen Feng et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Diffusion Policy
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Proprioception
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone.
+
+---
+
+## Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.35075)
+- **Authors:** Dianyi Yang, Mengya Liu, Zhumei Wang, Yu Liu, Xiaochen Zhang, Yixuan Li et al. (12 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Manipulation
+  - Zero-Shot
+  - Real Robot
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Learning generalizable humanoid loco-manipulation remains bottlenecked by costly real-world demonstrations. Simulation provides a scalable alternative, but requires visually faithful, physics-ready scenes and executable whole-body motions.
+
+---
+
+## ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.34370)
+- **Authors:** Nuo Chen, Shizeng Zhang, Yujie Yang, Jinghong Wang, Zhenyang Qu, Xiao-Ming Wu et al. (13 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+In this paper, we propose ThinkLocoManip, an agentic harness for legged loco-manipulation designed to tackle complex, long-horizon tasks in large-scale environments. Existing approaches typically follow either direct action generation or a plan-then-act paradigm, both of which can struggle with the generalization and error-recovery capabilities required for extended task execution.
+
+---
+
+## HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.34186)
+- **Authors:** Yang Liu, Jiacheng Liu, Hengtao Li, Yuheng Huang, Zijian Yang, Ji Dai et al. (17 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Human Demonstration
+  - Humanoid
+  - Proprioception
+  - Vision-Language
+  - Pre-training
+  - Fine-tuning
+  - Benchmark
+
+### Summary
+
+Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios. Although egocentric human demonstrations provide a complementary source of task experience, differences in visual embodiment and missing robot proprioception complicate transfer to humanoid policies.
+
+---
+
+## MimicAll: Structured Embodiment Conditioning for Cross-Humanoid Whole-Body Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.33508)
+- **Authors:** Jia Li, Lingyun Xu, Yitang Li, Hao Zhao
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Benchmark
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid motion trackers reproduce diverse behaviors, but sharing a policy across bodies requires accounting for differences in structure, morphology and dynamics. We present MimicAll, a reinforcement-learning framework for shared whole-body motion tracking across heterogeneous humanoids.
+
+---
+
+## MOTIO: Agentic Skill Engineering for Reality-Grounded Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.33446)
+- **Authors:**  SpatialtemporalAI
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Humanoid
+  - Distillation
+  - DAgger
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We present MOTIO, an agentic skill-engineering system that turns ordinary human-action videos, reality-grounded 3D assets, motion references, and reusable robot skills into executable humanoid loco-manipulation programs. Through in-context task and contact reasoning, an agent constructs staged robot-native interactions and improves them using physics execution, multi-frame feedback, and human validation---without task-specific teleoperation or robot demonstration collection.
+
+---
 
 ## HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training
 
@@ -102,7 +221,7 @@ Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as ob
 ## LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.30876)
-- **Authors:** Dewei Wang, Jinrui Han, Jiyuan Shi, Chenyun Zhang, Xianbo Lu, Jiabao Wu et al. (11 authors)
+- **Authors:** Dewei Wang, Jinrui Han, Jiyuan Shi, Chenyun Zhang, Xianbo Lu, Jiabao Wu et al. (12 authors)
 - **Published:** 2026-10
 - **Tags:**
   - Teleoperation
@@ -122,7 +241,7 @@ Humanoid robots must coordinate locomotion and manipulation in everyday environm
 ## Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.30540)
-- **Authors:** Xiongbo Shi, Shihang Du, Zongyou Yu, Ao Zhou, Xudong Zhang, Ziyu Lin et al. (9 authors)
+- **Authors:** Xiongbo Shi, Shihang Du, Zongyou Yu, Ziyu Lin, Ao Zhou, Xudong Zhang et al. (9 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
 - **Tags:**
@@ -319,128 +438,5 @@ Quadruped locomotion requires coordinating body motion,contact forces, foothold 
 ### Summary
 
 Learning a single perceptive policy for diverse humanoid loco-manipulation requires unifying high-level task decisions without losing the state-dependent physical responses that make each interaction succeed. This makes the representation between high-level planning and whole-body control critical: kinematic or contact targets provide compact abstractions but do not directly encode interaction-specific control responses, while directly predicting low-level actions requires the planner to model high-frequency closed-loop feedback.
-
----
-
-## Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.23548)
-- **Authors:** Yanzhou Jin, Fei Suo, Chang Liu, Yasuhisa Hasegawa, Liming Chen, Yusuke Iwasawa et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Legged robots equipped with manipulators offer promising capabilities for loco-manipulation tasks in unstructured environments. However, achieving task-consistent end-effector behavior during locomotion remains challenging due to terrain-induced disturbances and the strong coupling between locomotion and manipulation, particularly for small-scale quadruped platforms.
-
----
-
-## Whole-Body Dexterity
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.22184)
-- **Authors:** Conor Mc Gartoll, An Dang, Pranay Thangeda, Arjun Gupta, Carolina Higuera, Nima Fazeli et al. (8 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Sim-to-Real
-  - Manipulation
-  - Zero-Shot
-  - Humanoid
-  - Proprioception
-  - Dataset
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Current humanoid dexterous manipulation remains largely confined to end-effectors and simple grasps, falling short of humans' ability to engage the entire body by bracing and sliding bulky objects against the arms and torso. We introduce Whole-Body Dexterity (WBD), a general framework that uses the robot's body and appendages as contact surfaces to grasp and manipulate objects.
-
----
-
-## Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.19393)
-- **Authors:** Lingfan Bao, Hanshang Zhu, Yan Pan, Jincheng Wang, Jingyang Yu, Tianhu Peng et al. (9 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Residual Learning
-  - Loco-Manipulation and Whole-Body Control
-  - Physics-Based Character Animation
-
-### Summary
-
-Whole-body control plays a crucial role in enabling humanoid robots to execute expressive motions. Faithful execution requires preserving both the intended action and its expressive characteristics.
-
----
-
-## EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.18872)
-- **Authors:** Yunsong Zhou, Xuekun Jiang, Haiqi Shen, Hangxu Liu, Chaojian Shi, Yujie Liu et al. (14 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Human Demonstration
-  - Humanoid
-  - Dataset
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems.
-
----
-
-## $λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.18950)
-- **Authors:** Lambda-humanoid Team,  :, Chongyang Xu, Jin Chen, Jinhui Ye, Yilun Chen et al. (17 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Zero-Shot
-  - Human Demonstration
-  - Humanoid
-  - Foundation Model
-  - Dataset
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly. Human demonstrations offer a scalable alternative, but existing egocentric human supervision often omits locomotion and posture, while embodiment differences and controller dynamics hinder accurate end-effector execution.
-
----
-
-## TRACE: Efficient Transfer Learning for Neural Whole-Body Control Across Humanoid Embodiments
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.17999)
-- **Authors:** Qingyu Lan, Zhihao Tian, Zifan Wang, Junwei Liang
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Teleoperation
-  - Humanoid
-  - Vision-Language
-  - Foundation Model
-  - Fine-tuning
-  - Distillation
-
-### Summary
-
-Humanoid behavior foundation models (BFMs) enable diverse whole-body control, but adapting a pretrained controller to a new embodiment remains challenging because of kinematic and dynamic mismatch. We present TRACE, a framework for efficient cross-embodiment adaptation that preserves pretrained motion representations while specializing feedback control to the target robot.TRACE first injects kinematic priors into input and output projection layers and aligns nominal joint dynamics to reduce embodiment mismatch and support stable fine-tuning.
 
 ---

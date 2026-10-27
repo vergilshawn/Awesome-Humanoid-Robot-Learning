@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**41 papers** in this category.
+**42 papers** in this category.
 
 ## Months
 
-- [2026-10](/simulation-benchmark/2026-10) (4 papers)
+- [2026-10](/simulation-benchmark/2026-10) (5 papers)
 - [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
@@ -26,6 +26,23 @@
 ---
 
 ## Recent Papers
+
+## Networked Humanoid Intelligence: Communication, Coordination, Collaboration, and Social Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.34740)
+- **Authors:** Loc X. Nguyen, Huy Q. Le, Ji Su Yoon, Nguyen H. Tran, Eui-Nam Huh, Choong Seon Hong
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots are moving from laboratory platforms toward connected fleets that share workspaces, infrastructure, tasks, and knowledge with other robots and humans. As deployments grow, the operation and improvement of each humanoid depend on information exchanged across the network.
+
+---
 
 ## SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots
 
@@ -392,26 +409,5 @@ Humanoid foundation models are advancing faster than we can evaluate them. While
 ### Summary
 
 World-action models (WAMs) jointly generate future video and robot actions through iterative diffusion, achieving strong performance on manipulation benchmarks but requiring tens of denoising steps, a cost that precludes real-time control. Step distillation has emerged as the natural remedy, but off-the-shelf methods break down in the joint video-action setting because video and action streams use different SNR-shifted noise schedules and reach training with substantially different marginal noise distributions, an asymmetry that single-modality distillation methods cannot accommodate.
-
----
-
-## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
-- **Project:** [GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
-- **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
-- **Published:** 2026-05
-- **Tags:**
-  - Safety
-  - Robustness
-  - MuJoCo
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
 
 ---
