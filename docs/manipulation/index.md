@@ -1,10 +1,10 @@
 # Manipulation
 
-**78 papers** in this category.
+**79 papers** in this category.
 
 ## Months
 
-- [2026-10](/manipulation/2026-10) (5 papers)
+- [2026-10](/manipulation/2026-10) (6 papers)
 - [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
@@ -34,6 +34,23 @@
 ---
 
 ## Recent Papers
+
+## A fully articulated humanoid dexterous hand with human-level joint structure enabled by linkage-based actuation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36789)
+- **Authors:** Jihao Li, Jianguo Wang, Haotian Guo, Yanzhe Wang, Guodong Lu, Huixu Dong
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - PPO
+
+### Summary
+
+Humanoid dexterous hands are a core component of embodied intelligence, enabling robots to translate high-level intent into rich and adaptive physical interaction. However, existing designs remain constrained by a persistent trade-off among anthropomorphic kinematic complexity, mechanical robustness, load capacity and control simplicity, limiting dexterous manipulation in unstructured environments.
+
+---
 
 ## PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits
 
@@ -379,26 +396,5 @@ Human egocentric video is a scalable supervision source for humanoid policy lear
 ### Summary
 
 Retargeting human object interaction demonstrations to physics based simulation requires reproducing not only body motion but also the object motion and contacts that make manipulation succeed. However, position only hand trajectories do not specify the contact forces needed to manipulate objects, and directly tracking them can overconstrain contact rich finger behavior.
-
----
-
-## Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.32009)
-- **Authors:** Xiaopeng Lin, Ruoqi Yang, Shijie Lian, Zhaolong Shen, Bin Yu, Changti Wu et al. (17 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Zero-Shot
-  - Human Demonstration
-  - Humanoid
-  - Inverse Kinematics
-  - Vision-Language
-  - Physics-Based Character Animation
-
-### Summary
-
-Vision-language-action (VLA) models across robot embodiments require high-quality observation--action supervision to learn deployable action distributions, yet scaling such robot data remains difficult, especially for high-DoF humanoids. Teleoperation provides controller-aligned supervision, while human egocentric videos capture diverse bimanual manipulation but do not directly provide executable robot actions.
 
 ---

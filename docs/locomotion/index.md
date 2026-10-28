@@ -1,10 +1,10 @@
 # Locomotion
 
-**232 papers** in this category.
+**236 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (39 papers)
+- [2026-10](/locomotion/2026-10) (43 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,85 @@
 ---
 
 ## Recent Papers
+
+## Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.37330)
+- **Authors:** Hanwen Ren, Meng Zheng, Wenzhe Cui, Benjamin Planche, Zhongpai Gao, Anwesa Choudhuri et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - Policy Learning
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+Vision-language-action (VLA) models provide a promising paradigm for scalable robotic manipulation, yet their reliance on success-only behavioral cloning leaves them brittle; lacking corrective training signals, minor execution errors rapidly compound into unrecoverable, out-of-distribution failures. To address this limitation, we propose Adaptive Failure-Informed Learning (AFIL), an end-to-end framework that leverages failure trajectories as adaptive negative guidance for diffusion- and flow-based VLA policies.
+
+---
+
+## HC2Robot: Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36825)
+- **Authors:** Wenhao Xu, Yanheng Mai, Yifei Fu, Nan Zheng, Yanbo Zhou, Zirui Huang et al. (9 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Transformer
+  - Simulator
+  - Humanoid
+  - Motion Prediction
+  - Actor-Critic
+  - PPO
+
+### Summary
+
+Humanoid parkour requires robots to reason about future footholds and whole-body motions over highly discontinuous terrain. We revisit the information asymmetry in asymmetric actor-critic learning for perceptive humanoid locomotion: the critic exploits privileged simulator signals during training, whereas the deployable actor operates solely from onboard perception.
+
+---
+
+## REACH: An RL-based Hierarchical Humanoid Crawling Framework for Adaptable Confined Space Traversal
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36546)
+- **Authors:** Shengzhang Xu, Yuning Guo, Weiyi Hu, Yifeng Xu, Zhongyu Li, He Kong
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Walking
+  - Point Cloud
+  - Collision
+
+### Summary
+
+Humanoid locomotion in confined spaces requires continuous height adaptation across multiple locomotion modes, yet most existing approaches remain limited to height-adjustable bipedal walking. We present REACH, an RL-based hierarchical framework that enables a Unitree G1 humanoid to traverse height-constrained environments through variable-height bipedal walking and crawling.
+
+---
+
+## GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36507)
+- **Authors:** Liang Li, Guoyao Zhang, Xingyu Chen, Sikai Wu, Qianyang Wu, Yuhang Lin et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Humanoid
+  - Foundation Model
+  - Fine-tuning
+
+### Summary
+
+Humanoid behavior foundation models (BFMs) provide reusable whole-body motion priors: given a kinematic reference, they generate coordinated joint commands for motion replay, teleoperation, and VLA control. However, trained primarily on flat-ground motion, BFMs lack an explicit mechanism to adapt foot placement, swing clearance, and contact timing to local terrain.
+
+---
 
 ## Active Reachability Learning for Humanoid Recoverability Monitoring
 
@@ -330,76 +409,5 @@ Humanoid control requires coordinating whole-body posture with position and head
 ### Summary
 
 Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space.
-
----
-
-## PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.20579)
-- **Authors:** Haoran Jiang, Yichao Zhong, Kai Zhang, Cheng Liu, Yixuan Pan, Zhenjie Yang et al. (9 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Simulator
-  - Humanoid
-  - Collision
-  - PPO
-  - Locomotion
-
-### Summary
-
-Unlike singles, humanoid table tennis doubles requires teammates to strike in strict alternation while sharing a confined workspace. Rapid repositioning can compromise striking accuracy, while uncoordinated teammate movements introduce collision risks.
-
----
-
-## Design and Analysis of a Nonlinear Parallel Mechanism Coupling for Dynamic Humanoid Legs
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.16604)
-- **Authors:** Rohit Kumar, Heiner Peters, Felix Wiebe, Franek Stark, Janne Janzen, Dennis Mronga et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-Humanoids increasingly demand lightweight leg mechanisms for agile, dynamic, and energy-efficient locomotion. Reducing distal inertia through proximal actuation has thus become a common design goal.
-
----
-
-## Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.15274)
-- **Authors:** Yongpeng Cao, Masahiro Hirano, Yuji Yamakawa
-- **Published:** 2026-10
-- **Tags:**
-  - Motion Retargeting
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Training humanoid robots to learn human behaviors requires expensive data collection, and human-robot interaction data can be even more difficult and costly to collect. Training a specialized reaction model for each humanoid embodiment can also be time-consuming and resource-intensive.
-
----
-
-## Modeling and Control of a Rigid-soft Hybrid-link Humanoid Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.15073)
-- **Authors:** Zewen He, Taiki Ishigaki, Ko Yamamoto
-- **Published:** 2026-10
-- **Tags:**
-  - Biped
-  - Humanoid
-  - Walking
-  - Inverse Kinematics
-  - Impact
-  - Optimization-Based
-  - PPO
-  - Locomotion
-
-### Summary
-
-Physical flexibility plays a significant role not only in human motions but also in robot motions. For example, a humanoid robot with passive and flexible elements, which can be regarded as a rigid--soft hybrid-link system, has the advantages of storing energy and mitigating impact in a dynamic motion.
 
 ---

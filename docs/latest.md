@@ -2,6 +2,160 @@
 
 All papers sorted by publication date (newest first).
 
+## Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.37330)
+- **Authors:** Hanwen Ren, Meng Zheng, Wenzhe Cui, Benjamin Planche, Zhongpai Gao, Anwesa Choudhuri et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - Vision-Language
+  - Policy Learning
+  - Diffusion
+  - Locomotion
+
+### Summary
+
+Vision-language-action (VLA) models provide a promising paradigm for scalable robotic manipulation, yet their reliance on success-only behavioral cloning leaves them brittle; lacking corrective training signals, minor execution errors rapidly compound into unrecoverable, out-of-distribution failures. To address this limitation, we propose Adaptive Failure-Informed Learning (AFIL), an end-to-end framework that leverages failure trajectories as adaptive negative guidance for diffusion- and flow-based VLA policies.
+
+---
+
+## HC2Robot: Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36825)
+- **Authors:** Wenhao Xu, Yanheng Mai, Yifei Fu, Nan Zheng, Yanbo Zhou, Zirui Huang et al. (9 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Transformer
+  - Simulator
+  - Humanoid
+  - Motion Prediction
+  - Actor-Critic
+  - PPO
+
+### Summary
+
+Humanoid parkour requires robots to reason about future footholds and whole-body motions over highly discontinuous terrain. We revisit the information asymmetry in asymmetric actor-critic learning for perceptive humanoid locomotion: the critic exploits privileged simulator signals during training, whereas the deployable actor operates solely from onboard perception.
+
+---
+
+## A fully articulated humanoid dexterous hand with human-level joint structure enabled by linkage-based actuation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36789)
+- **Authors:** Jihao Li, Jianguo Wang, Haotian Guo, Yanzhe Wang, Guodong Lu, Huixu Dong
+- **Published:** 2026-10
+- **Tags:**
+  - Manipulation
+  - Robustness
+  - Humanoid
+  - PPO
+
+### Summary
+
+Humanoid dexterous hands are a core component of embodied intelligence, enabling robots to translate high-level intent into rich and adaptive physical interaction. However, existing designs remain constrained by a persistent trade-off among anthropomorphic kinematic complexity, mechanical robustness, load capacity and control simplicity, limiting dexterous manipulation in unstructured environments.
+
+---
+
+## Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36615)
+- **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (13 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Collision
+  - Dataset
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Enabling a humanoid to interact naturally with human partners requires preserving not only individual motions but also the spatial, semantic, and contact relationships underlying the interaction (i.e., hugging, dancing, hand-shaking, etc.). Furthermore, a practical solution should generalize across various humanoid embodiments with distinct morphologies and kinematic constraints.
+
+---
+
+## REACH: An RL-based Hierarchical Humanoid Crawling Framework for Adaptable Confined Space Traversal
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36546)
+- **Authors:** Shengzhang Xu, Yuning Guo, Weiyi Hu, Yifeng Xu, Zhongyu Li, He Kong
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Walking
+  - Point Cloud
+  - Collision
+
+### Summary
+
+Humanoid locomotion in confined spaces requires continuous height adaptation across multiple locomotion modes, yet most existing approaches remain limited to height-adjustable bipedal walking. We present REACH, an RL-based hierarchical framework that enables a Unitree G1 humanoid to traverse height-constrained environments through variable-height bipedal walking and crawling.
+
+---
+
+## GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36507)
+- **Authors:** Liang Li, Guoyao Zhang, Xingyu Chen, Sikai Wu, Qianyang Wu, Yuhang Lin et al. (9 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Humanoid
+  - Foundation Model
+  - Fine-tuning
+
+### Summary
+
+Humanoid behavior foundation models (BFMs) provide reusable whole-body motion priors: given a kinematic reference, they generate coordinated joint commands for motion replay, teleoperation, and VLA control. However, trained primarily on flat-ground motion, BFMs lack an explicit mechanism to adapt foot placement, swing clearance, and contact timing to local terrain.
+
+---
+
+## Whole-Body Humanoid Control via Stochastic Motion Tokenization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36452)
+- **Authors:** Michael Drolet, Oleg Arenz, Jan Peters
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Walking
+  - VAE
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+While velocity-commanded RL policies are effective for controlling quadrupeds, they are a limited interface for humanoids that need to perform complex whole-body motions. Furthermore, RL tracking policies for whole-body motions typically have limited information about the desired future motion, preventing them from performing controlled deviations to achieve long-term task success; such information is particularly relevant when a controller must prepare for transitions between behaviors.
+
+---
+
+## Learning Multi-Phase Robot Loco-Manipulation via Phase-Conditioned Policy Optimization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36270)
+- **Authors:** Simone Manni, Annika Wollschläger, Dario Bellicoso, Abel Gawel, Marco Hutter, Simon Le Cleac'h et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Policy Learning
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Complex whole-body loco-manipulation requires executing diverse maneuvers, such as crouching, grasping, and locomotion, within a single long-horizon task. While performing simple pick-and-place behaviors is well-established, scaling to complex, long-horizon tasks remains difficult.
+
+---
+
 ## Learning Force-Reactive Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.35862)

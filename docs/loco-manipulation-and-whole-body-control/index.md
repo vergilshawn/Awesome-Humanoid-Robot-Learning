@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**303 papers** in this category.
+**305 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (48 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (50 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,44 @@
 ---
 
 ## Recent Papers
+
+## Whole-Body Humanoid Control via Stochastic Motion Tokenization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36452)
+- **Authors:** Michael Drolet, Oleg Arenz, Jan Peters
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Walking
+  - VAE
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+While velocity-commanded RL policies are effective for controlling quadrupeds, they are a limited interface for humanoids that need to perform complex whole-body motions. Furthermore, RL tracking policies for whole-body motions typically have limited information about the desired future motion, preventing them from performing controlled deviations to achieve long-term task success; such information is particularly relevant when a controller must prepare for transitions between behaviors.
+
+---
+
+## Learning Multi-Phase Robot Loco-Manipulation via Phase-Conditioned Policy Optimization
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36270)
+- **Authors:** Simone Manni, Annika Wollschläger, Dario Bellicoso, Abel Gawel, Marco Hutter, Simon Le Cleac'h et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Policy Learning
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Complex whole-body loco-manipulation requires executing diverse maneuvers, such as crouching, grasping, and locomotion, within a single long-horizon task. While performing simple pick-and-place behaviors is well-established, scaling to complex, long-horizon tasks remains difficult.
+
+---
 
 ## Learning Force-Reactive Humanoid Loco-Manipulation
 
@@ -397,46 +435,5 @@ Humanoid robots are envisioned to perform diverse human-level tasks through thei
 ### Summary
 
 Humanoid loco-manipulation is particularly challenging because it requires coordinating locomotion, balance, and object interaction, making it difficult to learn from limited demonstrations or from scratch through Reinforcement Learning (RL). We introduce DiPLO (self-distilled Diffusion Planning for Loco-manipulation), a framework that combines a self-distilled diffusion planner with a low-level whole-body tracking policy.
-
----
-
-## Learning Structured Locomotion References for Optimization-Based Whole-Body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.24779)
-- **Authors:** Ömer Tarık Banuş, Uluç Saranlı, M. Mert Ankaralı
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Locomotion
-  - Simulator
-  - Gait
-  - Optimization-Based
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Quadruped locomotion requires coordinating body motion,contact forces, foothold placement, and gait timing. We present a hierarchical controller in which reinforcement learning adapts these structured locomotion references while a gait scheduler, reactive footstep planner, and whole-body impulse controller retain responsibility for high-frequency execution.
-
----
-
-## Action-Aligned Latent Planning for Versatile Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.24675)
-- **Authors:** Yutang Lin, Guanya Shi, C. Karen Liu
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Sim-to-Real
-  - Manipulation
-  - Humanoid
-  - Foundation Model
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Learning a single perceptive policy for diverse humanoid loco-manipulation requires unifying high-level task decisions without losing the state-dependent physical responses that make each interaction succeed. This makes the representation between high-level planning and whole-body control critical: kinematic or contact targets provide compact abstractions but do not directly encode interaction-specific control responses, while directly predicting low-level actions requires the planner to model high-frequency closed-loop feedback.
 
 ---

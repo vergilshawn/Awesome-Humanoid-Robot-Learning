@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**50 papers** in this category.
+**51 papers** in this category.
 
 ## Months
 
-- [2026-10](/physics-based-character-animation/2026-10) (5 papers)
+- [2026-10](/physics-based-character-animation/2026-10) (6 papers)
 - [2026-09](/physics-based-character-animation/2026-09) (3 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (6 papers)
@@ -36,6 +36,26 @@
 ---
 
 ## Recent Papers
+
+## Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36615)
+- **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (13 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Collision
+  - Dataset
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Enabling a humanoid to interact naturally with human partners requires preserving not only individual motions but also the spatial, semantic, and contact relationships underlying the interaction (i.e., hugging, dancing, hand-shaking, etc.). Furthermore, a practical solution should generalize across various humanoid embodiments with distinct morphologies and kinematic constraints.
+
+---
 
 ## Beyond Human-Derived Motion: Exploring Robot-Specific Execution for Construction Humanoids
 
@@ -391,19 +411,5 @@ Enabling physics-based humanoids to execute diverse behaviors from high-level te
 ### Summary
 
 Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control.
-
----
-
-## Iterative Closed-Loop Motion Synthesis for Scaling the Capabilities of Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.21599)
-- **Published:** 2026-02
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---
