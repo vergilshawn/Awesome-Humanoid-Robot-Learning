@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**305 papers** in this category.
+**307 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (50 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (52 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,41 @@
 ---
 
 ## Recent Papers
+
+## METATRON: A Promptable Whole-Body Execution Layer for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.38027)
+- **Authors:** Chen Tessler, Yifeng Jiang, Alec Otto, Yi Shi, Umar Iqbal, Gal Chechik et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - Walking
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Humanoid controllers often require task-specific training despite sharing the need for balance and whole-body coordination. We present Metatron, a promptable whole-body execution layer combining a generative base policy with a programmable skill layer.
+
+---
+
+## FORGE: Feasible Online Reduced-Order Reference Generation and Whole-Body Execution for Agile Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.37974)
+- **Authors:** Adrian B. Ghansah, Yujin An, Jeeseop Kim, Soon-Jo Chung
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This paper presents a two-stage learning framework for versatile and agile humanoid locomotion that couples online reduced-order model (ROM) reference generation with whole-body tracking control. In the first stage, we train a command-conditioned whole-body reference generator using single rigid body dynamics combined with full humanoid kinematics.
+
+---
 
 ## Whole-Body Humanoid Control via Stochastic Motion Tokenization
 
@@ -259,7 +294,7 @@ Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as ob
 ## LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.30876)
-- **Authors:** Dewei Wang, Jinrui Han, Jiyuan Shi, Chenyun Zhang, Xianbo Lu, Jiabao Wu et al. (12 authors)
+- **Authors:** Dewei Wang, Jinrui Han, Jiyuan Shi, Chenyun Zhang, Xianbo Lu, Jiabao Wu et al. (14 authors)
 - **Published:** 2026-10
 - **Tags:**
   - Teleoperation
@@ -392,48 +427,5 @@ Physical interaction is a key capability for humanoid collaboration, requiring c
 ### Summary
 
 Humanoid robots operating in human-centric environments must coordinate the entire body to traverse tight, cluttered spaces while maintaining balance. Existing methods often struggle to jointly consider dynamic stability and collision avoidance from high-dimensional perceptual inputs.
-
----
-
-## Humanoid SRL: Augmenting Humanoids with Supernumerary Limbs for Coordinated Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.25628)
-- **Authors:** Fukang Liu, Feiyang Wu, Paul Barsa, Jaehwi Jang, Akshat Jain, Zhigen Zhao et al. (15 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - Zero-Shot
-  - Humanoid
-  - Trajectory Optimization
-  - Goal-Conditioned
-  - PPO
-  - Diffusion
-
-### Summary
-
-Humanoid robots are envisioned to perform diverse human-level tasks through their anthropomorphic morphology. Their dual-arm configuration enables a broad range of everyday actions.
-
----
-
-## DiPLO: Self-distilled Diffusion Planning for Loco-manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.24847)
-- **Authors:** Shafeef Omar, Sebastian Sanokowski, Elham Daneshmand, Dian Yu, Daniel Cremers, Cordelia Schmid et al. (7 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Diffusion Policy
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Fine-tuning
-  - Distillation
-  - PPO
-
-### Summary
-
-Humanoid loco-manipulation is particularly challenging because it requires coordinating locomotion, balance, and object interaction, making it difficult to learn from limited demonstrations or from scratch through Reinforcement Learning (RL). We introduce DiPLO (self-distilled Diffusion Planning for Loco-manipulation), a framework that combines a self-distilled diffusion planner with a low-level whole-body tracking policy.
 
 ---

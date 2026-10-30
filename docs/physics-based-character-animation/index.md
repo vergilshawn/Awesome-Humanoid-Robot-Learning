@@ -37,10 +37,10 @@
 
 ## Recent Papers
 
-## Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
+## HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36615)
-- **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (13 authors)
+- **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (12 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅
 - **Tags:**

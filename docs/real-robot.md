@@ -11,17 +11,35 @@ Papers with real humanoid robot deployment and experiments.
 - **NAO:** 1 papers
 - **Unitree G1:** 74 papers
 - **Unitree H1:** 1 papers
-- **Unknown Platform:** 23 papers
+- **Unknown Platform:** 24 papers
 - **iCub:** 1 papers
 
 ---
 
 ## All Real Robot Papers
 
-## Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
+## Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.40003)
+- **Authors:** Aoqian Zhang, Chunzheng Wang, Haoran Chen, Annan Tang, Cheng Xiang, Fan Shi et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Robustness
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Humanoids have become increasingly agile and capable in real-world environments. To operate safely in dynamic scenarios, they must rapidly evade fast-moving obstacles while maintaining stability and physically feasible whole-body motion.
+
+---
+
+## HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36615)
-- **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (13 authors)
+- **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (12 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅
 - **Tags:**

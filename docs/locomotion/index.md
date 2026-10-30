@@ -1,10 +1,10 @@
 # Locomotion
 
-**236 papers** in this category.
+**238 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (43 papers)
+- [2026-10](/locomotion/2026-10) (45 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,42 @@
 ---
 
 ## Recent Papers
+
+## Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.40003)
+- **Authors:** Aoqian Zhang, Chunzheng Wang, Haoran Chen, Annan Tang, Cheng Xiang, Fan Shi et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Robustness
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Humanoids have become increasingly agile and capable in real-world environments. To operate safely in dynamic scenarios, they must rapidly evade fast-moving obstacles while maintaining stability and physically feasible whole-body motion.
+
+---
+
+## An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.37801)
+- **Authors:** MinJun Chang
+- **Published:** 2026-10
+- **Tags:**
+  - Motion Retargeting
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Motion retargeting maps a demonstrated human movement onto a robot to compute its joint motion. This study examines how the construction of the desired wrist position affects whether computed arm joint angles reach their permitted limits on a Unitree H1-2.
+
+---
 
 ## Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer
 
@@ -369,45 +405,5 @@ We investigate how humanoid robots can learn a series of motor skills defined by
 ### Summary
 
 Recent advances in Vision-Language-Action (VLA) models and World Action Models (WAMs) have expanded the manipulation and whole body capabilities of individual robots. Yet a single robot remains limited by its embodiment, and many real world tasks require capabilities that can only emerge through cooperation.
-
----
-
-## BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.23127)
-- **Authors:** Liyun Yan, Haoyang Li, Yang Zhang, Jialing Zhu, Zhanxiang Cao, Zihao Zhou et al. (14 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - World Model
-  - Humanoid
-  - Goal-Conditioned
-  - GAN
-  - Locomotion
-
-### Summary
-
-Humanoid control requires coordinating whole-body posture with position and heading in the world frame. Mainstream controllers imitate trajectories in the root frame, but struggle to regain the target world pose after displacement.
-
----
-
-## Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.20606)
-- **Authors:** Huixuan Cheng, Bike Zhang, Shankar Sastry, Koushil Sreenath
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Imitation Learning
-  - Transformer
-  - Humanoid
-  - Walking
-  - Diffusion
-  - Locomotion
-
-### Summary
-
-Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space.
 
 ---

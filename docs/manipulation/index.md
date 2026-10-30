@@ -1,10 +1,10 @@
 # Manipulation
 
-**79 papers** in this category.
+**80 papers** in this category.
 
 ## Months
 
-- [2026-10](/manipulation/2026-10) (6 papers)
+- [2026-10](/manipulation/2026-10) (7 papers)
 - [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
 - [2026-07](/manipulation/2026-07) (3 papers)
@@ -34,6 +34,25 @@
 ---
 
 ## Recent Papers
+
+## Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.39044)
+- **Authors:** Arth Shukla, Kehlani Fay, Huaze Liu, Darin Djapri, Alexiy Buynitsky, Nicklas Hansen
+- **Published:** 2026-10
+- **Tags:**
+  - Sim-to-Real
+  - Zero-Shot
+  - Safety
+  - Humanoid
+  - Contact Dynamics
+  - Manipulation
+
+### Summary
+
+Catching arbitrary objects requires generalization to novel projectiles and real-time adaptation to unpredictable contact dynamics under noisy visual observations. This paper presents Catch It All!, a sim-to-real catching framework for humanoid robots that generalizes and adapts to unseen objects with variable physical properties for underhand and overhand catches, using only one egocentric camera.
+
+---
 
 ## A fully articulated humanoid dexterous hand with human-level joint structure enabled by linkage-based actuation
 
@@ -381,20 +400,5 @@ Dexterous hands and humanoid robots are typically developed as distinct embodime
 ### Summary
 
 Human egocentric video is a scalable supervision source for humanoid policy learning, but current pipelines struggle with hand-object occlusion, oversimplified motion, or specialized capture hardware. We introduce AgenticFocus, a Mixed Reality synthesis pipeline that converts ordinary first-person-view human videos into robot-trainable demonstrations by restoring occluded object geometry, reconstructing full-hand motion, and retargeting it to a humanoid embodiment through camera-relative alignment and layered compositing.
-
----
-
-## WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.06438)
-- **Authors:** Wongyun Yu, Youngwoon Kim, Minsu Cho
-- **Published:** 2026-07
-- **Tags:**
-  - Manipulation
-  - Humanoid
-
-### Summary
-
-Retargeting human object interaction demonstrations to physics based simulation requires reproducing not only body motion but also the object motion and contacts that make manipulation succeed. However, position only hand trajectories do not specify the contact forces needed to manipulate objects, and directly tracking them can overconstrain contact rich finger behavior.
 
 ---

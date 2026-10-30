@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**42 papers** in this category.
+**43 papers** in this category.
 
 ## Months
 
-- [2026-10](/simulation-benchmark/2026-10) (5 papers)
+- [2026-10](/simulation-benchmark/2026-10) (6 papers)
 - [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
@@ -26,6 +26,23 @@
 ---
 
 ## Recent Papers
+
+## SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.39327)
+- **Authors:** Kyrylo Kolesnichenko, Jong-Hoon Kim
+- **Published:** 2026-10
+- **Tags:**
+  - MuJoCo
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+We present SONIC-K1, to our knowledge the first open-weights whole-body motion tracker for the Booster K1 humanoid, obtained by adapting the SONIC framework to this smaller robot. The policy is trained from scratch on a single shared GPU with a small fraction of the compute reported for SONIC.
+
+---
 
 ## Networked Humanoid Intelligence: Communication, Coordination, Collaboration, and Social Interaction
 
@@ -389,25 +406,5 @@ Humanoid robots promise whole-body interaction in human-centered environments, b
 ### Summary
 
 Humanoid foundation models are advancing faster than we can evaluate them. While real-world testing is expensive and difficult to reproduce, existing simulation benchmarks focus primarily on table-top or wheeled robots.
-
----
-
-## Flash-WAM: Modality-Aware Distillation for World Action Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.05254)
-- **Authors:** Arman Akbari, Ci Zhang, Arash Akbari, Lin Zhao, Yixiao Chen, Weiwei Chen et al. (9 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Distillation
-  - Benchmark
-  - Diffusion
-  - Simulation Benchmark
-
-### Summary
-
-World-action models (WAMs) jointly generate future video and robot actions through iterative diffusion, achieving strong performance on manipulation benchmarks but requiring tens of denoising steps, a cost that precludes real-time control. Step distillation has emerged as the natural remedy, but off-the-shelf methods break down in the joint video-action setting because video and action streams use different SNR-shifted noise schedules and reach training with substantially different marginal noise distributions, an asymmetry that single-modality distillation methods cannot accommodate.
 
 ---

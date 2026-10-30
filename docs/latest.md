@@ -2,6 +2,113 @@
 
 All papers sorted by publication date (newest first).
 
+## Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.40003)
+- **Authors:** Aoqian Zhang, Chunzheng Wang, Haoran Chen, Annan Tang, Cheng Xiang, Fan Shi et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Reinforcement Learning
+  - Robustness
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Humanoids have become increasingly agile and capable in real-world environments. To operate safely in dynamic scenarios, they must rapidly evade fast-moving obstacles while maintaining stability and physically feasible whole-body motion.
+
+---
+
+## SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.39327)
+- **Authors:** Kyrylo Kolesnichenko, Jong-Hoon Kim
+- **Published:** 2026-10
+- **Tags:**
+  - MuJoCo
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+We present SONIC-K1, to our knowledge the first open-weights whole-body motion tracker for the Booster K1 humanoid, obtained by adapting the SONIC framework to this smaller robot. The policy is trained from scratch on a single shared GPU with a small fraction of the compute reported for SONIC.
+
+---
+
+## Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.39044)
+- **Authors:** Arth Shukla, Kehlani Fay, Huaze Liu, Darin Djapri, Alexiy Buynitsky, Nicklas Hansen
+- **Published:** 2026-10
+- **Tags:**
+  - Sim-to-Real
+  - Zero-Shot
+  - Safety
+  - Humanoid
+  - Contact Dynamics
+  - Manipulation
+
+### Summary
+
+Catching arbitrary objects requires generalization to novel projectiles and real-time adaptation to unpredictable contact dynamics under noisy visual observations. This paper presents Catch It All!, a sim-to-real catching framework for humanoid robots that generalizes and adapts to unseen objects with variable physical properties for underhand and overhand catches, using only one egocentric camera.
+
+---
+
+## METATRON: A Promptable Whole-Body Execution Layer for Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.38027)
+- **Authors:** Chen Tessler, Yifeng Jiang, Alec Otto, Yi Shi, Umar Iqbal, Gal Chechik et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Robustness
+  - Humanoid
+  - Walking
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Humanoid controllers often require task-specific training despite sharing the need for balance and whole-body coordination. We present Metatron, a promptable whole-body execution layer combining a generative base policy with a programmable skill layer.
+
+---
+
+## FORGE: Feasible Online Reduced-Order Reference Generation and Whole-Body Execution for Agile Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.37974)
+- **Authors:** Adrian B. Ghansah, Yujin An, Jeeseop Kim, Soon-Jo Chung
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This paper presents a two-stage learning framework for versatile and agile humanoid locomotion that couples online reduced-order model (ROM) reference generation with whole-body tracking control. In the first stage, we train a command-conditioned whole-body reference generator using single rigid body dynamics combined with full humanoid kinematics.
+
+---
+
+## An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.37801)
+- **Authors:** MinJun Chang
+- **Published:** 2026-10
+- **Tags:**
+  - Motion Retargeting
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Motion retargeting maps a demonstrated human movement onto a robot to compute its joint motion. This study examines how the construction of the desired wrist position affects whether computed arm joint angles reach their permitted limits on a Unitree H1-2.
+
+---
+
 ## Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.37330)
@@ -19,6 +126,26 @@ All papers sorted by publication date (newest first).
 ### Summary
 
 Vision-language-action (VLA) models provide a promising paradigm for scalable robotic manipulation, yet their reliance on success-only behavioral cloning leaves them brittle; lacking corrective training signals, minor execution errors rapidly compound into unrecoverable, out-of-distribution failures. To address this limitation, we propose Adaptive Failure-Informed Learning (AFIL), an end-to-end framework that leverages failure trajectories as adaptive negative guidance for diffusion- and flow-based VLA policies.
+
+---
+
+## HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36615)
+- **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (12 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Collision
+  - Dataset
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Enabling a humanoid to interact naturally with human partners requires preserving not only individual motions but also the spatial, semantic, and contact relationships underlying the interaction (i.e., hugging, dancing, hand-shaking, etc.). Furthermore, a practical solution should generalize across various humanoid embodiments with distinct morphologies and kinematic constraints.
 
 ---
 
@@ -56,26 +183,6 @@ Humanoid parkour requires robots to reason about future footholds and whole-body
 ### Summary
 
 Humanoid dexterous hands are a core component of embodied intelligence, enabling robots to translate high-level intent into rich and adaptive physical interaction. However, existing designs remain constrained by a persistent trade-off among anthropomorphic kinematic complexity, mechanical robustness, load capacity and control simplicity, limiting dexterous manipulation in unstructured environments.
-
----
-
-## Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.36615)
-- **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (13 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅
-- **Tags:**
-  - Real Robot
-  - Humanoid
-  - Collision
-  - Dataset
-  - PPO
-  - Physics-Based Character Animation
-
-### Summary
-
-Enabling a humanoid to interact naturally with human partners requires preserving not only individual motions but also the spatial, semantic, and contact relationships underlying the interaction (i.e., hugging, dancing, hand-shaking, etc.). Furthermore, a practical solution should generalize across various humanoid embodiments with distinct morphologies and kinematic constraints.
 
 ---
 
@@ -480,7 +587,7 @@ Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as ob
 ## LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.30876)
-- **Authors:** Dewei Wang, Jinrui Han, Jiyuan Shi, Chenyun Zhang, Xianbo Lu, Jiabao Wu et al. (12 authors)
+- **Authors:** Dewei Wang, Jinrui Han, Jiyuan Shi, Chenyun Zhang, Xianbo Lu, Jiabao Wu et al. (14 authors)
 - **Published:** 2026-10
 - **Tags:**
   - Teleoperation

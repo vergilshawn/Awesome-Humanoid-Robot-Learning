@@ -1,5 +1,188 @@
 [
   {
+    "arxiv_id": "2610.40003",
+    "title": "Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids",
+    "paper_url": "https://arxiv.org/abs/2610.40003",
+    "project_url": null,
+    "authors": [
+      "Aoqian Zhang",
+      "Chunzheng Wang",
+      "Haoran Chen",
+      "Annan Tang",
+      "Cheng Xiang",
+      "Fan Shi",
+      "Shuzhi Sam Ge"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-29",
+    "abstract": "Humanoids have become increasingly agile and capable in real-world environments. To operate safely in dynamic scenarios, they must rapidly evade fast-moving obstacles while maintaining stability and physically feasible whole-body motion. Learning such behaviors remains challenging due to the high-dimensional dynamics of humanoid systems and the need to jointly balance reactive obstacle avoidance, motion naturalness, and control robustness. In this work, we present Humanoid Dodgeball, a reinforcement learning (RL) framework for agile dynamic obstacle avoidance in humanoids. Our method enables highly dynamic whole-body evasive maneuvers against incoming projectiles through threat-aware reward shaping, while multiple direction-specific adversarial motion priors regularize the learned behaviors toward stable and diverse human-like motions. Extensive simulation and hardware experiments demonstrate that the proposed framework substantially improves dynamic obstacle avoidance performance across diverse obstacle speeds and launch distances, while preserving robust and physically plausible humanoid motions.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Robustness",
+      "Humanoid",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.39327",
+    "title": "SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU",
+    "paper_url": "https://arxiv.org/abs/2610.39327",
+    "project_url": null,
+    "authors": [
+      "Kyrylo Kolesnichenko",
+      "Jong-Hoon Kim"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-29",
+    "abstract": "We present SONIC-K1, to our knowledge the first open-weights whole-body motion tracker for the Booster K1 humanoid, obtained by adapting the SONIC framework to this smaller robot. The policy is trained from scratch on a single shared GPU with a small fraction of the compute reported for SONIC. In MuJoCo simulation, it tracks nearly all held-out motion clips and performs well on external benchmarks under SONIC's success criterion. On the real K1, it tracks upper-body and slow motions, while stepping and turning remain less reliable, and simulation experiments show a sensitivity to action latency. These results show broad motion-tracking capability on a modest training budget and point to quantitative hardware evaluation as the main next step. Code, policy weights and evaluation tools are publicly available.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "MuJoCo",
+      "Humanoid",
+      "Benchmark",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Booster",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2610.39044",
+    "title": "Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand",
+    "paper_url": "https://arxiv.org/abs/2610.39044",
+    "project_url": null,
+    "authors": [
+      "Arth Shukla",
+      "Kehlani Fay",
+      "Huaze Liu",
+      "Darin Djapri",
+      "Alexiy Buynitsky",
+      "Nicklas Hansen"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-28",
+    "abstract": "Catching arbitrary objects requires generalization to novel projectiles and real-time adaptation to unpredictable contact dynamics under noisy visual observations. This paper presents Catch It All!, a sim-to-real catching framework for humanoid robots that generalizes and adapts to unseen objects with variable physical properties for underhand and overhand catches, using only one egocentric camera. We learn policies which generalize to unseen objects with varying geometry, deformability, elasticity, and physical properties. Effective grasps which adapt real-time to object poses and shapes are learned through careful grasp reward design. We provide safety-aware curricula which enable safe, high-frequency action execution near hardware limits, including wrist torque limits as low as 5 Nm. We validate our system by deploying zero-shot on a Unitree G1. With only one egocentric camera, Catch It All! successfully performs underhand and overhand catches on 9 unseen objects not seen during training, including low-rebound plushes, semi-deformable toys and chip bags, and rigid-elastic objects with high rebound on contact.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Sim-to-Real",
+      "Zero-Shot",
+      "Safety",
+      "Humanoid",
+      "Contact Dynamics",
+      "Manipulation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2610.38027",
+    "title": "METATRON: A Promptable Whole-Body Execution Layer for Humanoids",
+    "paper_url": "https://arxiv.org/abs/2610.38027",
+    "project_url": null,
+    "authors": [
+      "Chen Tessler",
+      "Yifeng Jiang",
+      "Alec Otto",
+      "Yi Shi",
+      "Umar Iqbal",
+      "Gal Chechik",
+      "Xue Bin Peng"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-27",
+    "abstract": "Humanoid controllers often require task-specific training despite sharing the need for balance and whole-body coordination. We present Metatron, a promptable whole-body execution layer combining a generative base policy with a programmable skill layer. The base policy receives partial goals, collectively called a prompt, that can combine timed body-part targets, velocity commands, and style cues. It produces diverse whole-body motions consistent with these goals. Training combines motion capture, synthetic recovery trajectories, and retargeted scene-interaction motions. After training, the policy is frozen. Stateful programs called skills express task intent as prompts at each control step, drawing rough geometric sketches that the policy turns into coordinated movement. Skills are ordinary code, refined by coding agents that analyze motion data and fit compact rules without task-specific policy training. On the physical Unitree G1, one frozen checkpoint supports walking, recovery, teleoperated object pickup, and sitting on furniture. Comparative evaluations show higher reaching success and push robustness than the tested reference-tracking pipelines. The same recipe produces climbing and acrobatics on a simulated character. Metatron enables coding agents to turn learned motor capabilities into new skills through code, without further policy training.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "tags": [
+      "Robustness",
+      "Humanoid",
+      "Walking",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.37974",
+    "title": "FORGE: Feasible Online Reduced-Order Reference Generation and Whole-Body Execution for Agile Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2610.37974",
+    "project_url": null,
+    "authors": [
+      "Adrian B. Ghansah",
+      "Yujin An",
+      "Jeeseop Kim",
+      "Soon-Jo Chung"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-27",
+    "abstract": "This paper presents a two-stage learning framework for versatile and agile humanoid locomotion that couples online reduced-order model (ROM) reference generation with whole-body tracking control. In the first stage, we train a command-conditioned whole-body reference generator using single rigid body dynamics combined with full humanoid kinematics. In the second stage, the frozen ROM policy is rolled out online to generate references for training a whole-body tracking policy on the full-order dynamics model. Learning a kino-dynamically consistent reference generator in the simplified ROM space enables us to generate references over a broad command space and over multiple locomotion strategies using a single unified framework. We demonstrate the approach on a Unitree G1 humanoid robot, achieving longitudinal velocities from -2.0 m/s to 2.8 m/s, lateral velocities up to +-1.0 m/s, angular velocities up to +-3.0 rad/s, one-legged hopping, and continuous transitions across the commands, all using one unified reference policy and one whole-body tracking policy.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2610.37801",
+    "title": "An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting",
+    "paper_url": "https://arxiv.org/abs/2610.37801",
+    "project_url": null,
+    "authors": [
+      "MinJun Chang"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-27",
+    "abstract": "Motion retargeting maps a demonstrated human movement onto a robot to compute its joint motion. This study examines how the construction of the desired wrist position affects whether computed arm joint angles reach their permitted limits on a Unitree H1-2. A reconstructed target is formed from demonstrated arm directions and robot segment lengths, so its shoulder-to-wrist distance depends on the demonstrated angle between the segments even when no posture-matching preference is applied. A reach-normalized target retains that direction while rescaling the distance, using the same processed demonstrations and the same joint-angle method. Across a forward-reach sweep the reconstructed target places a joint angle at a bound in 10 of 20 repetitions and the reach-normalized target in none. Across 25 recordings from one participant the corresponding counts are 8 and 6 on the reaching arm and 14 and 5 on the supporting arm, and a second participant repeats the bricklaying and lifting comparison. In hardware replay a joint is commanded to a bound in 12 of 16 direction-matching arm-records and in none of the 16 normalized records, and within the eligible records both tracking error and executed torque at those frames exceed their values elsewhere in the same run. Cross-body reach and arm-to-arm clearance identify limits of radial adjustment. The findings support treating target construction and posture matching as separate retargeting decisions, and evaluating both alongside the wrist positions and clearance that manipulation requires.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Motion Retargeting",
+      "Manipulation",
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree H1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2610.37330",
     "title": "Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer",
     "paper_url": "https://arxiv.org/abs/2610.37330",
@@ -34,6 +217,45 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.36615",
+    "title": "HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos",
+    "paper_url": "https://arxiv.org/abs/2610.36615",
+    "project_url": null,
+    "authors": [
+      "Nghia Le",
+      "Khang Nguyen",
+      "Ba Long Tran",
+      "Thi Quynh Nhu Pham",
+      "Binh Nguyen",
+      "Tuong Do",
+      "Erman Tjiputra",
+      "Hoan Nguyen",
+      "Tung D. Ta",
+      "Baoru Huang",
+      "Hai-Nguyen Nguyen",
+      "Anh Nguyen"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-27",
+    "abstract": "Enabling a humanoid to interact naturally with human partners requires preserving not only individual motions but also the spatial, semantic, and contact relationships underlying the interaction (i.e., hugging, dancing, hand-shaking, etc.). Furthermore, a practical solution should generalize across various humanoid embodiments with distinct morphologies and kinematic constraints. To tackle this challenge, we propose HumiTransfer, a mimetic embodiment transfer framework that converts in-the-wild human-human interaction videos into physically plausible human-humanoid interactions. HumiTransfer first reconstructs 3D human motion with consistent foot-ground contact, then transfers one participant to a target humanoid embodiment via interaction modeling, using weighted joint-relative directions and anatomical offsets to prioritize interaction-critical inter-body relationships, while post-retargeting optimization enforces balance, contact, and collision avoidance. Subsequently, we apply HumiTransfer to 1,200 in-the-wild videos, producing approximately 500,000 frames of diverse interactions for the 26-DoF Unitree R1 Edu and the 23-DoF HighTorque Mini-hi humanoid robot, resulting in our HumiMimic dataset. Across both robots, HumiTransfer achieves superior motion fidelity, preserves inter-body relationships, and maintains contact accuracy compared with existing baselines. Moreover, we demonstrate that HumiMimic supports motion generation methods for synthesizing interactive humanoid motions following a human partner. Finally, our real robot deployments confirm the physical executability of the transferred motions in real-world settings. Our project is available at https://aioznetwork.github.io/HumiMimic/",
+    "categories": [
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Real Robot",
+      "Humanoid",
+      "Collision",
+      "Dataset",
+      "PPO",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
   },
   {
     "arxiv_id": "2610.36825",
@@ -102,46 +324,6 @@
     "platform": null,
     "summary": "",
     "primary_category": "Manipulation"
-  },
-  {
-    "arxiv_id": "2610.36615",
-    "title": "Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos",
-    "paper_url": "https://arxiv.org/abs/2610.36615",
-    "project_url": null,
-    "authors": [
-      "Nghia Le",
-      "Khang Nguyen",
-      "Ba Long Tran",
-      "Thi Quynh Nhu Pham",
-      "Binh Nguyen",
-      "Tuong Do",
-      "Erman Tjiputra",
-      "Hoan Nguyen",
-      "Tung D. Ta",
-      "Baoru Huang",
-      " Hai-Nguyen",
-      " Nguyen",
-      "Anh Nguyen"
-    ],
-    "published": "2026-10",
-    "published_date": "2026-10-27",
-    "abstract": "Enabling a humanoid to interact naturally with human partners requires preserving not only individual motions but also the spatial, semantic, and contact relationships underlying the interaction (i.e., hugging, dancing, hand-shaking, etc.). Furthermore, a practical solution should generalize across various humanoid embodiments with distinct morphologies and kinematic constraints. To tackle this challenge, we propose HumiTransfer, a mimetic embodiment transfer framework that converts in-the-wild human-human interaction videos into physically plausible human-humanoid interactions. HumiTransfer first reconstructs 3D human motion with consistent foot-ground contact, then transfers one participant to a target humanoid embodiment via interaction modeling, using weighted joint-relative directions and anatomical offsets to prioritize interaction-critical inter-body relationships, while post-retargeting optimization enforces balance, contact, and collision avoidance. Subsequently, we apply HumiTransfer to 1,200 in-the-wild videos, producing approximately 500,000 frames of diverse interactions for the 26-DoF Unitree R1 Edu and the 23-DoF HighTorque Mini-hi humanoid robot, resulting in our HumiMimic dataset. Across both robots, HumiTransfer achieves superior motion fidelity, preserves inter-body relationships, and maintains contact accuracy compared with existing baselines. Moreover, we demonstrate that HumiMimic supports motion generation methods for synthesizing interactive humanoid motions following a human partner. Finally, our real robot deployments confirm the physical executability of the transferred motions in real-world settings.",
-    "categories": [
-      "Physics-Based Character Animation"
-    ],
-    "tags": [
-      "Real Robot",
-      "Humanoid",
-      "Collision",
-      "Dataset",
-      "PPO",
-      "Physics-Based Character Animation"
-    ],
-    "real_robot": true,
-    "open_source": false,
-    "platform": null,
-    "summary": "",
-    "primary_category": "Physics-Based Character Animation"
   },
   {
     "arxiv_id": "2610.36546",
@@ -889,6 +1071,8 @@
       "Jipeng Kong",
       "Xinzhe Liu",
       "Ping Luo",
+      "Yuchen Xiao",
+      "Xingxing Wang",
       "Chenjia Bai",
       "Xuelong Li"
     ],
