@@ -1,10 +1,10 @@
 # State Estimation
 
-**24 papers** in this category.
+**25 papers** in this category.
 
 ## Months
 
-- [2026-10](/state-estimation/2026-10) (3 papers)
+- [2026-10](/state-estimation/2026-10) (4 papers)
 - [2026-09](/state-estimation/2026-09) (8 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
 - [2026-07](/state-estimation/2026-07) (1 papers)
@@ -20,6 +20,26 @@
 ---
 
 ## Recent Papers
+
+## ROOF: Learning Humanoid Fall Recovery under Overhead Constraints
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.42097)
+- **Authors:** Yidan Lu, Jiayuan Yu, Zongrui Cai, Jingwen Sun, Jinrui Han, Jing Wang et al. (8 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Proprioception
+  - PPO
+  - GAN
+  - State Estimation
+
+### Summary
+
+A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem. It must create clearance while organizing support for a stable rise, since attempting to stand before making room can further increase obstruction.
+
+---
 
 ## VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction
 
@@ -360,19 +380,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-11
 - **Tags:**
   - Humanoid
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Physics-Informed Neural Networks with Unscented Kalman Filter for Sensorless Joint Torque Estimation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2507.10105)
-- **Published:** 2025-07
-- **Tags:**
   - State Estimation
 
 ### Summary

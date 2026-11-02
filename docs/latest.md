@@ -2,6 +2,141 @@
 
 All papers sorted by publication date (newest first).
 
+## ROOF: Learning Humanoid Fall Recovery under Overhead Constraints
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.42097)
+- **Authors:** Yidan Lu, Jiayuan Yu, Zongrui Cai, Jingwen Sun, Jinrui Han, Jing Wang et al. (8 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - Proprioception
+  - PPO
+  - GAN
+  - State Estimation
+
+### Summary
+
+A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem. It must create clearance while organizing support for a stable rise, since attempting to stand before making room can further increase obstruction.
+
+---
+
+## REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.42053)
+- **Authors:** Pengfei Zhou, Yixing Ma, Zhengfeiyang Zhang, Haoyuan Chen, Zhenglin Wan, Hexin Wang et al. (8 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Foundation Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize.
+
+---
+
+## Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41877)
+- **Authors:** Wendong Bu, Tinghong Ye, Qizhou Wang, Jiacheng Li, Zhiqi Ge, Yuze Lin et al. (24 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Foundation Model
+  - Benchmark
+  - PPO
+  - Locomotion
+
+### Summary
+
+Scaling humanoid motion foundation models is constrained by the scarcity of diverse, robot-executable data and by the difficulty of jointly learning from heterogeneous multimodal inputs while supporting real-time closed-loop control. We present Movens-5M, constructed from raw Internet videos through clip generation, quality filtering, semantic annotation, motion recovery, and physical refinement with humanoid retargeting and execution verification.
+
+---
+
+## $\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41654)
+- **Authors:** Weyl Lu, Yubei Chen
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Simulator
+  - MuJoCo
+  - Humanoid
+  - Contact Dynamics
+  - Policy Learning
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Robot policy learning is dominated by zeroth-order methods such as PPO, which treat the simulator as a black box and pay for it with enormous sample counts. First-order policy learning differentiates through the dynamics, but on contact-rich whole-body control it has rarely worked: its gradients explode.
+
+---
+
+## DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41354)
+- **Authors:** Yifei Huang, Yazhao Yang, Weijia Li, Zhiheng Ma, Dian Shen
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Model-Based RL
+  - Zero-Shot
+  - Humanoid
+  - Fine-tuning
+  - Benchmark
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+General humanoid motion trackers typically rely on deterministic policies that cannot adapt online without brittle reference editing or costly retraining. We present DiffWBC, shifting whole-body control to a generative paradigm via a one-step diffusion model.
+
+---
+
+## Geometry-Aware Humanoid Retargeting via Manifold ODEs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41349)
+- **Authors:** Pengyu Zhu, Heye Wang, Xi Wang, Xuyang Wu, He Kong, Guodong Shi
+- **Published:** 2026-10
+- **Tags:**
+  - Motion Retargeting
+  - Human Demonstration
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+In this paper, we focus on interaction-preserving motion retargeting, which transfers human demonstrations to humanoids while maintaining spatial relationships with objects and terrain. Previous work, such as OmniRetarget, addresses this task through temporally coupled constrained optimization, requiring repeated sequential quadratic programming (SQP) iterations at each frame.
+
+---
+
+## HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41334)
+- **Authors:** Yi Han, Xingyu Chen, Zixuan Lang, Qianyang Wu, Yuhang Lin, Ji Ma et al. (13 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Generative Models
+  - Robustness
+  - Humanoid
+  - Goal-Conditioned
+  - Motion Planning
+  - PPO
+  - Locomotion
+
+### Summary
+
+Recent generative models are widely used to provide whole-body motion for humanoid tracking. Current methods combine motion generators with controllers in an open-loop paradigm, which leads to critical issues: tracking errors can accumulate into spatial drift, and the planner cannot adapt to unexpected physical disturbances without feedback from physical execution.
+
+---
+
 ## Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.40003)

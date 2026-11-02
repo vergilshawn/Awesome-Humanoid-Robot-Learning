@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (307)",
+            "text": "Loco-Manipulation and Whole-Body Control (309)",
             "collapsed": true,
             "items": [
                   {
@@ -374,7 +374,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (238)",
+            "text": "Locomotion (241)",
             "collapsed": true,
             "items": [
                   {
@@ -594,7 +594,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (24)",
+            "text": "State Estimation (25)",
             "collapsed": true,
             "items": [
                   {
@@ -788,7 +788,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (43)",
+            "text": "Simulation Benchmark (44)",
             "collapsed": true,
             "items": [
                   {

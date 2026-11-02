@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**43 papers** in this category.
+**44 papers** in this category.
 
 ## Months
 
-- [2026-10](/simulation-benchmark/2026-10) (6 papers)
+- [2026-10](/simulation-benchmark/2026-10) (7 papers)
 - [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
@@ -26,6 +26,27 @@
 ---
 
 ## Recent Papers
+
+## $\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41654)
+- **Authors:** Weyl Lu, Yubei Chen
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Simulator
+  - MuJoCo
+  - Humanoid
+  - Contact Dynamics
+  - Policy Learning
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Robot policy learning is dominated by zeroth-order methods such as PPO, which treat the simulator as a black box and pay for it with enormous sample counts. First-order policy learning differentiates through the dynamics, but on contact-rich whole-body control it has rarely worked: its gradients explode.
+
+---
 
 ## SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
 
@@ -384,27 +405,5 @@ How do we learn to hit a tennis backhand? Not from a thousand hours of tennis to
 ### Summary
 
 Humanoid robots promise whole-body interaction in human-centered environments, but scalable policy learning remains difficult because task-level decision-making and whole-body dynamic execution are tightly coupled. A practical solution is hierarchical control, where a high-level policy predicts intermediate whole-body actions and low-level general motion trackers (GMTs) execute them as stable humanoid motion.
-
----
-
-## SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08278)
-- **Authors:** Songlin Wei, Zhenhao Ni, Jie Liu, Zhenyu Zhao, Junjie Ye, Hongyi Jing et al. (12 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Zero-Shot
-  - MuJoCo
-  - Humanoid
-  - Vision-Language
-  - Foundation Model
-  - Motion Planning
-
-### Summary
-
-Humanoid foundation models are advancing faster than we can evaluate them. While real-world testing is expensive and difficult to reproduce, existing simulation benchmarks focus primarily on table-top or wheeled robots.
 
 ---

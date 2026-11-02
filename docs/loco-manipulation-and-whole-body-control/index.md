@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**307 papers** in this category.
+**309 papers** in this category.
 
 ## Months
 
-- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (52 papers)
+- [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (54 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
 - [2026-07](/loco-manipulation-and-whole-body-control/2026-07) (6 papers)
@@ -39,6 +39,45 @@
 ---
 
 ## Recent Papers
+
+## REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.42053)
+- **Authors:** Pengfei Zhou, Yixing Ma, Zhengfeiyang Zhang, Haoyuan Chen, Zhenglin Wan, Hexin Wang et al. (8 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Foundation Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize.
+
+---
+
+## DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41354)
+- **Authors:** Yifei Huang, Yazhao Yang, Weijia Li, Zhiheng Ma, Dian Shen
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Model-Based RL
+  - Zero-Shot
+  - Humanoid
+  - Fine-tuning
+  - Benchmark
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+General humanoid motion trackers typically rely on deterministic policies that cannot adapt online without brittle reference editing or costly retraining. We present DiffWBC, shifting whole-body control to a generative paradigm via a one-step diffusion model.
+
+---
 
 ## METATRON: A Promptable Whole-Body Execution Layer for Humanoids
 
@@ -390,42 +429,5 @@ Tracking large human-motion datasets has become the dominant route to general, e
 ### Summary
 
 Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet adapting generalist vision-language-action (VLA) policies to real-world humanoid loco-manipulation remains challenging. Unlike fixed-base or wheeled manipulators, humanoids must coordinate locomotion, posture, gaze, and dual-arm manipulation over a high-dimensional whole-body action space, where inaccurate base or waist motions can easily induce unstable and aggressive upper-body compensation.
-
----
-
-## OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.26043)
-- **Authors:** Yinghao Li, Tianyu Zhang, Zhuohao Li, Yi-Lin Wei, Fa-Ting Hong, Qing Zhang et al. (7 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Humanoid
-  - Policy Learning
-  - Flow Matching
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Physical interaction is a key capability for humanoid collaboration, requiring coordinated whole-body motion and precise contact. However, learning diverse dual-humanoid interactions faces two major challenges: (1) human-robot morphological differences disrupt contact interfaces and spatial relationships during retargeting, and (2) jointly learning motor skills and partner coordination makes it difficult to retain control fidelity as interaction diversity grows.
-
----
-
-## SWAP: Test-Time Steerable Humanoid Whole-Body Collision Avoidance
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.25711)
-- **Authors:** Zeji Yi, Guanqi He, Xiaofeng Guo, Guannan Qu, Pieter Abbeel, Yan Duan et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Diffusion Policy
-  - Humanoid
-  - Collision
-  - PPO
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots operating in human-centric environments must coordinate the entire body to traverse tight, cluttered spaces while maintaining balance. Existing methods often struggle to jointly consider dynamic stability and collision avoidance from high-dimensional perceptual inputs.
 
 ---

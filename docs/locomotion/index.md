@@ -1,10 +1,10 @@
 # Locomotion
 
-**238 papers** in this category.
+**241 papers** in this category.
 
 ## Months
 
-- [2026-10](/locomotion/2026-10) (45 papers)
+- [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
@@ -40,6 +40,61 @@
 ---
 
 ## Recent Papers
+
+## Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41877)
+- **Authors:** Wendong Bu, Tinghong Ye, Qizhou Wang, Jiacheng Li, Zhiqi Ge, Yuze Lin et al. (24 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Foundation Model
+  - Benchmark
+  - PPO
+  - Locomotion
+
+### Summary
+
+Scaling humanoid motion foundation models is constrained by the scarcity of diverse, robot-executable data and by the difficulty of jointly learning from heterogeneous multimodal inputs while supporting real-time closed-loop control. We present Movens-5M, constructed from raw Internet videos through clip generation, quality filtering, semantic annotation, motion recovery, and physical refinement with humanoid retargeting and execution verification.
+
+---
+
+## Geometry-Aware Humanoid Retargeting via Manifold ODEs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41349)
+- **Authors:** Pengyu Zhu, Heye Wang, Xi Wang, Xuyang Wu, He Kong, Guodong Shi
+- **Published:** 2026-10
+- **Tags:**
+  - Motion Retargeting
+  - Human Demonstration
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+In this paper, we focus on interaction-preserving motion retargeting, which transfers human demonstrations to humanoids while maintaining spatial relationships with objects and terrain. Previous work, such as OmniRetarget, addresses this task through temporally coupled constrained optimization, requiring repeated sequential quadratic programming (SQP) iterations at each frame.
+
+---
+
+## HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41334)
+- **Authors:** Yi Han, Xingyu Chen, Zixuan Lang, Qianyang Wu, Yuhang Lin, Ji Ma et al. (13 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Generative Models
+  - Robustness
+  - Humanoid
+  - Goal-Conditioned
+  - Motion Planning
+  - PPO
+  - Locomotion
+
+### Summary
+
+Recent generative models are widely used to provide whole-body motion for humanoid tracking. Current methods combine motion generators with controllers in an open-loop paradigm, which leads to critical issues: tracking errors can accumulate into spatial drift, and the planner cannot adapt to unexpected physical disturbances without feedback from physical execution.
+
+---
 
 ## Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids
 
@@ -351,59 +406,5 @@ Modern robotic agents are increasingly expected to support steerable control, wh
 ### Summary
 
 Bipedal humanoids can change their effective footprint by adjusting body yaw, enabling both narrow-passage traversal and socially aware yielding. This paper presents a posture-aware navigation framework centered on \emph{Adaptive Traversal Tubes} (ATT), \emph{Interval Velocity--Heading} (IVH) control, and a sidestep-enhanced AMP locomotion prior.
-
----
-
-## Visual Task Modeling and Automated Planning for Humanoid Robots in Education of Individuals with Autism Spectrum Disorder
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.27162)
-- **Authors:** Lada Kudláčková
-- **Published:** 2026-10
-- **Tags:**
-  - Humanoid
-  - Large Language Model
-  - PPO
-  - Locomotion
-
-### Summary
-
-In robot-assisted education, a robot must understand how to complete a task in order to effectively guide a student through it. We present a novel method that enables a semi-autonomous, camera-equipped robot to recognise the task goal and plan actions to achieve it.
-
----
-
-## Validation of Human Motor Development Scales with Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.25701)
-- **Authors:** Fanxing Meng, Jing Xiao
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - Walking
-  - Locomotion
-
-### Summary
-
-We investigate how humanoid robots can learn a series of motor skills defined by human infant motor development scales, and we evaluate which scales are comprehensive enough to serve as self-contained guides for developing gross motor skills up to standing and walking. We represent each motor development scale as a developmental graph that guides the training of a humanoid robot.
-
----
-
-## CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.23288)
-- **Authors:** Zicheng Liu, Haochen Wu, Jiawei He, Suyun Zhao, Huan Yang, Cheng Chi et al. (7 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Vision-Language
-  - Foundation Model
-  - PPO
-  - Locomotion
-
-### Summary
-
-Recent advances in Vision-Language-Action (VLA) models and World Action Models (WAMs) have expanded the manipulation and whole body capabilities of individual robots. Yet a single robot remains limited by its embodiment, and many real world tasks require capabilities that can only emerge through cooperation.
 
 ---
