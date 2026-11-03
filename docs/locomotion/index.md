@@ -1,9 +1,10 @@
 # Locomotion
 
-**241 papers** in this category.
+**243 papers** in this category.
 
 ## Months
 
+- [2026-11](/locomotion/2026-11) (2 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -41,6 +42,38 @@
 
 ## Recent Papers
 
+## MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.02613)
+- **Authors:** Seonghyeon Lim, Hyeonwoo Lee, Mincheol Kim, Kimin Lee, Hyun Myung
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Universal humanoid motion tracking is essential for enabling humanoid robots to perform diverse tasks in human environments. To capture the wide diversity of human motions, mixture-of-experts (MoE) policies have been widely adopted, leveraging dynamic routing to enhance policy expressiveness.
+
+---
+
+## A Study on the Effects of Finger Movements on a Humanoid Hugging Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.02517)
+- **Authors:** Daigo Suhara, Tomoko Yonezawa
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Impact
+  - Locomotion
+
+### Summary
+
+This study aimed to examine the impact of finger movements in hugging robots on users by experimentally investigating how the presence and patterns of such movements affect users psychologically. The results suggest that the presence and patterns of finger movements influence the sensations users seek from the robot; specifically, repetitive movements and asynchronous movements across multiple fingers tended to enhance these sensations.
+
+---
+
 ## Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.41877)
@@ -56,23 +89,6 @@
 ### Summary
 
 Scaling humanoid motion foundation models is constrained by the scarcity of diverse, robot-executable data and by the difficulty of jointly learning from heterogeneous multimodal inputs while supporting real-time closed-loop control. We present Movens-5M, constructed from raw Internet videos through clip generation, quality filtering, semantic annotation, motion recovery, and physical refinement with humanoid retargeting and execution verification.
-
----
-
-## Geometry-Aware Humanoid Retargeting via Manifold ODEs
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.41349)
-- **Authors:** Pengyu Zhu, Heye Wang, Xi Wang, Xuyang Wu, He Kong, Guodong Shi
-- **Published:** 2026-10
-- **Tags:**
-  - Motion Retargeting
-  - Human Demonstration
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-In this paper, we focus on interaction-preserving motion retargeting, which transfers human demonstrations to humanoids while maintaining spatial relationships with objects and terrain. Previous work, such as OmniRetarget, addresses this task through temporally coupled constrained optimization, requiring repeated sequential quadratic programming (SQP) iterations at each frame.
 
 ---
 
@@ -93,6 +109,23 @@ In this paper, we focus on interaction-preserving motion retargeting, which tran
 ### Summary
 
 Recent generative models are widely used to provide whole-body motion for humanoid tracking. Current methods combine motion generators with controllers in an open-loop paradigm, which leads to critical issues: tracking errors can accumulate into spatial drift, and the planner cannot adapt to unexpected physical disturbances without feedback from physical execution.
+
+---
+
+## Geometry-Aware Humanoid Retargeting via Manifold ODEs
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41349)
+- **Authors:** Pengyu Zhu, Heye Wang, Xi Wang, Xuyang Wu, He Kong, Guodong Shi
+- **Published:** 2026-10
+- **Tags:**
+  - Motion Retargeting
+  - Human Demonstration
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+In this paper, we focus on interaction-preserving motion retargeting, which transfers human demonstrations to humanoids while maintaining spatial relationships with objects and terrain. Previous work, such as OmniRetarget, addresses this task through temporally coupled constrained optimization, requiring repeated sequential quadratic programming (SQP) iterations at each frame.
 
 ---
 
@@ -369,42 +402,5 @@ Humanoid fall recovery requires selecting a motion that suits both the surroundi
 ### Summary
 
 Perceptive locomotion policies typically observe a dense robot-centric elevation map, although only the terrain beneath and around the next footsteps informs the control decision. Learned encoders compress the whole visual input, leaving the policy to work out which inputs matter while learning the baseline locomotion task.
-
----
-
-## One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.28925)
-- **Authors:** Ziqian Huang, Yuzhuo Chen, Shimin Zhang, Junyang He, Xinyue Annie Yang, Animesh Garg
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-Modern robotic agents are increasingly expected to support steerable control, where a single policy can adjust its behavioral style at runtime under changing user preferences. Preference-conditioned reinforcement learning provides this interface, but conditioning alone does not ensure that a requested behavior change is strong, does not leak into unrelated behaviors, and does not compromise task performance.
-
----
-
-## 🌟 Adaptive Traversal Tubes for Posture-Aware Navigation of Bipedal Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.27688)
-- **Project:** [GitHub](http://github.com/lborogzj997/Humanoid-Navigation-in-Crowds-and-Narrow-Spaces)
-- **Authors:** Zijian Ge
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - MuJoCo
-  - Biped
-  - Humanoid
-  - Simulation Benchmark
-
-### Summary
-
-Bipedal humanoids can change their effective footprint by adjusting body yaw, enabling both narrow-passage traversal and socially aware yielding. This paper presents a posture-aware navigation framework centered on \emph{Adaptive Traversal Tubes} (ATT), \emph{Interval Velocity--Heading} (IVH) control, and a sidestep-enhanced AMP locomotion prior.
 
 ---

@@ -2,20 +2,20 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 898
-- **Real Robot Papers:** 124
+- **Total Papers:** 907
+- **Real Robot Papers:** 125
 - **Open Source Papers:** 133
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (309)
-- [Manipulation](#manipulation) (80)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (314)
+- [Manipulation](#manipulation) (81)
 - [Teleoperation](#teleoperation) (46)
-- [Locomotion](#locomotion) (241)
+- [Locomotion](#locomotion) (243)
 - [Navigation](#navigation) (25)
-- [State Estimation](#state-estimation) (25)
+- [State Estimation](#state-estimation) (26)
 - [Sim-to-Real](#sim-to-real) (13)
 - [Hardware Design](#hardware-design) (33)
 - [Simulation Benchmark](#simulation-benchmark) (44)
@@ -27,8 +27,16 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Loco-Manipulation and Whole-Body Control
 
+### 2026-11
+
+- [CompliantBot: Learning Whole-Body Compliance across Task Interfaces for Humanoid Control](https://arxiv.org/abs/2611.01748) — `Locomotion`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception](https://arxiv.org/abs/2611.01659) — `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Manipulation`
+
 ### 2026-10
 
+- [Learning Agile Humanoid Dodgeball with Onboard Monocular Vision](https://arxiv.org/abs/2611.01197) — `Whole-Body Control`, `Humanoid`, `PPO`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
+- [Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking](https://arxiv.org/abs/2611.00951) — `World Model`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [Anchor 1: Precise and Stable Humanoid Control for Whole-Body Manipulation](https://arxiv.org/abs/2611.00193) — `Whole-Body Control`, `Manipulation`, `Humanoid`, `Benchmark`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control](https://arxiv.org/abs/2610.42053) — `Whole-Body Control`, `Humanoid`, `Foundation Model`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control](https://arxiv.org/abs/2610.41354) — `Whole-Body Control`, `Model-Based RL`, `Zero-Shot`, `Humanoid`, `Fine-tuning`, `Benchmark`
 - [METATRON: A Promptable Whole-Body Execution Layer for Humanoids](https://arxiv.org/abs/2610.38027) — `Robustness`, `Humanoid`, `Walking`, `PPO`, `Loco-Manipulation and Whole-Body Control`, `Locomotion`
@@ -431,6 +439,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Manipulation
 
+### 2026-11
+
+- [ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation](https://arxiv.org/abs/2611.02968) — `Manipulation`, `Humanoid`, `PPO`, `Loco-Manipulation and Whole-Body Control`
+
 ### 2026-10
 
 - [Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand](https://arxiv.org/abs/2610.39044) — `Sim-to-Real`, `Zero-Shot`, `Safety`, `Humanoid`, `Contact Dynamics`, `Manipulation`
@@ -690,11 +702,16 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## Locomotion
 
+### 2026-11
+
+- [MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking](https://arxiv.org/abs/2611.02613) — `Humanoid`, `PPO`, `Locomotion`
+- [A Study on the Effects of Finger Movements on a Humanoid Hugging Robot](https://arxiv.org/abs/2611.02517) — `Humanoid`, `Impact`, `Locomotion`
+
 ### 2026-10
 
 - [Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos](https://arxiv.org/abs/2610.41877) — `Humanoid`, `Foundation Model`, `Benchmark`, `PPO`, `Locomotion`
-- [Geometry-Aware Humanoid Retargeting via Manifold ODEs](https://arxiv.org/abs/2610.41349) — `Motion Retargeting`, `Human Demonstration`, `Humanoid`, `Locomotion`
 - [HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure](https://arxiv.org/abs/2610.41334) — `Generative Models`, `Robustness`, `Humanoid`, `Goal-Conditioned`, `Motion Planning`, `PPO`
+- [Geometry-Aware Humanoid Retargeting via Manifold ODEs](https://arxiv.org/abs/2610.41349) — `Motion Retargeting`, `Human Demonstration`, `Humanoid`, `Locomotion`
 - [Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids](https://arxiv.org/abs/2610.40003) — `Reinforcement Learning`, `Robustness`, `Humanoid`, `Locomotion`, `Real Robot`
 - [An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting](https://arxiv.org/abs/2610.37801) — `Motion Retargeting`, `Manipulation`, `Humanoid`, `PPO`, `Locomotion`
 - [Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer](https://arxiv.org/abs/2610.37330) — `Manipulation`, `Robustness`, `Humanoid`, `Vision-Language`, `Policy Learning`, `Diffusion`
@@ -1109,6 +1126,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [NoMaD: Goal Masked Diffusion Policies for Navigation and Exploration](https://arxiv.org/abs/2310.07896) — `Navigation`, `Diffusion`
 
 ## State Estimation
+
+### 2026-11
+
+- [ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction](https://arxiv.org/abs/2611.02871) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `State Estimation`, `Humanoid`, `Proprioception`
 
 ### 2026-10
 

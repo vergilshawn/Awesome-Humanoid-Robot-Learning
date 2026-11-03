@@ -1,9 +1,10 @@
 # State Estimation
 
-**25 papers** in this category.
+**26 papers** in this category.
 
 ## Months
 
+- [2026-11](/state-estimation/2026-11) (1 papers)
 - [2026-10](/state-estimation/2026-10) (4 papers)
 - [2026-09](/state-estimation/2026-09) (8 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
@@ -20,6 +21,27 @@
 ---
 
 ## Recent Papers
+
+## ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.02871)
+- **Authors:** Hao Zhu, Jorge Peña-Queralta
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - State Estimation
+  - Humanoid
+  - Proprioception
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires coordinating object acquisition, transport, and release from onboard sensing while responding to user commands and incomplete visual observations. We present ReGATE, a whole-body controller that combines egocentric depth, proprioception, and online locomotion and contact commands.
+
+---
 
 ## ROOF: Learning Humanoid Fall Recovery under Overhead Constraints
 
@@ -366,20 +388,6 @@ Humanoid and legged robots interact with the environment through intermittent co
 - **Published:** 2025-11
 - **Tags:**
   - Locomotion
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## InEKFormer: A Hybrid State Estimator for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.16306)
-- **Published:** 2025-11
-- **Tags:**
-  - Humanoid
   - State Estimation
 
 ### Summary

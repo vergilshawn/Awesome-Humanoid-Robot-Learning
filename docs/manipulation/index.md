@@ -1,9 +1,10 @@
 # Manipulation
 
-**80 papers** in this category.
+**81 papers** in this category.
 
 ## Months
 
+- [2026-11](/manipulation/2026-11) (1 papers)
 - [2026-10](/manipulation/2026-10) (7 papers)
 - [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
@@ -34,6 +35,23 @@
 ---
 
 ## Recent Papers
+
+## ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.02968)
+- **Authors:** Zhongkai Gu, Yang Liu, Wei Zhu, Mitsuhiro Hayashibe
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Contact transitions allow humanoid robots to redistribute object support across the whole body, enabling manipulation beyond hand-only grasps. Human videos provide a scalable source of such transitions for robots to learn from.
+
+---
 
 ## Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand
 
@@ -383,22 +401,5 @@ Vision-language-action (VLA) policies are expected to operate robustly across va
 ### Summary
 
 Dexterous hands and humanoid robots are typically developed as distinct embodiments: the former enable contact-rich manipulation at the object scale, whereas the latter provide mobility and whole-body interaction in human-centered environments. We introduce \textbf{Handroid}, a desktop-scale dual-embodiment robot that integrates both capabilities within a single reconfigurable platform.
-
----
-
-## AgenticFocus: Object-Preserving Mixed Reality Synthesis from Human FPV Video for Dexterous Humanoid Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.08857)
-- **Authors:** Iaroslav Kolomiets, Miguel Altamirano Cabrera, Artem Lykov, Jeffrin Sam, Dmitrii Iarchuk, Yara Mahmoud et al. (9 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Humanoid
-  - Dataset
-  - Policy Learning
-  - Manipulation
-
-### Summary
-
-Human egocentric video is a scalable supervision source for humanoid policy learning, but current pipelines struggle with hand-object occlusion, oversimplified motion, or specialized capture hardware. We introduce AgenticFocus, a Mixed Reality synthesis pipeline that converts ordinary first-person-view human videos into robot-trainable demonstrations by restoring occluded object geometry, reconstructing full-hand motion, and retargeting it to a humanoid embodiment through camera-relative alignment and layered compositing.
 
 ---

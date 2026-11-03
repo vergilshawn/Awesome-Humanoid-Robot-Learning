@@ -48,12 +48,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (309)",
+            "text": "Loco-Manipulation and Whole-Body Control (314)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/loco-manipulation-and-whole-body-control/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/loco-manipulation-and-whole-body-control/2026-11"
                   },
                   {
                         "text": "2026-10",
@@ -182,12 +186,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (80)",
+            "text": "Manipulation (81)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/manipulation/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/manipulation/2026-11"
                   },
                   {
                         "text": "2026-10",
@@ -374,12 +382,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (241)",
+            "text": "Locomotion (243)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/locomotion/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/locomotion/2026-11"
                   },
                   {
                         "text": "2026-10",
@@ -594,12 +606,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (25)",
+            "text": "State Estimation (26)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/state-estimation/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/state-estimation/2026-11"
                   },
                   {
                         "text": "2026-10",
