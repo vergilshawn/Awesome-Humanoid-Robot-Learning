@@ -51,7 +51,7 @@ Robot policy learning is dominated by zeroth-order methods such as PPO, which tr
 ## SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.39327)
-- **Authors:** Kyrylo Kolesnichenko, Jong-Hoon Kim
+- **Authors:** Kyrylo Kolesnichenko, Irvin Steve Cardenas, Jong-Hoon Kim
 - **Published:** 2026-10
 - **Tags:**
   - MuJoCo

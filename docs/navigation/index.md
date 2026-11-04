@@ -1,9 +1,10 @@
 # Navigation
 
-**25 papers** in this category.
+**26 papers** in this category.
 
 ## Months
 
+- [2026-11](/navigation/2026-11) (1 papers)
 - [2026-10](/navigation/2026-10) (2 papers)
 - [2026-09](/navigation/2026-09) (1 papers)
 - [2026-07](/navigation/2026-07) (1 papers)
@@ -26,6 +27,24 @@
 ---
 
 ## Recent Papers
+
+## ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04255)
+- **Authors:** Han Zhang, Sicheng Lu, Aleks Santari, Jeffrey K. Jopling, Masaru Ishii, Mathias Unberath
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Large Language Model
+
+### Summary
+
+Operating rooms (ORs) increasingly contain ambient sensing infrastructure to enable AI-based optimization of workflows and utilization. We pursue an alternative path: using ambient AI to guide robot action and optimize utilization.
+
+---
 
 ## LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors
 
@@ -333,20 +352,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Tags:**
   - Humanoid
   - Navigation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## RL with Data Bootstrapping for Dynamic Subgoal Pursuit in Humanoid Robot Navigation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.02206)
-- **Published:** 2025-06
-- **Tags:**
-  - Navigation
-  - Humanoid
 
 ### Summary
 

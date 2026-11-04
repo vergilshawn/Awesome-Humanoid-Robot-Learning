@@ -2,6 +2,116 @@
 
 All papers sorted by publication date (newest first).
 
+## HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.05113)
+- **Authors:** Jean-Pierre Sleiman, Bilal Hammoud, He Li, Jonathan Foster, Sylvain Bertrand, Jessica K. Hodgins et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Hierarchical pipelines for humanoid loco-manipulation typically pair a task-agnostic whole-body controller (WBC) with a downstream task policy. Such WBCs are often trained through manual reward shaping, which yields visibly machine-like motions; more consequentially, they are trained without the manipulated object in the scene.
+
+---
+
+## Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04839)
+- **Authors:** Ju Dong, Xinyu Xiao, Yiming Zhou, Tianshuo Yang, Xuerong Liu, Lei Zhang et al. (15 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid loco-manipulation requires coordinated body motion and hand interaction over time, and a plausible-looking command sequence can still drop a held object or leave an interaction incomplete. We present action-conditioned latent foresight, a latent world-action model (WAM) that evaluates proposed command sequences before execution.
+
+---
+
+## ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04424)
+- **Authors:** Mingyu Wang, Si Li, Ziqing Chen, He Wang, Li Yi
+- **Published:** 2026-11
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Humanoid
+  - Tactile Sensing
+  - Impact
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots operating in cluttered environments must react to unexpected contacts before the first impact peak, which arrives within tens of milliseconds. Learned whole-body policies running at 50 Hz introduce a policy-cycle delay and may suppress a protective withdrawal as a tracking error.
+
+---
+
+## RAIPAL: A Powerful and Agile Humanoid Arm for Human Tasks
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04334)
+- **Authors:** Donggeon Kim, Hyungho Chris Choi, Donghyuk Choi, Jeongsoo Park, Choongin Lee, Chan Park et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Impact
+  - Hardware Design
+
+### Summary
+
+This paper presents humanoid manipulator hardware designed specifically for human-level performance throughout its broad domain of tasks, from heavy payloads to highly dynamic motions. Unlike conventional designs targeting uniform workspace capability, the proposed approach derives force, speed, and endurance targets from published measurements of task-relevant human upper-limb performance.
+
+---
+
+## ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04255)
+- **Authors:** Han Zhang, Sicheng Lu, Aleks Santari, Jeffrey K. Jopling, Masaru Ishii, Mathias Unberath
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Large Language Model
+
+### Summary
+
+Operating rooms (ORs) increasingly contain ambient sensing infrastructure to enable AI-based optimization of workflows and utilization. We pursue an alternative path: using ambient AI to guide robot action and optimize utilization.
+
+---
+
+## Online iLQR-MPC with Whole-Body Control for Robust Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04204)
+- **Authors:** Xiang Li, Linlin Ou, Ruihan Wu, Xinyi Yu
+- **Published:** 2026-11
+- **Tags:**
+  - MPC
+  - Whole-Body Control
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Walking
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion requires deciding where to step and how to distribute contact forces. However, a disturbance can invalidate the nominal plan, requiring coordinated revision under constraints that switch with every footfall.
+
+---
+
 ## ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.02968)
@@ -314,7 +424,7 @@ Humanoids have become increasingly agile and capable in real-world environments.
 ## SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.39327)
-- **Authors:** Kyrylo Kolesnichenko, Jong-Hoon Kim
+- **Authors:** Kyrylo Kolesnichenko, Irvin Steve Cardenas, Jong-Hoon Kim
 - **Published:** 2026-10
 - **Tags:**
   - MuJoCo

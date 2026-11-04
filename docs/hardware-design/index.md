@@ -1,9 +1,10 @@
 # Hardware Design
 
-**33 papers** in this category.
+**34 papers** in this category.
 
 ## Months
 
+- [2026-11](/hardware-design/2026-11) (1 papers)
 - [2026-10](/hardware-design/2026-10) (1 papers)
 - [2026-08](/hardware-design/2026-08) (1 papers)
 - [2026-02](/hardware-design/2026-02) (1 papers)
@@ -26,6 +27,22 @@
 ---
 
 ## Recent Papers
+
+## RAIPAL: A Powerful and Agile Humanoid Arm for Human Tasks
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04334)
+- **Authors:** Donggeon Kim, Hyungho Chris Choi, Donghyuk Choi, Jeongsoo Park, Choongin Lee, Chan Park et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Impact
+  - Hardware Design
+
+### Summary
+
+This paper presents humanoid manipulator hardware designed specifically for human-level performance throughout its broad domain of tasks, from heavy payloads to highly dynamic motions. Unlike conventional designs targeting uniform workspace capability, the proposed approach derives force, speed, and endurance targets from published measurements of task-relevant human upper-limb performance.
+
+---
 
 ## Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control
 
@@ -293,20 +310,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 ## PIMBS: Efficient Body Schema Learning for Musculoskeletal Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2506.20343)
-- **Published:** 2025-06
-- **Tags:**
-  - Humanoid
-  - Hardware Design
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Explosive Output to Enhance Jumping Ability: A Variable Reduction Ratio Design Paradigm for Humanoid Robots Knee Joint
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.12314)
 - **Published:** 2025-06
 - **Tags:**
   - Humanoid

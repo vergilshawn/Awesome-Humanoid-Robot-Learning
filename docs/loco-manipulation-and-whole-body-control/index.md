@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**314 papers** in this category.
+**318 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (2 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (6 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -40,6 +40,82 @@
 ---
 
 ## Recent Papers
+
+## HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.05113)
+- **Authors:** Jean-Pierre Sleiman, Bilal Hammoud, He Li, Jonathan Foster, Sylvain Bertrand, Jessica K. Hodgins et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Hierarchical pipelines for humanoid loco-manipulation typically pair a task-agnostic whole-body controller (WBC) with a downstream task policy. Such WBCs are often trained through manual reward shaping, which yields visibly machine-like motions; more consequentially, they are trained without the manipulated object in the scene.
+
+---
+
+## Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04839)
+- **Authors:** Ju Dong, Xinyu Xiao, Yiming Zhou, Tianshuo Yang, Xuerong Liu, Lei Zhang et al. (15 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid loco-manipulation requires coordinated body motion and hand interaction over time, and a plausible-looking command sequence can still drop a held object or leave an interaction incomplete. We present action-conditioned latent foresight, a latent world-action model (WAM) that evaluates proposed command sequences before execution.
+
+---
+
+## ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04424)
+- **Authors:** Mingyu Wang, Si Li, Ziqing Chen, He Wang, Li Yi
+- **Published:** 2026-11
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Humanoid
+  - Tactile Sensing
+  - Impact
+  - Policy Learning
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots operating in cluttered environments must react to unexpected contacts before the first impact peak, which arrives within tens of milliseconds. Learned whole-body policies running at 50 Hz introduce a policy-cycle delay and may suppress a protective withdrawal as a tracking error.
+
+---
+
+## Online iLQR-MPC with Whole-Body Control for Robust Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04204)
+- **Authors:** Xiang Li, Linlin Ou, Ruihan Wu, Xinyi Yu
+- **Published:** 2026-11
+- **Tags:**
+  - MPC
+  - Whole-Body Control
+  - Locomotion
+  - MuJoCo
+  - Humanoid
+  - Walking
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion requires deciding where to step and how to distribute contact forces. However, a disturbance can invalidate the nominal plan, requiring coordinated revision under constraints that switch with every footfall.
+
+---
 
 ## CompliantBot: Learning Whole-Body Compliance across Task Interfaces for Humanoid Control
 
@@ -336,83 +412,5 @@ Extending Vision-Language-Action models (VLAs) to humanoid robots requires coord
 ### Summary
 
 Humanoid motion trackers reproduce diverse behaviors, but sharing a policy across bodies requires accounting for differences in structure, morphology and dynamics. We present MimicAll, a reinforcement-learning framework for shared whole-body motion tracking across heterogeneous humanoids.
-
----
-
-## MOTIO: Agentic Skill Engineering for Reality-Grounded Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.33446)
-- **Authors:**  SpatialtemporalAI
-- **Published:** 2026-10
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Humanoid
-  - Distillation
-  - DAgger
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-We present MOTIO, an agentic skill-engineering system that turns ordinary human-action videos, reality-grounded 3D assets, motion references, and reusable robot skills into executable humanoid loco-manipulation programs. Through in-context task and contact reasoning, an agent constructs staged robot-native interactions and improves them using physics execution, multi-frame feedback, and human validation---without task-specific teleoperation or robot demonstration collection.
-
----
-
-## HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.32909)
-- **Authors:** Xihan Ma, Bo Zhang, Boxiong Li, Yuhan Bao, Ziyue Liu, Yucheng Wang
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-HoloBoxing presents a simple recipe for learning humanoid boxing by building on a pretrained whole-body controller. The recipe separates reusable motor skills from task decisions: a compact planner requests future body-point targets, while the frozen controller handles joint-level execution.
-
----
-
-## CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.32460)
-- **Authors:** Ziyu Lin, Shihang Du, Tianhang Wang, Xiaodong Liu, Runze Zhang, Zongyou Yu et al. (9 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Motion Retargeting
-  - Humanoid
-  - Dataset
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Recent advances in large-scale human motion data, motion retargeting, and motion imitation have enabled increasingly capable whole-body control for individual humanoids. Cooperative carrying is more challenging because successful coordination requires not only plausible individual motions, but also consistent cross-agent and agent-object relations, including shared grasp, relative configuration, and whole-body support.
-
----
-
-## Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.31166)
-- **Authors:** Chenyuan Chen, Ran Ding, Lechen Zhang, Zewen He, Yoshihiko Nakamura
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Real Robot
-  - Humanoid
-  - Vision-Language
-  - Benchmark
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as objects change or are hidden, or leave the view as the robot turns and walks, yet whole-body vision-language-action (VLA) policies see only the present. We present WholeBodyMem, an object-guided perceptual memory that keeps the pre-history of object events seen before the robot acts on its goal.
 
 ---
