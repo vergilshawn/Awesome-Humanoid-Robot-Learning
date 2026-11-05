@@ -9,7 +9,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Digit:** 2 papers
 - **Figure:** 16 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 77 papers
+- **Unitree G1:** 78 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 24 papers
 - **iCub:** 1 papers
@@ -17,6 +17,28 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.06564)
+- **Authors:** Haoyu Shao, Yunshen Wang, Jingze Zhang, Shaohang Zhu, Yong-Lu Li, Tianzhu Zhang et al. (8 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Robustness
+  - Humanoid
+  - Contact Dynamics
+  - Impact
+
+### Summary
+
+Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball manipulation, and impact-rich contact dynamics across a continuous, dynamic behavioral spectrum. Yet existing approaches either cover only a limited set of skills, or forego motion priors entirely and produce unnatural behaviors, leaving the combination of a unified skill set and human-like motion quality unaddressed.
+
+---
 
 ## ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction
 

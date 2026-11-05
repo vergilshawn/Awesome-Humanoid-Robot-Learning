@@ -2,6 +2,85 @@
 
 All papers sorted by publication date (newest first).
 
+## Perceptive Humanoid Motion from Simulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.06908)
+- **Authors:** Siyuan Hu, Abulikemu Abuduweili, Yue Meng, Shipeng Liu, Quentin Leboutet, Chen Chen et al. (8 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Teleoperation
+  - Zero-Shot
+  - Humanoid
+  - Vision-Language
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale.
+
+---
+
+## Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.06564)
+- **Authors:** Haoyu Shao, Yunshen Wang, Jingze Zhang, Shaohang Zhu, Yong-Lu Li, Tianzhu Zhang et al. (8 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Robustness
+  - Humanoid
+  - Contact Dynamics
+  - Impact
+
+### Summary
+
+Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball manipulation, and impact-rich contact dynamics across a continuous, dynamic behavioral spectrum. Yet existing approaches either cover only a limited set of skills, or forego motion priors entirely and produce unnatural behaviors, leaving the combination of a unified skill set and human-like motion quality unaddressed.
+
+---
+
+## Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.05585)
+- **Authors:** Roberto Mauceri, Stefano Dafarra, Giulio Romualdi, Marco Gabiccini, Daniele Pucci
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Real Robot
+  - Biped
+  - Humanoid
+  - Trajectory Optimization
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This letter presents a trajectory planner for humanoid robots to perform dynamic motions on complex, parameterizable terrains using a contact-implicit whole-body optimization framework. The planner generates feasible movements without predefined contact sequences, considering the robot's full dynamics and kinematics.
+
+---
+
+## Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.05507)
+- **Authors:** Mengjie Zhao, Yuxin Chen, Yiyang Shao, Chuye Hong, Jiakang Chen, Koushil Sreenath et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Force Control
+  - Proprioception
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Humanoid motion tracking has scaled to general policies that reproduce diverse human motion, but the resulting behavior is in free-space: the tracker knows where the body should be, not how it should interact with the environment. Other work makes the object part of the objective, yet abstracts that interaction to contact or geometry, which leaves the demanding cases under-explored.
+
+---
+
 ## HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.05113)

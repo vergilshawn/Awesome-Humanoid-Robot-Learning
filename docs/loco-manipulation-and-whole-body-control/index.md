@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**318 papers** in this category.
+**319 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (6 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (7 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -40,6 +40,25 @@
 ---
 
 ## Recent Papers
+
+## Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.05507)
+- **Authors:** Mengjie Zhao, Yuxin Chen, Yiyang Shao, Chuye Hong, Jiakang Chen, Koushil Sreenath et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Force Control
+  - Proprioception
+  - Loco-Manipulation and Whole-Body Control
+  - State Estimation
+
+### Summary
+
+Humanoid motion tracking has scaled to general policies that reproduce diverse human motion, but the resulting behavior is in free-space: the tracker knows where the body should be, not how it should interact with the environment. Other work makes the object part of the objective, yet abstracts that interaction to contact or geometry, which leaves the demanding cases under-explored.
+
+---
 
 ## HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors
 
@@ -394,23 +413,5 @@ In this paper, we propose ThinkLocoManip, an agentic harness for legged loco-man
 ### Summary
 
 Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios. Although egocentric human demonstrations provide a complementary source of task experience, differences in visual embodiment and missing robot proprioception complicate transfer to humanoid policies.
-
----
-
-## MimicAll: Structured Embodiment Conditioning for Cross-Humanoid Whole-Body Motion Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.33508)
-- **Authors:** Jia Li, Lingyun Xu, Yitang Li, Hao Zhao
-- **Published:** 2026-10
-- **Tags:**
-  - Humanoid
-  - Benchmark
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid motion trackers reproduce diverse behaviors, but sharing a policy across bodies requires accounting for differences in structure, morphology and dynamics. We present MimicAll, a reinforcement-learning framework for shared whole-body motion tracking across heterogeneous humanoids.
 
 ---

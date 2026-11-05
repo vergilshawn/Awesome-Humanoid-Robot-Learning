@@ -1,10 +1,10 @@
 # State Estimation
 
-**26 papers** in this category.
+**27 papers** in this category.
 
 ## Months
 
-- [2026-11](/state-estimation/2026-11) (1 papers)
+- [2026-11](/state-estimation/2026-11) (2 papers)
 - [2026-10](/state-estimation/2026-10) (4 papers)
 - [2026-09](/state-estimation/2026-09) (8 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
@@ -21,6 +21,25 @@
 ---
 
 ## Recent Papers
+
+## Perceptive Humanoid Motion from Simulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.06908)
+- **Authors:** Siyuan Hu, Abulikemu Abuduweili, Yue Meng, Shipeng Liu, Quentin Leboutet, Chen Chen et al. (8 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Teleoperation
+  - Zero-Shot
+  - Humanoid
+  - Vision-Language
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale.
+
+---
 
 ## ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction
 
@@ -379,19 +398,5 @@ We introduce $λ$-Reachability, a scalable approach to Hamilton--Jacobi safety a
 ### Summary
 
 Humanoid and legged robots interact with the environment through intermittent contacts, making accurate motion estimation fundamentally dependent on reasoning about contact dynamics. However, standard sensing pipelines-whether based on onboard proprioception with Extended Kalman Filters (EKFs) or external motion capture systems-recover only kinematics, while contact forces, contact timing, and inertial parameters remain unobserved.
-
----
-
-## AutoOdom: Learning Auto-regressive Proprioceptive Odometry for Legged Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.18857)
-- **Published:** 2025-11
-- **Tags:**
-  - Locomotion
-  - State Estimation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
 
 ---

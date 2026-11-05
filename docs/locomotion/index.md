@@ -1,10 +1,10 @@
 # Locomotion
 
-**243 papers** in this category.
+**245 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (2 papers)
+- [2026-11](/locomotion/2026-11) (4 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -41,6 +41,47 @@
 ---
 
 ## Recent Papers
+
+## Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.06564)
+- **Authors:** Haoyu Shao, Yunshen Wang, Jingze Zhang, Shaohang Zhu, Yong-Lu Li, Tianzhu Zhang et al. (8 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Robustness
+  - Humanoid
+  - Contact Dynamics
+  - Impact
+
+### Summary
+
+Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball manipulation, and impact-rich contact dynamics across a continuous, dynamic behavioral spectrum. Yet existing approaches either cover only a limited set of skills, or forego motion priors entirely and produce unnatural behaviors, leaving the combination of a unified skill set and human-like motion quality unaddressed.
+
+---
+
+## Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.05585)
+- **Authors:** Roberto Mauceri, Stefano Dafarra, Giulio Romualdi, Marco Gabiccini, Daniele Pucci
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Real Robot
+  - Biped
+  - Humanoid
+  - Trajectory Optimization
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+This letter presents a trajectory planner for humanoid robots to perform dynamic motions on complex, parameterizable terrains using a contact-implicit whole-body optimization framework. The planner generates feasible movements without predefined contact sequences, considering the robot's full dynamics and kinematics.
+
+---
 
 ## MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking
 
@@ -366,41 +407,5 @@ Designing and tuning reward functions remains one of the main challenges in buil
 ### Summary
 
 The Moon changes gravity, terrain, and soil at once. Learned locomotion has studied reduced gravity on rigid ground and granular terrain mostly at Earth gravity, but not humanoids under both, generalist-controller transfer, or the Earth cost of lunar adaptation.
-
----
-
-## Test-Time Motion Steering for Perceptive Humanoid Fall Recovery
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.30061)
-- **Authors:** Osher Azulay, Cheng-Lin Hsieh, Stella X. Yu
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Humanoid
-  - PPO
-  - Diffusion
-  - Locomotion
-
-### Summary
-
-Humanoid fall recovery requires selecting a motion that suits both the surrounding scene and the task. The same fallen pose can admit several ways to stand, with different routes, support transitions, and final headings.
-
----
-
-## Watch Your Step: Anticipated Perception for Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.29612)
-- **Authors:** Matthias Heyrman, Chenhao Li, Ioannis Dadiotis, Marco Hutter
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - Gait
-  - Proprioception
-
-### Summary
-
-Perceptive locomotion policies typically observe a dense robot-centric elevation map, although only the terrain beneath and around the next footsteps informs the control decision. Learned encoders compress the whole visual input, leaving the policy to work out which inputs matter while learning the baseline locomotion task.
 
 ---

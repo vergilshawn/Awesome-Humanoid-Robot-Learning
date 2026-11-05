@@ -1,5 +1,149 @@
 [
   {
+    "arxiv_id": "2611.06908",
+    "title": "Perceptive Humanoid Motion from Simulation",
+    "paper_url": "https://arxiv.org/abs/2611.06908",
+    "project_url": null,
+    "authors": [
+      "Siyuan Hu",
+      "Abulikemu Abuduweili",
+      "Yue Meng",
+      "Shipeng Liu",
+      "Quentin Leboutet",
+      "Chen Chen",
+      "Matthias Müller",
+      "Vladlen Koltun"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-04",
+    "abstract": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale. Some approaches rely on human teleoperation and wearable capture devices, which require at least an hour of human time to produce an hour of data. We present HALO, a humanoid autonomy system powered by a pipeline that synthesizes vision-language-motion data across a thousand procedurally generated homes. The corpus scales with compute rather than human labor. HALO acquires a repertoire of physical skills, including sitting on chairs, navigating to named objects, stepping sideways through half-open doors, crouching and crawling beneath tables, and pushing boxes. It orchestrates these skills to solve composite, long-horizon tasks. Without ever seeing a real home during training, HALO transfers zero-shot to the physical world, achieving a 91% success rate across 360 trials in six unmapped real-world environments. See https://apple-aiml-research.github.io/ml-halo/ for code and videos.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Zero-Shot",
+      "Humanoid",
+      "Vision-Language",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2611.06564",
+    "title": "Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors",
+    "paper_url": "https://arxiv.org/abs/2611.06564",
+    "project_url": null,
+    "authors": [
+      "Haoyu Shao",
+      "Yunshen Wang",
+      "Jingze Zhang",
+      "Shaohang Zhu",
+      "Yong-Lu Li",
+      "Tianzhu Zhang",
+      "Baoxiong Jia",
+      "Siyuan Huang"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-04",
+    "abstract": "Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball manipulation, and impact-rich contact dynamics across a continuous, dynamic behavioral spectrum. Yet existing approaches either cover only a limited set of skills, or forego motion priors entirely and produce unnatural behaviors, leaving the combination of a unified skill set and human-like motion quality unaddressed. We present soccerbot, a hierarchical reinforcement learning framework that resolves both limitations through a structured latent motion prior distilled from large-scale human soccer motion capture data. By constraining policy learning within this dynamically plausible motion manifold, a single skill-conditioned policy naturally learns to perform moving, dribbling, trapping, and kicking in a unified formulation, while inherently producing human-like motion and fluid transitions during commanded skill switching. Augmented by robustness-oriented simulation design, soccerbot transfers zero-shot to the Unitree G1 humanoid robot, demonstrating agile, natural, and robust execution of the full soccer skill repertoire under real-world conditions.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Locomotion",
+      "Manipulation",
+      "Zero-Shot",
+      "Robustness",
+      "Humanoid",
+      "Contact Dynamics",
+      "Impact",
+      "Policy Learning"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2611.05585",
+    "title": "Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain",
+    "paper_url": "https://arxiv.org/abs/2611.05585",
+    "project_url": null,
+    "authors": [
+      "Roberto Mauceri",
+      "Stefano Dafarra",
+      "Giulio Romualdi",
+      "Marco Gabiccini",
+      "Daniele Pucci"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-03",
+    "abstract": "This letter presents a trajectory planner for humanoid robots to perform dynamic motions on complex, parameterizable terrains using a contact-implicit whole-body optimization framework. The planner generates feasible movements without predefined contact sequences, considering the robot's full dynamics and kinematics. To plan bipedal locomotion on steps, ramps, and other terrains, we propose a mathematical model to approximate ground geometry with a smooth surface. The rigid interaction between the robot and the ground is modeled via novel contact constraints, extending the domain of applicability from flat and horizontal surfaces to any arbitrary smooth surface. Effectiveness is demonstrated using nonlinear programming to plan motions on various terrain topologies. We also explore dynamic trajectory generation by embedding high-level requirements in the cost function and the initial guess. Preliminary feasibility tests were conducted over non-coplanar terrains, both in simulation and on the real robot ErgoCub.",
+    "categories": [
+      "Locomotion",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Locomotion",
+      "Real Robot",
+      "Biped",
+      "Humanoid",
+      "Trajectory Optimization",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2611.05507",
+    "title": "Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2611.05507",
+    "project_url": null,
+    "authors": [
+      "Mengjie Zhao",
+      "Yuxin Chen",
+      "Yiyang Shao",
+      "Chuye Hong",
+      "Jiakang Chen",
+      "Koushil Sreenath",
+      "Masayoshi Tomizuka"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-03",
+    "abstract": "Humanoid motion tracking has scaled to general policies that reproduce diverse human motion, but the resulting behavior is in free-space: the tracker knows where the body should be, not how it should interact with the environment. Other work makes the object part of the objective, yet abstracts that interaction to contact or geometry, which leaves the demanding cases under-explored. We argue that force is a natural command channel between motion imitation and object interaction, one that specifies not just where to make contact but how hard. We present Ctrl-F, a hierarchical motion-force framework that augments motion tracking with an explicit force command, a 3-D force at each designated contact body such as a hand or a foot. The hierarchical framework comprises: (1) A unified motion-force controller tracks the reference motion while applying the commanded force to the world. (2) A high-level force planner that issues a force command online based on object state and proprioception observations. In simulation and on hardware, Ctrl-F completes loco-manipulation that demands large, sustained interaction force and adjusts its command online as the load changes, both out of reach of a force-blind tracker. On hardware, Ctrl-F demonstrates hand-based dragging, pushing, and lifting, as well as foot-based kicking, successfully manipulating boxes weighing up to 20kg in pushing and kicking tasks where the force-blind baseline fails, while adapting online to additional loads introduced mid-task.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "State Estimation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Force Control",
+      "Proprioception",
+      "Loco-Manipulation and Whole-Body Control",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2611.05113",
     "title": "HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors",
     "paper_url": "https://arxiv.org/abs/2611.05113",
