@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**319 papers** in this category.
+**321 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (7 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (9 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -40,6 +40,39 @@
 ---
 
 ## Recent Papers
+
+## HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08039)
+- **Authors:** Qingzhou Lu, Chenxin Liu, Xinming Wang, Liu Cao, Yanjiang Guo, Mengdi Xu et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Walking
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Enabling vision-language models (VLMs) to control humanoid robots requires both reliable whole-body interfaces and knowledge of how to use the body that carries over across tasks. We present HITCH (Harness Interfaces To Command Humanoids), a harness in which perception returns the 3D position of any point the VLM selects in its image, and execution turns commands for the pelvis, torso, hands, walking, and gaze into whole-body motion with a learned tracker.
+
+---
+
+## Whole-Body Elasto-Geometrical Calibration of Wheeled Humanoid Robots Using a Shared-Waist Dual-Chain Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.07560)
+- **Authors:** Pengxin Zha, Yi Lu, Haojun Ma, Jun Zhu, Minghao Qiu, Xiaoyan Wang et al. (8 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Wheeled humanoid robots carry both arms on one actuated waist, usually without torque sensors, so the accuracy of both end-effectors depends on a single waist model. After a first stage that estimates the tracker and target extrinsics, we identify the waist and both arms in one problem from the target positions on both flanges, measured by an optical tracker.
+
+---
 
 ## Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation
 
@@ -191,6 +224,7 @@ Humanoid robots operating in shared, dynamic environments must respond to rapidl
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.00951)
 - **Authors:** Haizhou Ge, Mengshuo Wang, Yufei Jia, Lei Han, Lu Shi, Guyue Zhou et al. (7 authors)
 - **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
   - World Model
   - Humanoid
@@ -198,7 +232,7 @@ Humanoid robots operating in shared, dynamic environments must respond to rapidl
 
 ### Summary
 
-We test whether Koopman structure, linear dynamics in a lifted state space, helps when a humanoid whole-body tracking policy is trained by backpropagating through a differentiable world model, replacing the MLP world model of an otherwise unchanged pipeline for simulated Unitree G1 tracking. It does not: return is at best equal (0.823 versus 0.830), one-step error on identical data is 1.3 to 1.6 times the MLP's, and training is about 15% slower.
+We test whether Koopman structure helps a differentiable world model used to train a simulated Unitree G1 whole-body tracking policy by backpropagation through imagined rollouts, replacing the MLP world model of an otherwise unchanged pipeline. It does not: return is at best equal (0.823 versus 0.830), one-step error on identical data is 1.3 to 1.6 times the MLP's, and training is about 15% slower.
 
 ---
 
@@ -372,46 +406,5 @@ Many everyday tasks require controlling contact force as well as motion. On a hu
 ### Summary
 
 Learning generalizable humanoid loco-manipulation remains bottlenecked by costly real-world demonstrations. Simulation provides a scalable alternative, but requires visually faithful, physics-ready scenes and executable whole-body motions.
-
----
-
-## ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.34370)
-- **Authors:** Nuo Chen, Shizeng Zhang, Yujie Yang, Jinghong Wang, Zhenyang Qu, Xiao-Ming Wu et al. (13 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Locomotion
-  - Manipulation
-  - Navigation
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-In this paper, we propose ThinkLocoManip, an agentic harness for legged loco-manipulation designed to tackle complex, long-horizon tasks in large-scale environments. Existing approaches typically follow either direct action generation or a plan-then-act paradigm, both of which can struggle with the generalization and error-recovery capabilities required for extended task execution.
-
----
-
-## HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.34186)
-- **Authors:** Yang Liu, Jiacheng Liu, Hengtao Li, Yuheng Huang, Zijian Yang, Ji Dai et al. (17 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Human Demonstration
-  - Humanoid
-  - Proprioception
-  - Vision-Language
-  - Pre-training
-  - Fine-tuning
-  - Benchmark
-
-### Summary
-
-Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios. Although egocentric human demonstrations provide a complementary source of task experience, differences in visual embodiment and missing robot proprioception complicate transfer to humanoid policies.
 
 ---

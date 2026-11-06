@@ -1,9 +1,10 @@
 # Simulation Benchmark
 
-**44 papers** in this category.
+**45 papers** in this category.
 
 ## Months
 
+- [2026-11](/simulation-benchmark/2026-11) (1 papers)
 - [2026-10](/simulation-benchmark/2026-10) (7 papers)
 - [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
@@ -26,6 +27,25 @@
 ---
 
 ## Recent Papers
+
+## Social Humanoid: Socially Responsive Human-Humanoid Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08407)
+- **Authors:** Vongani H. Maluleke, James Ni, Kie Horiuchi, Lea Wilken, Jiahui Lei, Evonne Ng et al. (10 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Contact Dynamics
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on a 29-DoF Unitree G1 conditioned on a human partner's motion.
+
+---
 
 ## $\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation
 
@@ -385,25 +405,5 @@ Humanoid robots are increasingly expected to perform contact-rich tasks that req
 ### Summary
 
 How do we learn to hit a tennis backhand? Not from a thousand hours of tennis tournaments on TV - we work with a coach and practice. We argue this is also the right recipe for teaching dynamic skills to humanoid robots.
-
----
-
-## HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.17833)
-- **Authors:** Taowen Wang, Zikang Xie, Bin Yang, Yunheng Wang, Zizhao Yuan, Yuetong Fang et al. (16 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - Proprioception
-  - Benchmark
-  - Policy Learning
-  - Simulation Benchmark
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Humanoid robots promise whole-body interaction in human-centered environments, but scalable policy learning remains difficult because task-level decision-making and whole-body dynamic execution are tightly coupled. A practical solution is hierarchical control, where a high-level policy predicts intermediate whole-body actions and low-level general motion trackers (GMTs) execute them as stable humanoid motion.
 
 ---

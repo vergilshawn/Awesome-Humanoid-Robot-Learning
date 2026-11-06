@@ -9,7 +9,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Digit:** 2 papers
 - **Figure:** 16 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 78 papers
+- **Unitree G1:** 82 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 24 papers
 - **iCub:** 1 papers
@@ -17,6 +17,64 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## Social Humanoid: Socially Responsive Human-Humanoid Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08407)
+- **Authors:** Vongani H. Maluleke, James Ni, Kie Horiuchi, Lea Wilken, Jiahui Lei, Evonne Ng et al. (10 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Contact Dynamics
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on a 29-DoF Unitree G1 conditioned on a human partner's motion.
+
+---
+
+## AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.07712)
+- **Authors:** Nikita Kuzmin, Georgii Demianchuk, Mariya Lezina, Yara Mahmoud, Iana Zhura, Miguel Altamirano Cabrera et al. (7 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Vision-Language
+
+### Summary
+
+Social touch interactions, such as handshakes, fist bumps, and hugs, require humanoid robots to infer human intent, generate contact-rich motions, and maintain safe physical contact. We present AffectiveVLA, an intent-gated Vision-Language-Action (VLA) pipeline deployed on a Unitree G1 humanoid with dexterous hands.
+
+---
+
+## PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.07679)
+- **Authors:** Yunwan Fu, Sicheng He, Jiageng Mao, Yue Wang
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Simulator
+  - MuJoCo
+  - Humanoid
+  - Gait
+  - Vision-Language
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion policies trained without an explicit smoothness objective tend to produce jerky, high-energy gaits that stress actuators. Vision-language models (VLMs) offer an appealing reward source: given a rendered rollout, a VLM returns an aesthetic quality score on [0,10] without task-specific feature engineering.
+
+---
 
 ## Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors
 
@@ -58,6 +116,23 @@ Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball ma
 ### Summary
 
 Humanoid loco-manipulation requires coordinating object acquisition, transport, and release from onboard sensing while responding to user commands and incomplete visual observations. We present ReGATE, a whole-body controller that combines egocentric depth, proprioception, and online locomotion and contact commands.
+
+---
+
+## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.00951)
+- **Authors:** Haizhou Ge, Mengshuo Wang, Yufei Jia, Lei Han, Lu Shi, Guyue Zhou et al. (7 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - World Model
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We test whether Koopman structure helps a differentiable world model used to train a simulated Unitree G1 whole-body tracking policy by backpropagation through imagined rollouts, replacing the MLP world model of an otherwise unchanged pipeline. It does not: return is at best equal (0.823 versus 0.830), one-step error on identical data is 1.3 to 1.6 times the MLP's, and training is about 15% slower.
 
 ---
 

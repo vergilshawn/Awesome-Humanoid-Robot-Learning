@@ -1,5 +1,233 @@
 [
   {
+    "arxiv_id": "2611.08407",
+    "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+    "paper_url": "https://arxiv.org/abs/2611.08407",
+    "project_url": null,
+    "authors": [
+      "Vongani H. Maluleke",
+      "James Ni",
+      "Kie Horiuchi",
+      "Lea Wilken",
+      "Jiahui Lei",
+      "Evonne Ng",
+      "Roei Herzig",
+      "Jitendra Malik",
+      "Trevor Darrell",
+      "Angjoo Kanazawa"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-05",
+    "abstract": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on a 29-DoF Unitree G1 conditioned on a human partner's motion. Its high-level policy performs flexible sequence modeling of human and humanoid motion through a shared tokenized representation, generating reactive humanoid motion and anticipating the partner's motion when they are occluded, while a low-level whole-body tracking controller executes the generated motion on the robot. To train the system, we introduce a two-phase adaptive retargeting procedure that retargets one interaction partner to the robot while morphing the other partner to preserve contact dynamics, reachability, and relative body scale. We apply this procedure across five motion-capture datasets to produce a new Human-Humanoid Interaction (HHI) benchmark of 260 hours of human-humanoid interactions. Our results demonstrate that Social Humanoid produces coordinated, human-aligned behavior across diverse interaction types in simulation and the real world. Project page: https://von31.github.io/social-humanoid/",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "Contact Dynamics",
+      "Benchmark",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2611.08097",
+    "title": "STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2611.08097",
+    "project_url": null,
+    "authors": [
+      "Youhao Lyu",
+      "Chenghao Sun",
+      "Zhenxuan Ding",
+      "Shuting Zhang",
+      "Ziyang Dong",
+      "Wenhao Cui"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-05",
+    "abstract": "For perceptive humanoid locomotion, the relevance of terrain geometry depends on the robot's body state and how both evolve under its actions. Existing work has advanced terrain-aware sensory fusion and cross-modal prediction, improving how visual and proprioceptive information is combined and related. However, feature aggregation alone does not specify which cross-modal relationships should be learned, while prediction between simultaneous observations does not explicitly constrain their action-dependent evolution. We present Spatiotemporal Training with Explicit Prediction (STEP), a one-stage framework that jointly supervises cross-modal relationships and action-dependent state evolution within a shared control representation. Multiple learned queries aggregate depth and proprioceptive tokens into a compact policy state. Bidirectional masked prediction uses each visible modality to predict latent features of the omitted modality, explicitly supervising terrain-body relationships. An action-conditioned predictor maps the current policy state and executed action to the next fused state, with an exponential-moving-average target defined directly in the policy representation space. Simulation comparisons show overall improvements in terrain traversal over evaluated fusion alternatives and ablations, while depth-dropout and delay experiments demonstrate the benefits of both predictive objectives under degraded visual input. Deployed on a 23-DoF Noetix E1 humanoid with onboard sensing, STEP succeeds in 98 of 100 hardware trials across stairs, a 40\\,cm platform, a 70\\,cm gap, stepping stones, and backward stair traversal without rearward terrain visibility.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2611.08056",
+    "title": "Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour",
+    "paper_url": "https://arxiv.org/abs/2611.08056",
+    "project_url": null,
+    "authors": [
+      "Chenghao Sun",
+      "Youhao Lyu",
+      "Zizheng Li",
+      "Shuting Zhang",
+      "Ziyang Dong",
+      "Wenhao Cui"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-05",
+    "abstract": "We present a progressive imitation framework that learns terrain-appropriate humanoid parkour skills and subsequently adapts their hand--knee support. Human demonstrations provide traversal behaviors, but their contact patterns need not suit a robot's proportions or the available support surfaces. Our framework changes the role of demonstrations across three stages: privileged imitation produces physically executable robot references; terrain-indexed adversarial motion priors guide skill acquisition; and geometric support guidance with a reduced motion-prior weight enables contact adaptation. Candidate-based precontact attraction and actual-contact evaluation guide support without prescribing a contact sequence. The deployed policy selects behaviors from onboard depth, proprioception, and velocity commands without an external skill label. On the Noetix E1, the policy achieves 96.34\\% hybrid success in simulation and transfers without real-world policy fine-tuning, completing 29 of 30 individual obstacle trials and four of five hybrid courses. Support-adaptation ablations show higher traversal success for the complete adaptation stage on the tested terrains, while qualitative observations show changes in contact placement. These results support acquiring skills from demonstrations before relaxing their influence to accommodate robot-specific support configurations.",
+    "categories": [
+      "State Estimation"
+    ],
+    "tags": [
+      "Human Demonstration",
+      "Humanoid",
+      "Proprioception",
+      "Fine-tuning",
+      "PPO",
+      "State Estimation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2611.08039",
+    "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+    "paper_url": "https://arxiv.org/abs/2611.08039",
+    "project_url": null,
+    "authors": [
+      "Qingzhou Lu",
+      "Chenxin Liu",
+      "Xinming Wang",
+      "Liu Cao",
+      "Yanjiang Guo",
+      "Mengdi Xu",
+      "Jianyu Chen"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-05",
+    "abstract": "Enabling vision-language models (VLMs) to control humanoid robots requires both reliable whole-body interfaces and knowledge of how to use the body that carries over across tasks. We present HITCH (Harness Interfaces To Command Humanoids), a harness in which perception returns the 3D position of any point the VLM selects in its image, and execution turns commands for the pelvis, torso, hands, walking, and gaze into whole-body motion with a learned tracker. We find that both measuring the scene and executing commands accurately raise task success. We then fine-tune a VLM on trajectories in which teacher policies solve five base tasks through HITCH, so that it learns how to operate the humanoid. Without task-specific trajectories, the fine-tuned model completes 51% of SIMPLE episodes and 42.5% of HumanoidArena episodes, and adding five trajectories per SIMPLE task raises its SIMPLE success to 95%. On a real G1, it carries a box and walks to a goal without real training data.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Walking",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2611.07712",
+    "title": "AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction",
+    "paper_url": "https://arxiv.org/abs/2611.07712",
+    "project_url": null,
+    "authors": [
+      "Nikita Kuzmin",
+      "Georgii Demianchuk",
+      "Mariya Lezina",
+      "Yara Mahmoud",
+      "Iana Zhura",
+      "Miguel Altamirano Cabrera",
+      "Dzmitry Tsetserukou"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-05",
+    "abstract": "Social touch interactions, such as handshakes, fist bumps, and hugs, require humanoid robots to infer human intent, generate contact-rich motions, and maintain safe physical contact. We present AffectiveVLA, an intent-gated Vision-Language-Action (VLA) pipeline deployed on a Unitree G1 humanoid with dexterous hands. A lightweight RGB-based model recognizes interaction intent from two onboard cameras and converts it into a language prompt for the VLA policy. Low-confidence predictions suppress motion execution, reducing unintended activations. During physical contact, interaction-specific compliance profiles adjust arm impedance, while an independent voice-triggered mechanism initiates a latched safe-stop procedure. Using VR teleoperation, we collected approximately 1,300 multimodal interaction episodes and fine-tuned four VLA models: GR00T, RLDX-1, Being-H0.5, and UnifoLM-VLA-0. On-robot evaluation identifies GR00T as the best-performing standalone model. Integrating intent recognition increases its macro-F1 score from 0.75 to 0.90, while the intent model achieves a p95 inference latency of 6.27 ms. These results demonstrate that explicit intent gating improves the reliability of VLA-based social interaction without compromising real-time operation.",
+    "categories": [
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Humanoid",
+      "Vision-Language"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2611.07679",
+    "title": "PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion",
+    "paper_url": "https://arxiv.org/abs/2611.07679",
+    "project_url": null,
+    "authors": [
+      "Yunwan Fu",
+      "Sicheng He",
+      "Jiageng Mao",
+      "Yue Wang"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-05",
+    "abstract": "Humanoid locomotion policies trained without an explicit smoothness objective tend to produce jerky, high-energy gaits that stress actuators. Vision-language models (VLMs) offer an appealing reward source: given a rendered rollout, a VLM returns an aesthetic quality score on [0,10] without task-specific feature engineering. We find, however, that aesthetic preference and physical smoothness point in opposite directions: across four production VLMs, clips with higher joint acceleration receive higher aesthetic scores (mean Pearson r=+0.66). We study PhySA (Physical Smoothness and Aesthetics), which keeps the two on separate, independently removable reward channels: a sparse, asynchronous VLM score and a phase-triggered correction channel that adjusts physical penalty weights from simulator state. Ablations attribute the smoothness gain to the correction channel. On MuJoCo Humanoid-v5 at 2.6M steps, PhySA lowers joint acceleration by 26 to 32% relative to vanilla PPO, Text2Reward, and Eureka (three seeds), at the cost of shorter episodes. In a single extended run it lowers joint acceleration by 59.5% relative to Prompt2Policy, while a three-seed replication shows a smaller, non-significant reduction (7.2%). The gain does not transfer to IsaacLab or the Unitree G1, even after rescaling the smoothness term.",
+    "categories": [
+      "Locomotion",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Locomotion",
+      "Simulator",
+      "MuJoCo",
+      "Humanoid",
+      "Gait",
+      "Vision-Language",
+      "PPO",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2611.07560",
+    "title": "Whole-Body Elasto-Geometrical Calibration of Wheeled Humanoid Robots Using a Shared-Waist Dual-Chain Model",
+    "paper_url": "https://arxiv.org/abs/2611.07560",
+    "project_url": null,
+    "authors": [
+      "Pengxin Zha",
+      "Yi Lu",
+      "Haojun Ma",
+      "Jun Zhu",
+      "Minghao Qiu",
+      "Xiaoyan Wang",
+      "Wei Shan",
+      "Maoqing Yao"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-05",
+    "abstract": "Wheeled humanoid robots carry both arms on one actuated waist, usually without torque sensors, so the accuracy of both end-effectors depends on a single waist model. After a first stage that estimates the tracker and target extrinsics, we identify the waist and both arms in one problem from the target positions on both flanges, measured by an optical tracker. The kinematic model is complete, with waist-base, parallel-axis, and branch parameters; arm compliances are driven by measured torques and waist compliances by gravity torques of the robot's mass model; and Gaussian priors with evidence-maximizing scales stabilize the estimate. Independent and sequential single-chain calibration are restrictions of this problem, and its waist information is the sum of the single-chain Schur complements. On two robots with different waists, each without and with a payload, calibration reduces the mean errors on held-out poses from 11.3-31.1 mm to 0.50-1.11 mm. For every training-set size from 20 poses to all, the method has 17-63% lower mean errors than adaptations of two published whole-body calibration methods, mainly through the waist compliance. Independent calibration yields two waist models; using either for both arms raises the other arm's error to up to 3.21 mm.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Humanoid",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2611.06908",
     "title": "Perceptive Humanoid Motion from Simulation",
     "paper_url": "https://arxiv.org/abs/2611.06908",
@@ -579,7 +807,7 @@
     ],
     "published": "2026-10",
     "published_date": "2026-10-31",
-    "abstract": "We test whether Koopman structure, linear dynamics in a lifted state space, helps when a humanoid whole-body tracking policy is trained by backpropagating through a differentiable world model, replacing the MLP world model of an otherwise unchanged pipeline for simulated Unitree G1 tracking. It does not: return is at best equal (0.823 versus 0.830), one-step error on identical data is 1.3 to 1.6 times the MLP's, and training is about 15% slower. Lifted rollouts diverge or fail to train a policy; of the schemes tested, re-lifting at every imagined step trains best. Re-lifting never uses the lifted linear dynamics and leaves a model affine in the action, with state-dependent offset and slope; an action-affine MLP also predicts worse, so the cost belongs to this class. At a fixed state, the curvature of the true dynamics in the action explains only part of it. Across states, the policy's actions span a curved region, so an affine model fits policy data only as the tangent at the policy's action, the operating point: on G1, the MLP's tangent there is as accurate as the MLP; at the mean action, 31 times worse. The offset must encode, from the state alone, where the policy acts, whereas an MLP reads the action. Supplying the policy's action removes most of the remaining gap on G1, Ant and Humanoid. The only online repair approaching the MLP feeds the action into the nonlinear lift, giving up the structure. The MLP world model thus remains the better choice here.",
+    "abstract": "We test whether Koopman structure helps a differentiable world model used to train a simulated Unitree G1 whole-body tracking policy by backpropagation through imagined rollouts, replacing the MLP world model of an otherwise unchanged pipeline. It does not: return is at best equal (0.823 versus 0.830), one-step error on identical data is 1.3 to 1.6 times the MLP's, and training is about 15% slower. Lifted rollouts diverge or fail to train policies; of the schemes tested, re-lifting at every imagined step trains best. Re-lifting never uses the lifted linear dynamics and leaves a model affine in the action, with state-dependent offset and slope; an action-affine MLP also predicts worse, so the accuracy cost belongs to this class. At a fixed state, the dynamics' curvature in the action explains only part of it. Across states, the policy's actions span a curved region, so an affine model fits policy data only as the tangent at the policy's action, the operating point: on G1, the MLP's tangent there is as accurate as the MLP; at the mean action, 31 times worse. The offset must encode, from the state alone, where the policy acts, whereas an MLP reads the action. Supplying the policy's action removes most of the remaining gap on G1, Ant and Humanoid. The only tested online repair approaching the MLP feeds the action into the nonlinear lift, abandoning the structure. For this use, the MLP world model remains the better choice.",
     "categories": [
       "Loco-Manipulation and Whole-Body Control"
     ],
@@ -588,7 +816,7 @@
       "Humanoid",
       "Loco-Manipulation and Whole-Body Control"
     ],
-    "real_robot": false,
+    "real_robot": true,
     "open_source": false,
     "platform": "Unitree G1",
     "summary": "",
@@ -805,44 +1033,6 @@
     "primary_category": "Simulation Benchmark"
   },
   {
-    "arxiv_id": "2610.41354",
-    "title": "DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
-    "paper_url": "https://arxiv.org/abs/2610.41354",
-    "project_url": null,
-    "authors": [
-      "Yifei Huang",
-      "Yazhao Yang",
-      "Weijia Li",
-      "Zhiheng Ma",
-      "Dian Shen"
-    ],
-    "published": "2026-10",
-    "published_date": "2026-10-30",
-    "abstract": "General humanoid motion trackers typically rely on deterministic policies that cannot adapt online without brittle reference editing or costly retraining. We present DiffWBC, shifting whole-body control to a generative paradigm via a one-step diffusion model. By modeling distributions over future trajectories, DiffWBC unifies general tracking, test-time steering, and simulation-free failure discovery within a single controller: (1) Generative general tracking: DiffWBC requires a single forward pass per 50 Hz control step and can be distilled from an RL teacher or trained from scratch via model-based RL, achieving the lowest local tracking error among six general trackers on held-out benchmarks (20.1 mm on BONES) and deploying on a physical Unitree G1. (2) Zero-shot test-time steering: differentiable cost gradients and body-group masks modulate the frozen controller online, substantially outperforming kinematic reference editing (0.84 clean pass at 1.25 m ceiling vs. 0.10) and zero-shot generalizing across hurdles, spatial reaching, actuator faults, and tray balancing. (3) Simulation-free failure discovery: plan dispersion across generation noise effectively identifies physical tracking failures (91% precision in top 2%) without physics simulations; targeted fine-tuning on flagged clips resolves 50% of failure cases. Videos and interactive demonstrations are available at https://diffwbc.github.io/#selfassess.",
-    "categories": [
-      "Loco-Manipulation and Whole-Body Control",
-      "Simulation Benchmark",
-      "Physics-Based Character Animation"
-    ],
-    "tags": [
-      "Whole-Body Control",
-      "Model-Based RL",
-      "Zero-Shot",
-      "Humanoid",
-      "Fine-tuning",
-      "Benchmark",
-      "Diffusion",
-      "Loco-Manipulation and Whole-Body Control",
-      "Simulation Benchmark",
-      "Physics-Based Character Animation"
-    ],
-    "real_robot": false,
-    "open_source": false,
-    "platform": "Unitree G1",
-    "summary": "",
-    "primary_category": "Loco-Manipulation and Whole-Body Control"
-  },
-  {
     "arxiv_id": "2610.41334",
     "title": "HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure",
     "paper_url": "https://arxiv.org/abs/2610.41334",
@@ -882,6 +1072,44 @@
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2610.41354",
+    "title": "DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
+    "paper_url": "https://arxiv.org/abs/2610.41354",
+    "project_url": null,
+    "authors": [
+      "Yifei Huang",
+      "Yazhao Yang",
+      "Weijia Li",
+      "Zhiheng Ma",
+      "Dian Shen"
+    ],
+    "published": "2026-10",
+    "published_date": "2026-10-30",
+    "abstract": "General humanoid motion trackers typically rely on deterministic policies that cannot adapt online without brittle reference editing or costly retraining. We present DiffWBC, shifting whole-body control to a generative paradigm via a one-step diffusion model. By modeling distributions over future trajectories, DiffWBC unifies general tracking, test-time steering, and simulation-free failure discovery within a single controller: (1) Generative general tracking: DiffWBC requires a single forward pass per 50 Hz control step and can be distilled from an RL teacher or trained from scratch via model-based RL, achieving the lowest local tracking error among six general trackers on held-out benchmarks (20.1 mm on BONES) and deploying on a physical Unitree G1. (2) Zero-shot test-time steering: differentiable cost gradients and body-group masks modulate the frozen controller online, substantially outperforming kinematic reference editing (0.84 clean pass at 1.25 m ceiling vs. 0.10) and zero-shot generalizing across hurdles, spatial reaching, actuator faults, and tray balancing. (3) Simulation-free failure discovery: plan dispersion across generation noise effectively identifies physical tracking failures (91% precision in top 2%) without physics simulations; targeted fine-tuning on flagged clips resolves 50% of failure cases. Videos and interactive demonstrations are available at https://diffwbc.github.io/#selfassess.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Model-Based RL",
+      "Zero-Shot",
+      "Humanoid",
+      "Fine-tuning",
+      "Benchmark",
+      "Diffusion",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
     "arxiv_id": "2610.41349",
@@ -958,7 +1186,7 @@
     ],
     "published": "2026-10",
     "published_date": "2026-10-29",
-    "abstract": "We present SONIC-K1, to our knowledge the first open-weights whole-body motion tracker for the Booster K1 humanoid, obtained by adapting the SONIC framework to this smaller robot. The policy is trained from scratch on a single shared GPU with a small fraction of the compute reported for SONIC. In MuJoCo simulation, it tracks nearly all held-out motion clips and performs well on external benchmarks under SONIC's success criterion. On the real K1, it tracks upper-body and slow motions, while stepping and turning remain less reliable, and simulation experiments show a sensitivity to action latency. These results show broad motion-tracking capability on a modest training budget and point to quantitative hardware evaluation as the main next step. Code, policy weights and evaluation tools are publicly available.",
+    "abstract": "We present SONIC-K1, to our knowledge the first open-weights whole-body motion tracker for the Booster K1 humanoid, obtained by adapting the SONIC framework to this smaller robot. The policy is trained from scratch on a single shared GPU with a small fraction of the compute reported for SONIC. In MuJoCo simulation, it tracks nearly all held-out motion clips and performs well on external benchmarks under SONIC's success criterion. The first release ran on the real K1 but shook its legs on steps and turns, and simulation showed a sensitivity to actuation delay. We therefore post-trained it with the robot's deployment torque limits, randomized actuation delay and gain randomization. The post-trained v1.0 stays robust under real-robot torque limits and large actuation delays, where the first release often failed, and in our runs on the real K1 it walks and turns without the earlier leg shaking. These results show broad motion-tracking capability on a modest training budget. Code, policy weights and evaluation tools are publicly available.",
     "categories": [
       "Simulation Benchmark"
     ],

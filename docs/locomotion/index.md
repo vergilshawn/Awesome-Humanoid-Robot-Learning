@@ -1,10 +1,10 @@
 # Locomotion
 
-**245 papers** in this category.
+**247 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (4 papers)
+- [2026-11](/locomotion/2026-11) (6 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -41,6 +41,43 @@
 ---
 
 ## Recent Papers
+
+## STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08097)
+- **Authors:** Youhao Lyu, Chenghao Sun, Zhenxuan Ding, Shuting Zhang, Ziyang Dong, Wenhao Cui
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+For perceptive humanoid locomotion, the relevance of terrain geometry depends on the robot's body state and how both evolve under its actions. Existing work has advanced terrain-aware sensory fusion and cross-modal prediction, improving how visual and proprioceptive information is combined and related.
+
+---
+
+## PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.07679)
+- **Authors:** Yunwan Fu, Sicheng He, Jiageng Mao, Yue Wang
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Simulator
+  - MuJoCo
+  - Humanoid
+  - Gait
+  - Vision-Language
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion policies trained without an explicit smoothness objective tend to produce jerky, high-energy gaits that stress actuators. Vision-language models (VLMs) offer an appealing reward source: given a rendered rollout, a VLM returns an aesthetic quality score on [0,10] without task-specific feature engineering.
+
+---
 
 ## Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors
 
@@ -374,38 +411,5 @@ As humanoid robots move from research laboratories toward deployment in human-ce
 ### Summary
 
 Humanoid mobility over complex terrain requires accurate foot placement and coordinated whole-body motion capable of robust adaptation. Reinforcement learning (RL) policies trained without motion references generalize well across terrains, yet eliciting effective whole-body coordination through reward design and exploration alone remains challenging.
-
----
-
-## MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.30334)
-- **Authors:** Van Chung Nguyen, Hung Manh La
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Navigation
-
-### Summary
-
-Designing and tuning reward functions remains one of the main challenges in building effective reinforcement learning (RL) pipelines for humanoid locomotion. While shaping rewards can accelerate learning, naively formulated terms often conflict with the desired behavior, overfit to a specific robot, or become unstable under small weight changes.
-
----
-
-## Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.30080)
-- **Authors:** Guillem Casadesus Vila, Sri Aditya Deevi, Grace X. Gao
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Fine-tuning
-
-### Summary
-
-The Moon changes gravity, terrain, and soil at once. Learned locomotion has studied reduced gravity on rigid ground and granular terrain mostly at Earth gravity, but not humanoids under both, generalist-controller transfer, or the Earth cost of lunar adaptation.
 
 ---

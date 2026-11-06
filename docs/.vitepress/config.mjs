@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (319)",
+            "text": "Loco-Manipulation and Whole-Body Control (321)",
             "collapsed": true,
             "items": [
                   {
@@ -304,12 +304,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (46)",
+            "text": "Teleoperation (47)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/teleoperation/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/teleoperation/2026-11"
                   },
                   {
                         "text": "2026-10",
@@ -382,7 +386,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (245)",
+            "text": "Locomotion (247)",
             "collapsed": true,
             "items": [
                   {
@@ -610,7 +614,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (27)",
+            "text": "State Estimation (28)",
             "collapsed": true,
             "items": [
                   {
@@ -812,12 +816,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (44)",
+            "text": "Simulation Benchmark (45)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/simulation-benchmark/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/simulation-benchmark/2026-11"
                   },
                   {
                         "text": "2026-10",

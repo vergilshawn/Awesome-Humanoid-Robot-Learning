@@ -2,6 +2,131 @@
 
 All papers sorted by publication date (newest first).
 
+## Social Humanoid: Socially Responsive Human-Humanoid Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08407)
+- **Authors:** Vongani H. Maluleke, James Ni, Kie Horiuchi, Lea Wilken, Jiahui Lei, Evonne Ng et al. (10 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Contact Dynamics
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on a 29-DoF Unitree G1 conditioned on a human partner's motion.
+
+---
+
+## STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08097)
+- **Authors:** Youhao Lyu, Chenghao Sun, Zhenxuan Ding, Shuting Zhang, Ziyang Dong, Wenhao Cui
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+For perceptive humanoid locomotion, the relevance of terrain geometry depends on the robot's body state and how both evolve under its actions. Existing work has advanced terrain-aware sensory fusion and cross-modal prediction, improving how visual and proprioceptive information is combined and related.
+
+---
+
+## Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08056)
+- **Authors:** Chenghao Sun, Youhao Lyu, Zizheng Li, Shuting Zhang, Ziyang Dong, Wenhao Cui
+- **Published:** 2026-11
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Proprioception
+  - Fine-tuning
+  - PPO
+  - State Estimation
+
+### Summary
+
+We present a progressive imitation framework that learns terrain-appropriate humanoid parkour skills and subsequently adapts their hand--knee support. Human demonstrations provide traversal behaviors, but their contact patterns need not suit a robot's proportions or the available support surfaces.
+
+---
+
+## HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08039)
+- **Authors:** Qingzhou Lu, Chenxin Liu, Xinming Wang, Liu Cao, Yanjiang Guo, Mengdi Xu et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Walking
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Enabling vision-language models (VLMs) to control humanoid robots requires both reliable whole-body interfaces and knowledge of how to use the body that carries over across tasks. We present HITCH (Harness Interfaces To Command Humanoids), a harness in which perception returns the 3D position of any point the VLM selects in its image, and execution turns commands for the pelvis, torso, hands, walking, and gaze into whole-body motion with a learned tracker.
+
+---
+
+## AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.07712)
+- **Authors:** Nikita Kuzmin, Georgii Demianchuk, Mariya Lezina, Yara Mahmoud, Iana Zhura, Miguel Altamirano Cabrera et al. (7 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Vision-Language
+
+### Summary
+
+Social touch interactions, such as handshakes, fist bumps, and hugs, require humanoid robots to infer human intent, generate contact-rich motions, and maintain safe physical contact. We present AffectiveVLA, an intent-gated Vision-Language-Action (VLA) pipeline deployed on a Unitree G1 humanoid with dexterous hands.
+
+---
+
+## PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.07679)
+- **Authors:** Yunwan Fu, Sicheng He, Jiageng Mao, Yue Wang
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Simulator
+  - MuJoCo
+  - Humanoid
+  - Gait
+  - Vision-Language
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid locomotion policies trained without an explicit smoothness objective tend to produce jerky, high-energy gaits that stress actuators. Vision-language models (VLMs) offer an appealing reward source: given a rendered rollout, a VLM returns an aesthetic quality score on [0,10] without task-specific feature engineering.
+
+---
+
+## Whole-Body Elasto-Geometrical Calibration of Wheeled Humanoid Robots Using a Shared-Waist Dual-Chain Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.07560)
+- **Authors:** Pengxin Zha, Yi Lu, Haojun Ma, Jun Zhu, Minghao Qiu, Xiaoyan Wang et al. (8 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Wheeled humanoid robots carry both arms on one actuated waist, usually without torque sensors, so the accuracy of both end-effectors depends on a single waist model. After a first stage that estimates the tracker and target extrinsics, we identify the waist and both arms in one problem from the target positions on both flanges, measured by an optical tracker.
+
+---
+
 ## Perceptive Humanoid Motion from Simulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.06908)
@@ -316,6 +441,7 @@ Humanoid robots operating in shared, dynamic environments must respond to rapidl
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.00951)
 - **Authors:** Haizhou Ge, Mengshuo Wang, Yufei Jia, Lei Han, Lu Shi, Guyue Zhou et al. (7 authors)
 - **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
   - World Model
   - Humanoid
@@ -323,7 +449,7 @@ Humanoid robots operating in shared, dynamic environments must respond to rapidl
 
 ### Summary
 
-We test whether Koopman structure, linear dynamics in a lifted state space, helps when a humanoid whole-body tracking policy is trained by backpropagating through a differentiable world model, replacing the MLP world model of an otherwise unchanged pipeline for simulated Unitree G1 tracking. It does not: return is at best equal (0.823 versus 0.830), one-step error on identical data is 1.3 to 1.6 times the MLP's, and training is about 15% slower.
+We test whether Koopman structure helps a differentiable world model used to train a simulated Unitree G1 whole-body tracking policy by backpropagation through imagined rollouts, replacing the MLP world model of an otherwise unchanged pipeline. It does not: return is at best equal (0.823 versus 0.830), one-step error on identical data is 1.3 to 1.6 times the MLP's, and training is about 15% slower.
 
 ---
 
@@ -424,6 +550,26 @@ Robot policy learning is dominated by zeroth-order methods such as PPO, which tr
 
 ---
 
+## HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41334)
+- **Authors:** Yi Han, Xingyu Chen, Zixuan Lang, Qianyang Wu, Yuhang Lin, Ji Ma et al. (13 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Generative Models
+  - Robustness
+  - Humanoid
+  - Goal-Conditioned
+  - Motion Planning
+  - PPO
+  - Locomotion
+
+### Summary
+
+Recent generative models are widely used to provide whole-body motion for humanoid tracking. Current methods combine motion generators with controllers in an open-loop paradigm, which leads to critical issues: tracking errors can accumulate into spatial drift, and the planner cannot adapt to unexpected physical disturbances without feedback from physical execution.
+
+---
+
 ## DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.41354)
@@ -442,26 +588,6 @@ Robot policy learning is dominated by zeroth-order methods such as PPO, which tr
 ### Summary
 
 General humanoid motion trackers typically rely on deterministic policies that cannot adapt online without brittle reference editing or costly retraining. We present DiffWBC, shifting whole-body control to a generative paradigm via a one-step diffusion model.
-
----
-
-## HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.41334)
-- **Authors:** Yi Han, Xingyu Chen, Zixuan Lang, Qianyang Wu, Yuhang Lin, Ji Ma et al. (13 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Generative Models
-  - Robustness
-  - Humanoid
-  - Goal-Conditioned
-  - Motion Planning
-  - PPO
-  - Locomotion
-
-### Summary
-
-Recent generative models are widely used to provide whole-body motion for humanoid tracking. Current methods combine motion generators with controllers in an open-loop paradigm, which leads to critical issues: tracking errors can accumulate into spatial drift, and the planner cannot adapt to unexpected physical disturbances without feedback from physical execution.
 
 ---
 

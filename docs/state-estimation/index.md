@@ -1,10 +1,10 @@
 # State Estimation
 
-**27 papers** in this category.
+**28 papers** in this category.
 
 ## Months
 
-- [2026-11](/state-estimation/2026-11) (2 papers)
+- [2026-11](/state-estimation/2026-11) (3 papers)
 - [2026-10](/state-estimation/2026-10) (4 papers)
 - [2026-09](/state-estimation/2026-09) (8 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
@@ -21,6 +21,25 @@
 ---
 
 ## Recent Papers
+
+## Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08056)
+- **Authors:** Chenghao Sun, Youhao Lyu, Zizheng Li, Shuting Zhang, Ziyang Dong, Wenhao Cui
+- **Published:** 2026-11
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Proprioception
+  - Fine-tuning
+  - PPO
+  - State Estimation
+
+### Summary
+
+We present a progressive imitation framework that learns terrain-appropriate humanoid parkour skills and subsequently adapts their hand--knee support. Human demonstrations provide traversal behaviors, but their contact patterns need not suit a robot's proportions or the available support surfaces.
+
+---
 
 ## Perceptive Humanoid Motion from Simulation
 
@@ -376,27 +395,5 @@ This paper presents an invariant extended Kalman filtering (InEKF) approach for 
 ### Summary
 
 We introduce $λ$-Reachability, a scalable approach to Hamilton--Jacobi safety analysis for high-dimensional robotic systems. Unlike prior discounted formulations that rely on fixed one-step Bellman updates, $λ$-Reachability employs a stochastic multi-step estimator of the safety value, using a geometrically distributed rollout horizon together with a randomly absorbed terminal.
-
----
-
-## PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.17681)
-- **Authors:** Jiarong Kang, Kunzhao Ren, Tao Pang, Xiaobin Xiong
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - State Estimation
-  - Real Robot
-  - Humanoid
-  - Proprioception
-  - Foundation Model
-  - Contact Dynamics
-  - Friction
-
-### Summary
-
-Humanoid and legged robots interact with the environment through intermittent contacts, making accurate motion estimation fundamentally dependent on reasoning about contact dynamics. However, standard sensing pipelines-whether based on onboard proprioception with Extended Kalman Filters (EKFs) or external motion capture systems-recover only kinematics, while contact forces, contact timing, and inertial parameters remain unobserved.
 
 ---
