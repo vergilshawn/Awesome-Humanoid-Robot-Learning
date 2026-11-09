@@ -1,10 +1,10 @@
 # Locomotion
 
-**247 papers** in this category.
+**248 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (6 papers)
+- [2026-11](/locomotion/2026-11) (7 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -41,6 +41,24 @@
 ---
 
 ## Recent Papers
+
+## STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08857)
+- **Authors:** Nico Bohlinger, Jan Peters
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Locomotion
+  - Humanoid
+  - Position Control
+
+### Summary
+
+Learning locomotion directly on a humanoid robot is a promising direction to avoid the sim-to-real gap. However, locomotion rewards in Reinforcement Learning (RL) typically track the base velocity, which cannot be measured onboard without an external motion capture system or well-calibrated state estimator.
+
+---
 
 ## STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion
 
@@ -393,23 +411,5 @@ Learned humanoid controllers are usually trained in one simulator and then check
 ### Summary
 
 As humanoid robots move from research laboratories toward deployment in human-centered environments such as homes, hospitals, and warehouses, safe operation around nearby people and objects becomes a fundamental requirement. Safety filters have emerged as a promising technique to address this challenge by providing mathematical guarantees that generated control actions do not result in collisions.
-
----
-
-## Humanoid Mobility via Attention-based Contacts
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.31608)
-- **Authors:** Junzhe He, Kehan Wen, Chong Zhang, Clemens Schwarke, Zewei Zhang, Kaixian Qu et al. (10 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Reinforcement Learning
-  - Locomotion
-  - Humanoid
-  - Fine-tuning
-  - Self-Supervised
-
-### Summary
-
-Humanoid mobility over complex terrain requires accurate foot placement and coordinated whole-body motion capable of robust adaptation. Reinforcement learning (RL) policies trained without motion references generalize well across terrains, yet eliciting effective whole-body coordination through reward design and exploration alone remains challenging.
 
 ---

@@ -9,7 +9,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Digit:** 2 papers
 - **Figure:** 16 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 82 papers
+- **Unitree G1:** 83 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 24 papers
 - **iCub:** 1 papers
@@ -17,6 +17,28 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08664)
+- **Authors:** ZhenYu Zou, Xing Liu, ShiChuang Wang, YunLong Dong, LiNan Deng, Feng Hua et al. (8 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Human Demonstration
+  - Humanoid
+  - Fine-tuning
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots are expected to take over strenuous material handling in manufacturing, logistics, and healthcare, where operating existing wheeled carts would let them move heavy loads without modifying the workplace. However, humanoid cart pushing remains challenging because the bimanual grasp closes a force-coupled loop in which the contact wrenches that drive the cart also disturb the robot's balance, and payload changes alter the coupled dynamics.
+
+---
 
 ## Social Humanoid: Socially Responsive Human-Humanoid Interaction
 

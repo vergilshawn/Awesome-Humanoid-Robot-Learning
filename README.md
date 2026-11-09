@@ -2,18 +2,18 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 924
-- **Real Robot Papers:** 130
+- **Total Papers:** 928
+- **Real Robot Papers:** 131
 - **Open Source Papers:** 133
 
 🌟 indicates papers with detected project/code links.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (321)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (324)
 - [Manipulation](#manipulation) (81)
 - [Teleoperation](#teleoperation) (47)
-- [Locomotion](#locomotion) (247)
+- [Locomotion](#locomotion) (248)
 - [Navigation](#navigation) (26)
 - [State Estimation](#state-estimation) (28)
 - [Sim-to-Real](#sim-to-real) (13)
@@ -29,6 +29,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-11
 
+- [DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.09605) — `Whole-Body Control`, `Humanoid`, `Dataset`, `PPO`, `Loco-Manipulation and Whole-Body Control`, `Simulation Benchmark`
+- [SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References](https://arxiv.org/abs/2611.09266) — `Reinforcement Learning`, `Sim-to-Real`, `Manipulation`, `Domain Randomization`, `Humanoid`, `Distillation`
+- [ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing](https://arxiv.org/abs/2611.08664) — `Reinforcement Learning`, `Whole-Body Control`, `Locomotion`, `Human Demonstration`, `Humanoid`, `Fine-tuning`
 - [HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness](https://arxiv.org/abs/2611.08039) — `Humanoid`, `Walking`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`, `Locomotion`
 - [Whole-Body Elasto-Geometrical Calibration of Wheeled Humanoid Robots Using a Shared-Waist Dual-Chain Model](https://arxiv.org/abs/2611.07560) — `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.05507) — `Manipulation`, `Humanoid`, `Force Control`, `Proprioception`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
@@ -715,6 +718,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-11
 
+- [STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards](https://arxiv.org/abs/2611.08857) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Humanoid`, `Position Control`
 - [STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion](https://arxiv.org/abs/2611.08097) — `Locomotion`, `Humanoid`
 - [PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion](https://arxiv.org/abs/2611.07679) — `Locomotion`, `Simulator`, `MuJoCo`, `Humanoid`, `Gait`, `Vision-Language`
 - [Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors](https://arxiv.org/abs/2611.06564) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Robustness`, `Humanoid`

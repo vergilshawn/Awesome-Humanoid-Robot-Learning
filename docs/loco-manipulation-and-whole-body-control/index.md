@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**321 papers** in this category.
+**324 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (9 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (12 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -40,6 +40,68 @@
 ---
 
 ## Recent Papers
+
+## DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.09605)
+- **Authors:** Dingkun Wei, Zehong Shen, Huaijin Pi, Xueyang Wang, Xing Zhu, Hujun Bao et al. (8 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Dataset
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid whole-body control requires a robot to track diverse reference motions while maintaining balance under gravity, torque limits, contact switching, and external disturbances. Existing reinforcement-learning-based trackers typically learn control outputs that jointly address motion tracking and balance.
+
+---
+
+## SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.09266)
+- **Authors:** Tianshu Wu, Tianxiang Gui, Yue Chen, Tingxu Liu, Ziye Peng, Guangjie Yang et al. (10 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Manipulation
+  - Domain Randomization
+  - Humanoid
+  - Distillation
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Scaling up visual humanoid loco-manipulation skill acquisition requires reducing the human effort needed as tasks and spatial configurations expand, particularly in demonstration collection and task-specific training design. We present SUGARv2, a unified framework for learning diverse visual humanoid loco-manipulation skills through interaction reference synthesis and a shared training pipeline.
+
+---
+
+## ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08664)
+- **Authors:** ZhenYu Zou, Xing Liu, ShiChuang Wang, YunLong Dong, LiNan Deng, Feng Hua et al. (8 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Human Demonstration
+  - Humanoid
+  - Fine-tuning
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots are expected to take over strenuous material handling in manufacturing, logistics, and healthcare, where operating existing wheeled carts would let them move heavy loads without modifying the workplace. However, humanoid cart pushing remains challenging because the bimanual grasp closes a force-coupled loop in which the contact wrenches that drive the cart also disturb the robot's balance, and payload changes alter the coupled dynamics.
+
+---
 
 ## HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness
 
@@ -346,65 +408,5 @@ This paper presents a two-stage learning framework for versatile and agile human
 ### Summary
 
 While velocity-commanded RL policies are effective for controlling quadrupeds, they are a limited interface for humanoids that need to perform complex whole-body motions. Furthermore, RL tracking policies for whole-body motions typically have limited information about the desired future motion, preventing them from performing controlled deviations to achieve long-term task success; such information is particularly relevant when a controller must prepare for transitions between behaviors.
-
----
-
-## Learning Multi-Phase Robot Loco-Manipulation via Phase-Conditioned Policy Optimization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.36270)
-- **Authors:** Simone Manni, Annika Wollschläger, Dario Bellicoso, Abel Gawel, Marco Hutter, Simon Le Cleac'h et al. (7 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Policy Learning
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Complex whole-body loco-manipulation requires executing diverse maneuvers, such as crouching, grasping, and locomotion, within a single long-horizon task. While performing simple pick-and-place behaviors is well-established, scaling to complex, long-horizon tasks remains difficult.
-
----
-
-## Learning Force-Reactive Humanoid Loco-Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.35862)
-- **Authors:** Sihang Li, Xiaofeng Guo, Jinkun Cao, Charlie Cheng, Ruihan Yang, Chen Feng et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Diffusion Policy
-  - Whole-Body Control
-  - Manipulation
-  - Humanoid
-  - Proprioception
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone.
-
----
-
-## Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.35075)
-- **Authors:** Dianyi Yang, Mengya Liu, Zhumei Wang, Yu Liu, Xiaochen Zhang, Yixuan Li et al. (12 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Sim-to-Real
-  - Manipulation
-  - Zero-Shot
-  - Real Robot
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Learning generalizable humanoid loco-manipulation remains bottlenecked by costly real-world demonstrations. Simulation provides a scalable alternative, but requires visually faithful, physics-ready scenes and executable whole-body motions.
 
 ---
