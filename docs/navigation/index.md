@@ -1,10 +1,10 @@
 # Navigation
 
-**26 papers** in this category.
+**28 papers** in this category.
 
 ## Months
 
-- [2026-11](/navigation/2026-11) (1 papers)
+- [2026-11](/navigation/2026-11) (3 papers)
 - [2026-10](/navigation/2026-10) (2 papers)
 - [2026-09](/navigation/2026-09) (1 papers)
 - [2026-07](/navigation/2026-07) (1 papers)
@@ -27,6 +27,46 @@
 ---
 
 ## Recent Papers
+
+## LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.12136)
+- **Authors:** Xueyang Wang, Zehong Shen, Dingkun Wei, Huaijin Pi, Changpeng Wang, Xing Zhu et al. (9 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Navigation
+  - Zero-Shot
+  - Humanoid
+  - Task Planning
+  - Collision
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We study humanoid navigation across multiple destinations under long-horizon language instructions. This task is challenging because robots must maintain progress across successive goals while continuously producing natural, stable whole-body motion through confined spaces.
+
+---
+
+## HINT-VLM: Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11665)
+- **Authors:** Ziwon Yoon, Seok Hwan Kim, Yiyu Chen, Quan Nguyen, Lu Gan, Ye Zhao
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Vision-Language
+
+### Summary
+
+Humanoid robots have achieved significant progress in locomotion and manipulation, enabling traversal over rough terrain and richer interaction with the environment, such as moving obstacles. However, most traditional navigation methods assume non-interactive environments and focus only on traversal.
+
+---
 
 ## ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms
 
@@ -320,35 +360,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.04931)
 - **Published:** 2025-08
-- **Tags:**
-  - Humanoid
-  - Navigation
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Hand-Eye Autonomous Delivery: Learning Humanoid Navigation, Locomotion and Reaching
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.03068)
-- **Published:** 2025-08
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Humanoid
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## Humanoid Occupancy: Enabling A Generalized Multimodal Occupancy Perception System on Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2507.20217)
-- **Published:** 2025-07
 - **Tags:**
   - Humanoid
   - Navigation

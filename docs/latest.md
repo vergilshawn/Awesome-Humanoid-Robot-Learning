@@ -2,6 +2,148 @@
 
 All papers sorted by publication date (newest first).
 
+## LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.12136)
+- **Authors:** Xueyang Wang, Zehong Shen, Dingkun Wei, Huaijin Pi, Changpeng Wang, Xing Zhu et al. (9 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Navigation
+  - Zero-Shot
+  - Humanoid
+  - Task Planning
+  - Collision
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We study humanoid navigation across multiple destinations under long-horizon language instructions. This task is challenging because robots must maintain progress across successive goals while continuously producing natural, stable whole-body motion through confined spaces.
+
+---
+
+## Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11854)
+- **Authors:** Bingzhang Wang, Nathan Zhao, Jialeng Ni, Jiajin Zheng, Yin Zhang, Kehua Chen et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+
+### Summary
+
+Vision-language-action (VLA) models pair a vision-language backbone with an action head, but in closed-loop control the backbone sits on the control-critical path: while it computes, the robot keeps moving, so each executed action is conditioned on an increasingly stale observation. A larger backbone therefore directly blocks reactivity, especially in humanoid dexterous manipulation.
+
+---
+
+## HINT-VLM: Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11665)
+- **Authors:** Ziwon Yoon, Seok Hwan Kim, Yiyu Chen, Quan Nguyen, Lu Gan, Ye Zhao
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Vision-Language
+
+### Summary
+
+Humanoid robots have achieved significant progress in locomotion and manipulation, enabling traversal over rough terrain and richer interaction with the environment, such as moving obstacles. However, most traditional navigation methods assume non-interactive environments and focus only on traversal.
+
+---
+
+## Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11554)
+- **Authors:** Yunheng Wang, Jiaxi Zhang, Wei Lu, Yuetong Fang, Taowen Wang, Yixiao Feng et al. (15 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Multi-Task
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Physics-Based Character Animation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires continuous coordination of high-dimensional whole-body motion to realize task objectives. While vision-language-action models and world action models transfer semantic and visual-dynamics priors to robot control, these priors do not necessarily capture the structure of robot motion.
+
+---
+
+## From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
+- **Authors:** Hesham Shehata
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Humanoid
+  - Walking
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+We present a pipeline for transferring Awa Odori, a traditional Japanese festival dance, from monocular video to a commercial Unitree G1 EDU humanoid. The pipeline combines human mesh recovery, kinematic retargeting, reinforcement learning for motion tracking in simulation, and onboard deployment via ONNX.
+
+---
+
+## DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.10872)
+- **Authors:** Kevin Park, Izat Rasyad, Dvij Kalaria, Shankar Sastry
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Humanoid
+  - Walking
+  - Vision-Language
+  - Distillation
+  - Dataset
+  - DAgger
+
+### Summary
+
+Training vision-language-action (VLA) policies typically depends on substantial robot demonstration data, making human teleoperation a costly and cumbersome bottleneck, particularly for whole-body humanoid interaction. Reinforcement learning in simulation offers an alternative for scaling this data, but designing task-specific rewards remains challenging.
+
+---
+
+## A Unified Inertial Encoder for Human and Humanoid Motion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.10137)
+- **Authors:** Yutian Chen, Shibo Zhao, Rocky Duan, Karen Liu, Carmelo Sferrazza, Guanya Shi et al. (8 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - State Estimation
+  - Zero-Shot
+  - Humanoid
+  - Fine-tuning
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+  - Physics-Based Character Animation
+
+### Summary
+
+Learning humanoid state estimation and language-grounded motion understanding from robot recordings ties training coverage to the robot's motion repertoire. Human motion datasets offer broader coverage, yet transferring this knowledge requires overcoming differences in body geometry, sensing, and physical disturbances.
+
+---
+
 ## DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.09605)

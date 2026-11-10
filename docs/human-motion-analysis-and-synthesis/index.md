@@ -1,9 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**31 papers** in this category.
+**32 papers** in this category.
 
 ## Months
 
+- [2026-11](/human-motion-analysis-and-synthesis/2026-11) (1 papers)
 - [2026-10](/human-motion-analysis-and-synthesis/2026-10) (3 papers)
 - [2026-09](/human-motion-analysis-and-synthesis/2026-09) (4 papers)
 - [2026-08](/human-motion-analysis-and-synthesis/2026-08) (1 papers)
@@ -28,6 +29,27 @@
 ---
 
 ## Recent Papers
+
+## DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.10872)
+- **Authors:** Kevin Park, Izat Rasyad, Dvij Kalaria, Shankar Sastry
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
+  - Humanoid
+  - Walking
+  - Vision-Language
+  - Distillation
+  - Dataset
+  - DAgger
+
+### Summary
+
+Training vision-language-action (VLA) policies typically depends on substantial robot demonstration data, making human teleoperation a costly and cumbersome bottleneck, particularly for whole-body humanoid interaction. Reinforcement learning in simulation offers an alternative for scaling this data, but designing task-specific rewards remains challenging.
+
+---
 
 ## HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model
 
@@ -332,19 +354,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 - **Published:** 2025-04
 - **Tags:**
   - Dataset
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Summary unavailable. This entry was imported from a curated paper list.
-
----
-
-## PICO: Reconstructing 3D People In Contact with Objects
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2504.17695)
-- **Published:** 2025-04
-- **Tags:**
   - Human Motion Analysis and Synthesis
 
 ### Summary

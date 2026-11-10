@@ -1,10 +1,10 @@
 # Manipulation
 
-**81 papers** in this category.
+**82 papers** in this category.
 
 ## Months
 
-- [2026-11](/manipulation/2026-11) (1 papers)
+- [2026-11](/manipulation/2026-11) (2 papers)
 - [2026-10](/manipulation/2026-10) (7 papers)
 - [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
@@ -35,6 +35,23 @@
 ---
 
 ## Recent Papers
+
+## Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11854)
+- **Authors:** Bingzhang Wang, Nathan Zhao, Jialeng Ni, Jiajin Zheng, Yin Zhang, Kehua Chen et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+
+### Summary
+
+Vision-language-action (VLA) models pair a vision-language backbone with an action head, but in closed-loop control the backbone sits on the control-critical path: while it computes, the robot keeps moving, so each executed action is conditioned on an increasingly stale observation. A larger backbone therefore directly blocks reactivity, especially in humanoid dexterous manipulation.
+
+---
 
 ## ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation
 
@@ -381,25 +398,5 @@ We present blind, whole-body manipulation skills on a Unitree G1 humanoid using 
 ### Summary
 
 Vision-language-action (VLA) policies are expected to operate robustly across variations in the robot's initial configuration, yet aggregate task success can conceal pose-specific failures and inappropriate hand selection. This work investigates initial-pose dependence in VLA-based humanoid dual-arm manipulation.
-
----
-
-## Handroid: Bridging Dexterous Hand and Humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.16187)
-- **Authors:** Ruogu Li, Chenyang Ma, Sikai Li, Zhenyu Wei, Yunchao Yao, Haochen Shi et al. (9 authors)
-- **Published:** 2026-07
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-  - Gait
-  - PPO
-
-### Summary
-
-Dexterous hands and humanoid robots are typically developed as distinct embodiments: the former enable contact-rich manipulation at the object scale, whereas the latter provide mobility and whole-body interaction in human-centered environments. We introduce \textbf{Handroid}, a desktop-scale dual-embodiment robot that integrates both capabilities within a single reconfigurable platform.
 
 ---

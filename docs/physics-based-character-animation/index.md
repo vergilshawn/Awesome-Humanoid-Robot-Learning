@@ -1,9 +1,10 @@
 # Physics-Based Character Animation
 
-**51 papers** in this category.
+**52 papers** in this category.
 
 ## Months
 
+- [2026-11](/physics-based-character-animation/2026-11) (1 papers)
 - [2026-10](/physics-based-character-animation/2026-10) (6 papers)
 - [2026-09](/physics-based-character-animation/2026-09) (3 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
@@ -36,6 +37,28 @@
 ---
 
 ## Recent Papers
+
+## Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11554)
+- **Authors:** Yunheng Wang, Jiaxi Zhang, Wei Lu, Yuetong Fang, Taowen Wang, Yixiao Feng et al. (15 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Multi-Task
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Physics-Based Character Animation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires continuous coordination of high-dimensional whole-body motion to realize task objectives. While vision-language-action models and world action models transfer semantic and visual-dynamics priors to robot control, these priors do not necessarily capture the structure of robot motion.
+
+---
 
 ## HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
 
@@ -390,26 +413,5 @@ Humanoid robots require whole-body motions that adapt to scene context, task req
 ### Summary
 
 Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning paradigm that directly generates actions from text.
-
----
-
-## SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-based Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.22894)
-- **Authors:** Jingyan Zhang, Han Liang, Ruichi Zhang, Bin Li, Juze Zhang, Xin Chen et al. (9 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Diffusion Policy
-  - Transformer
-  - Humanoid
-  - Pre-training
-  - Dataset
-  - Diffusion
-  - Physics-Based Character Animation
-
-### Summary
-
-Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control.
 
 ---

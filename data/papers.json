@@ -1,5 +1,263 @@
 [
   {
+    "arxiv_id": "2611.12136",
+    "title": "LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data",
+    "paper_url": "https://arxiv.org/abs/2611.12136",
+    "project_url": null,
+    "authors": [
+      "Xueyang Wang",
+      "Zehong Shen",
+      "Dingkun Wei",
+      "Huaijin Pi",
+      "Changpeng Wang",
+      "Xing Zhu",
+      "Hujun Bao",
+      "Yujun Shen",
+      "Xiaowei Zhou"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-09",
+    "abstract": "We study humanoid navigation across multiple destinations under long-horizon language instructions. This task is challenging because robots must maintain progress across successive goals while continuously producing natural, stable whole-body motion through confined spaces. However, task decomposition in existing methods does not by itself ensure progress throughout execution, while waypoint-based navigation does not guarantee natural, route-faithful whole-body motion. Our key idea is to organize navigation into three complementary roles operating at different time scales: a Brain for task reasoning, a Cerebellum for local motion generation, and a Brainstem for whole-body execution. We realize this idea in LHNav, an asynchronous system that uses progress and arrival feedback to coordinate navigation goals, VLA motion-token prediction, and whole-body control. To train the Cerebellum for natural, route-faithful motion, we develop a physics-grounded data engine that improves physical tracking of motion references along collision-aware routes and pairs the resulting demonstrations with rendered visual observations. Together, these designs allow task planning to proceed alongside continuous movement and extend single-goal navigation to successive destinations with natural, route-faithful whole-body motion. In simulation, our navigation VLA outperforms OmniNav and DualVLN in single-goal success and motion smoothness, with fewer collisions and falls. Using a VLA trained only on single-goal demonstrations, LHNav achieves a 75.56% success rate on long-horizon navigation tasks. Deployment on the Unitree G1 further demonstrates single-goal navigation and zero-shot long-horizon task execution in real-world environments, including layouts with repositioned objects. Project website: https://robbyant-research.github.io/LHNav/.",
+    "categories": [
+      "Navigation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Navigation",
+      "Zero-Shot",
+      "Humanoid",
+      "Task Planning",
+      "Collision",
+      "GAN",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2611.11854",
+    "title": "Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation",
+    "paper_url": "https://arxiv.org/abs/2611.11854",
+    "project_url": null,
+    "authors": [
+      "Bingzhang Wang",
+      "Nathan Zhao",
+      "Jialeng Ni",
+      "Jiajin Zheng",
+      "Yin Zhang",
+      "Kehua Chen",
+      "Jian Yao"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-09",
+    "abstract": "Vision-language-action (VLA) models pair a vision-language backbone with an action head, but in closed-loop control the backbone sits on the control-critical path: while it computes, the robot keeps moving, so each executed action is conditioned on an increasingly stale observation. A larger backbone therefore directly blocks reactivity, especially in humanoid dexterous manipulation. We present DASH, a Decoupled Asynchronous System for Humanoids that removes this coupling. DASH splits the policy into a slow vision-language model (System 2) and a fast flow-matching action head (System 1) that run as concurrent processes over the LCM communication protocol, so the control rate is set by the action head alone, independent of backbone size. The action head fuses stale semantics from a frozen backbone with fresh vision from its own ResNet encoder, desynchronized training exposes it to the staleness it meets at deployment, and an adaptive temporal aggregator aligns overlapping action chunks under variable inference latency. On an asynchronous RoboTwin benchmark that charges inference latency in simulated time, DASH holds 20 Hz control rate from 0.8B to 8B backbones while the synchronous rate falls from 9.7 to 4.1 Hz, with higher success at every size. On a real humanoid with dexterous hands, DASH achieves clearly higher pick-and-place success than the synchronous pipeline.",
+    "categories": [
+      "Manipulation"
+    ],
+    "tags": [
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Manipulation"
+  },
+  {
+    "arxiv_id": "2611.11665",
+    "title": "HINT-VLM: Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model",
+    "paper_url": "https://arxiv.org/abs/2611.11665",
+    "project_url": null,
+    "authors": [
+      "Ziwon Yoon",
+      "Seok Hwan Kim",
+      "Yiyu Chen",
+      "Quan Nguyen",
+      "Lu Gan",
+      "Ye Zhao"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-08",
+    "abstract": "Humanoid robots have achieved significant progress in locomotion and manipulation, enabling traversal over rough terrain and richer interaction with the environment, such as moving obstacles. However, most traditional navigation methods assume non-interactive environments and focus only on traversal. While Navigation Among Movable Obstacles (NAMO) approaches relax this assumption, prior efforts have largely focused on flat environments and reactive interaction, rather than predicting object movability and planning ahead. These limitations become critical in outdoor rough-terrain scenarios, where robots must jointly reason about terrain traversability and object movability. In this work, we address NAMO for humanoid robots in cluttered outdoor rough terrain by proposing a hybrid planning framework that combines semantic priors from a Vision-Language Model (VLM) with embodied robot interaction data through a Gaussian process (GP) residual model. The GP corrects the VLM-derived movability prior to produce embodiment-grounded probabilistic movability estimates, which are then incorporated into hierarchical uncertainty-aware planning. The proposed approach allows humanoids to jointly leverage locomotion and manipulation for efficient and safe navigation, representing the first solution to NAMO in rough terrain through predictive movability reasoning and probabilistic VLM integration.",
+    "categories": [
+      "Navigation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Navigation",
+      "Humanoid",
+      "Vision-Language"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Navigation"
+  },
+  {
+    "arxiv_id": "2611.11554",
+    "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
+    "paper_url": "https://arxiv.org/abs/2611.11554",
+    "project_url": null,
+    "authors": [
+      "Yunheng Wang",
+      "Jiaxi Zhang",
+      "Wei Lu",
+      "Yuetong Fang",
+      "Taowen Wang",
+      "Yixiao Feng",
+      "Shuning Zhang",
+      "Junzhe Xu",
+      "Yichi Wang",
+      "Zizhao Yuan",
+      "Kailun Huang",
+      "Lusong Li",
+      "Mingqian Zhou",
+      "Zecui Zeng",
+      "Renjing Xu"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-08",
+    "abstract": "Humanoid loco-manipulation requires continuous coordination of high-dimensional whole-body motion to realize task objectives. While vision-language-action models and world action models transfer semantic and visual-dynamics priors to robot control, these priors do not necessarily capture the structure of robot motion. We introduce Kinematic Action Models (KAMs), a paradigm that treats whole-body motion as a direct pretraining target and uses a pretrained motion generator as the primary action-generation backbone. KAMs ground learned temporal and cross-body coordination priors through task conditioning, visual observations, and execution feedback. We present Kimodo-Policy as an initial instantiation, combining a frozen Kimodo text-to-motion backbone with lightweight ControlNet-based visual conditioning. A root-body-hand hierarchy coordinates locomotion and manipulation, while motion-history conditioning and repeated action-chunk prediction bridge motion synthesis and closed-loop control. Following large-scale loco-manipulation pretraining, the policy achieves the highest overall success among compared policies on multi-task HumanoidArena (72.14%), competitive performance on SIMPLE, and 60% mean success across eight real-world tasks, with 678M parameters (92M trainable). Ablations support the contribution of the pretrained motion backbone. Together, these results provide initial evidence for motion generation as a complementary foundation for humanoid action learning.",
+    "categories": [
+      "Physics-Based Character Animation",
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Multi-Task",
+      "Humanoid",
+      "Vision-Language",
+      "PPO",
+      "Physics-Based Character Animation",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Physics-Based Character Animation"
+  },
+  {
+    "arxiv_id": "2611.11127",
+    "title": "From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid",
+    "paper_url": "https://arxiv.org/abs/2611.11127",
+    "project_url": null,
+    "authors": [
+      "Hesham Shehata"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-08",
+    "abstract": "We present a pipeline for transferring Awa Odori, a traditional Japanese festival dance, from monocular video to a commercial Unitree G1 EDU humanoid. The pipeline combines human mesh recovery, kinematic retargeting, reinforcement learning for motion tracking in simulation, and onboard deployment via ONNX. Training ran on a single RTX 5070 GPU. An eleven-version deployment ladder evaluated on hardware examines three interventions. We detect and repair silent corruption of deployment artifacts, model state-estimator drift during training, and edit the reference motion to support stable execution and a controlled ending. The final policies achieved three consecutive rope-free completions of a 43-second routine, a 46-second performance with automatic handoff, and a continuous 9.7-minute rope-free performance composed from the captured motion. In a live handover, a single remote request let the robot start from and return to the manufacturer's walking controller on stage, with a measured torque-free window of 45-140 ms. We report the training dynamics and hardware outcomes and discuss failure boundaries involving compliant flooring and occlusion in monocular capture.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Sim-to-Real",
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Sim-to-Real",
+      "Humanoid",
+      "Walking",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2611.10872",
+    "title": "DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies",
+    "paper_url": "https://arxiv.org/abs/2611.10872",
+    "project_url": null,
+    "authors": [
+      "Kevin Park",
+      "Izat Rasyad",
+      "Dvij Kalaria",
+      "Shankar Sastry"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-07",
+    "abstract": "Training vision-language-action (VLA) policies typically depends on substantial robot demonstration data, making human teleoperation a costly and cumbersome bottleneck, particularly for whole-body humanoid interaction. Reinforcement learning in simulation offers an alternative for scaling this data, but designing task-specific rewards remains challenging. To address this, we propose DreamVLA, which uses generated motion trajectories to guide reinforcement learning (RL) in simulation, converting them into reliable task execution trajectories. These trajectories train VLA models in simulation without new task-specific teleoperation data. Our central contribution is a reference-conditioned DAgger distillation procedure: after a failed learner rollout, we restart the RL expert from a sampled learner state with the same reference suffix and aggregate successful corrective trajectories, addressing the distribution shift left by offline imitation. We evaluate picking from a platform, opening a drawer, pressing a button, and walking and picking from a platform, with ablations of DAgger iterations, residual RL, and generated dataset scale. Project website: ember-center-berkeley.github.io/DreamVLA.",
+    "categories": [
+      "Human Motion Analysis and Synthesis",
+      "Locomotion",
+      "Teleoperation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Teleoperation",
+      "Humanoid",
+      "Walking",
+      "Vision-Language",
+      "Distillation",
+      "Dataset",
+      "DAgger",
+      "Human Motion Analysis and Synthesis",
+      "Locomotion",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Human Motion Analysis and Synthesis"
+  },
+  {
+    "arxiv_id": "2611.10137",
+    "title": "A Unified Inertial Encoder for Human and Humanoid Motion",
+    "paper_url": "https://arxiv.org/abs/2611.10137",
+    "project_url": null,
+    "authors": [
+      "Yutian Chen",
+      "Shibo Zhao",
+      "Rocky Duan",
+      "Karen Liu",
+      "Carmelo Sferrazza",
+      "Guanya Shi",
+      "Yuheng Qiu",
+      "Koushil Sreenath"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-06",
+    "abstract": "Learning humanoid state estimation and language-grounded motion understanding from robot recordings ties training coverage to the robot's motion repertoire. Human motion datasets offer broader coverage, yet transferring this knowledge requires overcoming differences in body geometry, sensing, and physical disturbances. To enable this transfer, we propose a unified inertial encoder whose shared inertial interface uses kinematic IMU synthesis to represent human and humanoid motion at corresponding body sites. Within this common input space, joint training on human and kinematically retargeted humanoid motion combines velocity estimation and motion--text alignment with continuous-time encoding and sensor and motion randomization. The resulting model transfers zero-shot to a physical Unitree G1 without physics simulation, real-robot training trajectories, or fine-tuning, achieving the lowest velocity error among evaluated methods across five datasets, including 0.099m/s on real G1. Its motion-description retrieval also extends to retargeted G1 motion categories observed only in human training, demonstrating how human motion knowledge can support the generalization of humanoid inertial odometry and language-grounded motion understanding.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "State Estimation",
+      "Zero-Shot",
+      "Humanoid",
+      "Fine-tuning",
+      "Dataset",
+      "PPO",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
     "arxiv_id": "2611.09605",
     "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
     "paper_url": "https://arxiv.org/abs/2611.09605",

@@ -48,7 +48,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (324)",
+            "text": "Loco-Manipulation and Whole-Body Control (325)",
             "collapsed": true,
             "items": [
                   {
@@ -186,7 +186,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (81)",
+            "text": "Manipulation (82)",
             "collapsed": true,
             "items": [
                   {
@@ -528,7 +528,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (26)",
+            "text": "Navigation (28)",
             "collapsed": true,
             "items": [
                   {
@@ -614,7 +614,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (28)",
+            "text": "State Estimation (29)",
             "collapsed": true,
             "items": [
                   {
@@ -902,12 +902,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (51)",
+            "text": "Physics-Based Character Animation (52)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/physics-based-character-animation/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/physics-based-character-animation/2026-11"
                   },
                   {
                         "text": "2026-10",
@@ -1024,12 +1028,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (31)",
+            "text": "Human Motion Analysis and Synthesis (32)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/human-motion-analysis-and-synthesis/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/human-motion-analysis-and-synthesis/2026-11"
                   },
                   {
                         "text": "2026-10",

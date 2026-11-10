@@ -7,9 +7,9 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 2 papers
-- **Figure:** 16 papers
+- **Figure:** 17 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 83 papers
+- **Unitree G1:** 85 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 24 papers
 - **iCub:** 1 papers
@@ -17,6 +17,71 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.12136)
+- **Authors:** Xueyang Wang, Zehong Shen, Dingkun Wei, Huaijin Pi, Changpeng Wang, Xing Zhu et al. (9 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Navigation
+  - Zero-Shot
+  - Humanoid
+  - Task Planning
+  - Collision
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We study humanoid navigation across multiple destinations under long-horizon language instructions. This task is challenging because robots must maintain progress across successive goals while continuously producing natural, stable whole-body motion through confined spaces.
+
+---
+
+## Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11554)
+- **Authors:** Yunheng Wang, Jiaxi Zhang, Wei Lu, Yuetong Fang, Taowen Wang, Yixiao Feng et al. (15 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Multi-Task
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Physics-Based Character Animation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires continuous coordination of high-dimensional whole-body motion to realize task objectives. While vision-language-action models and world action models transfer semantic and visual-dynamics priors to robot control, these priors do not necessarily capture the structure of robot motion.
+
+---
+
+## From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
+- **Authors:** Hesham Shehata
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Humanoid
+  - Walking
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+We present a pipeline for transferring Awa Odori, a traditional Japanese festival dance, from monocular video to a commercial Unitree G1 EDU humanoid. The pipeline combines human mesh recovery, kinematic retargeting, reinforcement learning for motion tracking in simulation, and onboard deployment via ONNX.
+
+---
 
 ## ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing
 

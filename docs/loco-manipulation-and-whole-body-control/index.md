@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**324 papers** in this category.
+**325 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (12 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (13 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -40,6 +40,27 @@
 ---
 
 ## Recent Papers
+
+## From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
+- **Authors:** Hesham Shehata
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Sim-to-Real
+  - Humanoid
+  - Walking
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+We present a pipeline for transferring Awa Odori, a traditional Japanese festival dance, from monocular video to a commercial Unitree G1 EDU humanoid. The pipeline combines human mesh recovery, kinematic retargeting, reinforcement learning for motion tracking in simulation, and onboard deployment via ONNX.
+
+---
 
 ## DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control
 
@@ -389,24 +410,5 @@ Humanoid controllers often require task-specific training despite sharing the ne
 ### Summary
 
 This paper presents a two-stage learning framework for versatile and agile humanoid locomotion that couples online reduced-order model (ROM) reference generation with whole-body tracking control. In the first stage, we train a command-conditioned whole-body reference generator using single rigid body dynamics combined with full humanoid kinematics.
-
----
-
-## Whole-Body Humanoid Control via Stochastic Motion Tokenization
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.36452)
-- **Authors:** Michael Drolet, Oleg Arenz, Jan Peters
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Humanoid
-  - Walking
-  - VAE
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-
-### Summary
-
-While velocity-commanded RL policies are effective for controlling quadrupeds, they are a limited interface for humanoids that need to perform complex whole-body motions. Furthermore, RL tracking policies for whole-body motions typically have limited information about the desired future motion, preventing them from performing controlled deviations to achieve long-term task success; such information is particularly relevant when a controller must prepare for transitions between behaviors.
 
 ---
