@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**325 papers** in this category.
+**327 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (13 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (15 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -40,6 +40,42 @@
 ---
 
 ## Recent Papers
+
+## RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.14049)
+- **Authors:** Zepeng Wang, Xiaochuan Shi
+- **Published:** 2026-11
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid motion interfaces should accommodate application-specific movement constraints while retaining useful reference behavior. Local content redaction requires a controller to replace selected movements even when it continues to receive the original reference.
+
+---
+
+## ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
+- **Authors:** Xianghui Wang, Aoran Fu, Liyou Luo, Shanze Wang, Xiaoyu Shen, Dan Zhang et al. (7 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+In recent years, humanoid loco-manipulation has progressed to whole-body grasping, lifting, and transport. A basic requirement underlying these tasks is carrying the object to its destination, which depends on the locomotion controller accurately executing velocity commands from the navigation policy.
+
+---
 
 ## From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid
 
@@ -375,40 +411,5 @@ Foundation models are becoming remarkably reliable at high-level reasoning, yet 
 ### Summary
 
 General humanoid motion trackers typically rely on deterministic policies that cannot adapt online without brittle reference editing or costly retraining. We present DiffWBC, shifting whole-body control to a generative paradigm via a one-step diffusion model.
-
----
-
-## METATRON: A Promptable Whole-Body Execution Layer for Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.38027)
-- **Authors:** Chen Tessler, Yifeng Jiang, Alec Otto, Yi Shi, Umar Iqbal, Gal Chechik et al. (7 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Robustness
-  - Humanoid
-  - Walking
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-
-### Summary
-
-Humanoid controllers often require task-specific training despite sharing the need for balance and whole-body coordination. We present Metatron, a promptable whole-body execution layer combining a generative base policy with a programmable skill layer.
-
----
-
-## FORGE: Feasible Online Reduced-Order Reference Generation and Whole-Body Execution for Agile Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.37974)
-- **Authors:** Adrian B. Ghansah, Yujin An, Jeeseop Kim, Soon-Jo Chung
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-This paper presents a two-stage learning framework for versatile and agile humanoid locomotion that couples online reduced-order model (ROM) reference generation with whole-body tracking control. In the first stage, we train a command-conditioned whole-body reference generator using single rigid body dynamics combined with full humanoid kinematics.
 
 ---

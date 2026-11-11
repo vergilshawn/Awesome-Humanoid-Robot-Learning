@@ -1,10 +1,10 @@
 # Locomotion
 
-**248 papers** in this category.
+**249 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (7 papers)
+- [2026-11](/locomotion/2026-11) (8 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -41,6 +41,22 @@
 ---
 
 ## Recent Papers
+
+## AHEADance: Anticipatory Humanoid Dance from Streaming Audio
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
+- **Authors:** Tianhu Peng, Yukun Wang, Lingfan Bao, Yiyang Jia, Chengxu Zhou
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+A humanoid that dances to streamed music must commit each motion chunk before it has heard the music that chunk accompanies, and must continue from motion it has already committed. We present AHEADance, a robot-native streaming dance generator executed on a humanoid robot by a whole-body tracker.
+
+---
 
 ## STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards
 
@@ -392,24 +408,5 @@ We present RAIWAY, an in-house wheeled bipedal robot with 20-inch wheels, togeth
 ### Summary
 
 Learned humanoid controllers are usually trained in one simulator and then checked in a second one before they go near hardware. We ask what that check says about command delay.
-
----
-
-## Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.31923)
-- **Authors:** Tiffany Bao, Shangtao Li, Yifan Sun, Mengwen He, Bowei Li, Alden Wang et al. (9 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Safety
-  - Humanoid
-  - Collision
-  - Dataset
-  - Locomotion
-
-### Summary
-
-As humanoid robots move from research laboratories toward deployment in human-centered environments such as homes, hospitals, and warehouses, safe operation around nearby people and objects becomes a fundamental requirement. Safety filters have emerged as a promising technique to address this challenge by providing mathematical guarantees that generated control actions do not result in collisions.
 
 ---

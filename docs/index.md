@@ -8,17 +8,17 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 935
-- **Real Robot Papers:** 134
+- **Total Papers:** 938
+- **Real Robot Papers:** 136
 - **Open Source Papers:** 133
 - **Latest Month:** 2026-11
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (325)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (327)
 - [Manipulation](/manipulation/) (82)
 - [Teleoperation](/teleoperation/) (47)
-- [Locomotion](/locomotion/) (248)
+- [Locomotion](/locomotion/) (249)
 - [Navigation](/navigation/) (28)
 - [State Estimation](/state-estimation/) (29)
 - [Sim-to-Real](/sim-to-real/) (13)
@@ -31,6 +31,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.14049) — 2026-11
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  🤖 [ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads](https://arxiv.org/abs/2611.13929) — 2026-11
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  🤖 [AHEADance: Anticipatory Humanoid Dance from Streaming Audio](https://arxiv.org/abs/2611.13370) — 2026-11
+  - [Locomotion](/locomotion/)
 -  🤖 [LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data](https://arxiv.org/abs/2611.12136) — 2026-11
   - [Navigation](/navigation/)
 -  [Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation](https://arxiv.org/abs/2611.11854) — 2026-11
@@ -45,24 +51,18 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/)
 -  [A Unified Inertial Encoder for Human and Humanoid Motion](https://arxiv.org/abs/2611.10137) — 2026-11
   - [State Estimation](/state-estimation/)
--  [DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.09605) — 2026-11
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References](https://arxiv.org/abs/2611.09266) — 2026-11
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards](https://arxiv.org/abs/2611.08857) — 2026-11
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (790)
-- **Loco-Manipulation and Whole-Body Control** (360)
-- **Locomotion** (356)
-- **Manipulation** (272)
+- **Humanoid** (793)
+- **Loco-Manipulation and Whole-Body Control** (362)
+- **Locomotion** (358)
+- **Manipulation** (273)
 - **PPO** (146)
 - **Reinforcement Learning** (131)
-- **Whole-Body Control** (125)
+- **Whole-Body Control** (126)
 - **Simulation Benchmark** (101)
 - **Teleoperation** (93)
 - **Physics-Based Character Animation** (71)
@@ -73,7 +73,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Benchmark** (56)
 - **Sim-to-Real** (55)
 - **Walking** (54)
-- **Navigation** (50)
+- **Navigation** (51)
 - **Diffusion** (47)
 - **Human Motion Analysis and Synthesis** (46)
 - **Robustness** (43)
@@ -85,7 +85,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Fine-tuning** (35)
 - **Safety** (34)
 - **Gait** (32)
-- **Collision** (30)
+- **Collision** (31)
 
 ---
 
@@ -95,6 +95,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-11](/loco-manipulation-and-whole-body-control/2026-11)
 
+- [RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.14049) — `Whole-Body Control`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads](https://arxiv.org/abs/2611.13929) — `Locomotion`, `Manipulation`, `Navigation`, `Humanoid`, `Collision`, `Loco-Manipulation and Whole-Body Control`
 - [From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid](https://arxiv.org/abs/2611.11127) — `Reinforcement Learning`, `Sim-to-Real`, `Humanoid`, `Walking`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.09605) — `Whole-Body Control`, `Humanoid`, `Dataset`, `PPO`, `Loco-Manipulation and Whole-Body Control`, `Simulation Benchmark`
 - [SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References](https://arxiv.org/abs/2611.09266) — `Reinforcement Learning`, `Sim-to-Real`, `Manipulation`, `Domain Randomization`, `Humanoid`, `Distillation`
@@ -786,6 +788,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-11](/locomotion/2026-11)
 
+- [AHEADance: Anticipatory Humanoid Dance from Streaming Audio](https://arxiv.org/abs/2611.13370) — `Humanoid`, `Locomotion`, `Real Robot`
 - [STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards](https://arxiv.org/abs/2611.08857) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Humanoid`, `Position Control`
 - [STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion](https://arxiv.org/abs/2611.08097) — `Locomotion`, `Humanoid`
 - [PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion](https://arxiv.org/abs/2611.07679) — `Locomotion`, `Simulator`, `MuJoCo`, `Humanoid`, `Gait`, `Vision-Language`

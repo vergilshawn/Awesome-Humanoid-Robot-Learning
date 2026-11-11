@@ -9,7 +9,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Digit:** 2 papers
 - **Figure:** 17 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 85 papers
+- **Unitree G1:** 87 papers
 - **Unitree H1:** 1 papers
 - **Unknown Platform:** 24 papers
 - **iCub:** 1 papers
@@ -17,6 +17,42 @@ Papers with real humanoid robot deployment and experiments.
 ---
 
 ## All Real Robot Papers
+
+## ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
+- **Authors:** Xianghui Wang, Aoran Fu, Liyou Luo, Shanze Wang, Xiaoyu Shen, Dan Zhang et al. (7 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Collision
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+In recent years, humanoid loco-manipulation has progressed to whole-body grasping, lifting, and transport. A basic requirement underlying these tasks is carrying the object to its destination, which depends on the locomotion controller accurately executing velocity commands from the navigation policy.
+
+---
+
+## AHEADance: Anticipatory Humanoid Dance from Streaming Audio
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
+- **Authors:** Tianhu Peng, Yukun Wang, Lingfan Bao, Yiyang Jia, Chengxu Zhou
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+A humanoid that dances to streamed music must commit each motion chunk before it has heard the music that chunk accompanies, and must continue from motion it has already committed. We present AHEADance, a robot-native streaming dance generator executed on a humanoid robot by a whole-body tracker.
+
+---
 
 ## LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data
 
