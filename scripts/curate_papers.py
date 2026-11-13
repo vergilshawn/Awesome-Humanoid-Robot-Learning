@@ -26,7 +26,7 @@ def normalize_paper(paper):
     links = MARKDOWN_LINK.findall(paper.title)
     if links and not paper.project_url:
         paper.project_url = links[0]
-        paper.open_source = "github.com" in links[0] or "gitlab.com" in links[0]
+        paper.open_source = paper.code_status == "available"
     paper.title = MARKDOWN_LINK.sub("", paper.title).replace("**", "").strip(" ,/")
     paper.paper_url = f"https://arxiv.org/abs/{paper.arxiv_id}"
     if paper.published_date:
@@ -98,6 +98,8 @@ def main():
         "removed": all_removed,
     }
     REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n")
+    from code_status import write_code_report
+    write_code_report(kept)
     generate_all_markdown(kept)
     generate_all_vitepress(kept)
     print(

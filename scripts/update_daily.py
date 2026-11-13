@@ -59,9 +59,11 @@ def merge_papers(existing: dict[str, Paper], new_papers: list[Paper]) -> list[Pa
         if current:
             if not current.abstract and paper.abstract:
                 merged[paper.arxiv_id] = paper
-            elif not current.project_url and paper.project_url:
-                current.project_url = paper.project_url
-                current.open_source = True
+            else:
+                current.comments = paper.comments
+                if paper.code_checked_at:
+                    for field in ("project_url", "repository_url", "code_status", "code_evidence", "code_checked_at", "open_source"):
+                        setattr(current, field, getattr(paper, field))
             continue
         merged[paper.arxiv_id] = paper
     return sorted(merged.values(), key=lambda p: p.published_date or date.min, reverse=True)

@@ -17,7 +17,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Latest", link: "/latest" },
       { text: "Real Robot", link: "/real-robot" },
-      { text: "Open Source", link: "/open-source" },
+      { text: "Code Availability", link: "/open-source" },
       { text: "Tags", link: "/tags" },
     ],
 
@@ -38,7 +38,7 @@ export default defineConfig({
                         "link": "/real-robot"
                   },
                   {
-                        "text": "Open Source",
+                        "text": "Code Availability",
                         "link": "/open-source"
                   },
                   {

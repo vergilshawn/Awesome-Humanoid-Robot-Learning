@@ -64,7 +64,7 @@ def generate_sidebar(papers: list[Paper]) -> list[dict]:
                 {"text": "Home", "link": "/"},
                 {"text": "Latest Papers", "link": "/latest"},
                 {"text": "Real Robot", "link": "/real-robot"},
-                {"text": "Open Source", "link": "/open-source"},
+                {"text": "Code Availability", "link": "/open-source"},
                 {"text": "Tags", "link": "/tags"},
             ],
         }
@@ -126,7 +126,7 @@ export default defineConfig({{
       {{ text: "Home", link: "/" }},
       {{ text: "Latest", link: "/latest" }},
       {{ text: "Real Robot", link: "/real-robot" }},
-      {{ text: "Open Source", link: "/open-source" }},
+      {{ text: "Code Availability", link: "/open-source" }},
       {{ text: "Tags", link: "/tags" }},
     ],
 

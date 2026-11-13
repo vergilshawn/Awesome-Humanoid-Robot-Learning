@@ -74,7 +74,7 @@ def parse_reference_readme(path: Path, through_month: str) -> list[Paper]:
                 abstract="",
                 categories=[current_category],
                 real_robot=False,
-                open_source=bool(project_url or match.group("star")),
+                open_source=False,
                 platform=None,
                 summary="",
                 primary_category=current_category,
@@ -96,7 +96,7 @@ def merge_imported(existing: dict[str, Paper], imported: list[Paper], config: di
             current = existing[paper.arxiv_id]
             if not current.project_url and paper.project_url:
                 current.project_url = paper.project_url
-                current.open_source = True
+                current.open_source = current.code_status == "available"
             if not current.categories:
                 current.categories = paper.categories
                 current.primary_category = paper.primary_category

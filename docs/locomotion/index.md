@@ -42,6 +42,16 @@
 ## SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.26583)
+- **Project:** [Project page](https://sunpihai-up.github.io/solo/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Pihai Sun, Gang Han, Jingkai Sun, Jiahao Ma, Zeran Su, Zelin Tao et al. (20 authors)
 - **Published:** 2026-08
 - **Tags:**
@@ -62,6 +72,15 @@ Humans traverse complex terrain over long distances without losing balance, wher
 ## Closing the Loop on the Poppy Humanoid: Bipedal Locomotion with Linear-Quadratic Control and Learned Cost Functions
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.26505)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Xulin Chen, Borui He, Ruipeng Liu, Naveed Tahir, Zhenyu Gan, Garrett E. Katz
 - **Published:** 2026-08
 - **Tags:**
@@ -76,9 +95,22 @@ The Poppy Humanoid is an open-source, low-cost robot suitable for research and e
 
 ---
 
-## Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking
+## 🌟 Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.20087)
+- **Project:** [Project page](https://humanoidtennis.github.io/AdaPT/)
+- **Repository:** [Code](https://github.com/noitom-robotics/AdaPT)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Inspected public GitHub page: https://github.com/noitom-robotics/AdaPT
+- Implementation examples: scripts/benchmarks/generate_report.py
+- Completeness and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Tao Huang, Ruofei Liu, Xuchen Tang, Xinyin Zhang, Junli Ren, Huayi Wang et al. (18 authors)
 - **Published:** 2026-08
 - **Real Robot:** ✅ — Unitree G1
@@ -99,6 +131,15 @@ Humanoid robots have recently demonstrated promising capabilities in real-world 
 ## EATR-Stereo: Embodiment-Aware Token Routing of Paired Stereo Evidence for Humanoid Vision-Language-Action Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.17453)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Songwei Wu, Rui Zhao, Fan Yang, Zhongqiang Nie, Zhiduo Jiang, Wandong Sun et al. (10 authors)
 - **Published:** 2026-08
 - **Tags:**
@@ -115,6 +156,15 @@ Long-horizon humanoid vision--language--action (VLA) control with head-mounted s
 ## Tac4Loco: Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.15766)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: code and experimental configurations will be released
+
+</details>
+
 - **Authors:** Ziyun Liu, Sikai Guo, Zheng Li, Jiahang Cao, Haichao Liu, Pei Qu et al. (9 authors)
 - **Published:** 2026-08
 - **Tags:**
@@ -136,6 +186,15 @@ Humanoid robots are expected to traverse complex terrains, where the plantar sup
 ## Learning Context-Aware Motion Priors for Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.03234)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code will be released
+
+</details>
+
 - **Authors:** Yunyang Mo, Yi Gu, Yangchen Zhou, Hanyang Cao, Renjing Xu
 - **Published:** 2026-08
 - **Tags:**
@@ -153,6 +212,15 @@ Motion priors provide powerful guidance for learning naturalistic humanoid behav
 ## PFM-HR: Pose Flow Matching for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.03227)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yukang Gao, Yi Gu, Yangchen Zhou, Xingyu Chen, Zhaorui Wang, Fanghai Zhang et al. (12 authors)
 - **Published:** 2026-08
 - **Tags:**
@@ -170,6 +238,15 @@ Motion priors improve reinforcement learning for physics-based humanoid tracking
 ## Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.02809)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Caiwu Ding, Tao Cui, Lingyun Wang, Chengtao Wen
 - **Published:** 2026-08
 - **Tags:**
@@ -190,6 +267,15 @@ Industrial humanoid robots are constrained less by locomotion or manipulation ca
 ## StableMimic: Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.02385)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Weihao Wu, Ming Huang, Ruofei Liu, Jinglei Nie, Shuxiang Guo, Chunying Li
 - **Published:** 2026-08
 - **Tags:**
@@ -207,6 +293,15 @@ Humanoid motion trackers perform reliably within learned tracking distributions,
 ## Perception-and-action system for humanoid robot task execution in construction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.01600)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yanxi Liu, Yizhi Liu
 - **Published:** 2026-08
 - **Tags:**
@@ -223,6 +318,15 @@ Humanoid robots, with their human-like shape and multi-tasking capabilities, are
 ## CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.29172)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yuxin Chen, Hari Srikanth, Nathan Jew, Menglin Wu, Pengcheng Wang, Junli Ren et al. (10 authors)
 - **Published:** 2026-07
 - **Tags:**
@@ -242,6 +346,15 @@ While robot foundation models are growing increasingly capable, the strongest mo
 ## Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.26567)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Hung Nguyen, Kim Nhat Minh Nguyen, Van Duc Vu, Van-Danh Le, Hoang Huy Le, Dinh Tuan Nguyen et al. (9 authors)
 - **Published:** 2026-07
 - **Real Robot:** ✅
@@ -261,6 +374,15 @@ Humanoid robots increasingly require multi-modal understanding for natural inter
 ## Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.24083)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Valerio Belli, Valerio Modugno, Enrico Mingo Hoffman, Fabio Amadio
 - **Published:** 2026-07
 - **Tags:**
@@ -281,6 +403,15 @@ Reinforcement learning can produce robust humanoid controllers, but each new tas
 ## Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.20345)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le
 - **Published:** 2026-07
 - **Real Robot:** ✅ — Unitree G1
@@ -301,6 +432,15 @@ Closing the gap between benchmark performance and reliable real-world operation 
 ## Extreme-RGMT: Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.20110)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yubiao Ma, Han Yu, Kai Guo, Changtai Lv, Zhengquan Mao, Boyang Xing et al. (8 authors)
 - **Published:** 2026-07
 - **Tags:**
@@ -316,6 +456,15 @@ Humans can progressively acquire highly dynamic motor skills while preserving re
 ## What Matters in Humanoid General Motion Tracking? An Empirical Study
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.19903)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Fabio Amadio, Enrico Mingo Hoffman
 - **Published:** 2026-07
 - **Tags:**
@@ -332,6 +481,15 @@ Humanoid general motion tracking requires policies that can follow diverse whole
 ## Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.21648)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yun-Hao Tsai, Cong-Thanh Vu, Yen-Chen Liu
 - **Published:** 2026-07
 - **Real Robot:** ✅
@@ -348,6 +506,15 @@ The human-like morphology of humanoid robots grants them exceptional potential f
 ## Motion Primitive Discovery in a Humanoid Robot via Self-Organising Maps for Phase Recognition
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.18737)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Radovan Gregor, Igor Farkaš
 - **Published:** 2026-07
 - **Tags:**
@@ -365,6 +532,15 @@ Understanding the computational basis of action recognition is a central challen
 ## From Sign Language Generation to Humanoid Execution: Vision-Language Guided Retargeting with Collision Mitigation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.17769)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Nabeela Khan, Bowen Wu, Runwu Shi, Benjamin Yen, Takeshi Ashizawa, Carlos Toshinori Ishi et al. (8 authors)
 - **Published:** 2026-07
 - **Tags:**
@@ -382,6 +558,15 @@ Recent sign language generation (SLG) systems increasingly output dense 3D body 
 ## Scaling Behavior Foundation Model for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.15163)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Weishuai Zeng, Kangning Yin, Xiaojie Niu, Shunlin Lu, Weixiang Zhong, Jiahe Chen et al. (18 authors)
 - **Published:** 2026-07
 - **Tags:**

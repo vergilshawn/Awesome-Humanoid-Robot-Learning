@@ -41,6 +41,16 @@
 ## LAC: Linear and Angular Compliance for Humanoid Whole-body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.25405)
+- **Project:** [Project page](https://lac-humanoid.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yang Liu, Zhongkai Gu, Wei Zhu, Mitsuhiro Hayashibe
 - **Published:** 2026-08
 - **Tags:**
@@ -61,7 +71,17 @@ Real-world humanoid tasks involve physical interaction with objects and humans, 
 ## 🌟 DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.22278)
-- **Project:** [GitHub](https://github.com/DreamMimic/DreamMimic)
+- **Repository:** [Code](https://github.com/DreamMimic/DreamMimic)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 99 source files; examples: dreamer/models.py, dreamer/networks.py, dreamer/tools.py, dreammimic/env/env/tasks/base_task.py, dreammimic/env/env/tasks/humanoid.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Jie Yin, Xingyu Lai
 - **Published:** 2026-08
 - **Tags:**
@@ -79,9 +99,21 @@ Vision-based whole-body loco-manipulation on humanoid robots is challenging due 
 
 ---
 
-## GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction
+## 🌟 GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.18234)
+- **Project:** [Project page](https://shepherd1226.github.io/gigabrain-wbc-0.5/)
+- **Repository:** [Code](https://github.com/open-gigaai/giga-brain-wbc)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 251 source files; examples: deploy/maker_l01/runtime/teleop/body_reference.py, deploy/maker_l01/runtime/teleop/calibration.py, deploy/maker_l01/runtime/teleop/head_tracking.py, deploy/maker_l01/runtime/teleop/input.py, deploy/maker_l01/runtime/teleop/manager.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Ziyang Cheng, Tianshu Tang, Jinxin Lan, Xinze Chen, Yuhan Gong, Zhichao Liu et al. (20 authors)
 - **Published:** 2026-08
 - **Tags:**
@@ -96,13 +128,25 @@ Vision-based whole-body loco-manipulation on humanoid robots is challenging due 
 
 ### Summary
 
-Whole-body motion tracking policies turn a humanoid into a robust control interface: the teleoperator---or an upstream model---only supplies a coarse movement intent, while the low-level policy keeps the robot balanced and physically feasible. Existing trackers deliver this interface only on flat ground: trained in empty scenes, they never learn how contact with terrain and objects reshapes their dynamics, and they attempt to teach the policy to balance under any command by continually enlarging the reference-motion corpus, which stops working once feasible behaviors become environment-dependent.
+General-purpose motion trackers enable humanoid robots to follow diverse whole-body motions while maintaining balance, but are trained only on flat ground, failing to exploit bipedal mobility over complex terrain. Cross-terrain controllers, meanwhile, are task-specific or accept only low-dimensional locomotion commands.
 
 ---
 
-## FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences
+## 🌟 FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.17027)
+- **Project:** [Project page](https://orayyan.com/fetchman)
+- **Repository:** [Code](https://github.com/omarrayyann/fetchman)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 51 source files; examples: benchmark/main.py, main.py, molmospaces/agents/grasp_planner.py, molmospaces/agents/nav.py, molmospaces/agents/policy.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Omar Rayyan, Zhi Li, Max Argus, Yuxin Jiang, Chang Yu, Chenfanfu Jiang et al. (7 authors)
 - **Published:** 2026-08
 - **Real Robot:** ✅ — Unitree G1
@@ -125,6 +169,16 @@ Visual loco-manipulation policies that can generalize to novel scenes and object
 ## HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.16837)
+- **Project:** [Project page](https://grange007.github.io/HAF/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Jiaming Liu, Xinyuan Lv et al. (17 authors)
 - **Published:** 2026-08
 - **Real Robot:** ✅
@@ -147,6 +201,15 @@ Humanoid robots hold great promise as general-purpose agents in human-centered e
 ## Throwing a Tight Spiral American Football by a Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.16642)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Zaid Mahboob, Bowen Weng
 - **Published:** 2026-08
 - **Real Robot:** ✅ — Unitree G1
@@ -167,6 +230,15 @@ Accurate throwing of the American football requires precise regulation of releas
 ## Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.12063)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Martin Schuck, Maks Sorokin, Simone Manni, Duy Ta, Angela P. Schoellig, Marco Hutter et al. (8 authors)
 - **Published:** 2026-08
 - **Tags:**
@@ -188,6 +260,15 @@ Integrating locomotion and manipulation is essential for robot autonomy, but sca
 ## Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.10220)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Carlos Gonzalez, Luis Sentis
 - **Published:** 2026-08
 - **Tags:**
@@ -209,6 +290,15 @@ Humanoid locomotion in highly confined environments requires navigating dense en
 ## LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.07746)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Cheng Guo, Mingzhe Ni, Angelo Cangelosi, Arash Ajoudani
 - **Published:** 2026-08
 - **Tags:**
@@ -227,6 +317,15 @@ Long-horizon humanoid loco-manipulation requires composing versatile whole-body 
 ## $ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.06375)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Zhe Li, Zhenzhe Zhang, Yangyang Wei, Wenjie Zhang, Xichen Yuan, Peiyuan Zhi et al. (11 authors)
 - **Published:** 2026-08
 - **Tags:**
@@ -248,6 +347,15 @@ Humanoid household tasks often require concurrent loco-manipulation, where the r
 ## RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.03387)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Shuliang He, Shuai Wang, Bo Yue, Junchi Teng, Changyu Wang, Guiliang Liu
 - **Published:** 2026-08
 - **Tags:**
@@ -269,6 +377,15 @@ Humanoid robots have the potential to perform dexterous manipulation in human en
 ## Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.02080)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Haofeng Chen, Carson Kohlbrenner, Jiri Kubik, Lukas Rustler, Alexander Dickhans, Karel Bartunek et al. (9 authors)
 - **Published:** 2026-08
 - **Real Robot:** ✅ — iCub
@@ -283,9 +400,21 @@ Whole-body tactile sensing is a prerequisite for humanoids that operate in conta
 
 ---
 
-## LooperMuscle: Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts
+## 🌟 LooperMuscle: Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.00820)
+- **Project:** [Project page](https://loopermuscle.github.io/)
+- **Repository:** [Code](https://github.com/LooperMuscle/Code)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 276 source files; examples: .history/src/holosoma_inference/holosoma_inference/policies/wbt_20260224052927.py, .history/src/holosoma_inference/holosoma_inference/policies/wbt_20260226190419.py, conftest.py, paper_assets/experiments/scripts/generate_experiment_figures.py, scripts/export_motion_dual_format.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Boyi Liu, Qijin Li, Tianqi Yu, Qinrui Yan, Xingxing Zuo
 - **Published:** 2026-08
 - **Tags:**
@@ -304,6 +433,16 @@ FastSAC-style methods significantly reduce humanoid motion training time but oft
 ## Light-Loco-Parkour: Versatile Perceptive Whole-Body Locomotion via Multi-Skill Distillation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.02653)
+- **Project:** [Project page](https://www.lightorigins.com/en/blog/lightparkour)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Hongming Chen, Zhuoran Li, Hongxi Wang, Jiangpeng Hu, Ziliang Li, Peize Liu et al. (12 authors)
 - **Published:** 2026-08
 - **Real Robot:** ✅
@@ -326,6 +465,15 @@ Existing humanoid whole-body control systems still fall short of the way humans 
 ## Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.29625)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Hyunjong Song, William Z. Peng, Joo H. Kim
 - **Published:** 2026-07
 - **Tags:**
@@ -342,9 +490,21 @@ The demand for humanoid loco-manipulation tasks with an object has recently incr
 
 ---
 
-## PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball
+## 🌟 PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.28623)
+- **Project:** [Project page](https://lzyang2000.github.io/perceptive_cbf_rl/)
+- **Repository:** [Code](https://github.com/lzyang2000/perceptive_cbf_rl)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 60 source files; examples: deploy/common/command.py, deploy/common/g1_deploy_constants.py, deploy/common/udp_sync.py, deploy/common/zed_depth_source.py, deploy/export_onnx.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Lizhi Yang, Junheng Li, Aaron D. Ames
 - **Published:** 2026-07
 - **Real Robot:** ✅ — Unitree G1
@@ -364,6 +524,15 @@ We present PAC-MAN, a perception-aware CBF-RL framework that couples control-bar
 ## Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.20399)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Nicolas Kosanovic, Jordan Dowdy, Jean Chagas Vaz
 - **Published:** 2026-07
 - **Tags:**
@@ -384,6 +553,15 @@ Full-sized humanoid robot capabilities have grown exponentially in recent years,
 ## Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.18016)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Peng Ren, Haoyang Ge, Jiang Zhao, Cong Huang, Yukun Shi, Pei Chi et al. (7 authors)
 - **Published:** 2026-07
 - **Real Robot:** ✅ — Unitree G1
@@ -400,9 +578,21 @@ Vision-language-action policies are a promising foundation for general robot con
 
 ---
 
-## Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control
+## 🌟 Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.14182)
+- **Project:** [Project page](https://lab-rococo-sapienza.github.io/semantic-WBC/)
+- **Repository:** [Code](https://github.com/Lab-RoCoCo-Sapienza/semantic-WBC)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 116 source files; examples: listen_openai_and_send_gesti/listen_openai_and_send_gesti.py, packages/unitree_cpp/example/config.py, packages/unitree_cpp/example/unitree_cpp_env.py, packages/unitree_cpp/src/py_binding.cpp, packages/unitree_cpp/src/unitree_controller.cpp
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** J. M. A. Marcelo, M. Brienza, E. Bugli, L. Comito, D. Nardi, D. D. Bloisi et al. (7 authors)
 - **Published:** 2026-07
 - **Tags:**
@@ -421,6 +611,15 @@ Recent advances in humanoid robotics and reinforcement learning have enabled the
 ## Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.04837)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yuan Jiang, Ningyuan Zhang, Xicun Yang, Yuzhi Jiang, Jie Chen
 - **Published:** 2026-07
 - **Tags:**

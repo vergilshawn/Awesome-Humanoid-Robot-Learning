@@ -53,6 +53,7 @@ def merge_papers(existing: dict[str, Paper], new_papers: list[Paper]) -> list[Pa
         if paper.arxiv_id in merged:
             # Preserve existing classification/annotations
             existing_paper = merged[paper.arxiv_id]
+            existing_paper.comments = paper.comments
             # Update abstract if new one is longer (sometimes placeholder)
             if len(paper.abstract) > len(existing_paper.abstract):
                 existing_paper.abstract = paper.abstract

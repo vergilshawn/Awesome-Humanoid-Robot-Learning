@@ -45,8 +45,18 @@ jobs:
       - name: Install Node dependencies
         run: npm ci
 
+      - name: Run offline regression tests
+        run: python -m unittest discover -s tests
+
       - name: Run daily paper update pipeline
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/update_daily.py --days 10
+
+      - name: Refresh existing code availability
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/detect_project_links.py --limit 30 --save
 
       - name: Build VitePress site
         run: npm run docs:build

@@ -136,6 +136,7 @@ def fetch_papers(config: Optional[dict] = None) -> list[Paper]:
                 authors=authors,
                 published=pub_str,
                 published_date=pub_date,
+                comments=getattr(result, "comment", None) or "",
                 abstract=result.summary.strip().replace("\n", " "),
             )
             all_papers[arxiv_id] = paper
@@ -178,6 +179,8 @@ def save_papers(papers: list[Paper]) -> None:
     papers_data = [p.model_dump() for p in papers]
     with open(papers_file, "w") as f:
         json.dump(papers_data, f, indent=2, default=str, ensure_ascii=False)
+    from code_status import write_code_report
+    write_code_report(papers)
     logger.info(f"Saved {len(papers)} papers to {papers_file}")
 
 

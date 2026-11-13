@@ -1,6 +1,7 @@
 """Generate all markdown pages for the VitePress site."""
 
 import json
+from html import escape
 import logging
 import sys
 from pathlib import Path
@@ -12,6 +13,7 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
 from paper_model import Paper
+from code_status import CODE_LABELS
 
 logger = logging.getLogger(__name__)
 
@@ -76,7 +78,18 @@ def format_paper_entry(paper: Paper) -> str:
     lines.append(f"- **Paper:** [arXiv]({paper.paper_url})")
 
     if paper.project_url:
-        lines.append(f"- **Project:** [GitHub]({paper.project_url})")
+        lines.append(f"- **Project:** [Project page]({paper.project_url})")
+    if paper.repository_url:
+        lines.append(f"- **Repository:** [Code]({paper.repository_url})")
+    lines.append(f"- **Code status:** {CODE_LABELS[paper.code_status]}")
+
+    if paper.code_checked_at:
+        lines.append(f"- **Code checked:** {paper.code_checked_at[:10]}")
+    if paper.code_evidence:
+        lines.extend(["", "<details><summary>Code verification details / 核验依据</summary>", ""])
+        for evidence in paper.code_evidence:
+            lines.append("- " + escape(evidence).replace("\n", " "))
+        lines.extend(["", "</details>", ""])
 
     if paper.authors:
         authors = ", ".join(paper.authors[:6])
@@ -131,8 +144,8 @@ def format_keywords(paper: Paper, limit: int = 6) -> str:
 
     if paper.real_robot and "Real Robot" not in keywords:
         keywords.append("Real Robot")
-    if paper.open_source and "Open Source" not in keywords:
-        keywords.append("Open Source")
+    if paper.open_source and "Code Available" not in keywords:
+        keywords.append("Code Available")
 
     return ", ".join(f"`{keyword}`" for keyword in keywords[:limit])
 
@@ -144,6 +157,10 @@ def format_compact_paper_link(paper: Paper) -> str:
 
     if paper.project_url:
         item += f", [website]({paper.project_url})"
+
+    if paper.repository_url and paper.repository_url != paper.project_url:
+        item += f", [code]({paper.repository_url})"
+    item += f" — {CODE_LABELS[paper.code_status]}"
 
     keywords = format_keywords(paper)
     if keywords:
@@ -211,9 +228,9 @@ def generate_readme(papers: list[Paper]) -> None:
         "",
         f"- **Total Papers:** {total_count}",
         f"- **Real Robot Papers:** {real_count}",
-        f"- **Open Source Papers:** {open_count}",
+        f"- **Code Availability:** {open_count}",
         "",
-        "🌟 indicates papers with detected project/code links.",
+        "🌟 indicates detected implementation files; completeness and reproducibility are unverified.",
         "",
         "## Contents",
         "",
@@ -265,6 +282,15 @@ def generate_readme(papers: list[Paper]) -> None:
         "# Update recent papers with daily arXiv windows",
         "python scripts/update_daily.py --days 7",
         "",
+        "# Audit all existing papers, including arXiv Comments (checkpoints every 20 papers)",
+        "python scripts/audit_code.py",
+        "",
+        "# Audit existing code links (oldest check first); optional GITHUB_TOKEN avoids low anonymous limits",
+        "python scripts/detect_project_links.py --limit 30 --save",
+        "",
+        "# Run offline regression tests",
+        "python -m unittest discover -s tests",
+        "",
         "# Preview the website",
         "npm run docs:dev",
         "```",
@@ -305,7 +331,7 @@ def generate_homepage(papers: list[Paper]) -> None:
         "",
         "A curated and automatically updated collection of humanoid robot learning research papers.",
         "",
-        "🌟 indicates open-source code. Papers with real robot experiments are prioritized.",
+        "🌟 indicates detected implementation files; completeness is unverified. Papers with real robot experiments are prioritized.",
         "",
         "---",
         "",
@@ -313,7 +339,7 @@ def generate_homepage(papers: list[Paper]) -> None:
         "",
         f"- **Total Papers:** {len(papers)}",
         f"- **Real Robot Papers:** {real_count}",
-        f"- **Open Source Papers:** {open_count}",
+        f"- **Code Availability:** {open_count}",
         f"- **Latest Month:** {latest_month}",
         "",
         "### Categories",
@@ -362,7 +388,7 @@ def generate_homepage(papers: list[Paper]) -> None:
         "",
         "- [Latest Papers](/latest)",
         "- [Real Robot Papers](/real-robot)",
-        "- [Open Source Papers](/open-source)",
+        "- [Code Availability](/open-source)",
         "- [Tags](/tags)",
         "",
     ])
@@ -434,19 +460,19 @@ def generate_real_robot(papers: list[Paper]) -> None:
 
 def generate_open_source(papers: list[Paper]) -> None:
     """Generate docs/open-source.md."""
-    open_papers = [p for p in papers if p.open_source]
-    open_papers.sort(key=lambda p: p.published_date or date.min, reverse=True)
 
     lines = [
-        "# Open Source Papers",
+        "# Code Availability",
         "",
-        "Papers with open-source code repositories.",
+        "Code availability grouped by inspection status. Source-file detection does not verify completeness, reproducibility or licensing.",
         "",
     ]
 
-    for paper in open_papers:
-        lines.append(format_paper_entry(paper))
-        lines.append("---")
+    for status, label in CODE_LABELS.items():
+        group = [p for p in papers if p.code_status == status]
+        lines.extend([f"## {label} ({len(group)})", ""])
+        for paper in group:
+            lines.append(f"- {format_compact_paper_link(paper)}")
         lines.append("")
 
     out_path = DOCS_DIR / "open-source.md"

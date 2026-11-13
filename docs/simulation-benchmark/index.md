@@ -28,6 +28,16 @@
 ## GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.21550)
+- **Project:** [Project page](https://golem-humanoid.github.io)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code coming soon
+
+</details>
+
 - **Authors:** Max Conway, William Xie, Allen Devaraj, Yutong Zhang, Niraj Pudasaini, Mateo Feit et al. (17 authors)
 - **Published:** 2026-08
 - **Real Robot:** ✅ — Unitree H1
@@ -50,6 +60,15 @@ Disassembling end-of-life electric vehicle (EV) battery packs is dull and danger
 ## Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.20852)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Aniruddh Kushwah, Vyankatesh Ashtekar, Ashish Dutta
 - **Published:** 2026-08
 - **Real Robot:** ✅ — Unitree G1
@@ -71,6 +90,15 @@ This paper presents a reference-guided reinforcement learning framework to gener
 ## HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.17584)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Wang Warren Chen, Jiahao Zhang, Zhenjiang Li, Mingxu Wang, Lei Yi, Yuchen Kang et al. (9 authors)
 - **Published:** 2026-08
 - **Real Robot:** ✅ — Unitree G1
@@ -88,6 +116,15 @@ We propose HODAgent, a System-2 embodied agent for humanoid robots in service se
 ## First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.00500)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yikai Zhou, Xingyun Wang, Jieming Cui, Bozhou Chen, Yikai Fan, Yixin Zhu et al. (7 authors)
 - **Published:** 2026-08
 - **Tags:**
@@ -101,13 +138,22 @@ We propose HODAgent, a System-2 embodied agent for humanoid robots in service se
 
 ### Summary
 
-Unified humanoid policies handle agile whole-body motion, yet stumble on a simple demand: staying balanced on one leg. On our single-leg-balance benchmark, eight released state-of-the-art general policies hold a clean single-leg stance on 0 of 90 test motions; they stay up only by stepping or hopping, recovering from imbalance rather than preventing it.
+Unified humanoid policies track agile whole-body motion, yet few can hold a clean single-leg stance. On the single-leg balance benchmark introduced here, eight released state-of-the-art general policies hold a clean stance on none of 90 held-out motions; they stay upright only by hopping or re-planting a foot, recovering from imbalance rather than preventing it.
 
 ---
 
 ## Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.10815)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yunkang Cheng, Yutong Wu, Menghan Li, Shihe Zhou, Mingguo Zhao
 - **Published:** 2026-07
 - **Tags:**
@@ -126,6 +172,15 @@ Humanoid roller-skating is difficult because the robot must coordinate whole-bod
 ## ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.06052)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Chenhao Yu, Hongwu Wang, Weitao Zhang, Youhao Hu, Jiachen Zhang, Gangyang Li et al. (8 authors)
 - **Published:** 2026-07
 - **Tags:**
@@ -147,6 +202,15 @@ Humanoid robots are increasingly expected to perform contact-rich tasks that req
 ## TaskNPoint: How to Teach Your Humanoid to Hit a Backhand in Minutes
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.26215)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Blake Werner, Ilona Demler, Pietro Perona, Aaron D. Ames
 - **Published:** 2026-06
 - **Tags:**
@@ -164,6 +228,15 @@ How do we learn to hit a tennis backhand? Not from a thousand hours of tennis to
 ## HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.17833)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Taowen Wang, Zikang Xie, Bin Yang, Yunheng Wang, Zizhao Yuan, Yuetong Fang et al. (16 authors)
 - **Published:** 2026-06
 - **Tags:**
@@ -184,6 +257,15 @@ Humanoid robots promise whole-body interaction in human-centered environments, b
 ## SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.08278)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Songlin Wei, Zhenhao Ni, Jie Liu, Zhenyu Zhao, Junjie Ye, Hongyi Jing et al. (12 authors)
 - **Published:** 2026-06
 - **Real Robot:** ✅
@@ -203,9 +285,22 @@ Humanoid foundation models are advancing faster than we can evaluate them. While
 
 ---
 
-## Flash-WAM: Modality-Aware Distillation for World Action Models
+## 🌟 Flash-WAM: Modality-Aware Distillation for World Action Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.05254)
+- **Project:** [Project page](https://flashwam.github.io)
+- **Repository:** [Code](https://github.com/NU-World-Model-Embodied-AI/Flash-WAM)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Inspected public GitHub page: https://github.com/NU-World-Model-Embodied-AI/Flash-WAM
+- Implementation examples: distillation/config.py
+- Completeness and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Arman Akbari, Ci Zhang, Arash Akbari, Lin Zhao, Yixiao Chen, Weiwei Chen et al. (9 authors)
 - **Published:** 2026-06
 - **Real Robot:** ✅ — Unitree G1
@@ -223,10 +318,20 @@ World-action models (WAMs) jointly generate future video and robot actions throu
 
 ---
 
-## 🌟 Adversarial Stress Testing of SPARK Humanoid Safety Filters
+## Adversarial Stress Testing of SPARK Humanoid Safety Filters
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
-- **Project:** [GitHub](https://github.com/ghoshsaurav/spark-adversarial-safety)
+- **Repository:** [Code](https://github.com/ghoshsaurav/spark-adversarial-safety)
+- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Inspected public GitHub page: https://github.com/ghoshsaurav/spark-adversarial-safety
+- Inspected repository contains no detected implementation files
+
+</details>
+
 - **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
 - **Published:** 2026-05
 - **Tags:**
@@ -247,6 +352,15 @@ Humanoid robots are difficult to deploy safely because they have high-dimensiona
 ## OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.12038)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yiren Song, Xiyao Deng, Pei Yang, Yihan Wang, Mike Zheng Shou
 - **Published:** 2026-05
 - **Tags:**
@@ -264,6 +378,15 @@ Cross-embodiment video generation aims to transfer motions across different huma
 ## Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2603.05993)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Beichen Wang, Yuanjie Lu, Linji Wang, Liuchuan Yu, Xuesu Xiao
 - **Published:** 2026-03
 - **Tags:**
@@ -278,27 +401,48 @@ Cross-embodiment video generation aims to transfer motions across different huma
 
 ### Summary
 
-Recent advances in humanoid locomotion have enabled dynamic behaviors, but cluttered 3D environments remain underexplored. Moving Through Clutter is an open-source virtual reality based data collection and evaluation framework for scene-aware humanoid locomotion in cluttered environments.
+Recent advances in humanoid locomotion have enabled dynamic behaviors such as dancing, martial arts, and parkour, yet these capabilities are predominantly demonstrated in open, flat, and obstacle-free settings. In contrast, real-world environments such as homes, offices, and public spaces, are densely cluttered, three-dimensional, and geometrically constrained, requiring scene-aware whole-body coordination, precise balance control, and reasoning over spatial constraints imposed by furniture and household objects.
 
 ---
 
 ## 🌟 ComFree-Sim: A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation and Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2603.12185)
-- **Project:** [GitHub](https://irislab.tech/comfree-sim/)
+- **Project:** [Project page](https://irislab.tech/comfree-sim/)
+- **Repository:** [Code](https://github.com/asu-iris/comfree_warp)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/asu-iris/comfree_warp
+- Detected 77 implementation files; examples: comfree_warp/api.py, comfree_warp/comfree_core/_src/constraint.py, comfree_warp/comfree_core/_src/forward.py, comfree_warp/comfree_core/_src/math.py, comfree_warp/comfree_core/_src/support.py
+- Completeness and reproducibility have not been verified
+
+</details>
+
 - **Published:** 2026-03
 - **Tags:**
   - Simulation Benchmark
 
 ### Summary
 
-Summary unavailable. This entry was imported from a curated paper list.
+Physics simulation for contact-rich robotics is often bottlenecked by contact resolution: mainstream engines enforce non-penetration and Coulomb friction via complementarity constraints or constrained optimization, requiring per-step iterative solves whose cost grows superlinearly with contact density. We present ComFree-Sim, a GPU-parallelized analytical contact physics engine built on complementarity-free contact modeling.
 
 ---
 
 ## Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2603.06181)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Published:** 2026-03
 - **Tags:**
   - Humanoid
@@ -306,13 +450,22 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 ### Summary
 
-Summary unavailable. This entry was imported from a curated paper list.
+Humanoid robots have achieved significant progress in motion generation and control, exhibiting movements that appear increasingly natural and human-like. Inspired by the Turing Test, we propose the Motion Turing Test, a framework that evaluates whether human observers can discriminate between humanoid robot and human poses using only kinematic information.
 
 ---
 
 ## MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.11337)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Published:** 2026-02
 - **Tags:**
   - Manipulation
@@ -321,13 +474,22 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 ### Summary
 
-Summary unavailable. This entry was imported from a curated paper list.
+Deploying robots at scale demands robustness to the long tail of everyday situations. The countless variations in scene layout, object geometry, and task specifications that characterize real environments are vast and underrepresented in existing robot benchmarks.
 
 ---
 
 ## Benchmarking Humanoid Imitation Learning with Motion Difficulty
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.07248)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Published:** 2025-12
 - **Tags:**
   - Imitation Learning
@@ -337,13 +499,23 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 ### Summary
 
-Summary unavailable. This entry was imported from a curated paper list.
+Physics-based motion imitation is central to humanoid control, yet current evaluation metrics (e.g., MPJPE) only quantify imitation outcomes, not their underlying causes. This conflation obscures a critical diagnostic question: when imitation error occurs, does it stem from policy limitations or the intrinsic learning difficulty of the target motion? To resolve this ambiguity, we propose the Torque Variation Score (TVS), a physics-grounded metric that quantifies the inherent learning difficulty of a motion independently of any policy's performance.
 
 ---
 
 ## Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2510.08807)
+- **Project:** [Project page](https://humanoideveryday.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Published:** 2025-10
 - **Tags:**
   - Manipulation
@@ -353,13 +525,22 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 ### Summary
 
-Summary unavailable. This entry was imported from a curated paper list.
+From loco-motion to dextrous manipulation, humanoid robots have made remarkable strides in demonstrating complex full-body capabilities. However, the majority of current robot learning datasets and benchmarks mainly focus on stationary robot arms, and the few existing humanoid datasets are either confined to fixed environments or limited in task diversity, often lacking human-humanoid interaction and lower-body locomotion.
 
 ---
 
 ## Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2510.07092)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Published:** 2025-10
 - **Tags:**
   - World Model
@@ -368,14 +549,26 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 ### Summary
 
-Summary unavailable. This entry was imported from a curated paper list.
+World models are a powerful paradigm in AI and robotics, enabling agents to reason about the future by predicting visual observations or compact latent states. The 1X World Model Challenge introduces an open-source benchmark of real-world humanoid interaction, with two complementary tracks: sampling, focused on forecasting future image frames, and compression, focused on predicting future discrete latent codes.
 
 ---
 
-## 🌟 HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning
+## HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2507.00833)
-- **Project:** [GitHub](https://openhumanoidgen.github.io/)
+- **Project:** [Project page](https://openhumanoidgen.github.io/)
+- **Repository:** [Code](https://github.com/TeleHuman/HumanoidGen)
+- **Code status:** Partial release / 部分代码或资源待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Inspected public GitHub page: https://github.com/TeleHuman/HumanoidGen
+- README: Code to be released
+- Implementation examples: humanoidgen/agents/objects/articulated_object.py
+
+</details>
+
 - **Published:** 2025-07
 - **Tags:**
   - Manipulation
@@ -384,6 +577,6 @@ Summary unavailable. This entry was imported from a curated paper list.
 
 ### Summary
 
-Summary unavailable. This entry was imported from a curated paper list.
+For robotic manipulation, existing robotics datasets and simulation benchmarks predominantly cater to robot-arm platforms. However, for humanoid robots equipped with dual arms and dexterous hands, simulation tasks and high-quality demonstrations are notably lacking.
 
 ---
