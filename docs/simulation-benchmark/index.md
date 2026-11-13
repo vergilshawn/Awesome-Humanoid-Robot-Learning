@@ -31,7 +31,16 @@
 ## Social Humanoid: Socially Responsive Human-Humanoid Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08407)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://von31.github.io/social-humanoid/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Vongani H. Maluleke, James Ni, Kie Horiuchi, Lea Wilken, Jiahui Lei, Evonne Ng et al. (10 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -51,7 +60,15 @@ Humanoid robots are typically trained as solitary agents, leaving them unable to
 ## $\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.41654)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Weyl Lu, Yubei Chen
 - **Published:** 2026-10
 - **Tags:**
@@ -70,10 +87,21 @@ Robot policy learning is dominated by zeroth-order methods such as PPO, which tr
 
 ---
 
-## SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
+## 🌟 SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.39327)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://kyry.me/sonic-k1/)
+- **Repository:** [Code](https://github.com/Kyk0/sonic-k1)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 1405 source files; examples: check_environment.py, decoupled_wbc/control/base/env.py, decoupled_wbc/control/base/humanoid_env.py, decoupled_wbc/control/base/policy.py, decoupled_wbc/control/base/sensor.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Kyrylo Kolesnichenko, Irvin Steve Cardenas, Jong-Hoon Kim
 - **Published:** 2026-10
 - **Tags:**

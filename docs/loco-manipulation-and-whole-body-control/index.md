@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**327 papers** in this category.
+**328 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (15 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (16 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -41,10 +41,49 @@
 
 ## Recent Papers
 
+## PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.15117)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Heng Li, Yang Li, Yifan Duan, Ren Fang, Matao Duan, Wenhao Yu et al. (9 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - MuJoCo
+  - Inverse Kinematics
+  - Language-Conditioned
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Quadrupedal mobile manipulators can extend their manipulation workspace by coordinating the mounted arm with the mobile base. At the task level, short-horizon end-effector (EE) trajectories provide an interface for specifying the desired manipulation motion without prescribing how it should be realized by the arm and base.
+
+---
+
 ## RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14049)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://xiaopeng-whu.github.io/RedirectMimic/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Zepeng Wang, Xiaochuan Shi
 - **Published:** 2026-11
 - **Tags:**
@@ -61,7 +100,15 @@ Humanoid motion interfaces should accommodate application-specific movement cons
 ## ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Xianghui Wang, Aoran Fu, Liyou Luo, Shanze Wang, Xiaoyu Shen, Dan Zhang et al. (7 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -82,7 +129,15 @@ In recent years, humanoid loco-manipulation has progressed to whole-body graspin
 ## From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Hesham Shehata
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -104,7 +159,16 @@ We present a pipeline for transferring Awa Odori, a traditional Japanese festiva
 ## DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.09605)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://robbyant-research.github.io/DKWBC/)
+- **Code status:** Needs review / 访问失败或证据不足
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Multiple repository candidates require review: https://github.com/robbyant-research/DKWBC, https://github.com/nv-tlabs/ardy
+
+</details>
+
 - **Authors:** Dingkun Wei, Zehong Shen, Huaijin Pi, Xueyang Wang, Xing Zhu, Hujun Bao et al. (8 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -124,7 +188,16 @@ Humanoid whole-body control requires a robot to track diverse reference motions 
 ## SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.09266)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://tianshuwu.github.io/sugarv2-humanoid/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code (Coming Soon
+
+</details>
+
 - **Authors:** Tianshu Wu, Tianxiang Gui, Yue Chen, Tingxu Liu, Ziye Peng, Guangjie Yang et al. (10 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -146,7 +219,16 @@ Scaling up visual humanoid loco-manipulation skill acquisition requires reducing
 ## ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08664)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://roboforpc.github.io/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code Coming soon
+
+</details>
+
 - **Authors:** ZhenYu Zou, Xing Liu, ShiChuang Wang, YunLong Dong, LiNan Deng, Feng Hua et al. (8 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -169,7 +251,17 @@ Humanoid robots are expected to take over strenuous material handling in manufac
 ## HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08039)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://hitch.axell.top/)
+- **Code status:** Needs review / 访问失败或证据不足
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Project page has insufficient readable content; may require JavaScript
+- Link discovery incomplete; absence of code cannot be confirmed
+
+</details>
+
 - **Authors:** Qingzhou Lu, Chenxin Liu, Xinming Wang, Liu Cao, Yanjiang Guo, Mengdi Xu et al. (7 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -188,7 +280,15 @@ Enabling vision-language models (VLMs) to control humanoid robots requires both 
 ## Whole-Body Elasto-Geometrical Calibration of Wheeled Humanoid Robots Using a Shared-Waist Dual-Chain Model
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07560)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Pengxin Zha, Yi Lu, Haojun Ma, Jun Zhu, Minghao Qiu, Xiaoyan Wang et al. (8 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -204,7 +304,16 @@ Wheeled humanoid robots carry both arms on one actuated waist, usually without t
 ## Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.05507)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://forcectrl.github.io/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code  coming soon
+
+</details>
+
 - **Authors:** Mengjie Zhao, Yuxin Chen, Yiyang Shao, Chuye Hong, Jiakang Chen, Koushil Sreenath et al. (7 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -224,7 +333,16 @@ Humanoid motion tracking has scaled to general policies that reproduce diverse h
 ## HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.05113)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://www.youtube.com/watch?v=viR_ULnRDQQ&feature=youtu.be)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jean-Pierre Sleiman, Bilal Hammoud, He Li, Jonathan Foster, Sylvain Bertrand, Jessica K. Hodgins et al. (7 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -242,7 +360,16 @@ Hierarchical pipelines for humanoid loco-manipulation typically pair a task-agno
 ## Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.04839)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://ju6276.github.io/Action-Grounded-Foresight/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code Coming soon
+
+</details>
+
 - **Authors:** Ju Dong, Xinyu Xiao, Yiming Zhou, Tianshuo Yang, Xuerong Liu, Lei Zhang et al. (15 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -261,7 +388,16 @@ Humanoid loco-manipulation requires coordinated body motion and hand interaction
 ## ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.04424)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://minusmodulo.github.io/reflexarc-website/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code Coming soon
+
+</details>
+
 - **Authors:** Mingyu Wang, Si Li, Ziqing Chen, He Wang, Li Yi
 - **Published:** 2026-11
 - **Tags:**
@@ -282,7 +418,15 @@ Humanoid robots operating in cluttered environments must react to unexpected con
 ## Online iLQR-MPC with Whole-Body Control for Robust Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.04204)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Xiang Li, Linlin Ou, Ruihan Wu, Xinyi Yu
 - **Published:** 2026-11
 - **Tags:**
@@ -304,7 +448,15 @@ Humanoid locomotion requires deciding where to step and how to distribute contac
 ## CompliantBot: Learning Whole-Body Compliance across Task Interfaces for Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.01748)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Haoyang Li, Keqi Zhu, Zhanxiang Cao, Yang Zhang, Yizhi Chen, Xuekang Yang et al. (7 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -318,10 +470,21 @@ Humanoid controllers need the ability to yield to external forces while retainin
 
 ---
 
-## HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception
+## 🌟 HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.01659)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://xuanbinpeng.com/hug/)
+- **Repository:** [Code](https://github.com/openrobokit/graspkit)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 296 source files; examples: projects/hug/scripts/real/calibration/g1_calibration.py, projects/hug/scripts/real/calibration/teach_arm_qpos.py, projects/hug/scripts/real/check_camera.py, projects/hug/scripts/real/check_hand.py, projects/hug/scripts/real/grasp.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Xuanbin Peng, Lai Wei, Yuze Zhai, Qingyuan Yu, Keyi Wang, Jianglong Ye et al. (7 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -338,7 +501,15 @@ Acquiring objects in human environments is hard for humanoids: targets are parti
 ## Learning Agile Humanoid Dodgeball with Onboard Monocular Vision
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.01197)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Feng Tian, Yulin An, Chenhao Li, Matthias Heyrman, Marco Hutter
 - **Published:** 2026-10
 - **Tags:**
@@ -357,7 +528,15 @@ Humanoid robots operating in shared, dynamic environments must respond to rapidl
 ## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.00951)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Haizhou Ge, Mengshuo Wang, Yufei Jia, Lei Han, Lu Shi, Guyue Zhou et al. (7 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -375,7 +554,15 @@ We test whether Koopman structure helps a differentiable world model used to tra
 ## Anchor 1: Precise and Stable Humanoid Control for Whole-Body Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.00193)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Archon Robotics,  :, Caojun Wang, Checheng Yu, Gangcheng Jiang, Guangjun Zeng et al. (27 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -396,7 +583,15 @@ Humanoid controllers have acquired increasingly diverse motor skills, yet transl
 ## REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.42053)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Pengfei Zhou, Yixing Ma, Zhengfeiyang Zhang, Haoyuan Chen, Zhenglin Wan, Hexin Wang et al. (8 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -409,27 +604,5 @@ Humanoid controllers have acquired increasingly diverse motor skills, yet transl
 ### Summary
 
 Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize.
-
----
-
-## DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.41354)
-- **Code status:** Unverified / 未核验
-- **Authors:** Yifei Huang, Yazhao Yang, Weijia Li, Zhiheng Ma, Dian Shen
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Model-Based RL
-  - Zero-Shot
-  - Humanoid
-  - Fine-tuning
-  - Benchmark
-  - Diffusion
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-General humanoid motion trackers typically rely on deterministic policies that cannot adapt online without brittle reference editing or costly retraining. We present DiffWBC, shifting whole-body control to a generative paradigm via a one-step diffusion model.
 
 ---

@@ -1,10 +1,10 @@
 # State Estimation
 
-**29 papers** in this category.
+**30 papers** in this category.
 
 ## Months
 
-- [2026-11](/state-estimation/2026-11) (4 papers)
+- [2026-11](/state-estimation/2026-11) (5 papers)
 - [2026-10](/state-estimation/2026-10) (4 papers)
 - [2026-09](/state-estimation/2026-09) (8 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
@@ -22,10 +22,47 @@
 
 ## Recent Papers
 
+## 🌟 Elastra: A Simulation Framework for Elastic Bodies
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.15112)
+- **Repository:** [Code](https://github.com/yichg/elastra)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 27 source files; examples: src/elastra/assets.py, src/elastra/config.py, src/elastra/evaluation.py, src/elastra/figures.py, src/elastra/host.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
+- **Authors:** Youran Sun, Chugang Yi, Xingyu Ren, Haizhao Yang
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - PPO
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+When robots interact with elastic surfaces such as mattresses and trampolines, changes in loading cause the surfaces to deform and rebound, altering subsequent contact locations and forces. We present Elastra, a simulation framework for modeling this interaction and supporting the training and evaluation of robot control policies.
+
+---
+
 ## A Unified Inertial Encoder for Human and Humanoid Motion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.10137)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yutian Chen, Shibo Zhao, Rocky Duan, Karen Liu, Carmelo Sferrazza, Guanya Shi et al. (8 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -47,7 +84,15 @@ Learning humanoid state estimation and language-grounded motion understanding fr
 ## Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08056)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Chenghao Sun, Youhao Lyu, Zizheng Li, Shuting Zhang, Ziyang Dong, Wenhao Cui
 - **Published:** 2026-11
 - **Tags:**
@@ -67,7 +112,16 @@ We present a progressive imitation framework that learns terrain-appropriate hum
 ## Perceptive Humanoid Motion from Simulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.06908)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://apple-aiml-research.github.io/ml-halo/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Siyuan Hu, Abulikemu Abuduweili, Yue Meng, Shipeng Liu, Quentin Leboutet, Chen Chen et al. (8 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -87,7 +141,15 @@ Humanoid robots have the potential to automate a wide range of physical tasks. P
 ## ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.02871)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Hao Zhu, Jorge Peña-Queralta
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -109,7 +171,16 @@ Humanoid loco-manipulation requires coordinating object acquisition, transport, 
 ## ROOF: Learning Humanoid Fall Recovery under Overhead Constraints
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.42097)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://lu-yidan.github.io/ROOF/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yidan Lu, Jiayuan Yu, Zongrui Cai, Jingwen Sun, Jinrui Han, Jing Wang et al. (8 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -430,31 +501,5 @@ This article presents a kinematic-inertial-LiDAR-visual odometry for humanoid ro
 ### Summary
 
 Recent advances in humanoid robotics have highlighted the importance of deployable loco-manipulation skills. Dribbling a soccer ball while evading active opponents requires simultaneous balance, precise ball control, and awareness of a dynamic adversary under onboard sensing and real-time constraints.
-
----
-
-## Proprioceptive Invariant State Estimation for Humanoid Robots on Non-Inertial Ground
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.19512)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Falak Mandali, Zijian He, Yan Gu
-- **Published:** 2026-06
-- **Tags:**
-  - State Estimation
-  - Humanoid
-  - Walking
-  - Locomotion
-
-### Summary
-
-This paper presents an invariant extended Kalman filtering (InEKF) approach for real-time state estimation of humanoid robots operating on non-inertial ground using only onboard proprioceptive sensing. The proposed approach estimates the robot's base position and velocity relative to the moving ground frame without requiring direct measurements of ground motion or externally mounted sensors.
 
 ---

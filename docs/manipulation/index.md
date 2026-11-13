@@ -39,7 +39,15 @@
 ## Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11854)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Bingzhang Wang, Nathan Zhao, Jialeng Ni, Jiajin Zheng, Yin Zhang, Kehua Chen et al. (7 authors)
 - **Published:** 2026-11
 - **Tags:**
@@ -57,7 +65,15 @@ Vision-language-action (VLA) models pair a vision-language backbone with an acti
 ## ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.02968)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Zhongkai Gu, Yang Liu, Wei Zhu, Mitsuhiro Hayashibe
 - **Published:** 2026-11
 - **Tags:**
@@ -75,7 +91,15 @@ Contact transitions allow humanoid robots to redistribute object support across 
 ## Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.39044)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Arth Shukla, Kehlani Fay, Huaze Liu, Darin Djapri, Alexiy Buynitsky, Nicklas Hansen
 - **Published:** 2026-10
 - **Tags:**

@@ -31,7 +31,16 @@
 ## RAIPAL: A Powerful and Agile Humanoid Arm for Human Tasks
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.04334)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://www.youtube.com/watch?v=xVUWFICD5G0&feature=youtu.be)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Donggeon Kim, Hyungho Chris Choi, Donghyuk Choi, Jeongsoo Park, Choongin Lee, Chan Park et al. (7 authors)
 - **Published:** 2026-11
 - **Tags:**

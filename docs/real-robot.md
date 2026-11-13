@@ -7,7 +7,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 2 papers
-- **Figure:** 17 papers
+- **Figure:** 18 papers
 - **NAO:** 1 papers
 - **Unitree G1:** 87 papers
 - **Unitree H1:** 1 papers
@@ -18,10 +18,43 @@ Papers with real humanoid robot deployment and experiments.
 
 ## All Real Robot Papers
 
+## ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** ZhuoChang Cai, Zihao Yan, Jinxuan Zhu, Yanjie Li, Hao Xiong
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+
+### Summary
+
+Humanoid motion tracking is fundamental to reproducing human motions on humanoid robots and serves as an important tool for teleoperation and motion data collection. However, directly tracking reference motions can be unsafe in constrained environments or during physical human--robot interaction, motivating the need for compliant motion tracking.
+
+---
+
 ## ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Xianghui Wang, Aoran Fu, Liyou Luo, Shanze Wang, Xiaoyu Shen, Dan Zhang et al. (7 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -42,7 +75,16 @@ In recent years, humanoid loco-manipulation has progressed to whole-body graspin
 ## AHEADance: Anticipatory Humanoid Dance from Streaming Audio
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://ihcr.github.io/AHEADance/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Tianhu Peng, Yukun Wang, Lingfan Bao, Yiyang Jia, Chengxu Zhou
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -59,7 +101,18 @@ A humanoid that dances to streamed music must commit each motion chunk before it
 ## LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.12136)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://robbyant-research.github.io/LHNav/)
+- **Repository:** [Code](https://github.com/robbyant-research/LHNav)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No implementation files detected (documentation/assets only); review required
+- Publication/project page: coming soon Code
+
+</details>
+
 - **Authors:** Xueyang Wang, Zehong Shen, Dingkun Wei, Huaijin Pi, Changpeng Wang, Xing Zhu et al. (9 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -82,7 +135,18 @@ We study humanoid navigation across multiple destinations under long-horizon lan
 ## Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11554)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://kimodo-policy.github.io/)
+- **Repository:** [Code](https://github.com/kimodo-policy/kimodo-policy)
+- **Code status:** Partial release / 部分代码或资源待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- README: Training &amp; Evaluation (Coming Soon
+- Detected 1172 source files
+
+</details>
+
 - **Authors:** Yunheng Wang, Jiaxi Zhang, Wei Lu, Yuetong Fang, Taowen Wang, Yixiao Feng et al. (15 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Figure
@@ -105,7 +169,15 @@ Humanoid loco-manipulation requires continuous coordination of high-dimensional 
 ## From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Hesham Shehata
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -127,7 +199,16 @@ We present a pipeline for transferring Awa Odori, a traditional Japanese festiva
 ## ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08664)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://roboforpc.github.io/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code Coming soon
+
+</details>
+
 - **Authors:** ZhenYu Zou, Xing Liu, ShiChuang Wang, YunLong Dong, LiNan Deng, Feng Hua et al. (8 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -150,7 +231,16 @@ Humanoid robots are expected to take over strenuous material handling in manufac
 ## Social Humanoid: Socially Responsive Human-Humanoid Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08407)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://von31.github.io/social-humanoid/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Vongani H. Maluleke, James Ni, Kie Horiuchi, Lea Wilken, Jiahui Lei, Evonne Ng et al. (10 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -170,7 +260,15 @@ Humanoid robots are typically trained as solitary agents, leaving them unable to
 ## AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07712)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Nikita Kuzmin, Georgii Demianchuk, Mariya Lezina, Yara Mahmoud, Iana Zhura, Miguel Altamirano Cabrera et al. (7 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -188,7 +286,15 @@ Social touch interactions, such as handshakes, fist bumps, and hugs, require hum
 ## PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07679)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yunwan Fu, Sicheng He, Jiageng Mao, Yue Wang
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -211,7 +317,15 @@ Humanoid locomotion policies trained without an explicit smoothness objective te
 ## Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.06564)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Haoyu Shao, Yunshen Wang, Jingze Zhang, Shaohang Zhu, Yong-Lu Li, Tianzhu Zhang et al. (8 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -234,7 +348,15 @@ Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball ma
 ## ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.02871)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Hao Zhu, Jorge Peña-Queralta
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -256,7 +378,15 @@ Humanoid loco-manipulation requires coordinating object acquisition, transport, 
 ## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.00951)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Haizhou Ge, Mengshuo Wang, Yufei Jia, Lei Han, Lu Shi, Guyue Zhou et al. (7 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -274,7 +404,16 @@ We test whether Koopman structure helps a differentiable world model used to tra
 ## ROOF: Learning Humanoid Fall Recovery under Overhead Constraints
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.42097)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://lu-yidan.github.io/ROOF/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yidan Lu, Jiayuan Yu, Zongrui Cai, Jingwen Sun, Jinrui Han, Jing Wang et al. (8 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -295,7 +434,15 @@ A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem.
 ## REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.42053)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Pengfei Zhou, Yixing Ma, Zhengfeiyang Zhang, Haoyuan Chen, Zhenglin Wan, Hexin Wang et al. (8 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -314,7 +461,15 @@ Foundation models are becoming remarkably reliable at high-level reasoning, yet 
 ## Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.40003)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Aoqian Zhang, Chunzheng Wang, Haoran Chen, Annan Tang, Cheng Xiang, Fan Shi et al. (7 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅

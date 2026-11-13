@@ -1,10 +1,10 @@
 # Teleoperation
 
-**47 papers** in this category.
+**48 papers** in this category.
 
 ## Months
 
-- [2026-11](/teleoperation/2026-11) (1 papers)
+- [2026-11](/teleoperation/2026-11) (2 papers)
 - [2026-10](/teleoperation/2026-10) (14 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
@@ -27,10 +27,43 @@
 
 ## Recent Papers
 
+## ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** ZhuoChang Cai, Zihao Yan, Jinxuan Zhu, Yanjie Li, Hao Xiong
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+
+### Summary
+
+Humanoid motion tracking is fundamental to reproducing human motions on humanoid robots and serves as an important tool for teleoperation and motion data collection. However, directly tracking reference motions can be unsafe in constrained environments or during physical human--robot interaction, motivating the need for compliant motion tracking.
+
+---
+
 ## AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07712)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Nikita Kuzmin, Georgii Demianchuk, Mariya Lezina, Yara Mahmoud, Iana Zhura, Miguel Altamirano Cabrera et al. (7 authors)
 - **Published:** 2026-11
 - **Real Robot:** ✅ — Unitree G1
@@ -397,23 +430,5 @@ Whole-body humanoid teleoperation commonly combines a motion-tracking policy wit
 ### Summary
 
 Humanoid motion trackers can reproduce diverse whole-body motions, but their performance degrades on complex terrain where terrain-agnostic references become physically infeasible. We present PGMT, a Perceptive General Motion Tracking pipeline for humanoid robots that learns terrain adaptation from independently selected motion references and terrains.
-
----
-
-## SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.07933)
-- **Code status:** Unverified / 未核验
-- **Authors:** Lixing Fang, Ziyan Xiong, Sunli Chen, Zhiyang Dou, Chuang Gan
-- **Published:** 2026-09
-- **Tags:**
-  - Teleoperation
-  - Locomotion
-  - Manipulation
-  - Humanoid
-
-### Summary
-
-High-quality demonstration data is becoming a central bottleneck for training general-purpose humanoid robots. While recent humanoid teleoperation systems have made substantial progress in retargeting human motion to robot motion, long-horizon loco-manipulation requires another capability: operators must maintain task-relevant spatial awareness over time, e.g., object locations, surrounding environments, the robot's pose.
 
 ---

@@ -33,7 +33,16 @@
 ## DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.10872)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://ember-center-berkeley.github.io/DreamVLA/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Kevin Park, Izat Rasyad, Dvij Kalaria, Shankar Sastry
 - **Published:** 2026-11
 - **Tags:**

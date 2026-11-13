@@ -1,14 +1,177 @@
 [
   {
+    "arxiv_id": "2611.15117",
+    "title": "PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach",
+    "paper_url": "https://arxiv.org/abs/2611.15117",
+    "project_url": null,
+    "repository_url": null,
+    "comments": "8 pages, 4 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:10.125969+00:00",
+    "authors": [
+      "Heng Li",
+      "Yang Li",
+      "Yifan Duan",
+      "Ren Fang",
+      "Matao Duan",
+      "Wenhao Yu",
+      "Lu Zhang",
+      "Jianmin Ji",
+      "Yanyong Zhang"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-11",
+    "abstract": "Quadrupedal mobile manipulators can extend their manipulation workspace by coordinating the mounted arm with the mobile base. At the task level, short-horizon end-effector (EE) trajectories provide an interface for specifying the desired manipulation motion without prescribing how it should be realized by the arm and base. However, executing such trajectories remains challenging because the controller must determine when and how the base should move, and this decision depends on the mounted-arm morphology. We therefore present PolyMorphWBC, a hierarchical controller that takes an EE trajectory as the sole task-level motion command and generates coordinated arm--base motions across four families of 6-DoF mounted arms, with extended-reach trajectories beyond the initial fixed-base reach. Within PolyMorphWBC, a trajectory-conditioned coordinator determines the base motion from previewed EE targets, while arm-specific Inverse Kinematics (IK) tracks the current target, and a frozen locomotion backend executes the resulting motion. Cross-arm reuse is enabled by a Unified Robot Description Format (URDF)-derived morphology conditioning, together with online residual-wrench feedback. We train PolyMorphWBC on procedurally generated arms and structured trajectories within and beyond fixed-base reach. In IsaacLab, it achieves 93.95% completion with 2.30cm position error and 4.81° orientation error on held-out trajectories and arm morphologies. In MuJoCo evaluation against UMI-on-Legs, PolyMorphWBC reduces EE position error by 69--72% and orientation error by 91--97% across four within- and extended-reach trajectories. On a physical Go2--ARX5 system, we demonstrate language-conditioned extended-reach pick-and-place using EE trajectories from pi_0 without vision-language-action (VLA)-generated base commands.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Locomotion",
+      "Manipulation",
+      "MuJoCo",
+      "Inverse Kinematics",
+      "Language-Conditioned",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control",
+      "Simulation Benchmark",
+      "Physics-Based Character Animation"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2611.15112",
+    "title": "Elastra: A Simulation Framework for Elastic Bodies",
+    "paper_url": "https://arxiv.org/abs/2611.15112",
+    "project_url": null,
+    "repository_url": "https://github.com/yichg/elastra",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 27 source files; examples: src/elastra/assets.py, src/elastra/config.py, src/elastra/evaluation.py, src/elastra/figures.py, src/elastra/host.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-13T03:28:10.186501+00:00",
+    "authors": [
+      "Youran Sun",
+      "Chugang Yi",
+      "Xingyu Ren",
+      "Haizhao Yang"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-11",
+    "abstract": "When robots interact with elastic surfaces such as mattresses and trampolines, changes in loading cause the surfaces to deform and rebound, altering subsequent contact locations and forces. We present Elastra, a simulation framework for modeling this interaction and supporting the training and evaluation of robot control policies. Elastra represents each surface using elements that move only vertically, with elastic connections and damping to model deformation and recovery. Contact forces drive surface motion, and the updated surface geometry is used to compute subsequent contact forces. We systematically validate our simulations against an independent implementation and a real mattress load curve. We further use Elastra to train the Unitree G1 humanoid to stand up on mattresses and trampolines. Using the pretrained HoST policy and ProtoMotions motion tracker as original controllers, we train residual policies through reinforcement learning to add corrections to their joint targets. Adding these residual policies increases the success rate with HoST from 44.1\\% to 72.5\\%, and from 55\\% to 89\\% on the trampoline. With ProtoMotions, the success rate increases from 19.0\\% to 45.0\\% for initial poses not encountered during training. The code and video are available on https://github.com/yichg/elastra.",
+    "categories": [
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "PPO",
+      "State Estimation",
+      "Simulation Benchmark"
+    ],
+    "real_robot": false,
+    "open_source": true,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "State Estimation"
+  },
+  {
+    "arxiv_id": "2611.14985",
+    "title": "ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking",
+    "paper_url": "https://arxiv.org/abs/2611.14985",
+    "project_url": null,
+    "repository_url": null,
+    "comments": "8 pages, 6 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:11.311718+00:00",
+    "authors": [
+      "ZhuoChang Cai",
+      "Zihao Yan",
+      "Jinxuan Zhu",
+      "Yanjie Li",
+      "Hao Xiong"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-11",
+    "abstract": "Humanoid motion tracking is fundamental to reproducing human motions on humanoid robots and serves as an important tool for teleoperation and motion data collection. However, directly tracking reference motions can be unsafe in constrained environments or during physical human--robot interaction, motivating the need for compliant motion tracking. We present ILA, an Interface-Level Adapter for compliant humanoid motion tracking without dedicated interaction sensors. ILA adapts motion references from the robot's observation history, allowing the robot to respond to physical guidance while preserving the capabilities of a pretrained motion tracker. As an interface-level module, ILA can be directly plugged into different pretrained motion trackers without retraining either the adapter or the tracking policies. ILA is trained entirely in simulation to predict reference corrections induced by physical interaction. We evaluate ILA with three humanoid motion trackers and achieve a 63.6--75.4% reduction in guidance-target error compared with their original policies. Matched simulation studies and hardware experiments further show that ILA improves responsiveness to human guidance while preserving nominal motion-tracking performance. These results demonstrate compliant guidance as a reusable, sensor-free extension to pretrained humanoid motion trackers.",
+    "categories": [
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Humanoid"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2611.14981",
+    "title": "From a Single RGB Image to Robot Execution: Metric Scene Alignment and Contact-Guided Retargeting",
+    "paper_url": "https://arxiv.org/abs/2611.14981",
+    "project_url": null,
+    "repository_url": null,
+    "comments": "8 pages, 6 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:11.364909+00:00",
+    "authors": [
+      "Zhenxuan Ding",
+      "Yu Huang",
+      "Xinmiao Wang",
+      "Chenghao Sun",
+      "Ziyang Dong",
+      "Wenhao Cui"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-11",
+    "abstract": "Extending humanoid interaction generation to new environments remains limited by the need for prebuilt 3D scene assets. Reconstructing scenes directly from single RGB images offers a way to overcome this limitation, but introduces a key challenge in maintaining geometric consistency throughout motion generation and transfer. Visually plausible human motions may be misaligned with the reconstructed scene, while retargeting can introduce additional support errors due to differences between human and robot embodiments.   We present a unified pipeline that transforms a single RGB image into a humanoid motion reference. It reconstructs scene geometry from the input image, generates a human interaction conditioned on the reconstructed scene, and retargets the motion to a humanoid robot. To maintain geometric consistency throughout this process, we incorporate two complementary refinement stages before and after embodiment transfer. Before retargeting, Joint Metric Interaction Refinement (JMIR) refines human motion alignment with the registered metric scene while preserving the generated interaction structure. Following retargeting, Contact Guided Residual Retargeting (CGRR) corrects robot specific support errors to restore the intended support relationships. Together, these stages produce motion references that are consistent with the reconstructed scene and can be followed by multiple pretrained humanoid trackers without scene specific policy fine tuning. Compared with GRAIL, our method reduces refinement time from 480 s to 87 s, yielding a speedup of 5.5 times. The complete pipeline achieves a success rate of 89% in simulation and 70% across 50 physical trials on the Unitree G1, demonstrating its effectiveness in generating executable humanoid motion references from single RGB images.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2611.14049",
     "title": "RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control",
     "paper_url": "https://arxiv.org/abs/2611.14049",
-    "project_url": null,
+    "project_url": "https://xiaopeng-whu.github.io/RedirectMimic/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "9 pages, 4 figures, 4 tables. Project page: https://xiaopeng-whu.github.io/RedirectMimic/",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:11.740154+00:00",
     "authors": [
       "Zepeng Wang",
       "Xiaochuan Shi"
@@ -36,10 +199,12 @@
     "paper_url": "https://arxiv.org/abs/2611.13929",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:11.820620+00:00",
     "authors": [
       "Xianghui Wang",
       "Aoran Fu",
@@ -74,12 +239,14 @@
     "arxiv_id": "2611.13370",
     "title": "AHEADance: Anticipatory Humanoid Dance from Streaming Audio",
     "paper_url": "https://arxiv.org/abs/2611.13370",
-    "project_url": null,
+    "project_url": "https://ihcr.github.io/AHEADance/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:11.896687+00:00",
     "authors": [
       "Tianhu Peng",
       "Yukun Wang",
@@ -107,12 +274,15 @@
     "arxiv_id": "2611.12136",
     "title": "LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data",
     "paper_url": "https://arxiv.org/abs/2611.12136",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://robbyant-research.github.io/LHNav/",
+    "repository_url": "https://github.com/robbyant-research/LHNav",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "No implementation files detected (documentation/assets only); review required",
+      "Publication/project page: coming soon Code"
+    ],
+    "code_checked_at": "2026-11-13T03:28:12.246164+00:00",
     "authors": [
       "Xueyang Wang",
       "Zehong Shen",
@@ -153,10 +323,12 @@
     "paper_url": "https://arxiv.org/abs/2611.11854",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:13.250840+00:00",
     "authors": [
       "Bingzhang Wang",
       "Nathan Zhao",
@@ -190,10 +362,12 @@
     "paper_url": "https://arxiv.org/abs/2611.11665",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:13.285281+00:00",
     "authors": [
       "Ziwon Yoon",
       "Seok Hwan Kim",
@@ -225,12 +399,15 @@
     "arxiv_id": "2611.11554",
     "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
     "paper_url": "https://arxiv.org/abs/2611.11554",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://kimodo-policy.github.io/",
+    "repository_url": "https://github.com/kimodo-policy/kimodo-policy",
+    "comments": "23 pages, 14 figures, 4 tables. Project page: https://kimodo-policy.github.io/",
+    "code_status": "partial",
+    "code_evidence": [
+      "README: Training & Evaluation (Coming Soon",
+      "Detected 1172 source files"
+    ],
+    "code_checked_at": "2026-11-13T03:28:13.318703+00:00",
     "authors": [
       "Yunheng Wang",
       "Jiaxi Zhang",
@@ -278,10 +455,12 @@
     "paper_url": "https://arxiv.org/abs/2611.11127",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "19 pages, 12 figures. Four supplementary videos are linked in the manuscript [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:14.460998+00:00",
     "authors": [
       "Hesham Shehata"
     ],
@@ -312,12 +491,14 @@
     "arxiv_id": "2611.10872",
     "title": "DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies",
     "paper_url": "https://arxiv.org/abs/2611.10872",
-    "project_url": null,
+    "project_url": "https://ember-center-berkeley.github.io/DreamVLA/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Accepted to CoRL 2026 workshops G2A: From Generative Models to Robot Actions and Open Problems in Contact-Rich Loco-Manipulation",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:14.720847+00:00",
     "authors": [
       "Kevin Park",
       "Izat Rasyad",
@@ -358,10 +539,12 @@
     "paper_url": "https://arxiv.org/abs/2611.10137",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:14.838973+00:00",
     "authors": [
       "Yutian Chen",
       "Shibo Zhao",
@@ -400,12 +583,14 @@
     "arxiv_id": "2611.09605",
     "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
     "paper_url": "https://arxiv.org/abs/2611.09605",
-    "project_url": null,
+    "project_url": "https://robbyant-research.github.io/DKWBC/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "9 pages, 6 figures, 4 tables",
+    "code_status": "unknown",
+    "code_evidence": [
+      "Multiple repository candidates require review: https://github.com/robbyant-research/DKWBC, https://github.com/nv-tlabs/ardy"
+    ],
+    "code_checked_at": "2026-11-13T03:28:14.880057+00:00",
     "authors": [
       "Dingkun Wei",
       "Zehong Shen",
@@ -441,12 +626,14 @@
     "arxiv_id": "2611.09266",
     "title": "SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References",
     "paper_url": "https://arxiv.org/abs/2611.09266",
-    "project_url": null,
+    "project_url": "https://tianshuwu.github.io/sugarv2-humanoid/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "11 pages, 6 figures. Project page: https://tianshuwu.github.io/sugarv2-humanoid/",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "Publication/project page: Code (Coming Soon"
+    ],
+    "code_checked_at": "2026-11-13T03:28:14.953816+00:00",
     "authors": [
       "Tianshu Wu",
       "Tianxiang Gui",
@@ -489,10 +676,12 @@
     "paper_url": "https://arxiv.org/abs/2611.08857",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.039928+00:00",
     "authors": [
       "Nico Bohlinger",
       "Jan Peters"
@@ -520,12 +709,14 @@
     "arxiv_id": "2611.08664",
     "title": "ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing",
     "paper_url": "https://arxiv.org/abs/2611.08664",
-    "project_url": null,
+    "project_url": "https://roboforpc.github.io/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "14 pages, 7 figures, 4 tables. Project website: https://roboforpc.github.io/. Corresponding author: Cheng Cheng",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "Publication/project page: Code Coming soon"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.086646+00:00",
     "authors": [
       "ZhenYu Zou",
       "Xing Liu",
@@ -562,12 +753,14 @@
     "arxiv_id": "2611.08407",
     "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
     "paper_url": "https://arxiv.org/abs/2611.08407",
-    "project_url": null,
+    "project_url": "https://von31.github.io/social-humanoid/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "CoRL 2026, Project page: https://von31.github.io/social-humanoid/",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.162406+00:00",
     "authors": [
       "Vongani H. Maluleke",
       "James Ni",
@@ -605,10 +798,12 @@
     "paper_url": "https://arxiv.org/abs/2611.08097",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.275586+00:00",
     "authors": [
       "Youhao Lyu",
       "Chenghao Sun",
@@ -639,10 +834,12 @@
     "paper_url": "https://arxiv.org/abs/2611.08056",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.307444+00:00",
     "authors": [
       "Chenghao Sun",
       "Youhao Lyu",
@@ -675,12 +872,15 @@
     "arxiv_id": "2611.08039",
     "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
     "paper_url": "https://arxiv.org/abs/2611.08039",
-    "project_url": null,
+    "project_url": "https://hitch.axell.top/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Project Page: https://hitch.axell.top/",
+    "code_status": "unknown",
+    "code_evidence": [
+      "Project page has insufficient readable content; may require JavaScript",
+      "Link discovery incomplete; absence of code cannot be confirmed"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.345476+00:00",
     "authors": [
       "Qingzhou Lu",
       "Chenxin Liu",
@@ -716,10 +916,12 @@
     "paper_url": "https://arxiv.org/abs/2611.07712",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.480114+00:00",
     "authors": [
       "Nikita Kuzmin",
       "Georgii Demianchuk",
@@ -752,10 +954,12 @@
     "paper_url": "https://arxiv.org/abs/2611.07679",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "24 pages, 12 figures, 11 tables. Accepted to the CoRL 2026 Workshop on R2RL: Roadmap to Sample-Efficient Real-World Reinforcement Learning [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.526715+00:00",
     "authors": [
       "Yunwan Fu",
       "Sicheng He",
@@ -791,10 +995,12 @@
     "paper_url": "https://arxiv.org/abs/2611.07560",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "10 pages, 6 figures, 5 tables [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.575045+00:00",
     "authors": [
       "Pengxin Zha",
       "Yi Lu",
@@ -825,12 +1031,14 @@
     "arxiv_id": "2611.06908",
     "title": "Perceptive Humanoid Motion from Simulation",
     "paper_url": "https://arxiv.org/abs/2611.06908",
-    "project_url": null,
+    "project_url": "https://apple-aiml-research.github.io/ml-halo/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Code and videos at: https://apple-aiml-research.github.io/ml-halo/",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.633625+00:00",
     "authors": [
       "Siyuan Hu",
       "Abulikemu Abuduweili",
@@ -869,10 +1077,12 @@
     "paper_url": "https://arxiv.org/abs/2611.06564",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:15.714326+00:00",
     "authors": [
       "Haoyu Shao",
       "Yunshen Wang",
@@ -912,10 +1122,12 @@
     "paper_url": "https://arxiv.org/abs/2611.05585",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Author-corrected version of the article published in IEEE Robotics and Automation Letters, vol. 10, no. 11, pp. 11674-11681, November 2025. Typos corrected in Eqs. (7)-(8), with minor textual clarifications. Implementation and results unchanged [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:17.565184+00:00",
     "authors": [
       "Roberto Mauceri",
       "Stefano Dafarra",
@@ -948,12 +1160,14 @@
     "arxiv_id": "2611.05507",
     "title": "Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation",
     "paper_url": "https://arxiv.org/abs/2611.05507",
-    "project_url": null,
+    "project_url": "https://forcectrl.github.io/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Project page:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "Publication/project page: Code  coming soon"
+    ],
+    "code_checked_at": "2026-11-13T03:28:17.859043+00:00",
     "authors": [
       "Mengjie Zhao",
       "Yuxin Chen",
@@ -989,12 +1203,14 @@
     "arxiv_id": "2611.05113",
     "title": "HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors",
     "paper_url": "https://arxiv.org/abs/2611.05113",
-    "project_url": null,
+    "project_url": "https://www.youtube.com/watch?v=viR_ULnRDQQ&feature=youtu.be",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Accepted at the Conference on Robot Learning (CoRL 2026). Video:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:17.961572+00:00",
     "authors": [
       "Jean-Pierre Sleiman",
       "Bilal Hammoud",
@@ -1027,12 +1243,14 @@
     "arxiv_id": "2611.04839",
     "title": "Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight",
     "paper_url": "https://arxiv.org/abs/2611.04839",
-    "project_url": null,
+    "project_url": "https://ju6276.github.io/Action-Grounded-Foresight/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "10 pages, including supplementary material [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "Publication/project page: Code Coming soon"
+    ],
+    "code_checked_at": "2026-11-13T03:28:18.630919+00:00",
     "authors": [
       "Ju Dong",
       "Xinyu Xiao",
@@ -1075,12 +1293,14 @@
     "arxiv_id": "2611.04424",
     "title": "ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control",
     "paper_url": "https://arxiv.org/abs/2611.04424",
-    "project_url": null,
+    "project_url": "https://minusmodulo.github.io/reflexarc-website/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "8 pages, 6 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "Publication/project page: Code Coming soon"
+    ],
+    "code_checked_at": "2026-11-13T03:28:19.039319+00:00",
     "authors": [
       "Mingyu Wang",
       "Si Li",
@@ -1114,12 +1334,14 @@
     "arxiv_id": "2611.04334",
     "title": "RAIPAL: A Powerful and Agile Humanoid Arm for Human Tasks",
     "paper_url": "https://arxiv.org/abs/2611.04334",
-    "project_url": null,
+    "project_url": "https://www.youtube.com/watch?v=xVUWFICD5G0&feature=youtu.be",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Published in IEEE Robotics and Automation Letters (RA-L), 2026. Supplementary video:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:19.179051+00:00",
     "authors": [
       "Donggeon Kim",
       "Hyungho Chris Choi",
@@ -1152,10 +1374,12 @@
     "paper_url": "https://arxiv.org/abs/2611.04255",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:20.095297+00:00",
     "authors": [
       "Han Zhang",
       "Sicheng Lu",
@@ -1189,10 +1413,12 @@
     "paper_url": "https://arxiv.org/abs/2611.04204",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:20.147533+00:00",
     "authors": [
       "Xiang Li",
       "Linlin Ou",
@@ -1229,10 +1455,12 @@
     "paper_url": "https://arxiv.org/abs/2611.02968",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:20.191128+00:00",
     "authors": [
       "Zhongkai Gu",
       "Yang Liu",
@@ -1264,10 +1492,12 @@
     "paper_url": "https://arxiv.org/abs/2611.02871",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:20.442570+00:00",
     "authors": [
       "Hao Zhu",
       "Jorge Peña-Queralta"
@@ -1298,12 +1528,15 @@
     "arxiv_id": "2611.02613",
     "title": "MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking",
     "paper_url": "https://arxiv.org/abs/2611.02613",
-    "project_url": null,
+    "project_url": "https://mapo-corl2026.github.io/MAPO/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "21 pages [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "unknown",
+    "code_evidence": [
+      "Project page has insufficient readable content; may require JavaScript",
+      "Link discovery incomplete; absence of code cannot be confirmed"
+    ],
+    "code_checked_at": "2026-11-13T03:28:20.479060+00:00",
     "authors": [
       "Seonghyeon Lim",
       "Hyeonwoo Lee",
@@ -1334,10 +1567,12 @@
     "paper_url": "https://arxiv.org/abs/2611.02517",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "The 2nd International Workshop on Trust and Blame in Multi-Person Multi-Agent Societies (TBSA_2nd) in conjunction with HAI 2026, 4 pages, 5 figures, 3 tables [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:20.656727+00:00",
     "authors": [
       "Daigo Suhara",
       "Tomoko Yonezawa"
@@ -1365,10 +1600,12 @@
     "paper_url": "https://arxiv.org/abs/2611.01748",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "12 pages, 8 figures, 5 tables [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:20.922618+00:00",
     "authors": [
       "Haoyang Li",
       "Keqi Zhu",
@@ -1400,12 +1637,15 @@
     "arxiv_id": "2611.01659",
     "title": "HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception",
     "paper_url": "https://arxiv.org/abs/2611.01659",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://xuanbinpeng.com/hug/",
+    "repository_url": "https://github.com/openrobokit/graspkit",
+    "comments": "CoRL 2026. Project page:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 296 source files; examples: projects/hug/scripts/real/calibration/g1_calibration.py, projects/hug/scripts/real/calibration/teach_arm_qpos.py, projects/hug/scripts/real/check_camera.py, projects/hug/scripts/real/check_hand.py, projects/hug/scripts/real/grasp.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-13T03:28:20.960417+00:00",
     "authors": [
       "Xuanbin Peng",
       "Lai Wei",
@@ -1428,7 +1668,7 @@
       "Manipulation"
     ],
     "real_robot": false,
-    "open_source": false,
+    "open_source": true,
     "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
@@ -1439,10 +1679,12 @@
     "paper_url": "https://arxiv.org/abs/2611.01197",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Submitted to the 2027 IEEE International Conference on Robotics and Automation (ICRA 2027) [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:22.385804+00:00",
     "authors": [
       "Feng Tian",
       "Yulin An",
@@ -1476,10 +1718,12 @@
     "paper_url": "https://arxiv.org/abs/2611.00951",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "8 pages, 3 figures, 2 tables. Preprint [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:22.701147+00:00",
     "authors": [
       "Haizhou Ge",
       "Mengshuo Wang",
@@ -1512,10 +1756,12 @@
     "paper_url": "https://arxiv.org/abs/2611.00193",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:22.971539+00:00",
     "authors": [
       "Archon Robotics",
       " :",
@@ -1572,12 +1818,14 @@
     "arxiv_id": "2610.42097",
     "title": "ROOF: Learning Humanoid Fall Recovery under Overhead Constraints",
     "paper_url": "https://arxiv.org/abs/2610.42097",
-    "project_url": null,
+    "project_url": "https://lu-yidan.github.io/ROOF/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "8 pages, 4 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:23.239466+00:00",
     "authors": [
       "Yidan Lu",
       "Jiayuan Yu",
@@ -1614,10 +1862,12 @@
     "paper_url": "https://arxiv.org/abs/2610.42053",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "32 pages, 14 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:23.435737+00:00",
     "authors": [
       "Pengfei Zhou",
       "Yixing Ma",
@@ -1650,12 +1900,15 @@
     "arxiv_id": "2610.41877",
     "title": "Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos",
     "paper_url": "https://arxiv.org/abs/2610.41877",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://movens-zero.github.io/",
+    "repository_url": "https://github.com/wendell0218/Movens-Zero",
+    "comments": "Technical report. 86 pages, 31 figures, 15 tables. Project page:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 63 source files; examples: evaluation/common.py, evaluation/download_assets.py, evaluation/generate.py, evaluation/metrics.py, evaluation/prepare.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-13T03:28:23.710003+00:00",
     "authors": [
       "Wendong Bu",
       "Tinghong Ye",
@@ -1696,7 +1949,7 @@
       "Locomotion"
     ],
     "real_robot": false,
-    "open_source": false,
+    "open_source": true,
     "platform": null,
     "summary": "",
     "primary_category": "Locomotion"
@@ -1707,10 +1960,12 @@
     "paper_url": "https://arxiv.org/abs/2610.41654",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "26 pages, 7 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:24.533862+00:00",
     "authors": [
       "Weyl Lu",
       "Yubei Chen"
@@ -1745,12 +2000,14 @@
     "arxiv_id": "2610.41334",
     "title": "HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure",
     "paper_url": "https://arxiv.org/abs/2610.41334",
-    "project_url": null,
+    "project_url": "https://hipc-humanoid.github.io/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Website:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "Publication/project page: Code (coming soon"
+    ],
+    "code_checked_at": "2026-11-13T03:28:24.567306+00:00",
     "authors": [
       "Yi Han",
       "Xingyu Chen",
@@ -1791,12 +2048,14 @@
     "arxiv_id": "2610.41354",
     "title": "DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
     "paper_url": "https://arxiv.org/abs/2610.41354",
-    "project_url": null,
+    "project_url": "https://diffwbc.github.io/#selfassess",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:24.705173+00:00",
     "authors": [
       "Yifei Huang",
       "Yazhao Yang",
@@ -1836,10 +2095,12 @@
     "paper_url": "https://arxiv.org/abs/2610.41349",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:24.812934+00:00",
     "authors": [
       "Pengyu Zhu",
       "Heye Wang",
@@ -1872,10 +2133,12 @@
     "paper_url": "https://arxiv.org/abs/2610.40003",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:24.846066+00:00",
     "authors": [
       "Aoqian Zhang",
       "Chunzheng Wang",
@@ -1907,12 +2170,15 @@
     "arxiv_id": "2610.39327",
     "title": "SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU",
     "paper_url": "https://arxiv.org/abs/2610.39327",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://kyry.me/sonic-k1/",
+    "repository_url": "https://github.com/Kyk0/sonic-k1",
+    "comments": "4 pages, 3 figures. Project page:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 1405 source files; examples: check_environment.py, decoupled_wbc/control/base/env.py, decoupled_wbc/control/base/humanoid_env.py, decoupled_wbc/control/base/policy.py, decoupled_wbc/control/base/sensor.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-13T03:28:25.065531+00:00",
     "authors": [
       "Kyrylo Kolesnichenko",
       "Irvin Steve Cardenas",
@@ -1931,7 +2197,7 @@
       "Simulation Benchmark"
     ],
     "real_robot": false,
-    "open_source": false,
+    "open_source": true,
     "platform": "Booster",
     "summary": "",
     "primary_category": "Simulation Benchmark"
@@ -1942,10 +2208,12 @@
     "paper_url": "https://arxiv.org/abs/2610.39044",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:26.216964+00:00",
     "authors": [
       "Arth Shukla",
       "Kehlani Fay",
@@ -1978,12 +2246,14 @@
     "arxiv_id": "2610.38027",
     "title": "METATRON: A Promptable Whole-Body Execution Layer for Humanoids",
     "paper_url": "https://arxiv.org/abs/2610.38027",
-    "project_url": null,
+    "project_url": "https://research.nvidia.com/labs/par/projects/metatron/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Project page:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:26.249300+00:00",
     "authors": [
       "Chen Tessler",
       "Yifeng Jiang",
@@ -2020,10 +2290,12 @@
     "paper_url": "https://arxiv.org/abs/2610.37974",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "8 pages, 6 figures. Accepted to the 2026 IEEE-RAS 25th International Conference on Humanoid Robots (Humanoids) [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:26.477166+00:00",
     "authors": [
       "Adrian B. Ghansah",
       "Yujin An",
@@ -2054,10 +2326,12 @@
     "paper_url": "https://arxiv.org/abs/2610.37801",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Submitted to ICRA2027 under process [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-13T03:28:26.514611+00:00",
     "authors": [
       "MinJun Chang"
     ],

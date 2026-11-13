@@ -1231,14 +1231,14 @@
   ],
   "code_audit": {
     "status_counts": {
-      "unverified": 303,
-      "no_repository": 65,
-      "not_found": 315,
-      "available": 174,
-      "coming_soon": 19,
-      "unknown": 43,
-      "empty": 7,
-      "partial": 12
+      "not_found": 347,
+      "available": 178,
+      "no_repository": 75,
+      "coming_soon": 26,
+      "partial": 13,
+      "unknown": 46,
+      "unverified": 250,
+      "empty": 7
     },
     "status_labels": {
       "unverified": "Unverified / 未核验",
@@ -1250,541 +1250,703 @@
       "available": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
       "unknown": "Needs review / 访问失败或证据不足"
     },
-    "checked_count": 635,
-    "unverified_count": 303,
-    "needs_review_count": 43,
+    "checked_count": 692,
+    "unverified_count": 250,
+    "needs_review_count": 46,
     "method": "arXiv metadata and Comments; project page; GitHub README and file tree, with public HTML, blobless Git tree and bounded archive fallbacks when API access fails",
     "policy": "Source-file detection does not establish completeness, reproducibility or license compliance. Legacy links are unverified until inspected.",
     "papers": [
       {
-        "arxiv_id": "2611.14049",
-        "title": "RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control",
+        "arxiv_id": "2611.15117",
+        "title": "PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:10.125969+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
+      },
+      {
+        "arxiv_id": "2611.15112",
+        "title": "Elastra: A Simulation Framework for Elastic Bodies",
+        "project_url": null,
+        "repository_url": "https://github.com/yichg/elastra",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-13T03:28:10.186501+00:00",
+        "evidence": [
+          "Detected 27 source files; examples: src/elastra/assets.py, src/elastra/config.py, src/elastra/evaluation.py, src/elastra/figures.py, src/elastra/host.py",
+          "Completeness, dependencies, training assets and reproducibility have not been verified"
+        ]
+      },
+      {
+        "arxiv_id": "2611.14985",
+        "title": "ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking",
+        "project_url": null,
+        "repository_url": null,
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:11.311718+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
+      },
+      {
+        "arxiv_id": "2611.14981",
+        "title": "From a Single RGB Image to Robot Execution: Metric Scene Alignment and Contact-Guided Retargeting",
+        "project_url": null,
+        "repository_url": null,
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:11.364909+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
+      },
+      {
+        "arxiv_id": "2611.14049",
+        "title": "RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control",
+        "project_url": "https://xiaopeng-whu.github.io/RedirectMimic/",
+        "repository_url": null,
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T03:28:11.740154+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.13929",
         "title": "ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:11.820620+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.13370",
         "title": "AHEADance: Anticipatory Humanoid Dance from Streaming Audio",
-        "project_url": null,
+        "project_url": "https://ihcr.github.io/AHEADance/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T03:28:11.896687+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.12136",
         "title": "LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data",
-        "project_url": null,
-        "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "project_url": "https://robbyant-research.github.io/LHNav/",
+        "repository_url": "https://github.com/robbyant-research/LHNav",
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-13T03:28:12.246164+00:00",
+        "evidence": [
+          "No implementation files detected (documentation/assets only); review required",
+          "Publication/project page: coming soon Code"
+        ]
       },
       {
         "arxiv_id": "2611.11854",
         "title": "Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:13.250840+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.11665",
         "title": "HINT-VLM: Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:13.285281+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.11554",
         "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
-        "project_url": null,
-        "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "project_url": "https://kimodo-policy.github.io/",
+        "repository_url": "https://github.com/kimodo-policy/kimodo-policy",
+        "status": "partial",
+        "status_label": "Partial release / 部分代码或资源待发布",
+        "checked_at": "2026-11-13T03:28:13.318703+00:00",
+        "evidence": [
+          "README: Training & Evaluation (Coming Soon",
+          "Detected 1172 source files"
+        ]
       },
       {
         "arxiv_id": "2611.11127",
         "title": "From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:14.460998+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.10872",
         "title": "DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies",
-        "project_url": null,
+        "project_url": "https://ember-center-berkeley.github.io/DreamVLA/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T03:28:14.720847+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.10137",
         "title": "A Unified Inertial Encoder for Human and Humanoid Motion",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:14.838973+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.09605",
         "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
-        "project_url": null,
+        "project_url": "https://robbyant-research.github.io/DKWBC/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "unknown",
+        "status_label": "Needs review / 访问失败或证据不足",
+        "checked_at": "2026-11-13T03:28:14.880057+00:00",
+        "evidence": [
+          "Multiple repository candidates require review: https://github.com/robbyant-research/DKWBC, https://github.com/nv-tlabs/ardy"
+        ]
       },
       {
         "arxiv_id": "2611.09266",
         "title": "SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References",
-        "project_url": null,
+        "project_url": "https://tianshuwu.github.io/sugarv2-humanoid/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-13T03:28:14.953816+00:00",
+        "evidence": [
+          "Publication/project page: Code (Coming Soon"
+        ]
       },
       {
         "arxiv_id": "2611.08857",
         "title": "STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:15.039928+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.08664",
         "title": "ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing",
-        "project_url": null,
+        "project_url": "https://roboforpc.github.io/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-13T03:28:15.086646+00:00",
+        "evidence": [
+          "Publication/project page: Code Coming soon"
+        ]
       },
       {
         "arxiv_id": "2611.08407",
         "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
-        "project_url": null,
+        "project_url": "https://von31.github.io/social-humanoid/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T03:28:15.162406+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.08097",
         "title": "STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:15.275586+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.08056",
         "title": "Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:15.307444+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.08039",
         "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
-        "project_url": null,
+        "project_url": "https://hitch.axell.top/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "unknown",
+        "status_label": "Needs review / 访问失败或证据不足",
+        "checked_at": "2026-11-13T03:28:15.345476+00:00",
+        "evidence": [
+          "Project page has insufficient readable content; may require JavaScript",
+          "Link discovery incomplete; absence of code cannot be confirmed"
+        ]
       },
       {
         "arxiv_id": "2611.07712",
         "title": "AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:15.480114+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.07679",
         "title": "PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:15.526715+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.07560",
         "title": "Whole-Body Elasto-Geometrical Calibration of Wheeled Humanoid Robots Using a Shared-Waist Dual-Chain Model",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:15.575045+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.06908",
         "title": "Perceptive Humanoid Motion from Simulation",
-        "project_url": null,
+        "project_url": "https://apple-aiml-research.github.io/ml-halo/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T03:28:15.633625+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.06564",
         "title": "Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:15.714326+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.05585",
         "title": "Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:17.565184+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.05507",
         "title": "Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation",
-        "project_url": null,
+        "project_url": "https://forcectrl.github.io/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-13T03:28:17.859043+00:00",
+        "evidence": [
+          "Publication/project page: Code  coming soon"
+        ]
       },
       {
         "arxiv_id": "2611.05113",
         "title": "HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors",
-        "project_url": null,
+        "project_url": "https://www.youtube.com/watch?v=viR_ULnRDQQ&feature=youtu.be",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T03:28:17.961572+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.04839",
         "title": "Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight",
-        "project_url": null,
+        "project_url": "https://ju6276.github.io/Action-Grounded-Foresight/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-13T03:28:18.630919+00:00",
+        "evidence": [
+          "Publication/project page: Code Coming soon"
+        ]
       },
       {
         "arxiv_id": "2611.04424",
         "title": "ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control",
-        "project_url": null,
+        "project_url": "https://minusmodulo.github.io/reflexarc-website/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-13T03:28:19.039319+00:00",
+        "evidence": [
+          "Publication/project page: Code Coming soon"
+        ]
       },
       {
         "arxiv_id": "2611.04334",
         "title": "RAIPAL: A Powerful and Agile Humanoid Arm for Human Tasks",
-        "project_url": null,
+        "project_url": "https://www.youtube.com/watch?v=xVUWFICD5G0&feature=youtu.be",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T03:28:19.179051+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.04255",
         "title": "ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:20.095297+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.04204",
         "title": "Online iLQR-MPC with Whole-Body Control for Robust Humanoid Locomotion",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:20.147533+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.02968",
         "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:20.191128+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.02871",
         "title": "ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:20.442570+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.02613",
         "title": "MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking",
-        "project_url": null,
+        "project_url": "https://mapo-corl2026.github.io/MAPO/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "unknown",
+        "status_label": "Needs review / 访问失败或证据不足",
+        "checked_at": "2026-11-13T03:28:20.479060+00:00",
+        "evidence": [
+          "Project page has insufficient readable content; may require JavaScript",
+          "Link discovery incomplete; absence of code cannot be confirmed"
+        ]
       },
       {
         "arxiv_id": "2611.02517",
         "title": "A Study on the Effects of Finger Movements on a Humanoid Hugging Robot",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:20.656727+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.01748",
         "title": "CompliantBot: Learning Whole-Body Compliance across Task Interfaces for Humanoid Control",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:20.922618+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.01659",
         "title": "HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception",
-        "project_url": null,
-        "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "project_url": "https://xuanbinpeng.com/hug/",
+        "repository_url": "https://github.com/openrobokit/graspkit",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-13T03:28:20.960417+00:00",
+        "evidence": [
+          "Detected 296 source files; examples: projects/hug/scripts/real/calibration/g1_calibration.py, projects/hug/scripts/real/calibration/teach_arm_qpos.py, projects/hug/scripts/real/check_camera.py, projects/hug/scripts/real/check_hand.py, projects/hug/scripts/real/grasp.py",
+          "Completeness, dependencies, training assets and reproducibility have not been verified"
+        ]
       },
       {
         "arxiv_id": "2611.01197",
         "title": "Learning Agile Humanoid Dodgeball with Onboard Monocular Vision",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:22.385804+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.00951",
         "title": "Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:22.701147+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2611.00193",
         "title": "Anchor 1: Precise and Stable Humanoid Control for Whole-Body Manipulation",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:22.971539+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.42097",
         "title": "ROOF: Learning Humanoid Fall Recovery under Overhead Constraints",
-        "project_url": null,
+        "project_url": "https://lu-yidan.github.io/ROOF/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T03:28:23.239466+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.42053",
         "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:23.435737+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.41877",
         "title": "Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos",
-        "project_url": null,
-        "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "project_url": "https://movens-zero.github.io/",
+        "repository_url": "https://github.com/wendell0218/Movens-Zero",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-13T03:28:23.710003+00:00",
+        "evidence": [
+          "Detected 63 source files; examples: evaluation/common.py, evaluation/download_assets.py, evaluation/generate.py, evaluation/metrics.py, evaluation/prepare.py",
+          "Completeness, dependencies, training assets and reproducibility have not been verified"
+        ]
       },
       {
         "arxiv_id": "2610.41654",
         "title": "$\\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:24.533862+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.41334",
         "title": "HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure",
-        "project_url": null,
+        "project_url": "https://hipc-humanoid.github.io/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-13T03:28:24.567306+00:00",
+        "evidence": [
+          "Publication/project page: Code (coming soon"
+        ]
       },
       {
         "arxiv_id": "2610.41354",
         "title": "DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
-        "project_url": null,
+        "project_url": "https://diffwbc.github.io/#selfassess",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T03:28:24.705173+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.41349",
         "title": "Geometry-Aware Humanoid Retargeting via Manifold ODEs",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:24.812934+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.40003",
         "title": "Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:24.846066+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.39327",
         "title": "SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU",
-        "project_url": null,
-        "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "project_url": "https://kyry.me/sonic-k1/",
+        "repository_url": "https://github.com/Kyk0/sonic-k1",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-13T03:28:25.065531+00:00",
+        "evidence": [
+          "Detected 1405 source files; examples: check_environment.py, decoupled_wbc/control/base/env.py, decoupled_wbc/control/base/humanoid_env.py, decoupled_wbc/control/base/policy.py, decoupled_wbc/control/base/sensor.py",
+          "Completeness, dependencies, training assets and reproducibility have not been verified"
+        ]
       },
       {
         "arxiv_id": "2610.39044",
         "title": "Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:26.216964+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.38027",
         "title": "METATRON: A Promptable Whole-Body Execution Layer for Humanoids",
-        "project_url": null,
+        "project_url": "https://research.nvidia.com/labs/par/projects/metatron/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T03:28:26.249300+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.37974",
         "title": "FORGE: Feasible Online Reduced-Order Reference Generation and Whole-Body Execution for Agile Humanoid Locomotion",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:26.477166+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.37801",
         "title": "An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T03:28:26.514611+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.37330",
