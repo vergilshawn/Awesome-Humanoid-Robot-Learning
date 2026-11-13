@@ -1,9 +1,12 @@
 # Navigation
 
-**22 papers** in this category.
+**28 papers** in this category.
 
 ## Months
 
+- [2026-11](/navigation/2026-11) (3 papers)
+- [2026-10](/navigation/2026-10) (2 papers)
+- [2026-09](/navigation/2026-09) (1 papers)
 - [2026-07](/navigation/2026-07) (1 papers)
 - [2026-06](/navigation/2026-06) (1 papers)
 - [2026-05](/navigation/2026-05) (2 papers)
@@ -24,6 +27,125 @@
 ---
 
 ## Recent Papers
+
+## LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.12136)
+- **Code status:** Unverified / 未核验
+- **Authors:** Xueyang Wang, Zehong Shen, Dingkun Wei, Huaijin Pi, Changpeng Wang, Xing Zhu et al. (9 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Navigation
+  - Zero-Shot
+  - Humanoid
+  - Task Planning
+  - Collision
+  - GAN
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We study humanoid navigation across multiple destinations under long-horizon language instructions. This task is challenging because robots must maintain progress across successive goals while continuously producing natural, stable whole-body motion through confined spaces.
+
+---
+
+## HINT-VLM: Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11665)
+- **Code status:** Unverified / 未核验
+- **Authors:** Ziwon Yoon, Seok Hwan Kim, Yiyu Chen, Quan Nguyen, Lu Gan, Ye Zhao
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Vision-Language
+
+### Summary
+
+Humanoid robots have achieved significant progress in locomotion and manipulation, enabling traversal over rough terrain and richer interaction with the environment, such as moving obstacles. However, most traditional navigation methods assume non-interactive environments and focus only on traversal.
+
+---
+
+## ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04255)
+- **Code status:** Unverified / 未核验
+- **Authors:** Han Zhang, Sicheng Lu, Aleks Santari, Jeffrey K. Jopling, Masaru Ishii, Mathias Unberath
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Large Language Model
+
+### Summary
+
+Operating rooms (ORs) increasingly contain ambient sensing infrastructure to enable AI-based optimization of workflows and utilization. We pursue an alternative path: using ambient AI to guide robot action and optimize utilization.
+
+---
+
+## LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.17232)
+- **Code status:** Unverified / 未核验
+- **Authors:** Shubham S. Kumbhar, Panagiotis Artemiadis
+- **Published:** 2026-10
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Robustness
+  - Humanoid
+  - Footstep Planning
+
+### Summary
+
+Navigating humanoid robots through dynamic, non-convex environments requires tightly coupling onboard perception with footstep planning and dynamic locomotion control. Existing methods frequently discard complex free space through simplified convex obstacle bounds and fail to account for real-time dynamic occupancy predictions.
+
+---
+
+## TAPNAV: Humanoid Navigation through Tactile Active Perception
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.10748)
+- **Code status:** Unverified / 未核验
+- **Authors:** Huaze Liu, Zhenyu Wu, Jaehwi Jang, Junjie Sheng, Andrew Collins, Aaron Xie et al. (11 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Navigation
+  - State Estimation
+  - Humanoid
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Navigation in vision-denied environments is challenging for humanoid robots because proprioceptive odometry drifts and localization uncertainty accumulates rapidly. We present TAPNAV, a tactile active-perception framework that enables humanoid navigation toward a goal by actively probing surrounding structures without relying on vision.
+
+---
+
+## Learning Safe Humanoid Navigation from Reduced Order Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.19272)
+- **Code status:** Unverified / 未核验
+- **Authors:** William D. Compton, Zachary Olkin, Ryan Bena, Aaron D. Ames
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Navigation
+  - Safety
+  - Humanoid
+
+### Summary
+
+Research in humanoid robotics has achieved rapid progress in locomotion, and recent results have pushed the boundary on autonomous navigation. We demonstrate that a standard single-stage RL navigation pipeline struggles to scale to multi-level and multi-story terrain, limited by the difficulty of complex humanoid terrain interactions such as stairs.
+
+---
 
 ## RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC
 
@@ -388,151 +510,5 @@ The ability to predict collision-free future trajectories from egocentric observ
 ### Summary
 
 Traditional control and planning for robotic manipulation heavily rely on precise physical models and predefined action sequences. While effective in structured environments, such approaches often fail in real-world scenarios due to modeling inaccuracies and struggle to generalize to novel tasks.
-
----
-
-## Hand-Eye Autonomous Delivery: Learning Humanoid Navigation, Locomotion and Reaching
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.03068)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-08
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Humanoid
-
-### Summary
-
-We propose Hand-Eye Autonomous Delivery (HEAD), a framework that learns navigation, locomotion, and reaching skills for humanoids, directly from human motion and vision perception data. We take a modular approach where the high-level planner commands the target position and orientation of the hands and eyes of the humanoid, delivered by the low-level policy that controls the whole-body movements.
-
----
-
-## Humanoid Occupancy: Enabling A Generalized Multimodal Occupancy Perception System on Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2507.20217)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-07
-- **Tags:**
-  - Humanoid
-  - Navigation
-
-### Summary
-
-Humanoid robot technology is advancing rapidly, with manufacturers introducing diverse heterogeneous visual perception modules tailored to specific scenarios. Among various perception paradigms, occupancy-based representation has become widely recognized as particularly suitable for humanoid robots, as it provides both rich semantic and 3D geometric information essential for comprehensive environmental understanding.
-
----
-
-## RL with Data Bootstrapping for Dynamic Subgoal Pursuit in Humanoid Robot Navigation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.02206)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-06
-- **Tags:**
-  - Navigation
-  - Humanoid
-
-### Summary
-
-Safe and real-time navigation is fundamental for humanoid robot applications. However, existing bipedal robot navigation frameworks often struggle to balance computational efficiency with the precision required for stable locomotion.
-
----
-
-## 🌟 NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.08712)
-- **Project:** [Project page](https://wzcai99.github.io/navigation-diffusion-policy.github.io)
-- **Repository:** [Code](https://github.com/wzcai99/NavDP)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/InternRobotics/NavDP
-- Implementation examples: eval_imagegoal_wheeled.py, eval_nogoal_wheeled.py, eval_pointgoal_wheeled.py, eval_startgoal_wheeled.py, teleop_imagegoal_wheeled.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Published:** 2025-05
-- **Tags:**
-  - Diffusion Policy
-  - Sim-to-Real
-  - Navigation
-  - Diffusion
-
-### Summary
-
-Learning to navigate in dynamic and complex open-world environments is a critical yet challenging capability for autonomous robots. Existing approaches often rely on cascaded modular frameworks, which require extensive hyperparameter tuning or learning from limited real-world demonstration data.
-
----
-
-## HumanoidPano: Hybrid Spherical Panoramic-LiDAR Cross-Modal Perception for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2503.09010)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-03
-- **Tags:**
-  - Humanoid
-  - Navigation
-
-### Summary
-
-The perceptual system design for humanoid robots poses unique challenges due to inherent structural constraints that cause severe self-occlusion and limited field-of-view (FOV). We present HumanoidPano, a novel hybrid cross-modal perception framework that synergistically integrates panoramic vision and LiDAR sensing to overcome these limitations.
-
----
-
-## NaVILA: Legged Robot Vision-Language-Action Model for Navigation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2412.04453)
-- **Project:** [Project page](https://navila-bot.github.io/)
-- **Code status:** Needs review / 访问失败或证据不足
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Multiple repository candidates require review: https://github.com/AnjieCheng/NaVILA, https://github.com/yang-zj1026/legged-loco
-
-</details>
-
-- **Published:** 2024-12
-- **Tags:**
-  - Navigation
-  - Vision-Language
-
-### Summary
-
-This paper proposes to solve the problem of Vision-and-Language Navigation with legged robots, which not only provides a flexible way for humans to command but also allows the robot to navigate through more challenging and cluttered scenes. However, it is non-trivial to translate human language instructions all the way to low-level leg joint actions.
 
 ---

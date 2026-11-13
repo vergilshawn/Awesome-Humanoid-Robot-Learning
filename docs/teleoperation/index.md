@@ -1,9 +1,12 @@
 # Teleoperation
 
-**25 papers** in this category.
+**47 papers** in this category.
 
 ## Months
 
+- [2026-11](/teleoperation/2026-11) (1 papers)
+- [2026-10](/teleoperation/2026-10) (14 papers)
+- [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
 - [2026-07](/teleoperation/2026-07) (2 papers)
 - [2026-06](/teleoperation/2026-06) (2 papers)
@@ -24,109 +27,187 @@
 
 ## Recent Papers
 
-## Teleopit: A Full-Embodiment Humanoid Teleoperation System
+## AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.01834)
-- **Project:** [Project page](https://botrunner64.github.io/teleopit-page)
-- **Code status:** Needs review / 访问失败或证据不足
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Multiple repository candidates require review: https://github.com/BotRunner64/Teleopit, https://github.com/BotRunner64/somehand, https://github.com/BotRunner64/pico-bridge, https://github.com/BotRunner64/OpenNeck, https://github.com/BotRunner64/lerobot-teleopit
-
-</details>
-
-- **Authors:** Bingqian Wu, Zicheng Xu, Xianghui Fan, Dayu Li, Xiangru Huang
-- **Published:** 2026-08
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.07712)
+- **Code status:** Unverified / 未核验
+- **Authors:** Nikita Kuzmin, Georgii Demianchuk, Mariya Lezina, Yara Mahmoud, Iana Zhura, Miguel Altamirano Cabrera et al. (7 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
   - Teleoperation
-  - Locomotion
+  - Humanoid
+  - Vision-Language
+
+### Summary
+
+Social touch interactions, such as handshakes, fist bumps, and hugs, require humanoid robots to infer human intent, generate contact-rich motions, and maintain safe physical contact. We present AffectiveVLA, an intent-gated Vision-Language-Action (VLA) pipeline deployed on a Unitree G1 humanoid with dexterous hands.
+
+---
+
+## ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.32966)
+- **Code status:** Unverified / 未核验
+- **Authors:** Zimo He, Tianyi Bian, Zizhong Yang, Hongjie Li, Nan Jiang, Jieming Cui et al. (10 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Pre-training
+  - Diffusion
+
+### Summary
+
+Learning humanoid control from monocular human videos offers a scalable way to acquire diverse whole-body behaviors. Yet, existing reconstruction-retargeting-tracking pipelines are limited in system-level scalability by separately optimized intermediate stages and cannot directly optimize reference motion executability using downstream tracking feedback.
+
+---
+
+## HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29903)
+- **Code status:** Unverified / 未核验
+- **Authors:** Liu Cao, Botian Xu, Ruoqu Chen, Jiajun Liu, Mingzhi Pei, Zihao Wang et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
   - Manipulation
   - Humanoid
   - Optimization-Based
+  - Loco-Manipulation and Whole-Body Control
 
 ### Summary
 
-Humanoid teleoperation for demonstration collection requires coordinated whole-body motion, continuous dexterous hand control, and viewpoint control. Existing systems either simplify hand commands or depend on dedicated wearable sensors for fine-grained hand motion.
+Real-time whole-body humanoid teleoperation remains challenging due to the computational latency introduced by optimization-based retargeting pipelines and future-frame conditioning. Existing motion tracking policies typically require dense reference targets including full joint positions, body-part transformations, and even future frames, which tightly couples the controller to expensive upstream modules.
 
 ---
 
-## Event-Based Upper-Body Humanoid Teleoperation Under Challenging Illumination
+## SMR: Learning streaming motion retargeting for humanoids from human semantic
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.29227)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.29169)
+- **Code status:** Unverified / 未核验
+- **Authors:** Chun Gu, Juntong Zhang, Jingyu Li, Li Zhang
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Motion Retargeting
+  - Transformer
+  - Humanoid
+  - Optimization-Based
+  - Teleoperation
+  - Loco-Manipulation and Whole-Body Control
 
-<details><summary>Code verification details / 核验依据</summary>
+### Summary
 
-- No repository link found in inspected publication/project content
+Retargeting human motion to humanoids requires preserving motion semantics while accounting for the robot's physical constraints. Kinematic pipelines prescribe a robot trajectory through geometric matching, without establishing whether it can be executed under the robot's dynamics.
 
-</details>
+---
 
-- **Authors:** Haoyu Fu, Zhou Ge, Chengze Li, Chenzhao Sun, Ze Cui, Wenjing Zhou et al. (7 authors)
-- **Published:** 2026-07
+## Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28712)
+- **Code status:** Unverified / 未核验
+- **Authors:** Keigo Minamida, Koya Dendo, Yuto Nakamura, Jun Rekimoto
+- **Published:** 2026-10
 - **Tags:**
   - Teleoperation
   - Humanoid
-  - PPO
+  - Navigation
 
 ### Summary
 
-We present a real-time upper-body human-to-humanoid motion imitation framework driven by neuromorphic event-based vision. This work addresses practical perceptual bottlenecks of conventional frame-based RGB sensors, specifically their difficulty in high dynamic range (HDR) scenes and rapid motions due to fixed integration times.
+First-person humanoid teleoperation ties access to side and rear targets to operator rotation. We present coupled visual--motor remapping, pairing a panoramic azimuth warp with its inverse upper-limb yaw transform.
 
 ---
 
-## HEFT: Heavy-Payload Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum
+## Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.02332)
-- **Project:** [Project page](https://heft.axell.top/)
-- **Code status:** Needs review / 访问失败或证据不足
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Project page has insufficient readable content; may require JavaScript
-- Link discovery incomplete; absence of code cannot be confirmed
-
-</details>
-
-- **Authors:** Chenxin Liu, Qingzhou Lu, Guangxiao Yang, Xuanyang Shi, Chenghan Yang, Yanjiang Guo et al. (7 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Teleoperation
-  - Locomotion
-  - Humanoid
-
-### Summary
-
-General motion tracking and teleoperation offer a promising path to scalable humanoid skill acquisition, yet most existing frameworks are validated on compact platforms or without real payload interaction, leaving full-size humanoids with real payloads largely unexplored. Scaling to full-size humanoids introduces two compounding challenges: their larger inertia and tighter balance margins make tracking highly sensitive to noise, drift, and retargeting errors from commodity VR trackers, while their payload potential remains largely underutilized.
-
----
-
-## 🌟 LadderMan: Learning Humanoid Perceptive Ladder Climbing
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.05873)
-- **Project:** [Project page](https://ladderman-robot.github.io)
-- **Repository:** [Code](https://github.com/amazon-far/LadderMan)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/amazon-far/LadderMan
-- Implementation examples: active_adaptation/envs/base.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Authors:** Siheng Zhao, Yuanhang Zhang, Ziqi Lu, Pieter Abbeel, Rocky Duan, Koushil Sreenath et al. (9 authors)
-- **Published:** 2026-06
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.28470)
+- **Code status:** Unverified / 未核验
+- **Authors:** Daniel Marew, Sangjun Park, Nisal Perera, Donghyun Kim
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
   - Reinforcement Learning
   - Sim-to-Real
+  - Motion Retargeting
+  - Humanoid
+  - Trajectory Optimization
+  - Collision
+  - Dataset
+  - Teleoperation
+
+### Summary
+
+While large-scale human motion capture datasets provide a rich source of demonstrations for humanoid robot learning, retargeting the diverse motions to different humanoid robots remains a nontrivial challenge. Existing kinodynamic trajectory optimization pipelines are computationally expensive and often require manual adjustments per motion.
+
+---
+
+## Evaluating Lightweight Contact Feedback in Dual-Operator Collaborative Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24257)
+- **Code status:** Unverified / 未核验
+- **Authors:** Austin Graves, Chuizheng Kong, Yunho Cho, Yuanshao Yang, Advaith Nidumukkala, Shreyas Kousik et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
   - Teleoperation
   - Manipulation
+  - Humanoid
+
+### Summary
+
+Dual-operator humanoid teleoperation enables collaborative manipulation through two separate robots, but operators lack direct awareness of robot-object contact that is normally available during physical interaction. To address this, we present eXtended Reality Teleoperation (XRT), an extended reality teleoperation framework that returns a robot's fingertip contact through lightweight vibrotactile and/or auditory feedback, and a synchronized dual-humanoid testbed built on it for two operators.
+
+---
+
+## Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.22176)
+- **Code status:** Unverified / 未核验
+- **Authors:** James Foster, Beomyeong Park, Luigi Penco, Robert Griffin
+- **Published:** 2026-10
+- **Tags:**
+  - MPC
+  - Teleoperation
+  - Humanoid
+  - Parameter Estimation
+  - State Estimation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+The effective deployment of humanoid robots in practical tasks of interest will require a capability of sensing and adapting to variations in inertial parameters, as occurs during heavy tool use or when carrying significant payload. Such payloads constitute a significant proportion of the combined payload-robot system, the effects of which cannot be ignored by delegating to feedback control.
+
+---
+
+## Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.16855)
+- **Code status:** Unverified / 未核验
+- **Authors:** Chao Tan, Ming Shin Cindy Sung, Shuxian Liang, Chaoqun Wan, Zhen Huang, Xian-Sheng Hua
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Manipulation
+
+### Summary
+
+Real-time bimanual humanoid teleoperation requires accurate wrist tracking while keeping arm configurations predictable. Because a 7-DoF arm admits multiple elbow configurations for the same wrist pose, wrist-only tracking can cause elbow drift or abrupt configuration changes.
+
+---
+
+## P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.15833)
+- **Code status:** Unverified / 未核验
+- **Authors:** Xue Wang, Yitang Li, Yiming Zhang, Siqin Wang, Junhan Sun, Zhihao Liu et al. (10 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Teleoperation
   - Zero-Shot
   - Humanoid
   - Foundation Model
@@ -134,405 +215,205 @@ General motion tracking and teleoperation offer a promising path to scalable hum
 
 ### Summary
 
-Humanoid robots hold great promise for operating in human-centered environments, yet ladder climbing remains one of the most challenging tasks due to sparse footholds and handholds, complex whole-body coordination, and sensitivity to perception and control errors. We present \textbf{LadderMan}, a unified system that enables humanoid robots to robustly climb diverse ladders and perform manipulation under such constrained conditions.
+Behavioral foundation models (BFMs) provide humanoids with reusable repertoires of whole-body behaviors; in real-world humanoid control, the same behavioral intent may require fundamentally different motions under different terrain constraints. Covering such variation with terrain-matched demonstrations requires enumerating a combinatorial space of behaviors and terrain geometries.
 
 ---
 
-## Human2Humanoid: Physics-Aware Cross-Morphology Motion Retargeting for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.03476)
-- **Project:** [Project page](https://huangtc233.github.io/human2humanoid_website/)
-- **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Publication/project page: Code (Coming Soon
-
-</details>
-
-- **Authors:** Tianchen Huang, Feiyang Yuan, Junchi Gu, Shurui Fang, Xiaohu Zhang, Yu Wang et al. (8 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Imitation Learning
-  - Teleoperation
-  - Motion Retargeting
-  - Humanoid
-  - GAN
-
-### Summary
-
-Retargeting human motion to humanoid robots is critical for teleoperation, imitation learning and human-robot interaction. However, it remains challenging because of substantial morphological discrepancies between humans and robots, including differences in skeletal topology, limb proportions and degrees of freedom, as well as the scarcity of paired motion data.
-
----
-
-## Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.12347)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Hamza Ahmed Durrani, Suleman Khan
-- **Published:** 2026-05
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Sim-to-Real
-  - Teleoperation
-  - MuJoCo
-  - Humanoid
-  - Walking
-  - Human Motion Analysis and Synthesis
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Stable, low-latency whole-body teleoperation of humanoid robots is an open research challenge, complicated by kinematic mismatches between human and robot morphologies, accumulated inertial sensor noise, non-trivial control latency, and persistent sim-to-real transfer gaps. This paper presents a complete real-time whole-body teleoperation system that maps human motion, recorded with a Virdyn IMU-based full-body motion capture suit, directly onto a Unitree G1 humanoid robot.
-
----
-
-## CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.15060)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Long-horizon whole-body humanoid teleoperation remains challenging due to accumulated global pose drift, particularly on full-sized humanoids. Although recent learning-based tracking methods enable agile and coordinated motions, they typically operate in the robot's local frame and neglect global pose feedback, leading to drift and instability during extended execution.
-
----
-
-## 🌟 ExtremControl: Low-Latency Humanoid Teleoperation with Direct Extremity Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.11321)
-- **Project:** [Project page](https://extremcontrol.github.io/)
-- **Repository:** [Code](https://github.com/UMass-Embodied-AGI/Genesis-Humanoid)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/UMass-Embodied-AGI/Genesis-Humanoid
-- Detected 86 implementation files; examples: deploy/g1_motion.py, deploy/g1_teleop.py, deploy/g1_visualize.py, deploy/impedance_real.py, deploy/impedance_sim.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Building a low-latency humanoid teleoperation system is essential for collecting diverse reactive and dynamic demonstrations. However, end-to-end latencies in existing approaches consistently hover around 200ms, roughly equal to human reaction time, that severely limits responsiveness and prevents tasks requiring rapid feedback.
-
----
-
-## TeleGate: Whole-Body Humanoid Teleoperation via Gated Expert Selection with Motion Prior
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.09628)
-- **Project:** [Project page](https://anywitresearch.github.io/TeleGate/)
-- **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Real-time whole-body teleoperation is a critical method for humanoid robots to perform complex tasks in unstructured environments. However, developing a unified controller that robustly supports diverse human motions remains a significant challenge.
-
----
-
-## A Closed-Form Geometric Retargeting Solver for Upper Body Humanoid Robot Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.01632)
-- **Project:** [Project page](https://sew-mimic.com/)
-- **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2026-02
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Retargeting human motion to robot poses is a practical approach for teleoperating bimanual humanoid robot arms, but existing methods can be suboptimal and slow, often causing undesirable motion or latency. This is due to optimizing to match robot end-effector to human hand position and orientation, which can also limit the robot's workspace to that of the human.
-
----
-
-## Learning Adaptive Neural Teleoperation for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2511.12390)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-11
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Virtual reality (VR) teleoperation has emerged as a promising approach for controlling humanoid robots in complex manipulation tasks. However, traditional teleoperation systems rely on inverse kinematics (IK) solvers and hand-tuned PD controllers, which struggle to handle external forces, adapt to different users, and produce natural motions under dynamic conditions.
-
----
-
-## Development of an Intuitive GUI for Non-Expert Teleoperation of Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.13594)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-10
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-The operation of humanoid robotics is an essential field of research with many practical and competitive applications. Many of these systems, however, do not invest heavily in developing a non-expert-centered graphical user interface (GUI) for operation.
-
----
-
-## Stability-Aware Retargeting for Humanoid Multi-Contact Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.04353)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-10
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Teleoperation is a powerful method to generate reference motions and enable humanoid robots to perform a broad range of tasks. However, teleoperation becomes challenging when using hand contacts and non-coplanar surfaces, often leading to motor torque saturation or loss of stability through slipping.
-
----
-
-## LapSurgie: Humanoid Robots Performing Surgery via Teleoperated Handheld Laparoscopy
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.03529)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-10
-- **Tags:**
-  - Humanoid
-  - Teleoperation
-
-### Summary
-
-Robotic laparoscopic surgery has gained increasing attention in recent years for its potential to deliver more efficient and precise minimally invasive procedures. However, adoption of surgical robotic platforms remains largely confined to high-resource medical centers, exacerbating healthcare disparities in rural and low-resource regions.
-
----
-
-## Whole-Body Bilateral Teleoperation with Multi-Stage Object Parameter Estimation for Wheeled Humanoid Locomanipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.09846)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-08
+## VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.13079)
+- **Code status:** Unverified / 未核验
+- **Authors:** Dvij Kalaria, Bike Zhang, S. Shankar Sastry
+- **Published:** 2026-10
 - **Tags:**
   - Teleoperation
   - Manipulation
   - Humanoid
-  - Parameter Estimation
+  - Collision
 
 ### Summary
 
-This paper presents an object-aware whole-body bilateral teleoperation framework for wheeled humanoid loco-manipulation. This framework combines whole-body bilateral teleoperation with an online multi-stage object inertial parameter estimation module, which is the core technical contribution of this work.
+Third-person human videos offer a scalable alternative to task-specific reward engineering, teleoperation, and manually scripted demonstrations for humanoid loco-manipulation. Recent video-to-humanoid systems have shown that noisy human motion, object trajectories, and contacts can be extracted from unstructured videos and refined into deployable skills.
 
 ---
 
-## 🌟 CHILD: a Whole-Body Humanoid Teleoperation System
+## PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.00162)
-- **Project:** [Project page](https://uiuckimlab.github.io/CHILD-pages)
-- **Repository:** [Code](https://github.com/uiuckimlab/CHILD)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.12642)
+- **Code status:** Unverified / 未核验
+- **Authors:** Nicholas Ioannidis, Dun Yang, Max Smith, Tue Vu, Ziyu Zhang, Shayegan Omidshafiei et al. (7 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Motion Retargeting
+  - Manipulation
+  - Humanoid
+  - Dataset
+  - Teleoperation
 
-<details><summary>Code verification details / 核验依据</summary>
+### Summary
 
-- Inspected public GitHub page: https://github.com/uiuckimlab/CHILD
-- Implementation examples: hw_interface/teleop_leaders/include/feedback_controller/feedback_controller.hpp
-- Completeness and reproducibility have not been verified
+Motion retargeting is a critical preprocessing step for transferring human motion data to humanoid robots. While existing methods are effective for single-character motions, interactions involving multiple characters and objects introduce additional contacts and spatial relationships that must be preserved.
 
-</details>
+---
 
-- **Published:** 2025-08
+## From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08381)
+- **Code status:** Unverified / 未核验
+- **Authors:** Jiyeon Koo, Eunseom Pyo, Jeonghee Seo, Taehwa Kim, Andrew Jaeyong Choi
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Motion Retargeting
+  - Humanoid
+  - Walking
+  - Teleoperation
+  - Human Motion Analysis and Synthesis
+  - Locomotion
+
+### Summary
+
+Human video offers a scalable source of robot demonstrations, yet most human-to-humanoid retargeting methods assume a legged robot with human-like kinematics. This assumption does not hold for mobile-base humanoids equipped with a wheeled base, vertical lift, and two arms.
+
+---
+
+## AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.08119)
+- **Code status:** Unverified / 未核验
+- **Authors:** Sergei Kurchev, Iaroslav Kolomiets, Miguel Altamirano Cabrera, Artem Lykov, Dzmitry Tsetserukou
+- **Published:** 2026-10
 - **Tags:**
   - Teleoperation
+  - Humanoid
+  - Inverse Kinematics
+  - Fine-tuning
+  - Distillation
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+World-action models (WAMs) such as Cosmos 3 jointly generate future video and robot actions from an observation and instruction. Adapting one such model with a lightweight LoRA fine-tune to a previously unseen robot, a Unitree G1 humanoid with five-fingered BrainCo hands, exposes a video-action asymmetry: the video renders plausible task executions, while the co-generated action is systematically mis-targeted.
+
+---
+
+## Beyond Retargeting: Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07891)
+- **Code status:** Unverified / 未核验
+- **Authors:** Xiayan Xu, Jiyu Yu, Xingzhou Chen, Siyi Qian, Zongyu Ma, Lilu Liu et al. (8 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Teleoperation
+  - Motion Retargeting
+  - Robustness
+  - Humanoid
+  - Loco-Manipulation and Whole-Body Control
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid whole-body teleoperation translates human motion into stable robot behavior in real time. Existing systems typically rely on online motion retargeting to bridge human--robot morphological differences, but this process adds latency and can produce physically infeasible targets.
+
+---
+
+## Toward Humanoid Robots in Construction: A Teleoperation Feasibility Study
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.00718)
+- **Code status:** Unverified / 未核验
+- **Authors:** Parastoo Ali Pour, David R. Martin, Chang Min Hur, Bo Zhang, Tommy Zhou, Brandon Thomas Lichter et al. (9 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
   - Humanoid
 
 ### Summary
 
-Recent advances in teleoperation have demonstrated robots performing complex manipulation tasks. However, existing works rarely support whole-body joint-level teleoperation for humanoid robots, limiting the diversity of tasks that can be accomplished.
+We present a teleoperation system that enables a single operator to perform construction tasks on a Unitree G1 humanoid, combining extended reality (XR) based upper body control with pedal-based locomotion to enable simultaneous manipulation and locomotion. Motivated by persistent labor shortages, hazardous working conditions, and challenges in humanoid autonomy, we investigate teleoperation as a practical near-term approach for reducing physical strain on workers while generating high quality demonstration data.
 
 ---
 
-## CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks
+## GAE: General Action Expert for Real-Time Humanoid Teleoperation
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.08931)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-06
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.34233)
+- **Code status:** Unverified / 未核验
+- **Authors:** Yuefan Wang, Huaicheng Zhou, Xiao He, Zhijie He, Mingchuan Yang, Huayi Zhang et al. (9 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
 - **Tags:**
   - Teleoperation
+  - Domain Randomization
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+  - Human Motion Analysis and Synthesis
+
+### Summary
+
+Humanoid avatars extend human physical presence beyond the body, enabling people to participate in social, service, and labor activities through remotely operated robots. This requires teleoperation systems capable of realizing diverse and dynamic whole-body behaviors while maintaining responsive human-robot synchronization.
+
+---
+
+## Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.18763)
+- **Code status:** Unverified / 未核验
+- **Authors:** Ruiming Wu, Shuang Li, Liding Zhang, Alois Knoll, Zhaopeng Chen
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Proprioception
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+  - Manipulation
+  - State Estimation
+  - Simulation Benchmark
+
+### Summary
+
+Whole-body humanoid teleoperation commonly combines a motion-tracking policy with a separate dexterous-hand retargeter. However, independently generated commands do not explicitly preserve body-hand geometric relations, leading to mismatches in relative wrist poses and fingertip positions during bimanual interaction.
+
+---
+
+## PGMT: Perceptive General Motion Tracking for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.08511)
+- **Code status:** Unverified / 未核验
+- **Authors:** Hongyi Li, Li Peizhuo, Yucheng Tao, Ze Wang, Fangzhou Xu, Jinyi Chen et al. (12 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Zero-Shot
+  - Humanoid
+  - PPO
+
+### Summary
+
+Humanoid motion trackers can reproduce diverse whole-body motions, but their performance degrades on complex terrain where terrain-agnostic references become physically infeasible. We present PGMT, a Perceptive General Motion Tracking pipeline for humanoid robots that learns terrain adaptation from independently selected motion references and terrains.
+
+---
+
+## SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07933)
+- **Code status:** Unverified / 未核验
+- **Authors:** Lixing Fang, Ziyan Xiong, Sunli Chen, Zhiyang Dou, Chuang Gan
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
   - Humanoid
 
 ### Summary
 
-Humanoid teleoperation plays a vital role in demonstrating and collecting data for complex humanoid-scene interactions. However, current teleoperation systems face critical limitations: they decouple upper- and lower-body control to maintain stability, restricting natural coordination, and operate open-loop without real-time position feedback, leading to accumulated drift.
-
----
-
-## Heavy lifting tasks via haptic teleoperation of a wheeled humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.19530)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-05
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-
-### Summary
-
-Humanoid robots can support human workers in physically demanding environments by performing tasks that require whole-body coordination, such as lifting and transporting heavy objects.These tasks, which we refer to as Dynamic Mobile Manipulation (DMM), require the simultaneous control of locomotion, manipulation, and posture under dynamic interaction forces. This paper presents a teleoperation framework for DMM on a height-adjustable wheeled humanoid robot for carrying heavy payloads.
-
----
-
-## 🌟 TeleOpBench: A Simulator-Centric Benchmark for Dual-Arm Dexterous Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.12748)
-- **Project:** [Project page](https://gorgeous2002.github.io/TeleOpBench/)
-- **Repository:** [Code](https://github.com/cyjdlhy/TeleOpBench)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/cyjdlhy/TeleOpBench
-- Detected 61 implementation files; examples: teleop/image_server/image_client.py, teleop/image_server/image_server.py, teleop/image_server/image_server_sim.py, teleop/image_server/real_robot_image_server.py, teleop/lcm_glove/glove.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Published:** 2025-05
-- **Tags:**
-  - Teleoperation
-  - Simulator
-  - Benchmark
-
-### Summary
-
-Teleoperation is a cornerstone of embodied-robot learning, and bimanual dexterous teleoperation in particular provides rich demonstrations that are difficult to obtain with fully autonomous systems. While recent studies have proposed diverse hardware pipelines-ranging from inertial motion-capture gloves to exoskeletons and vision-based interfaces-there is still no unified benchmark that enables fair, reproducible comparison of these systems.
-
----
-
-## Human-Robot Collaboration for the Remote Control of Mobile Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2505.05773)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-05
-- **Tags:**
-  - Humanoid
-  - Teleoperation
-
-### Summary
-
-Recently, many humanoid robots have been increasingly deployed in various facilities, including hospitals and assisted living environments, where they are often remotely controlled by human operators. Their kinematic redundancy enhances reachability and manipulability, enabling them to navigate complex, cluttered environments and perform a wide range of tasks.
+High-quality demonstration data is becoming a central bottleneck for training general-purpose humanoid robots. While recent humanoid teleoperation systems have made substantial progress in retargeting human motion to robot motion, long-horizon loco-manipulation requires another capability: operators must maintain task-relevant spatial awareness over time, e.g., object locations, surrounding environments, the robot's pose.
 
 ---

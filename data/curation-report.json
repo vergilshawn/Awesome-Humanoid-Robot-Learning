@@ -1,6 +1,6 @@
 {
-  "input_count": 839,
-  "kept_count": 635,
+  "input_count": 1142,
+  "kept_count": 938,
   "removed_count": 204,
   "human_reviewed_exclusions": 34,
   "removed": [
@@ -1231,6 +1231,7 @@
   ],
   "code_audit": {
     "status_counts": {
+      "unverified": 303,
       "no_repository": 65,
       "not_found": 315,
       "available": 174,
@@ -1250,11 +1251,3031 @@
       "unknown": "Needs review / 访问失败或证据不足"
     },
     "checked_count": 635,
-    "unverified_count": 0,
+    "unverified_count": 303,
     "needs_review_count": 43,
     "method": "arXiv metadata and Comments; project page; GitHub README and file tree, with public HTML, blobless Git tree and bounded archive fallbacks when API access fails",
     "policy": "Source-file detection does not establish completeness, reproducibility or license compliance. Legacy links are unverified until inspected.",
     "papers": [
+      {
+        "arxiv_id": "2611.14049",
+        "title": "RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.13929",
+        "title": "ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.13370",
+        "title": "AHEADance: Anticipatory Humanoid Dance from Streaming Audio",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.12136",
+        "title": "LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.11854",
+        "title": "Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.11665",
+        "title": "HINT-VLM: Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.11554",
+        "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.11127",
+        "title": "From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.10872",
+        "title": "DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.10137",
+        "title": "A Unified Inertial Encoder for Human and Humanoid Motion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.09605",
+        "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.09266",
+        "title": "SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.08857",
+        "title": "STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.08664",
+        "title": "ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.08407",
+        "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.08097",
+        "title": "STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.08056",
+        "title": "Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.08039",
+        "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.07712",
+        "title": "AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.07679",
+        "title": "PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.07560",
+        "title": "Whole-Body Elasto-Geometrical Calibration of Wheeled Humanoid Robots Using a Shared-Waist Dual-Chain Model",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.06908",
+        "title": "Perceptive Humanoid Motion from Simulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.06564",
+        "title": "Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.05585",
+        "title": "Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.05507",
+        "title": "Ctrl-F: Force as an Interface for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.05113",
+        "title": "HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.04839",
+        "title": "Coordinating Humanoid Loco-Manipulation through Action-Conditioned Latent Foresight",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.04424",
+        "title": "ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.04334",
+        "title": "RAIPAL: A Powerful and Agile Humanoid Arm for Human Tasks",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.04255",
+        "title": "ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.04204",
+        "title": "Online iLQR-MPC with Whole-Body Control for Robust Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.02968",
+        "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.02871",
+        "title": "ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.02613",
+        "title": "MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.02517",
+        "title": "A Study on the Effects of Finger Movements on a Humanoid Hugging Robot",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.01748",
+        "title": "CompliantBot: Learning Whole-Body Compliance across Task Interfaces for Humanoid Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.01659",
+        "title": "HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.01197",
+        "title": "Learning Agile Humanoid Dodgeball with Onboard Monocular Vision",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.00951",
+        "title": "Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2611.00193",
+        "title": "Anchor 1: Precise and Stable Humanoid Control for Whole-Body Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.42097",
+        "title": "ROOF: Learning Humanoid Fall Recovery under Overhead Constraints",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.42053",
+        "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.41877",
+        "title": "Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.41654",
+        "title": "$\\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.41334",
+        "title": "HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.41354",
+        "title": "DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.41349",
+        "title": "Geometry-Aware Humanoid Retargeting via Manifold ODEs",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.40003",
+        "title": "Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.39327",
+        "title": "SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.39044",
+        "title": "Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.38027",
+        "title": "METATRON: A Promptable Whole-Body Execution Layer for Humanoids",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.37974",
+        "title": "FORGE: Feasible Online Reduced-Order Reference Generation and Whole-Body Execution for Agile Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.37801",
+        "title": "An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.37330",
+        "title": "Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.36615",
+        "title": "HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.36825",
+        "title": "HC2Robot: Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.36789",
+        "title": "A fully articulated humanoid dexterous hand with human-level joint structure enabled by linkage-based actuation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.36546",
+        "title": "REACH: An RL-based Hierarchical Humanoid Crawling Framework for Adaptable Confined Space Traversal",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.36507",
+        "title": "GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.36452",
+        "title": "Whole-Body Humanoid Control via Stochastic Motion Tokenization",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.36270",
+        "title": "Learning Multi-Phase Robot Loco-Manipulation via Phase-Conditioned Policy Optimization",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.35862",
+        "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.35075",
+        "title": "Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.34740",
+        "title": "Networked Humanoid Intelligence: Communication, Coordination, Collaboration, and Social Interaction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.34370",
+        "title": "ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.34186",
+        "title": "HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.34126",
+        "title": "HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.33508",
+        "title": "MimicAll: Structured Embodiment Conditioning for Cross-Humanoid Whole-Body Motion Tracking",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.33446",
+        "title": "MOTIO: Agentic Skill Engineering for Reality-Grounded Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.33317",
+        "title": "Active Reachability Learning for Humanoid Recoverability Monitoring",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.33172",
+        "title": "RAIWAY: A Large-Wheeled Bipedal Robot with Contact-Informed Blind Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.32966",
+        "title": "ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.32909",
+        "title": "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.32460",
+        "title": "CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.32277",
+        "title": "Delay Randomization Widens the Delay Margin of Learned Humanoid Motion Trackers",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.31923",
+        "title": "Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.31608",
+        "title": "Humanoid Mobility via Attention-based Contacts",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.31166",
+        "title": "Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.30876",
+        "title": "LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.30540",
+        "title": "Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.30334",
+        "title": "MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.30080",
+        "title": "Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.30061",
+        "title": "Test-Time Motion Steering for Perceptive Humanoid Fall Recovery",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.30044",
+        "title": "SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.29903",
+        "title": "HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.29612",
+        "title": "Watch Your Step: Anticipated Perception for Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.29030",
+        "title": "PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.29169",
+        "title": "SMR: Learning streaming motion retargeting for humanoids from human semantic",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.28948",
+        "title": "COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.28925",
+        "title": "One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.28712",
+        "title": "Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.28523",
+        "title": "VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.28480",
+        "title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.28470",
+        "title": "Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.27688",
+        "title": "Adaptive Traversal Tubes for Posture-Aware Navigation of Bipedal Humanoids",
+        "project_url": "http://github.com/lborogzj997/Humanoid-Navigation-in-Crowds-and-Narrow-Spaces",
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.27242",
+        "title": "EmbodyHOI: Embodiment-Aware Generation of Hand-Object Interactions for Humanoid Dexterous Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.27162",
+        "title": "Visual Task Modeling and Automated Planning for Humanoid Robots in Education of Individuals with Autism Spectrum Disorder",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.26855",
+        "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+        "project_url": "https://github.com/Ropedia/ropedia-w0",
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.26584",
+        "title": "HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.26170",
+        "title": "Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.26043",
+        "title": "OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.25711",
+        "title": "SWAP: Test-Time Steerable Humanoid Whole-Body Collision Avoidance",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.25701",
+        "title": "Validation of Human Motor Development Scales with Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.25628",
+        "title": "Humanoid SRL: Augmenting Humanoids with Supernumerary Limbs for Coordinated Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.25288",
+        "title": "Vision as Proprioception: Estimating Humanoid Robot Pose from Video",
+        "project_url": "https://github.com/eth-siplab/HumanoidPose",
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.24847",
+        "title": "DiPLO: Self-distilled Diffusion Planning for Loco-manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.24779",
+        "title": "Learning Structured Locomotion References for Optimization-Based Whole-Body Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.24675",
+        "title": "Action-Aligned Latent Planning for Versatile Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.24559",
+        "title": "SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.24312",
+        "title": "Beyond Human-Derived Motion: Exploring Robot-Specific Execution for Construction Humanoids",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.24257",
+        "title": "Evaluating Lightweight Contact Feedback in Dual-Operator Collaborative Humanoid Teleoperation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.23548",
+        "title": "Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.23288",
+        "title": "CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.23127",
+        "title": "BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.22184",
+        "title": "Whole-Body Dexterity",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.22176",
+        "title": "Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.21515",
+        "title": "TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion",
+        "project_url": "https://github.com/multimodal-perception-action/trace",
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.21152",
+        "title": "KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.20606",
+        "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.20579",
+        "title": "PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.20552",
+        "title": "KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.19393",
+        "title": "Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.18991",
+        "title": "Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.18872",
+        "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.18950",
+        "title": "$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.17999",
+        "title": "TRACE: Efficient Transfer Learning for Neural Whole-Body Control Across Humanoid Embodiments",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.17232",
+        "title": "LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.16604",
+        "title": "Design and Analysis of a Nonlinear Parallel Mechanism Coupling for Dynamic Humanoid Legs",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.16855",
+        "title": "Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.15833",
+        "title": "P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.15274",
+        "title": "Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.15073",
+        "title": "Modeling and Control of a Rigid-soft Hybrid-link Humanoid Robot",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.14896",
+        "title": "Test-Time Compute for Humanoid Behavior Foundation Models",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.14840",
+        "title": "Push the Limit: Learning High-Speed Sprinting and Aggressive Cornering on a Full-Scale Humanoid",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.14561",
+        "title": "From Video to Vision: Learning Generalizable Humanoid Carrying from Human Motion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.14269",
+        "title": "RoboFake: Are Deepfake Detectors Ready for Humanoid Face Robots?",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.14237",
+        "title": "Composable Dynamics for Cooperative Humanoids: A RoboCompiler Extension",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.13572",
+        "title": "ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.13373",
+        "title": "PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.12972",
+        "title": "Adaptive Whole-Body MPC with Optimal Posture Planning for Humanoid Robots under Unknown Payloads",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.13087",
+        "title": "Belief-Overlap Partial Inversion: Object-Centric Flow Replanning for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.13079",
+        "title": "VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.12772",
+        "title": "Reflex: Visually Grounded Reactive Humanoid Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.12642",
+        "title": "PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.12558",
+        "title": "PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.12435",
+        "title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.12432",
+        "title": "FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.12026",
+        "title": "HWAM: Humanoid World Action Model With Joint State--Action Generation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.11505",
+        "title": "DAMP: Humanoid Locomotion via Denoised Belief Learning and Adversarial Motion Priors",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.11283",
+        "title": "Being-M0.7: A Latent World-Action Model for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.10748",
+        "title": "TAPNAV: Humanoid Navigation through Tactile Active Perception",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.10489",
+        "title": "HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.10465",
+        "title": "LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.14067",
+        "title": "From Hitter to Player: Separating Motor Execution and Strategy in Competitive Humanoid Table Tennis",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.10322",
+        "title": "From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.09479",
+        "title": "Precise SE(3) End-Effector Tracking in Whole-Body Humanoid Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.14061",
+        "title": "Terrain Traversal Without Motion Priors: Expert-Routed Humanoid Locomotion at Deployment Fidelity",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.09291",
+        "title": "Co${}^{2}$Skill: Whole-Body Control via Skill Composition for Long-Horizon Human-Environment Interaction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.09117",
+        "title": "Workhorse: Learning Robust Whole-Body Humanoid Loco-Manipulation from Human Data",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.09055",
+        "title": "MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.08970",
+        "title": "HULK: Learning Whole-Body Forceful Loco-Manipulation for Humanoids",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.08737",
+        "title": "PhoneBot: A Low-Cost Open Humanoid Robot Platform Reusing Smartphones",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.08381",
+        "title": "From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.08320",
+        "title": "Humanoid Horizon: Extending Task Horizon in Whole-Body Loco-Manipulation via Parallel Training, Dynamic Starting, and Reward Gating",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.08120",
+        "title": "iGPC: Generative Motion Priors for Object-Aware Humanoid Interaction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.08119",
+        "title": "AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.07891",
+        "title": "Beyond Retargeting: Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.07594",
+        "title": "BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation",
+        "project_url": "https://github.com/swirl-uk/bigym2",
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.07396",
+        "title": "What the Elevation Map Cannot See: Semantic-Aware Locomotion and Execution-Aware Navigation for Humanoid Robot",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.08862",
+        "title": "CIRRA: Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.06850",
+        "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.06153",
+        "title": "Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.07052",
+        "title": "BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.06129",
+        "title": "I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.05678",
+        "title": "Dataset-Free Compliant Humanoid Loco-Manipulation with Dynamic Online Posture",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.05324",
+        "title": "CoDance: Learning Reactive and Compliant Human-Humanoid Interaction from Video",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.04609",
+        "title": "Exploiting Hierarchical Controller Structure in Contextual Parameter Learning for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.04238",
+        "title": "Humanoid Rickshaw Pulling: Whole-Body Locomotion under Coupled Wheeled Loads",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.04231",
+        "title": "Continual Humanoid Motion Learning",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.04529",
+        "title": "TAME:Topology-Aware Text-Driven Motion Editing across Heterogeneous Humanoid Skeletons",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.03388",
+        "title": "KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.03196",
+        "title": "Beyond Reward Hacking: Proxy Divergence Across Four Layers of a Staged Humanoid Learning Pipeline",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.02341",
+        "title": "Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.02196",
+        "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.02089",
+        "title": "HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.01397",
+        "title": "Continue, Abort, or Fall: Viability-Aware Policy Selection (VAPS) for Safe Humanoid Acrobatics",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.00823",
+        "title": "Reactive Humanoid Multi-Contact Using Learned Stability Models",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.00718",
+        "title": "Toward Humanoid Robots in Construction: A Teleoperation Feasibility Study",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2610.00438",
+        "title": "Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.39575",
+        "title": "ECHO-G: Embodied Co-speech Humanoid mOtion Generation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.39403",
+        "title": "IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.39384",
+        "title": "RoboAssist: Interactive Human-Humanoid Planning for Long-Horizon Surgical Assistance",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.39000",
+        "title": "NEXUS: Perceptive Whole-Body Control for Terrain-Adaptive Teleoperation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.38852",
+        "title": "Locomotion-Grounded Humanoid Soccer: Task-Gated Reinforcement Learning of a Multi-Directional Kicking Library",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.38709",
+        "title": "CEER2: Directional and Tunable End-Effector and Root Compliance for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.38400",
+        "title": "GestAdapt: Workspace-Conditioned Co-Speech Gesture Generation for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.38172",
+        "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.38087",
+        "title": "CrossBFM: Distilling a Shared Latent Behavior Space Across Humanoid Embodiments",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.38046",
+        "title": "EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.37677",
+        "title": "Learning Expressive and Compositional Motion Representation via Spectral Skills",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.37181",
+        "title": "EgoHumanoid-V2: Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.36924",
+        "title": "Track-and-Complete: Learning Humanoid Skills from a Single Failed Human Video",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.36575",
+        "title": "EquivDP3: A SIM(3)-Invariant Point-Cloud Encoder for Data-Efficient Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.36151",
+        "title": "KPI: A Promptable Kernel for Physical Interaction on Humanoids",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.35450",
+        "title": "Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.35935",
+        "title": "Passive-Dynamic-Walking-Inspired Dynamics Guidance for Energy-Efficient Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.34782",
+        "title": "CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.34724",
+        "title": "DexWeave: Learning Dexterous Humanoid Loco-Manipulation from Human Demonstrations",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.34233",
+        "title": "GAE: General Action Expert for Real-Time Humanoid Teleoperation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.34199",
+        "title": "WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.33484",
+        "title": "AMBIT: Anticipatory Multimodal Body Recruitment for Bimanual Tracking on a Humanoid",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.33354",
+        "title": "Traceable Human-to-Humanoid Sign Language Benchmarking",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.33311",
+        "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.33310",
+        "title": "CompliantWBC: Whole-Body Compliance for Heavy Humanoids via Force Latent Estimation and Residual Impedance Targets",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.33269",
+        "title": "Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.38216",
+        "title": "Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.33096",
+        "title": "Humanoids for Robot-Assisted Surgery: Bimanual Base Placement and Tool-Mount Optimization via Capability Maps",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.32250",
+        "title": "RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.31840",
+        "title": "Humanoid Badminton: Learning Dynamic Racket Skills from Limited Human Motion Data",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.31577",
+        "title": "Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.30951",
+        "title": "Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.30735",
+        "title": "Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.30594",
+        "title": "HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.30521",
+        "title": "Aerial Manipulation in the Wild with Onboard Perception, Policy Learning, and Whole-Body Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.30506",
+        "title": "Tactile Sensing Array for Multi-Phalanx Sensing in Humanoid Hands",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.30247",
+        "title": "Rolling-WAM: World Action Models with Rolling Imagination",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.29850",
+        "title": "BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.28960",
+        "title": "Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.28959",
+        "title": "TactileStep: Sole Tactile Learning for Regulating Foot-Terrain Interaction in Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.28378",
+        "title": "ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control",
+        "project_url": "https://github.com/Zili1000/ForgetMimic",
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.28175",
+        "title": "DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.27269",
+        "title": "Banana Kick: Response-Informed Skill Evolution for Humanoid Soccer",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.27003",
+        "title": "Learning Expressive Humanoid Locomotion from Monocular Runway Videos for Robot Fashion Shows",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.27001",
+        "title": "Humanoid Locomotion with a Fly-Inspired Recurrent Controller",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.26420",
+        "title": "Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.25754",
+        "title": "PLAT: Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.25674",
+        "title": "Teaching Reinforcement Learning and Humanoid Robotics to High-School Students: An Expert-Validated Curriculum Design on a Low-Cost Open Platform",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.25486",
+        "title": "Brace Yourself: Task-Conditioned Environmental Bracing for Forceful Humanoid Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.25363",
+        "title": "HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.24840",
+        "title": "PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.24742",
+        "title": "LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.24552",
+        "title": "Smoothness as a Constraint for Stable Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.23968",
+        "title": "Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.23666",
+        "title": "UniPoint: Unified Point-Level Sensor Fusion for Humanoid Locomotion Across Challenging Terrains",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.23610",
+        "title": "PRIMO: Prior-Informed Odometry from Human-Motion Tracking for Humanoid Robots",
+        "project_url": "https://github.com/agibot-spatial-intelligence/primo",
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.23483",
+        "title": "STRIDER: Stepping-Enabled Multi-Gait Hierarchical 3D Loco-Manipulation Framework for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.23414",
+        "title": "EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.22829",
+        "title": "Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.22611",
+        "title": "HIGenNTO: Scalable Humanoid Interaction Generation via Noise-Space Trajectory Optimization",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.22538",
+        "title": "FRAMES: Failure Recovery And Monitoring of Embodied Skills for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.22075",
+        "title": "LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.21447",
+        "title": "FootQuery: Future-Touchdown-Guided Retrieval from Depth History for Perceptive Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.21467",
+        "title": "Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.21107",
+        "title": "Learning Scene-Aware Humanoid Locomotion through 3D Clutter from Immersive Human Demonstrations",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.20558",
+        "title": "Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.19582",
+        "title": "OmniCalib: Target-Free, Task-Structured Self-Calibration for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.19340",
+        "title": "ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.19272",
+        "title": "Learning Safe Humanoid Navigation from Reduced Order Models",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.18869",
+        "title": "KINO: A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.18763",
+        "title": "Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.18732",
+        "title": "PASSAGE: Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.17824",
+        "title": "Learning Multi-Humanoid Pickup and Transport via Decentralized Object-Centric Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.16683",
+        "title": "Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.16644",
+        "title": "WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.16405",
+        "title": "Collision-Aware Humanoid Whole-Body Control under Imperfect Tracking Targets",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.15988",
+        "title": "ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.15213",
+        "title": "X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.22289",
+        "title": "OJOx: Specification-Conditioned Demonstrations for Embodied AI in Construction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.14432",
+        "title": "EMoG: Emotion-Modulated Gait Generation for Expressive Humanoid Locomotion",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.12347",
+        "title": "DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.11553",
+        "title": "CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.11357",
+        "title": "Morphology-Aware Human Motion Retargeting for Wheeled-Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.10286",
+        "title": "GM-Loco: Terrain-Adaptive Humanoid Locomotion on Granular Media",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.10283",
+        "title": "SwingBot: Learning Whole-Body Brachiation for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.09918",
+        "title": "ViBe: Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.09158",
+        "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.08905",
+        "title": "Visible-Reachable Workspace for Perception-Aware Humanoid Design",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.08511",
+        "title": "PGMT: Perceptive General Motion Tracking for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.07933",
+        "title": "SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.07544",
+        "title": "Anti-Gravity Walking by a Flying Humanoid Robot via Thrust-Rate Input Whole-Body Model Predictive Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.07288",
+        "title": "How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.07096",
+        "title": "RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.06718",
+        "title": "SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.06591",
+        "title": "Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.06434",
+        "title": "Can People Distinguish Human and AI Agency in Humanoid Teleoperation? A Preliminary Study of Agency Perception",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.05994",
+        "title": "GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.05361",
+        "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.03497",
+        "title": "BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.03255",
+        "title": "Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.03889",
+        "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.02542",
+        "title": "World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.02358",
+        "title": "Humanoid Safe Stop via Learned Stoppability Value",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.02306",
+        "title": "Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.02222",
+        "title": "FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.02134",
+        "title": "Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.01518",
+        "title": "A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2609.00677",
+        "title": "ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2608.30832",
+        "title": "A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2608.29769",
+        "title": "Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2608.29487",
+        "title": "Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2608.28213",
+        "title": "PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
+      {
+        "arxiv_id": "2608.28090",
+        "title": "Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
+      },
       {
         "arxiv_id": "2608.26583",
         "title": "SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion",
@@ -1266,6 +4287,16 @@
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
+      },
+      {
+        "arxiv_id": "2608.28693",
+        "title": "RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction",
+        "project_url": null,
+        "repository_url": null,
+        "status": "unverified",
+        "status_label": "Unverified / 未核验",
+        "checked_at": null,
+        "evidence": []
       },
       {
         "arxiv_id": "2608.26505",

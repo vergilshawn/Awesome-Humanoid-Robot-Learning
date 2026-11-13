@@ -1,9 +1,12 @@
 # Hardware Design
 
-**31 papers** in this category.
+**34 papers** in this category.
 
 ## Months
 
+- [2026-11](/hardware-design/2026-11) (1 papers)
+- [2026-10](/hardware-design/2026-10) (1 papers)
+- [2026-08](/hardware-design/2026-08) (1 papers)
 - [2026-02](/hardware-design/2026-02) (1 papers)
 - [2026-01](/hardware-design/2026-01) (1 papers)
 - [2025-12](/hardware-design/2025-12) (4 papers)
@@ -24,6 +27,63 @@
 ---
 
 ## Recent Papers
+
+## RAIPAL: A Powerful and Agile Humanoid Arm for Human Tasks
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.04334)
+- **Code status:** Unverified / 未核验
+- **Authors:** Donggeon Kim, Hyungho Chris Choi, Donghyuk Choi, Jeongsoo Park, Choongin Lee, Chan Park et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Impact
+  - Hardware Design
+
+### Summary
+
+This paper presents humanoid manipulator hardware designed specifically for human-level performance throughout its broad domain of tasks, from heavy payloads to highly dynamic motions. Unlike conventional designs targeting uniform workspace capability, the proposed approach derives force, speed, and endurance targets from published measurements of task-relevant human upper-limb performance.
+
+---
+
+## Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.18991)
+- **Code status:** Unverified / 未核验
+- **Authors:** Nolan Fey, Khai Nguyen, Yash Prabhu, Gabriel B. Margolis, Pulkit Agrawal
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Sim-to-Real
+  - World Model
+  - Robustness
+  - Simulator
+  - Humanoid
+  - Walking
+  - Impedance Control
+  - Proprioception
+
+### Summary
+
+Humanoid policies trained in simulation can transfer qualitatively to hardware while failing to transfer the force interactions learned during training, compromising torque efficiency, load regulation, and robustness to impacts. This failure can arise from actuator sim-to-real gaps because forces depend on actuator torques.
+
+---
+
+## A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.30832)
+- **Code status:** Unverified / 未核验
+- **Authors:** Jingcheng Jiang, Yifang Zhang, Nikos G. Tsagarakis
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Optimization-Based
+  - Hardware Design
+
+### Summary
+
+To improve torque capacity and energy efficiency of humanoid ankles, this paper proposes a 2-DoF parallel elastic actuator (PEA). The main novelty of the proposed design lies in its dual-cam, single-gas-spring architecture, which enables torque compensation in both pitch and roll using a shared elastic element, thereby improving structural compactness compared with conventional multi-element compensation schemes.
+
+---
 
 ## Characteristics, Management, and Utilization of Muscles in Musculoskeletal Humanoids
 
@@ -420,74 +480,5 @@ Replicating human--level dexterity remains a fundamental robotics challenge, req
 ### Summary
 
 Musculoskeletal humanoids are robots that closely mimic the human musculoskeletal system, offering various advantages such as variable stiffness control, redundancy, and flexibility. However, their body structure is complex, and muscle paths often significantly deviate from geometric models.
-
----
-
-## Explosive Output to Enhance Jumping Ability: A Variable Reduction Ratio Design Paradigm for Humanoid Robots Knee Joint
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.12314)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-06
-- **Tags:**
-  - Humanoid
-  - Hardware Design
-
-### Summary
-
-Enhancing the explosive power output of the knee joints is critical for improving the agility and obstacle-crossing capabilities of humanoid robots. However, a mismatch between the knee-to-center-of-mass (CoM) transmission ratio and jumping demands, coupled with motor performance degradation at high speeds, restricts the duration of high-power output and limits jump performance.
-
----
-
-## RAPID Hand: A Robust, Affordable, Perception-Integrated, Dexterous Manipulation Platform for Generalist Robot Autonomy
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.07490)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-06
-- **Tags:**
-  - Manipulation
-  - Hardware Design
-
-### Summary
-
-This paper addresses the scarcity of low-cost but high-dexterity platforms for collecting real-world multi-fingered robot manipulation data towards generalist robot autonomy. To achieve it, we propose the RAPID Hand, a co-optimized hardware and software platform where the compact 20-DoF hand, robust whole-hand perception, and high-DoF teleoperation interface are jointly designed.
-
----
-
-## iRonCub 3: The Jet-Powered Flying Humanoid Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2506.01125)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-06
-- **Tags:**
-  - Humanoid
-  - Hardware Design
-
-### Summary
-
-This article presents iRonCub 3, a jet-powered humanoid robot, and its first flight experiments. Unlike traditional aerial vehicles, iRonCub 3 aims to achieve flight using a full-body humanoid form, which poses unique challenges in control, estimation, and system integration.
 
 ---

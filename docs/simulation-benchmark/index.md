@@ -1,9 +1,12 @@
 # Simulation Benchmark
 
-**32 papers** in this category.
+**45 papers** in this category.
 
 ## Months
 
+- [2026-11](/simulation-benchmark/2026-11) (1 papers)
+- [2026-10](/simulation-benchmark/2026-10) (7 papers)
+- [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
 - [2026-07](/simulation-benchmark/2026-07) (2 papers)
 - [2026-06](/simulation-benchmark/2026-06) (4 papers)
@@ -24,6 +27,263 @@
 ---
 
 ## Recent Papers
+
+## Social Humanoid: Socially Responsive Human-Humanoid Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.08407)
+- **Code status:** Unverified / 未核验
+- **Authors:** Vongani H. Maluleke, James Ni, Kie Horiuchi, Lea Wilken, Jiahui Lei, Evonne Ng et al. (10 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Contact Dynamics
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on a 29-DoF Unitree G1 conditioned on a human partner's motion.
+
+---
+
+## $\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.41654)
+- **Code status:** Unverified / 未核验
+- **Authors:** Weyl Lu, Yubei Chen
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Simulator
+  - MuJoCo
+  - Humanoid
+  - Contact Dynamics
+  - Policy Learning
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Robot policy learning is dominated by zeroth-order methods such as PPO, which treat the simulator as a black box and pay for it with enormous sample counts. First-order policy learning differentiates through the dynamics, but on contact-rich whole-body control it has rarely worked: its gradients explode.
+
+---
+
+## SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.39327)
+- **Code status:** Unverified / 未核验
+- **Authors:** Kyrylo Kolesnichenko, Irvin Steve Cardenas, Jong-Hoon Kim
+- **Published:** 2026-10
+- **Tags:**
+  - MuJoCo
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+We present SONIC-K1, to our knowledge the first open-weights whole-body motion tracker for the Booster K1 humanoid, obtained by adapting the SONIC framework to this smaller robot. The policy is trained from scratch on a single shared GPU with a small fraction of the compute reported for SONIC.
+
+---
+
+## Networked Humanoid Intelligence: Communication, Coordination, Collaboration, and Social Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.34740)
+- **Code status:** Unverified / 未核验
+- **Authors:** Loc X. Nguyen, Huy Q. Le, Ji Su Yoon, Nguyen H. Tran, Eui-Nam Huh, Choong Seon Hong
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid robots are moving from laboratory platforms toward connected fleets that share workspaces, infrastructure, tasks, and knowledge with other robots and humans. As deployments grow, the operation and improvement of each humanoid depend on information exchanged across the network.
+
+---
+
+## SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24559)
+- **Code status:** Unverified / 未核验
+- **Authors:** Jiancong Ma, Kun Li, Jin Jiang, Shengcai Liao
+- **Published:** 2026-10
+- **Tags:**
+  - MuJoCo
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+
+### Summary
+
+Enabling humanoid robots to participate effectively in social interactions is important for their integration into human-centered environments. Existing methods, however, typically map pre-generated speech directly to continuous motion trajectories but have limited awareness of complex social environments and lack explicit high-level semantic action planning.
+
+---
+
+## Composable Dynamics for Cooperative Humanoids: A RoboCompiler Extension
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.14237)
+- **Code status:** Unverified / 未核验
+- **Authors:** Mehdi Heydari Shahna, Jouni Mattila
+- **Published:** 2026-10
+- **Tags:**
+  - MuJoCo
+  - Humanoid
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Physically connected humanoids need consistent dynamics for internal actuator loops, inter-robot forces, and changing ground supports. We extend RoboCompiler with member-wise dynamics assembly, compiling reduced dynamics from rigid bodies, moving actuator parts, and reflected rotor inertias.
+
+---
+
+## BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.07594)
+- **Project:** [Project page](https://github.com/swirl-uk/bigym2)
+- **Code status:** Unverified / 未核验
+- **Authors:** Zexi Zhang, Zecheng Zhu, Zidong Chen, Zulkhuu Tuya, Stephen James
+- **Published:** 2026-10
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Whole-Body Control
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Proprioception
+  - Vision-Language
+
+### Summary
+
+Humanoid household manipulation requires the arms to act while the body balances, steps and changes posture. We present BiGym 2.0, an adaptation of BiGym for the Unitree G1 across 20 household tasks using a unified whole-body controller for demonstration and evaluation.
+
+---
+
+## HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.02089)
+- **Code status:** Unverified / 未核验
+- **Authors:** Kyochul Jang, Seohyeon Park, Ohchul Kwon, Sangjun Park, Junhyeok Choi, Seungyeop Yi et al. (12 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Real Robot
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+As robotic hardware and learning methods advance, humanoids need tools to perform tasks beyond their inherent physical limits. Successful tool use requires selecting a suitable tool and coordinating manipulation and, when needed, locomotion to complete the task.
+
+---
+
+## CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.34782)
+- **Code status:** Unverified / 未核验
+- **Authors:** Hyunjin Park, Jebeom Chae, Minwoo Park, Sunghyun Park, Hanjun Yoo, Seoyeon Choi et al. (14 authors)
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Benchmark
+  - Simulation Benchmark
+  - State Estimation
+
+### Summary
+
+Many physical tasks in human environments require collaboration, from assisting a partner to jointly manipulating an object. Yet, existing humanoid benchmarks largely focus on single-humanoid skills and lack evaluation of multi-humanoid collaboration under egocentric visual observations.
+
+---
+
+## Traceable Human-to-Humanoid Sign Language Benchmarking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.33354)
+- **Code status:** Unverified / 未核验
+- **Authors:** Ao Liu, Shengeng Tang, Lechao Cheng, Yanbin Hao, Bingkun Bao, Richang Hong
+- **Published:** 2026-09
+- **Tags:**
+  - Teleoperation
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - PPO
+  - Simulation Benchmark
+
+### Summary
+
+Sign data collection is costly, and teleoperation scales poorly, motivating reuse of large video corpora. Humanoid signing requires converting video-derived human motion into robot trajectories while preserving linguistic motion cues.
+
+---
+
+## Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.38216)
+- **Code status:** Unverified / 未核验
+- **Authors:** Pavel Bushuyeu, Yujin Chen, Anton Nikolaev, Brian Shu, Igor Molybog
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Whole-Body Control
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Simulator
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+
+### Summary
+
+Existing benchmarks evaluate tabletop manipulation, flat-floor household activity, or humanoid locomotion and manipulation as separate task groups; none scores vertical mobility and dexterous work on a fragile payload in one long-horizon episode. We present Fiatlux, a light-bulb replacement benchmark built on NVIDIA Isaac Lab.
+
+---
+
+## How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.07288)
+- **Code status:** Unverified / 未核验
+- **Authors:** Aulon Bajrami, Mohamed Elshamouty, Werner Kraus
+- **Published:** 2026-09
+- **Tags:**
+  - Safety
+  - Humanoid
+  - Benchmark
+  - Large Language Model
+  - Simulation Benchmark
+
+### Summary
+
+Large Language Models (LLMs) are increasingly employed to orchestrate robot behavior through natural-language interfaces, yet no benchmark exists to evaluate their reliability as safety-aware decision makers in human-humanoid collaboration. Unlike deterministic safety systems that enforce binary allow/deny decisions, LLM-based orchestrators exhibit a compliance spectrum ranging from overcompliance (refusing safe actions) to full safety violations.
+
+---
+
+## Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.03255)
+- **Code status:** Unverified / 未核验
+- **Authors:** Buwan Kim, Wonse Jo
+- **Published:** 2026-09
+- **Tags:**
+  - Humanoid
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+This paper presents an experimental design for constructing a multimodal dataset to analyze user engagement in human-robot interaction (HRI). Prior studies have mainly relied on observable behavioral cues, with limited frameworks integrating physiological signals.
+
+---
 
 ## GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly
 
@@ -222,361 +482,5 @@ Humanoid robots are increasingly expected to perform contact-rich tasks that req
 ### Summary
 
 How do we learn to hit a tennis backhand? Not from a thousand hours of tennis tournaments on TV - we work with a coach and practice. We argue this is also the right recipe for teaching dynamic skills to humanoid robots.
-
----
-
-## HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.17833)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Taowen Wang, Zikang Xie, Bin Yang, Yunheng Wang, Zizhao Yuan, Yuetong Fang et al. (16 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Humanoid
-  - Proprioception
-  - Benchmark
-  - Policy Learning
-  - Simulation Benchmark
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Humanoid robots promise whole-body interaction in human-centered environments, but scalable policy learning remains difficult because task-level decision-making and whole-body dynamic execution are tightly coupled. A practical solution is hierarchical control, where a high-level policy predicts intermediate whole-body actions and low-level general motion trackers (GMTs) execute them as stable humanoid motion.
-
----
-
-## SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08278)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Songlin Wei, Zhenhao Ni, Jie Liu, Zhenyu Zhao, Junjie Ye, Hongyi Jing et al. (12 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅
-- **Tags:**
-  - Teleoperation
-  - Manipulation
-  - Zero-Shot
-  - MuJoCo
-  - Humanoid
-  - Vision-Language
-  - Foundation Model
-  - Motion Planning
-
-### Summary
-
-Humanoid foundation models are advancing faster than we can evaluate them. While real-world testing is expensive and difficult to reproduce, existing simulation benchmarks focus primarily on table-top or wheeled robots.
-
----
-
-## 🌟 Flash-WAM: Modality-Aware Distillation for World Action Models
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.05254)
-- **Project:** [Project page](https://flashwam.github.io)
-- **Repository:** [Code](https://github.com/NU-World-Model-Embodied-AI/Flash-WAM)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/NU-World-Model-Embodied-AI/Flash-WAM
-- Implementation examples: distillation/config.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Authors:** Arman Akbari, Ci Zhang, Arash Akbari, Lin Zhao, Yixiao Chen, Weiwei Chen et al. (9 authors)
-- **Published:** 2026-06
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Distillation
-  - Benchmark
-  - Diffusion
-  - Simulation Benchmark
-
-### Summary
-
-World-action models (WAMs) jointly generate future video and robot actions through iterative diffusion, achieving strong performance on manipulation benchmarks but requiring tens of denoising steps, a cost that precludes real-time control. Step distillation has emerged as the natural remedy, but off-the-shelf methods break down in the joint video-action setting because video and action streams use different SNR-shifted noise schedules and reach training with substantially different marginal noise distributions, an asymmetry that single-modality distillation methods cannot accommodate.
-
----
-
-## Adversarial Stress Testing of SPARK Humanoid Safety Filters
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.19009)
-- **Repository:** [Code](https://github.com/ghoshsaurav/spark-adversarial-safety)
-- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/ghoshsaurav/spark-adversarial-safety
-- Inspected repository contains no detected implementation files
-
-</details>
-
-- **Authors:** Saurav Ghosh, Abdou Sow, Luke Zhang
-- **Published:** 2026-05
-- **Tags:**
-  - Safety
-  - Robustness
-  - MuJoCo
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid robots are difficult to deploy safely because they have high-dimensional bodies, many collision constraints, and must operate near people and obstacles. Safety filters help by modifying a nominal control action when it may violate collision-avoidance constraints.
-
----
-
-## OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.12038)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Yiren Song, Xiyao Deng, Pei Yang, Yihan Wang, Mike Zheng Shou
-- **Published:** 2026-05
-- **Tags:**
-  - Humanoid
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Cross-embodiment video generation aims to transfer motions across different humanoid embodiments, such as human-to-robot and robot-to-robot, enabling scalable data generation for embodied intelligence. A major challenge in this setting is that motion dynamics are partly transferable across embodiments, whereas appearance and morphology remain embodiment-specific.
-
----
-
-## Moving Through Clutter: Scaling Data Collection and Benchmarking for 3D Scene-Aware Humanoid Locomotion via Virtual Reality
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.05993)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Beichen Wang, Yuanjie Lu, Linji Wang, Liuchuan Yu, Xuesu Xiao
-- **Published:** 2026-03
-- **Tags:**
-  - Locomotion
-  - Navigation
-  - Safety
-  - Humanoid
-  - Collision
-  - Benchmark
-  - Dataset
-  - PPO
-
-### Summary
-
-Recent advances in humanoid locomotion have enabled dynamic behaviors such as dancing, martial arts, and parkour, yet these capabilities are predominantly demonstrated in open, flat, and obstacle-free settings. In contrast, real-world environments such as homes, offices, and public spaces, are densely cluttered, three-dimensional, and geometrically constrained, requiring scene-aware whole-body coordination, precise balance control, and reasoning over spatial constraints imposed by furniture and household objects.
-
----
-
-## 🌟 ComFree-Sim: A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation and Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.12185)
-- **Project:** [Project page](https://irislab.tech/comfree-sim/)
-- **Repository:** [Code](https://github.com/asu-iris/comfree_warp)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/asu-iris/comfree_warp
-- Detected 77 implementation files; examples: comfree_warp/api.py, comfree_warp/comfree_core/_src/constraint.py, comfree_warp/comfree_core/_src/forward.py, comfree_warp/comfree_core/_src/math.py, comfree_warp/comfree_core/_src/support.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Published:** 2026-03
-- **Tags:**
-  - Simulation Benchmark
-
-### Summary
-
-Physics simulation for contact-rich robotics is often bottlenecked by contact resolution: mainstream engines enforce non-penetration and Coulomb friction via complementarity constraints or constrained optimization, requiring per-step iterative solves whose cost grows superlinearly with contact density. We present ComFree-Sim, a GPU-parallelized analytical contact physics engine built on complementarity-free contact modeling.
-
----
-
-## Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2603.06181)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2026-03
-- **Tags:**
-  - Humanoid
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid robots have achieved significant progress in motion generation and control, exhibiting movements that appear increasingly natural and human-like. Inspired by the Turing Test, we propose the Motion Turing Test, a framework that evaluates whether human observers can discriminate between humanoid robot and human poses using only kinematic information.
-
----
-
-## MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.11337)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2026-02
-- **Tags:**
-  - Manipulation
-  - Navigation
-  - Simulation Benchmark
-
-### Summary
-
-Deploying robots at scale demands robustness to the long tail of everyday situations. The countless variations in scene layout, object geometry, and task specifications that characterize real environments are vast and underrepresented in existing robot benchmarks.
-
----
-
-## Benchmarking Humanoid Imitation Learning with Motion Difficulty
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2512.07248)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-12
-- **Tags:**
-  - Imitation Learning
-  - Humanoid
-  - Benchmark
-  - Simulation Benchmark
-
-### Summary
-
-Physics-based motion imitation is central to humanoid control, yet current evaluation metrics (e.g., MPJPE) only quantify imitation outcomes, not their underlying causes. This conflation obscures a critical diagnostic question: when imitation error occurs, does it stem from policy limitations or the intrinsic learning difficulty of the target motion? To resolve this ambiguity, we propose the Torque Variation Score (TVS), a physics-grounded metric that quantifies the inherent learning difficulty of a motion independently of any policy's performance.
-
----
-
-## Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.08807)
-- **Project:** [Project page](https://humanoideveryday.github.io/)
-- **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-10
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-From loco-motion to dextrous manipulation, humanoid robots have made remarkable strides in demonstrating complex full-body capabilities. However, the majority of current robot learning datasets and benchmarks mainly focus on stationary robot arms, and the few existing humanoid datasets are either confined to fixed environments or limited in task diversity, often lacking human-humanoid interaction and lower-body locomotion.
-
----
-
-## Generative World Modelling for Humanoids: 1X World Model Challenge Technical Report
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.07092)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-10
-- **Tags:**
-  - World Model
-  - Humanoid
-  - Simulation Benchmark
-
-### Summary
-
-World models are a powerful paradigm in AI and robotics, enabling agents to reason about the future by predicting visual observations or compact latent states. The 1X World Model Challenge introduces an open-source benchmark of real-world humanoid interaction, with two complementary tracks: sampling, focused on forecasting future image frames, and compression, focused on predicting future discrete latent codes.
-
----
-
-## HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2507.00833)
-- **Project:** [Project page](https://openhumanoidgen.github.io/)
-- **Repository:** [Code](https://github.com/TeleHuman/HumanoidGen)
-- **Code status:** Partial release / 部分代码或资源待发布
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/TeleHuman/HumanoidGen
-- README: Code to be released
-- Implementation examples: humanoidgen/agents/objects/articulated_object.py
-
-</details>
-
-- **Published:** 2025-07
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Simulation Benchmark
-
-### Summary
-
-For robotic manipulation, existing robotics datasets and simulation benchmarks predominantly cater to robot-arm platforms. However, for humanoid robots equipped with dual arms and dexterous hands, simulation tasks and high-quality demonstrations are notably lacking.
 
 ---

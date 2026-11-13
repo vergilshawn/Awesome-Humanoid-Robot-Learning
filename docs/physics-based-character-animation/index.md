@@ -1,10 +1,13 @@
 # Physics-Based Character Animation
 
-**41 papers** in this category.
+**52 papers** in this category.
 
 ## Months
 
-- [2026-08](/physics-based-character-animation/2026-08) (2 papers)
+- [2026-11](/physics-based-character-animation/2026-11) (1 papers)
+- [2026-10](/physics-based-character-animation/2026-10) (6 papers)
+- [2026-09](/physics-based-character-animation/2026-09) (3 papers)
+- [2026-08](/physics-based-character-animation/2026-08) (3 papers)
 - [2026-06](/physics-based-character-animation/2026-06) (6 papers)
 - [2026-05](/physics-based-character-animation/2026-05) (2 papers)
 - [2026-02](/physics-based-character-animation/2026-02) (2 papers)
@@ -34,6 +37,230 @@
 ---
 
 ## Recent Papers
+
+## Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.11554)
+- **Code status:** Unverified / 未核验
+- **Authors:** Yunheng Wang, Jiaxi Zhang, Wei Lu, Yuetong Fang, Taowen Wang, Yixiao Feng et al. (15 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Multi-Task
+  - Humanoid
+  - Vision-Language
+  - PPO
+  - Physics-Based Character Animation
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires continuous coordination of high-dimensional whole-body motion to realize task objectives. While vision-language-action models and world action models transfer semantic and visual-dynamics priors to robot control, these priors do not necessarily capture the structure of robot motion.
+
+---
+
+## HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.36615)
+- **Code status:** Unverified / 未核验
+- **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (12 authors)
+- **Published:** 2026-10
+- **Real Robot:** ✅
+- **Tags:**
+  - Real Robot
+  - Humanoid
+  - Collision
+  - Dataset
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Enabling a humanoid to interact naturally with human partners requires preserving not only individual motions but also the spatial, semantic, and contact relationships underlying the interaction (i.e., hugging, dancing, hand-shaking, etc.). Furthermore, a practical solution should generalize across various humanoid embodiments with distinct morphologies and kinematic constraints.
+
+---
+
+## Beyond Human-Derived Motion: Exploring Robot-Specific Execution for Construction Humanoids
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.24312)
+- **Code status:** Unverified / 未核验
+- **Authors:** MinJun Chang, Taehyung Kim, Yong K. Cho, Francis Baek
+- **Published:** 2026-10
+- **Tags:**
+  - Human Demonstration
+  - Humanoid
+  - Inverse Kinematics
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Construction productivity has remained a per- sistent challenge, motivating growing interest in humanoid robots that can operate in workspaces and with tools designed for human workers. Realizing this potential requires effective motion control, for which human-derived motion transfer has emerged as a promising approach by capturing and retargeting human demonstrations to humanoid robots.
+
+---
+
+## TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.21515)
+- **Project:** [Project page](https://github.com/multimodal-perception-action/trace)
+- **Code status:** Unverified / 未核验
+- **Authors:** Zejian Kang, Yifu Luo, Boyang Shen, Jingxuan Li, Zekai Chen, Zekun Shi et al. (12 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Humanoid
+  - Language-Conditioned
+  - PPO
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted reference.
+
+---
+
+## KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.21152)
+- **Code status:** Unverified / 未核验
+- **Authors:** Zibo Zhou, Yueru Chen, Junsong Wu, Weiji Xie, Qingyao Xu, Sheng Yin et al. (11 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - Human Demonstration
+  - Simulator
+  - Humanoid
+  - Vision-Language
+  - Sampling-Based
+  - Physics-Based Character Animation
+
+### Summary
+
+Training humanoid whole-body vision-language-action (VLA) policies requires costly robot demonstrations with aligned robot-view observations and controller-compatible whole-body state-action labels. Egocentric human demonstrations offer scalable supervision but have misaligned views and sparse motion cues.
+
+---
+
+## PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.13373)
+- **Code status:** Unverified / 未核验
+- **Authors:** Chuxuan Huang, Zhanxiang Cao, Tianyue Zhan, Haoyang Li, Yang Zhang, Liyun Yan et al. (17 authors)
+- **Published:** 2026-10
+- **Tags:**
+  - MuJoCo
+  - Humanoid
+  - Language-Conditioned
+  - Diffusion
+  - Physics-Based Character Animation
+  - Simulation Benchmark
+
+### Summary
+
+Translating language into humanoid motion requires coordinating body parts, determining motion duration, and producing references suitable for robot execution. We introduce PartiGen, a part-aware latent diffusion framework that incorporates anatomical structure into a shared whole-body motion representation.
+
+---
+
+## From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2610.10322)
+- **Code status:** Unverified / 未核验
+- **Authors:** Kerui Chen, Jianrong Zhang, Kai Lv, Hehe Fan
+- **Published:** 2026-10
+- **Tags:**
+  - Simulator
+  - Humanoid
+  - Fine-tuning
+  - Friction
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+Recent methods have made promising progress in generating interactions between two humanoids, largely relying on physics-based tracking policies to convert digital reference motions into executable trajectories. However, limited tracking capabilities restrict the range of reference motions that can be successfully executed, reducing data utilization.
+
+---
+
+## ECHO-G: Embodied Co-speech Humanoid mOtion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.39575)
+- **Code status:** Unverified / 未核验
+- **Authors:** Yizhao Li, Pusen Gao, Ming Wang, Shaojie Shen, Shuo Yang, Hao Xu
+- **Published:** 2026-09
+- **Tags:**
+  - Transformer
+  - Humanoid
+  - Benchmark
+  - Dataset
+  - PPO
+  - Diffusion
+  - Flow Matching
+  - Physics-Based Character Animation
+
+### Summary
+
+Generating full-body co-speech motion for humanoid robots requires coordinating speech prosody, linguistic content, and embodiment-specific motion. To this end, we present ECHO-G, a framework jointly conditioned on speech audio and timed transcripts.
+
+---
+
+## SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.33311)
+- **Code status:** Unverified / 未核验
+- **Authors:** Chengqun Yang, Tengjie Zhu, Liang Xu, Fulong Liu, Guanzhu Ren, Yitong Xing et al. (13 authors)
+- **Published:** 2026-09
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Dataset
+  - PPO
+  - Physics-Based Character Animation
+  - Human Motion Analysis and Synthesis
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid robots are increasingly expected to serve as embodied social agents that communicate naturally with humans through face-to-face interaction. During such communication, humanoid robots require body behaviors that are synchronized with speech, affectively expressive, and suitable for real-time execution.
+
+---
+
+## Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2609.06591)
+- **Code status:** Unverified / 未核验
+- **Authors:** Jianan Li, Xiao Chen, Tien-Tsin Wong
+- **Published:** 2026-09
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Developing unified physics-based humanoid controllers that can navigate complex 3D scenes and manipulate objects remains a longstanding challenge. Existing approaches are often specialized for either locomotion or object-centric manipulation, or rely on task-specific reward engineering that does not scale well across diverse behaviors.
+
+---
+
+## PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2608.28213)
+- **Code status:** Unverified / 未核验
+- **Authors:** Yan Pan, Lingfan Bao, Tianhu Peng, Chengxu Zhou
+- **Published:** 2026-08
+- **Tags:**
+  - Humanoid
+  - Physics-Based Character Animation
+
+### Summary
+
+People read a humanoid robot's motion in social settings not only for the action performed but for the affect conveyed. Motion carrying that affect has so far been generated for human avatars, where style is taken from a reference clip or an emotion word, neither of which can be quantitatively parameterized.
+
+---
 
 ## Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards
 
@@ -285,282 +512,5 @@ Humanoid robots require whole-body motions that adapt to scene context, task req
 ### Summary
 
 Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning paradigm that directly generates actions from text.
-
----
-
-## 🌟 SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-based Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.22894)
-- **Project:** [Project page](https://zhanglele12138.github.io/SCRIPT/)
-- **Repository:** [Code](https://github.com/zhanglele12138/SCRIPT-codes)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/zhanglele12138/SCRIPT-codes
-- Implementation examples: script_policy/data/normalizer.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Authors:** Jingyan Zhang, Han Liang, Ruichi Zhang, Bin Li, Juze Zhang, Xin Chen et al. (9 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Reinforcement Learning
-  - Diffusion Policy
-  - Transformer
-  - Humanoid
-  - Pre-training
-  - Dataset
-  - Diffusion
-  - Physics-Based Character Animation
-
-### Summary
-
-Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control.
-
----
-
-## Iterative Closed-Loop Motion Synthesis for Scaling the Capabilities of Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.21599)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2026-02
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Physics-based humanoid control relies on training with motion datasets that have diverse data distributions. However, the fixed difficulty distribution of datasets limits the performance ceiling of the trained control policies.
-
----
-
-## 🌟 InterPrior: Scaling Generative Control for Physics-Based Human-Object Interactions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2602.06035)
-- **Project:** [Project page](https://sirui-xu.github.io/InterPrior/)
-- **Repository:** [Code](https://github.com/Sirui-Xu/InterPrior)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/Sirui-Xu/InterPrior
-- Implementation examples: interprior/envs/base_task.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Published:** 2026-02
-- **Tags:**
-  - Physics-Based Character Animation
-
-### Summary
-
-Humans rarely plan whole-body interactions with objects at the level of explicit whole-body movements. High-level intentions, such as affordance, define the goal, while coordinated balance, contact, and manipulation can emerge naturally from underlying physical and motor priors.
-
----
-
-## CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2512.14696)
-- **Project:** [Project page](https://crisp-real2sim.github.io/CRISP-Real2Sim/)
-- **Code status:** Needs review / 访问失败或证据不足
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Multiple repository candidates require review: https://github.com/Z1hanW/CRISP-Real2Sim, https://github.com/Z1hanW/holosoma-crisp
-
-</details>
-
-- **Published:** 2025-12
-- **Tags:**
-  - Physics-Based Character Animation
-
-### Summary
-
-We introduce CRISP, a method that recovers simulatable human motion and scene geometry from monocular video. Prior work on joint human-scene reconstruction relies on data-driven priors and joint optimization with no physics in the loop, or recovers noisy geometry with artifacts that cause motion tracking policies with scene interactions to fail.
-
----
-
-## 🌟 Learning to Control Physically-simulated 3D Characters via Generating and Mimicking 2D Motions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2512.08500)
-- **Project:** [Project page](https://jiann-li.github.io/mimic2dm/)
-- **Repository:** [Code](https://github.com/jiann-li/mimic2dm_release)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/jiann-li/mimic2dm_release
-- Implementation examples: mimic2dm/env/tasks/base_task.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Published:** 2025-12
-- **Tags:**
-  - Physics-Based Character Animation
-
-### Summary
-
-Video data is more cost-effective than motion capture data for learning 3D character motion controllers, yet synthesizing realistic and diverse behaviors directly from videos remains challenging. Previous approaches typically rely on off-the-shelf motion reconstruction techniques to obtain 3D trajectories for physics-based imitation.
-
----
-
-## PhysHMR: Learning Humanoid Control Policies from Vision for Physically Plausible Human Motion Reconstruction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2510.02566)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-10
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Reconstructing physically plausible human motion from monocular videos remains a challenging problem in computer vision and graphics. Existing methods primarily focus on kinematics-based pose estimation, often leading to unrealistic results due to the lack of physical constraints.
-
----
-
-## 🌟 Learning to Ball: Composing Policies for Long-Horizon Basketball Moves
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2509.22442)
-- **Project:** [Project page](http://pei-xu.github.io/basketball)
-- **Repository:** [Code](https://github.com/xupei0610/basketball)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/xupei0610/basketball
-- Implementation examples: env.py, main.py, models.py, ref_motion.py, utils.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Published:** 2025-09
-- **Tags:**
-  - Physics-Based Character Animation
-
-### Summary
-
-Learning a control policy for a multi-phase, long-horizon task, such as basketball maneuvers, remains challenging for reinforcement learning approaches due to the need for seamless policy composition and transitions between skills. A long-horizon task typically consists of distinct subtasks with well-defined goals, separated by transitional subtasks with unclear goals but critical to the success of the entire task.
-
----
-
-## RobotDancing: Residual-Action RL Enables Robust Long-Horizon Humanoid Motion Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2509.20717)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-09
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Long-horizon, high-dynamic motion tracking on humanoids remains brittle: retargeted reference motions are typically kinematically plausible but dynamically inconsistent with the robot, so small tracking errors accumulate and eventually destabilize control. We present RobotDancing, a practical single-stage reinforcement learning recipe that tracks retargeted motions by predicting reference-conditioned residual joint targets.
-
----
-
-## 🌟 FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.19926)
-- **Repository:** [Code](https://github.com/Colin-Jing/FARM)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/Colin-Jing/FARM
-- Implementation examples: data/scripts/add_datasets_without_labels.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Published:** 2025-08
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Unified physics-based humanoid controllers are pivotal for robotics and character animation, yet models that excel on gentle, everyday motions still stumble on explosive actions, hampering real-world deployment. We bridge this gap with FARM (Frame-Accelerated Augmentation and Residual Mixture-of-Experts), an end-to-end framework composed of frame-accelerated augmentation, a robust base controller, and a residual mixture-of-experts (MoE).
-
----
-
-## SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and RL
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.14120)
-- **Project:** [Project page](https://xingxingzuo.github.io/simgen_hoi)
-- **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Publication/project page: Code will be released
-
-</details>
-
-- **Published:** 2025-08
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Generating physically realistic humanoid-object interactions (HOI) is a fundamental challenge in robotics. Existing HOI generation approaches, such as diffusion-based models, often suffer from artifacts such as implausible contacts, penetrations, and unrealistic whole-body actions, which hinder successful execution in physical environments.
-
----
-
-## Humanoid Robot Acrobatics Utilizing Complete Articulated Rigid Body Dynamics
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.08258)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Published:** 2025-08
-- **Tags:**
-  - Humanoid
-  - Physics-Based Character Animation
-
-### Summary
-
-Endowing humanoid robots with the ability to perform highly dynamic motions akin to human-level acrobatics has been a long-standing challenge. Successfully performing these maneuvers requires close consideration of the underlying physics in both trajectory optimization for planning and control during execution.
 
 ---

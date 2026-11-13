@@ -48,12 +48,24 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Loco-Manipulation and Whole-Body Control (221)",
+            "text": "Loco-Manipulation and Whole-Body Control (327)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/loco-manipulation-and-whole-body-control/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/loco-manipulation-and-whole-body-control/2026-11"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/loco-manipulation-and-whole-body-control/2026-10"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/loco-manipulation-and-whole-body-control/2026-09"
                   },
                   {
                         "text": "2026-08",
@@ -174,12 +186,24 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (63)",
+            "text": "Manipulation (82)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/manipulation/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/manipulation/2026-11"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/manipulation/2026-10"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/manipulation/2026-09"
                   },
                   {
                         "text": "2026-08",
@@ -280,12 +304,24 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Teleoperation (25)",
+            "text": "Teleoperation (47)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/teleoperation/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/teleoperation/2026-11"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/teleoperation/2026-10"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/teleoperation/2026-09"
                   },
                   {
                         "text": "2026-08",
@@ -350,12 +386,24 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (151)",
+            "text": "Locomotion (249)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/locomotion/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/locomotion/2026-11"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/locomotion/2026-10"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/locomotion/2026-09"
                   },
                   {
                         "text": "2026-08",
@@ -480,12 +528,24 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Navigation (22)",
+            "text": "Navigation (28)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/navigation/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/navigation/2026-11"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/navigation/2026-10"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/navigation/2026-09"
                   },
                   {
                         "text": "2026-07",
@@ -554,12 +614,24 @@ export default defineConfig({
             ]
       },
       {
-            "text": "State Estimation (13)",
+            "text": "State Estimation (29)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/state-estimation/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/state-estimation/2026-11"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/state-estimation/2026-10"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/state-estimation/2026-09"
                   },
                   {
                         "text": "2026-08",
@@ -658,12 +730,24 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Hardware Design (31)",
+            "text": "Hardware Design (34)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/hardware-design/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/hardware-design/2026-11"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/hardware-design/2026-10"
+                  },
+                  {
+                        "text": "2026-08",
+                        "link": "/hardware-design/2026-08"
                   },
                   {
                         "text": "2026-02",
@@ -732,12 +816,24 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Simulation Benchmark (32)",
+            "text": "Simulation Benchmark (45)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/simulation-benchmark/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/simulation-benchmark/2026-11"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/simulation-benchmark/2026-10"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/simulation-benchmark/2026-09"
                   },
                   {
                         "text": "2026-08",
@@ -806,12 +902,24 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (41)",
+            "text": "Physics-Based Character Animation (52)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/physics-based-character-animation/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/physics-based-character-animation/2026-11"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/physics-based-character-animation/2026-10"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/physics-based-character-animation/2026-09"
                   },
                   {
                         "text": "2026-08",
@@ -920,12 +1028,28 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Human Motion Analysis and Synthesis (23)",
+            "text": "Human Motion Analysis and Synthesis (32)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/human-motion-analysis-and-synthesis/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/human-motion-analysis-and-synthesis/2026-11"
+                  },
+                  {
+                        "text": "2026-10",
+                        "link": "/human-motion-analysis-and-synthesis/2026-10"
+                  },
+                  {
+                        "text": "2026-09",
+                        "link": "/human-motion-analysis-and-synthesis/2026-09"
+                  },
+                  {
+                        "text": "2026-08",
+                        "link": "/human-motion-analysis-and-synthesis/2026-08"
                   },
                   {
                         "text": "2026-07",
