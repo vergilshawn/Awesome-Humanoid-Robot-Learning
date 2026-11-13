@@ -1231,14 +1231,14 @@
   ],
   "code_audit": {
     "status_counts": {
-      "not_found": 347,
-      "available": 178,
-      "no_repository": 75,
-      "coming_soon": 26,
-      "partial": 13,
+      "available": 183,
+      "not_found": 369,
+      "no_repository": 79,
+      "coming_soon": 27,
+      "partial": 14,
       "unknown": 46,
-      "unverified": 250,
-      "empty": 7
+      "empty": 8,
+      "unverified": 220
     },
     "status_labels": {
       "unverified": "Unverified / 未核验",
@@ -1250,12 +1250,62 @@
       "available": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
       "unknown": "Needs review / 访问失败或证据不足"
     },
-    "checked_count": 692,
-    "unverified_count": 250,
+    "checked_count": 726,
+    "unverified_count": 220,
     "needs_review_count": 46,
     "method": "arXiv metadata and Comments; project page; GitHub README and file tree, with public HTML, blobless Git tree and bounded archive fallbacks when API access fails",
     "policy": "Source-file detection does not establish completeness, reproducibility or license compliance. Legacy links are unverified until inspected.",
     "papers": [
+      {
+        "arxiv_id": "2611.17142",
+        "title": "FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation",
+        "project_url": "https://bb0928.github.io/forge/",
+        "repository_url": "https://github.com/bb0928/FORGE",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-13T15:22:56.892172+00:00",
+        "evidence": [
+          "Detected 34 source files; examples: legged_gym_repo/legged_gym/envs/base/base_config.py, legged_gym_repo/legged_gym/envs/base/base_task.py, legged_gym_repo/legged_gym/envs/base/legged_robot.py, legged_gym_repo/legged_gym/envs/base/legged_robot_config.py, legged_gym_repo/legged_gym/envs/g1/base.py",
+          "Completeness, dependencies, training assets and reproducibility have not been verified"
+        ]
+      },
+      {
+        "arxiv_id": "2611.16422",
+        "title": "BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU",
+        "project_url": null,
+        "repository_url": "https://github.com/fuyichen0725/blinkmimic",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-13T15:22:57.902173+00:00",
+        "evidence": [
+          "Detected 26 source files; examples: src/blinkmimic/buffer.py, src/blinkmimic/dr.py, src/blinkmimic/env.py, src/blinkmimic/evaluate.py, src/blinkmimic/g1/g1_constants.py",
+          "Completeness, dependencies, training assets and reproducibility have not been verified"
+        ]
+      },
+      {
+        "arxiv_id": "2611.16188",
+        "title": "PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control",
+        "project_url": null,
+        "repository_url": null,
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:22:58.674165+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
+      },
+      {
+        "arxiv_id": "2611.15928",
+        "title": "Runtime Safety and Emergency Stops on a Full-Size Humanoid: Deployment Lessons and a Case for Graduated Force Authority",
+        "project_url": null,
+        "repository_url": null,
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:22:58.800039+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
+      },
       {
         "arxiv_id": "2611.15117",
         "title": "PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach",
@@ -1263,7 +1313,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:10.125969+00:00",
+        "checked_at": "2026-11-13T15:22:58.926611+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1275,7 +1325,7 @@
         "repository_url": "https://github.com/yichg/elastra",
         "status": "available",
         "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
-        "checked_at": "2026-11-13T03:28:10.186501+00:00",
+        "checked_at": "2026-11-13T15:22:59.027307+00:00",
         "evidence": [
           "Detected 27 source files; examples: src/elastra/assets.py, src/elastra/config.py, src/elastra/evaluation.py, src/elastra/figures.py, src/elastra/host.py",
           "Completeness, dependencies, training assets and reproducibility have not been verified"
@@ -1288,7 +1338,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:11.311718+00:00",
+        "checked_at": "2026-11-13T15:22:59.922733+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1300,7 +1350,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:11.364909+00:00",
+        "checked_at": "2026-11-13T15:23:00.010743+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1312,7 +1362,7 @@
         "repository_url": null,
         "status": "no_repository",
         "status_label": "Project page only / 项目页未发现仓库",
-        "checked_at": "2026-11-13T03:28:11.740154+00:00",
+        "checked_at": "2026-11-13T15:23:00.061269+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1324,7 +1374,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:11.820620+00:00",
+        "checked_at": "2026-11-13T15:23:00.224742+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1336,7 +1386,7 @@
         "repository_url": null,
         "status": "no_repository",
         "status_label": "Project page only / 项目页未发现仓库",
-        "checked_at": "2026-11-13T03:28:11.896687+00:00",
+        "checked_at": "2026-11-13T15:23:00.352380+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1348,7 +1398,7 @@
         "repository_url": "https://github.com/robbyant-research/LHNav",
         "status": "coming_soon",
         "status_label": "Coming soon / 代码待发布",
-        "checked_at": "2026-11-13T03:28:12.246164+00:00",
+        "checked_at": "2026-11-13T15:23:01.111291+00:00",
         "evidence": [
           "No implementation files detected (documentation/assets only); review required",
           "Publication/project page: coming soon Code"
@@ -1361,7 +1411,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:13.250840+00:00",
+        "checked_at": "2026-11-13T15:23:02.355988+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1373,7 +1423,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:13.285281+00:00",
+        "checked_at": "2026-11-13T15:23:02.443630+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1385,7 +1435,7 @@
         "repository_url": "https://github.com/kimodo-policy/kimodo-policy",
         "status": "partial",
         "status_label": "Partial release / 部分代码或资源待发布",
-        "checked_at": "2026-11-13T03:28:13.318703+00:00",
+        "checked_at": "2026-11-13T15:23:02.578208+00:00",
         "evidence": [
           "README: Training & Evaluation (Coming Soon",
           "Detected 1172 source files"
@@ -1398,7 +1448,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:14.460998+00:00",
+        "checked_at": "2026-11-13T15:23:03.838817+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1410,7 +1460,7 @@
         "repository_url": null,
         "status": "no_repository",
         "status_label": "Project page only / 项目页未发现仓库",
-        "checked_at": "2026-11-13T03:28:14.720847+00:00",
+        "checked_at": "2026-11-13T15:23:03.922631+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1422,7 +1472,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:14.838973+00:00",
+        "checked_at": "2026-11-13T15:23:04.208213+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1434,7 +1484,7 @@
         "repository_url": null,
         "status": "unknown",
         "status_label": "Needs review / 访问失败或证据不足",
-        "checked_at": "2026-11-13T03:28:14.880057+00:00",
+        "checked_at": "2026-11-13T15:23:04.311088+00:00",
         "evidence": [
           "Multiple repository candidates require review: https://github.com/robbyant-research/DKWBC, https://github.com/nv-tlabs/ardy"
         ]
@@ -1446,7 +1496,7 @@
         "repository_url": null,
         "status": "coming_soon",
         "status_label": "Coming soon / 代码待发布",
-        "checked_at": "2026-11-13T03:28:14.953816+00:00",
+        "checked_at": "2026-11-13T15:23:04.453337+00:00",
         "evidence": [
           "Publication/project page: Code (Coming Soon"
         ]
@@ -1458,7 +1508,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:15.039928+00:00",
+        "checked_at": "2026-11-13T15:23:04.787468+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1470,7 +1520,7 @@
         "repository_url": null,
         "status": "coming_soon",
         "status_label": "Coming soon / 代码待发布",
-        "checked_at": "2026-11-13T03:28:15.086646+00:00",
+        "checked_at": "2026-11-13T15:23:04.957421+00:00",
         "evidence": [
           "Publication/project page: Code Coming soon"
         ]
@@ -1482,7 +1532,7 @@
         "repository_url": null,
         "status": "no_repository",
         "status_label": "Project page only / 项目页未发现仓库",
-        "checked_at": "2026-11-13T03:28:15.162406+00:00",
+        "checked_at": "2026-11-13T15:23:05.219042+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1494,7 +1544,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:15.275586+00:00",
+        "checked_at": "2026-11-13T15:23:05.634987+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1506,7 +1556,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:15.307444+00:00",
+        "checked_at": "2026-11-13T15:23:05.690369+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1518,7 +1568,7 @@
         "repository_url": null,
         "status": "unknown",
         "status_label": "Needs review / 访问失败或证据不足",
-        "checked_at": "2026-11-13T03:28:15.345476+00:00",
+        "checked_at": "2026-11-13T15:23:05.740076+00:00",
         "evidence": [
           "Project page has insufficient readable content; may require JavaScript",
           "Link discovery incomplete; absence of code cannot be confirmed"
@@ -1531,7 +1581,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:15.480114+00:00",
+        "checked_at": "2026-11-13T15:23:05.918347+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1543,7 +1593,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:15.526715+00:00",
+        "checked_at": "2026-11-13T15:23:05.964152+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1555,7 +1605,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:15.575045+00:00",
+        "checked_at": "2026-11-13T15:23:06.017837+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1567,7 +1617,7 @@
         "repository_url": null,
         "status": "no_repository",
         "status_label": "Project page only / 项目页未发现仓库",
-        "checked_at": "2026-11-13T03:28:15.633625+00:00",
+        "checked_at": "2026-11-13T15:23:06.150607+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1579,7 +1629,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T03:28:15.714326+00:00",
+        "checked_at": "2026-11-13T15:23:06.339026+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1953,300 +2003,364 @@
         "title": "Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:08.649314+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.36615",
         "title": "HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos",
-        "project_url": null,
-        "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "project_url": "https://aioznetwork.github.io/HumiMimic/",
+        "repository_url": "https://github.com/AIOZNetwork/HumiMimic",
+        "status": "empty",
+        "status_label": "Placeholder or no implementation detected / 占位仓库或未检测到实现",
+        "checked_at": "2026-11-13T15:23:08.770745+00:00",
+        "evidence": [
+          "No implementation files detected (documentation/assets only); review required"
+        ]
       },
       {
         "arxiv_id": "2610.36825",
         "title": "HC2Robot: Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:09.991821+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.36789",
         "title": "A fully articulated humanoid dexterous hand with human-level joint structure enabled by linkage-based actuation",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:10.128116+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.36546",
         "title": "REACH: An RL-based Hierarchical Humanoid Crawling Framework for Adaptable Confined Space Traversal",
-        "project_url": null,
+        "project_url": "https://aislab-sustech.github.io/REACH/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T15:23:10.175457+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.36507",
         "title": "GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers",
-        "project_url": null,
+        "project_url": "https://graft-humanoid.github.io/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T15:23:10.556692+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.36452",
         "title": "Whole-Body Humanoid Control via Stochastic Motion Tokenization",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:10.794108+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.36270",
         "title": "Learning Multi-Phase Robot Loco-Manipulation via Phase-Conditioned Policy Optimization",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:10.844158+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.35862",
         "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
-        "project_url": null,
-        "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "project_url": "https://louis-leee.github.io/FLoRe/",
+        "repository_url": "https://github.com/amazon-far/FLoRe",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-13T15:23:10.892930+00:00",
+        "evidence": [
+          "Detected 113 source files; examples: flore/client/s0_driver.py, flore/s1_policy/data/hl_dataset.py, flore/s1_policy/data/layout.py, flore/s1_policy/data/norm_stats.py, flore/s1_policy/data/transforms.py",
+          "Completeness, dependencies, training assets and reproducibility have not been verified"
+        ]
       },
       {
         "arxiv_id": "2610.35075",
         "title": "Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data",
-        "project_url": null,
-        "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "project_url": "https://young-bit.github.io/zero-hlm/",
+        "repository_url": "https://github.com/BIGAI-General-Vision-Lab/Zero-HLM-Bench",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-13T15:23:13.608617+00:00",
+        "evidence": [
+          "Detected 110 source files; examples: integrations/groot/gr00t/configs/base_config.py, integrations/groot/gr00t/configs/data/data_config.py, integrations/groot/gr00t/configs/data/embodiment_configs.py, integrations/groot/gr00t/configs/model/gr00t_n1d7.py, integrations/groot/gr00t/configs/training/training_config.py",
+          "Completeness, dependencies, training assets and reproducibility have not been verified"
+        ]
       },
       {
         "arxiv_id": "2610.34740",
         "title": "Networked Humanoid Intelligence: Communication, Coordination, Collaboration, and Social Interaction",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:15.403073+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.34370",
         "title": "ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:15.451572+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.34186",
         "title": "HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:15.501211+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.34126",
         "title": "HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:15.548423+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.33508",
         "title": "MimicAll: Structured Embodiment Conditioning for Cross-Humanoid Whole-Body Motion Tracking",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:15.594840+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.33446",
         "title": "MOTIO: Agentic Skill Engineering for Reality-Grounded Humanoid Loco-Manipulation",
-        "project_url": null,
+        "project_url": "https://iiiiqiiii.github.io/motio/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T15:23:15.639619+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.33317",
         "title": "Active Reachability Learning for Humanoid Recoverability Monitoring",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:15.945779+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.33172",
         "title": "RAIWAY: A Large-Wheeled Bipedal Robot with Contact-Informed Blind Locomotion",
-        "project_url": null,
+        "project_url": "https://www.youtube.com/watch?v=Ch0divLg64w&feature=youtu.be",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-13T15:23:15.993256+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.32966",
         "title": "ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback",
-        "project_url": null,
-        "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "project_url": "https://awfuact.github.io/vit-h/",
+        "repository_url": "https://github.com/mileret/ViT-H-release",
+        "status": "partial",
+        "status_label": "Partial release / 部分代码或资源待发布",
+        "checked_at": "2026-11-13T15:23:16.773445+00:00",
+        "evidence": [
+          "README: [ ] Release deployment code",
+          "Detected 123 source files"
+        ]
       },
       {
         "arxiv_id": "2610.32909",
         "title": "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:17.989386+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.32460",
         "title": "CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:18.038195+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.32277",
         "title": "Delay Randomization Widens the Delay Margin of Learned Humanoid Motion Trackers",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:18.085808+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.31923",
         "title": "Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:18.132033+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.31608",
         "title": "Humanoid Mobility via Attention-based Contacts",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:18.246220+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.31166",
         "title": "Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation",
-        "project_url": null,
-        "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "project_url": "https://memory-before-goal.github.io/",
+        "repository_url": "https://github.com/crystalccy1/MemoryBeforeGoal",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-13T15:23:18.294253+00:00",
+        "evidence": [
+          "Detected 187 source files; examples: examples/replay_episode.py, real/deploy/client/core.py, real/deploy/client/run_client.py, real/deploy/client/sources.py, real/deploy/client/test_client.py",
+          "Completeness, dependencies, training assets and reproducibility have not been verified"
+        ]
       },
       {
         "arxiv_id": "2610.30876",
         "title": "LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:19.500673+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.30540",
         "title": "Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:19.550149+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.30334",
         "title": "MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:19.675357+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.30080",
         "title": "Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer",
         "project_url": null,
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-13T15:23:19.723471+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
       },
       {
         "arxiv_id": "2610.30061",
         "title": "Test-Time Motion Steering for Perceptive Humanoid Fall Recovery",
-        "project_url": null,
+        "project_url": "https://osheraz.github.io/RISE/",
         "repository_url": null,
-        "status": "unverified",
-        "status_label": "Unverified / 未核验",
-        "checked_at": null,
-        "evidence": []
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-13T15:23:19.840096+00:00",
+        "evidence": [
+          "Publication/project page: Code   Coming soon"
+        ]
       },
       {
         "arxiv_id": "2610.30044",

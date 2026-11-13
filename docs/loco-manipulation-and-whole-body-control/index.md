@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**328 papers** in this category.
+**330 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (16 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (18 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -40,6 +40,67 @@
 ---
 
 ## Recent Papers
+
+## 🌟 FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.17142)
+- **Project:** [Project page](https://bb0928.github.io/forge/)
+- **Repository:** [Code](https://github.com/bb0928/FORGE)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 34 source files; examples: legged_gym_repo/legged_gym/envs/base/base_config.py, legged_gym_repo/legged_gym/envs/base/base_task.py, legged_gym_repo/legged_gym/envs/base/legged_robot.py, legged_gym_repo/legged_gym/envs/base/legged_robot_config.py, legged_gym_repo/legged_gym/envs/g1/base.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
+- **Authors:** Liangjun Xing, Ke Fan, Kailin Li, Bin Wang, Xiaojie Niu, Qingwei Ben et al. (11 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Navigation
+  - Simulator
+  - Humanoid
+  - Proprioception
+  - Diffusion
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires coordinated locomotion, balance regulation, and manipulation under frequent contacts, making teleoperated demonstration collection difficult: a practical controller must simultaneously provide precision, stability, and contact awareness. We propose FORGE, a force-aware multi-granularity control system with a coarse-to-fine command space spanning velocity navigation, planar foot placement, wrist-pose tracking, and optional force-conditioning inputs.
+
+---
+
+## PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.16188)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Shangchao Hu, Yadan Sun, Xibo Yu, Wei Huang
+- **Published:** 2026-11
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Walking
+  - Fine-tuning
+  - Loco-Manipulation and Whole-Body Control
+  - Locomotion
+
+### Summary
+
+Motion imitation enables humanoid robots to acquire whole-body skills such as walking and dancing. However, fine-tuning an entire policy for a new skill can affect existing behaviors, while training a separate policy for each skill increases training and maintenance costs.
+
+---
 
 ## PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach
 
@@ -548,61 +609,5 @@ Humanoid robots operating in shared, dynamic environments must respond to rapidl
 ### Summary
 
 We test whether Koopman structure helps a differentiable world model used to train a simulated Unitree G1 whole-body tracking policy by backpropagation through imagined rollouts, replacing the MLP world model of an otherwise unchanged pipeline. It does not: return is at best equal (0.823 versus 0.830), one-step error on identical data is 1.3 to 1.6 times the MLP's, and training is about 15% slower.
-
----
-
-## Anchor 1: Precise and Stable Humanoid Control for Whole-Body Manipulation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.00193)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Archon Robotics,  :, Caojun Wang, Checheng Yu, Gangcheng Jiang, Guangjun Zeng et al. (27 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Manipulation
-  - Humanoid
-  - Benchmark
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid controllers have acquired increasingly diverse motor skills, yet translating these capabilities into precise and stable whole-body manipulation remains challenging. Manipulation tasks are sensitive to execution deviations -- even small errors or unintended steps can cause failure.
-
----
-
-## REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.42053)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Pengfei Zhou, Yixing Ma, Zhengfeiyang Zhang, Haoyuan Chen, Zhenglin Wan, Hexin Wang et al. (8 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Foundation Model
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize.
 
 ---

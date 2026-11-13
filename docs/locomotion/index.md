@@ -1,10 +1,10 @@
 # Locomotion
 
-**250 papers** in this category.
+**252 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (9 papers)
+- [2026-11](/locomotion/2026-11) (11 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -41,6 +41,61 @@
 ---
 
 ## Recent Papers
+
+## 🌟 BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.16422)
+- **Repository:** [Code](https://github.com/fuyichen0725/blinkmimic)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 26 source files; examples: src/blinkmimic/buffer.py, src/blinkmimic/dr.py, src/blinkmimic/env.py, src/blinkmimic/evaluate.py, src/blinkmimic/g1/g1_constants.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
+- **Authors:** Fuyi Chen
+- **Published:** 2026-11
+- **Tags:**
+  - World Model
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Whole-body motion tracking lets a humanoid robot follow reference motions, but training a tracking policy for a library of motions has usually taken hours of GPU time. SuperMimic showed that the policy can instead be trained by backpropagating through a world model learned from parallel simulation, and InstantTrack added Muon updates, a residual policy around the reference and an averaged deployed policy.
+
+---
+
+## Runtime Safety and Emergency Stops on a Full-Size Humanoid: Deployment Lessons and a Case for Graduated Force Authority
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.15928)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Max Conway, Yutong Zhang, Allen Devaraj, William Xie, Alessandro Roncone, Nikolaus Correll
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Safety
+  - Humanoid
+  - Walking
+  - GAN
+  - Locomotion
+
+### Summary
+
+Full-size humanoid robots are being considered for hazardous industrial work such as disassembling electric-vehicle batteries. We describe the safety mechanisms of an open-source autonomy stack for the Unitree H1-2 humanoid and what deploying them taught us.
+
+---
 
 ## From a Single RGB Image to Robot Execution: Metric Scene Alignment and Contact-Guided Retargeting
 
@@ -429,7 +484,15 @@ Motion retargeting maps a demonstrated human movement onto a robot to compute it
 ## Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.37330)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Hanwen Ren, Meng Zheng, Wenzhe Cui, Benjamin Planche, Zhongpai Gao, Anwesa Choudhuri et al. (8 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -450,7 +513,15 @@ Vision-language-action (VLA) models provide a promising paradigm for scalable ro
 ## HC2Robot: Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36825)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Wenhao Xu, Yanheng Mai, Yifei Fu, Nan Zheng, Yanbo Zhou, Zirui Huang et al. (9 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -471,7 +542,16 @@ Humanoid parkour requires robots to reason about future footholds and whole-body
 ## REACH: An RL-based Hierarchical Humanoid Crawling Framework for Adaptable Confined Space Traversal
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36546)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://aislab-sustech.github.io/REACH/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Shengzhang Xu, Yuning Guo, Weiyi Hu, Yifeng Xu, Zhongyu Li, He Kong
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -492,7 +572,16 @@ Humanoid locomotion in confined spaces requires continuous height adaptation acr
 ## GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36507)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://graft-humanoid.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Liang Li, Guoyao Zhang, Xingyu Chen, Sikai Wu, Qianyang Wu, Yuhang Lin et al. (9 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -506,44 +595,5 @@ Humanoid locomotion in confined spaces requires continuous height adaptation acr
 ### Summary
 
 Humanoid behavior foundation models (BFMs) provide reusable whole-body motion priors: given a kinematic reference, they generate coordinated joint commands for motion replay, teleoperation, and VLA control. However, trained primarily on flat-ground motion, BFMs lack an explicit mechanism to adapt foot placement, swing clearance, and contact timing to local terrain.
-
----
-
-## Active Reachability Learning for Humanoid Recoverability Monitoring
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.33317)
-- **Code status:** Unverified / 未核验
-- **Authors:** Zeyuan Feng, Baljeet Singh, Sarthak Ranjeet Kaingade, Somil Bansal, Bryan Trinh
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Zero-Shot
-  - Humanoid
-  - Benchmark
-  - PPO
-  - Locomotion
-
-### Summary
-
-Deploying humanoid task policies requires reliable runtime monitors that anticipate unrecoverable falls in time to trigger a fallback. We formulate this task as learning the stochastic, finite-horizon recoverability envelope of a given fallback policy.
-
----
-
-## RAIWAY: A Large-Wheeled Bipedal Robot with Contact-Informed Blind Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.33172)
-- **Code status:** Unverified / 未核验
-- **Authors:** Kyungmin Nam, Jiseong Lee, Donghyuk Choi, Jeongsoo Park, Woojin Kim, Jemin Hwangbo
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Figure
-- **Tags:**
-  - Locomotion
-  - Biped
-  - Proprioception
-  - State Estimation
-
-### Summary
-
-We present RAIWAY, an in-house wheeled bipedal robot with 20-inch wheels, together with a contact-informed control approach for rolling locomotion across irregular and discontinuous terrain. Such locomotion is fundamentally contact-dominated, governed by local wheel--terrain interaction that is impractical to instrument directly and depends on more than terrain geometry alone.
 
 ---

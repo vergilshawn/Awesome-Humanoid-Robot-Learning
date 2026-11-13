@@ -488,7 +488,17 @@ Humanoids have become increasingly agile and capable in real-world environments.
 ## HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36615)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://aioznetwork.github.io/HumiMimic/)
+- **Repository:** [Code](https://github.com/AIOZNetwork/HumiMimic)
+- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No implementation files detected (documentation/assets only); review required
+
+</details>
+
 - **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (12 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅
@@ -509,7 +519,16 @@ Enabling a humanoid to interact naturally with human partners requires preservin
 ## REACH: An RL-based Hierarchical Humanoid Crawling Framework for Adaptable Confined Space Traversal
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36546)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://aislab-sustech.github.io/REACH/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Shengzhang Xu, Yuning Guo, Weiyi Hu, Yifeng Xu, Zhongyu Li, He Kong
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -530,7 +549,16 @@ Humanoid locomotion in confined spaces requires continuous height adaptation acr
 ## GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36507)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://graft-humanoid.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Liang Li, Guoyao Zhang, Xingyu Chen, Sikai Wu, Qianyang Wu, Yuhang Lin et al. (9 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -550,7 +578,15 @@ Humanoid behavior foundation models (BFMs) provide reusable whole-body motion pr
 ## Whole-Body Humanoid Control via Stochastic Motion Tokenization
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36452)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Michael Drolet, Oleg Arenz, Jan Peters
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -567,10 +603,21 @@ While velocity-commanded RL policies are effective for controlling quadrupeds, t
 
 ---
 
-## Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data
+## 🌟 Zero-HLM: Generalizable Humanoid Loco-Manipulation without Real Robot Data
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.35075)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://young-bit.github.io/zero-hlm/)
+- **Repository:** [Code](https://github.com/BIGAI-General-Vision-Lab/Zero-HLM-Bench)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 110 source files; examples: integrations/groot/gr00t/configs/base_config.py, integrations/groot/gr00t/configs/data/data_config.py, integrations/groot/gr00t/configs/data/embodiment_configs.py, integrations/groot/gr00t/configs/model/gr00t_n1d7.py, integrations/groot/gr00t/configs/training/training_config.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Dianyi Yang, Mengya Liu, Zhumei Wang, Yu Liu, Xiaochen Zhang, Yixuan Li et al. (12 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -591,7 +638,15 @@ Learning generalizable humanoid loco-manipulation remains bottlenecked by costly
 ## HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.34186)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yang Liu, Jiacheng Liu, Hengtao Li, Yuheng Huang, Zijian Yang, Ji Dai et al. (17 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -614,7 +669,15 @@ Extending Vision-Language-Action models (VLAs) to humanoid robots requires coord
 ## HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.34126)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Chao Chen, Zhenrong Wang, Jilong Wang, Yusen Feng, Jiangran Lyu, Li Yi et al. (7 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -632,7 +695,15 @@ Humanoid robots have recently achieved remarkable success in motion tracking. Ho
 ## Active Reachability Learning for Humanoid Recoverability Monitoring
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.33317)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Zeyuan Feng, Baljeet Singh, Sarthak Ranjeet Kaingade, Somil Bansal, Bryan Trinh
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -652,7 +723,16 @@ Deploying humanoid task policies requires reliable runtime monitors that anticip
 ## RAIWAY: A Large-Wheeled Bipedal Robot with Contact-Informed Blind Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.33172)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://www.youtube.com/watch?v=Ch0divLg64w&feature=youtu.be)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Kyungmin Nam, Jiseong Lee, Donghyuk Choi, Jeongsoo Park, Woojin Kim, Jemin Hwangbo
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Figure
@@ -671,7 +751,15 @@ We present RAIWAY, an in-house wheeled bipedal robot with 20-inch wheels, togeth
 ## CoCarry: Contact-Support-Structured Retargeting for Dual-Humanoid Cooperative Carrying
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.32460)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Ziyu Lin, Shihang Du, Tianhang Wang, Xiaodong Liu, Runze Zhang, Zongyou Yu et al. (9 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -693,7 +781,15 @@ Recent advances in large-scale human motion data, motion retargeting, and motion
 ## Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.31923)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Tiffany Bao, Shangtao Li, Yifan Sun, Mengwen He, Bowei Li, Alden Wang et al. (9 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Figure
@@ -710,10 +806,21 @@ As humanoid robots move from research laboratories toward deployment in human-ce
 
 ---
 
-## Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation
+## 🌟 Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.31166)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://memory-before-goal.github.io/)
+- **Repository:** [Code](https://github.com/crystalccy1/MemoryBeforeGoal)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 187 source files; examples: examples/replay_episode.py, real/deploy/client/core.py, real/deploy/client/run_client.py, real/deploy/client/sources.py, real/deploy/client/test_client.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Chenyuan Chen, Ran Ding, Lechen Zhang, Zewen He, Yoshihiko Nakamura
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -735,7 +842,15 @@ Humanoid loco-manipulation in dynamic scenes is non-Markovian: cues vanish as ob
 ## Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.30540)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Xiongbo Shi, Shihang Du, Zongyou Yu, Ziyu Lin, Ao Zhou, Xudong Zhang et al. (9 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -758,7 +873,16 @@ Human motion retargeting bridges the embodiment gap between humans and humanoid 
 ## Test-Time Motion Steering for Perceptive Humanoid Fall Recovery
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.30061)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://osheraz.github.io/RISE/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code   Coming soon
+
+</details>
+
 - **Authors:** Osher Azulay, Cheng-Lin Hsieh, Stella X. Yu
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1

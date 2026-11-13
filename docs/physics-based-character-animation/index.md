@@ -75,7 +75,17 @@ Humanoid loco-manipulation requires continuous coordination of high-dimensional 
 ## HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36615)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://aioznetwork.github.io/HumiMimic/)
+- **Repository:** [Code](https://github.com/AIOZNetwork/HumiMimic)
+- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No implementation files detected (documentation/assets only); review required
+
+</details>
+
 - **Authors:** Nghia Le, Khang Nguyen, Ba Long Tran, Thi Quynh Nhu Pham, Binh Nguyen, Tuong Do et al. (12 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅

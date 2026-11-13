@@ -119,7 +119,15 @@ We present SONIC-K1, to our knowledge the first open-weights whole-body motion t
 ## Networked Humanoid Intelligence: Communication, Coordination, Collaboration, and Social Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.34740)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Loc X. Nguyen, Huy Q. Le, Ji Su Yoon, Nguyen H. Tran, Eui-Nam Huh, Choong Seon Hong
 - **Published:** 2026-10
 - **Tags:**

@@ -81,7 +81,18 @@ Social touch interactions, such as handshakes, fist bumps, and hugs, require hum
 ## ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.32966)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://awfuact.github.io/vit-h/)
+- **Repository:** [Code](https://github.com/mileret/ViT-H-release)
+- **Code status:** Partial release / 部分代码或资源待发布
+- **Code checked:** 2026-11-13
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- README: [ ] Release deployment code
+- Detected 123 source files
+
+</details>
+
 - **Authors:** Zimo He, Tianyi Bian, Zizhong Yang, Hongjie Li, Nan Jiang, Jieming Cui et al. (10 authors)
 - **Published:** 2026-10
 - **Tags:**
