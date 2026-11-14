@@ -35,7 +35,7 @@
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.10872)
 - **Project:** [Project page](https://ember-center-berkeley.github.io/DreamVLA/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 

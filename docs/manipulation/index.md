@@ -40,7 +40,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11854)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -145,7 +145,16 @@ Humanoid dexterous hands are a core component of embodied intelligence, enabling
 ## PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.29030)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://www.linkedin.com/posts/neeladwani_humanoids2026-robotics-humanoidrobots-ugcPost-7514419716610797568-7apZ/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7514419822374559744&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAABtRrmIBntFjKL2yy-iArTo9aTDQ0oLPOcA)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Neel Adwani, Muhaiminul Islam Akash, Saffia Ouali, Ethan Liu, Cong Wang
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Digit
@@ -163,7 +172,16 @@ Currently, dexterous humanoid robot hands are widely considered the final hardwa
 ## COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.28948)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://cowboy-manip.com/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jiahui Yang, Jason Jingzhou Liu, Ray Muxin Liu, Andrew E. Wang, Kenneth Shaw, Deepak Pathak et al. (7 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -183,7 +201,16 @@ Mobile manipulators must adapt not only to objects, but also to the spatial cont
 ## EmbodyHOI: Embodiment-Aware Generation of Hand-Object Interactions for Humanoid Dexterous Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.27242)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://embodyhoi.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Chaitanya Chawla, Kartik Sharma, Ananya Bal, Laszlo A. Jeni, Guanya Shi
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -201,8 +228,18 @@ Humanoid dexterous manipulation needs reference motions that are both semantical
 ## Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.26855)
-- **Project:** [Project page](https://github.com/Ropedia/ropedia-w0)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://ropedia.github.io/ropedia-w0/)
+- **Repository:** [Code](https://github.com/Ropedia/ropedia-w0)
+- **Code status:** Partial release / 部分代码或资源待发布
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- README: [ ] Release A14B checkpoints and inference code
+- Detected 48 source files
+
+</details>
+
 - **Authors:** Tianqi Liu, Hanfei Zhao, Qifeng Liang, Hui En Pang, Jiarui Xu, Sayang Mu et al. (15 authors)
 - **Published:** 2026-10
 - **Tags:**

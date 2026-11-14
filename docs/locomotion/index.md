@@ -47,7 +47,7 @@
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16422)
 - **Repository:** [Code](https://github.com/fuyichen0725/blinkmimic)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -73,7 +73,7 @@ Whole-body motion tracking lets a humanoid robot follow reference motions, but t
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15928)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -101,7 +101,7 @@ Full-size humanoid robots are being considered for hazardous industrial work suc
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14981)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -127,7 +127,7 @@ Extending humanoid interaction generation to new environments remains limited by
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
 - **Project:** [Project page](https://ihcr.github.io/AHEADance/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -152,7 +152,7 @@ A humanoid that dances to streamed music must commit each motion chunk before it
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08857)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -179,7 +179,7 @@ Learning locomotion directly on a humanoid robot is a promising direction to avo
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08097)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -203,7 +203,7 @@ For perceptive humanoid locomotion, the relevance of terrain geometry depends on
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07679)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 

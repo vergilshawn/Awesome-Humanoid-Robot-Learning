@@ -22,7 +22,7 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -47,7 +47,7 @@ Humanoid motion tracking is fundamental to reproducing human motions on humanoid
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -77,7 +77,7 @@ In recent years, humanoid loco-manipulation has progressed to whole-body graspin
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
 - **Project:** [Project page](https://ihcr.github.io/AHEADance/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -104,7 +104,7 @@ A humanoid that dances to streamed music must commit each motion chunk before it
 - **Project:** [Project page](https://robbyant-research.github.io/LHNav/)
 - **Repository:** [Code](https://github.com/robbyant-research/LHNav)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -138,7 +138,7 @@ We study humanoid navigation across multiple destinations under long-horizon lan
 - **Project:** [Project page](https://kimodo-policy.github.io/)
 - **Repository:** [Code](https://github.com/kimodo-policy/kimodo-policy)
 - **Code status:** Partial release / 部分代码或资源待发布
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -170,7 +170,7 @@ Humanoid loco-manipulation requires continuous coordination of high-dimensional 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -201,7 +201,7 @@ We present a pipeline for transferring Awa Odori, a traditional Japanese festiva
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08664)
 - **Project:** [Project page](https://roboforpc.github.io/)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -233,7 +233,7 @@ Humanoid robots are expected to take over strenuous material handling in manufac
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08407)
 - **Project:** [Project page](https://von31.github.io/social-humanoid/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -261,7 +261,7 @@ Humanoid robots are typically trained as solitary agents, leaving them unable to
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07712)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -287,7 +287,7 @@ Social touch interactions, such as handshakes, fist bumps, and hugs, require hum
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07679)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -901,7 +901,16 @@ Humanoid fall recovery requires selecting a motion that suits both the surroundi
 ## PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.29030)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://www.linkedin.com/posts/neeladwani_humanoids2026-robotics-humanoidrobots-ugcPost-7514419716610797568-7apZ/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7514419822374559744&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAABtRrmIBntFjKL2yy-iArTo9aTDQ0oLPOcA)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Neel Adwani, Muhaiminul Islam Akash, Saffia Ouali, Ethan Liu, Cong Wang
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Digit
@@ -916,10 +925,21 @@ Currently, dexterous humanoid robot hands are widely considered the final hardwa
 
 ---
 
-## Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning
+## 🌟 Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.28470)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://daroslab.github.io/frdv/)
+- **Repository:** [Code](https://github.com/DARoSLab/FRDV)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 48 source files; examples: src/frdv/_fused.py, src/frdv/_jit.py, src/frdv/_jit_kernels.py, src/frdv/_native.c, src/frdv/_native.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Daniel Marew, Sangjun Park, Nisal Perera, Donghyun Kim
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -942,7 +962,16 @@ While large-scale human motion capture datasets provide a rich source of demonst
 ## EmbodyHOI: Embodiment-Aware Generation of Hand-Object Interactions for Humanoid Dexterous Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.27242)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://embodyhoi.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Chaitanya Chawla, Kartik Sharma, Ananya Bal, Laszlo A. Jeni, Guanya Shi
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -960,7 +989,15 @@ Humanoid dexterous manipulation needs reference motions that are both semantical
 ## HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.26584)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Xinyuan Lv, Shuanghao Bai et al. (15 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅
@@ -980,7 +1017,15 @@ Humanoid robots hold great promise as general-purpose agents in human-centered e
 ## Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.26170)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Keyhan Rayati, AliReza Beigy, Anoosheh Saadati, Pourya Shahverdi, Mehdi Tale Masouleh, Ahmad Kalhor et al. (7 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — NAO
@@ -1001,7 +1046,16 @@ Learning from Demonstration (LfD) allows robots to learn new skills from human e
 ## OmniInteract: Towards Unified Whole-Body Interaction Control for Dual Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.26043)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://calvinyhli.github.io/omniinteract.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yinghao Li, Tianyu Zhang, Zhuohao Li, Yi-Lin Wei, Fa-Ting Hong, Qing Zhang et al. (7 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Figure
@@ -1020,7 +1074,15 @@ Physical interaction is a key capability for humanoid collaboration, requiring c
 ## DiPLO: Self-distilled Diffusion Planning for Loco-manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.24847)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Shafeef Omar, Sebastian Sanokowski, Elham Daneshmand, Dian Yu, Daniel Cremers, Cordelia Schmid et al. (7 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -1043,7 +1105,18 @@ Humanoid loco-manipulation is particularly challenging because it requires coord
 ## Action-Aligned Latent Planning for Versatile Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.24675)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://fiberaa.github.io/)
+- **Repository:** [Code](https://github.com/Yutang-Lin/FIBER)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- README: Code coming soon
+- Detected 0 source files
+
+</details>
+
 - **Authors:** Yutang Lin, Guanya Shi, C. Karen Liu
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -1065,7 +1138,15 @@ Learning a single perceptive policy for diverse humanoid loco-manipulation requi
 ## CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.23288)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Zicheng Liu, Haochen Wu, Jiawei He, Suyun Zhao, Huan Yang, Cheng Chi et al. (7 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1

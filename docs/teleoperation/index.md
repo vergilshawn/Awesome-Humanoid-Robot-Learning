@@ -31,7 +31,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -56,7 +56,7 @@ Humanoid motion tracking is fundamental to reproducing human motions on humanoid
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07712)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -107,10 +107,21 @@ Learning humanoid control from monocular human videos offers a scalable way to a
 
 ---
 
-## HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking
+## 🌟 HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.29903)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://xiaohu-art.github.io/Track/)
+- **Repository:** [Code](https://github.com/xiaohu-art/Track)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 7 source files; examples: scripts/load_npz.py, scripts/load_pkl.py, src/track/command.py, src/track/observation.py, src/track/reward.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Liu Cao, Botian Xu, Ruoqu Chen, Jiajun Liu, Mingzhi Pei, Zihao Wang et al. (8 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -129,7 +140,17 @@ Real-time whole-body humanoid teleoperation remains challenging due to the compu
 ## SMR: Learning streaming motion retargeting for humanoids from human semantic
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.29169)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://logosintelligencelab.github.io/SMR/)
+- **Repository:** [Code](https://github.com/LogosIntelligenceLab/SMR)
+- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No implementation files detected (documentation/assets only); review required
+
+</details>
+
 - **Authors:** Chun Gu, Juntong Zhang, Jingyu Li, Li Zhang
 - **Published:** 2026-10
 - **Tags:**
@@ -150,7 +171,15 @@ Retargeting human motion to humanoids requires preserving motion semantics while
 ## Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.28712)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Keigo Minamida, Koya Dendo, Yuto Nakamura, Jun Rekimoto
 - **Published:** 2026-10
 - **Tags:**
@@ -164,10 +193,21 @@ First-person humanoid teleoperation ties access to side and rear targets to oper
 
 ---
 
-## Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning
+## 🌟 Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.28470)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://daroslab.github.io/frdv/)
+- **Repository:** [Code](https://github.com/DARoSLab/FRDV)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 48 source files; examples: src/frdv/_fused.py, src/frdv/_jit.py, src/frdv/_jit_kernels.py, src/frdv/_native.c, src/frdv/_native.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Daniel Marew, Sangjun Park, Nisal Perera, Donghyun Kim
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -190,7 +230,16 @@ While large-scale human motion capture datasets provide a rich source of demonst
 ## Evaluating Lightweight Contact Feedback in Dual-Operator Collaborative Humanoid Teleoperation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.24257)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://xrt-teleop.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Austin Graves, Chuizheng Kong, Yunho Cho, Yuanshao Yang, Advaith Nidumukkala, Shreyas Kousik et al. (7 authors)
 - **Published:** 2026-10
 - **Tags:**

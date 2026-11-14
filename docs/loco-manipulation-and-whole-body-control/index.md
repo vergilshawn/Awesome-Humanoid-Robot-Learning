@@ -47,7 +47,7 @@
 - **Project:** [Project page](https://bb0928.github.io/forge/)
 - **Repository:** [Code](https://github.com/bb0928/FORGE)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -78,7 +78,7 @@ Humanoid loco-manipulation requires coordinated locomotion, balance regulation, 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16188)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -106,7 +106,7 @@ Motion imitation enables humanoid robots to acquire whole-body skills such as wa
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15117)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -137,7 +137,7 @@ Quadrupedal mobile manipulators can extend their manipulation workspace by coord
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14049)
 - **Project:** [Project page](https://xiaopeng-whu.github.io/RedirectMimic/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -162,7 +162,7 @@ Humanoid motion interfaces should accommodate application-specific movement cons
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -191,7 +191,7 @@ In recent years, humanoid loco-manipulation has progressed to whole-body graspin
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -222,7 +222,7 @@ We present a pipeline for transferring Awa Odori, a traditional Japanese festiva
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.09605)
 - **Project:** [Project page](https://robbyant-research.github.io/DKWBC/)
 - **Code status:** Needs review / 访问失败或证据不足
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -251,7 +251,7 @@ Humanoid whole-body control requires a robot to track diverse reference motions 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.09266)
 - **Project:** [Project page](https://tianshuwu.github.io/sugarv2-humanoid/)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -282,7 +282,7 @@ Scaling up visual humanoid loco-manipulation skill acquisition requires reducing
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08664)
 - **Project:** [Project page](https://roboforpc.github.io/)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -314,7 +314,7 @@ Humanoid robots are expected to take over strenuous material handling in manufac
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08039)
 - **Project:** [Project page](https://hitch.axell.top/)
 - **Code status:** Needs review / 访问失败或证据不足
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -342,7 +342,7 @@ Enabling vision-language models (VLMs) to control humanoid robots requires both 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07560)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 

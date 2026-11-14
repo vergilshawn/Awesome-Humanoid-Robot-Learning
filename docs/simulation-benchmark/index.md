@@ -33,7 +33,7 @@
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08407)
 - **Project:** [Project page](https://von31.github.io/social-humanoid/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -145,7 +145,15 @@ Humanoid robots are moving from laboratory platforms toward connected fleets tha
 ## SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.24559)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jiancong Ma, Kun Li, Jin Jiang, Shengcai Liao
 - **Published:** 2026-10
 - **Tags:**

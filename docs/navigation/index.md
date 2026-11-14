@@ -34,7 +34,7 @@
 - **Project:** [Project page](https://robbyant-research.github.io/LHNav/)
 - **Repository:** [Code](https://github.com/robbyant-research/LHNav)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -66,7 +66,7 @@ We study humanoid navigation across multiple destinations under long-horizon lan
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11665)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 

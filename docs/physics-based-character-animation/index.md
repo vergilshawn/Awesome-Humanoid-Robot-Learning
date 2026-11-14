@@ -44,7 +44,7 @@
 - **Project:** [Project page](https://kimodo-policy.github.io/)
 - **Repository:** [Code](https://github.com/kimodo-policy/kimodo-policy)
 - **Code status:** Partial release / 部分代码或资源待发布
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -106,7 +106,15 @@ Enabling a humanoid to interact naturally with human partners requires preservin
 ## Beyond Human-Derived Motion: Exploring Robot-Specific Execution for Construction Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.24312)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-14
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** MinJun Chang, Taehyung Kim, Yong K. Cho, Francis Baek
 - **Published:** 2026-10
 - **Tags:**
