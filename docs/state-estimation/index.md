@@ -27,7 +27,7 @@
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15112)
 - **Repository:** [Code](https://github.com/yichg/elastra)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-14
+- **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -55,7 +55,7 @@ When robots interact with elastic surfaces such as mattresses and trampolines, c
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.10137)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-14
+- **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
 

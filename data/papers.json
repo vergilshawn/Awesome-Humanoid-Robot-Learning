@@ -11,7 +11,7 @@
       "Detected 34 source files; examples: legged_gym_repo/legged_gym/envs/base/base_config.py, legged_gym_repo/legged_gym/envs/base/base_task.py, legged_gym_repo/legged_gym/envs/base/legged_robot.py, legged_gym_repo/legged_gym/envs/base/legged_robot_config.py, legged_gym_repo/legged_gym/envs/g1/base.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-14T14:08:29.908479+00:00",
+    "code_checked_at": "2026-11-15T14:40:21.564740+00:00",
     "authors": [
       "Liangjun Xing",
       "Ke Fan",
@@ -63,7 +63,7 @@
       "Detected 26 source files; examples: src/blinkmimic/buffer.py, src/blinkmimic/dr.py, src/blinkmimic/env.py, src/blinkmimic/evaluate.py, src/blinkmimic/g1/g1_constants.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-14T14:08:31.548004+00:00",
+    "code_checked_at": "2026-11-15T14:40:23.197509+00:00",
     "authors": [
       "Fuyi Chen"
     ],
@@ -95,7 +95,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:32.204891+00:00",
+    "code_checked_at": "2026-11-15T14:40:24.099531+00:00",
     "authors": [
       "Shangchao Hu",
       "Yadan Sun",
@@ -134,7 +134,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:32.275538+00:00",
+    "code_checked_at": "2026-11-15T14:40:24.198638+00:00",
     "authors": [
       "Max Conway",
       "Yutong Zhang",
@@ -174,7 +174,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:32.344842+00:00",
+    "code_checked_at": "2026-11-15T14:40:24.458703+00:00",
     "authors": [
       "Heng Li",
       "Yang Li",
@@ -225,7 +225,7 @@
       "Detected 27 source files; examples: src/elastra/assets.py, src/elastra/config.py, src/elastra/evaluation.py, src/elastra/figures.py, src/elastra/host.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-14T14:08:32.416707+00:00",
+    "code_checked_at": "2026-11-15T14:40:24.584167+00:00",
     "authors": [
       "Youran Sun",
       "Chugang Yi",
@@ -263,7 +263,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:33.248436+00:00",
+    "code_checked_at": "2026-11-15T14:40:25.635088+00:00",
     "authors": [
       "ZhuoChang Cai",
       "Zihao Yan",
@@ -298,7 +298,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:33.280630+00:00",
+    "code_checked_at": "2026-11-15T14:40:25.692100+00:00",
     "authors": [
       "Zhenxuan Ding",
       "Yu Huang",
@@ -335,7 +335,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:33.316974+00:00",
+    "code_checked_at": "2026-11-15T14:40:25.804499+00:00",
     "authors": [
       "Zepeng Wang",
       "Xiaochuan Shi"
@@ -368,7 +368,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:33.402769+00:00",
+    "code_checked_at": "2026-11-15T14:40:25.971378+00:00",
     "authors": [
       "Xianghui Wang",
       "Aoran Fu",
@@ -410,7 +410,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:33.537922+00:00",
+    "code_checked_at": "2026-11-15T14:40:26.204282+00:00",
     "authors": [
       "Tianhu Peng",
       "Yukun Wang",
@@ -446,7 +446,7 @@
       "No implementation files detected (documentation/assets only); review required",
       "Publication/project page: coming soon Code"
     ],
-    "code_checked_at": "2026-11-14T14:08:33.672480+00:00",
+    "code_checked_at": "2026-11-15T14:40:26.452546+00:00",
     "authors": [
       "Xueyang Wang",
       "Zehong Shen",
@@ -492,7 +492,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:35.008887+00:00",
+    "code_checked_at": "2026-11-15T14:40:27.871861+00:00",
     "authors": [
       "Bingzhang Wang",
       "Nathan Zhao",
@@ -531,7 +531,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:35.041281+00:00",
+    "code_checked_at": "2026-11-15T14:40:27.950175+00:00",
     "authors": [
       "Ziwon Yoon",
       "Seok Hwan Kim",
@@ -571,7 +571,7 @@
       "README: Training & Evaluation (Coming Soon",
       "Detected 1172 source files"
     ],
-    "code_checked_at": "2026-11-14T14:08:35.080904+00:00",
+    "code_checked_at": "2026-11-15T14:40:28.029886+00:00",
     "authors": [
       "Yunheng Wang",
       "Jiaxi Zhang",
@@ -624,7 +624,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:36.032340+00:00",
+    "code_checked_at": "2026-11-15T14:40:29.503578+00:00",
     "authors": [
       "Hesham Shehata"
     ],
@@ -662,7 +662,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:36.236832+00:00",
+    "code_checked_at": "2026-11-15T14:40:29.595649+00:00",
     "authors": [
       "Kevin Park",
       "Izat Rasyad",
@@ -708,7 +708,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:36.493913+00:00",
+    "code_checked_at": "2026-11-15T14:40:29.980153+00:00",
     "authors": [
       "Yutian Chen",
       "Shibo Zhao",
@@ -754,7 +754,7 @@
     "code_evidence": [
       "Multiple repository candidates require review: https://github.com/robbyant-research/DKWBC, https://github.com/nv-tlabs/ardy"
     ],
-    "code_checked_at": "2026-11-14T14:08:36.527995+00:00",
+    "code_checked_at": "2026-11-15T14:40:30.058352+00:00",
     "authors": [
       "Dingkun Wei",
       "Zehong Shen",
@@ -797,7 +797,7 @@
     "code_evidence": [
       "Publication/project page: Code (Coming Soon"
     ],
-    "code_checked_at": "2026-11-14T14:08:36.592365+00:00",
+    "code_checked_at": "2026-11-15T14:40:30.192544+00:00",
     "authors": [
       "Tianshu Wu",
       "Tianxiang Gui",
@@ -845,7 +845,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-14T14:08:36.632473+00:00",
+    "code_checked_at": "2026-11-15T14:40:30.378459+00:00",
     "authors": [
       "Nico Bohlinger",
       "Jan Peters"
@@ -5011,12 +5011,15 @@
     "arxiv_id": "2610.23127",
     "title": "BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL",
     "paper_url": "https://arxiv.org/abs/2610.23127",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://ylyem9x.github.io/BeJEPA-project/",
+    "repository_url": "https://github.com/ylyem9x/BeJEPA-project",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 53 source files; examples: humanoidverse/agents/base.py, humanoidverse/agents/base_model.py, humanoidverse/agents/buffers/load_data.py, humanoidverse/agents/buffers/trajectory.py, humanoidverse/agents/buffers/transition.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-15T14:40:32.081852+00:00",
     "authors": [
       "Liyun Yan",
       "Haoyang Li",
@@ -5048,7 +5051,7 @@
       "Locomotion"
     ],
     "real_robot": false,
-    "open_source": false,
+    "open_source": true,
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Locomotion"
@@ -5059,10 +5062,12 @@
     "paper_url": "https://arxiv.org/abs/2610.22184",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "20 pages, 13 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:33.881478+00:00",
     "authors": [
       "Conor Mc Gartoll",
       "An Dang",
@@ -5102,10 +5107,12 @@
     "paper_url": "https://arxiv.org/abs/2610.22176",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:33.949981+00:00",
     "authors": [
       "James Foster",
       "Beomyeong Park",
@@ -5138,12 +5145,15 @@
     "arxiv_id": "2610.21515",
     "title": "TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion",
     "paper_url": "https://arxiv.org/abs/2610.21515",
-    "project_url": "https://github.com/multimodal-perception-action/trace",
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": null,
+    "repository_url": "https://github.com/Multimodal-Perception-Action/TRACE",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 66 source files; examples: bootstrap_env.py, converse.py, edit.py, render.py, run.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-15T14:40:34.036959+00:00",
     "authors": [
       "Zejian Kang",
       "Yifu Luo",
@@ -5172,7 +5182,7 @@
       "Physics-Based Character Animation"
     ],
     "real_robot": false,
-    "open_source": false,
+    "open_source": true,
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Physics-Based Character Animation"
@@ -5183,10 +5193,12 @@
     "paper_url": "https://arxiv.org/abs/2610.21152",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:35.315316+00:00",
     "authors": [
       "Zibo Zhou",
       "Yueru Chen",
@@ -5228,12 +5240,14 @@
     "arxiv_id": "2610.20606",
     "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
     "paper_url": "https://arxiv.org/abs/2610.20606",
-    "project_url": null,
+    "project_url": "https://humanoid-weight-diffusion.github.io/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Project page:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "Publication/project page: Code · coming soon"
+    ],
+    "code_checked_at": "2026-11-15T14:40:35.397004+00:00",
     "authors": [
       "Huixuan Cheng",
       "Bike Zhang",
@@ -5265,12 +5279,14 @@
     "arxiv_id": "2610.20579",
     "title": "PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination",
     "paper_url": "https://arxiv.org/abs/2610.20579",
-    "project_url": null,
+    "project_url": "https://www.archon.tech/research/pingpongduo",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "9 pages, 6 figures. Project page:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:35.736253+00:00",
     "authors": [
       "Haoran Jiang",
       "Yichao Zhong",
@@ -5305,12 +5321,14 @@
     "arxiv_id": "2610.20552",
     "title": "KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation",
     "paper_url": "https://arxiv.org/abs/2610.20552",
-    "project_url": null,
+    "project_url": "https://kinogen-humanoid.github.io/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "Publication/project page: Code coming soon"
+    ],
+    "code_checked_at": "2026-11-15T14:40:36.400570+00:00",
     "authors": [
       "Qi Wu",
       "Lulu Zhao",
@@ -5348,10 +5366,12 @@
     "paper_url": "https://arxiv.org/abs/2610.19393",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Under Review [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:36.624923+00:00",
     "authors": [
       "Lingfan Bao",
       "Hanshang Zhu",
@@ -5387,12 +5407,15 @@
     "arxiv_id": "2610.18991",
     "title": "Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control",
     "paper_url": "https://arxiv.org/abs/2610.18991",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://contact-uan.csail.mit.edu/",
+    "repository_url": "https://github.com/nolie-rolie/contact-uan",
+    "comments": "Project website:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 1071 source files; examples: deploy/base_controller.py, deploy/data_collector.py, deploy/deploy_force_control.py, deploy/deploy_jumping_track.py, deploy/deploy_velocity.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-15T14:40:36.691402+00:00",
     "authors": [
       "Nolan Fey",
       "Khai Nguyen",
@@ -5423,7 +5446,7 @@
       "State Estimation"
     ],
     "real_robot": true,
-    "open_source": false,
+    "open_source": true,
     "platform": null,
     "summary": "",
     "primary_category": "Hardware Design"
@@ -5432,12 +5455,14 @@
     "arxiv_id": "2610.18872",
     "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
     "paper_url": "https://arxiv.org/abs/2610.18872",
-    "project_url": null,
+    "project_url": "https://internrobotics.github.io/egoexplorer.github.io/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Project page:  this http URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "Publication/project page: code will be released"
+    ],
+    "code_checked_at": "2026-11-15T14:40:37.943658+00:00",
     "authors": [
       "Yunsong Zhou",
       "Xuekun Jiang",
@@ -5484,12 +5509,15 @@
     "arxiv_id": "2610.18950",
     "title": "$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
     "paper_url": "https://arxiv.org/abs/2610.18950",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://lambdahumanoid.github.io/",
+    "repository_url": "https://github.com/LambdaHumanoid/openlambda",
+    "comments": "Tech report, 24 pages [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 116 source files; examples: data_collection/human/data_alignment/src/correction/arm_ik.py, data_collection/human/data_alignment/src/correction/arm_trajectory.py, data_collection/human/data_alignment/src/correction/feet.py, data_collection/human/data_alignment/src/data/dataset.py, data_collection/human/data_alignment/src/data/reference.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-15T14:40:38.255804+00:00",
     "authors": [
       "Lambda-humanoid Team",
       " :",
@@ -5527,7 +5555,7 @@
       "Loco-Manipulation and Whole-Body Control"
     ],
     "real_robot": true,
-    "open_source": false,
+    "open_source": true,
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
@@ -5536,12 +5564,15 @@
     "arxiv_id": "2610.17999",
     "title": "TRACE: Efficient Transfer Learning for Neural Whole-Body Control Across Humanoid Embodiments",
     "paper_url": "https://arxiv.org/abs/2610.17999",
-    "project_url": null,
+    "project_url": "http://robot.TRACE",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "unknown",
+    "code_evidence": [
+      "Project page inspection failed: ConnectionError",
+      "Link discovery incomplete; absence of code cannot be confirmed"
+    ],
+    "code_checked_at": "2026-11-15T14:40:39.507660+00:00",
     "authors": [
       "Qingyu Lan",
       "Zhihao Tian",
@@ -5581,10 +5612,12 @@
     "paper_url": "https://arxiv.org/abs/2610.17232",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:39.609513+00:00",
     "authors": [
       "Shubham S. Kumbhar",
       "Panagiotis Artemiadis"
@@ -5615,10 +5648,12 @@
     "paper_url": "https://arxiv.org/abs/2610.16604",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:39.679624+00:00",
     "authors": [
       "Rohit Kumar",
       "Heiner Peters",
@@ -5649,12 +5684,15 @@
     "arxiv_id": "2610.16855",
     "title": "Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation",
     "paper_url": "https://arxiv.org/abs/2610.16855",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://human-like-redundancy.github.io/",
+    "repository_url": "https://github.com/IAIE-PhysicalAI/Bimanual-Teleoperation",
+    "comments": "8 pages, 10 figures, 3 tables. Project website:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 14 source files; examples: bimanual_teleop/core/teleop_controller.py, bimanual_teleop/filters/pose.py, bimanual_teleop/ik/jparse.py, bimanual_teleop/io/xr_client.py, bimanual_teleop/kinematics_backend.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-15T14:40:39.806375+00:00",
     "authors": [
       "Chao Tan",
       "Ming Shin Cindy Sung",
@@ -5676,7 +5714,7 @@
       "Manipulation"
     ],
     "real_robot": true,
-    "open_source": false,
+    "open_source": true,
     "platform": "Figure",
     "summary": "",
     "primary_category": "Teleoperation"
@@ -5685,12 +5723,15 @@
     "arxiv_id": "2610.15833",
     "title": "P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning",
     "paper_url": "https://arxiv.org/abs/2610.15833",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://roboparty.github.io/P-BFM/",
+    "repository_url": "https://github.com/Roboparty/P-BFM",
+    "comments": "Project page:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "partial",
+    "code_evidence": [
+      "README: training and hardware validation pending",
+      "Detected 172 source files"
+    ],
+    "code_checked_at": "2026-11-15T14:40:40.985812+00:00",
     "authors": [
       "Xue Wang",
       "Yitang Li",
@@ -5729,10 +5770,12 @@
     "paper_url": "https://arxiv.org/abs/2610.15274",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "coming_soon",
+    "code_evidence": [
+      "Publication/project page: Code will be released"
+    ],
+    "code_checked_at": "2026-11-15T14:40:42.228496+00:00",
     "authors": [
       "Yongpeng Cao",
       "Masahiro Hirano",
@@ -5761,10 +5804,12 @@
     "paper_url": "https://arxiv.org/abs/2610.15073",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:42.297616+00:00",
     "authors": [
       "Zewen He",
       "Taiki Ishigaki",
@@ -5800,12 +5845,15 @@
     "arxiv_id": "2610.14896",
     "title": "Test-Time Compute for Humanoid Behavior Foundation Models",
     "paper_url": "https://arxiv.org/abs/2610.14896",
-    "project_url": null,
-    "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "project_url": "https://bfmttc.github.io/",
+    "repository_url": "https://github.com/Gamma-Robot/bfm_ttc",
+    "comments": "The project page is available at  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 145 source files; examples: experiments/surrogate_cost/allocation.py, experiments/surrogate_cost/datasets.py, experiments/surrogate_cost/evaluation.py, experiments/surrogate_cost/figures.py, experiments/surrogate_cost/fit.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-15T14:40:42.353276+00:00",
     "authors": [
       "Weiji Xie",
       "Junsong Wu",
@@ -5836,7 +5884,7 @@
       "Simulation Benchmark"
     ],
     "real_robot": false,
-    "open_source": false,
+    "open_source": true,
     "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
@@ -5845,12 +5893,14 @@
     "arxiv_id": "2610.14840",
     "title": "Push the Limit: Learning High-Speed Sprinting and Aggressive Cornering on a Full-Scale Humanoid",
     "paper_url": "https://arxiv.org/abs/2610.14840",
-    "project_url": null,
+    "project_url": "https://www.youtube.com/watch?v=YWf62XkiApc&feature=youtu.be",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Accepted to the 10th Conference on Robot Learning (CoRL 2026). 16 pages, 5 figures, 7 tables. Video:  this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:43.660100+00:00",
     "authors": [
       "Huaxing Huang",
       "Ruidong Li",
@@ -5883,10 +5933,12 @@
     "paper_url": "https://arxiv.org/abs/2610.14561",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:44.946760+00:00",
     "authors": [
       "Ziluo Ding"
     ],
@@ -5917,10 +5969,12 @@
     "paper_url": "https://arxiv.org/abs/2610.14269",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "9 pages, 4 figures, 6 tables. Keywords: Deepfake detection, presentation attack detection, face anti-spoofing, humanoid robots, face robots, biometric security, robustness [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:45.065038+00:00",
     "authors": [
       "Hao Chen",
       "Junnan Xu"
@@ -5947,10 +6001,12 @@
     "paper_url": "https://arxiv.org/abs/2610.14237",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:45.125163+00:00",
     "authors": [
       "Mehdi Heydari Shahna",
       "Jouni Mattila"
@@ -5977,12 +6033,15 @@
     "arxiv_id": "2610.13572",
     "title": "ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching",
     "paper_url": "https://arxiv.org/abs/2610.13572",
-    "project_url": null,
+    "project_url": "https://anonymous.4open.science/w/ATHLETE2027/",
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "projectpage: this https URL [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "unknown",
+    "code_evidence": [
+      "Project page inspection failed: HTTPError",
+      "Link discovery incomplete; absence of code cannot be confirmed"
+    ],
+    "code_checked_at": "2026-11-15T14:40:45.185924+00:00",
     "authors": [
       "Zhihao Tian",
       "Zifan Wang",
@@ -6018,10 +6077,12 @@
     "paper_url": "https://arxiv.org/abs/2610.13373",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:45.711886+00:00",
     "authors": [
       "Chuxuan Huang",
       "Zhanxiang Cao",
@@ -6068,10 +6129,12 @@
     "paper_url": "https://arxiv.org/abs/2610.12972",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "Accepted for presentation at the 25th IEEE RAS International Conference on Humanoid Robots (Humanoids2026) [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:45.828835+00:00",
     "authors": [
       "Manh Cuong Nguyen",
       "Duc Cuong Vu",
@@ -6108,10 +6171,12 @@
     "paper_url": "https://arxiv.org/abs/2610.13087",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:45.952556+00:00",
     "authors": [
       "Chen Yu",
       "Sudarshan S Harithas",
@@ -6146,10 +6211,12 @@
     "paper_url": "https://arxiv.org/abs/2610.13079",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:46.031316+00:00",
     "authors": [
       "Dvij Kalaria",
       "Bike Zhang",
@@ -6179,10 +6246,12 @@
     "paper_url": "https://arxiv.org/abs/2610.12772",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
-    "code_status": "unverified",
-    "code_evidence": [],
-    "code_checked_at": null,
+    "comments": "12 pages, 5 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-15T14:40:46.110050+00:00",
     "authors": [
       "Taoyang Jia",
       "Weikai Huang",

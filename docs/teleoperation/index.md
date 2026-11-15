@@ -31,7 +31,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-14
+- **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -256,7 +256,15 @@ Dual-operator humanoid teleoperation enables collaborative manipulation through 
 ## Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.22176)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** James Foster, Beomyeong Park, Luigi Penco, Robert Griffin
 - **Published:** 2026-10
 - **Tags:**
@@ -273,10 +281,21 @@ The effective deployment of humanoid robots in practical tasks of interest will 
 
 ---
 
-## Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation
+## 🌟 Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.16855)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://human-like-redundancy.github.io/)
+- **Repository:** [Code](https://github.com/IAIE-PhysicalAI/Bimanual-Teleoperation)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 14 source files; examples: bimanual_teleop/core/teleop_controller.py, bimanual_teleop/filters/pose.py, bimanual_teleop/ik/jparse.py, bimanual_teleop/io/xr_client.py, bimanual_teleop/kinematics_backend.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Chao Tan, Ming Shin Cindy Sung, Shuxian Liang, Chaoqun Wan, Zhen Huang, Xian-Sheng Hua
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Figure
@@ -294,7 +313,18 @@ Real-time bimanual humanoid teleoperation requires accurate wrist tracking while
 ## P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.15833)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://roboparty.github.io/P-BFM/)
+- **Repository:** [Code](https://github.com/Roboparty/P-BFM)
+- **Code status:** Partial release / 部分代码或资源待发布
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- README: training and hardware validation pending
+- Detected 172 source files
+
+</details>
+
 - **Authors:** Xue Wang, Yitang Li, Yiming Zhang, Siqin Wang, Junhan Sun, Zhihao Liu et al. (10 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -315,7 +345,15 @@ Behavioral foundation models (BFMs) provide humanoids with reusable repertoires 
 ## VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.13079)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Dvij Kalaria, Bike Zhang, S. Shankar Sastry
 - **Published:** 2026-10
 - **Tags:**

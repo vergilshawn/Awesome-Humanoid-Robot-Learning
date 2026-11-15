@@ -171,7 +171,15 @@ Enabling humanoid robots to participate effectively in social interactions is im
 ## Composable Dynamics for Cooperative Humanoids: A RoboCompiler Extension
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.14237)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Mehdi Heydari Shahna, Jouni Mattila
 - **Published:** 2026-10
 - **Tags:**

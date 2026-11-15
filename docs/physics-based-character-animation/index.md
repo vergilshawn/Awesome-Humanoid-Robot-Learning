@@ -44,7 +44,7 @@
 - **Project:** [Project page](https://kimodo-policy.github.io/)
 - **Repository:** [Code](https://github.com/kimodo-policy/kimodo-policy)
 - **Code status:** Partial release / 部分代码或资源待发布
-- **Code checked:** 2026-11-14
+- **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -130,11 +130,20 @@ Construction productivity has remained a per- sistent challenge, motivating grow
 
 ---
 
-## TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
+## 🌟 TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.21515)
-- **Project:** [Project page](https://github.com/multimodal-perception-action/trace)
-- **Code status:** Unverified / 未核验
+- **Repository:** [Code](https://github.com/Multimodal-Perception-Action/TRACE)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 66 source files; examples: bootstrap_env.py, converse.py, edit.py, render.py, run.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Zejian Kang, Yifu Luo, Boyang Shen, Jingxuan Li, Zekai Chen, Zekun Shi et al. (12 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -153,7 +162,15 @@ Language-conditioned humanoid motion generation enables users to create and refi
 ## KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.21152)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Zibo Zhou, Yueru Chen, Junsong Wu, Weiji Xie, Qingyao Xu, Sheng Yin et al. (11 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -175,7 +192,15 @@ Training humanoid whole-body vision-language-action (VLA) policies requires cost
 ## PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.13373)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Chuxuan Huang, Zhanxiang Cao, Tianyue Zhan, Haoyang Li, Yang Zhang, Liyun Yan et al. (17 authors)
 - **Published:** 2026-10
 - **Tags:**

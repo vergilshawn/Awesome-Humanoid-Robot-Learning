@@ -34,7 +34,7 @@
 - **Project:** [Project page](https://robbyant-research.github.io/LHNav/)
 - **Repository:** [Code](https://github.com/robbyant-research/LHNav)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-14
+- **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -66,7 +66,7 @@ We study humanoid navigation across multiple destinations under long-horizon lan
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11665)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-14
+- **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -119,7 +119,15 @@ Operating rooms (ORs) increasingly contain ambient sensing infrastructure to ena
 ## LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.17232)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Shubham S. Kumbhar, Panagiotis Artemiadis
 - **Published:** 2026-10
 - **Tags:**

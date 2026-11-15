@@ -35,7 +35,7 @@
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.10872)
 - **Project:** [Project page](https://ember-center-berkeley.github.io/DreamVLA/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-14
+- **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -90,7 +90,15 @@ Humanoid robots have recently achieved remarkable success in motion tracking. Ho
 ## From Video to Vision: Learning Generalizable Humanoid Carrying from Human Motion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.14561)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Ziluo Ding
 - **Published:** 2026-10
 - **Tags:**

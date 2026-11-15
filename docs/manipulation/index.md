@@ -40,7 +40,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11854)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-14
+- **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -261,7 +261,16 @@ World models enable embodied agents to anticipate action consequences, yet joint
 ## KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.20552)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://kinogen-humanoid.github.io/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-15
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code coming soon
+
+</details>
+
 - **Authors:** Qi Wu, Lulu Zhao, Sanghyun Hahn, Rishi Yennu, Emmy Yang, Dingqi Zhang et al. (9 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1

@@ -216,7 +216,7 @@ Browse papers by research topic and methodology.
 
 - [RAIPAL: A Powerful and Agile Humanoid Arm for Human Tasks](https://arxiv.org/abs/2611.04334) — 2026-11
 - [PHD-Hand: A Printable Humanoid Dexterous Hand with Linkage-Driven 3-DOA Digits](https://arxiv.org/abs/2610.29030) — 2026-10
-- [Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control](https://arxiv.org/abs/2610.18991) — 2026-10
+- 🌟 [Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control](https://arxiv.org/abs/2610.18991) — 2026-10
 - [PhoneBot: A Low-Cost Open Humanoid Robot Platform Reusing Smartphones](https://arxiv.org/abs/2610.08737) — 2026-10
 - [A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles](https://arxiv.org/abs/2608.30832) — 2026-08
 
@@ -290,14 +290,14 @@ Browse papers by research topic and methodology.
 - [Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking](https://arxiv.org/abs/2611.00951) — 2026-10
 - [SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model](https://arxiv.org/abs/2610.28480) — 2026-10
 - [Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience](https://arxiv.org/abs/2610.26855) — 2026-10
-- [BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL](https://arxiv.org/abs/2610.23127) — 2026-10
+- 🌟 [BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL](https://arxiv.org/abs/2610.23127) — 2026-10
 
 ## GAN (17)
 
 - [Runtime Safety and Emergency Stops on a Full-Size Humanoid: Deployment Lessons and a Case for Graduated Force Authority](https://arxiv.org/abs/2611.15928) — 2026-11
 - [LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data](https://arxiv.org/abs/2611.12136) — 2026-11
 - [ROOF: Learning Humanoid Fall Recovery under Overhead Constraints](https://arxiv.org/abs/2610.42097) — 2026-10
-- [BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL](https://arxiv.org/abs/2610.23127) — 2026-10
+- 🌟 [BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL](https://arxiv.org/abs/2610.23127) — 2026-10
 - [Humanoid Horizon: Extending Task Horizon in Whole-Body Loco-Manipulation via Parallel Training, Dynamic Starting, and Reward Gating](https://arxiv.org/abs/2610.08320) — 2026-10
 
 ## Impact (17)
@@ -306,7 +306,7 @@ Browse papers by research topic and methodology.
 - [ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control](https://arxiv.org/abs/2611.04424) — 2026-11
 - [RAIPAL: A Powerful and Agile Humanoid Arm for Human Tasks](https://arxiv.org/abs/2611.04334) — 2026-11
 - [A Study on the Effects of Finger Movements on a Humanoid Hugging Robot](https://arxiv.org/abs/2611.02517) — 2026-11
-- [Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control](https://arxiv.org/abs/2610.18991) — 2026-10
+- 🌟 [Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control](https://arxiv.org/abs/2610.18991) — 2026-10
 
 ## Real Robot (17)
 
@@ -391,7 +391,7 @@ Browse papers by research topic and methodology.
 ## Language-Conditioned (9)
 
 - [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117) — 2026-11
-- [TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion](https://arxiv.org/abs/2610.21515) — 2026-10
+- 🌟 [TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion](https://arxiv.org/abs/2610.21515) — 2026-10
 - [PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation](https://arxiv.org/abs/2610.13373) — 2026-10
 - [Learning Expressive and Compositional Motion Representation via Spectral Skills](https://arxiv.org/abs/2609.37677) — 2026-09
 - [Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation](https://arxiv.org/abs/2609.23968) — 2026-09
@@ -447,7 +447,7 @@ Browse papers by research topic and methodology.
 ## Sampling-Based (8)
 
 - [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152) — 2026-10
-- [Test-Time Compute for Humanoid Behavior Foundation Models](https://arxiv.org/abs/2610.14896) — 2026-10
+- 🌟 [Test-Time Compute for Humanoid Behavior Foundation Models](https://arxiv.org/abs/2610.14896) — 2026-10
 - [GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly](https://arxiv.org/abs/2608.21550) — 2026-08
 - [Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos](https://arxiv.org/abs/2605.23762) — 2026-05
 - [DynaRetarget: Dynamically-Feasible Retargeting using Sampling-Based Trajectory Optimization](https://arxiv.org/abs/2602.06827) — 2026-02
@@ -456,7 +456,7 @@ Browse papers by research topic and methodology.
 
 - [HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure](https://arxiv.org/abs/2610.41334) — 2026-10
 - [Humanoid SRL: Augmenting Humanoids with Supernumerary Limbs for Coordinated Loco-Manipulation](https://arxiv.org/abs/2610.25628) — 2026-10
-- [BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL](https://arxiv.org/abs/2610.23127) — 2026-10
+- 🌟 [BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL](https://arxiv.org/abs/2610.23127) — 2026-10
 - [HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion](https://arxiv.org/abs/2610.10489) — 2026-10
 - [Co${}^{2}$Skill: Whole-Body Control via Skill Composition for Long-Horizon Human-Environment Interaction](https://arxiv.org/abs/2610.09291) — 2026-10
 
@@ -598,7 +598,7 @@ Browse papers by research topic and methodology.
 
 ## Impedance Control (2)
 
-- [Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control](https://arxiv.org/abs/2610.18991) — 2026-10
+- 🌟 [Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control](https://arxiv.org/abs/2610.18991) — 2026-10
 - [HumanoidVLM: Vision-Language-Guided Impedance Control for Contact-Rich Humanoid Manipulation](https://arxiv.org/abs/2601.14874) — 2026-01
 
 ## Admittance Control (2)

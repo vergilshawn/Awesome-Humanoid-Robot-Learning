@@ -10,7 +10,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - **Total Papers:** 946
 - **Real Robot Papers:** 137
-- **Code Availability:** 186
+- **Code Availability:** 192
 - **Latest Month:** 2026-11
 
 ### Categories
@@ -146,15 +146,15 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Learning Structured Locomotion References for Optimization-Based Whole-Body Control](https://arxiv.org/abs/2610.24779) — No project/code link found / 未发现项目或代码链接 — `Reinforcement Learning`, `Whole-Body Control`, `Locomotion`, `Simulator`, `Gait`, `Optimization-Based`
 - [Action-Aligned Latent Planning for Versatile Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.24675), [website](https://fiberaa.github.io/), [code](https://github.com/Yutang-Lin/FIBER) — Coming soon / 代码待发布 — `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Humanoid`, `Foundation Model`, `PPO`
 - [Reinforcement Learning Based Multi-Terrain Adaptive Whole-Body Control for a Quadruped Manipulator](https://arxiv.org/abs/2610.23548) — No project/code link found / 未发现项目或代码链接 — `Reinforcement Learning`, `Whole-Body Control`, `Locomotion`, `Manipulation`, `Loco-Manipulation and Whole-Body Control`
-- [Whole-Body Dexterity](https://arxiv.org/abs/2610.22184) — Unverified / 未核验 — `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Proprioception`
-- [Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control](https://arxiv.org/abs/2610.19393) — Unverified / 未核验 — `Whole-Body Control`, `Humanoid`, `Residual Learning`, `Loco-Manipulation and Whole-Body Control`, `Physics-Based Character Animation`, `Real Robot`
-- [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872) — Unverified / 未核验 — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Human Demonstration`, `Humanoid`, `Dataset`
-- [$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.18950) — Unverified / 未核验 — `Locomotion`, `Manipulation`, `Zero-Shot`, `Human Demonstration`, `Humanoid`, `Foundation Model`
-- [TRACE: Efficient Transfer Learning for Neural Whole-Body Control Across Humanoid Embodiments](https://arxiv.org/abs/2610.17999) — Unverified / 未核验 — `Reinforcement Learning`, `Whole-Body Control`, `Teleoperation`, `Humanoid`, `Vision-Language`, `Foundation Model`
-- [Test-Time Compute for Humanoid Behavior Foundation Models](https://arxiv.org/abs/2610.14896) — Unverified / 未核验 — `Teleoperation`, `Manipulation`, `Humanoid`, `Foundation Model`, `Sampling-Based`, `Dataset`
-- [Adaptive Whole-Body MPC with Optimal Posture Planning for Humanoid Robots under Unknown Payloads](https://arxiv.org/abs/2610.12972) — Unverified / 未核验 — `MPC`, `Whole-Body Control`, `Robustness`, `Humanoid`, `PPO`, `Loco-Manipulation and Whole-Body Control`
-- [Belief-Overlap Partial Inversion: Object-Centric Flow Replanning for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.13087) — Unverified / 未核验 — `Whole-Body Control`, `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
-- [Reflex: Visually Grounded Reactive Humanoid Control](https://arxiv.org/abs/2610.12772) — Unverified / 未核验 — `Reinforcement Learning`, `Whole-Body Control`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [Whole-Body Dexterity](https://arxiv.org/abs/2610.22184) — No project/code link found / 未发现项目或代码链接 — `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Proprioception`
+- [Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control](https://arxiv.org/abs/2610.19393) — No project/code link found / 未发现项目或代码链接 — `Whole-Body Control`, `Humanoid`, `Residual Learning`, `Loco-Manipulation and Whole-Body Control`, `Physics-Based Character Animation`, `Real Robot`
+- [EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ](https://arxiv.org/abs/2610.18872), [website](https://internrobotics.github.io/egoexplorer.github.io/) — Coming soon / 代码待发布 — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Human Demonstration`, `Humanoid`, `Dataset`
+- 🌟 [$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.18950), [website](https://lambdahumanoid.github.io/), [code](https://github.com/LambdaHumanoid/openlambda) — Implementation detected (completeness unverified) / 已检测到实现，完整性未核验 — `Locomotion`, `Manipulation`, `Zero-Shot`, `Human Demonstration`, `Humanoid`, `Foundation Model`
+- [TRACE: Efficient Transfer Learning for Neural Whole-Body Control Across Humanoid Embodiments](https://arxiv.org/abs/2610.17999), [website](http://robot.TRACE) — Needs review / 访问失败或证据不足 — `Reinforcement Learning`, `Whole-Body Control`, `Teleoperation`, `Humanoid`, `Vision-Language`, `Foundation Model`
+- 🌟 [Test-Time Compute for Humanoid Behavior Foundation Models](https://arxiv.org/abs/2610.14896), [website](https://bfmttc.github.io/), [code](https://github.com/Gamma-Robot/bfm_ttc) — Implementation detected (completeness unverified) / 已检测到实现，完整性未核验 — `Teleoperation`, `Manipulation`, `Humanoid`, `Foundation Model`, `Sampling-Based`, `Dataset`
+- [Adaptive Whole-Body MPC with Optimal Posture Planning for Humanoid Robots under Unknown Payloads](https://arxiv.org/abs/2610.12972) — No project/code link found / 未发现项目或代码链接 — `MPC`, `Whole-Body Control`, `Robustness`, `Humanoid`, `PPO`, `Loco-Manipulation and Whole-Body Control`
+- [Belief-Overlap Partial Inversion: Object-Centric Flow Replanning for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.13087) — No project/code link found / 未发现项目或代码链接 — `Whole-Body Control`, `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
+- [Reflex: Visually Grounded Reactive Humanoid Control](https://arxiv.org/abs/2610.12772) — No project/code link found / 未发现项目或代码链接 — `Reinforcement Learning`, `Whole-Body Control`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface](https://arxiv.org/abs/2610.12558) — Unverified / 未核验 — `Whole-Body Control`, `Manipulation`, `Human Demonstration`, `Humanoid`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [HWAM: Humanoid World Action Model With Joint State--Action Generation](https://arxiv.org/abs/2610.12026) — Unverified / 未核验 — `Whole-Body Control`, `Manipulation`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`
 - [Being-M0.7: A Latent World-Action Model for Humanoid Robots](https://arxiv.org/abs/2610.11283) — Unverified / 未核验 — `Locomotion`, `Manipulation`, `Humanoid`, `Proprioception`, `Pre-training`, `Dataset`
@@ -534,7 +534,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation](https://arxiv.org/abs/2610.28948), [website](https://cowboy-manip.com/) — Project page only / 项目页未发现仓库 — `Whole-Body Control`, `Sim-to-Real`, `Manipulation`, `Zero-Shot`, `Collision`, `Loco-Manipulation and Whole-Body Control`
 - [EmbodyHOI: Embodiment-Aware Generation of Hand-Object Interactions for Humanoid Dexterous Manipulation](https://arxiv.org/abs/2610.27242), [website](https://embodyhoi.github.io/) — Project page only / 项目页未发现仓库 — `Manipulation`, `Humanoid`, `Policy Learning`, `Real Robot`
 - [Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience](https://arxiv.org/abs/2610.26855), [website](https://ropedia.github.io/ropedia-w0/), [code](https://github.com/Ropedia/ropedia-w0) — Partial release / 部分代码或资源待发布 — `Teleoperation`, `Locomotion`, `Manipulation`, `World Model`, `Few-Shot`, `Zero-Shot`
-- [KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation](https://arxiv.org/abs/2610.20552) — Unverified / 未核验 — `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Physics-Based Character Animation`, `Real Robot`
+- [KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation](https://arxiv.org/abs/2610.20552), [website](https://kinogen-humanoid.github.io/) — Coming soon / 代码待发布 — `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Physics-Based Character Animation`, `Real Robot`
 
 #### [2026-09](/manipulation/2026-09)
 
@@ -699,10 +699,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation](https://arxiv.org/abs/2610.28712) — No project/code link found / 未发现项目或代码链接 — `Teleoperation`, `Humanoid`, `Navigation`
 - 🌟 [Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning](https://arxiv.org/abs/2610.28470), [website](https://daroslab.github.io/frdv/), [code](https://github.com/DARoSLab/FRDV) — Implementation detected (completeness unverified) / 已检测到实现，完整性未核验 — `Reinforcement Learning`, `Sim-to-Real`, `Motion Retargeting`, `Humanoid`, `Trajectory Optimization`, `Collision`
 - [Evaluating Lightweight Contact Feedback in Dual-Operator Collaborative Humanoid Teleoperation](https://arxiv.org/abs/2610.24257), [website](https://xrt-teleop.github.io/) — Project page only / 项目页未发现仓库 — `Teleoperation`, `Manipulation`, `Humanoid`
-- [Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation](https://arxiv.org/abs/2610.22176) — Unverified / 未核验 — `MPC`, `Teleoperation`, `Humanoid`, `Parameter Estimation`, `State Estimation`, `Loco-Manipulation and Whole-Body Control`
-- [Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation](https://arxiv.org/abs/2610.16855) — Unverified / 未核验 — `Teleoperation`, `Humanoid`, `Manipulation`, `Real Robot`
-- [P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning](https://arxiv.org/abs/2610.15833) — Unverified / 未核验 — `Reinforcement Learning`, `Teleoperation`, `Zero-Shot`, `Humanoid`, `Foundation Model`, `PPO`
-- [VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills](https://arxiv.org/abs/2610.13079) — Unverified / 未核验 — `Teleoperation`, `Manipulation`, `Humanoid`, `Collision`
+- [Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation](https://arxiv.org/abs/2610.22176) — No project/code link found / 未发现项目或代码链接 — `MPC`, `Teleoperation`, `Humanoid`, `Parameter Estimation`, `State Estimation`, `Loco-Manipulation and Whole-Body Control`
+- 🌟 [Human-Like Redundancy Resolution for Real-Time Bimanual Humanoid Teleoperation](https://arxiv.org/abs/2610.16855), [website](https://human-like-redundancy.github.io/), [code](https://github.com/IAIE-PhysicalAI/Bimanual-Teleoperation) — Implementation detected (completeness unverified) / 已检测到实现，完整性未核验 — `Teleoperation`, `Humanoid`, `Manipulation`, `Real Robot`, `Code Available`
+- [P-BFM: Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning](https://arxiv.org/abs/2610.15833), [website](https://roboparty.github.io/P-BFM/), [code](https://github.com/Roboparty/P-BFM) — Partial release / 部分代码或资源待发布 — `Reinforcement Learning`, `Teleoperation`, `Zero-Shot`, `Humanoid`, `Foundation Model`, `PPO`
+- [VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills](https://arxiv.org/abs/2610.13079) — No project/code link found / 未发现项目或代码链接 — `Teleoperation`, `Manipulation`, `Humanoid`, `Collision`
 - [PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting](https://arxiv.org/abs/2610.12642) — Unverified / 未核验 — `Motion Retargeting`, `Manipulation`, `Humanoid`, `Dataset`, `Teleoperation`
 - [From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids](https://arxiv.org/abs/2610.08381) — Unverified / 未核验 — `Motion Retargeting`, `Humanoid`, `Walking`, `Teleoperation`, `Human Motion Analysis and Synthesis`, `Locomotion`
 - [AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions](https://arxiv.org/abs/2610.08119) — Unverified / 未核验 — `Teleoperation`, `Humanoid`, `Inverse Kinematics`, `Fine-tuning`, `Distillation`, `Diffusion`
@@ -829,15 +829,15 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Visual Task Modeling and Automated Planning for Humanoid Robots in Education of Individuals with Autism Spectrum Disorder](https://arxiv.org/abs/2610.27162) — No project/code link found / 未发现项目或代码链接 — `Humanoid`, `Large Language Model`, `PPO`, `Locomotion`
 - [Validation of Human Motor Development Scales with Humanoid Robots](https://arxiv.org/abs/2610.25701), [website](https://www.youtube.com/watch?v=SR3LUVhohV4&feature=youtu.be) — Project page only / 项目页未发现仓库 — `Reinforcement Learning`, `Humanoid`, `Walking`, `Locomotion`
 - [CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots](https://arxiv.org/abs/2610.23288) — No project/code link found / 未发现项目或代码链接 — `Manipulation`, `Humanoid`, `Vision-Language`, `Foundation Model`, `PPO`, `Locomotion`
-- [BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL](https://arxiv.org/abs/2610.23127) — Unverified / 未核验 — `Reinforcement Learning`, `World Model`, `Humanoid`, `Goal-Conditioned`, `GAN`, `Locomotion`
-- [Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion](https://arxiv.org/abs/2610.20606) — Unverified / 未核验 — `Reinforcement Learning`, `Imitation Learning`, `Transformer`, `Humanoid`, `Walking`, `Diffusion`
-- [PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination](https://arxiv.org/abs/2610.20579) — Unverified / 未核验 — `Simulator`, `Humanoid`, `Collision`, `PPO`, `Locomotion`, `Real Robot`
-- [Design and Analysis of a Nonlinear Parallel Mechanism Coupling for Dynamic Humanoid Legs](https://arxiv.org/abs/2610.16604) — Unverified / 未核验 — `Locomotion`, `Humanoid`
-- [Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting](https://arxiv.org/abs/2610.15274) — Unverified / 未核验 — `Motion Retargeting`, `Humanoid`, `Locomotion`
-- [Modeling and Control of a Rigid-soft Hybrid-link Humanoid Robot](https://arxiv.org/abs/2610.15073) — Unverified / 未核验 — `Biped`, `Humanoid`, `Walking`, `Inverse Kinematics`, `Impact`, `Optimization-Based`
-- [Push the Limit: Learning High-Speed Sprinting and Aggressive Cornering on a Full-Scale Humanoid](https://arxiv.org/abs/2610.14840) — Unverified / 未核验 — `Biped`, `Humanoid`, `Gait`, `Impact`, `Locomotion`
-- [RoboFake: Are Deepfake Detectors Ready for Humanoid Face Robots?](https://arxiv.org/abs/2610.14269) — Unverified / 未核验 — `Humanoid`, `Locomotion`, `Real Robot`
-- [ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching](https://arxiv.org/abs/2610.13572) — Unverified / 未核验 — `Locomotion`, `Humanoid`, `Fine-tuning`, `Distillation`, `PPO`, `DAgger`
+- 🌟 [BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL](https://arxiv.org/abs/2610.23127), [website](https://ylyem9x.github.io/BeJEPA-project/), [code](https://github.com/ylyem9x/BeJEPA-project) — Implementation detected (completeness unverified) / 已检测到实现，完整性未核验 — `Reinforcement Learning`, `World Model`, `Humanoid`, `Goal-Conditioned`, `GAN`, `Locomotion`
+- [Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion](https://arxiv.org/abs/2610.20606), [website](https://humanoid-weight-diffusion.github.io/) — Coming soon / 代码待发布 — `Reinforcement Learning`, `Imitation Learning`, `Transformer`, `Humanoid`, `Walking`, `Diffusion`
+- [PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination](https://arxiv.org/abs/2610.20579), [website](https://www.archon.tech/research/pingpongduo) — Project page only / 项目页未发现仓库 — `Simulator`, `Humanoid`, `Collision`, `PPO`, `Locomotion`, `Real Robot`
+- [Design and Analysis of a Nonlinear Parallel Mechanism Coupling for Dynamic Humanoid Legs](https://arxiv.org/abs/2610.16604) — No project/code link found / 未发现项目或代码链接 — `Locomotion`, `Humanoid`
+- [Embodiment-Aware Inference-Time Search for Human Reaction Selection in Humanoid Retargeting](https://arxiv.org/abs/2610.15274) — Coming soon / 代码待发布 — `Motion Retargeting`, `Humanoid`, `Locomotion`
+- [Modeling and Control of a Rigid-soft Hybrid-link Humanoid Robot](https://arxiv.org/abs/2610.15073) — No project/code link found / 未发现项目或代码链接 — `Biped`, `Humanoid`, `Walking`, `Inverse Kinematics`, `Impact`, `Optimization-Based`
+- [Push the Limit: Learning High-Speed Sprinting and Aggressive Cornering on a Full-Scale Humanoid](https://arxiv.org/abs/2610.14840), [website](https://www.youtube.com/watch?v=YWf62XkiApc&feature=youtu.be) — Project page only / 项目页未发现仓库 — `Biped`, `Humanoid`, `Gait`, `Impact`, `Locomotion`
+- [RoboFake: Are Deepfake Detectors Ready for Humanoid Face Robots?](https://arxiv.org/abs/2610.14269) — No project/code link found / 未发现项目或代码链接 — `Humanoid`, `Locomotion`, `Real Robot`
+- [ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching](https://arxiv.org/abs/2610.13572), [website](https://anonymous.4open.science/w/ATHLETE2027/) — Needs review / 访问失败或证据不足 — `Locomotion`, `Humanoid`, `Fine-tuning`, `Distillation`, `PPO`, `DAgger`
 - [VioLA: Learning Generalist Humanoid Control Policies from Human Data](https://arxiv.org/abs/2610.12435) — Unverified / 未核验 — `Locomotion`, `Manipulation`, `Zero-Shot`, `Human Demonstration`, `Real Robot`, `Humanoid`
 - [FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems](https://arxiv.org/abs/2610.12432) — Unverified / 未核验 — `Reinforcement Learning`, `Safety`, `Humanoid`, `Walking`, `SAC`, `Locomotion`
 - [DAMP: Humanoid Locomotion via Denoised Belief Learning and Adversarial Motion Priors](https://arxiv.org/abs/2610.11505) — Unverified / 未核验 — `Reinforcement Learning`, `Locomotion`, `Robustness`, `Humanoid`, `Policy Learning`
@@ -1151,7 +1151,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/navigation/2026-10)
 
-- [LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors](https://arxiv.org/abs/2610.17232) — Unverified / 未核验 — `Locomotion`, `Navigation`, `Robustness`, `Humanoid`, `Footstep Planning`
+- [LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors](https://arxiv.org/abs/2610.17232) — No project/code link found / 未发现项目或代码链接 — `Locomotion`, `Navigation`, `Robustness`, `Humanoid`, `Footstep Planning`
 - [TAPNAV: Humanoid Navigation through Tactile Active Perception](https://arxiv.org/abs/2610.10748) — Unverified / 未核验 — `Whole-Body Control`, `Locomotion`, `Navigation`, `State Estimation`, `Humanoid`, `PPO`
 
 #### [2026-09](/navigation/2026-09)
@@ -1355,7 +1355,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-10](/hardware-design/2026-10)
 
-- [Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control](https://arxiv.org/abs/2610.18991) — Unverified / 未核验 — `Sim-to-Real`, `World Model`, `Robustness`, `Simulator`, `Humanoid`, `Walking`
+- 🌟 [Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control](https://arxiv.org/abs/2610.18991), [website](https://contact-uan.csail.mit.edu/), [code](https://github.com/nolie-rolie/contact-uan) — Implementation detected (completeness unverified) / 已检测到实现，完整性未核验 — `Sim-to-Real`, `World Model`, `Robustness`, `Simulator`, `Humanoid`, `Walking`
 
 #### [2026-08](/hardware-design/2026-08)
 
@@ -1452,7 +1452,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - 🌟 [SONIC-K1: Porting a Universal Humanoid Motion Tracker to a Small Humanoid on a Single GPU](https://arxiv.org/abs/2610.39327), [website](https://kyry.me/sonic-k1/), [code](https://github.com/Kyk0/sonic-k1) — Implementation detected (completeness unverified) / 已检测到实现，完整性未核验 — `MuJoCo`, `Humanoid`, `Benchmark`, `Simulation Benchmark`, `Code Available`
 - [Networked Humanoid Intelligence: Communication, Coordination, Collaboration, and Social Interaction](https://arxiv.org/abs/2610.34740) — No project/code link found / 未发现项目或代码链接 — `Humanoid`, `Benchmark`, `Dataset`, `Simulation Benchmark`
 - [SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots](https://arxiv.org/abs/2610.24559) — No project/code link found / 未发现项目或代码链接 — `MuJoCo`, `Humanoid`, `Benchmark`, `Simulation Benchmark`
-- [Composable Dynamics for Cooperative Humanoids: A RoboCompiler Extension](https://arxiv.org/abs/2610.14237) — Unverified / 未核验 — `MuJoCo`, `Humanoid`, `PPO`, `Simulation Benchmark`
+- [Composable Dynamics for Cooperative Humanoids: A RoboCompiler Extension](https://arxiv.org/abs/2610.14237) — No project/code link found / 未发现项目或代码链接 — `MuJoCo`, `Humanoid`, `PPO`, `Simulation Benchmark`
 - [BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation](https://arxiv.org/abs/2610.07594), [website](https://github.com/swirl-uk/bigym2) — Unverified / 未核验 — `Reinforcement Learning`, `Imitation Learning`, `Whole-Body Control`, `Manipulation`, `Human Demonstration`, `Humanoid`
 - [HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution](https://arxiv.org/abs/2610.02089) — Unverified / 未核验 — `Locomotion`, `Manipulation`, `Real Robot`, `Humanoid`, `Benchmark`, `Dataset`
 
@@ -1554,9 +1554,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [HumiMimic: Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos](https://arxiv.org/abs/2610.36615), [website](https://aioznetwork.github.io/HumiMimic/), [code](https://github.com/AIOZNetwork/HumiMimic) — Placeholder or no implementation detected / 占位仓库或未检测到实现 — `Real Robot`, `Humanoid`, `Collision`, `Dataset`, `PPO`, `Physics-Based Character Animation`
 - [Beyond Human-Derived Motion: Exploring Robot-Specific Execution for Construction Humanoids](https://arxiv.org/abs/2610.24312) — No project/code link found / 未发现项目或代码链接 — `Human Demonstration`, `Humanoid`, `Inverse Kinematics`, `PPO`, `Physics-Based Character Animation`
-- [TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion](https://arxiv.org/abs/2610.21515), [website](https://github.com/multimodal-perception-action/trace) — Unverified / 未核验 — `Humanoid`, `Language-Conditioned`, `PPO`, `Diffusion`, `Physics-Based Character Animation`
-- [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152) — Unverified / 未核验 — `Whole-Body Control`, `Manipulation`, `Human Demonstration`, `Simulator`, `Humanoid`, `Vision-Language`
-- [PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation](https://arxiv.org/abs/2610.13373) — Unverified / 未核验 — `MuJoCo`, `Humanoid`, `Language-Conditioned`, `Diffusion`, `Physics-Based Character Animation`, `Simulation Benchmark`
+- 🌟 [TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion](https://arxiv.org/abs/2610.21515), [code](https://github.com/Multimodal-Perception-Action/TRACE) — Implementation detected (completeness unverified) / 已检测到实现，完整性未核验 — `Humanoid`, `Language-Conditioned`, `PPO`, `Diffusion`, `Physics-Based Character Animation`, `Code Available`
+- [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152) — No project/code link found / 未发现项目或代码链接 — `Whole-Body Control`, `Manipulation`, `Human Demonstration`, `Simulator`, `Humanoid`, `Vision-Language`
+- [PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation](https://arxiv.org/abs/2610.13373) — No project/code link found / 未发现项目或代码链接 — `MuJoCo`, `Humanoid`, `Language-Conditioned`, `Diffusion`, `Physics-Based Character Animation`, `Simulation Benchmark`
 - [From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators](https://arxiv.org/abs/2610.10322) — Unverified / 未核验 — `Simulator`, `Humanoid`, `Fine-tuning`, `Friction`, `Diffusion`, `Physics-Based Character Animation`
 
 #### [2026-09](/physics-based-character-animation/2026-09)
@@ -1694,7 +1694,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 #### [2026-10](/human-motion-analysis-and-synthesis/2026-10)
 
 - [HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model](https://arxiv.org/abs/2610.34126) — No project/code link found / 未发现项目或代码链接 — `Humanoid`, `Fine-tuning`, `Human Motion Analysis and Synthesis`, `Real Robot`
-- [From Video to Vision: Learning Generalizable Humanoid Carrying from Human Motion](https://arxiv.org/abs/2610.14561) — Unverified / 未核验 — `Reinforcement Learning`, `Humanoid`, `Distillation`, `Data Augmentation`, `PPO`, `DAgger`
+- [From Video to Vision: Learning Generalizable Humanoid Carrying from Human Motion](https://arxiv.org/abs/2610.14561) — No project/code link found / 未发现项目或代码链接 — `Reinforcement Learning`, `Humanoid`, `Distillation`, `Data Augmentation`, `PPO`, `DAgger`
 - [Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot](https://arxiv.org/abs/2610.06153) — Unverified / 未核验 — `Humanoid`, `Motion Planning`, `Human Motion Analysis and Synthesis`
 
 #### [2026-09](/human-motion-analysis-and-synthesis/2026-09)
