@@ -1,10 +1,10 @@
 # Navigation
 
-**28 papers** in this category.
+**29 papers** in this category.
 
 ## Months
 
-- [2026-11](/navigation/2026-11) (3 papers)
+- [2026-11](/navigation/2026-11) (4 papers)
 - [2026-10](/navigation/2026-10) (2 papers)
 - [2026-09](/navigation/2026-09) (1 papers)
 - [2026-07](/navigation/2026-07) (1 papers)
@@ -28,13 +28,43 @@
 
 ## Recent Papers
 
+## X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.17598)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Jiaxin Huang, Chengxing Lin, Xiaoyu Luo, Sirui Chen, Jingyu Guo, Aolin Li et al. (13 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Navigation
+  - Real Robot
+  - Biped
+  - Humanoid
+  - Gait
+  - Benchmark
+  - Locomotion
+
+### Summary
+
+Long-horizon navigation from indoors to outdoors remains an open problem for humanoid robots: one instruction covers rooms, doors and roads, and the camera moves with the gait. Worken, AGIBOT's measure of productive robot work, depends on robots that reach their workplaces autonomously.
+
+---
+
 ## LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.12136)
 - **Project:** [Project page](https://robbyant-research.github.io/LHNav/)
 - **Repository:** [Code](https://github.com/robbyant-research/LHNav)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -66,7 +96,7 @@ We study humanoid navigation across multiple destinations under long-horizon lan
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11665)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -146,7 +176,15 @@ Navigating humanoid robots through dynamic, non-convex environments requires tig
 ## TAPNAV: Humanoid Navigation through Tactile Active Perception
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.10748)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Huaze Liu, Zhenyu Wu, Jaehwi Jang, Junjie Sheng, Andrew Collins, Aaron Xie et al. (11 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -520,30 +558,5 @@ Bipedal robots demonstrate potential in navigating challenging terrains through 
 ### Summary
 
 The ability to predict collision-free future trajectories from egocentric observations is crucial in applications such as humanoid robotics, VR / AR, and assistive navigation. In this work, we introduce the challenging problem of predicting a sequence of future 6D head poses from an egocentric video.
-
----
-
-## INTENTION: Inferring Tendencies of Humanoid Robot Motion Through Interactive Intuition and Grounded VLM
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2508.04931)
-- **Project:** [Project page](https://robo-intention.github.io)
-- **Code status:** Needs review / 访问失败或证据不足
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Project page inspection failed: ProxyError
-- Link discovery incomplete; absence of code cannot be confirmed
-
-</details>
-
-- **Published:** 2025-08
-- **Tags:**
-  - Humanoid
-  - Navigation
-
-### Summary
-
-Traditional control and planning for robotic manipulation heavily rely on precise physical models and predefined action sequences. While effective in structured environments, such approaches often fail in real-world scenarios due to modeling inaccuracies and struggle to generalize to novel tasks.
 
 ---

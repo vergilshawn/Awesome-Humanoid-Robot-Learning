@@ -27,7 +27,7 @@
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15112)
 - **Repository:** [Code](https://github.com/yichg/elastra)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 

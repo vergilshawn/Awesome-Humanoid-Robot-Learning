@@ -2,13 +2,95 @@
 
 All papers sorted by publication date (newest first).
 
+## 🌟 When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.18491)
+- **Repository:** [Code](https://github.com/mkhoshnam/Selfplay-PPO-handover)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 12 source files; examples: hcrl/controllers_v5.py, hcrl/eval_v5.py, hcrl/g1_cfg.py, hcrl/hri_v5_env.py, hcrl/human_animation.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
+- **Authors:** Mohammad Khoshnazar, Mike Degany, Deyuan Qu, Qing Yang, Matyas Szanto
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Cooperative self-play can teach a humanoid to receive an object without any human data, but the partner it meets after training is never the one it trained with; we show that a fluent self-play handover policy breaks with unfamiliar partners, identify the main cause, and repair it. In a physics-based parcel handover between a Unitree G1 and a learned giver, both trained by alternating PPO self-play, the receiver completes 95% and 90% of handovers with its own partner (two training seeds) but only 31% with scripted partners it has never met.
+
+---
+
+## Reusing Locomotion Training Recipes Across Humanoids via Body-Aligned Virtual Joints
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.18003)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Sol Choi, Mingon Kim, Seokin Seo, Jongeun Choi, Donghyeon Kim, Yisoo Lee
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Reinforcement learning has enabled robust humanoid locomotion, yet training recipes (rewards, architectures, hyperparameters) remain hard to reuse across robots with different native joint coordinates, since policies output native joint angles while action scales, bounds, gains, and penalties are defined in those robot-specific coordinates. Existing transmission models convert native targets into actuator commands but do not standardize the coordinate interface exposed to the policy.
+
+---
+
+## X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.17598)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Jiaxin Huang, Chengxing Lin, Xiaoyu Luo, Sirui Chen, Jingyu Guo, Aolin Li et al. (13 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Navigation
+  - Real Robot
+  - Biped
+  - Humanoid
+  - Gait
+  - Benchmark
+  - Locomotion
+
+### Summary
+
+Long-horizon navigation from indoors to outdoors remains an open problem for humanoid robots: one instruction covers rooms, doors and roads, and the camera moves with the gait. Worken, AGIBOT's measure of productive robot work, depends on robots that reach their workplaces autonomously.
+
+---
+
 ## 🌟 FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.17142)
 - **Project:** [Project page](https://bb0928.github.io/forge/)
 - **Repository:** [Code](https://github.com/bb0928/FORGE)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -40,7 +122,7 @@ Humanoid loco-manipulation requires coordinated locomotion, balance regulation, 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16422)
 - **Repository:** [Code](https://github.com/fuyichen0725/blinkmimic)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -66,7 +148,7 @@ Whole-body motion tracking lets a humanoid robot follow reference motions, but t
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16188)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -94,7 +176,7 @@ Motion imitation enables humanoid robots to acquire whole-body skills such as wa
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15928)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -122,7 +204,7 @@ Full-size humanoid robots are being considered for hazardous industrial work suc
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15117)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -153,7 +235,7 @@ Quadrupedal mobile manipulators can extend their manipulation workspace by coord
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15112)
 - **Repository:** [Code](https://github.com/yichg/elastra)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -181,7 +263,7 @@ When robots interact with elastic surfaces such as mattresses and trampolines, c
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -206,7 +288,7 @@ Humanoid motion tracking is fundamental to reproducing human motions on humanoid
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14981)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -232,7 +314,7 @@ Extending humanoid interaction generation to new environments remains limited by
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14049)
 - **Project:** [Project page](https://xiaopeng-whu.github.io/RedirectMimic/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -257,7 +339,7 @@ Humanoid motion interfaces should accommodate application-specific movement cons
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -287,7 +369,7 @@ In recent years, humanoid loco-manipulation has progressed to whole-body graspin
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
 - **Project:** [Project page](https://ihcr.github.io/AHEADance/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -314,7 +396,7 @@ A humanoid that dances to streamed music must commit each motion chunk before it
 - **Project:** [Project page](https://robbyant-research.github.io/LHNav/)
 - **Repository:** [Code](https://github.com/robbyant-research/LHNav)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -346,7 +428,7 @@ We study humanoid navigation across multiple destinations under long-horizon lan
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11854)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -372,7 +454,7 @@ Vision-language-action (VLA) models pair a vision-language backbone with an acti
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11665)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -401,7 +483,7 @@ Humanoid robots have achieved significant progress in locomotion and manipulatio
 - **Project:** [Project page](https://kimodo-policy.github.io/)
 - **Repository:** [Code](https://github.com/kimodo-policy/kimodo-policy)
 - **Code status:** Partial release / 部分代码或资源待发布
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -433,7 +515,7 @@ Humanoid loco-manipulation requires continuous coordination of high-dimensional 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -464,7 +546,7 @@ We present a pipeline for transferring Awa Odori, a traditional Japanese festiva
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.10872)
 - **Project:** [Project page](https://ember-center-berkeley.github.io/DreamVLA/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -4319,7 +4401,15 @@ Humans effortlessly react to the world; they adeptly return a tennis shot, catch
 ## PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.12642)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Nicholas Ioannidis, Dun Yang, Max Smith, Tue Vu, Ziyu Zhang, Shayegan Omidshafiei et al. (7 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4338,7 +4428,16 @@ Motion retargeting is a critical preprocessing step for transferring human motio
 ## PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.12558)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://pantact.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Xiaomeng Xu, Han Zhang, Zhian Ruan, Xiaofeng Guo, Jinkun Cao, Ruihan Yang et al. (9 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4358,7 +4457,15 @@ Humanoid robots have many degrees of freedom and contact surfaces, yet most loco
 ## VioLA: Learning Generalist Humanoid Control Policies from Human Data
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.12435)
-- **Code status:** Unverified / 未核验
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code and checkpoints will be released
+
+</details>
+
 - **Authors:** Mert Albaba, Jens Beißwenger, Anna Manasyan, Daniel Marta, Michael J. Black, Wieland Brendel et al. (9 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4379,7 +4486,15 @@ Teaching a humanoid to follow instructions with its whole body runs into two obs
 ## FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.12432)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Songyuan Zhang, Baljeet Singh, Sarthak Ranjeet Kaingade, Chuchu Fan, Bryan Trinh
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -4400,7 +4515,15 @@ Safe reinforcement learning commonly places safety and task performance in the s
 ## HWAM: Humanoid World Action Model With Joint State--Action Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.12026)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yan Yang, Jikun Rong, Minzhao Zhu, Zheyi Zhao, Qirui Hu, Zihan Lan et al. (10 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4419,7 +4542,16 @@ Humanoid robots are a promising platform for general-purpose manipulation. Recen
 ## DAMP: Humanoid Locomotion via Denoised Belief Learning and Adversarial Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.11505)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://www.youtube.com/watch?v=AkI7TZB2DDM&feature=youtu.be)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Puying Shen, Wenhao Cui, Huaxing Huang, Bangyu Qin, Shengtao Li, Ziyang Dong et al. (7 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4438,7 +4570,15 @@ Humanoid robots possess the structural capability to traverse complex terrains. 
 ## Being-M0.7: A Latent World-Action Model for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.11283)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Junpeng Yue, Boyuan Li, Yuxuan Wang, Zepeng Wang, Yuhui Fu, Feiyang Xie et al. (14 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -4460,7 +4600,15 @@ Humanoid loco-manipulation requires coordinated locomotion and manipulation info
 ## TAPNAV: Humanoid Navigation through Tactile Active Perception
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.10748)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Huaze Liu, Zhenyu Wu, Jaehwi Jang, Junjie Sheng, Andrew Collins, Aaron Xie et al. (11 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4481,7 +4629,15 @@ Navigation in vision-denied environments is challenging for humanoid robots beca
 ## HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.10489)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Mike Zhang, Dongho Kang, Kevin Bergamin, Nicola Burger, Robin Deits, Jonathan Foster et al. (22 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -4504,7 +4660,16 @@ Despite recent advances in humanoid locomotion, controllers optimized for comman
 ## LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.10465)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://lla-control.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Sebin Jung, Maitham F. AL-Sunni, Juan Alvarez-Padilla, Zachary Manchester, Changliu Liu, John M. Dolan
 - **Published:** 2026-10
 - **Tags:**
@@ -4526,7 +4691,16 @@ Real-time whole-body controllers for legged robots typically plan through a fixe
 ## From Hitter to Player: Separating Motor Execution and Strategy in Competitive Humanoid Table Tennis
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.14067)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://mufanmufan.github.io/hitter-to-player/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Fanrong Dong, Ziyi Sun, Ziqi Han, Junhan Sun, Lei Ye, Zetong Jing et al. (9 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4543,7 +4717,15 @@ Competitive humanoid table tennis requires two distinct abilities: executing a d
 ## From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.10322)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Kerui Chen, Jianrong Zhang, Kai Lv, Hehe Fan
 - **Published:** 2026-10
 - **Tags:**
@@ -4563,7 +4745,16 @@ Recent methods have made promising progress in generating interactions between t
 ## Precise SE(3) End-Effector Tracking in Whole-Body Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.09479)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://resgac.github.io/ResGAC-website/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Joohwan Seo, Xiaofeng Guo, Jinkun Cao, Roberto Horowitz, Rocky Duan, Guanya Shi et al. (7 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Unitree G1
@@ -4585,7 +4776,16 @@ Precise end-effector tracking during humanoid whole-body motion is challenging d
 ## Terrain Traversal Without Motion Priors: Expert-Routed Humanoid Locomotion at Deployment Fidelity
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.14061)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://fai-rl-tech.github.io/moe-perceptive/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Thanh Ly, Chien Le, Truong-Duy Dang, Duy M. H. Nguyen, Duy-Dung Le, Vien Anh Ngo et al. (7 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4604,7 +4804,16 @@ State-of-the-art perceptive humanoid locomotion is mostly built on retargeted mo
 ## Co${}^{2}$Skill: Whole-Body Control via Skill Composition for Long-Horizon Human-Environment Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.09291)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://canoneod.github.io/projects/coskill/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jeonghwan Kim, Hyeonwoo Kim, Hanbyul Joo
 - **Published:** 2026-10
 - **Tags:**
@@ -4623,7 +4832,16 @@ Achieving human-level dexterity in complex, unstructured environments requires t
 ## Workhorse: Learning Robust Whole-Body Humanoid Loco-Manipulation from Human Data
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.09117)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://hybridrobotics.github.io/workhorse/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Songbo Hu, Qiayuan Liao, Yufeng Chi, Kevin Zakka, Yakun Sophia Shao, Pieter Abbeel et al. (7 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4640,10 +4858,21 @@ Humanoid robots still struggle to plan contact-rich whole-body manipulation from
 
 ---
 
-## MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking
+## 🌟 MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.09055)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://nebulis-lab.com/MimicX/)
+- **Repository:** [Code](https://github.com/NEBULIS-Lab/MimicX)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 238 source files; examples: dependencies/backend_overlay/unitree_rl_mjlab/scripts/csv_to_npz.py, dependencies/backend_overlay/unitree_rl_mjlab/scripts/play.py, dependencies/backend_overlay/unitree_rl_mjlab/scripts/train.py, dependencies/backend_overlay/unitree_rl_mjlab/src/tasks/tracking/config/g1/env_cfgs.py, dependencies/backend_overlay/unitree_rl_mjlab/src/tasks/tracking/config/g1/rl_cfg.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Shuaijun Liu, Chenglong Zhang, Xuhao Liu, Feiyang You, Yifan Liao, Shuyang Hao et al. (10 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4660,7 +4889,15 @@ Human videos provide rich motion targets for humanoid learning, yet visually pla
 ## HULK: Learning Whole-Body Forceful Loco-Manipulation for Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08970)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** An Dang, Arturo Flores Alvarez, Yu-Ming Chen, Conor Mc Gartoll, Helen Sun, Aaron Ames et al. (8 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4680,7 +4917,16 @@ Humanoid loco-manipulation of large, heavy objects demands forceful interaction 
 ## PhoneBot: A Low-Cost Open Humanoid Robot Platform Reusing Smartphones
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08737)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://phonebot.dev/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Ruochen Hou, Quanyou Wang, Daniel Koh, Dennis W. Hong
 - **Published:** 2026-10
 - **Tags:**
@@ -4699,7 +4945,15 @@ The adoption of humanoid robots in education and research remains limited by hig
 ## From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08381)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jiyeon Koo, Eunseom Pyo, Jeonghee Seo, Taehwa Kim, Andrew Jaeyong Choi
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Figure
@@ -4720,7 +4974,16 @@ Human video offers a scalable source of robot demonstrations, yet most human-to-
 ## Humanoid Horizon: Extending Task Horizon in Whole-Body Loco-Manipulation via Parallel Training, Dynamic Starting, and Reward Gating
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08320)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://haozhuo-zhang.github.io/Humanoid-Horizon-project-page/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Haozhuo Zhang, Qiang Zhang, Jian Tang, Mingzhe Ni, Michele Caprio, Angelo Cangelosi et al. (7 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4740,7 +5003,15 @@ Cluttered indoor environments, where large and heavy objects are scattered acros
 ## iGPC: Generative Motion Priors for Object-Aware Humanoid Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08120)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Anujith Muraleedharan, Abdul Ahad Butt, Nolan Fey, Yash Prabhu, Anamika J H, Sandor Felber et al. (8 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4759,7 +5030,15 @@ Humanoid robots operating in unstructured environments must combine robust whole
 ## AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08119)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Sergei Kurchev, Iaroslav Kolomiets, Miguel Altamirano Cabrera, Artem Lykov, Dzmitry Tsetserukou
 - **Published:** 2026-10
 - **Tags:**
@@ -4780,7 +5059,15 @@ World-action models (WAMs) such as Cosmos 3 jointly generate future video and ro
 ## Beyond Retargeting: Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.07891)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Xiayan Xu, Jiyu Yu, Xingzhou Chen, Siyi Qian, Zongyu Ma, Lilu Liu et al. (8 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4798,11 +5085,20 @@ Humanoid whole-body teleoperation translates human motion into stable robot beha
 
 ---
 
-## BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
+## 🌟 BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.07594)
-- **Project:** [Project page](https://github.com/swirl-uk/bigym2)
-- **Code status:** Unverified / 未核验
+- **Repository:** [Code](https://github.com/swirl-uk/BiGym2)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 195 source files; examples: bigym/action_modes.py, bigym/bigym_env.py, bigym/bigym_renderer.py, bigym/cli.py, bigym/const.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Zexi Zhang, Zecheng Zhu, Zidong Chen, Zulkhuu Tuya, Stephen James
 - **Published:** 2026-10
 - **Tags:**
@@ -4824,7 +5120,15 @@ Humanoid household manipulation requires the arms to act while the body balances
 ## What the Elevation Map Cannot See: Semantic-Aware Locomotion and Execution-Aware Navigation for Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.07396)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Shunyu Yao, Songyang Liu, Dinghao Chen, Yuanyuan Lei, Shuai Li
 - **Published:** 2026-10
 - **Tags:**
@@ -4844,7 +5148,15 @@ Navigation for humanoid robots is critical, yet large-scale evaluation on physic
 ## CIRRA: Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08862)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Ci Zhang, Enfu Nan, Arman Akbari, Lin Zhao, Li Wang, Chen Wang et al. (9 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4861,7 +5173,16 @@ Household robots must accommodate new user instructions while executing ongoing 
 ## InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.06850)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://sirui-xu.github.io/InterMimicGen/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yucheng Zhang, Sirui Xu, Jinhong Li, Liuyu Bian, Anatulya Nandi, Derek Zhang et al. (11 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -4882,7 +5203,15 @@ Captured human-object interactions provide rich supervision for humanoid loco-ma
 ## Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.06153)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jin Jiang, Kun Li, Jiancong Ma, Shengcai Liao
 - **Published:** 2026-10
 - **Tags:**
@@ -4899,7 +5228,15 @@ Expressive humanoid interaction requires speech, facial animation, and body gest
 ## BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.07052)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Sudarshan Harithas, Chen Yu, Juan Borbon, Shubhankar Mondal, Winston Zha, Srinath Sridhar et al. (8 authors)
 - **Published:** 2026-10
 - **Real Robot:** ✅

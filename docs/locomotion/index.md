@@ -1,10 +1,10 @@
 # Locomotion
 
-**252 papers** in this category.
+**254 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (11 papers)
+- [2026-11](/locomotion/2026-11) (13 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -42,12 +42,64 @@
 
 ## Recent Papers
 
+## 🌟 When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.18491)
+- **Repository:** [Code](https://github.com/mkhoshnam/Selfplay-PPO-handover)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 12 source files; examples: hcrl/controllers_v5.py, hcrl/eval_v5.py, hcrl/g1_cfg.py, hcrl/hri_v5_env.py, hcrl/human_animation.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
+- **Authors:** Mohammad Khoshnazar, Mike Degany, Deyuan Qu, Qing Yang, Matyas Szanto
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Cooperative self-play can teach a humanoid to receive an object without any human data, but the partner it meets after training is never the one it trained with; we show that a fluent self-play handover policy breaks with unfamiliar partners, identify the main cause, and repair it. In a physics-based parcel handover between a Unitree G1 and a learned giver, both trained by alternating PPO self-play, the receiver completes 95% and 90% of handovers with its own partner (two training seeds) but only 31% with scripted partners it has never met.
+
+---
+
+## Reusing Locomotion Training Recipes Across Humanoids via Body-Aligned Virtual Joints
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.18003)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Sol Choi, Mingon Kim, Seokin Seo, Jongeun Choi, Donghyeon Kim, Yisoo Lee
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Humanoid
+
+### Summary
+
+Reinforcement learning has enabled robust humanoid locomotion, yet training recipes (rewards, architectures, hyperparameters) remain hard to reuse across robots with different native joint coordinates, since policies output native joint angles while action scales, bounds, gains, and penalties are defined in those robot-specific coordinates. Existing transmission models convert native targets into actuator commands but do not standardize the coordinate interface exposed to the policy.
+
+---
+
 ## 🌟 BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16422)
 - **Repository:** [Code](https://github.com/fuyichen0725/blinkmimic)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -73,7 +125,7 @@ Whole-body motion tracking lets a humanoid robot follow reference motions, but t
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15928)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -101,7 +153,7 @@ Full-size humanoid robots are being considered for hazardous industrial work suc
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14981)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -127,7 +179,7 @@ Extending humanoid interaction generation to new environments remains limited by
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
 - **Project:** [Project page](https://ihcr.github.io/AHEADance/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -536,64 +588,5 @@ Vision-language-action (VLA) models provide a promising paradigm for scalable ro
 ### Summary
 
 Humanoid parkour requires robots to reason about future footholds and whole-body motions over highly discontinuous terrain. We revisit the information asymmetry in asymmetric actor-critic learning for perceptive humanoid locomotion: the critic exploits privileged simulator signals during training, whereas the deployable actor operates solely from onboard perception.
-
----
-
-## REACH: An RL-based Hierarchical Humanoid Crawling Framework for Adaptable Confined Space Traversal
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.36546)
-- **Project:** [Project page](https://aislab-sustech.github.io/REACH/)
-- **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Shengzhang Xu, Yuning Guo, Weiyi Hu, Yifeng Xu, Zhongyu Li, He Kong
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Locomotion
-  - Biped
-  - Humanoid
-  - Walking
-  - Point Cloud
-  - Collision
-
-### Summary
-
-Humanoid locomotion in confined spaces requires continuous height adaptation across multiple locomotion modes, yet most existing approaches remain limited to height-adjustable bipedal walking. We present REACH, an RL-based hierarchical framework that enables a Unitree G1 humanoid to traverse height-constrained environments through variable-height bipedal walking and crawling.
-
----
-
-## GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.36507)
-- **Project:** [Project page](https://graft-humanoid.github.io/)
-- **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Liang Li, Guoyao Zhang, Xingyu Chen, Sikai Wu, Qianyang Wu, Yuhang Lin et al. (9 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Teleoperation
-  - Locomotion
-  - Humanoid
-  - Foundation Model
-  - Fine-tuning
-
-### Summary
-
-Humanoid behavior foundation models (BFMs) provide reusable whole-body motion priors: given a kinematic reference, they generate coordinated joint commands for motion replay, teleoperation, and VLA control. However, trained primarily on flat-ground motion, BFMs lack an explicit mechanism to adapt foot placement, swing clearance, and contact timing to local terrain.
 
 ---

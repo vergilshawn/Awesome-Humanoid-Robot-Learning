@@ -31,7 +31,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-15
+- **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -371,7 +371,15 @@ Third-person human videos offer a scalable alternative to task-specific reward e
 ## PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.12642)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Nicholas Ioannidis, Dun Yang, Max Smith, Tue Vu, Ziyu Zhang, Shayegan Omidshafiei et al. (7 authors)
 - **Published:** 2026-10
 - **Tags:**
@@ -390,7 +398,15 @@ Motion retargeting is a critical preprocessing step for transferring human motio
 ## From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08381)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jiyeon Koo, Eunseom Pyo, Jeonghee Seo, Taehwa Kim, Andrew Jaeyong Choi
 - **Published:** 2026-10
 - **Real Robot:** ✅ — Figure
@@ -411,7 +427,15 @@ Human video offers a scalable source of robot demonstrations, yet most human-to-
 ## AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08119)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Sergei Kurchev, Iaroslav Kolomiets, Miguel Altamirano Cabrera, Artem Lykov, Dzmitry Tsetserukou
 - **Published:** 2026-10
 - **Tags:**
@@ -432,7 +456,15 @@ World-action models (WAMs) such as Cosmos 3 jointly generate future video and ro
 ## Beyond Retargeting: Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.07891)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-16
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Xiayan Xu, Jiyu Yu, Xingzhou Chen, Siyi Qian, Zongyu Ma, Lilu Liu et al. (8 authors)
 - **Published:** 2026-10
 - **Tags:**
