@@ -144,7 +144,15 @@ Expressive humanoid interaction requires speech, facial animation, and body gest
 ## GestAdapt: Workspace-Conditioned Co-Speech Gesture Generation for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.38400)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Bosong Ding, Xianglin Zhang, Miao Xin, Murat Kirtay, Giacomo Spigler
 - **Published:** 2026-09
 - **Tags:**

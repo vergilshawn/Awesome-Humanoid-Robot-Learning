@@ -1,10 +1,10 @@
 # Locomotion
 
-**254 papers** in this category.
+**256 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (13 papers)
+- [2026-11](/locomotion/2026-11) (15 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -42,12 +42,67 @@
 
 ## Recent Papers
 
+## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Yongji Fu, Man Cao, Yi Zhou, Fei Lin, Mark F. Hansen, Guanqun Cao
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Digit
+- **Tags:**
+  - Humanoid
+  - VAE
+  - Representation Learning
+  - Locomotion
+
+### Summary
+
+Natural, coherent full-face dynamic expressions are central to making humanoid robots socially approachable, yet existing systems commonly realize only limited lip motion or scripted expressions. The limitation is both physical and algorithmic.
+
+---
+
+## XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.20452)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Nico Bohlinger, Jan Peters
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - World Model
+  - Simulator
+  - MuJoCo
+  - Humanoid
+  - SAC
+
+### Summary
+
+We present XMimic and XSoma, which learn humanoid motion tracking and locomotion on rough terrain in under a minute of training. Both follow SuperMimic, which learns a world model of the robot and optimizes the policy with analytic gradients through short rollouts imagined in this model.
+
+---
+
 ## 🌟 When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18491)
 - **Repository:** [Code](https://github.com/mkhoshnam/Selfplay-PPO-handover)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -73,7 +128,7 @@ Cooperative self-play can teach a humanoid to receive an object without any huma
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18003)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -99,7 +154,7 @@ Reinforcement learning has enabled robust humanoid locomotion, yet training reci
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16422)
 - **Repository:** [Code](https://github.com/fuyichen0725/blinkmimic)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -125,7 +180,7 @@ Whole-body motion tracking lets a humanoid robot follow reference motions, but t
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15928)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -153,7 +208,7 @@ Full-size humanoid robots are being considered for hazardous industrial work suc
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14981)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -179,7 +234,7 @@ Extending humanoid interaction generation to new environments remains limited by
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
 - **Project:** [Project page](https://ihcr.github.io/AHEADance/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -530,63 +585,5 @@ Humanoids have become increasingly agile and capable in real-world environments.
 ### Summary
 
 Motion retargeting maps a demonstrated human movement onto a robot to compute its joint motion. This study examines how the construction of the desired wrist position affects whether computed arm joint angles reach their permitted limits on a Unitree H1-2.
-
----
-
-## Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.37330)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Hanwen Ren, Meng Zheng, Wenzhe Cui, Benjamin Planche, Zhongpai Gao, Anwesa Choudhuri et al. (8 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Manipulation
-  - Robustness
-  - Humanoid
-  - Vision-Language
-  - Policy Learning
-  - Diffusion
-  - Locomotion
-
-### Summary
-
-Vision-language-action (VLA) models provide a promising paradigm for scalable robotic manipulation, yet their reliance on success-only behavioral cloning leaves them brittle; lacking corrective training signals, minor execution errors rapidly compound into unrecoverable, out-of-distribution failures. To address this limitation, we propose Adaptive Failure-Informed Learning (AFIL), an end-to-end framework that leverages failure trajectories as adaptive negative guidance for diffusion- and flow-based VLA policies.
-
----
-
-## HC2Robot: Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.36825)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Wenhao Xu, Yanheng Mai, Yifei Fu, Nan Zheng, Yanbo Zhou, Zirui Huang et al. (9 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Locomotion
-  - Transformer
-  - Simulator
-  - Humanoid
-  - Motion Prediction
-  - Actor-Critic
-  - PPO
-
-### Summary
-
-Humanoid parkour requires robots to reason about future footholds and whole-body motions over highly discontinuous terrain. We revisit the information asymmetry in asymmetric actor-critic learning for perceptive humanoid locomotion: the critic exploits privileged simulator signals during training, whereas the deployable actor operates solely from onboard perception.
 
 ---

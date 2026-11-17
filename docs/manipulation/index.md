@@ -1,10 +1,10 @@
 # Manipulation
 
-**82 papers** in this category.
+**83 papers** in this category.
 
 ## Months
 
-- [2026-11](/manipulation/2026-11) (2 papers)
+- [2026-11](/manipulation/2026-11) (3 papers)
 - [2026-10](/manipulation/2026-10) (7 papers)
 - [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
@@ -36,11 +36,43 @@
 
 ## Recent Papers
 
+## TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.18976)
+- **Project:** [Project page](https://humanoid-tma.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Yiting Chen, Kelin Yu, Sarthak Kaingade, Bryan Trinh, Kaiyu Hang, Roberto Martin-martin et al. (8 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Sim-to-Real
+  - Locomotion
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Friction
+  - Benchmark
+  - Policy Learning
+
+### Summary
+
+Recent humanoid loco-manipulation in articulated environments has largely focused on geometry-dominant interactions, where success is primarily determined by geometric alignment and motion execution. In contrast, forceful multi-finger manipulation requires the robot to adapt to real-world uncertainties in contact and interaction dynamics.
+
+---
+
 ## Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11854)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -289,7 +321,16 @@ We present KinoGen, a framework that synthesizes customizable humanoid loco-mani
 ## IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.39403)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://xpeng-robotics.github.io/ironmind/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Huimin Pan, Yufan Ren, Kunpeng Song, Siyang Wang, Xiwen Zhang, Xiaoyun Hu et al. (19 authors)
 - **Published:** 2026-09
 - **Tags:**
@@ -476,33 +517,5 @@ Human-robot interaction (HRI) enables intuitive and intelligent collaboration be
 ### Summary
 
 We present blind, whole-body manipulation skills on a Unitree G1 humanoid using only onboard proprioception, without cameras, markers, force-torque, or tactile sensors. Despite this minimal sensing, the trained policies exhibit surprising capability across qualitatively different tasks: push-resilient bipedal walking without IMU feedback, active soccer ball trapping with a foot, seeking and lifting a suitcase by its handle, and mounting a randomly positioned skateboard.
-
----
-
-## Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.11769)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Chaeyeon Jung, Juyoun Park
-- **Published:** 2026-08
-- **Tags:**
-  - Manipulation
-  - Robustness
-  - Humanoid
-  - Vision-Language
-  - Dataset
-  - Simulation Benchmark
-
-### Summary
-
-Vision-language-action (VLA) policies are expected to operate robustly across variations in the robot's initial configuration, yet aggregate task success can conceal pose-specific failures and inappropriate hand selection. This work investigates initial-pose dependence in VLA-based humanoid dual-arm manipulation.
 
 ---

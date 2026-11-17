@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**330 papers** in this category.
+**335 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (18 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (23 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -41,13 +41,171 @@
 
 ## Recent Papers
 
+## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Murad Dawood, Oezge Drama Berkenkamp, Antonio Gonzales Marin, Nutan Chen
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Locomotion
+  - Safety
+  - Real Robot
+  - Humanoid
+  - Walking
+  - Distillation
+
+### Summary
+
+Achieving human-like behavior on humanoid robots has advanced rapidly by leveraging motion-capture demonstrations rather than hand-crafted cost functions. Adversarial imitation supplies a style signal that lets a policy fulfill a task while adhering to a desired style, but is difficult to transfer to hardware.
+
+---
+
+## QTOP: Scaling Humanoid Motion Tracking with Quantile Critics
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.20791)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Markus Peschl, Dana Kianfar, Daniel Dijkman
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Whole-Body Control
+  - Multi-Task
+  - Humanoid
+  - Impact
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+  - Simulation Benchmark
+
+### Summary
+
+Learning human motion tracking policies through reinforcement learning (RL) has emerged as a core capability that underpins a majority of recent progress in humanoid whole-body control. However, achieving generalization to unseen motions at high fidelity requires jointly scaling training to thousands of GPU and dataset hours.
+
+---
+
+## MoViC: Real-Time Humanoid Whole-Body Control from Monocular Video Streams
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.19998)
+- **Project:** [Project page](https://movicproject.github.io/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code (coming soon
+
+</details>
+
+- **Authors:** Yimin Han, Jiahui Zhang, Wanyue Li, Zeren Luo, Yeke Chen, Liu Zhao et al. (13 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Whole-Body Control
+  - Teleoperation
+  - Manipulation
+  - Transformer
+  - Humanoid
+  - Foundation Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Real-time whole-body imitation from monocular video requires both a robust universal tracker and high-quality real-time reconstruction. We present MoViC, a framework that uses live RGB video as a control signal for humanoid robots without wearable tracking devices.
+
+---
+
+## Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.19196)
+- **Project:** [Project page](https://robonana.github.io/ego2sim2humanoid/)
+- **Repository:** [Code](https://github.com/robonana/ego2sim2humanoid)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No implementation files detected (documentation/assets only); review required
+- Publication/project page: code coming soon
+
+</details>
+
+- **Authors:** Chen Liu, Nikolaus Correll
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Imitation Learning
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Proprioception
+  - Collision
+
+### Summary
+
+Imitation learning for visuomotor policies typically relies on teleoperated robot demonstrations, which are costly because every episode requires a trained operator controlling a physical robot in real time through teleoperation interfaces and wearable body-tracking hardware. Egocentric glasses capture human demonstrations without a robot or handheld grippers, yet they track only the head and in-view human hands, and directly copying human motion to a robot with different stature, arm reach and hand morphology fails to produce feasible contacts.
+
+---
+
+## Leaning Over to Reach Far-Away Objects
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.19100)
+- **Project:** [Project page](https://h12leaner.github.io/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code (coming soon
+
+</details>
+
+- **Authors:** Allen Devaraj, William Xie, Nikolaus Correll
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree H1
+- **Tags:**
+  - MPC
+  - Sim-to-Real
+  - Manipulation
+  - Humanoid
+  - Pose Estimation
+  - Sampling-Based
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+We study supported reaching to extend a humanoid robot's workspace by bracing against the environment for stabilization using a straightforward yet capable whole-body model predictive control (MPC) approach, exclusively with local sensing and fiducial markers. While typical solutions for whole body humanoid control aim at avoiding or accommodating contact, contact is explicitly required to reach objects placed on surfaces far out of normal reach.
+
+---
+
 ## 🌟 FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.17142)
 - **Project:** [Project page](https://bb0928.github.io/forge/)
 - **Repository:** [Code](https://github.com/bb0928/FORGE)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -78,7 +236,7 @@ Humanoid loco-manipulation requires coordinated locomotion, balance regulation, 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16188)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -106,7 +264,7 @@ Motion imitation enables humanoid robots to acquire whole-body skills such as wa
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15117)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -137,7 +295,7 @@ Quadrupedal mobile manipulators can extend their manipulation workspace by coord
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14049)
 - **Project:** [Project page](https://xiaopeng-whu.github.io/RedirectMimic/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -162,7 +320,7 @@ Humanoid motion interfaces should accommodate application-specific movement cons
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -191,7 +349,7 @@ In recent years, humanoid loco-manipulation has progressed to whole-body graspin
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -473,141 +631,5 @@ Humanoid loco-manipulation requires coordinated body motion and hand interaction
 ### Summary
 
 Humanoid robots operating in cluttered environments must react to unexpected contacts before the first impact peak, which arrives within tens of milliseconds. Learned whole-body policies running at 50 Hz introduce a policy-cycle delay and may suppress a protective withdrawal as a tracking error.
-
----
-
-## Online iLQR-MPC with Whole-Body Control for Robust Humanoid Locomotion
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.04204)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Xiang Li, Linlin Ou, Ruihan Wu, Xinyi Yu
-- **Published:** 2026-11
-- **Tags:**
-  - MPC
-  - Whole-Body Control
-  - Locomotion
-  - MuJoCo
-  - Humanoid
-  - Walking
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid locomotion requires deciding where to step and how to distribute contact forces. However, a disturbance can invalidate the nominal plan, requiring coordinated revision under constraints that switch with every footfall.
-
----
-
-## CompliantBot: Learning Whole-Body Compliance across Task Interfaces for Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.01748)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Haoyang Li, Keqi Zhu, Zhanxiang Cao, Yang Zhang, Yizhi Chen, Xuekang Yang et al. (7 authors)
-- **Published:** 2026-11
-- **Tags:**
-  - Locomotion
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid controllers need the ability to yield to external forces while retaining the capacity to resume their original tasks. However, tracking objectives penalize the deviations needed for yielding, while relaxing tracking goals persistently can make task recovery harder.
-
----
-
-## 🌟 HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.01659)
-- **Project:** [Project page](https://xuanbinpeng.com/hug/)
-- **Repository:** [Code](https://github.com/openrobokit/graspkit)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Detected 296 source files; examples: projects/hug/scripts/real/calibration/g1_calibration.py, projects/hug/scripts/real/calibration/teach_arm_qpos.py, projects/hug/scripts/real/check_camera.py, projects/hug/scripts/real/check_hand.py, projects/hug/scripts/real/grasp.py
-- Completeness, dependencies, training assets and reproducibility have not been verified
-
-</details>
-
-- **Authors:** Xuanbin Peng, Lai Wei, Yuze Zhai, Qingyuan Yu, Keyi Wang, Jianglong Ye et al. (7 authors)
-- **Published:** 2026-11
-- **Tags:**
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-  - Manipulation
-
-### Summary
-
-Acquiring objects in human environments is hard for humanoids: targets are partially occluded under egocentric viewpoints, and reaching them demands coordinated whole-body motion that keeps the target visible and reachable while the base stays stable. We present HuG, a framework for whole-body affordance-aware grasping with active perception that couples perception and action through a Perceive-Align-Grasp pipeline: belief-driven active perception resolves occlusion by treating viewpoint as an explicit decision variable; a point-cloud-conditioned affordance policy proposes whole-body grasps; and an affordance-aware alignment stage repositions the body to the most executable configuration.
-
----
-
-## Learning Agile Humanoid Dodgeball with Onboard Monocular Vision
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.01197)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Feng Tian, Yulin An, Chenhao Li, Matthias Heyrman, Marco Hutter
-- **Published:** 2026-10
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - State Estimation
-
-### Summary
-
-Humanoid robots operating in shared, dynamic environments must respond to rapidly approaching objects while maintaining balance. We study dodgeball as a controlled test of this capability, coupling visual threat assessment with whole-body evasion, recovery, and target reacquisition.
-
----
-
-## Why Koopman Structure Does Not Help Differentiable World Models for Humanoid Whole-Body Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.00951)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Haizhou Ge, Mengshuo Wang, Yufei Jia, Lei Han, Lu Shi, Guyue Zhou et al. (7 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - World Model
-  - Humanoid
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-We test whether Koopman structure helps a differentiable world model used to train a simulated Unitree G1 whole-body tracking policy by backpropagation through imagined rollouts, replacing the MLP world model of an otherwise unchanged pipeline. It does not: return is at best equal (0.823 versus 0.830), one-step error on identical data is 1.3 to 1.6 times the MLP's, and training is about 15% slower.
 
 ---

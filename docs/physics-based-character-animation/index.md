@@ -44,7 +44,7 @@
 - **Project:** [Project page](https://kimodo-policy.github.io/)
 - **Repository:** [Code](https://github.com/kimodo-policy/kimodo-policy)
 - **Code status:** Partial release / 部分代码或资源待发布
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -248,7 +248,16 @@ Recent methods have made promising progress in generating interactions between t
 ## ECHO-G: Embodied Co-speech Humanoid mOtion Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.39575)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://echo-g-project.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yizhao Li, Pusen Gao, Ming Wang, Shaojie Shen, Shuo Yang, Hao Xu
 - **Published:** 2026-09
 - **Tags:**

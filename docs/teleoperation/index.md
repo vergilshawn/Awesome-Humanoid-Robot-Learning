@@ -31,7 +31,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-16
+- **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -485,7 +485,15 @@ Humanoid whole-body teleoperation translates human motion into stable robot beha
 ## Toward Humanoid Robots in Construction: A Teleoperation Feasibility Study
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.00718)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-17
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Parastoo Ali Pour, David R. Martin, Chang Min Hur, Bo Zhang, Tommy Zhou, Brandon Thomas Lichter et al. (9 authors)
 - **Published:** 2026-09
 - **Tags:**
