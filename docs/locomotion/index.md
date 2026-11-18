@@ -1,10 +1,10 @@
 # Locomotion
 
-**256 papers** in this category.
+**257 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (15 papers)
+- [2026-11](/locomotion/2026-11) (16 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -42,11 +42,38 @@
 
 ## Recent Papers
 
+## Low-speed Limit Cycle Walking of Planar X-shaped Bipedal Robot with Special Properties
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.22122)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Fumihiko Asano, Cong Yan
+- **Published:** 2026-11
+- **Tags:**
+  - Biped
+  - Gait
+  - Walking
+  - Collision
+  - Locomotion
+
+### Summary
+
+This paper proposes a novel planar semicircular-footed X-shaped bipedal robot in which the center of mass of each leg link is at the same position as the hip joint, and discusses a method for generating a stable limit cycle gait on level ground. First, we outline the assumptions of the robot model with four degrees of freedom, and develop the mathematical equations of motion and collision.
+
+---
+
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -73,7 +100,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20452)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -102,7 +129,7 @@ We present XMimic and XSoma, which learn humanoid motion tracking and locomotion
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18491)
 - **Repository:** [Code](https://github.com/mkhoshnam/Selfplay-PPO-handover)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -128,7 +155,7 @@ Cooperative self-play can teach a humanoid to receive an object without any huma
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18003)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -154,7 +181,7 @@ Reinforcement learning has enabled robust humanoid locomotion, yet training reci
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16422)
 - **Repository:** [Code](https://github.com/fuyichen0725/blinkmimic)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -180,7 +207,7 @@ Whole-body motion tracking lets a humanoid robot follow reference motions, but t
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15928)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -208,7 +235,7 @@ Full-size humanoid robots are being considered for hazardous industrial work suc
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14981)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -234,7 +261,7 @@ Extending humanoid interaction generation to new environments remains limited by
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
 - **Project:** [Project page](https://ihcr.github.io/AHEADance/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -558,32 +585,5 @@ In this paper, we focus on interaction-preserving motion retargeting, which tran
 ### Summary
 
 Humanoids have become increasingly agile and capable in real-world environments. To operate safely in dynamic scenarios, they must rapidly evade fast-moving obstacles while maintaining stability and physically feasible whole-body motion.
-
----
-
-## An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.37801)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** MinJun Chang
-- **Published:** 2026-10
-- **Tags:**
-  - Motion Retargeting
-  - Manipulation
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-Motion retargeting maps a demonstrated human movement onto a robot to compute its joint motion. This study examines how the construction of the desired wrist position affects whether computed arm joint angles reach their permitted limits on a Unitree H1-2.
 
 ---

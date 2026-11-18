@@ -1,10 +1,10 @@
 # Teleoperation
 
-**48 papers** in this category.
+**49 papers** in this category.
 
 ## Months
 
-- [2026-11](/teleoperation/2026-11) (2 papers)
+- [2026-11](/teleoperation/2026-11) (3 papers)
 - [2026-10](/teleoperation/2026-10) (14 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
@@ -27,11 +27,37 @@
 
 ## Recent Papers
 
+## ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.22258)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Zhaoyang Li, Chiyu Zhang, Chengxin Xu, Peng Yang, Zhonghao Guo, Wanting Li et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Humanoid
+  - Collision
+
+### Summary
+
+Whole-body motion tracking has enabled humanoid dancing, athletic motions, and teleoperation, providing a foundation for capability demonstrations and manipulation data collection. However, existing tracking policies lack awareness of nearby humans and proactive avoidance capabilities, while motion substitution and local constraint-based corrections may compromise reference motion integrity and tracking continuity.
+
+---
+
 ## ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -511,7 +537,16 @@ We present a teleoperation system that enables a single operator to perform cons
 ## GAE: General Action Expert for Real-Time Humanoid Teleoperation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.34233)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://wangyf0928.github.io/gae-wlrobotics/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yuefan Wang, Huaicheng Zhou, Xiao He, Zhijie He, Mingchuan Yang, Huayi Zhang et al. (9 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -548,25 +583,5 @@ Humanoid avatars extend human physical presence beyond the body, enabling people
 ### Summary
 
 Whole-body humanoid teleoperation commonly combines a motion-tracking policy with a separate dexterous-hand retargeter. However, independently generated commands do not explicitly preserve body-hand geometric relations, leading to mismatches in relative wrist poses and fingertip positions during bimanual interaction.
-
----
-
-## PGMT: Perceptive General Motion Tracking for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.08511)
-- **Code status:** Unverified / 未核验
-- **Authors:** Hongyi Li, Li Peizhuo, Yucheng Tao, Ze Wang, Fangzhou Xu, Jinyi Chen et al. (12 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Teleoperation
-  - Locomotion
-  - Zero-Shot
-  - Humanoid
-  - PPO
-
-### Summary
-
-Humanoid motion trackers can reproduce diverse whole-body motions, but their performance degrades on complex terrain where terrain-agnostic references become physically infeasible. We present PGMT, a Perceptive General Motion Tracking pipeline for humanoid robots that learns terrain adaptation from independently selected motion references and terrains.
 
 ---

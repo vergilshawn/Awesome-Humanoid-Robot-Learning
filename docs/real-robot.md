@@ -9,7 +9,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Digit:** 4 papers
 - **Figure:** 19 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 90 papers
+- **Unitree G1:** 91 papers
 - **Unitree H1:** 2 papers
 - **Unknown Platform:** 24 papers
 - **iCub:** 1 papers
@@ -18,11 +18,37 @@ Papers with real humanoid robot deployment and experiments.
 
 ## All Real Robot Papers
 
+## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Koki Inami, Takashi Sato, Hiroyuki Oka, Shota Takizawa, Yuya Takahashi, Amon Suzuki et al. (10 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - State Estimation
+
+### Summary
+
+Learning-based methods now let humanoids run robustly, and they have begun to compete in athletic events. Yet few reports describe a complete autonomous humanoid running system in an actual race, where the robot must follow a lane at a new venue, pace itself within hardware limits, and finish without intervention.
+
+---
+
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -49,7 +75,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -81,7 +107,7 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19998)
 - **Project:** [Project page](https://movicproject.github.io/)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -113,7 +139,7 @@ Real-time whole-body imitation from monocular video requires both a robust unive
 - **Project:** [Project page](https://robonana.github.io/ego2sim2humanoid/)
 - **Repository:** [Code](https://github.com/robonana/ego2sim2humanoid)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -146,7 +172,7 @@ Imitation learning for visuomotor policies typically relies on teleoperated robo
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19100)
 - **Project:** [Project page](https://h12leaner.github.io/)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -178,7 +204,7 @@ We study supported reaching to extend a humanoid robot's workspace by bracing ag
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18976)
 - **Project:** [Project page](https://humanoid-tma.github.io/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -209,7 +235,7 @@ Recent humanoid loco-manipulation in articulated environments has largely focuse
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.17598)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -239,7 +265,7 @@ Long-horizon navigation from indoors to outdoors remains an open problem for hum
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -264,7 +290,7 @@ Humanoid motion tracking is fundamental to reproducing human motions on humanoid
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -294,7 +320,7 @@ In recent years, humanoid loco-manipulation has progressed to whole-body graspin
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
 - **Project:** [Project page](https://ihcr.github.io/AHEADance/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -321,7 +347,7 @@ A humanoid that dances to streamed music must commit each motion chunk before it
 - **Project:** [Project page](https://robbyant-research.github.io/LHNav/)
 - **Repository:** [Code](https://github.com/robbyant-research/LHNav)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -2069,7 +2095,18 @@ Learning humanoid skills from videos typically requires a successful human demon
 ## DexWeave: Learning Dexterous Humanoid Loco-Manipulation from Human Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.34724)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://dexweave.github.io/)
+- **Repository:** [Code](https://github.com/WU-CVGL/DexWeave)
+- **Code status:** Partial release / 部分代码或资源待发布
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- README: [ ] Release the complete source code
+- Detected 3 source files
+
+</details>
+
 - **Authors:** Naichuan Sun, Haotian Shen, Yizhang Zhang, Luying Feng, Haoze Wang, Yuanbo Xiangli et al. (8 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2092,7 +2129,16 @@ Learning dexterous humanoid loco-manipulation from human demonstrations requires
 ## GAE: General Action Expert for Real-Time Humanoid Teleoperation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.34233)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://wangyf0928.github.io/gae-wlrobotics/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yuefan Wang, Huaicheng Zhou, Xiao He, Zhijie He, Mingchuan Yang, Huayi Zhang et al. (9 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2113,7 +2159,16 @@ Humanoid avatars extend human physical presence beyond the body, enabling people
 ## SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.33311)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://rex0191.github.io/SocialHumanoid/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code (coming soon
+
+</details>
+
 - **Authors:** Chengqun Yang, Tengjie Zhu, Liang Xu, Fulong Liu, Guanzhu Ren, Yitong Xing et al. (13 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Digit
@@ -2135,7 +2190,15 @@ Humanoid robots are increasingly expected to serve as embodied social agents tha
 ## Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.33269)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Arash Akbari, Arman Akbari, Jingwu Luo, Yuhao Lei, Yi Gao, Weiwei Chen et al. (10 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2152,10 +2215,21 @@ World Action Models (WAMs) jointly generate video and robot actions through iter
 
 ---
 
-## Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement
+## 🌟 Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.38216)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://fiatlux-bench.github.io/)
+- **Repository:** [Code](https://github.com/haw-ai-i/fiatlux)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 121 source files; examples: auto/pipeline/run_pipeline.py, auto/pipeline/stages/stage1_shape.py, auto/pipeline/usd/urdf_to_usd.py, auto/pipeline/usd/verify_usd.py, scripts/ablate_attach_forces.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Pavel Bushuyeu, Yujin Chen, Anton Nikolaev, Brian Shu, Igor Molybog
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2178,7 +2252,15 @@ Existing benchmarks evaluate tabletop manipulation, flat-floor household activit
 ## Humanoid Badminton: Learning Dynamic Racket Skills from Limited Human Motion Data
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.31840)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jingzhi Cui, Zhexiong Wang, Bangjie Xu, Pengyu Zhao, Youyuan Li, Zhi Su et al. (12 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅
@@ -2196,7 +2278,16 @@ High-speed racket sports provide a demanding testbed for humanoid robots, requir
 ## Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.30951)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://bundledcontactgradients.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Dyuman Aditya, Jin Cheng, Clemens Schwarke, Quan Nguyen, Gaurav Sukhatme, Stelian Coros et al. (7 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2217,7 +2308,15 @@ Differentiable simulation provides analytic gradients of robot dynamics, enablin
 ## Aerial Manipulation in the Wild with Onboard Perception, Policy Learning, and Whole-Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.30521)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yuanzhu Zhan, Yufei Jiang, Zemu Zhang, Junyi Geng
 - **Published:** 2026-09
 - **Real Robot:** ✅
@@ -2237,10 +2336,21 @@ Aerial manipulation in outdoor environments remains challenging due to the simul
 
 ---
 
-## Rolling-WAM: World Action Models with Rolling Imagination
+## 🌟 Rolling-WAM: World Action Models with Rolling Imagination
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.30247)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://rolling-wam.github.io/)
+- **Repository:** [Code](https://github.com/zyinghua/Rolling-WAM)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 65 source files; examples: experiments/g1/action_layout.py, experiments/libero/eval_libero_single.py, experiments/libero/libero_utils.py, experiments/libero/run_libero_manager.py, experiments/libero/summarize_results.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Yinghua Zhou, Junjie Ye, Yiqi Zhao, Hao Dong, Celina Shiyu Wang, Ruohai Ge et al. (11 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2255,11 +2365,20 @@ World Action Models (WAMs) couple action generation with future visual predictio
 
 ---
 
-## ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
+## 🌟 ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.28378)
-- **Project:** [Project page](https://github.com/Zili1000/ForgetMimic)
-- **Code status:** Unverified / 未核验
+- **Repository:** [Code](https://github.com/Zili1000/ForgetMimic)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 62 source files; examples: scripts/eval_unlearning.py, src/wbc_mjlab/data_paths.py, src/wbc_mjlab/demo_assets.py, src/wbc_mjlab/deploy_paths.py, src/wbc_mjlab/env/mdp/actions.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Xukun Luan, Zhongxiang Lei, Chen Gong, Shaowei Li, Yuanguo Bi, Jinyan Liu
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2279,7 +2398,16 @@ Humanoid control, leveraging human demonstrations, has achieved diverse, agile, 
 ## DAVIS: A Depth-Only End-to-End Active-Vision Framework for Humanoid Soccer Skills
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.28175)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://thusi-lab.github.io/DAVIS/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jiakang Jin, Yixiao Huo, Pengyuan Wang, Yinan Han, Tingxuan Zhang, Zhuobing Zhao et al. (15 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Figure

@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**335 papers** in this category.
+**336 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (23 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (24 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -41,11 +41,41 @@
 
 ## Recent Papers
 
+## Body Schema Policy: Body as the Vision-Action Interface for Efficient Robot Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.22713)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Lechen Zhang, Chenyuan Chen, Muxin Zhou, Zewen He, Yoshihiko Nakamura
+- **Published:** 2026-11
+- **Tags:**
+  - Imitation Learning
+  - Diffusion Policy
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Foundation Model
+  - Fine-tuning
+  - Diffusion
+
+### Summary
+
+Currently, robots can learn whole-body loco-manipulation through scale: the strongest policies have billions of parameters and still need task-specific fine-tuning. Humans have limited processing capacity, yet learn and act efficiently through a body schema that organizes what they see and how they move.
+
+---
+
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -76,7 +106,7 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20791)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -107,7 +137,7 @@ Learning human motion tracking policies through reinforcement learning (RL) has 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19998)
 - **Project:** [Project page](https://movicproject.github.io/)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -139,7 +169,7 @@ Real-time whole-body imitation from monocular video requires both a robust unive
 - **Project:** [Project page](https://robonana.github.io/ego2sim2humanoid/)
 - **Repository:** [Code](https://github.com/robonana/ego2sim2humanoid)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -172,7 +202,7 @@ Imitation learning for visuomotor policies typically relies on teleoperated robo
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19100)
 - **Project:** [Project page](https://h12leaner.github.io/)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -205,7 +235,7 @@ We study supported reaching to extend a humanoid robot's workspace by bracing ag
 - **Project:** [Project page](https://bb0928.github.io/forge/)
 - **Repository:** [Code](https://github.com/bb0928/FORGE)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -236,7 +266,7 @@ Humanoid loco-manipulation requires coordinated locomotion, balance regulation, 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16188)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -264,7 +294,7 @@ Motion imitation enables humanoid robots to acquire whole-body skills such as wa
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15117)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -295,7 +325,7 @@ Quadrupedal mobile manipulators can extend their manipulation workspace by coord
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14049)
 - **Project:** [Project page](https://xiaopeng-whu.github.io/RedirectMimic/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -320,7 +350,7 @@ Humanoid motion interfaces should accommodate application-specific movement cons
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -601,35 +631,5 @@ Hierarchical pipelines for humanoid loco-manipulation typically pair a task-agno
 ### Summary
 
 Humanoid loco-manipulation requires coordinated body motion and hand interaction over time, and a plausible-looking command sequence can still drop a held object or leave an interaction incomplete. We present action-conditioned latent foresight, a latent world-action model (WAM) that evaluates proposed command sequences before execution.
-
----
-
-## ReflexArc: Bottom-Up Integration of Instantaneous Tactile Reflexes into Whole-Body Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.04424)
-- **Project:** [Project page](https://minusmodulo.github.io/reflexarc-website/)
-- **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Publication/project page: Code Coming soon
-
-</details>
-
-- **Authors:** Mingyu Wang, Si Li, Ziqing Chen, He Wang, Li Yi
-- **Published:** 2026-11
-- **Tags:**
-  - Whole-Body Control
-  - Teleoperation
-  - Humanoid
-  - Tactile Sensing
-  - Impact
-  - Policy Learning
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots operating in cluttered environments must react to unexpected contacts before the first impact peak, which arrives within tens of milliseconds. Learned whole-body policies running at 50 Hz introduce a policy-cycle delay and may suppress a protective withdrawal as a tracking error.
 
 ---

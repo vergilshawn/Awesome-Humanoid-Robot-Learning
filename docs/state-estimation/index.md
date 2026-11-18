@@ -1,10 +1,10 @@
 # State Estimation
 
-**30 papers** in this category.
+**31 papers** in this category.
 
 ## Months
 
-- [2026-11](/state-estimation/2026-11) (5 papers)
+- [2026-11](/state-estimation/2026-11) (6 papers)
 - [2026-10](/state-estimation/2026-10) (4 papers)
 - [2026-09](/state-estimation/2026-09) (8 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
@@ -22,12 +22,38 @@
 
 ## Recent Papers
 
+## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Koki Inami, Takashi Sato, Hiroyuki Oka, Shota Takizawa, Yuya Takahashi, Amon Suzuki et al. (10 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Reinforcement Learning
+  - Humanoid
+  - State Estimation
+
+### Summary
+
+Learning-based methods now let humanoids run robustly, and they have begun to compete in athletic events. Yet few reports describe a complete autonomous humanoid running system in an actual race, where the robot must follow a lane at a new venue, pace itself within hardware limits, and finish without intervention.
+
+---
+
 ## 🌟 Elastra: A Simulation Framework for Elastic Bodies
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15112)
 - **Repository:** [Code](https://github.com/yichg/elastra)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-17
+- **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -285,7 +311,16 @@ Estimating a humanoid robot's internal state from video has a wide range of real
 ## CompliantWBC: Whole-Body Compliance for Heavy Humanoids via Force Latent Estimation and Residual Impedance Targets
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.33310)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://dotandung.github.io/compliantwbc/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Tan-Dzung Do, Cuc T. Trinh, Tuan Dat Phuong, Chien Le, Thanh Ly, Vien Anh Ngo et al. (7 authors)
 - **Published:** 2026-09
 - **Tags:**
@@ -303,7 +338,16 @@ Whole-body compliant control is essential for deploying heavy humanoids under hi
 ## Bundled Contact Gradients: Stabilizing Differentiable Simulation for Deployable Dynamic Tasks
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.30951)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://bundledcontactgradients.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Dyuman Aditya, Jin Cheng, Clemens Schwarke, Quan Nguyen, Gaurav Sukhatme, Stelian Coros et al. (7 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -324,7 +368,15 @@ Differentiable simulation provides analytic gradients of robot dynamics, enablin
 ## BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.29850)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-18
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Tianyu Xiong, Yi Lu, Jinrui Wang, Ziqi Liang, Dandan Lei, Xiaoyang Zhou et al. (9 authors)
 - **Published:** 2026-09
 - **Tags:**
@@ -499,33 +551,5 @@ Proprioception in musculoskeletal humanoids is typically estimated primarily fro
 ### Summary
 
 This article presents a kinematic-inertial-LiDAR-visual odometry for humanoid robots, called KILVO. Tailored to the platform features, requirements, and real-world complexity, it fully utilizes the sensors commonly equipped on humanoid robots, including joint encoders, IMU, LiDAR, and camera, within an asynchronous-sequential hybrid error-state iterated Kalman filter (ESIKF).
-
----
-
-## Vision-Based Dribbling for Humanoid Soccer via Privileged Representation Learning
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.12702)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Flavio Maiorana, Valerio Spagnoli, Eugenio Bugli, Flavio Volpi, Daniele Affinita, Vincenzo Suriani et al. (8 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Reinforcement Learning
-  - Manipulation
-  - State Estimation
-  - Humanoid
-  - PPO
-  - Representation Learning
-
-### Summary
-
-Recent advances in humanoid robotics have highlighted the importance of deployable loco-manipulation skills. Dribbling a soccer ball while evading active opponents requires simultaneous balance, precise ball control, and awareness of a dynamic adversary under onboard sensing and real-time constraints.
 
 ---
