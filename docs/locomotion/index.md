@@ -1,10 +1,10 @@
 # Locomotion
 
-**257 papers** in this category.
+**258 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (16 papers)
+- [2026-11](/locomotion/2026-11) (17 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -42,11 +42,38 @@
 
 ## Recent Papers
 
+## ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.23916)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-19
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Lequn Fu, Yufeng Hu, Yijun Zhong, Jie Zhang, Xiao Li, Lingxiang Ji et al. (9 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Walking
+  - Fine-tuning
+  - PPO
+
+### Summary
+
+Humanoid robots must recover from falls and resume commanded motion to sustain locomotion. Learning these behaviors in one policy requires supervision that accommodates both upright movement and ground-contact recovery.
+
+---
+
 ## Low-speed Limit Cycle Walking of Planar X-shaped Bipedal Robot with Special Properties
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22122)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -73,7 +100,7 @@ This paper proposes a novel planar semicircular-footed X-shaped bipedal robot in
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -100,7 +127,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20452)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -129,7 +156,7 @@ We present XMimic and XSoma, which learn humanoid motion tracking and locomotion
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18491)
 - **Repository:** [Code](https://github.com/mkhoshnam/Selfplay-PPO-handover)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -155,7 +182,7 @@ Cooperative self-play can teach a humanoid to receive an object without any huma
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18003)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -181,7 +208,7 @@ Reinforcement learning has enabled robust humanoid locomotion, yet training reci
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16422)
 - **Repository:** [Code](https://github.com/fuyichen0725/blinkmimic)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -207,7 +234,7 @@ Whole-body motion tracking lets a humanoid robot follow reference motions, but t
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15928)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -235,7 +262,7 @@ Full-size humanoid robots are being considered for hazardous industrial work suc
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14981)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -558,32 +585,5 @@ Recent generative models are widely used to provide whole-body motion for humano
 ### Summary
 
 In this paper, we focus on interaction-preserving motion retargeting, which transfers human demonstrations to humanoids while maintaining spatial relationships with objects and terrain. Previous work, such as OmniRetarget, addresses this task through temporally coupled constrained optimization, requiring repeated sequential quadratic programming (SQP) iterations at each frame.
-
----
-
-## Humanoid Dodgeball: Learning Fast Dynamic Obstacle Avoidance Motions for Humanoids
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.40003)
-- **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Aoqian Zhang, Chunzheng Wang, Haoran Chen, Annan Tang, Cheng Xiang, Fan Shi et al. (7 authors)
-- **Published:** 2026-10
-- **Real Robot:** ✅
-- **Tags:**
-  - Reinforcement Learning
-  - Robustness
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-Humanoids have become increasingly agile and capable in real-world environments. To operate safely in dynamic scenarios, they must rapidly evade fast-moving obstacles while maintaining stability and physically feasible whole-body motion.
 
 ---

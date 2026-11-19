@@ -386,7 +386,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (257)",
+            "text": "Locomotion (258)",
             "collapsed": true,
             "items": [
                   {
@@ -902,7 +902,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (52)",
+            "text": "Physics-Based Character Animation (53)",
             "collapsed": true,
             "items": [
                   {

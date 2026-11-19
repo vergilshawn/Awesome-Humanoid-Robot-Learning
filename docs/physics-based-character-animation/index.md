@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**52 papers** in this category.
+**53 papers** in this category.
 
 ## Months
 
-- [2026-11](/physics-based-character-animation/2026-11) (1 papers)
+- [2026-11](/physics-based-character-animation/2026-11) (2 papers)
 - [2026-10](/physics-based-character-animation/2026-10) (6 papers)
 - [2026-09](/physics-based-character-animation/2026-09) (3 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
@@ -37,6 +37,31 @@
 ---
 
 ## Recent Papers
+
+## SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.24074)
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-19
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Zejian Kang, Yeqiang Wang, Zekai Chen, Boyang Shen, Mingyu Ma, Bingqian Wu et al. (12 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - World Model
+  - Humanoid
+  - Physics-Based Character Animation
+
+### Summary
+
+In human-robot collaboration, natural language lets people direct a humanoid's whole-body movements without programming joint trajectories. A common approach generates a kinematic reference from an instruction and relies on a tracking controller to execute it.
+
+---
 
 ## Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation
 
@@ -566,31 +591,5 @@ Humanoid whole-body control has made significant progress in recent years, yet e
 ### Summary
 
 Humanoid robots require whole-body motions that adapt to scene context, task requirements, and user intent. Motion tracking reproduces specified trajectories, and humanoid vision-language-action systems provide semantic interfaces, but neither offers a scalable and interactive prior for broad full-body behavior.
-
----
-
-## MIND: Multi-Scale Intent Diffusion for Text-Driven Physics-Based Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2605.26006)
-- **Project:** [Project page](https://binlee26.github.io/MIND_page)
-- **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Publication/project page: Code (Coming soon
-
-</details>
-
-- **Authors:** Bin Li, Ruichi Zhang, Han Liang, Jingyan Zhang, Juze Zhang, Xin Chen et al. (7 authors)
-- **Published:** 2026-05
-- **Tags:**
-  - Humanoid
-  - Diffusion
-  - Physics-Based Character Animation
-
-### Summary
-
-Enabling physics-based humanoids to execute diverse behaviors from high-level textual commands remains a significant challenge. Existing methods typically follow either a two-stage paradigm that combines kinematic motion generation with physics-based tracking, or an end-to-end imitation-learning paradigm that directly generates actions from text.
 
 ---

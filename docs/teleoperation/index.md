@@ -31,7 +31,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22258)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -57,7 +57,7 @@ Whole-body motion tracking has enabled humanoid dancing, athletic motions, and t
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
 - **Code status:** No project/code link found / 未发现项目或代码链接
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -567,7 +567,15 @@ Humanoid avatars extend human physical presence beyond the body, enabling people
 ## Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.18763)
-- **Code status:** Unverified / 未核验
+- **Code status:** No project/code link found / 未发现项目或代码链接
+- **Code checked:** 2026-11-19
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Ruiming Wu, Shuang Li, Liding Zhang, Alois Knoll, Zhaopeng Chen
 - **Published:** 2026-09
 - **Tags:**

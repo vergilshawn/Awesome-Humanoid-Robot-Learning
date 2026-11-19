@@ -41,7 +41,7 @@
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18976)
 - **Project:** [Project page](https://humanoid-tma.github.io/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-18
+- **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -491,7 +491,16 @@ Mobile humanoid manipulation requires both reaching a usable workspace and prese
 ## Brace Yourself: Task-Conditioned Environmental Bracing for Forceful Humanoid Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.25486)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://www.youtube.com/watch?v=zPrGLxWJzI4&feature=youtu.be)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-19
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Zongyuan Zhang, Christopher Lehnert, Will N. Browne, Jonathan M. Roberts
 - **Published:** 2026-09
 - **Tags:**
@@ -508,7 +517,16 @@ Forceful manipulation is challenging for humanoid robots because interaction for
 ## Learning Multi-Humanoid Pickup and Transport via Decentralized Object-Centric Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.17824)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://decmht.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-19
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Bikram Pandit, Mohitvishnu S. Gadde, Aayam Kumar Shrestha, Alan Fern
 - **Published:** 2026-09
 - **Tags:**
