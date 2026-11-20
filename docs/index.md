@@ -741,7 +741,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/teleoperation/2026-06)
 
-- 🌟 [LadderMan: Learning Humanoid Perceptive Ladder Climbing](https://arxiv.org/abs/2606.05873), [website](https://ladderman-robot.github.io), [code](https://github.com/amazon-far/LadderMan) — `Reinforcement Learning`, `Sim-to-Real`, `Teleoperation`, `Manipulation`, `Zero-Shot`, `Humanoid`
+- 🌟 [LadderMan: Learning Humanoid Perceptive Ladder Climbing](https://arxiv.org/abs/2606.05873), [website](https://ladderman-robot.github.io/), [code](https://github.com/amazon-far/LadderMan) — `Reinforcement Learning`, `Sim-to-Real`, `Teleoperation`, `Manipulation`, `Zero-Shot`, `Humanoid`
 - [Human2Humanoid: Physics-Aware Cross-Morphology Motion Retargeting for Humanoid Robots](https://arxiv.org/abs/2606.03476), [website](https://huangtc233.github.io/human2humanoid_website/) — `Imitation Learning`, `Teleoperation`, `Motion Retargeting`, `Humanoid`, `GAN`, `Real Robot`
 
 #### [2026-05](/teleoperation/2026-05)
@@ -959,10 +959,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [Comparative Study on Agility, Efficiency, and Impact Absorption of Bipedal Robots with Active Toes](https://arxiv.org/abs/2606.19699) — `Biped`, `Walking`, `Impact`, `Locomotion`
 - [Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot](https://arxiv.org/abs/2606.19233) — `MPC`, `Locomotion`, `Manipulation`, `Biped`, `Optimization-Based`, `Real Robot`
 - [ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion](https://arxiv.org/abs/2606.16542) — `Locomotion`, `Domain Randomization`, `Robustness`, `Humanoid`, `Proprioception`, `State Estimation`
-- [MotionVLA: Vision-Language-Action Model for Humanoid Motion](https://arxiv.org/abs/2606.15142), [website](https://aigeeksgroup.github.io/MotionVLA), [code](https://github.com/AIGeeksGroup/MotionVLA) — `Humanoid`, `Vision-Language`, `PPO`, `Locomotion`
+- [MotionVLA: Vision-Language-Action Model for Humanoid Motion](https://arxiv.org/abs/2606.15142), [website](https://aigeeksgroup.github.io/MotionVLA/), [code](https://github.com/AIGeeksGroup/MotionVLA) — `Humanoid`, `Vision-Language`, `PPO`, `Locomotion`
 - [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814), [website](https://aislab-sustech.github.io/Stubborn/) — `Reinforcement Learning`, `Robustness`, `Humanoid`, `Actor-Critic`, `Locomotion`
 - [EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots](https://arxiv.org/abs/2606.11109) — `Safety`, `Humanoid`, `Dataset`, `Locomotion`, `Real Robot`
-- 🌟 [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092), [website](https://opendrivelab.com/RoboNaldo), [code](https://github.com/opendrivelab/RoboNaldo) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Real Robot`, `Code Available`
+- 🌟 [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092), [website](https://opendrivelab.com/RoboNaldo/), [code](https://github.com/opendrivelab/RoboNaldo) — `Reinforcement Learning`, `Locomotion`, `Humanoid`, `Real Robot`, `Code Available`
 - [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449), [website](https://guide-walk.github.io/GuideWalk/) — `Reinforcement Learning`, `Locomotion`, `Navigation`, `Robustness`, `Humanoid`, `Distillation`
 - [MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds](https://arxiv.org/abs/2606.10288) — `Reinforcement Learning`, `Locomotion`, `Safety`, `Biped`, `Humanoid`
 - [VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands](https://arxiv.org/abs/2606.09286), [website](https://vaic-humanoid.github.io/) — `Humanoid`, `Proprioception`, `Distillation`, `Locomotion`
@@ -1506,7 +1506,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [TaskNPoint: How to Teach Your Humanoid to Hit a Backhand in Minutes](https://arxiv.org/abs/2606.26215) — `Zero-Shot`, `Robustness`, `Humanoid`, `Simulation Benchmark`
 - [HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning](https://arxiv.org/abs/2606.17833) — `Humanoid`, `Proprioception`, `Benchmark`, `Policy Learning`, `Simulation Benchmark`, `Loco-Manipulation and Whole-Body Control`
 - [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278) — `Teleoperation`, `Manipulation`, `Zero-Shot`, `MuJoCo`, `Humanoid`, `Vision-Language`
-- 🌟 [Flash-WAM: Modality-Aware Distillation for World Action Models](https://arxiv.org/abs/2606.05254), [website](https://flashwam.github.io), [code](https://github.com/NU-World-Model-Embodied-AI/Flash-WAM) — `Manipulation`, `Humanoid`, `Distillation`, `Benchmark`, `Diffusion`, `Simulation Benchmark`
+- 🌟 [Flash-WAM: Modality-Aware Distillation for World Action Models](https://arxiv.org/abs/2606.05254), [website](https://flashwam.github.io/), [code](https://github.com/NU-World-Model-Embodied-AI/Flash-WAM) — `Manipulation`, `Humanoid`, `Distillation`, `Benchmark`, `Diffusion`, `Simulation Benchmark`
 
 #### [2026-05](/simulation-benchmark/2026-05)
 

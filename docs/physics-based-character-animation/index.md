@@ -402,7 +402,7 @@ People read a humanoid robot's motion in social settings not only for the action
 ## Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.20823)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -430,7 +430,7 @@ A humanoid has infinitely many ways to stand up from sitting while maintaining b
 ## GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.01410)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -566,7 +566,7 @@ Accurate prediction of electrical power consumption is essential for energy-awar
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.10340)
 - **Project:** [Project page](https://tsinghua-mars-lab.github.io/OMG/)
 - **Repository:** [Code](https://github.com/Tsinghua-MARS-Lab/OMG)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 

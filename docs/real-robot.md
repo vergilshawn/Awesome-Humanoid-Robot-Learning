@@ -2991,7 +2991,7 @@ Disassembling end-of-life electric vehicle (EV) battery packs is dull and danger
 ## Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.20852)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3141,7 +3141,7 @@ Humanoid robots hold great promise as general-purpose agents in human-centered e
 ## Throwing a Tight Spiral American Football by a Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.16642)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3201,7 +3201,7 @@ This article presents a kinematic-inertial-LiDAR-visual odometry for humanoid ro
 ## Toward Geometry-Scalable Whole-Body Touch for Humanoids: A 3D-Printed Conformal EIT Skin
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.02080)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3712,9 +3712,9 @@ Falls are one of the leading causes of injury and hospitalization among elderly 
 ## 🌟 RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.11092)
-- **Project:** [Project page](https://opendrivelab.com/RoboNaldo)
+- **Project:** [Project page](https://opendrivelab.com/RoboNaldo/)
 - **Repository:** [Code](https://github.com/opendrivelab/RoboNaldo)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3830,13 +3830,12 @@ Enabling humanoid robots to operate in complex, dynamic environments remains a c
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.06493)
 - **Project:** [Project page](https://lzyang2000.github.io/HANDOFF/)
 - **Repository:** [Code](https://github.com/lzyang2000/HANDOFF)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- Inspected public GitHub page: https://github.com/lzyang2000/HANDOFF
-- Implementation examples: deploy/common/capture_point.py
-- Completeness and reproducibility have not been verified
+- Detected 54 source files; examples: deploy/common/capture_point.py, deploy/common/cbf_filter.py, deploy/common/command.py, deploy/common/fall_recovery.py, deploy/common/gamepad_bridge.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
 
 </details>
 
@@ -3864,13 +3863,12 @@ Humanoid loco-manipulation benefits from one controller to coordinate locomotion
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.05160)
 - **Project:** [Project page](https://research.nvidia.com/labs/dair/grail/)
 - **Repository:** [Code](https://github.com/NVlabs/GRAIL)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- Inspected public GitHub page: https://github.com/NVlabs/GRAIL
-- Implementation examples: grail/adapters/depth.py
-- Completeness and reproducibility have not been verified
+- Detected 1436 source files; examples: grail/adapters/depth.py, grail/adapters/foundation_pose.py, grail/adapters/gem_smpl.py, grail/adapters/gem_smpl_crop.py, grail/adapters/gem_x_soma.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
 
 </details>
 
@@ -3896,15 +3894,14 @@ Scaling humanoid loco-manipulation requires robot-compatible demonstrations acro
 ## 🌟 Flash-WAM: Modality-Aware Distillation for World Action Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.05254)
-- **Project:** [Project page](https://flashwam.github.io)
+- **Project:** [Project page](https://flashwam.github.io/)
 - **Repository:** [Code](https://github.com/NU-World-Model-Embodied-AI/Flash-WAM)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- Inspected public GitHub page: https://github.com/NU-World-Model-Embodied-AI/Flash-WAM
-- Implementation examples: distillation/config.py
-- Completeness and reproducibility have not been verified
+- Detected 26 source files; examples: distillation/config.py, distillation/consistency.py, distillation/data.py, distillation/ema.py, distillation/patches.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
 
 </details>
 
@@ -3929,13 +3926,12 @@ World-action models (WAMs) jointly generate future video and robot actions throu
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.04829)
 - **Repository:** [Code](https://github.com/Renforce-Dynamics/MultiModalWBC)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- Inspected public GitHub page: https://github.com/Renforce-Dynamics/MultiModalWBC
-- Implementation examples: .vscode/tools/setup_vscode.py
-- Completeness and reproducibility have not been verified
+- Detected 35 source files; examples: .vscode/tools/setup_vscode.py, scripts/csv_to_npz.py, scripts/csv_to_video.py, scripts/data/auto_datasets_yaml.py, scripts/data/extend_datasets.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
 
 </details>
 
@@ -3962,7 +3958,7 @@ Building a general-purpose whole-body controller is essential for enabling diver
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.03476)
 - **Project:** [Project page](https://huangtc233.github.io/human2humanoid_website/)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
