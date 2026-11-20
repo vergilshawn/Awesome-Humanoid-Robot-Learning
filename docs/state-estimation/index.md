@@ -25,7 +25,6 @@
 ## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -80,7 +79,6 @@ When robots interact with elastic surfaces such as mattresses and trampolines, c
 ## A Unified Inertial Encoder for Human and Humanoid Motion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.10137)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -110,7 +108,6 @@ Learning humanoid state estimation and language-grounded motion understanding fr
 ## Terrain-Indexed Motion Priors and Geometric Support for Extreme Humanoid Parkour
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08056)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -167,7 +164,6 @@ Humanoid robots have the potential to automate a wide range of physical tasks. P
 ## ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.02871)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -256,7 +252,6 @@ Humanoid-human interaction requires robots to operate under severe partial obser
 ## Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.26170)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -368,7 +363,6 @@ Differentiable simulation provides analytic gradients of robot dynamics, enablin
 ## BeyondRetarget: Learning Executable Humanoid Motions Directly from Monocular Video
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.29850)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -396,7 +390,6 @@ Learning executable motions from human videos offers a scalable solution for hum
 ## Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.26420)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>

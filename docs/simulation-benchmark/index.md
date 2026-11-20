@@ -60,7 +60,6 @@ Humanoid robots are typically trained as solitary agents, leaving them unable to
 ## $\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.41654)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -119,7 +118,6 @@ We present SONIC-K1, to our knowledge the first open-weights whole-body motion t
 ## Networked Humanoid Intelligence: Communication, Coordination, Collaboration, and Social Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.34740)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -145,7 +143,6 @@ Humanoid robots are moving from laboratory platforms toward connected fleets tha
 ## SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.24559)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -171,7 +168,6 @@ Enabling humanoid robots to participate effectively in social interactions is im
 ## Composable Dynamics for Cooperative Humanoids: A RoboCompiler Extension
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.14237)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -290,7 +286,6 @@ Many physical tasks in human environments require collaboration, from assisting 
 ## Traceable Human-to-Humanoid Sign Language Benchmarking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.33354)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -420,7 +415,6 @@ Disassembling end-of-life electric vehicle (EV) battery packs is dull and danger
 ## Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.20852)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -450,7 +444,6 @@ This paper presents a reference-guided reinforcement learning framework to gener
 ## HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.17584)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -476,7 +469,6 @@ We propose HODAgent, a System-2 embodied agent for humanoid robots in service se
 ## First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.00500)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -505,7 +497,6 @@ Unified humanoid policies track agile whole-body motion, yet few can hold a clea
 ## Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.10815)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -532,7 +523,6 @@ Humanoid roller-skating is difficult because the robot must coordinate whole-bod
 ## ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.06052)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -562,7 +552,6 @@ Humanoid robots are increasingly expected to perform contact-rich tasks that req
 ## TaskNPoint: How to Teach Your Humanoid to Hit a Backhand in Minutes
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.26215)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

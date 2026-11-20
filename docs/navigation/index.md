@@ -31,7 +31,6 @@
 ## X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.17598)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -95,7 +94,6 @@ We study humanoid navigation across multiple destinations under long-horizon lan
 ## HINT-VLM: Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11665)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -122,7 +120,6 @@ Humanoid robots have achieved significant progress in locomotion and manipulatio
 ## ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.04255)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -149,7 +146,6 @@ Operating rooms (ORs) increasingly contain ambient sensing infrastructure to ena
 ## LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.17232)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -176,7 +172,6 @@ Navigating humanoid robots through dynamic, non-convex environments requires tig
 ## TAPNAV: Humanoid Navigation through Tactile Active Perception
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.10748)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -232,7 +227,6 @@ Research in humanoid robotics has achieved rapid progress in locomotion, and rec
 ## RAVEN: Reinforcement-Adaptive Visibility-Graph Planning for Robust Humanoid Navigation with Collision-Free MPC
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.15701)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -262,7 +256,6 @@ Humanoid navigation in dynamic environments requires long-horizon planning while
 ## LP-NavOA: Integrated Local Navigation and Obstacle Avoidance for Humanoid Robots under Limited Perception
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.23249)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -322,7 +315,6 @@ Safe manipulation-oriented navigation for humanoid robots requires scene memory 
 ## Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.15517)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -379,7 +371,6 @@ We present EgoNav, a system that enables a humanoid robot to traverse diverse, u
 ## EgoActor: Grounding Task Planning into Spatial-aware Egocentric Actions for Humanoid Robots via Visual-Language Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.04515)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -403,7 +394,6 @@ Deploying humanoid robots in real-world settings is fundamentally challenging, a
 ## FocusNav: Spatial Selective Attention with Waypoint Guidance for Humanoid Local Navigation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2601.12790)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -479,7 +469,6 @@ Humans rely on the synergistic control of head (cephalomotor) and eye (oculomoto
 ## Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2511.14625)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -503,7 +492,6 @@ Robust humanoid locomotion requires accurate and globally consistent perception 
 ## Quantum deep reinforcement learning for humanoid robot navigation task
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.11388)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -527,7 +515,6 @@ Classical reinforcement learning (RL) methods often struggle in complex, high-di
 ## Learning Social Navigation from Positive and Negative Demonstrations and Rule-Based Specifications
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.06779)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

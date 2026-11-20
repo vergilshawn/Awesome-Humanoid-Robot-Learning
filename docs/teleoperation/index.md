@@ -30,7 +30,6 @@
 ## ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22258)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -56,7 +55,6 @@ Whole-body motion tracking has enabled humanoid dancing, athletic motions, and t
 ## ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -81,7 +79,6 @@ Humanoid motion tracking is fundamental to reproducing human motions on humanoid
 ## AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07712)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -197,7 +194,6 @@ Retargeting human motion to humanoids requires preserving motion semantics while
 ## Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.28712)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -282,7 +278,6 @@ Dual-operator humanoid teleoperation enables collaborative manipulation through 
 ## Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.22176)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -371,7 +366,6 @@ Behavioral foundation models (BFMs) provide humanoids with reusable repertoires 
 ## VICAR: Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.13079)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -397,7 +391,6 @@ Third-person human videos offer a scalable alternative to task-specific reward e
 ## PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.12642)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -424,7 +417,6 @@ Motion retargeting is a critical preprocessing step for transferring human motio
 ## From Legs to Wheels: Embodiment-Aware Human Motion Retargeting for Mobile-Base Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08381)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -453,7 +445,6 @@ Human video offers a scalable source of robot demonstrations, yet most human-to-
 ## AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.08119)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -482,7 +473,6 @@ World-action models (WAMs) such as Cosmos 3 jointly generate future video and ro
 ## Beyond Retargeting: Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.07891)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -511,7 +501,6 @@ Humanoid whole-body teleoperation translates human motion into stable robot beha
 ## Toward Humanoid Robots in Construction: A Teleoperation Feasibility Study
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.00718)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -567,7 +556,6 @@ Humanoid avatars extend human physical presence beyond the body, enabling people
 ## Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.18763)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>

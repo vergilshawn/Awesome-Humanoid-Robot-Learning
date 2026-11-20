@@ -23,7 +23,6 @@
 ## Optimization of sim-to-real transfer in the humanoid robot NICO
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.18210)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -134,7 +133,6 @@ Reinforcement learning (RL) is widely used for humanoid control, with on-policy 
 ## PolySim: Bridging the Sim-to-Real Gap for Humanoid Control via Multi-Simulator Dynamics Randomization
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2510.01708)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -184,7 +182,6 @@ Reinforcement learning has produced remarkable advances in humanoid locomotion, 
 ## Towards bridging the gap: Systematic sim-to-real transfer for diverse legged robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.06342)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -233,7 +230,6 @@ Simulation-based reinforcement learning (RL) has significantly advanced humanoid
 ## DiffCoTune: Differentiable Co-Tuning for Cross-domain Robot Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2505.24068)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -255,7 +251,6 @@ The deployment of robot controllers is hindered by modeling discrepancies due to
 ## Sampling-Based System Identification with Active Exploration for Legged Robot Sim2Real Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2505.14266)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -279,7 +274,6 @@ Sim-to-real discrepancies hinder learning-based policies from achieving high-pre
 ## Sim-to-Real of Humanoid Locomotion Policies via Joint Torque Space Perturbation Injection
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2504.06585)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -330,7 +324,6 @@ Achieving athletic loco-manipulation on robots requires moving beyond traditiona
 ## Learning Agile and Dynamic Motor Skills for Legged Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/1901.08652)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

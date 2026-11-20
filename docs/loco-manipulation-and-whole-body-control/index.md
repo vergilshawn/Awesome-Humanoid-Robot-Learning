@@ -44,7 +44,6 @@
 ## Body Schema Policy: Body as the Vision-Action Interface for Efficient Robot Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22713)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -74,7 +73,6 @@ Currently, robots can learn whole-body loco-manipulation through scale: the stro
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -105,7 +103,6 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 ## QTOP: Scaling Humanoid Motion Tracking with Quantile Critics
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20791)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -265,7 +262,6 @@ Humanoid loco-manipulation requires coordinated locomotion, balance regulation, 
 ## PERA: Plug-in Experts for Robotic Actions in Continual Whole-Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16188)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -293,7 +289,6 @@ Motion imitation enables humanoid robots to acquire whole-body skills such as wa
 ## PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15117)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -349,7 +344,6 @@ Humanoid motion interfaces should accommodate application-specific movement cons
 ## ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13929)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -378,7 +372,6 @@ In recent years, humanoid loco-manipulation has progressed to whole-body graspin
 ## From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -529,7 +522,6 @@ Enabling vision-language models (VLMs) to control humanoid robots requires both 
 ## Whole-Body Elasto-Geometrical Calibration of Wheeled Humanoid Robots Using a Shared-Waist Dual-Chain Model
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07560)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>

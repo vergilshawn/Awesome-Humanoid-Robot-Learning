@@ -64,7 +64,6 @@ Training vision-language-action (VLA) policies typically depends on substantial 
 ## HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.34126)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -90,7 +89,6 @@ Humanoid robots have recently achieved remarkable success in motion tracking. Ho
 ## From Video to Vision: Learning Generalizable Humanoid Carrying from Human Motion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.14561)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -119,7 +117,6 @@ Most existing approaches rely on video or motion-capture data for reinforcement 
 ## Talk, Render, Act: Integrating Social Gesture and Digital Face with Synchronized Speech for Conversational Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.06153)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -144,7 +141,6 @@ Expressive humanoid interaction requires speech, facial animation, and body gest
 ## GestAdapt: Workspace-Conditioned Co-Speech Gesture Generation for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.38400)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -170,7 +166,6 @@ Co-speech gestures for robots must adapt not only to speech and embodiment, but 
 ## Humanoid Badminton: Learning Dynamic Racket Skills from Limited Human Motion Data
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.31840)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -196,7 +191,6 @@ High-speed racket sports provide a demanding testbed for humanoid robots, requir
 ## EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.23414)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -225,7 +219,6 @@ Socially competent humanoid robots must communicate affect and intent through ge
 ## PASSAGE: Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.18732)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -271,7 +264,6 @@ Enabling humanoid robots to respond to human speech with synchronized and semant
 ## Imitation of Arm Gestures by the Semi-Humanoid Robot NICO
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.18197)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -295,7 +287,6 @@ Seamless human-robot interaction (HRI) requires a number of perceptual and motor
 ## PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.26741)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -351,7 +342,6 @@ Expressive co-speech gestures are crucial for natural human--robot interaction, 
 ## Imagine2Real: Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.22272)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -378,7 +368,6 @@ Whole-body Humanoid-Object Interaction (HOI) is bottlenecked by the scarcity of 
 ## EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.23205)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

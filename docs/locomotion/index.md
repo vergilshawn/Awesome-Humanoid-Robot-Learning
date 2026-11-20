@@ -45,7 +45,6 @@
 ## ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.23916)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -72,7 +71,6 @@ Humanoid robots must recover from falls and resume commanded motion to sustain l
 ## Low-speed Limit Cycle Walking of Planar X-shaped Bipedal Robot with Special Properties
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22122)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -99,7 +97,6 @@ This paper proposes a novel planar semicircular-footed X-shaped bipedal robot in
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -126,7 +123,6 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 ## XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20452)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -181,7 +177,6 @@ Cooperative self-play can teach a humanoid to receive an object without any huma
 ## Reusing Locomotion Training Recipes Across Humanoids via Body-Aligned Virtual Joints
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18003)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -233,7 +228,6 @@ Whole-body motion tracking lets a humanoid robot follow reference motions, but t
 ## Runtime Safety and Emergency Stops on a Full-Size Humanoid: Deployment Lessons and a Case for Graduated Force Authority
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15928)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -261,7 +255,6 @@ Full-size humanoid robots are being considered for hazardous industrial work suc
 ## From a Single RGB Image to Robot Execution: Metric Scene Alignment and Contact-Guided Retargeting
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14981)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -312,7 +305,6 @@ A humanoid that dances to streamed music must commit each motion chunk before it
 ## STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08857)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -339,7 +331,6 @@ Learning locomotion directly on a humanoid robot is a promising direction to avo
 ## STEP: Spatiotemporal Training with Explicit Prediction for Perceptive Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08097)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -363,7 +354,6 @@ For perceptive humanoid locomotion, the relevance of terrain geometry depends on
 ## PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.07679)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -394,7 +384,6 @@ Humanoid locomotion policies trained without an explicit smoothness objective te
 ## Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.06564)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -425,7 +414,6 @@ Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball ma
 ## Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.05585)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -480,7 +468,6 @@ Universal humanoid motion tracking is essential for enabling humanoid robots to 
 ## A Study on the Effects of Finger Movements on a Humanoid Hugging Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.02517)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -565,7 +552,6 @@ Recent generative models are widely used to provide whole-body motion for humano
 ## Geometry-Aware Humanoid Retargeting via Manifold ODEs
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.41349)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

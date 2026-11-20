@@ -108,7 +108,6 @@ To improve torque capacity and energy efficiency of humanoid ankles, this paper 
 ## Characteristics, Management, and Utilization of Muscles in Musculoskeletal Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.08518)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -131,7 +130,6 @@ Various musculoskeletal humanoids have been developed so far, and numerous studi
 ## Fauna Sprout: A lightweight, approachable, developer-ready humanoid robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2601.18963)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -154,7 +152,6 @@ Recent advances in learned control, large-scale simulation, and generative model
 ## Antagonistic Bowden-Cable Actuation of a Lightweight Robotic Hand: Toward Dexterous Manipulation for Payload Constrained Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.24657)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -178,7 +175,6 @@ Humanoid robots toward human-level dexterity require robotic hands capable of si
 ## Olaf: Bringing an Animated Character to Life in the Physical World
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.16705)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -226,7 +222,6 @@ Human video demonstrations provide abundant training data for learning robot pol
 ## DIJIT: A Robotic Head for an Active Observer
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.07998)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -248,7 +243,6 @@ We present DIJIT, a novel binocular robotic head expressly designed for mobile a
 ## DecARt Leg: Design and Evaluation of a Novel Humanoid Robot Leg with Decoupled Actuation for Agile Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2511.10021)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -272,7 +266,6 @@ In this paper, we propose a novel design of an electrically actuated robotic leg
 ## Human-Level Actuation for Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2511.06796)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -295,7 +288,6 @@ Claims that humanoid robots achieve ``human-level'' actuation are common but rar
 ## Toward Humanoid Brain-Body Co-design: Joint Optimization of Control and Morphology for Fall Recovery
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2510.22336)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -318,7 +310,6 @@ Humanoid robots represent a central frontier in embodied intelligence, as their 
 ## Embracing Evolution: A Call for Body-Control Co-Design in Embodied Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2510.03081)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -341,7 +332,6 @@ Humanoid robots, as general-purpose physical agents, must integrate both intelli
 ## Evolutionary Continuous Adaptive RL-Powered Co-Design for Humanoid Chin-Up Performance
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.26082)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -365,7 +355,6 @@ Humanoid robots have seen significant advancements in both design and control, w
 ## A Framework for Optimal Ankle Design of Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.16469)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -388,7 +377,6 @@ The design of the humanoid ankle is critical for safe and efficient ground inter
 ## CAD-Driven Co-Design for Flight-Ready Jet-Powered Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.14935)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -411,7 +399,6 @@ This paper presents a CAD-driven co-design framework for optimizing jet-powered 
 ## AGILOped: Agile Open-Source Humanoid Robot for Research
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.09364)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -434,7 +421,6 @@ With academic and commercial interest for humanoid robots peaking, multiple plat
 ## A 21-DOF Humanoid Dexterous Hand with Hybrid SMA-Motor Actuation: CYJ Hand-0
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2507.14538)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

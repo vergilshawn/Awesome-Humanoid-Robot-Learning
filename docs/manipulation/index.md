@@ -71,7 +71,6 @@ Recent humanoid loco-manipulation in articulated environments has largely focuse
 ## Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11854)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -97,7 +96,6 @@ Vision-language-action (VLA) models pair a vision-language backbone with an acti
 ## ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.02968)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -123,7 +121,6 @@ Contact transitions allow humanoid robots to redistribute object support across 
 ## Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.39044)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -151,7 +148,6 @@ Catching arbitrary objects requires generalization to novel projectiles and real
 ## A fully articulated humanoid dexterous hand with human-level joint structure enabled by linkage-based actuation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36789)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -382,7 +378,6 @@ Learning dexterous humanoid loco-manipulation from human demonstrations requires
 ## AMBIT: Anticipatory Multimodal Body Recruitment for Bimanual Tracking on a Humanoid
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.33484)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -411,7 +406,6 @@ A humanoid with 5-DoF arms cannot track generic bimanual end-effector trajectori
 ## Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.33269)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -439,7 +433,6 @@ World Action Models (WAMs) jointly generate video and robot actions through iter
 ## Humanoids for Robot-Assisted Surgery: Bimanual Base Placement and Tool-Mount Optimization via Capability Maps
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.33096)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -463,7 +456,6 @@ Rapid advances in humanoid robotics have motivated growing interest in the appli
 ## Praxis: Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.30735)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>

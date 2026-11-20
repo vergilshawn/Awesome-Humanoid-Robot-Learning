@@ -41,7 +41,6 @@
 ## SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.24074)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -131,7 +130,6 @@ Enabling a humanoid to interact naturally with human partners requires preservin
 ## Beyond Human-Derived Motion: Exploring Robot-Specific Execution for Construction Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.24312)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -187,7 +185,6 @@ Language-conditioned humanoid motion generation enables users to create and refi
 ## KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.21152)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -217,7 +214,6 @@ Training humanoid whole-body vision-language-action (VLA) policies requires cost
 ## PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.13373)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -245,7 +241,6 @@ Translating language into humanoid motion requires coordinating body parts, dete
 ## From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.10322)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -370,7 +365,6 @@ People read a humanoid robot's motion in social settings not only for the action
 ## Natural Sit-to-Stand Motion Synthesis For Humanoids via Guided Assistance Curricula and Staged Rewards
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.20823)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -399,7 +393,6 @@ A humanoid has infinitely many ways to stand up from sitting while maintaining b
 ## GenTrack: Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.01410)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -457,7 +450,6 @@ Text-conditioned motion generation is a promising interface for programming huma
 ## PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.19935)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -482,7 +474,6 @@ Humanoid robots require co-speech motions that are not only expressive and speec
 ## Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.15918)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -511,7 +502,6 @@ Humanoid robots performing in-field manipulation tasks, such as robotic apple ha
 ## Identification of a Physics-Based Electrical Power Consumption Model for the Unitree G1 Humanoid Arm
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.15915)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -570,7 +560,6 @@ Humanoid whole-body control has made significant progress in recent years, yet e
 ## EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.08495)
-- **Code status:** No project/code link found / 未发现项目或代码链接
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
