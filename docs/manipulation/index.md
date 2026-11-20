@@ -551,6 +551,15 @@ Human-robot interaction (HRI) enables intuitive and intelligent collaboration be
 ## Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.29487)
+- **Project:** [Project page](https://aditya.bhatts.org/BlindDexterity/)
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code  (to be released
+
+</details>
+
 - **Authors:** Aditya Bhatt, Oleg Kaidanov, Puze Liu, Jan Peters
 - **Published:** 2026-08
 - **Tags:**

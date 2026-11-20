@@ -2905,6 +2905,14 @@ Contact-rich loco-manipulation requires a bridge between semantic action generat
 ## FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.02222)
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Kaixin Feng, Angsong Li, Shaopeng Zhang, Enyu Li, Peiwen Lin, Chuang Wang et al. (8 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Figure
@@ -2952,8 +2960,8 @@ Proprioception in musculoskeletal humanoids is typically estimated primarily fro
 ## GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.21550)
-- **Project:** [Project page](https://golem-humanoid.github.io)
-- **Code checked:** 2026-11-13
+- **Project:** [Project page](https://golem-humanoid.github.io/)
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3071,7 +3079,7 @@ We propose HODAgent, a System-2 embodied agent for humanoid robots in service se
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.17027)
 - **Project:** [Project page](https://orayyan.com/fetchman)
 - **Repository:** [Code](https://github.com/omarrayyann/fetchman)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3251,7 +3259,7 @@ Existing humanoid whole-body control systems still fall short of the way humans 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.28623)
 - **Project:** [Project page](https://lzyang2000.github.io/perceptive_cbf_rl/)
 - **Repository:** [Code](https://github.com/lzyang2000/perceptive_cbf_rl)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3385,9 +3393,9 @@ Vision-language-action policies are a promising foundation for general robot con
 ## Handroid: Bridging Dexterous Hand and Humanoid
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.16187)
-- **Project:** [Project page](https://handroid.org)
+- **Project:** [Project page](https://handroid.org/)
 - **Repository:** [Code](https://github.com/ruoguliii/handroid)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3475,7 +3483,7 @@ As humanoid robots become increasingly dynamic, coupling them with reinforcement
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.30362)
 - **Project:** [Project page](https://xiao-chen.tech/reactivebfm/)
 - **Repository:** [Code](https://github.com/zjwzcx/ReactiveBFM)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3594,7 +3602,7 @@ High-level humanoid planners often output sparse task-space, low-rate trajectori
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.22998)
 - **Project:** [Project page](https://jianuocao.github.io/TEXEDO/)
 - **Repository:** [Code](https://github.com/JianuoCao/TEXEDO)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 

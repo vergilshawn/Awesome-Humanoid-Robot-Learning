@@ -89,6 +89,14 @@ Humanoid policies trained in simulation can transfer qualitatively to hardware w
 ## A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.30832)
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jingcheng Jiang, Yifang Zhang, Nikos G. Tsagarakis
 - **Published:** 2026-08
 - **Tags:**

@@ -379,6 +379,14 @@ Developing unified physics-based humanoid controllers that can navigate complex 
 ## PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.28213)
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yan Pan, Lingfan Bao, Tianhu Peng, Chengxu Zhou
 - **Published:** 2026-08
 - **Tags:**
@@ -449,7 +457,7 @@ General-purpose humanoid trackers can execute diverse references, but their zero
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.22998)
 - **Project:** [Project page](https://jianuocao.github.io/TEXEDO/)
 - **Repository:** [Code](https://github.com/JianuoCao/TEXEDO)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 

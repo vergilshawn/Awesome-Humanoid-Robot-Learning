@@ -238,9 +238,20 @@ Humanoid robots can step over, squeeze past, and duck under obstacles, but learn
 
 ---
 
-## RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction
+## 🌟 RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.28693)
+- **Project:** [Project page](https://robogesture.github.io/)
+- **Repository:** [Code](https://github.com/GalaxyGeneralRobotics/RoboGesture)
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 33 source files; examples: robogesture/__main__.py, robogesture/app.py, robogesture/cli.py, robogesture/cloud.py, robogesture/collision.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
 - **Authors:** Zifan Wang, Ziang Ren, Pengyang Shi, Zirui Wang, Chenghuai Lin, Tianze Wang et al. (10 authors)
 - **Published:** 2026-08
 - **Tags:**
@@ -313,7 +324,7 @@ Humanoid motion imitation requires not only accurate perception of human kinemat
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.16600)
 - **Repository:** [Code](https://github.com/pairs-lab/WaveSync)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 

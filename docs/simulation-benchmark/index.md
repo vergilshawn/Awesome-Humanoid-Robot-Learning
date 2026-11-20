@@ -422,8 +422,8 @@ This paper presents an experimental design for constructing a multimodal dataset
 ## GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.21550)
-- **Project:** [Project page](https://golem-humanoid.github.io)
-- **Code checked:** 2026-11-13
+- **Project:** [Project page](https://golem-humanoid.github.io/)
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 

@@ -152,8 +152,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [GLoRI: Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation](https://arxiv.org/abs/2609.05994) — `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Isaac Gym`, `MuJoCo`, `Humanoid`
 - [BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI](https://arxiv.org/abs/2609.03497), [website](https://sites.google.com/view/bridgerobot) — `Whole-Body Control`, `Locomotion`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation](https://arxiv.org/abs/2609.03889) — `Whole-Body Control`, `Manipulation`, `Vision-Language`, `Dataset`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
-- [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2609.01518) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `PPO`
-- [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677) — `Reinforcement Learning`, `Diffusion Policy`, `Whole-Body Control`, `Robustness`, `Humanoid`, `Diffusion`
+- [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2609.01518), [website](https://www.youtube.com/playlist?list=PLJK5CTyotYqsfgfnXb-09YNFeBose6uEY) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `PPO`
+- [ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control](https://arxiv.org/abs/2609.00677), [website](https://wuyan01.github.io/ADAPT-project/) — `Reinforcement Learning`, `Diffusion Policy`, `Whole-Body Control`, `Robustness`, `Humanoid`, `Diffusion`
 
 ### 2026-08
 
@@ -495,12 +495,12 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
-- [Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception](https://arxiv.org/abs/2608.29487) — `Manipulation`, `Biped`, `Humanoid`, `Walking`, `Proprioception`, `State Estimation`
+- [Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception](https://arxiv.org/abs/2608.29487), [website](https://aditya.bhatts.org/BlindDexterity/) — `Manipulation`, `Biped`, `Humanoid`, `Walking`, `Proprioception`, `State Estimation`
 - [Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence](https://arxiv.org/abs/2608.11769) — `Manipulation`, `Robustness`, `Humanoid`, `Vision-Language`, `Dataset`, `Simulation Benchmark`
 
 ### 2026-07
 
-- [Handroid: Bridging Dexterous Hand and Humanoid](https://arxiv.org/abs/2607.16187), [website](https://handroid.org), [code](https://github.com/ruoguliii/handroid) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Gait`, `PPO`
+- [Handroid: Bridging Dexterous Hand and Humanoid](https://arxiv.org/abs/2607.16187), [website](https://handroid.org/), [code](https://github.com/ruoguliii/handroid) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Gait`, `PPO`
 - [AgenticFocus: Object-Preserving Mixed Reality Synthesis from Human FPV Video for Dexterous Humanoid Learning](https://arxiv.org/abs/2607.08857) — `Humanoid`, `Dataset`, `Policy Learning`, `Manipulation`
 - [WristMimic: Full-Body Humanoid Control with Wrist-Guided Manipulation](https://arxiv.org/abs/2607.06438) — `Manipulation`, `Humanoid`
 
@@ -666,7 +666,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
-- [Teleopit: A Full-Embodiment Humanoid Teleoperation System](https://arxiv.org/abs/2608.01834), [website](https://botrunner64.github.io/teleopit-page) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Optimization-Based`
+- [Teleopit: A Full-Embodiment Humanoid Teleoperation System](https://arxiv.org/abs/2608.01834), [website](https://botrunner64.github.io/teleopit-page/) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Optimization-Based`
 
 ### 2026-07
 
@@ -742,7 +742,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors](https://arxiv.org/abs/2611.23916) — `Locomotion`, `Humanoid`, `Walking`, `Fine-tuning`, `PPO`
 - [Low-speed Limit Cycle Walking of Planar X-shaped Bipedal Robot with Special Properties](https://arxiv.org/abs/2611.22122) — `Biped`, `Gait`, `Walking`, `Collision`, `Locomotion`
 - [ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression](https://arxiv.org/abs/2611.20950) — `Humanoid`, `VAE`, `Representation Learning`, `Locomotion`, `Real Robot`
-- 🌟 [XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute](https://arxiv.org/abs/2611.20452), [code](https://github.com/nico-bohlinger/xmimic) — `Locomotion`, `World Model`, `Simulator`, `MuJoCo`, `Humanoid`, `SAC`
+- [XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute](https://arxiv.org/abs/2611.20452) — `Locomotion`, `World Model`, `Simulator`, `MuJoCo`, `Humanoid`, `SAC`
 - 🌟 [When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners](https://arxiv.org/abs/2611.18491), [code](https://github.com/mkhoshnam/Selfplay-PPO-handover) — `Humanoid`, `PPO`, `Locomotion`, `Code Available`
 - [Reusing Locomotion Training Recipes Across Humanoids via Body-Aligned Virtual Joints](https://arxiv.org/abs/2611.18003) — `Reinforcement Learning`, `Locomotion`, `Humanoid`
 - 🌟 [BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU](https://arxiv.org/abs/2611.16422), [code](https://github.com/fuyichen0725/blinkmimic) — `World Model`, `Humanoid`, `Locomotion`, `Code Available`
@@ -1425,7 +1425,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
-- [GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly](https://arxiv.org/abs/2608.21550), [website](https://golem-humanoid.github.io) — `MPC`, `Manipulation`, `Navigation`, `MuJoCo`, `Humanoid`, `Walking`
+- [GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly](https://arxiv.org/abs/2608.21550), [website](https://golem-humanoid.github.io/) — `MPC`, `Manipulation`, `Navigation`, `MuJoCo`, `Humanoid`, `Walking`
 - [Demonstration-Guided Humanoid Stand-Up on an Emulated Deformable Surface](https://arxiv.org/abs/2608.20852) — `Reinforcement Learning`, `Human Demonstration`, `MuJoCo`, `Humanoid`, `Position Control`, `PPO`
 - [HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction](https://arxiv.org/abs/2608.17584) — `Humanoid`, `Benchmark`, `Simulation Benchmark`, `Real Robot`
 - [First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance](https://arxiv.org/abs/2608.00500) — `Simulator`, `Humanoid`, `Distillation`, `Benchmark`, `PPO`, `SAC`
@@ -1667,7 +1667,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-08
 
-- [RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction](https://arxiv.org/abs/2608.28693) — `MPC`, `Sim-to-Real`, `Transformer`, `Safety`, `Humanoid`, `Collision`
+- 🌟 [RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction](https://arxiv.org/abs/2608.28693), [website](https://robogesture.github.io/), [code](https://github.com/GalaxyGeneralRobotics/RoboGesture) — `MPC`, `Sim-to-Real`, `Transformer`, `Safety`, `Humanoid`, `Collision`
 
 ### 2026-07
 
