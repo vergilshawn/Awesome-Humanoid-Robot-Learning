@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**45 papers** in this category.
+**46 papers** in this category.
 
 ## Months
 
-- [2026-11](/simulation-benchmark/2026-11) (1 papers)
+- [2026-11](/simulation-benchmark/2026-11) (2 papers)
 - [2026-10](/simulation-benchmark/2026-10) (7 papers)
 - [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
@@ -27,6 +27,38 @@
 ---
 
 ## Recent Papers
+
+## 🌟 LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.26293)
+- **Repository:** [Code](https://github.com/robfiras/loco-mujoco)
+- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 211 source files; examples: examples/replay_datasets/example.py, examples/replay_datasets/smpl_example.py, examples/speed_test.py, examples/training_examples/jax_amp/eval.py, examples/training_examples/jax_amp/experiment.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
+- **Authors:** Firas Al-Hafez, Davide Tateo, Oleg Kaidanov, Aditya Bhatt, Artur Zelik, Zhengyi Luo et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Imitation Learning
+  - Whole-Body Control
+  - Sim-to-Real
+  - Domain Randomization
+  - MuJoCo
+  - Humanoid
+  - Benchmark
+
+### Summary
+
+LocoMuJoCo is an open-source benchmark for imitation learning (IL) and reinforcement learning (RL) on whole-body control. The library couples MuJoCo (CPU) with MJX and the MjWarp backend (GPU) under a single API, exposes 9 humanoid, 3 (musculo-)skeletal, and 4 quadruped embodiments, and ships a curated native motion-capture dataset for every humanoid, to which it can also retarget AMASS and LAFAN1.
+
+---
 
 ## Social Humanoid: Socially Responsive Human-Humanoid Interaction
 
@@ -347,7 +379,14 @@ Existing benchmarks evaluate tabletop manipulation, flat-floor household activit
 ## How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.07288)
-- **Code status:** Unverified / 未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Aulon Bajrami, Mohamed Elshamouty, Werner Kraus
 - **Published:** 2026-09
 - **Tags:**
@@ -366,7 +405,14 @@ Large Language Models (LLMs) are increasingly employed to orchestrate robot beha
 ## Establishing a Dynamic Multimodal HRI Dataset for Engagement Analysis with a Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.03255)
-- **Code status:** Unverified / 未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Buwan Kim, Wonse Jo
 - **Published:** 2026-09
 - **Tags:**
@@ -546,30 +592,5 @@ Humanoid roller-skating is difficult because the robot must coordinate whole-bod
 ### Summary
 
 Humanoid robots are increasingly expected to perform contact-rich tasks that require not only accurate whole-body motion but also robust physical interaction with surrounding objects and humans. Although recent advances in humanoid motion imitation and whole-body control have achieved remarkable tracking performance, existing datasets and benchmarks primarily focus on kinematic motion while largely overlooking synchronized interaction forces.
-
----
-
-## TaskNPoint: How to Teach Your Humanoid to Hit a Backhand in Minutes
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.26215)
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Blake Werner, Ilona Demler, Pietro Perona, Aaron D. Ames
-- **Published:** 2026-06
-- **Tags:**
-  - Zero-Shot
-  - Robustness
-  - Humanoid
-  - Simulation Benchmark
-
-### Summary
-
-How do we learn to hit a tennis backhand? Not from a thousand hours of tennis tournaments on TV - we work with a coach and practice. We argue this is also the right recipe for teaching dynamic skills to humanoid robots.
 
 ---

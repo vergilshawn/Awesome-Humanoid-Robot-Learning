@@ -9,7 +9,7 @@ Papers with real humanoid robot deployment and experiments.
 - **Digit:** 4 papers
 - **Figure:** 19 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 91 papers
+- **Unitree G1:** 92 papers
 - **Unitree H1:** 2 papers
 - **Unknown Platform:** 24 papers
 - **iCub:** 1 papers
@@ -18,10 +18,39 @@ Papers with real humanoid robot deployment and experiments.
 
 ## All Real Robot Papers
 
+## PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
+- **Project:** [Project page](https://kl-research.github.io/pgx/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Kai Lu, Chenyang Ma, Ioannis Havoutis
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Navigation
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (PGX), a framework that offloads temporal and precision control to two classical training-free components, allowing the VLA to focus on stage-specific skill dynamics.
+
+---
+
 ## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -46,7 +75,7 @@ Learning-based methods now let humanoids run robustly, and they have begun to co
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -72,7 +101,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -104,7 +133,7 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19998)
 - **Project:** [Project page](https://movicproject.github.io/)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -136,7 +165,7 @@ Real-time whole-body imitation from monocular video requires both a robust unive
 - **Project:** [Project page](https://robonana.github.io/ego2sim2humanoid/)
 - **Repository:** [Code](https://github.com/robonana/ego2sim2humanoid)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -169,7 +198,7 @@ Imitation learning for visuomotor policies typically relies on teleoperated robo
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19100)
 - **Project:** [Project page](https://h12leaner.github.io/)
 - **Code status:** Coming soon / 代码待发布
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -201,7 +230,7 @@ We study supported reaching to extend a humanoid robot's workspace by bracing ag
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18976)
 - **Project:** [Project page](https://humanoid-tma.github.io/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -231,7 +260,7 @@ Recent humanoid loco-manipulation in articulated environments has largely focuse
 ## X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.17598)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -260,7 +289,7 @@ Long-horizon navigation from indoors to outdoors remains an open problem for hum
 ## ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -2651,7 +2680,16 @@ Humanoid loco-manipulation requires adaptive whole-body coordination to seamless
 ## WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.16644)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://wholebodywam.github.io/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Zhuo Li, Yiming Yao, Jim Tan, Mengjie Jing, Zhipeng Dong, Fei Chen
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Figure
@@ -2670,7 +2708,14 @@ World Action Models (WAMs) offer a promising approach to general-purpose robot m
 ## DWMP: Leveraging Dual World Models for Humanoid Obstacle Traversal
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.12347)
-- **Code status:** Unverified / 未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Rongjun Jin, Jianming Ma, Yue Gao
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2689,7 +2734,14 @@ Humanoid robots must traverse cluttered obstacle fields using onboard propriocep
 ## CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.11553)
-- **Code status:** Unverified / 未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Hongjin Chen, Zijun Xu, Shihao Ma, Yi Zhao, Xilai Liu, Ke Ma et al. (11 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2706,7 +2758,16 @@ Humanoid locomotion across complex terrain demands forward-looking exteroception
 ## GM-Loco: Terrain-Adaptive Humanoid Locomotion on Granular Media
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.10286)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://humanoid-gm-locomotion.github.io/HUMANOID-GM/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Junnosuke Kamohara, Feiyang Wu, Andy Ningan Zong, Daniel I. Goldman, Yashwanth Nakka, Seth Hutchinson et al. (7 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅
@@ -2726,7 +2787,14 @@ Humanoid locomotion on granular terrain remains a significant challenge due to i
 ## TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.09158)
-- **Code status:** Unverified / 未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Anqi Li, Yuxin Chen, Zhaobo Li, Zhuo Cao, Junli Ren, Masayoshi Tomizuka et al. (7 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2749,7 +2817,16 @@ We study the problem of navigating cluttered indoor environments with a humanoid
 ## Visible-Reachable Workspace for Perception-Aware Humanoid Design
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.08905)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://generalroboticslab.com/DukeHumanoidv2)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Boxi Xia, Zijiang Yang, Ryan Shin, Bokuan Li, Eric Wun-Hao Lu, Jacob Lee et al. (8 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Figure
@@ -2768,7 +2845,16 @@ Workspace analysis measures where a robot can place its end effector. For visual
 ## PGMT: Perceptive General Motion Tracking for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.08511)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://luyili.github.io/pgmt/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Hongyi Li, Li Peizhuo, Yucheng Tao, Ze Wang, Fangzhou Xu, Jinyi Chen et al. (12 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2788,7 +2874,14 @@ Humanoid motion trackers can reproduce diverse whole-body motions, but their per
 ## RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.07096)
-- **Code status:** Unverified / 未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Zhe Li, Yangyang Wei, Xichen Yuan, Zhenzhe Zhang, Weihao Yuan, Shanghang Zhang et al. (7 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Unitree G1
@@ -2808,7 +2901,14 @@ Humanoid locomotion requires control policies that remain stable under imperfect
 ## Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.05361)
-- **Code status:** Unverified / 未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Thang Tran Viet, Thanh Nguyen Canh, Huy Uong Gia, Phuc Dinh Van, Son Tran Duc, Ngoc Minh Do et al. (7 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅
@@ -2827,7 +2927,14 @@ Human-robot interaction (HRI) enables intuitive and intelligent collaboration be
 ## FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.03889)
-- **Code status:** Unverified / 未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Yutian Zhang, Siyuan Ma, Liwen Yang, Yang Li, Ce Hao, Haozhen Chi et al. (9 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Figure

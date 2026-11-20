@@ -1,10 +1,10 @@
 # State Estimation
 
-**31 papers** in this category.
+**33 papers** in this category.
 
 ## Months
 
-- [2026-11](/state-estimation/2026-11) (6 papers)
+- [2026-11](/state-estimation/2026-11) (8 papers)
 - [2026-10](/state-estimation/2026-10) (4 papers)
 - [2026-09](/state-estimation/2026-09) (8 papers)
 - [2026-08](/state-estimation/2026-08) (2 papers)
@@ -22,10 +22,64 @@
 
 ## Recent Papers
 
+## Controlling the Humanoid Robot H1-2 With a Simulated Biologically Plausible Network
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.26074)
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Fatima Atwi, Constant Roux, Christian Bergaud, Olivier Stasse
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Biped
+  - Humanoid
+  - Distillation
+  - Dataset
+  - State Estimation
+
+### Summary
+
+Artificial Spiking Neural Networks have gained remarkable attention in the last few years due to their proven ability in simulating biological neural cultures and producing similar activity and trends. Nevertheless, whether they can be trained for humanoid locomotion while retaining biological plausibility and robust performance at once remains an open question.
+
+---
+
+## Fast and Accurate Body Estimation in Pixels, World Space and Scenes
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.25801)
+- **Project:** [Project page](https://www.jinkuncao.com/FAB/)
+- **Code status:** Needs review / 访问失败或证据不足
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Multiple repository candidates require review: https://github.com/noahcao/FAB, https://github.com/noahcao/FAH
+
+</details>
+
+- **Authors:** Jinkun Cao
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Benchmark
+  - State Estimation
+
+### Summary
+
+We present FAB (Fast and Accurate Body estimation), a human body estimator that jointly improves inference efficiency and body-recovery fidelity. Rather than predicting only parametric mesh-model parameters, FAB directly predicts human skeleton joints and dense surface points.
+
+---
+
 ## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -52,7 +106,7 @@ Learning-based methods now let humanoids run robustly, and they have begun to co
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15112)
 - **Repository:** [Code](https://github.com/yichg/elastra)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -476,7 +530,14 @@ Simulation-trained humanoid proprioceptive odometry faces two transfer challenge
 ## Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.02306)
-- **Code status:** Unverified / 未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Kaixiang Lu, Haiyu Lan, Chunxiao Qiao, You Li, Chengyuan Luo, Enyu Li et al. (8 authors)
 - **Published:** 2026-09
 - **Tags:**
@@ -508,66 +569,5 @@ Accurate joint encoder offsets are essential for kinematic consistency in humano
 ### Summary
 
 Foot forward kinematics (FK) is widely used to improve proprioceptive legged odometry by providing reliable velocity constraints during foot support. Existing contact-aided estimators generally rely on binary contact decisions to determine whether the FK measurements of an entire foot should be trusted.
-
----
-
-## Design of a Biomimetic Joint-Covering Skin with Tissue-Like Structure to Enhance Proprioception in a Musculoskeletal Humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.23304)
-- **Project:** [Project page](https://poyotamu000.github.io/musashiw-joint-covering-skin/)
-- **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Akihiro Miki, Shun Hasegawa, Yoshimoto Ribayashi, Kento Kawaharazuka, Kei Okada
-- **Published:** 2026-08
-- **Real Robot:** ✅
-- **Tags:**
-  - State Estimation
-  - Humanoid
-  - Proprioception
-  - PPO
-
-### Summary
-
-Proprioception in musculoskeletal humanoids is typically estimated primarily from muscle sensing, while the role of cutaneous deformation around joints remains insufficiently explored. In biological systems, mechanoreceptors distributed within soft tissue complement muscle feedback and support reliable joint state estimation.
-
----
-
-## 🌟 KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.05647)
-- **Repository:** [Code](https://github.com/JixinGao/KILVO)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/JixinGao/KILVO
-- Implementation examples: include/IMU_Processing.h
-- Completeness and reproducibility have not been verified
-- Project/repository identified by matching paper title on public source: https://github.com/JixinGao/KILVO
-
-</details>
-
-- **Authors:** Jixin Gao, Fucheng Liu, Teng Zhang, Fusheng Zha
-- **Published:** 2026-08
-- **Real Robot:** ✅
-- **Tags:**
-  - State Estimation
-  - Robustness
-  - Humanoid
-  - Gait
-  - Dataset
-  - Physics-Based Character Animation
-
-### Summary
-
-This article presents a kinematic-inertial-LiDAR-visual odometry for humanoid robots, called KILVO. Tailored to the platform features, requirements, and real-world complexity, it fully utilizes the sensors commonly equipped on humanoid robots, including joint encoders, IMU, LiDAR, and camera, within an asynchronous-sequential hybrid error-state iterated Kalman filter (ESIKF).
 
 ---

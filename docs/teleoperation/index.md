@@ -30,7 +30,7 @@
 ## ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22258)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -55,7 +55,7 @@ Whole-body motion tracking has enabled humanoid dancing, athletic motions, and t
 ## ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14985)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 

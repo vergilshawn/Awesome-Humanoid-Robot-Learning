@@ -1,10 +1,10 @@
 # Locomotion
 
-**258 papers** in this category.
+**259 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (17 papers)
+- [2026-11](/locomotion/2026-11) (18 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -42,10 +42,37 @@
 
 ## Recent Papers
 
+## Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.26054)
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Ganeshvar Soenessardien, Michael Przystupa, Kevin Sebastian Luck
+- **Published:** 2026-11
+- **Tags:**
+  - Reinforcement Learning
+  - Locomotion
+  - Human Demonstration
+  - Humanoid
+  - Walking
+  - System Identification
+
+### Summary
+
+Humanoid locomotion research has advanced rapidly on walking and running, but \emph {object-mediated} locomotion, in which a robot must coordinate its body with a passive external object, remains difficult. One challenging task is skateboarding, which requires simultaneous interaction with the ground and a passive but movable platform to achieve forward motion.
+
+---
+
 ## ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.23916)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -71,7 +98,7 @@ Humanoid robots must recover from falls and resume commanded motion to sustain l
 ## Low-speed Limit Cycle Walking of Planar X-shaped Bipedal Robot with Special Properties
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22122)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -97,7 +124,7 @@ This paper proposes a novel planar semicircular-footed X-shaped bipedal robot in
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -123,7 +150,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 ## XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20452)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -152,7 +179,7 @@ We present XMimic and XSoma, which learn humanoid motion tracking and locomotion
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18491)
 - **Repository:** [Code](https://github.com/mkhoshnam/Selfplay-PPO-handover)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -177,7 +204,7 @@ Cooperative self-play can teach a humanoid to receive an object without any huma
 ## Reusing Locomotion Training Recipes Across Humanoids via Body-Aligned Virtual Joints
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18003)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -203,7 +230,7 @@ Reinforcement learning has enabled robust humanoid locomotion, yet training reci
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16422)
 - **Repository:** [Code](https://github.com/fuyichen0725/blinkmimic)
 - **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -228,7 +255,7 @@ Whole-body motion tracking lets a humanoid robot follow reference motions, but t
 ## Runtime Safety and Emergency Stops on a Full-Size Humanoid: Deployment Lessons and a Case for Graduated Force Authority
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15928)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -255,7 +282,7 @@ Full-size humanoid robots are being considered for hazardous industrial work suc
 ## From a Single RGB Image to Robot Execution: Metric Scene Alignment and Contact-Guided Retargeting
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.14981)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -546,30 +573,5 @@ Scaling humanoid motion foundation models is constrained by the scarcity of dive
 ### Summary
 
 Recent generative models are widely used to provide whole-body motion for humanoid tracking. Current methods combine motion generators with controllers in an open-loop paradigm, which leads to critical issues: tracking errors can accumulate into spatial drift, and the planner cannot adapt to unexpected physical disturbances without feedback from physical execution.
-
----
-
-## Geometry-Aware Humanoid Retargeting via Manifold ODEs
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.41349)
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Pengyu Zhu, Heye Wang, Xi Wang, Xuyang Wu, He Kong, Guodong Shi
-- **Published:** 2026-10
-- **Tags:**
-  - Motion Retargeting
-  - Human Demonstration
-  - Humanoid
-  - Locomotion
-
-### Summary
-
-In this paper, we focus on interaction-preserving motion retargeting, which transfers human demonstrations to humanoids while maintaining spatial relationships with objects and terrain. Previous work, such as OmniRetarget, addresses this task through temporally coupled constrained optimization, requiring repeated sequential quadratic programming (SQP) iterations at each frame.
 
 ---

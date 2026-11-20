@@ -41,7 +41,7 @@
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18976)
 - **Project:** [Project page](https://humanoid-tma.github.io/)
 - **Code status:** Project page only / 项目页未发现仓库
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -535,7 +535,14 @@ We study cooperative multi-humanoid pickup and transport of objects with varying
 ## Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.05361)
-- **Code status:** Unverified / 未核验
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Thang Tran Viet, Thanh Nguyen Canh, Huy Uong Gia, Phuc Dinh Van, Son Tran Duc, Ngoc Minh Do et al. (7 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅

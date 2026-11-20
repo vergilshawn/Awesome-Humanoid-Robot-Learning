@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**53 papers** in this category.
+**54 papers** in this category.
 
 ## Months
 
-- [2026-11](/physics-based-character-animation/2026-11) (2 papers)
+- [2026-11](/physics-based-character-animation/2026-11) (3 papers)
 - [2026-10](/physics-based-character-animation/2026-10) (6 papers)
 - [2026-09](/physics-based-character-animation/2026-09) (3 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
@@ -38,10 +38,38 @@
 
 ## Recent Papers
 
+## MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.26218)
+- **Project:** [Project page](https://binlee26.github.io/MixReact_Page/)
+- **Code status:** Coming soon / 代码待发布
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: code will be released
+
+</details>
+
+- **Authors:** Bin Li, Xing Zhu, Jingya Wang
+- **Published:** 2026-11
+- **Tags:**
+  - Transformer
+  - Humanoid
+  - PPO
+  - Diffusion
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid agents in everyday environments are expected to react to diverse cues as humans do, with semantically appropriate and physically executable behaviors. Existing cue-driven reaction generation methods support only a narrow range of cue modalities and are limited to purely kinematic generation, leaving the resulting reactions susceptible to physical artifacts.
+
+---
+
 ## SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.24074)
-- **Code checked:** 2026-11-19
+- **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -330,7 +358,16 @@ Humanoid robots are increasingly expected to serve as embodied social agents tha
 ## Unifying Physics-Based Humanoid Interaction with a Context-Conditioned Interaction Prior
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.06591)
-- **Code status:** Unverified / 未核验
+- **Project:** [Project page](https://jiann-li.github.io/chip-project/)
+- **Code status:** Project page only / 项目页未发现仓库
+- **Code checked:** 2026-11-20
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
 - **Authors:** Jianan Li, Xiao Chen, Tien-Tsin Wong
 - **Published:** 2026-09
 - **Tags:**
@@ -554,31 +591,5 @@ Accurate prediction of electrical power consumption is essential for energy-awar
 ### Summary
 
 Humanoid whole-body control has made significant progress in recent years, yet existing approaches remain limited to few-skill policies with heavy reward engineering, or motion trackers that are difficult to extend to new input modalities. We argue that the key to general-purpose humanoid control is to build a scalable brain, a module capable of reasoning with diverse conditioning modalities, atop a reactive motion tracking cerebellum, mirroring the hierarchical structure of biological motor systems.
-
----
-
-## EgoPriMo: Egocentric Motion Generation for Interactive Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.08495)
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Haoyang Ge, Peng Ren, Yukun Shi, Cong Huang, Kun Li, Kai Chen
-- **Published:** 2026-06
-- **Tags:**
-  - Human Demonstration
-  - Humanoid
-  - Vision-Language
-  - PPO
-  - Physics-Based Character Animation
-
-### Summary
-
-Humanoid robots require whole-body motions that adapt to scene context, task requirements, and user intent. Motion tracking reproduces specified trajectories, and humanoid vision-language-action systems provide semantic interfaces, but neither offers a scalable and interactive prior for broad full-body behavior.
 
 ---
