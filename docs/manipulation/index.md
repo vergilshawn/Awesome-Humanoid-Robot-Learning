@@ -40,7 +40,6 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18976)
 - **Project:** [Project page](https://humanoid-tma.github.io/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -174,7 +173,6 @@ Humanoid dexterous hands are a core component of embodied intelligence, enabling
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.29030)
 - **Project:** [Project page](https://www.linkedin.com/posts/neeladwani_humanoids2026-robotics-humanoidrobots-ugcPost-7514419716610797568-7apZ/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7514419822374559744&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAABtRrmIBntFjKL2yy-iArTo9aTDQ0oLPOcA)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -201,7 +199,6 @@ Currently, dexterous humanoid robot hands are widely considered the final hardwa
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.28948)
 - **Project:** [Project page](https://cowboy-manip.com/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -230,7 +227,6 @@ Mobile manipulators must adapt not only to objects, but also to the spatial cont
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.27242)
 - **Project:** [Project page](https://embodyhoi.github.io/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -258,7 +254,6 @@ Humanoid dexterous manipulation needs reference motions that are both semantical
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.26855)
 - **Project:** [Project page](https://ropedia.github.io/ropedia-w0/)
 - **Repository:** [Code](https://github.com/Ropedia/ropedia-w0)
-- **Code status:** Partial release / 部分代码或资源待发布
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -290,7 +285,6 @@ World models enable embodied agents to anticipate action consequences, yet joint
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.20552)
 - **Project:** [Project page](https://kinogen-humanoid.github.io/)
-- **Code status:** Coming soon / 代码待发布
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -318,7 +312,6 @@ We present KinoGen, a framework that synthesizes customizable humanoid loco-mani
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.39403)
 - **Project:** [Project page](https://xpeng-robotics.github.io/ironmind/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -346,7 +339,6 @@ Egocentric human video offers a scalable data source for dexterous manipulation,
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.34724)
 - **Project:** [Project page](https://dexweave.github.io/)
 - **Repository:** [Code](https://github.com/WU-CVGL/DexWeave)
-- **Code status:** Partial release / 部分代码或资源待发布
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -484,7 +476,6 @@ Mobile humanoid manipulation requires both reaching a usable workspace and prese
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.25486)
 - **Project:** [Project page](https://www.youtube.com/watch?v=zPrGLxWJzI4&feature=youtu.be)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -510,7 +501,6 @@ Forceful manipulation is challenging for humanoid robots because interaction for
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.17824)
 - **Project:** [Project page](https://decmht.github.io/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -561,7 +551,6 @@ Human-robot interaction (HRI) enables intuitive and intelligent collaboration be
 ## Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.29487)
-- **Code status:** Unverified / 未核验
 - **Authors:** Aditya Bhatt, Oleg Kaidanov, Puze Liu, Jan Peters
 - **Published:** 2026-08
 - **Tags:**

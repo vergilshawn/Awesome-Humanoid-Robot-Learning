@@ -49,7 +49,6 @@ Robotic grasping requires accurate coordination between visual perception, objec
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.28476)
 - **Project:** [Project page](https://lecar-lab.github.io/FADA-humanoid/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -81,7 +80,6 @@ High-precision humanoid control is limited by target-domain dynamics mismatch, w
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.01515)
 - **Project:** [Project page](https://humphreymunn.github.io/RAPT/)
 - **Repository:** [Code](https://github.com/humphreymunn/RAPT)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -108,7 +106,6 @@ Deploying learned control policies is risky because policies that appear robust 
 - **Paper:** [arXiv](https://arxiv.org/abs/2601.21363)
 - **Project:** [Project page](https://lift-humanoid.github.io/)
 - **Repository:** [Code](https://github.com/bigai-ai/LIFT-humanoid)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -157,7 +154,6 @@ Humanoid whole-body control (WBC) policies trained in simulation often suffer fr
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.12858)
 - **Project:** [Project page](https://lu-yidan.github.io/cra-loco/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -205,7 +201,6 @@ Legged robots must achieve both robust locomotion and energy efficiency to be pr
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.12252)
 - **Project:** [Project page](https://robot-trains-robot.github.io/)
 - **Repository:** [Code](https://github.com/hukz18/Robot-Trains-Robot)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -299,7 +294,6 @@ This paper proposes a novel alternative to existing sim-to-real methods for trai
 - **Paper:** [arXiv](https://arxiv.org/abs/2502.10894)
 - **Project:** [Project page](http://uan.csail.mit.edu)
 - **Repository:** [Code](https://github.com/nolie-rolie/athletic-loco-manipulation)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

@@ -106,7 +106,6 @@ Social touch interactions, such as handshakes, fist bumps, and hugs, require hum
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.32966)
 - **Project:** [Project page](https://awfuact.github.io/vit-h/)
 - **Repository:** [Code](https://github.com/mileret/ViT-H-release)
-- **Code status:** Partial release / 部分代码或资源待发布
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -135,7 +134,6 @@ Learning humanoid control from monocular human videos offers a scalable way to a
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.29903)
 - **Project:** [Project page](https://xiaohu-art.github.io/Track/)
 - **Repository:** [Code](https://github.com/xiaohu-art/Track)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -165,7 +163,6 @@ Real-time whole-body humanoid teleoperation remains challenging due to the compu
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.29169)
 - **Project:** [Project page](https://logosintelligencelab.github.io/SMR/)
 - **Repository:** [Code](https://github.com/LogosIntelligenceLab/SMR)
-- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -220,7 +217,6 @@ First-person humanoid teleoperation ties access to side and rear targets to oper
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.28470)
 - **Project:** [Project page](https://daroslab.github.io/frdv/)
 - **Repository:** [Code](https://github.com/DARoSLab/FRDV)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -253,7 +249,6 @@ While large-scale human motion capture datasets provide a rich source of demonst
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.24257)
 - **Project:** [Project page](https://xrt-teleop.github.io/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -307,7 +302,6 @@ The effective deployment of humanoid robots in practical tasks of interest will 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.16855)
 - **Project:** [Project page](https://human-like-redundancy.github.io/)
 - **Repository:** [Code](https://github.com/IAIE-PhysicalAI/Bimanual-Teleoperation)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -336,7 +330,6 @@ Real-time bimanual humanoid teleoperation requires accurate wrist tracking while
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.15833)
 - **Project:** [Project page](https://roboparty.github.io/P-BFM/)
 - **Repository:** [Code](https://github.com/Roboparty/P-BFM)
-- **Code status:** Partial release / 部分代码或资源待发布
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -527,7 +520,6 @@ We present a teleoperation system that enables a single operator to perform cons
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.34233)
 - **Project:** [Project page](https://wangyf0928.github.io/gae-wlrobotics/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>

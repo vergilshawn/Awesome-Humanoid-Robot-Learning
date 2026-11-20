@@ -32,7 +32,6 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26293)
 - **Repository:** [Code](https://github.com/robfiras/loco-mujoco)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -64,7 +63,6 @@ LocoMuJoCo is an open-source benchmark for imitation learning (IL) and reinforce
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.08407)
 - **Project:** [Project page](https://von31.github.io/social-humanoid/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -123,7 +121,6 @@ Robot policy learning is dominated by zeroth-order methods such as PPO, which tr
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.39327)
 - **Project:** [Project page](https://kyry.me/sonic-k1/)
 - **Repository:** [Code](https://github.com/Kyk0/sonic-k1)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -226,7 +223,6 @@ Physically connected humanoids need consistent dynamics for internal actuator lo
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.07594)
 - **Repository:** [Code](https://github.com/swirl-uk/BiGym2)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -259,7 +255,6 @@ Humanoid household manipulation requires the arms to act while the body balances
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.02089)
 - **Project:** [Project page](https://snu-pi.github.io/HumanoidToolBench/)
 - **Repository:** [Code](https://github.com/SNU-PI/HumanoidToolBench)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -291,7 +286,6 @@ As robotic hardware and learning methods advance, humanoids need tools to perfor
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.34782)
 - **Project:** [Project page](https://meat124.github.io/CoHuB/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -347,7 +341,6 @@ Sign data collection is costly, and teleoperation scales poorly, motivating reus
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.38216)
 - **Project:** [Project page](https://fiatlux-bench.github.io/)
 - **Repository:** [Code](https://github.com/haw-ai-i/fiatlux)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -430,7 +423,6 @@ This paper presents an experimental design for constructing a multimodal dataset
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.21550)
 - **Project:** [Project page](https://golem-humanoid.github.io)
-- **Code status:** Coming soon / 代码待发布
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

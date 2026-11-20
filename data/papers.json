@@ -729,13 +729,16 @@
     "title": "XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute",
     "paper_url": "https://arxiv.org/abs/2611.20452",
     "project_url": null,
-    "repository_url": null,
+    "repository_url": "https://github.com/nico-bohlinger/xmimic",
     "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
-    "code_status": "not_found",
+    "code_status": "available",
     "code_evidence": [
-      "No repository link found in inspected publication/project content"
+      "Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/nico-bohlinger/xmimic",
+      "Detected 26 implementation files; examples: tests/harness.py, tests/test_fast_equiv.py, tools/exclude_compile.py, tools/export_g1_from_blinkmimic.py, tools/make_figures.py",
+      "Completeness and reproducibility have not been verified",
+      "Supplemental source review on 2026-11-20: https://github.com/nico-bohlinger/xmimic"
     ],
-    "code_checked_at": "2026-11-20T07:27:17.843290+00:00",
+    "code_checked_at": "2026-11-20T00:00:00+08:00",
     "authors": [
       "Nico Bohlinger",
       "Jan Peters"
@@ -755,7 +758,7 @@
       "SAC"
     ],
     "real_robot": false,
-    "open_source": false,
+    "open_source": true,
     "platform": "Unitree G1",
     "summary": "",
     "primary_category": "Locomotion"
@@ -4400,13 +4403,17 @@
     "title": "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
     "paper_url": "https://arxiv.org/abs/2610.32909",
     "project_url": null,
-    "repository_url": null,
+    "repository_url": "https://github.com/HorizonRobotics/HoloMotion",
     "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
-    "code_status": "not_found",
+    "code_status": "available",
     "code_evidence": [
-      "No repository link found in inspected publication/project content"
+      "Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/HorizonRobotics/HoloMotion",
+      "Detected 485 implementation files; examples: deployment/holomotion_teleop/holomotion_teleop_mjviewer.py, deployment/holomotion_teleop/holomotion_teleop_node.py, deployment/holomotion_teleop/tests/test_holomotion_teleop_node.py, deployment/unitree_g1_ros2_29dof/scripts/check_v2_motion_model.py, deployment/unitree_g1_ros2_29dof/scripts/control_ownership.py",
+      "Completeness and reproducibility have not been verified",
+      "Supplemental source review on 2026-11-20: https://github.com/HorizonRobotics/HoloMotion",
+      "Supplemental source review on 2026-11-20: https://github.com/HorizonRobotics/HoloMotion"
     ],
-    "code_checked_at": "2026-11-13T15:23:17.989386+00:00",
+    "code_checked_at": "2026-11-20T00:00:00+08:00",
     "authors": [
       "Xihan Ma",
       "Bo Zhang",
@@ -4428,7 +4435,7 @@
       "Loco-Manipulation and Whole-Body Control"
     ],
     "real_robot": false,
-    "open_source": false,
+    "open_source": true,
     "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
@@ -12490,14 +12497,15 @@
     "arxiv_id": "2609.15213",
     "title": "X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control",
     "paper_url": "https://arxiv.org/abs/2609.15213",
-    "project_url": null,
-    "repository_url": null,
+    "project_url": "https://logosintelligencelab.github.io/x-wbc/",
+    "repository_url": "https://github.com/LogosIntelligenceLab/x-wbc",
     "comments": "Accepted to CoRL 2026 [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
-    "code_status": "not_found",
+    "code_status": "coming_soon",
     "code_evidence": [
-      "No repository link found in inspected publication/project content"
+      "Official README identifies the paper and states that implementation, checkpoints and training assets are being prepared for release: https://github.com/LogosIntelligenceLab/x-wbc",
+      "Supplemental source review on 2026-11-20: https://github.com/LogosIntelligenceLab/x-wbc"
     ],
-    "code_checked_at": "2026-11-20T07:27:25.136836+00:00",
+    "code_checked_at": "2026-11-20T00:00:00+08:00",
     "authors": [
       "Juntong Zhang",
       "Chun Gu",
@@ -20589,6 +20597,52 @@
     "primary_category": "Loco-Manipulation and Whole-Body Control"
   },
   {
+    "arxiv_id": "2605.15336",
+    "title": "HoloMotion-1 Technical Report",
+    "paper_url": "https://arxiv.org/abs/2605.15336",
+    "project_url": "https://horizonrobotics.github.io/robot_lab/holomotion/",
+    "repository_url": "https://github.com/HorizonRobotics/HoloMotion",
+    "comments": "",
+    "code_status": "available",
+    "code_evidence": [
+      "Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/HorizonRobotics/HoloMotion",
+      "Detected 485 implementation files; examples: deployment/holomotion_teleop/holomotion_teleop_mjviewer.py, deployment/holomotion_teleop/holomotion_teleop_node.py, deployment/holomotion_teleop/tests/test_holomotion_teleop_node.py, deployment/unitree_g1_ros2_29dof/scripts/check_v2_motion_model.py, deployment/unitree_g1_ros2_29dof/scripts/control_ownership.py",
+      "Completeness and reproducibility have not been verified",
+      "Supplemental source review on 2026-11-20: https://github.com/HorizonRobotics/HoloMotion",
+      "Supplemental source review on 2026-11-20: https://github.com/HorizonRobotics/HoloMotion"
+    ],
+    "code_checked_at": "2026-11-20T00:00:00+08:00",
+    "authors": [
+      "Maiyue Chen",
+      "Kaihui Wang",
+      "Bo Zhang",
+      "Xihan Ma",
+      "Zhiyuan Yang",
+      "Yi Ren",
+      "Qijun Huang",
+      "Zihao Zhu",
+      "Yucheng Wang",
+      "Zhizhong Su"
+    ],
+    "published": "2026-05",
+    "published_date": "2026-05-14",
+    "abstract": "HoloMotion-1 learns general humanoid motion tracking from a mixture of reconstructed video motions and curated motion-capture data. A sparse mixture-of-experts Transformer and sequence-level policy training address diverse motion quality and temporal dependencies. Evaluation includes unseen motions and transfer to a physical humanoid without task-specific fine-tuning.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Transformer",
+      "Humanoid",
+      "Fine-tuning",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": null,
+    "summary": "HoloMotion-1 combines video-derived and motion-capture training data with a mixture-of-experts Transformer for general humanoid motion tracking. The report evaluates unseen-motion generalization and direct deployment on a physical humanoid.",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2605.12347",
     "title": "Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation",
     "paper_url": "https://arxiv.org/abs/2605.12347",
@@ -24888,14 +24942,16 @@
     "title": "SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control",
     "paper_url": "https://arxiv.org/abs/2511.07820",
     "project_url": "https://nvlabs.github.io/SONIC/",
-    "repository_url": null,
+    "repository_url": "https://github.com/NVlabs/GR00T-WholeBodyControl",
     "comments": "Project page: https://nvlabs.github.io/SONIC/",
-    "code_status": "unknown",
+    "code_status": "available",
     "code_evidence": [
-      "Project page has insufficient readable content; may require JavaScript",
-      "Link discovery incomplete; absence of code cannot be confirmed"
+      "Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/NVlabs/GR00T-WholeBodyControl",
+      "Detected 1389 implementation files; examples: check_environment.py, decoupled_wbc/control/base/env.py, decoupled_wbc/control/base/humanoid_env.py, decoupled_wbc/control/base/policy.py, decoupled_wbc/control/base/sensor.py",
+      "Completeness and reproducibility have not been verified",
+      "Supplemental source review on 2026-11-20: https://github.com/NVlabs/GR00T-WholeBodyControl"
     ],
-    "code_checked_at": "2026-11-13T01:45:22.084382+00:00",
+    "code_checked_at": "2026-11-20T00:00:00+08:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",
@@ -24909,7 +24965,7 @@
       "Loco-Manipulation and Whole-Body Control"
     ],
     "real_robot": false,
-    "open_source": false,
+    "open_source": true,
     "platform": null,
     "summary": "",
     "primary_category": "Loco-Manipulation and Whole-Body Control"
@@ -26873,15 +26929,16 @@
     "title": "TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning",
     "paper_url": "https://arxiv.org/abs/2509.11839",
     "project_url": "https://jiachengliu3.github.io/TrajBooster/",
-    "repository_url": "https://github.com/jiachengliu3/OpenTrajBooster",
+    "repository_url": "https://github.com/OpenHelix-Team/OpenTrajBooster",
     "comments": "",
     "code_status": "available",
     "code_evidence": [
-      "Inspected public GitHub page: https://github.com/OpenHelix-Team/OpenTrajBooster",
-      "Implementation examples: OpenWBC_to_Lerobot/convert_3views_to_lerobot.py",
-      "Completeness and reproducibility have not been verified"
+      "Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/OpenHelix-Team/OpenTrajBooster",
+      "Detected 919 implementation files; examples: OpenWBC_to_Lerobot/convert_3views_to_lerobot.py, OpenWBC_to_Lerobot/convert_to_lerobot.py, OpenWBC_to_Lerobot/task_rename_preprocess.py, OpenWBC_to_Lerobot/tet.py, VLA_model/gr00t_modified_for_OpenWBC/deployment_scripts/action_head_utils.py",
+      "Completeness and reproducibility have not been verified",
+      "Supplemental source review on 2026-11-20: https://github.com/OpenHelix-Team/OpenTrajBooster"
     ],
-    "code_checked_at": "2026-11-13T01:46:19.019782+00:00",
+    "code_checked_at": "2026-11-20T00:00:00+08:00",
     "authors": [],
     "published": "2025-09",
     "published_date": "2025-09-01",

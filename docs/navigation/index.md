@@ -62,7 +62,6 @@ Long-horizon navigation from indoors to outdoors remains an open problem for hum
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.12136)
 - **Project:** [Project page](https://robbyant-research.github.io/LHNav/)
 - **Repository:** [Code](https://github.com/robbyant-research/LHNav)
-- **Code status:** Coming soon / 代码待发布
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -201,7 +200,6 @@ Navigation in vision-denied environments is challenging for humanoid robots beca
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.19272)
 - **Project:** [Project page](https://wdc3iii.github.io/rom-nav/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -285,7 +283,6 @@ Humanoid local navigation in cluttered environments must jointly resolve obstacl
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.21935)
 - **Project:** [Project page](https://ziya-jiang.github.io/MIF-homepage/)
-- **Code status:** Coming soon / 代码待发布
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -342,7 +339,6 @@ We present a method for training reference-guided, perceptive reinforcement lear
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2604.00416)
 - **Project:** [Project page](https://egonav.weizhuowang.com)
-- **Code status:** Needs review / 访问失败或证据不足
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -417,7 +413,6 @@ Robust local navigation in unstructured and dynamic environments remains a signi
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2506.01046)
 - **Repository:** [Code](https://github.com/yzwfromk/STATE-NAV)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -444,7 +439,6 @@ Bipedal robots have advantages in maneuvering human-centered environments, but f
 - **Paper:** [arXiv](https://arxiv.org/abs/2511.20351)
 - **Project:** [Project page](https://humanoid-vstar.github.io/)
 - **Repository:** [Code](https://github.com/humanoid-vstar/hstar)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -537,7 +531,6 @@ Bipedal robots demonstrate potential in navigating challenging terrains through 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.14466)
 - **Project:** [Project page](https://sites.google.com/stanford.edu/lookout)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

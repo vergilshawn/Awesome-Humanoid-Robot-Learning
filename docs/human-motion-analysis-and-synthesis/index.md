@@ -34,7 +34,6 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.10872)
 - **Project:** [Project page](https://ember-center-berkeley.github.io/DreamVLA/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-16
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -242,7 +241,6 @@ Humanoid robots can step over, squeeze past, and duck under obstacles, but learn
 ## RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.28693)
-- **Code status:** Unverified / 未核验
 - **Authors:** Zifan Wang, Ziang Ren, Pengyang Shi, Zirui Wang, Chenghuai Lin, Tianze Wang et al. (10 authors)
 - **Published:** 2026-08
 - **Tags:**
@@ -315,7 +313,6 @@ Humanoid motion imitation requires not only accurate perception of human kinemat
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.16600)
 - **Repository:** [Code](https://github.com/pairs-lab/WaveSync)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -390,7 +387,6 @@ Human behaviors in the real world naturally encode rich, long-term contextual in
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.22209)
 - **Project:** [Project page](https://judyye.github.io/whole-www/)
-- **Code status:** Coming soon / 代码待发布
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -414,7 +410,6 @@ Egocentric manipulation videos are highly challenging due to severe occlusions d
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.17900)
 - **Project:** [Project page](https://von31.github.io/MAGNet/)
 - **Repository:** [Code](https://github.com/Von31/MAGNet-code)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -440,7 +435,6 @@ Understanding and generating multi-person interactions is a fundamental challeng
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.00960)
 - **Repository:** [Code](https://github.com/wenboran2002/open4dhoi_code)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -466,7 +460,6 @@ Generalized robots must learn from diverse, large-scale human-object interaction
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.07863)
 - **Project:** [Project page](https://beingbeyond.github.io/Being-M0.5/)
 - **Repository:** [Code](https://github.com/BeingBeyond/Being-M0.5)
-- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -492,7 +485,6 @@ Human motion generation has emerged as a critical technology with transformative
 - **Paper:** [arXiv](https://arxiv.org/abs/2505.01425)
 - **Project:** [Project page](https://research.nvidia.com/labs/dair/gem/)
 - **Repository:** [Code](https://github.com/NVlabs/GENMO)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -518,7 +510,6 @@ Human motion modeling traditionally separates motion generation and estimation i
 - **Paper:** [arXiv](https://arxiv.org/abs/2504.10414)
 - **Project:** [Project page](https://jiaxin-lu.github.io/humoto/)
 - **Repository:** [Code](https://github.com/Jiaxin-Lu/humoto)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

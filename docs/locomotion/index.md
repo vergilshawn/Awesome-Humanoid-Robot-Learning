@@ -1,6 +1,6 @@
 # Locomotion
 
-**259 papers** in this category.
+**260 papers** in this category.
 
 ## Months
 
@@ -10,7 +10,7 @@
 - [2026-08](/locomotion/2026-08) (12 papers)
 - [2026-07](/locomotion/2026-07) (14 papers)
 - [2026-06](/locomotion/2026-06) (23 papers)
-- [2026-05](/locomotion/2026-05) (7 papers)
+- [2026-05](/locomotion/2026-05) (8 papers)
 - [2026-04](/locomotion/2026-04) (3 papers)
 - [2026-03](/locomotion/2026-03) (3 papers)
 - [2026-02](/locomotion/2026-02) (10 papers)
@@ -147,14 +147,18 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 
 ---
 
-## XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute
+## 🌟 XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20452)
+- **Repository:** [Code](https://github.com/nico-bohlinger/xmimic)
 - **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- No repository link found in inspected publication/project content
+- Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/nico-bohlinger/xmimic
+- Detected 26 implementation files; examples: tests/harness.py, tests/test_fast_equiv.py, tools/exclude_compile.py, tools/export_g1_from_blinkmimic.py, tools/make_figures.py
+- Completeness and reproducibility have not been verified
+- Supplemental source review on 2026-11-20: https://github.com/nico-bohlinger/xmimic
 
 </details>
 
@@ -178,7 +182,6 @@ We present XMimic and XSoma, which learn humanoid motion tracking and locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18491)
 - **Repository:** [Code](https://github.com/mkhoshnam/Selfplay-PPO-handover)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -229,7 +232,6 @@ Reinforcement learning has enabled robust humanoid locomotion, yet training reci
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.16422)
 - **Repository:** [Code](https://github.com/fuyichen0725/blinkmimic)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -307,7 +309,6 @@ Extending humanoid interaction generation to new environments remains limited by
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.13370)
 - **Project:** [Project page](https://ihcr.github.io/AHEADance/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -469,7 +470,6 @@ This letter presents a trajectory planner for humanoid robots to perform dynamic
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.02613)
 - **Project:** [Project page](https://mapo-corl2026.github.io/MAPO/)
-- **Code status:** Needs review / 访问失败或证据不足
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -521,7 +521,6 @@ This study aimed to examine the impact of finger movements in hugging robots on 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.41877)
 - **Project:** [Project page](https://movens-zero.github.io/)
 - **Repository:** [Code](https://github.com/wendell0218/Movens-Zero)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -550,7 +549,6 @@ Scaling humanoid motion foundation models is constrained by the scarcity of dive
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.41334)
 - **Project:** [Project page](https://hipc-humanoid.github.io/)
-- **Code status:** Coming soon / 代码待发布
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

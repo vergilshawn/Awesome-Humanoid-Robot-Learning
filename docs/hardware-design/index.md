@@ -32,7 +32,6 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.04334)
 - **Project:** [Project page](https://www.youtube.com/watch?v=xVUWFICD5G0&feature=youtu.be)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -59,7 +58,6 @@ This paper presents humanoid manipulator hardware designed specifically for huma
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.18991)
 - **Project:** [Project page](https://contact-uan.csail.mit.edu/)
 - **Repository:** [Code](https://github.com/nolie-rolie/contact-uan)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -91,7 +89,6 @@ Humanoid policies trained in simulation can transfer qualitatively to hardware w
 ## A Dual-Cam Parallel Elastic Actuator with Shared Gas-Spring Compensation for Humanoid Ankles
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.30832)
-- **Code status:** Unverified / 未核验
 - **Authors:** Jingcheng Jiang, Yifang Zhang, Nikos G. Tsagarakis
 - **Published:** 2026-08
 - **Tags:**
@@ -198,7 +195,6 @@ Animated characters often move in non-physical ways and have proportions that ar
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.08920)
 - **Project:** [Project page](https://jessicayin.github.io/osmo_tactile_glove/)
 - **Repository:** [Code](https://github.com/jessicayin/osmo_tactile_glove)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -444,7 +440,6 @@ CYJ Hand-0 is a 21-DOF humanoid dexterous hand featuring a hybrid tendon-driven 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2507.03227)
 - **Project:** [Project page](https://byte-dexter.github.io/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -469,7 +464,6 @@ Replicating human--level dexterity remains a fundamental robotics challenge, req
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2506.20343)
 - **Project:** [Project page](https://haraduka.github.io/pinn-body-schema/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>

@@ -81,8 +81,6 @@ def format_paper_entry(paper: Paper) -> str:
         lines.append(f"- **Project:** [Project page]({paper.project_url})")
     if paper.repository_url:
         lines.append(f"- **Repository:** [Code]({paper.repository_url})")
-    if paper.code_status != "not_found":
-        lines.append(f"- **Code status:** {CODE_LABELS[paper.code_status]}")
 
     if paper.code_checked_at:
         lines.append(f"- **Code checked:** {paper.code_checked_at[:10]}")
@@ -161,8 +159,6 @@ def format_compact_paper_link(paper: Paper) -> str:
 
     if paper.repository_url and paper.repository_url != paper.project_url:
         item += f", [code]({paper.repository_url})"
-    if paper.code_status != "not_found":
-        item += f" — {CODE_LABELS[paper.code_status]}"
 
     keywords = format_keywords(paper)
     if keywords:

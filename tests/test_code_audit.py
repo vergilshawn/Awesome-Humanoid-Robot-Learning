@@ -233,7 +233,7 @@ class CodeAuditTests(unittest.TestCase):
         output = format_paper_entry(paper(project_url="https://example.org", repository_url="https://github.com/lab/Robot", code_status="partial"))
         self.assertIn("Project page", output)
         self.assertIn("**Repository:**", output)
-        self.assertIn("Partial release", output)
+        self.assertNotIn("Partial release", output)
         self.assertNotIn("🌟", output)
 
 

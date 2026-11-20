@@ -1232,10 +1232,10 @@
   "code_audit": {
     "status_counts": {
       "no_repository": 132,
-      "available": 206,
-      "not_found": 498,
-      "unknown": 51,
-      "coming_soon": 45,
+      "available": 210,
+      "not_found": 495,
+      "unknown": 50,
+      "coming_soon": 46,
       "partial": 17,
       "empty": 13,
       "unverified": 10
@@ -1250,9 +1250,9 @@
       "available": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
       "unknown": "Needs review / 访问失败或证据不足"
     },
-    "checked_count": 962,
+    "checked_count": 963,
     "unverified_count": 10,
-    "needs_review_count": 51,
+    "needs_review_count": 50,
     "method": "arXiv metadata and Comments; project page; GitHub README and file tree, with public HTML, blobless Git tree and bounded archive fallbacks when API access fails",
     "policy": "Source-file detection does not establish completeness, reproducibility or license compliance. Legacy links are unverified until inspected.",
     "papers": [
@@ -1479,12 +1479,15 @@
         "arxiv_id": "2611.20452",
         "title": "XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute",
         "project_url": null,
-        "repository_url": null,
-        "status": "not_found",
-        "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-20T07:27:17.843290+00:00",
+        "repository_url": "https://github.com/nico-bohlinger/xmimic",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-20T00:00:00+08:00",
         "evidence": [
-          "No repository link found in inspected publication/project content"
+          "Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/nico-bohlinger/xmimic",
+          "Detected 26 implementation files; examples: tests/harness.py, tests/test_fast_equiv.py, tools/exclude_compile.py, tools/export_g1_from_blinkmimic.py, tools/make_figures.py",
+          "Completeness and reproducibility have not been verified",
+          "Supplemental source review on 2026-11-20: https://github.com/nico-bohlinger/xmimic"
         ]
       },
       {
@@ -2550,12 +2553,16 @@
         "arxiv_id": "2610.32909",
         "title": "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
         "project_url": null,
-        "repository_url": null,
-        "status": "not_found",
-        "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T15:23:17.989386+00:00",
+        "repository_url": "https://github.com/HorizonRobotics/HoloMotion",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-20T00:00:00+08:00",
         "evidence": [
-          "No repository link found in inspected publication/project content"
+          "Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/HorizonRobotics/HoloMotion",
+          "Detected 485 implementation files; examples: deployment/holomotion_teleop/holomotion_teleop_mjviewer.py, deployment/holomotion_teleop/holomotion_teleop_node.py, deployment/holomotion_teleop/tests/test_holomotion_teleop_node.py, deployment/unitree_g1_ros2_29dof/scripts/check_v2_motion_model.py, deployment/unitree_g1_ros2_29dof/scripts/control_ownership.py",
+          "Completeness and reproducibility have not been verified",
+          "Supplemental source review on 2026-11-20: https://github.com/HorizonRobotics/HoloMotion",
+          "Supplemental source review on 2026-11-20: https://github.com/HorizonRobotics/HoloMotion"
         ]
       },
       {
@@ -4906,13 +4913,14 @@
       {
         "arxiv_id": "2609.15213",
         "title": "X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control",
-        "project_url": null,
-        "repository_url": null,
-        "status": "not_found",
-        "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-20T07:27:25.136836+00:00",
+        "project_url": "https://logosintelligencelab.github.io/x-wbc/",
+        "repository_url": "https://github.com/LogosIntelligenceLab/x-wbc",
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-20T00:00:00+08:00",
         "evidence": [
-          "No repository link found in inspected publication/project content"
+          "Official README identifies the paper and states that implementation, checkpoints and training assets are being prepared for release: https://github.com/LogosIntelligenceLab/x-wbc",
+          "Supplemental source review on 2026-11-20: https://github.com/LogosIntelligenceLab/x-wbc"
         ]
       },
       {
@@ -7261,6 +7269,22 @@
         ]
       },
       {
+        "arxiv_id": "2605.15336",
+        "title": "HoloMotion-1 Technical Report",
+        "project_url": "https://horizonrobotics.github.io/robot_lab/holomotion/",
+        "repository_url": "https://github.com/HorizonRobotics/HoloMotion",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-20T00:00:00+08:00",
+        "evidence": [
+          "Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/HorizonRobotics/HoloMotion",
+          "Detected 485 implementation files; examples: deployment/holomotion_teleop/holomotion_teleop_mjviewer.py, deployment/holomotion_teleop/holomotion_teleop_node.py, deployment/holomotion_teleop/tests/test_holomotion_teleop_node.py, deployment/unitree_g1_ros2_29dof/scripts/check_v2_motion_model.py, deployment/unitree_g1_ros2_29dof/scripts/control_ownership.py",
+          "Completeness and reproducibility have not been verified",
+          "Supplemental source review on 2026-11-20: https://github.com/HorizonRobotics/HoloMotion",
+          "Supplemental source review on 2026-11-20: https://github.com/HorizonRobotics/HoloMotion"
+        ]
+      },
+      {
         "arxiv_id": "2605.12347",
         "title": "Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation",
         "project_url": null,
@@ -8981,13 +9005,15 @@
         "arxiv_id": "2511.07820",
         "title": "SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control",
         "project_url": "https://nvlabs.github.io/SONIC/",
-        "repository_url": null,
-        "status": "unknown",
-        "status_label": "Needs review / 访问失败或证据不足",
-        "checked_at": "2026-11-13T01:45:22.084382+00:00",
+        "repository_url": "https://github.com/NVlabs/GR00T-WholeBodyControl",
+        "status": "available",
+        "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
+        "checked_at": "2026-11-20T00:00:00+08:00",
         "evidence": [
-          "Project page has insufficient readable content; may require JavaScript",
-          "Link discovery incomplete; absence of code cannot be confirmed"
+          "Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/NVlabs/GR00T-WholeBodyControl",
+          "Detected 1389 implementation files; examples: check_environment.py, decoupled_wbc/control/base/env.py, decoupled_wbc/control/base/humanoid_env.py, decoupled_wbc/control/base/policy.py, decoupled_wbc/control/base/sensor.py",
+          "Completeness and reproducibility have not been verified",
+          "Supplemental source review on 2026-11-20: https://github.com/NVlabs/GR00T-WholeBodyControl"
         ]
       },
       {
@@ -9812,14 +9838,15 @@
         "arxiv_id": "2509.11839",
         "title": "TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning",
         "project_url": "https://jiachengliu3.github.io/TrajBooster/",
-        "repository_url": "https://github.com/jiachengliu3/OpenTrajBooster",
+        "repository_url": "https://github.com/OpenHelix-Team/OpenTrajBooster",
         "status": "available",
         "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
-        "checked_at": "2026-11-13T01:46:19.019782+00:00",
+        "checked_at": "2026-11-20T00:00:00+08:00",
         "evidence": [
-          "Inspected public GitHub page: https://github.com/OpenHelix-Team/OpenTrajBooster",
-          "Implementation examples: OpenWBC_to_Lerobot/convert_3views_to_lerobot.py",
-          "Completeness and reproducibility have not been verified"
+          "Inspected Git default-branch file tree and README (no checkout/execution): https://github.com/OpenHelix-Team/OpenTrajBooster",
+          "Detected 919 implementation files; examples: OpenWBC_to_Lerobot/convert_3views_to_lerobot.py, OpenWBC_to_Lerobot/convert_to_lerobot.py, OpenWBC_to_Lerobot/task_rename_preprocess.py, OpenWBC_to_Lerobot/tet.py, VLA_model/gr00t_modified_for_OpenWBC/deployment_scripts/action_head_utils.py",
+          "Completeness and reproducibility have not been verified",
+          "Supplemental source review on 2026-11-20: https://github.com/OpenHelix-Team/OpenTrajBooster"
         ]
       },
       {
@@ -13340,6 +13367,29 @@
           "No repository link found in inspected publication/project content"
         ]
       }
+    ]
+  },
+  "supplemental_search": {
+    "reviewed_on": "2026-11-20",
+    "scope": "Targeted arXiv and official project/repository search; deduplicated against existing papers. Not an exhaustive literature search.",
+    "added_papers": [
+      "2605.15336"
+    ],
+    "updated_link_papers": [
+      "2610.32909",
+      "2611.20452",
+      "2511.07820",
+      "2509.11839",
+      "2609.15213"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2605.15336",
+      "https://github.com/HorizonRobotics/HoloMotion",
+      "https://github.com/HorizonRobotics/HoloMotion",
+      "https://github.com/nico-bohlinger/xmimic",
+      "https://github.com/NVlabs/GR00T-WholeBodyControl",
+      "https://github.com/OpenHelix-Team/OpenTrajBooster",
+      "https://github.com/LogosIntelligenceLab/x-wbc"
     ]
   }
 }

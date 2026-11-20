@@ -54,7 +54,6 @@ Artificial Spiking Neural Networks have gained remarkable attention in the last 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25801)
 - **Project:** [Project page](https://www.jinkuncao.com/FAB/)
-- **Code status:** Needs review / 访问失败或证据不足
 - **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -105,7 +104,6 @@ Learning-based methods now let humanoids run robustly, and they have begun to co
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.15112)
 - **Repository:** [Code](https://github.com/yichg/elastra)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -190,7 +188,6 @@ We present a progressive imitation framework that learns terrain-appropriate hum
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.06908)
 - **Project:** [Project page](https://apple-aiml-research.github.io/ml-halo/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -248,7 +245,6 @@ Humanoid loco-manipulation requires coordinating object acquisition, transport, 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.42097)
 - **Project:** [Project page](https://lu-yidan.github.io/ROOF/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -279,7 +275,6 @@ A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem.
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.28523)
 - **Project:** [Project page](https://yutoshibata07.github.io/REACT/)
 - **Repository:** [Code](https://github.com/YutoShibata07/REACT-HHI)
-- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -335,7 +330,6 @@ Learning from Demonstration (LfD) allows robots to learn new skills from human e
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.25288)
 - **Repository:** [Code](https://github.com/eth-siplab/HumanoidPose)
-- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
 - **Code checked:** 2026-11-14
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -361,7 +355,6 @@ Estimating a humanoid robot's internal state from video has a wide range of real
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.33310)
 - **Project:** [Project page](https://dotandung.github.io/compliantwbc/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -388,7 +381,6 @@ Whole-body compliant control is essential for deploying heavy humanoids under hi
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.30951)
 - **Project:** [Project page](https://bundledcontactgradients.github.io/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -472,7 +464,6 @@ Text-to-motion models generate plausible human motion but do not model a robot's
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.23666)
 - **Project:** [Project page](https://www.youtube.com/watch?v=Rd9YyfOxvmY&feature=youtu.be)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -503,7 +494,6 @@ Open-world deployment requires humanoid robots to cross highly heterogeneous ter
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.23610)
 - **Repository:** [Code](https://github.com/Agibot-Spatial-Intelligence/PRIMO)
-- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
 - **Code checked:** 2026-11-19
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -554,7 +544,6 @@ Accurate joint encoder offsets are essential for kinematic consistency in humano
 ## FOCUS: Foot Observation Confidence for Robust Humanoid Proprioceptive Odometry
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.02222)
-- **Code status:** Unverified / 未核验
 - **Authors:** Kaixin Feng, Angsong Li, Shaopeng Zhang, Enyu Li, Peiwen Lin, Chuang Wang et al. (8 authors)
 - **Published:** 2026-09
 - **Real Robot:** ✅ — Figure

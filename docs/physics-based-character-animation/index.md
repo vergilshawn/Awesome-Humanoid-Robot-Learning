@@ -42,7 +42,6 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26218)
 - **Project:** [Project page](https://binlee26.github.io/MixReact_Page/)
-- **Code status:** Coming soon / 代码待发布
 - **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -95,7 +94,6 @@ In human-robot collaboration, natural language lets people direct a humanoid's w
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.11554)
 - **Project:** [Project page](https://kimodo-policy.github.io/)
 - **Repository:** [Code](https://github.com/kimodo-policy/kimodo-policy)
-- **Code status:** Partial release / 部分代码或资源待发布
 - **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -129,7 +127,6 @@ Humanoid loco-manipulation requires continuous coordination of high-dimensional 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.36615)
 - **Project:** [Project page](https://aioznetwork.github.io/HumiMimic/)
 - **Repository:** [Code](https://github.com/AIOZNetwork/HumiMimic)
-- **Code status:** Placeholder or no implementation detected / 占位仓库或未检测到实现
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -185,7 +182,6 @@ Construction productivity has remained a per- sistent challenge, motivating grow
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2610.21515)
 - **Repository:** [Code](https://github.com/Multimodal-Perception-Action/TRACE)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-15
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -297,7 +293,6 @@ Recent methods have made promising progress in generating interactions between t
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.39575)
 - **Project:** [Project page](https://echo-g-project.github.io/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-17
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -328,7 +323,6 @@ Generating full-body co-speech motion for humanoid robots requires coordinating 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.33311)
 - **Project:** [Project page](https://rex0191.github.io/SocialHumanoid/)
-- **Code status:** Coming soon / 代码待发布
 - **Code checked:** 2026-11-18
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -359,7 +353,6 @@ Humanoid robots are increasingly expected to serve as embodied social agents tha
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2609.06591)
 - **Project:** [Project page](https://jiann-li.github.io/chip-project/)
-- **Code status:** Project page only / 项目页未发现仓库
 - **Code checked:** 2026-11-20
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -386,7 +379,6 @@ Developing unified physics-based humanoid controllers that can navigate complex 
 ## PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.28213)
-- **Code status:** Unverified / 未核验
 - **Authors:** Yan Pan, Lingfan Bao, Tianhu Peng, Chengxu Zhou
 - **Published:** 2026-08
 - **Tags:**
@@ -457,7 +449,6 @@ General-purpose humanoid trackers can execute diverse references, but their zero
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.22998)
 - **Project:** [Project page](https://jianuocao.github.io/TEXEDO/)
 - **Repository:** [Code](https://github.com/JianuoCao/TEXEDO)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
@@ -567,7 +558,6 @@ Accurate prediction of electrical power consumption is essential for energy-awar
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.10340)
 - **Project:** [Project page](https://tsinghua-mars-lab.github.io/OMG/)
 - **Repository:** [Code](https://github.com/Tsinghua-MARS-Lab/OMG)
-- **Code status:** Implementation detected (completeness unverified) / 已检测到实现，完整性未核验
 - **Code checked:** 2026-11-13
 
 <details><summary>Code verification details / 核验依据</summary>
