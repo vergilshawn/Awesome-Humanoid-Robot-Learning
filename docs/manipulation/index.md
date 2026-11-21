@@ -40,7 +40,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18976)
 - **Project:** [Project page](https://humanoid-tma.github.io/)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 

@@ -951,7 +951,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-06](/locomotion/2026-06)
 
-- [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — `Reinforcement Learning`, `Imitation Learning`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Gait`
+- [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807), [website](https://www.youtube.com/watch?v=-_APcOS7uFo) — `Reinforcement Learning`, `Imitation Learning`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Gait`
 - 🌟 [FastDSAC: Enhancing Policy Plasticity via Constrained Exploration for Scalable Humanoid Locomotion](https://arxiv.org/abs/2606.31691), [code](https://github.com/luge66/FastDSAC) — `Reinforcement Learning`, `Locomotion`, `MuJoCo`, `Humanoid`, `Actor-Critic`, `SAC`
 - [Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning](https://arxiv.org/abs/2606.28813), [website](https://human2any.github.io/) — `Manipulation`, `Human Demonstration`, `Humanoid`, `Motion Planning`, `Locomotion`
 - [Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies](https://arxiv.org/abs/2606.27813) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Human Demonstration`, `Real Robot`, `Humanoid`

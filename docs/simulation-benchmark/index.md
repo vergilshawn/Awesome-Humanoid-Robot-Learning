@@ -32,7 +32,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26293)
 - **Repository:** [Code](https://github.com/robfiras/loco-mujoco)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -507,7 +507,7 @@ We propose HODAgent, a System-2 embodied agent for humanoid robots in service se
 ## First Deployable Dynamic-CoM: A Unified Policy and Method-Agnostic Benchmark for Humanoid Single-Leg Balance
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.00500)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -535,7 +535,7 @@ Unified humanoid policies track agile whole-body motion, yet few can hold a clea
 ## Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.10815)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -561,7 +561,7 @@ Humanoid roller-skating is difficult because the robot must coordinate whole-bod
 ## ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.06052)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 

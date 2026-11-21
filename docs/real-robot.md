@@ -22,7 +22,7 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -49,7 +49,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 ## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -74,7 +74,7 @@ Learning-based methods now let humanoids run robustly, and they have begun to co
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -100,7 +100,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -131,7 +131,7 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19998)
 - **Project:** [Project page](https://movicproject.github.io/)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -162,7 +162,7 @@ Real-time whole-body imitation from monocular video requires both a robust unive
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19196)
 - **Project:** [Project page](https://robonana.github.io/ego2sim2humanoid/)
 - **Repository:** [Code](https://github.com/robonana/ego2sim2humanoid)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -194,7 +194,7 @@ Imitation learning for visuomotor policies typically relies on teleoperated robo
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19100)
 - **Project:** [Project page](https://h12leaner.github.io/)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -225,7 +225,7 @@ We study supported reaching to extend a humanoid robot's workspace by bracing ag
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18976)
 - **Project:** [Project page](https://humanoid-tma.github.io/)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -255,7 +255,7 @@ Recent humanoid loco-manipulation in articulated environments has largely focuse
 ## X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.17598)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3287,7 +3287,7 @@ We present PAC-MAN, a perception-aware CBF-RL framework that couples control-bar
 ## Speech2Grasp: Data-Efficient Transfer of Text-Conditioned Grasp Detection to Speech in Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.26567)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3314,7 +3314,7 @@ Humanoid robots increasingly require multi-modal understanding for natural inter
 ## Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.20345)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3342,7 +3342,7 @@ Closing the gap between benchmark performance and reliable real-world operation 
 ## Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.21648)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3366,7 +3366,7 @@ The human-like morphology of humanoid robots grants them exceptional potential f
 ## Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.18016)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3423,7 +3423,7 @@ Dexterous hands and humanoid robots are typically developed as distinct embodime
 ## RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.31836)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3451,7 +3451,8 @@ In the field of robot learning, large-scale and diverse demonstration trajectori
 ## Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.31807)
-- **Code checked:** 2026-11-13
+- **Project:** [Project page](https://www.youtube.com/watch?v=-_APcOS7uFo)
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3514,7 +3515,7 @@ While current Behavior Foundation Models (BFMs) provide robust control priors fo
 ## Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.27813)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 

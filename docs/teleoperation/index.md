@@ -30,7 +30,7 @@
 ## ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22258)
-- **Code checked:** 2026-11-20
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 

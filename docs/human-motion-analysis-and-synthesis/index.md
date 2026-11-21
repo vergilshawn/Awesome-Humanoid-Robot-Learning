@@ -273,7 +273,7 @@ Enabling humanoid robots to respond to human speech with synchronized and semant
 ## Imitation of Arm Gestures by the Semi-Humanoid Robot NICO
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2607.18197)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-21
 
 <details><summary>Code verification details / 核验依据</summary>
 

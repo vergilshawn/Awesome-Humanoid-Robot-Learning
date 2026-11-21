@@ -5,7 +5,7 @@ Code availability grouped by inspection status. Source-file detection does not v
 ## Unverified / 未核验 (0)
 
 
-## No project/code link found / 未发现项目或代码链接 (502)
+## No project/code link found / 未发现项目或代码链接 (501)
 
 - [Controlling the Humanoid Robot H1-2 With a Simulated Biologically Plausible Network](https://arxiv.org/abs/2611.26074) — `Reinforcement Learning`, `Locomotion`, `Biped`, `Humanoid`, `Distillation`, `Dataset`
 - [Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning](https://arxiv.org/abs/2611.26054) — `Reinforcement Learning`, `Locomotion`, `Human Demonstration`, `Humanoid`, `Walking`, `System Identification`
@@ -239,7 +239,6 @@ Code availability grouped by inspection status. Source-file detection does not v
 - [Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control](https://arxiv.org/abs/2607.04837) — `Whole-Body Control`, `Humanoid`, `Fine-tuning`, `Distillation`, `DAgger`, `Loco-Manipulation and Whole-Body Control`
 - [ADP: Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion](https://arxiv.org/abs/2607.03454) — `Locomotion`, `Humanoid`, `Trajectory Optimization`, `Dataset`, `PPO`
 - [RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation](https://arxiv.org/abs/2606.31836) — `Imitation Learning`, `Manipulation`, `Humanoid`, `Dataset`, `Multi-Modal`, `Simulation Benchmark`
-- [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807) — `Reinforcement Learning`, `Imitation Learning`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Gait`
 - [AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance](https://arxiv.org/abs/2606.29209) — `Locomotion`, `Manipulation`, `Transformer`, `Humanoid`, `Policy Learning`, `SAC`
 - [Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies](https://arxiv.org/abs/2606.27813) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Human Demonstration`, `Real Robot`, `Humanoid`
 - [HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation](https://arxiv.org/abs/2606.27239) — `Whole-Body Control`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
@@ -510,7 +509,7 @@ Code availability grouped by inspection status. Source-file detection does not v
 - [Legged Robot State-Estimation Through Combined Forward Kinematic and Preintegrated Contact Factors](https://arxiv.org/abs/1712.05873) — `State Estimation`
 - [The invariant extended Kalman filter as a stable observer](https://arxiv.org/abs/1410.1465) — `State Estimation`
 
-## Project page only / 项目页未发现仓库 (133)
+## Project page only / 项目页未发现仓库 (134)
 
 - [PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.26596), [website](https://kl-research.github.io/pgx/) — `Manipulation`, `Navigation`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation](https://arxiv.org/abs/2611.18976), [website](https://humanoid-tma.github.io/) — `Sim-to-Real`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Friction`
@@ -586,6 +585,7 @@ Code availability grouped by inspection status. Source-file detection does not v
 - [HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL](https://arxiv.org/abs/2608.16837), [website](https://grange007.github.io/HAF/) — `Reinforcement Learning`, `Locomotion`, `Manipulation`, `Safety`, `Humanoid`, `Vision-Language`
 - [Light-Loco-Parkour: Versatile Perceptive Whole-Body Locomotion via Multi-Skill Distillation](https://arxiv.org/abs/2608.02653), [website](https://www.lightorigins.com/en/blog/lightparkour) — `Whole-Body Control`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Distillation`, `Benchmark`
 - [Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments](https://arxiv.org/abs/2606.32009), [website](https://zgc-embodyai.github.io/Human-as-Humanoid/) — `Teleoperation`, `Manipulation`, `Zero-Shot`, `Human Demonstration`, `Humanoid`, `Inverse Kinematics`
+- [Reinforcement Learning-Based Control for an Inline Skating Humanoid Robot](https://arxiv.org/abs/2606.31807), [website](https://www.youtube.com/watch?v=-_APcOS7uFo) — `Reinforcement Learning`, `Imitation Learning`, `Locomotion`, `Zero-Shot`, `Humanoid`, `Gait`
 - [Labimus: A Simulation and Benchmark for Humanoid Dexterous Manipulation in Chemical Laboratory](https://arxiv.org/abs/2606.31037), [website](https://labimus.github.io/) — `Manipulation`, `Humanoid`, `Benchmark`, `PPO`, `GAN`, `Simulation Benchmark`
 - [VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes](https://arxiv.org/abs/2606.30645), [website](https://vision-language-kinematics.github.io/) — `Sim-to-Real`, `Manipulation`, `Navigation`, `Humanoid`, `Gaussian Splatting`, `Vision-Language`
 - [Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning](https://arxiv.org/abs/2606.28813), [website](https://human2any.github.io/) — `Manipulation`, `Human Demonstration`, `Humanoid`, `Motion Planning`, `Locomotion`
