@@ -22,7 +22,7 @@ Papers with real humanoid robot deployment and experiments.
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-21
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -49,7 +49,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 ## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
-- **Code checked:** 2026-11-21
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -74,7 +74,7 @@ Learning-based methods now let humanoids run robustly, and they have begun to co
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
-- **Code checked:** 2026-11-21
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -100,7 +100,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
-- **Code checked:** 2026-11-21
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -131,7 +131,7 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19998)
 - **Project:** [Project page](https://movicproject.github.io/)
-- **Code checked:** 2026-11-21
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -162,7 +162,7 @@ Real-time whole-body imitation from monocular video requires both a robust unive
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19196)
 - **Project:** [Project page](https://robonana.github.io/ego2sim2humanoid/)
 - **Repository:** [Code](https://github.com/robonana/ego2sim2humanoid)
-- **Code checked:** 2026-11-21
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -194,7 +194,7 @@ Imitation learning for visuomotor policies typically relies on teleoperated robo
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19100)
 - **Project:** [Project page](https://h12leaner.github.io/)
-- **Code checked:** 2026-11-21
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -225,7 +225,7 @@ We study supported reaching to extend a humanoid robot's workspace by bracing ag
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.18976)
 - **Project:** [Project page](https://humanoid-tma.github.io/)
-- **Code checked:** 2026-11-21
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3170,14 +3170,12 @@ Accurate throwing of the American football requires precise regulation of releas
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.05647)
 - **Repository:** [Code](https://github.com/JixinGao/KILVO)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- Inspected public GitHub page: https://github.com/JixinGao/KILVO
-- Implementation examples: include/IMU_Processing.h
-- Completeness and reproducibility have not been verified
-- Project/repository identified by matching paper title on public source: https://github.com/JixinGao/KILVO
+- Detected 29 source files; examples: include/IMU_Processing.h, include/LIVMapper.h, include/common_lib.h, include/feature.h, include/frame.h
+- Completeness, dependencies, training assets and reproducibility have not been verified
 
 </details>
 
@@ -3543,7 +3541,8 @@ Humanoid robot motion learning requires not only task-oriented control policies 
 ## A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.26425)
-- **Code checked:** 2026-11-13
+- **Project:** [Project page](https://www.youtube.com/playlist?list=PLJK5CTyotYqsfgfnXb-09YNFeBose6uEY)
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3573,7 +3572,7 @@ Humanoid robots could take on physically demanding, hazardous, and repetitive wo
 ## Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.25706)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3632,7 +3631,7 @@ Text-conditioned motion generation is a promising interface for programming huma
 ## Mobile Pedipulation for Object Sliding via Hierarchical Control on a Wheeled Bipedal Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.19233)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3659,7 +3658,7 @@ In this letter, we present a hierarchical control framework that enables wheeled
 ## HALOMI: Learning Humanoid Loco-Manipulation with Active Perception from Human Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.18772)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3687,7 +3686,7 @@ Human demonstrations, which can be collected at scale and naturally capture acti
 ## EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.11109)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3741,7 +3740,7 @@ Elite humanoid soccer shooting requires whole-body stability, high-impulse whole
 ## MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.09215)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3769,7 +3768,7 @@ World Action Models (WAMs) couple a video dynamics prior to the policy and have 
 ## SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.08278)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 

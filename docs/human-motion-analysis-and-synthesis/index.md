@@ -296,7 +296,7 @@ Seamless human-robot interaction (HRI) requires a number of perceptual and motor
 ## PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.26741)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 

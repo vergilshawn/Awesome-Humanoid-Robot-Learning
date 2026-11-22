@@ -5,7 +5,7 @@ Code availability grouped by inspection status. Source-file detection does not v
 ## Unverified / 未核验 (0)
 
 
-## No project/code link found / 未发现项目或代码链接 (501)
+## No project/code link found / 未发现项目或代码链接 (499)
 
 - [Controlling the Humanoid Robot H1-2 With a Simulated Biologically Plausible Network](https://arxiv.org/abs/2611.26074) — `Reinforcement Learning`, `Locomotion`, `Biped`, `Humanoid`, `Distillation`, `Dataset`
 - [Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning](https://arxiv.org/abs/2611.26054) — `Reinforcement Learning`, `Locomotion`, `Human Demonstration`, `Humanoid`, `Walking`, `System Identification`
@@ -241,10 +241,8 @@ Code availability grouped by inspection status. Source-file detection does not v
 - [RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation](https://arxiv.org/abs/2606.31836) — `Imitation Learning`, `Manipulation`, `Humanoid`, `Dataset`, `Multi-Modal`, `Simulation Benchmark`
 - [AnyBody: Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance](https://arxiv.org/abs/2606.29209) — `Locomotion`, `Manipulation`, `Transformer`, `Humanoid`, `Policy Learning`, `SAC`
 - [Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies](https://arxiv.org/abs/2606.27813) — `Reinforcement Learning`, `Sim-to-Real`, `Locomotion`, `Human Demonstration`, `Real Robot`, `Humanoid`
-- [HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation](https://arxiv.org/abs/2606.27239) — `Whole-Body Control`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [Humanoid-DART: Humanoid Loco-Manipulation using Diffusion-guided Augmentation through Relabeling and Tracking](https://arxiv.org/abs/2606.26855) — `Reinforcement Learning`, `Manipulation`, `Human Demonstration`, `Humanoid`, `Goal-Conditioned`, `Diffusion`
 - [PressMimic: Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation](https://arxiv.org/abs/2606.26741) — `Reinforcement Learning`, `Humanoid`, `Contact Dynamics`, `Dataset`, `PPO`, `Human Motion Analysis and Synthesis`
-- [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2606.26425) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `PPO`
 - [TaskNPoint: How to Teach Your Humanoid to Hit a Backhand in Minutes](https://arxiv.org/abs/2606.26215) — `Zero-Shot`, `Robustness`, `Humanoid`, `Simulation Benchmark`
 - [OmniContact: Chaining Meta-Skills via Contact Flow for Generalizable Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.26201) — `Manipulation`, `Humanoid`, `Dataset`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots](https://arxiv.org/abs/2606.25706) — `MPC`, `Whole-Body Control`, `Humanoid`, `Distillation`, `Loco-Manipulation and Whole-Body Control`, `State Estimation`
@@ -509,7 +507,7 @@ Code availability grouped by inspection status. Source-file detection does not v
 - [Legged Robot State-Estimation Through Combined Forward Kinematic and Preintegrated Contact Factors](https://arxiv.org/abs/1712.05873) — `State Estimation`
 - [The invariant extended Kalman filter as a stable observer](https://arxiv.org/abs/1410.1465) — `State Estimation`
 
-## Project page only / 项目页未发现仓库 (134)
+## Project page only / 项目页未发现仓库 (136)
 
 - [PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.26596), [website](https://kl-research.github.io/pgx/) — `Manipulation`, `Navigation`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - [TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation](https://arxiv.org/abs/2611.18976), [website](https://humanoid-tma.github.io/) — `Sim-to-Real`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Friction`
@@ -591,6 +589,8 @@ Code availability grouped by inspection status. Source-file detection does not v
 - [Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning](https://arxiv.org/abs/2606.28813), [website](https://human2any.github.io/) — `Manipulation`, `Human Demonstration`, `Humanoid`, `Motion Planning`, `Locomotion`
 - [FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control](https://arxiv.org/abs/2606.28476), [website](https://lecar-lab.github.io/FADA-humanoid/) — `Few-Shot`, `Zero-Shot`, `Domain Randomization`, `Humanoid`, `Domain Adaptation`, `Residual Learning`
 - [CWI: Composite Humanoid Whole-Body Imitation System for Loco-manipulation](https://arxiv.org/abs/2606.27676), [website](https://cwi-ral.github.io/CWI-RAL-Webpage/) — `Whole-Body Control`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`
+- [HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation](https://arxiv.org/abs/2606.27239), [website](https://arxiv.org/abs/2605.03452) — `Whole-Body Control`, `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
+- [A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots](https://arxiv.org/abs/2606.26425), [website](https://www.youtube.com/playlist?list=PLJK5CTyotYqsfgfnXb-09YNFeBose6uEY) — `Whole-Body Control`, `Locomotion`, `Manipulation`, `Humanoid`, `Walking`, `PPO`
 - [Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids](https://arxiv.org/abs/2606.12814), [website](https://aislab-sustech.github.io/Stubborn/) — `Reinforcement Learning`, `Robustness`, `Humanoid`, `Actor-Critic`, `Locomotion`
 - [GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains](https://arxiv.org/abs/2606.10449), [website](https://guide-walk.github.io/GuideWalk/) — `Reinforcement Learning`, `Locomotion`, `Navigation`, `Robustness`, `Humanoid`, `Distillation`
 - [VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands](https://arxiv.org/abs/2606.09286), [website](https://vaic-humanoid.github.io/) — `Humanoid`, `Proprioception`, `Distillation`, `Locomotion`

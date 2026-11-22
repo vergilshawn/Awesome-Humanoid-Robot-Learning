@@ -10,7 +10,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:03.240699+00:00",
+    "code_checked_at": "2026-11-22T15:15:11.205245+00:00",
     "authors": [
       "Kai Lu",
       "Chenyang Ma",
@@ -48,7 +48,7 @@
       "Detected 2 source files; examples: preview/project.py, preview/readme.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-21T15:18:03.401709+00:00",
+    "code_checked_at": "2026-11-22T15:15:11.479017+00:00",
     "authors": [
       " EngineAI"
     ],
@@ -83,7 +83,7 @@
       "Detected 211 source files; examples: examples/replay_datasets/example.py, examples/replay_datasets/smpl_example.py, examples/speed_test.py, examples/training_examples/jax_amp/eval.py, examples/training_examples/jax_amp/experiment.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-21T15:18:04.283875+00:00",
+    "code_checked_at": "2026-11-22T15:15:12.459130+00:00",
     "authors": [
       "Firas Al-Hafez",
       "Davide Tateo",
@@ -131,7 +131,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:05.229627+00:00",
+    "code_checked_at": "2026-11-22T15:15:13.443577+00:00",
     "authors": [
       "Fatima Atwi",
       "Constant Roux",
@@ -171,7 +171,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:05.282766+00:00",
+    "code_checked_at": "2026-11-22T15:15:13.499601+00:00",
     "authors": [
       "Ganeshvar Soenessardien",
       "Michael Przystupa",
@@ -208,7 +208,7 @@
     "code_evidence": [
       "Multiple repository candidates require review: https://github.com/noahcao/FAB, https://github.com/noahcao/FAH"
     ],
-    "code_checked_at": "2026-11-21T15:18:05.332687+00:00",
+    "code_checked_at": "2026-11-22T15:15:13.551659+00:00",
     "authors": [
       "Jinkun Cao"
     ],
@@ -241,7 +241,7 @@
       "Detected 1 source files; examples: scripts/build.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-21T15:18:05.571221+00:00",
+    "code_checked_at": "2026-11-22T15:15:13.822134+00:00",
     "authors": [
       "Xingyi Wang",
       "Bin Li",
@@ -287,7 +287,7 @@
     "code_evidence": [
       "Publication/project page: code will be released"
     ],
-    "code_checked_at": "2026-11-21T15:18:06.455245+00:00",
+    "code_checked_at": "2026-11-22T15:15:14.846520+00:00",
     "authors": [
       "Bin Li",
       "Xing Zhu",
@@ -323,7 +323,7 @@
     "code_evidence": [
       "Publication/project page: Code (coming soon"
     ],
-    "code_checked_at": "2026-11-21T15:18:06.640829+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.106358+00:00",
     "authors": [
       "Qianzhong Chen",
       "Muyuan Lin",
@@ -371,7 +371,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:06.882203+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.297520+00:00",
     "authors": [
       "Lequn Fu",
       "Yufeng Hu",
@@ -413,7 +413,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:06.948079+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.330894+00:00",
     "authors": [
       "Zejian Kang",
       "Yeqiang Wang",
@@ -456,7 +456,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:07.016953+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.372643+00:00",
     "authors": [
       "Lechen Zhang",
       "Chenyuan Chen",
@@ -500,7 +500,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:07.101318+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.419440+00:00",
     "authors": [
       "Koki Inami",
       "Takashi Sato",
@@ -541,7 +541,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:07.184846+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.466765+00:00",
     "authors": [
       "Zhaoyang Li",
       "Chiyu Zhang",
@@ -580,7 +580,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:07.243333+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.516942+00:00",
     "authors": [
       "Fumihiko Asano",
       "Cong Yan"
@@ -615,7 +615,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:07.299821+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.612511+00:00",
     "authors": [
       "Yongji Fu",
       "Man Cao",
@@ -653,7 +653,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:07.355464+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.644244+00:00",
     "authors": [
       "Murad Dawood",
       "Oezge Drama Berkenkamp",
@@ -695,7 +695,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:07.411550+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.701298+00:00",
     "authors": [
       "Markus Peschl",
       "Dana Kianfar",
@@ -735,7 +735,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:07.501243+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.750662+00:00",
     "authors": [
       "Nico Bohlinger",
       "Jan Peters"
@@ -771,7 +771,7 @@
     "code_evidence": [
       "Publication/project page: Code (coming soon"
     ],
-    "code_checked_at": "2026-11-21T15:18:07.563388+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.780565+00:00",
     "authors": [
       "Yimin Han",
       "Jiahui Zhang",
@@ -822,7 +822,7 @@
       "No implementation files detected (documentation/assets only); review required",
       "Publication/project page: code coming soon"
     ],
-    "code_checked_at": "2026-11-21T15:18:07.647290+00:00",
+    "code_checked_at": "2026-11-22T15:15:15.922336+00:00",
     "authors": [
       "Chen Liu",
       "Nikolaus Correll"
@@ -870,7 +870,7 @@
     "code_evidence": [
       "Publication/project page: Code (coming soon"
     ],
-    "code_checked_at": "2026-11-21T15:18:08.600465+00:00",
+    "code_checked_at": "2026-11-22T15:15:17.099505+00:00",
     "authors": [
       "Allen Devaraj",
       "William Xie",
@@ -909,7 +909,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:08.744329+00:00",
+    "code_checked_at": "2026-11-22T15:15:17.227726+00:00",
     "authors": [
       "Yiting Chen",
       "Kelin Yu",
@@ -959,7 +959,7 @@
       "Detected 12 source files; examples: hcrl/controllers_v5.py, hcrl/eval_v5.py, hcrl/g1_cfg.py, hcrl/hri_v5_env.py, hcrl/human_animation.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-21T15:18:08.869385+00:00",
+    "code_checked_at": "2026-11-22T15:15:17.349408+00:00",
     "authors": [
       "Mohammad Khoshnazar",
       "Mike Degany",
@@ -995,7 +995,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-21T15:18:09.623155+00:00",
+    "code_checked_at": "2026-11-22T15:15:18.177093+00:00",
     "authors": [
       "Sol Choi",
       "Mingon Kim",
@@ -14945,15 +14945,13 @@
     "paper_url": "https://arxiv.org/abs/2608.05647",
     "project_url": null,
     "repository_url": "https://github.com/JixinGao/KILVO",
-    "comments": "This article has been accepted for publication in IEEE/ASME Transactions on Mechatronics. Personal use is permitted. All other uses require IEEE permission",
+    "comments": "This article has been accepted for publication in IEEE/ASME Transactions on Mechatronics. Personal use is permitted. All other uses require IEEE permission [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "available",
     "code_evidence": [
-      "Inspected public GitHub page: https://github.com/JixinGao/KILVO",
-      "Implementation examples: include/IMU_Processing.h",
-      "Completeness and reproducibility have not been verified",
-      "Project/repository identified by matching paper title on public source: https://github.com/JixinGao/KILVO"
+      "Detected 29 source files; examples: include/IMU_Processing.h, include/LIVMapper.h, include/common_lib.h, include/feature.h, include/frame.h",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.293238+00:00",
+    "code_checked_at": "2026-11-22T15:15:21.305369+00:00",
     "authors": [
       "Jixin Gao",
       "Fucheng Liu",
@@ -17272,14 +17270,14 @@
     "arxiv_id": "2606.27239",
     "title": "HumanoidUMI: Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation",
     "paper_url": "https://arxiv.org/abs/2606.27239",
-    "project_url": null,
+    "project_url": "https://arxiv.org/abs/2605.03452",
     "repository_url": null,
-    "comments": "This work was intended as a replacement of arXiv:2605.03452 and any subsequent updates will appear there",
-    "code_status": "not_found",
+    "comments": "This work was intended as a replacement of  arXiv:2605.03452  and any subsequent updates will appear there [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "no_repository",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.290863+00:00",
+    "code_checked_at": "2026-11-22T15:15:19.237404+00:00",
     "authors": [
       "Hongwu Wang",
       "Chenhao Yu",
@@ -17316,12 +17314,12 @@
     "paper_url": "https://arxiv.org/abs/2606.26855",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.290931+00:00",
+    "code_checked_at": "2026-11-22T15:15:19.370240+00:00",
     "authors": [
       "Pranav Debbad",
       "Kanish Thiagarajan",
@@ -17358,12 +17356,12 @@
     "paper_url": "https://arxiv.org/abs/2606.26741",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.290987+00:00",
+    "code_checked_at": "2026-11-22T15:15:19.473797+00:00",
     "authors": [
       "Yi Lu",
       "Shenghao Ren",
@@ -17399,14 +17397,14 @@
     "arxiv_id": "2606.26425",
     "title": "A System for Fast, Resilient, and Adaptable Loco-Manipulation Behaviors on Humanoid Robots",
     "paper_url": "https://arxiv.org/abs/2606.26425",
-    "project_url": null,
+    "project_url": "https://www.youtube.com/playlist?list=PLJK5CTyotYqsfgfnXb-09YNFeBose6uEY",
     "repository_url": null,
-    "comments": "PhD dissertation, University of West Florida, Department of Intelligent Systems and Robotics, June 2026. 331 pages",
-    "code_status": "not_found",
+    "comments": "PhD dissertation, University of West Florida, Department of Intelligent Systems and Robotics, June 2026. 331 pages [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "no_repository",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.291071+00:00",
+    "code_checked_at": "2026-11-22T15:15:19.507722+00:00",
     "authors": [
       "Duncan William Calvert"
     ],
@@ -17440,12 +17438,12 @@
     "paper_url": "https://arxiv.org/abs/2606.26215",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.291187+00:00",
+    "code_checked_at": "2026-11-22T15:15:19.979585+00:00",
     "authors": [
       "Blake Werner",
       "Ilona Demler",
@@ -17476,12 +17474,12 @@
     "paper_url": "https://arxiv.org/abs/2606.26201",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.291279+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.020728+00:00",
     "authors": [
       "Runyi Yu",
       "Xiaoyi Lin",
@@ -17524,12 +17522,12 @@
     "paper_url": "https://arxiv.org/abs/2606.25706",
     "project_url": null,
     "repository_url": null,
-    "comments": "10 pages, 8 figures",
+    "comments": "10 pages, 8 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.291370+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.052509+00:00",
     "authors": [
       "Yumeng Liu",
       "Dongqi Wang",
@@ -17565,12 +17563,12 @@
     "paper_url": "https://arxiv.org/abs/2606.25591",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.291429+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.086841+00:00",
     "authors": [
       "Melya Boukheddimi",
       "Omar Adjali",
@@ -17611,12 +17609,12 @@
     "paper_url": "https://arxiv.org/abs/2606.25123",
     "project_url": null,
     "repository_url": null,
-    "comments": "7pages",
+    "comments": "7pages [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.291522+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.118677+00:00",
     "authors": [
       "Yunsoo Seo",
       "Sol Choi",
@@ -17701,12 +17699,12 @@
     "paper_url": "https://arxiv.org/abs/2606.23249",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.291595+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.150205+00:00",
     "authors": [
       "Yukun Luo",
       "Jianjun Ma",
@@ -17831,12 +17829,12 @@
     "paper_url": "https://arxiv.org/abs/2606.19769",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.291690+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.180374+00:00",
     "authors": [
       "Shaoshan Liu",
       "Xiugong Qin",
@@ -17871,12 +17869,12 @@
     "paper_url": "https://arxiv.org/abs/2606.19699",
     "project_url": null,
     "repository_url": null,
-    "comments": "6 pages, 7 figures",
+    "comments": "6 pages, 7 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.291782+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.220466+00:00",
     "authors": [
       "Joong-Gil Kim",
       "Wontae Ye",
@@ -17909,12 +17907,12 @@
     "paper_url": "https://arxiv.org/abs/2606.19935",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.291900+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.329606+00:00",
     "authors": [
       "Zhangzhao Liang",
       "Xiaofen Xing",
@@ -17945,12 +17943,12 @@
     "paper_url": "https://arxiv.org/abs/2606.19512",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292009+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.429468+00:00",
     "authors": [
       "Falak Mandali",
       "Zijian He",
@@ -17981,12 +17979,12 @@
     "paper_url": "https://arxiv.org/abs/2606.19233",
     "project_url": null,
     "repository_url": null,
-    "comments": "8 pages, 7 figures",
+    "comments": "8 pages, 7 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292079+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.551019+00:00",
     "authors": [
       "Yue Qin",
       "Yulun Zhuang",
@@ -18018,12 +18016,12 @@
     "paper_url": "https://arxiv.org/abs/2606.18772",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292143+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.643795+00:00",
     "authors": [
       "Zehui Zhao",
       "Yuxuan Zhao",
@@ -18059,12 +18057,12 @@
     "paper_url": "https://arxiv.org/abs/2606.17833",
     "project_url": null,
     "repository_url": null,
-    "comments": "29 pages, 13 figures, 10 tables",
+    "comments": "29 pages, 13 figures, 10 tables [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292227+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.677437+00:00",
     "authors": [
       "Taowen Wang",
       "Zikang Xie",
@@ -18112,12 +18110,12 @@
     "paper_url": "https://arxiv.org/abs/2606.17011",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292332+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.713294+00:00",
     "authors": [
       "Wei Xiao",
       "Weiliang Tang",
@@ -18191,12 +18189,12 @@
     "paper_url": "https://arxiv.org/abs/2606.16542",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292414+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.744843+00:00",
     "authors": [
       "Bofan Lyu",
       "Jindou Jia",
@@ -18236,12 +18234,12 @@
     "paper_url": "https://arxiv.org/abs/2606.16022",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292505+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.775743+00:00",
     "authors": [
       "Rui Chen",
       "Shangtao Li",
@@ -18272,12 +18270,12 @@
     "paper_url": "https://arxiv.org/abs/2606.15918",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292604+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.811749+00:00",
     "authors": [
       "Nestor N. Deniz",
       "Simon Parsons",
@@ -18310,12 +18308,12 @@
     "paper_url": "https://arxiv.org/abs/2606.15915",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292696+00:00",
+    "code_checked_at": "2026-11-22T15:15:20.906684+00:00",
     "authors": [
       "Nestor N. Deniz",
       "Sebastian Vega",
@@ -18388,12 +18386,12 @@
     "paper_url": "https://arxiv.org/abs/2606.14617",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292776+00:00",
+    "code_checked_at": "2026-11-22T15:15:21.006882+00:00",
     "authors": [
       "Yongyan Cao"
     ],
@@ -18477,12 +18475,12 @@
     "paper_url": "https://arxiv.org/abs/2606.12995",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292845+00:00",
+    "code_checked_at": "2026-11-22T15:15:21.105386+00:00",
     "authors": [
       "Zhihai Bi",
       "Qiang Zhang",
@@ -18599,12 +18597,12 @@
     "paper_url": "https://arxiv.org/abs/2606.11109",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.292947+00:00",
+    "code_checked_at": "2026-11-22T15:15:21.152116+00:00",
     "authors": [
       "Yanshuo Lu",
       "Yuxuan Hu",
@@ -18773,12 +18771,12 @@
     "paper_url": "https://arxiv.org/abs/2606.10288",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.293037+00:00",
+    "code_checked_at": "2026-11-22T15:15:21.245999+00:00",
     "authors": [
       "Codrin Crismariu",
       "Ryan K. Cosner"
@@ -18852,12 +18850,12 @@
     "paper_url": "https://arxiv.org/abs/2606.09215",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.293106+00:00",
+    "code_checked_at": "2026-11-22T15:15:21.275723+00:00",
     "authors": [
       "Jia Zheng",
       "Teli Ma",
@@ -18981,12 +18979,12 @@
     "paper_url": "https://arxiv.org/abs/2606.08495",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.293683+00:00",
+    "code_checked_at": "2026-11-22T15:15:22.285479+00:00",
     "authors": [
       "Haoyang Ge",
       "Peng Ren",
@@ -19020,12 +19018,12 @@
     "paper_url": "https://arxiv.org/abs/2606.08278",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.293773+00:00",
+    "code_checked_at": "2026-11-22T15:15:22.384265+00:00",
     "authors": [
       "Songlin Wei",
       "Zhenhao Ni",

@@ -254,7 +254,7 @@ Humanoid navigation in dynamic environments requires long-horizon planning while
 ## LP-NavOA: Integrated Local Navigation and Obstacle Avoidance for Humanoid Robots under Limited Perception
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.23249)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 

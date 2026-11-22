@@ -42,7 +42,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26218)
 - **Project:** [Project page](https://binlee26.github.io/MixReact_Page/)
-- **Code checked:** 2026-11-21
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -68,7 +68,7 @@ Humanoid agents in everyday environments are expected to react to diverse cues a
 ## SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.24074)
-- **Code checked:** 2026-11-21
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -486,7 +486,7 @@ Text-conditioned motion generation is a promising interface for programming huma
 ## PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.19935)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -510,7 +510,7 @@ Humanoid robots require co-speech motions that are not only expressive and speec
 ## Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.15918)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -538,7 +538,7 @@ Humanoid robots performing in-field manipulation tasks, such as robotic apple ha
 ## Identification of a Physics-Based Electrical Power Consumption Model for the Unitree G1 Humanoid Arm
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.15915)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-22
 
 <details><summary>Code verification details / 核验依据</summary>
 
