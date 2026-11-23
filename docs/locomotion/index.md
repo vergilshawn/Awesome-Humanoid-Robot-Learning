@@ -1,10 +1,10 @@
 # Locomotion
 
-**260 papers** in this category.
+**264 papers** in this category.
 
 ## Months
 
-- [2026-11](/locomotion/2026-11) (18 papers)
+- [2026-11](/locomotion/2026-11) (22 papers)
 - [2026-10](/locomotion/2026-10) (48 papers)
 - [2026-09](/locomotion/2026-09) (40 papers)
 - [2026-08](/locomotion/2026-08) (12 papers)
@@ -42,10 +42,114 @@
 
 ## Recent Papers
 
+## Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27648)
+- **Code checked:** 2026-11-23
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Xuzhe Dang, Stefan Edelkamp
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - World Model
+  - Simulator
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Training a humanoid motion tracker by backpropagating imagined returns through a learned world model is fast, because the model gives a first-order policy gradient. We ask how much of that gradient holds in the simulator.
+
+---
+
+## S-BFM: A Behavioral Foundation Model for Humanoid Control from Sparse Spatiotemporal Goals
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27552)
+- **Code checked:** 2026-11-23
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Kun Yang, Xuanyu Chen, Jing Tan, Yanjing Liu, Yubo Zhao, Renjing Xu et al. (7 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Foundation Model
+  - Fine-tuning
+  - Distillation
+  - GAN
+  - Locomotion
+
+### Summary
+
+General-purpose whole-body trackers can execute diverse humanoid motions, but they require dense reference trajectories. However, tasks usually specify only where, in which posture, and when the robot should arrive, leaving the motion in between to a separate planner.
+
+---
+
+## AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27397)
+- **Code checked:** 2026-11-23
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Qianxing Li
+- **Published:** 2026-11
+- **Tags:**
+  - Transformer
+  - Humanoid
+  - PPO
+  - Locomotion
+
+### Summary
+
+Parametric body models expose incompatible pose and shape controls, tying humanoid policies to particular input formats. AnyBodyCodec learns a shared representation through native conversion, then reuses it for new body models and control with its core frozen.
+
+---
+
+## Latent Jacobian Steer: Eliciting Contact-Rich Out-of-Distribution Behaviors from Pretrained Humanoid Controllers
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27338)
+- **Project:** [Project page](https://latent-jacobian-steer.github.io/)
+- **Code checked:** 2026-11-23
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code (coming soon
+
+</details>
+
+- **Authors:** S K Swaminathan, Shivam Sood, Shreyansh Kansal, Chengyang He, Guillaume Adrien Sartoretti
+- **Published:** 2026-11
+- **Tags:**
+  - Humanoid
+  - Goal-Conditioned
+  - Foundation Model
+  - Locomotion
+
+### Summary
+
+Given a pretrained general latent-conditioned whole-body humanoid controller, say a behavioral foundation model (BFM), how can we elicit complex and contact-rich out-of-distribution behaviors? Raw joint-action exploration enables direct, task-specific adjustments but can disrupt coordination learned by the pretrained controller, whereas latent exploration retains that coordination but is difficult to steer toward desired physical effects. To combine the complementary strengths of these exploration spaces, we propose Latent Jacobian Steer (LJS), which couples sampling in direct joint-action space with the semantics of the learned frozen controller's input latent space.
+
+---
+
 ## Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26054)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -72,7 +176,7 @@ Humanoid locomotion research has advanced rapidly on walking and running, but \e
 ## ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.23916)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -98,7 +202,7 @@ Humanoid robots must recover from falls and resume commanded motion to sustain l
 ## Low-speed Limit Cycle Walking of Planar X-shaped Bipedal Robot with Special Properties
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22122)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -124,7 +228,7 @@ This paper proposes a novel planar semicircular-footed X-shaped bipedal robot in
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -150,7 +254,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 ## XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20452)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -459,113 +563,5 @@ Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball ma
 ### Summary
 
 This letter presents a trajectory planner for humanoid robots to perform dynamic motions on complex, parameterizable terrains using a contact-implicit whole-body optimization framework. The planner generates feasible movements without predefined contact sequences, considering the robot's full dynamics and kinematics.
-
----
-
-## MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.02613)
-- **Project:** [Project page](https://mapo-corl2026.github.io/MAPO/)
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Project page has insufficient readable content; may require JavaScript
-- Link discovery incomplete; absence of code cannot be confirmed
-
-</details>
-
-- **Authors:** Seonghyeon Lim, Hyeonwoo Lee, Mincheol Kim, Kimin Lee, Hyun Myung
-- **Published:** 2026-11
-- **Tags:**
-  - Humanoid
-  - PPO
-  - Locomotion
-
-### Summary
-
-Universal humanoid motion tracking is essential for enabling humanoid robots to perform diverse tasks in human environments. To capture the wide diversity of human motions, mixture-of-experts (MoE) policies have been widely adopted, leveraging dynamic routing to enhance policy expressiveness.
-
----
-
-## A Study on the Effects of Finger Movements on a Humanoid Hugging Robot
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.02517)
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Daigo Suhara, Tomoko Yonezawa
-- **Published:** 2026-11
-- **Tags:**
-  - Humanoid
-  - Impact
-  - Locomotion
-
-### Summary
-
-This study aimed to examine the impact of finger movements in hugging robots on users by experimentally investigating how the presence and patterns of such movements affect users psychologically. The results suggest that the presence and patterns of finger movements influence the sensations users seek from the robot; specifically, repetitive movements and asynchronous movements across multiple fingers tended to enhance these sensations.
-
----
-
-## 🌟 Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.41877)
-- **Project:** [Project page](https://movens-zero.github.io/)
-- **Repository:** [Code](https://github.com/wendell0218/Movens-Zero)
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Detected 63 source files; examples: evaluation/common.py, evaluation/download_assets.py, evaluation/generate.py, evaluation/metrics.py, evaluation/prepare.py
-- Completeness, dependencies, training assets and reproducibility have not been verified
-
-</details>
-
-- **Authors:** Wendong Bu, Tinghong Ye, Qizhou Wang, Jiacheng Li, Zhiqi Ge, Yuze Lin et al. (24 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Humanoid
-  - Foundation Model
-  - Benchmark
-  - PPO
-  - Locomotion
-
-### Summary
-
-Scaling humanoid motion foundation models is constrained by the scarcity of diverse, robot-executable data and by the difficulty of jointly learning from heterogeneous multimodal inputs while supporting real-time closed-loop control. We present Movens-5M, constructed from raw Internet videos through clip generation, quality filtering, semantic annotation, motion recovery, and physical refinement with humanoid retargeting and execution verification.
-
----
-
-## HIPC: Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2610.41334)
-- **Project:** [Project page](https://hipc-humanoid.github.io/)
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Publication/project page: Code (coming soon
-
-</details>
-
-- **Authors:** Yi Han, Xingyu Chen, Zixuan Lang, Qianyang Wu, Yuhang Lin, Ji Ma et al. (13 authors)
-- **Published:** 2026-10
-- **Tags:**
-  - Generative Models
-  - Robustness
-  - Humanoid
-  - Goal-Conditioned
-  - Motion Planning
-  - PPO
-  - Locomotion
-
-### Summary
-
-Recent generative models are widely used to provide whole-body motion for humanoid tracking. Current methods combine motion generators with controllers in an open-loop paradigm, which leads to critical issues: tracking errors can accumulate into spatial drift, and the planner cannot adapt to unexpected physical disturbances without feedback from physical execution.
 
 ---

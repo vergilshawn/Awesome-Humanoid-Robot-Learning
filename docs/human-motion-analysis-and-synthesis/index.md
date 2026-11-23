@@ -1,10 +1,10 @@
 # Human Motion Analysis and Synthesis
 
-**32 papers** in this category.
+**33 papers** in this category.
 
 ## Months
 
-- [2026-11](/human-motion-analysis-and-synthesis/2026-11) (1 papers)
+- [2026-11](/human-motion-analysis-and-synthesis/2026-11) (2 papers)
 - [2026-10](/human-motion-analysis-and-synthesis/2026-10) (3 papers)
 - [2026-09](/human-motion-analysis-and-synthesis/2026-09) (4 papers)
 - [2026-08](/human-motion-analysis-and-synthesis/2026-08) (1 papers)
@@ -29,6 +29,36 @@
 ---
 
 ## Recent Papers
+
+## HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27181)
+- **Code checked:** 2026-11-23
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Jinlin Gan, Mingzhe Li, Junsheng Zhang, Zhibo Zhou, Jiahan Geng, Yuhua Luo et al. (11 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — HRP
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Pose Estimation
+  - Benchmark
+  - Dataset
+  - PPO
+  - Human Motion Analysis and Synthesis
+  - State Estimation
+
+### Summary
+
+As humanoid robots increasingly enter real-world environments, recovering their 3D whole-body pose from monocular imagery is becoming increasingly important for external state perception, motion analysis, and robot learning. However, Humanoid Robot Pose Estimation (HRPE) lies at the intersection of conventional Robot Pose Estimation (RPE) and Human Pose Estimation (HPE), while not being fully addressed by either paradigm: RPE primarily focuses on non-humanoid robots, particularly fixed-base manipulators, whereas HPE is built upon human-specific skeletal topologies, body models, and motion priors.
+
+---
 
 ## DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies
 
@@ -350,7 +380,7 @@ Expressive co-speech gestures are crucial for natural human--robot interaction, 
 ## Imagine2Real: Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.22272)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -513,31 +543,5 @@ Human motion generation has emerged as a critical technology with transformative
 ### Summary
 
 Human motion modeling traditionally separates motion generation and estimation into distinct tasks with specialized models. Motion generation models focus on creating diverse, realistic motions from inputs like text, audio, or keyframes, while motion estimation models aim to reconstruct accurate motion trajectories from observations like videos.
-
----
-
-## 🌟 HUMOTO: A 4D Dataset of Mocap Human Object Interactions
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2504.10414)
-- **Project:** [Project page](https://jiaxin-lu.github.io/humoto/)
-- **Repository:** [Code](https://github.com/Jiaxin-Lu/humoto)
-- **Code checked:** 2026-11-13
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Inspected public GitHub page: https://github.com/Jiaxin-Lu/humoto
-- Implementation examples: render_humoto_pytorch3d.py
-- Completeness and reproducibility have not been verified
-
-</details>
-
-- **Published:** 2025-04
-- **Tags:**
-  - Dataset
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-We present Human Motions with Objects (HUMOTO), a high-fidelity dataset of human-object interactions for motion generation, computer vision, and robotics applications. Featuring 735 sequences (7,875 seconds at 30 fps), HUMOTO captures interactions with 63 precisely modeled objects and 72 articulated parts.
 
 ---

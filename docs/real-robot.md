@@ -8,8 +8,9 @@ Papers with real humanoid robot deployment and experiments.
 - **Booster:** 2 papers
 - **Digit:** 4 papers
 - **Figure:** 19 papers
+- **HRP:** 1 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 92 papers
+- **Unitree G1:** 94 papers
 - **Unitree H1:** 2 papers
 - **Unknown Platform:** 25 papers
 - **iCub:** 1 papers
@@ -18,11 +19,92 @@ Papers with real humanoid robot deployment and experiments.
 
 ## All Real Robot Papers
 
+## Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27845)
+- **Code checked:** 2026-11-23
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Songyang Liu, Yu Hou, Yuqing Hu, Shuai Li
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Safety
+  - Humanoid
+
+### Summary
+
+Humanoid robots can reduce personnel exposure in electrical switching, but safe control is challenging because the tool must reach a target switch next to similar devices, where an imprecise operator command can contact a non-target switch. This study proposes a runtime safety filter that checks each operator command during virtual-reality teleoperation of a humanoid robot.
+
+---
+
+## Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27648)
+- **Code checked:** 2026-11-23
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Xuzhe Dang, Stefan Edelkamp
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - World Model
+  - Simulator
+  - Humanoid
+  - Locomotion
+
+### Summary
+
+Training a humanoid motion tracker by backpropagating imagined returns through a learned world model is fast, because the model gives a first-order policy gradient. We ask how much of that gradient holds in the simulator.
+
+---
+
+## HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27181)
+- **Code checked:** 2026-11-23
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Jinlin Gan, Mingzhe Li, Junsheng Zhang, Zhibo Zhou, Jiahan Geng, Yuhua Luo et al. (11 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — HRP
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Pose Estimation
+  - Benchmark
+  - Dataset
+  - PPO
+  - Human Motion Analysis and Synthesis
+  - State Estimation
+
+### Summary
+
+As humanoid robots increasingly enter real-world environments, recovering their 3D whole-body pose from monocular imagery is becoming increasingly important for external state perception, motion analysis, and robot learning. However, Humanoid Robot Pose Estimation (HRPE) lies at the intersection of conventional Robot Pose Estimation (RPE) and Human Pose Estimation (HPE), while not being fully addressed by either paradigm: RPE primarily focuses on non-humanoid robots, particularly fixed-base manipulators, whereas HPE is built upon human-specific skeletal topologies, body models, and motion priors.
+
+---
+
 ## PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -49,7 +131,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 ## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -74,7 +156,7 @@ Learning-based methods now let humanoids run robustly, and they have begun to co
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -100,7 +182,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -131,7 +213,7 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19998)
 - **Project:** [Project page](https://movicproject.github.io/)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -162,7 +244,7 @@ Real-time whole-body imitation from monocular video requires both a robust unive
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19196)
 - **Project:** [Project page](https://robonana.github.io/ego2sim2humanoid/)
 - **Repository:** [Code](https://github.com/robonana/ego2sim2humanoid)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -194,7 +276,7 @@ Imitation learning for visuomotor policies typically relies on teleoperated robo
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19100)
 - **Project:** [Project page](https://h12leaner.github.io/)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3798,7 +3880,7 @@ Humanoid foundation models are advancing faster than we can evaluate them. While
 ## Mind Your Steps: A General Learning Framework for Accurate Humanoid Foothold Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.08253)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3985,7 +4067,7 @@ Retargeting human motion to humanoid robots is critical for teleoperation, imita
 ## Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.00637)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -4013,7 +4095,7 @@ Although reinforcement learning has significantly advanced humanoid locomotion, 
 ## Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.18611)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -4039,7 +4121,7 @@ We propose a unified reinforcement learning framework that enables a single poli
 ## PRIME: Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.17681)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -4101,7 +4183,7 @@ HoloMotion-1 combines video-derived and motion-capture training data with a mixt
 ## Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.12347)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -4131,7 +4213,7 @@ Stable, low-latency whole-body teleoperation of humanoid robots is an open resea
 ## Explicit Stair Geometry Conditioning for Robust Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2605.09944)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -4158,7 +4240,7 @@ Robust humanoid stair climbing remains challenging due to geometric discontinuit
 ## A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2604.17258)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -4188,7 +4270,7 @@ Deploying a humanoid robot to manipulate a new object has traditionally required
 ## Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2604.17335)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -4217,7 +4299,7 @@ Whole-body humanoid locomotion is challenging due to high-dimensional control, m
 ## Omnidirectional Humanoid Locomotion on Stairs via Unsafe Stepping Penalty and Sparse LiDAR Elevation Mapping
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2603.07928)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 

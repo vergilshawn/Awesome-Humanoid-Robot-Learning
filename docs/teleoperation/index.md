@@ -1,10 +1,10 @@
 # Teleoperation
 
-**49 papers** in this category.
+**50 papers** in this category.
 
 ## Months
 
-- [2026-11](/teleoperation/2026-11) (3 papers)
+- [2026-11](/teleoperation/2026-11) (4 papers)
 - [2026-10](/teleoperation/2026-10) (14 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
@@ -27,10 +27,35 @@
 
 ## Recent Papers
 
+## Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27845)
+- **Code checked:** 2026-11-23
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Songyang Liu, Yu Hou, Yuqing Hu, Shuai Li
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Teleoperation
+  - Safety
+  - Humanoid
+
+### Summary
+
+Humanoid robots can reduce personnel exposure in electrical switching, but safe control is challenging because the tool must reach a target switch next to similar devices, where an imprecise operator command can contact a non-target switch. This study proposes a runtime safety filter that checks each operator command during virtual-reality teleoperation of a humanoid robot.
+
+---
+
 ## ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22258)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -542,34 +567,5 @@ We present a teleoperation system that enables a single operator to perform cons
 ### Summary
 
 Humanoid avatars extend human physical presence beyond the body, enabling people to participate in social, service, and labor activities through remotely operated robots. This requires teleoperation systems capable of realizing diverse and dynamic whole-body behaviors while maintaining responsive human-robot synchronization.
-
----
-
-## Gated Residual Body-Hand Coordination for Whole-Body Humanoid Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.18763)
-- **Code checked:** 2026-11-19
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Ruiming Wu, Shuang Li, Liding Zhang, Alois Knoll, Zhaopeng Chen
-- **Published:** 2026-09
-- **Tags:**
-  - Teleoperation
-  - Humanoid
-  - Proprioception
-  - Dataset
-  - Loco-Manipulation and Whole-Body Control
-  - Manipulation
-  - State Estimation
-  - Simulation Benchmark
-
-### Summary
-
-Whole-body humanoid teleoperation commonly combines a motion-tracking policy with a separate dexterous-hand retargeter. However, independently generated commands do not explicitly preserve body-hand geometric relations, leading to mismatches in relative wrist poses and fingertip positions during bimanual interaction.
 
 ---

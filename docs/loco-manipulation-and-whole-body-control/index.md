@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**340 papers** in this category.
+**341 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (28 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (29 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -41,11 +41,39 @@
 
 ## Recent Papers
 
+## BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27047)
+- **Project:** [Project page](http://tasks.On)
+- **Code checked:** 2026-11-23
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Project page inspection failed: ConnectionError
+- Link discovery incomplete; absence of code cannot be confirmed
+
+</details>
+
+- **Authors:** Zhaoshan Yang, Chenglei Li, Haoyu Lei, Yutao Zhang, Yuyu Yang, Zhuo Chen et al. (12 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments. Yet egocentric vision-language-action (VLA) policies can miss critical body--scene relationships, and action imitation alone provides no explicit supervision for future scene evolution.
+
+---
+
 ## PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -74,7 +102,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26420)
 - **Project:** [Project page](https://engineai-robotics.github.io/Awaken-HI/)
 - **Repository:** [Code](https://github.com/engineai-robotics/Awaken-HI)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -103,7 +131,7 @@ A central goal of humanoid robotics is for robots to perform the everyday work p
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25778)
 - **Project:** [Project page](https://mwondering.github.io/echo-bfm/)
 - **Repository:** [Code](https://github.com/mwondering/echo-bfm)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -133,7 +161,7 @@ Humanoid behavior foundation models (BFMs) acquire diverse skills through large-
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25251)
 - **Project:** [Project page](https://qianzhong-chen.github.io/wevo.github.io/)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -162,7 +190,7 @@ Reinforcement learning (RL) can improve vision-language-action (VLA) policies be
 ## Body Schema Policy: Body as the Vision-Action Interface for Efficient Robot Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22713)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -191,7 +219,7 @@ Currently, robots can learn whole-body loco-manipulation through scale: the stro
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -221,7 +249,7 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 ## QTOP: Scaling Humanoid Motion Tracking with Quantile Critics
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20791)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -251,7 +279,7 @@ Learning human motion tracking policies through reinforcement learning (RL) has 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19998)
 - **Project:** [Project page](https://movicproject.github.io/)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -282,7 +310,7 @@ Real-time whole-body imitation from monocular video requires both a robust unive
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19196)
 - **Project:** [Project page](https://robonana.github.io/ego2sim2humanoid/)
 - **Repository:** [Code](https://github.com/robonana/ego2sim2humanoid)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -314,7 +342,7 @@ Imitation learning for visuomotor policies typically relies on teleoperated robo
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19100)
 - **Project:** [Project page](https://h12leaner.github.io/)
-- **Code checked:** 2026-11-22
+- **Code checked:** 2026-11-23
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -597,33 +625,5 @@ Scaling up visual humanoid loco-manipulation skill acquisition requires reducing
 ### Summary
 
 Humanoid robots are expected to take over strenuous material handling in manufacturing, logistics, and healthcare, where operating existing wheeled carts would let them move heavy loads without modifying the workplace. However, humanoid cart pushing remains challenging because the bimanual grasp closes a force-coupled loop in which the contact wrenches that drive the cart also disturb the robot's balance, and payload changes alter the coupled dynamics.
-
----
-
-## HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.08039)
-- **Project:** [Project page](https://hitch.axell.top/)
-- **Code checked:** 2026-11-14
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Project page has insufficient readable content; may require JavaScript
-- Link discovery incomplete; absence of code cannot be confirmed
-
-</details>
-
-- **Authors:** Qingzhou Lu, Chenxin Liu, Xinming Wang, Liu Cao, Yanjiang Guo, Mengdi Xu et al. (7 authors)
-- **Published:** 2026-11
-- **Tags:**
-  - Humanoid
-  - Walking
-  - Vision-Language
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-
-### Summary
-
-Enabling vision-language models (VLMs) to control humanoid robots requires both reliable whole-body interfaces and knowledge of how to use the body that carries over across tasks. We present HITCH (Harness Interfaces To Command Humanoids), a harness in which perception returns the 3D position of any point the VLM selects in its image, and execution turns commands for the pelvis, torso, hands, walking, and gaze into whole-body motion with a learned tracker.
 
 ---
