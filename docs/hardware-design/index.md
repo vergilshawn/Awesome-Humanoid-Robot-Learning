@@ -113,7 +113,7 @@ To improve torque capacity and energy efficiency of humanoid ankles, this paper 
 ## Characteristics, Management, and Utilization of Muscles in Musculoskeletal Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.08518)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 

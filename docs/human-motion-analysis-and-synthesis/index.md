@@ -33,7 +33,7 @@
 ## HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27181)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -406,7 +406,7 @@ Whole-body Humanoid-Object Interaction (HOI) is bottlenecked by the scarcity of 
 ## EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.23205)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 

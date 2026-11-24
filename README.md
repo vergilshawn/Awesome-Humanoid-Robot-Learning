@@ -2,23 +2,23 @@
 
 A curated and automatically updated collection of humanoid robot learning research papers.
 
-- **Total Papers:** 980
-- **Real Robot Papers:** 150
-- **Code Availability:** 210
+- **Total Papers:** 986
+- **Real Robot Papers:** 154
+- **Code Availability:** 212
 
 🌟 indicates detected implementation files; completeness and reproducibility are unverified.
 
 ## Contents
 
-- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (341)
+- [Loco-Manipulation and Whole-Body Control](#loco-manipulation-and-whole-body-control) (342)
 - [Manipulation](#manipulation) (83)
-- [Teleoperation](#teleoperation) (50)
-- [Locomotion](#locomotion) (264)
+- [Teleoperation](#teleoperation) (51)
+- [Locomotion](#locomotion) (267)
 - [Navigation](#navigation) (29)
 - [State Estimation](#state-estimation) (33)
 - [Sim-to-Real](#sim-to-real) (13)
 - [Hardware Design](#hardware-design) (34)
-- [Simulation Benchmark](#simulation-benchmark) (46)
+- [Simulation Benchmark](#simulation-benchmark) (47)
 - [Physics-Based Character Animation](#physics-based-character-animation) (54)
 - [Human Motion Analysis and Synthesis](#human-motion-analysis-and-synthesis) (33)
 - [Usage](#usage)
@@ -29,7 +29,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-11
 
-- [BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight](https://arxiv.org/abs/2611.27047), [website](http://tasks.On) — `Manipulation`, `Humanoid`, `Vision-Language`, `Benchmark`, `Loco-Manipulation and Whole-Body Control`
+- [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — `Locomotion`, `Manipulation`, `Humanoid`, `Vision-Language`, `Dataset`, `Loco-Manipulation and Whole-Body Control`
+- [BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight](https://arxiv.org/abs/2611.27047) — `Manipulation`, `Humanoid`, `Vision-Language`, `Benchmark`, `Loco-Manipulation and Whole-Body Control`
 - [PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.26596), [website](https://kl-research.github.io/pgx/) — `Manipulation`, `Navigation`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
 - 🌟 [Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience](https://arxiv.org/abs/2611.26420), [website](https://engineai-robotics.github.io/Awaken-HI/), [code](https://github.com/engineai-robotics/Awaken-HI) — `Manipulation`, `Humanoid`, `Vision-Language`, `Dataset`, `Loco-Manipulation and Whole-Body Control`, `Code Available`
 - 🌟 [ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.25778), [website](https://mwondering.github.io/echo-bfm/), [code](https://github.com/mwondering/echo-bfm) — `Reinforcement Learning`, `Whole-Body Control`, `Teleoperation`, `Manipulation`, `Humanoid`, `Foundation Model`
@@ -249,7 +250,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 - [General Humanoid Whole-Body Control via Pretraining and Fast Adaptation](https://arxiv.org/abs/2602.11929) — `Whole-Body Control`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - 🌟 [HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model](https://arxiv.org/abs/2602.11758), [website](https://haic-humanoid.github.io/), [code](https://github.com/ldt29/HAIC) — `World Model`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Code Available`
 - 🌟 [EgoHumanoid: Unlocking In-the-Wild Loco-Manipulation with Robot-Free Egocentric Demonstration](https://arxiv.org/abs/2602.10106), [website](https://opendrivelab.com/EgoHumanoid/), [code](https://github.com/OpenDriveLab/EgoHumanoid) — `Manipulation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Code Available`
-- 🌟 [MOSAIC: Bridging the Sim-to-Real Gap in Generalist Humanoid Motion Tracking and Teleoperation with Rapid Residual Adaptation](https://arxiv.org/abs/2602.08594), [website](https://baai-humanoid.github.io/MOSAIC), [code](https://github.com/BAAI-Humanoid/MOSAIC) — `Sim-to-Real`, `Teleoperation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Code Available`
+- 🌟 [MOSAIC: Bridging the Sim-to-Real Gap in Generalist Humanoid Motion Tracking and Teleoperation with Rapid Residual Adaptation](https://arxiv.org/abs/2602.08594), [website](https://baai-humanoid.github.io/MOSAIC/), [code](https://github.com/BAAI-Humanoid/MOSAIC) — `Sim-to-Real`, `Teleoperation`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Code Available`
 - [Learning Human-Like Badminton Skills for Humanoid Robots](https://arxiv.org/abs/2602.08370) — `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - 🌟 [TextOp: Real-time Interactive Text-Driven Humanoid Robot Motion Generation and Control](https://arxiv.org/abs/2602.07439), [website](https://text-op.github.io/), [code](https://github.com/TeleHuman/TextOp) — `Humanoid`, `Loco-Manipulation and Whole-Body Control`, `Code Available`
 - [DynaRetarget: Dynamically-Feasible Retargeting using Sampling-Based Trajectory Optimization](https://arxiv.org/abs/2602.06827) — `Trajectory Optimization`, `Sampling-Based`, `Loco-Manipulation and Whole-Body Control`
@@ -267,7 +268,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 - [Robust and Generalized Humanoid Motion Tracking](https://arxiv.org/abs/2601.23080) — `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [RoboStriker: Hierarchical Decision-Making for Autonomous Humanoid Boxing](https://arxiv.org/abs/2601.22517) — `Humanoid`, `Loco-Manipulation and Whole-Body Control`
-- [PILOT: A Perceptive Integrated Low-level Controller for Loco-manipulation over Unstructured Scenes](https://arxiv.org/abs/2601.17440) — `Manipulation`, `Loco-Manipulation and Whole-Body Control`
+- [PILOT: A Perceptive Integrated Low-level Controller for Loco-manipulation over Unstructured Scenes](https://arxiv.org/abs/2601.17440), [website](http://scenarios.To) — `Manipulation`, `Loco-Manipulation and Whole-Body Control`
 - 🌟 [Collision-Free Humanoid Traversal in Cluttered Indoor Scenes](https://arxiv.org/abs/2601.16035), [website](https://axian12138.github.io/CAT/), [code](https://github.com/GalaxyGeneralRobotics/Click-and-Traverse) — `Humanoid`, `Collision`, `Loco-Manipulation and Whole-Body Control`, `Code Available`
 - [FRoM-W1: Towards General Humanoid Whole-Body Control with Language Instructions](https://arxiv.org/abs/2601.12799), [website](https://openmoss.github.io/FRoM-W1) — `Whole-Body Control`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
 - [Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations](https://arxiv.org/abs/2601.09518) — `Human Demonstration`, `Humanoid`, `Loco-Manipulation and Whole-Body Control`
@@ -634,6 +635,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-11
 
+- [Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education](https://arxiv.org/abs/2611.29868), [website](https://anonymous-humanoid.gitbook.io/docs) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `PPO`
 - [Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter](https://arxiv.org/abs/2611.27845) — `Teleoperation`, `Safety`, `Humanoid`, `Real Robot`
 - [ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline](https://arxiv.org/abs/2611.22258) — `Teleoperation`, `Manipulation`, `Humanoid`, `Collision`
 - [ILA: A Transferable Interface-Level Adapter for Compliant Humanoid Motion Tracking](https://arxiv.org/abs/2611.14985) — `Teleoperation`, `Humanoid`, `Real Robot`
@@ -740,6 +742,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-11
 
+- 🌟 [Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://arxiv.org/abs/2611.29897), [website](https://aigeeksgroup.github.io/MotionMamba2.0/), [code](https://github.com/AIGeeksGroup/MotionMamba2.0) — `Locomotion`, `Humanoid`, `Diffusion`, `Real Robot`, `Code Available`
+- [CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments](https://arxiv.org/abs/2611.29749), [website](https://carlhoi.github.io/) — `World Model`, `Simulator`, `Humanoid`, `Benchmark`, `Locomotion`
+- 🌟 [$ζ_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control](https://arxiv.org/abs/2611.29277), [website](https://chenyizhi123.github.io/zeta0-project/), [code](https://github.com/chenyizhi123/Zeta0) — `Humanoid`, `Vision-Language`, `Locomotion`, `Real Robot`, `Code Available`
 - [Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking](https://arxiv.org/abs/2611.27648) — `World Model`, `Simulator`, `Humanoid`, `Locomotion`, `Real Robot`
 - [S-BFM: A Behavioral Foundation Model for Humanoid Control from Sparse Spatiotemporal Goals](https://arxiv.org/abs/2611.27552) — `Humanoid`, `Foundation Model`, `Fine-tuning`, `Distillation`, `GAN`, `Locomotion`
 - [AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control](https://arxiv.org/abs/2611.27397) — `Transformer`, `Humanoid`, `PPO`, `Locomotion`
@@ -1408,6 +1413,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### 2026-11
 
+- [PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation](https://arxiv.org/abs/2611.30077), [website](https://silvery107.github.io/pushmimic/) — `Humanoid`, `Trajectory Optimization`, `Distillation`, `Sampling-Based`, `Dataset`, `Simulation Benchmark`
 - 🌟 [LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control](https://arxiv.org/abs/2611.26293), [code](https://github.com/robfiras/loco-mujoco) — `Reinforcement Learning`, `Imitation Learning`, `Whole-Body Control`, `Sim-to-Real`, `Domain Randomization`, `MuJoCo`
 - [Social Humanoid: Socially Responsive Human-Humanoid Interaction](https://arxiv.org/abs/2611.08407), [website](https://von31.github.io/social-humanoid/) — `Humanoid`, `Contact Dynamics`, `Benchmark`, `Dataset`, `Simulation Benchmark`, `Real Robot`
 

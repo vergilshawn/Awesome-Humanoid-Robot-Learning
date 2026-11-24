@@ -1,10 +1,10 @@
 # Teleoperation
 
-**50 papers** in this category.
+**51 papers** in this category.
 
 ## Months
 
-- [2026-11](/teleoperation/2026-11) (4 papers)
+- [2026-11](/teleoperation/2026-11) (5 papers)
 - [2026-10](/teleoperation/2026-10) (14 papers)
 - [2026-09](/teleoperation/2026-09) (7 papers)
 - [2026-08](/teleoperation/2026-08) (1 papers)
@@ -27,10 +27,37 @@
 
 ## Recent Papers
 
+## Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.29868)
+- **Project:** [Project page](https://anonymous-humanoid.gitbook.io/docs)
+- **Code checked:** 2026-11-24
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Zelin Shen, Gabriel Ramos Salinas, Qiyu Zhang, Yue Qin, Chen Qian, Yanran Ding
+- **Published:** 2026-11
+- **Tags:**
+  - Teleoperation
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - PPO
+
+### Summary
+
+Reproducing and modifying a meter-scale humanoid remains challenging for research and teaching groups with limited fabrication resources and engineering support. This paper presents Arcadian, an open-source humanoid ecosystem that offers accessible and customizable humanoid hardware and software with community support.
+
+---
+
 ## Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27845)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -55,7 +82,7 @@ Humanoid robots can reduce personnel exposure in electrical switching, but safe 
 ## ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22258)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -538,34 +565,5 @@ Humanoid whole-body teleoperation translates human motion into stable robot beha
 ### Summary
 
 We present a teleoperation system that enables a single operator to perform construction tasks on a Unitree G1 humanoid, combining extended reality (XR) based upper body control with pedal-based locomotion to enable simultaneous manipulation and locomotion. Motivated by persistent labor shortages, hazardous working conditions, and challenges in humanoid autonomy, we investigate teleoperation as a practical near-term approach for reducing physical strain on workers while generating high quality demonstration data.
-
----
-
-## GAE: General Action Expert for Real-Time Humanoid Teleoperation
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.34233)
-- **Project:** [Project page](https://wangyf0928.github.io/gae-wlrobotics/)
-- **Code checked:** 2026-11-18
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Yuefan Wang, Huaicheng Zhou, Xiao He, Zhijie He, Mingchuan Yang, Huayi Zhang et al. (9 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Teleoperation
-  - Domain Randomization
-  - Humanoid
-  - Dataset
-  - Simulation Benchmark
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Humanoid avatars extend human physical presence beyond the body, enabling people to participate in social, service, and labor activities through remotely operated robots. This requires teleoperation systems capable of realizing diverse and dynamic whole-body behaviors while maintaining responsive human-robot synchronization.
 
 ---

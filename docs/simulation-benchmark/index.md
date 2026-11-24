@@ -1,10 +1,10 @@
 # Simulation Benchmark
 
-**46 papers** in this category.
+**47 papers** in this category.
 
 ## Months
 
-- [2026-11](/simulation-benchmark/2026-11) (2 papers)
+- [2026-11](/simulation-benchmark/2026-11) (3 papers)
 - [2026-10](/simulation-benchmark/2026-10) (7 papers)
 - [2026-09](/simulation-benchmark/2026-09) (5 papers)
 - [2026-08](/simulation-benchmark/2026-08) (4 papers)
@@ -28,11 +28,40 @@
 
 ## Recent Papers
 
+## PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.30077)
+- **Project:** [Project page](https://silvery107.github.io/pushmimic/)
+- **Code checked:** 2026-11-24
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Yulun Zhuang, Hanyu Zhang, Jingyu Liu, Yanran Ding
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Trajectory Optimization
+  - Distillation
+  - Sampling-Based
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid box pushing is challenging when the physical properties of the task, such as the box mass and the ramp inclination, are unknown before the push begins. This paper presents PushMimic, a framework that learns adaptive humanoid box pushing from a single level-ground kinematic reference motion.
+
+---
+
 ## 🌟 LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26293)
 - **Repository:** [Code](https://github.com/robfiras/loco-mujoco)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -482,7 +511,7 @@ This paper presents a reference-guided reinforcement learning framework to gener
 ## HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.17584)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -555,34 +584,5 @@ Unified humanoid policies track agile whole-body motion, yet few can hold a clea
 ### Summary
 
 Humanoid roller-skating is difficult because the robot must coordinate whole-body balance, rolling contacts, and velocity-dependent posture regulation. This paper presents an adversarial motion prior based reinforcement learning framework for two humanoid roller-skating gaits: Pump Glide skating and Push Glide skating.
-
----
-
-## ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2607.06052)
-- **Code checked:** 2026-11-21
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Chenhao Yu, Hongwu Wang, Weitao Zhang, Youhao Hu, Jiachen Zhang, Gangyang Li et al. (8 authors)
-- **Published:** 2026-07
-- **Tags:**
-  - Whole-Body Control
-  - Human Demonstration
-  - Robustness
-  - Humanoid
-  - Benchmark
-  - Dataset
-  - Simulation Benchmark
-  - Human Motion Analysis and Synthesis
-
-### Summary
-
-Humanoid robots are increasingly expected to perform contact-rich tasks that require not only accurate whole-body motion but also robust physical interaction with surrounding objects and humans. Although recent advances in humanoid motion imitation and whole-body control have achieved remarkable tracking performance, existing datasets and benchmarks primarily focus on kinematic motion while largely overlooking synchronized interaction forces.
 
 ---

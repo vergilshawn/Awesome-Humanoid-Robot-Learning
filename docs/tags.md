@@ -4,45 +4,45 @@ Browse papers by research topic and methodology.
 
 ---
 
-## Humanoid (833)
+## Humanoid (839)
 
-- [Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter](https://arxiv.org/abs/2611.27845) — 2026-11
-- [Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking](https://arxiv.org/abs/2611.27648) — 2026-11
-- [S-BFM: A Behavioral Foundation Model for Humanoid Control from Sparse Spatiotemporal Goals](https://arxiv.org/abs/2611.27552) — 2026-11
-- [AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control](https://arxiv.org/abs/2611.27397) — 2026-11
-- [Latent Jacobian Steer: Eliciting Contact-Rich Out-of-Distribution Behaviors from Pretrained Humanoid Controllers](https://arxiv.org/abs/2611.27338) — 2026-11
+- [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — 2026-11
+- 🌟 [Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://arxiv.org/abs/2611.29897) — 2026-11
+- [PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation](https://arxiv.org/abs/2611.30077) — 2026-11
+- [Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education](https://arxiv.org/abs/2611.29868) — 2026-11
+- [CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments](https://arxiv.org/abs/2611.29749) — 2026-11
 
-## Locomotion (383)
+## Locomotion (388)
 
-- [Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking](https://arxiv.org/abs/2611.27648) — 2026-11
-- [S-BFM: A Behavioral Foundation Model for Humanoid Control from Sparse Spatiotemporal Goals](https://arxiv.org/abs/2611.27552) — 2026-11
-- [AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control](https://arxiv.org/abs/2611.27397) — 2026-11
-- [Latent Jacobian Steer: Eliciting Contact-Rich Out-of-Distribution Behaviors from Pretrained Humanoid Controllers](https://arxiv.org/abs/2611.27338) — 2026-11
-- [Controlling the Humanoid Robot H1-2 With a Simulated Biologically Plausible Network](https://arxiv.org/abs/2611.26074) — 2026-11
+- [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — 2026-11
+- 🌟 [Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://arxiv.org/abs/2611.29897) — 2026-11
+- [Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education](https://arxiv.org/abs/2611.29868) — 2026-11
+- [CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments](https://arxiv.org/abs/2611.29749) — 2026-11
+- 🌟 [$ζ_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control](https://arxiv.org/abs/2611.29277) — 2026-11
 
-## Loco-Manipulation and Whole-Body Control (378)
+## Loco-Manipulation and Whole-Body Control (379)
 
+- [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — 2026-11
 - [BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight](https://arxiv.org/abs/2611.27047) — 2026-11
 - [PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.26596) — 2026-11
 - 🌟 [Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience](https://arxiv.org/abs/2611.26420) — 2026-11
 - 🌟 [LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control](https://arxiv.org/abs/2611.26293) — 2026-11
-- 🌟 [ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.25778) — 2026-11
 
-## Manipulation (287)
+## Manipulation (289)
 
+- [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — 2026-11
+- [Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education](https://arxiv.org/abs/2611.29868) — 2026-11
 - [BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight](https://arxiv.org/abs/2611.27047) — 2026-11
 - [PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.26596) — 2026-11
 - 🌟 [Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience](https://arxiv.org/abs/2611.26420) — 2026-11
-- 🌟 [ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.25778) — 2026-11
-- [WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation](https://arxiv.org/abs/2611.25251) — 2026-11
 
-## PPO (154)
+## PPO (155)
 
+- [Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education](https://arxiv.org/abs/2611.29868) — 2026-11
 - [AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control](https://arxiv.org/abs/2611.27397) — 2026-11
 - [HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots](https://arxiv.org/abs/2611.27181) — 2026-11
 - [MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers](https://arxiv.org/abs/2611.26218) — 2026-11
 - [ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors](https://arxiv.org/abs/2611.23916) — 2026-11
-- [Leaning Over to Reach Far-Away Objects](https://arxiv.org/abs/2611.19100) — 2026-11
 
 ## Reinforcement Learning (141)
 
@@ -60,21 +60,29 @@ Browse papers by research topic and methodology.
 - [Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations](https://arxiv.org/abs/2611.20888) — 2026-11
 - [QTOP: Scaling Humanoid Motion Tracking with Quantile Critics](https://arxiv.org/abs/2611.20791) — 2026-11
 
-## Simulation Benchmark (108)
+## Simulation Benchmark (109)
 
+- [PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation](https://arxiv.org/abs/2611.30077) — 2026-11
 - [HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots](https://arxiv.org/abs/2611.27181) — 2026-11
 - 🌟 [LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control](https://arxiv.org/abs/2611.26293) — 2026-11
 - [QTOP: Scaling Humanoid Motion Tracking with Quantile Critics](https://arxiv.org/abs/2611.20791) — 2026-11
 - [Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations](https://arxiv.org/abs/2611.19196) — 2026-11
-- [TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation](https://arxiv.org/abs/2611.18976) — 2026-11
 
-## Teleoperation (100)
+## Teleoperation (101)
 
+- [Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education](https://arxiv.org/abs/2611.29868) — 2026-11
 - [Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter](https://arxiv.org/abs/2611.27845) — 2026-11
 - 🌟 [ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.25778) — 2026-11
 - [WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation](https://arxiv.org/abs/2611.25251) — 2026-11
 - [ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline](https://arxiv.org/abs/2611.22258) — 2026-11
-- [MoViC: Real-Time Humanoid Whole-Body Control from Monocular Video Streams](https://arxiv.org/abs/2611.19998) — 2026-11
+
+## Dataset (77)
+
+- [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — 2026-11
+- [PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation](https://arxiv.org/abs/2611.30077) — 2026-11
+- [HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots](https://arxiv.org/abs/2611.27181) — 2026-11
+- 🌟 [Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience](https://arxiv.org/abs/2611.26420) — 2026-11
+- 🌟 [LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control](https://arxiv.org/abs/2611.26293) — 2026-11
 
 ## State Estimation (76)
 
@@ -84,14 +92,6 @@ Browse papers by research topic and methodology.
 - [Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment](https://arxiv.org/abs/2611.22445) — 2026-11
 - [Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations](https://arxiv.org/abs/2611.19196) — 2026-11
 
-## Dataset (75)
-
-- [HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots](https://arxiv.org/abs/2611.27181) — 2026-11
-- 🌟 [Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience](https://arxiv.org/abs/2611.26420) — 2026-11
-- 🌟 [LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control](https://arxiv.org/abs/2611.26293) — 2026-11
-- [Controlling the Humanoid Robot H1-2 With a Simulated Biologically Plausible Network](https://arxiv.org/abs/2611.26074) — 2026-11
-- [QTOP: Scaling Humanoid Motion Tracking with Quantile Critics](https://arxiv.org/abs/2611.20791) — 2026-11
-
 ## Physics-Based Character Animation (75)
 
 - [MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers](https://arxiv.org/abs/2611.26218) — 2026-11
@@ -100,21 +100,21 @@ Browse papers by research topic and methodology.
 - [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117) — 2026-11
 - [Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.11554) — 2026-11
 
-## Vision-Language (66)
+## Vision-Language (68)
 
+- [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — 2026-11
+- 🌟 [$ζ_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control](https://arxiv.org/abs/2611.29277) — 2026-11
 - [BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight](https://arxiv.org/abs/2611.27047) — 2026-11
 - [PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.26596) — 2026-11
 - 🌟 [Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience](https://arxiv.org/abs/2611.26420) — 2026-11
-- [WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation](https://arxiv.org/abs/2611.25251) — 2026-11
-- [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117) — 2026-11
 
-## Benchmark (62)
+## Benchmark (63)
 
+- [CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments](https://arxiv.org/abs/2611.29749) — 2026-11
 - [HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots](https://arxiv.org/abs/2611.27181) — 2026-11
 - [BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight](https://arxiv.org/abs/2611.27047) — 2026-11
 - 🌟 [LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control](https://arxiv.org/abs/2611.26293) — 2026-11
 - [Fast and Accurate Body Estimation in Pixels, World Space and Scenes](https://arxiv.org/abs/2611.25801) — 2026-11
-- [TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation](https://arxiv.org/abs/2611.18976) — 2026-11
 
 ## Zero-Shot (60)
 
@@ -148,13 +148,13 @@ Browse papers by research topic and methodology.
 - [ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads](https://arxiv.org/abs/2611.13929) — 2026-11
 - [LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data](https://arxiv.org/abs/2611.12136) — 2026-11
 
-## Diffusion (50)
+## Diffusion (51)
 
+- 🌟 [Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://arxiv.org/abs/2611.29897) — 2026-11
 - [MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers](https://arxiv.org/abs/2611.26218) — 2026-11
 - [Body Schema Policy: Body as the Vision-Action Interface for Efficient Robot Loco-Manipulation](https://arxiv.org/abs/2611.22713) — 2026-11
 - 🌟 [FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.17142) — 2026-11
 - [DiffWBC: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control](https://arxiv.org/abs/2610.41354) — 2026-10
-- [Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer](https://arxiv.org/abs/2610.37330) — 2026-10
 
 ## Human Motion Analysis and Synthesis (47)
 
@@ -164,13 +164,13 @@ Browse papers by research topic and methodology.
 - [VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction](https://arxiv.org/abs/2610.28523) — 2026-10
 - 🌟 [Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning](https://arxiv.org/abs/2610.28470) — 2026-10
 
-## Distillation (45)
+## Distillation (46)
 
+- [PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation](https://arxiv.org/abs/2611.30077) — 2026-11
 - [S-BFM: A Behavioral Foundation Model for Humanoid Control from Sparse Spatiotemporal Goals](https://arxiv.org/abs/2611.27552) — 2026-11
 - [Controlling the Humanoid Robot H1-2 With a Simulated Biologically Plausible Network](https://arxiv.org/abs/2611.26074) — 2026-11
 - [Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations](https://arxiv.org/abs/2611.20888) — 2026-11
 - [DreamVLA: From Generated Human Motions to Humanoid Vision-Language-Action Policies](https://arxiv.org/abs/2611.10872) — 2026-11
-- [SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References](https://arxiv.org/abs/2611.09266) — 2026-11
 
 ## Human Demonstration (43)
 
@@ -244,13 +244,13 @@ Browse papers by research topic and methodology.
 - 🌟 [Watch Your Step: Anticipated Perception for Humanoid Locomotion](https://arxiv.org/abs/2610.29612) — 2026-10
 - [Learning Structured Locomotion References for Optimization-Based Whole-Body Control](https://arxiv.org/abs/2610.24779) — 2026-10
 
-## Simulator (30)
+## Simulator (31)
 
+- [CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments](https://arxiv.org/abs/2611.29749) — 2026-11
 - [Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking](https://arxiv.org/abs/2611.27648) — 2026-11
 - [WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation](https://arxiv.org/abs/2611.25251) — 2026-11
 - [XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute](https://arxiv.org/abs/2611.20452) — 2026-11
 - 🌟 [FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.17142) — 2026-11
-- [PhySA: Decoupling Aesthetic and Physical Rewards for Humanoid Locomotion](https://arxiv.org/abs/2611.07679) — 2026-11
 
 ## MuJoCo (30)
 
@@ -276,13 +276,13 @@ Browse papers by research topic and methodology.
 - [Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain](https://arxiv.org/abs/2611.05585) — 2026-11
 - [REACH: An RL-based Hierarchical Humanoid Crawling Framework for Adaptable Confined Space Traversal](https://arxiv.org/abs/2610.36546) — 2026-10
 
-## World Model (24)
+## World Model (25)
 
+- [CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments](https://arxiv.org/abs/2611.29749) — 2026-11
 - [Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking](https://arxiv.org/abs/2611.27648) — 2026-11
 - [WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation](https://arxiv.org/abs/2611.25251) — 2026-11
 - [SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models](https://arxiv.org/abs/2611.24074) — 2026-11
 - [XMimic and XSoma: Learning Humanoid Motion Tracking and Locomotion in Under a Minute](https://arxiv.org/abs/2611.20452) — 2026-11
-- 🌟 [BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU](https://arxiv.org/abs/2611.16422) — 2026-11
 
 ## Motion Retargeting (21)
 
@@ -372,6 +372,22 @@ Browse papers by research topic and methodology.
 - [ReactiveBFM: Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control](https://arxiv.org/abs/2606.30362) — 2026-06
 - [Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning](https://arxiv.org/abs/2606.28813) — 2026-06
 
+## Trajectory Optimization (10)
+
+- [PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation](https://arxiv.org/abs/2611.30077) — 2026-11
+- [Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain](https://arxiv.org/abs/2611.05585) — 2026-11
+- 🌟 [Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning](https://arxiv.org/abs/2610.28470) — 2026-10
+- [Humanoid SRL: Augmenting Humanoids with Supernumerary Limbs for Coordinated Loco-Manipulation](https://arxiv.org/abs/2610.25628) — 2026-10
+- [Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation](https://arxiv.org/abs/2609.23968) — 2026-09
+
+## Sampling-Based (10)
+
+- [PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation](https://arxiv.org/abs/2611.30077) — 2026-11
+- [Leaning Over to Reach Far-Away Objects](https://arxiv.org/abs/2611.19100) — 2026-11
+- [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152) — 2026-10
+- 🌟 [Test-Time Compute for Humanoid Behavior Foundation Models](https://arxiv.org/abs/2610.14896) — 2026-10
+- [GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly](https://arxiv.org/abs/2608.21550) — 2026-08
+
 ## Inverse Kinematics (10)
 
 - [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117) — 2026-11
@@ -396,14 +412,6 @@ Browse papers by research topic and methodology.
 - [UniPoint: Unified Point-Level Sensor Fusion for Humanoid Locomotion Across Challenging Terrains](https://arxiv.org/abs/2609.23666) — 2026-09
 - [Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References](https://arxiv.org/abs/2608.10220) — 2026-08
 
-## Sampling-Based (9)
-
-- [Leaning Over to Reach Far-Away Objects](https://arxiv.org/abs/2611.19100) — 2026-11
-- [KODA: Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration](https://arxiv.org/abs/2610.21152) — 2026-10
-- 🌟 [Test-Time Compute for Humanoid Behavior Foundation Models](https://arxiv.org/abs/2610.14896) — 2026-10
-- [GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly](https://arxiv.org/abs/2608.21550) — 2026-08
-- [Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos](https://arxiv.org/abs/2605.23762) — 2026-05
-
 ## Language-Conditioned (9)
 
 - [PolyMorphWBC: Whole-Body Control from End-Effector Trajectories for Quadrupedal Mobile Manipulation across Arm Morphologies with Extended Reach](https://arxiv.org/abs/2611.15117) — 2026-11
@@ -419,14 +427,6 @@ Browse papers by research topic and methodology.
 - [From Video to Vision: Learning Generalizable Humanoid Carrying from Human Motion](https://arxiv.org/abs/2610.14561) — 2026-10
 - [ATHLETE: Learning Reactive Humanoid Tennis via Trajectory-Guided Motion Matching](https://arxiv.org/abs/2610.13572) — 2026-10
 - [BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking](https://arxiv.org/abs/2610.07052) — 2026-10
-
-## Trajectory Optimization (9)
-
-- [Contact-Implicit Whole-Body Trajectory Optimization for Dynamic Humanoid Locomotion on Parameterizable Uneven Terrain](https://arxiv.org/abs/2611.05585) — 2026-11
-- 🌟 [Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning](https://arxiv.org/abs/2610.28470) — 2026-10
-- [Humanoid SRL: Augmenting Humanoids with Supernumerary Limbs for Coordinated Loco-Manipulation](https://arxiv.org/abs/2610.25628) — 2026-10
-- [Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation](https://arxiv.org/abs/2609.23968) — 2026-09
-- [HIGenNTO: Scalable Humanoid Interaction Generation via Noise-Space Trajectory Optimization](https://arxiv.org/abs/2609.22611) — 2026-09
 
 ## Optimization-Based (9)
 

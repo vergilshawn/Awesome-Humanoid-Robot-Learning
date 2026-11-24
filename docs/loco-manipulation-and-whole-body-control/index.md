@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**341 papers** in this category.
+**342 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (29 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (30 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -41,16 +41,42 @@
 
 ## Recent Papers
 
-## BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight
+## CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors
 
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.27047)
-- **Project:** [Project page](http://tasks.On)
-- **Code checked:** 2026-11-23
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.30449)
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- Project page inspection failed: ConnectionError
-- Link discovery incomplete; absence of code cannot be confirmed
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Lijun Han, Muyuan Ma, Zichen Wang, Siyuan Liu, Yuxi Liu, Yutong Wang et al. (9 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Coordinating locomotion and dexterous manipulation is fundamental to humanoid robots operating in human environments. A key challenge is learning motion priors from diverse data and using them effectively for coordinated robot control.
+
+---
+
+## BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.27047)
+- **Code checked:** 2026-11-24
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
 
 </details>
 
@@ -73,7 +99,7 @@ Humanoid loco-manipulation requires coordinating whole-body motion to perform ma
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -102,7 +128,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26420)
 - **Project:** [Project page](https://engineai-robotics.github.io/Awaken-HI/)
 - **Repository:** [Code](https://github.com/engineai-robotics/Awaken-HI)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -131,7 +157,7 @@ A central goal of humanoid robotics is for robots to perform the everyday work p
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25778)
 - **Project:** [Project page](https://mwondering.github.io/echo-bfm/)
 - **Repository:** [Code](https://github.com/mwondering/echo-bfm)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -161,7 +187,7 @@ Humanoid behavior foundation models (BFMs) acquire diverse skills through large-
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25251)
 - **Project:** [Project page](https://qianzhong-chen.github.io/wevo.github.io/)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -190,7 +216,7 @@ Reinforcement learning (RL) can improve vision-language-action (VLA) policies be
 ## Body Schema Policy: Body as the Vision-Action Interface for Efficient Robot Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22713)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -219,7 +245,7 @@ Currently, robots can learn whole-body loco-manipulation through scale: the stro
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -249,7 +275,7 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 ## QTOP: Scaling Humanoid Motion Tracking with Quantile Critics
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20791)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -279,7 +305,7 @@ Learning human motion tracking policies through reinforcement learning (RL) has 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19998)
 - **Project:** [Project page](https://movicproject.github.io/)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -594,36 +620,5 @@ Humanoid whole-body control requires a robot to track diverse reference motions 
 ### Summary
 
 Scaling up visual humanoid loco-manipulation skill acquisition requires reducing the human effort needed as tasks and spatial configurations expand, particularly in demonstration collection and task-specific training design. We present SUGARv2, a unified framework for learning diverse visual humanoid loco-manipulation skills through interaction reference synthesis and a shared training pipeline.
-
----
-
-## ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.08664)
-- **Project:** [Project page](https://roboforpc.github.io/)
-- **Code checked:** 2026-11-14
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Publication/project page: Code Coming soon
-
-</details>
-
-- **Authors:** ZhenYu Zou, Xing Liu, ShiChuang Wang, YunLong Dong, LiNan Deng, Feng Hua et al. (8 authors)
-- **Published:** 2026-11
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Whole-Body Control
-  - Locomotion
-  - Human Demonstration
-  - Humanoid
-  - Fine-tuning
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid robots are expected to take over strenuous material handling in manufacturing, logistics, and healthcare, where operating existing wheeled carts would let them move heavy loads without modifying the workplace. However, humanoid cart pushing remains challenging because the bimanual grasp closes a force-coupled loop in which the contact wrenches that drive the cart also disturb the robot's balance, and payload changes alter the coupled dynamics.
 
 ---

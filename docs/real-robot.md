@@ -7,10 +7,10 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 4 papers
-- **Figure:** 19 papers
+- **Figure:** 20 papers
 - **HRP:** 1 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 94 papers
+- **Unitree G1:** 97 papers
 - **Unitree H1:** 2 papers
 - **Unknown Platform:** 25 papers
 - **iCub:** 1 papers
@@ -19,10 +19,123 @@ Papers with real humanoid robot deployment and experiments.
 
 ## All Real Robot Papers
 
+## CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.30449)
+- **Code checked:** 2026-11-24
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Lijun Han, Muyuan Ma, Zichen Wang, Siyuan Liu, Yuxi Liu, Yutong Wang et al. (9 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Manipulation
+  - Humanoid
+  - Vision-Language
+  - Dataset
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Coordinating locomotion and dexterous manipulation is fundamental to humanoid robots operating in human environments. A key challenge is learning motion priors from diverse data and using them effectively for coordinated robot control.
+
+---
+
+## 🌟 Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.29897)
+- **Project:** [Project page](https://aigeeksgroup.github.io/MotionMamba2.0/)
+- **Repository:** [Code](https://github.com/AIGeeksGroup/MotionMamba2.0)
+- **Code checked:** 2026-11-24
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 239 source files; examples: benchmarks/bones.py, benchmarks/evaluate.py, benchmarks/hiphi.py, benchmarks/humanml3d.py, benchmarks/metrics.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
+- **Authors:** Yue Huang, Tianshan Zhang, Zeyu Zhang, Jayeon Kang, Akide Liu, Sungjoon Choi et al. (8 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Locomotion
+  - Humanoid
+  - Diffusion
+
+### Summary
+
+Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead.
+
+---
+
+## PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.30077)
+- **Project:** [Project page](https://silvery107.github.io/pushmimic/)
+- **Code checked:** 2026-11-24
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Yulun Zhuang, Hanyu Zhang, Jingyu Liu, Yanran Ding
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Humanoid
+  - Trajectory Optimization
+  - Distillation
+  - Sampling-Based
+  - Dataset
+  - Simulation Benchmark
+
+### Summary
+
+Humanoid box pushing is challenging when the physical properties of the task, such as the box mass and the ramp inclination, are unknown before the push begins. This paper presents PushMimic, a framework that learns adaptive humanoid box pushing from a single level-ground kinematic reference motion.
+
+---
+
+## 🌟 $ζ_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.29277)
+- **Project:** [Project page](https://chenyizhi123.github.io/zeta0-project/)
+- **Repository:** [Code](https://github.com/chenyizhi123/Zeta0)
+- **Code checked:** 2026-11-24
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Detected 462 source files; examples: real/deploy/brainco_hand_bridge.py, real/deploy/place_doll_sonic_client.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/composed_camera.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/drivers/dummy.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/drivers/oak.py
+- Completeness, dependencies, training assets and reproducibility have not been verified
+
+</details>
+
+- **Authors:** Yizhi Chen, Zhanxiang Cao, Yitong Wang, Junyu Liu, Hongchu Zeng, Xinyi Peng et al. (22 authors)
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Humanoid
+  - Vision-Language
+  - Locomotion
+
+### Summary
+
+World Action Models anticipate visual outcomes to guide robot actions, yet humanoid interaction also depends on how the robot's body responds. Visual foresight alone can miss body motion, while latent-distance losses do not directly supervise action responses.
+
+---
+
 ## Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27845)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -47,7 +160,7 @@ Humanoid robots can reduce personnel exposure in electrical switching, but safe 
 ## Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27648)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -73,7 +186,7 @@ Training a humanoid motion tracker by backpropagating imagined returns through a
 ## HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27181)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -104,7 +217,7 @@ As humanoid robots increasingly enter real-world environments, recovering their 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -131,7 +244,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 ## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -156,7 +269,7 @@ Learning-based methods now let humanoids run robustly, and they have begun to co
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -182,7 +295,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -213,7 +326,7 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.19998)
 - **Project:** [Project page](https://movicproject.github.io/)
-- **Code checked:** 2026-11-23
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -3134,7 +3247,7 @@ Humanoid robots have recently demonstrated promising capabilities in real-world 
 ## HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2608.17584)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 

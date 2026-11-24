@@ -367,7 +367,7 @@ We present EgoNav, a system that enables a humanoid robot to traverse diverse, u
 ## EgoActor: Grounding Task Planning into Spatial-aware Egocentric Actions for Humanoid Robots via Visual-Language Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2602.04515)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-24
 
 <details><summary>Code verification details / 核验依据</summary>
 

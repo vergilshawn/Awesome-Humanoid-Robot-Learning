@@ -1,5 +1,255 @@
 [
   {
+    "arxiv_id": "2611.30449",
+    "title": "CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors",
+    "paper_url": "https://arxiv.org/abs/2611.30449",
+    "project_url": null,
+    "repository_url": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-24T18:38:37.557115+00:00",
+    "authors": [
+      "Lijun Han",
+      "Muyuan Ma",
+      "Zichen Wang",
+      "Siyuan Liu",
+      "Yuxi Liu",
+      "Yutong Wang",
+      "Bohao Zhang",
+      "Heng Zhou",
+      "Wei Sui"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-23",
+    "abstract": "Coordinating locomotion and dexterous manipulation is fundamental to humanoid robots operating in human environments. A key challenge is learning motion priors from diverse data and using them effectively for coordinated robot control. We present CHAMP, a unified framework for humanoid loco-manipulation that combines whole-body motion pretraining with adaptive feature extraction. CHAMP pretrains a vision-language model to predict future body and hand motion from approximately 2,298 hours of heterogeneous human and robot data. A shared motion representation enables unified whole-body motion learning across embodiments from datasets with body annotations, hand annotations, or both. To ground these motion priors in robot control, we introduce a Coordination-oriented Action Expert (CAE) and train it on replay data generated using the target controller. Through sparse routing, CAE adaptively selects, transforms, and fuses features from multiple layers of the pretrained model to jointly generate body and hand actions. In experiments, CHAMP achieves overall success rates of 84.8% on seven simulated tasks and 91.4% on seven real-world tasks with a Unitree G1, outperforming the evaluated baselines in both settings. In particular, CHAMP achieves 70.0% success on the long-horizon popcorn-serving task, compared with 40.0% for the best-performing baseline.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation"
+    ],
+    "tags": [
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "Vision-Language",
+      "Dataset",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2611.29897",
+    "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2611.29897",
+    "project_url": "https://aigeeksgroup.github.io/MotionMamba2.0/",
+    "repository_url": "https://github.com/AIGeeksGroup/MotionMamba2.0",
+    "comments": "Code: https://github.com/AIGeeksGroup/MotionMamba2.0. Website: https://aigeeksgroup.github.io/MotionMamba2.0",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 239 source files; examples: benchmarks/bones.py, benchmarks/evaluate.py, benchmarks/hiphi.py, benchmarks/humanml3d.py, benchmarks/metrics.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-24T18:38:37.675098+00:00",
+    "authors": [
+      "Yue Huang",
+      "Tianshan Zhang",
+      "Zeyu Zhang",
+      "Jayeon Kang",
+      "Akide Liu",
+      "Sungjoon Choi",
+      "Dacheng Tao",
+      "Hao Tang"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-23",
+    "abstract": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates local attention, resumable recurrent states, and persistent content memory (PCM) for long-horizon controllable motion generation. PCM transforms compressed motion history from Mamba recurrent states, together with state changes and text-conditioned features, into dynamically updated content slots accessible to local attention. To enable efficient inference, we further develop an execution scheme tailored to this architecture, combining CUDA Graph replay, fused kernels, and execution-flow simplification while preserving the canonical history update. Evaluations on retargeted HiPHI demonstrate accurate terminal control over rollouts of up to 39.52 s, while short-horizon comparisons on BONES Seed and retargeted HumanML3D show that the model also retains strong spatial control and text-motion matching. On an RTX 4090, the optimized execution reduces median complete-window latency from 1685.35 to 276.14 ms, achieving a median paired speedup of 6.138$\\times$ while preserving identical outputs and committed states in the tested rollouts. Moreover, we conduct extensive real-world evaluation on the Unitree G1, demonstrating sequential text-guided action composition, expressive motion, and interactive locomotion through keyboard and mouse control.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Locomotion",
+      "Humanoid",
+      "Diffusion"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2611.30077",
+    "title": "PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation",
+    "paper_url": "https://arxiv.org/abs/2611.30077",
+    "project_url": "https://silvery107.github.io/pushmimic/",
+    "repository_url": null,
+    "comments": "9 pages, 10 figures, 3 tables. Website at https://silvery107.github.io/pushmimic/",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-24T18:38:39.187835+00:00",
+    "authors": [
+      "Yulun Zhuang",
+      "Hanyu Zhang",
+      "Jingyu Liu",
+      "Yanran Ding"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-23",
+    "abstract": "Humanoid box pushing is challenging when the physical properties of the task, such as the box mass and the ramp inclination, are unknown before the push begins. This paper presents PushMimic, a framework that learns adaptive humanoid box pushing from a single level-ground kinematic reference motion. The learned policy adapts its pushing posture to these properties without observing them. PushMimic augments the reference motion into a dynamically feasible motion dataset over these properties with sampling-based trajectory optimization, and distills the dataset into one motion tracking policy in one stage of training. Simulation results over box masses from 5 to 15 kg and ramp inclinations up to 15 degrees show that PushMimic raises the success rate from 57.8% to 88.8% compared with a baseline that tracks the original reference motion. It also reduces the cost of push of the arms by 22%. Hardware experiments on a Unitree G1 humanoid show that the policy adapts its torso pitch during continuous pushing on an inclined treadmill, with box masses up to 19 kg and ramp inclinations up to 12.6 degrees. PushMimic therefore needs only one reference motion, instead of one for every box mass and ramp inclination.",
+    "categories": [
+      "Simulation Benchmark"
+    ],
+    "tags": [
+      "Humanoid",
+      "Trajectory Optimization",
+      "Distillation",
+      "Sampling-Based",
+      "Dataset",
+      "Simulation Benchmark"
+    ],
+    "real_robot": true,
+    "open_source": false,
+    "platform": "Unitree G1",
+    "summary": "",
+    "primary_category": "Simulation Benchmark"
+  },
+  {
+    "arxiv_id": "2611.29868",
+    "title": "Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education",
+    "paper_url": "https://arxiv.org/abs/2611.29868",
+    "project_url": "https://anonymous-humanoid.gitbook.io/docs",
+    "repository_url": null,
+    "comments": "8 pages, 10 figures, project website https://arcadian-humanoid.github.io/",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-24T18:38:39.379683+00:00",
+    "authors": [
+      "Zelin Shen",
+      "Gabriel Ramos Salinas",
+      "Qiyu Zhang",
+      "Yue Qin",
+      "Chen Qian",
+      "Yanran Ding"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-23",
+    "abstract": "Reproducing and modifying a meter-scale humanoid remains challenging for research and teaching groups with limited fabrication resources and engineering support. This paper presents Arcadian, an open-source humanoid ecosystem that offers accessible and customizable humanoid hardware and software with community support. Arcadian aims to strike a balance among cost-effectiveness, structural durability, and full customizability, lowering the barrier to entry for research and education. Specifically, this meter-scale humanoid adopts metal-embedded 3D printing to achieve a high strength-to-cost ratio, eliminating the need for computer numerical control (CNC) machining while retaining design flexibility. Extensive simulation and hardware tests validate the design: a reinforcement-learning (RL) locomotion policy trained in simulation transfers to the hardware, and a virtual reality (VR) teleoperation interface drives both arms for simple manipulation tasks. The robot is around one meter tall and costs approximately $6,800 to build. All computer-aided design (CAD) models, the bill of materials, assembly documentation, and training and deployment code are publicly released, distributed through Tnkr.ai and MakerWorld and supported by a Discord server and a project forum through which community feedback informs design updates. The ecosystem resources are available at https://anonymous-humanoid.gitbook.io/docs.",
+    "categories": [
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Locomotion",
+      "Manipulation",
+      "Humanoid",
+      "PPO"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Teleoperation"
+  },
+  {
+    "arxiv_id": "2611.29749",
+    "title": "CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments",
+    "paper_url": "https://arxiv.org/abs/2611.29749",
+    "project_url": "https://carlhoi.github.io/",
+    "repository_url": null,
+    "comments": "Project page: https://carlhoi.github.io",
+    "code_status": "no_repository",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-24T18:38:44.013975+00:00",
+    "authors": [
+      "Wenjie Lin",
+      "Jin Wei-Kocsis"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-22",
+    "abstract": "Recent advances in physics-based humanoid control enable teams of varying sizes to coordinate their movements and cooperatively transport shared objects. However, adapting learned cooperative behaviors to unseen environmental constraints remains challenging, particularly when obstacles require coordinated detours and changes in team configuration. We propose CarlHOI, a counterfactual predictive imagination framework built upon a counterfactual-anchored relational latent world model (CarlWM) for human-object interaction (HOI), enabling multi-humanoid teams to adapt to unseen environmental constraints without retraining their underlying cooperative control policies. CarlHOI explicitly represents the shared object, individual humanoids, and environmental obstacles as interacting entities. Trained offline using counterfactual simulator rollouts, the model imagines alternative collective futures under different shared waypoint commands, predicting how the coupled humanoid team and object would respond. By evaluating these imagined outcomes through predicted progress, failure, and contact risks, and long-horizon value estimates, CarlHOI selects adaptive guidance commands while preserving the pretrained cooperative controller. We introduce a benchmark comprising three challenging obstacle-constrained transport tasks to evaluate adaptation and generalization. Despite being trained exclusively with four humanoids, our model generalizes without retraining to teams of two to ten humanoids, unseen obstacle geometries and placements, unseen objects, and novel combinations of environmental constraints. Extensive experiments demonstrate improved cooperative transport success over evaluated baselines across diverse configurations. Results highlight the potential of counterfactual predictive imagination to extend pretrained multi-humanoid cooperative skills beyond their original training conditions.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "World Model",
+      "Simulator",
+      "Humanoid",
+      "Benchmark",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2611.29277",
+    "title": "$ζ_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control",
+    "paper_url": "https://arxiv.org/abs/2611.29277",
+    "project_url": "https://chenyizhi123.github.io/zeta0-project/",
+    "repository_url": "https://github.com/chenyizhi123/Zeta0",
+    "comments": "18 pages (including appendix), 10 figures, 12 tables. Project page: https://chenyizhi123.github.io/zeta0-project/ ; Code & Data: https://github.com/chenyizhi123/Zeta0",
+    "code_status": "available",
+    "code_evidence": [
+      "Detected 462 source files; examples: real/deploy/brainco_hand_bridge.py, real/deploy/place_doll_sonic_client.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/composed_camera.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/drivers/dummy.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/drivers/oak.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
+    ],
+    "code_checked_at": "2026-11-24T18:38:44.148791+00:00",
+    "authors": [
+      "Yizhi Chen",
+      "Zhanxiang Cao",
+      "Yitong Wang",
+      "Junyu Liu",
+      "Hongchu Zeng",
+      "Xinyi Peng",
+      "Chuxuan Huang",
+      "Yicheng Su",
+      "Zihao Zhou",
+      "Shengcheng Fu",
+      "Haoyang Li",
+      "Liyun Yan",
+      "Tianyue Zhan",
+      "Jianming Ma",
+      "Yang Zhang",
+      "Keqi Zhu",
+      "Xiaxi Si",
+      "Jinming Yao",
+      "Qiao Sun",
+      "Shizeng Zhang",
+      "Jiangwei Zhong",
+      "Yue Gao"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-22",
+    "abstract": "World Action Models anticipate visual outcomes to guide robot actions, yet humanoid interaction also depends on how the robot's body responds. Visual foresight alone can miss body motion, while latent-distance losses do not directly supervise action responses. We present $ζ_0$, a framework that turns vision-language-action policies into World Action Models by foreseeing future visual features and measured joint trajectories in a shared latent representation. During training, a teacher conditioned on recorded futures provides a reference action response, and dual-response transfer trains the causal predictor to match it through the teacher and the executing policy. All components are trained jointly, and deployment uses only causally predicted futures. On seven HumanoidArena tasks, $ζ_0$ built on $Ψ_0$ and GR00T N1.7 reaches 63.6% and 79.5% mean success, 18.8 and 9.0 points above these bases. On six real-world tasks, it reaches 78.3% and 85.0%, gains of 16.7 and 10.0 points. On GR00T, its 79.5% tops all compared seven-task joint policies. Project page: https://chenyizhi123.github.io/zeta0-project/",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Humanoid",
+      "Vision-Language",
+      "Locomotion"
+    ],
+    "real_robot": true,
+    "open_source": true,
+    "platform": "Figure",
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
     "arxiv_id": "2611.27845",
     "title": "Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter",
     "paper_url": "https://arxiv.org/abs/2611.27845",
@@ -10,7 +260,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:29.116288+00:00",
+    "code_checked_at": "2026-11-24T18:38:45.840426+00:00",
     "authors": [
       "Songyang Liu",
       "Yu Hou",
@@ -45,7 +295,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:29.238718+00:00",
+    "code_checked_at": "2026-11-24T18:38:45.939770+00:00",
     "authors": [
       "Xuzhe Dang",
       "Stefan Edelkamp"
@@ -79,7 +329,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:29.352207+00:00",
+    "code_checked_at": "2026-11-24T18:38:46.039132+00:00",
     "authors": [
       "Kun Yang",
       "Xuanyu Chen",
@@ -120,7 +370,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:29.483759+00:00",
+    "code_checked_at": "2026-11-24T18:38:46.123849+00:00",
     "authors": [
       "Qianxing Li"
     ],
@@ -153,7 +403,7 @@
     "code_evidence": [
       "Publication/project page: Code (coming soon"
     ],
-    "code_checked_at": "2026-11-23T19:05:29.700850+00:00",
+    "code_checked_at": "2026-11-24T18:38:46.196874+00:00",
     "authors": [
       "S K Swaminathan",
       "Shivam Sood",
@@ -190,7 +440,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:29.990962+00:00",
+    "code_checked_at": "2026-11-24T18:38:46.310863+00:00",
     "authors": [
       "Jinlin Gan",
       "Mingzhe Li",
@@ -233,15 +483,14 @@
     "arxiv_id": "2611.27047",
     "title": "BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight",
     "paper_url": "https://arxiv.org/abs/2611.27047",
-    "project_url": "http://tasks.On",
+    "project_url": null,
     "repository_url": null,
     "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
-    "code_status": "unknown",
+    "code_status": "not_found",
     "code_evidence": [
-      "Project page inspection failed: ConnectionError",
-      "Link discovery incomplete; absence of code cannot be confirmed"
+      "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:30.121957+00:00",
+    "code_checked_at": "2026-11-24T18:38:46.392574+00:00",
     "authors": [
       "Zhaoshan Yang",
       "Chenglei Li",
@@ -258,7 +507,7 @@
     ],
     "published": "2026-11",
     "published_date": "2026-11-20",
-    "abstract": "Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments. Yet egocentric vision-language-action (VLA) policies can miss critical body--scene relationships, and action imitation alone provides no explicit supervision for future scene evolution. We propose BeyondEgo to extend VLA perception in space and time. Spatially, we encode a synchronized exocentric view with frozen DINOv3 and concatenate the resulting tokens with egocentric VLM tokens to condition the action expert. Temporally, we use future observations from both views as privileged supervision for a residual adapter on task-conditioned VLM features. A foresight expert regresses DINOv3 representations of both views 0.6s ahead. At deployment, the foresight expert is discarded and the 4.2M-parameter adapter is retained. We also introduce HELM, to our knowledge, the first closed-loop humanoid loco-manipulation benchmark with synchronized egocentric and exocentric views across five whole-body tasks.On HELM, BeyondEgo improves success from 48.0% to 92.0% in distribution and from 23.5% to 65.0% on 200 held-out scenes with layout, asset, material, and lighting shifts. Ablations show that dual-view DINOv3 foresight yields the best transfer results.",
+    "abstract": "Humanoid loco-manipulation requires coordinating whole-body motion to perform manipulation tasks in complex environments. Yet egocentric vision-language-action (VLA) policies can miss critical body--scene relationships, and action imitation alone provides no explicit supervision for future scene evolution. We propose BeyondEgo to extend VLA perception in space and time. Spatially, we encode a synchronized exocentric view with frozen DINOv3 and concatenate the resulting tokens with egocentric VLM tokens to condition the action expert. Temporally, we use future observations from both views as privileged supervision for a residual adapter on task-conditioned VLM features. A foresight expert regresses DINOv3 representations of both views 0.6s ahead. At deployment, the foresight expert is discarded and the 4.2M-parameter adapter is retained. We also introduce HELM, to our knowledge, the first closed-loop humanoid loco-manipulation benchmark with synchronized egocentric and exocentric views across five whole-body tasks. On HELM, BeyondEgo improves success from 48.0% to 92.0% in distribution and from 23.5% to 65.0% on 200 held-out scenes with layout, asset, material, and lighting shifts. Ablations show that dual-view DINOv3 foresight yields the best transfer results.",
     "categories": [
       "Loco-Manipulation and Whole-Body Control"
     ],
@@ -286,7 +535,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:30.263969+00:00",
+    "code_checked_at": "2026-11-24T18:38:46.471294+00:00",
     "authors": [
       "Kai Lu",
       "Chenyang Ma",
@@ -324,7 +573,7 @@
       "Detected 2 source files; examples: preview/project.py, preview/readme.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-23T19:05:30.586047+00:00",
+    "code_checked_at": "2026-11-24T18:38:46.753951+00:00",
     "authors": [
       " EngineAI"
     ],
@@ -359,7 +608,7 @@
       "Detected 211 source files; examples: examples/replay_datasets/example.py, examples/replay_datasets/smpl_example.py, examples/speed_test.py, examples/training_examples/jax_amp/eval.py, examples/training_examples/jax_amp/experiment.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-23T19:05:31.933309+00:00",
+    "code_checked_at": "2026-11-24T18:38:48.191894+00:00",
     "authors": [
       "Firas Al-Hafez",
       "Davide Tateo",
@@ -407,7 +656,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:33.242555+00:00",
+    "code_checked_at": "2026-11-24T18:38:49.429005+00:00",
     "authors": [
       "Fatima Atwi",
       "Constant Roux",
@@ -447,7 +696,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:33.335415+00:00",
+    "code_checked_at": "2026-11-24T18:38:49.548138+00:00",
     "authors": [
       "Ganeshvar Soenessardien",
       "Michael Przystupa",
@@ -484,7 +733,7 @@
     "code_evidence": [
       "Multiple repository candidates require review: https://github.com/noahcao/FAB, https://github.com/noahcao/FAH"
     ],
-    "code_checked_at": "2026-11-23T19:05:33.401432+00:00",
+    "code_checked_at": "2026-11-24T18:38:49.628500+00:00",
     "authors": [
       "Jinkun Cao"
     ],
@@ -516,7 +765,7 @@
     "code_evidence": [
       "Publication/project page: code will be released"
     ],
-    "code_checked_at": "2026-11-23T19:05:33.681921+00:00",
+    "code_checked_at": "2026-11-24T18:38:49.947548+00:00",
     "authors": [
       "Bin Li",
       "Xing Zhu",
@@ -553,7 +802,7 @@
       "Detected 1 source files; examples: scripts/build.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-23T19:05:33.939758+00:00",
+    "code_checked_at": "2026-11-24T18:38:50.179707+00:00",
     "authors": [
       "Xingyi Wang",
       "Bin Li",
@@ -599,7 +848,7 @@
     "code_evidence": [
       "Publication/project page: Code (coming soon"
     ],
-    "code_checked_at": "2026-11-23T19:05:35.430578+00:00",
+    "code_checked_at": "2026-11-24T18:38:51.578552+00:00",
     "authors": [
       "Qianzhong Chen",
       "Muyuan Lin",
@@ -647,7 +896,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:35.685439+00:00",
+    "code_checked_at": "2026-11-24T18:38:51.785312+00:00",
     "authors": [
       "Lequn Fu",
       "Yufeng Hu",
@@ -689,7 +938,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:35.759561+00:00",
+    "code_checked_at": "2026-11-24T18:38:51.909023+00:00",
     "authors": [
       "Zejian Kang",
       "Yeqiang Wang",
@@ -732,7 +981,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:35.840850+00:00",
+    "code_checked_at": "2026-11-24T18:38:51.996638+00:00",
     "authors": [
       "Lechen Zhang",
       "Chenyuan Chen",
@@ -776,7 +1025,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:35.913367+00:00",
+    "code_checked_at": "2026-11-24T18:38:52.180311+00:00",
     "authors": [
       "Koki Inami",
       "Takashi Sato",
@@ -817,7 +1066,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:35.984079+00:00",
+    "code_checked_at": "2026-11-24T18:38:52.249716+00:00",
     "authors": [
       "Zhaoyang Li",
       "Chiyu Zhang",
@@ -856,7 +1105,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:36.091640+00:00",
+    "code_checked_at": "2026-11-24T18:38:52.309869+00:00",
     "authors": [
       "Fumihiko Asano",
       "Cong Yan"
@@ -891,7 +1140,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:36.168840+00:00",
+    "code_checked_at": "2026-11-24T18:38:52.381474+00:00",
     "authors": [
       "Yongji Fu",
       "Man Cao",
@@ -929,7 +1178,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:36.248734+00:00",
+    "code_checked_at": "2026-11-24T18:38:52.445731+00:00",
     "authors": [
       "Murad Dawood",
       "Oezge Drama Berkenkamp",
@@ -971,7 +1220,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:36.320507+00:00",
+    "code_checked_at": "2026-11-24T18:38:52.686356+00:00",
     "authors": [
       "Markus Peschl",
       "Dana Kianfar",
@@ -1011,7 +1260,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-23T19:05:36.413833+00:00",
+    "code_checked_at": "2026-11-24T18:38:52.819419+00:00",
     "authors": [
       "Nico Bohlinger",
       "Jan Peters"
@@ -1047,7 +1296,7 @@
     "code_evidence": [
       "Publication/project page: Code (coming soon"
     ],
-    "code_checked_at": "2026-11-23T19:05:36.479569+00:00",
+    "code_checked_at": "2026-11-24T18:38:52.887640+00:00",
     "authors": [
       "Yimin Han",
       "Jiahui Zhang",
@@ -14735,12 +14984,12 @@
     "paper_url": "https://arxiv.org/abs/2608.17584",
     "project_url": null,
     "repository_url": null,
-    "comments": "we have received a formal directive from our company requiring all company assets to undergo a mandatory internal review process before any public release. We are now required to immediately withdraw the paper to comply with this policy",
+    "comments": "we have received a formal directive from our company requiring all company assets to undergo a mandatory internal review process before any public release. We are now required to immediately withdraw the paper to comply with this policy [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.297156+00:00",
+    "code_checked_at": "2026-11-24T18:38:57.739191+00:00",
     "authors": [
       "Wang Warren Chen",
       "Jiahao Zhang",
@@ -21740,12 +21989,12 @@
     "paper_url": "https://arxiv.org/abs/2603.27756",
     "project_url": null,
     "repository_url": null,
-    "comments": "26 pages, 7 figures, 6 tables",
+    "comments": "26 pages, 7 figures, 6 tables [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.296321+00:00",
+    "code_checked_at": "2026-11-24T18:38:55.446968+00:00",
     "authors": [],
     "published": "2026-03",
     "published_date": "2026-03-01",
@@ -21800,12 +22049,12 @@
     "paper_url": "https://arxiv.org/abs/2603.12263",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.296421+00:00",
+    "code_checked_at": "2026-11-24T18:38:55.531851+00:00",
     "authors": [],
     "published": "2026-03",
     "published_date": "2026-03-01",
@@ -21863,12 +22112,12 @@
     "paper_url": "https://arxiv.org/abs/2603.08619",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.296570+00:00",
+    "code_checked_at": "2026-11-24T18:38:55.615008+00:00",
     "authors": [],
     "published": "2026-03",
     "published_date": "2026-03-01",
@@ -22015,12 +22264,12 @@
     "paper_url": "https://arxiv.org/abs/2603.06181",
     "project_url": null,
     "repository_url": null,
-    "comments": "13 pages, 10 figures, conference",
+    "comments": "13 pages, 10 figures, conference [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.296664+00:00",
+    "code_checked_at": "2026-11-24T18:38:55.706127+00:00",
     "authors": [],
     "published": "2026-03",
     "published_date": "2026-03-01",
@@ -22076,12 +22325,12 @@
     "paper_url": "https://arxiv.org/abs/2602.23843",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.296797+00:00",
+    "code_checked_at": "2026-11-24T18:38:55.776078+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -22229,12 +22478,12 @@
     "paper_url": "https://arxiv.org/abs/2602.15733",
     "project_url": null,
     "repository_url": null,
-    "comments": "17 pages, 6 figures",
+    "comments": "17 pages, 6 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.296870+00:00",
+    "code_checked_at": "2026-11-24T18:38:55.854204+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -22290,12 +22539,12 @@
     "paper_url": "https://arxiv.org/abs/2602.11929",
     "project_url": null,
     "repository_url": null,
-    "comments": "22 pages",
+    "comments": "22 pages [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.296969+00:00",
+    "code_checked_at": "2026-11-24T18:38:55.914493+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -22382,16 +22631,15 @@
     "arxiv_id": "2602.08594",
     "title": "MOSAIC: Bridging the Sim-to-Real Gap in Generalist Humanoid Motion Tracking and Teleoperation with Rapid Residual Adaptation",
     "paper_url": "https://arxiv.org/abs/2602.08594",
-    "project_url": "https://baai-humanoid.github.io/MOSAIC",
+    "project_url": "https://baai-humanoid.github.io/MOSAIC/",
     "repository_url": "https://github.com/BAAI-Humanoid/MOSAIC",
     "comments": "add project page: training codes and data are open sourced",
     "code_status": "available",
     "code_evidence": [
-      "Inspected public GitHub page: https://github.com/BAAI-Humanoid/MOSAIC",
-      "Implementation examples: scripts/analyze_dataset.py",
-      "Completeness and reproducibility have not been verified"
+      "Detected 67 source files; examples: scripts/analyze_dataset.py, scripts/batch_csv_to_npz.py, scripts/batch_npy_to_csv.py, scripts/batch_pkl_to_csv.py, scripts/csv_to_npz.py",
+      "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.297038+00:00",
+    "code_checked_at": "2026-11-24T18:38:55.984147+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -22417,12 +22665,12 @@
     "paper_url": "https://arxiv.org/abs/2602.08370",
     "project_url": null,
     "repository_url": null,
-    "comments": "10 pages, 4 figures",
+    "comments": "10 pages, 4 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.297267+00:00",
+    "code_checked_at": "2026-11-24T18:38:57.820201+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -22477,12 +22725,12 @@
     "paper_url": "https://arxiv.org/abs/2602.06827",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.297355+00:00",
+    "code_checked_at": "2026-11-24T18:38:57.879311+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -22538,12 +22786,12 @@
     "paper_url": "https://arxiv.org/abs/2602.06341",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.297414+00:00",
+    "code_checked_at": "2026-11-24T18:38:57.961995+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -22751,12 +22999,12 @@
     "paper_url": "https://arxiv.org/abs/2602.00401",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.297493+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.041687+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -22811,12 +23059,12 @@
     "paper_url": "https://arxiv.org/abs/2602.15060",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.297600+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.123325+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -22929,12 +23177,12 @@
     "paper_url": "https://arxiv.org/abs/2602.21666",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.297692+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.239970+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23021,12 +23269,12 @@
     "paper_url": "https://arxiv.org/abs/2602.06382",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.297844+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.309794+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23050,12 +23298,12 @@
     "paper_url": "https://arxiv.org/abs/2602.05855",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.297939+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.390204+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23079,12 +23327,12 @@
     "paper_url": "https://arxiv.org/abs/2602.05791",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298002+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.468927+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23142,12 +23390,12 @@
     "paper_url": "https://arxiv.org/abs/2602.03511",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298074+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.551656+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23171,12 +23419,12 @@
     "paper_url": "https://arxiv.org/abs/2602.03002",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298141+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.634412+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23229,12 +23477,12 @@
     "paper_url": "https://arxiv.org/abs/2602.04515",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298228+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.694575+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23290,12 +23538,12 @@
     "paper_url": "https://arxiv.org/abs/2602.08518",
     "project_url": null,
     "repository_url": null,
-    "comments": "Accepted to Advanced Intelligent Systems",
+    "comments": "Accepted to Advanced Intelligent Systems [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298306+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.782058+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23319,12 +23567,12 @@
     "paper_url": "https://arxiv.org/abs/2602.11337",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298387+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.861528+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23349,12 +23597,12 @@
     "paper_url": "https://arxiv.org/abs/2602.21599",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298486+00:00",
+    "code_checked_at": "2026-11-24T18:38:58.944367+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23408,12 +23656,12 @@
     "paper_url": "https://arxiv.org/abs/2602.23205",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298561+00:00",
+    "code_checked_at": "2026-11-24T18:38:59.003471+00:00",
     "authors": [],
     "published": "2026-02",
     "published_date": "2026-02-01",
@@ -23464,12 +23712,12 @@
     "paper_url": "https://arxiv.org/abs/2601.23080",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298654+00:00",
+    "code_checked_at": "2026-11-24T18:38:59.062535+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
@@ -23493,12 +23741,12 @@
     "paper_url": "https://arxiv.org/abs/2601.22517",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298723+00:00",
+    "code_checked_at": "2026-11-24T18:38:59.123522+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
@@ -23520,14 +23768,15 @@
     "arxiv_id": "2601.17440",
     "title": "PILOT: A Perceptive Integrated Low-level Controller for Loco-manipulation over Unstructured Scenes",
     "paper_url": "https://arxiv.org/abs/2601.17440",
-    "project_url": null,
+    "project_url": "http://scenarios.To",
     "repository_url": null,
-    "comments": "8 pages, 4 figures",
-    "code_status": "not_found",
+    "comments": "8 pages, 4 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "unknown",
     "code_evidence": [
-      "No repository link found in inspected publication/project content"
+      "Project page inspection failed: ConnectionError",
+      "Link discovery incomplete; absence of code cannot be confirmed"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298810+00:00",
+    "code_checked_at": "2026-11-24T18:38:59.191690+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
@@ -23613,12 +23862,12 @@
     "paper_url": "https://arxiv.org/abs/2601.09518",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298902+00:00",
+    "code_checked_at": "2026-11-24T18:38:59.331744+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
@@ -23704,12 +23953,12 @@
     "paper_url": "https://arxiv.org/abs/2601.14874",
     "project_url": null,
     "repository_url": null,
-    "comments": "This paper has been accepted for publication at LBR of HRI 2026 conference",
+    "comments": "This paper has been accepted for publication at LBR of HRI 2026 conference [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.298988+00:00",
+    "code_checked_at": "2026-11-24T18:38:59.415522+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
