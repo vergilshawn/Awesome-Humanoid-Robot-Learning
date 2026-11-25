@@ -1,5 +1,228 @@
 [
   {
+    "arxiv_id": "2611.32944",
+    "title": "DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking",
+    "paper_url": "https://arxiv.org/abs/2611.32944",
+    "project_url": null,
+    "repository_url": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-25T17:58:39.288980+00:00",
+    "authors": [
+      "Chaoyue Xing",
+      "Linyi Huang",
+      "Yiting He",
+      "Yixuan Yin",
+      "Siqi Hou",
+      "Yi Zhang",
+      "Liyuan Pan",
+      "Miaomiao Liu",
+      "Daqi Liu"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-24",
+    "abstract": "Whole-body motion tracking enables humanoid robots to reproduce diverse skills from human demonstrations. Existing model-free reinforcement learning methods either distill motion specialists into a single policy at the cost of performance or train a generalist policy directly using cluster-scale computation. SuperMimic reduces this computational cost through a differentiable world model that implicitly learns the physics shared across motions by predicting the next state from the current state and action. However, this implicit formulation may not fully capture the underlying physical processes. Errors around changes of support can accumulate over imagined rollouts used to train the tracking policy. To address this challenge, we introduce DynaMimic, a differentiable world model that explicitly incorporates shared physics into state prediction. Specifically, its network predicts a contact wrench at each candidate support link and a residual generalized force. DynaMimic then uses these predictions to compute the next state through closed-form Lagrangian forward dynamics. Across 60 full LAFAN1 motions, DynaMimic reduces mean per-joint position error (MPJPE) by 18.6% relative to SuperMimic. For terrain tracking, we give both methods the same local height maps. Relative to terrain-conditioned SuperMimic, DynaMimic reduces MPJPE by 14.9% on A3 Parkour (66.15 to 56.28~mm) and by 10.8% on GRAIL terrain clips (141.88 to 126.57~mm). On a real A3 humanoid, the learned policies can perform diverse skills, such as floor recovery, cartwheel and a box vault.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "World Model",
+      "Human Demonstration",
+      "Humanoid",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2611.32665",
+    "title": "DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models",
+    "paper_url": "https://arxiv.org/abs/2611.32665",
+    "project_url": null,
+    "repository_url": null,
+    "comments": "14 pages, 6 figures, 8 tables. Conference preprint. Corresponding author: Hesheng Wang [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-25T17:58:39.345153+00:00",
+    "authors": [
+      "Sichen Wu",
+      "Qian Sun",
+      "Mengfan Liu",
+      "Weikai Qin",
+      "Bike Zhu",
+      "Hesheng Wang"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-24",
+    "abstract": "Vision-language-action (VLA) models have achieved strong results in arm-centric manipulation, yet humanoid whole-body control (WBC) requires dynamic balance and tightly coupled full-body coordination. Existing hierarchical humanoid VLAs typically decouple motion generation from physical execution, leaving tracking and balance errors unable to directly optimize the VLA generator. We propose DiffGR00T, an end-to-end differentiable training framework that couples GR00T N1.7 with SONIC, a pretrained whole-body behavior foundation model. To enable execution-aware differentiable training, we replace the non-differentiable simulator with a learned, action-conditioned world model, allowing multi-step body-execution losses to backpropagate through the frozen whole-body controller and the flow-matching sampler directly into the VLA action head. On four HumanoidArena simulation tasks, DiffGR00T improves average task success by 12.5 percentage points over the supervised base VLA (59.2% to 71.7%), demonstrating that execution-aware gradients effectively align high-level motion generation with closed-loop whole-body dynamics.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Manipulation",
+      "World Model",
+      "Simulator",
+      "Humanoid",
+      "Vision-Language",
+      "Foundation Model",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2611.32642",
+    "title": "BARE: Body-Aware Reflexive Evasion for Humanoid Robots",
+    "paper_url": "https://arxiv.org/abs/2611.32642",
+    "project_url": null,
+    "repository_url": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-25T17:58:39.555684+00:00",
+    "authors": [
+      "Zihao Li",
+      "Tong Chen",
+      "Hua Song",
+      "Zitong Ding",
+      "Zihao Xu",
+      "Ce Hao",
+      "Weibang Bai"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-24",
+    "abstract": "Dynamic obstacle avoidance is essential for safely deploying humanoid robots in real-world environments, where rapidly approaching objects require immediate evasive responses. Recent advances in reflexive evasion have focused primarily on quadrupeds, which typically rely on large-scale whole-body maneuvers. In contrast, humanoids can exploit their rich body articulation to evade through small, localized body adjustments. By moving threatened body regions without repositioning the entire body, these responses may require less execution time and less surrounding free space. However, local adjustments can alter mass distribution or support conditions, making it challenging to achieve rapid evasion while maintaining whole-body stability. To this end, we propose BARE (Body-Aware Reflexive Evasion), a humanoid reflexive evasion framework guided by human motion priors that enables rapid local evasion while maintaining whole-body stability. A risk-guided motion adapter is designed to select reference motions from a retargeted human evasive motion library based on the threatened body region and to adjust their temporal phases based on collision urgency, allowing the robot to reach evasive postures before potential contact. Conditioned on the adapted reference and link-level collision risk, a reflexive evasion policy learns through reinforcement learning to coordinate local body adjustments with whole-body stabilization. We validate BARE in simulation and real-world experiments, demonstrating its ability to perform targeted local evasion while maintaining whole-body stability.",
+    "categories": [
+      "Locomotion"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Humanoid",
+      "Collision",
+      "PPO",
+      "Locomotion"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Locomotion"
+  },
+  {
+    "arxiv_id": "2611.32260",
+    "title": "EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances",
+    "paper_url": "https://arxiv.org/abs/2611.32260",
+    "project_url": null,
+    "repository_url": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-25T17:58:39.634469+00:00",
+    "authors": [
+      "Yiming Zeng",
+      "Jiangyuxuan Dai",
+      "Yuheng Na",
+      "Tan Zhu Xuan",
+      "Zihan Lin",
+      "Xinfang Qi",
+      "Shijian Zhang",
+      "Chengqi Shi",
+      "Yihan Kuang",
+      "Zhide Zhong",
+      "Junjie He",
+      "Junfeng Li",
+      "Zimu Han",
+      "Naipeng Li",
+      "Haoang Li"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-24",
+    "abstract": "Training humanoid vision-language-action (VLA) models relies heavily on costly real-robot teleoperation. Recent efforts convert egocentric human demonstrations into humanoid training data. However, most methods still require wearable motion trackers and leave important hand-object interaction cues implicit. Many also mix in real-robot teleoperation data for VLA post-training. These dependencies limit scalable data collection, while implicit interaction cues make precise contact harder to learn. To overcome these limitations, we propose EgoLoAF, the first paradigm to derive all training data for humanoid loco-manipulation directly from egocentric demonstrations without wearable motion trackers. We post-train the VLA on the converted data alone, without real-robot teleoperation demonstrations, and use explicit hand-object interaction cues to guide action generation. Specifically, to obtain humanoid action targets, we estimate torso motion from recorded camera poses and reconstruct both hand trajectories from video. From the same recording, we use each hand's current pose relative to the object to represent hand-object affordances. During post-training, we inject these affordances into the action expert through cross-attention while keeping the vision-language backbone frozen. Additionally, we release 128,400 egocentric demonstration episodes spanning 1,000 hours and 1,284 tasks, together with converted humanoid action trajectories and rendered robot-view observations. Across four real-world tasks, EgoLoAF nearly achieves teleoperation performance (73.1 vs. 74.4 in mean Task Progress Score), while achieving a mean 4.03 times improvement in data-collection efficiency.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control",
+      "Manipulation",
+      "Teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Manipulation",
+      "Human Demonstration",
+      "Humanoid",
+      "Vision-Language",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
+    "arxiv_id": "2611.31863",
+    "title": "Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction",
+    "paper_url": "https://arxiv.org/abs/2611.31863",
+    "project_url": null,
+    "repository_url": null,
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
+    "code_status": "not_found",
+    "code_evidence": [
+      "No repository link found in inspected publication/project content"
+    ],
+    "code_checked_at": "2026-11-25T17:58:39.707721+00:00",
+    "authors": [
+      "Furui Xu",
+      "Weishuai Zeng",
+      "Zirui Wang",
+      "Kangning Yin",
+      "Jiacheng Bao",
+      "Huayi Wang",
+      "Yingying Qin",
+      "Yufei Xue",
+      "Yang Tang",
+      "Zenghao Tang",
+      "Kailin Li",
+      "Jingbo Wang",
+      "Weinan Zhang"
+    ],
+    "published": "2026-11",
+    "published_date": "2026-11-24",
+    "abstract": "Behavior Foundation Models (BFMs) have emerged as a promising paradigm for general-purpose humanoid control through pretraining on large-scale behavioral data. However, their proficiency in whole-body coordination does not readily extend to scene interaction, which requires adapting motion to scene-dependent geometric constraints and contact dynamics. To bridge this gap, we introduce Ada-BFM, a post-training framework that adapts pretrained BFMs for humanoid scene interaction. Ada-BFM augments the original architecture with a lightweight adapter, enabling interaction-specific adjustments while leveraging pretrained control capabilities. Rather than producing a separate controller for each task, the framework yields a shared model for each interaction domain, supporting diverse tasks involving terrain or object interaction. Extensive experiments in simulation and the real world demonstrate that Ada-BFM enables diverse scene interaction behaviors, accelerates learning compared with training from scratch, and largely preserves pretrained behavioral competence. These findings establish Ada-BFM as an effective and efficient approach to extending the capabilities of BFMs beyond their pretraining settings while retaining their strengths in general whole-body control.",
+    "categories": [
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "tags": [
+      "Whole-Body Control",
+      "Humanoid",
+      "Foundation Model",
+      "Contact Dynamics",
+      "PPO",
+      "Loco-Manipulation and Whole-Body Control"
+    ],
+    "real_robot": false,
+    "open_source": false,
+    "platform": null,
+    "summary": "",
+    "primary_category": "Loco-Manipulation and Whole-Body Control"
+  },
+  {
     "arxiv_id": "2611.30449",
     "title": "CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors",
     "paper_url": "https://arxiv.org/abs/2611.30449",
@@ -10,7 +233,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:37.557115+00:00",
+    "code_checked_at": "2026-11-25T17:58:39.766243+00:00",
     "authors": [
       "Lijun Han",
       "Muyuan Ma",
@@ -55,7 +278,7 @@
       "Detected 239 source files; examples: benchmarks/bones.py, benchmarks/evaluate.py, benchmarks/hiphi.py, benchmarks/humanml3d.py, benchmarks/metrics.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-24T18:38:37.675098+00:00",
+    "code_checked_at": "2026-11-25T17:58:39.844958+00:00",
     "authors": [
       "Yue Huang",
       "Tianshan Zhang",
@@ -94,7 +317,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:39.187835+00:00",
+    "code_checked_at": "2026-11-25T17:58:40.929395+00:00",
     "authors": [
       "Yulun Zhuang",
       "Hanyu Zhang",
@@ -132,7 +355,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:39.379683+00:00",
+    "code_checked_at": "2026-11-25T17:58:41.218927+00:00",
     "authors": [
       "Zelin Shen",
       "Gabriel Ramos Salinas",
@@ -171,7 +394,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:44.013975+00:00",
+    "code_checked_at": "2026-11-25T17:58:41.665583+00:00",
     "authors": [
       "Wenjie Lin",
       "Jin Wei-Kocsis"
@@ -207,7 +430,7 @@
       "Detected 462 source files; examples: real/deploy/brainco_hand_bridge.py, real/deploy/place_doll_sonic_client.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/composed_camera.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/drivers/dummy.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/drivers/oak.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-24T18:38:44.148791+00:00",
+    "code_checked_at": "2026-11-25T17:58:41.872781+00:00",
     "authors": [
       "Yizhi Chen",
       "Zhanxiang Cao",
@@ -260,7 +483,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:45.840426+00:00",
+    "code_checked_at": "2026-11-25T17:58:42.872562+00:00",
     "authors": [
       "Songyang Liu",
       "Yu Hou",
@@ -295,7 +518,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:45.939770+00:00",
+    "code_checked_at": "2026-11-25T17:58:42.979510+00:00",
     "authors": [
       "Xuzhe Dang",
       "Stefan Edelkamp"
@@ -329,7 +552,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:46.039132+00:00",
+    "code_checked_at": "2026-11-25T17:58:43.025017+00:00",
     "authors": [
       "Kun Yang",
       "Xuanyu Chen",
@@ -370,7 +593,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:46.123849+00:00",
+    "code_checked_at": "2026-11-25T17:58:43.084889+00:00",
     "authors": [
       "Qianxing Li"
     ],
@@ -403,7 +626,7 @@
     "code_evidence": [
       "Publication/project page: Code (coming soon"
     ],
-    "code_checked_at": "2026-11-24T18:38:46.196874+00:00",
+    "code_checked_at": "2026-11-25T17:58:43.160904+00:00",
     "authors": [
       "S K Swaminathan",
       "Shivam Sood",
@@ -440,7 +663,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:46.310863+00:00",
+    "code_checked_at": "2026-11-25T17:58:43.233555+00:00",
     "authors": [
       "Jinlin Gan",
       "Mingzhe Li",
@@ -490,7 +713,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:46.392574+00:00",
+    "code_checked_at": "2026-11-25T17:58:43.284144+00:00",
     "authors": [
       "Zhaoshan Yang",
       "Chenglei Li",
@@ -535,7 +758,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:46.471294+00:00",
+    "code_checked_at": "2026-11-25T17:58:43.347643+00:00",
     "authors": [
       "Kai Lu",
       "Chenyang Ma",
@@ -573,7 +796,7 @@
       "Detected 2 source files; examples: preview/project.py, preview/readme.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-24T18:38:46.753951+00:00",
+    "code_checked_at": "2026-11-25T17:58:43.590661+00:00",
     "authors": [
       " EngineAI"
     ],
@@ -602,13 +825,13 @@
     "paper_url": "https://arxiv.org/abs/2611.26293",
     "project_url": null,
     "repository_url": "https://github.com/robfiras/loco-mujoco",
-    "comments": "26 pages, 11 figures, 4 tables. Code: https://github.com/robfiras/loco-mujoco",
+    "comments": "28 pages, 11 figures, 5 tables. Code: https://github.com/robfiras/loco-mujoco",
     "code_status": "available",
     "code_evidence": [
       "Detected 211 source files; examples: examples/replay_datasets/example.py, examples/replay_datasets/smpl_example.py, examples/speed_test.py, examples/training_examples/jax_amp/eval.py, examples/training_examples/jax_amp/experiment.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-24T18:38:48.191894+00:00",
+    "code_checked_at": "2026-11-25T17:58:44.597671+00:00",
     "authors": [
       "Firas Al-Hafez",
       "Davide Tateo",
@@ -656,7 +879,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:49.429005+00:00",
+    "code_checked_at": "2026-11-25T17:58:45.566900+00:00",
     "authors": [
       "Fatima Atwi",
       "Constant Roux",
@@ -696,7 +919,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:49.548138+00:00",
+    "code_checked_at": "2026-11-25T17:58:45.728615+00:00",
     "authors": [
       "Ganeshvar Soenessardien",
       "Michael Przystupa",
@@ -733,7 +956,7 @@
     "code_evidence": [
       "Multiple repository candidates require review: https://github.com/noahcao/FAB, https://github.com/noahcao/FAH"
     ],
-    "code_checked_at": "2026-11-24T18:38:49.628500+00:00",
+    "code_checked_at": "2026-11-25T17:58:45.805841+00:00",
     "authors": [
       "Jinkun Cao"
     ],
@@ -765,7 +988,7 @@
     "code_evidence": [
       "Publication/project page: code will be released"
     ],
-    "code_checked_at": "2026-11-24T18:38:49.947548+00:00",
+    "code_checked_at": "2026-11-25T17:58:46.041872+00:00",
     "authors": [
       "Bin Li",
       "Xing Zhu",
@@ -802,7 +1025,7 @@
       "Detected 1 source files; examples: scripts/build.py",
       "Completeness, dependencies, training assets and reproducibility have not been verified"
     ],
-    "code_checked_at": "2026-11-24T18:38:50.179707+00:00",
+    "code_checked_at": "2026-11-25T17:58:46.185621+00:00",
     "authors": [
       "Xingyi Wang",
       "Bin Li",
@@ -848,7 +1071,7 @@
     "code_evidence": [
       "Publication/project page: Code (coming soon"
     ],
-    "code_checked_at": "2026-11-24T18:38:51.578552+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.188064+00:00",
     "authors": [
       "Qianzhong Chen",
       "Muyuan Lin",
@@ -896,7 +1119,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:51.785312+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.304350+00:00",
     "authors": [
       "Lequn Fu",
       "Yufeng Hu",
@@ -938,7 +1161,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:51.909023+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.350892+00:00",
     "authors": [
       "Zejian Kang",
       "Yeqiang Wang",
@@ -981,7 +1204,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:51.996638+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.405699+00:00",
     "authors": [
       "Lechen Zhang",
       "Chenyuan Chen",
@@ -1025,7 +1248,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:52.180311+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.459831+00:00",
     "authors": [
       "Koki Inami",
       "Takashi Sato",
@@ -1066,7 +1289,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:52.249716+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.521566+00:00",
     "authors": [
       "Zhaoyang Li",
       "Chiyu Zhang",
@@ -1105,7 +1328,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:52.309869+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.615247+00:00",
     "authors": [
       "Fumihiko Asano",
       "Cong Yan"
@@ -1140,7 +1363,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:52.381474+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.680828+00:00",
     "authors": [
       "Yongji Fu",
       "Man Cao",
@@ -1178,7 +1401,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:52.445731+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.722753+00:00",
     "authors": [
       "Murad Dawood",
       "Oezge Drama Berkenkamp",
@@ -1220,7 +1443,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:52.686356+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.777112+00:00",
     "authors": [
       "Markus Peschl",
       "Dana Kianfar",
@@ -1260,7 +1483,7 @@
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-24T18:38:52.819419+00:00",
+    "code_checked_at": "2026-11-25T17:58:47.938661+00:00",
     "authors": [
       "Nico Bohlinger",
       "Jan Peters"
@@ -24076,12 +24299,12 @@
     "paper_url": "https://arxiv.org/abs/2601.10365",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299062+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.005351+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
@@ -24105,12 +24328,12 @@
     "paper_url": "https://arxiv.org/abs/2601.08485",
     "project_url": null,
     "repository_url": null,
-    "comments": "Conditionally accepted by IEEE Transactions on Robotics (T-RO). Previously known as AME-2",
+    "comments": "Conditionally accepted by IEEE Transactions on Robotics (T-RO). Previously known as AME-2 [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299155+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.099716+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
@@ -24133,12 +24356,12 @@
     "paper_url": "https://arxiv.org/abs/2601.06286",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299248+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.176787+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
@@ -24162,12 +24385,12 @@
     "paper_url": "https://arxiv.org/abs/2601.04948",
     "project_url": null,
     "repository_url": null,
-    "comments": "Accepted by the 25th IEEE-RAS International Conference on Humanoid Robots (Humanoids 2026)",
+    "comments": "Accepted by the 25th IEEE-RAS International Conference on Humanoid Robots (Humanoids 2026) [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299326+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.221407+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
@@ -24191,12 +24414,12 @@
     "paper_url": "https://arxiv.org/abs/2601.12790",
     "project_url": null,
     "repository_url": null,
-    "comments": "12 pages, 11 figures",
+    "comments": "12 pages, 11 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299402+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.271570+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
@@ -24251,12 +24474,12 @@
     "paper_url": "https://arxiv.org/abs/2601.18963",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299471+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.319516+00:00",
     "authors": [],
     "published": "2026-01",
     "published_date": "2026-01-01",
@@ -24341,12 +24564,12 @@
     "paper_url": "https://arxiv.org/abs/2512.19043",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299547+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.371971+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24371,12 +24594,12 @@
     "paper_url": "https://arxiv.org/abs/2512.17183",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299646+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.413001+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24431,12 +24654,12 @@
     "paper_url": "https://arxiv.org/abs/2512.13093",
     "project_url": null,
     "repository_url": null,
-    "comments": "15 pages, 17 figures",
+    "comments": "15 pages, 17 figures [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299731+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.454222+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24460,12 +24683,12 @@
     "paper_url": "https://arxiv.org/abs/2512.06571",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299812+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.500722+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24489,12 +24712,12 @@
     "paper_url": "https://arxiv.org/abs/2512.01336",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.299928+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.557291+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24551,12 +24774,12 @@
     "paper_url": "https://arxiv.org/abs/2512.23650",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300008+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.723490+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24580,12 +24803,12 @@
     "paper_url": "https://arxiv.org/abs/2512.23649",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300071+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.768621+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24609,12 +24832,12 @@
     "paper_url": "https://arxiv.org/abs/2512.16446",
     "project_url": null,
     "repository_url": null,
-    "comments": "12 pages, 3 figures, 4 tables. Accepted at RiTA 2025 (Springer LNNS)",
+    "comments": "12 pages, 3 figures, 4 tables. Accepted at RiTA 2025 (Springer LNNS) [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300141+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.816952+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24702,12 +24925,12 @@
     "paper_url": "https://arxiv.org/abs/2512.09431",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300212+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.859863+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24793,12 +25016,12 @@
     "paper_url": "https://arxiv.org/abs/2512.00971",
     "project_url": null,
     "repository_url": null,
-    "comments": "in submission, under review",
+    "comments": "in submission, under review [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300306+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.914535+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24885,12 +25108,12 @@
     "paper_url": "https://arxiv.org/abs/2512.24657",
     "project_url": null,
     "repository_url": null,
-    "comments": "Preprint",
+    "comments": "Preprint [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300371+00:00",
+    "code_checked_at": "2026-11-25T17:58:50.955081+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24915,12 +25138,12 @@
     "paper_url": "https://arxiv.org/abs/2512.16705",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300454+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.092986+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -24973,12 +25196,12 @@
     "paper_url": "https://arxiv.org/abs/2512.07998",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300524+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.159439+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -25001,12 +25224,12 @@
     "paper_url": "https://arxiv.org/abs/2512.07248",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300597+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.364751+00:00",
     "authors": [],
     "published": "2025-12",
     "published_date": "2025-12-01",
@@ -25180,12 +25403,12 @@
     "paper_url": "https://arxiv.org/abs/2511.21169",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300692+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.413639+00:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",
@@ -25211,12 +25434,12 @@
     "paper_url": "https://arxiv.org/abs/2511.20275",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300751+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.571166+00:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",
@@ -25241,12 +25464,12 @@
     "paper_url": "https://arxiv.org/abs/2511.19236",
     "project_url": null,
     "repository_url": null,
-    "comments": "23 pages, 8 figures, 11 tables",
+    "comments": "23 pages, 8 figures, 11 tables [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300825+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.620511+00:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",
@@ -25270,12 +25493,12 @@
     "paper_url": "https://arxiv.org/abs/2511.18509",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300893+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.667109+00:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",
@@ -25299,12 +25522,12 @@
     "paper_url": "https://arxiv.org/abs/2511.17373",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.300984+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.783619+00:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",
@@ -25361,12 +25584,12 @@
     "paper_url": "https://arxiv.org/abs/2511.14756",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.301071+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.825160+00:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",
@@ -25420,12 +25643,12 @@
     "paper_url": "https://arxiv.org/abs/2511.10635",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.301137+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.875935+00:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",
@@ -25448,12 +25671,12 @@
     "paper_url": "https://arxiv.org/abs/2511.09241",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.301191+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.917370+00:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",
@@ -25602,12 +25825,12 @@
     "paper_url": "https://arxiv.org/abs/2511.04131",
     "project_url": null,
     "repository_url": null,
-    "comments": "Accepted to ICLR 2026",
+    "comments": "Accepted to ICLR 2026 [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.301267+00:00",
+    "code_checked_at": "2026-11-25T17:58:51.968864+00:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",
@@ -25691,12 +25914,12 @@
     "paper_url": "https://arxiv.org/abs/2511.23300",
     "project_url": null,
     "repository_url": null,
-    "comments": "",
+    "comments": "[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]",
     "code_status": "not_found",
     "code_evidence": [
       "No repository link found in inspected publication/project content"
     ],
-    "code_checked_at": "2026-11-13T01:43:20.301351+00:00",
+    "code_checked_at": "2026-11-25T17:58:52.009179+00:00",
     "authors": [],
     "published": "2025-11",
     "published_date": "2025-11-01",

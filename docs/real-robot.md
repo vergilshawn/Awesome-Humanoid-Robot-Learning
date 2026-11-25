@@ -22,7 +22,7 @@ Papers with real humanoid robot deployment and experiments.
 ## CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.30449)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -52,7 +52,7 @@ Coordinating locomotion and dexterous manipulation is fundamental to humanoid ro
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29897)
 - **Project:** [Project page](https://aigeeksgroup.github.io/MotionMamba2.0/)
 - **Repository:** [Code](https://github.com/AIGeeksGroup/MotionMamba2.0)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -79,7 +79,7 @@ Long-horizon, real-time controllable motion generation is essential for interact
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.30077)
 - **Project:** [Project page](https://silvery107.github.io/pushmimic/)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -109,7 +109,7 @@ Humanoid box pushing is challenging when the physical properties of the task, su
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29277)
 - **Project:** [Project page](https://chenyizhi123.github.io/zeta0-project/)
 - **Repository:** [Code](https://github.com/chenyizhi123/Zeta0)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -135,7 +135,7 @@ World Action Models anticipate visual outcomes to guide robot actions, yet human
 ## Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27845)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -160,7 +160,7 @@ Humanoid robots can reduce personnel exposure in electrical switching, but safe 
 ## Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27648)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -186,7 +186,7 @@ Training a humanoid motion tracker by backpropagating imagined returns through a
 ## HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27181)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -217,7 +217,7 @@ As humanoid robots increasingly enter real-world environments, recovering their 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -244,7 +244,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 ## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -269,7 +269,7 @@ Learning-based methods now let humanoids run robustly, and they have begun to co
 ## ROSE: A Shared Cross-Embodiment Facial-Motion Latent Space for Humanoid Robot Expression
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20950)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -295,7 +295,7 @@ Natural, coherent full-face dynamic expressions are central to making humanoid r
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 

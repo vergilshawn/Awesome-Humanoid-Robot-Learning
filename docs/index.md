@@ -8,17 +8,17 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 986
+- **Total Papers:** 991
 - **Real Robot Papers:** 154
 - **Code Availability:** 212
 - **Latest Month:** 2026-11
 
 ### Categories
 
-- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (342)
+- [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (345)
 - [Manipulation](/manipulation/) (83)
 - [Teleoperation](/teleoperation/) (51)
-- [Locomotion](/locomotion/) (267)
+- [Locomotion](/locomotion/) (269)
 - [Navigation](/navigation/) (29)
 - [State Estimation](/state-estimation/) (33)
 - [Sim-to-Real](/sim-to-real/) (13)
@@ -31,6 +31,16 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 🔥 Latest Papers
 
+-  [DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking](https://arxiv.org/abs/2611.32944) — 2026-11
+  - [Locomotion](/locomotion/)
+-  [DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models](https://arxiv.org/abs/2611.32665) — 2026-11
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [BARE: Body-Aware Reflexive Evasion for Humanoid Robots](https://arxiv.org/abs/2611.32642) — 2026-11
+  - [Locomotion](/locomotion/)
+-  [EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances](https://arxiv.org/abs/2611.32260) — 2026-11
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
+-  [Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction](https://arxiv.org/abs/2611.31863) — 2026-11
+  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 -  🤖 [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — 2026-11
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
 - 🌟 🤖 [Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://arxiv.org/abs/2611.29897) — 2026-11
@@ -41,34 +51,24 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Teleoperation](/teleoperation/)
 -  [CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments](https://arxiv.org/abs/2611.29749) — 2026-11
   - [Locomotion](/locomotion/)
-- 🌟 🤖 [$ζ_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control](https://arxiv.org/abs/2611.29277) — 2026-11
-  - [Locomotion](/locomotion/)
--  🤖 [Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter](https://arxiv.org/abs/2611.27845) — 2026-11
-  - [Teleoperation](/teleoperation/)
--  🤖 [Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking](https://arxiv.org/abs/2611.27648) — 2026-11
-  - [Locomotion](/locomotion/)
--  [S-BFM: A Behavioral Foundation Model for Humanoid Control from Sparse Spatiotemporal Goals](https://arxiv.org/abs/2611.27552) — 2026-11
-  - [Locomotion](/locomotion/)
--  [AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control](https://arxiv.org/abs/2611.27397) — 2026-11
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (839)
-- **Locomotion** (388)
-- **Loco-Manipulation and Whole-Body Control** (379)
-- **Manipulation** (289)
-- **PPO** (155)
-- **Reinforcement Learning** (141)
-- **Whole-Body Control** (134)
+- **Humanoid** (844)
+- **Locomotion** (390)
+- **Loco-Manipulation and Whole-Body Control** (382)
+- **Manipulation** (291)
+- **PPO** (158)
+- **Reinforcement Learning** (143)
+- **Whole-Body Control** (136)
 - **Simulation Benchmark** (109)
-- **Teleoperation** (101)
+- **Teleoperation** (102)
 - **Dataset** (77)
 - **State Estimation** (76)
 - **Physics-Based Character Animation** (75)
-- **Vision-Language** (68)
+- **Vision-Language** (70)
 - **Benchmark** (63)
 - **Zero-Shot** (60)
 - **Walking** (60)
@@ -77,14 +77,14 @@ A curated and automatically updated collection of humanoid robot learning resear
 - **Diffusion** (51)
 - **Human Motion Analysis and Synthesis** (47)
 - **Distillation** (46)
-- **Human Demonstration** (43)
+- **Human Demonstration** (45)
+- **Foundation Model** (44)
 - **Robustness** (43)
-- **Foundation Model** (42)
 - **Proprioception** (41)
 - **Fine-tuning** (40)
 - **Safety** (37)
 - **Hardware Design** (36)
-- **Collision** (34)
+- **Collision** (35)
 - **Gait** (34)
 
 ---
@@ -95,6 +95,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-11](/loco-manipulation-and-whole-body-control/2026-11)
 
+- [DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models](https://arxiv.org/abs/2611.32665) — `Whole-Body Control`, `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Vision-Language`
+- [EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances](https://arxiv.org/abs/2611.32260) — `Teleoperation`, `Manipulation`, `Human Demonstration`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`
+- [Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction](https://arxiv.org/abs/2611.31863) — `Whole-Body Control`, `Humanoid`, `Foundation Model`, `Contact Dynamics`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — `Locomotion`, `Manipulation`, `Humanoid`, `Vision-Language`, `Dataset`, `Loco-Manipulation and Whole-Body Control`
 - [BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight](https://arxiv.org/abs/2611.27047) — `Manipulation`, `Humanoid`, `Vision-Language`, `Benchmark`, `Loco-Manipulation and Whole-Body Control`
 - [PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.26596), [website](https://kl-research.github.io/pgx/) — `Manipulation`, `Navigation`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`, `Real Robot`
@@ -808,6 +811,8 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-11](/locomotion/2026-11)
 
+- [DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking](https://arxiv.org/abs/2611.32944) — `Reinforcement Learning`, `World Model`, `Human Demonstration`, `Humanoid`, `PPO`, `Locomotion`
+- [BARE: Body-Aware Reflexive Evasion for Humanoid Robots](https://arxiv.org/abs/2611.32642) — `Reinforcement Learning`, `Humanoid`, `Collision`, `PPO`, `Locomotion`
 - 🌟 [Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://arxiv.org/abs/2611.29897), [website](https://aigeeksgroup.github.io/MotionMamba2.0/), [code](https://github.com/AIGeeksGroup/MotionMamba2.0) — `Locomotion`, `Humanoid`, `Diffusion`, `Real Robot`, `Code Available`
 - [CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments](https://arxiv.org/abs/2611.29749), [website](https://carlhoi.github.io/) — `World Model`, `Simulator`, `Humanoid`, `Benchmark`, `Locomotion`
 - 🌟 [$ζ_0$: A Framework for World Action Models with Joint Scene and Body Foresight in Humanoid Control](https://arxiv.org/abs/2611.29277), [website](https://chenyizhi123.github.io/zeta0-project/), [code](https://github.com/chenyizhi123/Zeta0) — `Humanoid`, `Vision-Language`, `Locomotion`, `Real Robot`, `Code Available`

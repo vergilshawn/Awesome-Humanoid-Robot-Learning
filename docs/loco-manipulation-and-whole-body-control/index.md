@@ -1,10 +1,10 @@
 # Loco-Manipulation and Whole-Body Control
 
-**342 papers** in this category.
+**345 papers** in this category.
 
 ## Months
 
-- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (30 papers)
+- [2026-11](/loco-manipulation-and-whole-body-control/2026-11) (33 papers)
 - [2026-10](/loco-manipulation-and-whole-body-control/2026-10) (57 papers)
 - [2026-09](/loco-manipulation-and-whole-body-control/2026-09) (34 papers)
 - [2026-08](/loco-manipulation-and-whole-body-control/2026-08) (14 papers)
@@ -41,10 +41,93 @@
 
 ## Recent Papers
 
+## DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.32665)
+- **Code checked:** 2026-11-25
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Sichen Wu, Qian Sun, Mengfan Liu, Weikai Qin, Bike Zhu, Hesheng Wang
+- **Published:** 2026-11
+- **Tags:**
+  - Whole-Body Control
+  - Manipulation
+  - World Model
+  - Simulator
+  - Humanoid
+  - Vision-Language
+  - Foundation Model
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Vision-language-action (VLA) models have achieved strong results in arm-centric manipulation, yet humanoid whole-body control (WBC) requires dynamic balance and tightly coupled full-body coordination. Existing hierarchical humanoid VLAs typically decouple motion generation from physical execution, leaving tracking and balance errors unable to directly optimize the VLA generator.
+
+---
+
+## EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.32260)
+- **Code checked:** 2026-11-25
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Yiming Zeng, Jiangyuxuan Dai, Yuheng Na, Tan Zhu Xuan, Zihan Lin, Xinfang Qi et al. (15 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Teleoperation
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+  - Vision-Language
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Training humanoid vision-language-action (VLA) models relies heavily on costly real-robot teleoperation. Recent efforts convert egocentric human demonstrations into humanoid training data.
+
+---
+
+## Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.31863)
+- **Code checked:** 2026-11-25
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Furui Xu, Weishuai Zeng, Zirui Wang, Kangning Yin, Jiacheng Bao, Huayi Wang et al. (13 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Whole-Body Control
+  - Humanoid
+  - Foundation Model
+  - Contact Dynamics
+  - PPO
+  - Loco-Manipulation and Whole-Body Control
+
+### Summary
+
+Behavior Foundation Models (BFMs) have emerged as a promising paradigm for general-purpose humanoid control through pretraining on large-scale behavioral data. However, their proficiency in whole-body coordination does not readily extend to scene interaction, which requires adapting motion to scene-dependent geometric constraints and contact dynamics.
+
+---
+
 ## CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.30449)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -72,7 +155,7 @@ Coordinating locomotion and dexterous manipulation is fundamental to humanoid ro
 ## BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27047)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -99,7 +182,7 @@ Humanoid loco-manipulation requires coordinating whole-body motion to perform ma
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -128,7 +211,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26420)
 - **Project:** [Project page](https://engineai-robotics.github.io/Awaken-HI/)
 - **Repository:** [Code](https://github.com/engineai-robotics/Awaken-HI)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -157,7 +240,7 @@ A central goal of humanoid robotics is for robots to perform the everyday work p
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25778)
 - **Project:** [Project page](https://mwondering.github.io/echo-bfm/)
 - **Repository:** [Code](https://github.com/mwondering/echo-bfm)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -187,7 +270,7 @@ Humanoid behavior foundation models (BFMs) acquire diverse skills through large-
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25251)
 - **Project:** [Project page](https://qianzhong-chen.github.io/wevo.github.io/)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -216,7 +299,7 @@ Reinforcement learning (RL) can improve vision-language-action (VLA) policies be
 ## Body Schema Policy: Body as the Vision-Action Interface for Efficient Robot Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22713)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -245,7 +328,7 @@ Currently, robots can learn whole-body loco-manipulation through scale: the stro
 ## Driving the Style: Velocity-Conditioned Whole-Body Control from Motion Demonstrations
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20888)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -275,7 +358,7 @@ Achieving human-like behavior on humanoid robots has advanced rapidly by leverag
 ## QTOP: Scaling Humanoid Motion Tracking with Quantile Critics
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.20791)
-- **Code checked:** 2026-11-24
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -533,92 +616,5 @@ Humanoid motion interfaces should accommodate application-specific movement cons
 ### Summary
 
 In recent years, humanoid loco-manipulation has progressed to whole-body grasping, lifting, and transport. A basic requirement underlying these tasks is carrying the object to its destination, which depends on the locomotion controller accurately executing velocity commands from the navigation policy.
-
----
-
-## From Festival Video to the Stage: A Sim-to-Real Ladder for Long-Horizon Expressive Whole-Body Dance on a Commercial Humanoid
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.11127)
-- **Code checked:** 2026-11-17
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Hesham Shehata
-- **Published:** 2026-11
-- **Real Robot:** ✅ — Unitree G1
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Humanoid
-  - Walking
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-
-### Summary
-
-We present a pipeline for transferring Awa Odori, a traditional Japanese festival dance, from monocular video to a commercial Unitree G1 EDU humanoid. The pipeline combines human mesh recovery, kinematic retargeting, reinforcement learning for motion tracking in simulation, and onboard deployment via ONNX.
-
----
-
-## DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.09605)
-- **Project:** [Project page](https://robbyant-research.github.io/DKWBC/)
-- **Code checked:** 2026-11-15
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Multiple repository candidates require review: https://github.com/robbyant-research/DKWBC, https://github.com/nv-tlabs/ardy
-
-</details>
-
-- **Authors:** Dingkun Wei, Zehong Shen, Huaijin Pi, Xueyang Wang, Xing Zhu, Hujun Bao et al. (8 authors)
-- **Published:** 2026-11
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Dataset
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-  - Simulation Benchmark
-
-### Summary
-
-Humanoid whole-body control requires a robot to track diverse reference motions while maintaining balance under gravity, torque limits, contact switching, and external disturbances. Existing reinforcement-learning-based trackers typically learn control outputs that jointly address motion tracking and balance.
-
----
-
-## SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2611.09266)
-- **Project:** [Project page](https://tianshuwu.github.io/sugarv2-humanoid/)
-- **Code checked:** 2026-11-15
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Publication/project page: Code (Coming Soon
-
-</details>
-
-- **Authors:** Tianshu Wu, Tianxiang Gui, Yue Chen, Tingxu Liu, Ziye Peng, Guangjie Yang et al. (10 authors)
-- **Published:** 2026-11
-- **Tags:**
-  - Reinforcement Learning
-  - Sim-to-Real
-  - Manipulation
-  - Domain Randomization
-  - Humanoid
-  - Distillation
-  - PPO
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Scaling up visual humanoid loco-manipulation skill acquisition requires reducing the human effort needed as tasks and spatial configurations expand, particularly in demonstration collection and task-specific training design. We present SUGARv2, a unified framework for learning diverse visual humanoid loco-manipulation skills through interaction reference synthesis and a shared training pipeline.
 
 ---

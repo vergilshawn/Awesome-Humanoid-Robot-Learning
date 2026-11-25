@@ -5,8 +5,13 @@ Code availability grouped by inspection status. Source-file detection does not v
 ## Unverified / 未核验 (0)
 
 
-## No project/code link found / 未发现项目或代码链接 (502)
+## No project/code link found / 未发现项目或代码链接 (507)
 
+- [DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking](https://arxiv.org/abs/2611.32944) — `Reinforcement Learning`, `World Model`, `Human Demonstration`, `Humanoid`, `PPO`, `Locomotion`
+- [DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models](https://arxiv.org/abs/2611.32665) — `Whole-Body Control`, `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Vision-Language`
+- [BARE: Body-Aware Reflexive Evasion for Humanoid Robots](https://arxiv.org/abs/2611.32642) — `Reinforcement Learning`, `Humanoid`, `Collision`, `PPO`, `Locomotion`
+- [EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances](https://arxiv.org/abs/2611.32260) — `Teleoperation`, `Manipulation`, `Human Demonstration`, `Humanoid`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`
+- [Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction](https://arxiv.org/abs/2611.31863) — `Whole-Body Control`, `Humanoid`, `Foundation Model`, `Contact Dynamics`, `PPO`, `Loco-Manipulation and Whole-Body Control`
 - [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — `Locomotion`, `Manipulation`, `Humanoid`, `Vision-Language`, `Dataset`, `Loco-Manipulation and Whole-Body Control`
 - [Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter](https://arxiv.org/abs/2611.27845) — `Teleoperation`, `Safety`, `Humanoid`, `Real Robot`
 - [Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking](https://arxiv.org/abs/2611.27648) — `World Model`, `Simulator`, `Humanoid`, `Locomotion`, `Real Robot`

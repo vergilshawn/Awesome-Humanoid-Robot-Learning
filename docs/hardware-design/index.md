@@ -135,7 +135,7 @@ Various musculoskeletal humanoids have been developed so far, and numerous studi
 ## Fauna Sprout: A lightweight, approachable, developer-ready humanoid robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2601.18963)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -157,7 +157,7 @@ Recent advances in learned control, large-scale simulation, and generative model
 ## Antagonistic Bowden-Cable Actuation of a Lightweight Robotic Hand: Toward Dexterous Manipulation for Payload Constrained Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.24657)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -180,7 +180,7 @@ Humanoid robots toward human-level dexterity require robotic hands capable of si
 ## Olaf: Bringing an Animated Character to Life in the Physical World
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.16705)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -226,7 +226,7 @@ Human video demonstrations provide abundant training data for learning robot pol
 ## DIJIT: A Robotic Head for an Active Observer
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2512.07998)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-25
 
 <details><summary>Code verification details / 核验依据</summary>
 
