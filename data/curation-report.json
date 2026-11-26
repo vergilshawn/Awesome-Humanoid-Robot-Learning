@@ -1231,11 +1231,11 @@
   ],
   "code_audit": {
     "status_counts": {
-      "not_found": 507,
+      "coming_soon": 51,
+      "no_repository": 143,
+      "unknown": 53,
+      "not_found": 508,
       "available": 212,
-      "no_repository": 141,
-      "coming_soon": 49,
-      "unknown": 52,
       "partial": 17,
       "empty": 13
     },
@@ -1249,12 +1249,86 @@
       "available": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
       "unknown": "Needs review / 访问失败或证据不足"
     },
-    "checked_count": 991,
+    "checked_count": 997,
     "unverified_count": 0,
-    "needs_review_count": 52,
+    "needs_review_count": 53,
     "method": "arXiv metadata and Comments; project page; GitHub README and file tree, with public HTML, blobless Git tree and bounded archive fallbacks when API access fails",
     "policy": "Source-file detection does not establish completeness, reproducibility or license compliance. Legacy links are unverified until inspected.",
     "papers": [
+      {
+        "arxiv_id": "2611.34884",
+        "title": "FineDex: Bridging Fine-Grained Human-Object Interaction Generation to Dexterous Humanoid Manipulation",
+        "project_url": "https://finedex.github.io/",
+        "repository_url": "https://github.com/zyjOrz/FineDex",
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-26T17:39:29.716574+00:00",
+        "evidence": [
+          "README: Code will be released",
+          "Detected 0 source files"
+        ]
+      },
+      {
+        "arxiv_id": "2611.34569",
+        "title": "Riding the Wave: Sim-to-Real Humanoid Control on Elastic Terrain",
+        "project_url": "https://fly-pigth.github.io/wave_rider/",
+        "repository_url": null,
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-26T17:39:31.106577+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
+      },
+      {
+        "arxiv_id": "2611.34519",
+        "title": "AGLR: Attribute-Guided Latent Refinement for Fine-Grained Humanoid Motion Generation and Editing",
+        "project_url": "https://syuan8889.github.io/AGLR-project/",
+        "repository_url": null,
+        "status": "coming_soon",
+        "status_label": "Coming soon / 代码待发布",
+        "checked_at": "2026-11-26T17:39:31.443695+00:00",
+        "evidence": [
+          "Publication/project page: Code (Coming Soon"
+        ]
+      },
+      {
+        "arxiv_id": "2611.34449",
+        "title": "HoloBrain-0.5 Technical Report",
+        "project_url": "https://horizonrobotics.github.io/robot_lab/holobrain_0_5/",
+        "repository_url": null,
+        "status": "unknown",
+        "status_label": "Needs review / 访问失败或证据不足",
+        "checked_at": "2026-11-26T17:39:31.601737+00:00",
+        "evidence": [
+          "Project page inspection failed: HTTPError",
+          "Link discovery incomplete; absence of code cannot be confirmed"
+        ]
+      },
+      {
+        "arxiv_id": "2611.33721",
+        "title": "A general-purpose safe manipulator planning framework for diverse environments without retraining",
+        "project_url": null,
+        "repository_url": null,
+        "status": "not_found",
+        "status_label": "No project/code link found / 未发现项目或代码链接",
+        "checked_at": "2026-11-26T17:39:31.865497+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
+      },
+      {
+        "arxiv_id": "2611.33828",
+        "title": "Learning a Whole-Body Pivot-Walking Gait for Heavy-Box Transport with a Humanoid",
+        "project_url": "https://uni963.github.io/pivot-walking/",
+        "repository_url": null,
+        "status": "no_repository",
+        "status_label": "Project page only / 项目页未发现仓库",
+        "checked_at": "2026-11-26T17:39:31.994283+00:00",
+        "evidence": [
+          "No repository link found in inspected publication/project content"
+        ]
+      },
       {
         "arxiv_id": "2611.32944",
         "title": "DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking",
@@ -1262,7 +1336,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:39.288980+00:00",
+        "checked_at": "2026-11-26T17:39:32.151859+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1274,7 +1348,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:39.345153+00:00",
+        "checked_at": "2026-11-26T17:39:32.286930+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1286,7 +1360,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:39.555684+00:00",
+        "checked_at": "2026-11-26T17:39:32.420570+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1298,7 +1372,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:39.634469+00:00",
+        "checked_at": "2026-11-26T17:39:32.531717+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1310,7 +1384,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:39.707721+00:00",
+        "checked_at": "2026-11-26T17:39:32.641675+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1322,7 +1396,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:39.766243+00:00",
+        "checked_at": "2026-11-26T17:39:32.773578+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1334,7 +1408,7 @@
         "repository_url": "https://github.com/AIGeeksGroup/MotionMamba2.0",
         "status": "available",
         "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
-        "checked_at": "2026-11-25T17:58:39.844958+00:00",
+        "checked_at": "2026-11-26T17:39:32.893733+00:00",
         "evidence": [
           "Detected 239 source files; examples: benchmarks/bones.py, benchmarks/evaluate.py, benchmarks/hiphi.py, benchmarks/humanml3d.py, benchmarks/metrics.py",
           "Completeness, dependencies, training assets and reproducibility have not been verified"
@@ -1347,7 +1421,7 @@
         "repository_url": null,
         "status": "no_repository",
         "status_label": "Project page only / 项目页未发现仓库",
-        "checked_at": "2026-11-25T17:58:40.929395+00:00",
+        "checked_at": "2026-11-26T17:39:34.377345+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1359,7 +1433,7 @@
         "repository_url": null,
         "status": "no_repository",
         "status_label": "Project page only / 项目页未发现仓库",
-        "checked_at": "2026-11-25T17:58:41.218927+00:00",
+        "checked_at": "2026-11-26T17:39:34.542107+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1371,7 +1445,7 @@
         "repository_url": null,
         "status": "no_repository",
         "status_label": "Project page only / 项目页未发现仓库",
-        "checked_at": "2026-11-25T17:58:41.665583+00:00",
+        "checked_at": "2026-11-26T17:39:34.978079+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1383,7 +1457,7 @@
         "repository_url": "https://github.com/chenyizhi123/Zeta0",
         "status": "available",
         "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
-        "checked_at": "2026-11-25T17:58:41.872781+00:00",
+        "checked_at": "2026-11-26T17:39:35.160260+00:00",
         "evidence": [
           "Detected 462 source files; examples: real/deploy/brainco_hand_bridge.py, real/deploy/place_doll_sonic_client.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/composed_camera.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/drivers/dummy.py, real/g1/GR00T-WholeBodyControl/gear_sonic/camera/drivers/oak.py",
           "Completeness, dependencies, training assets and reproducibility have not been verified"
@@ -1396,7 +1470,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:42.872562+00:00",
+        "checked_at": "2026-11-26T17:39:36.706939+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1408,7 +1482,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:42.979510+00:00",
+        "checked_at": "2026-11-26T17:39:36.793136+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1420,7 +1494,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:43.025017+00:00",
+        "checked_at": "2026-11-26T17:39:36.888138+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1432,7 +1506,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:43.084889+00:00",
+        "checked_at": "2026-11-26T17:39:37.012179+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1444,7 +1518,7 @@
         "repository_url": null,
         "status": "coming_soon",
         "status_label": "Coming soon / 代码待发布",
-        "checked_at": "2026-11-25T17:58:43.160904+00:00",
+        "checked_at": "2026-11-26T17:39:37.099367+00:00",
         "evidence": [
           "Publication/project page: Code (coming soon"
         ]
@@ -1456,7 +1530,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:43.233555+00:00",
+        "checked_at": "2026-11-26T17:39:37.291323+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1468,7 +1542,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:43.284144+00:00",
+        "checked_at": "2026-11-26T17:39:37.406040+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1480,7 +1554,7 @@
         "repository_url": null,
         "status": "no_repository",
         "status_label": "Project page only / 项目页未发现仓库",
-        "checked_at": "2026-11-25T17:58:43.347643+00:00",
+        "checked_at": "2026-11-26T17:39:37.556451+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1492,7 +1566,7 @@
         "repository_url": "https://github.com/engineai-robotics/Awaken-HI",
         "status": "available",
         "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
-        "checked_at": "2026-11-25T17:58:43.590661+00:00",
+        "checked_at": "2026-11-26T17:39:37.954770+00:00",
         "evidence": [
           "Detected 2 source files; examples: preview/project.py, preview/readme.py",
           "Completeness, dependencies, training assets and reproducibility have not been verified"
@@ -1505,7 +1579,7 @@
         "repository_url": "https://github.com/robfiras/loco-mujoco",
         "status": "available",
         "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
-        "checked_at": "2026-11-25T17:58:44.597671+00:00",
+        "checked_at": "2026-11-26T17:39:39.256801+00:00",
         "evidence": [
           "Detected 211 source files; examples: examples/replay_datasets/example.py, examples/replay_datasets/smpl_example.py, examples/speed_test.py, examples/training_examples/jax_amp/eval.py, examples/training_examples/jax_amp/experiment.py",
           "Completeness, dependencies, training assets and reproducibility have not been verified"
@@ -1518,7 +1592,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:45.566900+00:00",
+        "checked_at": "2026-11-26T17:39:40.411266+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1530,7 +1604,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:45.728615+00:00",
+        "checked_at": "2026-11-26T17:39:40.515618+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1542,7 +1616,7 @@
         "repository_url": null,
         "status": "unknown",
         "status_label": "Needs review / 访问失败或证据不足",
-        "checked_at": "2026-11-25T17:58:45.805841+00:00",
+        "checked_at": "2026-11-26T17:39:40.608708+00:00",
         "evidence": [
           "Multiple repository candidates require review: https://github.com/noahcao/FAB, https://github.com/noahcao/FAH"
         ]
@@ -1554,7 +1628,7 @@
         "repository_url": null,
         "status": "coming_soon",
         "status_label": "Coming soon / 代码待发布",
-        "checked_at": "2026-11-25T17:58:46.041872+00:00",
+        "checked_at": "2026-11-26T17:39:40.949069+00:00",
         "evidence": [
           "Publication/project page: code will be released"
         ]
@@ -1566,7 +1640,7 @@
         "repository_url": "https://github.com/mwondering/echo-bfm",
         "status": "available",
         "status_label": "Implementation detected (completeness unverified) / 已检测到实现，完整性未核验",
-        "checked_at": "2026-11-25T17:58:46.185621+00:00",
+        "checked_at": "2026-11-26T17:39:41.240211+00:00",
         "evidence": [
           "Detected 1 source files; examples: scripts/build.py",
           "Completeness, dependencies, training assets and reproducibility have not been verified"
@@ -1579,7 +1653,7 @@
         "repository_url": null,
         "status": "coming_soon",
         "status_label": "Coming soon / 代码待发布",
-        "checked_at": "2026-11-25T17:58:47.188064+00:00",
+        "checked_at": "2026-11-26T17:39:42.679753+00:00",
         "evidence": [
           "Publication/project page: Code (coming soon"
         ]
@@ -1591,7 +1665,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:47.304350+00:00",
+        "checked_at": "2026-11-26T17:39:42.958592+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1603,7 +1677,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:47.350892+00:00",
+        "checked_at": "2026-11-26T17:39:43.055183+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1615,7 +1689,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:47.405699+00:00",
+        "checked_at": "2026-11-26T17:39:43.170486+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1627,7 +1701,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:47.459831+00:00",
+        "checked_at": "2026-11-26T17:39:43.286632+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1639,7 +1713,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:47.521566+00:00",
+        "checked_at": "2026-11-26T17:39:43.384861+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -1651,7 +1725,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-25T17:58:47.615247+00:00",
+        "checked_at": "2026-11-26T17:39:43.479300+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -5823,7 +5897,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302442+00:00",
+        "checked_at": "2026-11-26T17:39:48.172934+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9362,7 +9436,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.301423+00:00",
+        "checked_at": "2026-11-26T17:39:46.786677+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9401,7 +9475,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.301524+00:00",
+        "checked_at": "2026-11-26T17:39:46.888244+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9413,7 +9487,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.301611+00:00",
+        "checked_at": "2026-11-26T17:39:47.017404+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9425,7 +9499,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.301694+00:00",
+        "checked_at": "2026-11-26T17:39:47.176201+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9451,7 +9525,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.301770+00:00",
+        "checked_at": "2026-11-26T17:39:47.307536+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9463,7 +9537,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.301848+00:00",
+        "checked_at": "2026-11-26T17:39:47.399802+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9475,7 +9549,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.301951+00:00",
+        "checked_at": "2026-11-26T17:39:47.493158+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9487,7 +9561,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302024+00:00",
+        "checked_at": "2026-11-26T17:39:47.614451+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9499,7 +9573,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302079+00:00",
+        "checked_at": "2026-11-26T17:39:47.697836+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9511,7 +9585,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302206+00:00",
+        "checked_at": "2026-11-26T17:39:47.791055+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9537,7 +9611,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302275+00:00",
+        "checked_at": "2026-11-26T17:39:47.914342+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9561,7 +9635,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302350+00:00",
+        "checked_at": "2026-11-26T17:39:48.046903+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9586,7 +9660,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302554+00:00",
+        "checked_at": "2026-11-26T17:39:48.267618+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9612,7 +9686,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302644+00:00",
+        "checked_at": "2026-11-26T17:39:48.396658+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9638,7 +9712,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302729+00:00",
+        "checked_at": "2026-11-26T17:39:48.528466+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9664,7 +9738,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302802+00:00",
+        "checked_at": "2026-11-26T17:39:48.626284+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9702,7 +9776,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302872+00:00",
+        "checked_at": "2026-11-26T17:39:48.777997+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9727,7 +9801,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302915+00:00",
+        "checked_at": "2026-11-26T17:39:48.864483+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9739,7 +9813,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.302960+00:00",
+        "checked_at": "2026-11-26T17:39:48.988529+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9751,7 +9825,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.303020+00:00",
+        "checked_at": "2026-11-26T17:39:49.109531+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9803,7 +9877,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.303101+00:00",
+        "checked_at": "2026-11-26T17:39:49.203240+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9815,7 +9889,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.303161+00:00",
+        "checked_at": "2026-11-26T17:39:49.330305+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9827,7 +9901,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.303258+00:00",
+        "checked_at": "2026-11-26T17:39:49.416046+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9839,7 +9913,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.303336+00:00",
+        "checked_at": "2026-11-26T17:39:49.550029+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9851,7 +9925,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.303425+00:00",
+        "checked_at": "2026-11-26T17:39:49.683154+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9863,7 +9937,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.303510+00:00",
+        "checked_at": "2026-11-26T17:39:49.776070+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9875,7 +9949,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.303592+00:00",
+        "checked_at": "2026-11-26T17:39:49.908966+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9899,7 +9973,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.303874+00:00",
+        "checked_at": "2026-11-26T17:39:50.022613+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]
@@ -9911,7 +9985,7 @@
         "repository_url": null,
         "status": "not_found",
         "status_label": "No project/code link found / 未发现项目或代码链接",
-        "checked_at": "2026-11-13T01:43:20.303966+00:00",
+        "checked_at": "2026-11-26T17:39:50.151641+00:00",
         "evidence": [
           "No repository link found in inspected publication/project content"
         ]

@@ -1,10 +1,10 @@
 # Manipulation
 
-**83 papers** in this category.
+**86 papers** in this category.
 
 ## Months
 
-- [2026-11](/manipulation/2026-11) (3 papers)
+- [2026-11](/manipulation/2026-11) (6 papers)
 - [2026-10](/manipulation/2026-10) (7 papers)
 - [2026-09](/manipulation/2026-09) (9 papers)
 - [2026-08](/manipulation/2026-08) (2 papers)
@@ -35,6 +35,87 @@
 ---
 
 ## Recent Papers
+
+## FineDex: Bridging Fine-Grained Human-Object Interaction Generation to Dexterous Humanoid Manipulation
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.34884)
+- **Project:** [Project page](https://finedex.github.io/)
+- **Repository:** [Code](https://github.com/zyjOrz/FineDex)
+- **Code checked:** 2026-11-26
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- README: Code will be released
+- Detected 0 source files
+
+</details>
+
+- **Authors:** Yujia Zeng, Yuxin Chen, Yuzhen Song, Runhan Huang, Chensheng Peng, Yiyang Shao et al. (9 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Human Demonstration
+  - Humanoid
+
+### Summary
+
+Dexterity is, at its core, finger-level control, yet existing dexterous manipulation and human-object interaction (HOI) generation methods rarely let one specify how an interaction is performed: five-fingered hands are often reduced to grippers, or finger usage is copied from individual human demonstrations. We present FineDex, a framework that makes finger-level intent both expressible and executable.
+
+---
+
+## HoloBrain-0.5 Technical Report
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.34449)
+- **Project:** [Project page](https://horizonrobotics.github.io/robot_lab/holobrain_0_5/)
+- **Code checked:** 2026-11-26
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Project page inspection failed: HTTPError
+- Link discovery incomplete; absence of code cannot be confirmed
+
+</details>
+
+- **Authors:** Xuewu Lin, Jiahao Wang, Jiawei Li, Mengdi Li, Zhengmao Sun, Yiwei Jin et al. (13 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Manipulation
+  - Zero-Shot
+  - Humanoid
+  - Vision-Language
+  - Benchmark
+  - Diffusion
+  - Simulation Benchmark
+
+### Summary
+
+We present HoloBrain-0.5, a family of vision-language-action (VLA) models for manipulation across robot embodiments. The policies plan in a shared action space using robot state, kinematic structure, and calibrated camera observations.
+
+---
+
+## A general-purpose safe manipulator planning framework for diverse environments without retraining
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.33721)
+- **Code checked:** 2026-11-26
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Mingkang Long, Rong Su, Luhang Hong, Qingqing Wang, Ruochen Tai
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+Nowadays, robots need to be retrained whenever their operating environment changes, and this prohibitive training cost keeps them far from daily use. The community is calling for innovations that bestow on a robot the ability to safely grasp different objects under different conditions without excessive training data and computing power.
+
+---
 
 ## TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation
 
@@ -494,86 +575,5 @@ Mobile humanoid manipulation requires both reaching a usable workspace and prese
 ### Summary
 
 Forceful manipulation is challenging for humanoid robots because interaction forces can disturb whole-body balance. We introduce the Supporting Hand Strategy (SHS), which enables a humanoid to brace against the environment with one hand while performing forceful manipulation with the other.
-
----
-
-## Learning Multi-Humanoid Pickup and Transport via Decentralized Object-Centric Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.17824)
-- **Project:** [Project page](https://decmht.github.io/)
-- **Code checked:** 2026-11-19
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Bikram Pandit, Mohitvishnu S. Gadde, Aayam Kumar Shrestha, Alan Fern
-- **Published:** 2026-09
-- **Tags:**
-  - Sim-to-Real
-  - Manipulation
-  - Humanoid
-
-### Summary
-
-We study cooperative multi-humanoid pickup and transport of objects with varying size, weight, and geometry, requiring robot teams of different sizes. Our approach uses decentralized object-centric control, where each humanoid is assigned a local attachment region on the shared object and learns to realize pickup and transport through gripperless bimanual pinching.
-
----
-
-## Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2609.05361)
-- **Code checked:** 2026-11-20
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- No repository link found in inspected publication/project content
-
-</details>
-
-- **Authors:** Thang Tran Viet, Thanh Nguyen Canh, Huy Uong Gia, Phuc Dinh Van, Son Tran Duc, Ngoc Minh Do et al. (7 authors)
-- **Published:** 2026-09
-- **Real Robot:** ✅
-- **Tags:**
-  - Manipulation
-  - Humanoid
-  - Large Language Model
-  - PPO
-
-### Summary
-
-Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This paper introduces a humanoid robot prototype designed as a flexible testbed for developing and integrating artificial intelligence (AI) modules in HRI tasks.
-
----
-
-## Blind Dexterity: Whole-Body Humanoid Manipulation via Pure Proprioception
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2608.29487)
-- **Project:** [Project page](https://aditya.bhatts.org/BlindDexterity/)
-- **Code checked:** 2026-11-20
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Publication/project page: Code  (to be released
-
-</details>
-
-- **Authors:** Aditya Bhatt, Oleg Kaidanov, Puze Liu, Jan Peters
-- **Published:** 2026-08
-- **Tags:**
-  - Manipulation
-  - Biped
-  - Humanoid
-  - Walking
-  - Proprioception
-  - State Estimation
-  - Loco-Manipulation and Whole-Body Control
-  - Locomotion
-
-### Summary
-
-We present blind, whole-body manipulation skills on a Unitree G1 humanoid using only onboard proprioception, without cameras, markers, force-torque, or tactile sensors. Despite this minimal sensing, the trained policies exhibit surprising capability across qualitatively different tasks: push-resilient bipedal walking without IMU feedback, active soccer ball trapping with a foot, seeking and lifting a suitcase by its handle, and mounting a randomly positioned skateboard.
 
 ---

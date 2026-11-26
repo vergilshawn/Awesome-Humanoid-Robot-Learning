@@ -186,7 +186,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Manipulation (83)",
+            "text": "Manipulation (86)",
             "collapsed": true,
             "items": [
                   {
@@ -386,7 +386,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Locomotion (269)",
+            "text": "Locomotion (270)",
             "collapsed": true,
             "items": [
                   {
@@ -676,12 +676,16 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Sim-to-Real (13)",
+            "text": "Sim-to-Real (14)",
             "collapsed": true,
             "items": [
                   {
                         "text": "Overview",
                         "link": "/sim-to-real/"
+                  },
+                  {
+                        "text": "2026-11",
+                        "link": "/sim-to-real/2026-11"
                   },
                   {
                         "text": "2026-07",
@@ -902,7 +906,7 @@ export default defineConfig({
             ]
       },
       {
-            "text": "Physics-Based Character Animation (54)",
+            "text": "Physics-Based Character Animation (55)",
             "collapsed": true,
             "items": [
                   {

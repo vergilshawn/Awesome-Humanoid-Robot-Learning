@@ -5,8 +5,9 @@ Code availability grouped by inspection status. Source-file detection does not v
 ## Unverified / 未核验 (0)
 
 
-## No project/code link found / 未发现项目或代码链接 (507)
+## No project/code link found / 未发现项目或代码链接 (508)
 
+- [A general-purpose safe manipulator planning framework for diverse environments without retraining](https://arxiv.org/abs/2611.33721) — `Manipulation`, `Humanoid`, `Real Robot`
 - [DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking](https://arxiv.org/abs/2611.32944) — `Reinforcement Learning`, `World Model`, `Human Demonstration`, `Humanoid`, `PPO`, `Locomotion`
 - [DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models](https://arxiv.org/abs/2611.32665) — `Whole-Body Control`, `Manipulation`, `World Model`, `Simulator`, `Humanoid`, `Vision-Language`
 - [BARE: Body-Aware Reflexive Evasion for Humanoid Robots](https://arxiv.org/abs/2611.32642) — `Reinforcement Learning`, `Humanoid`, `Collision`, `PPO`, `Locomotion`
@@ -515,8 +516,10 @@ Code availability grouped by inspection status. Source-file detection does not v
 - [Legged Robot State-Estimation Through Combined Forward Kinematic and Preintegrated Contact Factors](https://arxiv.org/abs/1712.05873) — `State Estimation`
 - [The invariant extended Kalman filter as a stable observer](https://arxiv.org/abs/1410.1465) — `State Estimation`
 
-## Project page only / 项目页未发现仓库 (141)
+## Project page only / 项目页未发现仓库 (143)
 
+- [Riding the Wave: Sim-to-Real Humanoid Control on Elastic Terrain](https://arxiv.org/abs/2611.34569), [website](https://fly-pigth.github.io/wave_rider/) — `Sim-to-Real`, `Zero-Shot`, `Humanoid`, `Proprioception`, `Policy Learning`, `PPO`
+- [Learning a Whole-Body Pivot-Walking Gait for Heavy-Box Transport with a Humanoid](https://arxiv.org/abs/2611.33828), [website](https://uni963.github.io/pivot-walking/) — `Reinforcement Learning`, `Manipulation`, `Safety`, `Real Robot`, `Humanoid`, `Gait`
 - [PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation](https://arxiv.org/abs/2611.30077), [website](https://silvery107.github.io/pushmimic/) — `Humanoid`, `Trajectory Optimization`, `Distillation`, `Sampling-Based`, `Dataset`, `Simulation Benchmark`
 - [Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education](https://arxiv.org/abs/2611.29868), [website](https://anonymous-humanoid.gitbook.io/docs) — `Teleoperation`, `Locomotion`, `Manipulation`, `Humanoid`, `PPO`
 - [CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments](https://arxiv.org/abs/2611.29749), [website](https://carlhoi.github.io/) — `World Model`, `Simulator`, `Humanoid`, `Benchmark`, `Locomotion`
@@ -659,8 +662,10 @@ Code availability grouped by inspection status. Source-file detection does not v
 - [PhysDiff: Physics-Guided Human Motion Diffusion Model](https://arxiv.org/abs/2212.02500), [website](https://nvlabs.github.io/PhysDiff/) — `Diffusion`, `Human Motion Analysis and Synthesis`
 - [Quasi-Direct Drive for Low-Cost Compliant Robotic Manipulation](https://arxiv.org/abs/1904.03815), [website](https://berkeleyopenarms.github.io/) — `Manipulation`, `Hardware Design`
 
-## Coming soon / 代码待发布 (49)
+## Coming soon / 代码待发布 (51)
 
+- [FineDex: Bridging Fine-Grained Human-Object Interaction Generation to Dexterous Humanoid Manipulation](https://arxiv.org/abs/2611.34884), [website](https://finedex.github.io/), [code](https://github.com/zyjOrz/FineDex) — `Manipulation`, `Human Demonstration`, `Humanoid`
+- [AGLR: Attribute-Guided Latent Refinement for Fine-Grained Humanoid Motion Generation and Editing](https://arxiv.org/abs/2611.34519), [website](https://syuan8889.github.io/AGLR-project/) — `Zero-Shot`, `Humanoid`, `Fine-tuning`, `PPO`, `Physics-Based Character Animation`
 - [Latent Jacobian Steer: Eliciting Contact-Rich Out-of-Distribution Behaviors from Pretrained Humanoid Controllers](https://arxiv.org/abs/2611.27338), [website](https://latent-jacobian-steer.github.io/) — `Humanoid`, `Goal-Conditioned`, `Foundation Model`, `Locomotion`
 - [MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers](https://arxiv.org/abs/2611.26218), [website](https://binlee26.github.io/MixReact_Page/) — `Transformer`, `Humanoid`, `PPO`, `Diffusion`, `Physics-Based Character Animation`
 - [WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation](https://arxiv.org/abs/2611.25251), [website](https://qianzhong-chen.github.io/wevo.github.io/) — `Reinforcement Learning`, `Whole-Body Control`, `Sim-to-Real`, `Teleoperation`, `Locomotion`, `Manipulation`
@@ -962,8 +967,9 @@ Code availability grouped by inspection status. Source-file detection does not v
 - 🌟 [AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control](https://arxiv.org/abs/2104.02180), [website](https://xbpeng.github.io/projects/AMP/index.html), [code](https://github.com/xbpeng/DeepMimic) — `Physics-Based Character Animation`, `Code Available`
 - 🌟 [DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](https://arxiv.org/abs/1804.02717), [website](https://xbpeng.github.io/projects/DeepMimic/index.html), [code](https://github.com/xbpeng/DeepMimic) — `Reinforcement Learning`, `Physics-Based Character Animation`, `Code Available`
 
-## Needs review / 访问失败或证据不足 (52)
+## Needs review / 访问失败或证据不足 (53)
 
+- [HoloBrain-0.5 Technical Report](https://arxiv.org/abs/2611.34449), [website](https://horizonrobotics.github.io/robot_lab/holobrain_0_5/) — `Manipulation`, `Zero-Shot`, `Humanoid`, `Vision-Language`, `Benchmark`, `Diffusion`
 - [Fast and Accurate Body Estimation in Pixels, World Space and Scenes](https://arxiv.org/abs/2611.25801), [website](https://www.jinkuncao.com/FAB/) — `Humanoid`, `Benchmark`, `State Estimation`
 - [DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.09605), [website](https://robbyant-research.github.io/DKWBC/) — `Whole-Body Control`, `Humanoid`, `Dataset`, `PPO`, `Loco-Manipulation and Whole-Body Control`, `Simulation Benchmark`
 - [HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness](https://arxiv.org/abs/2611.08039), [website](https://hitch.axell.top/) — `Humanoid`, `Walking`, `Vision-Language`, `Loco-Manipulation and Whole-Body Control`, `Locomotion`

@@ -8,29 +8,41 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ## 📊 Statistics
 
-- **Total Papers:** 991
-- **Real Robot Papers:** 154
+- **Total Papers:** 997
+- **Real Robot Papers:** 156
 - **Code Availability:** 212
 - **Latest Month:** 2026-11
 
 ### Categories
 
 - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/) (345)
-- [Manipulation](/manipulation/) (83)
+- [Manipulation](/manipulation/) (86)
 - [Teleoperation](/teleoperation/) (51)
-- [Locomotion](/locomotion/) (269)
+- [Locomotion](/locomotion/) (270)
 - [Navigation](/navigation/) (29)
 - [State Estimation](/state-estimation/) (33)
-- [Sim-to-Real](/sim-to-real/) (13)
+- [Sim-to-Real](/sim-to-real/) (14)
 - [Hardware Design](/hardware-design/) (34)
 - [Simulation Benchmark](/simulation-benchmark/) (47)
-- [Physics-Based Character Animation](/physics-based-character-animation/) (54)
+- [Physics-Based Character Animation](/physics-based-character-animation/) (55)
 - [Human Motion Analysis and Synthesis](/human-motion-analysis-and-synthesis/) (33)
 
 ---
 
 ## 🔥 Latest Papers
 
+-  [FineDex: Bridging Fine-Grained Human-Object Interaction Generation to Dexterous Humanoid Manipulation](https://arxiv.org/abs/2611.34884) — 2026-11
+  - [Manipulation](/manipulation/)
+-  [Riding the Wave: Sim-to-Real Humanoid Control on Elastic Terrain](https://arxiv.org/abs/2611.34569) — 2026-11
+  - [Sim-to-Real](/sim-to-real/)
+-  [AGLR: Attribute-Guided Latent Refinement for Fine-Grained Humanoid Motion Generation and Editing](https://arxiv.org/abs/2611.34519) — 2026-11
+  - [Physics-Based Character Animation](/physics-based-character-animation/)
+-  [HoloBrain-0.5 Technical Report](https://arxiv.org/abs/2611.34449) — 2026-11
+  - [Manipulation](/manipulation/)
+-  🤖 [A general-purpose safe manipulator planning framework for diverse environments without retraining](https://arxiv.org/abs/2611.33721) — 2026-11
+  - [Manipulation](/manipulation/)
+-  🤖 [Learning a Whole-Body Pivot-Walking Gait for Heavy-Box Transport with a Humanoid](https://arxiv.org/abs/2611.33828) — 2026-11
+  - [Locomotion](/locomotion/)
 -  [DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking](https://arxiv.org/abs/2611.32944) — 2026-11
   - [Locomotion](/locomotion/)
 -  [DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models](https://arxiv.org/abs/2611.32665) — 2026-11
@@ -39,53 +51,41 @@ A curated and automatically updated collection of humanoid robot learning resear
   - [Locomotion](/locomotion/)
 -  [EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances](https://arxiv.org/abs/2611.32260) — 2026-11
   - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  [Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction](https://arxiv.org/abs/2611.31863) — 2026-11
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
--  🤖 [CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors](https://arxiv.org/abs/2611.30449) — 2026-11
-  - [Loco-Manipulation and Whole-Body Control](/loco-manipulation-and-whole-body-control/)
-- 🌟 🤖 [Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://arxiv.org/abs/2611.29897) — 2026-11
-  - [Locomotion](/locomotion/)
--  🤖 [PushMimic: Learning Adaptive Humanoid Box Pushing via Dynamic Motion Augmentation and Reference Distillation](https://arxiv.org/abs/2611.30077) — 2026-11
-  - [Simulation Benchmark](/simulation-benchmark/)
--  [Arcadian: Open-Source Humanoid Ecosystem for Accessible and Customizable Research and Education](https://arxiv.org/abs/2611.29868) — 2026-11
-  - [Teleoperation](/teleoperation/)
--  [CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments](https://arxiv.org/abs/2611.29749) — 2026-11
-  - [Locomotion](/locomotion/)
 
 ---
 
 ## 🏷️ Top Tags
 
-- **Humanoid** (844)
-- **Locomotion** (390)
-- **Loco-Manipulation and Whole-Body Control** (382)
-- **Manipulation** (291)
-- **PPO** (158)
-- **Reinforcement Learning** (143)
+- **Humanoid** (850)
+- **Locomotion** (391)
+- **Loco-Manipulation and Whole-Body Control** (383)
+- **Manipulation** (295)
+- **PPO** (160)
+- **Reinforcement Learning** (144)
 - **Whole-Body Control** (136)
-- **Simulation Benchmark** (109)
+- **Simulation Benchmark** (110)
 - **Teleoperation** (102)
+- **State Estimation** (77)
 - **Dataset** (77)
-- **State Estimation** (76)
-- **Physics-Based Character Animation** (75)
-- **Vision-Language** (70)
-- **Benchmark** (63)
-- **Zero-Shot** (60)
-- **Walking** (60)
-- **Sim-to-Real** (59)
+- **Physics-Based Character Animation** (76)
+- **Vision-Language** (71)
+- **Benchmark** (64)
+- **Zero-Shot** (63)
+- **Walking** (61)
+- **Sim-to-Real** (60)
 - **Navigation** (54)
-- **Diffusion** (51)
+- **Diffusion** (52)
 - **Human Motion Analysis and Synthesis** (47)
+- **Human Demonstration** (46)
 - **Distillation** (46)
-- **Human Demonstration** (45)
 - **Foundation Model** (44)
 - **Robustness** (43)
-- **Proprioception** (41)
-- **Fine-tuning** (40)
-- **Safety** (37)
+- **Proprioception** (42)
+- **Fine-tuning** (41)
+- **Safety** (38)
 - **Hardware Design** (36)
+- **Gait** (35)
 - **Collision** (35)
-- **Gait** (34)
 
 ---
 
@@ -538,6 +538,9 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-11](/manipulation/2026-11)
 
+- [FineDex: Bridging Fine-Grained Human-Object Interaction Generation to Dexterous Humanoid Manipulation](https://arxiv.org/abs/2611.34884), [website](https://finedex.github.io/), [code](https://github.com/zyjOrz/FineDex) — `Manipulation`, `Human Demonstration`, `Humanoid`
+- [HoloBrain-0.5 Technical Report](https://arxiv.org/abs/2611.34449), [website](https://horizonrobotics.github.io/robot_lab/holobrain_0_5/) — `Manipulation`, `Zero-Shot`, `Humanoid`, `Vision-Language`, `Benchmark`, `Diffusion`
+- [A general-purpose safe manipulator planning framework for diverse environments without retraining](https://arxiv.org/abs/2611.33721) — `Manipulation`, `Humanoid`, `Real Robot`
 - [TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation](https://arxiv.org/abs/2611.18976), [website](https://humanoid-tma.github.io/) — `Sim-to-Real`, `Locomotion`, `Manipulation`, `Zero-Shot`, `Humanoid`, `Friction`
 - [Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation](https://arxiv.org/abs/2611.11854) — `Manipulation`, `Humanoid`, `Vision-Language`, `Benchmark`
 - [ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation](https://arxiv.org/abs/2611.02968) — `Manipulation`, `Humanoid`, `PPO`, `Loco-Manipulation and Whole-Body Control`
@@ -811,6 +814,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-11](/locomotion/2026-11)
 
+- [Learning a Whole-Body Pivot-Walking Gait for Heavy-Box Transport with a Humanoid](https://arxiv.org/abs/2611.33828), [website](https://uni963.github.io/pivot-walking/) — `Reinforcement Learning`, `Manipulation`, `Safety`, `Real Robot`, `Humanoid`, `Gait`
 - [DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking](https://arxiv.org/abs/2611.32944) — `Reinforcement Learning`, `World Model`, `Human Demonstration`, `Humanoid`, `PPO`, `Locomotion`
 - [BARE: Body-Aware Reflexive Evasion for Humanoid Robots](https://arxiv.org/abs/2611.32642) — `Reinforcement Learning`, `Humanoid`, `Collision`, `PPO`, `Locomotion`
 - 🌟 [Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control](https://arxiv.org/abs/2611.29897), [website](https://aigeeksgroup.github.io/MotionMamba2.0/), [code](https://github.com/AIGeeksGroup/MotionMamba2.0) — `Locomotion`, `Humanoid`, `Diffusion`, `Real Robot`, `Code Available`
@@ -1341,6 +1345,10 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 ### [Sim-to-Real](/sim-to-real/)
 
+#### [2026-11](/sim-to-real/2026-11)
+
+- [Riding the Wave: Sim-to-Real Humanoid Control on Elastic Terrain](https://arxiv.org/abs/2611.34569), [website](https://fly-pigth.github.io/wave_rider/) — `Sim-to-Real`, `Zero-Shot`, `Humanoid`, `Proprioception`, `Policy Learning`, `PPO`
+
 #### [2026-07](/sim-to-real/2026-07)
 
 - [Optimization of sim-to-real transfer in the humanoid robot NICO](https://arxiv.org/abs/2607.18210) — `Sim-to-Real`, `Humanoid`, `Inverse Kinematics`, `Physics-Based Character Animation`
@@ -1590,6 +1598,7 @@ A curated and automatically updated collection of humanoid robot learning resear
 
 #### [2026-11](/physics-based-character-animation/2026-11)
 
+- [AGLR: Attribute-Guided Latent Refinement for Fine-Grained Humanoid Motion Generation and Editing](https://arxiv.org/abs/2611.34519), [website](https://syuan8889.github.io/AGLR-project/) — `Zero-Shot`, `Humanoid`, `Fine-tuning`, `PPO`, `Physics-Based Character Animation`
 - [MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers](https://arxiv.org/abs/2611.26218), [website](https://binlee26.github.io/MixReact_Page/) — `Transformer`, `Humanoid`, `PPO`, `Diffusion`, `Physics-Based Character Animation`
 - [SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models](https://arxiv.org/abs/2611.24074) — `World Model`, `Humanoid`, `Physics-Based Character Animation`
 - [Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.11554), [website](https://kimodo-policy.github.io/), [code](https://github.com/kimodo-policy/kimodo-policy) — `Locomotion`, `Manipulation`, `Multi-Task`, `Humanoid`, `Vision-Language`, `PPO`

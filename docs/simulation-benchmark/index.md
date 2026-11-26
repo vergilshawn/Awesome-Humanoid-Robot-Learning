@@ -32,7 +32,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.30077)
 - **Project:** [Project page](https://silvery107.github.io/pushmimic/)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -61,7 +61,7 @@ Humanoid box pushing is challenging when the physical properties of the task, su
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26293)
 - **Repository:** [Code](https://github.com/robfiras/loco-mujoco)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 

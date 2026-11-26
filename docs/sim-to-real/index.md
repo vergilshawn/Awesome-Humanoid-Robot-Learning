@@ -1,9 +1,10 @@
 # Sim-to-Real
 
-**13 papers** in this category.
+**14 papers** in this category.
 
 ## Months
 
+- [2026-11](/sim-to-real/2026-11) (1 papers)
 - [2026-07](/sim-to-real/2026-07) (1 papers)
 - [2026-06](/sim-to-real/2026-06) (1 papers)
 - [2026-02](/sim-to-real/2026-02) (1 papers)
@@ -19,6 +20,35 @@
 ---
 
 ## Recent Papers
+
+## Riding the Wave: Sim-to-Real Humanoid Control on Elastic Terrain
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.34569)
+- **Project:** [Project page](https://fly-pigth.github.io/wave_rider/)
+- **Code checked:** 2026-11-26
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Yinglei Zhu, Qin Li, Honghao Pan, Bozhao Wang, Binghui Xu, Jie Lu et al. (13 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Sim-to-Real
+  - Zero-Shot
+  - Humanoid
+  - Proprioception
+  - Policy Learning
+  - PPO
+  - State Estimation
+
+### Summary
+
+Humanoid robots on deformable elastic terrains face a surface whose position and motion are coupled in space and time: deflection and rebound persist between contacts, and load at one foothold alters the support at others, so training must capture how each contact changes the support that follows. We present RIPPLE (Robust Interaction via Proprioceptive Policies on Large-deformation Elastic terrain), a simulation-to-real learning framework for humanoid control on such terrains.
+
+---
 
 ## Optimization of sim-to-real transfer in the humanoid robot NICO
 
@@ -130,7 +160,7 @@ Reinforcement learning (RL) is widely used for humanoid control, with on-policy 
 ## PolySim: Bridging the Sim-to-Real Gap for Humanoid Control via Multi-Simulator Dynamics Randomization
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2510.01708)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 

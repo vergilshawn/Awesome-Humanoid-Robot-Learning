@@ -33,7 +33,7 @@
 ## HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27181)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 

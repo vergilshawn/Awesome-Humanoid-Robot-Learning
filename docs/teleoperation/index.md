@@ -31,7 +31,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29868)
 - **Project:** [Project page](https://anonymous-humanoid.gitbook.io/docs)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -57,7 +57,7 @@ Reproducing and modifying a meter-scale humanoid remains challenging for researc
 ## Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27845)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -82,7 +82,7 @@ Humanoid robots can reduce personnel exposure in electrical switching, but safe 
 ## ALERT: Extending Humanoid Motion Trackers with a General and Lightweight Human Avoidance Pipeline
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22258)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 

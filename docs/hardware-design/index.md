@@ -247,7 +247,7 @@ We present DIJIT, a novel binocular robotic head expressly designed for mobile a
 ## DecARt Leg: Design and Evaluation of a Novel Humanoid Robot Leg with Decoupled Actuation for Agile Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2511.10021)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -270,7 +270,7 @@ In this paper, we propose a novel design of an electrically actuated robotic leg
 ## Human-Level Actuation for Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2511.06796)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -292,7 +292,7 @@ Claims that humanoid robots achieve ``human-level'' actuation are common but rar
 ## Toward Humanoid Brain-Body Co-design: Joint Optimization of Control and Morphology for Fall Recovery
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2510.22336)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -314,7 +314,7 @@ Humanoid robots represent a central frontier in embodied intelligence, as their 
 ## Embracing Evolution: A Call for Body-Control Co-Design in Embodied Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2510.03081)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 

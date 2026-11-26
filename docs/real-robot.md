@@ -7,10 +7,10 @@ Papers with real humanoid robot deployment and experiments.
 - **Atlas:** 1 papers
 - **Booster:** 2 papers
 - **Digit:** 4 papers
-- **Figure:** 20 papers
+- **Figure:** 21 papers
 - **HRP:** 1 papers
 - **NAO:** 1 papers
-- **Unitree G1:** 97 papers
+- **Unitree G1:** 98 papers
 - **Unitree H1:** 2 papers
 - **Unknown Platform:** 25 papers
 - **iCub:** 1 papers
@@ -19,10 +19,65 @@ Papers with real humanoid robot deployment and experiments.
 
 ## All Real Robot Papers
 
+## A general-purpose safe manipulator planning framework for diverse environments without retraining
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.33721)
+- **Code checked:** 2026-11-26
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Mingkang Long, Rong Su, Luhang Hong, Qingqing Wang, Ruochen Tai
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Unitree G1
+- **Tags:**
+  - Manipulation
+  - Humanoid
+
+### Summary
+
+Nowadays, robots need to be retrained whenever their operating environment changes, and this prohibitive training cost keeps them far from daily use. The community is calling for innovations that bestow on a robot the ability to safely grasp different objects under different conditions without excessive training data and computing power.
+
+---
+
+## Learning a Whole-Body Pivot-Walking Gait for Heavy-Box Transport with a Humanoid
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.33828)
+- **Project:** [Project page](https://uni963.github.io/pivot-walking/)
+- **Code checked:** 2026-11-26
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- No repository link found in inspected publication/project content
+
+</details>
+
+- **Authors:** Rikuto Hidaka, Tsung-Yuan Chen, Kento Kawaharazuka
+- **Published:** 2026-11
+- **Real Robot:** ✅ — Figure
+- **Tags:**
+  - Reinforcement Learning
+  - Manipulation
+  - Safety
+  - Real Robot
+  - Humanoid
+  - Gait
+  - Walking
+  - Locomotion
+
+### Summary
+
+Through pivot walking, humans can transport objects that are too heavy to lift. Previous humanoid studies have relied on planned sequences in which object manipulation and stepping are executed separately and the object is brought to rest between successive rotations.
+
+---
+
 ## CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.30449)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -52,7 +107,7 @@ Coordinating locomotion and dexterous manipulation is fundamental to humanoid ro
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29897)
 - **Project:** [Project page](https://aigeeksgroup.github.io/MotionMamba2.0/)
 - **Repository:** [Code](https://github.com/AIGeeksGroup/MotionMamba2.0)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -79,7 +134,7 @@ Long-horizon, real-time controllable motion generation is essential for interact
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.30077)
 - **Project:** [Project page](https://silvery107.github.io/pushmimic/)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -109,7 +164,7 @@ Humanoid box pushing is challenging when the physical properties of the task, su
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29277)
 - **Project:** [Project page](https://chenyizhi123.github.io/zeta0-project/)
 - **Repository:** [Code](https://github.com/chenyizhi123/Zeta0)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -135,7 +190,7 @@ World Action Models anticipate visual outcomes to guide robot actions, yet human
 ## Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27845)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -160,7 +215,7 @@ Humanoid robots can reduce personnel exposure in electrical switching, but safe 
 ## Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27648)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -186,7 +241,7 @@ Training a humanoid motion tracker by backpropagating imagined returns through a
 ## HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27181)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -217,7 +272,7 @@ As humanoid robots increasingly enter real-world environments, recovering their 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -244,7 +299,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 ## Autonomous Track Racing with a Commercially Available Humanoid: System Design and Real-World Deployment
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.22445)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 

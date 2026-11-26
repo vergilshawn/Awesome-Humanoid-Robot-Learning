@@ -463,7 +463,7 @@ Humans rely on the synergistic control of head (cephalomotor) and eye (oculomoto
 ## Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2511.14625)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 

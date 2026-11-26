@@ -1,10 +1,10 @@
 # Physics-Based Character Animation
 
-**54 papers** in this category.
+**55 papers** in this category.
 
 ## Months
 
-- [2026-11](/physics-based-character-animation/2026-11) (3 papers)
+- [2026-11](/physics-based-character-animation/2026-11) (4 papers)
 - [2026-10](/physics-based-character-animation/2026-10) (6 papers)
 - [2026-09](/physics-based-character-animation/2026-09) (3 papers)
 - [2026-08](/physics-based-character-animation/2026-08) (3 papers)
@@ -38,11 +38,38 @@
 
 ## Recent Papers
 
+## AGLR: Attribute-Guided Latent Refinement for Fine-Grained Humanoid Motion Generation and Editing
+
+- **Paper:** [arXiv](https://arxiv.org/abs/2611.34519)
+- **Project:** [Project page](https://syuan8889.github.io/AGLR-project/)
+- **Code checked:** 2026-11-26
+
+<details><summary>Code verification details / 核验依据</summary>
+
+- Publication/project page: Code (Coming Soon
+
+</details>
+
+- **Authors:** Shuai Yuan, Yuwei Gui, Mingshuang Luo, Zhuo Li, Siyuan Meng, Wenhao Cui et al. (8 authors)
+- **Published:** 2026-11
+- **Tags:**
+  - Zero-Shot
+  - Humanoid
+  - Fine-tuning
+  - PPO
+  - Physics-Based Character Animation
+
+### Summary
+
+Humanoid motion generation must accommodate evolving task requirements, where localized adjustments should satisfy new geometric constraints without disrupting desired motion details. However, language-based control lacks geometric precision, while joint-level constraints require explicit spatial targets.
+
+---
+
 ## MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26218)
 - **Project:** [Project page](https://binlee26.github.io/MixReact_Page/)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -68,7 +95,7 @@ Humanoid agents in everyday environments are expected to react to diverse cues a
 ## SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.24074)
-- **Code checked:** 2026-11-25
+- **Code checked:** 2026-11-26
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -558,36 +585,5 @@ Humanoid robots performing in-field manipulation tasks, such as robotic apple ha
 ### Summary
 
 Accurate prediction of electrical power consumption is essential for energy-aware motion planning, battery management, and thermal monitoring in battery-powered humanoid robots. This letter presents a physics-based, linear-in-parameters model for the electrical power consumption of the seven-degree-of-freedom left arm of the Unitree~G1 humanoid robot.
-
----
-
-## 🌟 OMG: Omni-Modal Motion Generation for Generalist Humanoid Control
-
-- **Paper:** [arXiv](https://arxiv.org/abs/2606.10340)
-- **Project:** [Project page](https://tsinghua-mars-lab.github.io/OMG/)
-- **Repository:** [Code](https://github.com/Tsinghua-MARS-Lab/OMG)
-- **Code checked:** 2026-11-20
-
-<details><summary>Code verification details / 核验依据</summary>
-
-- Detected 137 source files; examples: src/omg/benchmarks/artifacts.py, src/omg/benchmarks/evaluator/motion_encoder.py, src/omg/benchmarks/evaluator/representation.py, src/omg/benchmarks/evaluator/retrieval.py, src/omg/benchmarks/evaluator/text_cache.py
-- Completeness, dependencies, training assets and reproducibility have not been verified
-
-</details>
-
-- **Authors:** Siqiao Huang, Kun-Ying Lee, Dongming Qiao, Guanqi He, Zhenyu Wang, Yitang Li et al. (8 authors)
-- **Published:** 2026-06
-- **Tags:**
-  - Whole-Body Control
-  - Humanoid
-  - Foundation Model
-  - Diffusion
-  - Multi-Modal
-  - Physics-Based Character Animation
-  - Loco-Manipulation and Whole-Body Control
-
-### Summary
-
-Humanoid whole-body control has made significant progress in recent years, yet existing approaches remain limited to few-skill policies with heavy reward engineering, or motion trackers that are difficult to extend to new input modalities. We argue that the key to general-purpose humanoid control is to build a scalable brain, a module capable of reasoning with diverse conditioning modalities, atop a reactive motion tracking cerebellum, mirroring the hierarchical structure of biological motor systems.
 
 ---
