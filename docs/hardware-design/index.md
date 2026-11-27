@@ -336,7 +336,7 @@ Humanoid robots, as general-purpose physical agents, must integrate both intelli
 ## Evolutionary Continuous Adaptive RL-Powered Co-Design for Humanoid Chin-Up Performance
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.26082)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -359,7 +359,7 @@ Humanoid robots have seen significant advancements in both design and control, w
 ## A Framework for Optimal Ankle Design of Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.16469)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -381,7 +381,7 @@ The design of the humanoid ankle is critical for safe and efficient ground inter
 ## CAD-Driven Co-Design for Flight-Ready Jet-Powered Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.14935)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -403,7 +403,7 @@ This paper presents a CAD-driven co-design framework for optimizing jet-powered 
 ## AGILOped: Agile Open-Source Humanoid Robot for Research
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.09364)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 

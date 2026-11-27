@@ -486,7 +486,7 @@ Robust humanoid locomotion requires accurate and globally consistent perception 
 ## Quantum deep reinforcement learning for humanoid robot navigation task
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.11388)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 

@@ -7,7 +7,7 @@ All papers sorted by publication date (newest first).
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.34884)
 - **Project:** [Project page](https://finedex.github.io/)
 - **Repository:** [Code](https://github.com/zyjOrz/FineDex)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -33,7 +33,7 @@ Dexterity is, at its core, finger-level control, yet existing dexterous manipula
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.34569)
 - **Project:** [Project page](https://fly-pigth.github.io/wave_rider/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -62,7 +62,7 @@ Humanoid robots on deformable elastic terrains face a surface whose position and
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.34519)
 - **Project:** [Project page](https://syuan8889.github.io/AGLR-project/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -89,7 +89,7 @@ Humanoid motion generation must accommodate evolving task requirements, where lo
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.34449)
 - **Project:** [Project page](https://horizonrobotics.github.io/robot_lab/holobrain_0_5/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -118,7 +118,7 @@ We present HoloBrain-0.5, a family of vision-language-action (VLA) models for ma
 ## A general-purpose safe manipulator planning framework for diverse environments without retraining
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.33721)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -143,7 +143,7 @@ Nowadays, robots need to be retrained whenever their operating environment chang
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.33828)
 - **Project:** [Project page](https://uni963.github.io/pivot-walking/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -173,7 +173,7 @@ Through pivot walking, humans can transport objects that are too heavy to lift. 
 ## DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.32944)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -200,7 +200,7 @@ Whole-body motion tracking enables humanoid robots to reproduce diverse skills f
 ## DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.32665)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -229,7 +229,7 @@ Vision-language-action (VLA) models have achieved strong results in arm-centric 
 ## BARE: Body-Aware Reflexive Evasion for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.32642)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -255,7 +255,7 @@ Dynamic obstacle avoidance is essential for safely deploying humanoid robots in 
 ## EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.32260)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -282,7 +282,7 @@ Training humanoid vision-language-action (VLA) models relies heavily on costly r
 ## Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.31863)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -309,7 +309,7 @@ Behavior Foundation Models (BFMs) have emerged as a promising paradigm for gener
 ## CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.30449)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -339,11 +339,11 @@ Coordinating locomotion and dexterous manipulation is fundamental to humanoid ro
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29897)
 - **Project:** [Project page](https://aigeeksgroup.github.io/MotionMamba2.0/)
 - **Repository:** [Code](https://github.com/AIGeeksGroup/MotionMamba2.0)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- Detected 239 source files; examples: benchmarks/bones.py, benchmarks/evaluate.py, benchmarks/hiphi.py, benchmarks/humanml3d.py, benchmarks/metrics.py
+- Detected 240 source files; examples: benchmarks/bones.py, benchmarks/evaluate.py, benchmarks/hiphi.py, benchmarks/humanml3d.py, benchmarks/metrics.py
 - Completeness, dependencies, training assets and reproducibility have not been verified
 
 </details>
@@ -366,7 +366,7 @@ Long-horizon, real-time controllable motion generation is essential for interact
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.30077)
 - **Project:** [Project page](https://silvery107.github.io/pushmimic/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -395,7 +395,7 @@ Humanoid box pushing is challenging when the physical properties of the task, su
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29868)
 - **Project:** [Project page](https://anonymous-humanoid.gitbook.io/docs)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -422,7 +422,7 @@ Reproducing and modifying a meter-scale humanoid remains challenging for researc
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29749)
 - **Project:** [Project page](https://carlhoi.github.io/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -450,7 +450,7 @@ Recent advances in physics-based humanoid control enable teams of varying sizes 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29277)
 - **Project:** [Project page](https://chenyizhi123.github.io/zeta0-project/)
 - **Repository:** [Code](https://github.com/chenyizhi123/Zeta0)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -476,7 +476,7 @@ World Action Models anticipate visual outcomes to guide robot actions, yet human
 ## Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27845)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -501,7 +501,7 @@ Humanoid robots can reduce personnel exposure in electrical switching, but safe 
 ## Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27648)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -527,7 +527,7 @@ Training a humanoid motion tracker by backpropagating imagined returns through a
 ## S-BFM: A Behavioral Foundation Model for Humanoid Control from Sparse Spatiotemporal Goals
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27552)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -554,7 +554,7 @@ General-purpose whole-body trackers can execute diverse humanoid motions, but th
 ## AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27397)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -580,7 +580,7 @@ Parametric body models expose incompatible pose and shape controls, tying humano
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27338)
 - **Project:** [Project page](https://latent-jacobian-steer.github.io/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -605,7 +605,7 @@ Given a pretrained general latent-conditioned whole-body humanoid controller, sa
 ## HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27181)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -635,7 +635,7 @@ As humanoid robots increasingly enter real-world environments, recovering their 
 ## BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27047)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -662,7 +662,7 @@ Humanoid loco-manipulation requires coordinating whole-body motion to perform ma
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -691,7 +691,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26420)
 - **Project:** [Project page](https://engineai-robotics.github.io/Awaken-HI/)
 - **Repository:** [Code](https://github.com/engineai-robotics/Awaken-HI)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -719,11 +719,11 @@ A central goal of humanoid robotics is for robots to perform the everyday work p
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26293)
 - **Repository:** [Code](https://github.com/robfiras/loco-mujoco)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- Detected 211 source files; examples: examples/replay_datasets/example.py, examples/replay_datasets/smpl_example.py, examples/speed_test.py, examples/training_examples/jax_amp/eval.py, examples/training_examples/jax_amp/experiment.py
+- Detected 212 source files; examples: examples/replay_datasets/example.py, examples/replay_datasets/smpl_example.py, examples/speed_test.py, examples/training_examples/jax_amp/eval.py, examples/training_examples/jax_amp/experiment.py
 - Completeness, dependencies, training assets and reproducibility have not been verified
 
 </details>
@@ -749,7 +749,7 @@ LocoMuJoCo is an open-source benchmark for imitation learning (IL) and reinforce
 ## Controlling the Humanoid Robot H1-2 With a Simulated Biologically Plausible Network
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26074)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -777,7 +777,7 @@ Artificial Spiking Neural Networks have gained remarkable attention in the last 
 ## Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26054)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -805,7 +805,7 @@ Humanoid locomotion research has advanced rapidly on walking and running, but \e
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25801)
 - **Project:** [Project page](https://www.jinkuncao.com/FAB/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -830,7 +830,7 @@ We present FAB (Fast and Accurate Body estimation), a human body estimator that 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26218)
 - **Project:** [Project page](https://binlee26.github.io/MixReact_Page/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -858,7 +858,7 @@ Humanoid agents in everyday environments are expected to react to diverse cues a
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25778)
 - **Project:** [Project page](https://mwondering.github.io/echo-bfm/)
 - **Repository:** [Code](https://github.com/mwondering/echo-bfm)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -888,7 +888,7 @@ Humanoid behavior foundation models (BFMs) acquire diverse skills through large-
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25251)
 - **Project:** [Project page](https://qianzhong-chen.github.io/wevo.github.io/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -917,7 +917,7 @@ Reinforcement learning (RL) can improve vision-language-action (VLA) policies be
 ## ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.23916)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -943,7 +943,7 @@ Humanoid robots must recover from falls and resume commanded motion to sustain l
 ## SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.24074)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -18990,7 +18990,7 @@ Humanoid table tennis (TT) demands rapid perception, proactive whole-body motion
 ## SEEC: Stable End-Effector Control with Model-Enhanced Residual Learning for Humanoid Loco-Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.21231)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19014,8 +19014,8 @@ Arm end-effector stabilization is essential for humanoid loco-manipulation tasks
 ## HDMI: Learning Interactive Humanoid Whole-Body Control from Human Videos
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.16757)
-- **Project:** [Project page](https://hdmi-humanoid.github.io)
-- **Code checked:** 2026-11-13
+- **Project:** [Project page](https://hdmi-humanoid.github.io/)
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19170,7 +19170,7 @@ Whole-body control (WBC) of humanoid robots has witnessed remarkable progress in
 ## Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.13534)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19194,7 +19194,7 @@ Whole-body manipulation (WBM) for humanoid robots presents a promising approach 
 ## StageACT: Stage-Conditioned Imitation for Robust Humanoid Door Opening
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.13200)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19244,7 +19244,7 @@ Recent Vision-Language-Action models show potential to generalize across embodim
 ## EgoDemoGen: Novel Egocentric Demonstration Generation Enables Viewpoint-Robust Manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.22578)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19314,7 +19314,7 @@ We aim to enable humanoid robots to efficiently solve new manipulation tasks fro
 ## Stabilizing Humanoid Robot Trajectory Generation via Physics-Informed Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.24697)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19336,7 +19336,7 @@ Recent trends in humanoid robot control have successfully employed imitation lea
 ## RuN: Residual Policy for Natural Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.20696)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19358,7 +19358,7 @@ Enabling humanoid robots to achieve natural and dynamic locomotion across a wide
 ## Chasing Stability: Humanoid Running via Control Lyapunov Function Guided RL
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.19573)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19380,7 +19380,7 @@ Achieving highly dynamic behaviors on humanoid robots, such as running, requires
 ## Reduced-Order Model-Guided RL for Demonstration-Free Humanoid Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.19023)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19402,7 +19402,7 @@ We introduce Reduced-Order Model-Guided Reinforcement Learning (ROM-GRL), a two-
 ## HuMam: Humanoid Motion Control via End-to-End Deep RL with Mamba
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.18046)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19424,7 +19424,7 @@ End-to-end reinforcement learning (RL) for humanoid locomotion is appealing for 
 ## Learning to Walk in Costume: Adversarial Motion Priors for Aesthetically Constrained Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.05581)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19446,7 +19446,7 @@ We present a Reinforcement Learning (RL)-based locomotion system for Cosmo, a cu
 ## Quantum deep reinforcement learning for humanoid robot navigation task
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.11388)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19494,7 +19494,7 @@ Reinforcement learning has produced remarkable advances in humanoid locomotion, 
 ## Towards bridging the gap: Systematic sim-to-real transfer for diverse legged robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.06342)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19515,7 +19515,7 @@ Legged robots must achieve both robust locomotion and energy efficiency to be pr
 ## Evolutionary Continuous Adaptive RL-Powered Co-Design for Humanoid Chin-Up Performance
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.26082)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19538,7 +19538,7 @@ Humanoid robots have seen significant advancements in both design and control, w
 ## A Framework for Optimal Ankle Design of Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.16469)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19560,7 +19560,7 @@ The design of the humanoid ankle is critical for safe and efficient ground inter
 ## CAD-Driven Co-Design for Flight-Ready Jet-Powered Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.14935)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19582,7 +19582,7 @@ This paper presents a CAD-driven co-design framework for optimizing jet-powered 
 ## AGILOped: Agile Open-Source Humanoid Robot for Research
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.09364)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19629,7 +19629,7 @@ Learning a control policy for a multi-phase, long-horizon task, such as basketba
 ## RobotDancing: Residual-Action RL Enables Robust Long-Horizon Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.20717)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19674,7 +19674,7 @@ Humanoid robots have recently achieved impressive progress in locomotion and who
 ## HuBE: Cross-Embodiment Human-like Behavior Execution for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.19002)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19696,7 +19696,7 @@ Achieving both behavioral similarity and appropriateness in human-like motion ge
 ## HumanoidVerse: A Versatile Humanoid for Vision-Language Guided Multi-Object Rearrangement
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.16943)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19719,7 +19719,7 @@ Physics-based human motion control can make a simulated character walk, sit, and
 ## Task and Motion Planning for Humanoid Loco-manipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.14099)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19743,7 +19743,7 @@ This work presents an optimization-based task and motion planning (TAMP) framewo
 ## Learning Differentiable Reachability Maps for Optimization-based Humanoid Motion Generation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.11275)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19766,7 +19766,7 @@ To reduce the computational cost of humanoid motion generation, we introduce a n
 ## GBC: Generalized Behavior-Cloning Framework for Whole-Body Humanoid Imitation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.09960)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19815,7 +19815,7 @@ The human-like form of humanoid robots positions them uniquely to achieve the ag
 ## A Whole-Body Motion Imitation Framework from Human Data for Full-Size Humanoid Robot
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.00362)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19886,7 +19886,7 @@ Humanoid robots have the potential capability to perform a diverse range of mani
 ## Whole-Body Bilateral Teleoperation with Multi-Stage Object Parameter Estimation for Wheeled Humanoid Locomanipulation
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.09846)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19960,7 +19960,7 @@ Traversing narrow paths is challenging for humanoid robots due to the sparse and
 ## No More Marching: Learning Humanoid Locomotion for Short-Range SE(2) Targets
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.14098)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -19982,7 +19982,7 @@ Humanoids operating in real-world workspaces must frequently execute task-driven
 ## Geometry-Aware Predictive Safety Filters on Humanoids
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.11129)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -20005,7 +20005,7 @@ Autonomous navigation through unstructured and dynamically-changing environments
 ## MASH: Cooperative-Heterogeneous Multi-Agent RL for Single Humanoid Robot Locomotion
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.10423)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -20027,7 +20027,7 @@ This paper proposes a novel method to enhance locomotion for a single humanoid r
 ## End-to-End Humanoid Robot Safe and Comfortable Locomotion Policy
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.07611)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -20073,7 +20073,7 @@ In this paper, we explore the space of running gaits for the bipedal robot Cassi
 ## Coordinated Humanoid Robot Locomotion with Symmetry Equivariant Reinforcement Learning Policy
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2508.01247)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 

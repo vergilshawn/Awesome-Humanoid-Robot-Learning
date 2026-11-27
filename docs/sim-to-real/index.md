@@ -25,7 +25,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.34569)
 - **Project:** [Project page](https://fly-pigth.github.io/wave_rider/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -208,7 +208,7 @@ Reinforcement learning has produced remarkable advances in humanoid locomotion, 
 ## Towards bridging the gap: Systematic sim-to-real transfer for diverse legged robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2509.06342)
-- **Code checked:** 2026-11-13
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 

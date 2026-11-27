@@ -25,7 +25,7 @@
 ## Controlling the Humanoid Robot H1-2 With a Simulated Biologically Plausible Network
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26074)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -54,7 +54,7 @@ Artificial Spiking Neural Networks have gained remarkable attention in the last 
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25801)
 - **Project:** [Project page](https://www.jinkuncao.com/FAB/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 

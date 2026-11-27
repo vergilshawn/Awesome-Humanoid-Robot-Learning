@@ -32,7 +32,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.30077)
 - **Project:** [Project page](https://silvery107.github.io/pushmimic/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -61,11 +61,11 @@ Humanoid box pushing is challenging when the physical properties of the task, su
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26293)
 - **Repository:** [Code](https://github.com/robfiras/loco-mujoco)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- Detected 211 source files; examples: examples/replay_datasets/example.py, examples/replay_datasets/smpl_example.py, examples/speed_test.py, examples/training_examples/jax_amp/eval.py, examples/training_examples/jax_amp/experiment.py
+- Detected 212 source files; examples: examples/replay_datasets/example.py, examples/replay_datasets/smpl_example.py, examples/speed_test.py, examples/training_examples/jax_amp/eval.py, examples/training_examples/jax_amp/experiment.py
 - Completeness, dependencies, training assets and reproducibility have not been verified
 
 </details>

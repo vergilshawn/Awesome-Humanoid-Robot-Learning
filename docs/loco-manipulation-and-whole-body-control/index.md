@@ -44,7 +44,7 @@
 ## DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.32665)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -73,7 +73,7 @@ Vision-language-action (VLA) models have achieved strong results in arm-centric 
 ## EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.32260)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -100,7 +100,7 @@ Training humanoid vision-language-action (VLA) models relies heavily on costly r
 ## Ada-BFM: Adapting Behavior Foundation Models for Humanoid Scene Interaction
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.31863)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -127,7 +127,7 @@ Behavior Foundation Models (BFMs) have emerged as a promising paradigm for gener
 ## CHAMP: Coordinated Humanoid Loco-Manipulation with Whole-Body Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.30449)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -155,7 +155,7 @@ Coordinating locomotion and dexterous manipulation is fundamental to humanoid ro
 ## BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27047)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -182,7 +182,7 @@ Humanoid loco-manipulation requires coordinating whole-body motion to perform ma
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26596)
 - **Project:** [Project page](https://kl-research.github.io/pgx/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -211,7 +211,7 @@ Robotic vision-language-action (VLA) models can execute diverse individual manip
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26420)
 - **Project:** [Project page](https://engineai-robotics.github.io/Awaken-HI/)
 - **Repository:** [Code](https://github.com/engineai-robotics/Awaken-HI)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -240,7 +240,7 @@ A central goal of humanoid robotics is for robots to perform the everyday work p
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25778)
 - **Project:** [Project page](https://mwondering.github.io/echo-bfm/)
 - **Repository:** [Code](https://github.com/mwondering/echo-bfm)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -270,7 +270,7 @@ Humanoid behavior foundation models (BFMs) acquire diverse skills through large-
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.25251)
 - **Project:** [Project page](https://qianzhong-chen.github.io/wevo.github.io/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 

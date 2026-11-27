@@ -46,7 +46,7 @@
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.33828)
 - **Project:** [Project page](https://uni963.github.io/pivot-walking/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -76,7 +76,7 @@ Through pivot walking, humans can transport objects that are too heavy to lift. 
 ## DynaMimic: A Physics-Informed World Model for Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.32944)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -103,7 +103,7 @@ Whole-body motion tracking enables humanoid robots to reproduce diverse skills f
 ## BARE: Body-Aware Reflexive Evasion for Humanoid Robots
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.32642)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -131,11 +131,11 @@ Dynamic obstacle avoidance is essential for safely deploying humanoid robots in 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29897)
 - **Project:** [Project page](https://aigeeksgroup.github.io/MotionMamba2.0/)
 - **Repository:** [Code](https://github.com/AIGeeksGroup/MotionMamba2.0)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
-- Detected 239 source files; examples: benchmarks/bones.py, benchmarks/evaluate.py, benchmarks/hiphi.py, benchmarks/humanml3d.py, benchmarks/metrics.py
+- Detected 240 source files; examples: benchmarks/bones.py, benchmarks/evaluate.py, benchmarks/hiphi.py, benchmarks/humanml3d.py, benchmarks/metrics.py
 - Completeness, dependencies, training assets and reproducibility have not been verified
 
 </details>
@@ -158,7 +158,7 @@ Long-horizon, real-time controllable motion generation is essential for interact
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29749)
 - **Project:** [Project page](https://carlhoi.github.io/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -186,7 +186,7 @@ Recent advances in physics-based humanoid control enable teams of varying sizes 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.29277)
 - **Project:** [Project page](https://chenyizhi123.github.io/zeta0-project/)
 - **Repository:** [Code](https://github.com/chenyizhi123/Zeta0)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -212,7 +212,7 @@ World Action Models anticipate visual outcomes to guide robot actions, yet human
 ## Trust What Repeats: Capped World-Model Policy Gradients for Humanoid Motion Tracking
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27648)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -238,7 +238,7 @@ Training a humanoid motion tracker by backpropagating imagined returns through a
 ## S-BFM: A Behavioral Foundation Model for Humanoid Control from Sparse Spatiotemporal Goals
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27552)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -265,7 +265,7 @@ General-purpose whole-body trackers can execute diverse humanoid motions, but th
 ## AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27397)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -291,7 +291,7 @@ Parametric body models expose incompatible pose and shape controls, tying humano
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.27338)
 - **Project:** [Project page](https://latent-jacobian-steer.github.io/)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -316,7 +316,7 @@ Given a pretrained general latent-conditioned whole-body humanoid controller, sa
 ## Reference-Free Humanoid Skateboarding via Termination-Shaped Reinforcement Learning
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.26054)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
@@ -343,7 +343,7 @@ Humanoid locomotion research has advanced rapidly on walking and running, but \e
 ## ReLoco: Unified Humanoid Locomotion and Fall Recovery via Behavior-Conditioned Motion Priors
 
 - **Paper:** [arXiv](https://arxiv.org/abs/2611.23916)
-- **Code checked:** 2026-11-26
+- **Code checked:** 2026-11-27
 
 <details><summary>Code verification details / 核验依据</summary>
 
